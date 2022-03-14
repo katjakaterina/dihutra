@@ -1,0 +1,64 @@
+1	Болят	болеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	уши	ухо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	start_char=6|end_char=9
+3	.	.	PUNCT	_	_	1	punct	_	start_char=9|end_char=10
+
+1	Случайно	случайный	ADV	_	Degree=Pos	2	advmod	_	start_char=11|end_char=19
+2	увидел	видеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=20|end_char=26
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	start_char=27|end_char=30
+4	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=31|end_char=35
+5	и	и	CCONJ	_	_	6	cc	_	start_char=36|end_char=37
+6	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=38|end_char=42
+7	домой	домой	ADV	_	Degree=Pos	6	advmod	_	start_char=43|end_char=48
+8	,	,	PUNCT	_	_	9	punct	_	start_char=48|end_char=49
+9	решив	решить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	start_char=50|end_char=55
+10	,	,	PUNCT	_	_	15	punct	_	start_char=55|end_char=56
+11	что	что	SCONJ	_	_	15	mark	_	start_char=57|end_char=60
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	start_char=61|end_char=64
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	start_char=65|end_char=70
+14	хорошим	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=71|end_char=78
+15	подарком	подарок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	ccomp	_	start_char=79|end_char=87
+16	для	для	ADP	_	_	18	case	_	start_char=88|end_char=91
+17	семилетнего	семилетний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=92|end_char=103
+18	ребёнка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=104|end_char=111
+19	.	.	PUNCT	_	_	2	punct	_	start_char=111|end_char=112
+
+1	Игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=113|end_char=117
+2	-	-	PUNCT	_	_	1	punct	_	start_char=118|end_char=119
+3	это	это	PRON	_	_	4	cop	_	start_char=120|end_char=123
+4	весело	веселый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=124|end_char=130
+5	,	,	PUNCT	_	_	11	punct	_	start_char=130|end_char=131
+6	если	если	SCONJ	_	_	11	mark	_	start_char=132|end_char=136
+7	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=137|end_char=144
+8	децибел	децибел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=145|end_char=152
+9	не	не	PART	_	_	10	advmod	_	start_char=153|end_char=155
+10	слишком	слишком	ADV	_	Degree=Pos	11	obl	_	start_char=156|end_char=163
+11	высокий	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	advcl	_	start_char=164|end_char=171
+12	.	.	PUNCT	_	_	4	punct	_	start_char=171|end_char=172
+
+1	Голоса	голос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=173|end_char=179
+2	и	и	CCONJ	_	_	3	cc	_	start_char=180|end_char=181
+3	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=182|end_char=188
+4	такие	такой	DET	_	Case=Nom|Number=Plur	5	det	_	start_char=189|end_char=194
+5	громкие	громкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=195|end_char=202
+6	,	,	PUNCT	_	_	10	punct	_	start_char=202|end_char=203
+7	что	что	SCONJ	_	_	10	mark	_	start_char=204|end_char=207
+8	от	от	ADP	_	_	9	case	_	start_char=208|end_char=210
+9	звуков	звук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	start_char=211|end_char=217
+10	болят	болеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=218|end_char=223
+11	уши	ухо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=224|end_char=227
+12	.	.	PUNCT	_	_	5	punct	_	start_char=227|end_char=228
+
+1	Если	если	SCONJ	_	_	2	mark	_	start_char=229|end_char=233
+2	поменять	менять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=234|end_char=242
+3	громкость	громкость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=243|end_char=252
+4	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=253|end_char=259
+5	и	и	CCONJ	_	_	6	cc	_	start_char=260|end_char=261
+6	голосов	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	start_char=262|end_char=269
+7	местами	место	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	2	obl	_	start_char=270|end_char=277
+8	,	,	PUNCT	_	_	2	punct	_	start_char=277|end_char=278
+9	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=279|end_char=283
+10	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=284|end_char=289
+11	бы	бы	AUX	_	_	10	aux	_	start_char=290|end_char=292
+12	лучше	хороший	ADJ	_	Degree=Cmp	10	obl	_	start_char=293|end_char=298
+13	.	.	PUNCT	_	_	10	punct	_	start_char=298|end_char=299
+

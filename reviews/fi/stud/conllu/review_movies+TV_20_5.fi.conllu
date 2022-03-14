@@ -1,0 +1,51 @@
+1	Yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	0	root	_	start_char=0|end_char=4
+2	lempijouluelokuvistani	lempi#joulu#elo#kuva	NOUN	N	Case=Ela|Number=Plur|Number[psor]=Sing|Person[psor]=1	1	nmod	_	start_char=5|end_char=27
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=27|end_char=28
+
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=30|end_char=33
+2	piittää	piittää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=34|end_char=41
+3	joistakin	jokin	PRON	Pron	Case=Ela|Number=Plur|PronType=Ind	5	det	_	start_char=42|end_char=51
+4	negatiivisemmista	negatiivinen	ADJ	A	Case=Ela|Degree=Cmp|Derivation=Inen|Number=Plur	5	amod	_	start_char=52|end_char=69
+5	arvioista	arvio	NOUN	N	Case=Ela|Number=Plur	2	obl	_	start_char=70|end_char=79
+6	täällä	täällä	ADV	Adv	_	2	advmod	_	start_char=80|end_char=86
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=86|end_char=87
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=89|end_char=93
+2	televisioelokuva	televisio#elo#kuva	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=94|end_char=110
+3	todella	todella	ADV	Adv	_	4	advmod	_	start_char=111|end_char=118
+4	koskettaa	koskettaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=119|end_char=128
+5	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=129|end_char=134
+6	joka	joka	PRON	Pron	Case=Nom|Number=Sing	7	det	_	start_char=135|end_char=139
+7	kerta	kerta	NOUN	N	Case=Nom|Number=Sing	4	obl	_	start_char=140|end_char=145
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=145|end_char=146
+9	kun	kun	SCONJ	C	_	10	mark	_	start_char=147|end_char=150
+10	katson	katsoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=151|end_char=157
+11	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	obj	_	start_char=158|end_char=161
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=161|end_char=162
+13	eli	eli	CCONJ	C	_	15	cc	_	start_char=163|end_char=166
+14	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	15	det	_	start_char=167|end_char=171
+15	jouluna	joulu	NOUN	N	Case=Ess|Number=Sing	10	obl	_	start_char=172|end_char=179
+16	.	.	PUNCT	Punct	_	4	punct	_	start_char=179|end_char=180
+
+1	Näyttelijäntyö	näyttelijän#työ	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	3	nsubj:cop	_	start_char=181|end_char=195
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=196|end_char=198
+3	suurenmoista	suuri	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=199|end_char=211
+4	ja	ja	CCONJ	C	_	8	cc	_	start_char=212|end_char=214
+5	tarina	tarina	NOUN	N	Case=Nom|Number=Sing	8	obj	_	start_char=215|end_char=221
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=222|end_char=224
+7	hyvin	hyvin	ADV	Adv	_	8	advmod	_	start_char=225|end_char=230
+8	kirjoitettu	kirjoittaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=231|end_char=242
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=242|end_char=243
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=245|end_char=247
+2	sopii	sopia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=248|end_char=253
+3	koko	koko	ADJ	A	_	4	amod	_	start_char=254|end_char=258
+4	perheelle	perhe	NOUN	N	Case=All|Number=Sing	2	obl	_	start_char=259|end_char=268
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=269|end_char=271
+6	antaa	antaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=272|end_char=277
+7	hyvän	hyvä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	_	start_char=278|end_char=283
+8	kuvan	kuva	NOUN	N	Case=Gen|Number=Sing	6	obj	_	start_char=284|end_char=289
+9	maamme	maamme	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	10	nmod:poss	_	start_char=290|end_char=296
+10	lamakaudesta	lamakaus	NOUN	N	Case=Ela|Number=Sing	8	nmod	_	start_char=297|end_char=309
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=309|end_char=310
+

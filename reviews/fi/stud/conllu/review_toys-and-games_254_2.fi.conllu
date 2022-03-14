@@ -1,0 +1,46 @@
+1	Tylsä	tylsä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	peli	peli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=6|end_char=10
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=10|end_char=11
+
+1	Osien	osa	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	start_char=13|end_char=18
+2	laatu	laatu	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=19|end_char=24
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=25|end_char=27
+4	todella	todella	ADV	Adv	_	5	advmod	_	start_char=28|end_char=35
+5	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=36|end_char=40
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=40|end_char=41
+
+1	Mutta	mutta	CCONJ	C	_	2	cc	_	start_char=41|end_char=46
+2	pelaajien	pelaaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Plur	0	root	_	start_char=47|end_char=56
+3	välillä	välillä	ADP	Adp	AdpType=Post	2	case	_	start_char=57|end_char=64
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=65|end_char=67
+5	vain	vain	ADV	Adv	_	6	advmod	_	start_char=68|end_char=72
+6	vähän	vähän	ADV	Adv	_	7	advmod	_	start_char=73|end_char=78
+7	vuorovaikutusta	vuoro#vaikutus	NOUN	N	Case=Par|Number=Sing	2	nsubj:cop	_	start_char=79|end_char=94
+8	ja	ja	CCONJ	C	_	11	cc	_	start_char=95|end_char=97
+9	pelissä	peli	NOUN	N	Case=Ine|Number=Sing	11	obl	_	start_char=98|end_char=105
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=106|end_char=108
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=109|end_char=112
+12	riimiä	riimi	NOUN	N	Case=Par|Number=Sing	11	nsubj	_	start_char=113|end_char=119
+13	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=120|end_char=124
+14	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	15	det	_	start_char=125|end_char=131
+15	syytä	syy	NOUN	N	Case=Par|Number=Sing	12	conj	_	start_char=132|end_char=137
+16	monsterien	monsteri	NOUN	N	Case=Gen|Number=Plur	17	nmod:poss	_	start_char=138|end_char=148
+17	vaikeustasolle	vaikeus#taso	NOUN	N	Case=All|Number=Sing	15	nmod	_	start_char=149|end_char=163
+18	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	21	aux	_	start_char=164|end_char=168
+19	hahmoja	hahmo	NOUN	N	Case=Par|Number=Plur	21	obj	_	start_char=169|end_char=176
+20	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=177|end_char=180
+21	parannella	parannella	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	15	conj	_	start_char=181|end_char=191
+22	.	.	PUNCT	Punct	_	2	punct	_	start_char=191|end_char=192
+
+1	Jos	jos	SCONJ	C	_	4	mark	_	start_char=194|end_char=197
+2	olet	olla	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=198|end_char=202
+3	ainoastaan	ainoastaan	ADV	Adv	_	4	advmod	_	start_char=203|end_char=213
+4	kiinnostunut	kiinnostua	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	9	advcl	_	start_char=214|end_char=226
+5	tuuripelistä	tuuri#peli	NOUN	N	Case=Ela|Number=Sing	4	obl	_	start_char=227|end_char=239
+6	niin	niin	ADV	Adv	_	9	advmod	_	start_char=240|end_char=244
+7	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	det	_	start_char=245|end_char=249
+8	peli	peli	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=250|end_char=254
+9	sopii	sopia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=255|end_char=260
+10	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	9	obl	_	start_char=261|end_char=268
+11	.	.	PUNCT	Punct	_	9	punct	_	start_char=268|end_char=269
+

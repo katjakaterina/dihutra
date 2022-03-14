@@ -1,0 +1,45 @@
+1	Trimmaus	trimmaus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=8
+2	huomioita	huomio	NOUN	N	Case=Par|Number=Plur	1	nmod	_	start_char=9|end_char=18
+
+1	Itsekoulutettuna	itse#kouluttaa	VERB	V	Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=20|end_char=36
+2	trimmaajana	trimmaaja	NOUN	N	Case=Ess|Derivation=Ja|Number=Sing	1	obl	_	start_char=37|end_char=48
+3	,	,	PUNCT	Punct	_	1	punct	_	start_char=48|end_char=49
+4	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	_	start_char=50|end_char=54
+5	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=55|end_char=58
+6	paras	hyvä	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	7	amod	_	start_char=59|end_char=64
+7	ostos	ostos	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=65|end_char=70
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=70|end_char=71
+9	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	11	obj	_	start_char=72|end_char=77
+10	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=78|end_char=82
+11	tehnyt	tehdä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	acl:relcl	_	start_char=83|end_char=89
+12	pitkään	pitkä	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	13	amod	_	start_char=90|end_char=97
+13	aikaan	aika	NOUN	N	Case=Ill|Number=Sing	11	obl	_	start_char=98|end_char=104
+14	.	.	PUNCT	Punct	_	7	punct	_	start_char=104|end_char=105
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=107|end_char=109
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=110|end_char=112
+3	ihmeellinen	ihmeellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	4	amod	_	start_char=113|end_char=124
+4	ohjenuora	ohje#nuora	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=125|end_char=134
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=135|end_char=137
+6	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=138|end_char=143
+7	työstäni	työ	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obl	_	start_char=144|end_char=152
+8	paljon	paljon	ADV	Adv	_	9	advmod	_	start_char=153|end_char=159
+9	helpompaa	helppo	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	6	obj	_	start_char=160|end_char=169
+10	.	.	PUNCT	Punct	_	4	punct	_	start_char=169|end_char=170
+
+1	Löydän	löytää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=172|end_char=178
+2	sieltä	sieltä	ADV	Adv	_	1	advmod	_	start_char=179|end_char=185
+3	kaiken	kaikki	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	4	nsubj	_	start_char=186|end_char=192
+4	tarvitsemani	tarvita	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	1	xcomp:ds	_	start_char=193|end_char=205
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=205|end_char=206
+6	jos	jos	SCONJ	C	_	7	mark	_	start_char=207|end_char=210
+7	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	1	advcl	_	start_char=211|end_char=218
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop:own	_	start_char=219|end_char=221
+9	kysymyksiä	kysymys	NOUN	N	Case=Par|Number=Plur	7	nsubj:cop	_	start_char=222|end_char=232
+10	rodusta	rotu	NOUN	N	Case=Ela|Number=Sing	9	nmod	_	start_char=233|end_char=240
+11	tai	tai	CCONJ	C	_	13	cc	_	start_char=241|end_char=244
+12	rodun	rottu	NOUN	N	Case=Gen|Number=Sing	13	nmod:poss	_	start_char=245|end_char=250
+13	AKC	AKC	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	14	compound:nn	_	start_char=251|end_char=254
+14	standardeista	standardi	NOUN	N	Case=Ela|Number=Plur	10	conj	_	start_char=255|end_char=268
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=268|end_char=269
+

@@ -1,0 +1,52 @@
+1	Toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	erinomaisesti	erinomaisesti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=7|end_char=20
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=20|end_char=21
+4	mutta	mutta	CCONJ	C	_	6	cc	_	start_char=22|end_char=27
+5	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=28|end_char=30
+6	käytä	käyttää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=31|end_char=36
+7	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	6	obj	_	start_char=37|end_char=42
+8	lähes	lähes	ADV	Adv	_	9	advmod	_	start_char=43|end_char=48
+9	ollenkaan	ollenkaan	ADV	Adv	_	6	advmod	_	start_char=49|end_char=58
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=58|end_char=59
+
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=61|end_char=66
+2	koskettimet	koskettinen	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=67|end_char=78
+3	varmuuden	varmuus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	1	obl	_	start_char=79|end_char=88
+4	vuoksi	vuoksi	ADP	Adp	AdpType=Post	3	case	_	start_char=89|end_char=95
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=95|end_char=96
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=98|end_char=102
+2	kuitenkin	kuitenkin	ADV	Adv	_	3	advmod	_	start_char=103|end_char=112
+3	huomannut	huomata	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=113|end_char=122
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=122|end_char=123
+5-6	etten	_	_	_	_	_	_	_	start_char=124|end_char=129
+5	että	että	SCONJ	C	_	7	mark	_	_
+6	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	tarvitse	tarvita	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=130|end_char=138
+8	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	7	obj	_	start_char=139|end_char=144
+9	kovin	kovin	ADV	Adv	_	10	advmod	_	start_char=145|end_char=150
+10	usein	usein	ADV	Adv	_	7	advmod	_	start_char=151|end_char=156
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=156|end_char=157
+
+1	Jos	jos	SCONJ	C	_	4	mark	_	start_char=159|end_char=162
+2	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	cop	_	start_char=163|end_char=169
+3	todella	todella	ADV	Adv	_	4	advmod	_	start_char=170|end_char=177
+4	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	advcl	_	start_char=178|end_char=182
+5	,	,	PUNCT	Punct	_	4	punct	_	start_char=182|end_char=183
+6	niin	niin	ADV	Adv	_	8	advmod	_	start_char=184|end_char=188
+7	varmasti	varmasti	ADV	Adv	Derivation=Sti	8	advmod	_	start_char=189|end_char=197
+8	käyttäisin	käyttää	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	start_char=198|end_char=208
+9	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	8	obj	_	start_char=209|end_char=214
+10	enemmän	enemmän	ADV	Adv	_	8	advmod	_	start_char=215|end_char=222
+11	.	.	PUNCT	Punct	_	8	punct	_	start_char=222|end_char=223
+
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	5	nsubj:cop	_	start_char=225|end_char=227
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=228|end_char=232
+3	kuitenkin	kuitenkin	ADV	Adv	_	5	advmod	_	start_char=233|end_char=242
+4	vain	vain	ADV	Adv	_	5	advmod	_	start_char=243|end_char=247
+5	koskettimet	koskettinen	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=248|end_char=259
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=259|end_char=260
+7	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=261|end_char=266
+8	urut	uru	NOUN	N	Case=Nom|Number=Plur	5	conj	_	start_char=267|end_char=271
+9	.	.	PUNCT	Punct	_	5	punct	_	start_char=271|end_char=272
+

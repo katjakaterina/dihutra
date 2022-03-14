@@ -1,0 +1,89 @@
+1	Täyttä	täysi	ADJ	A	Case=Par|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	ajan-	aika	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=7|end_char=12
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=13|end_char=15
+4	rahanhukkaa	raha#hukka	NOUN	N	Case=Par|Number=Sing	2	conj	_	start_char=16|end_char=27
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=29|end_char=31
+2	pystynyt	pystyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=32|end_char=40
+3	asentamaan	asentaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=41|end_char=51
+4	peliä	peli	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=52|end_char=57
+5	yhdellekään	yksi	PRON	Pron	Case=All|Number=Sing|PronType=Ind	7	det	_	start_char=58|end_char=69
+6	seitsemästä	seitsemän	NUM	Num	Case=Ela|NumType=Card|Number=Sing	7	nummod	_	start_char=70|end_char=81
+7	tietokoneestani	tieto#kone	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obl	_	start_char=82|end_char=97
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=97|end_char=98
+
+1	Asennusohjelma	asennus#ohjelma	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=100|end_char=114
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=115|end_char=117
+3	niin	niin	ADV	Adv	_	4	advmod	_	start_char=118|end_char=122
+4	vanhanaikainen	vanhan#aikainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=123|end_char=137
+5	,	,	PUNCT	Punct	_	23	punct	_	start_char=137|end_char=138
+6	että	että	SCONJ	C	_	23	mark	_	start_char=139|end_char=143
+7	jos	jos	SCONJ	C	_	9	mark	_	start_char=144|end_char=147
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=148|end_char=150
+9	havaitsee	havaita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl	_	start_char=151|end_char=160
+10	laitteita	laite	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=161|end_char=170
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=170|end_char=171
+12	joita	joka	PRON	Pron	Case=Par|Number=Plur|PronType=Rel	15	obj	_	start_char=172|end_char=177
+13	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	_	start_char=178|end_char=180
+14	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=181|end_char=183
+15	tunnista	tunnistaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=184|end_char=192
+16	(	(	PUNCT	Punct	_	19	punct	_	start_char=193|end_char=194
+17	eli	eli	CCONJ	C	_	19	cc	_	start_char=194|end_char=197
+18	nykyaikaisia	nyky#aikainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	19	amod	_	start_char=199|end_char=211
+19	laitteita	laite	NOUN	N	Case=Par|Number=Plur	15	obj	_	start_char=212|end_char=221
+20	)	)	PUNCT	Punct	_	19	punct	_	start_char=221|end_char=222
+21	,	,	PUNCT	Punct	_	15	punct	_	start_char=222|end_char=223
+22	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	23	nsubj	_	start_char=224|end_char=226
+23	keskeyttää	keskeyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=227|end_char=237
+24	asennuksen	asennus	NOUN	N	Case=Gen|Number=Sing	23	obj	_	start_char=238|end_char=248
+25	.	.	PUNCT	Punct	_	4	punct	_	start_char=248|end_char=249
+
+1	Kokeilin	kokeilla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=251|end_char=259
+2	kaikkia	kaikki	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	5	det	_	start_char=260|end_char=267
+3	mahdollisia	mahdollinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Plur	5	amod	_	start_char=268|end_char=279
+4	keskustelufoorumien	keskustelu#foorumi	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	start_char=280|end_char=299
+5	kikkoja	kikko	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=300|end_char=307
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=307|end_char=308
+
+1	Mikään	mikään	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	start_char=310|end_char=316
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=317|end_char=319
+3	auttanut	auttaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=320|end_char=328
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=328|end_char=329
+
+1	Jopa	jopa	ADV	Adv	_	3	advmod	_	start_char=331|end_char=335
+2	pelin	peli	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=336|end_char=341
+3	julkaisija	julkaisija	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	5	nsubj	_	start_char=342|end_char=352
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=353|end_char=355
+5	lopettanut	lopettaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=356|end_char=366
+6	pelin	peli	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=367|end_char=372
+7	tuen	tuki	NOUN	N	Case=Gen|Number=Sing	5	obj	_	start_char=373|end_char=377
+8	.	.	PUNCT	Punct	_	5	punct	_	start_char=377|end_char=378
+
+1	Täyttä	täysi	ADJ	A	Case=Par|Degree=Pos|Number=Sing	2	amod	_	start_char=380|end_char=386
+2	roskaa	roska	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=387|end_char=393
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=393|end_char=394
+
+1	Sanomattakin	sanomatta	ADV	Adv	_	2	advmod	_	start_char=396|end_char=408
+2	selvää	selvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=409|end_char=415
+3	,	,	PUNCT	Punct	_	8	punct	_	start_char=415|end_char=416
+4	että	että	SCONJ	C	_	8	mark	_	start_char=417|end_char=421
+5	poikani	poika	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	nsubj:cop	_	start_char=422|end_char=429
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=430|end_char=433
+7	hyvin	hyvin	ADV	Adv	_	8	advmod	_	start_char=434|end_char=439
+8	pettynyt	pettyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	csubj:cop	_	start_char=440|end_char=448
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=448|end_char=449
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=451|end_char=453
+2	kannata	kannattaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=454|end_char=461
+3	vaivautua	vaivautua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=462|end_char=471
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=471|end_char=472
+
+1	Pelin	peli	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=474|end_char=479
+2	vanha	vanha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=480|end_char=485
+3	ohjelmisto	ohjelmisto	NOUN	N	Case=Nom|Number=Sing	5	obj	_	start_char=486|end_char=496
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	start_char=497|end_char=499
+5	tarkoitettu	tarkoittaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=500|end_char=511
+6	vanhoille	vanha	ADJ	A	Case=All|Degree=Pos|Number=Plur	7	amod	_	start_char=512|end_char=521
+7	laitteille	laite	NOUN	N	Case=All|Number=Plur	5	obl	_	start_char=522|end_char=532
+8	.	.	PUNCT	Punct	_	5	punct	_	start_char=532|end_char=533
+

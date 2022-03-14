@@ -1,0 +1,59 @@
+1	Aloittelijat	aloittelija	NOUN	N	Case=Nom|Derivation=Ja|Number=Plur	2	nsubj	_	start_char=0|end_char=12
+2	varokaa	varoa	VERB	V	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	start_char=13|end_char=20
+
+1	Tässä	tämä	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=22|end_char=27
+2	mielipiteeni	mieli#pide	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	nsubj:cop	_	start_char=28|end_char=40
+3	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	4	det	_	start_char=41|end_char=46
+4	pedaalista	pedaali	NOUN	N	Case=Ela|Number=Sing	1	obl	_	start_char=47|end_char=57
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=57|end_char=58
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=60|end_char=62
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=63|end_char=65
+3	edullinen	edullinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=66|end_char=75
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=75|end_char=76
+5	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=77|end_char=82
+6	paremmat	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Plur	7	amod	_	start_char=83|end_char=91
+7	pedaalit	pedaali	NOUN	N	Case=Nom|Number=Plur	9	nsubj	_	start_char=92|end_char=100
+8	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=101|end_char=106
+9	maksa	maksaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=107|end_char=112
+10	paljon	paljon	ADV	Adv	_	11	advmod	_	start_char=113|end_char=119
+11	enempää	enempää	ADV	Adv	_	9	advmod	_	start_char=120|end_char=127
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=127|end_char=128
+13	joskus	joskus	ADV	Adv	_	15	advmod	_	start_char=129|end_char=135
+14	jopa	jopa	ADV	Adv	_	15	advmod	_	start_char=136|end_char=140
+15	vähemmän	vähemmän	ADV	Adv	_	11	conj	_	start_char=141|end_char=149
+16	.	.	PUNCT	Punct	_	3	punct	_	start_char=149|end_char=150
+
+1	Minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	start_char=152|end_char=157
+2	mielestäni	mieli	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obl	_	start_char=158|end_char=168
+3	säröpedaalista	säröpedaali	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=169|end_char=183
+4	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=184|end_char=186
+5	kannata	kannattaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=187|end_char=194
+6	maksaa	maksaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=195|end_char=201
+7	alle	alle	ADV	Adv	_	8	advmod	_	start_char=202|end_char=206
+8	100	100	NUM	Num	NumType=Card	9	nummod	_	start_char=207|end_char=210
+9	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=211|end_char=219
+10	,	,	PUNCT	Punct	_	17	punct	_	start_char=219|end_char=220
+11	olipa	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	start_char=221|end_char=226
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	17	nsubj:cop	_	start_char=227|end_char=229
+13	sitten	sitten	ADV	Adv	_	17	advmod	_	start_char=230|end_char=236
+14	ensimmäinen	ensimmäinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	17	amod	_	start_char=237|end_char=248
+15	tai	tai	CCONJ	C	_	16	cc	_	start_char=249|end_char=252
+16	700.	700.	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	14	conj	_	start_char=253|end_char=257
+17	pedaalisi	pedaalisi	NOUN	N	Case=Nom|Number=Sing	9	acl:relcl	_	start_char=258|end_char=267
+18	.	.	PUNCT	Punct	_	5	punct	_	start_char=267|end_char=268
+
+1	Pienellä	pieni	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	2	amod	_	start_char=269|end_char=277
+2	lisähinnalla	lisä#hinta	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=278|end_char=290
+3	saat	saada	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=291|end_char=295
+4	MXR	MXR	PROPN	N	Case=Nom|Number=Sing	6	compound:nn	_	start_char=296|end_char=299
+5	Badass	Badass	PROPN	N	Case=Nom|Number=Sing	4	flat:name	_	start_char=300|end_char=306
+6	-pedaalin	pedaali	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=307|end_char=316
+7	,	,	PUNCT	Punct	_	8	punct	_	start_char=316|end_char=317
+8	jossa	joka	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	6	acl:relcl	_	start_char=318|end_char=323
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=324|end_char=326
+10	paljon	paljon	ADV	Adv	_	11	advmod	_	start_char=327|end_char=333
+11	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	12	amod	_	start_char=334|end_char=341
+12	ääni	ääni	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=342|end_char=346
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=346|end_char=347
+

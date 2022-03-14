@@ -1,0 +1,55 @@
+1	Yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	0	root	_	start_char=0|end_char=4
+2	miljoonasta	miljoona	NUM	Num	Case=Ela|NumType=Card|Number=Sing	1	nmod	_	start_char=5|end_char=16
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=18|end_char=22
+2	etsinyt	etsiä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=23|end_char=30
+3	täydellistä	täydellinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	4	amod	_	start_char=31|end_char=42
+4	hääkakkureseptiä	hääkakku#resepti	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=43|end_char=59
+5	yli	yli	ADV	Adv	_	6	advmod	_	start_char=60|end_char=63
+6	kymmenen	kymmenen	NUM	Num	Case=Nom|NumType=Card|Number=Sing	7	nummod	_	start_char=64|end_char=72
+7	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	2	obl	_	start_char=73|end_char=79
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=79|end_char=80
+
+1	Voisi	voida	AUX	V	Mood=Cnd|Number=Sing|Person=0|VerbForm=Fin|Voice=Act	2	aux	_	start_char=82|end_char=87
+2	väittää	väittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=88|end_char=95
+3	pakkomielteeksikin	pakko#mielre	NOUN	N	Case=Tra|Clitic=Kin|Number=Sing	2	xcomp:ds	_	start_char=96|end_char=114
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=114|end_char=115
+5	sillä	sillä	SCONJ	C	_	7	mark	_	start_char=116|end_char=121
+6	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=122|end_char=126
+7	hulluna	hullu	ADJ	A	Case=Ess|Degree=Pos|Number=Sing	2	advcl	_	start_char=127|end_char=134
+8	hääkakun	hääkaku	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	start_char=135|end_char=143
+9	makuun	maku	NOUN	N	Case=Ill|Derivation=U|Number=Sing	7	obl	_	start_char=144|end_char=150
+10	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=151|end_char=155
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=156|end_char=159
+12	edes	edes	ADV	Adv	_	13	advmod	_	start_char=160|end_char=164
+13	naimisissa	naimisissa	ADV	Adv	_	7	conj	_	start_char=165|end_char=175
+14	!	!	PUNCT	Punct	_	2	punct	_	start_char=175|end_char=176
+
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=178|end_char=183
+2	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=184|end_char=190
+3	heti	heti	ADV	Adv	_	5	advmod	_	start_char=191|end_char=195
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=195|end_char=196
+5	kun	kun	SCONJ	C	_	7	mark	_	start_char=197|end_char=200
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	obj	_	start_char=201|end_char=203
+7	julkaistiin	julkaista	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	advcl	_	start_char=204|end_char=215
+8	,	,	PUNCT	Punct	_	13	punct	_	start_char=215|end_char=216
+9	ja	ja	CCONJ	C	_	13	cc	_	start_char=217|end_char=219
+10	reseptit	resepti	NOUN	N	Case=Nom|Number=Plur	13	nsubj:cop	_	start_char=220|end_char=228
+11	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=229|end_char=233
+12	älyttömän	älytön	ADJ	A	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	13	amod	_	start_char=234|end_char=243
+13	hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	1	conj	_	start_char=244|end_char=249
+14	–	–	PUNCT	Punct	_	16	punct	_	start_char=250|end_char=251
+15	samoin	samoin	ADV	Adv	_	16	advmod	_	start_char=252|end_char=258
+16	kuvat	kuva	NOUN	N	Case=Nom|Number=Plur	13	appos	_	start_char=259|end_char=264
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=264|end_char=265
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=267|end_char=271
+2	reseptikirja	resepti#kirja	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=272|end_char=284
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=285|end_char=287
+4	rahanarvoinen	raha#arvoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	5	amod	_	start_char=288|end_char=301
+5	sijoitus	sijoitus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=302|end_char=310
+6	kaikille	kaikki	PRON	Pron	Case=All|Number=Plur|PronType=Ind	8	det	_	start_char=311|end_char=319
+7	hääkakkuja	hääkakku	NOUN	N	Case=Par|Number=Plur	8	obj	_	start_char=320|end_char=330
+8	leipoville	leipoa	VERB	V	Case=All|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	5	nmod	_	start_char=331|end_char=341
+9	.	.	PUNCT	Punct	_	5	punct	_	start_char=341|end_char=342
+

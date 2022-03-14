@@ -1,0 +1,75 @@
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	советую	советовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=10
+3	.	.	PUNCT	_	_	2	punct	_	start_char=10|end_char=11
+
+1	Кабель	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=12|end_char=18
+2	оказался	оказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=19|end_char=27
+3	слишком	слишком	ADV	_	Degree=Pos	4	obl	_	start_char=28|end_char=35
+4	тонким	тонкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	start_char=36|end_char=42
+5	.	.	PUNCT	_	_	2	punct	_	start_char=42|end_char=43
+
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	start_char=44|end_char=46
+2	в	в	ADP	_	_	4	case	_	start_char=47|end_char=48
+3	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	4	nummod:gov	_	start_char=49|end_char=52
+4	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=53|end_char=57
+5	тоньше	тонкий	ADJ	_	Degree=Cmp	0	root	_	start_char=58|end_char=64
+6	,	,	PUNCT	_	_	8	punct	_	start_char=64|end_char=65
+7	чем	чем	SCONJ	_	_	8	mark	_	start_char=66|end_char=69
+8	те	тот	DET	_	Case=Nom|Number=Plur	5	det	_	start_char=70|end_char=72
+9	,	,	PUNCT	_	_	12	punct	_	start_char=72|end_char=73
+10	которыми	который	PRON	_	Case=Ins	12	obl	_	start_char=74|end_char=82
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	12	nsubj	_	start_char=83|end_char=84
+12	пользовался	пользоваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	start_char=85|end_char=96
+13	раньше	рано	ADV	_	Degree=Cmp	12	advmod	_	start_char=97|end_char=103
+14	.	.	PUNCT	_	_	5	punct	_	start_char=103|end_char=104
+
+1	Не	не	PART	_	_	2	advmod	_	start_char=105|end_char=107
+2	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=108|end_char=112
+3	,	,	PUNCT	_	_	6	punct	_	start_char=112|end_char=113
+4	сколько	сколько	NUM	_	_	6	advmod	_	start_char=114|end_char=121
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	start_char=122|end_char=124
+6	прослужит	прослужать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=125|end_char=134
+7	,	,	PUNCT	_	_	8	punct	_	start_char=134|end_char=135
+8	каккой	каккой	DET	_	Case=Ins|Gender=Fem|Number=Sing	2	conj	_	start_char=136|end_char=142
+9	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=143|end_char=148
+10	звук/	звукий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=149|end_char=154
+11	помехи	помехи	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=154|end_char=160
+12	.	.	PUNCT	_	_	2	punct	_	start_char=160|end_char=161
+
+1	Лучше	хороший	ADJ	_	Degree=Cmp	4	advmod	_	start_char=162|end_char=167
+2	бы	бы	AUX	_	_	1	aux	_	start_char=168|end_char=170
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=171|end_char=172
+4	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=173|end_char=178
+5	подороже	подоро	ADV	_	Degree=Cmp	4	advmod	_	start_char=179|end_char=187
+6	.	.	PUNCT	_	_	4	punct	_	start_char=187|end_char=188
+
+1	Ну	ну	PART	_	_	4	parataxis	_	start_char=189|end_char=191
+2	,	,	PUNCT	_	_	1	punct	_	start_char=191|end_char=192
+3	пока	пока	ADV	_	Degree=Pos	4	advmod	_	start_char=193|end_char=197
+4	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=198|end_char=206
+5	.	.	PUNCT	_	_	4	punct	_	start_char=206|end_char=207
+
+1	ДОП	доп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=208|end_char=211
+2	:	:	PUNCT	_	_	3	punct	_	start_char=211|end_char=212
+3	Проработал	проработать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=213|end_char=223
+4	полгода	полгод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=224|end_char=231
+5	и	и	CCONJ	_	_	8	cc	_	start_char=232|end_char=233
+6	вот	вот	PART	_	_	3	conj	_	start_char=234|end_char=237
+7	,	,	PUNCT	_	_	8	punct	_	start_char=237|end_char=238
+8	сдох	сдочать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=239|end_char=243
+9	.	.	PUNCT	_	_	1	punct	_	start_char=243|end_char=244
+
+1	Перетерся	перетереться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=245|end_char=254
+2	у	у	ADP	_	_	3	case	_	start_char=255|end_char=256
+3	штекера	штекер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	start_char=257|end_char=264
+4	.	.	PUNCT	_	_	1	punct	_	start_char=264|end_char=265
+
+1	За	за	ADP	_	_	2	case	_	start_char=266|end_char=268
+2	что	что	PRON	_	Case=Acc	3	obl	_	start_char=269|end_char=272
+3	заплатил	платить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=273|end_char=281
+4	,	,	PUNCT	_	_	3	punct	_	start_char=281|end_char=282
+5	то	то	SCONJ	_	_	7	mark	_	start_char=283|end_char=285
+6	и	и	PART	_	_	7	advmod	_	start_char=286|end_char=287
+7	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=288|end_char=295
+8	.	.	PUNCT	_	_	7	punct	_	start_char=295|end_char=296
+

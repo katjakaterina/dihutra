@@ -1,0 +1,66 @@
+1	Dual	Dual	PROPN	N	Case=Nom|Number=Sing	4	compound:nn	_	start_char=0|end_char=4
+2	USB	USB	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	start_char=5|end_char=8
+3	Port	Port	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	start_char=9|end_char=13
+4	-autolaturi	auto#laturi	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=14|end_char=25
+
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=27|end_char=32
+2	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=33|end_char=41
+3	noin	noin	ADV	Adv	_	4	advmod	_	start_char=42|end_char=46
+4	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	5	det	_	start_char=47|end_char=52
+5	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	1	obl	_	start_char=53|end_char=62
+6	sitten	sitten	ADP	Adp	AdpType=Post	5	case	_	start_char=63|end_char=69
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=69|end_char=70
+
+1	Plussat	plussa	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=72|end_char=79
+2	:	:	PUNCT	Punct	_	3	punct	_	start_char=79|end_char=80
+3	Pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=81|end_char=86
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=86|end_char=87
+5	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=88|end_char=94
+6	hyvin	hyvin	ADV	Adv	_	5	advmod	_	start_char=95|end_char=100
+7	!	!	PUNCT	Punct	_	1	punct	_	start_char=100|end_char=101
+8	!	!	PUNCT	Punct	_	1	punct	_	start_char=101|end_char=102
+
+1	Siisti	siisti	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=104|end_char=110
+2	sininen	sininen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	3	amod	_	start_char=111|end_char=118
+3	valo-ominaisuus	valo#ominaisuus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=119|end_char=134
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=134|end_char=135
+5	kun	kun	SCONJ	C	_	6	mark	_	start_char=136|end_char=139
+6	kytket	kytkeä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=140|end_char=146
+7	sytyttimeen	sytytes	NOUN	N	Case=Ill|Number=Sing	6	obl	_	start_char=147|end_char=158
+8	!	!	PUNCT	Punct	_	3	punct	_	start_char=158|end_char=159
+9	!	!	PUNCT	Punct	_	3	punct	_	start_char=159|end_char=160
+
+1	Voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=162|end_char=165
+2	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=166|end_char=173
+3	kahta	kaksi	NUM	Num	Case=Par|NumType=Card|Number=Sing	4	nummod	_	start_char=174|end_char=179
+4	laitetta	laite	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=180|end_char=188
+5	yhtä	yksi	NUM	Num	Case=Par|NumType=Card|Number=Sing	6	nummod	_	start_char=189|end_char=193
+6	aikaa	aika	NOUN	N	Case=Par|Number=Sing	2	obl	_	start_char=194|end_char=199
+7	...	...	PUNCT	Punct	_	2	punct	_	start_char=199|end_char=202
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=202|end_char=203
+
+1	Miinukset	miinus	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=204|end_char=213
+2	:	:	PUNCT	Punct	_	5	punct	_	start_char=213|end_char=214
+3	Kirkas	kirkas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=215|end_char=221
+4	pintakalvo	pinta#kalvo	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=222|end_char=232
+5	irtosi	irrota	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=233|end_char=239
+6	helposti	helposti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=240|end_char=248
+7	ajan	aika	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=249|end_char=253
+8	mittaan	mitta	NOUN	N	Case=Ill|Number=Sing	5	obl	_	start_char=254|end_char=261
+9	(	(	PUNCT	Punct	_	10	punct	_	start_char=262|end_char=263
+10	korvasin	korvata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	start_char=263|end_char=271
+11	kirkkaalla	kirkas	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	12	amod	_	start_char=272|end_char=282
+12	teipillä	teipi	NOUN	N	Case=Ade|Number=Plur	10	obl	_	start_char=283|end_char=291
+13	)	)	PUNCT	Punct	_	10	punct	_	start_char=291|end_char=292
+
+1	SUMMA	summa	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=293|end_char=298
+2	:	:	PUNCT	Punct	_	3	punct	_	start_char=298|end_char=299
+3	PLUSSAT	plusiat	NOUN	N	Case=Nom|Number=Plur	1	appos	_	start_char=300|end_char=307
+4	:	:	PUNCT	Punct	_	6	punct	_	start_char=307|end_char=308
+5	95	95	NUM	Num	NumType=Card	6	nummod	_	start_char=309|end_char=311
+6	%	%	SYM	Punct	_	3	appos	_	start_char=312|end_char=313
+7	MIINUKSET	miinus	NOUN	N	Case=Nom|Derivation=U|Number=Plur	6	nmod	_	start_char=314|end_char=323
+8	:	:	PUNCT	Punct	_	10	punct	_	start_char=323|end_char=324
+9	5	5	NUM	Num	NumType=Card	10	nummod	_	start_char=325|end_char=326
+10	%	%	SYM	Punct	_	3	appos	_	start_char=327|end_char=328
+

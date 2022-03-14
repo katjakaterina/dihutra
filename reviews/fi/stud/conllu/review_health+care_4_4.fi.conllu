@@ -1,0 +1,75 @@
+1	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=0|end_char=8
+2	lisä	lisä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=9|end_char=13
+3	käsilaukkuusi	käsi#laukkuusi	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=14|end_char=27
+
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=29|end_char=37
+2	loistavaa	loistava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	amod	_	start_char=38|end_char=47
+3	taskulamppusuurennuslasia	tasku#lamppu#suurennus	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=48|end_char=73
+4	!	!	PUNCT	Punct	_	1	punct	_	start_char=73|end_char=74
+
+1	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=76|end_char=82
+2	mahtavasti	mahtavasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=83|end_char=93
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=93|end_char=94
+4	erityisesti	erityisesti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=95|end_char=106
+5	jos	jos	SCONJ	C	_	6	mark	_	start_char=107|end_char=110
+6	unohdat	unohtaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=111|end_char=118
+7	lasisi	lasita	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	xcomp	_	start_char=119|end_char=125
+8	ja	ja	CCONJ	C	_	10	cc	_	start_char=126|end_char=128
+9	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=129|end_char=131
+10	näe	nähdä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=132|end_char=135
+11	lukea	lukea	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=136|end_char=141
+12	ruokalistaa	ruoka#lista	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=142|end_char=153
+13	kun	kun	SCONJ	C	_	16	mark	_	start_char=154|end_char=157
+14	olet	olla	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	start_char=158|end_char=162
+15	ulkona	ulkona	ADV	Adv	_	16	advmod	_	start_char=163|end_char=169
+16	syömässä	syödä	VERB	V	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=170|end_char=178
+17	...	...	PUNCT	Punct	_	1	punct	_	start_char=178|end_char=181
+
+1	valo	valo	NOUN	N	Case=Nom|Number=Sing	4	obj	_	start_char=182|end_char=186
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	start_char=187|end_char=189
+3	myös	myös	ADV	Adv	_	4	advmod	_	start_char=190|end_char=194
+4	lisäetu	lisätä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=195|end_char=202
+5	pimeässä	pimeä	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	6	amod	_	start_char=203|end_char=211
+6	ravintolassa	ravintola	NOUN	N	Case=Ine|Number=Sing	4	obl	_	start_char=212|end_char=224
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=224|end_char=225
+
+1	Olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	aux	_	start_char=227|end_char=233
+2	antanut	antaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=234|end_char=241
+3	viisi	viisi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	4	nummod	_	start_char=242|end_char=247
+4	tähteä	tähti	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=248|end_char=254
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=254|end_char=255
+6	jos	jos	SCONJ	C	_	9	mark	_	start_char=256|end_char=259
+7	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	obl	_	start_char=260|end_char=265
+8	mukana	mukana	ADP	Adp	AdpType=Post	7	case	_	start_char=266|end_char=272
+9	tulisi	tulla	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=273|end_char=279
+10	suojakotelo	suoja#kotelo	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=280|end_char=291
+11	,	,	PUNCT	Punct	_	13	punct	_	start_char=291|end_char=292
+12	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	13	nsubj	_	start_char=293|end_char=297
+13	suojaa	suoja	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=298|end_char=304
+14	lasia	lasi	NOUN	N	Case=Par|Number=Sing	13	obj	_	start_char=305|end_char=310
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=310|end_char=311
+
+1	Läpinäkyvä	läpi#näky	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=313|end_char=323
+2	muovinen	muovinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	3	amod	_	start_char=324|end_char=332
+3	suojus	suojus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=333|end_char=339
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=339|end_char=340
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=341|end_char=345
+6	tuli	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=346|end_char=350
+7	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	obl	_	start_char=351|end_char=356
+8	mukana	mukana	ADP	Adp	AdpType=Post	7	case	_	start_char=357|end_char=363
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=364|end_char=366
+10	hieman	hieman	ADV	Adv	_	11	advmod	_	start_char=367|end_char=373
+11	mauton	mauton	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	6	xcomp	_	start_char=374|end_char=380
+12	ja	ja	CCONJ	C	_	13	cc	_	start_char=381|end_char=383
+13	maksaisin	maksaa	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	11	conj	_	start_char=384|end_char=393
+14	enemmän	enemmän	ADV	Adv	_	13	advmod	_	start_char=394|end_char=401
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=401|end_char=402
+16	jos	jos	SCONJ	C	_	18	mark	_	start_char=403|end_char=406
+17	mukana	mukana	ADP	Adp	AdpType=Post	16	fixed	_	start_char=407|end_char=413
+18	tulisi	tulla	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	advcl	_	start_char=414|end_char=420
+19	kiva	kiva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	20	amod	_	start_char=421|end_char=425
+20	suojakotelo	suoja#kotelo	NOUN	N	Case=Nom|Number=Sing	18	nsubj	_	start_char=426|end_char=437
+21	suojelemaan	suojella	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	18	xcomp	_	start_char=438|end_char=449
+22	linssiä	linssi	NOUN	N	Case=Par|Number=Sing	21	obj	_	start_char=450|end_char=457
+23	.	.	PUNCT	Punct	_	3	punct	_	start_char=457|end_char=458
+

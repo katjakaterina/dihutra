@@ -1,0 +1,119 @@
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=0|end_char=2
+2	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=3|end_char=8
+3	hintansa	hinta	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	4	nmod:poss	_	start_char=9|end_char=17
+4	väärti	väärti	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=18|end_char=24
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=24|end_char=25
+
+1	Kun	kun	SCONJ	C	_	2	mark	_	start_char=27|end_char=30
+2	ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=31|end_char=36
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	det	_	start_char=37|end_char=42
+4	paketin	paketti	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=43|end_char=50
+5	,	,	PUNCT	Punct	_	2	punct	_	start_char=50|end_char=51
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj	_	start_char=52|end_char=54
+7	maksoi	maksaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=55|end_char=61
+8	enemmän	enemmän	ADV	Adv	_	7	advmod	_	start_char=62|end_char=69
+9	kuin	kuin	SCONJ	C	_	15	mark	_	start_char=70|end_char=74
+10	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	nsubj	_	start_char=75|end_char=78
+11	sisältämät	sisältää	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Agt|VerbForm=Part|Voice=Act	13	acl	_	start_char=79|end_char=89
+12	3	3	NUM	Num	NumType=Card	13	nummod	_	start_char=90|end_char=91
+13	DVD:tä	DVD	NOUN	N	Abbr=Yes|Case=Par|Number=Sing	15	nsubj	_	start_char=92|end_char=98
+14	olisivat	olla	AUX	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	15	aux	_	start_char=99|end_char=107
+15	maksaneet	maksaa	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=108|end_char=117
+16	erikseen	erikseen	ADV	Adv	_	17	advmod	_	start_char=118|end_char=126
+17	ostettuina	ostaa	VERB	V	Case=Ess|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	15	advcl	_	start_char=127|end_char=137
+18	.	.	PUNCT	Punct	_	7	punct	_	start_char=137|end_char=138
+
+1	Ikävä	ikävä	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=140|end_char=145
+2	kyllä	kyllä	ADV	Adv	_	3	advmod	_	start_char=146|end_char=151
+3	huomasin	huomata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=152|end_char=160
+4	asian	asia	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=161|end_char=166
+5	liian	liian	ADV	Adv	_	6	advmod	_	start_char=167|end_char=172
+6	myöhään	myöhään	ADV	Adv	_	3	advmod	_	start_char=173|end_char=180
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=180|end_char=181
+
+1	Oma	oma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=183|end_char=186
+2	moka	moka	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=187|end_char=191
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=191|end_char=192
+
+1	Mutta	mutta	CCONJ	C	_	4	cc	_	start_char=194|end_char=199
+2	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	3	det	_	start_char=200|end_char=204
+3	logiikka	logiikka	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=205|end_char=213
+4	tässä	tämä	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=214|end_char=219
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=220|end_char=222
+6	?	?	PUNCT	Punct	_	4	punct	_	start_char=222|end_char=223
+
+1	Kissani	kissa	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	start_char=223|end_char=230
+2	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=231|end_char=236
+3	myöskään	myöskään	ADV	Adv	_	4	advmod	_	start_char=237|end_char=245
+4	pitäneet	pitää	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=246|end_char=254
+5	DVD:istä	DVD	PROPN	N	Case=Ela|Number=Sing	4	obl	_	start_char=255|end_char=263
+6	.	.	PUNCT	Punct	_	4	punct	_	start_char=263|end_char=264
+
+1	No	no	INTJ	Interj	_	7	discourse	_	start_char=266|end_char=268
+2	,	,	PUNCT	Punct	_	1	punct	_	start_char=268|end_char=269
+3	ehkä	ehkä	ADV	Adv	_	7	advmod	_	start_char=270|end_char=274
+4	”	”	PUNCT	Punct	_	7	punct	_	start_char=275|end_char=276
+5	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=276|end_char=281
+6	olleet	olla	AUX	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	7	cop	_	start_char=282|end_char=288
+7	kiinnostuneita	kiinnostua	VERB	V	Case=Par|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	10	nsubj:cop	_	start_char=289|end_char=303
+8	”	”	PUNCT	Punct	_	7	punct	_	start_char=303|end_char=304
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=305|end_char=307
+10	lähempänä	lähempänä	ADV	Adv	_	0	root	_	start_char=308|end_char=317
+11	totuutta	totuus	NOUN	N	Case=Par|Derivation=Vs|Number=Sing	10	nmod	_	start_char=318|end_char=326
+12	kuin	kuin	SCONJ	C	_	15	mark	_	start_char=327|end_char=331
+13	”	”	PUNCT	Punct	_	15	punct	_	start_char=332|end_char=333
+14	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=333|end_char=338
+15	pitäneet	pitää	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	10	advcl	_	start_char=339|end_char=347
+16	”	”	PUNCT	Punct	_	15	punct	_	start_char=347|end_char=348
+17	.	.	PUNCT	Punct	_	10	punct	_	start_char=348|end_char=349
+
+1	Television	televisio	NOUN	N	Case=Gen|Number=Sing	2	nmod:gobj	_	start_char=351|end_char=361
+2	sulkeminen	sulkeminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	8	nsubj:cop	_	start_char=362|end_char=372
+3	vai	vai	CCONJ	C	_	4	cc	_	start_char=373|end_char=376
+4	Cat	Cat	PROPN	N	Case=Nom|Number=Sing	2	conj	_	start_char=377|end_char=380
+5	Sitter	Sitter	PROPN	N	Case=Nom|Number=Sing	4	flat:name	_	start_char=381|end_char=387
+6	–	–	PUNCT	Punct	_	8	punct	_	start_char=388|end_char=389
+7	ihan	ihan	ADV	Adv	_	8	advmod	_	start_char=390|end_char=394
+8	sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	0	root	_	start_char=395|end_char=399
+9	.	.	PUNCT	Punct	_	8	punct	_	start_char=399|end_char=400
+
+1	Ja	ja	CCONJ	C	_	5	cc	_	start_char=400|end_char=402
+2	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	3	det	_	start_char=403|end_char=407
+3	DVD:t	DVD	NOUN	N	Case=Nom|Number=Plur	5	nsubj:cop	_	start_char=408|end_char=413
+4	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=414|end_char=418
+5	halpoja	halpa	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=419|end_char=426
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=426|end_char=427
+
+1	Aina	aina	ADV	Adv	_	3	advmod	_	start_char=429|end_char=433
+2	samat	sama	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	3	det	_	start_char=434|end_char=439
+3	videot	video	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=440|end_char=446
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=446|end_char=447
+5	samat	sama	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	6	det	_	start_char=448|end_char=453
+6	eläimet	eläin	NOUN	N	Case=Nom|Number=Plur	3	conj	_	start_char=454|end_char=461
+7	ja	ja	CCONJ	C	_	9	cc	_	start_char=462|end_char=464
+8	samat	sama	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	9	det	_	start_char=465|end_char=470
+9	äänet	ääni	NOUN	N	Case=Nom|Number=Plur	3	conj	_	start_char=471|end_char=476
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=476|end_char=477
+
+1	Mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	2	det	_	start_char=479|end_char=483
+2	järkeä	järki	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=484|end_char=490
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=491|end_char=493
+4	kuunnella	kuunnella	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	csubj:cop	_	start_char=494|end_char=503
+5	lintujen	lintu	NOUN	N	Case=Gen|Number=Plur	6	nmod:poss	_	start_char=504|end_char=512
+6	ääniä	ääni	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=513|end_char=518
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=518|end_char=519
+8	jos	jos	SCONJ	C	_	10	mark	_	start_char=520|end_char=523
+9	ruudulla	ruutu	NOUN	N	Case=Ade|Number=Sing	10	obl	_	start_char=524|end_char=532
+10	näkyy	näkyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=533|end_char=538
+11	kaloja	kala	NOUN	N	Case=Par|Number=Plur	10	nsubj	_	start_char=539|end_char=545
+12	?	?	PUNCT	Punct	_	2	punct	_	start_char=545|end_char=546
+13	?	?	PUNCT	Punct	_	2	punct	_	start_char=546|end_char=547
+
+1	?DVD:t	?DVD	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=549|end_char=555
+2	viihdyttivät	viihdyttää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=556|end_char=568
+3	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=569|end_char=574
+4	enemmän	enemmän	ADV	Adv	_	2	advmod	_	start_char=575|end_char=582
+5	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=583|end_char=587
+6	kissojani	kissa	NOUN	N	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=1	4	advcl	_	start_char=588|end_char=597
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=597|end_char=598
+

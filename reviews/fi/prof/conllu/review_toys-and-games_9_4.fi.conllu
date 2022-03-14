@@ -1,0 +1,56 @@
+1	Pakollinen	pakollinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=0|end_char=10
+2	kaikkiin	kaikki	PRON	Pron	Case=Ill|Number=Plur|PronType=Ind	3	det	_	start_char=11|end_char=19
+3	kotikouluihin	koti#koulu	NOUN	N	Case=Ill|Number=Plur	1	nmod	_	start_char=20|end_char=33
+4	!	!	PUNCT	Punct	_	1	punct	_	start_char=33|end_char=34
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	obj	_	start_char=36|end_char=40
+2	kannattaa	kannattaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=50
+3	omistaa	omistaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=51|end_char=58
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=58|end_char=59
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	nmod:poss	_	start_char=60|end_char=63
+6	mahdollisuudet	mahdollisuus	NOUN	N	Case=Nom|Derivation=Llinen,Vs|Number=Plur	8	nsubj:cop	_	start_char=64|end_char=78
+7	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=79|end_char=83
+8	rajattomat	rajaton	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Plur	2	conj	_	start_char=84|end_char=94
+9	!	!	PUNCT	Punct	_	2	punct	_	start_char=94|end_char=95
+
+1	Tilasin	tilata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=97|end_char=104
+2	myös	myös	ADV	Adv	_	7	advmod	_	start_char=105|end_char=109
+3	Melissan	Melissa	PROPN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=110|end_char=118
+4	&	&	SYM	Punct	_	5	cc	_	start_char=119|end_char=120
+5	Dougin	Doug	PROPN	N	Case=Gen|Number=Sing	3	conj	_	start_char=121|end_char=127
+6	magneettiset	magneettinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	7	amod	_	start_char=128|end_char=140
+7	kirjaimet	kirjain	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=141|end_char=150
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=151|end_char=153
+9	numerot	numero	NOUN	N	Case=Nom|Number=Plur	7	conj	_	start_char=154|end_char=161
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=161|end_char=162
+
+1	Kuivapyyhin	kuiva#pyyhi	NOUN	N	Case=Gen|Number=Sing	3	nsubj	_	start_char=164|end_char=175
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=176|end_char=178
+3	pyyhittävä	pyyhittää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	start_char=179|end_char=189
+4	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=190|end_char=198
+5	tai	tai	CCONJ	C	_	9	cc	_	start_char=199|end_char=202
+6	muuten	muuten	ADV	Adv	_	9	advmod	_	start_char=203|end_char=209
+7	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	9	nsubj	_	start_char=210|end_char=212
+8	saattavat	saattaa	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=213|end_char=222
+9	jättää	jättää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=223|end_char=229
+10	jälkiä	jälki	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=230|end_char=236
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=236|end_char=237
+
+1	Magneetti	magneetti	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=239|end_char=248
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=249|end_char=251
+3	myöskään	myöskään	ADV	Adv	_	6	advmod	_	start_char=252|end_char=260
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=261|end_char=264
+5	kovin	kovin	ADV	Adv	_	6	advmod	_	start_char=265|end_char=270
+6	voimakas	voimakas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=271|end_char=279
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=279|end_char=280
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=282|end_char=284
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=285|end_char=287
+3	hyvän	hyvä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=288|end_char=293
+4	kokoinen	kokoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=294|end_char=302
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=303|end_char=305
+6	sopii	sopia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=306|end_char=311
+7	hyvin	hyvin	ADV	Adv	_	6	advmod	_	start_char=312|end_char=317
+8	tarpeisiimme	tarve	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Plur|Person[psor]=1	6	obl	_	start_char=318|end_char=330
+9	.	.	PUNCT	Punct	_	4	punct	_	start_char=330|end_char=331
+

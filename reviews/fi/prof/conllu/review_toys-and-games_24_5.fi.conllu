@@ -1,0 +1,44 @@
+1	Nyt	nyt	ADV	Adv	_	5	advmod	_	start_char=0|end_char=3
+2	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4|end_char=9
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=10|end_char=12
+4	tarvitse	tarvita	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=13|end_char=21
+5	kasvaa	kasvaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=22|end_char=28
+6	aikuiseksi	aikuinen	NOUN	N	Case=Tra|Number=Sing	5	xcomp	_	start_char=29|end_char=39
+
+1	Voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=41|end_char=45
+2	värittää	värittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=46|end_char=54
+3	yhdessä	yhdessä	ADV	Adv	_	2	advmod	_	start_char=55|end_char=62
+4	lastenlasteni	lapsi	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=63|end_char=76
+5	kanssa	kanssa	ADP	Adp	AdpType=Post	4	case	_	start_char=77|end_char=83
+6	tuntematta	tuntea	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=84|end_char=94
+7	itseäni	itse	PRON	Pron	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	6	obj	_	start_char=95|end_char=102
+8	typeräksi	typerä	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	6	xcomp	_	start_char=103|end_char=112
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=112|end_char=113
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=115|end_char=119
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=120|end_char=125
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=126|end_char=128
+4	niin	niin	ADV	Adv	_	5	advmod	_	start_char=129|end_char=133
+5	upea	upea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=134|end_char=138
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=138|end_char=139
+7	että	että	SCONJ	C	_	9	mark	_	start_char=140|end_char=144
+8	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=145|end_char=149
+9	käyttänyt	käyttää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	ccomp	_	start_char=150|end_char=159
+10	joitain	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	11	det	_	start_char=160|end_char=167
+11	kuvia	kuva	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=168|end_char=173
+12	mosaiikki-ikkunoissa	mosaiikki#ikkuno	NOUN	N	Case=Ine|Number=Plur	9	obl	_	start_char=174|end_char=194
+13	.	.	PUNCT	Punct	_	5	punct	_	start_char=194|end_char=195
+
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=197|end_char=208
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	1	obj	_	start_char=209|end_char=213
+3	lämpimästi	lämpimästi	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=214|end_char=224
+4	kaikille	kaikki	PRON	Pron	Case=All|Number=Plur|PronType=Ind	1	obl	_	start_char=225|end_char=233
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=233|end_char=234
+6	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	8	nsubj	_	start_char=235|end_char=240
+7	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=241|end_char=246
+8	halua	haluta	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=247|end_char=252
+9	kasvaa	kasvaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=253|end_char=259
+10	ulos	ulos	ADV	Adv	_	9	advmod	_	start_char=260|end_char=264
+11	suosikkiharrastuksistaan	suosikki#harrastus	NOUN	N	Case=Ela|Number=Plur|Person[psor]=3	10	nmod	_	start_char=265|end_char=289
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=289|end_char=290
+

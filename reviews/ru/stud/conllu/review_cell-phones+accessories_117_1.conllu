@@ -1,0 +1,58 @@
+1	Перестал	перестать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=17
+3	через	через	ADP	_	_	5	case	_	start_char=18|end_char=23
+4	1,5	1,5	NUM	_	_	5	nummod	_	start_char=24|end_char=27
+5	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=28|end_char=34
+6	.	.	PUNCT	_	_	5	punct	_	start_char=34|end_char=35
+7	.	.	PUNCT	_	_	1	punct	_	start_char=35|end_char=36
+
+1	Когда	когда	SCONJ	_	_	4	mark	_	start_char=37|end_char=42
+2	данный	данный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=43|end_char=49
+3	прибор	прибор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=50|end_char=56
+4	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=57|end_char=64
+5	,	,	PUNCT	_	_	4	punct	_	start_char=64|end_char=65
+6	то	то	SCONJ	_	_	7	mark	_	start_char=66|end_char=68
+7	делал	делать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=69|end_char=74
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	start_char=75|end_char=77
+9	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=78|end_char=81
+10	хорошо	хорошо	ADV	_	Degree=Pos	7	advmod	_	start_char=82|end_char=88
+11	,	,	PUNCT	_	_	15	punct	_	start_char=88|end_char=89
+12	но	но	CCONJ	_	_	15	cc	_	start_char=90|end_char=92
+13	сегодня	сегодня	ADV	_	Degree=Pos	15	advmod	_	start_char=93|end_char=100
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	start_char=101|end_char=103
+15	сломался	ломаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	start_char=104|end_char=112
+16	.	.	PUNCT	_	_	7	punct	_	start_char=112|end_char=113
+
+1	Прошло	пройти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=114|end_char=120
+2	плюс-минус	плюс-минус	ADP	_	_	4	nummod:gov	_	start_char=121|end_char=131
+3	10	10	NUM	_	_	4	nummod	_	start_char=132|end_char=134
+4	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nsubj	_	start_char=135|end_char=139
+5	после	после	ADP	_	_	6	case	_	start_char=140|end_char=145
+6	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	start_char=146|end_char=155
+7	месячной	месячный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=156|end_char=164
+8	гарантии	гарантия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=165|end_char=173
+9	.	.	PUNCT	_	_	1	punct	_	start_char=173|end_char=174
+
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	2	iobj	_	start_char=175|end_char=178
+2	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=179|end_char=186
+3	,	,	PUNCT	_	_	8	punct	_	start_char=186|end_char=187
+4	что	что	SCONJ	_	_	8	mark	_	start_char=188|end_char=191
+5	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=192|end_char=200
+6	не	не	PART	_	_	7	advmod	_	start_char=201|end_char=203
+7	очень	очень	ADV	_	Degree=Pos	8	obl	_	start_char=204|end_char=209
+8	хорошее	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	start_char=210|end_char=217
+9	,	,	PUNCT	_	_	12	punct	_	start_char=217|end_char=218
+10	поэтому	поэтому	ADV	_	Degree=Pos	12	advmod	_	start_char=219|end_char=226
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	start_char=227|end_char=229
+12	перестал	перестать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=230|end_char=238
+13	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=239|end_char=247
+14	,	,	PUNCT	_	_	16	punct	_	start_char=247|end_char=248
+15	кто	кто	PRON	_	Case=Nom	16	nsubj	_	start_char=249|end_char=252
+16	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	start_char=253|end_char=258
+17	…	…	PUNCT	_	_	2	punct	_	start_char=258|end_char=259
+
+1	Большая	больший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=260|end_char=267
+2	трата	трата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=268|end_char=273
+3	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=274|end_char=279
+4	.	.	PUNCT	_	_	2	punct	_	start_char=279|end_char=280
+

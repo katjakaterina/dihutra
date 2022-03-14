@@ -1,0 +1,54 @@
+1	Vihdoin	vihdoin	ADV	Adv	_	0	root	_	start_char=0|end_char=7
+2	...	...	PUNCT	Punct	_	1	punct	_	start_char=7|end_char=10
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=12|end_char=14
+2	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=15|end_char=18
+3	uskoa	uskoa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=19|end_char=24
+4	miten	miten	ADV	Adv	_	5	advmod	_	start_char=25|end_char=30
+5	kauan	kauan	ADV	Adv	_	7	advmod	_	start_char=31|end_char=36
+6	heiltä	hän	PRON	Pron	Case=Abl|Number=Plur|Person=3|PronType=Prs	7	obl	_	start_char=37|end_char=43
+7	kesti	kestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=44|end_char=49
+8	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=50|end_char=55
+9	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	det	_	start_char=56|end_char=60
+10	ihastuttava	ihastuttava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	start_char=61|end_char=72
+11	jouluelokuva	joulu#elo#kuva	NOUN	N	Case=Nom|Number=Sing	8	obj	_	start_char=73|end_char=85
+12	DVD:lle	DVD	PROPN	N	Abbr=Yes|Case=All|Number=Sing	8	obl	_	start_char=86|end_char=93
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=93|end_char=94
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	_	start_char=96|end_char=98
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=99|end_char=101
+3	moderni	moterni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	start_char=102|end_char=109
+4	(	(	PUNCT	Punct	_	6	punct	_	start_char=110|end_char=111
+5	30-luvun	30#luku	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=111|end_char=119
+6	Amerikka	Amerikka	PROPN	N	Case=Nom|Number=Sing	3	appos	_	start_char=120|end_char=128
+7	)	)	PUNCT	Punct	_	6	punct	_	start_char=128|end_char=129
+8	versio	versio	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=130|end_char=136
+9	Charles	Charles	PROPN	N	Case=Nom|Number=Sing	11	nmod:poss	_	start_char=137|end_char=144
+10	Dickensin	Dickens	PROPN	N	Case=Gen|Number=Sing	9	flat:name	_	start_char=145|end_char=154
+11	klassikkotarinasta	klassikko#tarina	NOUN	N	Case=Ela|Number=Sing	8	nmod	_	start_char=155|end_char=173
+12	.	.	PUNCT	Punct	_	8	punct	_	start_char=173|end_char=174
+
+1	Winkler	Winkler	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=176|end_char=183
+2	saa	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=184|end_char=187
+3	minut	minä	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=188|end_char=193
+4	vihaamaan	vihata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp:ds	_	start_char=194|end_char=203
+5	roolihahmoaan	rooli#hahmo	NOUN	N	Case=Par|Number=Sing|Person[psor]=3	4	obj	_	start_char=204|end_char=217
+6	yhtä	yhtä	ADV	Adv	_	7	advmod	_	start_char=218|end_char=222
+7	paljon	paljon	ADV	Adv	_	4	advmod	_	start_char=223|end_char=229
+8	kuin	kuin	SCONJ	C	_	9	mark	_	start_char=230|end_char=234
+9	Alister	Alister	PROPN	N	Case=Nom|Number=Sing	7	advcl	_	start_char=235|end_char=242
+10	Sim	Sim	PROPN	N	Case=Nom|Number=Sing	9	flat:name	_	start_char=243|end_char=246
+11	aikanaan	aika	NOUN	N	Case=Ess|Number=Sing|Person[psor]=3	12	obl	_	start_char=247|end_char=255
+12	näytellessään	näytellä	VERB	V	Case=Ine|InfForm=2|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=256|end_char=269
+13	Scroogea	Scrooge	PROPN	N	Case=Par|Number=Sing	12	obj	_	start_char=270|end_char=278
+14	vuoden	vuosi	NOUN	N	Case=Gen|Number=Sing	16	nmod:poss	_	start_char=279|end_char=285
+15	1951	1951	NUM	Num	NumType=Card	14	nummod	_	start_char=286|end_char=290
+16	elokuvassa	elo#kuva	NOUN	N	Case=Ine|Number=Sing	12	obl	_	start_char=291|end_char=301
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=301|end_char=302
+
+1	Ehdottomasti	ehdottomasti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=304|end_char=316
+2	oiva	oiva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=317|end_char=321
+3	lisäys	lisäys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=322|end_char=328
+4	elokuvakokoelmaan	elo#kuva#kokoelma	NOUN	N	Case=Ill|Number=Sing	3	nmod	_	start_char=329|end_char=346
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=346|end_char=347
+

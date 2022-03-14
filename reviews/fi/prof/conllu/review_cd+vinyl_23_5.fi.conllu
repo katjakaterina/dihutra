@@ -1,0 +1,75 @@
+1	Ihana	ihana	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=5
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=5|end_char=6
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=6|end_char=7
+4	!	!	PUNCT	Punct	_	1	punct	_	start_char=7|end_char=8
+
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=10|end_char=17
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=18|end_char=21
+3	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	1	nsubj:cop	_	start_char=22|end_char=26
+4	kasetilla	kasetti	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=27|end_char=36
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=37|end_char=39
+6	tiesin	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=40|end_char=46
+7	rakastavani	rakastaa	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	6	xcomp	_	start_char=47|end_char=58
+8	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	7	obj	_	start_char=59|end_char=63
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=63|end_char=64
+
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=66|end_char=71
+2	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	3	det	_	start_char=72|end_char=77
+3	CD:itä	CD	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=78|end_char=84
+4	useita	usea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	1	obj	_	start_char=85|end_char=91
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=91|end_char=92
+6	jotta	jotta	SCONJ	C	_	8	mark	_	start_char=93|end_char=98
+7	voisin	voida	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	aux	_	start_char=99|end_char=105
+8	jakaa	jakaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=106|end_char=111
+9	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	det	_	start_char=112|end_char=117
+10	sukulaispoikieni	sukulais#poika	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	8	obl	_	start_char=118|end_char=134
+11	ja	ja	CCONJ	C	_	12	cc	_	start_char=135|end_char=137
+12	ystävieni	ystävä	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	10	conj	_	start_char=138|end_char=147
+13	kanssa	kanssa	ADP	Adp	AdpType=Post	10	case	_	start_char=148|end_char=154
+14	,	,	PUNCT	Punct	_	16	punct	_	start_char=154|end_char=155
+15	ja	ja	CCONJ	C	_	16	cc	_	start_char=156|end_char=158
+16	pitää	pitää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	conj	_	start_char=159|end_char=164
+17	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	16	obj	_	start_char=165|end_char=170
+18	itselläni	itse	PRON	Pron	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	16	obl	_	start_char=171|end_char=180
+19	.	.	PUNCT	Punct	_	1	punct	_	start_char=180|end_char=181
+
+1	Hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=183|end_char=188
+2	lempeää	lempeä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	start_char=189|end_char=196
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=197|end_char=199
+4	helppoa	helppo	ADJ	A	Case=Par|Degree=Pos|Number=Sing	2	conj	_	start_char=200|end_char=207
+5	unimusiikkia	unimusiikki	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=208|end_char=220
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=220|end_char=221
+
+1	Laulu	laulu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	3	nsubj:cop	_	start_char=223|end_char=228
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=229|end_char=231
+3	selkeää	selkeä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=232|end_char=239
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=240|end_char=242
+5	ymmärrettävää	ymmärrettävä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	conj	_	start_char=243|end_char=256
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=256|end_char=257
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=259|end_char=263
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=264|end_char=266
+3	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=267|end_char=272
+4	kaipaamani	kaivata	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	5	acl	_	start_char=273|end_char=283
+5	siunaus	siunaus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=284|end_char=291
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=291|end_char=292
+7	jota	joka	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	9	obj	_	start_char=293|end_char=297
+8	voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=298|end_char=302
+9	jakaa	jakaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	acl:relcl	_	start_char=303|end_char=308
+10	muille	muu	PRON	Pron	Case=All|Number=Plur|PronType=Ind	9	obl	_	start_char=309|end_char=315
+11	.	.	PUNCT	Punct	_	5	punct	_	start_char=315|end_char=316
+
+1	Erinomainen	erinomainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=318|end_char=329
+2	lapsille	lapsi	NOUN	N	Case=All|Number=Plur	1	nmod	_	start_char=330|end_char=338
+3	–	–	PUNCT	Punct	_	5	punct	_	start_char=339|end_char=340
+4	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=341|end_char=345
+5	lapsi	lapsi	NOUN	N	Case=Nom|Number=Sing	1	parataxis	_	start_char=346|end_char=351
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=351|end_char=352
+7	kun	kun	SCONJ	C	_	9	mark	_	start_char=353|end_char=356
+8	mummini	mummi	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	nsubj	_	start_char=357|end_char=364
+9	antoi	antaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=365|end_char=370
+10	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	9	obl	_	start_char=371|end_char=378
+11	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	det	_	start_char=379|end_char=384
+12	kasetin	kasetti	NOUN	N	Case=Gen|Number=Sing	9	obj	_	start_char=385|end_char=392
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=392|end_char=393
+

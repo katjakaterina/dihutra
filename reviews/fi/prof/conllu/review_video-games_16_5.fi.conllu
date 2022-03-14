@@ -1,0 +1,56 @@
+1	Loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	matikkapeli	matikka#peli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=20
+3	nuorelle	nuori	ADJ	A	Case=All|Degree=Pos|Number=Sing	6	amod	_	start_char=21|end_char=29
+4	Star	Star	PROPN	N	Case=Nom|Number=Sing	6	compound:nn	_	start_char=30|end_char=34
+5	Wars	Wars	PROPN	N	Case=Nom|Number=Sing	4	flat:name	_	start_char=35|end_char=39
+6	-fanille	fani	NOUN	N	Case=All|Number=Sing	2	nmod	_	start_char=40|end_char=48
+
+1	Matematiikkaa	matematiikka	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=50|end_char=63
+2	inhoava	inhota	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	3	acl	_	start_char=64|end_char=71
+3	poikani	poika	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	start_char=72|end_char=79
+4	rakastaa	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=80|end_char=88
+5	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	6	det	_	start_char=89|end_char=93
+6	peliä	peli	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=94|end_char=99
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=99|end_char=100
+
+1	Pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=102|end_char=107
+2	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	1	obl	_	start_char=108|end_char=113
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=113|end_char=114
+4	että	että	SCONJ	C	_	5	mark	_	start_char=115|end_char=119
+5	pelissä	peli	NOUN	N	Case=Ine|Number=Sing	2	ccomp	_	start_char=120|end_char=127
+6	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=128|end_char=131
+7	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	cop	_	start_char=132|end_char=136
+8	kaksi	kaksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	9	nummod	_	start_char=137|end_char=142
+9	pelaajaa	pelaaja	NOUN	N	Case=Par|Derivation=Ja|Number=Sing	5	nsubj:cop	_	start_char=143|end_char=151
+10	,	,	PUNCT	Punct	_	13	punct	_	start_char=151|end_char=152
+11	joten	joten	ADV	Adv	_	13	advmod	_	start_char=153|end_char=158
+12	voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=159|end_char=163
+13	pelata	pelata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	acl:relcl	_	start_char=164|end_char=170
+14	häntä	hän	PRON	Pron	Case=Par|Number=Sing|Person=3|PronType=Prs	13	obl	_	start_char=171|end_char=176
+15	vastaan	vastaan	ADP	Adp	AdpType=Post	14	case	_	start_char=177|end_char=184
+16	ja	ja	CCONJ	C	_	17	cc	_	start_char=185|end_char=187
+17	nähdä	nähdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	conj	_	start_char=188|end_char=193
+18	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	nmod:gobj	_	start_char=194|end_char=199
+19	edistymisensä	edistyminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing|Person[psor]=3	17	obj	_	start_char=200|end_char=213
+20	.	.	PUNCT	Punct	_	1	punct	_	start_char=213|end_char=214
+
+1	Äänen	ääni	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=215|end_char=220
+2	ja	ja	CCONJ	C	_	3	cc	_	start_char=221|end_char=223
+3	musiikin	musiikki	NOUN	N	Case=Gen|Number=Sing	1	conj	_	start_char=224|end_char=232
+4	voimakkuutta	voimakkuus	NOUN	N	Case=Par|Derivation=Vs|Number=Sing	6	obj	_	start_char=233|end_char=245
+5	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=246|end_char=249
+6	säätää	säätää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=250|end_char=256
+7	erikseen	erikseen	ADV	Adv	_	6	advmod	_	start_char=257|end_char=265
+8	ja	ja	CCONJ	C	_	10	cc	_	start_char=266|end_char=268
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	start_char=269|end_char=271
+10	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=272|end_char=278
+11	Windows	Windows	PROPN	N	Case=Nom|Number=Sing	10	obl	_	start_char=279|end_char=286
+12	XP:ssä	XP	PROPN	N	Case=Ine|Number=Sing	11	flat:name	_	start_char=287|end_char=293
+13	,	,	PUNCT	Punct	_	15	punct	_	start_char=293|end_char=294
+14	minkä	mikä	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	16	nsubj	_	start_char=295|end_char=300
+15	tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=301|end_char=307
+16	aiheuttaneen	aiheuttaa	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	15	ccomp	_	start_char=308|end_char=320
+17	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	16	obj	_	start_char=321|end_char=329
+18	joillekin	jokin	PRON	Pron	Case=All|Number=Plur|PronType=Ind	16	obl	_	start_char=330|end_char=339
+19	.	.	PUNCT	Punct	_	6	punct	_	start_char=339|end_char=340
+

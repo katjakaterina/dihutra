@@ -1,0 +1,62 @@
+1	﻿ANNO	﻿anno	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=5
+2	2070	2070	NUM	Num	NumType=Card	1	nmod	_	start_char=6|end_char=10
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=12|end_char=14
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=15|end_char=18
+3	pystynyt	pystyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=19|end_char=27
+4	pelamaan	pelata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=28|end_char=36
+5	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	6	det	_	start_char=37|end_char=41
+6	peliä	peli	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=42|end_char=47
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=47|end_char=48
+
+1	Unisoft	unisoft	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=50|end_char=57
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=58|end_char=60
+3	tehnyt	tehdä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=61|end_char=67
+4	pelaamisesta	pelaaminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	5	nmod	_	start_char=68|end_char=80
+5	mahdotonta	mahdoton	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	3	xcomp	_	start_char=81|end_char=91
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=91|end_char=92
+7	jos	jos	SCONJ	C	_	10	mark	_	start_char=93|end_char=96
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=97|end_char=99
+9	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=100|end_char=103
+10	tekniikkavelho	tekniikka#velho	NOUN	N	Case=Nom|Number=Sing	3	advcl	_	start_char=104|end_char=118
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=118|end_char=119
+
+1	(	(	PUNCT	Punct	_	3	punct	_	start_char=121|end_char=122
+2	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=123|end_char=127
+3	yrittänyt	yrittää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=128|end_char=137
+4	moneen	moni	PRON	Pron	Case=Ill|Number=Sing|PronType=Ind	5	det	_	start_char=138|end_char=144
+5	otteeseen	ote	NOUN	N	Case=Ill|Number=Sing	3	obl	_	start_char=145|end_char=154
+6	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=155|end_char=160
+7	pelin	peli	NOUN	N	Case=Gen|Number=Sing	8	nsubj	_	start_char=161|end_char=166
+8	toimimaan	toimia	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp:ds	_	start_char=167|end_char=176
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=176|end_char=177
+10	)	)	PUNCT	Punct	_	3	punct	_	start_char=177|end_char=178
+
+1	Haluan	haluta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=180|end_char=186
+2	vain	vain	ADV	Adv	_	3	advmod	_	start_char=187|end_char=191
+3	pelata	pelata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=192|end_char=198
+4	kotona	kotona	ADV	Adv	_	3	advmod	_	start_char=199|end_char=205
+5	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=206|end_char=210
+6	netissä	netti	NOUN	N	Case=Ine|Number=Sing	4	conj	_	start_char=211|end_char=218
+7	ja	ja	CCONJ	C	_	12	cc	_	start_char=219|end_char=221
+8	jostain	jokin	PRON	Pron	Case=Ela|Number=Sing|PronType=Ind	9	det	_	start_char=222|end_char=229
+9	syystä	syy	NOUN	N	Case=Ela|Number=Sing	12	obl	_	start_char=230|end_char=236
+10	peli	peli	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	start_char=237|end_char=241
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=242|end_char=244
+12	lataa	lataa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=245|end_char=250
+13	koneellaani	kone	NOUN	N	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=1	12	obl	_	start_char=251|end_char=262
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=262|end_char=263
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=265|end_char=267
+2	tule	tulla	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=268|end_char=272
+3	varmaan	varmaan	ADV	Adv	_	2	advmod	_	start_char=273|end_char=280
+4	enää	enää	ADV	Adv	_	2	advmod	_	start_char=281|end_char=285
+5	ostamaan	ostaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=286|end_char=294
+6	yhtään	yhtään	ADV	Adv	_	7	advmod	_	start_char=295|end_char=301
+7	UNI-SOFT	UNI-SOFT	PROPN	N	Case=Par|Number=Sing	5	obj	_	start_char=302|end_char=310
+8	peliä	peli	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=311|end_char=316
+9	tai	tai	CCONJ	C	_	10	cc	_	start_char=317|end_char=320
+10	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	8	conj	_	start_char=321|end_char=329
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=329|end_char=330
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=330|end_char=331
+

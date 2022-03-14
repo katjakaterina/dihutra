@@ -1,0 +1,51 @@
+1	Söpöjä	söpö	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=0|end_char=6
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=6|end_char=7
+
+1	Tavara	tavara	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=9|end_char=15
+2	saapui	saapua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=22
+3	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=23|end_char=31
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=32|end_char=34
+5	priimakunnossa	priima#kunto	NOUN	N	Case=Ine|Number=Sing	3	conj	_	start_char=35|end_char=49
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=49|end_char=50
+
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=52|end_char=57
+2	tarrat	tarra	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=58|end_char=64
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=64|end_char=65
+4	koska	koska	SCONJ	C	_	7	mark	_	start_char=66|end_char=71
+5	tarjous	tarjous	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=72|end_char=79
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=80|end_char=83
+7	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	advcl	_	start_char=84|end_char=88
+8	ja	ja	CCONJ	C	_	12	cc	_	start_char=89|end_char=91
+9	koska	koska	SCONJ	C	_	12	mark	_	start_char=92|end_char=97
+10	mukana	mukana	ADP	Adp	AdpType=Post	12	advmod	_	start_char=98|end_char=104
+11	piti	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	start_char=105|end_char=109
+12	tulla	tulla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	conj	_	start_char=110|end_char=115
+13	ILMAINEN	ilmainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	14	amod	_	start_char=116|end_char=124
+14	näytönsuojus	näytön#suojus	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	start_char=125|end_char=137
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=137|end_char=138
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=140|end_char=142
+2	kuitenkaan	kuitenkaan	ADV	Adv	_	3	advmod	_	start_char=143|end_char=153
+3	saanut	saada	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=154|end_char=160
+4	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=161|end_char=165
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=165|end_char=166
+
+1	Kyse	kyse	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=168|end_char=172
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=173|end_char=175
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=176|end_char=179
+4	isosta	iso	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	5	amod	_	start_char=180|end_char=186
+5	asiasta	asia	NOUN	N	Case=Ela|Number=Sing	0	root	_	start_char=187|end_char=194
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=194|end_char=195
+7	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=196|end_char=201
+8	näytönsuojus	näytön#suojus	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=202|end_char=214
+9	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	aux	_	start_char=215|end_char=220
+10	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	cop	_	start_char=221|end_char=226
+11	kiva	kiva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	conj	_	start_char=227|end_char=231
+12	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	xcomp:ds	_	start_char=232|end_char=237
+13	,	,	PUNCT	Punct	_	17	punct	_	start_char=237|end_char=238
+14	kun	kun	SCONJ	C	_	17	mark	_	start_char=239|end_char=242
+15	sellainen	sellainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	16	amod	_	start_char=243|end_char=252
+16	kerran	kerran	ADV	Adv	_	17	obl	_	start_char=253|end_char=259
+17	luvattiin	luvata	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	11	advcl	_	start_char=260|end_char=269
+18	.	.	PUNCT	Punct	_	5	punct	_	start_char=269|end_char=270
+

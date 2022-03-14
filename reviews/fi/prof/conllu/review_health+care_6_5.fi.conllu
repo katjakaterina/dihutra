@@ -1,0 +1,40 @@
+1	9,99	9,99	NUM	Num	NumType=Card	2	nummod	_	start_char=0|end_char=4
+2	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	8	nsubj	_	start_char=5|end_char=13
+3	,	,	PUNCT	Punct	_	4	punct	_	start_char=13|end_char=14
+4	nätti	nätti	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	start_char=15|end_char=20
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=21|end_char=23
+6	soma	soma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	start_char=24|end_char=28
+7	Valo	valo	NOUN	N	Case=Nom|Number=Sing	2	conj	_	start_char=30|end_char=34
+8	syttyy	syttyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=35|end_char=41
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=41|end_char=42
+10	kun	kun	SCONJ	C	_	12	mark	_	start_char=43|end_char=46
+11	suurennuslasia	suurennus#lasi	NOUN	N	Case=Par|Number=Sing	12	obj	_	start_char=47|end_char=61
+12	vetää	vetää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=62|end_char=67
+13	.	.	PUNCT	Punct	_	8	punct	_	start_char=67|end_char=68
+
+1	Tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	obj	_	start_char=70|end_char=74
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=75|end_char=77
+3	paljon	paljon	ADV	Adv	_	4	advmod	_	start_char=78|end_char=84
+4	helpompi	helppo	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	start_char=85|end_char=93
+5	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp:ds	_	start_char=94|end_char=101
+6	kuin	kuin	SCONJ	C	_	9	mark	_	start_char=102|end_char=106
+7	aiemmin	aiemmin	ADV	Adv	_	8	advmod	_	start_char=107|end_char=114
+8	hankkimaani	hankkia	VERB	V	Case=Par|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	9	acl	_	start_char=115|end_char=126
+9	muovista	muovi	NOUN	N	Case=Ela|Number=Sing	5	obl	_	start_char=127|end_char=135
+10	kirjanmerkkisuurennuslasia	kirjan#merkki#suurennus	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=136|end_char=162
+11	ja	ja	CCONJ	C	_	12	cc	_	start_char=163|end_char=165
+12	suurennuslasitankoa	suurennus#lasi#tanko	NOUN	N	Case=Par|Number=Sing	10	conj	_	start_char=166|end_char=185
+13	.	.	PUNCT	Punct	_	4	punct	_	start_char=185|end_char=186
+
+1	Valo	valo	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=188|end_char=192
+2	tuli	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=193|end_char=197
+3	tarpeeseen	tarve	NOUN	N	Case=Ill|Number=Sing	2	obl	_	start_char=198|end_char=208
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=208|end_char=209
+5	kun	kun	SCONJ	C	_	7	mark	_	start_char=210|end_char=213
+6	piti	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	start_char=214|end_char=218
+7	tarkistaa	tarkistaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=219|end_char=228
+8	sarjanumero	sarja#numero	NOUN	N	Case=Nom|Number=Sing	7	obj	_	start_char=229|end_char=240
+9	iPodin	iPod	PROPN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=241|end_char=247
+10	takapuolelta	taka#puoli	NOUN	N	Case=Abl|Number=Sing	7	obl	_	start_char=248|end_char=260
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=260|end_char=261
+

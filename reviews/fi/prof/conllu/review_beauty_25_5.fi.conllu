@@ -1,0 +1,53 @@
+1	Ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	3	det	_	start_char=0|end_char=5
+2	käyttämäni	käyttää	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	3	acl	_	start_char=6|end_char=16
+3	meikkivoide	meikki#voide	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=17|end_char=28
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=28|end_char=29
+
+1	Tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	det	_	start_char=31|end_char=35
+2	meikkivoidetta	meikki#voide	NOUN	N	Case=Par|Number=Sing	4	nsubj	_	start_char=36|end_char=50
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=51|end_char=53
+4	löydy	löytyä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=54|end_char=59
+5	enää	enää	ADV	Adv	_	4	advmod	_	start_char=60|end_char=64
+6	lähikaupoista	lähi#kaupka	NOUN	N	Case=Ela|Number=Plur	4	obl	_	start_char=65|end_char=78
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=79|end_char=81
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	start_char=82|end_char=86
+9	todellakin	todella	ADV	Adv	Clitic=Kin	10	advmod	_	start_char=87|end_char=97
+10	kestää	kestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=98|end_char=104
+11	pitkään	pitkään	ADV	Adv	_	10	advmod	_	start_char=105|end_char=112
+12	ja	ja	CCONJ	C	_	13	cc	_	start_char=113|end_char=115
+13	hoitaa	hoitaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=116|end_char=122
+14	homman	homma	NOUN	N	Case=Gen|Number=Sing	13	obj	_	start_char=123|end_char=129
+15	.	.	PUNCT	Punct	_	4	punct	_	start_char=129|end_char=130
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=132|end_char=136
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=137|end_char=139
+3	valu	valua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=140|end_char=144
+4	naamalta	naama	NOUN	N	Case=Abl|Number=Sing	3	obl	_	start_char=145|end_char=153
+5	Floridan	Florida	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=154|end_char=162
+6	helteessä	helde	NOUN	N	Case=Ine|Number=Sing	3	obl	_	start_char=163|end_char=172
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=173|end_char=175
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=176|end_char=178
+9	tarpeeksi	tarpeeksi	ADV	Adv	_	10	advmod	_	start_char=179|end_char=188
+10	läpikuultava	läpi#kuultava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=189|end_char=201
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=201|end_char=202
+12	joten	joten	ADV	Adv	_	14	advmod	_	start_char=203|end_char=208
+13	kasvoni	kasvot	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	14	nsubj	_	start_char=209|end_char=216
+14	näyttävät	näyttää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=217|end_char=226
+15	luontaisilta	luontainen	ADJ	A	Case=Abl|Degree=Pos|Derivation=Inen|Number=Plur	14	xcomp	_	start_char=227|end_char=239
+16	,	,	PUNCT	Punct	_	18	punct	_	start_char=239|end_char=240
+17	mutta	mutta	CCONJ	C	_	18	cc	_	start_char=241|end_char=246
+18	tarjoaa	tarjota	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	start_char=247|end_char=254
+19	silti	silti	ADV	Adv	_	18	advmod	_	start_char=255|end_char=260
+20	sopivasti	sopivasti	ADV	Adv	Derivation=Sti	18	advmod	_	start_char=261|end_char=270
+21	peittävyyttä	peittävyys	NOUN	N	Case=Par|Number=Sing	18	obj	_	start_char=271|end_char=283
+22	.	.	PUNCT	Punct	_	3	punct	_	start_char=283|end_char=284
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=286|end_char=290
+2	käyttänyt	käyttää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=291|end_char=300
+3	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=301|end_char=305
+4	jo	jo	ADV	Adv	_	6	advmod	_	start_char=306|end_char=308
+5	noin	noin	ADV	Adv	_	6	advmod	_	start_char=309|end_char=313
+6	5-6	5-6	NUM	Num	NumType=Card	7	nummod	_	start_char=314|end_char=317
+7	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	2	obl	_	start_char=318|end_char=324
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=324|end_char=325
+

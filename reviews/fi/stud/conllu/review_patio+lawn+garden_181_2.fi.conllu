@@ -1,0 +1,49 @@
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=3
+2	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	,	,	PUNCT	Punct	_	10	punct	_	start_char=8|end_char=9
+4	jos	jos	SCONJ	C	_	10	mark	_	start_char=10|end_char=13
+5	nurmikkosi	nurmikko	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nmod:poss	_	start_char=14|end_char=24
+6	pinta-ala	pinta#ala	NOUN	N	Case=Nom|Number=Sing	10	nsubj:cop	_	start_char=25|end_char=34
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=35|end_char=37
+8	yli	yli	ADV	Adv	_	9	advmod	_	start_char=38|end_char=41
+9	8	8	NUM	Num	NumType=Card	10	nummod	_	start_char=42|end_char=43
+10	neliömetriä	neliö#metri	NOUN	N	Case=Par|Number=Sing	2	advcl	_	start_char=44|end_char=55
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=57|end_char=59
+2	leikannut	leikata	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=60|end_char=69
+3	nurmikkoa	nurmikko	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=70|end_char=79
+4	kovinkaan	kovin	ADV	Adv	Clitic=Kaan	5	advmod	_	start_char=80|end_char=89
+5	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=90|end_char=95
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=95|end_char=96
+
+1	Jätti	jättää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=98|end_char=103
+2	joitakin	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	3	det	_	start_char=104|end_char=112
+3	kohtia	kohta	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=113|end_char=119
+4	leikkaamatta	leikata	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=120|end_char=132
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=132|end_char=133
+
+1	jos	jos	SCONJ	C	_	7	mark	_	start_char=135|end_char=138
+2	ruoho	ruoho	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=139|end_char=144
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=145|end_char=147
+4	yli	yli	ADV	Adv	_	5	advmod	_	start_char=148|end_char=151
+5	5	5	NUM	Num	NumType=Card	6	nummod	_	start_char=152|end_char=153
+6	cm	cm	NOUN	N	Abbr=Yes|Case=Par|Number=Sing	7	obl	_	start_char=154|end_char=156
+7	korkeaa	korkea	ADJ	A	Case=Par|Degree=Pos|Number=Sing	12	advcl	_	start_char=157|end_char=164
+8	,	,	PUNCT	Punct	_	7	punct	_	start_char=164|end_char=165
+9	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	_	start_char=166|end_char=170
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=171|end_char=173
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=174|end_char=177
+12	leikkuri	leikkuri	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=178|end_char=186
+13	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	12	nmod	_	start_char=187|end_char=194
+14	.	.	PUNCT	Punct	_	12	punct	_	start_char=194|end_char=195
+
+1	Pitää	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=197|end_char=202
+2	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=203|end_char=210
+3	enemmän	enemmän	ADV	Adv	_	4	advmod	_	start_char=211|end_char=218
+4	rahaa	raha	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=219|end_char=224
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=225|end_char=227
+6	hankkia	hankkia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	conj	_	start_char=228|end_char=235
+7	jokin	jokin	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	8	det	_	start_char=236|end_char=241
+8	toimiva	toimiva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	obj	_	start_char=242|end_char=249
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=249|end_char=250
+

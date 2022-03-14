@@ -1,0 +1,73 @@
+1	Ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	4	parataxis	_	start_char=0|end_char=6
+2	,	,	PUNCT	_	_	1	punct	_	start_char=6|end_char=7
+3	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	4	nsubj	_	start_char=8|end_char=10
+4	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=11|end_char=17
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=18|end_char=21
+6	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=22|end_char=33
+7	.	.	PUNCT	_	_	4	punct	_	start_char=33|end_char=34
+
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	2	iobj	_	start_char=35|end_char=38
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=39|end_char=47
+3	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	det	_	start_char=48|end_char=51
+4	линейка	линейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=52|end_char=59
+5	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=60|end_char=69
+6	фирмы	фирма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=70|end_char=75
+7	Macely	Macely	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=76|end_char=82
+8	.	.	PUNCT	_	_	2	punct	_	start_char=82|end_char=83
+
+1	Обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	start_char=84|end_char=90
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=91|end_char=92
+3	не	не	PART	_	_	4	advmod	_	start_char=93|end_char=95
+4	берусь	браться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=96|end_char=102
+5	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=103|end_char=109
+6	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=110|end_char=116
+7	,	,	PUNCT	_	_	13	punct	_	start_char=116|end_char=117
+8	но	но	CCONJ	_	_	13	cc	_	start_char=118|end_char=120
+9	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	det	_	start_char=121|end_char=125
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj:pass	_	start_char=126|end_char=127
+11	просто	просто	PART	_	_	13	advmod	_	start_char=128|end_char=134
+12	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	start_char=135|end_char=139
+13	обязана	обязать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	start_char=140|end_char=147
+14	оставить	оставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=148|end_char=156
+15	.	.	PUNCT	_	_	4	punct	_	start_char=156|end_char=157
+
+1	У	у	ADP	_	_	2	case	_	start_char=159|end_char=160
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	0	root	_	start_char=161|end_char=165
+3	комбинированная	комбинированный	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	start_char=166|end_char=181
+4	кожа	кожа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=182|end_char=186
+5	,	,	PUNCT	_	_	10	punct	_	start_char=186|end_char=187
+6	которая	который	PRON	_	Case=Nom	10	nsubj	_	start_char=188|end_char=195
+7	в	в	ADP	_	_	9	case	_	start_char=196|end_char=197
+8	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	9	det	_	start_char=198|end_char=207
+9	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	obl	_	start_char=208|end_char=214
+10	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	start_char=215|end_char=225
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	start_char=226|end_char=231
+12	сухой	сухой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	obl	_	start_char=232|end_char=237
+13	или	или	CCONJ	_	_	15	cc	_	start_char=238|end_char=241
+14	очень	очень	ADV	_	Degree=Pos	15	obl	_	start_char=242|end_char=247
+15	жирной	жирный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	start_char=248|end_char=254
+16	.	.	PUNCT	_	_	2	punct	_	start_char=254|end_char=255
+
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	2	iobj	_	start_char=256|end_char=259
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=260|end_char=268
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	start_char=269|end_char=273
+4	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=274|end_char=281
+5	.	.	PUNCT	_	_	2	punct	_	start_char=281|end_char=282
+
+1	Ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	4	parataxis	_	start_char=283|end_char=289
+2	,	,	PUNCT	_	_	1	punct	_	start_char=289|end_char=290
+3	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	4	nsubj	_	start_char=291|end_char=293
+4	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=294|end_char=300
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=301|end_char=304
+6	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=305|end_char=316
+7	.	.	PUNCT	_	_	4	punct	_	start_char=316|end_char=317
+
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	2	iobj	_	start_char=319|end_char=322
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=323|end_char=331
+3	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	4	det	_	start_char=332|end_char=335
+4	линейка	линейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=336|end_char=343
+5	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=344|end_char=353
+6	фирмы	фирма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=354|end_char=359
+7	Macely	Macely	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=360|end_char=366
+8	.	.	PUNCT	_	_	2	punct	_	start_char=366|end_char=367
+

@@ -1,0 +1,74 @@
+1	Kiertynyt	kiertyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	acl	_	start_char=0|end_char=9
+2	letku	letku	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=10|end_char=15
+3	erkaantuvalla	erkaantua	VERB	V	Case=Ade|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	4	acl	_	start_char=16|end_char=29
+4	vinyylillä	vinyyli	NOUN	N	Case=Ade|Number=Sing	2	nmod	_	start_char=30|end_char=40
+
+1	–	–	PUNCT	Punct	_	2	punct	_	start_char=41|end_char=42
+2	Palautettu	palauttaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=43|end_char=53
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=53|end_char=54
+
+1	Luin	lukea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=56|end_char=60
+2	,	,	PUNCT	Punct	_	5	punct	_	start_char=60|end_char=61
+3	että	että	SCONJ	C	_	5	mark	_	start_char=62|end_char=66
+4	muillakin	muu	PRON	Pron	Case=Ade|Clitic=Kin|Number=Plur|PronType=Ind	5	det	_	start_char=67|end_char=76
+5	arvostelijoilla	arvostelija	NOUN	N	Case=Ade|Derivation=Ja|Number=Plur	1	ccomp	_	start_char=77|end_char=92
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop:own	_	start_char=93|end_char=96
+7	samanlaisia	samanlainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Plur	8	amod	_	start_char=97|end_char=108
+8	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	5	nsubj:cop	_	start_char=109|end_char=117
+9	ennen	ennen	ADV	Adv	_	10	advmod	_	start_char=118|end_char=123
+10	kuin	kuin	SCONJ	C	_	11	mark	_	start_char=124|end_char=128
+11	ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=129|end_char=134
+12	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	obj	_	start_char=135|end_char=140
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=140|end_char=141
+
+1	Luin	lukea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=143|end_char=147
+2	myös	myös	ADV	Adv	_	3	advmod	_	start_char=148|end_char=152
+3	arvosteluja	arvostelu	NOUN	N	Case=Par|Derivation=U|Number=Plur	1	obj	_	start_char=153|end_char=164
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=164|end_char=165
+5	joissa	joka	PRON	Pron	Case=Ine|Number=Plur|PronType=Rel	6	obl	_	start_char=166|end_char=172
+6	ylistettiin	ylistää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	start_char=173|end_char=184
+7	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	det	_	start_char=185|end_char=189
+8	letkua	letku	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=190|end_char=196
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=196|end_char=197
+
+1	Nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=199|end_char=203
+2	letkut	letku	NOUN	N	Case=Nom|Number=Plur	3	obj	_	start_char=204|end_char=210
+3	valmistetaan	valmistaa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=211|end_char=223
+4	jäännöksistä	jäännös	NOUN	N	Case=Ela|Number=Plur	3	obl	_	start_char=224|end_char=236
+5	;	;	PUNCT	Punct	_	11	punct	_	start_char=236|end_char=237
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=238|end_char=240
+7	kai	kai	ADV	Adv	_	11	advmod	_	start_char=241|end_char=244
+8	tuuripeliä	tuuri#peli	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=245|end_char=255
+9	kumman	kumpi	PRON	Pron	Case=Gen|Number=Sing|PronType=Int	10	nmod:poss	_	start_char=256|end_char=262
+10	letkun	letku	NOUN	N	Case=Gen|Number=Sing	11	obj	_	start_char=263|end_char=269
+11	saat	saada	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=270|end_char=274
+12	.	.	PUNCT	Punct	_	3	punct	_	start_char=274|end_char=275
+
+1	Oma	oma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=277|end_char=280
+2	onneni	onni	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj:cop	_	start_char=281|end_char=287
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=288|end_char=290
+4	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=291|end_char=296
+5	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=297|end_char=301
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=301|end_char=302
+
+1	Letkussa	letku	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=304|end_char=312
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	start_char=313|end_char=316
+3	pysyviä	pysyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	_	start_char=317|end_char=324
+4	kiertymiä	kiertymä	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=325|end_char=334
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=335|end_char=337
+6	vinyylipäällisessä	vinyylipäällinen	ADJ	A	Case=Ine|Degree=Pos|Derivation=Llinen|Number=Sing	1	conj	_	start_char=338|end_char=356
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=357|end_char=360
+8	kuplia	kupli	NOUN	N	Case=Par|Number=Plur	6	nsubj:cop	_	start_char=361|end_char=367
+9	niissä	se	PRON	Pron	Case=Ine|Number=Plur|PronType=Dem	10	det	_	start_char=368|end_char=374
+10	kohdissa	kohta	NOUN	N	Case=Ine|Number=Plur	6	obl	_	start_char=375|end_char=383
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=383|end_char=384
+12	joista	joka	PRON	Pron	Case=Ela|Number=Plur|PronType=Rel	14	obl	_	start_char=385|end_char=391
+13	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	_	start_char=392|end_char=394
+14	erkaantui	erkaantua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=395|end_char=404
+15	letkusta	letku	NOUN	N	Case=Ela|Number=Sing	14	obl	_	start_char=405|end_char=413
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=413|end_char=414
+
+1	Palautin	palauttaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=414|end_char=422
+2	välittömästi	välittömästi	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=423|end_char=435
+3	.	.	PUNCT	Punct	_	1	punct	_	start_char=435|end_char=436
+

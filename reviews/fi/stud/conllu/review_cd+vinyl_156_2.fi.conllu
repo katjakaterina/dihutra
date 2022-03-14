@@ -1,0 +1,57 @@
+1	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=2
+2	CLAPTON-MUSIIKKIVIDEO	clapton-musiikkivideo	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=3|end_char=24
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=24|end_char=25
+
+1	Opi	oppia	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=26|end_char=29
+2	soittamaa	soittaa	VERB	V	Case=Par|Number=Sing|VerbForm=Part|Voice=Act	3	acl	_	start_char=30|end_char=39
+3	kitaraa	kitara	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=40|end_char=47
+4	KUIN	kuin	SCONJ	C	_	6	mark	_	start_char=48|end_char=52
+5	Clapton	Clapton	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=53|end_char=60
+6	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=62|end_char=67
+7	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	det	_	start_char=68|end_char=73
+8	DVD:n	DVD	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	6	obj	_	start_char=74|end_char=79
+9	ja	ja	CCONJ	C	_	10	cc	_	start_char=80|end_char=82
+10	päätin	päättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=83|end_char=89
+11	nyt	nyt	ADV	Adv	_	10	advmod	_	start_char=90|end_char=93
+12	palauttaa	palauttaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=94|end_char=103
+13	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	obj	_	start_char=104|end_char=107
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=107|end_char=108
+
+1	Kuvaus	kuvaus	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=110|end_char=116
+2	ja	ja	CCONJ	C	_	3	cc	_	start_char=117|end_char=119
+3	kirjoitusarvio	kirjoitus#arvio	NOUN	N	Case=Nom|Number=Sing	1	conj	_	start_char=120|end_char=134
+4	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=135|end_char=139
+5	hämääviä	hämätä	VERB	V	Case=Par|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	0	root	_	start_char=140|end_char=148
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=148|end_char=149
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=151|end_char=155
+2	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=156|end_char=158
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=159|end_char=162
+4	Clapton-video	Clapton-video	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=163|end_char=176
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=176|end_char=177
+
+1	Toki	toki	ADV	Adv	_	5	advmod	_	start_char=179|end_char=183
+2	osa	osa	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=184|end_char=187
+3	klipeistä	klippi	NOUN	N	Case=Ela|Number=Plur	2	nmod	_	start_char=188|end_char=197
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=198|end_char=200
+5	Claptonia	Claptonia	PROPN	N	Case=Par|Number=Sing	0	root	_	start_char=201|end_char=210
+6	,	,	PUNCT	Punct	_	13	punct	_	start_char=210|end_char=211
+7	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=212|end_char=217
+8	yleisesti	yleisesti	ADV	Adv	Derivation=Sti	9	advmod	_	start_char=218|end_char=227
+9	ottaen	ottaa	VERB	V	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	13	advcl	_	start_char=228|end_char=234
+10	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	start_char=235|end_char=239
+11	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=240|end_char=242
+12	"	"	PUNCT	Punct	_	13	punct	_	start_char=243|end_char=244
+13	opetusvideo	opetus#video	NOUN	N	Case=Nom|Number=Sing	5	conj	_	start_char=244|end_char=255
+14	"	"	PUNCT	Punct	_	13	punct	_	start_char=255|end_char=256
+15	.	.	PUNCT	Punct	_	5	punct	_	start_char=256|end_char=257
+
+1	Pätee	päteä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=259|end_char=264
+2	myös	myös	ADV	Adv	_	7	advmod	_	start_char=265|end_char=269
+3	Clapton	Clapton	PROPN	N	Case=Nom|Number=Sing	7	compound:nn	_	start_char=270|end_char=277
+4	The	The	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=278|end_char=281
+5	Solo	Solo	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=282|end_char=286
+6	Years	Years	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=287|end_char=292
+7	-DVD:hen	DVD	PROPN	N	Case=Nom|Number=Sing	1	nsubj	_	start_char=293|end_char=301
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=301|end_char=302
+

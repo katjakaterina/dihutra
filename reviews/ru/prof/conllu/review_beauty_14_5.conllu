@@ -1,0 +1,58 @@
+1	Великолепный	великолепный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=12
+2	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=13|end_char=20
+3	!	!	PUNCT	_	_	2	punct	_	start_char=20|end_char=21
+
+1	Супер	супер	INTJ	_	_	0	root	_	start_char=22|end_char=27
+2	!	!	PUNCT	_	_	1	punct	_	start_char=27|end_char=28
+
+1	Потрясающий	потрясающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=29|end_char=40
+2	!	!	PUNCT	_	_	1	punct	_	start_char=40|end_char=41
+
+1	Подводка	подводка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=42|end_char=50
+2	для	для	ADP	_	_	3	case	_	start_char=51|end_char=54
+3	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=55|end_char=59
+4	и	и	CCONJ	_	_	5	cc	_	start_char=60|end_char=61
+5	тушь	тушь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=62|end_char=66
+6	держаться	держаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	1	csubj	_	start_char=67|end_char=76
+7	весь	весь	DET	_	Case=Acc|Gender=Masc|Number=Sing	8	det	_	start_char=77|end_char=81
+8	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=82|end_char=86
+9	и	и	CCONJ	_	_	11	cc	_	start_char=87|end_char=88
+10	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	11	det	_	start_char=89|end_char=92
+11	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	start_char=93|end_char=97
+12	!	!	PUNCT	_	_	1	punct	_	start_char=97|end_char=98
+
+1	И	и	CCONJ	_	_	19	cc	_	start_char=99|end_char=100
+2	даже	даже	PART	_	_	19	advmod	_	start_char=101|end_char=105
+3	,	,	PUNCT	_	_	2	punct	_	start_char=105|end_char=106
+4	если	если	SCONJ	_	_	6	mark	_	start_char=107|end_char=111
+5	вечеринка	вечеринка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=112|end_char=121
+6	затянулась	затянуться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	advcl	_	start_char=122|end_char=132
+7	,	,	PUNCT	_	_	9	punct	_	start_char=132|end_char=133
+8	и	и	CCONJ	_	_	9	cc	_	start_char=134|end_char=135
+9	уснула	уснуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=136|end_char=142
+10	,	,	PUNCT	_	_	12	punct	_	start_char=142|end_char=143
+11	не	не	PART	_	_	12	advmod	_	start_char=144|end_char=146
+12	смыв	смыть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	9	advcl	_	start_char=147|end_char=151
+13	макияж	макияж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=152|end_char=158
+14	,	,	PUNCT	_	_	12	punct	_	start_char=158|end_char=159
+15	то	то	SCONJ	_	_	19	mark	_	start_char=160|end_char=162
+16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	start_char=163|end_char=165
+17	точно	точно	ADV	_	Degree=Pos	19	advmod	_	start_char=166|end_char=171
+18	не	не	PART	_	_	19	advmod	_	start_char=172|end_char=174
+19	сотрется	стереться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=175|end_char=183
+20	до	до	ADP	_	_	21	case	_	start_char=184|end_char=186
+21	утра	утро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	start_char=187|end_char=191
+22	.	.	PUNCT	_	_	19	punct	_	start_char=191|end_char=192
+
+1	Для	для	ADP	_	_	2	case	_	start_char=193|end_char=196
+2	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=197|end_char=201
+3	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=202|end_char=210
+4	идеально	идеально	ADV	_	Degree=Pos	3	advmod	_	start_char=211|end_char=219
+5	и	и	CCONJ	_	_	9	cc	_	start_char=220|end_char=221
+6	на	на	ADP	_	_	8	case	_	start_char=222|end_char=224
+7	губной	губной	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=225|end_char=231
+8	помаде	помад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=232|end_char=238
+9	держится	держаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=239|end_char=247
+10	отлично	отлично	ADV	_	Degree=Pos	9	advmod	_	start_char=248|end_char=255
+11	!	!	PUNCT	_	_	3	punct	_	start_char=255|end_char=256
+

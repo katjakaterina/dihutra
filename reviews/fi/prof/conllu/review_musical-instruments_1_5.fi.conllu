@@ -1,0 +1,46 @@
+1	Hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=4
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=6|end_char=8
+2	juuri	juuri	ADV	Adv	_	3	advmod	_	start_char=9|end_char=14
+3	kommentoitavaa	kommentoida	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	start_char=15|end_char=29
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=29|end_char=30
+5	hoitaa	hoitaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=31|end_char=37
+6	homman	homma	NOUN	N	Case=Gen|Number=Sing	5	obj	_	start_char=38|end_char=44
+7	kuten	kuten	SCONJ	C	_	8	mark	_	start_char=45|end_char=50
+8	pitää	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=51|end_char=56
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=56|end_char=57
+
+1	Suodattaa	suodattaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=59|end_char=68
+2	poksahdukset	poksahdus	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=69|end_char=81
+3	pois	pois	ADV	Adv	_	1	advmod	_	start_char=82|end_char=86
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=86|end_char=87
+
+1	Äänityksistä	äänitys	NOUN	N	Case=Ela|Number=Plur	3	obl	_	start_char=89|end_char=101
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=102|end_char=104
+3	tullut	tulla	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=105|end_char=111
+4	paljon	paljon	ADV	Adv	_	5	advmod	_	start_char=112|end_char=118
+5	selkeämpiä	selkeä	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	3	nsubj	_	start_char=119|end_char=129
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=129|end_char=130
+
+1	Ostaminen	ostaminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	2	nsubj	_	start_char=132|end_char=141
+2	kannattaa	kannattaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=142|end_char=151
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=151|end_char=152
+4	sillä	sillä	SCONJ	C	_	5	mark	_	start_char=153|end_char=158
+5	kyseessä	kyse	NOUN	N	Case=Ine|Number=Sing	2	advcl	_	start_char=159|end_char=167
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=168|end_char=170
+7	yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	5	nsubj:cop	_	start_char=171|end_char=175
+8	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=176|end_char=184
+9	edullisimmista	edullinen	ADJ	A	Case=Ela|Degree=Sup|Number=Plur	10	amod	_	start_char=185|end_char=199
+10	pop-suodattimista	pop#suodattiminen	NOUN	N	Case=Ela|Number=Plur	7	nmod	_	start_char=200|end_char=217
+11	ja	ja	CCONJ	C	_	13	cc	_	start_char=218|end_char=220
+12	homma	homma	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	start_char=221|end_char=226
+13	hoituu	hoitua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=227|end_char=233
+14	sillä	se	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	13	obl	_	start_char=234|end_char=239
+15	suoraan	suoraan	ADV	Adv	_	16	advmod	_	start_char=240|end_char=247
+16	sanottuna	sanoa	VERB	V	Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	13	advcl	_	start_char=248|end_char=257
+17	siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	13	obl	_	start_char=258|end_char=263
+18	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Int	20	det	_	start_char=264|end_char=269
+19	kalliimmillakin	kallis	ADJ	A	Case=Ade|Degree=Sup|Number=Plur	20	amod	_	start_char=270|end_char=285
+20	vehkeillä	vehkki	NOUN	N	Case=Ade|Number=Plur	17	acl:relcl	_	start_char=286|end_char=295
+21	.	.	PUNCT	Punct	_	2	punct	_	start_char=295|end_char=296
+

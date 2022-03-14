@@ -1,0 +1,77 @@
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=3
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4|end_char=8
+3	pravi	prav	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=9|end_char=14
+4	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=15|end_char=18
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=18|end_char=19
+
+1	Fejk	fejk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=20|end_char=24
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=25|end_char=27
+3	.	.	PUNCT	Z	_	1	punct	_	start_char=27|end_char=28
+
+1	Prodavač	prodavač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=29|end_char=37
+2	prodaje	prodaja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=38|end_char=45
+3	samo	samo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=46|end_char=50
+4	lažne	lažan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=51|end_char=56
+5	MAC	mac	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=57|end_char=60
+6	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	nmod	_	start_char=61|end_char=70
+7	!	!	PUNCT	Z	_	1	punct	_	start_char=70|end_char=71
+
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=72|end_char=75
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=76|end_char=78
+3	fejk	fejk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=79|end_char=83
+4	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=84|end_char=87
+5	,	,	PUNCT	Z	_	8	punct	_	start_char=87|end_char=88
+6	upravo	upravo	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=89|end_char=95
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=96|end_char=99
+8	dobila	dobiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=100|end_char=106
+9	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	start_char=107|end_char=111
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=112|end_char=113
+11	jako	jako	ADV	Rgp	Degree=Pos	13	advmod	_	start_char=114|end_char=118
+12	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=119|end_char=122
+13	ljuta	ljuto	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=123|end_char=128
+14	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	17	nsubj	_	start_char=129|end_char=132
+15	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=133|end_char=137
+16	pravi	prav	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=138|end_char=143
+17	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	acl	_	start_char=144|end_char=147
+18	.	.	PUNCT	Z	_	3	punct	_	start_char=147|end_char=148
+
+1	Amazon	Amazon	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=149|end_char=155
+2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=156|end_char=158
+3	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=159|end_char=165
+4	bolje	dobro	ADV	Rgc	Degree=Cmp	5	advmod	_	start_char=166|end_char=171
+5	nadzirati	nadzirati	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=172|end_char=181
+6	prodaju	prodaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=182|end_char=189
+7	lažne	lažan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=190|end_char=195
+8	šminke	šminka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=196|end_char=202
+9	.	.	PUNCT	Z	_	3	punct	_	start_char=202|end_char=203
+
+1	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=205|end_char=208
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=209|end_char=213
+3	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=214|end_char=220
+4	,	,	PUNCT	Z	_	6	punct	_	start_char=220|end_char=221
+5	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	6	advmod	_	start_char=222|end_char=225
+6	vidiš	vidjeti	VERB	Vmr2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=226|end_char=231
+7	ovako	ovako	ADV	Rgp	Degree=Pos|PronType=Dem	8	advmod	_	start_char=232|end_char=237
+8	nisku	nizak	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=238|end_char=243
+9	cijenu	cijena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=244|end_char=250
+10	,	,	PUNCT	Z	_	6	punct	_	start_char=250|end_char=251
+11	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=252|end_char=254
+12	ti	ti	PRON	Pp2-sd	Case=Dat|Number=Sing|Person=2|PronType=Prs	14	iobj	_	start_char=255|end_char=257
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=258|end_char=260
+14	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=261|end_char=267
+15	biti	biti	AUX	Van	VerbForm=Inf	14	xcomp	_	start_char=268|end_char=272
+16	znak	znak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	xcomp	_	start_char=273|end_char=277
+17	da	da	SCONJ	Cs	_	21	mark	_	start_char=278|end_char=280
+18	nešto	nešto	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Ind	21	nsubj	_	start_char=281|end_char=286
+19	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=287|end_char=291
+20	u	u	ADP	Sl	Case=Loc	21	case	_	start_char=292|end_char=293
+21	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	16	acl	_	start_char=294|end_char=298
+22	.	.	PUNCT	Z	_	3	punct	_	start_char=298|end_char=299
+
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=301|end_char=303
+2	podržavaj	podržavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=304|end_char=313
+3	prodaju	prodaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=314|end_char=321
+4	lažne	lažan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=322|end_char=327
+5	šminke	šminka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=328|end_char=334
+6	!	!	PUNCT	Z	_	2	punct	_	start_char=334|end_char=335
+

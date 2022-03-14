@@ -1,0 +1,70 @@
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=0|end_char=4
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=5|end_char=7
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=8|end_char=11
+4	aito	aito	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=12|end_char=16
+5	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=17|end_char=20
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=20|end_char=21
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=22|end_char=24
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=25|end_char=27
+3	väärennös	väärennös	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=28|end_char=37
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=37|end_char=38
+
+1	Myyjä	myyjä	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	2	nsubj	_	start_char=39|end_char=44
+2	myy	myydä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=45|end_char=48
+3	pelkkiä	pelkkä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	5	amod	_	start_char=49|end_char=56
+4	väärennettyjä	väärentää	VERB	V	Case=Par|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=57|end_char=70
+5	MAC-tuotteita	MAC#tuote	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=71|end_char=84
+6	!	!	PUNCT	Punct	_	2	punct	_	start_char=84|end_char=85
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=87|end_char=91
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=92|end_char=94
+3	väärennetty	väärentää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=95|end_char=106
+4	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=107|end_char=110
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=110|end_char=111
+6	sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=112|end_char=116
+7	juuri	juuri	ADV	Adv	_	8	advmod	_	start_char=117|end_char=122
+8	omani	oma	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obj	_	start_char=123|end_char=128
+9	ja	ja	CCONJ	C	_	12	cc	_	start_char=129|end_char=131
+10	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=132|end_char=136
+11	todella	todella	ADV	Adv	_	12	advmod	_	start_char=137|end_char=144
+12	pettynyt	pettyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	conj	_	start_char=145|end_char=153
+13	,	,	PUNCT	Punct	_	19	punct	_	start_char=153|end_char=154
+14	kun	kun	SCONJ	C	_	19	mark	_	start_char=155|end_char=158
+15	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	19	nsubj:cop	_	start_char=159|end_char=161
+16	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	aux	_	start_char=162|end_char=164
+17	olekaan	olla	AUX	V	Clitic=Kaan|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=165|end_char=172
+18	aito	aito	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	start_char=173|end_char=177
+19	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	12	advcl	_	start_char=178|end_char=181
+20	.	.	PUNCT	Punct	_	4	punct	_	start_char=181|end_char=182
+
+1	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	3	nsubj	_	start_char=184|end_char=192
+2	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	aux	_	start_char=193|end_char=200
+3	kontrolloida	kontrolloida	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=201|end_char=213
+4	väärennettyjen	väärentää	VERB	V	Case=Gen|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=214|end_char=228
+5	meikkien	meikki	NOUN	N	Case=Gen|Number=Plur	6	nmod:gobj	_	start_char=229|end_char=237
+6	myyntiä	myynti	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=238|end_char=245
+7	paremmin	hyvin	ADV	Adv	Degree=Cmp	3	advmod	_	start_char=246|end_char=254
+8	.	.	PUNCT	Punct	_	3	punct	_	start_char=254|end_char=255
+
+1	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=257|end_char=260
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=261|end_char=263
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=264|end_char=267
+4	halpa	halpa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=268|end_char=273
+5	,	,	PUNCT	Punct	_	12	punct	_	start_char=273|end_char=274
+6	joten	joten	ADV	Adv	_	12	advmod	_	start_char=275|end_char=280
+7	näin	näin	ADV	Adv	_	8	advmod	_	start_char=281|end_char=285
+8	matalan	matala	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	start_char=286|end_char=293
+9	hinnan	hinta	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=294|end_char=300
+10	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	aux	_	start_char=301|end_char=306
+11	pitänyt	pitää	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	12	aux	_	start_char=307|end_char=314
+12	soittaa	soittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	acl:relcl	_	start_char=315|end_char=322
+13	kelloja	kello	NOUN	N	Case=Par|Number=Plur	12	obj	_	start_char=323|end_char=330
+14	.	.	PUNCT	Punct	_	4	punct	_	start_char=330|end_char=331
+
+1	Älkää	ei	AUX	V	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=333|end_char=338
+2	tukeko	tukea	VERB	V	Connegative=Yes|Mood=Imp|VerbForm=Fin	0	root	_	start_char=339|end_char=345
+3	väärennösten	väärennös	NOUN	N	Case=Gen|Number=Plur	4	nmod:gobj	_	start_char=346|end_char=358
+4	myyntiä	myynti	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=359|end_char=366
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=366|end_char=367
+

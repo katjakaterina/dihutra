@@ -1,0 +1,55 @@
+1	noloin	nolo	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	lahja	lahja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=7|end_char=12
+
+1	Kun	kun	SCONJ	C	_	4	mark	_	start_char=14|end_char=17
+2	lahjan	lahja	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=18|end_char=24
+3	saaja	saaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	4	nsubj	_	start_char=25|end_char=30
+4	avasi	avata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=31|end_char=36
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obj	_	start_char=37|end_char=40
+6	,	,	PUNCT	Punct	_	4	punct	_	start_char=40|end_char=41
+7	silmänrajaustussissa	silmän#rajaus#tussi	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=42|end_char=62
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=63|end_char=65
+9	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	cop	_	start_char=66|end_char=71
+10	sivellintä	sivellintä	NOUN	N	Case=Par|Number=Sing	7	nsubj:cop	_	start_char=72|end_char=82
+11	.	.	PUNCT	Punct	_	7	punct	_	start_char=82|end_char=83
+
+1	ja	ja	CCONJ	C	_	3	cc	_	start_char=83|end_char=85
+2	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=86|end_char=91
+3	katsottiin	katsoa	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=92|end_char=102
+4	tyylillä	tyyli	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=103|end_char=111
+5	onpa	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=112|end_char=116
+6	halpa	halpa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	start_char=117|end_char=122
+7	lahja	lahja	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=123|end_char=128
+8	!	!	PUNCT	Punct	_	3	punct	_	start_char=128|end_char=129
+
+1	!	!	PUNCT	Punct	_	4	punct	_	start_char=131|end_char=132
+2	Ja	ja	CCONJ	C	_	4	cc	_	start_char=132|end_char=134
+3	minulta	minä	PRON	Pron	Case=Abl|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=135|end_char=142
+4	kysyttiin	kysyä	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=143|end_char=152
+5	onko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=153|end_char=157
+6	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=158|end_char=163
+7	halpa	halpa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	start_char=164|end_char=169
+8	kopio	kopio	NOUN	N	Case=Nom|Number=Sing	4	ccomp	_	start_char=170|end_char=175
+9	ja	ja	CCONJ	C	_	11	cc	_	start_char=176|end_char=178
+10	sitten	sitten	ADV	Adv	_	11	advmod	_	start_char=179|end_char=185
+11	luin	lukea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=186|end_char=190
+12	tuotteesta	tuote	NOUN	N	Case=Ela|Number=Sing	11	obl	_	start_char=191|end_char=201
+13	jätetyn	jätetty	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	14	amod	_	start_char=202|end_char=209
+14	ainoan	ainoa	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	15	det	_	start_char=210|end_char=216
+15	arvostelun	arvostelu	NOUN	N	Case=Gen|Derivation=U|Number=Sing	11	obj	_	start_char=217|end_char=227
+16	.	.	PUNCT	Punct	_	4	punct	_	start_char=227|end_char=228
+
+1	Toivon	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=230|end_char=236
+2	saavani	saada	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	1	xcomp	_	start_char=237|end_char=244
+3	uuden	uusi	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	5	amod	_	start_char=245|end_char=250
+4	korvaavan	korvata	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	5	acl	_	start_char=251|end_char=260
+5	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=261|end_char=269
+6	tai	tai	CCONJ	C	_	7	cc	_	start_char=270|end_char=273
+7	rahat	raha	NOUN	N	Case=Nom|Number=Plur	5	conj	_	start_char=274|end_char=279
+8	takaisin	takaisin	ADV	Adv	_	2	advmod	_	start_char=280|end_char=288
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=288|end_char=289
+
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=289|end_char=297
+2	tyytymätön	tyytymätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	3	amod	_	start_char=298|end_char=308
+3	asiakas	asiakas	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=309|end_char=316
+

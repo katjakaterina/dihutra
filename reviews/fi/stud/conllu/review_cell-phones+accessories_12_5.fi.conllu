@@ -1,0 +1,77 @@
+1	Voittaja	voittaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	0	root	_	start_char=0|end_char=8
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=10|end_char=14
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=15|end_char=17
+3	ensimmäinen	ensimmäinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	4	amod	_	start_char=18|end_char=29
+4	vara-akkukotelo	vara#akku#kotelo	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=30|end_char=45
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=45|end_char=46
+6	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	7	nsubj:cop	_	start_char=47|end_char=51
+7	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	4	acl:relcl	_	start_char=52|end_char=59
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=60|end_char=62
+9	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	cop:own	_	start_char=63|end_char=68
+10	Galaxy	Galaxy	PROPN	N	Case=Nom|Number=Sing	12	compound:nn	_	start_char=69|end_char=75
+11	S4	S4	PROPN	N	Case=Nom|Number=Sing	10	flat:name	_	start_char=76|end_char=78
+12	-puhelimessani	puhelin	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	obl	_	start_char=79|end_char=93
+13	.	.	PUNCT	Punct	_	4	punct	_	start_char=93|end_char=94
+
+1	S4	S4	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=96|end_char=98
+2	mahtuu	mahtua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=99|end_char=105
+3	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=106|end_char=111
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=111|end_char=112
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	_	start_char=113|end_char=115
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=116|end_char=118
+7	ohut	ohut	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	conj	_	start_char=119|end_char=123
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=123|end_char=124
+9	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=125|end_char=129
+10	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	11	obl	_	start_char=130|end_char=135
+11	tullut	tulla	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	conj	_	start_char=136|end_char=142
+12	juurikaan	juuri	ADV	Adv	Clitic=Kaan	11	advmod	_	start_char=143|end_char=152
+13	lisäpainoa	lisä#paino	NOUN	N	Case=Par|Number=Sing	11	nsubj	_	start_char=153|end_char=163
+14	Galaxy	Galaxy	PROPN	N	Case=Nom|Number=Sing	11	obl	_	start_char=164|end_char=170
+15	S4:ään	s4	NUM	Num	Case=Ill|NumType=Card|Number=Sing	14	flat:name	_	start_char=171|end_char=177
+16	.	.	PUNCT	Punct	_	2	punct	_	start_char=177|end_char=178
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=180|end_char=182
+2	tuplaa	tuplaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=183|end_char=189
+3	akunkeston	akunkesto	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=190|end_char=200
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=200|end_char=201
+
+1	Voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=203|end_char=207
+2	ladata	ladata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=208|end_char=214
+3	joko	joko	CCONJ	C	_	4	cc:preconj	_	start_char=215|end_char=219
+4	vara-akun	vara#aku	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=220|end_char=229
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=229|end_char=230
+6	puhelimen	puhelin	NOUN	N	Case=Gen|Number=Sing	4	conj	_	start_char=231|end_char=240
+7	tai	tai	CCONJ	C	_	8	cc	_	start_char=241|end_char=244
+8	molemmat	molemmat	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	4	conj	_	start_char=245|end_char=253
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=253|end_char=254
+
+1	Vara-akkukotelossa	vara#akku#kotelo	NOUN	N	Case=Ine|Number=Sing	3	obl	_	start_char=256|end_char=274
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=275|end_char=277
+3	kätevä	kätevä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=278|end_char=284
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=285|end_char=287
+5	/off	/off	NOUN	N	Case=Nom|Number=Sing	6	compound:nn	_	start_char=287|end_char=291
+6	-kytkin	kytki	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=292|end_char=299
+7	LED-valoilla	LED#vala	NOUN	N	Case=Ade|Number=Plur	3	obl	_	start_char=300|end_char=312
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=312|end_char=313
+9	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	start_char=314|end_char=319
+10	näyttävät	näyttää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=320|end_char=329
+11	akun	akku	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	start_char=330|end_char=334
+12	varaustilan	varaus#tila	NOUN	N	Case=Gen|Number=Sing	10	obj	_	start_char=335|end_char=346
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=346|end_char=347
+
+1	Vara-akkukotelo	vara#akku#kotelo	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=347|end_char=362
+2	saapui	saapua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=363|end_char=369
+3	ajallaan	aika	NOUN	N	Case=Ade|Number=Sing|Person[psor]=3	2	obl	_	start_char=370|end_char=378
+4	ja	ja	CCONJ	C	_	8	cc	_	start_char=379|end_char=381
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	obj	_	start_char=382|end_char=384
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=385|end_char=388
+7	hyvin	hyvin	ADV	Adv	_	8	advmod	_	start_char=389|end_char=394
+8	pakattu	pakattaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	2	conj	_	start_char=395|end_char=402
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=402|end_char=403
+
+1	Hyvin	hyvin	ADV	Adv	_	3	advmod	_	start_char=405|end_char=410
+2	hintansa	hinta	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	3	nmod:poss	_	start_char=411|end_char=419
+3	väärti	väärti	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=420|end_char=426
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=426|end_char=427
+

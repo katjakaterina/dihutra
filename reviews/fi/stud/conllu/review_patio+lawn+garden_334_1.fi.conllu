@@ -1,0 +1,72 @@
+1	Kelvoton	kelvoton	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	loukku	loukku	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=15
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=15|end_char=16
+4	surkea	surkea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=17|end_char=23
+5	suunnittelu	suunnittelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	2	conj	_	start_char=24|end_char=35
+
+1	Pesukarhut	pesu#karhu	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	start_char=37|end_char=47
+2	vievät	viedä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=48|end_char=54
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	det	_	start_char=55|end_char=60
+4	loukun	loukku	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=61|end_char=67
+5	syötit	syötti	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=68|end_char=74
+6	miten	miten	ADV	Adv	_	7	advmod	_	start_char=75|end_char=80
+7	tahtovat	tahtoa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=81|end_char=89
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=89|end_char=90
+
+1	Minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=92|end_char=97
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=98|end_char=100
+3	täytynyt	täytyä	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	aux	_	start_char=101|end_char=109
+4	säätää	säätää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=110|end_char=116
+5	laukaisinta	laukaisen	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=117|end_char=128
+6	uudelleen	uudelleen	ADV	Adv	_	4	advmod	_	start_char=129|end_char=138
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=138|end_char=139
+8	jotta	jotta	SCONJ	C	_	11	mark	_	start_char=140|end_char=145
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=146|end_char=148
+10	edes	edes	ADV	Adv	_	11	advmod	_	start_char=149|end_char=153
+11	laukeaa	laueta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=154|end_char=161
+12	,	,	PUNCT	Punct	_	18	punct	_	start_char=161|end_char=162
+13	koska	koska	SCONJ	C	_	18	mark	_	start_char=163|end_char=168
+14	aluksi	aluksi	ADV	Adv	_	18	advmod	_	start_char=169|end_char=175
+15	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	18	nsubj	_	start_char=176|end_char=178
+16	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	start_char=179|end_char=181
+17	olisi	olla	AUX	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	18	aux	_	start_char=182|end_char=187
+18	reagoinut	reagoida	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	advcl	_	start_char=188|end_char=197
+19	pyörivään	pyörivä	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	20	amod	_	start_char=198|end_char=207
+20	keilapalloonkaan	keila#pallo#onkas	NOUN	N	Case=Ill|Clitic=Kaan|Number=Sing	18	obl	_	start_char=208|end_char=224
+21	.	.	PUNCT	Punct	_	4	punct	_	start_char=224|end_char=225
+
+1	He	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=227|end_char=229
+2	ohjeistavat	ohjeistaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=230|end_char=241
+3	laittamaan	laittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=242|end_char=252
+4	syötin	syödä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=253|end_char=259
+5	ansalevyn	ansalevy	NOUN	N	Case=Gen|Number=Sing	4	obj	_	start_char=260|end_char=269
+6	yli	yli	ADP	Adp	AdpType=Post	5	case	_	start_char=270|end_char=273
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=273|end_char=274
+8	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=275|end_char=280
+9	pesukarhut	pesu#karhu	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	start_char=281|end_char=291
+10	vain	vain	ADV	Adv	_	11	advmod	_	start_char=292|end_char=296
+11	nappaavat	napata	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=297|end_char=306
+12	syötin	syötin	ADV	Adv	_	11	advmod	_	start_char=307|end_char=313
+13	verkon	verkko	NOUN	N	Case=Gen|Number=Sing	11	obl	_	start_char=314|end_char=320
+14	läpi	läpi	ADP	Adp	AdpType=Post	13	case	_	start_char=321|end_char=325
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=325|end_char=326
+16	toinen	toinen	PRON	Pron	Case=Nom|Number=Sing|PronType=Rcp	18	det	_	start_char=327|end_char=333
+17	paha	paha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	18	amod	_	start_char=334|end_char=338
+18	suunnitteluvirhe	suunnittelu#virhe	NOUN	N	Case=Nom|Number=Sing	11	conj	_	start_char=339|end_char=355
+19	.	.	PUNCT	Punct	_	2	punct	_	start_char=355|end_char=356
+
+1	Monet	moni	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	2	det	_	start_char=358|end_char=363
+2	loukut	loukku	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	start_char=364|end_char=370
+3	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=371|end_char=379
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=379|end_char=380
+5	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	start_char=381|end_char=385
+6	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=386|end_char=388
+7	vain	vain	ADV	Adv	_	8	advmod	_	start_char=389|end_char=393
+8	kuulu	kuulua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=394|end_char=399
+9	niihin	se	PRON	Pron	Case=Ill|Number=Plur|PronType=Dem	8	obl	_	start_char=400|end_char=406
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=406|end_char=407
+
+1	Säästä	säästää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=409|end_char=415
+2	rahasi	raha	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obj	_	start_char=416|end_char=422
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=422|end_char=423
+

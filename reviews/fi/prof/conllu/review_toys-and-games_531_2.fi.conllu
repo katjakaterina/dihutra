@@ -1,0 +1,52 @@
+1	Paristo	paristo	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=0|end_char=7
+2	tyhjeni	tyhjetä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=15
+3	heti	heti	ADV	Adv	_	2	advmod	_	start_char=16|end_char=20
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=20|end_char=21
+
+1	Haluaisin	haluta	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	start_char=23|end_char=32
+2	antaa	antaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=33|end_char=38
+3	tälle	tämä	PRON	Pron	Case=All|Number=Sing|PronType=Dem	2	obl	_	start_char=39|end_char=44
+4	paremman	hyvä	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	5	amod	_	start_char=45|end_char=53
+5	arvostelun	arvostelu	NOUN	N	Case=Gen|Derivation=U|Number=Sing	2	obj	_	start_char=54|end_char=64
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=64|end_char=65
+
+1	Tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=67|end_char=75
+2	idea	idea	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=76|end_char=80
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=81|end_char=83
+4	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=84|end_char=92
+5	ja	ja	CCONJ	C	_	8	cc	_	start_char=93|end_char=95
+6	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=96|end_char=100
+7	todella	todella	ADV	Adv	_	8	advmod	_	start_char=101|end_char=108
+8	innoissani	inta	NOUN	N	Case=Ine|Number=Plur|Number[psor]=Sing|Person[psor]=1	4	conj	_	start_char=109|end_char=119
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=119|end_char=120
+10	kun	kun	SCONJ	C	_	11	mark	_	start_char=121|end_char=124
+11	hankin	hankkia	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=125|end_char=131
+12	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	11	obj	_	start_char=132|end_char=140
+13	pojalleni	poika	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	11	obl	_	start_char=141|end_char=150
+14	.	.	PUNCT	Punct	_	4	punct	_	start_char=150|end_char=151
+
+1	Paristo	paristo	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=153|end_char=160
+2	kuitenkin	kuitenkin	ADV	Adv	_	3	advmod	_	start_char=161|end_char=170
+3	tyhjeni	tyhjetä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=171|end_char=178
+4	jo	jo	ADV	Adv	_	6	advmod	_	start_char=179|end_char=181
+5	kahden	kaksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	6	nummod	_	start_char=182|end_char=188
+6	päivän	päivä	NOUN	N	Case=Gen|Number=Sing	3	obl	_	start_char=189|end_char=195
+7	päästä	päästä	ADP	Adp	AdpType=Post	6	case	_	start_char=196|end_char=202
+8	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	9	nmod:gobj	_	start_char=203|end_char=211
+9	saapumisesta	saapuminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	3	obl	_	start_char=212|end_char=224
+10	,	,	PUNCT	Punct	_	13	punct	_	start_char=224|end_char=225
+11	ja	ja	CCONJ	C	_	13	cc	_	start_char=226|end_char=228
+12	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	13	obl	_	start_char=229|end_char=235
+13	sopii	sopia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=236|end_char=241
+14	tietenkin	tietenkin	ADV	Adv	_	13	advmod	_	start_char=242|end_char=251
+15	vain	vain	ADV	Adv	_	16	advmod	_	start_char=252|end_char=256
+16	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	start_char=257|end_char=262
+17	ja	ja	CCONJ	C	_	18	cc	_	start_char=263|end_char=265
+18	kallis	kallis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	conj	_	start_char=266|end_char=272
+19	erikoisparisto	erikois#paristo	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	start_char=273|end_char=287
+20	.	.	PUNCT	Punct	_	3	punct	_	start_char=287|end_char=288
+
+1	Ei	ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	_	start_char=290|end_char=292
+2	jatkoon	jatko	NOUN	N	Case=Ill|Number=Sing	1	obl	_	start_char=293|end_char=300
+3	.	.	PUNCT	Punct	_	1	punct	_	start_char=300|end_char=301
+

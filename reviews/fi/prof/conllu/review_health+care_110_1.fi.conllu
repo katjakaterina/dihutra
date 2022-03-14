@@ -1,0 +1,90 @@
+1	Buu	buu	INTJ	Interj	_	0	root	_	start_char=0|end_char=3
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=3|end_char=4
+
+1	Tyhjiä	tyhjä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	amod	_	start_char=5|end_char=11
+2	paristoja	paristo	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=12|end_char=21
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=21|end_char=22
+
+1	Luovutin	luovuttaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=24|end_char=32
+2	ja	ja	CCONJ	C	_	3	cc	_	start_char=33|end_char=35
+3	heitin	heittää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=36|end_char=42
+4	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	5	det	_	start_char=43|end_char=47
+5	paristot	paristo	NOUN	N	Case=Nom|Number=Plur	3	obj	_	start_char=48|end_char=56
+6	pois	pois	ADV	Adv	_	3	advmod	_	start_char=57|end_char=61
+7	vain	vain	ADV	Adv	_	10	advmod	_	start_char=62|end_char=66
+8	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	9	det	_	start_char=67|end_char=75
+9	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	10	nmod:gsubj	_	start_char=76|end_char=85
+10	käytön	käyttö	NOUN	N	Case=Gen|Number=Sing	3	obl	_	start_char=86|end_char=92
+11	jälkeen	jälkeen	ADP	Adp	AdpType=Post	10	case	_	start_char=93|end_char=100
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=100|end_char=101
+
+1	Käytin	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=103|end_char=109
+2	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	1	obj	_	start_char=110|end_char=115
+3	digikamerassani	digi#kamera	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=116|end_char=131
+4	(	(	PUNCT	Punct	_	9	punct	_	start_char=132|end_char=133
+5	vuorotellen	vuorotellen	ADV	Adv	_	9	advmod	_	start_char=133|end_char=144
+6	kaksien	kaksi	NUM	Num	Case=Gen|NumType=Card|Number=Plur	9	nummod	_	start_char=145|end_char=152
+7	muiden	muu	PRON	Pron	Case=Gen|Number=Plur|PronType=Ind	9	det	_	start_char=153|end_char=159
+8	ladattavien	ladata	VERB	V	Case=Gen|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	9	acl	_	start_char=160|end_char=171
+9	paristojen	paristo	NOUN	N	Case=Gen|Number=Plur	3	appos	_	start_char=172|end_char=182
+10	kanssa	kanssa	ADP	Adp	AdpType=Post	9	case	_	start_char=183|end_char=189
+11	–	–	PUNCT	Punct	_	12	punct	_	start_char=190|end_char=191
+12	Duracellin	Duracell	PROPN	N	Case=Gen|Number=Sing	9	appos	_	start_char=192|end_char=202
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=203|end_char=205
+14	Sanyon	Sanyo	PROPN	N	Case=Gen|Number=Sing	12	conj	_	start_char=206|end_char=212
+15	)	)	PUNCT	Punct	_	12	punct	_	start_char=212|end_char=213
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=213|end_char=214
+
+1	Aluksi	aluksi	ADV	Adv	_	3	advmod	_	start_char=216|end_char=222
+2	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	_	start_char=223|end_char=227
+3	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=228|end_char=236
+4	ihan	ihan	ADV	Adv	_	5	advmod	_	start_char=237|end_char=241
+5	hyvin	hyvin	ADV	Adv	_	3	advmod	_	start_char=242|end_char=247
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=247|end_char=248
+7	samalla	samalla	ADV	Adv	_	8	advmod	_	start_char=249|end_char=256
+8	lailla	lailla	ADV	Adv	_	5	appos	_	start_char=257|end_char=263
+9	kuin	kuin	SCONJ	C	_	13	mark	_	start_char=264|end_char=268
+10	kahden	kaksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	12	nummod	_	start_char=269|end_char=275
+11	muun	muu	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	12	det	_	start_char=276|end_char=280
+12	valmistajan	valmistaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Sing	13	nmod:poss	_	start_char=281|end_char=292
+13	paristot	paristo	NOUN	N	Case=Nom|Number=Plur	8	advcl	_	start_char=293|end_char=301
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=301|end_char=302
+
+1	Mutta	mutta	CCONJ	C	_	5	cc	_	start_char=304|end_char=309
+2	enää	enää	ADV	Adv	_	5	advmod	_	start_char=310|end_char=314
+3	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	5	nsubj	_	start_char=315|end_char=319
+4	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=320|end_char=325
+5	kestä	kestää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=326|end_char=331
+6	edes	edes	ADV	Adv	_	8	advmod	_	start_char=332|end_char=336
+7	päivän	päivä	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=337|end_char=343
+8	ajan	aika	NOUN	N	Case=Gen|Number=Sing	5	obl	_	start_char=344|end_char=348
+9	.	.	PUNCT	Punct	_	5	punct	_	start_char=348|end_char=349
+
+1	Välillä	välillä	ADV	Adv	_	2	advmod	_	start_char=351|end_char=358
+2	pystyn	pystyä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=359|end_char=365
+3	ottamaan	ottaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=366|end_char=374
+4	vain	vain	ADV	Adv	_	6	advmod	_	start_char=375|end_char=379
+5	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	6	det	_	start_char=380|end_char=388
+6	kuvan	kuva	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=389|end_char=394
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=394|end_char=395
+8	ennen	ennen	ADV	Adv	_	9	advmod	_	start_char=396|end_char=401
+9	kuin	kuin	SCONJ	C	_	12	mark	_	start_char=402|end_char=406
+10	paristot	paristo	NOUN	N	Case=Nom|Number=Plur	12	nsubj	_	start_char=407|end_char=415
+11	jo	jo	ADV	Adv	_	12	advmod	_	start_char=416|end_char=418
+12	loppuvat	loppua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=419|end_char=427
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=427|end_char=428
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=430|end_char=432
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=433|end_char=436
+3	riittävän	riittävä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=437|end_char=446
+4	kärsivällinen	kärsivällinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=447|end_char=460
+5	tällaiseen	tällainen	ADJ	A	Case=Ill|Degree=Pos|Derivation=Lainen|Number=Sing	4	nmod	_	start_char=461|end_char=471
+6	...	...	PUNCT	Punct	_	4	punct	_	start_char=471|end_char=474
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=476|end_char=478
+2	enää	enää	ADV	Adv	_	3	advmod	_	start_char=479|end_char=483
+3	osta	ostaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=484|end_char=488
+4	ladattavia	ladata	VERB	V	Case=Par|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	5	acl	_	start_char=489|end_char=499
+5	Energizer-paristoja	Energizer#paristo	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=500|end_char=519
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=519|end_char=520
+
