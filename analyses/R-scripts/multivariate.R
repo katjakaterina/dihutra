@@ -1,7 +1,3 @@
-
-#with this command you can start the script from the shell
-#source("./dihutra/analyses/R-scripts/multivariate.R")
-
 library("gplots")
 library("vcd")
 library("graphics")
@@ -12,9 +8,19 @@ library(cluster)
 library(pvclust)
 library(fpc)
 
-data.multiv <- read.table("./dihutra/analyses/tables/stat-all-label.csv", header=TRUE)
+data.multiv <- read.table("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/stat-all-label.csv", header=TRUE)
 data.multiv.matr <- as.table(as.matrix(data.multiv))
 
+data.multiv.review <-data.multiv[c(2,5:6,9:12),]
+data.multiv.matr.review <- as.table(as.matrix(data.multiv.review))
+data.multiv.review.trans <-data.multiv[c(5:6,9:12),]
+data.multiv.matr.review.trans <- as.table(as.matrix(data.multiv.review.trans))
+data.multiv.review.pos <-data.multiv[c(2,5:6,9:12),c(1:17)]
+data.multiv.matr.review.pos <- as.table(as.matrix(data.multiv.review.pos))
+data.multiv.review.deprel <-data.multiv[c(2,5:6,9:12),c(18:42)]
+data.multiv.matr.review.deprel <- as.table(as.matrix(data.multiv.review.deprel))
+data.multiv.review.deprel.core <-data.multiv[c(2,5:6,9:12),c("ccomp","csubj","xcomp","nsubj","obj","obl")]
+data.multiv.matr.review.deprel.core <- as.table(as.matrix(data.multiv.review.deprel.core))
 #Note that, while Chi-square test can help to establish dependence between rows and the columns, the nature of the dependency is unknown.
 #chisq$observed
 #round(chisq$expected,2)
@@ -22,6 +28,21 @@ data.multiv.matr <- as.table(as.matrix(data.multiv))
 
 chisq.res.data.multiv<-chisq.test(data.multiv.matr)
 print(chisq.res.data.multiv)
+
+chisq.res.data.multiv.review<-chisq.test(data.multiv.matr.review)
+print(chisq.res.data.multiv.review)
+
+chisq.res.data.multiv.review.trans<-chisq.test(data.multiv.matr.review.trans)
+print(chisq.res.data.multiv.review.trans)
+
+chisq.res.data.multiv.review.pos<-chisq.test(data.multiv.matr.review.pos)
+print(chisq.res.data.multiv.review.pos)
+
+chisq.res.data.multiv.review.deprel<-chisq.test(data.multiv.matr.review.deprel)
+print(chisq.res.data.multiv.review.deprel)
+
+chisq.res.data.multiv.review.deprel.core<-chisq.test(data.multiv.matr.review.deprel.core)
+print(chisq.res.data.multiv.review.deprel.core)
 #Pearson's Chi-squared test
 #data:  data.multiv.matr
 #X-squared = 44851, df = 451, p-value < 2.2e-16
@@ -31,7 +52,30 @@ chisq.data.multiv<-chisq.test(data.multiv)
 ratio.data.multiv <- chisq.data.multiv$observed/chisq.data.multiv$expected
 round(ratio.data.multiv,3)
 
-pdf("./dihutra/analyses/graphs/multivariate.pdf",width = 63, height = 30, pointsize = 45)
+pdf("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/multivariate-review.pdf",width = 63, height = 30, pointsize = 45)
+res.ca.review <- ca(data.multiv.review, graph = FALSE)
+plot(res.ca.review)
+write.csv(print(res.ca.review),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.review.csv",sep="\t"))
+
+res.ca.review.trans <- ca(data.multiv.review.trans, graph = FALSE)
+plot(res.ca.review.trans)
+write.csv(print(res.ca.review.trans),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.review.trans.csv",sep="\t"))
+
+res.ca.review.pos <- ca(data.multiv.review.pos, graph = FALSE)
+plot(res.ca.review.pos)
+write.csv(print(res.ca.review.pos),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.review.pos.csv",sep="\t"))
+
+res.ca.review.deprel <- ca(data.multiv.review.deprel, graph = FALSE)
+plot(res.ca.review.deprel)
+write.csv(print(res.ca.review.deprel),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.review.deprel.csv",sep="\t"))
+
+res.ca.review.deprel.core <- ca(data.multiv.review.deprel.core, graph = FALSE)
+plot(res.ca.review.deprel.core)
+write.csv(print(res.ca.review.deprel.core),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.review.deprel.core.csv",sep="\t"))
+
+dev.off()
+
+pdf("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/multivariate.pdf",width = 63, height = 30, pointsize = 45)
 #First, we draw a baloon plot: visualize a contingency table using the function balloonplot(). This function draws a graphical matrix where each cell
 #contains a dot whose size reflects the relative magnitude of the corresponding component. In statistics, quantitative measures of the relationship 
 #between two indexes that are being compared. Relative magnitudes are obtained by dividing one of the indexes by the others, which is taken as the basis of comparison.
@@ -86,7 +130,7 @@ res.ca <- ca(data.multiv, graph = FALSE)
 plot(res.ca, invisible ="col")
 plot(res.ca, invisible ="row")
 plot(res.ca)
-
+write.csv(print(res.ca),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.csv",sep="\t"))
 #We could also analyse the contribution of rows and columns (which we did not do)
 #The contributions of a rows/columns to the definition of a principal axis are :
 #cc <- apply(row.coord^2, 2, "*", row.mass)
