@@ -25,6 +25,10 @@ data.multiv.matr.review.deprel.core <- as.table(as.matrix(data.multiv.review.dep
 data.multiv.review.enru <-data.multiv.review[c(1:3),]
 data.multiv.review.enhr <-data.multiv.review[c(1,4:5),]
 data.multiv.review.enfi <-data.multiv.review[c(1,6:7),]
+
+data.multiv.enruhr<-data.multiv[c(1:10),]
+data.multiv.enruhr.pos<-data.multiv[c(1:10),c(1:17)]
+data.multiv.enruhr.deprel<-data.multiv[c(1:10),c(18:42)]
 #Note that, while Chi-square test can help to establish dependence between rows and the columns, the nature of the dependency is unknown.
 #chisq$observed
 #round(chisq$expected,2)
@@ -154,7 +158,15 @@ write.csv(print(res.ca),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra
 #round(col.contrib, 2)
 #corrplot(col.contrib, is.cor = FALSE)
 #corrplot(row.contrib, is.cor = FALSE)
+#without Fi
+res.ca.enruhr <- ca(data.multiv.enruhr, graph = FALSE)
+plot(res.ca.enruhr)
 
+res.ca.enruhr.pos <- ca(data.multiv.enruhr.pos, graph = FALSE)
+plot(res.ca.enruhr.pos)
+
+res.ca.enruhr.deprel <- ca(data.multiv.enruhr.deprel, graph = FALSE)
+plot(res.ca.enruhr.deprel)
 #now we cluster the data to observe groupings of features
 cluster.data.multiv<-pvclust(data.multiv, method.hclust="ward.D", method.dist="euclidean")
 plot(cluster.data.multiv, main="CL for grouping features")
