@@ -21,6 +21,10 @@ data.multiv.review.deprel <-data.multiv[c(2,5:6,9:12),c(18:42)]
 data.multiv.matr.review.deprel <- as.table(as.matrix(data.multiv.review.deprel))
 data.multiv.review.deprel.core <-data.multiv[c(2,5:6,9:12),c("ccomp","csubj","xcomp","nsubj","obj","obl")]
 data.multiv.matr.review.deprel.core <- as.table(as.matrix(data.multiv.review.deprel.core))
+#add per language pair:
+data.multiv.review.enru <-data.multiv.review[c(1:3),]
+data.multiv.review.enhr <-data.multiv.review[c(1,4:5),]
+data.multiv.review.enfi <-data.multiv.review[c(1,6:7),]
 #Note that, while Chi-square test can help to establish dependence between rows and the columns, the nature of the dependency is unknown.
 #chisq$observed
 #round(chisq$expected,2)
@@ -73,6 +77,14 @@ res.ca.review.deprel.core <- ca(data.multiv.review.deprel.core, graph = FALSE)
 plot(res.ca.review.deprel.core)
 write.csv(print(res.ca.review.deprel.core),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.review.deprel.core.csv",sep="\t"))
 
+res.ca.review.enru<-ca(data.multiv.review.enru, graph = FALSE)
+plot(res.ca.review.enru)
+
+res.ca.review.enhr<-ca(data.multiv.review.enhr, graph = FALSE)
+plot(res.ca.review.enhr)
+
+res.ca.review.enfi<-ca(data.multiv.review.enfi, graph = FALSE)
+plot(res.ca.review.enfi)
 dev.off()
 
 pdf("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/multivariate.pdf",width = 63, height = 30, pointsize = 45)
