@@ -9,11 +9,12 @@ InputRUrevPRO=./dihutra/reviews/ru/prof/txt
 InputRUrevSTU=./dihutra/reviews/ru/stud/txt
 InputRUrevMT=./dihutra/reviews/ru/mt/txt
 #hr
-InputHRrevPRO=./dihutra/reviews/hr/prof
-InputHRrevSTU=./dihutra/reviews/hr/stud
+InputHRrevPRO=./dihutra/reviews/hr/prof/txt
+InputHRrevSTU=./dihutra/reviews/hr/stud/txt
+InputHRrevMT=./dihutra/reviews/hr/mt/txt
 #fi
-InputFIrevPRO=./dihutra/reviews/fi/prof
-InputFIrevSTU=./dihutra/reviews/fi/stud
+InputFIrevPRO=./dihutra/reviews/fi/prof/txt
+InputFIrevSTU=./dihutra/reviews/fi/stud/txt
 
 
 #en
@@ -36,7 +37,7 @@ mkdir $LocalDir/reviews/ru/mt/conllu
 mv $InputRUrevMT/*.conllu $LocalDir/reviews/ru/mt/conllu
 
 #hr
-#stanza_pipeline_ru.py instead of stanza_pipeline.py because of missing mwt models for Russian
+#stanza_pipeline_ru.py instead of stanza_pipeline.py because of missing mwt models for Croatian
 for file in $InputHRrevPRO/*.txt ; do python3 stanza_pipeline_ru.py --language=hr "$file" "${file%.txt}.conllu"; done
 mkdir $LocalDir/reviews/hr/prof/conllu
 mv $InputHRrevPRO/*.conllu $LocalDir/reviews/hr/prof/conllu
@@ -44,6 +45,10 @@ mv $InputHRrevPRO/*.conllu $LocalDir/reviews/hr/prof/conllu
 for file in $InputHRrevSTU/*.txt ; do python3 stanza_pipeline_ru.py --language=hr "$file" "${file%.txt}.conllu"; done
 mkdir $LocalDir/reviews/hr/stud/conllu
 mv $InputHRrevSTU/*.conllu $LocalDir/reviews/hr/stud/conllu
+
+for file in $InputHRrevMT/*.txt ; do python3 stanza_pipeline_ru.py --language=hr "$file" "${file%.txt}.conllu"; done
+mkdir $LocalDir/reviews/hr/mt/conllu
+mv $InputHRrevMT/*.conllu $LocalDir/reviews/hr/mt/conllu
 
 #fi
 for file in $InputFIrevPRO/*.txt ; do python3 stanza_pipeline.py --language=fi "$file" "${file%.txt}.conllu"; done

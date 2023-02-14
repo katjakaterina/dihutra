@@ -10,9 +10,17 @@ data.reviews = read.table("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses
 data.reviews.contentpos<-data.reviews[c("ADJ","ADV","NOUN","PROPN","VERB"),]
 data.reviews.otherpos<-data.reviews[c("DET","PRON","CCONJ","SCONJ"),]
 
-data.reviews.enruhr = data.reviews[,c(1:6)]
-data.reviews.contentpos.enruhr<-data.reviews[c("ADJ","ADV","NOUN","PROPN","VERB"),c(1:6)]
-data.reviews.otherpos.enruhr<-data.reviews[c("DET","PRON","CCONJ","SCONJ"),c(1:6)]
+data.reviews.enruhr = data.reviews[,c(1:7)]
+data.reviews.contentpos.enruhr<-data.reviews[c("ADJ","ADV","NOUN","PROPN","VERB"),c(1:7)]
+data.reviews.otherpos.enruhr<-data.reviews[c("DET","PRON","CCONJ","SCONJ"),c(1:7)]
+
+data.reviews.enru = data.reviews[,c(1:4)]
+data.reviews.contentpos.enru<-data.reviews[c("ADJ","ADV","NOUN","PROPN","VERB"),c(1:4)]
+data.reviews.otherpos.enru<-data.reviews[c("DET","PRON","CCONJ","SCONJ"),c(1:4)]
+
+data.reviews.enhr = data.reviews[,c(1,5:7)]
+data.reviews.contentpos.enhr<-data.reviews[c("ADJ","ADV","NOUN","PROPN","VERB"),c(1,5:7)]
+data.reviews.otherpos.enhr<-data.reviews[c("DET","PRON","CCONJ","SCONJ"),c(1,5:7)]
 
 data.news.turned<-t(data.news)
 data.reviews.turned<-t(data.reviews)
@@ -30,19 +38,30 @@ barplot.data.news.otherpos<-barplot(t(data.news.otherpos),col = c("forestgreen",
 
 
 #reviews
-barplot.data.reviews<-barplot(t(data.reviews),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue4","dodgerblue","dodgerblue3"), legend=colnames(data.reviews),beside=TRUE,ylab="POS distribution in Reviews")
+barplot.data.reviews<-barplot(t(data.reviews),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue2","cadetblue4","dodgerblue","dodgerblue3"), legend=colnames(data.reviews),beside=TRUE,ylab="POS distribution in Reviews")
 #text(barplot.data.reviews,t(data.reviews),labels=as.character(t(data.reviews)))
 
-barplot.data.reviews.contentpos<-barplot(t(data.reviews.contentpos),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue4","dodgerblue","dodgerblue3"), legend=colnames(data.reviews.contentpos),beside=TRUE,ylab="content POS distribution in Reviews")
+barplot.data.reviews.contentpos<-barplot(t(data.reviews.contentpos),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue2","cadetblue4","dodgerblue","dodgerblue3"), legend=colnames(data.reviews.contentpos),beside=TRUE,ylab="content POS distribution in Reviews")
 
-barplot.data.reviews.otherpos<-barplot(t(data.reviews.otherpos),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue4","dodgerblue","dodgerblue3"), legend=colnames(data.reviews.otherpos),beside=TRUE,ylab="other POS distribution in Reviews")
+barplot.data.reviews.otherpos<-barplot(t(data.reviews.otherpos),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue2","cadetblue4","dodgerblue","dodgerblue3"), legend=colnames(data.reviews.otherpos),beside=TRUE,ylab="other POS distribution in Reviews")
 
-barplot.data.reviews.enruhr<-barplot(t(data.reviews.enruhr),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue4"), legend=colnames(data.reviews.enruhr),beside=TRUE,ylab="POS distribution in Reviews")
+barplot.data.reviews.enruhr<-barplot(t(data.reviews.enruhr),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue2","cadetblue4"), legend=colnames(data.reviews.enruhr),beside=TRUE,ylab="POS distribution in Reviews")
 
-barplot.data.reviews.contentpos.enruhr<-barplot(t(data.reviews.contentpos.enruhr),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue4"), legend=colnames(data.reviews.contentpos.enruhr),beside=TRUE,ylab="content POS distribution in Reviews")
+barplot.data.reviews.contentpos.enruhr<-barplot(t(data.reviews.contentpos.enruhr),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue2","cadetblue4"), legend=colnames(data.reviews.contentpos.enruhr),beside=TRUE,ylab="content POS distribution in Reviews")
 
-barplot.data.reviews.otherpos.enruhr<-barplot(t(data.reviews.otherpos.enruhr),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue4"), legend=colnames(data.reviews.otherpos.enruhr),beside=TRUE,ylab="other POS distribution in Reviews")
+barplot.data.reviews.otherpos.enruhr<-barplot(t(data.reviews.otherpos.enruhr),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4","cadetblue","cadetblue2","cadetblue4"), legend=colnames(data.reviews.otherpos.enruhr),beside=TRUE,ylab="other POS distribution in Reviews")
 
+barplot.data.reviews.enru<-barplot(t(data.reviews.enru),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4"), legend=colnames(data.reviews.enru),beside=TRUE,ylab="POS distribution in Reviews")
+
+barplot.data.reviews.contentpos.enru<-barplot(t(data.reviews.contentpos.enru),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4"), legend=colnames(data.reviews.contentpos.enru),beside=TRUE,ylab="content POS distribution in Reviews")
+
+barplot.data.reviews.otherpos.enru<-barplot(t(data.reviews.otherpos.enru),col = c("forestgreen","antiquewhite2","antiquewhite3","antiquewhite4"), legend=colnames(data.reviews.otherpos.enru),beside=TRUE,ylab="other POS distribution in Reviews")
+
+barplot.data.reviews.enhr<-barplot(t(data.reviews.enhr),col = c("forestgreen","cadetblue","cadetblue2","cadetblue4"), legend=colnames(data.reviews.enhr),beside=TRUE,ylab="POS distribution in Reviews")
+
+barplot.data.reviews.contentpos.enhr<-barplot(t(data.reviews.contentpos.enhr),col = c("forestgreen","cadetblue","cadetblue2","cadetblue4"), legend=colnames(data.reviews.contentpos.enhr),beside=TRUE,ylab="content POS distribution in Reviews")
+
+barplot.data.reviews.otherpos.enhr<-barplot(t(data.reviews.otherpos.enhr),col = c("forestgreen","cadetblue","cadetblue2","cadetblue4"), legend=colnames(data.reviews.otherpos.enhr),beside=TRUE,ylab="other POS distribution in Reviews")
 dev.off()
 
 pdf("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/barplots-pos-horizontal.pdf",width = 43, height = 65, pointsize = 45)

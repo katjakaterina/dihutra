@@ -11,27 +11,27 @@ library(fpc)
 data.multiv <- read.table("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/stat-all-label.csv", header=TRUE)
 data.multiv.matr <- as.table(as.matrix(data.multiv))
 
-data.multiv.review <-data.multiv[c(2,5:7,10:13),]
+data.multiv.review <-data.multiv[c(2,5:7,10:14),]
 data.multiv.matr.review <- as.table(as.matrix(data.multiv.review))
-data.multiv.review.trans <-data.multiv[c(5:7,10:13),]
+data.multiv.review.trans <-data.multiv[c(5:7,10:14),]
 data.multiv.matr.review.trans <- as.table(as.matrix(data.multiv.review.trans))
-data.multiv.review.pos <-data.multiv[c(2,5:7,10:13),c(1:17)]
+data.multiv.review.pos <-data.multiv[c(2,5:7,10:14),c(1:17)]
 data.multiv.matr.review.pos <- as.table(as.matrix(data.multiv.review.pos))
-data.multiv.review.deprel <-data.multiv[c(2,5:7,10:13),c(18:42)]
+data.multiv.review.deprel <-data.multiv[c(2,5:7,10:14),c(18:42)]
 data.multiv.matr.review.deprel <- as.table(as.matrix(data.multiv.review.deprel))
-data.multiv.review.deprel.core <-data.multiv[c(2,5:7,10:13),c("ccomp","csubj","xcomp","nsubj","obj","obl")]
+data.multiv.review.deprel.core <-data.multiv[c(2,5:7,10:14),c("ccomp","csubj","xcomp","nsubj","obj","obl")]
 data.multiv.matr.review.deprel.core <- as.table(as.matrix(data.multiv.review.deprel.core))
 #add per language pair:
 data.multiv.review.enru <-data.multiv.review[c(1:4),]
-data.multiv.review.enhr <-data.multiv.review[c(1,5:6),]
-data.multiv.review.enfi <-data.multiv.review[c(1,7:8),]
+data.multiv.review.enhr <-data.multiv.review[c(1,5:7),]
+data.multiv.review.enfi <-data.multiv.review[c(1,8:9),]
 #add russiand and croatian togerther
-data.multiv.review.enruhr <-data.multiv.review[c(1:6),]
+data.multiv.review.enruhr <-data.multiv.review[c(1:7),]
 
 #here for all, also news
-data.multiv.enruhr<-data.multiv[c(1:11),]
-data.multiv.enruhr.pos<-data.multiv[c(1:11),c(1:17)]
-data.multiv.enruhr.deprel<-data.multiv[c(1:11),c(18:42)]
+data.multiv.enruhr<-data.multiv[c(1:12),]
+data.multiv.enruhr.pos<-data.multiv[c(1:12),c(1:17)]
+data.multiv.enruhr.deprel<-data.multiv[c(1:12),c(18:42)]
 #Note that, while Chi-square test can help to establish dependence between rows and the columns, the nature of the dependency is unknown.
 #chisq$observed
 #round(chisq$expected,2)
