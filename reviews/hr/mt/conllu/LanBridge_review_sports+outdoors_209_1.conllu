@@ -1,0 +1,56 @@
+1	Jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7|end_char=15
+3	Jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=16|end_char=22
+4	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=23|end_char=31
+5	!	!	PUNCT	Z	_	2	punct	_	start_char=31|end_char=32
+
+1	Unutar	unutar	ADP	Sg	Case=Gen	3	case	_	start_char=33|end_char=39
+2	dva	dva	NUM	Mlc	NumType=Card	3	nummod	_	start_char=40|end_char=43
+3	dana	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=44|end_char=48
+4	korištenja	korištenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=49|end_char=59
+5	počeo	početi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=60|end_char=65
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=66|end_char=68
+7	gubiti	gubiti	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=69|end_char=75
+8	zrak	zrak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=76|end_char=80
+9	na	na	ADP	Sl	Case=Loc	10	case	_	start_char=81|end_char=83
+10	mjestu	mjesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	obl	_	start_char=84|end_char=90
+11	gdje	gdje	ADV	Rgp	Degree=Pos|PronType=Int,Rel	13	advmod	_	start_char=91|end_char=95
+12	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=96|end_char=99
+13	pronašao	pronaći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=100|end_char=108
+14	rupu	rupa	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=109|end_char=113
+15	veličine	veličina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=114|end_char=122
+16	igle	igla	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=123|end_char=127
+17	i	i	CCONJ	Cc	_	22	cc	_	start_char=128|end_char=129
+18	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	22	advmod	_	start_char=130|end_char=134
+19	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	22	expl	_	start_char=135|end_char=137
+20	više	mnogo	ADV	Rgc	Degree=Cmp	22	advmod	_	start_char=138|end_char=142
+21	ne	ne	PART	Qz	Polarity=Neg	22	advmod	_	start_char=143|end_char=145
+22	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	start_char=146|end_char=150
+23	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	22	xcomp	_	start_char=151|end_char=160
+24	.	.	PUNCT	Z	_	5	punct	_	start_char=160|end_char=161
+
+1	Možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=162|end_char=168
+2	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=169|end_char=175
+3	isti	isti	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=176|end_char=180
+4	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=181|end_char=189
+5	(	(	PUNCT	Z	_	7	punct	_	start_char=190|end_char=191
+6	također	također	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=191|end_char=198
+7	proizveden	proizvesti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	parataxis	_	start_char=199|end_char=209
+8	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=210|end_char=211
+9	Kini	Kina	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=212|end_char=216
+10	)	)	PUNCT	Z	_	7	punct	_	start_char=216|end_char=217
+11	u	u	ADP	Sl	Case=Loc	13	case	_	start_char=218|end_char=219
+12	lokalnim	lokalan	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=220|end_char=228
+13	trgovinama	trgovina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	2	obl	_	start_char=229|end_char=239
+14	za	za	ADP	Sa	Case=Acc	16	case	_	start_char=240|end_char=242
+15	1/4	1/4	NUM	Mdc	NumType=Card	16	nummod	_	start_char=243|end_char=246
+16	cijene	cijena	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	start_char=247|end_char=253
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=253|end_char=254
+
+1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=255|end_char=257
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=258|end_char=261
+3	preporučio	preporučiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=262|end_char=272
+4	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=273|end_char=277
+5	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=278|end_char=286
+6	.	.	PUNCT	Z	_	3	punct	_	start_char=286|end_char=287
+
