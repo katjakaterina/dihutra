@@ -7,6 +7,7 @@ InputENrev=./dihutra/reviews/en/txt
 #ru
 InputRUrevPRO=./dihutra/reviews/ru/prof/txt
 InputRUrevSTU=./dihutra/reviews/ru/stud/txt
+InputRUrevMT=./dihutra/reviews/ru/mt/txt
 #hr
 InputHRrevPRO=./dihutra/reviews/hr/prof
 InputHRrevSTU=./dihutra/reviews/hr/stud
@@ -29,6 +30,10 @@ mv $InputRUrevPRO/*.conllu $LocalDir/reviews/ru/prof/conllu
 for file in $InputRUrevSTU/*.txt ; do python3 stanza_pipeline_ru.py --language=ru "$file" "${file%.txt}.conllu"; done
 mkdir $LocalDir/reviews/ru/stud/conllu
 mv $InputRUrevSTU/*.conllu $LocalDir/reviews/ru/stud/conllu
+
+for file in $InputRUrevMT/*.txt ; do python3 stanza_pipeline_ru.py --language=ru "$file" "${file%.txt}.conllu"; done
+mkdir $LocalDir/reviews/ru/mt/conllu
+mv $InputRUrevMT/*.conllu $LocalDir/reviews/ru/mt/conllu
 
 #hr
 #stanza_pipeline_ru.py instead of stanza_pipeline.py because of missing mwt models for Russian
