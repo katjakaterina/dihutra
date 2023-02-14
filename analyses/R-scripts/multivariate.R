@@ -25,7 +25,10 @@ data.multiv.matr.review.deprel.core <- as.table(as.matrix(data.multiv.review.dep
 data.multiv.review.enru <-data.multiv.review[c(1:4),]
 data.multiv.review.enhr <-data.multiv.review[c(1,5:6),]
 data.multiv.review.enfi <-data.multiv.review[c(1,7:8),]
+#add russiand and croatian togerther
+data.multiv.review.enruhr <-data.multiv.review[c(1:6),]
 
+#here for all, also news
 data.multiv.enruhr<-data.multiv[c(1:11),]
 data.multiv.enruhr.pos<-data.multiv[c(1:11),c(1:17)]
 data.multiv.enruhr.deprel<-data.multiv[c(1:11),c(18:42)]
@@ -80,6 +83,9 @@ write.csv(print(res.ca.review.deprel),file=paste("/home/katja/saar/vartra/eamt-d
 res.ca.review.deprel.core <- ca(data.multiv.review.deprel.core, graph = FALSE)
 plot(res.ca.review.deprel.core)
 write.csv(print(res.ca.review.deprel.core),file=paste("/home/katja/saar/vartra/eamt-dihutra/dihutra/analyses-pos/CA.datamultiv.review.deprel.core.csv",sep="\t"))
+
+res.ca.review.enruhr<-ca(data.multiv.review.enruhr, graph = FALSE)
+plot(res.ca.review.enruhr)
 
 res.ca.review.enru<-ca(data.multiv.review.enru, graph = FALSE)
 plot(res.ca.review.enru)
