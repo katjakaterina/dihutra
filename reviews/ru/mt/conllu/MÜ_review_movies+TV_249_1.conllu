@@ -1,0 +1,70 @@
+1	Худший	худший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=6
+2	рождественский	рождественский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=7|end_char=21
+3	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=28
+4	!	!	PUNCT	_	_	3	punct	_	start_char=28|end_char=29
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=30|end_char=33
+2	так	так	ADV	_	Degree=Pos	3	obl	_	start_char=34|end_char=37
+3	отстойно	отстойный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=38|end_char=46
+4	!	!	PUNCT	_	_	3	punct	_	start_char=46|end_char=47
+
+1	Песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=48|end_char=53
+2	ужасны	ужасный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=54|end_char=60
+3	!	!	PUNCT	_	_	2	punct	_	start_char=60|end_char=61
+
+1	Злодей	злодей	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=62|end_char=68
+2	—	—	PUNCT	_	_	1	punct	_	start_char=69|end_char=70
+3	копия	копия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=71|end_char=76
+4	мистера	мистер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=77|end_char=84
+5	Бернса	Бернс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	appos	_	start_char=85|end_char=91
+6	из	из	ADP	_	_	8	case	_	start_char=92|end_char=94
+7	«	"	PUNCT	_	_	8	punct	_	start_char=95|end_char=96
+8	Симпсонов	Симпсонов	PROPN	_	_	4	nmod	_	start_char=96|end_char=105
+9	»	"	PUNCT	_	_	8	punct	_	start_char=105|end_char=106
+10	,	,	PUNCT	_	_	16	punct	_	start_char=106|end_char=107
+11	в	в	ADP	_	_	16	cc	_	start_char=108|end_char=109
+12	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	start_char=110|end_char=112
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	start_char=113|end_char=118
+14	как	как	SCONJ	_	_	11	fixed	_	start_char=119|end_char=122
+15	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=123|end_char=127
+16	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=128|end_char=136
+17	так	так	ADV	_	Degree=Pos	16	advmod	_	start_char=137|end_char=140
+18	,	,	PUNCT	_	_	20	punct	_	start_char=140|end_char=141
+19	будто	будто	SCONJ	_	_	20	mark	_	start_char=142|end_char=147
+20	взяты	брать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	start_char=148|end_char=153
+21	взаймы	взаймы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj:pass	_	start_char=154|end_char=160
+22	из	из	ADP	_	_	23	case	_	start_char=161|end_char=163
+23	шоу	шоу	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	start_char=164|end_char=167
+24	Чарли	Чарли	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	start_char=168|end_char=173
+25	Брауна	Браун	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	appos	_	start_char=174|end_char=180
+26	.	.	PUNCT	_	_	3	punct	_	start_char=180|end_char=181
+
+1	Но	но	CCONJ	_	_	5	cc	_	start_char=182|end_char=184
+2	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=185|end_char=190
+3	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=191|end_char=198
+4	минусом	минус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	start_char=199|end_char=206
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=207|end_char=215
+6	политически	политически	ADV	_	Degree=Pos	7	obl	_	start_char=216|end_char=227
+7	корректное	корректный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=228|end_char=238
+8	разглагольствование	разглагольствование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=239|end_char=258
+9	!	!	PUNCT	_	_	5	punct	_	start_char=258|end_char=259
+
+1	Жаль	жаль	ADV	_	Degree=Pos	0	root	_	start_char=260|end_char=264
+2	,	,	PUNCT	_	_	5	punct	_	start_char=264|end_char=265
+3	что	что	SCONJ	_	_	5	mark	_	start_char=266|end_char=269
+4	CBS	CBS	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=270|end_char=273
+5	настаивает	настаивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=274|end_char=284
+6	на	на	ADP	_	_	7	case	_	start_char=285|end_char=287
+7	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	start_char=288|end_char=291
+8	,	,	PUNCT	_	_	10	punct	_	start_char=291|end_char=292
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	start_char=293|end_char=298
+10	показывать	показывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=299|end_char=309
+11	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	12	det	_	start_char=310|end_char=314
+12	сериал	сериал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=315|end_char=321
+13	параллельно	параллельно	ADV	_	Degree=Pos	10	advmod	_	start_char=322|end_char=333
+14	с	с	ADP	_	_	15	case	_	start_char=334|end_char=335
+15	классикой	классика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	start_char=336|end_char=345
+16	1969	1969	NUM	_	_	17	nummod	_	start_char=346|end_char=350
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=351|end_char=355
+18	.	.	PUNCT	_	_	1	punct	_	start_char=355|end_char=356
+

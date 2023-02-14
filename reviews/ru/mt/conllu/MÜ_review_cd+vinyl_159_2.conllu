@@ -1,0 +1,107 @@
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	тратьте	тратить	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=10
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=11|end_char=17
+4	.	.	PUNCT	_	_	2	punct	_	start_char=17|end_char=18
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=19|end_char=22
+2	не	не	PART	_	_	3	advmod	_	start_char=23|end_char=25
+3	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=26|end_char=31
+4	ваших	ваш	DET	_	Case=Gen|Number=Plur	5	det	_	start_char=32|end_char=37
+5	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	start_char=38|end_char=43
+6	.	.	PUNCT	_	_	3	punct	_	start_char=43|end_char=44
+
+1	Даг	Даг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=45|end_char=48
+2	прокручивает	прокручивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=61
+3	каждую	каждый	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	start_char=62|end_char=68
+4	песню	песня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=69|end_char=74
+5	примерно	примерно	ADV	_	Degree=Pos	10	obl	_	start_char=75|end_char=83
+6	за	за	ADP	_	_	10	case	_	start_char=84|end_char=86
+7	три	три	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	start_char=87|end_char=90
+8	-	-	PUNCT	_	_	9	punct	_	start_char=90|end_char=91
+9	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	7	nummod:gov	_	start_char=91|end_char=97
+10	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=98|end_char=104
+11	,	,	PUNCT	_	_	14	punct	_	start_char=104|end_char=105
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	start_char=106|end_char=108
+13	не	не	PART	_	_	14	advmod	_	start_char=109|end_char=111
+14	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=112|end_char=116
+15	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	14	iobj	_	start_char=117|end_char=120
+16	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	start_char=121|end_char=128
+17	,	,	PUNCT	_	_	19	punct	_	start_char=128|end_char=129
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	19	mark	_	start_char=130|end_char=135
+19	выучить	выучить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	start_char=136|end_char=143
+20	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	obj	_	start_char=144|end_char=146
+21	.	.	PUNCT	_	_	2	punct	_	start_char=146|end_char=147
+
+1	Если	если	SCONJ	_	_	5	mark	_	start_char=148|end_char=152
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	5	nsubj	_	start_char=153|end_char=155
+3	уже	уже	ADV	_	Degree=Pos	5	advmod	_	start_char=156|end_char=159
+4	не	не	PART	_	_	5	advmod	_	start_char=160|end_char=162
+5	освоили	освоить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=163|end_char=170
+6	транскрипцию	транскрипция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=171|end_char=183
+7	(	(	PUNCT	_	_	11	punct	_	start_char=184|end_char=185
+8	и	и	CCONJ	_	_	11	cc	_	start_char=185|end_char=186
+9	тогда	тогда	ADV	_	Degree=Pos	11	advmod	_	start_char=187|end_char=192
+10	зачем	зачем	ADV	_	Degree=Pos	11	advmod	_	start_char=193|end_char=198
+11	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	parataxis	_	start_char=199|end_char=207
+12	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	13	det	_	start_char=208|end_char=212
+13	DVD	DVD	PROPN	_	Foreign=Yes	11	obj	_	start_char=213|end_char=216
+14	?	?	PUNCT	_	_	5	punct	_	start_char=216|end_char=217
+
+1	)	)	PUNCT	_	_	4	punct	_	start_char=218|end_char=219
+2	,	,	PUNCT	_	_	4	punct	_	start_char=219|end_char=220
+3	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	4	iobj	_	start_char=221|end_char=224
+4	придется	прийтись	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=225|end_char=233
+5	перематывать	перематывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=234|end_char=246
+6	миллион	миллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=247|end_char=254
+7	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=255|end_char=258
+8	назад	назад	ADV	_	Degree=Pos	7	advmod	_	start_char=259|end_char=264
+9	,	,	PUNCT	_	_	11	punct	_	start_char=264|end_char=265
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	start_char=266|end_char=271
+11	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=272|end_char=280
+12	правильные	правильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	start_char=281|end_char=291
+13	ноты	нота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=292|end_char=296
+14	.	.	PUNCT	_	_	4	punct	_	start_char=296|end_char=297
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=298|end_char=301
+2	не	не	PART	_	_	3	advmod	_	start_char=302|end_char=304
+3	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	start_char=305|end_char=310
+4	,	,	PUNCT	_	_	6	punct	_	start_char=310|end_char=311
+5	чем	чем	SCONJ	_	_	6	mark	_	start_char=312|end_char=315
+6	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	obl	_	start_char=316|end_char=321
+7	на	на	ADP	_	_	6	case	_	start_char=322|end_char=324
+8	YouTube	ютьюб	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=325|end_char=332
+9	,	,	PUNCT	_	_	12	punct	_	start_char=332|end_char=333
+10	где	где	ADV	_	Degree=Pos	12	advmod	_	start_char=334|end_char=337
+11	кто-то	кто-то	PRON	_	Case=Nom	12	nsubj	_	start_char=338|end_char=344
+12	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=345|end_char=351
+13	кучу	куча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=352|end_char=356
+14	песен	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	start_char=357|end_char=362
+15	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=363|end_char=371
+16	.	.	PUNCT	_	_	3	punct	_	start_char=371|end_char=372
+
+1	Дуг	дуг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nsubj	_	start_char=373|end_char=376
+2	даже	даже	PART	_	_	4	advmod	_	start_char=377|end_char=381
+3	не	не	PART	_	_	4	advmod	_	start_char=382|end_char=384
+4	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=385|end_char=395
+5	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	4	iobj	_	start_char=396|end_char=399
+6	ритм	ритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=400|end_char=404
+7	или	или	CCONJ	_	_	10	cc	_	start_char=405|end_char=408
+8	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=409|end_char=415
+9	гитарные	гитарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=416|end_char=424
+10	партии	партия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	conj	_	start_char=425|end_char=431
+11	.	.	PUNCT	_	_	4	punct	_	start_char=431|end_char=432
+
+1	!	!	PUNCT	_	_	3	punct	_	start_char=433|end_char=434
+2	Вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	3	iobj	_	start_char=435|end_char=438
+3	осталось	остаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=439|end_char=447
+4	только	только	PART	_	_	5	advmod	_	start_char=448|end_char=454
+5	узнать	узнать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=455|end_char=461
+6	зацепку	зацепка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=462|end_char=469
+7	!	!	PUNCT	_	_	3	punct	_	start_char=469|end_char=470
+
+1	Какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=471|end_char=476
+2	в	в	ADP	_	_	3	case	_	start_char=477|end_char=478
+3	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	start_char=479|end_char=483
+4	смысл	смысл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=484|end_char=489
+5	?	?	PUNCT	_	_	1	punct	_	start_char=489|end_char=490
+
