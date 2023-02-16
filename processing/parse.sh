@@ -66,10 +66,12 @@ InputENnews=./dihutra/news/en/txt
 #ru
 InputRUnewsPRO=./dihutra/news/ru/prof/txt
 InputRUnewsSTU=./dihutra/news/ru/stud/txt
+InputRUnewsMT=./dihutra/news/ru/mt/txt
 
 #hr
 InputHRnewsPRO=./dihutra/news/hr/prof
 InputHRnewsSTU=./dihutra/news/hr/stud
+InputHRnewsMT=./dihutra/news/hr/mt/txt
 
 #de
 InputDEnews=./dihutra/news/de/txt
@@ -89,6 +91,11 @@ for file in $InputRUnewsSTU/*.txt ; do python3 stanza_pipeline_ru.py --language=
 mkdir $LocalDir/news/ru/stud/conllu
 mv $InputRUnewsSTU/*.conllu $LocalDir/news/ru/stud/conllu
 
+for file in $InputRUnewsMT/*.txt ; do python3 stanza_pipeline_ru.py --language=ru "$file" "${file%.txt}.conllu"; done
+mkdir $LocalDir/news/ru/mt/conllu
+mv $InputRUnewsMT/*.conllu $LocalDir/news/ru/mt/conllu
+
+
 #hr
 #stanza_pipeline_ru.py instead of stanza_pipeline.py because of missing mwt models for Russian
 for file in $InputHRnewsPRO/*.txt ; do python3 stanza_pipeline_ru.py --language=hr "$file" "${file%.txt}.conllu"; done
@@ -98,6 +105,11 @@ mv $InputHRnewsPRO/*.conllu $LocalDir/news/hr/prof/conllu
 for file in $InputHRnewsSTU/*.txt ; do python3 stanza_pipeline_ru.py --language=hr "$file" "${file%.txt}.conllu"; done
 mkdir $LocalDir/news/hr/stud/conllu
 mv $InputHRnewsSTU/*.conllu $LocalDir/news/hr/stud/conllu
+
+for file in $InputHRnewsMT/*.txt ; do python3 stanza_pipeline_ru.py --language=hr "$file" "${file%.txt}.conllu"; done
+mkdir $LocalDir/news/hr/mt/conllu
+mv $InputHRnewsMT/*.conllu $LocalDir/news/hr/mt/conllu
+
 
 #de
 for file in $InputDEnews/*.txt ; do python3 stanza_pipeline.py --language=de "$file" "${file%.txt}.conllu"; done
