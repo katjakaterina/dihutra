@@ -1,0 +1,52 @@
+1	Kaunista	kaunis	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=8
+2	.	.	PUNCT	Punct	_	1	punct	_	start_char=8|end_char=9
+
+1	Kaunis	kaunis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=10|end_char=16
+2	kaikin	kaikki	PRON	Pron	Case=Ins|Number=Plur|PronType=Ind	3	det	_	start_char=17|end_char=23
+3	tavoin	tapa	NOUN	N	Case=Ins|Number=Plur	1	nmod	_	start_char=24|end_char=30
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=30|end_char=31
+5	hyvin	hyvin	ADV	Adv	_	6	advmod	_	start_char=32|end_char=37
+6	kirjoitettuna	kirjoittaa	VERB	V	Case=Ess|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=38|end_char=51
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=51|end_char=52
+8	loistavana	loistava	ADJ	A	Case=Ess|Degree=Pos|Number=Sing	9	amod	_	start_char=53|end_char=63
+9	valokuvauksena	valo#kuvaus	NOUN	N	Case=Ess|Number=Sing	3	conj	_	start_char=64|end_char=78
+10	ja	ja	CCONJ	C	_	12	cc	_	start_char=79|end_char=81
+11	fantastisina	fantastinen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Inen|Number=Plur	12	amod	_	start_char=82|end_char=94
+12	ohjeina	ohje	NOUN	N	Case=Ess|Number=Plur	9	conj	_	start_char=95|end_char=102
+13	...	...	PUNCT	Punct	_	1	punct	_	start_char=102|end_char=105
+
+1	tee	tehdä	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=106|end_char=109
+2	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	3	det	_	start_char=110|end_char=115
+3	kirjasta	kirja	NOUN	N	Case=Ela|Number=Sing	1	obl	_	start_char=116|end_char=124
+4	"	"	PUNCT	Punct	_	6	punct	_	start_char=125|end_char=126
+5	pitää	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=126|end_char=131
+6	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	parataxis	_	start_char=132|end_char=136
+7	.........	.........	INTJ	Interj	_	12	punct	_	start_char=136|end_char=145
+8	"	"	PUNCT	Punct	_	12	punct	_	start_char=145|end_char=146
+9	olipa	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=146|end_char=151
+10	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	12	nsubj:cop	_	start_char=152|end_char=157
+11	sitten	sitten	ADV	Adv	_	12	advmod	_	start_char=158|end_char=164
+12	kahvipöytänä	kahvi#pöytä	NOUN	N	Case=Ess|Number=Sing	1	parataxis	_	start_char=165|end_char=177
+13	tai	tai	CCONJ	C	_	14	cc	_	start_char=178|end_char=181
+14	viitekirjana	viite#kirja	NOUN	N	Case=Ess|Number=Sing	12	conj	_	start_char=182|end_char=194
+15	,	,	PUNCT	Punct	_	12	punct	_	start_char=194|end_char=195
+16	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	18	nsubj:cop	_	start_char=196|end_char=198
+17	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	start_char=199|end_char=201
+18	definatley	definatley	NOUN	N	Case=Nom|Number=Sing	12	conj	_	start_char=202|end_char=212
+19	"	"	PUNCT	Punct	_	20	punct	_	start_char=213|end_char=214
+20	Top	Top	X	Foreign	Foreign=Yes	18	appos	_	start_char=214|end_char=217
+21	Hylly	hylly	NOUN	N	Case=Nom|Number=Sing	20	flat:foreign	_	start_char=218|end_char=223
+22	............	............	PUNCT	Punct	_	20	punct	_	start_char=223|end_char=235
+23	"	"	PUNCT	Punct	_	20	punct	_	start_char=235|end_char=236
+24	.	.	PUNCT	Punct	_	1	punct	_	start_char=236|end_char=237
+
+1	Annoin	antaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=238|end_char=244
+2	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	1	obj	_	start_char=245|end_char=250
+3	lahjaksi	lahja	NOUN	N	Case=Tra|Number=Sing	1	obl	_	start_char=251|end_char=259
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=259|end_char=260
+
+1	Vastaanottaja	vastaanottaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	3	nsubj	_	start_char=261|end_char=274
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	start_char=275|end_char=278
+3	musertunut	musertua	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=279|end_char=289
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=289|end_char=290
+

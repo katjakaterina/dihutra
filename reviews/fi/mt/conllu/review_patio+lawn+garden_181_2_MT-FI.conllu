@@ -1,0 +1,53 @@
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=3
+2	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	,	,	PUNCT	Punct	_	10	punct	_	start_char=8|end_char=9
+4	jos	jos	SCONJ	C	_	10	mark	_	start_char=10|end_char=13
+5	nurmikkosi	nurmikko	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	nsubj:cop	_	start_char=14|end_char=24
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=25|end_char=27
+7	yli	yli	ADV	Adv	_	8	advmod	_	start_char=28|end_char=31
+8	10	10	NUM	Num	NumType=Card	9	nummod	_	start_char=32|end_char=34
+9	neliömetrin	neliö#metri	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=35|end_char=46
+10	kokoinen	kokoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	advcl	_	start_char=47|end_char=55
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=56|end_char=58
+2	voinut	voida	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=59|end_char=65
+3	leikata	leikata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=66|end_char=73
+4	nurmikkoani	nurmikko	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	start_char=74|end_char=85
+5	kovin	kovin	ADV	Adv	_	6	advmod	_	start_char=86|end_char=91
+6	hyvin	hyvin	ADV	Adv	_	3	advmod	_	start_char=92|end_char=97
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=97|end_char=98
+
+1	Puuttuu	puuttua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=99|end_char=106
+2	pisteitä	piste	NOUN	N	Case=Par|Number=Plur	1	nsubj	_	start_char=107|end_char=115
+3	,	,	PUNCT	Punct	_	8	punct	_	start_char=115|end_char=116
+4	koska	koska	SCONJ	C	_	8	mark	_	start_char=117|end_char=122
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	start_char=123|end_char=125
+6	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=126|end_char=128
+7	vain	vain	ADV	Adv	_	8	advmod	_	start_char=129|end_char=133
+8	auttanut	auttaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=134|end_char=142
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=142|end_char=143
+
+1	jos	jos	SCONJ	C	_	4	mark	_	start_char=144|end_char=147
+2	ruoho	ruoho	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=148|end_char=153
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=154|end_char=156
+4	pidempi	pitkä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	13	advcl	_	start_char=157|end_char=164
+5	kuin	kuin	SCONJ	C	_	7	mark	_	start_char=165|end_char=169
+6	2	2	NUM	Num	NumType=Card	7	nummod	_	start_char=170|end_char=171
+7	tuumaa	tuuma	NOUN	N	Case=Par|Number=Sing	4	advcl	_	start_char=172|end_char=178
+8	,	,	PUNCT	Punct	_	4	punct	_	start_char=178|end_char=179
+9	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	start_char=180|end_char=184
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=185|end_char=187
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=188|end_char=191
+12	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	13	obl	_	start_char=192|end_char=199
+13	ruohonleikkuria	ruohon#leikkuri	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=200|end_char=215
+14	.	.	PUNCT	Punct	_	13	punct	_	start_char=215|end_char=216
+
+1	Pitää	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=217|end_char=222
+2	tuhlata	tuhlata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=223|end_char=230
+3	rahat	raha	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=231|end_char=236
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=237|end_char=239
+5	hankkia	hankkia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	conj	_	start_char=240|end_char=247
+6	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	7	det	_	start_char=248|end_char=254
+7	toimivaa	toimia	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	obj	_	start_char=255|end_char=263
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=263|end_char=264
+

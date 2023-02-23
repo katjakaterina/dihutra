@@ -1,0 +1,82 @@
+1	Olennainen	olennainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	teksti	teksti	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=11|end_char=17
+3	koirasiivoojalle	koirasiivooja	NOUN	N	Case=All|Derivation=Ja|Number=Sing	2	nmod	_	start_char=18|end_char=34
+
+1	Oletko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=35|end_char=41
+2	ammattikoirien	ammatti#koira	NOUN	N	Case=Gen|Number=Plur	3	nmod:poss	_	start_char=42|end_char=56
+3	trimmaaja	trimmaaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	0	root	_	start_char=57|end_char=66
+4	?	?	PUNCT	Punct	_	3	punct	_	start_char=66|end_char=67
+
+1	Haluatko	haluta	VERB	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=68|end_char=76
+2	tulla	tulla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=77|end_char=82
+3	sellaiseksi	sellainen	ADJ	A	Case=Tra|Degree=Pos|Derivation=Lainen|Number=Sing	2	xcomp	_	start_char=83|end_char=94
+4	?	?	PUNCT	Punct	_	1	punct	_	start_char=94|end_char=95
+
+1	Hanki	hankkia	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=96|end_char=101
+2	sitten	sitten	ADV	Adv	_	1	advmod	_	start_char=102|end_char=108
+3	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	det	_	start_char=109|end_char=113
+4	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	1	obj	_	start_char=114|end_char=119
+5	!	!	PUNCT	Punct	_	1	punct	_	start_char=119|end_char=120
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=120|end_char=124
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	13	nsubj:cop	_	start_char=125|end_char=130
+3	yhdessä	yhdessä	ADV	Adv	_	4	advmod	_	start_char=131|end_char=138
+4	kumppanin	kumppani	NOUN	N	Case=Gen|Number=Sing	2	nmod	_	start_char=139|end_char=148
+5	"	"	PUNCT	Punct	_	6	punct	_	start_char=149|end_char=150
+6	Theory	Theory	PROPN	N	Case=Nom|Number=Sing	4	appos	_	start_char=150|end_char=156
+7	of	of	PROPN	N	Case=Nom|Number=Sing	6	flat:name	_	start_char=157|end_char=159
+8	five	five	PROPN	N	Case=Nom|Number=Sing	6	flat:name	_	start_char=160|end_char=164
+9	"	"	PUNCT	Punct	_	6	punct	_	start_char=164|end_char=165
+10	kanssa	kanssa	ADP	Adp	AdpType=Post	4	case	_	start_char=166|end_char=172
+11	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=173|end_char=177
+12	tärkeitä	tärkeä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	13	amod	_	start_char=178|end_char=186
+13	kirjoja	kirja	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=187|end_char=194
+14	groomerin	groomeri	NOUN	N	Case=Gen|Number=Sing	15	nmod:poss	_	start_char=195|end_char=204
+15	kokoelmalle	kokoelma	NOUN	N	Case=All|Number=Sing	13	nmod	_	start_char=205|end_char=216
+16	.	.	PUNCT	Punct	_	13	punct	_	start_char=216|end_char=217
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=218|end_char=220
+2	kattaa	kattaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=221|end_char=227
+3	valtavan	valtava	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=228|end_char=236
+4	määrän	määrä	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=237|end_char=243
+5	koirarotuja	koira#rotu	NOUN	N	Case=Par|Number=Plur	4	nmod	_	start_char=244|end_char=255
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=255|end_char=256
+7	ja	ja	CCONJ	C	_	9	cc	_	start_char=257|end_char=259
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=260|end_char=262
+9	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=263|end_char=270
+10	näiden	tämä	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	11	det	_	start_char=271|end_char=277
+11	rotujen	rottu	NOUN	N	Case=Gen|Number=Plur	12	nmod:poss	_	start_char=278|end_char=285
+12	vakiokuvion	vakio#kuvio	NOUN	N	Case=Gen|Number=Sing	9	obj	_	start_char=286|end_char=297
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=298|end_char=300
+14	leikkaukset	leikkaus	NOUN	N	Case=Nom|Number=Plur	12	conj	_	start_char=301|end_char=312
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=312|end_char=313
+16	ja	ja	CCONJ	C	_	18	cc	_	start_char=314|end_char=316
+17	joissakin	jokin	PRON	Pron	Case=Ine|Number=Plur|PronType=Ind	18	det	_	start_char=317|end_char=326
+18	tapauksissa	tapaus	NOUN	N	Case=Ine|Number=Plur	36	obl	_	start_char=327|end_char=338
+19	,	,	PUNCT	Punct	_	21	punct	_	start_char=338|end_char=339
+20	kuten	kuten	ADV	Adv	_	21	advmod	_	start_char=340|end_char=345
+21	puudelit	puudeli	NOUN	N	Case=Nom|Number=Plur	18	appos	_	start_char=346|end_char=354
+22	,	,	PUNCT	Punct	_	23	punct	_	start_char=354|end_char=355
+23	scottiet	scotti	NOUN	N	Case=Nom|Number=Plur	21	conj	_	start_char=356|end_char=364
+24	ja	ja	CCONJ	C	_	25	cc	_	start_char=365|end_char=367
+25	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	21	conj	_	start_char=368|end_char=370
+26	,	,	PUNCT	Punct	_	27	punct	_	start_char=370|end_char=371
+27	joilla	joka	PRON	Pron	Case=Ade|Number=Plur|PronType=Rel	25	acl:relcl	_	start_char=372|end_char=378
+28	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop:own	_	start_char=379|end_char=381
+29	hieman	hieman	ADV	Adv	_	31	advmod	_	start_char=382|end_char=388
+30	"	"	PUNCT	Punct	_	32	punct	_	start_char=389|end_char=390
+31	monimutkaisempia	monimutkainen	ADJ	A	Case=Par|Degree=Cmp|Derivation=Inen|Number=Plur	32	amod	_	start_char=390|end_char=406
+32	leikkauksia	leikkaus	NOUN	N	Case=Par|Number=Plur	27	nsubj:cop	_	start_char=407|end_char=418
+33	"	"	PUNCT	Punct	_	32	punct	_	start_char=418|end_char=419
+34	,	,	PUNCT	Punct	_	27	punct	_	start_char=419|end_char=420
+35	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	36	nsubj	_	start_char=421|end_char=423
+36	menee	mennä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=424|end_char=429
+37	syvälle	syvä	ADJ	A	Case=All|Degree=Pos|Number=Sing	38	amod	_	start_char=430|end_char=437
+38	yksityiskohtineen	yksityis#kohta	NOUN	N	Case=Com|Person[psor]=3	36	obl	_	start_char=438|end_char=455
+39	ja	ja	CCONJ	C	_	40	cc	_	start_char=456|end_char=458
+40	neuvoineen	neuvoinen	NOUN	N	Case=Com|Person[psor]=3	38	conj	_	start_char=459|end_char=469
+41	.	.	PUNCT	Punct	_	2	punct	_	start_char=469|end_char=470
+
+1	Pakko	pakko	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=471|end_char=476
+2	.	.	PUNCT	Punct	_	1	punct	_	start_char=476|end_char=477
+

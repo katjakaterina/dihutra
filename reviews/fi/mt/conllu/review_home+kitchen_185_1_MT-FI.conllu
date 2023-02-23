@@ -1,0 +1,56 @@
+1	Hyvää	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	yötä	yö	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=6|end_char=10
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=10|end_char=11
+4	suloiset	suloinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	5	amod	_	start_char=12|end_char=20
+5	perhoset	perhonen	NOUN	N	Case=Nom|Number=Plur	2	conj	_	start_char=21|end_char=29
+
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	start_char=30|end_char=34
+2	hyvin	hyvin	ADV	Adv	_	3	advmod	_	start_char=35|end_char=40
+3	pettynyt	pettyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=41|end_char=49
+4	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	det	_	start_char=50|end_char=55
+5	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=56|end_char=62
+6	tilaan	tila	NOUN	N	Case=Ill|Number=Sing	3	obl	_	start_char=63|end_char=69
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=69|end_char=70
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	obj	_	start_char=71|end_char=73
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=74|end_char=77
+3	listattu	listata	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=78|end_char=86
+4	erittäin	erittäin	ADV	Adv	Derivation=Ttain	5	advmod	_	start_char=87|end_char=95
+5	hyväksi	hyvä	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	3	xcomp	_	start_char=96|end_char=103
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=103|end_char=104
+7	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=105|end_char=110
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	obj	_	start_char=111|end_char=113
+9	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=114|end_char=117
+10	erittäin	erittäin	ADV	Adv	Derivation=Ttain	11	advmod	_	start_char=118|end_char=126
+11	käytetty	käyttää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=127|end_char=135
+12	.	.	PUNCT	Punct	_	3	punct	_	start_char=135|end_char=136
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=137|end_char=139
+2	pystynyt	pystyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=140|end_char=148
+3	antamaan	antaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=149|end_char=157
+4	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=158|end_char=162
+5	lahjaksi	lahja	NOUN	N	Case=Tra|Number=Sing	3	xcomp:ds	_	start_char=163|end_char=171
+6	lapsenlapselleni	lapsi#lapsi	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obl	_	start_char=172|end_char=188
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=188|end_char=189
+8	ja	ja	CCONJ	C	_	10	cc	_	start_char=190|end_char=192
+9	jouduin	joutua	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	start_char=193|end_char=200
+10	laittamaan	laittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	conj	_	start_char=201|end_char=211
+11	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	obj	_	start_char=212|end_char=215
+12	säästökasaan	säästö#kasa	NOUN	N	Case=Ill|Number=Sing	10	obl	_	start_char=216|end_char=228
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=228|end_char=229
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=230|end_char=232
+2	tietenkään	tietenkään	ADV	Adv	_	4	advmod	_	start_char=233|end_char=243
+3	voinut	voida	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	aux	_	start_char=244|end_char=250
+4	harkita	harkita	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=251|end_char=258
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	nmod:gobj	_	start_char=259|end_char=262
+6	palauttamista	palauttaminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	4	obj	_	start_char=263|end_char=276
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=276|end_char=277
+8	koska	koska	SCONJ	C	_	12	mark	_	start_char=278|end_char=283
+9	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=284|end_char=290
+10	hinta	hinta	NOUN	N	Case=Nom|Number=Sing	12	nsubj:cop	_	start_char=291|end_char=296
+11	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=297|end_char=300
+12	pienempi	pieni	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	4	advcl	_	start_char=301|end_char=309
+13	kuin	kuin	SCONJ	C	_	14	mark	_	start_char=310|end_char=314
+14	postimaksut	posti#maksu	NOUN	N	Case=Nom|Derivation=U|Number=Plur	12	advcl	_	start_char=315|end_char=326
+

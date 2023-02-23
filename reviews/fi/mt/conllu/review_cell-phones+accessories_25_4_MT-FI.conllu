@@ -1,0 +1,67 @@
+1	Toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	loistavasti	loistavasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=7|end_char=18
+
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=19|end_char=26
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=27|end_char=29
+3	useita	usea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	_	start_char=30|end_char=36
+4	latureita	laturi	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=37|end_char=46
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=46|end_char=47
+
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=48|end_char=55
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=56|end_char=58
+3	useampi	usea	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	6	amod	_	start_char=59|end_char=66
+4	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=67|end_char=71
+5	yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	6	nummod	_	start_char=72|end_char=76
+6	ajoneuvo	ajo#neuvo	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=77|end_char=85
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=85|end_char=86
+8	joten	joten	ADV	Adv	_	9	advmod	_	start_char=87|end_char=92
+9	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	1	acl:relcl	_	start_char=93|end_char=100
+10	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop:own	_	start_char=101|end_char=103
+11	enemmän	enemmän	ADV	Adv	_	9	advmod	_	start_char=104|end_char=111
+12	kuin	kuin	SCONJ	C	_	13	mark	_	start_char=112|end_char=116
+13	yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	11	advcl	_	start_char=117|end_char=121
+14	näistä	tämä	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	15	det	_	start_char=122|end_char=128
+15	kummassakin	kumpikin	PRON	Pron	Case=Ine|Number=Sing|PronType=Ind	13	nmod	_	start_char=129|end_char=140
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=140|end_char=141
+
+1	Mikään	mikään	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	4	nsubj:cop	_	start_char=142|end_char=148
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=149|end_char=151
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=152|end_char=155
+4	turhauttavampaa	turhauttava	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	0	root	_	start_char=156|end_char=171
+5	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=172|end_char=176
+6	löytää	löytää	VERB	V	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=177|end_char=183
+7	yhtäkkiä	yhtäkkiä	ADV	Adv	_	6	advmod	_	start_char=184|end_char=192
+8	toinen	toinen	PRON	Pron	Case=Nom|Number=Sing|PronType=Rcp	6	obj	_	start_char=193|end_char=199
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=199|end_char=200
+10	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	11	nsubj	_	start_char=201|end_char=205
+11	lopettaa	lopettaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=206|end_char=214
+12	työnteon	työn#teko	NOUN	N	Case=Gen|Number=Sing	11	obj	_	start_char=215|end_char=223
+13	,	,	PUNCT	Punct	_	15	punct	_	start_char=223|end_char=224
+14	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=225|end_char=229
+15	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	11	conj	_	start_char=230|end_char=237
+16	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop:own	_	start_char=238|end_char=241
+17	mahdollisuutta	mahdollisuus	NOUN	N	Case=Par|Derivation=Llinen,Vs|Number=Sing	15	nsubj:cop	_	start_char=242|end_char=256
+18	ladata	ladata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	acl	_	start_char=257|end_char=263
+19	puhelintasi	puhelin	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	18	obj	_	start_char=264|end_char=275
+20	uudelleen	uudelleen	ADV	Adv	_	18	advmod	_	start_char=276|end_char=285
+21	.	.	PUNCT	Punct	_	4	punct	_	start_char=285|end_char=286
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=287|end_char=289
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=290|end_char=292
+3	aina	aina	ADV	Adv	_	6	advmod	_	start_char=293|end_char=297
+4	silloin	silloin	ADV	Adv	_	6	advmod	_	start_char=298|end_char=305
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=305|end_char=306
+6	kun	kun	SCONJ	C	_	9	mark	_	start_char=307|end_char=310
+7	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	obj	_	start_char=311|end_char=315
+8	eniten	eniten	ADV	Adv	_	9	advmod	_	start_char=316|end_char=322
+9	tarvitsee	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=323|end_char=332
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=332|end_char=333
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=334|end_char=338
+2	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=339|end_char=345
+3	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=346|end_char=351
+4	mihin	mikä	PRON	Pron	Case=Ill|Number=Sing|PronType=Int	6	det	_	start_char=352|end_char=357
+5	tahansa	tahansa	ADV	Adv	_	4	fixed	_	start_char=358|end_char=365
+6	tuotteistani	tuote	NOUN	N	Case=Ela|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=366|end_char=378
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=378|end_char=379
+

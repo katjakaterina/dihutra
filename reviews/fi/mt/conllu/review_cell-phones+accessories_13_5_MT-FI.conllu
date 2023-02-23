@@ -1,0 +1,58 @@
+1	Todella	todella	ADV	Adv	_	2	advmod	_	start_char=0|end_char=7
+2	ihana	ihana	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=8|end_char=13
+3	juttu	juttu	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=14|end_char=19
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=19|end_char=20
+
+1	Toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=27
+2	juuri	juuri	ADV	Adv	_	3	advmod	_	start_char=28|end_char=33
+3	niin	niin	ADV	Adv	_	6	mark	_	start_char=34|end_char=38
+4	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=39|end_char=43
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=44|end_char=46
+6	mainostettu	mainostaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	1	advcl	_	start_char=47|end_char=58
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=58|end_char=59
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	obj	_	start_char=60|end_char=62
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	start_char=63|end_char=65
+3	hyvin	hyvin	ADV	Adv	_	4	advmod	_	start_char=66|end_char=71
+4	tukevasti	tukevasti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=72|end_char=81
+5	rakennettu	rakentaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=82|end_char=92
+6	ja	ja	CCONJ	C	_	7	cc	_	start_char=93|end_char=95
+7	tuo	tuoda	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=96|end_char=99
+8	paljon	paljon	ADV	Adv	_	9	advmod	_	start_char=100|end_char=106
+9	lisäpotkua	lisä#potku	NOUN	N	Case=Par|Derivation=U|Number=Sing	7	obj	_	start_char=107|end_char=117
+10	.	.	PUNCT	Punct	_	5	punct	_	start_char=117|end_char=118
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=119|end_char=121
+2	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=122|end_char=127
+3	juuri	juuri	ADV	Adv	_	4	advmod	_	start_char=128|end_char=133
+4	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=134|end_char=137
+5	,	,	PUNCT	Punct	_	11	punct	_	start_char=137|end_char=138
+6	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	12	obj	_	start_char=139|end_char=143
+7	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	nsubj	_	start_char=144|end_char=147
+8	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	aux	_	start_char=148|end_char=155
+9	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	cop	_	start_char=156|end_char=160
+10	liian	liian	ADV	Adv	_	11	advmod	_	start_char=161|end_char=166
+11	helppoa	helppo	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	ccomp	_	start_char=167|end_char=174
+12	laittaa	laittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	xcomp:ds	_	start_char=175|end_char=182
+13	puhelin	puhelin	NOUN	N	Case=Nom|Number=Sing	12	obj	_	start_char=183|end_char=190
+14	sisään	sisään	ADV	Adv	_	12	advmod	_	start_char=191|end_char=197
+15	ja	ja	CCONJ	C	_	16	cc	_	start_char=198|end_char=200
+16	ulos	ulos	ADV	Adv	_	14	conj	_	start_char=201|end_char=205
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=205|end_char=206
+
+1	Ehdottomasti	ehdottomasti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=207|end_char=219
+2	viiden	viisi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	3	nummod	_	start_char=220|end_char=226
+3	tähden	tähti	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=227|end_char=233
+4	kokemus	kokemus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=234|end_char=241
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=241|end_char=242
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=243|end_char=245
+2	tiedä	tietää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=246|end_char=251
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=251|end_char=252
+4	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	5	obj	_	start_char=253|end_char=257
+5	tekisin	tehdä	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=258|end_char=265
+6	ilman	ilman	ADP	Adp	AdpType=Prep	8	case	_	start_char=266|end_char=271
+7	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	det	_	start_char=272|end_char=276
+8	juttua	juttu	NOUN	N	Case=Par|Number=Sing	5	obl	_	start_char=277|end_char=283
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=283|end_char=284
+

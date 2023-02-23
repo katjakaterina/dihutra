@@ -1,0 +1,50 @@
+1	Morsian	morsia	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=7
+2	avuksi	apu	NOUN	N	Case=Tra|Derivation=U|Number=Sing	1	nmod	_	start_char=8|end_char=14
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=14|end_char=15
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=16|end_char=20
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=21|end_char=26
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=27|end_char=29
+4	hyvin	hyvin	ADV	Adv	_	5	advmod	_	start_char=30|end_char=35
+5	inspiroiva	inspiroiva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=36|end_char=46
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=46|end_char=47
+7	jos	jos	SCONJ	C	_	8	mark	_	start_char=48|end_char=51
+8	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=52|end_char=57
+9	ainutlaatuista	ainutlaatuinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	10	amod	_	start_char=58|end_char=72
+10	kakkua	kakku	NOUN	N	Case=Par|Number=Sing	8	obj	_	start_char=73|end_char=79
+11	tai	tai	CCONJ	C	_	15	cc	_	start_char=80|end_char=83
+12	jos	jos	SCONJ	C	_	15	mark	_	start_char=84|end_char=87
+13	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=88|end_char=90
+14	vain	vain	ADV	Adv	_	15	advmod	_	start_char=91|end_char=95
+15	tiedä	tietää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=96|end_char=101
+16	,	,	PUNCT	Punct	_	17	punct	_	start_char=101|end_char=102
+17	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	15	ccomp	_	start_char=103|end_char=107
+18	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	start_char=108|end_char=110
+19	tyylisi	tyyli	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	17	nsubj:cop	_	start_char=111|end_char=118
+20	.	.	PUNCT	Punct	_	5	punct	_	start_char=118|end_char=119
+
+1	Kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=120|end_char=126
+2	etuosa	etu#osa	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=127|end_char=133
+3	auttaa	auttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=134|end_char=140
+4	sinua	sinä	PRON	Pron	Case=Par|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=141|end_char=146
+5	valitsemaan	valita	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp:ds	_	start_char=147|end_char=158
+6	tyylisi	tyyli	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	start_char=159|end_char=166
+7	ja	ja	CCONJ	C	_	8	cc	_	start_char=167|end_char=169
+8	takapuolen	taka#puoli	NOUN	N	Case=Gen|Number=Sing	6	conj	_	start_char=170|end_char=180
+9	piirustukset	piirustus	NOUN	N	Case=Nom|Number=Plur	5	obj	_	start_char=181|end_char=193
+10	heidän	hän	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=194|end_char=200
+11	näyttämissään	näyttää	VERB	V	Case=Ine|Degree=Pos|Number=Plur|PartForm=Agt|Person[psor]=3|VerbForm=Part|Voice=Act	12	acl	_	start_char=201|end_char=214
+12	kakuissa	kaku	NOUN	N	Case=Ine|Number=Plur	5	obl	_	start_char=215|end_char=223
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=223|end_char=224
+
+1	ts.	ts.	ADV	Adv	_	6	advmod	_	start_char=225|end_char=228
+2	kuinka	kuinka	ADV	Adv	_	3	advmod	_	start_char=229|end_char=235
+3	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	4	det	_	start_char=236|end_char=241
+4	ihmistä	ihminen	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=242|end_char=249
+5	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=250|end_char=252
+6	palvelevat	palvella	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=253|end_char=263
+7	,	,	PUNCT	Punct	_	8	punct	_	start_char=263|end_char=264
+8	reseptejä	resepti	NOUN	N	Case=Par|Number=Plur	6	obj	_	start_char=265|end_char=274
+9	,	,	PUNCT	Punct	_	6	punct	_	start_char=274|end_char=275
+10	ect.	ect.	SYM	Symb	_	6	discourse	_	start_char=276|end_char=280
+

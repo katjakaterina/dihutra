@@ -1,0 +1,70 @@
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2
+2	sattuu	sattua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=9
+3	korviin	korva	NOUN	N	Case=Ill|Number=Plur	2	obl	_	start_char=10|end_char=17
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=17|end_char=18
+
+1	Törmäsin	törmätä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=27
+2	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	3	det	_	start_char=28|end_char=33
+3	vahingossa	vahinko	NOUN	N	Case=Ine|Number=Sing	1	obl	_	start_char=34|end_char=44
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=45|end_char=47
+5	vein	viedä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=48|end_char=52
+6	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	obj	_	start_char=53|end_char=56
+7	kotiin	koti	NOUN	N	Case=Ill|Number=Sing	5	obl	_	start_char=57|end_char=63
+8	pelaamaan	pelata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	start_char=64|end_char=73
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=73|end_char=74
+
+1	Ajattelin	ajatella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=75|end_char=84
+2	,	,	PUNCT	Punct	_	8	punct	_	start_char=84|end_char=85
+3	että	että	SCONJ	C	_	8	mark	_	start_char=86|end_char=90
+4	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	_	start_char=91|end_char=93
+5	voisi	voida	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	aux	_	start_char=94|end_char=99
+6	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	cop	_	start_char=100|end_char=104
+7	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	start_char=105|end_char=109
+8	lahja	lahja	NOUN	N	Case=Nom|Number=Sing	1	ccomp	_	start_char=110|end_char=115
+9	tuntemalleni	tuntea	VERB	V	Case=Tra|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	8	acl	_	start_char=116|end_char=128
+10	seitsemänvuotiaalle	seitsemän#vuotias	ADJ	A	Case=All|Degree=Pos|Number=Sing	9	obl	_	start_char=129|end_char=148
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=148|end_char=149
+
+1	Pelit	peli	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=150|end_char=155
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=156|end_char=160
+3	hauskoja	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=161|end_char=169
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=169|end_char=170
+5	sikäli	sikäli	ADV	Adv	_	6	advmod	_	start_char=171|end_char=177
+6	kuin	kuin	SCONJ	C	_	7	mark	_	start_char=178|end_char=182
+7	pystyin	pystyä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=183|end_char=190
+8	sietämään	sietää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=191|end_char=200
+9	desibelin	desibeli	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=201|end_char=210
+10	tasoa	taso	NOUN	N	Case=Par|Number=Sing	8	obj	_	start_char=211|end_char=216
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=216|end_char=217
+
+1	Jotta	jotta	SCONJ	C	_	3	mark	_	start_char=218|end_char=223
+2	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	3	aux	_	start_char=224|end_char=230
+3	kuullut	kuulla	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	9	advcl	_	start_char=231|end_char=238
+4	äänet	ääni	NOUN	N	Case=Nom|Number=Plur	3	obj	_	start_char=239|end_char=244
+5	,	,	PUNCT	Punct	_	3	punct	_	start_char=244|end_char=245
+6	musiikki	musiikki	NOUN	N	Case=Nom|Number=Sing	9	nsubj:cop	_	start_char=246|end_char=254
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=255|end_char=258
+8	niin	niin	ADV	Adv	_	9	advmod	_	start_char=259|end_char=263
+9	äänekästä	äänekäs	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=264|end_char=273
+10	,	,	PUNCT	Punct	_	14	punct	_	start_char=273|end_char=274
+11	että	että	SCONJ	C	_	14	mark	_	start_char=275|end_char=279
+12	täysi	täysi	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	start_char=280|end_char=285
+13	ääni	ääni	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	start_char=286|end_char=290
+14	satutti	satuttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	start_char=291|end_char=298
+15	korviani	korva	NOUN	N	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=1	14	obj	_	start_char=299|end_char=307
+16	.	.	PUNCT	Punct	_	9	punct	_	start_char=307|end_char=308
+
+1	Jos	jos	SCONJ	C	_	7	mark	_	start_char=309|end_char=312
+2	musiikin	musiikki	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=313|end_char=321
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=322|end_char=324
+4	äänien	ääni	NOUN	N	Case=Gen|Number=Plur	2	conj	_	start_char=325|end_char=331
+5	suhteellinen	suhteellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	6	amod	_	start_char=332|end_char=344
+6	äänekkyys	äänekkyys	NOUN	N	Case=Nom|Number=Sing	7	obj	_	start_char=345|end_char=354
+7	kumottaisiin	kumota	VERB	V	Mood=Cnd|VerbForm=Fin|Voice=Pass	12	advcl	_	start_char=355|end_char=367
+8	,	,	PUNCT	Punct	_	7	punct	_	start_char=367|end_char=368
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	_	start_char=369|end_char=371
+10	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	cop	_	start_char=372|end_char=377
+11	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	12	amod	_	start_char=378|end_char=385
+12	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=386|end_char=391
+13	.	.	PUNCT	Punct	_	12	punct	_	start_char=391|end_char=392
+

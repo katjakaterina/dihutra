@@ -1,0 +1,94 @@
+1	Suuret	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=6
+2	letut	letu	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=7|end_char=12
+
+1	Hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=13|end_char=17
+2	yhdysvaltalainen	yhdysvaltalainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	3	amod	_	start_char=18|end_char=34
+3	yritys	yritys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=35|end_char=41
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=41|end_char=42
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=43|end_char=47
+6	seisoo	seisoa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=48|end_char=54
+7	tuotteidensa	tuote	NOUN	N	Case=Gen|Number=Plur|Person[psor]=3	6	obl	_	start_char=55|end_char=67
+8	takana	takana	ADP	Adp	AdpType=Post	7	case	_	start_char=68|end_char=74
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=74|end_char=75
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=76|end_char=80
+2	joutunut	joutua	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=81|end_char=89
+3	takaamaan	taata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=90|end_char=99
+4	kaksi	kaksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	5	nummod	_	start_char=100|end_char=105
+5	letkua	letku	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=106|end_char=112
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=112|end_char=113
+7	ja	ja	CCONJ	C	_	9	cc	_	start_char=114|end_char=116
+8	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	9	nsubj	_	start_char=117|end_char=119
+9	lähettävät	lähettää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=120|end_char=130
+10	varaosia	varaosi	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=131|end_char=139
+11	suoraan	suoraan	ADV	Adv	_	12	advmod	_	start_char=140|end_char=147
+12	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	9	obl	_	start_char=148|end_char=155
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=155|end_char=156
+
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=157|end_char=164
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=165|end_char=168
+3	yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	4	nummod	_	start_char=169|end_char=173
+4	repeämä	repeämä	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=174|end_char=181
+5	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	6	det	_	start_char=182|end_char=188
+6	ajan	aika	NOUN	N	Case=Gen|Number=Sing	7	nsubj	_	start_char=189|end_char=193
+7	kuluttua	kulua	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	1	advcl	_	start_char=194|end_char=202
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=202|end_char=203
+
+1	Sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=204|end_char=207
+2	näki	nähdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=208|end_char=212
+3	viikkojen	viikko	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	start_char=213|end_char=222
+4	ajan	aika	NOUN	N	Case=Gen|Number=Sing	2	obl	_	start_char=223|end_char=227
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=227|end_char=228
+6	ennen	ennen	ADV	Adv	_	7	advmod	_	start_char=229|end_char=234
+7	kuin	kuin	SCONJ	C	_	9	mark	_	start_char=235|end_char=239
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=240|end_char=242
+9	meni	mennä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=243|end_char=247
+10	yllätyksettömäksi	yllätyksetön	ADJ	A	Case=Tra|Degree=Pos|Derivation=Ton|Number=Sing	9	xcomp	_	start_char=248|end_char=265
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=265|end_char=266
+
+1	Toinen	toinen	PRON	Pron	Case=Nom|Number=Sing|PronType=Rcp	2	nsubj	_	start_char=267|end_char=273
+2	liittyi	liittyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=274|end_char=281
+3	talveen	talvi	NOUN	N	Case=Ill|Number=Sing	2	obl	_	start_char=282|end_char=289
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=289|end_char=290
+5	koska	koska	SCONJ	C	_	7	mark	_	start_char=291|end_char=296
+6	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=297|end_char=301
+7	paha	paha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	advcl	_	start_char=302|end_char=306
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=307|end_char=309
+9	jätän	jättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=310|end_char=315
+10	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	12	det	_	start_char=316|end_char=318
+11	suurimman	suuri	ADJ	A	Case=Gen|Degree=Sup|Number=Sing	12	amod	_	start_char=319|end_char=328
+12	osan	osa	NOUN	N	Case=Gen|Number=Sing	9	obj	_	start_char=329|end_char=333
+13	ajasta	aika	NOUN	N	Case=Ela|Number=Sing	9	obl	_	start_char=334|end_char=340
+14	pois	pois	ADV	Adv	_	9	advmod	_	start_char=341|end_char=345
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=345|end_char=346
+
+1	Kovin	kovin	ADV	Adv	_	2	advmod	_	start_char=347|end_char=352
+2	rennosti	rennosti	ADV	Adv	Derivation=Sti	0	root	_	start_char=353|end_char=361
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=361|end_char=362
+
+1	Pane	panna	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=363|end_char=367
+2	merkille	merkki	NOUN	N	Case=All|Number=Sing	1	obl	_	start_char=368|end_char=376
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=376|end_char=377
+4	että	että	SCONJ	C	_	7	mark	_	start_char=378|end_char=382
+5	satajalkainen	sata#jalkainen	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=383|end_char=396
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=397|end_char=399
+7	painava	painava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	ccomp	_	start_char=400|end_char=407
+8	ja	ja	CCONJ	C	_	10	cc	_	start_char=408|end_char=410
+9	kuin	kuin	SCONJ	C	_	10	mark	_	start_char=411|end_char=415
+10	vääntäisi	vääntää	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	conj	_	start_char=416|end_char=425
+11	anakondaa	ana#konda	NOUN	N	Case=Par|Number=Sing	10	obj	_	start_char=426|end_char=435
+12	,	,	PUNCT	Punct	_	17	punct	_	start_char=435|end_char=436
+13	kun	kun	SCONJ	C	_	17	mark	_	start_char=437|end_char=440
+14	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	15	nmod:poss	_	start_char=441|end_char=444
+15	aika	aika	NOUN	N	Case=Nom|Number=Sing	17	obj	_	start_char=445|end_char=449
+16	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	start_char=450|end_char=452
+17	laittaa	laittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=453|end_char=460
+18	pois	pois	ADV	Adv	_	17	advmod	_	start_char=461|end_char=465
+19	,	,	PUNCT	Punct	_	21	punct	_	start_char=465|end_char=466
+20	mutta	mutta	CCONJ	C	_	21	cc	_	start_char=467|end_char=472
+21	sillä	se	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	17	conj	_	start_char=473|end_char=478
+22	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop:own	_	start_char=479|end_char=481
+23	pitkä	pitkä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	24	amod	_	start_char=482|end_char=487
+24	matka	matka	NOUN	N	Case=Nom|Number=Sing	21	nsubj:cop	_	start_char=488|end_char=493
+25	.	.	PUNCT	Punct	_	1	punct	_	start_char=493|end_char=494
+

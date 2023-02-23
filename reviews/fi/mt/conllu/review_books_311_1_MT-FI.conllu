@@ -1,0 +1,75 @@
+1	Kirja	kirja	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=0|end_char=5
+2	pirstaleina	pirstali	NOUN	N	Case=Ess|Number=Plur	1	nmod	_	start_char=6|end_char=17
+3	kun	kun	SCONJ	C	_	4	mark	_	start_char=18|end_char=21
+4	vastaanotetaan	vastaanottaa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	start_char=22|end_char=36
+5	ÄLÄ	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=37|end_char=40
+6	OSTA	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=45
+7	TÄSTÄ	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	8	det	_	start_char=46|end_char=51
+8	KIRJASTA	kirjasta	NOUN	N	Case=Ela|Number=Sing	6	obl	_	start_char=52|end_char=60
+9	Amazon.com	Amazon.com	PROPN	N	Case=Nom|Number=Sing	6	obj	_	start_char=61|end_char=71
+10	LLC	LLC	PROPN	N	Case=Nom|Number=Sing	9	flat:name	_	start_char=72|end_char=75
+11	.	.	PUNCT	Punct	_	6	punct	_	start_char=76|end_char=77
+
+1	Tilasin	tilata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=78|end_char=85
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=86|end_char=91
+3	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=92|end_char=98
+4	aiemmin	aiemmin	ADV	Adv	_	1	advmod	_	start_char=99|end_char=106
+5	viikolla	viikko	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=107|end_char=115
+6	Amazon	Amazo	PROPN	N	Case=Nom|Number=Sing	9	obl	_	start_char=116|end_char=122
+7	Primen	Prime	PROPN	N	Case=Gen|Number=Sing	6	flat:name	_	start_char=123|end_char=129
+8	kanssa	kanssa	ADP	Adp	AdpType=Post	6	case	_	start_char=130|end_char=136
+9	lähtevää	lähteä	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	10	acl	_	start_char=137|end_char=145
+10	lahjaa	lahja	NOUN	N	Case=Par|Number=Sing	1	obl	_	start_char=146|end_char=152
+11	varten	varten	ADP	Adp	AdpType=Post	10	case	_	start_char=153|end_char=159
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=159|end_char=160
+
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=161|end_char=165
+2	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=166|end_char=172
+3	tänään	tänään	ADV	Adv	_	1	advmod	_	start_char=173|end_char=179
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=179|end_char=180
+
+1	Juhlat	juhla	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=181|end_char=187
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=188|end_char=192
+3	huomenna	huomenna	ADV	Adv	_	0	root	_	start_char=193|end_char=201
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=201|end_char=202
+
+1	Puolet	puoli	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	start_char=203|end_char=209
+2	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=210|end_char=216
+3	hihasta	hiha	NOUN	N	Case=Ela|Number=Sing	1	nmod	_	start_char=217|end_char=224
+4	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=225|end_char=232
+5	katkaistun	katkaista	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	start_char=233|end_char=243
+6	tarkalla	tarkka	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	7	amod	_	start_char=244|end_char=252
+7	veitsellä	veisse	NOUN	N	Case=Ade|Number=Sing	5	obl	_	start_char=253|end_char=262
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=263|end_char=265
+9	jättäneen	jättää	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	conj	_	start_char=266|end_char=275
+10	myös	myös	ADV	Adv	_	11	advmod	_	start_char=276|end_char=280
+11	haavoja	haava	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=281|end_char=288
+12	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	13	nmod:poss	_	start_char=289|end_char=295
+13	kanteen	kansi	NOUN	N	Case=Ill|Number=Sing	9	obl	_	start_char=296|end_char=303
+14	.	.	PUNCT	Punct	_	4	punct	_	start_char=303|end_char=304
+
+1	Pakkaus	pakkaus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	3	nsubj:cop	_	start_char=305|end_char=312
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=313|end_char=316
+3	hieno	hieno	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=317|end_char=322
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=322|end_char=323
+
+1	Voisin	voida	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	aux	_	start_char=324|end_char=330
+2	palauttaa	palauttaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=331|end_char=340
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=341|end_char=344
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=344|end_char=345
+5	mutta	mutta	CCONJ	C	_	8	cc	_	start_char=346|end_char=351
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	start_char=352|end_char=354
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=355|end_char=357
+8	palaisi	palata	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	2	conj	_	start_char=358|end_char=365
+9	ennen	ennen	ADP	Adp	AdpType=Prep	10	case	_	start_char=366|end_char=371
+10	huomista	huominen	NOUN	N	Case=Par|Number=Sing	8	obl	_	start_char=372|end_char=380
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=380|end_char=381
+
+1	Kuluta	kuluttaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=382|end_char=388
+2	ylimääräistä	yli#määräinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	1	obj	_	start_char=389|end_char=401
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=402|end_char=404
+4	käytä	käyttää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=405|end_char=410
+5	toista	toinen	PRON	Pron	Case=Par|Number=Sing|PronType=Rcp	6	det	_	start_char=411|end_char=417
+6	myyjää	myyjä	NOUN	N	Case=Par|Derivation=Ja|Number=Sing	4	obj	_	start_char=418|end_char=424
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=424|end_char=425
+

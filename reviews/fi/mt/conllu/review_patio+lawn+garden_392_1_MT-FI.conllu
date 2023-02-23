@@ -1,0 +1,95 @@
+1	Ei	ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=2
+2	pensaille	pensas	NOUN	N	Case=All|Number=Plur	1	obl	_	start_char=3|end_char=12
+
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=13|end_char=20
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=21|end_char=23
+3	Arizonassa	Arizona	PROPN	N	Case=Ine|Number=Sing	1	obl	_	start_char=24|end_char=34
+4	iso	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=35|end_char=38
+5	kiinteistö	kiinteistö	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=39|end_char=49
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=49|end_char=50
+7	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	start_char=51|end_char=55
+8	vaatii	vaatia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=56|end_char=62
+9	aika	aika	ADV	Adv	_	10	advmod	_	start_char=63|end_char=67
+10	ajoin	ajoin	ADV	Adv	_	8	advmod	_	start_char=68|end_char=73
+11	pensaiden	pensas	NOUN	N	Case=Gen|Number=Plur	12	nmod:gobj	_	start_char=74|end_char=83
+12	poistamista	poistaminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	8	obj	_	start_char=84|end_char=95
+13	,	,	PUNCT	Punct	_	15	punct	_	start_char=95|end_char=96
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=97|end_char=99
+15	ajattelin	ajatella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=100|end_char=109
+16	,	,	PUNCT	Punct	_	19	punct	_	start_char=109|end_char=110
+17	että	että	SCONJ	C	_	19	mark	_	start_char=111|end_char=115
+18	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	19	nsubj	_	start_char=116|end_char=120
+19	näytti	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	start_char=121|end_char=127
+20	täydelliseltä	täydellinen	ADJ	A	Case=Abl|Degree=Pos|Derivation=Llinen|Number=Sing	21	amod	_	start_char=128|end_char=141
+21	työkalulta	työ#kalu	NOUN	N	Case=Abl|Number=Sing	19	obl	_	start_char=142|end_char=152
+22	leikata	leikata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=153|end_char=160
+23	jälkiruokapensaan	jälki#ruoka#pensas	NOUN	N	Case=Ill|Number=Sing	22	obl	_	start_char=161|end_char=178
+24	päärungot	pää#runko	NOUN	N	Case=Nom|Number=Plur	22	obj	_	start_char=179|end_char=188
+25	/oksat	/oksa	NOUN	N	Case=Nom|Number=Plur	22	obj	_	start_char=188|end_char=194
+26	;	;	PUNCT	Punct	_	27	punct	_	start_char=194|end_char=195
+27	EI	ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	parataxis	_	start_char=196|end_char=198
+28	!	!	PUNCT	Punct	_	27	punct	_	start_char=198|end_char=199
+29	!	!	PUNCT	Punct	_	1	punct	_	start_char=199|end_char=200
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=201|end_char=203
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=204|end_char=207
+3	kokeilemisen	kokeileminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	4	nmod:poss	_	start_char=208|end_char=220
+4	arvoinen	arvoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=221|end_char=229
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=229|end_char=230
+6	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=231|end_char=236
+7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	start_char=237|end_char=239
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	start_char=240|end_char=242
+9	kömpelö	kömpelö	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	start_char=243|end_char=250
+10	,	,	PUNCT	Punct	_	13	punct	_	start_char=250|end_char=251
+11	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=252|end_char=256
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj	_	start_char=257|end_char=259
+13	leikkaa	leikata	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=260|end_char=267
+14	läpi	läpi	ADV	Adv	_	13	compound:prt	_	start_char=268|end_char=272
+15	useimpia	usea	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	19	amod	_	start_char=273|end_char=281
+16	tyypillisen	tyypillinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Sing	17	amod	_	start_char=282|end_char=293
+17	aavikkopensaan	aavikko#pensas	NOUN	N	Case=Ill|Number=Sing	13	obl	_	start_char=294|end_char=308
+18	kuituisia	kuituinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	19	amod	_	start_char=309|end_char=318
+19	versoja	verso	NOUN	N	Case=Par|Number=Plur	13	obj	_	start_char=319|end_char=326
+20	.	.	PUNCT	Punct	_	4	punct	_	start_char=326|end_char=327
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=328|end_char=332
+2	palannut	palata	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=333|end_char=341
+3	poimintaan	poiminta	NOUN	N	Case=Ill|Number=Sing	2	obl	_	start_char=342|end_char=352
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=353|end_char=355
+5	lapioon	lapio	NOUN	N	Case=Ill|Number=Sing	3	conj	_	start_char=356|end_char=363
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=363|end_char=364
+
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=364|end_char=371
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=372|end_char=374
+3	paljon	paljon	ADV	Adv	_	4	advmod	_	start_char=375|end_char=381
+4	työkaluja	työ#kalu	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=382|end_char=391
+5	puun	puu	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=392|end_char=396
+6	raajoihin	raaja	NOUN	N	Case=Ill|Number=Plur	4	nmod	_	start_char=397|end_char=406
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=406|end_char=407
+8	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	_	start_char=408|end_char=413
+9	tekevät	tehdä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=414|end_char=421
+10	paljon	paljon	ADV	Adv	_	11	advmod	_	start_char=422|end_char=428
+11	parempaa	hyvä	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	12	amod	_	start_char=429|end_char=437
+12	työtä	työ	NOUN	N	Case=Par|Number=Sing	9	obj	_	start_char=438|end_char=443
+13	kuin	kuin	SCONJ	C	_	14	mark	_	start_char=444|end_char=448
+14	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	advcl	_	start_char=449|end_char=453
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=453|end_char=454
+
+1	Aion	aikoa	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=454|end_char=458
+2	antaa	antaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=459|end_char=464
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=465|end_char=468
+4	veljelleni	veli	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=469|end_char=479
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=479|end_char=480
+6	:>	:>	SYM	Symb	_	2	discourse	_	start_char=481|end_char=483
+7	)	)	PUNCT	Punct	_	2	punct	_	start_char=483|end_char=484
+
+1	Huom	Huom	INTJ	Interj	_	0	root	_	start_char=485|end_char=489
+2	.	.	PUNCT	Punct	_	1	punct	_	start_char=489|end_char=490
+
+1	Luokitukseni	luokitus	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	start_char=491|end_char=503
+2	kohdistuu	kohdistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=504|end_char=513
+3	tiukasti	tiukasti	ADV	Adv	Derivation=Sti	4	advmod	_	start_char=514|end_char=522
+4	mainittuun	mainita	VERB	V	Case=Ill|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=523|end_char=533
+5	hakemukseen	hakemus	NOUN	N	Case=Ill|Number=Sing	2	obl	_	start_char=534|end_char=545
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=545|end_char=546
+

@@ -1,0 +1,56 @@
+1	Käden	käsi	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=0|end_char=5
+2	taputus	taputus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=6|end_char=13
+3	varpaankynttä	varpaan#kynsi	NOUN	N	Case=Par|Number=Sing	2	nmod	_	start_char=14|end_char=27
+4	vanhainkodissa	vanhain#koti	NOUN	N	Case=Ine|Number=Sing	2	nmod	_	start_char=28|end_char=42
+
+1	Käytämme	käyttää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=43|end_char=51
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	det	_	start_char=52|end_char=56
+3	virsikirjaa	virsi#kirja	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=57|end_char=68
+4	tehtävässä	tehtävä	NOUN	N	Case=Ine|Number=Sing	1	obl	_	start_char=69|end_char=79
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=79|end_char=80
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=81|end_char=83
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=84|end_char=86
+3	suurin	suuri	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	4	amod	_	start_char=87|end_char=93
+4	osa	osa	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=94|end_char=97
+5	hyvin	hyvin	ADV	Adv	_	6	advmod	_	start_char=98|end_char=103
+6	rakastetuista	rakastaa	VERB	V	Case=Ela|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=104|end_char=117
+7	vanhuksista	vanhus	NOUN	N	Case=Ela|Number=Plur	4	nmod	_	start_char=118|end_char=129
+8	menneiltä	mennyt	ADJ	A	Case=Abl|Degree=Pos|Number=Plur	9	amod	_	start_char=130|end_char=139
+9	ajoilta	aika	NOUN	N	Case=Abl|Number=Plur	4	nmod	_	start_char=140|end_char=147
+10	.	.	PUNCT	Punct	_	4	punct	_	start_char=147|end_char=148
+
+1	Lauluja	laulu	NOUN	N	Case=Par|Derivation=U|Number=Plur	0	root	_	start_char=149|end_char=156
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=156|end_char=157
+3	kuten	kuten	ADV	Adv	_	6	advmod	_	start_char=158|end_char=163
+4	:	:	PUNCT	Punct	_	6	punct	_	start_char=163|end_char=164
+5	"	"	PUNCT	Punct	_	6	punct	_	start_char=165|end_char=166
+6	Lennän	lennä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=166|end_char=172
+7	pois	pois	ADV	Adv	_	6	advmod	_	start_char=173|end_char=177
+8	"	"	PUNCT	Punct	_	11	punct	_	start_char=177|end_char=178
+9	ja	ja	CCONJ	C	_	11	cc	_	start_char=179|end_char=181
+10	"	"	PUNCT	Punct	_	11	punct	_	start_char=182|end_char=183
+11	Closser	Closser	PROPN	N	Case=Nom|Number=Sing	6	conj	_	start_char=183|end_char=190
+12	Walk	Walk	PROPN	N	Case=Nom|Number=Sing	11	flat:name	_	start_char=191|end_char=195
+13	kanssasi	kanssa	ADV	Adv	Number[psor]=Sing|Person[psor]=1	11	advmod	_	start_char=196|end_char=204
+14	.	.	PUNCT	Punct	_	6	punct	_	start_char=204|end_char=205
+15	"	"	PUNCT	Punct	_	6	punct	_	start_char=205|end_char=206
+
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=207|end_char=210
+2	haluat	haluta	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=211|end_char=217
+3	hyvän	hyvä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=218|end_char=223
+4	laulun	laulu	NOUN	N	Case=Gen|Derivation=U|Number=Sing	2	obj	_	start_char=224|end_char=230
+5	,	,	PUNCT	Punct	_	2	punct	_	start_char=230|end_char=231
+6	nautit	nauttia	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=232|end_char=238
+7	todella	todella	ADV	Adv	_	6	advmod	_	start_char=239|end_char=246
+8	"	"	PUNCT	Punct	_	10	punct	_	start_char=247|end_char=248
+9	taivaallisesta	taivaallinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Llinen|Number=Sing	10	amod	_	start_char=248|end_char=262
+10	Hiway	Hiway	PROPN	N	Case=Nom|Number=Sing	6	obl	_	start_char=263|end_char=268
+11	Hymnsistä	Hymnsinen	PROPN	N	Case=Ela|Number=Sing	10	flat:name	_	start_char=269|end_char=278
+12	"	"	PUNCT	Punct	_	10	punct	_	start_char=278|end_char=279
+13	.	.	PUNCT	Punct	_	6	punct	_	start_char=279|end_char=280
+
+1	Siunattu	siunata	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	2	nsubj	_	start_char=281|end_char=289
+2	olkoon	olla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=290|end_char=296
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=296|end_char=297
+

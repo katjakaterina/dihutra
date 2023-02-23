@@ -1,0 +1,64 @@
+1	lokasuoja	loka#suoja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=9
+2	18	18	NUM	Num	NumType=Card	3	nummod	_	start_char=10|end_char=12
+3	jalkaa	jalka	NOUN	N	Case=Par|Number=Sing	1	nmod	_	start_char=13|end_char=19
+4	Cali	Cali	PROPN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=20|end_char=24
+5	tyhjä	tyhjä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=25|end_char=30
+6	...	...	PUNCT	Punct	_	1	punct	_	start_char=30|end_char=33
+
+1	Halusi	haluta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=34|end_char=40
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	nsubj	_	start_char=41|end_char=44
+3	vain	vain	ADV	Adv	_	4	advmod	_	start_char=45|end_char=49
+4	näyttää	näyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=50|end_char=57
+5	yksin	yksin	ADV	Adv	_	4	advmod	_	start_char=58|end_char=63
+6	...	...	PUNCT	Punct	_	1	punct	_	start_char=64|end_char=67
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=68|end_char=70
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=71|end_char=73
+3	mukavan	mukava	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=74|end_char=81
+4	näköinen	näköinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	5	amod	_	start_char=82|end_char=90
+5	napanuora	napa#nuora	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=91|end_char=100
+6	...	...	PUNCT	Punct	_	5	punct	_	start_char=100|end_char=103
+
+1	Tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=104|end_char=110
+2	,	,	PUNCT	Punct	_	5	punct	_	start_char=110|end_char=111
+3	että	että	SCONJ	C	_	5	mark	_	start_char=112|end_char=116
+4	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj	_	start_char=117|end_char=119
+5	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=120|end_char=126
+6	...	...	PUNCT	Punct	_	1	punct	_	start_char=126|end_char=129
+
+1	Sam	Sam	PROPN	N	Case=Nom|Number=Sing	6	obl	_	start_char=130|end_char=133
+2	Ashille	Ashille	PROPN	N	Case=All|Number=Sing	1	flat:name	_	start_char=134|end_char=141
+3	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	det	_	start_char=142|end_char=146
+4	johto	johto	NOUN	N	Case=Nom|Number=Sing	6	obj	_	start_char=147|end_char=152
+5	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=153|end_char=156
+6	pakattu	pakattaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=157|end_char=164
+7	postilaatikkoon	posti#laatikko	NOUN	N	Case=Ill|Number=Sing	6	obl	_	start_char=165|end_char=180
+8	toisessa	toinen	ADJ	Num	Case=Ine|Derivation=Inen|NumType=Ord|Number=Sing	9	amod	_	start_char=181|end_char=189
+9	laatikossa	laatikko	NOUN	N	Case=Ine|Number=Sing	6	obl	_	start_char=190|end_char=200
+10	Roc	Roc	PROPN	N	Case=Nom|Number=Sing	9	nmod	_	start_char=201|end_char=204
+11	n	n	NOUN	N	Case=Gen|Number=Sing	10	flat:name	_	start_char=205|end_char=206
+12	Socin	Socin	PROPN	N	Case=Gen|Number=Sing	10	flat:name	_	start_char=207|end_char=212
+13	kanssa	kanssa	ADP	Adp	AdpType=Post	10	case	_	start_char=213|end_char=219
+14	...	...	PUNCT	Punct	_	6	punct	_	start_char=219|end_char=222
+
+1	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	start_char=223|end_char=228
+2	lähetystiiminsä	lähetys#tiimi	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	3	nsubj	_	start_char=229|end_char=244
+3	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=245|end_char=250
+4	hyvää	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	start_char=251|end_char=256
+5	työtä	työ	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=257|end_char=262
+6	...	...	PUNCT	Punct	_	3	punct	_	start_char=262|end_char=265
+
+1	ei	ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	_	start_char=266|end_char=268
+2	koskaan	koskaan	ADV	Adv	_	1	advmod	_	start_char=269|end_char=276
+3	valituksia	valitus	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=277|end_char=287
+4	minulta	minä	PRON	Pron	Case=Abl|Number=Sing|Person=1|PronType=Prs	1	obl	_	start_char=288|end_char=295
+5	...	...	PUNCT	Punct	_	1	punct	_	start_char=295|end_char=298
+
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=299|end_char=307
+2	Sam	Sam	PROPN	N	Case=Nom|Number=Sing	1	obj	_	start_char=308|end_char=311
+3	Ashia	Ashia	PROPN	N	Case=Par|Number=Sing	2	flat:name	_	start_char=312|end_char=317
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=317|end_char=318
+5	kiitos	kiitos	NOUN	N	Case=Nom|Number=Sing	1	obl	_	start_char=319|end_char=325
+6	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	5	flat:name	_	start_char=326|end_char=334
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=334|end_char=335
+

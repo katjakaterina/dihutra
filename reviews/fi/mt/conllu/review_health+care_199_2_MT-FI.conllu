@@ -1,0 +1,66 @@
+1	Vanhat	vanha	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=6
+2	paristot	paristo	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	start_char=7|end_char=15
+3	tulivat	tulla	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=23
+4	ulos	ulos	ADV	Adv	_	3	advmod	_	start_char=24|end_char=28
+5	muovikotelossa	muovi#kotelo	NOUN	N	Case=Ine|Number=Sing	3	obl	_	start_char=29|end_char=43
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=43|end_char=44
+
+1	Tuote	tuote	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=45|end_char=50
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=51|end_char=53
+3	saapunut	saapua	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=54|end_char=62
+4	pahvikortilla	pahvi#kortti	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=63|end_char=76
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=76|end_char=77
+6	vaan	vaan	CCONJ	C	_	8	cc	_	start_char=78|end_char=82
+7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	start_char=83|end_char=85
+8	saapui	saapua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=86|end_char=92
+9	helposti	helposti	ADV	Adv	Derivation=Sti	8	advmod	_	start_char=93|end_char=101
+10	avattavassa	avata	VERB	V	Case=Ine|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	11	acl	_	start_char=102|end_char=113
+11	muovikotelossa	muovi#kotelo	NOUN	N	Case=Ine|Number=Sing	8	obl	_	start_char=114|end_char=128
+12	,	,	PUNCT	Punct	_	19	punct	_	start_char=128|end_char=129
+13	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	15	nmod:poss	_	start_char=130|end_char=135
+14	viimeinen	viimeinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	15	amod	_	start_char=136|end_char=145
+15	käyttöpäivä	käyttö#päivä	NOUN	N	Case=Nom|Number=Sing	19	nsubj:cop	_	start_char=146|end_char=157
+16	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	start_char=158|end_char=160
+17	vain	vain	ADV	Adv	_	18	advmod	_	start_char=161|end_char=165
+18	kolme	kolme	NUM	Num	Case=Nom|NumType=Card|Number=Sing	19	nummod	_	start_char=166|end_char=171
+19	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	11	acl:relcl	_	start_char=172|end_char=178
+20	.	.	PUNCT	Punct	_	3	punct	_	start_char=178|end_char=179
+
+1	Tuoreilla	tuore	ADJ	A	Case=Ade|Degree=Pos|Number=Plur	2	amod	_	start_char=180|end_char=189
+2	paristoilla	parista	NOUN	N	Case=Ade|Number=Plur	0	root	_	start_char=190|end_char=201
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=202|end_char=204
+4	viiden	viisi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	5	nummod	_	start_char=205|end_char=211
+5	vuoden	vuosi	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=212|end_char=218
+6	viimeinen	viimeinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	7	amod	_	start_char=219|end_char=228
+7	käyttöpäivä	käyttö#päivä	NOUN	N	Case=Nom|Number=Sing	2	nsubj:cop	_	start_char=229|end_char=240
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=240|end_char=241
+
+1	Tavaran	tavara	NOUN	N	Case=Gen|Number=Sing	2	nmod:gobj	_	start_char=242|end_char=249
+2	kuvausta	kuvaus	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=250|end_char=258
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=259|end_char=261
+4	kuvaa	kuva	NOUN	N	Case=Par|Number=Sing	2	conj	_	start_char=262|end_char=267
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=268|end_char=270
+6	muutettava	muuttaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	start_char=271|end_char=281
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=281|end_char=282
+8	jos	jos	SCONJ	C	_	11	mark	_	start_char=283|end_char=286
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=287|end_char=289
+10	aikoo	aikoa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=290|end_char=295
+11	myydä	myydä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=296|end_char=301
+12	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	13	nmod:poss	_	start_char=302|end_char=310
+13	asiakkaille	asiakas	NOUN	N	Case=All|Number=Plur	11	obl	_	start_char=311|end_char=322
+14	toisen	toinen	ADJ	Num	Case=Gen|Derivation=Inen|NumType=Ord|Number=Sing	17	amod	_	start_char=323|end_char=329
+15	ja	ja	CCONJ	C	_	16	cc	_	start_char=330|end_char=332
+16	vanhemman	vanha	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	14	conj	_	start_char=333|end_char=342
+17	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	11	obj	_	start_char=343|end_char=351
+18	.	.	PUNCT	Punct	_	6	punct	_	start_char=351|end_char=352
+
+1	He	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj:cop	_	start_char=353|end_char=355
+2	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=356|end_char=362
+3	mukavia	mukava	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=363|end_char=370
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=371|end_char=373
+5	lähettivät	lähettää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=374|end_char=384
+6	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	5	obl	_	start_char=385|end_char=392
+7	paluumerkin	paluu#merkki	NOUN	N	Case=Gen|Number=Sing	5	obj	_	start_char=393|end_char=404
+8	ilmaiseksi	ilmainen	ADJ	A	Case=Tra|Degree=Pos|Derivation=Inen|Number=Sing	5	obl	_	start_char=405|end_char=415
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=415|end_char=416
+

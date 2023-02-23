@@ -1,0 +1,57 @@
+1	Tältäkö	tämä	PRON	Pron	Case=Abl|Number=Sing|PronType=Int	4	obl	_	start_char=0|end_char=7
+2	ranskalainen	ranskalainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	3	amod	_	start_char=8|end_char=20
+3	kahvi	kahvi	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=21|end_char=26
+4	maistuu	maistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=27|end_char=34
+5	?	?	PUNCT	Punct	_	4	punct	_	start_char=34|end_char=35
+
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=37|end_char=40
+2	usko	uskoa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=45
+3	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=46|end_char=50
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=50|end_char=51
+5	!	!	PUNCT	Punct	_	2	punct	_	start_char=51|end_char=52
+6	!	!	PUNCT	Punct	_	2	punct	_	start_char=52|end_char=53
+
+1	Ehkä	ehkä	ADV	Adv	_	5	advmod	_	start_char=54|end_char=58
+2	paras	hyvä	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	3	amod	_	start_char=59|end_char=64
+3	kahvi	kahvi	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=65|end_char=70
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=71|end_char=73
+5	Yhdysvalloissa	Yhdysvallat	PROPN	N	Case=Ine|Number=Plur	0	root	_	start_char=74|end_char=88
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=88|end_char=89
+7	jos	jos	SCONJ	C	_	11	mark	_	start_char=90|end_char=93
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	_	start_char=94|end_char=98
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=99|end_char=101
+10	jokin	jokin	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	11	det	_	start_char=102|end_char=107
+11	esimerkki	esimerkki	NOUN	N	Case=Nom|Number=Sing	5	advcl	_	start_char=108|end_char=117
+12	.	.	PUNCT	Punct	_	5	punct	_	start_char=117|end_char=118
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=119|end_char=121
+2	oikein	oikein	ADV	Adv	_	3	advmod	_	start_char=122|end_char=128
+3	pitänyt	pitää	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=129|end_char=136
+4	kiklarista	kiklarinen	NOUN	N	Case=Ela|Number=Sing	3	obl	_	start_char=137|end_char=147
+5	,	,	PUNCT	Punct	_	11	punct	_	start_char=147|end_char=148
+6	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=149|end_char=154
+7	minusta	minä	PRON	Pron	Case=Ela|Number=Sing|Person=1|PronType=Prs	11	nmod	_	start_char=155|end_char=162
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	_	start_char=163|end_char=165
+9	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=166|end_char=169
+10	kokeilemisen	kokeileminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	11	nmod:poss	_	start_char=170|end_char=182
+11	arvoista	arvoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	3	conj	_	start_char=183|end_char=191
+12	.	.	PUNCT	Punct	_	3	punct	_	start_char=191|end_char=192
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=193|end_char=195
+2	maistu	maistua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=196|end_char=202
+3	kahvilta	kahvi	NOUN	N	Case=Abl|Number=Sing	2	obl	_	start_char=203|end_char=211
+4	-	-	PUNCT	Punct	_	9	punct	_	start_char=212|end_char=213
+5	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=214|end_char=219
+6	ehkä	ehkä	ADV	Adv	_	9	advmod	_	start_char=220|end_char=224
+7	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	obj	_	start_char=225|end_char=229
+8	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	aux	_	start_char=230|end_char=237
+9	kutsua	kutsua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	conj	_	start_char=238|end_char=244
+10	joksikin	joksikin	PRON	Pron	Case=Tra|Number=Sing|PronType=Ind	9	advmod	_	start_char=245|end_char=253
+11	muuksi	muu	PRON	Pron	Case=Tra|Number=Sing|PronType=Ind	9	obl	_	start_char=254|end_char=260
+12	-	-	PUNCT	Punct	_	14	punct	_	start_char=261|end_char=262
+13	joksikin	joksikin	ADV	Adv	_	14	advmod	_	start_char=263|end_char=271
+14	heikoksi	heikko	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	11	appos	_	start_char=272|end_char=280
+15	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=281|end_char=285
+16	maukkaaksi	maukas	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	14	conj	_	start_char=286|end_char=296
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=296|end_char=297
+

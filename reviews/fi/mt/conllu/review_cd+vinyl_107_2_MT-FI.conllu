@@ -1,0 +1,56 @@
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj	_	start_char=0|end_char=2
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=3|end_char=5
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=6|end_char=9
+4	rahan	raha	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=10|end_char=15
+5	arvoista	arvoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	6	amod	_	start_char=16|end_char=24
+6	CD	CD	PROPN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=25|end_char=27
+7	saapui	saapua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=28|end_char=34
+8	erinomaisissa	erinomainen	ADJ	A	Case=Ine|Degree=Pos|Derivation=Inen|Number=Plur	9	amod	_	start_char=35|end_char=48
+9	konditioissa	konditia	NOUN	N	Case=Ine|Number=Plur	7	obl	_	start_char=49|end_char=61
+10	ja	ja	CCONJ	C	_	11	cc	_	start_char=62|end_char=64
+11	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	9	conj	_	start_char=65|end_char=73
+12	.	.	PUNCT	Punct	_	7	punct	_	start_char=73|end_char=74
+
+1	Kauppatavara	kauppa#tavara	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=75|end_char=87
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=88|end_char=90
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=91|end_char=94
+4	rahan	raha	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=95|end_char=100
+5	arvoinen	arvoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=101|end_char=109
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=109|end_char=110
+
+1	Liian	liian	ADV	Adv	_	2	advmod	_	start_char=111|end_char=116
+2	suuri	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=117|end_char=122
+3	osa	osa	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=123|end_char=126
+4	alkuperäisestä	alku#peräinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Inen|Number=Sing	5	amod	_	start_char=127|end_char=141
+5	tarinasta	tarina	NOUN	N	Case=Ela|Number=Sing	3	nmod	_	start_char=142|end_char=151
+6	puuttuu	puuttua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=152|end_char=159
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=159|end_char=160
+8	jotta	jotta	SCONJ	C	_	11	mark	_	start_char=161|end_char=166
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	obj	_	start_char=167|end_char=169
+10	voitaisiin	voida	AUX	V	Mood=Cnd|VerbForm=Fin|Voice=Pass	11	aux	_	start_char=170|end_char=180
+11	tunkea	tunkea	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=181|end_char=187
+12	yhteen	yksi	NUM	Num	Case=Ill|NumType=Card|Number=Sing	13	nummod	_	start_char=188|end_char=194
+13	CD-levyyn	CD#levyy	NOUN	N	Case=Ill|Number=Sing	11	obl	_	start_char=195|end_char=204
+14	.	.	PUNCT	Punct	_	6	punct	_	start_char=204|end_char=205
+
+1	Jätän	jättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=206|end_char=211
+2	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	1	obl	_	start_char=212|end_char=219
+3	paljon	paljon	ADV	Adv	_	4	advmod	_	start_char=220|end_char=226
+4	kysymyksiä	kysymys	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=227|end_char=237
+5	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	4	nmod	_	start_char=238|end_char=243
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=243|end_char=244
+7	miten	miten	ADV	Adv	_	9	advmod	_	start_char=245|end_char=250
+8	Sherlock-kodit	Sherlock#koti	NOUN	N	Case=Nom|Number=Plur	9	nsubj	_	start_char=251|end_char=265
+9	päätyivät	päätyä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=266|end_char=275
+10	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	start_char=276|end_char=281
+11	tuloksilleen	tulos	NOUN	N	Case=All|Number=Plur|Person[psor]=3	9	obl	_	start_char=282|end_char=294
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=294|end_char=295
+
+1	Mielikuvituksesi	mieli#kuvitus	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	start_char=296|end_char=312
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=313|end_char=315
+3	riitä	riittää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=316|end_char=321
+4	täyttämään	täyttää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=322|end_char=332
+5	tarinan	tarina	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=333|end_char=340
+6	aukkoja	aukko	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=341|end_char=348
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=348|end_char=349
+

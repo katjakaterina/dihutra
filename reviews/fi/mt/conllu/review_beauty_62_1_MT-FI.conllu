@@ -1,0 +1,57 @@
+1	Teeskentele	teeskennellä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=11
+2	Macia	Macia	PROPN	N	Case=Par|Number=Sing	1	obj	_	start_char=12|end_char=17
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=17|end_char=18
+4	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=19|end_char=21
+5	kannata	kannattaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=22|end_char=29
+6	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=30|end_char=35
+7	tekomeikkiä	teko#meikki	NOUN	N	Case=Par|Number=Plur	6	obj	_	start_char=36|end_char=47
+8	!	!	PUNCT	Punct	_	1	punct	_	start_char=47|end_char=48
+
+1	Teeskentele	teeskennellä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=60
+2	Macia	Macia	PROPN	N	Case=Par|Number=Sing	1	obj	_	start_char=61|end_char=66
+3	.	.	PUNCT	Punct	_	1	punct	_	start_char=66|end_char=67
+
+1	Mac	Mac	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=68|end_char=71
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=72|end_char=74
+3	tee	tehdä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=75|end_char=78
+4	palettia	paletti	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=79|end_char=87
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=87|end_char=88
+6	vaan	vaan	CCONJ	C	_	7	cc	_	start_char=89|end_char=93
+7	soittaa	soittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=94|end_char=101
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=102|end_char=104
+9	kysyy	kysyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=105|end_char=110
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=110|end_char=111
+
+1	Kysy	kysyä	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=112|end_char=116
+2	myös	myös	ADV	Adv	_	4	advmod	_	start_char=117|end_char=121
+3	paikallisesta	paikallinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Llinen|Number=Sing	4	amod	_	start_char=122|end_char=135
+4	ostoskeskuksesta	ostos#keskus	NOUN	N	Case=Ela|Number=Sing	1	obl	_	start_char=136|end_char=152
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=152|end_char=153
+
+1	Yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	2	nummod	_	start_char=154|end_char=158
+2	vilkaisu	vilkaisu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	0	root	_	start_char=159|end_char=167
+3	kuvaan	kuva	NOUN	N	Case=Ill|Number=Sing	2	nmod	_	start_char=168|end_char=174
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=174|end_char=175
+5	ja	ja	CCONJ	C	_	7	cc	_	start_char=176|end_char=178
+6	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=179|end_char=181
+7	tietävät	tietää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=182|end_char=190
+8	,	,	PUNCT	Punct	_	14	punct	_	start_char=190|end_char=191
+9-10	ettei	_	_	_	_	_	_	_	start_char=192|end_char=197
+9	että	että	SCONJ	C	_	14	mark	_	_
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	_
+11	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj:cop	_	start_char=198|end_char=200
+12	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=201|end_char=204
+13	todellinen	todellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	14	amod	_	start_char=205|end_char=215
+14	MAC-tuote	MAC#tuote	NOUN	N	Case=Nom|Number=Sing	7	ccomp	_	start_char=216|end_char=225
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=225|end_char=226
+
+1	Pysy	pysyä	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=227|end_char=231
+2	kaukana	kaukana	ADV	Adv	_	1	advmod	_	start_char=232|end_char=239
+3	esineistä	esintä	NOUN	N	Case=Ela|Number=Plur	1	obl	_	start_char=240|end_char=249
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=249|end_char=250
+5	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	8	nsubj:cop	_	start_char=251|end_char=256
+6	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=257|end_char=262
+7	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=263|end_char=266
+8	aitoja	aito	ADJ	A	Case=Par|Degree=Pos|Number=Plur	3	acl:relcl	_	start_char=267|end_char=273
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=273|end_char=274
+

@@ -1,0 +1,49 @@
+1	Nyt	nyt	ADV	Adv	_	5	advmod	_	start_char=0|end_char=3
+2	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4|end_char=9
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=10|end_char=12
+4	tarvitse	tarvita	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=13|end_char=21
+5	kasvaa	kasvaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=22|end_char=28
+6	aikuiseksi	aikuinen	NOUN	N	Case=Tra|Number=Sing	5	xcomp	_	start_char=29|end_char=39
+
+1	Pystyn	pystyä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=40|end_char=46
+2	värittämään	värittää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=47|end_char=58
+3	yhdessä	yhdessä	ADV	Adv	_	4	advmod	_	start_char=59|end_char=66
+4	lastenlasteni	lapsi	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=67|end_char=80
+5	kanssa	kanssa	ADP	Adp	AdpType=Post	4	case	_	start_char=81|end_char=87
+6	ilman	ilman	ADV	Adv	_	2	advmod	_	start_char=88|end_char=93
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=93|end_char=94
+8	että	että	SCONJ	C	_	9	mark	_	start_char=95|end_char=99
+9	tunnen	tuntea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=100|end_char=106
+10	olevani	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	12	cop	_	start_char=107|end_char=114
+11	älyllisesti	älyllisesti	ADV	Adv	Derivation=Sti	12	advmod	_	start_char=115|end_char=126
+12	vaarassa	vaara	NOUN	N	Case=Ine|Number=Sing	9	xcomp	_	start_char=127|end_char=135
+13	projektissa	projekti	NOUN	N	Case=Ine|Number=Sing	12	nmod	_	start_char=136|end_char=147
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=147|end_char=148
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=149|end_char=153
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=154|end_char=159
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=160|end_char=162
+4	niin	niin	ADV	Adv	_	5	advmod	_	start_char=163|end_char=167
+5	mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=168|end_char=175
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=175|end_char=176
+7	että	että	SCONJ	C	_	9	mark	_	start_char=177|end_char=181
+8	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=182|end_char=186
+9	käyttänyt	käyttää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	ccomp	_	start_char=187|end_char=196
+10	joitakin	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	11	det	_	start_char=197|end_char=205
+11	malleja	malli	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=206|end_char=213
+12	lasimaalauksiin	lasi#maalaus	NOUN	N	Case=Ill|Number=Plur	9	obl	_	start_char=214|end_char=229
+13	.	.	PUNCT	Punct	_	5	punct	_	start_char=229|end_char=230
+
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=231|end_char=242
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	1	obj	_	start_char=243|end_char=247
+3	lämpimästi	lämpimästi	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=248|end_char=258
+4	kaikille	kaikki	PRON	Pron	Case=All|Number=Plur|PronType=Ind	1	obl	_	start_char=259|end_char=267
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=267|end_char=268
+6	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	8	nsubj	_	start_char=269|end_char=274
+7	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=275|end_char=280
+8	halua	haluta	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=281|end_char=286
+9	kasvaa	kasvaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=287|end_char=293
+10	pois	pois	ADV	Adv	_	9	advmod	_	start_char=294|end_char=298
+11	suosikkimenneisyydestä	suosikki#menneisyys	NOUN	N	Case=Ela|Number=Sing	10	nmod	_	start_char=299|end_char=321
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=321|end_char=322
+

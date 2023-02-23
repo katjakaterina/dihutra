@@ -1,0 +1,50 @@
+1	Ärsyttävää	ärsyttävä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=10
+2	ja	ja	CCONJ	C	_	4	cc	_	start_char=11|end_char=13
+3	aikaa	aika	NOUN	N	Case=Par|Number=Sing	4	nmod	_	start_char=14|end_char=19
+4	vievää	vievä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	1	conj	_	start_char=20|end_char=26
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=26|end_char=27
+
+1	Suuri	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=28|end_char=33
+2	mahdollisuus	mahdollisuus	NOUN	N	Case=Nom|Derivation=Llinen,Vs|Number=Sing	0	root	_	start_char=34|end_char=46
+3	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	acl	_	start_char=47|end_char=52
+4	tai	tai	CCONJ	C	_	5	cc	_	start_char=53|end_char=56
+5	antaa	antaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=57|end_char=62
+6	(	(	PUNCT	Punct	_	7	punct	_	start_char=63|end_char=64
+7	lahjaksi	lahja	NOUN	N	Case=Tra|Number=Sing	5	obl	_	start_char=64|end_char=72
+8	)	)	PUNCT	Punct	_	7	punct	_	start_char=72|end_char=73
+9	tauko	tauko	NOUN	N	Case=Nom|Number=Sing	2	nmod	_	start_char=74|end_char=79
+10	televisiosta	televisio	NOUN	N	Case=Ela|Number=Sing	9	nmod	_	start_char=80|end_char=92
+11	!	!	PUNCT	Punct	_	9	punct	_	start_char=92|end_char=93
+
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=94|end_char=102
+2	mukavaa	mukava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	amod	_	start_char=103|end_char=110
+3	ajan	aika	NOUN	N	Case=Gen|Number=Sing	0	root	_	start_char=111|end_char=115
+4	destraktille	destrakti	NOUN	N	Case=All|Number=Sing	5	nmod	_	start_char=116|end_char=128
+5	toiminnalle	toiminta	NOUN	N	Case=All|Number=Sing	3	nmod	_	start_char=129|end_char=140
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=140|end_char=141
+
+1	Osti	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=142|end_char=146
+2	14-vuotiaalle	14#vuotias	ADJ	A	Case=All|Degree=Pos|Number=Sing	3	amod	_	start_char=147|end_char=160
+3	veljentyttärelleni	veljentyttäri	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=161|end_char=179
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=179|end_char=180
+
+1	Vaikka	vaikka	SCONJ	C	_	3	mark	_	start_char=181|end_char=187
+2	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=188|end_char=191
+3	haluaisi	haluta	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=192|end_char=200
+4	mieluummin	mieluummin	ADV	Adv	_	3	advmod	_	start_char=201|end_char=211
+5	ohjaimen	ohjain	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=212|end_char=220
+6	tai	tai	CCONJ	C	_	7	cc	_	start_char=221|end_char=224
+7	näppäimistön	näppäimistö	NOUN	N	Case=Gen|Number=Sing	5	conj	_	start_char=225|end_char=237
+8	käteensä	käsi	NOUN	N	Case=Ill|Number=Sing|Person[psor]=3	3	obl	_	start_char=238|end_char=246
+9	,	,	PUNCT	Punct	_	3	punct	_	start_char=246|end_char=247
+10	annan	antaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=248|end_char=253
+11	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	10	obl	_	start_char=254|end_char=261
+12	toisinaan	toisinaan	ADV	Adv	_	10	advmod	_	start_char=262|end_char=271
+13	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	obj	_	start_char=272|end_char=277
+14	&	&	SYM	Punct	_	15	cc	_	start_char=278|end_char=279
+15	#34	#34	SYM	Symb	_	13	conj	_	start_char=279|end_char=282
+16	;	;	PUNCT	Punct	_	17	punct	_	start_char=282|end_char=283
+17	technology	technology	X	Foreign	Foreign=Yes	10	parataxis	_	start_char=284|end_char=294
+18	break	break	X	Foreign	Foreign=Yes	17	flat:foreign	_	start_char=295|end_char=300
+19	&34;!	&34;!	SYM	Symb	_	17	flat:foreign	_	start_char=300|end_char=305
+

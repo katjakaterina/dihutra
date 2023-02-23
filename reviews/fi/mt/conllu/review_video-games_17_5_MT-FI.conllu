@@ -1,0 +1,50 @@
+1	Hieno	hieno	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	peli	peli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=6|end_char=10
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=10|end_char=11
+
+1	Seitsemänvuotiaallani	seitsemän#vuotias	NOUN	N	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obl	_	start_char=12|end_char=33
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=34|end_char=36
+3	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=37|end_char=42
+4	hauskaa	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=43|end_char=50
+5	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	det	_	start_char=51|end_char=56
+6	pelin	peli	NOUN	N	Case=Gen|Number=Sing	4	obl	_	start_char=57|end_char=62
+7	kanssa	kanssa	ADP	Adp	AdpType=Post	6	case	_	start_char=63|end_char=69
+8	samalla	samalla	ADV	Adv	_	10	advmod	_	start_char=70|end_char=77
+9	,	,	PUNCT	Punct	_	10	punct	_	start_char=77|end_char=78
+10	kun	kun	SCONJ	C	_	12	mark	_	start_char=79|end_char=82
+11	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=83|end_char=86
+12	opettelee	opetella	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=87|end_char=96
+13	matematiikkaa	matematiikka	NOUN	N	Case=Par|Number=Sing	12	obj	_	start_char=97|end_char=110
+14	!	!	PUNCT	Punct	_	4	punct	_	start_char=110|end_char=111
+
+1	Osti	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=112|end_char=116
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=117|end_char=120
+3	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	1	obl	_	start_char=121|end_char=128
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=128|end_char=129
+5	kun	kun	SCONJ	C	_	8	mark	_	start_char=130|end_char=133
+6	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj:cop	_	start_char=134|end_char=137
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=138|end_char=141
+8	lastentarhassa	lasten#tarha	NOUN	N	Case=Ine|Number=Sing	1	advcl	_	start_char=142|end_char=156
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=156|end_char=157
+10	ja	ja	CCONJ	C	_	12	cc	_	start_char=158|end_char=160
+11	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=161|end_char=164
+12	rakastaa	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=165|end_char=173
+13	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	12	obj	_	start_char=174|end_char=178
+14	edelleen	edelleen	ADV	Adv	_	12	advmod	_	start_char=179|end_char=187
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=187|end_char=188
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=189|end_char=191
+2	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	1	nsubj	_	start_char=192|end_char=200
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	det	_	start_char=201|end_char=206
+4	pelin	peli	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=207|end_char=212
+5	melun	melu	NOUN	N	Case=Gen|Derivation=U|Number=Sing	2	nmod	_	start_char=213|end_char=218
+6	kanssa	kanssa	ADP	Adp	AdpType=Post	5	case	_	start_char=219|end_char=225
+7	-	-	PUNCT	Punct	_	9	punct	_	start_char=226|end_char=227
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=228|end_char=230
+9	äänekkäämpi	äänekäs	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	start_char=231|end_char=242
+10	kuin	kuin	SCONJ	C	_	13	mark	_	start_char=243|end_char=247
+11	mikään	mikään	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	det	_	start_char=248|end_char=254
+12	muu	muu	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	det	_	start_char=255|end_char=258
+13	PC-peli	PC#peli	NOUN	N	Case=Nom|Number=Sing	9	advcl	_	start_char=259|end_char=266
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=266|end_char=267
+

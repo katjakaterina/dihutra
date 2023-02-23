@@ -1,0 +1,66 @@
+1	Hieno	hieno	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	lauma	lauma	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=6|end_char=11
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=11|end_char=12
+
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=13|end_char=17
+2	halunnut	haluta	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=18|end_char=26
+3	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=27|end_char=32
+4	valmiiksi	valmis	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	3	xcomp	_	start_char=33|end_char=42
+5	NFS-kokoelmani	NFS#kokoelma	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	start_char=43|end_char=57
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=57|end_char=58
+7	ja	ja	CCONJ	C	_	9	cc	_	start_char=59|end_char=61
+8	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	9	det	_	start_char=62|end_char=67
+9	paketilla	paketti	NOUN	N	Case=Ade|Number=Sing	2	conj	_	start_char=68|end_char=77
+10	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=78|end_char=81
+11	vain	vain	ADV	Adv	_	12	advmod	_	start_char=82|end_char=86
+12	nimi	nimi	NOUN	N	Case=Nom|Number=Sing	9	nsubj:cop	_	start_char=87|end_char=91
+13	,	,	PUNCT	Punct	_	16	punct	_	start_char=91|end_char=92
+14	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	16	nsubj	_	start_char=93|end_char=97
+15	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=98|end_char=100
+16	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	12	acl:relcl	_	start_char=101|end_char=106
+17	vielä	vielä	ADV	Adv	_	16	advmod	_	start_char=107|end_char=112
+18	...	...	PUNCT	Punct	_	2	punct	_	start_char=112|end_char=115
+
+1	mainitsemisen	mainitseminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	2	nmod:poss	_	start_char=116|end_char=129
+2	arvoinen	arvoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	9	nsubj:cop	_	start_char=130|end_char=138
+3	,	,	PUNCT	Punct	_	9	punct	_	start_char=138|end_char=139
+4	että	että	SCONJ	C	_	9	mark	_	start_char=140|end_char=144
+5	myymäsi	myydä	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	6	acl	_	start_char=145|end_char=152
+6	hinnan	hinta	NOUN	N	Case=Gen|Number=Sing	9	obl	_	start_char=153|end_char=159
+7	vuoksi	vuoksi	ADP	Adp	AdpType=Post	6	case	_	start_char=160|end_char=166
+8	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=167|end_char=170
+9	mahdotonta	mahdoton	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	0	root	_	start_char=171|end_char=181
+10	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	cop	_	start_char=182|end_char=186
+11	ostamatta	ostaa	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp:ds	_	start_char=187|end_char=196
+12	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	11	obj	_	start_char=197|end_char=201
+13	,	,	PUNCT	Punct	_	15	punct	_	start_char=201|end_char=202
+14	vaikka	vaikka	SCONJ	C	_	15	mark	_	start_char=203|end_char=209
+15	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	9	advcl	_	start_char=210|end_char=217
+16	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	cop:own	_	start_char=218|end_char=223
+17	jo	jo	ADV	Adv	_	15	advmod	_	start_char=224|end_char=226
+18	kaksi	kaksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	15	nsubj:cop	_	start_char=227|end_char=232
+19	kolmesta	kolme	NUM	Num	Case=Ela|NumType=Card|Number=Sing	20	nummod	_	start_char=233|end_char=241
+20	pelistä	peli	NOUN	N	Case=Ela|Number=Sing	18	nmod	_	start_char=242|end_char=249
+21	.	.	PUNCT	Punct	_	9	punct	_	start_char=249|end_char=250
+
+1	Kannatus	kannatus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=250|end_char=258
+2	,	,	PUNCT	Punct	_	5	punct	_	start_char=258|end_char=259
+3	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	5	nsubj	_	start_char=260|end_char=264
+4	vain	vain	ADV	Adv	_	5	advmod	_	start_char=265|end_char=269
+5	toimittaa	toimittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=270|end_char=279
+6	USA:ssa	USA	PROPN	N	Abbr=Yes|Case=Ine|Number=Sing	5	obl	_	start_char=280|end_char=287
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=287|end_char=288
+8	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=289|end_char=294
+9	toimitus	toimitus	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=295|end_char=303
+10	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=304|end_char=306
+11	nopea	nopea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	conj	_	start_char=307|end_char=312
+12	!	!	PUNCT	Punct	_	1	punct	_	start_char=312|end_char=313
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=313|end_char=314
+
+1	Tarjousten	tarjous	NOUN	N	Case=Gen|Number=Plur	3	obl	_	start_char=314|end_char=324
+2	mukaan	mukaan	ADP	Adp	AdpType=Post	1	case	_	start_char=325|end_char=331
+3	ostan	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=332|end_char=337
+4	Amazonilla	Amazon	PROPN	N	Case=Ade|Number=Sing	3	obl	_	start_char=338|end_char=348
+5	aina	aina	ADV	Adv	_	3	advmod	_	start_char=349|end_char=353
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=353|end_char=354
+

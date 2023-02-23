@@ -1,0 +1,62 @@
+1	Äärimmäisen	äärimmäinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=0|end_char=11
+2	informatiivinen	informatiivinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=12|end_char=27
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=28|end_char=32
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=33|end_char=35
+3	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=36|end_char=44
+4	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=45|end_char=50
+5	!	!	PUNCT	Punct	_	4	punct	_	start_char=50|end_char=51
+
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=52|end_char=56
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=57|end_char=62
+3	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=63|end_char=69
+4	hakuoppaaksi	haku#oppas	NOUN	N	Case=Tra|Number=Sing	1	xcomp:ds	_	start_char=70|end_char=82
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=82|end_char=83
+6	kun	kun	SCONJ	C	_	7	mark	_	start_char=84|end_char=87
+7	kouluttauduin	kouluttautua	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=88|end_char=101
+8	ammattimaiseksi	ammatti#mainen	ADJ	A	Case=Tra|Degree=Pos|Derivation=Inen|Number=Sing	9	amod	_	start_char=102|end_char=117
+9	groomeriksi	groomeri	NOUN	N	Case=Tra|Number=Sing	7	xcomp:ds	_	start_char=118|end_char=129
+10	,	,	PUNCT	Punct	_	16	punct	_	start_char=129|end_char=130
+11	ja	ja	CCONJ	C	_	16	cc	_	start_char=131|end_char=133
+12	minusta	minä	PRON	Pron	Case=Ela|Number=Sing|Person=1|PronType=Prs	16	obl	_	start_char=134|end_char=141
+13	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	16	nsubj:cop	_	start_char=142|end_char=144
+14	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	start_char=145|end_char=148
+15	niin	niin	ADV	Adv	_	16	advmod	_	start_char=149|end_char=153
+16	avulias	avulias	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=154|end_char=161
+17	ja	ja	CCONJ	C	_	18	cc	_	start_char=162|end_char=164
+18	informatiivinen	informatiivinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	16	conj	_	start_char=165|end_char=180
+19	!	!	PUNCT	Punct	_	1	punct	_	start_char=180|end_char=181
+
+1	ohjeet	ohje	NOUN	N	Case=Nom|Number=Plur	5	nsubj:cop	_	start_char=182|end_char=188
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=189|end_char=193
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	nmod:poss	_	start_char=194|end_char=197
+4	verran	verran	ADV	Adv	_	5	advmod	_	start_char=198|end_char=204
+5	yksityiskohtaiset	yksityis#kohtainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	0	root	_	start_char=205|end_char=222
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=222|end_char=223
+7	että	että	SCONJ	C	_	11	mark	_	start_char=224|end_char=228
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=229|end_char=231
+9	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=232|end_char=234
+10	koskaan	koskaan	ADV	Adv	_	11	advmod	_	start_char=235|end_char=242
+11	jätä	jättää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=243|end_char=247
+12	jämähtämättä	jämähtää	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=248|end_char=260
+13	miljoonaan	miljoona	NUM	Num	Case=Ill|NumType=Card|Number=Sing	14	nummod	_	start_char=261|end_char=271
+14	kysymykseen	kysymys	NOUN	N	Case=Ill|Number=Sing	12	obl	_	start_char=272|end_char=283
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=283|end_char=284
+16	vaan	vaan	CCONJ	C	_	18	cc	_	start_char=285|end_char=289
+17	riittävän	riittävä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	18	amod	_	start_char=290|end_char=299
+18	yksinkertaiset	yksinkertainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	11	conj	_	start_char=300|end_char=314
+19	,	,	PUNCT	Punct	_	24	punct	_	start_char=314|end_char=315
+20	että	että	SCONJ	C	_	24	mark	_	start_char=316|end_char=320
+21	kuka	kuka	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	24	nsubj	_	start_char=321|end_char=325
+22	tahansa	tahansa	ADV	Adv	_	21	fixed	_	start_char=326|end_char=333
+23	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	start_char=334|end_char=337
+24	ymmärtää	ymmärtää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	18	ccomp	_	start_char=338|end_char=346
+25	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	24	obj	_	start_char=347|end_char=350
+26	.	.	PUNCT	Punct	_	5	punct	_	start_char=350|end_char=351
+
+1	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=352|end_char=356
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=357|end_char=359
+3	must	must	X	Foreign	Foreign=Yes	5	compound:nn	_	start_char=360|end_char=364
+4	have	have	X	Foreign	Foreign=Yes	3	flat:foreign	_	start_char=365|end_char=369
+5	-kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=370|end_char=376
+

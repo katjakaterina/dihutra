@@ -15,7 +15,7 @@ InputHRrevMT=./dihutra/reviews/hr/mt/txt
 #fi
 InputFIrevPRO=./dihutra/reviews/fi/prof/txt
 InputFIrevSTU=./dihutra/reviews/fi/stud/txt
-
+$InputFIrevMT=./dihutra/reviews/fi/mt/txt
 
 #en
 for file in $InputENrev/*.txt ; do python3 stanza_pipeline.py --language=en "$file" "${file%.txt}.conllu"; done
@@ -58,6 +58,10 @@ mv $InputFIrevPRO/*.conllu $LocalDir/reviews/fi/prof/conllu
 for file in $InputFIrevSTU/*.txt ; do python3 stanza_pipeline.py --language=fi "$file" "${file%.txt}.conllu"; done
 mkdir $LocalDir/reviews/fi/stud/conllu
 mv $InputFIrevSTU/*.conllu $LocalDir/reviews/fi/stud/conllu
+
+for file in $InputFIrevMT/*.txt ; do python3 stanza_pipeline.py --language=fi "$file" "${file%.txt}.conllu"; done
+mkdir $LocalDir/reviews/fi/mt/conllu
+mv $InputFIrevMT/*.conllu $LocalDir/reviews/fi/mt/conllu
 
 #news
 #en

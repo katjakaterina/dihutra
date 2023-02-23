@@ -1,0 +1,46 @@
+1	9,99	9,99	NUM	Num	NumType=Card	2	nummod	_	start_char=0|end_char=4
+2	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	8	nsubj	_	start_char=5|end_char=13
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=13|end_char=14
+4	kaunis	kaunis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	start_char=15|end_char=21
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=22|end_char=24
+6	söpö	söpö	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	start_char=25|end_char=29
+7	Valo	valo	NOUN	N	Case=Nom|Number=Sing	2	conj	_	start_char=30|end_char=34
+8	syttyy	syttyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=35|end_char=41
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=41|end_char=42
+10	kun	kun	SCONJ	C	_	12	mark	_	start_char=43|end_char=46
+11	esine	esine	NOUN	N	Case=Nom|Number=Sing	12	obj	_	start_char=47|end_char=52
+12	vedetään	vetää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	advcl	_	start_char=53|end_char=61
+13	pois	pois	ADV	Adv	_	12	advmod	_	start_char=62|end_char=66
+14	.	.	PUNCT	Punct	_	8	punct	_	start_char=66|end_char=67
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	obj	_	start_char=68|end_char=72
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=73|end_char=75
+3	paljon	paljon	ADV	Adv	_	4	advmod	_	start_char=76|end_char=82
+4	helpompi	helppo	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	start_char=83|end_char=91
+5	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp:ds	_	start_char=92|end_char=99
+6	kuin	kuin	SCONJ	C	_	9	mark	_	start_char=100|end_char=104
+7	aiemmin	aiemmin	ADV	Adv	_	8	advmod	_	start_char=105|end_char=112
+8	ostamani	ostaa	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	9	acl	_	start_char=113|end_char=121
+9	muovinen	muovinen	NOUN	N	Case=Nom|Number=Sing	5	obj	_	start_char=122|end_char=130
+10	kirjanmerkin	kirjan#merkki	NOUN	N	Case=Gen|Number=Sing	11	nmod:poss	_	start_char=131|end_char=143
+11	suurennuslasi	suurintu	NOUN	N	Case=Nom|Number=Sing	9	nmod	_	start_char=144|end_char=157
+12	ja	ja	CCONJ	C	_	14	cc	_	start_char=158|end_char=160
+13	levyn	levy	NOUN	N	Case=Gen|Number=Sing	14	nmod:poss	_	start_char=161|end_char=166
+14	suurennuslasi	suurintu	NOUN	N	Case=Nom|Number=Sing	11	conj	_	start_char=167|end_char=180
+15	.	.	PUNCT	Punct	_	4	punct	_	start_char=180|end_char=181
+
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	start_char=182|end_char=186
+2	iloinen	iloinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=187|end_char=194
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=194|end_char=195
+4	että	että	SCONJ	C	_	6	mark	_	start_char=196|end_char=200
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	obj	_	start_char=201|end_char=203
+6	sytytettiin	sytyttää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	ccomp	_	start_char=204|end_char=215
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=215|end_char=216
+8	kun	kun	SCONJ	C	_	9	mark	_	start_char=217|end_char=220
+9	halusin	haluta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=221|end_char=228
+10	nähdä	nähdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=229|end_char=234
+11	sarjanumeron	sarja#numero	NOUN	N	Case=Gen|Number=Sing	10	obj	_	start_char=235|end_char=247
+12	sukkulan	sukkula	NOUN	N	Case=Gen|Number=Sing	13	nmod:poss	_	start_char=248|end_char=256
+13	takaosassa	taka#osa	NOUN	N	Case=Ine|Number=Sing	10	obl	_	start_char=257|end_char=267
+14	.	.	PUNCT	Punct	_	2	punct	_	start_char=267|end_char=268
+

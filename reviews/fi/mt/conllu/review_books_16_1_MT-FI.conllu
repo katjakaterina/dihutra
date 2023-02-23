@@ -1,0 +1,53 @@
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=0|end_char=2
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=3|end_char=5
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6|end_char=9
+4	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	nmod:poss	_	start_char=10|end_char=13
+5	arvoista	arvoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=14|end_char=22
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=22|end_char=23
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	start_char=24|end_char=28
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=29|end_char=31
+3	hyvin	hyvin	ADV	Adv	_	4	advmod	_	start_char=32|end_char=37
+4	halvalla	halpa	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	5	obl	_	start_char=38|end_char=46
+5	valmistettu	valmistaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=47|end_char=58
+6	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=59|end_char=64
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=64|end_char=65
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=66|end_char=68
+2	maksaisi	maksaa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	0	root	_	start_char=69|end_char=77
+3	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	2	obl	_	start_char=78|end_char=83
+4	dollariakaan	dollari#a	NOUN	N	Case=Par|Clitic=Kaan|Number=Sing	2	obj	_	start_char=84|end_char=96
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=96|end_char=97
+
+1	Lehti	lehti	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=98|end_char=103
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=104|end_char=106
+3	halpa	halpa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=107|end_char=112
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=113|end_char=115
+5	heppoinen	heppoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	3	conj	_	start_char=116|end_char=125
+6	-	-	PUNCT	Punct	_	10	punct	_	start_char=126|end_char=127
+7	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	start_char=128|end_char=133
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=134|end_char=136
+9	edes	edes	ADV	Adv	_	10	advmod	_	start_char=137|end_char=141
+10	pysy	pysyä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=142|end_char=146
+11	auki	auki	ADV	Adv	_	10	advmod	_	start_char=147|end_char=151
+12	(	(	PUNCT	Punct	_	13	punct	_	start_char=152|end_char=153
+13	peläten	pelätä	VERB	V	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=153|end_char=160
+14	siteen	side	NOUN	N	Case=Gen|Number=Sing	15	nmod:gobj	_	start_char=161|end_char=167
+15	repimistä	repiminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	13	obj	_	start_char=168|end_char=177
+16	)	)	PUNCT	Punct	_	13	punct	_	start_char=177|end_char=178
+17	niin	niin	ADV	Adv	_	10	advmod	_	start_char=179|end_char=183
+18	,	,	PUNCT	Punct	_	21	punct	_	start_char=183|end_char=184
+19	että	että	SCONJ	C	_	21	mark	_	start_char=185|end_char=189
+20	voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	start_char=190|end_char=194
+21	avautua	avautua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	ccomp	_	start_char=195|end_char=202
+22	laittamaan	laittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	21	xcomp	_	start_char=203|end_char=213
+23	pianotelinettä	pianoteline	NOUN	N	Case=Par|Number=Sing	22	obj	_	start_char=214|end_char=228
+24	soitettavaksi	soittaa	VERB	V	Case=Tra|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	22	advcl	_	start_char=229|end_char=242
+25	.	.	PUNCT	Punct	_	3	punct	_	start_char=242|end_char=243
+
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=243|end_char=246
+2	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=247|end_char=251
+3	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	4	det	_	start_char=252|end_char=256
+4	versiota	versio	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=257|end_char=265
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=265|end_char=266
+

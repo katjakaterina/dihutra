@@ -1,0 +1,53 @@
+1	Bändin	bändi	NOUN	N	Case=Gen|Number=Sing	2	nmod:gobj	_	start_char=0|end_char=6
+2	värjäytyminen	värjäytyminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	0	root	_	start_char=7|end_char=20
+
+1	Kuten	kuten	SCONJ	C	_	3	mark	_	start_char=21|end_char=26
+2	useimmat	usea	ADJ	A	Case=Nom|Degree=Sup|Number=Plur	3	amod	_	start_char=27|end_char=35
+3	liikuntatuotteet	liikunta#tuote	NOUN	N	Case=Nom|Number=Plur	6	advcl	_	start_char=36|end_char=52
+4	,	,	PUNCT	Punct	_	3	punct	_	start_char=52|end_char=53
+5	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	6	obj	_	start_char=54|end_char=59
+6	käytettiin	käyttää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=60|end_char=70
+7	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	8	nmod:poss	_	start_char=71|end_char=79
+8	kerran	kerran	ADV	Adv	_	6	obl	_	start_char=80|end_char=86
+9	ja	ja	CCONJ	C	_	10	cc	_	start_char=87|end_char=89
+10	säilytettiin	säilyttää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	start_char=90|end_char=102
+11	laukussa	laukku	NOUN	N	Case=Ine|Number=Sing	10	obl	_	start_char=103|end_char=111
+12	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	13	det	_	start_char=112|end_char=120
+13	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	10	obl	_	start_char=121|end_char=130
+14	.	.	PUNCT	Punct	_	6	punct	_	start_char=130|end_char=131
+
+1	Otin	ottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=132|end_char=136
+2	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	1	obj	_	start_char=137|end_char=139
+3	pois	pois	ADV	Adv	_	1	advmod	_	start_char=140|end_char=144
+4	aloittaakseni	aloittaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=145|end_char=158
+5	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	6	nmod:gobj	_	start_char=159|end_char=165
+6	käytön	käyttö	NOUN	N	Case=Gen|Number=Sing	4	obj	_	start_char=166|end_char=172
+7	uudelleen	uudelleen	ADV	Adv	_	4	advmod	_	start_char=173|end_char=182
+8	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obl	_	start_char=183|end_char=186
+9	jälkeen	jälkeen	ADP	Adp	AdpType=Post	8	case	_	start_char=187|end_char=194
+10	,	,	PUNCT	Punct	_	16	punct	_	start_char=194|end_char=195
+11	kun	kun	SCONJ	C	_	16	mark	_	start_char=196|end_char=199
+12	auto-onnettomuus	auto#onnettomuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	16	nsubj:cop	_	start_char=200|end_char=216
+13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	start_char=217|end_char=219
+14	pitänyt	pitää	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	16	aux	_	start_char=220|end_char=227
+15	minut	minä	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	nmod	_	start_char=228|end_char=233
+16	poissa	poissa	ADV	Adv	_	1	advcl	_	start_char=234|end_char=240
+17	vapaista	vapainen	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	18	amod	_	start_char=241|end_char=249
+18	painoista	paina	NOUN	N	Case=Ela|Number=Plur	16	nmod	_	start_char=250|end_char=259
+19	,	,	PUNCT	Punct	_	22	punct	_	start_char=259|end_char=260
+20	ja	ja	CCONJ	C	_	22	cc	_	start_char=261|end_char=263
+21	bändit	bändi	NOUN	N	Case=Nom|Number=Plur	22	nsubj	_	start_char=264|end_char=270
+22	alkavat	alkaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	start_char=271|end_char=278
+23	värjötellä	värjötellä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	22	xcomp	_	start_char=279|end_char=289
+24	ja	ja	CCONJ	C	_	25	cc	_	start_char=290|end_char=292
+25	haalistua	haalistua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	23	conj	_	start_char=293|end_char=302
+26	.	.	PUNCT	Punct	_	1	punct	_	start_char=302|end_char=303
+
+1	Hermostuttaa	hermostuttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=304|end_char=316
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=316|end_char=317
+3	että	että	SCONJ	C	_	6	mark	_	start_char=318|end_char=322
+4	kumin	kumi	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=323|end_char=328
+5	eheys	eheys	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	6	nsubj	_	start_char=329|end_char=334
+6	heikkenee	heiketä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=335|end_char=344
+7	...	...	PUNCT	Punct	_	1	punct	_	start_char=344|end_char=347
+
