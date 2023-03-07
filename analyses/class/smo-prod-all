@@ -1,0 +1,444 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     distr-all-weka.filters.unsupervised.attribute.Remove-R1,3
+Instances:    2156
+Attributes:   49
+              prod
+              ADJ==NOUN==PUNCT
+              NOUN==ADP==NOUN
+              VERB==NOUN==PUNCT
+              ADP==ADJ==NOUN
+              NOUN==NOUN==PUNCT
+              ADP==NOUN==PUNCT
+              VERB==ADJ==NOUN
+              DET==NOUN==PUNCT
+              NOUN==PUNCT==CCONJ
+              ADJ==NOUN==ADP
+              NOUN==PUNCT==PRON
+              ADP==DET==NOUN
+              ADV==ADJ==PUNCT
+              PRON==VERB==PUNCT
+              ADJ==ADJ==NOUN
+              VERB==DET==NOUN
+              NOUN==CCONJ==NOUN
+              NUM==NOUN==PUNCT
+              VERB==ADP==NOUN
+              AUX==ADJ==PUNCT
+              NOUN==ADJ==NOUN
+              AUX==ADV==ADJ
+              PUNCT==SCONJ==PRON
+              ADV==VERB==PUNCT
+              ADJ==NOUN==NOUN
+              lexvar
+              lemvar
+              posvar
+              richposvar
+              sentlgth
+              ADJ
+              ADP
+              ADV
+              AUX
+              CCONJ
+              DET
+              INTJ
+              NOUN
+              NUM
+              PART
+              PRON
+              PROPN
+              PUNCT
+              SCONJ
+              SYM
+              VERB
+              X
+              _
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: org, mt
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7313 * (normalized) ADJ==NOUN==PUNCT
+ +       0.724  * (normalized) NOUN==ADP==NOUN
+ +       0.5914 * (normalized) VERB==NOUN==PUNCT
+ +       0.7981 * (normalized) ADP==ADJ==NOUN
+ +      -0.1884 * (normalized) NOUN==NOUN==PUNCT
+ +       0.3383 * (normalized) ADP==NOUN==PUNCT
+ +      -0.1334 * (normalized) VERB==ADJ==NOUN
+ +       0.5415 * (normalized) DET==NOUN==PUNCT
+ +       0.1082 * (normalized) NOUN==PUNCT==CCONJ
+ +      -0.0863 * (normalized) ADJ==NOUN==ADP
+ +       0.2139 * (normalized) NOUN==PUNCT==PRON
+ +      -0.6093 * (normalized) ADP==DET==NOUN
+ +      -0.0272 * (normalized) ADV==ADJ==PUNCT
+ +       0.6681 * (normalized) PRON==VERB==PUNCT
+ +       0.2294 * (normalized) ADJ==ADJ==NOUN
+ +      -0.761  * (normalized) VERB==DET==NOUN
+ +       0.3494 * (normalized) NOUN==CCONJ==NOUN
+ +       0.597  * (normalized) NUM==NOUN==PUNCT
+ +       0.5377 * (normalized) VERB==ADP==NOUN
+ +       0.4148 * (normalized) AUX==ADJ==PUNCT
+ +       0.4277 * (normalized) NOUN==ADJ==NOUN
+ +       0.253  * (normalized) AUX==ADV==ADJ
+ +       0.9369 * (normalized) PUNCT==SCONJ==PRON
+ +       1.0237 * (normalized) ADV==VERB==PUNCT
+ +       0.0056 * (normalized) ADJ==NOUN==NOUN
+ +       0.528  * (normalized) lexvar
+ +      -1.0772 * (normalized) lemvar
+ +      -1.968  * (normalized) posvar
+ +       6.2062 * (normalized) richposvar
+ +       0.2335 * (normalized) sentlgth
+ +      -1.149  * (normalized) ADJ
+ +      -0.9141 * (normalized) ADP
+ +       0.3559 * (normalized) ADV
+ +      -1.4204 * (normalized) AUX
+ +       0.7761 * (normalized) CCONJ
+ +      -2.6468 * (normalized) DET
+ +       0.5029 * (normalized) INTJ
+ +      -0.2256 * (normalized) NOUN
+ +      -0.1233 * (normalized) NUM
+ +      -0.1107 * (normalized) PART
+ +      -2.5909 * (normalized) PRON
+ +       0.5952 * (normalized) PROPN
+ +       2.6753 * (normalized) PUNCT
+ +       0.7024 * (normalized) SCONJ
+ +      -0.6718 * (normalized) SYM
+ +       0.5392 * (normalized) VERB
+ +       0.7275 * (normalized) X
+ -       0.543 
+
+Number of kernel evaluations: 43375 (82.892% cached)
+
+Classifier for classes: org, prof
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5496 * (normalized) ADJ==NOUN==PUNCT
+ +       0.0596 * (normalized) NOUN==ADP==NOUN
+ +       0.698  * (normalized) VERB==NOUN==PUNCT
+ +       0.4723 * (normalized) ADP==ADJ==NOUN
+ +      -0.3314 * (normalized) NOUN==NOUN==PUNCT
+ +       0.2099 * (normalized) ADP==NOUN==PUNCT
+ +       0.3613 * (normalized) VERB==ADJ==NOUN
+ +       0.2865 * (normalized) DET==NOUN==PUNCT
+ +       0.2637 * (normalized) NOUN==PUNCT==CCONJ
+ +       0.2387 * (normalized) ADJ==NOUN==ADP
+ +       0.445  * (normalized) NOUN==PUNCT==PRON
+ +      -0.5696 * (normalized) ADP==DET==NOUN
+ +       0.0322 * (normalized) ADV==ADJ==PUNCT
+ +       0.9584 * (normalized) PRON==VERB==PUNCT
+ +       0.2866 * (normalized) ADJ==ADJ==NOUN
+ +      -0.8643 * (normalized) VERB==DET==NOUN
+ +       0.183  * (normalized) NOUN==CCONJ==NOUN
+ +       0.9044 * (normalized) NUM==NOUN==PUNCT
+ +       0.0963 * (normalized) VERB==ADP==NOUN
+ +       0.366  * (normalized) AUX==ADJ==PUNCT
+ +       0.2498 * (normalized) NOUN==ADJ==NOUN
+ +       0.0953 * (normalized) AUX==ADV==ADJ
+ +       0.6346 * (normalized) PUNCT==SCONJ==PRON
+ +       0.8164 * (normalized) ADV==VERB==PUNCT
+ +      -0.3421 * (normalized) ADJ==NOUN==NOUN
+ +       0.3786 * (normalized) lexvar
+ +      -0.9971 * (normalized) lemvar
+ +      -1.4863 * (normalized) posvar
+ +       5.8243 * (normalized) richposvar
+ +       0.2618 * (normalized) sentlgth
+ +      -1.1142 * (normalized) ADJ
+ +      -0.6455 * (normalized) ADP
+ +       0.5988 * (normalized) ADV
+ +      -1.5841 * (normalized) AUX
+ +       1.0238 * (normalized) CCONJ
+ +      -2.7112 * (normalized) DET
+ +       0.0301 * (normalized) INTJ
+ +       0.3545 * (normalized) NOUN
+ +      -0.5201 * (normalized) NUM
+ +      -0.0546 * (normalized) PART
+ +      -2.6025 * (normalized) PRON
+ +       0.3865 * (normalized) PROPN
+ +       2.4692 * (normalized) PUNCT
+ +       0.72   * (normalized) SCONJ
+ +      -0.5828 * (normalized) SYM
+ +       0.3607 * (normalized) VERB
+ +       0.6    * (normalized) X
+ +       0.2503 * (normalized) _
+ -       0.6783
+
+Number of kernel evaluations: 50912 (75.342% cached)
+
+Classifier for classes: org, stud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4072 * (normalized) ADJ==NOUN==PUNCT
+ +       0.9439 * (normalized) NOUN==ADP==NOUN
+ +       0.7011 * (normalized) VERB==NOUN==PUNCT
+ +       0.851  * (normalized) ADP==ADJ==NOUN
+ +      -0.2522 * (normalized) NOUN==NOUN==PUNCT
+ +       0.3439 * (normalized) ADP==NOUN==PUNCT
+ +       0.0924 * (normalized) VERB==ADJ==NOUN
+ +       0.0358 * (normalized) DET==NOUN==PUNCT
+ +       0.108  * (normalized) NOUN==PUNCT==CCONJ
+ +      -0.3222 * (normalized) ADJ==NOUN==ADP
+ +       0.3042 * (normalized) NOUN==PUNCT==PRON
+ +      -0.377  * (normalized) ADP==DET==NOUN
+ +      -0.0389 * (normalized) ADV==ADJ==PUNCT
+ +       0.9145 * (normalized) PRON==VERB==PUNCT
+ +       0.5335 * (normalized) ADJ==ADJ==NOUN
+ +      -0.6639 * (normalized) VERB==DET==NOUN
+ +       0.4304 * (normalized) NOUN==CCONJ==NOUN
+ +       0.3049 * (normalized) NUM==NOUN==PUNCT
+ +       0.3803 * (normalized) VERB==ADP==NOUN
+ +       0.4578 * (normalized) AUX==ADJ==PUNCT
+ +       0.2335 * (normalized) NOUN==ADJ==NOUN
+ +      -0.0511 * (normalized) AUX==ADV==ADJ
+ +       0.6453 * (normalized) PUNCT==SCONJ==PRON
+ +       0.6298 * (normalized) ADV==VERB==PUNCT
+ +      -0.5917 * (normalized) ADJ==NOUN==NOUN
+ +       0.5588 * (normalized) lexvar
+ +      -1.1359 * (normalized) lemvar
+ +      -1.6189 * (normalized) posvar
+ +       6.094  * (normalized) richposvar
+ +       0.3764 * (normalized) sentlgth
+ +      -0.6143 * (normalized) ADJ
+ +      -0.3773 * (normalized) ADP
+ +       0.3989 * (normalized) ADV
+ +      -1.499  * (normalized) AUX
+ +       0.5515 * (normalized) CCONJ
+ +      -2.5438 * (normalized) DET
+ +       0.1788 * (normalized) INTJ
+ +       0.1411 * (normalized) NOUN
+ +      -0.2763 * (normalized) NUM
+ +      -0.4028 * (normalized) PART
+ +      -2.4947 * (normalized) PRON
+ +       0.2435 * (normalized) PROPN
+ +       2.4722 * (normalized) PUNCT
+ +       0.843  * (normalized) SCONJ
+ +      -0.5342 * (normalized) SYM
+ +       0.4312 * (normalized) VERB
+ +       0.6266 * (normalized) X
+ -       0.8705
+
+Number of kernel evaluations: 44595 (79.622% cached)
+
+Classifier for classes: mt, prof
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4636 * (normalized) ADJ==NOUN==PUNCT
+ +      -1.4603 * (normalized) NOUN==ADP==NOUN
+ +       0.1959 * (normalized) VERB==NOUN==PUNCT
+ +       0.1029 * (normalized) ADP==ADJ==NOUN
+ +       0.0771 * (normalized) NOUN==NOUN==PUNCT
+ +       0.2609 * (normalized) ADP==NOUN==PUNCT
+ +      -0.4399 * (normalized) VERB==ADJ==NOUN
+ +      -0.303  * (normalized) DET==NOUN==PUNCT
+ +      -0.4154 * (normalized) NOUN==PUNCT==CCONJ
+ +      -0.23   * (normalized) ADJ==NOUN==ADP
+ +      -0.9864 * (normalized) NOUN==PUNCT==PRON
+ +      -0.0573 * (normalized) ADP==DET==NOUN
+ +       0.259  * (normalized) ADV==ADJ==PUNCT
+ +       0.0165 * (normalized) PRON==VERB==PUNCT
+ +      -0.3857 * (normalized) ADJ==ADJ==NOUN
+ +       0.2058 * (normalized) VERB==DET==NOUN
+ +      -0.2687 * (normalized) NOUN==CCONJ==NOUN
+ +       0.1191 * (normalized) NUM==NOUN==PUNCT
+ +       1.3531 * (normalized) VERB==ADP==NOUN
+ +      -0.3626 * (normalized) AUX==ADJ==PUNCT
+ +       0.0602 * (normalized) NOUN==ADJ==NOUN
+ +      -0.2811 * (normalized) AUX==ADV==ADJ
+ +      -1.9857 * (normalized) PUNCT==SCONJ==PRON
+ +       0.61   * (normalized) ADV==VERB==PUNCT
+ +      -0.4679 * (normalized) ADJ==NOUN==NOUN
+ +       1.8027 * (normalized) lexvar
+ +      -0.7917 * (normalized) lemvar
+ +      -1.1642 * (normalized) posvar
+ +      -2.0399 * (normalized) richposvar
+ +      -0.4439 * (normalized) sentlgth
+ +      -0.7301 * (normalized) ADJ
+ +      -0.2384 * (normalized) ADP
+ +       0.4904 * (normalized) ADV
+ +      -1.5782 * (normalized) AUX
+ +       0.3625 * (normalized) CCONJ
+ +      -1.4234 * (normalized) DET
+ +      -0.946  * (normalized) INTJ
+ +       1.9072 * (normalized) NOUN
+ +      -0.6381 * (normalized) NUM
+ +       0.3816 * (normalized) PART
+ +      -0.7038 * (normalized) PRON
+ +      -0.0426 * (normalized) PROPN
+ +      -0.8563 * (normalized) PUNCT
+ +      -1.1116 * (normalized) SCONJ
+ +      -1.1114 * (normalized) SYM
+ +       0.9083 * (normalized) VERB
+ +      -1.3165 * (normalized) X
+ +       1.7595 * (normalized) _
+ +       1.1876
+
+Number of kernel evaluations: 233780 (80.04% cached)
+
+Classifier for classes: mt, stud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2165 * (normalized) ADJ==NOUN==PUNCT
+ +      -1.5303 * (normalized) NOUN==ADP==NOUN
+ +      -0.2668 * (normalized) VERB==NOUN==PUNCT
+ +      -0.3209 * (normalized) ADP==ADJ==NOUN
+ +       1.0313 * (normalized) NOUN==NOUN==PUNCT
+ +       0.7714 * (normalized) ADP==NOUN==PUNCT
+ +      -0.5835 * (normalized) VERB==ADJ==NOUN
+ +       0.2353 * (normalized) DET==NOUN==PUNCT
+ +      -0.8044 * (normalized) NOUN==PUNCT==CCONJ
+ +      -0.0917 * (normalized) ADJ==NOUN==ADP
+ +      -0.6923 * (normalized) NOUN==PUNCT==PRON
+ +       0.1226 * (normalized) ADP==DET==NOUN
+ +       0.4269 * (normalized) ADV==ADJ==PUNCT
+ +      -0.1498 * (normalized) PRON==VERB==PUNCT
+ +      -0.3713 * (normalized) ADJ==ADJ==NOUN
+ +      -0.0259 * (normalized) VERB==DET==NOUN
+ +      -0.3151 * (normalized) NOUN==CCONJ==NOUN
+ +       0.1817 * (normalized) NUM==NOUN==PUNCT
+ +       0.3021 * (normalized) VERB==ADP==NOUN
+ +       0.4813 * (normalized) AUX==ADJ==PUNCT
+ +       0.3688 * (normalized) NOUN==ADJ==NOUN
+ +      -0.1223 * (normalized) AUX==ADV==ADJ
+ +      -1.4144 * (normalized) PUNCT==SCONJ==PRON
+ +       0.7679 * (normalized) ADV==VERB==PUNCT
+ +       0.2619 * (normalized) ADJ==NOUN==NOUN
+ +       2.5345 * (normalized) lexvar
+ +      -0.8577 * (normalized) lemvar
+ +      -0.8352 * (normalized) posvar
+ +      -1.6679 * (normalized) richposvar
+ +       0.1797 * (normalized) sentlgth
+ +      -0.3255 * (normalized) ADJ
+ +       0.2438 * (normalized) ADP
+ +       0.6139 * (normalized) ADV
+ +      -1.0108 * (normalized) AUX
+ +       0.1939 * (normalized) CCONJ
+ +      -1.7016 * (normalized) DET
+ +      -0.7347 * (normalized) INTJ
+ +       1.6873 * (normalized) NOUN
+ +      -0.4733 * (normalized) NUM
+ +       1.3787 * (normalized) PART
+ +       0.7831 * (normalized) PRON
+ +       0.1635 * (normalized) PROPN
+ +      -1.8599 * (normalized) PUNCT
+ +      -0.6149 * (normalized) SCONJ
+ +       0.2355 * (normalized) SYM
+ +       0.5079 * (normalized) VERB
+ +      -0.1474 * (normalized) X
+ +       0.5392 * (normalized) _
+ -       0.4837
+
+Number of kernel evaluations: 218555 (78.471% cached)
+
+Classifier for classes: prof, stud
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2387 * (normalized) ADJ==NOUN==PUNCT
+ +      -0.6963 * (normalized) NOUN==ADP==NOUN
+ +      -1.3076 * (normalized) VERB==NOUN==PUNCT
+ +      -0.2154 * (normalized) ADP==ADJ==NOUN
+ +       0.6157 * (normalized) NOUN==NOUN==PUNCT
+ +       1.1742 * (normalized) ADP==NOUN==PUNCT
+ +      -0.7217 * (normalized) VERB==ADJ==NOUN
+ +       0.5044 * (normalized) DET==NOUN==PUNCT
+ +      -0.9293 * (normalized) NOUN==PUNCT==CCONJ
+ +       0.7189 * (normalized) ADJ==NOUN==ADP
+ +       0.0075 * (normalized) NOUN==PUNCT==PRON
+ +       1.1466 * (normalized) ADP==DET==NOUN
+ +      -0.2796 * (normalized) ADV==ADJ==PUNCT
+ +      -0.1546 * (normalized) PRON==VERB==PUNCT
+ +       0.0368 * (normalized) ADJ==ADJ==NOUN
+ +      -1.2207 * (normalized) VERB==DET==NOUN
+ +       0.0936 * (normalized) NOUN==CCONJ==NOUN
+ +       0.6145 * (normalized) NUM==NOUN==PUNCT
+ +      -1.2598 * (normalized) VERB==ADP==NOUN
+ +       1.0262 * (normalized) AUX==ADJ==PUNCT
+ +      -0.0763 * (normalized) NOUN==ADJ==NOUN
+ +       0.4347 * (normalized) AUX==ADV==ADJ
+ +       1.3942 * (normalized) PUNCT==SCONJ==PRON
+ +       0.1347 * (normalized) ADV==VERB==PUNCT
+ +       0.554  * (normalized) ADJ==NOUN==NOUN
+ +       1.0481 * (normalized) lexvar
+ +       0.046  * (normalized) lemvar
+ +      -0.2164 * (normalized) posvar
+ +      -0.1773 * (normalized) richposvar
+ +       0.4671 * (normalized) sentlgth
+ +       0.1225 * (normalized) ADJ
+ +       0.4247 * (normalized) ADP
+ +       0.0187 * (normalized) ADV
+ +       1.3225 * (normalized) AUX
+ +      -0.738  * (normalized) CCONJ
+ +      -0.7653 * (normalized) DET
+ +      -0.2826 * (normalized) INTJ
+ +      -0.1902 * (normalized) NOUN
+ +       0.2984 * (normalized) NUM
+ +       1.7855 * (normalized) PART
+ +       2.3551 * (normalized) PRON
+ +      -0.3334 * (normalized) PROPN
+ +      -0.8138 * (normalized) PUNCT
+ +       0.4299 * (normalized) SCONJ
+ +       1.1261 * (normalized) SYM
+ +      -0.5067 * (normalized) VERB
+ +       1.3069 * (normalized) X
+ +      -1.077  * (normalized) _
+ -       1.194 
+
+Number of kernel evaluations: 184341 (74.12% cached)
+
+
+
+Time taken to build model: 0.24 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1008               46.7532 %
+Incorrectly Classified Instances      1148               53.2468 %
+Kappa statistic                          0.2281
+Mean absolute error                      0.3166
+Root mean squared error                  0.4044
+Relative absolute error                 89.0786 %
+Root relative squared error             95.9467 %
+Total Number of Instances             2156     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.99      0.004      0.965     0.99      0.977      0.997    org
+                 0.735     0.521      0.446     0.735     0.555      0.614    mt
+                 0.235     0.158      0.358     0.235     0.283      0.579    prof
+                 0.17      0.114      0.36      0.17      0.231      0.528    stud
+Weighted Avg.    0.468     0.264      0.446     0.468     0.431      0.616
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 194   2   0   0 |   a = org
+   2 576 122  84 |   b = mt
+   2 354 138  94 |   c = prof
+   3 359 126 100 |   d = stud
+
+

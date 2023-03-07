@@ -1,0 +1,152 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     distr-all-mtpt-weka.filters.unsupervised.attribute.Remove-R1,3
+Instances:    1176
+Attributes:   49
+              prod
+              ADJ==NOUN==PUNCT
+              NOUN==ADP==NOUN
+              VERB==NOUN==PUNCT
+              ADP==ADJ==NOUN
+              NOUN==NOUN==PUNCT
+              ADP==NOUN==PUNCT
+              VERB==ADJ==NOUN
+              DET==NOUN==PUNCT
+              NOUN==PUNCT==CCONJ
+              ADJ==NOUN==ADP
+              NOUN==PUNCT==PRON
+              ADP==DET==NOUN
+              ADV==ADJ==PUNCT
+              PRON==VERB==PUNCT
+              ADJ==ADJ==NOUN
+              VERB==DET==NOUN
+              NOUN==CCONJ==NOUN
+              NUM==NOUN==PUNCT
+              VERB==ADP==NOUN
+              AUX==ADJ==PUNCT
+              NOUN==ADJ==NOUN
+              AUX==ADV==ADJ
+              PUNCT==SCONJ==PRON
+              ADV==VERB==PUNCT
+              ADJ==NOUN==NOUN
+              lexvar
+              lemvar
+              posvar
+              richposvar
+              sentlgth
+              ADJ
+              ADP
+              ADV
+              AUX
+              CCONJ
+              DET
+              INTJ
+              NOUN
+              NUM
+              PART
+              PRON
+              PROPN
+              PUNCT
+              SCONJ
+              SYM
+              VERB
+              X
+              _
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: mt, prof
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6114 * (normalized) ADJ==NOUN==PUNCT
+ +      -0.886  * (normalized) NOUN==ADP==NOUN
+ +       0.1385 * (normalized) VERB==NOUN==PUNCT
+ +       0.03   * (normalized) ADP==ADJ==NOUN
+ +       0.0239 * (normalized) NOUN==NOUN==PUNCT
+ +       0.1911 * (normalized) ADP==NOUN==PUNCT
+ +       0.014  * (normalized) VERB==ADJ==NOUN
+ +      -0.9995 * (normalized) DET==NOUN==PUNCT
+ +      -0.0207 * (normalized) NOUN==PUNCT==CCONJ
+ +       0.0191 * (normalized) ADJ==NOUN==ADP
+ +      -0.9197 * (normalized) NOUN==PUNCT==PRON
+ +       0.6682 * (normalized) ADP==DET==NOUN
+ +       0.2306 * (normalized) ADV==ADJ==PUNCT
+ +      -0.0817 * (normalized) PRON==VERB==PUNCT
+ +      -0.1871 * (normalized) ADJ==ADJ==NOUN
+ +       0.547  * (normalized) VERB==DET==NOUN
+ +      -0.2526 * (normalized) NOUN==CCONJ==NOUN
+ +       0.2153 * (normalized) NUM==NOUN==PUNCT
+ +       0.9947 * (normalized) VERB==ADP==NOUN
+ +      -0.5684 * (normalized) AUX==ADJ==PUNCT
+ +       0.3346 * (normalized) NOUN==ADJ==NOUN
+ +      -0.2422 * (normalized) AUX==ADV==ADJ
+ +      -2.3079 * (normalized) PUNCT==SCONJ==PRON
+ +       0.9052 * (normalized) ADV==VERB==PUNCT
+ +      -0.3526 * (normalized) ADJ==NOUN==NOUN
+ +       1.8277 * (normalized) lexvar
+ +      -1.3411 * (normalized) lemvar
+ +      -0.0598 * (normalized) posvar
+ +      -0.8421 * (normalized) richposvar
+ +      -0.4756 * (normalized) sentlgth
+ +      -0.7677 * (normalized) ADJ
+ +      -0.3276 * (normalized) ADP
+ +       0.7738 * (normalized) ADV
+ +      -1.0156 * (normalized) AUX
+ +       1.1233 * (normalized) CCONJ
+ +      -0.7455 * (normalized) DET
+ +      -0.4946 * (normalized) INTJ
+ +       1.7951 * (normalized) NOUN
+ +      -0.7516 * (normalized) NUM
+ +       0.1948 * (normalized) PART
+ +      -1.501  * (normalized) PRON
+ +      -0.1789 * (normalized) PROPN
+ +      -0.9852 * (normalized) PUNCT
+ +      -0.2701 * (normalized) SCONJ
+ +      -1.0838 * (normalized) SYM
+ +       1.0803 * (normalized) VERB
+ +      -0.7429 * (normalized) X
+ +       1.3044 * (normalized) _
+ +       0.0725
+
+Number of kernel evaluations: 247493 (76.773% cached)
+
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         641               54.5068 %
+Incorrectly Classified Instances       535               45.4932 %
+Kappa statistic                          0.0901
+Mean absolute error                      0.4549
+Root mean squared error                  0.6745
+Relative absolute error                 90.9861 %
+Root relative squared error            134.8968 %
+Total Number of Instances             1176     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.481     0.391      0.552     0.481     0.514      0.545    mt
+                 0.609     0.519      0.54      0.609     0.572      0.545    prof
+Weighted Avg.    0.545     0.455      0.546     0.545     0.543      0.545
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 283 305 |   a = mt
+ 230 358 |   b = prof
+
+
