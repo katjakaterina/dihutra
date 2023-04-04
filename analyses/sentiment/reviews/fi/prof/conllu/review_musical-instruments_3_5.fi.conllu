@@ -1,0 +1,58 @@
+1	Hoitaa	hoitaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	homman	homma	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=7|end_char=13
+3	hyvin	hyvin	ADV	Adv	_	1	advmod	_	start_char=14|end_char=19
+
+1	Laitteen	laite	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=21|end_char=29
+2	pääasiallinen	pää#asiallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	3	amod	_	start_char=30|end_char=43
+3	tarkoitus	tarkoitus	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=44|end_char=53
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=54|end_char=56
+5	estää	estää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=57|end_char=62
+6	hengityksen	hengitys	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=63|end_char=74
+7	äänet	ääni	NOUN	N	Case=Nom|Number=Plur	5	obj	_	start_char=75|end_char=80
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=80|end_char=81
+9	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	start_char=82|end_char=87
+10	muuten	muuten	ADV	Adv	_	11	advmod	_	start_char=88|end_char=94
+11	synnyttäisivät	synnyttää	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=95|end_char=109
+12	poksahduksia	poksahdus	NOUN	N	Case=Par|Number=Plur	11	obj	_	start_char=110|end_char=122
+13	,	,	PUNCT	Punct	_	15	punct	_	start_char=122|end_char=123
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=124|end_char=126
+15	sallia	sallia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	conj	_	start_char=127|end_char=133
+16	samalla	samalla	ADV	Adv	_	15	advmod	_	start_char=134|end_char=141
+17	äänen	ääni	NOUN	N	Case=Gen|Number=Sing	18	nmod:gobj	_	start_char=142|end_char=147
+18	kulku	kulku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	15	obj	_	start_char=148|end_char=153
+19	äänenvoimakkuuden	äänen#voimakkuus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	23	nsubj	_	start_char=154|end_char=171
+20	tai	tai	CCONJ	C	_	22	cc	_	start_char=172|end_char=175
+21	korkeiden	korkea	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	start_char=176|end_char=185
+22	taajuuksien	taajuus	NOUN	N	Case=Gen|Derivation=Vs|Number=Plur	19	conj	_	start_char=186|end_char=197
+23	kärsimättä	kärsiä	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	15	advcl	_	start_char=198|end_char=208
+24	.	.	PUNCT	Punct	_	5	punct	_	start_char=208|end_char=209
+
+1	Kaksinkertainen	kaksinkertainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=211|end_char=226
+2	kangassuodatin	kangas#suodatti	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=227|end_char=241
+3	estää	estää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=242|end_char=247
+4	poksahdukset	poksahdus	NOUN	N	Case=Nom|Number=Plur	3	obj	_	start_char=248|end_char=260
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=261|end_char=263
+6	päästää	päästää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=264|end_char=271
+7	äänen	ääni	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=272|end_char=277
+8	läpi	läpi	ADP	Adp	AdpType=Post	7	case	_	start_char=278|end_char=282
+9	ilman	ilman	ADP	Adp	AdpType=Prep	10	case	_	start_char=283|end_char=288
+10	värittymistä	värittyminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	6	obl	_	start_char=289|end_char=301
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=301|end_char=302
+
+1	Mikrofoniteline	Mikrofoniteline	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=304|end_char=319
+2	pysyy	pysyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=320|end_char=325
+3	paikoillaan	paikka	NOUN	N	Case=Ade|Number=Plur|Person[psor]=3	2	obl	_	start_char=326|end_char=337
+4	metallisen	metallinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Sing	5	amod	_	start_char=338|end_char=348
+5	puristimen	puristin	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=349|end_char=359
+6	avulla	apu	NOUN	N	Case=Ade|Derivation=U|Number=Sing	2	obl	_	start_char=360|end_char=366
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=366|end_char=367
+
+1	Joutsenkaulaa	joutsen#kaula	NOUN	N	Case=Par|Number=Sing	5	nsubj	_	start_char=369|end_char=382
+2	pitää	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=383|end_char=388
+3	vähän	vähän	ADV	Adv	_	4	advmod	_	start_char=389|end_char=394
+4	suostutella	suostutella	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=395|end_char=406
+5	pysymään	pysyä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp:ds	_	start_char=407|end_char=415
+6	asetetussa	asettaa	VERB	V	Case=Ine|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=416|end_char=426
+7	asennossa	asento	NOUN	N	Case=Ine|Number=Sing	5	obl	_	start_char=427|end_char=436
+8	.	.	PUNCT	Punct	_	4	punct	_	start_char=436|end_char=437
+

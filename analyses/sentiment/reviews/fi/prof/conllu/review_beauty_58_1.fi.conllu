@@ -1,0 +1,67 @@
+1	Varokaa	varoa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=7
+2	huijausta	huijaus	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=8|end_char=17
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=17|end_char=18
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=20|end_char=24
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=25|end_char=27
+3	halpaa	halpaa	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=28|end_char=34
+4	roinaa	roina	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=35|end_char=41
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=41|end_char=42
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=43|end_char=45
+2	kannata	kannattaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=46|end_char=53
+3	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=54|end_char=59
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=59|end_char=60
+
+1	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=62|end_char=65
+2	Cosmeticsilla	Cosmetics	PROPN	N	Case=Ade|Number=Sing	1	flat:name	_	start_char=66|end_char=79
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	1	aux	_	start_char=80|end_char=82
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop:own	_	start_char=83|end_char=86
+5	tällaista	tällainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	6	amod	_	start_char=87|end_char=96
+6	palettia	paletti	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=97|end_char=105
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=105|end_char=106
+
+1	On	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=107|end_char=109
+2	mahdotonta	mahdoton	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	0	root	_	start_char=110|end_char=120
+3	tietää	tietää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	csubj:cop	_	start_char=121|end_char=127
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=127|end_char=128
+5	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Int	8	obl	_	start_char=129|end_char=134
+6	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	8	obj	_	start_char=135|end_char=140
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=141|end_char=143
+8	valmistettu	valmistaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	start_char=144|end_char=155
+9	ja	ja	CCONJ	C	_	12	cc	_	start_char=156|end_char=158
+10	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	11	det	_	start_char=159|end_char=163
+11	ainesosia	aines#osa	NOUN	N	Case=Par|Number=Plur	12	nsubj:cop	_	start_char=164|end_char=173
+12	siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	8	conj	_	start_char=174|end_char=179
+13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=180|end_char=182
+14	.	.	PUNCT	Punct	_	2	punct	_	start_char=182|end_char=183
+
+1	Tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	2	nmod:gobj	_	start_char=184|end_char=192
+2	käyttö	käyttö	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=193|end_char=199
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=200|end_char=202
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=203|end_char=206
+5	turvallista	turvallinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=207|end_char=218
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=218|end_char=219
+7	joten	joten	ADV	Adv	_	9	advmod	_	start_char=220|end_char=225
+8	älkää	ei	AUX	V	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=226|end_char=231
+9	haaskatko	haaskata	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=232|end_char=241
+10	rahojanne	raho#janne	NOUN	N	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=1	9	obj	_	start_char=242|end_char=251
+11	.	.	PUNCT	Punct	_	5	punct	_	start_char=251|end_char=252
+
+1	Säästä	sää	NOUN	N	Case=Ela|Number=Sing	2	nmod	_	start_char=254|end_char=260
+2	aikaasi	aika	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	start_char=261|end_char=268
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=269|end_char=271
+4	rahojasi	raha	NOUN	N	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	conj	_	start_char=272|end_char=280
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=280|end_char=281
+
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=282|end_char=285
+2	haluat	haluta	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=286|end_char=292
+3	aitoa	aito	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=293|end_char=298
+4	MACia	MACia	PROPN	N	Case=Par|Number=Sing	2	obj	_	start_char=299|end_char=304
+5	,	,	PUNCT	Punct	_	2	punct	_	start_char=304|end_char=305
+6	niin	niin	ADV	Adv	_	8	advmod	_	start_char=306|end_char=310
+7	älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=311|end_char=314
+8	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=315|end_char=319
+9	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	obj	_	start_char=320|end_char=324
+10	.	.	PUNCT	Punct	_	8	punct	_	start_char=324|end_char=325
+

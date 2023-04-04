@@ -1,0 +1,93 @@
+1	Liian	liian	ADV	Adv	_	2	advmod	_	start_char=0|end_char=5
+2	isot	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=6|end_char=10
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=10|end_char=11
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=13|end_char=15
+2	tykkää	tykätä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=16|end_char=22
+3	näistä	tämä	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	2	obl	_	start_char=23|end_char=29
+4	–	–	PUNCT	Punct	_	6	punct	_	start_char=30|end_char=31
+5	liian	liian	ADV	Adv	_	6	advmod	_	start_char=32|end_char=37
+6	isot	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	xcomp	_	start_char=38|end_char=42
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=42|end_char=43
+
+1	Kiinnittävät	kiinnittää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=45|end_char=57
+2	aivan	aivan	ADV	Adv	_	3	advmod	_	start_char=58|end_char=63
+3	liikaa	liikaa	ADV	Adv	_	4	advmod	_	start_char=64|end_char=70
+4	huomiota	huomio	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=71|end_char=79
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=79|end_char=80
+
+1	Nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	_	start_char=82|end_char=86
+2	kyllä	kyllä	ADV	Adv	_	3	advmod	_	start_char=87|end_char=92
+3	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=93|end_char=101
+4	hyvin	hyvin	ADV	Adv	_	3	advmod	_	start_char=102|end_char=107
+5	,	,	PUNCT	Punct	_	10	punct	_	start_char=107|end_char=108
+6	mutta	mutta	CCONJ	C	_	10	cc	_	start_char=109|end_char=114
+7	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=115|end_char=119
+8	aivan	aivan	ADV	Adv	_	9	advmod	_	start_char=120|end_char=125
+9	liian	liian	ADV	Adv	_	10	advmod	_	start_char=126|end_char=131
+10	silmiinpistävät	silmiin#pistävä	NOUN	N	Case=Nom|Number=Plur	3	conj	_	start_char=132|end_char=147
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=147|end_char=148
+
+1	Näille	tämä	PRON	Pron	Case=All|Number=Plur|PronType=Dem	0	root	_	start_char=150|end_char=156
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=157|end_char=159
+3	monia	moni	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	5	det	_	start_char=160|end_char=165
+4	hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	5	amod	_	start_char=166|end_char=171
+5	vaihtoehtoja	vaihto#ehto	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=172|end_char=184
+6	:	:	PUNCT	Punct	_	7	punct	_	start_char=184|end_char=185
+7	hihnarenkaita	hihnaren#kasta	NOUN	N	Case=Par|Number=Plur	5	appos	_	start_char=186|end_char=199
+8	,	,	PUNCT	Punct	_	9	punct	_	start_char=199|end_char=200
+9	hihnalukkoja	hihna#lukko	NOUN	N	Case=Par|Number=Plur	7	conj	_	start_char=201|end_char=213
+10	tai	tai	CCONJ	C	_	13	cc	_	start_char=214|end_char=217
+11	vaikka	vaikka	SCONJ	C	_	13	advmod	_	start_char=218|end_char=224
+12	hihnatapin	hihnata	NOUN	N	Case=Gen|Clitic=Kin|Number=Sing	13	nmod:gobj	_	start_char=225|end_char=235
+13	poistaminen	poistaminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	7	conj	_	start_char=236|end_char=247
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=248|end_char=250
+15	kiinnittäminen	kiinnittäminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	7	conj	_	start_char=251|end_char=265
+16	suoraan	suoraan	ADV	Adv	_	17	advmod	_	start_char=266|end_char=273
+17	hihnaan	hihna	NOUN	N	Case=Ill|Number=Sing	15	nmod	_	start_char=274|end_char=281
+18	.	.	PUNCT	Punct	_	1	punct	_	start_char=281|end_char=282
+
+1	Mutta	mutta	CCONJ	C	_	7	cc	_	start_char=284|end_char=289
+2	kuten	kuten	ADV	Adv	_	3	advmod	_	start_char=290|end_char=295
+3	sanottu	sanoa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=296|end_char=303
+4	,	,	PUNCT	Punct	_	3	punct	_	start_char=303|end_char=304
+5	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	7	nsubj	_	start_char=305|end_char=309
+6	kyllä	kyllä	ADV	Adv	_	7	advmod	_	start_char=310|end_char=315
+7	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=316|end_char=324
+8	,	,	PUNCT	Punct	_	13	punct	_	start_char=324|end_char=325
+9	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=326|end_char=331
+10	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=332|end_char=337
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=338|end_char=341
+12	esteettisesti	esteettisesti	ADV	Adv	Derivation=Sti	13	advmod	_	start_char=342|end_char=355
+13	miellyttävät	miellyttävä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	7	conj	_	start_char=356|end_char=368
+14	tai	tai	CCONJ	C	_	15	cc	_	start_char=369|end_char=372
+15	elegantit	elegantti	NOUN	N	Case=Nom|Number=Plur	13	conj	_	start_char=373|end_char=382
+16	.	.	PUNCT	Punct	_	7	punct	_	start_char=382|end_char=383
+
+1	Hankin	hankkia	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=385|end_char=391
+2	myös	myös	ADV	Adv	_	4	advmod	_	start_char=392|end_char=396
+3	kullanväriset	kullan#värinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	4	amod	_	start_char=397|end_char=410
+4	versiot	versio	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=411|end_char=418
+5	bassooni	bassooni	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=419|end_char=427
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=427|end_char=428
+7	ja	ja	CCONJ	C	_	9	cc	_	start_char=429|end_char=431
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=432|end_char=434
+9	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=435|end_char=442
+10	nyt	nyt	ADV	Adv	_	9	advmod	_	start_char=443|end_char=446
+11	siltä	se	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	9	obl	_	start_char=447|end_char=452
+12	,	,	PUNCT	Punct	_	16	punct	_	start_char=452|end_char=453
+13	että	että	SCONJ	C	_	16	mark	_	start_char=454|end_char=458
+14	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=459|end_char=464
+15	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	aux	_	start_char=465|end_char=472
+16	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	ccomp	_	start_char=473|end_char=480
+17	soittaessa	soittaa	VERB	V	Case=Ine|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	16	advcl	_	start_char=481|end_char=491
+18	isoja	iso	ADJ	A	Case=Par|Degree=Pos|Number=Plur	19	amod	_	start_char=492|end_char=497
+19	violetteja	violetti	NOUN	N	Case=Par|Number=Plur	17	obj	_	start_char=498|end_char=508
+20	platform-kenkiä	platform#kenkä	NOUN	N	Case=Par|Number=Sing	19	nmod	_	start_char=509|end_char=524
+21	.	.	PUNCT	Punct	_	1	punct	_	start_char=524|end_char=525
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=527|end_char=529
+2	todellakaan	todella	ADV	Adv	Clitic=Kaan	3	advmod	_	start_char=530|end_char=541
+3	siistiä	siistä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=542|end_char=549
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=549|end_char=550
+

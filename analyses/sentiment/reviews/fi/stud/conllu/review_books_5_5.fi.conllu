@@ -1,0 +1,62 @@
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=4
+2	pettynyt	pettyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=5|end_char=13
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=13|end_char=14
+4	että	että	SCONJ	C	_	5	mark	_	start_char=15|end_char=19
+5	annoit	antaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=20|end_char=26
+6	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=27|end_char=32
+7	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	start_char=33|end_char=38
+8	vain	vain	ADV	Adv	_	9	advmod	_	start_char=39|end_char=43
+9	4	4	NUM	Num	NumType=Card	10	nummod	_	start_char=44|end_char=45
+10	kappaletta	kappale	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=46|end_char=56
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=56|end_char=57
+12	kun	kun	SCONJ	C	_	14	mark	_	start_char=58|end_char=61
+13	varastosi	varasto	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	nsubj	_	start_char=62|end_char=71
+14	näytti	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=72|end_char=78
+15	,	,	PUNCT	Punct	_	17	punct	_	start_char=78|end_char=79
+16	että	että	SCONJ	C	_	17	mark	_	start_char=80|end_char=84
+17	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	14	ccomp	_	start_char=85|end_char=92
+18	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop:own	_	start_char=93|end_char=95
+19	14	14	NUM	Num	NumType=Card	20	nummod	_	start_char=96|end_char=98
+20	kappaletta	kappale	NOUN	N	Case=Par|Number=Sing	17	nsubj:cop	_	start_char=99|end_char=109
+21	tarjolla	tarjolla	ADV	Adv	_	17	advmod	_	start_char=110|end_char=118
+22	.	.	PUNCT	Punct	_	2	punct	_	start_char=118|end_char=119
+
+1	Meillä	minä	PRON	Pron	Case=Ade|Number=Plur|Person=1|PronType=Prs	0	root	_	start_char=121|end_char=127
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=128|end_char=130
+3	useita	usea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	6	amod	_	start_char=131|end_char=137
+4	todella	todella	ADV	Adv	_	5	advmod	_	start_char=138|end_char=145
+5	vanhoja	vanha	ADJ	A	Case=Par|Degree=Pos|Number=Plur	6	amod	_	start_char=146|end_char=153
+6	numeroita	numero	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=154|end_char=163
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=163|end_char=164
+
+1	Mutta	mutta	CCONJ	C	_	5	cc	_	start_char=166|end_char=171
+2	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	3	nmod:poss	_	start_char=172|end_char=178
+3	määrä	määrä	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=179|end_char=184
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=185|end_char=187
+5	vähentynyt	vähentyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=188|end_char=198
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=198|end_char=199
+
+1	Vanhoja	vanha	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	amod	_	start_char=201|end_char=208
+2	kirjoja	kirja	NOUN	N	Case=Par|Number=Plur	4	nsubj	_	start_char=209|end_char=216
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=217|end_char=219
+4	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=220|end_char=225
+5	tarpeeksi	tarpeeksi	ADV	Adv	_	6	advmod	_	start_char=226|end_char=235
+6	säännölliseen	säännöllinen	ADJ	A	Case=Ill|Degree=Pos|Derivation=Llinen|Number=Sing	7	amod	_	start_char=236|end_char=249
+7	käyttöön	käyttö	NOUN	N	Case=Ill|Number=Sing	4	obl	_	start_char=250|end_char=258
+8	.	.	PUNCT	Punct	_	4	punct	_	start_char=258|end_char=259
+
+1	Täydennyksen	täydennys	NOUN	N	Case=Gen|Number=Sing	4	obl	_	start_char=261|end_char=273
+2	myötä	myötä	ADP	Adp	AdpType=Post	1	case	_	start_char=274|end_char=279
+3	kirjoja	kirja	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=280|end_char=287
+4	käytetään	käyttää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=288|end_char=297
+5	useammin	usein	ADV	Adv	Degree=Cmp	4	advmod	_	start_char=298|end_char=306
+6	.	.	PUNCT	Punct	_	4	punct	_	start_char=306|end_char=307
+
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	_	start_char=309|end_char=311
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=312|end_char=316
+3	hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	_	start_char=317|end_char=322
+4	varakirjoja	vara#kirja	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=323|end_char=334
+5	gospel	gospel	NOUN	N	Case=Nom|Number=Sing	6	compound:nn	_	start_char=335|end_char=341
+6	lauluun	laulu	NOUN	N	Case=Ill|Derivation=U|Number=Sing	4	nmod	_	start_char=342|end_char=349
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=349|end_char=350
+

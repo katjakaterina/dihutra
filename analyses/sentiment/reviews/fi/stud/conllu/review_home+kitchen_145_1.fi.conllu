@@ -1,0 +1,59 @@
+1	Eri	eri	ADJ	A	_	2	amod	_	start_char=0|end_char=3
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=4|end_char=9
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=9|end_char=10
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=11|end_char=13
+2	oletettu	olettaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	nsubj:cop	_	start_char=14|end_char=22
+3	alkuperäinen	alku#peräinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=23|end_char=35
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=35|end_char=36
+
+1	Osia	osia	NOUN	N	Case=Par|Number=Plur	2	nsubj	_	start_char=37|end_char=41
+2	puuttuu	puuttua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=42|end_char=49
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=49|end_char=50
+
+1	Odotin	odottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=52|end_char=58
+2	"	"	PUNCT	Punct	_	4	punct	_	start_char=59|end_char=60
+3	hyvää	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=60|end_char=65
+4	yötä	yö	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=66|end_char=70
+5	kauniita	kaunis	ADJ	A	Case=Par|Degree=Pos|Number=Plur	6	amod	_	start_char=71|end_char=79
+6	unia	uni	NOUN	N	Case=Par|Number=Plur	4	appos	_	start_char=80|end_char=84
+7	"	"	PUNCT	Punct	_	6	punct	_	start_char=84|end_char=85
+8	-kirjaa	kirja	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=86|end_char=93
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=93|end_char=94
+10	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	start_char=95|end_char=99
+11	minulta	minä	PRON	Pron	Case=Abl|Number=Sing|Person=1|PronType=Prs	12	obl	_	start_char=100|end_char=107
+12	löytyi	löytyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=108|end_char=114
+13	isommassa	iso	ADJ	A	Case=Ine|Degree=Cmp|Number=Sing	14	amod	_	start_char=115|end_char=124
+14	koossa	koossa	NOUN	N	Case=Ine|Number=Sing	12	obl	_	start_char=125|end_char=131
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=131|end_char=132
+
+1	Koska	koska	SCONJ	C	_	4	mark	_	start_char=134|end_char=139
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=140|end_char=145
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=146|end_char=148
+4	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	advcl	_	start_char=149|end_char=154
+5	,	,	PUNCT	Punct	_	4	punct	_	start_char=154|end_char=155
+6	osa	osa	NOUN	N	Case=Nom|Number=Sing	9	obj	_	start_char=156|end_char=159
+7	sivuista	sivu	NOUN	N	Case=Ela|Number=Plur	6	nmod	_	start_char=160|end_char=168
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=169|end_char=171
+9	poistettu	poistaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=172|end_char=181
+10	,	,	PUNCT	Punct	_	15	punct	_	start_char=181|end_char=182
+11	ja	ja	CCONJ	C	_	15	cc	_	start_char=183|end_char=185
+12	teksti	teksti	NOUN	N	Case=Nom|Number=Sing	15	nsubj:cop	_	start_char=186|end_char=192
+13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	start_char=193|end_char=195
+14	täysin	täysin	ADV	Adv	_	15	advmod	_	start_char=196|end_char=202
+15	erilainen	erilainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	9	conj	_	start_char=203|end_char=212
+16	ja	ja	CCONJ	C	_	18	cc	_	start_char=213|end_char=215
+17	paljon	paljon	ADV	Adv	_	18	advmod	_	start_char=216|end_char=222
+18	huonompi	huono	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	15	conj	_	start_char=223|end_char=231
+19	kuin	kuin	SCONJ	C	_	22	mark	_	start_char=232|end_char=236
+20	isomman	iso	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	21	amod	_	start_char=237|end_char=244
+21	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	22	nmod:poss	_	start_char=245|end_char=251
+22	teksti	teksti	NOUN	N	Case=Nom|Number=Sing	15	advcl	_	start_char=252|end_char=258
+23	.	.	PUNCT	Punct	_	9	punct	_	start_char=258|end_char=259
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=260|end_char=264
+2	todella	todella	ADV	Adv	_	3	advmod	_	start_char=265|end_char=272
+3	pettynyt	pettyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=273|end_char=281
+4	ostokseen	ostos	NOUN	N	Case=Ill|Number=Sing	3	obl	_	start_char=282|end_char=291
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=291|end_char=292
+

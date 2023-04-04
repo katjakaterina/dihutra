@@ -1,0 +1,56 @@
+1	Loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=14
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=16|end_char=20
+2	aine	aine	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=21|end_char=25
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=26|end_char=28
+4	mieletöntä	mieletön	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	0	root	_	start_char=29|end_char=39
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=39|end_char=40
+
+1	Loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=41|end_char=49
+2	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=50|end_char=55
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=55|end_char=56
+
+1	Pitää	pitää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=58|end_char=63
+2	rajaukset	rajaus	NOUN	N	Case=Nom|Derivation=Vs|Number=Plur	1	obj	_	start_char=64|end_char=73
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=74|end_char=76
+4	ripsivärin	ripsi#väri	NOUN	N	Case=Gen|Number=Sing	2	conj	_	start_char=77|end_char=87
+5	kunnossa	kunto	NOUN	N	Case=Ine|Number=Sing	1	obl	_	start_char=88|end_char=96
+6	koko	koko	ADJ	A	_	7	amod	_	start_char=97|end_char=101
+7	päivän	päivä	NOUN	N	Case=Gen|Number=Sing	1	obl	_	start_char=102|end_char=108
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=109|end_char=111
+9	yön	yö	NOUN	N	Case=Gen|Number=Sing	7	conj	_	start_char=112|end_char=115
+10	...	...	PUNCT	Punct	_	13	punct	_	start_char=115|end_char=118
+11	ja	ja	CCONJ	C	_	13	cc	_	start_char=118|end_char=120
+12	jos	jos	SCONJ	C	_	13	mark	_	start_char=121|end_char=124
+13	päätyy	päätyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=125|end_char=131
+14	juhlimaan	juhlia	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=132|end_char=141
+15	vähän	vähän	ADV	Adv	_	16	advmod	_	start_char=142|end_char=147
+16	liikaa	liikaa	ADV	Adv	_	14	advmod	_	start_char=148|end_char=154
+17	ja	ja	CCONJ	C	_	18	cc	_	start_char=155|end_char=157
+18	nukahtaa	nukahtaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	start_char=158|end_char=166
+19	meikit	meikki	NOUN	N	Case=Nom|Number=Plur	18	obj	_	start_char=167|end_char=173
+20	naamassa	naama	NOUN	N	Case=Ine|Number=Sing	18	obl	_	start_char=174|end_char=182
+21	.	.	PUNCT	Punct	_	22	punct	_	start_char=182|end_char=183
+22	.vannon	.vantoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=183|end_char=190
+23	että	että	SCONJ	C	_	26	mark	_	start_char=191|end_char=195
+24	meikki	meikki	NOUN	N	Case=Nom|Number=Sing	26	nsubj:cop	_	start_char=196|end_char=202
+25	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	_	start_char=203|end_char=205
+26	kunnossa	kunnossa	ADV	Adv	_	22	ccomp	_	start_char=206|end_char=214
+27	vielä	vielä	ADV	Adv	_	28	advmod	_	start_char=215|end_char=220
+28	aamullakin	aamu	NOUN	N	Case=Ade|Clitic=Kin|Number=Sing	26	obl	_	start_char=221|end_char=231
+29	!	!	PUNCT	Punct	_	1	punct	_	start_char=231|end_char=232
+
+1	Ihanteellinen	ihanteellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=233|end_char=246
+2	luomille	luoda	VERB	V	Case=All|Degree=Pos|Number=Plur|PartForm=Agt|VerbForm=Part|Voice=Act	3	xcomp	_	start_char=247|end_char=255
+3	paineltavaksi	painella	VERB	V	Case=Tra|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	1	xcomp:ds	_	start_char=256|end_char=269
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=270|end_char=272
+5	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=273|end_char=279
+6	myös	myös	ADV	Adv	_	9	advmod	_	start_char=280|end_char=284
+7	melko	melko	ADV	Adv	_	8	advmod	_	start_char=285|end_char=290
+8	hyvin	hyvin	ADV	Adv	_	9	advmod	_	start_char=291|end_char=296
+9	pitämään	pitää	VERB	V	Case=Ill|Degree=Pos|Number=Sing|PartForm=Agt|VerbForm=Part|Voice=Act	5	xcomp	_	start_char=297|end_char=305
+10	huulipunan	huuli#puna	NOUN	N	Case=Gen|Number=Sing	11	nmod:poss	_	start_char=306|end_char=316
+11	kunnossa	kunto	NOUN	N	Case=Ine|Number=Sing	5	obl	_	start_char=317|end_char=325
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=325|end_char=326
+

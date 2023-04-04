@@ -1,0 +1,59 @@
+1	Osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=4
+2	13	13	NUM	Num	NumType=Card	3	nummod	_	start_char=5|end_char=7
+3	levyn	levy	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=8|end_char=13
+4	paketti	paketti	NOUN	N	Case=Nom|Number=Sing	1	obj	_	start_char=14|end_char=21
+5	AmazonUK:sta	AmazonUK	PROPN	N	Case=Ela|Number=Sing	1	obl	_	start_char=22|end_char=34
+6	!	!	PUNCT	Punct	_	1	punct	_	start_char=34|end_char=35
+
+1	Vai	vai	CCONJ	C	_	2	cc	_	start_char=37|end_char=40
+2	maksatko	maksaa	VERB	V	Clitic=Ko|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=49
+3	mieluummin	mieluummin	ADV	Adv	_	2	advmod	_	start_char=50|end_char=60
+4	117	117	NUM	Num	NumType=Card	5	nummod	_	start_char=61|end_char=64
+5	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=65|end_char=73
+6	käytetystä	käyttää	VERB	V	Case=Ela|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	9	acl	_	start_char=74|end_char=84
+7	ja	ja	CCONJ	C	_	8	cc	_	start_char=85|end_char=87
+8	huonommasta	huono	ADJ	A	Case=Ela|Degree=Cmp|Number=Sing	6	conj	_	start_char=88|end_char=99
+9	paketista	paketti	NOUN	N	Case=Ela|Number=Sing	2	obl	_	start_char=100|end_char=109
+10	?	?	PUNCT	Punct	_	2	punct	_	start_char=109|end_char=110
+
+1	No	no	INTJ	Interj	_	2	discourse	_	start_char=112|end_char=114
+2	et	ei	VERB	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	_	start_char=115|end_char=117
+3	tietenkään	tietenkään	ADV	Adv	_	2	advmod	_	start_char=118|end_char=128
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=128|end_char=129
+
+1	AMAZON	AMAZO	PROPN	N	Case=Nom|Number=Sing	7	obl	_	start_char=131|end_char=137
+2	UK:ssa	UK	PROPN	N	Case=Ine|Number=Sing	1	flat:name	_	start_char=138|end_char=144
+3	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	det	_	start_char=145|end_char=149
+4	13	13	NUM	Num	NumType=Card	5	nummod	_	start_char=150|end_char=152
+5	levyn	levy	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=153|end_char=158
+6	paketti	paketti	NOUN	N	Case=Nom|Number=Sing	7	obj	_	start_char=159|end_char=166
+7	toimitetaan	toimittaa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=167|end_char=178
+8	upeassa	upea	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	9	amod	_	start_char=179|end_char=186
+9	pakkauksessa	pakkaus	NOUN	N	Case=Ine|Number=Sing	7	obl	_	start_char=187|end_char=199
+10	ja	ja	CCONJ	C	_	15	cc	_	start_char=200|end_char=202
+11	hinta	hinta	NOUN	N	Case=Nom|Number=Sing	15	nsubj:cop	_	start_char=203|end_char=208
+12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	start_char=209|end_char=211
+13	noin	noin	ADV	Adv	_	14	advmod	_	start_char=212|end_char=216
+14	84	84	NUM	Num	NumType=Card	15	nummod	_	start_char=217|end_char=219
+15	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	7	conj	_	start_char=220|end_char=228
+16	sisältäen	sisältää	VERB	V	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	15	advcl	_	start_char=229|end_char=238
+17	toimituskulut	toimitus#kulu	NOUN	N	Case=Nom|Derivation=U|Number=Plur	16	obj	_	start_char=239|end_char=252
+18	.	.	PUNCT	Punct	_	7	punct	_	start_char=252|end_char=253
+
+1	Omani	omani	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	start_char=255|end_char=260
+2	saapui	saapua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=261|end_char=267
+3	juuri	juuri	ADV	Adv	_	2	advmod	_	start_char=268|end_char=273
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=273|end_char=274
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=276|end_char=278
+2	tarvitse	tarvita	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=279|end_char=287
+3	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=288|end_char=292
+4	Einstein	Einste	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=293|end_char=301
+5	tajutakseen	tajuta	VERB	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=302|end_char=313
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=313|end_char=314
+7	kumpi	kumpi	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	5	ccomp	_	start_char=315|end_char=320
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=321|end_char=323
+9	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	10	amod	_	start_char=324|end_char=331
+10	diili	diili	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=332|end_char=337
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=337|end_char=338
+

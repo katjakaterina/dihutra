@@ -1,0 +1,101 @@
+1	Бу	бу	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=2
+2	!	!	PUNCT	_	_	1	punct	_	start_char=2|end_char=3
+
+1	И	и	CCONJ	_	_	3	cc	_	start_char=4|end_char=5
+2	батареи	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	start_char=6|end_char=13
+3	разряжены	разрязить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=14|end_char=23
+4	!	!	PUNCT	_	_	3	punct	_	start_char=23|end_char=24
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	start_char=25|end_char=26
+2	просто	просто	PART	_	_	3	advmod	_	start_char=27|end_char=33
+3	сдался	сдаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=34|end_char=40
+4	и	и	CCONJ	_	_	5	cc	_	start_char=41|end_char=42
+5	выбросил	выбросить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=43|end_char=51
+6	эти	этот	DET	_	Case=Acc|Number=Plur	7	det	_	start_char=52|end_char=55
+7	батарейки	батарейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=56|end_char=65
+8	всего	всего	PART	_	_	10	advmod	_	start_char=66|end_char=71
+9	через	через	ADP	_	_	10	case	_	start_char=72|end_char=77
+10	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=78|end_char=82
+11	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=83|end_char=90
+12	.	.	PUNCT	_	_	3	punct	_	start_char=90|end_char=91
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=92|end_char=93
+2	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=94|end_char=105
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	start_char=106|end_char=108
+4	(	(	PUNCT	_	_	8	punct	_	start_char=109|end_char=110
+5	с	с	ADP	_	_	8	case	_	start_char=110|end_char=111
+6	двумя	два	NUM	_	Case=Ins	8	nummod	_	start_char=112|end_char=117
+7	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	start_char=118|end_char=125
+8	наборами	набор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	parataxis	_	start_char=126|end_char=134
+9	перезаряжаемых	перезаряжать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	start_char=135|end_char=149
+10	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=150|end_char=157
+11	-	-	PUNCT	_	_	12	punct	_	start_char=158|end_char=159
+12	Duracell	Duracell	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=160|end_char=168
+13	и	и	CCONJ	_	_	10	cc	_	start_char=169|end_char=170
+14	Sanyo	Sanyo	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=171|end_char=176
+15	)	)	PUNCT	_	_	14	punct	_	start_char=176|end_char=177
+16	в	в	ADP	_	_	19	case	_	start_char=178|end_char=179
+17	моей	мой	DET	_	Case=Loc|Gender=Fem|Number=Sing	19	det	_	start_char=180|end_char=184
+18	цифровой	цифровой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=185|end_char=193
+19	фотокамере	фотокамера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=194|end_char=204
+20	.	.	PUNCT	_	_	2	punct	_	start_char=204|end_char=205
+
+1	Вначале	вначале	ADV	_	Degree=Pos	3	advmod	_	start_char=206|end_char=213
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	start_char=214|end_char=217
+3	работали	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=218|end_char=226
+4	хорошо	хорошо	ADV	_	Degree=Pos	3	advmod	_	start_char=227|end_char=233
+5	и	и	CCONJ	_	_	13	cc	_	start_char=234|end_char=235
+6	,	,	PUNCT	_	_	5	punct	_	start_char=235|end_char=236
+7	можно	можно	ADV	_	Degree=Pos	13	parataxis	_	start_char=237|end_char=242
+8	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	start_char=243|end_char=250
+9	,	,	PUNCT	_	_	7	punct	_	start_char=250|end_char=251
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	start_char=252|end_char=255
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	start_char=256|end_char=260
+12	на	на	ADP	_	_	13	case	_	start_char=261|end_char=263
+13	равне	равень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	start_char=264|end_char=269
+14	с	с	ADP	_	_	16	case	_	start_char=270|end_char=271
+15	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	start_char=272|end_char=279
+16	брендами	бренд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	nmod	_	start_char=280|end_char=288
+17	.	.	PUNCT	_	_	3	punct	_	start_char=288|end_char=289
+
+1	Теперь	теперь	ADV	_	Degree=Pos	7	advmod	_	start_char=290|end_char=296
+2	с	с	ADP	_	_	3	case	_	start_char=297|end_char=298
+3	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	7	obl	_	start_char=299|end_char=303
+4	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	det	_	start_char=304|end_char=307
+5	камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=308|end_char=314
+6	не	не	PART	_	_	7	advmod	_	start_char=315|end_char=317
+7	проработает	проработать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=318|end_char=329
+8	и	и	CCONJ	_	_	9	advmod	_	start_char=330|end_char=331
+9	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=332|end_char=335
+10	.	.	PUNCT	_	_	7	punct	_	start_char=335|end_char=336
+
+1	Иногда	иногда	ADV	_	Degree=Pos	3	advmod	_	start_char=337|end_char=343
+2	батареи	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=344|end_char=351
+3	разряжаются	разряжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=352|end_char=363
+4	всего	всего	PART	_	_	7	advmod	_	start_char=364|end_char=369
+5	после	после	ADP	_	_	7	case	_	start_char=370|end_char=375
+6	нескольких	несколько	NUM	_	Case=Gen	7	nummod	_	start_char=376|end_char=386
+7	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=387|end_char=394
+8	.	.	PUNCT	_	_	3	punct	_	start_char=394|end_char=395
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=396|end_char=397
+2	уже	уже	ADV	_	Degree=Pos	4	advmod	_	start_char=398|end_char=401
+3	не	не	PART	_	_	4	advmod	_	start_char=402|end_char=404
+4	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=405|end_char=409
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=410|end_char=413
+6	терпеть	терпеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=414|end_char=421
+7	.	.	PUNCT	_	_	6	punct	_	start_char=422|end_char=423
+8	.	.	PUNCT	_	_	6	punct	_	start_char=423|end_char=424
+9	.	.	PUNCT	_	_	4	punct	_	start_char=424|end_char=425
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	start_char=426|end_char=427
+2	больше	больше	ADV	_	Degree=Cmp	5	advmod	_	start_char=428|end_char=434
+3	не	не	PART	_	_	5	advmod	_	start_char=435|end_char=437
+4	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=438|end_char=442
+5	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=443|end_char=451
+6	аккумуляторные	аккумуляторный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	start_char=452|end_char=466
+7	батареи	батарея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=467|end_char=474
+8	фирмы	фирма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=475|end_char=480
+9	Energizer	Energizer	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=481|end_char=490
+10	.	.	PUNCT	_	_	5	punct	_	start_char=490|end_char=491
+

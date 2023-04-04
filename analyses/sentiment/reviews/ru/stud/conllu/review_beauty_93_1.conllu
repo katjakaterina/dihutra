@@ -1,0 +1,91 @@
+1	Поддельный	поддельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	Mac	Mac	PROPN	_	Foreign=Yes	0	root	_	start_char=11|end_char=14
+3	!	!	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+
+1	Поддельный	поддельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=16|end_char=26
+2	MAC	MAC	PROPN	_	Foreign=Yes	0	root	_	start_char=27|end_char=30
+3	.	.	PUNCT	_	_	2	punct	_	start_char=30|end_char=31
+
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	start_char=32|end_char=35
+2	один	один	NUM	_	Case=Nom|Gender=Masc	0	root	_	start_char=36|end_char=40
+3	.	.	PUNCT	_	_	2	punct	_	start_char=40|end_char=41
+
+1	Mac	Mac	PROPN	_	Foreign=Yes	3	nsubj	_	start_char=42|end_char=45
+2	не	не	PART	_	_	3	advmod	_	start_char=46|end_char=48
+3	производит	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=59
+4	такие	такой	DET	_	Case=Acc|Number=Plur	5	det	_	start_char=60|end_char=65
+5	палетки	палетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=66|end_char=73
+6	теней	тень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=74|end_char=79
+7	.	.	PUNCT	_	_	3	punct	_	start_char=79|end_char=80
+
+1	Если	если	SCONJ	_	_	4	mark	_	start_char=81|end_char=85
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	4	nsubj	_	start_char=86|end_char=88
+3	не	не	PART	_	_	4	advmod	_	start_char=89|end_char=91
+4	уверены	уверенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	advcl	_	start_char=92|end_char=99
+5	,	,	PUNCT	_	_	4	punct	_	start_char=99|end_char=100
+6	просто	просто	PART	_	_	7	advmod	_	start_char=101|end_char=107
+7	отнесите	отнести	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=108|end_char=116
+8	товар	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=117|end_char=122
+9	в	в	ADP	_	_	10	case	_	start_char=123|end_char=124
+10	магазин	магазин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=125|end_char=132
+11	MAc	MAc	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=133|end_char=136
+12	в	в	ADP	_	_	14	case	_	start_char=137|end_char=138
+13	торговом	торговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=139|end_char=147
+14	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=148|end_char=154
+15	,	,	PUNCT	_	_	18	punct	_	start_char=154|end_char=155
+16	и	и	CCONJ	_	_	18	cc	_	start_char=156|end_char=157
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	18	nsubj	_	start_char=158|end_char=161
+18	подтвердят	подтвердить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	start_char=162|end_char=172
+19	,	,	PUNCT	_	_	25	punct	_	start_char=172|end_char=173
+20	что	что	SCONJ	_	_	25	mark	_	start_char=174|end_char=177
+21	все	весь	DET	_	Case=Nom|Number=Plur	23	det	_	start_char=178|end_char=181
+22	эти	этот	DET	_	Case=Nom|Number=Plur	23	det	_	start_char=182|end_char=185
+23	палетки	палетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	start_char=186|end_char=193
+24	—	—	PUNCT	_	_	23	punct	_	start_char=194|end_char=195
+25	подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	ccomp	_	start_char=196|end_char=204
+26	.	.	PUNCT	_	_	7	punct	_	start_char=204|end_char=205
+
+1	Продавец	продавец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=206|end_char=214
+2	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	start_char=215|end_char=218
+3	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=219|end_char=224
+4	себе	себя	PRON	_	Case=Dat	3	iobj	_	start_char=225|end_char=229
+5	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=230|end_char=236
+6	.	.	PUNCT	_	_	3	punct	_	start_char=236|end_char=237
+
+1	Под	под	ADP	_	_	3	case	_	start_char=238|end_char=241
+2	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	amod	_	start_char=242|end_char=249
+3	именами	имя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	0	root	_	start_char=250|end_char=257
+4	,	,	PUNCT	_	_	5	punct	_	start_char=257|end_char=258
+5	такими	такой	DET	_	Case=Ins|Number=Plur	3	det	_	start_char=259|end_char=265
+6	как	как	SCONJ	_	_	7	mark	_	start_char=266|end_char=269
+7	Виктория	Виктория	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	obl	_	start_char=270|end_char=278
+8	,	,	PUNCT	_	_	9	punct	_	start_char=278|end_char=279
+9	Алексис	Алексис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=280|end_char=287
+10	,	,	PUNCT	_	_	11	punct	_	start_char=287|end_char=288
+11	a&#34	a&#34	PROPN	_	Foreign=Yes	7	conj	_	start_char=289|end_char=294
+12	;	;	PUNCT	_	_	15	punct	_	start_char=294|end_char=295
+13	.	.	PUNCT	_	_	15	punct	_	start_char=295|end_char=296
+14	-	-	PUNCT	_	_	15	punct	_	start_char=296|end_char=297
+15	&#34	&#34	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=297|end_char=301
+16	и	и	CCONJ	_	_	17	cc	_	start_char=302|end_char=303
+17	т.	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	conj	_	start_char=304|end_char=306
+18	п	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	fixed	_	start_char=306|end_char=307
+19	.	.	PUNCT	_	_	3	punct	_	start_char=307|end_char=308
+
+1	Только	только	PART	_	_	3	advmod	_	start_char=309|end_char=315
+2	для	для	ADP	_	_	3	case	_	start_char=316|end_char=319
+3	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	start_char=320|end_char=324
+4	,	,	PUNCT	_	_	6	punct	_	start_char=324|end_char=325
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=326|end_char=331
+6	поднять	поднять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=332|end_char=339
+7	продажи	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=340|end_char=347
+8	поддельных	поддельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	start_char=348|end_char=358
+9	палеток	палетка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=359|end_char=366
+10	теней	тень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=367|end_char=372
+11	.	.	PUNCT	_	_	3	punct	_	start_char=372|end_char=373
+
+1	Не	не	PART	_	_	2	advmod	_	start_char=374|end_char=376
+2	поддерживайте	поддерживать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=377|end_char=390
+3	поддельный	поддельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	obj	_	start_char=391|end_char=401
+4	mac.	mac.	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=402|end_char=406
+

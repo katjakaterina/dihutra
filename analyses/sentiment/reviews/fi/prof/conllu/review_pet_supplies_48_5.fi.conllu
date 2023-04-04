@@ -1,0 +1,87 @@
+1	Trimmaajaopiskelija	trimmaaja#opiskelija	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	0	root	_	start_char=0|end_char=19
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=21|end_char=25
+2	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	3	det	_	start_char=26|end_char=31
+3	hetkellä	hetki	NOUN	N	Case=Ade|Number=Sing	4	obl	_	start_char=32|end_char=40
+4	kouluttautumassa	kouluttautua	VERB	V	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=41|end_char=57
+5	trimmaajaksi	trimmaaja	NOUN	N	Case=Tra|Derivation=Ja|Number=Sing	4	xcomp:ds	_	start_char=58|end_char=70
+6	/	/	PUNCT	Punct	_	7	punct	_	start_char=70|end_char=71
+7	lemmikkistylistiksi	lemmikkis#tylisti	NOUN	N	Case=Tra|Number=Sing	5	conj	_	start_char=71|end_char=90
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=90|end_char=91
+9	ja	ja	CCONJ	C	_	11	cc	_	start_char=92|end_char=94
+10	työnantajani	työn#antaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing|Number[psor]=Plur|Person[psor]=1	11	nsubj	_	start_char=95|end_char=107
+11	käyttää	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=108|end_char=115
+12	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	13	det	_	start_char=116|end_char=120
+13	kirjaa	kirja	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=121|end_char=127
+14	kaikissa	kaikki	PRON	Pron	Case=Ine|Number=Plur|PronType=Ind	15	det	_	start_char=128|end_char=136
+15	trimmauskoulutuksissaan	trimmaus#koulutus	NOUN	N	Case=Ine|Number=Plur|Person[psor]=3	11	obl	_	start_char=137|end_char=160
+16	,	,	PUNCT	Punct	_	19	punct	_	start_char=160|end_char=161
+17	joita	joka	PRON	Pron	Case=Par|Number=Plur|PronType=Rel	19	obj	_	start_char=162|end_char=167
+18	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	19	nsubj	_	start_char=168|end_char=170
+19	järjestää	järjestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=171|end_char=180
+20	trimmaajilleen	trimmaaja	NOUN	N	Case=All|Derivation=Ja|Number=Plur|Person[psor]=3	19	obl	_	start_char=181|end_char=195
+21	.	.	PUNCT	Punct	_	4	punct	_	start_char=195|end_char=196
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=198|end_char=202
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=203|end_char=208
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=209|end_char=211
+4	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=212|end_char=220
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=220|end_char=221
+
+1	Parasta	hyvä	ADJ	A	Case=Par|Degree=Sup|Number=Sing	0	root	_	start_char=223|end_char=230
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=231|end_char=233
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=233|end_char=234
+4	että	että	SCONJ	C	_	6	mark	_	start_char=235|end_char=239
+5	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	6	obl	_	start_char=240|end_char=245
+6	löytyy	löytyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:cop	_	start_char=246|end_char=252
+7	tietoa	tieto	NOUN	N	Case=Par|Number=Sing	6	nsubj	_	start_char=253|end_char=259
+8	kaikista	kaikki	PRON	Pron	Case=Ela|Number=Plur|PronType=Ind	10	det	_	start_char=260|end_char=268
+9	mahdollisista	mahdollinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Llinen|Number=Plur	10	amod	_	start_char=269|end_char=282
+10	koiraroduista	koira#rotu	NOUN	N	Case=Ela|Number=Plur	7	nmod	_	start_char=283|end_char=296
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=296|end_char=297
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=299|end_char=301
+2	sisältää	sisältää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=302|end_char=310
+3	myös	myös	ADV	Adv	_	5	advmod	_	start_char=311|end_char=315
+4	yleisluonteisia	yleis#luonteinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	5	amod	_	start_char=316|end_char=331
+5	ohjeita	ohje	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=332|end_char=339
+6	monille	moni	PRON	Pron	Case=All|Number=Plur|PronType=Ind	8	det	_	start_char=340|end_char=347
+7	eri	eri	ADJ	A	_	8	amod	_	start_char=348|end_char=351
+8	roduille	rotku	NOUN	N	Case=All|Number=Plur	5	nmod	_	start_char=352|end_char=360
+9	(	(	PUNCT	Punct	_	14	punct	_	start_char=361|end_char=362
+10	esim.	esim.	ADV	Adv	Abbr=Yes	14	advmod	_	start_char=362|end_char=367
+11	nallekarhun	nalle#karhu	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	start_char=368|end_char=379
+12	pään	pää	NOUN	N	Case=Gen|Number=Sing	13	nmod:poss	_	start_char=380|end_char=384
+13	muotoisia	muotoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	14	amod	_	start_char=385|end_char=394
+14	trimmauksia	trimmaus	NOUN	N	Case=Par|Number=Plur	8	appos	_	start_char=395|end_char=406
+15	jne	jne.	ADV	Adv	Abbr=Yes	14	advmod	_	start_char=407|end_char=410
+16	)	)	PUNCT	Punct	_	14	punct	_	start_char=410|end_char=411
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=411|end_char=412
+
+1	Kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=414|end_char=420
+2	ohjeet	ohje	NOUN	N	Case=Nom|Number=Plur	4	obj	_	start_char=421|end_char=427
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux:pass	_	start_char=428|end_char=430
+4	esitetty	esittää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=431|end_char=439
+5	yksinkertaisesti	yksinkertaisesti	ADV	Adv	Derivation=Sti	4	advmod	_	start_char=440|end_char=456
+6	,	,	PUNCT	Punct	_	12	punct	_	start_char=456|end_char=457
+7	mutta	mutta	CCONJ	C	_	12	cc	_	start_char=458|end_char=463
+8	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	12	nsubj:cop	_	start_char=464|end_char=466
+9	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=467|end_char=471
+10	silti	silti	ADV	Adv	_	12	advmod	_	start_char=472|end_char=477
+11	tarpeeksi	tarpeeksi	ADV	Adv	_	12	advmod	_	start_char=478|end_char=487
+12	yksityiskohtaiset	yksityis#kohtainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	4	conj	_	start_char=488|end_char=505
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=506|end_char=508
+14	ymmärrettävät	ymmärrettää	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	12	conj	_	start_char=509|end_char=522
+15	kaikille	kaikki	PRON	Pron	Case=All|Number=Plur|PronType=Ind	16	det	_	start_char=523|end_char=531
+16	lukijoille	lukija	NOUN	N	Case=All|Derivation=Ja|Number=Plur	14	obl	_	start_char=532|end_char=542
+17	.	.	PUNCT	Punct	_	4	punct	_	start_char=542|end_char=543
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=545|end_char=549
+2	kuuluu	kuulua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=550|end_char=556
+3	jokaisen	jokainen	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	4	det	_	start_char=557|end_char=565
+4	trimmaajan	trimmaaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Sing	7	nmod:poss	_	start_char=566|end_char=576
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=577|end_char=579
+6	lemmikkistylistin	lemmikkistylisti	NOUN	N	Case=Gen|Number=Sing	4	conj	_	start_char=580|end_char=597
+7	kirjahyllyyn	kirja#hylly	NOUN	N	Case=Ill|Number=Sing	2	obl	_	start_char=598|end_char=610
+8	!	!	PUNCT	Punct	_	2	punct	_	start_char=610|end_char=611
+

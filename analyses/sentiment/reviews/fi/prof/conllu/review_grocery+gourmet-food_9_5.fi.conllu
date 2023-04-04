@@ -1,0 +1,73 @@
+1	Parhaita	hyvä	ADJ	A	Case=Par|Degree=Sup|Number=Plur	2	amod	_	start_char=0|end_char=8
+2	karkkeja	karkki	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=9|end_char=17
+3	ikinä	ikinä	ADV	Adv	_	2	advmod	_	start_char=18|end_char=23
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=23|end_char=24
+
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=26|end_char=30
+2	kuullut	kuulla	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=31|end_char=38
+3	eriäviä	eriävä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	_	start_char=39|end_char=46
+4	mielipiteitä	mieli#pide	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=47|end_char=59
+5	näistä	tämä	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	6	det	_	start_char=60|end_char=66
+6	KitKateista	kiteate	NOUN	N	Case=Ela|Number=Plur	4	nmod	_	start_char=67|end_char=78
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=78|end_char=79
+8	joten	joten	ADV	Adv	_	9	advmod	_	start_char=80|end_char=85
+9	päätin	päättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=86|end_char=92
+10	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=93|end_char=101
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=101|end_char=102
+
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	3	nsubj:cop	_	start_char=104|end_char=106
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=107|end_char=111
+3	herkullisia	herkullinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Plur	0	root	_	start_char=112|end_char=123
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=123|end_char=124
+5	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=125|end_char=129
+6	kadu	katua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=130|end_char=134
+7	lainkaan	lainkaan	ADV	Adv	_	6	advmod	_	start_char=135|end_char=143
+8	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	9	nmod:gobj	_	start_char=144|end_char=150
+9	ostamista	ostaminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	6	obj	_	start_char=151|end_char=160
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=160|end_char=161
+
+1	Niissä	se	PRON	Pron	Case=Ine|Number=Plur|PronType=Dem	2	obl	_	start_char=163|end_char=169
+2	maistuu	maistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=170|end_char=177
+3	matcha-tee	matcha#teev	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=178|end_char=188
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=188|end_char=189
+5	hiukan	hiukan	ADV	Adv	_	6	advmod	_	start_char=190|end_char=196
+6	vanilja	vanilja	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=197|end_char=204
+7	ja	ja	CCONJ	C	_	8	cc	_	start_char=205|end_char=207
+8	maito	maito	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=208|end_char=213
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=213|end_char=214
+
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	5	nsubj:cop	_	start_char=216|end_char=218
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=219|end_char=223
+3	juuri	juuri	ADV	Adv	_	5	advmod	_	start_char=224|end_char=229
+4	sopivan	sopiva	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	5	amod	_	start_char=230|end_char=237
+5	makeita	makea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=238|end_char=245
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=245|end_char=246
+
+1	Nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	_	start_char=248|end_char=252
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=253|end_char=257
+3	parhaita	hyvä	ADJ	A	Case=Par|Degree=Sup|Number=Plur	4	amod	_	start_char=258|end_char=266
+4	KitKatteja	kitKatti	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=267|end_char=277
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=277|end_char=278
+6	joita	joka	PRON	Pron	Case=Par|Number=Plur|PronType=Rel	8	obj	_	start_char=279|end_char=284
+7	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=285|end_char=289
+8	maistanut	maistaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	acl:relcl	_	start_char=290|end_char=299
+9	.	.	PUNCT	Punct	_	4	punct	_	start_char=299|end_char=300
+
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=301|end_char=312
+2	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	1	obj	_	start_char=313|end_char=318
+3	kaikille	kaikki	PRON	Pron	Case=All|Number=Plur|PronType=Ind	1	obl	_	start_char=319|end_char=327
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=327|end_char=328
+5	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	6	nsubj	_	start_char=329|end_char=334
+6	pitävät	pitää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=335|end_char=342
+7	matchan	matcha	NOUN	N	Case=Gen|Number=Sing	6	obj	_	start_char=343|end_char=350
+8	makuisista	makuinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Inen|Number=Plur	9	amod	_	start_char=351|end_char=361
+9	karkeista	karkki	NOUN	N	Case=Ela|Number=Plur	6	obl	_	start_char=362|end_char=371
+10	tai	tai	CCONJ	C	_	11	cc	_	start_char=372|end_char=375
+11	haluavat	haluta	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=376|end_char=384
+12	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=385|end_char=393
+13	muuta	muu	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	12	obj	_	start_char=394|end_char=399
+14	kuin	kuin	SCONJ	C	_	16	mark	_	start_char=400|end_char=404
+15	tavallista	tavallinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	16	amod	_	start_char=405|end_char=415
+16	KitKattia	KitKattia	PROPN	N	Case=Par|Number=Sing	13	advcl	_	start_char=416|end_char=425
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=425|end_char=426
+

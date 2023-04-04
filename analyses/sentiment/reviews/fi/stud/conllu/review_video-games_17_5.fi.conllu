@@ -1,0 +1,47 @@
+1	Hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=4
+2	peli	peli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=5|end_char=9
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=9|end_char=10
+
+1	7-vuotiaalla	7#vuotias	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	2	amod	_	start_char=12|end_char=24
+2	lapsellani	lapsi	NOUN	N	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obl	_	start_char=25|end_char=35
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=36|end_char=38
+4	ollut	olla	AUX	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	cop	_	start_char=39|end_char=44
+5	todella	todella	ADV	Adv	_	6	advmod	_	start_char=45|end_char=52
+6	hauskaa	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=53|end_char=60
+7	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	det	_	start_char=61|end_char=66
+8	pelin	peli	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=67|end_char=72
+9	parissa	parissa	ADP	Adp	AdpType=Post	8	case	_	start_char=73|end_char=80
+10	ja	ja	CCONJ	C	_	12	cc	_	start_char=81|end_char=83
+11	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=84|end_char=87
+12	oppii	oppia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=88|end_char=93
+13	samalla	samalla	ADV	Adv	_	12	advmod	_	start_char=94|end_char=101
+14	matikkaakin	matikka	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	12	obj	_	start_char=102|end_char=113
+15	!	!	PUNCT	Punct	_	6	punct	_	start_char=113|end_char=114
+
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=116|end_char=121
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=122|end_char=125
+3	lapsen	lapsi	NOUN	N	Case=Gen|Number=Sing	5	nsubj:cop	_	start_char=126|end_char=132
+4	ollessa	olla	AUX	V	Case=Ine|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	5	cop	_	start_char=133|end_char=140
+5	päiväkoti-ikäinen	päivä#koti#ikäinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	1	advcl	_	start_char=141|end_char=158
+6	ja	ja	CCONJ	C	_	9	cc	_	start_char=159|end_char=161
+7	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=162|end_char=165
+8	edelleen	edelleen	ADV	Adv	_	9	advmod	_	start_char=166|end_char=174
+9	rakastaa	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=175|end_char=183
+10	pelata	pelata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=184|end_char=190
+11	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	10	obj	_	start_char=191|end_char=195
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=195|end_char=196
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=198|end_char=200
+2	pitänyt	pitää	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=201|end_char=208
+3	pelin	peli	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=209|end_char=214
+4	ääniä	ääni	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=215|end_char=220
+5	ongelmallisina	ongelmallinen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Llinen|Number=Plur	2	obl	_	start_char=221|end_char=235
+6	–	–	PUNCT	Punct	_	9	punct	_	start_char=236|end_char=237
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=238|end_char=240
+8	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	nmod:poss	_	start_char=241|end_char=244
+9	äänekkäämpi	äänekäs	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	2	conj	_	start_char=245|end_char=256
+10	kuin	kuin	SCONJ	C	_	12	mark	_	start_char=257|end_char=261
+11	muutkaan	muu	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	12	det	_	start_char=262|end_char=270
+12	PC-pelit	PC#peli	NOUN	N	Case=Nom|Number=Plur	9	advcl	_	start_char=271|end_char=279
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=279|end_char=280
+

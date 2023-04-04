@@ -1,0 +1,104 @@
+1	Пустая	пустой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	трата	трата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=12
+3	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=13|end_char=20
+4	и	и	CCONJ	_	_	5	cc	_	start_char=21|end_char=22
+5	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	start_char=23|end_char=28
+6	.	.	PUNCT	_	_	5	punct	_	start_char=28|end_char=29
+7	.	.	PUNCT	_	_	5	punct	_	start_char=29|end_char=30
+8	.	.	PUNCT	_	_	5	punct	_	start_char=30|end_char=31
+9	.	.	PUNCT	_	_	5	punct	_	start_char=31|end_char=32
+10	.	.	PUNCT	_	_	5	punct	_	start_char=32|end_char=33
+11	.	.	PUNCT	_	_	2	punct	_	start_char=33|end_char=34
+12	.	.	PUNCT	_	_	2	punct	_	start_char=34|end_char=35
+
+1	Игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	start_char=36|end_char=40
+2	не	не	PART	_	_	3	advmod	_	start_char=41|end_char=43
+3	устанавливается	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=44|end_char=59
+4	ни	ни	PART	_	_	6	advmod	_	start_char=60|end_char=62
+5	на	на	ADP	_	_	6	case	_	start_char=63|end_char=65
+6	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	3	nummod:gov	_	start_char=66|end_char=70
+7	из	из	ADP	_	_	10	case	_	start_char=71|end_char=73
+8	моих	мой	DET	_	Case=Gen|Number=Plur	9	det	_	start_char=74|end_char=78
+9	семи	семь	NUM	_	Case=Gen	10	nummod	_	start_char=79|end_char=83
+10	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=84|end_char=95
+11	.	.	PUNCT	_	_	3	punct	_	start_char=95|end_char=96
+
+1	Установщик	установщик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=97|end_char=107
+2	настолько	настолько	ADV	_	Degree=Pos	3	obl	_	start_char=108|end_char=117
+3	старый	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=118|end_char=124
+4	,	,	PUNCT	_	_	22	punct	_	start_char=124|end_char=125
+5	что	что	SCONJ	_	_	22	mark	_	start_char=126|end_char=129
+6	если	если	SCONJ	_	_	7	mark	_	start_char=130|end_char=134
+7	видит	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	start_char=135|end_char=140
+8	любое	любой	DET	_	Case=Acc|Gender=Neut|Number=Sing	9	det	_	start_char=141|end_char=146
+9	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=147|end_char=159
+10	,	,	PUNCT	_	_	13	punct	_	start_char=159|end_char=160
+11	которое	который	PRON	_	Case=Nom	13	nsubj	_	start_char=161|end_char=168
+12	не	не	PART	_	_	13	advmod	_	start_char=169|end_char=171
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=172|end_char=177
+14	распознать	распознать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=178|end_char=188
+15	(	(	PUNCT	_	_	16	punct	_	start_char=189|end_char=190
+16	т.е	т..	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	parataxis	_	start_char=190|end_char=193
+17	.	.	PUNCT	_	_	16	punct	_	start_char=193|end_char=194
+18	современное	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=196|end_char=207
+19	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	start_char=208|end_char=220
+20	)	)	PUNCT	_	_	16	punct	_	start_char=220|end_char=221
+21	,	,	PUNCT	_	_	7	punct	_	start_char=221|end_char=222
+22	отменяет	отменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=223|end_char=231
+23	установку	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=232|end_char=241
+24	.	.	PUNCT	_	_	3	punct	_	start_char=241|end_char=242
+
+1	Перепробовал	перепробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=243|end_char=255
+2	все	весь	DET	_	Case=Acc|Number=Plur	3	det	_	start_char=256|end_char=259
+3	советы	совет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=260|end_char=266
+4	,	,	PUNCT	_	_	6	punct	_	start_char=266|end_char=267
+5	которые	который	PRON	_	Case=Acc	6	obj	_	start_char=268|end_char=275
+6	нашёл	найти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=276|end_char=281
+7	на	на	ADP	_	_	8	case	_	start_char=282|end_char=284
+8	форуме	форум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=285|end_char=291
+9	.	.	PUNCT	_	_	1	punct	_	start_char=291|end_char=292
+
+1	Ничего	ничто	PRON	_	Case=Gen	3	obl	_	start_char=293|end_char=299
+2	не	не	PART	_	_	3	advmod	_	start_char=300|end_char=302
+3	помогло	помочь	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=303|end_char=310
+4	.	.	PUNCT	_	_	3	punct	_	start_char=310|end_char=311
+
+1	Даже	даже	PART	_	_	2	advmod	_	start_char=312|end_char=316
+2	разработчик	разработчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=317|end_char=328
+3	забыл	забыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=329|end_char=334
+4	про	про	ADP	_	_	5	case	_	start_char=335|end_char=338
+5	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=339|end_char=343
+6	и	и	CCONJ	_	_	10	cc	_	start_char=344|end_char=345
+7	больше	больше	ADV	_	Degree=Cmp	10	advmod	_	start_char=346|end_char=352
+8	её	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	10	obl	_	start_char=353|end_char=355
+9	не	не	PART	_	_	10	advmod	_	start_char=356|end_char=358
+10	поддерживает	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=359|end_char=371
+11	.	.	PUNCT	_	_	3	punct	_	start_char=371|end_char=372
+
+1	Полное	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=373|end_char=379
+2	разочарование	разочарование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=380|end_char=393
+3	.	.	PUNCT	_	_	2	punct	_	start_char=393|end_char=394
+
+1	Само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	obl	_	start_char=395|end_char=399
+2	собой	себя	PRON	_	Case=Ins	1	fixed	_	start_char=400|end_char=405
+3	,	,	PUNCT	_	_	7	punct	_	start_char=405|end_char=406
+4	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	det	_	start_char=407|end_char=410
+5	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=411|end_char=414
+6	очень	очень	ADV	_	Degree=Pos	7	advmod	_	start_char=415|end_char=420
+7	расстроился	расстроиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=421|end_char=432
+8	.	.	PUNCT	_	_	7	punct	_	start_char=432|end_char=433
+
+1	Не	не	PART	_	_	2	advmod	_	start_char=434|end_char=436
+2	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=437|end_char=446
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	start_char=447|end_char=450
+4	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=451|end_char=455
+5	.	.	PUNCT	_	_	2	punct	_	start_char=455|end_char=456
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=458|end_char=461
+2	устаревшая	устаревший	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	amod	_	start_char=462|end_char=472
+3	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=473|end_char=482
+4	для	для	ADP	_	_	6	case	_	start_char=483|end_char=486
+5	устаревшего	устареть	VERB	_	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	amod	_	start_char=487|end_char=498
+6	железа	железо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=499|end_char=505
+7	.	.	PUNCT	_	_	3	punct	_	start_char=505|end_char=506
+

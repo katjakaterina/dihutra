@@ -1,0 +1,65 @@
+1	﻿Lažni	﻿lažni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=6
+2	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	start_char=7|end_char=10
+3	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	start_char=11|end_char=19
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=19|end_char=20
+5	ne	ne	PART	Qz	Polarity=Neg	6	advmod	_	start_char=21|end_char=23
+6	vrijedi	vrijediti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=24|end_char=31
+7	kupovati	kupovati	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=32|end_char=40
+8	lažnu	lažan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=41|end_char=46
+9	šminku	šminka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=47|end_char=53
+10	!	!	PUNCT	Z	_	6	punct	_	start_char=53|end_char=54
+
+1	Lažni	lažan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=55|end_char=60
+2	Mac	Mac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	start_char=61|end_char=64
+3	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=65|end_char=73
+4	.	.	PUNCT	Z	_	3	punct	_	start_char=73|end_char=74
+
+1	Mac	Mac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=75|end_char=78
+2	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=79|end_char=81
+3	proizvodi	proizvoditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=82|end_char=91
+4	ove	ovaj	DET	Pd-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=92|end_char=95
+5	palete	palet	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=96|end_char=102
+6	,	,	PUNCT	Z	_	9	punct	_	start_char=102|end_char=103
+7	samo	samo	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=104|end_char=108
+8	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	start_char=109|end_char=111
+9	nazovite	nazoviti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=112|end_char=120
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=121|end_char=122
+11	pitajte	pitati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	9	conj	_	start_char=123|end_char=130
+12	.	.	PUNCT	Z	_	3	punct	_	start_char=130|end_char=131
+
+1	Pitajte	pitati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=132|end_char=139
+2	bilo	bilo	PART	Qo	_	3	discourse	_	start_char=140|end_char=144
+3	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	5	det	_	start_char=145|end_char=149
+4	MAC	MAC	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	start_char=150|end_char=153
+5	trgovinu	trgovina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=154|end_char=162
+6	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=163|end_char=164
+7	lokalnom	lokalan	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=165|end_char=173
+8	trgovačkom	trgovački	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=174|end_char=184
+9	centru	centar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=185|end_char=191
+10	.	.	PUNCT	Z	_	1	punct	_	start_char=191|end_char=192
+
+1	Jednim	jedan	NUM	Mlcmsi	Case=Ins|Gender=Masc|NumType=Card|Number=Sing	2	nummod	_	start_char=193|end_char=199
+2	pogledom	pogled	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=200|end_char=208
+3	na	na	ADP	Sa	Case=Acc	5	case	_	start_char=209|end_char=211
+4	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=212|end_char=215
+5	sliku	slika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=216|end_char=221
+6	znat	znati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=222|end_char=226
+7	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=227|end_char=229
+8	da	da	SCONJ	Cs	_	13	mark	_	start_char=230|end_char=232
+9	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=233|end_char=235
+10	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=236|end_char=240
+11	originalni	originalan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=241|end_char=251
+12	MAC	mac	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=252|end_char=255
+13	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	ccomp	_	start_char=256|end_char=264
+14	.	.	PUNCT	Z	_	6	punct	_	start_char=264|end_char=265
+
+1	Držite	držati	VERB	Vmm2p	Mood=Ind|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=266|end_char=272
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=273|end_char=275
+3	podalje	podalje	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=276|end_char=283
+4	od	od	ADP	Sg	Case=Gen	5	case	_	start_char=284|end_char=286
+5	proizvoda	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obl	_	start_char=287|end_char=296
+6	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	8	nsubj	_	start_char=297|end_char=301
+7	nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=302|end_char=306
+8	originalni	originalan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	acl	_	start_char=307|end_char=317
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=317|end_char=318
+

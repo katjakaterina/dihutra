@@ -1,0 +1,56 @@
+1	Lopetti	lopettaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=7
+2	toimimasta	toimia	VERB	V	Case=Ela|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=8|end_char=18
+3	1 1/2	1 1/2	NUM	Num	NumType=Card	4	nummod	_	start_char=19|end_char=24
+4	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	1	obl	_	start_char=25|end_char=34
+5	jälkeen	jälkeen	ADP	Adp	AdpType=Post	4	case	_	start_char=35|end_char=42
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=42|end_char=43
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=43|end_char=44
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=46|end_char=50
+2	toimi	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=51|end_char=56
+3	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=57|end_char=62
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=62|end_char=63
+5	kun	kun	SCONJ	C	_	8	mark	_	start_char=64|end_char=67
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	_	start_char=68|end_char=70
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=71|end_char=74
+8	kunnossa	kunnossa	ADV	Adv	_	2	advcl	_	start_char=75|end_char=83
+9	,	,	PUNCT	Punct	_	13	punct	_	start_char=83|end_char=84
+10	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=85|end_char=90
+11	tänään	tänään	ADV	Adv	_	13	advmod	_	start_char=91|end_char=97
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj	_	start_char=98|end_char=100
+13	lopetti	lopettaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=101|end_char=108
+14	toimimasta	toimia	VERB	V	Case=Ela|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=109|end_char=119
+15	ja	ja	CCONJ	C	_	20	cc	_	start_char=120|end_char=122
+16	30	30	NUM	Num	NumType=Card	17	nummod	_	start_char=123|end_char=125
+17	palautuspäivän	palautus#päivä	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	start_char=126|end_char=140
+18	ikkunasta	ikkuna	NOUN	N	Case=Ela|Number=Sing	20	obl	_	start_char=141|end_char=150
+19	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	start_char=151|end_char=153
+20	mennyt	mennä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	13	conj	_	start_char=154|end_char=160
+21	noin	noin	ADV	Adv	_	22	advmod	_	start_char=161|end_char=165
+22	10	10	NUM	Num	NumType=Card	23	nummod	_	start_char=166|end_char=168
+23	päivää	päivä	NOUN	N	Case=Par|Number=Sing	20	nsubj	_	start_char=169|end_char=175
+24	.	.	PUNCT	Punct	_	2	punct	_	start_char=175|end_char=176
+
+1	Luulen	luulla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=177|end_char=183
+2	,	,	PUNCT	Punct	_	7	punct	_	start_char=183|end_char=184
+3	että	että	SCONJ	C	_	7	mark	_	start_char=185|end_char=189
+4	laatu	laatu	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=190|end_char=195
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=196|end_char=198
+6	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=199|end_char=202
+7	kummoinen	kummoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	1	ccomp	_	start_char=203|end_char=212
+8	,	,	PUNCT	Punct	_	12	punct	_	start_char=212|end_char=213
+9	koska	koska	SCONJ	C	_	12	mark	_	start_char=214|end_char=219
+10	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	obl	_	start_char=220|end_char=223
+11	takia	takia	ADP	Adp	AdpType=Post	10	case	_	start_char=224|end_char=229
+12	lopetti	lopettaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=230|end_char=237
+13	toimimasta	toimia	VERB	V	Case=Ela|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=238|end_char=248
+14	,	,	PUNCT	Punct	_	16	punct	_	start_char=248|end_char=249
+15	kuka	kuka	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	16	nsubj	_	start_char=250|end_char=254
+16	tietää	tietää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	start_char=255|end_char=261
+17	...	...	PUNCT	Punct	_	1	punct	_	start_char=261|end_char=264
+
+1	Kunnon	kunnon	ADV	Adv	_	3	advmod	_	start_char=265|end_char=271
+2	rahan	raha	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=272|end_char=277
+3	tuhlausta	tuhlaus	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=278|end_char=287
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=287|end_char=288
+

@@ -1,0 +1,69 @@
+1	МУЗЫКАЛЬНОЕ	музокальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=11
+2	ВИДЕО	видео	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=12|end_char=17
+3	НЕ	не	PART	_	_	4	advmod	_	start_char=18|end_char=20
+4	ХЛОПИТ	хлопить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=27
+5	!	!	PUNCT	_	_	4	punct	_	start_char=27|end_char=28
+
+1	Научитесь	научиться	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	start_char=29|end_char=38
+2	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=39|end_char=45
+3	на	на	ADP	_	_	4	case	_	start_char=46|end_char=48
+4	гитаре	гитара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=49|end_char=55
+5	,	,	PUNCT	_	_	9	punct	_	start_char=55|end_char=56
+6	КАК	как	SCONJ	_	_	9	mark	_	start_char=57|end_char=60
+7	Клэптон	Клэптон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=61|end_char=68
+8	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	9	nsubj	_	start_char=69|end_char=70
+9	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=71|end_char=76
+10	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	11	det	_	start_char=77|end_char=81
+11	DVD	DVD	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=82|end_char=85
+12	,	,	PUNCT	_	_	15	punct	_	start_char=85|end_char=86
+13	и	и	CCONJ	_	_	15	cc	_	start_char=87|end_char=88
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	15	nsubj	_	start_char=89|end_char=90
+15	возвращаю	возвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=91|end_char=100
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	start_char=101|end_char=104
+17	.	.	PUNCT	_	_	1	punct	_	start_char=104|end_char=105
+
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=106|end_char=114
+2	и	и	CCONJ	_	_	4	cc	_	start_char=115|end_char=116
+3	редакционная	редакционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=117|end_char=129
+4	рецензия	рецензия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=130|end_char=138
+5	вводят	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=139|end_char=145
+6	в	в	ADP	_	_	7	case	_	start_char=146|end_char=147
+7	заблуждение	заблуждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	start_char=148|end_char=159
+8	.	.	PUNCT	_	_	5	punct	_	start_char=159|end_char=160
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=161|end_char=164
+2	НЕ	не	PART	_	_	3	advmod	_	start_char=165|end_char=167
+3	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=168|end_char=173
+4	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=174|end_char=182
+5	.	.	PUNCT	_	_	3	punct	_	start_char=182|end_char=183
+
+1	Конечно	конечно	ADV	_	Degree=Pos	6	parataxis	_	start_char=184|end_char=191
+2	,	,	PUNCT	_	_	1	punct	_	start_char=191|end_char=192
+3	какие-то	какой-то	DET	_	Case=Nom|Number=Plur	0	root	_	start_char=193|end_char=201
+4	клипы	клипы	ADV	_	Degree=Pos	6	advmod	_	start_char=202|end_char=207
+5	от	от	ADP	_	_	6	case	_	start_char=208|end_char=210
+6	Клэптона	Клэптон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=211|end_char=219
+7	,	,	PUNCT	_	_	12	punct	_	start_char=219|end_char=220
+8	но	но	CCONJ	_	_	12	cc	_	start_char=221|end_char=223
+9	в	в	ADP	_	_	10	case	_	start_char=224|end_char=225
+10	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	nmod	_	start_char=226|end_char=234
+11	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	12	det	_	start_char=235|end_char=238
+12	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	start_char=239|end_char=244
+13	"	"	PUNCT	_	_	15	punct	_	start_char=245|end_char=246
+14	как	как	ADV	_	Degree=Pos	15	advmod	_	start_char=246|end_char=249
+15	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	obl	_	start_char=250|end_char=256
+16	"	"	PUNCT	_	_	15	punct	_	start_char=256|end_char=257
+17	.	.	PUNCT	_	_	6	punct	_	start_char=257|end_char=258
+
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=259|end_char=261
+2	же	же	PART	_	_	1	advmod	_	start_char=262|end_char=264
+3	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	start_char=265|end_char=270
+4	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=271|end_char=280
+5	и	и	PART	_	_	7	advmod	_	start_char=281|end_char=282
+6	к	к	ADP	_	_	7	case	_	start_char=283|end_char=284
+7	Clapton	Clapton	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=285|end_char=292
+8	The	The	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=293|end_char=296
+9	Early	Early	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=297|end_char=302
+10	Years	Years	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=303|end_char=308
+11	!	!	PUNCT	_	_	4	punct	_	start_char=308|end_char=309
+

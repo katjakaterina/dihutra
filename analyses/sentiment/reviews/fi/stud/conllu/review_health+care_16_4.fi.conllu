@@ -1,0 +1,72 @@
+1	﻿Todella	﻿Todella	PROPN	N	Case=Nom|Number=Sing	2	nsubj:cop	_	start_char=0|end_char=8
+2	kätevä	kätevä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	nsubj	_	start_char=9|end_char=15
+3	,	,	PUNCT	Punct	_	2	punct	_	start_char=15|end_char=16
+4	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=23
+5	hyvin	hyvin	ADV	Adv	_	4	advmod	_	start_char=24|end_char=29
+6	.	.	PUNCT	Punct	_	4	punct	_	start_char=29|end_char=30
+
+1	Annoin	antaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=32|end_char=38
+2	tälle	tämä	PRON	Pron	Case=All|Number=Sing|PronType=Dem	1	obl	_	start_char=39|end_char=44
+3	viiden	viisi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	4	nummod	_	start_char=45|end_char=51
+4	tähden	tähti	NOUN	N	Case=Gen|Number=Sing	1	obl	_	start_char=52|end_char=58
+5	sijaan	sijaan	ADP	Adp	AdpType=Post	4	case	_	start_char=59|end_char=65
+6	vain	vain	ADV	Adv	_	7	advmod	_	start_char=66|end_char=70
+7	neljä	neljä	NUM	Num	Case=Nom|NumType=Card|Number=Sing	1	obj	_	start_char=71|end_char=76
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=76|end_char=77
+9	sillä	sillä	SCONJ	C	_	11	mark	_	start_char=78|end_char=83
+10	arvosanaa	arvo#sana	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=84|end_char=93
+11	alentaa	alentaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=94|end_char=101
+12	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	13	nmod:poss	_	start_char=102|end_char=110
+13	pakkausmateriaali	pakkaus#materiaali	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	start_char=111|end_char=128
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=128|end_char=129
+
+1	Pakkauksen	pakkaus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	2	nmod:poss	_	start_char=131|end_char=141
+2	muovi	muovi	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=142|end_char=147
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=148|end_char=150
+4	terävää	terävä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=151|end_char=158
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=158|end_char=159
+6	ja	ja	CCONJ	C	_	9	cc	_	start_char=160|end_char=162
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=163|end_char=165
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=166|end_char=169
+9	helppoa	helppo	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	conj	_	start_char=170|end_char=177
+10	pitää	pitää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	csubj:cop	_	start_char=178|end_char=183
+11	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	10	obj	_	start_char=184|end_char=192
+12	mukana	mukana	ADP	Adp	AdpType=Post	13	case	_	start_char=193|end_char=199
+13	laukussa	laukku	NOUN	N	Case=Ine|Number=Sing	10	obl	_	start_char=200|end_char=208
+14	ilman	ilman	ADP	Adp	AdpType=Post	13	case	_	start_char=209|end_char=214
+15	,	,	PUNCT	Punct	_	17	punct	_	start_char=214|end_char=215
+16	että	että	SCONJ	C	_	17	mark	_	start_char=216|end_char=220
+17	tökkään	työdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	start_char=221|end_char=228
+18	sillä	se	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	17	obl	_	start_char=229|end_char=234
+19	itseäni	itse	PRON	Pron	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	17	obj	_	start_char=235|end_char=242
+20	.	.	PUNCT	Punct	_	4	punct	_	start_char=242|end_char=243
+
+1	Kuitenkin	kuitenkin	ADV	Adv	_	5	advmod	_	start_char=244|end_char=253
+2	ilman	ilman	ADP	Adp	AdpType=Prep	3	case	_	start_char=254|end_char=259
+3	muovipakkausta	muovi#pakkaus	NOUN	N	Case=Par|Number=Sing	5	obl	_	start_char=260|end_char=274
+4	suurennuslasi	suurintu	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=275|end_char=288
+5	kerää	kerätä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=289|end_char=294
+6	naarmuja	naarmu	NOUN	N	Case=Par|Number=Plur	5	obj	_	start_char=295|end_char=303
+7	.	.	PUNCT	Punct	_	5	punct	_	start_char=303|end_char=304
+
+1	Heitän	heittää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=306|end_char=312
+2	todennäköisesti	toden#näköisesti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=313|end_char=328
+3	muovipakkauksen	muovi#pakkaus	NOUN	N	Case=Gen|Number=Sing	4	nsubj	_	start_char=329|end_char=344
+4	menemään	mennä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=345|end_char=353
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=354|end_char=356
+6	säilytän	säilyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=357|end_char=365
+7	suurennuslasia	suurennus#lasi	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=366|end_char=380
+8	jossain	jokin	PRON	Pron	Case=Ine|Number=Sing|PronType=Ind	9	det	_	start_char=381|end_char=388
+9	pehmeässä	pehmeä	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	13	amod	_	start_char=389|end_char=398
+10	,	,	PUNCT	Punct	_	13	punct	_	start_char=398|end_char=399
+11	esimerkiksi	esimerkiksi	ADV	Adv	_	13	advmod	_	start_char=400|end_char=411
+12	pienessä	pieni	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	13	amod	_	start_char=412|end_char=420
+13	sukassa	sukka	NOUN	N	Case=Ine|Number=Sing	6	obl	_	start_char=421|end_char=428
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=428|end_char=429
+
+1	Muutoin	muutoin	ADV	Adv	_	3	advmod	_	start_char=431|end_char=438
+2	suurennuslasi	suurintu	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=439|end_char=452
+3	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=453|end_char=459
+4	erinomaisesti	erinomaisesti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=460|end_char=473
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=473|end_char=474
+

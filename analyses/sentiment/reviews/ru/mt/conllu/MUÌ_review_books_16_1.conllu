@@ -1,0 +1,60 @@
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=8
+3	$	$	SYM	_	_	2	nsubj	_	start_char=9|end_char=10
+4	$	$	SYM	_	_	3	nmod	_	start_char=10|end_char=11
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=12|end_char=15
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=16|end_char=21
+3	дешевый	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=22|end_char=29
+4	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=30|end_char=37
+5	.	.	PUNCT	_	_	4	punct	_	start_char=37|end_char=38
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	start_char=39|end_char=40
+2	бы	бы	AUX	_	_	4	aux	_	start_char=41|end_char=43
+3	не	не	PART	_	_	4	advmod	_	start_char=44|end_char=46
+4	заплатил	платить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=47|end_char=55
+5	1	1	NUM	_	_	6	nummod	_	start_char=56|end_char=57
+6	$	$	SYM	_	_	4	obl	_	start_char=57|end_char=58
+7	за	за	ADP	_	_	8	case	_	start_char=59|end_char=61
+8	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=62|end_char=65
+9	.	.	PUNCT	_	_	4	punct	_	start_char=65|end_char=66
+
+1	Бумага	бумага	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=67|end_char=73
+2	дешевая	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=74|end_char=81
+3	и	и	CCONJ	_	_	4	cc	_	start_char=82|end_char=83
+4	тонкая	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=84|end_char=90
+5	-	-	PUNCT	_	_	9	punct	_	start_char=91|end_char=92
+6	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=93|end_char=98
+7	даже	даже	PART	_	_	9	advmod	_	start_char=99|end_char=103
+8	не	не	PART	_	_	9	advmod	_	start_char=104|end_char=106
+9	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	parataxis	_	start_char=107|end_char=115
+10	открытой	открыть	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	start_char=116|end_char=124
+11	(	(	PUNCT	_	_	13	punct	_	start_char=125|end_char=126
+12	из-за	из-за	ADP	_	_	13	case	_	start_char=126|end_char=131
+13	боязни	боязнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	parataxis	_	start_char=132|end_char=138
+14	разорвать	разрыть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	obl	_	start_char=139|end_char=148
+15	переплет	переплет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=149|end_char=157
+16	)	)	PUNCT	_	_	13	punct	_	start_char=157|end_char=158
+17	,	,	PUNCT	_	_	20	punct	_	start_char=158|end_char=159
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	20	mark	_	start_char=160|end_char=165
+19	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	20	nsubj	_	start_char=166|end_char=167
+20	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=168|end_char=171
+21	открыть	открыть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	start_char=172|end_char=179
+22	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	21	obj	_	start_char=180|end_char=182
+23	,	,	PUNCT	_	_	25	punct	_	start_char=182|end_char=183
+24	чтобы	чтобы	SCONJ	_	Mood=Cnd	25	mark	_	start_char=184|end_char=189
+25	поставить	ставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	advcl	_	start_char=190|end_char=199
+26	на	на	ADP	_	_	27	case	_	start_char=200|end_char=202
+27	подставку	подставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	start_char=203|end_char=212
+28	для	для	ADP	_	_	29	case	_	start_char=213|end_char=216
+29	пианино	пианино	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	start_char=217|end_char=224
+30	и	и	CCONJ	_	_	31	cc	_	start_char=225|end_char=226
+31	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	conj	_	start_char=227|end_char=233
+32	.	.	PUNCT	_	_	2	punct	_	start_char=233|end_char=234
+
+1	Не	не	PART	_	_	2	advmod	_	start_char=235|end_char=237
+2	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=238|end_char=247
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	start_char=248|end_char=251
+4	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=252|end_char=258
+5	.	.	PUNCT	_	_	2	punct	_	start_char=258|end_char=259
+

@@ -1,0 +1,92 @@
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	det	_	start_char=9|end_char=13
+3	peliä	peli	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=14|end_char=19
+4	Haluan	haluta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=21|end_char=27
+5	aloittaa	aloittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=28|end_char=36
+6	sanomalla	sanoa	VERB	V	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=37|end_char=46
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=46|end_char=47
+8	että	että	SCONJ	C	_	12	mark	_	start_char=48|end_char=52
+9	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=53|end_char=55
+10	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=56|end_char=59
+11	koskaan	koskaan	ADV	Adv	_	12	advmod	_	start_char=60|end_char=67
+12	pelannut	pelata	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	ccomp	_	start_char=68|end_char=76
+13	Call	Call	PROPN	N	Case=Nom|Number=Sing	16	compound:nn	_	start_char=77|end_char=81
+14	of	of	PROPN	N	Case=Nom|Number=Sing	13	flat:name	_	start_char=82|end_char=84
+15	Duty	Duty	PROPN	N	Case=Nom|Number=Sing	13	flat:name	_	start_char=85|end_char=89
+16	-pelejä	peli	NOUN	N	Case=Par|Number=Plur	12	obj	_	start_char=90|end_char=97
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=97|end_char=98
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	det	_	start_char=100|end_char=104
+2	vasta	vasta	ADV	Adv	_	6	advmod	_	start_char=105|end_char=110
+3	toinen	toinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	6	det	_	start_char=111|end_char=117
+4	ensimmäisen	ensimmäinen	ADJ	Num	Case=Gen|Derivation=Inen|NumType=Ord|Number=Sing	5	amod	_	start_char=118|end_char=129
+5	persoonan	persoona	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=130|end_char=139
+6	ammuntapeli	ammunta#peli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=140|end_char=151
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=151|end_char=152
+8	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	10	obj	_	start_char=153|end_char=158
+9	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	start_char=159|end_char=163
+10	omistanut	omistaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	acl:relcl	_	start_char=164|end_char=173
+11	.	.	PUNCT	Punct	_	6	punct	_	start_char=173|end_char=174
+
+1	Mielestäni	mieli	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obl	_	start_char=176|end_char=186
+2	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=187|end_char=189
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=190|end_char=192
+4	oikein	oikein	ADV	Adv	_	5	advmod	_	start_char=193|end_char=199
+5	hauska	hauska	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=200|end_char=206
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=206|end_char=207
+
+1	Siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=209|end_char=214
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=215|end_char=217
+3	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=218|end_char=222
+4	grafiikka	grafiikka	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=223|end_char=232
+5	ja	ja	CCONJ	C	_	7	cc	_	start_char=233|end_char=235
+6	kiva	kiva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	start_char=236|end_char=240
+7	tarina	tarina	NOUN	N	Case=Nom|Number=Sing	4	conj	_	start_char=241|end_char=247
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=247|end_char=248
+
+1	Sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	nmod:gobj	_	start_char=250|end_char=253
+2	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	4	det	_	start_char=254|end_char=260
+3	tasojen	taso	NOUN	N	Case=Gen|Number=Plur	4	nmod:gobj	_	start_char=261|end_char=268
+4	läpipääseminen	läpi#pääseminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	5	nsubj	_	start_char=269|end_char=283
+5	vaatiin	vaatia	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=284|end_char=291
+6	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	7	nmod:poss	_	start_char=292|end_char=298
+7	verran	verran	ADV	Adv	_	8	advmod	_	start_char=299|end_char=305
+8	taitoa	taito	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=306|end_char=312
+9	.	.	PUNCT	Punct	_	5	punct	_	start_char=312|end_char=313
+
+1	Mielestäni	mieli	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obl	_	start_char=315|end_char=325
+2	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	start_char=326|end_char=332
+3	voivat	voida	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=333|end_char=339
+4	nauttia	nauttia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=340|end_char=347
+5	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	6	det	_	start_char=348|end_char=353
+6	pelistä	peli	NOUN	N	Case=Ela|Number=Sing	4	obl	_	start_char=354|end_char=361
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=361|end_char=362
+
+1	Voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=364|end_char=368
+2	valita	valita	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=369|end_char=375
+3	kolmesta	kolme	NUM	Num	Case=Ela|NumType=Card|Number=Sing	5	nummod	_	start_char=376|end_char=384
+4	eri	eri	ADJ	A	_	5	amod	_	start_char=385|end_char=388
+5	tasosta	taso	NOUN	N	Case=Ela|Number=Sing	2	obl	_	start_char=389|end_char=396
+6	taidoistasi	taito	NOUN	N	Case=Ela|Number=Plur|Number[psor]=Sing|Person[psor]=1	7	obl	_	start_char=397|end_char=408
+7	riippuen	riippua	VERB	V	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=409|end_char=417
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=417|end_char=418
+
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=420|end_char=423
+2	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	start_char=424|end_char=429
+3	ensimmäisen	ensimmäinen	ADJ	Num	Case=Gen|Derivation=Inen|NumType=Ord|Number=Sing	4	amod	_	start_char=430|end_char=441
+4	persoonan	persoona	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=442|end_char=451
+5	ammuntapeliä	ammunta#peli	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=452|end_char=464
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=464|end_char=465
+7	jossa	joka	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	5	acl:relcl	_	start_char=466|end_char=471
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=472|end_char=474
+9	ajantasaista	ajan#tasainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	11	amod	_	start_char=475|end_char=487
+10	armeijatyyppistä	armeija#tyyppinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	11	amod	_	start_char=488|end_char=504
+11	pelaamista	pelaaminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	7	nsubj:cop	_	start_char=505|end_char=515
+12	,	,	PUNCT	Punct	_	7	punct	_	start_char=515|end_char=516
+13	niin	niin	ADV	Adv	_	17	advmod	_	start_char=517|end_char=521
+14	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	17	nsubj:cop	_	start_char=522|end_char=526
+15	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	start_char=527|end_char=529
+16	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	start_char=530|end_char=534
+17	ostos	ostos	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=535|end_char=540
+18	.	.	PUNCT	Punct	_	17	punct	_	start_char=540|end_char=541
+

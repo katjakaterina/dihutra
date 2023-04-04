@@ -1,0 +1,56 @@
+1	Vain	vain	ADV	Adv	_	2	advmod	_	start_char=0|end_char=4
+2	3	3	NUM	Num	NumType=Card	3	nummod	_	start_char=5|end_char=6
+3	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=7|end_char=13
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=13|end_char=14
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=15|end_char=17
+6	luvattua	luvata	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=18|end_char=26
+7	5	5	NUM	Num	NumType=Card	8	nummod	_	start_char=27|end_char=28
+8	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	3	conj	_	start_char=29|end_char=35
+
+1	Näiden	tämä	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	3	nsubj	_	start_char=37|end_char=43
+2	taattiin	taata	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=44|end_char=52
+3	toimivan	toimia	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	2	ccomp	_	start_char=53|end_char=61
+4	5	5	NUM	Num	NumType=Card	5	nummod	_	start_char=62|end_char=63
+5	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=64|end_char=70
+6	,	,	PUNCT	Punct	_	12	punct	_	start_char=70|end_char=71
+7	mutta	mutta	CCONJ	C	_	12	cc	_	start_char=72|end_char=77
+8	eräpäivä	eräpäivä	NOUN	N	Case=Nom|Number=Sing	12	nsubj:cop	_	start_char=78|end_char=86
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=87|end_char=89
+10	vain	vain	ADV	Adv	_	11	advmod	_	start_char=90|end_char=94
+11	3	3	NUM	Num	NumType=Card	12	nummod	_	start_char=95|end_char=96
+12	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	2	conj	_	start_char=97|end_char=103
+13	(	(	PUNCT	Punct	_	14	punct	_	start_char=104|end_char=105
+14	maaliskuu	maaliskuu	NOUN	N	Case=Nom|Number=Sing	12	obl	_	start_char=105|end_char=114
+15	2016	2016	NUM	Num	NumType=Card	14	nummod	_	start_char=115|end_char=119
+16	)	)	PUNCT	Punct	_	14	punct	_	start_char=119|end_char=120
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=120|end_char=121
+
+1	Koska	koska	SCONJ	C	_	2	mark	_	start_char=123|end_char=128
+2	käytän	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=129|end_char=135
+3	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	2	obj	_	start_char=136|end_char=141
+4	kellojen	kello	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	start_char=142|end_char=150
+5	paristojen	paristo	NOUN	N	Case=Gen|Number=Plur	2	obl	_	start_char=151|end_char=161
+6	varalla	varalla	ADP	Adp	AdpType=Post	5	case	_	start_char=162|end_char=169
+7	,	,	PUNCT	Punct	_	2	punct	_	start_char=169|end_char=170
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	_	start_char=171|end_char=175
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=176|end_char=178
+10	iso	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	start_char=179|end_char=182
+11	pettymys	pettymys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=183|end_char=191
+12	.	.	PUNCT	Punct	_	11	punct	_	start_char=191|end_char=192
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=194|end_char=196
+2	odottanut	odottaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=197|end_char=206
+3	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=207|end_char=211
+4	Amazonilta	Amazon	PROPN	N	Case=Abl|Number=Sing	2	obl	_	start_char=212|end_char=222
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=222|end_char=223
+
+1	Todennäköisesti	toden#näköisesti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=225|end_char=240
+2	vain	vain	ADV	Adv	_	3	advmod	_	start_char=241|end_char=245
+3	hyväksyn	hyväksyä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=246|end_char=254
+4	asian	asia	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=255|end_char=260
+5	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=261|end_char=265
+6	säädä	säädä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=266|end_char=271
+7	palautuksen	palautus	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=272|end_char=283
+8	kanssa	kanssa	ADP	Adp	AdpType=Post	7	case	_	start_char=284|end_char=290
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=290|end_char=291
+

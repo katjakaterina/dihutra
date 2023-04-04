@@ -1,0 +1,77 @@
+1	käytä	käyttää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	ylimääräiset	yli#määräinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	3	amod	_	start_char=6|end_char=18
+3	rahat	raha	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=19|end_char=24
+4	parempaan	hyvä	ADJ	A	Case=Ill|Degree=Cmp|Number=Sing	5	amod	_	start_char=25|end_char=34
+5	settiin	setti	NOUN	N	Case=Ill|Number=Sing	1	obl	_	start_char=35|end_char=42
+6	käytin	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=44|end_char=50
+7	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	6	obj	_	start_char=51|end_char=55
+8	noin	noin	ADV	Adv	_	9	advmod	_	start_char=56|end_char=60
+9	vuoden	vuosi	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=61|end_char=67
+10	ja	ja	CCONJ	C	_	13	cc	_	start_char=68|end_char=70
+11	sitten	sitten	ADV	Adv	_	13	advmod	_	start_char=71|end_char=77
+12	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	start_char=78|end_char=81
+13	pakko	pakko	NOUN	N	Case=Nom|Number=Sing	1	conj	_	start_char=82|end_char=87
+14	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	xcomp:ds	_	start_char=88|end_char=93
+15	paremmat	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Plur	16	amod	_	start_char=94|end_char=102
+16	välineet	väline	NOUN	N	Case=Nom|Number=Plur	14	obj	_	start_char=103|end_char=111
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=111|end_char=112
+
+1	ohut	ohut	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=114|end_char=118
+2	puhdistuspuikko	puhdistus#puikko	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=119|end_char=134
+3	-	-	PUNCT	Punct	_	4	punct	_	start_char=135|end_char=136
+4	poikki	poikki	ADV	Adv	_	2	advmod	_	start_char=137|end_char=143
+5	...	...	PUNCT	Punct	_	2	punct	_	start_char=143|end_char=146
+
+1	paksumpi	paksu	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	2	amod	_	start_char=147|end_char=155
+2	puhdistuspuikko	puhdistus#puikko	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=156|end_char=171
+3	-	-	PUNCT	Punct	_	5	punct	_	start_char=172|end_char=173
+4	myös	myös	ADV	Adv	_	5	advmod	_	start_char=174|end_char=178
+5	poikki	poikki	ADV	Adv	_	2	advmod	_	start_char=179|end_char=185
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=185|end_char=186
+
+1	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=188|end_char=190
+2	käytä	käyttää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=191|end_char=196
+3	näiden	tämä	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	2	obl	_	start_char=197|end_char=203
+4	kanssa	kanssa	ADP	Adp	AdpType=Post	3	case	_	start_char=204|end_char=210
+5	liikaa	liikaa	ADV	Adv	_	6	advmod	_	start_char=211|end_char=217
+6	voimaa	voima	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=218|end_char=224
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=224|end_char=225
+8	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	12	nsubj:cop	_	start_char=226|end_char=228
+9	vain	vain	ADV	Adv	_	12	advmod	_	start_char=229|end_char=233
+10	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=234|end_char=238
+11	todella	todella	ADV	Adv	_	12	advmod	_	start_char=239|end_char=246
+12	pehmeitä	pehmeä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	conj	_	start_char=247|end_char=255
+13	/	/	PUNCT	Punct	_	14	punct	_	start_char=255|end_char=256
+14	halpoja	halpa	ADJ	A	Case=Par|Degree=Pos|Number=Plur	12	conj	_	start_char=256|end_char=263
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=263|end_char=264
+
+1	harjat	harja	NOUN	N	Case=Nom|Number=Plur	5	nsubj:cop	_	start_char=266|end_char=272
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=273|end_char=277
+3	kumminkin	kumminkin	ADV	Adv	Clitic=Kin	5	advmod	_	start_char=278|end_char=287
+4	ihan	ihan	ADV	Adv	_	5	advmod	_	start_char=288|end_char=292
+5	hyvät	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=293|end_char=298
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=298|end_char=299
+
+1	taisin	taitaa	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=301|end_char=307
+2	viisastua	viisastua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=308|end_char=317
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=317|end_char=318
+4	kun	kun	SCONJ	C	_	6	mark	_	start_char=319|end_char=322
+5	piti	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	start_char=323|end_char=327
+6	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=328|end_char=335
+7	rahaa	raha	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=336|end_char=341
+8	parempaan	hyvä	ADJ	A	Case=Ill|Degree=Cmp|Number=Sing	9	amod	_	start_char=342|end_char=351
+9	settiin	setti	NOUN	N	Case=Ill|Number=Sing	6	obl	_	start_char=352|end_char=359
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=359|end_char=360
+
+1	jos	jos	SCONJ	C	_	3	mark	_	start_char=362|end_char=365
+2	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	3	obl	_	start_char=366|end_char=372
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=373|end_char=375
+4	varaa	vara	NOUN	N	Case=Par|Number=Sing	3	nsubj	_	start_char=376|end_char=381
+5	,	,	PUNCT	Punct	_	3	punct	_	start_char=381|end_char=382
+6	niin	niin	ADV	Adv	_	7	advmod	_	start_char=383|end_char=387
+7	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=388|end_char=392
+8	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	10	nmod:poss	_	start_char=393|end_char=399
+9	vähän	vähän	ADV	Adv	_	10	advmod	_	start_char=400|end_char=405
+10	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	7	obj	_	start_char=406|end_char=413
+11	.	.	PUNCT	Punct	_	7	punct	_	start_char=413|end_char=414
+

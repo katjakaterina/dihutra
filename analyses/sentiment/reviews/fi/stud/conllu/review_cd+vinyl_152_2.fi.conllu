@@ -1,0 +1,53 @@
+1	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=0|end_char=2
+2	CLAPTONIN	CLAPTON	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=3|end_char=12
+3	MUSIIKKIVIDEO	musi#iksi#kikeo	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=13|end_char=26
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=26|end_char=27
+
+1	Opettele	opetella	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=28|end_char=36
+2	soittamaan	soittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=37|end_char=47
+3	kitaraa	kitara	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=48|end_char=55
+4	KUIN	kuin	SCONJ	C	_	6	mark	_	start_char=56|end_char=60
+5	Clapton	Clapton	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=61|end_char=68
+6	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=70|end_char=75
+7	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	det	_	start_char=76|end_char=81
+8	DVD:n	DVD	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	6	obj	_	start_char=82|end_char=87
+9	ja	ja	CCONJ	C	_	11	cc	_	start_char=88|end_char=90
+10	aion	aikoa	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=91|end_char=95
+11	palauttaa	palauttaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	conj	_	start_char=96|end_char=105
+12	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	obj	_	start_char=106|end_char=109
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=109|end_char=110
+
+1	Kuvaus	kuvaus	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=112|end_char=118
+2	ja	ja	CCONJ	C	_	3	cc	_	start_char=119|end_char=121
+3	arvostelu	arvostelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	1	conj	_	start_char=122|end_char=131
+4	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=132|end_char=136
+5	harhaanjohtavia	harhaanjohtava	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=137|end_char=152
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=152|end_char=153
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=155|end_char=159
+2	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=160|end_char=162
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=163|end_char=166
+4	Clapton-video	Clapton-video	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=167|end_char=180
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=180|end_char=181
+
+1	Siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=183|end_char=188
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=189|end_char=191
+3	joitakin	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	4	det	_	start_char=192|end_char=200
+4	pätkiä	pätki	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=201|end_char=207
+5	Claptonista	Clapton	PROPN	N	Case=Ela|Number=Sing	1	obl	_	start_char=208|end_char=219
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=219|end_char=220
+7	mutta	mutta	CCONJ	C	_	10	cc	_	start_char=221|end_char=226
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=227|end_char=231
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=232|end_char=234
+10	opetusvideo	opetus#video	NOUN	N	Case=Nom|Number=Sing	1	conj	_	start_char=235|end_char=246
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=246|end_char=247
+
+1	Sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=249|end_char=253
+2	pätee	päteä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=254|end_char=259
+3	Clapton	Clapton	PROPN	N	Case=Nom|Number=Sing	7	compound:nn	_	start_char=260|end_char=267
+4	The	The	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=268|end_char=271
+5	Early	Early	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=272|end_char=277
+6	Years	Years	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=278|end_char=283
+7	-videoon	video	NOUN	N	Case=Ill|Number=Sing	2	obl	_	start_char=284|end_char=292
+8	!	!	PUNCT	Punct	_	2	punct	_	start_char=292|end_char=293
+

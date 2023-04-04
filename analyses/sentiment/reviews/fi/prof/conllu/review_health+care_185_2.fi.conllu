@@ -1,0 +1,59 @@
+1	Kestää	kestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	vain	vain	ADV	Adv	_	3	advmod	_	start_char=7|end_char=11
+3	kolme	kolme	NUM	Num	Case=Nom|NumType=Card|Number=Sing	4	nummod	_	start_char=12|end_char=17
+4	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=18|end_char=24
+5	luvatun	luvata	VERB	V	Case=Gen|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=25|end_char=32
+6	viiden	viisi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	1	obl	_	start_char=33|end_char=39
+7	sijaan	sijaan	ADP	Adp	AdpType=Post	6	case	_	start_char=40|end_char=46
+
+1	Kuvauksessa	kuvaus	NOUN	N	Case=Ine|Number=Sing	2	obl	_	start_char=48|end_char=59
+2	luvattiin	luvata	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=60|end_char=69
+3	viiden	viisi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	4	nummod	_	start_char=70|end_char=76
+4	vuoden	vuosi	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=77|end_char=83
+5	käyttöikää	käyttöikä	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=84|end_char=94
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=94|end_char=95
+7	mutta	mutta	CCONJ	C	_	10	cc	_	start_char=96|end_char=101
+8	viimeinen	viimeinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	9	amod	_	start_char=102|end_char=111
+9	käyttöpäivä	käyttö#päivä	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	start_char=112|end_char=123
+10	kattaa	kattaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=124|end_char=130
+11	vain	vain	ADV	Adv	_	12	advmod	_	start_char=131|end_char=135
+12	kolme	kolme	NUM	Num	Case=Nom|NumType=Card|Number=Sing	13	nummod	_	start_char=136|end_char=141
+13	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	10	obj	_	start_char=142|end_char=148
+14	(	(	PUNCT	Punct	_	15	punct	_	start_char=149|end_char=150
+15	maaliskuu	maaliskuu	NOUN	N	Case=Nom|Number=Sing	13	appos	_	start_char=150|end_char=159
+16	2016	2016	NUM	Num	NumType=Card	15	nummod	_	start_char=160|end_char=164
+17	)	)	PUNCT	Punct	_	15	punct	_	start_char=164|end_char=165
+18	.	.	PUNCT	Punct	_	2	punct	_	start_char=165|end_char=166
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=168|end_char=172
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=173|end_char=175
+3	todella	todella	ADV	Adv	_	4	advmod	_	start_char=176|end_char=183
+4	iso	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=184|end_char=187
+5	pettymys	pettymys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=188|end_char=196
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=196|end_char=197
+7	koska	koska	SCONJ	C	_	9	mark	_	start_char=198|end_char=203
+8	aion	aikoa	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=204|end_char=208
+9	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=209|end_char=216
+10	paristoja	paristo	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=217|end_char=226
+11	kellojeni	kello	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	12	nmod:poss	_	start_char=227|end_char=236
+12	varavirtalähteenä	vara#virta#lähde	NOUN	N	Case=Ess|Number=Sing	9	obl	_	start_char=237|end_char=254
+13	.	.	PUNCT	Punct	_	5	punct	_	start_char=254|end_char=255
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=257|end_char=259
+2	odottanut	odottaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=260|end_char=269
+3	tällaista	tällainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	2	obj	_	start_char=270|end_char=279
+4	Amazonilta	Amazon	PROPN	N	Case=Abl|Number=Sing	2	obl	_	start_char=280|end_char=290
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=290|end_char=291
+
+1	Todennäköisesti	toden#näköisesti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=293|end_char=308
+2	pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=309|end_char=314
+3	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=315|end_char=323
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=323|end_char=324
+5	koska	koska	SCONJ	C	_	7	mark	_	start_char=325|end_char=330
+6	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=331|end_char=333
+7	jaksa	jaksaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=334|end_char=339
+8	säätää	säätää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=340|end_char=346
+9	palautuksen	palautus	NOUN	N	Case=Gen|Number=Sing	8	obl	_	start_char=347|end_char=358
+10	kanssa	kanssa	ADP	Adp	AdpType=Post	9	case	_	start_char=359|end_char=365
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=365|end_char=366
+

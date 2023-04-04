@@ -1,0 +1,91 @@
+1	﻿Nopea	﻿nopea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	Punct	_	3	punct	_	start_char=6|end_char=7
+3	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=8|end_char=14
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=15|end_char=17
+5	taloudellinen	taloudellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	1	conj	_	start_char=18|end_char=31
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=33|end_char=37
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=38|end_char=41
+3	iso	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=42|end_char=45
+4	yllätys	yllätys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=46|end_char=53
+5	hintaansa	hinta	NOUN	N	Case=Par|Number=Sing|Person[psor]=3	4	nmod	_	start_char=54|end_char=63
+6	nähden	nähden	ADP	Adp	AdpType=Post	5	case	_	start_char=64|end_char=70
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=70|end_char=71
+
+1	Katselin	katsella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=73|end_char=81
+2	Youtubesta	Youtube	PROPN	N	Case=Ela|Number=Sing	1	obl	_	start_char=82|end_char=92
+3	treenivideoita	treeni#videa	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=93|end_char=107
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=107|end_char=108
+5	joissa	joka	PRON	Pron	Case=Ine|Number=Plur|PronType=Rel	6	obl	_	start_char=109|end_char=115
+6	hyödynnetään	hyödyntää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	start_char=116|end_char=128
+7	vastuskuminauhaa	vastus#kuminauh	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=129|end_char=145
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=145|end_char=146
+9	ja	ja	CCONJ	C	_	10	cc	_	start_char=147|end_char=149
+10	päätin	päättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=150|end_char=156
+11	itsekin	itse	ADV	Adv	Clitic=Kin	10	advmod	_	start_char=157|end_char=164
+12	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=165|end_char=173
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=173|end_char=174
+
+1	Miksipä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	start_char=176|end_char=183
+2	ei	ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	_	start_char=184|end_char=186
+3	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	4	det	_	start_char=187|end_char=192
+4	hintaan	hinta	NOUN	N	Case=Ill|Number=Sing	2	obl	_	start_char=193|end_char=200
+5	?	?	PUNCT	Punct	_	2	punct	_	start_char=200|end_char=201
+
+1	Koin	kokea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=203|end_char=207
+2	,	,	PUNCT	Punct	_	8	punct	_	start_char=207|end_char=208
+3	että	että	SCONJ	C	_	8	mark	_	start_char=209|end_char=213
+4	ensimmäinen	ensimmäinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	5	amod	_	start_char=214|end_char=225
+5	harjoituskertani	harjoitus#kerta	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	nsubj:cop	_	start_char=226|end_char=242
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=243|end_char=246
+7	oikein	oikein	ADV	Adv	_	8	advmod	_	start_char=247|end_char=253
+8	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	ccomp	_	start_char=254|end_char=258
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=258|end_char=259
+
+1	Oviankkuri	oviankkuri	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=261|end_char=271
+2	toimi	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=272|end_char=277
+3	erinomaisesti	erinomaisesti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=278|end_char=291
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=291|end_char=292
+
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=294|end_char=298
+2	71-vuotias	71#vuotias	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=299|end_char=309
+3	,	,	PUNCT	Punct	_	12	punct	_	start_char=309|end_char=310
+4	ja	ja	CCONJ	C	_	12	cc	_	start_char=311|end_char=313
+5	suurten	suuri	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=314|end_char=321
+6	laitteiden	laite	NOUN	N	Case=Gen|Number=Plur	7	nmod:gobj	_	start_char=322|end_char=332
+7	pitäminen	pitäminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	12	nsubj:cop	_	start_char=333|end_char=342
+8	kodissa	koti	NOUN	N	Case=Ine|Number=Sing	7	nmod	_	start_char=343|end_char=350
+9	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=351|end_char=353
+10	yksinkertaisesti	yksinkertaisesti	ADV	Adv	Derivation=Sti	12	advmod	_	start_char=354|end_char=370
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=371|end_char=374
+12	mahdollista	mahdollinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	2	conj	_	start_char=375|end_char=386
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=386|end_char=387
+
+1	Pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=389|end_char=394
+2	nauhaa	nauha	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=395|end_char=401
+3	yöpöydässäni	yö#pöytä	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=402|end_char=414
+4	,	,	PUNCT	Punct	_	13	punct	_	start_char=414|end_char=415
+5	ja	ja	CCONJ	C	_	13	cc	_	start_char=416|end_char=418
+6	aina	aina	ADV	Adv	_	7	advmod	_	start_char=419|end_char=423
+7	kun	kun	SCONJ	C	_	8	mark	_	start_char=424|end_char=427
+8	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	13	advcl	_	start_char=428|end_char=435
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop:own	_	start_char=436|end_char=438
+10	ylimääräistä	yli#määräinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	11	amod	_	start_char=439|end_char=451
+11	aikaa	aika	NOUN	N	Case=Par|Number=Sing	8	nsubj:cop	_	start_char=452|end_char=457
+12	,	,	PUNCT	Punct	_	8	punct	_	start_char=457|end_char=458
+13	käytän	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=459|end_char=465
+14	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	13	obj	_	start_char=466|end_char=469
+15	pieneen	pieni	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	16	amod	_	start_char=470|end_char=477
+16	treeniin	treeni	NOUN	N	Case=Ill|Number=Sing	13	obl	_	start_char=478|end_char=486
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=486|end_char=487
+
+1	Iloisesti	iloisesti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=489|end_char=498
+2	yllättynyt	yllättyä	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=499|end_char=509
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=510|end_char=512
+4	tyytyväinen	tyytyväinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	conj	_	start_char=513|end_char=524
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=524|end_char=525
+
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=527|end_char=538
+2	kovasti	kovasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=539|end_char=546
+3	.	.	PUNCT	Punct	_	1	punct	_	start_char=546|end_char=547
+

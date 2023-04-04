@@ -1,0 +1,65 @@
+1	Прекрасный	прекрасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15
+3	!	!	PUNCT	_	_	2	punct	_	start_char=15|end_char=16
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=17|end_char=18
+2	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=24
+3	придерживаться	придерживаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	xcomp	_	start_char=25|end_char=39
+4	диете	диет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	start_char=40|end_char=45
+5	,	,	PUNCT	_	_	6	punct	_	start_char=45|end_char=46
+6	ограничив	ограничить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	3	advcl	_	start_char=47|end_char=56
+7	потребление	потребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=57|end_char=68
+8	сахара	сахар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=69|end_char=75
+9	.	.	PUNCT	_	_	2	punct	_	start_char=75|end_char=76
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=77|end_char=80
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=81|end_char=84
+3	один	один	NUM	_	Case=Nom|Gender=Masc	0	root	_	start_char=85|end_char=89
+4	из	из	ADP	_	_	6	case	_	start_char=90|end_char=92
+5	немногих	немногие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=93|end_char=101
+6	брендов	бренд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=102|end_char=109
+7	,	,	PUNCT	_	_	11	punct	_	start_char=109|end_char=110
+8	продукция	продукция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=111|end_char=120
+9	которого	который	PRON	_	Case=Gen	8	nmod	_	start_char=121|end_char=129
+10	не	не	PART	_	_	11	advmod	_	start_char=130|end_char=132
+11	имела	иметь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=133|end_char=138
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	obj	_	start_char=139|end_char=142
+13	в	в	ADP	_	_	15	case	_	start_char=143|end_char=144
+14	своём	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	15	det	_	start_char=145|end_char=150
+15	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=151|end_char=158
+16	.	.	PUNCT	_	_	3	punct	_	start_char=158|end_char=159
+
+1	И	и	CCONJ	_	_	7	cc	_	start_char=160|end_char=161
+2	к	к	ADP	_	_	3	case	_	start_char=162|end_char=163
+3	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=164|end_char=168
+4	же	же	PART	_	_	3	advmod	_	start_char=169|end_char=171
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	start_char=172|end_char=175
+6	очень	очень	ADV	_	Degree=Pos	7	obl	_	start_char=176|end_char=181
+7	вкусная	вкусный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=182|end_char=189
+8	!	!	PUNCT	_	_	7	punct	_	start_char=189|end_char=190
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	start_char=191|end_char=192
+2	не	не	PART	_	_	3	advmod	_	start_char=193|end_char=195
+3	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=196|end_char=202
+4	,	,	PUNCT	_	_	6	punct	_	start_char=202|end_char=203
+5	что	что	SCONJ	_	_	6	mark	_	start_char=204|end_char=207
+6	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=208|end_char=213
+7	доесть	доесть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=214|end_char=220
+8	все	весь	DET	_	Case=Acc|Number=Plur	10	det	_	start_char=221|end_char=224
+9	эти	этот	DET	_	Case=Acc|Number=Plur	10	det	_	start_char=225|end_char=228
+10	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=229|end_char=237
+11	до	до	ADP	_	_	12	case	_	start_char=238|end_char=240
+12	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	start_char=241|end_char=245
+13	,	,	PUNCT	_	_	16	punct	_	start_char=245|end_char=246
+14	как	как	ADV	_	Degree=Pos	16	advmod	_	start_char=247|end_char=250
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	16	nsubj	_	start_char=251|end_char=254
+16	испортятся	испортиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	12	acl	_	start_char=255|end_char=265
+17	.	.	PUNCT	_	_	3	punct	_	start_char=265|end_char=266
+
+1	Какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=267|end_char=272
+2	у	у	ADP	_	_	3	case	_	start_char=273|end_char=274
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	start_char=275|end_char=278
+4	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=279|end_char=283
+5	годности	годность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=284|end_char=292
+6	?	?	PUNCT	_	_	1	punct	_	start_char=292|end_char=293
+

@@ -1,0 +1,86 @@
+1	Отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=9|end_char=13
+3	Прежде	прежде	ADP	_	_	5	advmod	_	start_char=14|end_char=20
+4	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	fixed	_	start_char=21|end_char=26
+5	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=27|end_char=31
+6	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=32|end_char=39
+7	,	,	PUNCT	_	_	10	punct	_	start_char=39|end_char=40
+8	что	что	SCONJ	_	_	10	mark	_	start_char=41|end_char=44
+9	не	не	PART	_	_	10	advmod	_	start_char=45|end_char=47
+10	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=48|end_char=53
+11	ни	ни	PART	_	_	14	advmod	_	start_char=54|end_char=56
+12	в	в	ADP	_	_	14	case	_	start_char=57|end_char=58
+13	одну	один	NUM	_	Case=Acc|Gender=Fem	14	nummod:gov	_	start_char=59|end_char=63
+14	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=64|end_char=69
+15	Call	Call	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=70|end_char=74
+16	of	of	X	_	Foreign=Yes	14	flat:foreign	_	start_char=75|end_char=77
+17	Duty	Duty	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=78|end_char=82
+18	.	.	PUNCT	_	_	5	punct	_	start_char=82|end_char=83
+
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=84|end_char=87
+2	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=88|end_char=94
+3	шутер	шутер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obj	_	start_char=95|end_char=100
+4	от	от	ADP	_	_	6	case	_	start_char=101|end_char=103
+5	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=104|end_char=111
+6	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=112|end_char=116
+7	в	в	ADP	_	_	8	case	_	start_char=117|end_char=118
+8	который	который	PRON	_	Case=Acc	11	obl	_	start_char=119|end_char=126
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	start_char=127|end_char=128
+10	пробовал	пробовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=129|end_char=137
+11	поиграть	поиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=138|end_char=146
+12	.	.	PUNCT	_	_	10	punct	_	start_char=146|end_char=147
+
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	2	iobj	_	start_char=148|end_char=151
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=152|end_char=160
+3	.	.	PUNCT	_	_	2	punct	_	start_char=160|end_char=161
+
+1	Неплохой	неплохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=162|end_char=170
+2	сюжет	сюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=171|end_char=176
+3	и	и	CCONJ	_	_	5	cc	_	start_char=177|end_char=178
+4	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=179|end_char=186
+5	графика	график	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=187|end_char=194
+6	.	.	PUNCT	_	_	2	punct	_	start_char=194|end_char=195
+
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	start_char=196|end_char=201
+2	пройти	пройти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=202|end_char=208
+3	уровни	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=209|end_char=215
+4	,	,	PUNCT	_	_	2	punct	_	start_char=215|end_char=216
+5	придётся	прийтись	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=217|end_char=225
+6	постараться	стараться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	csubj	_	start_char=226|end_char=237
+7	.	.	PUNCT	_	_	5	punct	_	start_char=237|end_char=238
+
+1	Думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=239|end_char=244
+2	,	,	PUNCT	_	_	1	punct	_	start_char=244|end_char=245
+3	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=246|end_char=250
+4	понравится	понравиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=251|end_char=261
+5	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	4	iobj	_	start_char=262|end_char=266
+6	.	.	PUNCT	_	_	4	punct	_	start_char=266|end_char=267
+
+1	Можно	можно	ADV	_	Degree=Pos	0	root	_	start_char=268|end_char=273
+2	выбрать	выбрать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=274|end_char=281
+3	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	2	nummod:gov	_	start_char=282|end_char=286
+4	из	из	ADP	_	_	6	case	_	start_char=287|end_char=289
+5	трёх	три	NUM	_	Case=Gen	6	nummod	_	start_char=290|end_char=294
+6	уровней	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=295|end_char=302
+7	сложности	сложность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=303|end_char=312
+8	в	в	ADP	_	_	9	case	_	start_char=313|end_char=314
+9	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=315|end_char=326
+10	от	от	ADP	_	_	12	case	_	start_char=327|end_char=329
+11	своих	свой	DET	_	Case=Gen|Number=Plur	12	det	_	start_char=330|end_char=335
+12	навыков	навык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=336|end_char=343
+13	.	.	PUNCT	_	_	1	punct	_	start_char=343|end_char=344
+
+1	Если	если	SCONJ	_	_	2	mark	_	start_char=345|end_char=349
+2	ищете	искать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=350|end_char=355
+3	военный	военный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=356|end_char=363
+4	шутер	шутер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=364|end_char=369
+5	от	от	ADP	_	_	7	case	_	start_char=370|end_char=372
+6	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=373|end_char=380
+7	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=381|end_char=385
+8	в	в	ADP	_	_	10	case	_	start_char=386|end_char=387
+9	современном	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=388|end_char=399
+10	сетинге	сетинга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	start_char=400|end_char=407
+11	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=408|end_char=413
+12	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	start_char=414|end_char=420
+13	.	.	PUNCT	_	_	11	punct	_	start_char=420|end_char=421
+

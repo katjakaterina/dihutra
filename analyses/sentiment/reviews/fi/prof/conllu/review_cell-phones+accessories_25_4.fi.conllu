@@ -1,0 +1,53 @@
+1	Hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=0|end_char=5
+2	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=12
+
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=14|end_char=21
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=22|end_char=24
+3	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	4	det	_	start_char=25|end_char=30
+4	laturia	laturi	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=31|end_char=38
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=38|end_char=39
+
+1	Omistan	omistaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=48
+2	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	3	det	_	start_char=49|end_char=54
+3	autoa	auto	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=55|end_char=60
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=60|end_char=61
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=62|end_char=64
+6	pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=65|end_char=70
+7	jokaisessa	jokainen	PRON	Pron	Case=Ine|Number=Sing|PronType=Ind	6	obl	_	start_char=71|end_char=81
+8	useampaa	usea	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	9	amod	_	start_char=82|end_char=90
+9	laturia	laturi	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=91|end_char=98
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=98|end_char=99
+
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=101|end_char=103
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=104|end_char=107
+3	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	4	det	_	start_char=108|end_char=114
+4	turhauttavampaa	turhauttava	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	0	root	_	start_char=115|end_char=130
+5	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=131|end_char=135
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	advcl	_	start_char=136|end_char=138
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=138|end_char=139
+8	että	että	SCONJ	C	_	10	mark	_	start_char=140|end_char=144
+9	laturi	laturi	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	start_char=145|end_char=151
+10	lakkaa	lakata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=152|end_char=158
+11	yhtäkkiä	yhtäkkiä	ADV	Adv	_	10	advmod	_	start_char=159|end_char=167
+12	toimimasta	toimia	VERB	V	Case=Ela|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=168|end_char=178
+13	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=179|end_char=183
+14	puhelinta	puhelinta	NOUN	N	Case=Par|Number=Sing	16	obj	_	start_char=184|end_char=193
+15	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=194|end_char=197
+16	ladata	ladata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	conj	_	start_char=198|end_char=204
+17	.	.	PUNCT	Punct	_	4	punct	_	start_char=204|end_char=205
+
+1	Juuri	juuri	ADV	Adv	_	2	advmod	_	start_char=207|end_char=212
+2	silloin	silloin	ADV	Adv	_	5	advmod	_	start_char=213|end_char=220
+3	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	obj	_	start_char=221|end_char=225
+4	aina	aina	ADV	Adv	_	5	advmod	_	start_char=226|end_char=230
+5	tarvitsee	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=231|end_char=240
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=240|end_char=241
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=243|end_char=247
+2	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=248|end_char=254
+3	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=255|end_char=260
+4	kaikkien	kaikki	PRON	Pron	Case=Gen|Number=Plur|PronType=Ind	5	det	_	start_char=261|end_char=269
+5	tuotteideni	tuote	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=270|end_char=281
+6	kanssa	kanssa	ADP	Adp	AdpType=Post	5	case	_	start_char=282|end_char=288
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=288|end_char=289
+

@@ -1,0 +1,49 @@
+1	Hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=4
+2	virsikokoelma	virsi#kokoelma	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=5|end_char=18
+
+1	Tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	det	_	start_char=20|end_char=25
+2	painoksen	painos	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=26|end_char=35
+3	virsivalikoima	virsi#valikoima	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=36|end_char=50
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=51|end_char=53
+5	todella	todella	ADV	Adv	_	6	advmod	_	start_char=54|end_char=61
+6	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=62|end_char=66
+7	,	,	PUNCT	Punct	_	13	punct	_	start_char=66|end_char=67
+8	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=68|end_char=73
+9	paperin	paperi	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=74|end_char=81
+10	laatu	laatu	NOUN	N	Case=Nom|Number=Sing	13	nsubj:cop	_	start_char=82|end_char=87
+11	voisi	voida	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	aux	_	start_char=88|end_char=93
+12	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	cop	_	start_char=94|end_char=98
+13	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	6	conj	_	start_char=99|end_char=106
+14	.	.	PUNCT	Punct	_	6	punct	_	start_char=106|end_char=107
+
+1	Kirja	kirja	NOUN	N	Case=Nom|Number=Sing	3	obj	_	start_char=109|end_char=114
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=115|end_char=117
+3	tarkoitettu	tarkoittaa	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=118|end_char=129
+4	käyttöön	käyttö	NOUN	N	Case=Ill|Number=Sing	3	obl	_	start_char=130|end_char=138
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=138|end_char=139
+6	jossa	joka	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	8	obl	_	start_char=140|end_char=145
+7	laulajat	laulaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Plur	8	nsubj	_	start_char=146|end_char=154
+8	selailevat	selailla	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=155|end_char=165
+9	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	obj	_	start_char=166|end_char=170
+10	,	,	PUNCT	Punct	_	11	punct	_	start_char=170|end_char=171
+11	hakevat	hakea	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=172|end_char=179
+12	tiettyjä	tietty	ADJ	A	Case=Par|Degree=Pos|Number=Plur	13	amod	_	start_char=180|end_char=188
+13	virsiä	virsi	NOUN	N	Case=Par|Number=Plur	11	obj	_	start_char=189|end_char=195
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=196|end_char=198
+15	vaihtavat	vaihtaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=199|end_char=208
+16	sivulta	sivu	NOUN	N	Case=Abl|Number=Sing	15	obl	_	start_char=209|end_char=216
+17	toiselle	toinen	PRON	Pron	Case=All|Number=Sing|PronType=Rcp	15	obl	_	start_char=217|end_char=225
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=225|end_char=226
+
+1	Paperin	paperi	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=227|end_char=234
+2	laatu	laatu	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=235|end_char=240
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=241|end_char=243
+4	vaikuta	vaikuttaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=244|end_char=251
+5	sellaiselta	sellainen	ADJ	A	Case=Abl|Degree=Pos|Derivation=Lainen|Number=Sing	4	xcomp	_	start_char=252|end_char=263
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=263|end_char=264
+7	että	että	SCONJ	C	_	9	mark	_	start_char=265|end_char=269
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=270|end_char=272
+9	kestäisi	kestää	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=273|end_char=281
+10	käytössä	käyttö	NOUN	N	Case=Ine|Number=Sing	9	obl	_	start_char=282|end_char=290
+11	.	.	PUNCT	Punct	_	4	punct	_	start_char=290|end_char=291
+

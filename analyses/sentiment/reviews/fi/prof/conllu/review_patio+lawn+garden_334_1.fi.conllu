@@ -1,0 +1,74 @@
+1	Ansa	ansa	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=0|end_char=4
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=5|end_char=7
+3	toimi	toimia	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8|end_char=13
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=13|end_char=14
+5	huonosti	huonosti	ADV	Adv	Derivation=Sti	6	advmod	_	start_char=15|end_char=23
+6	suunniteltu	suunnitella	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=24|end_char=35
+
+1	Pesukarhu	pesu#karhu	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=37|end_char=46
+2	saa	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=47|end_char=50
+3	varastettua	varastaa	VERB	V	Case=Par|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	obj	_	start_char=51|end_char=62
+4	syötin	syödä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=63|end_char=69
+5	ansasta	ansa	NOUN	N	Case=Ela|Number=Sing	4	obl	_	start_char=70|end_char=77
+6	laukaisematta	laukaista	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=78|end_char=91
+7	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	6	obj	_	start_char=92|end_char=96
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=96|end_char=97
+
+1	Jouduin	joutua	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=99|end_char=106
+2	korjaamaan	korjata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=107|end_char=117
+3	laukaisinta	laukaisen	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=118|end_char=129
+4	,	,	PUNCT	Punct	_	10	punct	_	start_char=129|end_char=130
+5	sillä	sillä	SCONJ	C	_	10	mark	_	start_char=131|end_char=136
+6	ensi	ensi	ADJ	A	_	7	amod	_	start_char=137|end_char=141
+7	alkuun	alku	NOUN	N	Case=Ill|Derivation=U|Number=Sing	10	obl	_	start_char=142|end_char=148
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	start_char=149|end_char=151
+9	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=152|end_char=154
+10	lauennut	laueta	VERB	V	Case=Nom|Degree=Pos|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	advcl	_	start_char=155|end_char=163
+11	edes	edes	ADV	Adv	_	13	advmod	_	start_char=164|end_char=168
+12	,	,	PUNCT	Punct	_	13	punct	_	start_char=168|end_char=169
+13	kun	kun	SCONJ	C	_	15	mark	_	start_char=170|end_char=173
+14	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	15	obl	_	start_char=174|end_char=180
+15	vieritti	vierittää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=181|end_char=189
+16	keilapallon	keila#pallo	NOUN	N	Case=Gen|Number=Sing	15	obj	_	start_char=190|end_char=201
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=201|end_char=202
+
+1	Ohjeessa	ohje	NOUN	N	Case=Ine|Number=Sing	2	obl	_	start_char=204|end_char=212
+2	neuvottiin	neuvoa	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=213|end_char=223
+3	asettamaan	asettaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=224|end_char=234
+4	syötti	syötti	NOUN	N	Case=Nom|Number=Sing	3	obj	_	start_char=235|end_char=241
+5	laukaisinlevyn	laukaisin#levy	NOUN	N	Case=Gen|Number=Sing	3	obl	_	start_char=242|end_char=256
+6	taakse	taakse	ADP	Adp	AdpType=Post	5	case	_	start_char=257|end_char=263
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=263|end_char=264
+8	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=265|end_char=270
+9	pesukarhut	pesu#karhu	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	start_char=271|end_char=281
+10	vain	vain	ADV	Adv	_	11	advmod	_	start_char=282|end_char=286
+11	kurottavat	kurottaa	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	2	conj	_	start_char=287|end_char=297
+12	verkon	verkko	NOUN	N	Case=Gen|Number=Sing	11	obl	_	start_char=298|end_char=304
+13	läpi	läpi	ADP	Adp	AdpType=Post	12	case	_	start_char=305|end_char=309
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=310|end_char=312
+15	nappaavat	napata	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	start_char=313|end_char=322
+16	syötin	syötin	ADV	Adv	_	15	advmod	_	start_char=323|end_char=329
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=329|end_char=330
+
+1	Todella	todella	ADV	Adv	_	2	advmod	_	start_char=331|end_char=338
+2	huonoa	huono	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	amod	_	start_char=339|end_char=345
+3	suunnittelua	suunnittelu	NOUN	N	Case=Par|Derivation=U|Number=Sing	0	root	_	start_char=346|end_char=358
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=358|end_char=359
+
+1	Toimivia	toimia	VERB	V	Case=Par|Degree=Pos|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	2	acl	_	start_char=361|end_char=369
+2	ansoja	ansoja	NOUN	N	Case=Par|Number=Plur	4	nsubj	_	start_char=370|end_char=376
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=377|end_char=379
+4	olemassa	olla	VERB	V	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=380|end_char=388
+5	,	,	PUNCT	Punct	_	10	punct	_	start_char=388|end_char=389
+6	mutta	mutta	CCONJ	C	_	10	cc	_	start_char=390|end_char=395
+7	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=396|end_char=400
+8	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=401|end_char=403
+9	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=404|end_char=407
+10	sellainen	sellainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	4	conj	_	start_char=408|end_char=417
+11	.	.	PUNCT	Punct	_	4	punct	_	start_char=417|end_char=418
+
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=420|end_char=423
+2	tuhlaa	tuhlata	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=424|end_char=430
+3	rahojasi	raha	NOUN	N	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	obj	_	start_char=431|end_char=439
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=439|end_char=440
+

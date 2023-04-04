@@ -1,0 +1,60 @@
+1	Upeaa	upea	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=5
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=5|end_char=6
+
+1	Tilasin	tilata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=15
+2	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	3	det	_	start_char=16|end_char=20
+3	kesällä	kesä	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=21|end_char=28
+4	,	,	PUNCT	Punct	_	10	punct	_	start_char=28|end_char=29
+5	joten	joten	ADV	Adv	_	10	advmod	_	start_char=30|end_char=35
+6	totta	totta	ADV	Adv	_	10	advmod	_	start_char=36|end_char=41
+7	kai	kai	ADV	Adv	_	6	fixed	_	start_char=42|end_char=45
+8	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	10	nsubj	_	start_char=46|end_char=48
+9	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	start_char=49|end_char=55
+10	sulaneet	sulaa	VERB	V	Case=Nom|Degree=Pos|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	1	acl:relcl	_	start_char=56|end_char=64
+11	saapuessaan	saapua	VERB	V	Case=Ine|InfForm=2|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=65|end_char=76
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=76|end_char=77
+13	matka	matka	NOUN	N	Case=Nom|Number=Sing	15	nsubj	_	start_char=78|end_char=83
+14	pakastimeen	pakastin	NOUN	N	Case=Ill|Number=Sing	13	nmod	_	start_char=84|end_char=95
+15	teki	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=96|end_char=100
+16	niistä	se	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	15	obl	_	start_char=101|end_char=107
+17	kuitenkin	kuitenkin	ADV	Adv	_	15	advmod	_	start_char=108|end_char=117
+18	taas	taas	ADV	Adv	_	15	advmod	_	start_char=118|end_char=122
+19	mahtavia	mahtava	ADJ	A	Case=Par|Degree=Pos|Number=Plur	15	obj	_	start_char=123|end_char=131
+20	.	.	PUNCT	Punct	_	1	punct	_	start_char=131|end_char=132
+
+1	Kunhan	kunhan	ADV	Adv	_	2	advmod	_	start_char=134|end_char=140
+2	tilaat	tilata	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=141|end_char=147
+3	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	2	obj	_	start_char=148|end_char=153
+4	kylmempinä	kylmä	ADJ	A	Case=Ess|Degree=Sup|Number=Plur	5	amod	_	start_char=154|end_char=164
+5	vuodenaikoina	vuoden#aika	NOUN	N	Case=Ess|Number=Plur	2	obl	_	start_char=165|end_char=178
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=178|end_char=179
+7	sinun	sinä	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	start_char=180|end_char=185
+8	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	aux	_	start_char=186|end_char=193
+9	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	conj	_	start_char=194|end_char=199
+10	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	9	obj	_	start_char=200|end_char=202
+11	hyväkuntoisina	hyvä#kuntoinen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Inen|Number=Plur	9	obl	_	start_char=203|end_char=217
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=217|end_char=218
+
+1	Pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=219|end_char=224
+2	näistä	tämä	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	1	obl	_	start_char=225|end_char=231
+3	niin	niin	ADV	Adv	_	4	advmod	_	start_char=232|end_char=236
+4	paljon	paljon	ADV	Adv	_	5	advmod	_	start_char=237|end_char=243
+5	enemmän	enemmän	ADV	Adv	_	1	advmod	_	start_char=244|end_char=251
+6	kuin	kuin	SCONJ	C	_	10	mark	_	start_char=252|end_char=256
+7	tavallisista	tavallinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Llinen|Number=Plur	10	amod	_	start_char=257|end_char=269
+8	Kit	Kit	PROPN	N	Case=Nom|Number=Sing	10	compound:nn	_	start_char=270|end_char=273
+9	Kat	Kat	PROPN	N	Case=Nom|Number=Sing	8	flat:name	_	start_char=274|end_char=277
+10	suklaapatukoista	suklaa#patukko	NOUN	N	Case=Ela|Number=Plur	5	advcl	_	start_char=278|end_char=294
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=294|end_char=295
+
+1	Toivon	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=297|end_char=303
+2	näkeväni	nähdä	VERB	V	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	1	xcomp	_	start_char=304|end_char=312
+3	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	5	det	_	start_char=313|end_char=318
+4	joku	joku	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	5	det	_	start_char=319|end_char=323
+5	päivä	päivä	NOUN	N	Case=Nom|Number=Sing	2	obj	_	start_char=324|end_char=329
+6	kaupan	kauppa	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=330|end_char=336
+7	hyllyillä	hylly	NOUN	N	Case=Ade|Number=Plur	2	obl	_	start_char=337|end_char=346
+8	täällä	täällä	ADV	Adv	_	9	advmod	_	start_char=347|end_char=353
+9	USA:ssa	USA	PROPN	N	Abbr=Yes|Case=Ine|Number=Sing	2	obl	_	start_char=354|end_char=361
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=361|end_char=362
+

@@ -1,0 +1,95 @@
+1	Так	так	ADV	_	Degree=Pos	2	obl	_	start_char=0|end_char=3
+2	вкусно	вкусный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=10
+3	!	!	PUNCT	_	_	2	punct	_	start_char=10|end_char=11
+4	!	!	PUNCT	_	_	2	punct	_	start_char=11|end_char=12
+
+1	Сливочно	сливочный	ADJ	_	Degree=Pos	3	compound	_	start_char=13|end_char=21
+2	-	-	PUNCT	_	_	1	punct	_	start_char=21|end_char=22
+3	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=22|end_char=27
+4	шоколад	шоколад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=28|end_char=35
+5	с	с	ADP	_	_	6	case	_	start_char=36|end_char=37
+6	привкусом	привкус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	start_char=38|end_char=47
+7	зеленого	зеленый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=48|end_char=56
+8	чая	чай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=57|end_char=60
+9	матча	матч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=61|end_char=66
+10	и	и	CCONJ	_	_	12	cc	_	start_char=67|end_char=68
+11	вафельной	вафельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=69|end_char=78
+12	прослойкой	прослойка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	start_char=79|end_char=89
+13	.	.	PUNCT	_	_	4	punct	_	start_char=89|end_char=90
+
+1	Не	не	PART	_	_	2	advmod	_	start_char=91|end_char=93
+2	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	start_char=94|end_char=99
+3	сладкий	сладкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=100|end_char=107
+4	,	,	PUNCT	_	_	7	punct	_	start_char=107|end_char=108
+5	как	как	SCONJ	_	_	7	mark	_	start_char=109|end_char=112
+6	традиционный	традиционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=113|end_char=125
+7	KitKat	KitKat	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=126|end_char=132
+8	.	.	PUNCT	_	_	3	punct	_	start_char=132|end_char=133
+
+1	Батончик	батончик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=134|end_char=142
+2	небольшого	небольшой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=143|end_char=153
+3	размера	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=154|end_char=161
+4	идеально	идеально	ADV	_	Degree=Pos	5	advmod	_	start_char=162|end_char=170
+5	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=171|end_char=179
+6	для	для	ADP	_	_	7	case	_	start_char=180|end_char=183
+7	тех	тот	DET	_	Case=Gen|Number=Plur	5	det	_	start_char=184|end_char=187
+8	,	,	PUNCT	_	_	10	punct	_	start_char=187|end_char=188
+9	кто	кто	PRON	_	Case=Nom	10	nsubj	_	start_char=189|end_char=192
+10	следит	следить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=193|end_char=199
+11	за	за	ADP	_	_	12	case	_	start_char=200|end_char=202
+12	фигурой	фигура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	start_char=203|end_char=210
+13	.	.	PUNCT	_	_	5	punct	_	start_char=210|end_char=211
+
+1	Был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=212|end_char=215
+2	на	на	ADP	_	_	4	case	_	start_char=216|end_char=218
+3	прошлой	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=219|end_char=226
+4	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	start_char=227|end_char=233
+5	в	в	ADP	_	_	6	case	_	start_char=234|end_char=235
+6	Лос-Анджелесе	Лос-Анджелес	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=236|end_char=249
+7	и	и	CCONJ	_	_	9	cc	_	start_char=250|end_char=251
+8	случайно	случайно	ADV	_	Degree=Pos	9	advmod	_	start_char=252|end_char=260
+9	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=261|end_char=266
+10	упаковку	упаковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=267|end_char=275
+11	KitKat	KitKat	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=276|end_char=282
+12	в	в	ADP	_	_	14	case	_	start_char=283|end_char=284
+13	японском	японский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=285|end_char=293
+14	магазине	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=294|end_char=302
+15	квартала	квартал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=303|end_char=311
+16	Литл	Литл	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	start_char=312|end_char=316
+17	Токио	Токио	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	start_char=317|end_char=322
+18	.	.	PUNCT	_	_	6	punct	_	start_char=322|end_char=323
+
+1	Теперь	теперь	ADV	_	Degree=Pos	7	advmod	_	start_char=324|end_char=330
+2	,	,	PUNCT	_	_	1	punct	_	start_char=330|end_char=331
+3	вернувшись	вернуться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	7	advcl	_	start_char=332|end_char=342
+4	в	в	ADP	_	_	5	case	_	start_char=343|end_char=344
+5	Висконсин	Висконсин	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=345|end_char=354
+6	,	,	PUNCT	_	_	3	punct	_	start_char=354|end_char=355
+7	жалею	жалеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=356|end_char=361
+8	,	,	PUNCT	_	_	11	punct	_	start_char=361|end_char=362
+9	что	что	SCONJ	_	_	11	mark	_	start_char=363|end_char=366
+10	не	не	PART	_	_	11	advmod	_	start_char=367|end_char=369
+11	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=370|end_char=374
+12	еще	еще	ADV	_	Degree=Pos	13	advmod	_	start_char=375|end_char=378
+13	немного	немного	ADV	_	Degree=Pos	11	advmod	_	start_char=379|end_char=386
+14	.	.	PUNCT	_	_	7	punct	_	start_char=386|end_char=387
+
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	start_char=388|end_char=391
+2	батончики	батончик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=392|end_char=401
+3	KitKat	KitKat	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=402|end_char=408
+4	просто	просто	PART	_	_	5	advmod	_	start_char=409|end_char=415
+5	восхитительны	восхитительный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=416|end_char=429
+6	!	!	PUNCT	_	_	5	punct	_	start_char=429|end_char=430
+
+1	Кроме	кроме	ADP	_	_	2	case	_	start_char=431|end_char=436
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	parataxis	_	start_char=437|end_char=441
+3	,	,	PUNCT	_	_	2	punct	_	start_char=441|end_char=442
+4	одна	один	NUM	_	Case=Nom|Gender=Fem	5	nummod:gov	_	start_char=443|end_char=447
+5	упаковка	упаковка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=448|end_char=456
+6	обошлась	обойтись	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=457|end_char=465
+7	всего	всего	PART	_	_	10	advmod	_	start_char=466|end_char=471
+8	в	в	ADP	_	_	10	case	_	start_char=472|end_char=473
+9	5	5	NUM	_	_	10	nummod	_	start_char=474|end_char=475
+10	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=476|end_char=484
+11	!	!	PUNCT	_	_	6	punct	_	start_char=484|end_char=485
+

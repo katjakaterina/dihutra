@@ -1,0 +1,60 @@
+1	kestää	kestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	tosi	tosi	ADV	Adv	_	3	advmod	_	start_char=7|end_char=11
+3	huonosti	huonosti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=12|end_char=20
+
+1	Aluksi	aluksi	ADV	Adv	_	4	advmod	_	start_char=22|end_char=28
+2	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	_	start_char=29|end_char=33
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=34|end_char=38
+4	upeita	upea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=39|end_char=45
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=45|end_char=46
+
+1	Vahvoja	vahva	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	_	start_char=48|end_char=55
+2	,	,	PUNCT	Punct	_	4	punct	_	start_char=55|end_char=56
+3	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=57|end_char=61
+4	lataus	lataus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=62|end_char=68
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=68|end_char=69
+
+1	Mutta	mutta	CCONJ	C	_	8	cc	_	start_char=71|end_char=76
+2	siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	4	det	_	start_char=77|end_char=82
+3	20–30	20–30	NUM	Num	NumType=Card	4	nummod	_	start_char=83|end_char=88
+4	latauksen	lataus	NOUN	N	Case=Gen|Number=Sing	8	obl	_	start_char=89|end_char=98
+5	jälkeen	jälkeen	ADP	Adp	AdpType=Post	4	case	_	start_char=99|end_char=106
+6	osa	osa	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	start_char=107|end_char=110
+7	paristoista	paristainen	NOUN	N	Case=Ela|Number=Plur	6	nmod	_	start_char=111|end_char=122
+8	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=123|end_char=127
+9	vaan	vaan	CCONJ	C	_	10	cc	_	start_char=128|end_char=132
+10	tyhjiä	tyhjä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	8	conj	_	start_char=133|end_char=139
+11	.	.	PUNCT	Punct	_	8	punct	_	start_char=139|end_char=140
+
+1	Tai	tai	CCONJ	C	_	3	cc	_	start_char=142|end_char=145
+2	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=146|end_char=151
+3	pidä	pitää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=152|end_char=156
+4	latausta	lataus	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=157|end_char=165
+5	yhtä	yksi	NUM	Num	Case=Par|NumType=Card|Number=Sing	6	nummod	_	start_char=166|end_char=170
+6	iltaa	ilta	NOUN	N	Case=Par|Number=Sing	7	advcl	_	start_char=171|end_char=176
+7	pitempää	pitkä	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	3	xcomp	_	start_char=177|end_char=185
+8	.	.	PUNCT	Punct	_	3	punct	_	start_char=185|end_char=186
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=188|end_char=192
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=193|end_char=195
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=196|end_char=199
+4	yhtään	yhtään	ADV	Adv	_	0	root	_	start_char=200|end_char=206
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=206|end_char=207
+
+1	Osti	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=209|end_char=213
+2	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	3	det	_	start_char=214|end_char=219
+3	viisi	viisi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	1	obj	_	start_char=220|end_char=225
+4	tai	tai	CCONJ	C	_	5	cc	_	start_char=226|end_char=229
+5	kuusi	kuusi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	3	conj	_	start_char=230|end_char=235
+6	(	(	PUNCT	Punct	_	9	punct	_	start_char=236|end_char=237
+7	4	4	NUM	Num	NumType=Card	8	nummod	_	start_char=237|end_char=238
+8	kappaleen	kappale	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	start_char=239|end_char=248
+9	paketteja	paketti	NOUN	N	Case=Par|Number=Plur	5	appos	_	start_char=249|end_char=258
+10	)	)	PUNCT	Punct	_	9	punct	_	start_char=258|end_char=259
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=259|end_char=260
+12	yli	yli	ADV	Adv	_	13	advmod	_	start_char=261|end_char=264
+13	puolet	puoli	NOUN	N	Case=Nom|Number=Plur	15	nsubj:cop	_	start_char=265|end_char=271
+14	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	start_char=272|end_char=278
+15	hyödyttömiä	hyödytön	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	1	conj	_	start_char=279|end_char=290
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=290|end_char=291
+

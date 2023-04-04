@@ -1,0 +1,60 @@
+1	Lažno	lažno	ADV	Rgp	Degree=Pos	5	discourse	_	start_char=0|end_char=5
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=5|end_char=6
+3	prodavač	prodavač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=7|end_char=15
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=16|end_char=19
+5	piše	pisati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=20|end_char=24
+6	recenzije	recenzija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=25|end_char=34
+7	!	!	PUNCT	Z	_	5	punct	_	start_char=34|end_char=35
+
+1	Lažni	lažan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=36|end_char=41
+2	MAc	MAc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=42|end_char=45
+3	.	.	PUNCT	Z	_	4	punct	_	start_char=45|end_char=46
+4	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=47|end_char=50
+5	čak	čak	PART	Qo	_	8	advmod	_	start_char=51|end_char=54
+6	i	i	CCONJ	Cc	_	8	discourse	_	start_char=55|end_char=56
+7	ne	ne	PART	Qz	Polarity=Neg	8	advmod	_	start_char=57|end_char=59
+8	proizvodi	proizvoditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=60|end_char=69
+9	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=70|end_char=73
+10	paletu	palet	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=74|end_char=80
+11	.	.	PUNCT	Z	_	8	punct	_	start_char=80|end_char=81
+
+1	Prodavač	prodavač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=82|end_char=90
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=91|end_char=93
+3	napisao	napisati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=94|end_char=101
+4	pozitivne	pozitivan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=102|end_char=111
+5	recenzije	recenzija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=112|end_char=121
+6	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=122|end_char=124
+7	vlastiti	vlastit	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=125|end_char=133
+8	artikl	artikl	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=134|end_char=140
+9	pod	pod	ADP	Sa	Case=Acc	12	case	_	start_char=141|end_char=144
+10	ista	isti	ADJ	Agpnpay	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	start_char=145|end_char=149
+11	dva	dva	NUM	Mlc	NumType=Card	12	nummod	_	start_char=150|end_char=153
+12	imena	ime	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=154|end_char=159
+13	,	,	PUNCT	Z	_	19	punct	_	start_char=159|end_char=160
+14	jedno	jedan	NUM	Mlcnsn	Case=Nom|Gender=Neut|NumType=Card|Number=Sing	15	nummod	_	start_char=161|end_char=166
+15	Alexis	Alexis	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=167|end_char=173
+16	i	i	CCONJ	Cc	_	17	cc	_	start_char=174|end_char=175
+17	jedno	jedan	NUM	Mlcnsn	Case=Nom|Gender=Neut|NumType=Card|Number=Sing	15	conj	_	start_char=176|end_char=181
+18	._..	._..	ADJ	Y	_	15	conj	_	start_char=182|end_char=186
+19	.pogledajte	.pogledati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	3	conj	_	start_char=186|end_char=197
+20	sve	sav	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	start_char=198|end_char=201
+21	recenzije	recenzija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=202|end_char=211
+22	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	23	nsubj	_	start_char=212|end_char=216
+23	pišu	pisati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	start_char=217|end_char=221
+24	za	za	ADP	Sa	Case=Acc	26	case	_	start_char=222|end_char=224
+25	vlastite	vlastit	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	start_char=225|end_char=233
+26	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	23	obl	_	start_char=234|end_char=243
+27	.	.	PUNCT	Z	_	3	punct	_	start_char=243|end_char=244
+
+1	Zašto	zašto	ADV	Rgp	Degree=Pos|PronType=Int,Rel	5	advmod	_	start_char=245|end_char=250
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=251|end_char=253
+3	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=254|end_char=257
+4	ovdje	ovdje	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	start_char=258|end_char=263
+5	događa	događati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=264|end_char=270
+6	?	?	PUNCT	Z	_	5	punct	_	start_char=270|end_char=271
+
+1	Ove	ovaj	DET	Pd-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=272|end_char=275
+2	tipove	tip	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=276|end_char=282
+3	treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=283|end_char=288
+4	zaustaviti	zaustaviti	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=289|end_char=299
+

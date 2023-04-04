@@ -1,0 +1,79 @@
+1	очень	очень	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=5
+2	понравилось	понравиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=6|end_char=17
+3	!	!	PUNCT	_	_	2	punct	_	start_char=17|end_char=18
+
+1	Обе	оба	NUM	_	Case=Nom|Gender=Fem	2	nummod:gov	_	start_char=19|end_char=22
+2	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nsubj	_	start_char=23|end_char=30
+3	магнитные	магнитный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=31|end_char=40
+4	.	.	PUNCT	_	_	3	punct	_	start_char=40|end_char=41
+
+1	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	start_char=42|end_char=47
+2	доска	доска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=48|end_char=53
+3	сильно	сильно	ADV	_	Degree=Pos	4	advmod	_	start_char=54|end_char=60
+4	выручит	выручить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=61|end_char=68
+5	,	,	PUNCT	_	_	8	punct	_	start_char=68|end_char=69
+6	если	если	SCONJ	_	_	8	mark	_	start_char=70|end_char=74
+7	в	в	ADP	_	_	8	case	_	start_char=75|end_char=76
+8	семье	семья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	advcl	_	start_char=77|end_char=82
+9	несколько	несколько	NUM	_	Case=Nom	10	nummod:gov	_	start_char=83|end_char=92
+10	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	start_char=93|end_char=98
+11	.	.	PUNCT	_	_	4	punct	_	start_char=98|end_char=99
+
+1	Четырёхлетний	четырёхлетний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=100|end_char=113
+2	ребёнок	ребёнок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=114|end_char=121
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=122|end_char=127
+4	складывать	складывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=128|end_char=138
+5	слова	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=139|end_char=144
+6	из	из	ADP	_	_	7	case	_	start_char=145|end_char=147
+7	букв	буква	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	start_char=148|end_char=152
+8	,	,	PUNCT	_	_	10	punct	_	start_char=152|end_char=153
+9	а	а	CCONJ	_	_	10	cc	_	start_char=154|end_char=155
+10	двухлетний	двухлетний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=156|end_char=166
+11	-	-	PUNCT	_	_	12	punct	_	start_char=167|end_char=168
+12	подбирать	подбирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	orphan	_	start_char=169|end_char=178
+13	картинки	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=179|end_char=187
+14	к	к	ADP	_	_	15	case	_	start_char=188|end_char=189
+15	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	obl	_	start_char=190|end_char=196
+16	.	.	PUNCT	_	_	3	punct	_	start_char=196|end_char=197
+
+1	(	(	PUNCT	_	_	6	punct	_	start_char=198|end_char=199
+2	Помимо	помимо	ADP	_	_	3	case	_	start_char=199|end_char=205
+3	доски	доска	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	parataxis	_	start_char=206|end_char=211
+4	,	,	PUNCT	_	_	3	punct	_	start_char=211|end_char=212
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	start_char=213|end_char=214
+6	купила	купить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=215|end_char=221
+7	магнитные	магнитный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	start_char=222|end_char=231
+8	буквы	буква	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=232|end_char=237
+9	и	и	CCONJ	_	_	10	cc	_	start_char=238|end_char=239
+10	картинки	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=240|end_char=248
+11	)	)	PUNCT	_	_	6	punct	_	start_char=248|end_char=249
+12	.	.	PUNCT	_	_	6	punct	_	start_char=249|end_char=250
+
+1	Мои	мой	DET	_	Case=Nom|Number=Plur	2	det	_	start_char=251|end_char=254
+2	внуки	внук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=255|end_char=260
+3	очень	очень	ADV	_	Degree=Pos	4	obl	_	start_char=261|end_char=266
+4	довольны	довольный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=267|end_char=275
+5	-	-	PUNCT	_	_	8	punct	_	start_char=276|end_char=277
+6	значит	значит	ADV	_	Degree=Pos	8	discourse	_	start_char=278|end_char=284
+7	,	,	PUNCT	_	_	6	punct	_	start_char=284|end_char=285
+8	довольна	довольный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	parataxis	_	start_char=286|end_char=294
+9	и	и	CCONJ	_	_	10	advmod	_	start_char=295|end_char=296
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	start_char=297|end_char=298
+11	.	.	PUNCT	_	_	4	punct	_	start_char=298|end_char=299
+
+1	Маркеры	маркер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=300|end_char=307
+2	даже	даже	PART	_	_	4	advmod	_	start_char=308|end_char=312
+3	не	не	PART	_	_	4	advmod	_	start_char=313|end_char=315
+4	понадобились	понадобиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=316|end_char=328
+5	,	,	PUNCT	_	_	10	punct	_	start_char=328|end_char=329
+6	так	так	ADV	_	Degree=Pos	10	mark	_	start_char=330|end_char=333
+7	как	как	SCONJ	_	_	6	fixed	_	start_char=334|end_char=337
+8	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	10	nsubj	_	start_char=338|end_char=340
+9	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	start_char=341|end_char=346
+10	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=347|end_char=359
+11	доску	доска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=360|end_char=365
+12	только	только	PART	_	_	14	advmod	_	start_char=366|end_char=372
+13	для	для	ADP	_	_	14	case	_	start_char=373|end_char=376
+14	магнитов	магнит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	start_char=377|end_char=385
+15	.	.	PUNCT	_	_	4	punct	_	start_char=385|end_char=386
+

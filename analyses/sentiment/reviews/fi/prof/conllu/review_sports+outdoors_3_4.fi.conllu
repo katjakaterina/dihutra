@@ -1,0 +1,51 @@
+1	Pelkkä	pelkkä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	tuurna	tuuri	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=7|end_char=13
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=13|end_char=14
+4	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=15|end_char=17
+5	muuta	muu	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	2	conj	_	start_char=18|end_char=23
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=23|end_char=24
+
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=26|end_char=29
+2	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	16	advcl	_	start_char=30|end_char=37
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=38|end_char=40
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop:own	_	start_char=41|end_char=44
+5	3/32:n	3/32	NUM	Num	Case=Gen|NumType=Card|Number=Sing	6	nummod	_	start_char=45|end_char=51
+6	tuuman	tuuma	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=52|end_char=58
+7	tuurnaa	tuurna	NOUN	N	Case=Par|Number=Sing	2	nsubj:cop	_	start_char=59|end_char=66
+8	tai	tai	CCONJ	C	_	9	cc	_	start_char=67|end_char=70
+9	kaipaat	kaivata	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=71|end_char=78
+10	sellaista	sellainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	11	amod	_	start_char=79|end_char=88
+11	Glock-laukkuusi	Glock#laukkuusi	NOUN	N	Case=Nom|Number=Sing	9	obj	_	start_char=89|end_char=104
+12	,	,	PUNCT	Punct	_	2	punct	_	start_char=104|end_char=105
+13	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	16	nsubj:cop	_	start_char=106|end_char=110
+14	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	start_char=111|end_char=113
+15	ok	ok	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	amod	_	start_char=114|end_char=116
+16	valinta	valinta	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=117|end_char=124
+17	.	.	PUNCT	Punct	_	16	punct	_	start_char=124|end_char=125
+
+1	Peräpää	Peräpä	PROPN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=127|end_char=134
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=135|end_char=137
+3	kätevä	kätevä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=138|end_char=144
+4	piikkien	piikki	NOUN	N	Case=Gen|Number=Plur	5	nmod:gobj	_	start_char=145|end_char=153
+5	työntämiseen	työntäminen	NOUN	N	Case=Ill|Derivation=Minen|Number=Sing	3	nmod	_	start_char=154|end_char=166
+6	takaisin	takaisin	ADV	Adv	_	3	advmod	_	start_char=167|end_char=175
+7	paikoilleen	paikoilleen	NOUN	N	Case=All|Number=Plur|Person[psor]=3	6	nmod	_	start_char=176|end_char=187
+8	.	.	PUNCT	Punct	_	3	punct	_	start_char=187|end_char=188
+
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=190|end_char=193
+2	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	13	advcl	_	start_char=194|end_char=201
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop:own	_	start_char=202|end_char=204
+4	jo	jo	ADV	Adv	_	5	advmod	_	start_char=205|end_char=207
+5	3/32:n	3/32	NUM	Num	Case=Gen|NumType=Card|Number=Sing	6	nummod	_	start_char=208|end_char=214
+6	tuuman	tuuma	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=215|end_char=221
+7	tuurna	tuuri	NOUN	N	Case=Nom|Number=Sing	2	nsubj:cop	_	start_char=222|end_char=228
+8	etkä	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=229|end_char=233
+9	tarvitse	tarvita	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=234|end_char=242
+10	toista	toinen	PRON	Pron	Case=Par|Number=Sing|PronType=Rcp	9	obj	_	start_char=243|end_char=249
+11	,	,	PUNCT	Punct	_	2	punct	_	start_char=249|end_char=250
+12	älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=251|end_char=254
+13	vaivaudu	vaivautua	VERB	V	Connegative=Yes|Mood=Imp|VerbForm=Fin	0	root	_	start_char=255|end_char=263
+14	ostamaan	ostaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=264|end_char=272
+15	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	14	obj	_	start_char=273|end_char=277
+16	.	.	PUNCT	Punct	_	13	punct	_	start_char=277|end_char=278
+

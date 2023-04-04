@@ -1,0 +1,76 @@
+1	﻿Juuri	kruuria	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	1	obj	_	start_char=7|end_char=11
+3	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	4	obj	_	start_char=12|end_char=16
+4	etsin	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=17|end_char=22
+
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=24|end_char=28
+2	suurennuslasi	suurintu	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=29|end_char=42
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=43|end_char=45
+4	juuri	juuri	ADV	Adv	_	5	advmod	_	start_char=46|end_char=51
+5	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	0	root	_	start_char=52|end_char=56
+6	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	7	obj	_	start_char=57|end_char=61
+7	etsin	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=62|end_char=67
+8	.	.	PUNCT	Punct	_	5	punct	_	start_char=67|end_char=68
+
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	obj	_	start_char=70|end_char=72
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=73|end_char=75
+3	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=76|end_char=81
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=82|end_char=84
+5	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=85|end_char=91
+6	pitää	pitää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp:ds	_	start_char=92|end_char=97
+7	kädessä	käsi	NOUN	N	Case=Ine|Number=Sing	6	obl	_	start_char=98|end_char=105
+8	.	.	PUNCT	Punct	_	3	punct	_	start_char=105|end_char=106
+
+1	Halusin	haluta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=108|end_char=115
+2	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	1	obj	_	start_char=116|end_char=122
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=122|end_char=123
+4	jolla	joka	PRON	Pron	Case=Ade|Number=Sing|PronType=Rel	5	obl	_	start_char=124|end_char=129
+5	lukea	lukea	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	acl:relcl	_	start_char=130|end_char=135
+6	pieniä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Plur	7	amod	_	start_char=136|end_char=142
+7	numeroita	numero	NOUN	N	Case=Par|Number=Plur	5	obj	_	start_char=143|end_char=152
+8	/	/	PUNCT	Punct	_	9	punct	_	start_char=152|end_char=153
+9	kirjaimia	kirjain	NOUN	N	Case=Par|Number=Plur	7	conj	_	start_char=153|end_char=162
+10	sähkövempaimista	sähkö#vempain	NOUN	N	Case=Ela|Number=Plur	5	obl	_	start_char=163|end_char=179
+11	,	,	PUNCT	Punct	_	13	punct	_	start_char=179|end_char=180
+12	kuten	kuten	ADV	Adv	_	13	advmod	_	start_char=181|end_char=186
+13	tietokoneista	tieto#kone	NOUN	N	Case=Ela|Number=Plur	10	appos	_	start_char=187|end_char=200
+14	,	,	PUNCT	Punct	_	15	punct	_	start_char=200|end_char=201
+15	sähkölaitteista	sähkö#laite	NOUN	N	Case=Ela|Number=Plur	13	conj	_	start_char=202|end_char=217
+16	jne	jne.	ADV	Adv	Abbr=Yes	13	advmod	_	start_char=218|end_char=221
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=221|end_char=222
+
+1	Teen	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=224|end_char=228
+2	myös	myös	ADV	Adv	_	3	advmod	_	start_char=229|end_char=233
+3	töitä	työ	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=234|end_char=239
+4	tietokoneiden	tieto#kone	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	start_char=240|end_char=253
+5	sisuksien	sisus	NOUN	N	Case=Gen|Number=Plur	1	obl	_	start_char=254|end_char=263
+6	kanssa	kanssa	ADP	Adp	AdpType=Post	5	case	_	start_char=264|end_char=270
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=271|end_char=273
+8	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	nmod:poss	_	start_char=274|end_char=279
+9	avulla	apu	NOUN	N	Case=Ade|Derivation=U|Number=Sing	10	obl	_	start_char=280|end_char=286
+10	näkee	nähdä	VERB	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=287|end_char=292
+11	oikein	oikein	ADV	Adv	_	12	advmod	_	start_char=293|end_char=299
+12	mainioisti	mainioisti	ADV	Adv	_	10	advmod	_	start_char=300|end_char=310
+13	pieniä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Plur	14	amod	_	start_char=311|end_char=317
+14	asioita	asia	NOUN	N	Case=Par|Number=Plur	10	obj	_	start_char=318|end_char=325
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=325|end_char=326
+
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=328|end_char=330
+2	halua	haluta	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=331|end_char=336
+3	suurentaa	suurentaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=337|end_char=346
+4	kirjoja	kirja	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=347|end_char=354
+5	tai	tai	CCONJ	C	_	6	cc	_	start_char=355|end_char=358
+6	lehtiä	lehti	NOUN	N	Case=Par|Number=Plur	4	conj	_	start_char=359|end_char=365
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=365|end_char=366
+
+1	Valo	valo	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=368|end_char=372
+2	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=373|end_char=379
+3	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=380|end_char=385
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=386|end_char=388
+5	helpottaa	helpottaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=389|end_char=398
+6	paljon	paljon	ADV	Adv	_	5	advmod	_	start_char=399|end_char=405
+7	pienen	pieni	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	_	start_char=406|end_char=412
+8	tekstin	teksti	NOUN	N	Case=Gen|Number=Sing	5	obj	_	start_char=413|end_char=420
+9	lukemista	lukema	NOUN	N	Case=Ela|Number=Plur	5	obl	_	start_char=421|end_char=430
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=430|end_char=431
+

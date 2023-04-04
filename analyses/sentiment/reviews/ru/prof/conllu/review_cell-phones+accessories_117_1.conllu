@@ -1,0 +1,63 @@
+1	Перестал	перестать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=17
+3	через	через	ADP	_	_	5	case	_	start_char=18|end_char=23
+4	полтора	полтора	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	5	nummod:gov	_	start_char=24|end_char=31
+5	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=32|end_char=38
+6	.	.	PUNCT	_	_	5	punct	_	start_char=38|end_char=39
+7	.	.	PUNCT	_	_	1	punct	_	start_char=39|end_char=40
+
+1	Пока	пока	SCONJ	_	_	3	mark	_	start_char=41|end_char=45
+2	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=46|end_char=56
+3	работало	работать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=57|end_char=65
+4	,	,	PUNCT	_	_	3	punct	_	start_char=65|end_char=66
+5	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	6	nsubj	_	start_char=67|end_char=70
+6	работало	работать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=71|end_char=79
+7	хорошо	хорошо	ADV	_	Degree=Pos	6	advmod	_	start_char=80|end_char=86
+8	,	,	PUNCT	_	_	12	punct	_	start_char=86|end_char=87
+9	но	но	CCONJ	_	_	12	cc	_	start_char=88|end_char=90
+10	сегодня	сегодня	ADV	_	Degree=Pos	12	advmod	_	start_char=91|end_char=98
+11	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	12	nsubj	_	start_char=99|end_char=102
+12	перестало	перестать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=103|end_char=112
+13	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=113|end_char=121
+14	,	,	PUNCT	_	_	18	punct	_	start_char=121|end_char=122
+15	и	и	CCONJ	_	_	18	cc	_	start_char=123|end_char=124
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	18	nsubj	_	start_char=125|end_char=126
+17	не	не	PART	_	_	18	advmod	_	start_char=127|end_char=129
+18	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=130|end_char=134
+19	оформить	оформить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	start_char=135|end_char=143
+20	возврат	возврат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=144|end_char=151
+21	,	,	PUNCT	_	_	25	punct	_	start_char=151|end_char=152
+22	поскольку	поскольку	SCONJ	_	_	25	mark	_	start_char=153|end_char=162
+23	с	с	ADP	_	_	25	case	_	start_char=163|end_char=164
+24	30	30	NUM	_	_	25	nummod	_	start_char=165|end_char=167
+25	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	advcl	_	start_char=168|end_char=172
+26	после	после	ADP	_	_	27	case	_	start_char=173|end_char=178
+27	покупки	покупка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	start_char=179|end_char=186
+28	примерно	примерно	ADV	_	Degree=Pos	29	advmod	_	start_char=187|end_char=195
+29	10	10	NUM	_	_	30	nummod	_	start_char=196|end_char=198
+30	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	start_char=199|end_char=203
+31	.	.	PUNCT	_	_	6	punct	_	start_char=203|end_char=204
+
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	start_char=205|end_char=206
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=207|end_char=212
+3	,	,	PUNCT	_	_	8	punct	_	start_char=212|end_char=213
+4	всё	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	5	det	_	start_char=214|end_char=217
+5	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=218|end_char=222
+6	в	в	ADP	_	_	8	case	_	start_char=223|end_char=224
+7	плохом	плохой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=225|end_char=231
+8	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	start_char=232|end_char=240
+9	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=241|end_char=247
+10	,	,	PUNCT	_	_	13	punct	_	start_char=247|end_char=248
+11	но	но	CCONJ	_	_	13	cc	_	start_char=249|end_char=251
+12	кто	кто	PRON	_	Case=Nom	13	nsubj	_	start_char=252|end_char=255
+13	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=256|end_char=261
+14	.	.	PUNCT	_	_	13	punct	_	start_char=261|end_char=262
+15	.	.	PUNCT	_	_	2	punct	_	start_char=262|end_char=263
+
+1	.	.	PUNCT	_	_	0	root	_	start_char=263|end_char=264
+
+1	Напрасная	напрасной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=264|end_char=273
+2	трата	трата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=274|end_char=279
+3	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=280|end_char=285
+4	.	.	PUNCT	_	_	2	punct	_	start_char=285|end_char=286
+
