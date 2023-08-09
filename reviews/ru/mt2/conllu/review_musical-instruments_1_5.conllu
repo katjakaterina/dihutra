@@ -1,0 +1,66 @@
+# text = хороший Здесь не о чем писать, но он делает именно то, что должен.
+# sent_id = 0
+1	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=7
+2	Здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	start_char=8|end_char=13
+3	не	не	VERB	_	_	0	root	_	start_char=14|end_char=16
+4	о	о	ADP	_	_	5	case	_	start_char=17|end_char=18
+5	чем	что	PRON	_	Case=Loc|PronType=Int,Rel	6	obl	_	start_char=19|end_char=22
+6	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=23|end_char=29
+7	,	,	PUNCT	_	_	10	punct	_	start_char=29|end_char=30
+8	но	но	CCONJ	_	_	10	cc	_	start_char=31|end_char=33
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=34|end_char=36
+10	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=37|end_char=43
+11	именно	именно	PART	_	_	12	advmod	_	start_char=44|end_char=50
+12	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	obj	_	start_char=51|end_char=53
+13	,	,	PUNCT	_	_	15	punct	_	start_char=53|end_char=54
+14	что	что	PRON	_	Case=Nom|PronType=Int,Rel	15	nsubj	_	start_char=55|end_char=58
+15	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	acl	_	start_char=59|end_char=65
+16	.	.	PUNCT	_	_	3	punct	_	start_char=65|end_char=66
+
+# text = Фильтрует поп-звуки.
+# sent_id = 1
+1	Фильтрует	фильтровать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=67|end_char=76
+2	поп-звуки	поп-звук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=77|end_char=86
+3	.	.	PUNCT	_	_	1	punct	_	start_char=86|end_char=87
+
+# text = Теперь мои записи стали намного более четкими.
+# sent_id = 2
+1	Теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	start_char=88|end_char=94
+2	мои	мой	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	start_char=95|end_char=98
+3	записи	запись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=99|end_char=105
+4	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=106|end_char=111
+5	намного	намного	ADV	_	Degree=Pos	6	advmod	_	start_char=112|end_char=119
+6	более	более	ADV	_	Degree=Cmp	7	obl	_	start_char=120|end_char=125
+7	четкими	четкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	obl	_	start_char=126|end_char=133
+8	.	.	PUNCT	_	_	4	punct	_	start_char=133|end_char=134
+
+# text = Это один из самых низких цен на поп-фильтры на amazon, так что лучше купить его, они действительно работают одинаково, несмотря на их цену,
+# sent_id = 3
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=135|end_char=138
+2	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	0	root	_	start_char=139|end_char=143
+3	из	из	ADP	_	_	6	case	_	start_char=144|end_char=146
+4	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=147|end_char=152
+5	низких	низкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=153|end_char=159
+6	цен	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=160|end_char=163
+7	на	на	ADP	_	_	8	case	_	start_char=164|end_char=166
+8	поп-фильтры	поп-фильтр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=167|end_char=178
+9	на	на	ADP	_	_	8	case	_	start_char=179|end_char=181
+10	amazon	amazon	X	_	Foreign=Yes	8	flat:foreign	_	start_char=182|end_char=188
+11	,	,	PUNCT	_	_	14	punct	_	start_char=188|end_char=189
+12	так	так	ADV	_	Degree=Pos	14	mark	_	start_char=190|end_char=193
+13	что	что	SCONJ	_	_	12	fixed	_	start_char=194|end_char=197
+14	лучше	хороший	ADJ	_	Degree=Cmp	2	advcl	_	start_char=198|end_char=203
+15	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	csubj	_	start_char=204|end_char=210
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=211|end_char=214
+17	,	,	PUNCT	_	_	20	punct	_	start_char=214|end_char=215
+18	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=216|end_char=219
+19	действительно	действительно	ADV	_	Degree=Pos	20	advmod	_	start_char=220|end_char=233
+20	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	start_char=234|end_char=242
+21	одинаково	одинаково	ADV	_	Degree=Pos	20	advmod	_	start_char=243|end_char=252
+22	,	,	PUNCT	_	_	26	punct	_	start_char=252|end_char=253
+23	несмотря	несмотря	ADV	_	Polarity=Neg	26	case	_	start_char=254|end_char=262
+24	на	на	ADP	_	_	23	fixed	_	start_char=263|end_char=265
+25	их	их	DET	_	Poss=Yes|PronType=Prs	26	det	_	start_char=266|end_char=268
+26	цену	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	start_char=269|end_char=273
+27	,	,	PUNCT	_	_	2	punct	_	start_char=273|end_char=274
+

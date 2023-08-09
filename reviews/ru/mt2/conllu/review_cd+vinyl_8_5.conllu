@@ -1,0 +1,76 @@
+# text = Этот альбом просто БЛАГОДАРЕН!
+# sent_id = 0
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4
+2	альбом	альбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=5|end_char=11
+3	просто	просто	PART	_	_	4	advmod	_	start_char=12|end_char=18
+4	БЛАГОДАРЕН	благодарен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=19|end_char=29
+5	!	!	PUNCT	_	_	4	punct	_	start_char=29|end_char=30
+
+# text = Как только он попал ко мне, я играл и слушал его, и у меня возникли воспоминания о восьмидесятых годах, когда я услышал его и когда я видел его концерт незадолго до его смерти.
+# sent_id = 1
+1	Как	как	SCONJ	_	_	4	mark	_	start_char=31|end_char=34
+2	только	только	PART	_	_	1	fixed	_	start_char=35|end_char=41
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=42|end_char=44
+4	попал	попасть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=45|end_char=50
+5	ко	к	ADP	_	_	6	case	_	start_char=51|end_char=53
+6	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=54|end_char=57
+7	,	,	PUNCT	_	_	4	punct	_	start_char=57|end_char=58
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=59|end_char=60
+9	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=61|end_char=66
+10	и	и	CCONJ	_	_	11	cc	_	start_char=67|end_char=68
+11	слушал	слушать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=69|end_char=75
+12	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=76|end_char=79
+13	,	,	PUNCT	_	_	17	punct	_	start_char=79|end_char=80
+14	и	и	CCONJ	_	_	17	cc	_	start_char=81|end_char=82
+15	у	у	ADP	_	_	16	case	_	start_char=83|end_char=84
+16	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	17	obl	_	start_char=85|end_char=89
+17	возникли	возникнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=90|end_char=98
+18	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	start_char=99|end_char=111
+19	о	о	ADP	_	_	21	case	_	start_char=112|end_char=113
+20	восьмидесятых	восьмидесятый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	start_char=114|end_char=127
+21	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	start_char=128|end_char=133
+22	,	,	PUNCT	_	_	25	punct	_	start_char=133|end_char=134
+23	когда	когда	SCONJ	_	_	25	mark	_	start_char=135|end_char=140
+24	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	start_char=141|end_char=142
+25	услышал	слышать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	acl:relcl	_	start_char=143|end_char=150
+26	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	start_char=151|end_char=154
+27	и	и	CCONJ	_	_	30	cc	_	start_char=155|end_char=156
+28	когда	когда	SCONJ	_	_	30	mark	_	start_char=157|end_char=162
+29	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	start_char=163|end_char=164
+30	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	start_char=165|end_char=170
+31	его	его	DET	_	Poss=Yes|PronType=Prs	32	det	_	start_char=171|end_char=174
+32	концерт	концерт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	start_char=175|end_char=182
+33	незадолго	незадолго	ADV	_	Degree=Pos	30	advmod	_	start_char=183|end_char=192
+34	до	до	ADP	_	_	36	case	_	start_char=193|end_char=195
+35	его	его	DET	_	Poss=Yes|PronType=Prs	36	det	_	start_char=196|end_char=199
+36	смерти	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	obl	_	start_char=200|end_char=206
+37	.	.	PUNCT	_	_	9	punct	_	start_char=206|end_char=207
+
+# text = Я плакал, но улыбался, потому что был так благословлен этой музыкой, и я надеюсь, что вы тоже получите это благословение.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=208|end_char=209
+2	плакал	плакать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=210|end_char=216
+3	,	,	PUNCT	_	_	5	punct	_	start_char=216|end_char=217
+4	но	но	CCONJ	_	_	5	cc	_	start_char=218|end_char=220
+5	улыбался	улыбаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=221|end_char=229
+6	,	,	PUNCT	_	_	11	punct	_	start_char=229|end_char=230
+7	потому	потому	ADV	_	Degree=Pos	11	mark	_	start_char=231|end_char=237
+8	что	что	SCONJ	_	_	7	fixed	_	start_char=238|end_char=241
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=242|end_char=245
+10	так	так	ADV	_	Degree=Pos	11	obl	_	start_char=246|end_char=249
+11	благословлен	благословленный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	advcl	_	start_char=250|end_char=262
+12	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=263|end_char=267
+13	музыкой	музыка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	start_char=268|end_char=275
+14	,	,	PUNCT	_	_	17	punct	_	start_char=275|end_char=276
+15	и	и	CCONJ	_	_	17	cc	_	start_char=277|end_char=278
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=279|end_char=280
+17	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=281|end_char=288
+18	,	,	PUNCT	_	_	22	punct	_	start_char=288|end_char=289
+19	что	что	SCONJ	_	_	22	mark	_	start_char=290|end_char=293
+20	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	22	nsubj	_	start_char=294|end_char=296
+21	тоже	тоже	PART	_	_	22	advmod	_	start_char=297|end_char=301
+22	получите	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	17	ccomp	_	start_char=302|end_char=310
+23	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	det	_	start_char=311|end_char=314
+24	благословение	благословение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	start_char=315|end_char=328
+25	.	.	PUNCT	_	_	2	punct	_	start_char=328|end_char=329
+

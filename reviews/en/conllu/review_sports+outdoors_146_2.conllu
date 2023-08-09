@@ -1,3 +1,6 @@
+# text = spend the extra money on a better kit used it for a year or so and definitely have had to buy better equipment.
+# sent_id = 0
+# sentiment = 0
 1	spend	spend	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=5
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=6|end_char=9
 3	extra	extra	ADJ	JJ	Degree=Pos	4	amod	_	start_char=10|end_char=15
@@ -6,7 +9,7 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=25|end_char=26
 7	better	good	ADJ	JJR	Degree=Cmp	8	amod	_	start_char=27|end_char=33
 8	kit	kit	NOUN	NN	Number=Sing	1	obl	_	start_char=34|end_char=37
-9	used	use	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	start_char=38|end_char=42
+9	used	use	VERB	VBD	Tense=Past|VerbForm=Part	1	advcl	_	start_char=38|end_char=42
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=43|end_char=45
 11	for	for	ADP	IN	_	13	case	_	start_char=46|end_char=49
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=50|end_char=51
@@ -15,7 +18,7 @@
 15	so	so	ADV	RB	_	13	conj	_	start_char=60|end_char=62
 16	and	and	CCONJ	CC	_	19	cc	_	start_char=63|end_char=66
 17	definitely	definitely	ADV	RB	_	19	advmod	_	start_char=67|end_char=77
-18	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=78|end_char=82
+18	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=78|end_char=82
 19	had	have	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	start_char=83|end_char=86
 20	to	to	PART	TO	_	21	mark	_	start_char=87|end_char=89
 21	buy	buy	VERB	VB	VerbForm=Inf	19	xcomp	_	start_char=90|end_char=93
@@ -23,23 +26,29 @@
 23	equipment	equipment	NOUN	NN	Number=Sing	21	obj	_	start_char=101|end_char=110
 24	.	.	PUNCT	.	_	1	punct	_	start_char=110|end_char=111
 
+# text = the skinny cleaning rod- snapped.. the thicker cleaning rod- also snapped.
+# sent_id = 1
+# sentiment = 0
 1	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=112|end_char=115
 2	skinny	skinny	ADJ	JJ	Degree=Pos	4	amod	_	start_char=116|end_char=122
 3	cleaning	cleaning	NOUN	NN	Number=Sing	4	compound	_	start_char=123|end_char=131
 4	rod-	rod-	NOUN	NN	Number=Sing	5	nsubj	_	start_char=132|end_char=136
-5	snapped	snap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=137|end_char=144
+5	snapped	snap	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=137|end_char=144
 6	..	..	PUNCT	,	_	5	punct	_	start_char=144|end_char=146
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=147|end_char=150
 8	thicker	thick	ADJ	JJR	Degree=Cmp	10	amod	_	start_char=151|end_char=158
 9	cleaning	cleaning	NOUN	NN	Number=Sing	10	compound	_	start_char=159|end_char=167
 10	rod-	rod-	NOUN	NN	Number=Sing	12	nsubj	_	start_char=168|end_char=172
 11	also	also	ADV	RB	_	12	advmod	_	start_char=173|end_char=177
-12	snapped	snap	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=178|end_char=185
+12	snapped	snap	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=178|end_char=185
 13	.	.	PUNCT	.	_	5	punct	_	start_char=185|end_char=186
 
-1	i'm	be	AUX	VB	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=187|end_char=190
+# text = i'm not one to apply heavy force on these, they're just very soft/cheap.
+# sent_id = 2
+# sentiment = 1
+1	i'm	i'm	INTJ	UH	_	3	discourse	_	start_char=187|end_char=190
 2	not	not	PART	RB	_	3	advmod	_	start_char=191|end_char=194
-3	one	one	NUM	CD	NumType=Card	0	root	_	start_char=195|end_char=198
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	_	start_char=195|end_char=198
 4	to	to	PART	TO	_	5	mark	_	start_char=199|end_char=201
 5	apply	apply	VERB	VB	VerbForm=Inf	3	acl	_	start_char=202|end_char=207
 6	heavy	heavy	ADJ	JJ	Degree=Pos	7	amod	_	start_char=208|end_char=213
@@ -48,7 +57,7 @@
 9	these	this	PRON	DT	Number=Plur|PronType=Dem	5	obl	_	start_char=223|end_char=228
 10	,	,	PUNCT	,	_	3	punct	_	start_char=228|end_char=229
 11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=230|end_char=234
-12	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=234|end_char=237
+12	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=234|end_char=237
 13	just	just	ADV	RB	_	15	advmod	_	start_char=238|end_char=242
 14	very	very	ADV	RB	_	15	advmod	_	start_char=243|end_char=247
 15	soft	soft	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=248|end_char=252
@@ -56,13 +65,19 @@
 17	cheap	cheap	ADJ	JJ	Degree=Pos	15	conj	_	start_char=253|end_char=258
 18	.	.	PUNCT	.	_	3	punct	_	start_char=258|end_char=259
 
+# text = the brushes are decent enough.
+# sent_id = 3
+# sentiment = 2
 1	the	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=260|end_char=263
 2	brushes	brush	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=264|end_char=271
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=272|end_char=275
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=272|end_char=275
 4	decent	decent	ADJ	JJ	Degree=Pos	0	root	_	start_char=276|end_char=282
 5	enough	enough	ADV	RB	_	4	advmod	_	start_char=283|end_char=289
 6	.	.	PUNCT	.	_	4	punct	_	start_char=289|end_char=290
 
+# text = after spending cash on a nicer kit, i guess i learned my lesson.
+# sent_id = 4
+# sentiment = 1
 1	after	after	SCONJ	IN	_	2	mark	_	start_char=291|end_char=296
 2	spending	spend	VERB	VBG	VerbForm=Ger	10	advcl	_	start_char=297|end_char=305
 3	cash	cash	NOUN	NN	Number=Sing	2	obj	_	start_char=306|end_char=310
@@ -72,24 +87,27 @@
 7	kit	kit	NOUN	NN	Number=Sing	2	obl	_	start_char=322|end_char=325
 8	,	,	PUNCT	,	_	10	punct	_	start_char=325|end_char=326
 9	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=327|end_char=328
-10	guess	guess	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=329|end_char=334
+10	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=329|end_char=334
 11	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=335|end_char=336
-12	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	ccomp	_	start_char=337|end_char=344
-13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=345|end_char=347
+12	learned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	ccomp	_	start_char=337|end_char=344
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=345|end_char=347
 14	lesson	lesson	NOUN	NN	Number=Sing	12	obj	_	start_char=348|end_char=354
 15	.	.	PUNCT	.	_	10	punct	_	start_char=354|end_char=355
 
+# text = if you have the funds skip and buy something a little nicer.
+# sent_id = 5
+# sentiment = 0
 1	if	if	SCONJ	IN	_	3	mark	_	start_char=356|end_char=358
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=359|end_char=362
-3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=363|end_char=367
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=363|end_char=367
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=368|end_char=371
 5	funds	fund	NOUN	NNS	Number=Plur	3	obj	_	start_char=372|end_char=377
-6	skip	skip	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=378|end_char=382
+6	skip	skip	VERB	VB	VerbForm=Fin	0	root	_	start_char=378|end_char=382
 7	and	and	CCONJ	CC	_	8	cc	_	start_char=383|end_char=386
-8	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	3	conj	_	start_char=387|end_char=390
-9	something	something	PRON	NN	Number=Sing	8	obj	_	start_char=391|end_char=400
+8	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	6	conj	_	start_char=387|end_char=390
+9	something	something	PRON	NN	Number=Sing|PronType=Ind	8	obj	_	start_char=391|end_char=400
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=401|end_char=402
 11	little	little	ADJ	JJ	Degree=Pos	12	obl:npmod	_	start_char=403|end_char=409
-12	nicer	nice	ADJ	JJR	Degree=Cmp	8	xcomp	_	start_char=410|end_char=415
-13	.	.	PUNCT	.	_	3	punct	_	start_char=415|end_char=416
+12	nicer	nice	ADJ	JJR	Degree=Cmp	9	amod	_	start_char=410|end_char=415
+13	.	.	PUNCT	.	_	6	punct	_	start_char=415|end_char=416
 

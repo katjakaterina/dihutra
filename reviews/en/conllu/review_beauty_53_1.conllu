@@ -1,25 +1,34 @@
+# text = Another Fake MAC on here, dont buy!
+# sent_id = 0
+# sentiment = 0
 1	Another	another	DET	DT	_	3	det	_	start_char=0|end_char=7
 2	Fake	Fake	ADJ	JJ	Degree=Pos	3	amod	_	start_char=8|end_char=12
-3	MAC	MAC	PROPN	NNP	Number=Sing	0	root	_	start_char=13|end_char=16
+3	MAC	mac	NOUN	NN	Number=Sing	0	root	_	start_char=13|end_char=16
 4	on	on	ADP	IN	_	5	case	_	start_char=17|end_char=19
 5	here	here	ADV	RB	PronType=Dem	3	nmod	_	start_char=20|end_char=24
 6	,	,	PUNCT	,	_	3	punct	_	start_char=24|end_char=25
-7	dont	dont	INTJ	UH	_	8	discourse	_	start_char=26|end_char=30
+7	dont	do	AUX	MD	VerbForm=Fin	8	aux	_	start_char=26|end_char=30
 8	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	start_char=31|end_char=34
 9	!	!	PUNCT	.	_	3	punct	_	start_char=34|end_char=35
 
+# text = Why should you care?
+# sent_id = 1
+# sentiment = 1
 1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=36|end_char=39
 2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=40|end_char=46
 3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=47|end_char=50
 4	care	care	VERB	VB	VerbForm=Inf	0	root	_	start_char=51|end_char=55
 5	?	?	PUNCT	.	_	4	punct	_	start_char=55|end_char=56
 
+# text = Sales of fake MAC pigments are widespread across the Internet, so people often assume they must be safe or even identical to genuine MAC products.
+# sent_id = 2
+# sentiment = 0
 1	Sales	sale	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=57|end_char=62
 2	of	of	ADP	IN	_	5	case	_	start_char=63|end_char=65
 3	fake	fake	ADJ	JJ	Degree=Pos	5	amod	_	start_char=66|end_char=70
-4	MAC	MAC	PROPN	NNP	Number=Sing	5	compound	_	start_char=71|end_char=74
+4	MAC	mac	NOUN	NN	Number=Sing	5	compound	_	start_char=71|end_char=74
 5	pigments	pigment	NOUN	NNS	Number=Plur	1	nmod	_	start_char=75|end_char=83
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=84|end_char=87
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=84|end_char=87
 7	widespread	widespread	ADJ	JJ	Degree=Pos	0	root	_	start_char=88|end_char=98
 8	across	across	ADP	IN	_	10	case	_	start_char=99|end_char=105
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=106|end_char=109
@@ -28,7 +37,7 @@
 12	so	so	ADV	RB	_	15	advmod	_	start_char=120|end_char=122
 13	people	people	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=123|end_char=129
 14	often	often	ADV	RB	_	15	advmod	_	start_char=130|end_char=135
-15	assume	assume	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=136|end_char=142
+15	assume	assume	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=136|end_char=142
 16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=143|end_char=147
 17	must	must	AUX	MD	VerbForm=Fin	19	aux	_	start_char=148|end_char=152
 18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	start_char=153|end_char=155
@@ -38,10 +47,13 @@
 22	identical	identical	ADJ	JJ	Degree=Pos	19	conj	_	start_char=169|end_char=178
 23	to	to	ADP	IN	_	26	case	_	start_char=179|end_char=181
 24	genuine	genuine	ADJ	JJ	Degree=Pos	26	amod	_	start_char=182|end_char=189
-25	MAC	MAC	PROPN	NNP	Number=Sing	26	compound	_	start_char=190|end_char=193
+25	MAC	mac	NOUN	NN	Number=Sing	26	compound	_	start_char=190|end_char=193
 26	products	product	NOUN	NNS	Number=Plur	22	obl	_	start_char=194|end_char=202
 27	.	.	PUNCT	.	_	7	punct	_	start_char=202|end_char=203
 
+# text = Unfortunately, that is not the case.
+# sent_id = 3
+# sentiment = 1
 1	Unfortunately	unfortunately	ADV	RB	_	7	advmod	_	start_char=204|end_char=217
 2	,	,	PUNCT	,	_	7	punct	_	start_char=217|end_char=218
 3	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=219|end_char=223
@@ -51,14 +63,17 @@
 7	case	case	NOUN	NN	Number=Sing	0	root	_	start_char=235|end_char=239
 8	.	.	PUNCT	.	_	7	punct	_	start_char=239|end_char=240
 
+# text = Fake MAC pigments have been analyzed to contain chemical irritants, bacterial contamination (including in at least one case e. coli) or even toxins like lead and carcinogens.
+# sent_id = 4
+# sentiment = 0
 1	Fake	Fake	ADJ	JJ	Degree=Pos	3	amod	_	start_char=241|end_char=245
-2	MAC	MAC	PROPN	NNP	Number=Sing	3	compound	_	start_char=246|end_char=249
+2	MAC	mac	NOUN	NN	Number=Sing	3	compound	_	start_char=246|end_char=249
 3	pigments	pigment	NOUN	NNS	Number=Plur	6	nsubj:pass	_	start_char=250|end_char=258
-4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=259|end_char=263
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=259|end_char=263
 5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	start_char=264|end_char=268
 6	analyzed	analyze	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=269|end_char=277
 7	to	to	PART	TO	_	8	mark	_	start_char=278|end_char=280
-8	contain	contain	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=281|end_char=288
+8	contain	contain	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=281|end_char=288
 9	chemical	chemical	ADJ	JJ	Degree=Pos	10	amod	_	start_char=289|end_char=297
 10	irritants	irritant	NOUN	NNS	Number=Plur	8	obj	_	start_char=298|end_char=307
 11	,	,	PUNCT	,	_	13	punct	_	start_char=307|end_char=308
@@ -66,10 +81,10 @@
 13	contamination	contamination	NOUN	NN	Number=Sing	10	conj	_	start_char=319|end_char=332
 14	(	(	PUNCT	-LRB-	_	22	punct	_	start_char=333|end_char=334
 15	including	include	VERB	VBG	VerbForm=Ger	22	case	_	start_char=334|end_char=343
-16	in	in	ADP	IN	_	20	case	_	start_char=344|end_char=346
+16	in	in	ADP	IN	_	22	case	_	start_char=344|end_char=346
 17	at	at	ADP	IN	_	18	case	_	start_char=347|end_char=349
 18	least	least	ADJ	JJS	Degree=Sup	19	nmod	_	start_char=350|end_char=355
-19	one	one	NUM	CD	NumType=Card	20	nummod	_	start_char=356|end_char=359
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	22	nummod	_	start_char=356|end_char=359
 20	case	case	NOUN	NN	Number=Sing	22	compound	_	start_char=360|end_char=364
 21	e.	e.	NOUN	NN	Number=Sing	22	compound	_	start_char=365|end_char=367
 22	coli	coli	NOUN	NN	Number=Sing	10	nmod	_	start_char=368|end_char=372
@@ -83,7 +98,10 @@
 30	carcinogens	carcinogen	NOUN	NNS	Number=Plur	28	conj	_	start_char=403|end_char=414
 31	.	.	PUNCT	.	_	6	punct	_	start_char=414|end_char=415
 
-1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=416|end_char=418
+# text = Do you really want to risk blindness or permanent facial scarring just to get a deal?
+# sent_id = 5
+# sentiment = 0
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=416|end_char=418
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=419|end_char=422
 3	really	really	ADV	RB	_	4	advmod	_	start_char=423|end_char=429
 4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=430|end_char=434

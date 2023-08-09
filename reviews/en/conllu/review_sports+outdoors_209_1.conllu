@@ -1,22 +1,28 @@
+# text = Cheap product Cheap product!
+# sent_id = 0
+# sentiment = 0
 1	Cheap	cheap	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=5
 2	product	product	NOUN	NN	Number=Sing	4	compound	_	start_char=6|end_char=13
 3	Cheap	cheap	ADJ	JJ	Degree=Pos	4	amod	_	start_char=14|end_char=19
 4	product	product	NOUN	NN	Number=Sing	0	root	_	start_char=20|end_char=27
 5	!	!	PUNCT	.	_	4	punct	_	start_char=27|end_char=28
 
+# text = Within two days of use it started to loose air where I found a pin size hole and is now no longer useable.
+# sent_id = 1
+# sentiment = 0
 1	Within	within	ADP	IN	_	3	case	_	start_char=29|end_char=35
-2	two	two	NUM	CD	NumType=Card	3	nummod	_	start_char=36|end_char=39
+2	two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=36|end_char=39
 3	days	day	NOUN	NNS	Number=Plur	7	obl	_	start_char=40|end_char=44
 4	of	of	ADP	IN	_	5	case	_	start_char=45|end_char=47
 5	use	use	NOUN	NN	Number=Sing	3	nmod	_	start_char=48|end_char=51
-6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	start_char=52|end_char=54
-7	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=55|end_char=62
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=52|end_char=54
+7	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=55|end_char=62
 8	to	to	PART	TO	_	9	mark	_	start_char=63|end_char=65
-9	loose	loose	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=66|end_char=71
+9	loose	lose	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=66|end_char=71
 10	air	air	NOUN	NN	Number=Sing	9	obj	_	start_char=72|end_char=75
-11	where	where	SCONJ	WRB	PronType=Int	13	mark	_	start_char=76|end_char=81
+11	where	where	ADV	WRB	PronType=Int	13	advmod	_	start_char=76|end_char=81
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=82|end_char=83
-13	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	start_char=84|end_char=89
+13	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	advcl	_	start_char=84|end_char=89
 14	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=90|end_char=91
 15	pin	pin	NOUN	NN	Number=Sing	16	compound	_	start_char=92|end_char=95
 16	size	size	NOUN	NN	Number=Sing	17	compound	_	start_char=96|end_char=100
@@ -26,9 +32,12 @@
 20	now	now	ADV	RB	_	23	advmod	_	start_char=113|end_char=116
 21	no	no	ADV	RB	_	22	advmod	_	start_char=117|end_char=119
 22	longer	long	ADV	RBR	Degree=Cmp	23	advmod	_	start_char=120|end_char=126
-23	useable	useable	ADJ	JJ	Degree=Pos	7	conj	_	start_char=127|end_char=134
+23	useable	useable	ADJ	JJ	Degree=Pos	13	conj	_	start_char=127|end_char=134
 24	.	.	PUNCT	.	_	7	punct	_	start_char=134|end_char=135
 
+# text = You could buy the same product (also made in china) at local stores for 1/4 the price.
+# sent_id = 2
+# sentiment = 1
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=136|end_char=139
 2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	start_char=140|end_char=145
 3	buy	buy	VERB	VB	VerbForm=Inf	0	root	_	start_char=146|end_char=149
@@ -45,11 +54,16 @@
 14	local	local	ADJ	JJ	Degree=Pos	15	amod	_	start_char=191|end_char=196
 15	stores	store	NOUN	NNS	Number=Plur	3	obl	_	start_char=197|end_char=203
 16	for	for	ADP	IN	_	19	case	_	start_char=204|end_char=207
-17	1/4	1/4	NUM	CD	NumType=Card	19	nummod	_	start_char=208|end_char=211
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=212|end_char=215
-19	price	price	NOUN	NN	Number=Sing	15	nmod	_	start_char=216|end_char=221
-20	.	.	PUNCT	.	_	3	punct	_	start_char=221|end_char=222
+17	1	1	NUM	CD	NumForm=Digit|NumType=Card	19	compound	_	start_char=208|end_char=209
+18	/	/	SYM	,	_	19	punct	_	start_char=209|end_char=210
+19	4	4	NUM	CD	NumForm=Digit|NumType=Card	3	obl	_	start_char=210|end_char=211
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=212|end_char=215
+21	price	price	NOUN	NN	Number=Sing	3	obl	_	start_char=216|end_char=221
+22	.	.	PUNCT	.	_	3	punct	_	start_char=221|end_char=222
 
+# text = I would not recommend this product.
+# sent_id = 3
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=223|end_char=224
 2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=225|end_char=230
 3	not	not	PART	RB	_	4	advmod	_	start_char=231|end_char=234

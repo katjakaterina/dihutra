@@ -1,3 +1,6 @@
+# text = FAIL JUNK!! !......This product must be miss labeled.
+# sent_id = 0
+# sentiment = 0
 1	FAIL	fail	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	JUNK	junk	NOUN	NN	Number=Sing	1	obj	_	start_char=5|end_char=9
 3	!!	!!	PUNCT	.	_	1	punct	_	start_char=9|end_char=11
@@ -6,15 +9,18 @@
 6	product	product	NOUN	NN	Number=Sing	10	nsubj:pass	_	start_char=24|end_char=31
 7	must	must	AUX	MD	VerbForm=Fin	10	aux	_	start_char=32|end_char=36
 8	be	be	AUX	VB	VerbForm=Inf	10	aux:pass	_	start_char=37|end_char=39
-9	miss	miss	VERB	VB	VerbForm=Part	10	advmod	_	start_char=40|end_char=44
+9	miss	miss	ADV	RB	_	10	advmod	_	start_char=40|end_char=44
 10	labeled	label	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	parataxis	_	start_char=45|end_char=52
 11	.	.	PUNCT	.	_	1	punct	_	start_char=52|end_char=53
 
+# text = I can not get my Samsung S2 phone to charge with this OEM charger.
+# sent_id = 1
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=54|end_char=55
 2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=56|end_char=59
 3	not	not	PART	RB	_	4	advmod	_	start_char=60|end_char=63
 4	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=64|end_char=67
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=68|end_char=70
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=68|end_char=70
 6	Samsung	Samsung	PROPN	NNP	Number=Sing	8	compound	_	start_char=71|end_char=78
 7	S2	S2	PROPN	NNP	Number=Sing	8	compound	_	start_char=79|end_char=81
 8	phone	phone	NOUN	NN	Number=Sing	4	obj	_	start_char=82|end_char=87
@@ -22,32 +28,38 @@
 10	charge	charge	VERB	VB	VerbForm=Inf	4	advcl	_	start_char=91|end_char=97
 11	with	with	ADP	IN	_	14	case	_	start_char=98|end_char=102
 12	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	start_char=103|end_char=107
-13	OEM	oem	NOUN	NN	Number=Sing	14	compound	_	start_char=108|end_char=111
+13	OEM	OEM	PROPN	NNP	Number=Sing	14	compound	_	start_char=108|end_char=111
 14	charger	charge	NOUN	NN	Number=Sing	10	obl	_	start_char=112|end_char=119
 15	.	.	PUNCT	.	_	4	punct	_	start_char=119|end_char=120
 
+# text = The lights are on, the phone says its charging but nothing happens.
+# sent_id = 2
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=121|end_char=124
 2	lights	light	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=125|end_char=131
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=132|end_char=135
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=132|end_char=135
 4	on	on	ADV	RB	_	0	root	_	start_char=136|end_char=138
-5	,	,	PUNCT	,	_	8	punct	_	start_char=138|end_char=139
+5	,	,	PUNCT	,	_	4	punct	_	start_char=138|end_char=139
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=140|end_char=143
 7	phone	phone	NOUN	NN	Number=Sing	8	nsubj	_	start_char=144|end_char=149
 8	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=150|end_char=154
-9	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=155|end_char=158
-10	charging	charge	NOUN	NN	Number=Sing	8	obj	_	start_char=159|end_char=167
+9	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=155|end_char=158
+10	charging	charging	NOUN	NN	Number=Sing	8	obj	_	start_char=159|end_char=167
 11	but	but	CCONJ	CC	_	13	cc	_	start_char=168|end_char=171
-12	nothing	nothing	PRON	NN	Number=Sing	13	nsubj	_	start_char=172|end_char=179
-13	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=180|end_char=187
+12	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	13	nsubj	_	start_char=172|end_char=179
+13	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=180|end_char=187
 14	.	.	PUNCT	.	_	4	punct	_	start_char=187|end_char=188
 
+# text = I am not sure if I got a defective product but it is very upsetting to sit in your car for hours and not see your phone recharge.
+# sent_id = 3
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=189|end_char=190
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=191|end_char=193
 3	not	not	PART	RB	_	4	advmod	_	start_char=194|end_char=197
 4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	start_char=198|end_char=202
 5	if	if	SCONJ	IN	_	7	mark	_	start_char=203|end_char=205
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=206|end_char=207
-7	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=208|end_char=211
+7	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=208|end_char=211
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=212|end_char=213
 9	defective	defective	ADJ	JJ	Degree=Pos	10	amod	_	start_char=214|end_char=223
 10	product	product	NOUN	NN	Number=Sing	7	obj	_	start_char=224|end_char=231
@@ -59,21 +71,24 @@
 16	to	to	PART	TO	_	17	mark	_	start_char=257|end_char=259
 17	sit	sit	VERB	VB	VerbForm=Inf	15	csubj	_	start_char=260|end_char=263
 18	in	in	ADP	IN	_	20	case	_	start_char=264|end_char=266
-19	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=267|end_char=271
+19	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=267|end_char=271
 20	car	car	NOUN	NN	Number=Sing	17	obl	_	start_char=272|end_char=275
 21	for	for	ADP	IN	_	22	case	_	start_char=276|end_char=279
 22	hours	hour	NOUN	NNS	Number=Plur	17	obl	_	start_char=280|end_char=285
 23	and	and	CCONJ	CC	_	25	cc	_	start_char=286|end_char=289
 24	not	not	PART	RB	_	25	advmod	_	start_char=290|end_char=293
 25	see	see	VERB	VB	VerbForm=Inf	17	conj	_	start_char=294|end_char=297
-26	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	start_char=298|end_char=302
+26	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	28	nmod:poss	_	start_char=298|end_char=302
 27	phone	phone	NOUN	NN	Number=Sing	28	compound	_	start_char=303|end_char=308
 28	recharge	recharge	NOUN	NN	Number=Sing	25	obj	_	start_char=309|end_char=317
 29	.	.	PUNCT	.	_	4	punct	_	start_char=317|end_char=318
 
+# text = If you need a reliable charger, DO NOT purchase this product.
+# sent_id = 4
+# sentiment = 0
 1	If	if	SCONJ	IN	_	3	mark	_	start_char=319|end_char=321
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=322|end_char=325
-3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=326|end_char=330
+3	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=326|end_char=330
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=331|end_char=332
 5	reliable	reliable	ADJ	JJ	Degree=Pos	6	amod	_	start_char=333|end_char=341
 6	charger	charge	NOUN	NN	Number=Sing	3	obj	_	start_char=342|end_char=349
@@ -85,14 +100,17 @@
 12	product	product	NOUN	NN	Number=Sing	10	obj	_	start_char=372|end_char=379
 13	.	.	PUNCT	.	_	10	punct	_	start_char=379|end_char=380
 
+# text = If you need a car charger for your Samsung S2, I would recommend the Motorola Vehicle Power Adapter.
+# sent_id = 5
+# sentiment = 2
 1	If	if	SCONJ	IN	_	3	mark	_	start_char=380|end_char=382
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=383|end_char=386
-3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=387|end_char=391
+3	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=387|end_char=391
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=392|end_char=393
 5	car	car	NOUN	NN	Number=Sing	6	compound	_	start_char=394|end_char=397
 6	charger	charge	NOUN	NN	Number=Sing	3	obj	_	start_char=398|end_char=405
 7	for	for	ADP	IN	_	10	case	_	start_char=406|end_char=409
-8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=410|end_char=414
+8	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=410|end_char=414
 9	Samsung	Samsung	PROPN	NNP	Number=Sing	10	compound	_	start_char=415|end_char=422
 10	S2	S2	PROPN	NNP	Number=Sing	6	nmod	_	start_char=423|end_char=425
 11	,	,	PUNCT	,	_	14	punct	_	start_char=425|end_char=426
@@ -106,6 +124,9 @@
 19	Adapter	adapter	NOUN	NN	Number=Sing	14	obj	_	start_char=472|end_char=479
 20	.	.	PUNCT	.	_	14	punct	_	start_char=479|end_char=480
 
+# text = It charges fast and is dependable.
+# sent_id = 6
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=481|end_char=483
 2	charges	charge	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=484|end_char=491
 3	fast	fast	ADV	RB	Degree=Pos	2	advmod	_	start_char=492|end_char=496

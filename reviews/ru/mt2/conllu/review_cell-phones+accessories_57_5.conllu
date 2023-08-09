@@ -1,0 +1,75 @@
+# text = Отлично!
+# sent_id = 0
+1	Отлично	отличный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=7
+2	!	!	PUNCT	_	_	1	punct	_	start_char=7|end_char=8
+
+# text = Я переживала за этот заказ, потому что картинка на странице описания постоянно менялась на менее желанную зелено-оранжевую обложку.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=9|end_char=10
+2	переживала	переживать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=21
+3	за	за	ADP	_	_	5	case	_	start_char=22|end_char=24
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=25|end_char=29
+5	заказ	заказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=30|end_char=35
+6	,	,	PUNCT	_	_	14	punct	_	start_char=35|end_char=36
+7	потому	потому	ADV	_	Degree=Pos	14	mark	_	start_char=37|end_char=43
+8	что	что	SCONJ	_	_	7	fixed	_	start_char=44|end_char=47
+9	картинка	картинка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=48|end_char=56
+10	на	на	ADP	_	_	11	case	_	start_char=57|end_char=59
+11	странице	страница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	start_char=60|end_char=68
+12	описания	описание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=69|end_char=77
+13	постоянно	постоянно	ADV	_	Degree=Pos	14	advmod	_	start_char=78|end_char=87
+14	менялась	меняться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	start_char=88|end_char=96
+15	на	на	ADP	_	_	21	case	_	start_char=97|end_char=99
+16	менее	менее	ADV	_	Degree=Cmp	17	obl	_	start_char=100|end_char=105
+17	желанную	желанный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=106|end_char=114
+18	зелено	зеленый	ADJ	_	Degree=Pos	20	compound	_	start_char=115|end_char=121
+19	-	-	PUNCT	_	_	18	punct	_	start_char=121|end_char=122
+20	оранжевую	оранжевый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=122|end_char=131
+21	обложку	обложка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=132|end_char=139
+22	.	.	PUNCT	_	_	2	punct	_	start_char=139|end_char=140
+
+# text = Но, увы, пришло на день раньше, чем ожидалось, и ожидаемо красивое розовое изделие!
+# sent_id = 2
+1	Но	но	CCONJ	_	_	5	cc	_	start_char=141|end_char=143
+2	,	,	PUNCT	_	_	1	punct	_	start_char=143|end_char=144
+3	увы	увы	ADV	_	Degree=Pos	5	parataxis	_	start_char=145|end_char=148
+4	,	,	PUNCT	_	_	3	punct	_	start_char=148|end_char=149
+5	пришло	прийти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=150|end_char=156
+6	на	на	ADP	_	_	7	case	_	start_char=157|end_char=159
+7	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=160|end_char=164
+8	раньше	рано	ADV	_	Degree=Cmp	5	advmod	_	start_char=165|end_char=171
+9	,	,	PUNCT	_	_	11	punct	_	start_char=171|end_char=172
+10	чем	чем	SCONJ	_	_	11	mark	_	start_char=173|end_char=176
+11	ожидалось	ожидать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	advcl	_	start_char=177|end_char=186
+12	,	,	PUNCT	_	_	14	punct	_	start_char=186|end_char=187
+13	и	и	CCONJ	_	_	14	cc	_	start_char=188|end_char=189
+14	ожидаемо	ожидаемо	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	conj	_	start_char=190|end_char=198
+15	красивое	красивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=199|end_char=207
+16	розовое	розовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=208|end_char=215
+17	изделие	изделие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	start_char=216|end_char=223
+18	!	!	PUNCT	_	_	5	punct	_	start_char=223|end_char=224
+
+# text = Прорезиненная обложка кажется немного жирной (как будто на нее нанесли броню), но дизайн великолепный и немного 3D!
+# sent_id = 3
+1	Прорезиненная	прорезиненный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=225|end_char=238
+2	обложка	обложка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=239|end_char=246
+3	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=247|end_char=254
+4	немного	немного	ADV	_	Degree=Pos	5	advmod	_	start_char=255|end_char=262
+5	жирной	жирный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	obl	_	start_char=263|end_char=269
+6	(	(	PUNCT	_	_	11	punct	_	start_char=270|end_char=271
+7	как	как	SCONJ	_	_	11	mark	_	start_char=271|end_char=274
+8	будто	будто	PART	_	_	7	fixed	_	start_char=275|end_char=280
+9	на	на	ADP	_	_	10	case	_	start_char=281|end_char=283
+10	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	start_char=284|end_char=287
+11	нанесли	нанести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	start_char=288|end_char=295
+12	броню	броня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=296|end_char=301
+13	)	)	PUNCT	_	_	11	punct	_	start_char=301|end_char=302
+14	,	,	PUNCT	_	_	17	punct	_	start_char=302|end_char=303
+15	но	но	CCONJ	_	_	17	cc	_	start_char=304|end_char=306
+16	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=307|end_char=313
+17	великолепный	великолепный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=314|end_char=326
+18	и	и	CCONJ	_	_	19	cc	_	start_char=327|end_char=328
+19	немного	немного	ADV	_	Degree=Pos	17	conj	_	start_char=329|end_char=336
+20	3D	3D	PROPN	_	Foreign=Yes	19	nsubj	_	start_char=337|end_char=339
+21	!	!	PUNCT	_	_	3	punct	_	start_char=339|end_char=340
+

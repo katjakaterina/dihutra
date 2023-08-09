@@ -1,0 +1,94 @@
+# text = красивые свадебные торты Просто обожаю эту книгу!!!
+# sent_id = 0
+1	красивые	красивый	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=0|end_char=8
+2	свадебные	свадебный	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=9|end_char=18
+3	торты	торт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=19|end_char=24
+4	Просто	просто	PART	_	_	5	advmod	_	start_char=25|end_char=31
+5	обожаю	обожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=32|end_char=38
+6	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=39|end_char=42
+7	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=43|end_char=48
+8	!	!	PUNCT	_	_	7	punct	_	start_char=48|end_char=49
+9	!	!	PUNCT	_	_	7	punct	_	start_char=49|end_char=50
+10	!	!	PUNCT	_	_	5	punct	_	start_char=50|end_char=51
+
+# text = Я почерпнула из нее несколько замечательных идей.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=52|end_char=53
+2	почерпнула	почерпнуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=64
+3	из	из	ADP	_	_	4	case	_	start_char=65|end_char=67
+4	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=68|end_char=71
+5	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	7	nummod	_	start_char=72|end_char=81
+6	замечательных	замечательный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=82|end_char=95
+7	идей	идея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	start_char=96|end_char=100
+8	.	.	PUNCT	_	_	2	punct	_	start_char=100|end_char=101
+
+# text = Она хорошо написана, рецепты просты в исполнении.
+# sent_id = 2
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=102|end_char=105
+2	хорошо	хорошо	ADV	_	Degree=Pos	3	advmod	_	start_char=106|end_char=112
+3	написана	писать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=113|end_char=121
+4	,	,	PUNCT	_	_	6	punct	_	start_char=121|end_char=122
+5	рецепты	рецепт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=123|end_char=130
+6	просты	простой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	start_char=131|end_char=137
+7	в	в	ADP	_	_	8	case	_	start_char=138|end_char=139
+8	исполнении	исполнение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=140|end_char=150
+9	.	.	PUNCT	_	_	3	punct	_	start_char=150|end_char=151
+
+# text = Когда я впервые увидела эту книгу, у меня возникли сомнения, не окажется ли она просто очередной книгой о свадебных тортах.
+# sent_id = 3
+1	Когда	когда	SCONJ	_	_	4	mark	_	start_char=152|end_char=157
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=158|end_char=159
+3	впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	start_char=160|end_char=167
+4	увидела	видеть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=168|end_char=175
+5	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=176|end_char=179
+6	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=180|end_char=185
+7	,	,	PUNCT	_	_	4	punct	_	start_char=185|end_char=186
+8	у	у	ADP	_	_	9	case	_	start_char=187|end_char=188
+9	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	obl	_	start_char=189|end_char=193
+10	возникли	возникнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=194|end_char=202
+11	сомнения	сомнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=203|end_char=211
+12	,	,	PUNCT	_	_	14	punct	_	start_char=211|end_char=212
+13	не	не	PART	_	_	14	advmod	_	start_char=213|end_char=215
+14	окажется	оказаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	11	acl	_	start_char=216|end_char=224
+15	ли	ли	PART	_	_	14	advmod	_	start_char=225|end_char=227
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=228|end_char=231
+17	просто	просто	PART	_	_	18	advmod	_	start_char=232|end_char=238
+18	очередной	очередной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=239|end_char=248
+19	книгой	книга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	start_char=249|end_char=255
+20	о	о	ADP	_	_	22	case	_	start_char=256|end_char=257
+21	свадебных	свадебный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	start_char=258|end_char=267
+22	тортах	торт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	nmod	_	start_char=268|end_char=274
+23	.	.	PUNCT	_	_	10	punct	_	start_char=274|end_char=275
+
+# text = Я так рада, что поверила своему чутью и купила ее.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=276|end_char=277
+2	так	так	ADV	_	Degree=Pos	3	advmod	_	start_char=278|end_char=281
+3	рада	рад	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=282|end_char=286
+4	,	,	PUNCT	_	_	6	punct	_	start_char=286|end_char=287
+5	что	что	SCONJ	_	_	6	mark	_	start_char=288|end_char=291
+6	поверила	поверить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=292|end_char=300
+7	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=301|end_char=307
+8	чутью	чуть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	start_char=308|end_char=313
+9	и	и	CCONJ	_	_	10	cc	_	start_char=314|end_char=315
+10	купила	купить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=316|end_char=322
+11	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=323|end_char=325
+12	.	.	PUNCT	_	_	3	punct	_	start_char=325|end_char=326
+
+# text = Я люблю товары Марты Стюарт, и эта книга оказалась как нельзя кстати.
+# sent_id = 5
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=327|end_char=328
+2	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=329|end_char=334
+3	товары	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=335|end_char=341
+4	Марты	Марта	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=342|end_char=347
+5	Стюарт	Стюарт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	flat:name	_	start_char=348|end_char=354
+6	,	,	PUNCT	_	_	10	punct	_	start_char=354|end_char=355
+7	и	и	CCONJ	_	_	10	cc	_	start_char=356|end_char=357
+8	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=358|end_char=361
+9	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=362|end_char=367
+10	оказалась	оказаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=368|end_char=377
+11	как	как	ADV	_	Degree=Pos	13	advmod	_	start_char=378|end_char=381
+12	нельзя	нельзя	ADV	_	Degree=Pos	11	fixed	_	start_char=382|end_char=388
+13	кстати	кстати	ADV	_	Degree=Pos	10	advmod	_	start_char=389|end_char=395
+14	.	.	PUNCT	_	_	2	punct	_	start_char=395|end_char=396
+

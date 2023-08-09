@@ -1,0 +1,115 @@
+# text = Быстро, просто и экономично Это был отличный сюрприз за такие деньги.
+# sent_id = 0
+1	Быстро	быстро	ADV	_	Degree=Pos	9	advmod	_	start_char=0|end_char=6
+2	,	,	PUNCT	_	_	3	punct	_	start_char=6|end_char=7
+3	просто	простой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	start_char=8|end_char=14
+4	и	и	CCONJ	_	_	5	cc	_	start_char=15|end_char=16
+5	экономично	экономичный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	start_char=17|end_char=27
+6	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=28|end_char=31
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=32|end_char=35
+8	отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=36|end_char=44
+9	сюрприз	сюрприз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=45|end_char=52
+10	за	за	ADP	_	_	12	case	_	start_char=53|end_char=55
+11	такие	такой	DET	_	Case=Acc|Number=Plur|PronType=Dem	12	det	_	start_char=56|end_char=61
+12	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	start_char=62|end_char=68
+13	.	.	PUNCT	_	_	9	punct	_	start_char=68|end_char=69
+
+# text = Я посмотрел на тренировки с лентой сопротивления на YouTube и решил попробовать.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=70|end_char=71
+2	посмотрел	смотреть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=72|end_char=81
+3	на	на	ADP	_	_	4	case	_	start_char=82|end_char=84
+4	тренировки	тренировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=85|end_char=95
+5	с	с	ADP	_	_	6	case	_	start_char=96|end_char=97
+6	лентой	лента	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	start_char=98|end_char=104
+7	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=105|end_char=118
+8	на	на	ADP	_	_	9	case	_	start_char=119|end_char=121
+9	YouTube	ютьюб	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=122|end_char=129
+10	и	и	CCONJ	_	_	11	cc	_	start_char=130|end_char=131
+11	решил	решить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=132|end_char=137
+12	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=138|end_char=149
+13	.	.	PUNCT	_	_	2	punct	_	start_char=149|end_char=150
+
+# text = За такую цену почему бы и нет?
+# sent_id = 2
+1	За	за	ADP	_	_	3	case	_	start_char=151|end_char=153
+2	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=154|end_char=159
+3	цену	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=160|end_char=164
+4	почему	почему	ADV	_	Degree=Pos	7	advmod	_	start_char=165|end_char=171
+5	бы	бы	AUX	_	_	7	aux	_	start_char=172|end_char=174
+6	и	и	PART	_	_	7	advmod	_	start_char=175|end_char=176
+7	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=177|end_char=180
+8	?	?	PUNCT	_	_	7	punct	_	start_char=180|end_char=181
+
+# text = После первой же попытки я почувствовал, что хорошо потренировался.
+# sent_id = 3
+1	После	после	ADP	_	_	4	case	_	start_char=182|end_char=187
+2	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=188|end_char=194
+3	же	же	PART	_	_	2	advmod	_	start_char=195|end_char=197
+4	попытки	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=198|end_char=205
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=206|end_char=207
+6	почувствовал	почувствовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=208|end_char=220
+7	,	,	PUNCT	_	_	10	punct	_	start_char=220|end_char=221
+8	что	что	SCONJ	_	_	10	mark	_	start_char=222|end_char=225
+9	хорошо	хорошо	ADV	_	Degree=Pos	10	advmod	_	start_char=226|end_char=232
+10	потренировался	потренировать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	ccomp	_	start_char=233|end_char=247
+11	.	.	PUNCT	_	_	6	punct	_	start_char=247|end_char=248
+
+# text = Дверной якорь работает отлично.
+# sent_id = 4
+1	Дверной	дверной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=249|end_char=256
+2	якорь	якорь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=257|end_char=262
+3	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=263|end_char=271
+4	отлично	отлично	ADV	_	Degree=Pos	3	advmod	_	start_char=272|end_char=279
+5	.	.	PUNCT	_	_	3	punct	_	start_char=279|end_char=280
+
+# text = Мне 71 год, и держать по дому большое оборудование просто невозможно.
+# sent_id = 5
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=281|end_char=284
+2	71	71	NUM	_	NumType=Card	3	nummod	_	start_char=285|end_char=287
+3	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=288|end_char=291
+4	,	,	PUNCT	_	_	12	punct	_	start_char=291|end_char=292
+5	и	и	CCONJ	_	_	12	cc	_	start_char=293|end_char=294
+6	держать	держать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	csubj	_	start_char=295|end_char=302
+7	по	по	ADP	_	_	8	case	_	start_char=303|end_char=305
+8	дому	дом	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	obl	_	start_char=306|end_char=310
+9	большое	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=311|end_char=318
+10	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=319|end_char=331
+11	просто	просто	PART	_	_	12	advmod	_	start_char=332|end_char=338
+12	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	conj	_	start_char=339|end_char=349
+13	.	.	PUNCT	_	_	3	punct	_	start_char=349|end_char=350
+
+# text = Этот тренажер я просто держу в ночном столике и в любое свободное время делаю небольшую тренировку.
+# sent_id = 6
+1	Этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=351|end_char=355
+2	тренажер	тренажер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=356|end_char=364
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=365|end_char=366
+4	просто	просто	PART	_	_	5	advmod	_	start_char=367|end_char=373
+5	держу	держать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=374|end_char=379
+6	в	в	ADP	_	_	8	case	_	start_char=380|end_char=381
+7	ночном	ночной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=382|end_char=388
+8	столике	столик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=389|end_char=396
+9	и	и	CCONJ	_	_	14	cc	_	start_char=397|end_char=398
+10	в	в	ADP	_	_	13	case	_	start_char=399|end_char=400
+11	любое	любой	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	13	det	_	start_char=401|end_char=406
+12	свободное	свободный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=407|end_char=416
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	start_char=417|end_char=422
+14	делаю	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=423|end_char=428
+15	небольшую	небольшой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=429|end_char=438
+16	тренировку	тренировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=439|end_char=449
+17	.	.	PUNCT	_	_	5	punct	_	start_char=449|end_char=450
+
+# text = Приятно удивлен и доволен.
+# sent_id = 7
+1	Приятно	приятный	ADV	_	Degree=Pos	2	obl	_	start_char=451|end_char=458
+2	удивлен	удивленный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=459|end_char=466
+3	и	и	CCONJ	_	_	4	cc	_	start_char=467|end_char=468
+4	доволен	довольный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=469|end_char=476
+5	.	.	PUNCT	_	_	1	punct	_	start_char=476|end_char=477
+
+# text = Очень рекомендую.
+# sent_id = 8
+1	Очень	очень	ADV	_	Degree=Pos	2	advmod	_	start_char=478|end_char=483
+2	рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=484|end_char=494
+3	.	.	PUNCT	_	_	2	punct	_	start_char=494|end_char=495
+

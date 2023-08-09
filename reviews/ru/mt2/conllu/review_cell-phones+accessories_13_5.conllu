@@ -1,0 +1,72 @@
+# text = Очень нравится чехол !!!
+# sent_id = 0
+1	Очень	очень	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=5
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=6|end_char=14
+3	чехол	чехол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=15|end_char=20
+4	!	!	PUNCT	_	_	3	punct	_	start_char=21|end_char=22
+5	!	!	PUNCT	_	_	3	punct	_	start_char=22|end_char=23
+6	!	!	PUNCT	_	_	2	punct	_	start_char=23|end_char=24
+
+# text = Работает именно так, как заявлено.
+# sent_id = 1
+1	Работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=25|end_char=33
+2	именно	именно	PART	_	_	3	advmod	_	start_char=34|end_char=40
+3	так	так	ADV	_	Degree=Pos	1	advmod	_	start_char=41|end_char=44
+4	,	,	PUNCT	_	_	6	punct	_	start_char=44|end_char=45
+5	как	как	SCONJ	_	_	6	mark	_	start_char=46|end_char=49
+6	заявлено	заявить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	advcl	_	start_char=50|end_char=58
+7	.	.	PUNCT	_	_	1	punct	_	start_char=58|end_char=59
+
+# text = Он очень прочный и обеспечивает большую мощность.
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=60|end_char=62
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=63|end_char=68
+3	прочный	прочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=69|end_char=76
+4	и	и	CCONJ	_	_	5	cc	_	start_char=77|end_char=78
+5	обеспечивает	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=79|end_char=91
+6	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=92|end_char=99
+7	мощность	мощность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=100|end_char=108
+8	.	.	PUNCT	_	_	3	punct	_	start_char=108|end_char=109
+
+# text = Он делает именно то, что должен делать.
+# sent_id = 3
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=110|end_char=112
+2	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=113|end_char=119
+3	именно	именно	PART	_	_	4	advmod	_	start_char=120|end_char=126
+4	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=127|end_char=129
+5	,	,	PUNCT	_	_	7	punct	_	start_char=129|end_char=130
+6	что	что	PRON	_	Case=Acc|PronType=Int,Rel	8	obj	_	start_char=131|end_char=134
+7	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	acl	_	start_char=135|end_char=141
+8	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=142|end_char=148
+9	.	.	PUNCT	_	_	2	punct	_	start_char=148|end_char=149
+
+# text = Легко вставлять и вынимать телефон.
+# sent_id = 4
+1	Легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=150|end_char=155
+2	вставлять	вставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=156|end_char=165
+3	и	и	CCONJ	_	_	4	cc	_	start_char=166|end_char=167
+4	вынимать	вынимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	start_char=168|end_char=176
+5	телефон	телефон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=177|end_char=184
+6	.	.	PUNCT	_	_	1	punct	_	start_char=184|end_char=185
+
+# text = Определенно 5 звезд.
+# sent_id = 5
+1	Определенно	определенно	ADV	_	Degree=Pos	3	advmod	_	start_char=186|end_char=197
+2	5	5	NUM	_	NumType=Card	3	nummod	_	start_char=198|end_char=199
+3	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	start_char=200|end_char=205
+4	.	.	PUNCT	_	_	3	punct	_	start_char=205|end_char=206
+
+# text = Не знаю, что бы я делал без этого чехла.
+# sent_id = 6
+1	Не	не	PART	_	_	2	advmod	_	start_char=207|end_char=209
+2	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=210|end_char=214
+3	,	,	PUNCT	_	_	7	punct	_	start_char=214|end_char=215
+4	что	что	PRON	_	Case=Acc|PronType=Int,Rel	7	obj	_	start_char=216|end_char=219
+5	бы	бы	AUX	_	_	7	aux	_	start_char=220|end_char=222
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=223|end_char=224
+7	делал	делать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=225|end_char=230
+8	без	без	ADP	_	_	10	case	_	start_char=231|end_char=234
+9	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=235|end_char=240
+10	чехла	чехол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=241|end_char=246
+11	.	.	PUNCT	_	_	2	punct	_	start_char=246|end_char=247
+

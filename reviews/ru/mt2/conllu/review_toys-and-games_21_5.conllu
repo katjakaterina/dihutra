@@ -1,0 +1,100 @@
+# text = Требуется деликатное прикосновение!
+# sent_id = 0
+1	Требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=0|end_char=9
+2	деликатное	деликатный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=10|end_char=20
+3	прикосновение	прикосновение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	start_char=21|end_char=34
+4	!	!	PUNCT	_	_	1	punct	_	start_char=34|end_char=35
+
+# text = Приготовьтесь к тому, что вы будете потрясены красотой образов, созданных с помощью выбранного вами цвета.
+# sent_id = 1
+1	Приготовьтесь	приготовиться	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	start_char=36|end_char=49
+2	к	к	ADP	_	_	3	case	_	start_char=50|end_char=51
+3	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	1	obl	_	start_char=52|end_char=56
+4	,	,	PUNCT	_	_	8	punct	_	start_char=56|end_char=57
+5	что	что	SCONJ	_	_	8	mark	_	start_char=58|end_char=61
+6	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj:pass	_	start_char=62|end_char=64
+7	будете	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=65|end_char=71
+8	потрясены	потрясти	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	acl	_	start_char=72|end_char=81
+9	красотой	красота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	start_char=82|end_char=90
+10	образов	образ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=91|end_char=98
+11	,	,	PUNCT	_	_	12	punct	_	start_char=98|end_char=99
+12	созданных	создать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	start_char=100|end_char=109
+13	с	с	ADP	_	_	17	case	_	start_char=110|end_char=111
+14	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	fixed	_	start_char=112|end_char=119
+15	выбранного	выбрать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	start_char=120|end_char=130
+16	вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2|PronType=Prs	15	obl	_	start_char=131|end_char=135
+17	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	start_char=136|end_char=141
+18	.	.	PUNCT	_	_	1	punct	_	start_char=141|end_char=142
+
+# text = Места для раскрашивания иногда очень малы и требуют аккуратности и твердой руки.
+# sent_id = 2
+1	Места	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=143|end_char=148
+2	для	для	ADP	_	_	3	case	_	start_char=149|end_char=152
+3	раскрашивания	раскрашивание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	start_char=153|end_char=166
+4	иногда	иногда	ADV	_	Degree=Pos	6	obl	_	start_char=167|end_char=173
+5	очень	очень	ADV	_	Degree=Pos	6	obl	_	start_char=174|end_char=179
+6	малы	маленький	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=180|end_char=184
+7	и	и	CCONJ	_	_	8	cc	_	start_char=185|end_char=186
+8	требуют	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=187|end_char=194
+9	аккуратности	аккуратность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	start_char=195|end_char=207
+10	и	и	CCONJ	_	_	12	cc	_	start_char=208|end_char=209
+11	твердой	твердый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=210|end_char=217
+12	руки	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	start_char=218|end_char=222
+13	.	.	PUNCT	_	_	6	punct	_	start_char=222|end_char=223
+
+# text = Однако отдача от них огромна.
+# sent_id = 3
+1	Однако	однако	ADV	_	Degree=Pos	5	obl	_	start_char=224|end_char=230
+2	отдача	отдача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=231|end_char=237
+3	от	от	ADP	_	_	4	case	_	start_char=238|end_char=240
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod	_	start_char=241|end_char=244
+5	огромна	огромный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=245|end_char=252
+6	.	.	PUNCT	_	_	5	punct	_	start_char=252|end_char=253
+
+# text = Эти изображения прекрасно выполнены, и работа над ними вдохновит вас.
+# sent_id = 4
+1	Эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=254|end_char=257
+2	изображения	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	start_char=258|end_char=269
+3	прекрасно	прекрасно	ADV	_	Degree=Pos	4	advmod	_	start_char=270|end_char=279
+4	выполнены	выполнить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=280|end_char=289
+5	,	,	PUNCT	_	_	10	punct	_	start_char=289|end_char=290
+6	и	и	CCONJ	_	_	10	cc	_	start_char=291|end_char=292
+7	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=293|end_char=299
+8	над	над	ADP	_	_	9	case	_	start_char=300|end_char=303
+9	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	7	nmod	_	start_char=304|end_char=308
+10	вдохновит	вдохновить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	start_char=309|end_char=318
+11	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	10	obj	_	start_char=319|end_char=322
+12	.	.	PUNCT	_	_	4	punct	_	start_char=322|end_char=323
+
+# text = Возможно, вам понадобится сделать фотокопии страниц, если вы хотите показать или использовать каждую из них, поскольку они напечатаны встык.
+# sent_id = 5
+1	Возможно	возможно	ADV	_	Degree=Pos	4	parataxis	_	start_char=324|end_char=332
+2	,	,	PUNCT	_	_	1	punct	_	start_char=332|end_char=333
+3	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	iobj	_	start_char=334|end_char=337
+4	понадобится	понадобиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=338|end_char=349
+5	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=350|end_char=357
+6	фотокопии	фотокопия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=358|end_char=367
+7	страниц	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=368|end_char=375
+8	,	,	PUNCT	_	_	11	punct	_	start_char=375|end_char=376
+9	если	если	SCONJ	_	_	11	mark	_	start_char=377|end_char=381
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	start_char=382|end_char=384
+11	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=385|end_char=391
+12	показать	показать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=392|end_char=400
+13	или	или	CCONJ	_	_	14	cc	_	start_char=401|end_char=404
+14	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	start_char=405|end_char=417
+15	каждую	каждый	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	14	det	_	start_char=418|end_char=424
+16	из	из	ADP	_	_	17	case	_	start_char=425|end_char=427
+17	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	15	nmod	_	start_char=428|end_char=431
+18	,	,	PUNCT	_	_	21	punct	_	start_char=431|end_char=432
+19	поскольку	поскольку	SCONJ	_	_	21	mark	_	start_char=433|end_char=442
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj:pass	_	start_char=443|end_char=446
+21	напечатаны	печатать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	advcl	_	start_char=447|end_char=457
+22	встык	встык	ADV	_	Degree=Pos	21	advmod	_	start_char=458|end_char=463
+23	.	.	PUNCT	_	_	4	punct	_	start_char=463|end_char=464
+
+# text = Просто прекрасно!
+# sent_id = 6
+1	Просто	просто	PART	_	_	2	advmod	_	start_char=465|end_char=471
+2	прекрасно	прекрасный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=472|end_char=481
+3	!	!	PUNCT	_	_	2	punct	_	start_char=481|end_char=482
+

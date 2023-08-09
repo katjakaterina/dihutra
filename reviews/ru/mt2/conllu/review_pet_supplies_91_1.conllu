@@ -1,0 +1,71 @@
+# text = Разочарование Книга "Теория 5" не является окончательным изданием.
+# sent_id = 0
+1	Разочарование	разочарование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=0|end_char=13
+2	Книга	Книга	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=14|end_char=19
+3	"	"	PUNCT	_	_	4	punct	_	start_char=20|end_char=21
+4	Теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=21|end_char=27
+5	5	5	NUM	_	NumType=Card	4	nummod:entity	_	start_char=28|end_char=29
+6	"	"	PUNCT	_	_	4	punct	_	start_char=29|end_char=30
+7	не	не	PART	_	_	8	advmod	_	start_char=31|end_char=33
+8	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=34|end_char=42
+9	окончательным	окончательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=43|end_char=56
+10	изданием	издание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	start_char=57|end_char=65
+11	.	.	PUNCT	_	_	8	punct	_	start_char=65|end_char=66
+
+# text = Она дает несколько простых рекомендаций и теорий, но не углубляется в правильную технику.
+# sent_id = 1
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=67|end_char=70
+2	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=71|end_char=75
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	5	nummod	_	start_char=76|end_char=85
+4	простых	простой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=86|end_char=93
+5	рекомендаций	рекомендация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	start_char=94|end_char=106
+6	и	и	CCONJ	_	_	7	cc	_	start_char=107|end_char=108
+7	теорий	теория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	conj	_	start_char=109|end_char=115
+8	,	,	PUNCT	_	_	11	punct	_	start_char=115|end_char=116
+9	но	но	CCONJ	_	_	11	cc	_	start_char=117|end_char=119
+10	не	не	PART	_	_	11	advmod	_	start_char=120|end_char=122
+11	углубляется	углублять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=123|end_char=134
+12	в	в	ADP	_	_	14	case	_	start_char=135|end_char=136
+13	правильную	правильный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=137|end_char=147
+14	технику	техника	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=148|end_char=155
+15	.	.	PUNCT	_	_	2	punct	_	start_char=155|end_char=156
+
+# text = Фотографии отвратительны и едва ли заслуживают внимания.
+# sent_id = 2
+1	Фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=157|end_char=167
+2	отвратительны	отвратительный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=168|end_char=181
+3	и	и	CCONJ	_	_	6	cc	_	start_char=182|end_char=183
+4	едва	едва	ADV	_	Degree=Pos	6	advmod	_	start_char=184|end_char=188
+5	ли	ли	PART	_	_	4	fixed	_	start_char=189|end_char=191
+6	заслуживают	заслуживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=192|end_char=203
+7	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	start_char=204|end_char=212
+8	.	.	PUNCT	_	_	2	punct	_	start_char=212|end_char=213
+
+# text = Я не могу рекомендовать этот том никому, кроме самых простых владельцев домашних животных.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=214|end_char=215
+2	не	не	PART	_	_	3	advmod	_	start_char=216|end_char=218
+3	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=219|end_char=223
+4	рекомендовать	рекомендовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=224|end_char=237
+5	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=238|end_char=242
+6	том	том	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=243|end_char=246
+7	никому	никто	PRON	_	Case=Dat|PronType=Neg	4	iobj	_	start_char=247|end_char=253
+8	,	,	PUNCT	_	_	12	punct	_	start_char=253|end_char=254
+9	кроме	кроме	ADP	_	_	12	case	_	start_char=255|end_char=260
+10	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=261|end_char=266
+11	простых	простой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=267|end_char=274
+12	владельцев	владелец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=275|end_char=285
+13	домашних	домашний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=286|end_char=294
+14	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	start_char=295|end_char=303
+15	.	.	PUNCT	_	_	3	punct	_	start_char=303|end_char=304
+
+# text = Значительно завышенная цена за предлагаемое содержание.
+# sent_id = 4
+1	Значительно	значительно	ADV	_	Degree=Pos	2	advmod	_	start_char=305|end_char=316
+2	завышенная	завысить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=317|end_char=327
+3	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=328|end_char=332
+4	за	за	ADP	_	_	6	case	_	start_char=333|end_char=335
+5	предлагаемое	предлагать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	amod	_	start_char=336|end_char=348
+6	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	start_char=349|end_char=359
+7	.	.	PUNCT	_	_	3	punct	_	start_char=359|end_char=360
+

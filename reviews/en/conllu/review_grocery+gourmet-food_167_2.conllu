@@ -1,24 +1,32 @@
+# text = Painful cramps with this......
+# sent_id = 0
+# sentiment = 1
 1	Painful	Painful	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=7
 2	cramps	cramp	NOUN	NNS	Number=Plur	0	root	_	start_char=8|end_char=14
 3	with	with	ADP	IN	_	4	case	_	start_char=15|end_char=19
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	2	nmod	_	start_char=20|end_char=24
 5	......	......	PUNCT	.	_	2	punct	_	start_char=24|end_char=30
 
+# text = Mother and I started drinking this back in the 1980's.
+# sent_id = 1
+# sentiment = 1
 1	Mother	mother	NOUN	NN	Number=Sing	4	nsubj	_	start_char=31|end_char=37
 2	and	and	CCONJ	CC	_	3	cc	_	start_char=38|end_char=41
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	start_char=42|end_char=43
-4	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=44|end_char=51
+4	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=44|end_char=51
 5	drinking	drink	VERB	VBG	VerbForm=Ger	4	xcomp	_	start_char=52|end_char=60
 6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	obj	_	start_char=61|end_char=65
 7	back	back	ADV	RB	_	5	advmod	_	start_char=66|end_char=70
 8	in	in	ADP	IN	_	10	case	_	start_char=71|end_char=73
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=74|end_char=77
-10	1980	1980	NUM	CD	NumType=Card	5	obl	_	start_char=78|end_char=82
-11	's	's	PART	POS	_	10	case	_	start_char=82|end_char=84
-12	.	.	PUNCT	.	_	4	punct	_	start_char=84|end_char=85
+10	1980's	1980'	NOUN	NNS	Number=Plur	5	obl	_	start_char=78|end_char=84
+11	.	.	PUNCT	.	_	4	punct	_	start_char=84|end_char=85
 
+# text = I stopped because it was causing me too much pain, slightly worse than menstrual cramps.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=86|end_char=87
-2	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=88|end_char=95
+2	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=88|end_char=95
 3	because	because	SCONJ	IN	_	6	mark	_	start_char=96|end_char=103
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=104|end_char=106
 5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=107|end_char=110
@@ -31,25 +39,31 @@
 12	slightly	slightly	ADV	RB	_	13	advmod	_	start_char=137|end_char=145
 13	worse	bad	ADJ	JJR	Degree=Cmp	10	amod	_	start_char=146|end_char=151
 14	than	than	ADP	IN	_	16	case	_	start_char=152|end_char=156
-15	menstrual	menstrual	NOUN	NN	Number=Sing	16	compound	_	start_char=157|end_char=166
+15	menstrual	menstrual	ADJ	JJ	Degree=Pos	16	amod	_	start_char=157|end_char=166
 16	cramps	cramp	NOUN	NNS	Number=Plur	13	obl	_	start_char=167|end_char=173
 17	.	.	PUNCT	.	_	2	punct	_	start_char=173|end_char=174
 
+# text = The herbs in this tea are strong.
+# sent_id = 3
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=175|end_char=178
 2	herbs	herb	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=179|end_char=184
 3	in	in	ADP	IN	_	5	case	_	start_char=185|end_char=187
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=188|end_char=192
 5	tea	tea	NOUN	NN	Number=Sing	2	nmod	_	start_char=193|end_char=196
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=197|end_char=200
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=197|end_char=200
 7	strong	strong	ADJ	JJ	Degree=Pos	0	root	_	start_char=201|end_char=207
 8	.	.	PUNCT	.	_	7	punct	_	start_char=207|end_char=208
 
+# text = I think I read somewhere where the Senna in this stimulates the bowels to contract.
+# sent_id = 4
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=209|end_char=210
-2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=211|end_char=216
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=211|end_char=216
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=217|end_char=218
-4	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=219|end_char=223
+4	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	ccomp	_	start_char=219|end_char=223
 5	somewhere	somewhere	ADV	RB	_	4	advmod	_	start_char=224|end_char=233
-6	where	where	SCONJ	WRB	PronType=Int	11	mark	_	start_char=234|end_char=239
+6	where	where	ADV	WRB	PronType=Int	11	advmod	_	start_char=234|end_char=239
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=240|end_char=243
 8	Senna	Senna	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=244|end_char=249
 9	in	in	ADP	IN	_	10	case	_	start_char=250|end_char=252
@@ -57,10 +71,13 @@
 11	stimulates	stimulate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=258|end_char=268
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=269|end_char=272
 13	bowels	bowel	NOUN	NNS	Number=Plur	11	obj	_	start_char=273|end_char=279
-14	to	to	ADP	IN	_	15	case	_	start_char=280|end_char=282
-15	contract	contract	VERB	VB	VerbForm=Inf	11	obl	_	start_char=283|end_char=291
+14	to	to	PART	TO	_	15	mark	_	start_char=280|end_char=282
+15	contract	contract	VERB	VB	VerbForm=Inf	11	advcl	_	start_char=283|end_char=291
 16	.	.	PUNCT	.	_	2	punct	_	start_char=291|end_char=292
 
+# text = This isn't really a weight loss product but more a laxative.
+# sent_id = 5
+# sentiment = 0
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	start_char=293|end_char=297
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=298|end_char=300
 3	n't	not	PART	RB	_	8	advmod	_	start_char=300|end_char=303
@@ -70,8 +87,8 @@
 7	loss	loss	NOUN	NN	Number=Sing	8	compound	_	start_char=320|end_char=324
 8	product	product	NOUN	NN	Number=Sing	0	root	_	start_char=325|end_char=332
 9	but	but	CCONJ	CC	_	12	cc	_	start_char=333|end_char=336
-10	more	more	ADV	RBR	_	12	advmod	_	start_char=337|end_char=341
+10	more	more	ADV	RBR	Degree=Cmp	12	advmod	_	start_char=337|end_char=341
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=342|end_char=343
-12	laxative	laxative	NOUN	NN	Number=Sing	8	conj	_	start_char=344|end_char=352
+12	laxative	laxative	ADJ	JJ	Degree=Pos	8	conj	_	start_char=344|end_char=352
 13	.	.	PUNCT	.	_	8	punct	_	start_char=352|end_char=353
 

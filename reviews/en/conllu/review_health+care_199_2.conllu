@@ -1,6 +1,9 @@
+# text = Older batteries came out in a plastic case.
+# sent_id = 0
+# sentiment = 0
 1	Older	old	ADJ	JJR	Degree=Cmp	2	amod	_	start_char=0|end_char=5
 2	batteries	battery	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=6|end_char=15
-3	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=16|end_char=20
+3	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=16|end_char=20
 4	out	out	ADP	RP	_	3	compound:prt	_	start_char=21|end_char=24
 5	in	in	ADP	IN	_	8	case	_	start_char=25|end_char=27
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=28|end_char=29
@@ -8,45 +11,54 @@
 8	case	case	NOUN	NN	Number=Sing	3	obl	_	start_char=38|end_char=42
 9	.	.	PUNCT	.	_	3	punct	_	start_char=42|end_char=43
 
+# text = Item did not arrive on a cardboard card, it arrived in an easy to open plastic case and with the expiration date only 3 years out.
+# sent_id = 1
+# sentiment = 0
 1	Item	item	NOUN	NN	Number=Sing	4	nsubj	_	start_char=44|end_char=48
-2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	start_char=49|end_char=52
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=49|end_char=52
 3	not	not	PART	RB	_	4	advmod	_	start_char=53|end_char=56
 4	arrive	arrive	VERB	VB	VerbForm=Inf	0	root	_	start_char=57|end_char=63
 5	on	on	ADP	IN	_	8	case	_	start_char=64|end_char=66
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=67|end_char=68
-7	cardboard	cardboard	NOUN	NN	Number=Sing	8	compound	_	start_char=69|end_char=78
+7	cardboard	cardboard	ADJ	JJ	Degree=Pos	8	amod	_	start_char=69|end_char=78
 8	card	card	NOUN	NN	Number=Sing	4	obl	_	start_char=79|end_char=83
 9	,	,	PUNCT	,	_	11	punct	_	start_char=83|end_char=84
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=85|end_char=87
-11	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	start_char=88|end_char=95
-12	in	in	ADP	IN	_	14	case	_	start_char=96|end_char=98
-13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=99|end_char=101
-14	easy	easy	ADJ	JJ	Degree=Pos	11	obl	_	start_char=102|end_char=106
-15	to	to	PART	TO	_	16	mark	_	start_char=107|end_char=109
-16	open	open	VERB	VB	VerbForm=Inf	11	advcl	_	start_char=110|end_char=114
+11	arrived	arrive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	start_char=88|end_char=95
+12	in	in	ADP	IN	_	18	case	_	start_char=96|end_char=98
+13	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=99|end_char=101
+14	easy	easy	ADJ	JJ	Degree=Pos	18	amod	_	start_char=102|end_char=106
+15	to	to	ADP	IN	_	16	case	_	start_char=107|end_char=109
+16	open	open	ADJ	JJ	Degree=Pos	14	obl	_	start_char=110|end_char=114
 17	plastic	plastic	ADJ	JJ	Degree=Pos	18	amod	_	start_char=115|end_char=122
-18	case	case	NOUN	NN	Number=Sing	16	obj	_	start_char=123|end_char=127
-19	and	and	CCONJ	CC	_	23	cc	_	start_char=128|end_char=131
+18	case	case	NOUN	NN	Number=Sing	11	obl	_	start_char=123|end_char=127
+19	and	and	CCONJ	CC	_	27	cc	_	start_char=128|end_char=131
 20	with	with	ADP	IN	_	23	case	_	start_char=132|end_char=136
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=137|end_char=140
 22	expiration	expiration	NOUN	NN	Number=Sing	23	compound	_	start_char=141|end_char=151
-23	date	date	NOUN	NN	Number=Sing	16	conj	_	start_char=152|end_char=156
+23	date	date	NOUN	NN	Number=Sing	18	conj	_	start_char=152|end_char=156
 24	only	only	ADV	RB	_	25	advmod	_	start_char=157|end_char=161
-25	3	3	NUM	CD	NumType=Card	26	nummod	_	start_char=162|end_char=163
+25	3	3	NUM	CD	NumForm=Digit|NumType=Card	26	nummod	_	start_char=162|end_char=163
 26	years	year	NOUN	NNS	Number=Plur	27	obl:npmod	_	start_char=164|end_char=169
-27	out	out	ADP	RP	_	23	advmod	_	start_char=170|end_char=173
+27	out	out	ADV	RB	_	11	conj	_	start_char=170|end_char=173
 28	.	.	PUNCT	.	_	4	punct	_	start_char=173|end_char=174
 
+# text = Fresh batteries have a 5 year expiration date.
+# sent_id = 2
+# sentiment = 1
 1	Fresh	Fresh	ADJ	JJ	Degree=Pos	2	amod	_	start_char=175|end_char=180
 2	batteries	battery	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=181|end_char=190
-3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=191|end_char=195
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=191|end_char=195
 4	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=196|end_char=197
-5	5	5	NUM	CD	NumType=Card	6	nummod	_	start_char=198|end_char=199
+5	5	5	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=198|end_char=199
 6	year	year	NOUN	NN	Number=Sing	8	compound	_	start_char=200|end_char=204
 7	expiration	expiration	NOUN	NN	Number=Sing	8	compound	_	start_char=205|end_char=215
 8	date	date	NOUN	NN	Number=Sing	3	obj	_	start_char=216|end_char=220
 9	.	.	PUNCT	.	_	3	punct	_	start_char=220|end_char=221
 
+# text = The description and the picture of this item needs to be changed if they are going to sell Amazon customers a different and older item.
+# sent_id = 3
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=222|end_char=225
 2	description	description	NOUN	NN	Number=Sing	9	nsubj	_	start_char=226|end_char=237
 3	and	and	CCONJ	CC	_	5	cc	_	start_char=238|end_char=241
@@ -61,12 +73,12 @@
 12	changed	change	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	start_char=279|end_char=286
 13	if	if	SCONJ	IN	_	16	mark	_	start_char=287|end_char=289
 14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=290|end_char=294
-15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=295|end_char=298
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=295|end_char=298
 16	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	start_char=299|end_char=304
 17	to	to	PART	TO	_	18	mark	_	start_char=305|end_char=307
 18	sell	sell	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=308|end_char=312
 19	Amazon	Amazon	PROPN	NNP	Number=Sing	20	compound	_	start_char=313|end_char=319
-20	customers	customer	NOUN	NNS	Number=Plur	18	obj	_	start_char=320|end_char=329
+20	customers	customer	NOUN	NNS	Number=Plur	18	iobj	_	start_char=320|end_char=329
 21	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=330|end_char=331
 22	different	different	ADJ	JJ	Degree=Pos	25	amod	_	start_char=332|end_char=341
 23	and	and	CCONJ	CC	_	24	cc	_	start_char=342|end_char=345
@@ -74,16 +86,19 @@
 25	item	item	NOUN	NN	Number=Sing	18	obj	_	start_char=352|end_char=356
 26	.	.	PUNCT	.	_	9	punct	_	start_char=356|end_char=357
 
+# text = They were nice and sent me a return label free of charge.
+# sent_id = 4
+# sentiment = 2
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=358|end_char=362
-2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	start_char=363|end_char=367
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=363|end_char=367
 3	nice	nice	ADJ	JJ	Degree=Pos	0	root	_	start_char=368|end_char=372
 4	and	and	CCONJ	CC	_	5	cc	_	start_char=373|end_char=376
-5	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	start_char=377|end_char=381
+5	sent	send	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=377|end_char=381
 6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	start_char=382|end_char=384
 7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=385|end_char=386
 8	return	return	NOUN	NN	Number=Sing	9	compound	_	start_char=387|end_char=393
 9	label	label	NOUN	NN	Number=Sing	5	obj	_	start_char=394|end_char=399
-10	free	free	ADJ	JJ	Degree=Pos	9	amod	_	start_char=400|end_char=404
+10	free	free	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=400|end_char=404
 11	of	of	ADP	IN	_	12	case	_	start_char=405|end_char=407
 12	charge	charge	NOUN	NN	Number=Sing	10	obl	_	start_char=408|end_char=414
 13	.	.	PUNCT	.	_	3	punct	_	start_char=414|end_char=415

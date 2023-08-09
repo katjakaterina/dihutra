@@ -1,0 +1,82 @@
+# text = ANNO 2070 Я так и не смог поиграть в эту игру.
+# sent_id = 0
+1	ANNO	ANNO	PROPN	_	Foreign=Yes	7	nsubj	_	start_char=0|end_char=4
+2	2070	2070	NUM	_	NumType=Card	1	nummod:entity	_	start_char=5|end_char=9
+3	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=10|end_char=11
+4	так	так	ADV	_	Degree=Pos	7	advmod	_	start_char=12|end_char=15
+5	и	и	PART	_	_	4	fixed	_	start_char=16|end_char=17
+6	не	не	PART	_	_	7	advmod	_	start_char=18|end_char=20
+7	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=25
+8	поиграть	поиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=26|end_char=34
+9	в	в	ADP	_	_	11	case	_	start_char=35|end_char=36
+10	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	start_char=37|end_char=40
+11	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=41|end_char=45
+12	.	.	PUNCT	_	_	7	punct	_	start_char=45|end_char=46
+
+# text = Unisoft сделала ее неиграбельной, если вы не являетесь техногиком.
+# sent_id = 1
+1	Unisoft	Unisoft	PROPN	_	Foreign=Yes	2	nsubj	_	start_char=47|end_char=54
+2	сделала	делать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=55|end_char=62
+3	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=63|end_char=65
+4	неиграбельной	неиграбельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	obl	_	start_char=66|end_char=79
+5	,	,	PUNCT	_	_	9	punct	_	start_char=79|end_char=80
+6	если	если	SCONJ	_	_	9	mark	_	start_char=81|end_char=85
+7	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	start_char=86|end_char=88
+8	не	не	PART	_	_	9	advmod	_	start_char=89|end_char=91
+9	являетесь	являться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	start_char=92|end_char=101
+10	техногиком	техногик	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=102|end_char=112
+11	.	.	PUNCT	_	_	2	punct	_	start_char=112|end_char=113
+
+# text = (Я несколько раз пытался запустить ее).
+# sent_id = 2
+1	(	(	PUNCT	_	_	5	punct	_	start_char=114|end_char=115
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=115|end_char=116
+3	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	4	nummod	_	start_char=117|end_char=126
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=127|end_char=130
+5	пытался	пытаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=131|end_char=138
+6	запустить	запустить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=139|end_char=148
+7	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=149|end_char=151
+8	)	)	PUNCT	_	_	5	punct	_	start_char=151|end_char=152
+9	.	.	PUNCT	_	_	5	punct	_	start_char=152|end_char=153
+
+# text = Я хочу играть у себя дома, а не в Интернете, а на компьютере она почему-то не загружается.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=154|end_char=155
+2	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=156|end_char=160
+3	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=161|end_char=167
+4	у	у	ADP	_	_	5	case	_	start_char=168|end_char=169
+5	себя	себя	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	3	obl	_	start_char=170|end_char=174
+6	дома	дома	ADV	_	Degree=Pos	3	advmod	_	start_char=175|end_char=179
+7	,	,	PUNCT	_	_	11	punct	_	start_char=179|end_char=180
+8	а	а	CCONJ	_	_	11	cc	_	start_char=181|end_char=182
+9	не	не	PART	_	_	11	advmod	_	start_char=183|end_char=185
+10	в	в	ADP	_	_	11	case	_	start_char=186|end_char=187
+11	Интернете	Интернет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	conj	_	start_char=188|end_char=197
+12	,	,	PUNCT	_	_	19	punct	_	start_char=197|end_char=198
+13	а	а	CCONJ	_	_	19	cc	_	start_char=199|end_char=200
+14	на	на	ADP	_	_	15	case	_	start_char=201|end_char=203
+15	компьютере	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	start_char=204|end_char=214
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=215|end_char=218
+17	почему-то	почему-то	ADV	_	Degree=Pos	19	advmod	_	start_char=219|end_char=228
+18	не	не	PART	_	_	19	advmod	_	start_char=229|end_char=231
+19	загружается	загружаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=232|end_char=243
+20	.	.	PUNCT	_	_	2	punct	_	start_char=243|end_char=244
+
+# text = Я, вероятно, никогда не куплю другую игру или продукт UNI-SOFT.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=245|end_char=246
+2	,	,	PUNCT	_	_	1	punct	_	start_char=246|end_char=247
+3	вероятно	вероятно	ADV	_	Degree=Pos	7	parataxis	_	start_char=248|end_char=256
+4	,	,	PUNCT	_	_	3	punct	_	start_char=256|end_char=257
+5	никогда	никогда	ADV	_	Degree=Pos	7	advmod	_	start_char=258|end_char=265
+6	не	не	PART	_	_	7	advmod	_	start_char=266|end_char=268
+7	куплю	купить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=269|end_char=274
+8	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=275|end_char=281
+9	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=282|end_char=286
+10	или	или	CCONJ	_	_	11	cc	_	start_char=287|end_char=290
+11	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	start_char=291|end_char=298
+12	UNI	UNI	PROPN	_	Foreign=Yes	11	flat:foreign	_	start_char=299|end_char=302
+13	-	-	PUNCT	_	_	14	punct	_	start_char=302|end_char=303
+14	SOFT	SOFT	PROPN	_	Foreign=Yes	11	flat:foreign	_	start_char=303|end_char=307
+15	.	.	PUNCT	_	_	7	punct	_	start_char=307|end_char=308
+

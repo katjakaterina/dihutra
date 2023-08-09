@@ -1,27 +1,33 @@
-1	Book	Book	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+# text = Book in Shambles When Received DO NOT BUY FROM THIS BOOK FROM Amazon.com LLC .
+# sent_id = 0
+# sentiment = 1
+1	Book	book	VERB	VB	VerbForm=Inf	0	root	_	start_char=0|end_char=4
 2	in	in	ADP	IN	_	3	case	_	start_char=5|end_char=7
-3	Shambles	shamble	NOUN	NN	Number=Sing	1	obl	_	start_char=8|end_char=16
-4	When	when	SCONJ	WRB	PronType=Int	5	mark	_	start_char=17|end_char=21
+3	Shambles	Shambles	PROPN	NNP	Number=Sing	1	obl	_	start_char=8|end_char=16
+4	When	when	ADV	WRB	PronType=Int	5	advmod	_	start_char=17|end_char=21
 5	Received	receive	VERB	VBN	Tense=Past|VerbForm=Part	1	advcl	_	start_char=22|end_char=30
-6	DO	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=31|end_char=33
+6	DO	do	AUX	VB	Mood=Imp|VerbForm=Fin	8	aux	_	start_char=31|end_char=33
 7	NOT	not	PART	RB	_	8	advmod	_	start_char=34|end_char=37
-8	BUY	buy	VERB	VB	Mood=Imp|VerbForm=Fin	1	advcl	_	start_char=38|end_char=41
+8	BUY	buy	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	start_char=38|end_char=41
 9	FROM	from	ADP	IN	_	11	case	_	start_char=42|end_char=46
 10	THIS	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=47|end_char=51
 11	BOOK	book	NOUN	NN	Number=Sing	8	obl	_	start_char=52|end_char=56
 12	FROM	from	ADP	IN	_	14	case	_	start_char=57|end_char=61
-13	Amazon.com	amazon.com	X	ADD	_	14	compound	_	start_char=62|end_char=72
-14	LLC	LLC	PROPN	NNP	Number=Sing	8	obl	_	start_char=73|end_char=76
+13	Amazon.com	Amazon.com	PROPN	NNP	Number=Sing	14	compound	_	start_char=62|end_char=72
+14	LLC	LLC	PROPN	NNP	Number=Sing	11	nmod	_	start_char=73|end_char=76
 15	.	.	PUNCT	.	_	1	punct	_	start_char=77|end_char=78
 
+# text = I ordered this book earlier in the week with Amazon Prime for a going away gift.
+# sent_id = 1
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=79|end_char=80
-2	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=81|end_char=88
+2	ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=81|end_char=88
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=89|end_char=93
 4	book	book	NOUN	NN	Number=Sing	2	obj	_	start_char=94|end_char=98
 5	earlier	early	ADV	RBR	Degree=Cmp	2	advmod	_	start_char=99|end_char=106
 6	in	in	ADP	IN	_	8	case	_	start_char=107|end_char=109
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=110|end_char=113
-8	week	week	NOUN	NN	Number=Sing	2	obl	_	start_char=114|end_char=118
+8	week	week	NOUN	NN	Number=Sing	5	obl	_	start_char=114|end_char=118
 9	with	with	ADP	IN	_	11	case	_	start_char=119|end_char=123
 10	Amazon	Amazon	PROPN	NNP	Number=Sing	11	compound	_	start_char=124|end_char=130
 11	Prime	Prime	PROPN	NNP	Number=Sing	2	obl	_	start_char=131|end_char=136
@@ -32,20 +38,29 @@
 16	gift	gift	NOUN	NN	Number=Sing	2	obl	_	start_char=154|end_char=158
 17	.	.	PUNCT	.	_	2	punct	_	start_char=158|end_char=159
 
+# text = I received the book today.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=160|end_char=161
-2	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=162|end_char=170
+2	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=162|end_char=170
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=171|end_char=174
 4	book	book	NOUN	NN	Number=Sing	2	obj	_	start_char=175|end_char=179
 5	today	today	NOUN	NN	Number=Sing	2	obl:tmod	_	start_char=180|end_char=185
 6	.	.	PUNCT	.	_	2	punct	_	start_char=185|end_char=186
 
+# text = The party is tomorrow.
+# sent_id = 3
+# sentiment = 1
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=187|end_char=190
 2	party	party	NOUN	NN	Number=Sing	4	nsubj	_	start_char=191|end_char=196
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=197|end_char=199
 4	tomorrow	tomorrow	NOUN	NN	Number=Sing	0	root	_	start_char=200|end_char=208
 5	.	.	PUNCT	.	_	4	punct	_	start_char=208|end_char=209
 
-1	Half	half	DET	DT	_	6	nsubj	_	start_char=210|end_char=214
+# text = Half of the book sleeve seems to have been cut off with an exacto knive, also leaving gashes in the book cover.
+# sent_id = 4
+# sentiment = 0
+1	Half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	6	nsubj	_	start_char=210|end_char=214
 2	of	of	ADP	IN	_	5	case	_	start_char=215|end_char=217
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=218|end_char=221
 4	book	book	NOUN	NN	Number=Sing	5	compound	_	start_char=222|end_char=226
@@ -70,12 +85,18 @@
 23	cover	cover	NOUN	NN	Number=Sing	18	obl	_	start_char=315|end_char=320
 24	.	.	PUNCT	.	_	6	punct	_	start_char=320|end_char=321
 
+# text = The packaging was fine.
+# sent_id = 5
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=322|end_char=325
 2	packaging	packaging	NOUN	NN	Number=Sing	4	nsubj	_	start_char=326|end_char=335
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=336|end_char=339
 4	fine	fine	ADJ	JJ	Degree=Pos	0	root	_	start_char=340|end_char=344
 5	.	.	PUNCT	.	_	4	punct	_	start_char=344|end_char=345
 
+# text = I could return it but it wouldn't come back before tomorrow.
+# sent_id = 6
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=346|end_char=347
 2	could	could	AUX	MD	VerbForm=Fin	3	aux	_	start_char=348|end_char=353
 3	return	return	VERB	VB	VerbForm=Inf	0	root	_	start_char=354|end_char=360
@@ -90,6 +111,9 @@
 12	tomorrow	tomorrow	NOUN	NN	Number=Sing	9	obl:tmod	_	start_char=397|end_char=405
 13	.	.	PUNCT	.	_	3	punct	_	start_char=405|end_char=406
 
+# text = Spend extra and use another seller.
+# sent_id = 7
+# sentiment = 1
 1	Spend	spend	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=407|end_char=412
 2	extra	extra	ADJ	JJ	Degree=Pos	1	obj	_	start_char=413|end_char=418
 3	and	and	CCONJ	CC	_	4	cc	_	start_char=419|end_char=422

@@ -1,8 +1,14 @@
+# text = Dated but Valuable Reading
+# sent_id = 0
+# sentiment = 0
 1	Dated	date	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=0|end_char=5
 2	but	but	CCONJ	CC	_	4	cc	_	start_char=6|end_char=9
 3	Valuable	valuable	ADJ	JJ	Degree=Pos	4	amod	_	start_char=10|end_char=18
 4	Reading	reading	NOUN	NN	Number=Sing	1	conj	_	start_char=19|end_char=26
 
+# text = It is amazing that this book is nearly 15 years old, and further that Bill Gates was so spot on with the current technology that we see today.
+# sent_id = 1
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=27|end_char=29
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=30|end_char=32
 3	amazing	amazing	ADJ	JJ	Degree=Pos	0	root	_	start_char=33|end_char=40
@@ -11,15 +17,15 @@
 6	book	book	NOUN	NN	Number=Sing	11	nsubj	_	start_char=51|end_char=55
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=56|end_char=58
 8	nearly	nearly	ADV	RB	_	9	advmod	_	start_char=59|end_char=65
-9	15	15	NUM	CD	NumType=Card	10	nummod	_	start_char=66|end_char=68
+9	15	15	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=66|end_char=68
 10	years	year	NOUN	NNS	Number=Plur	11	obl:npmod	_	start_char=69|end_char=74
 11	old	old	ADJ	JJ	Degree=Pos	3	csubj	_	start_char=75|end_char=78
 12	,	,	PUNCT	,	_	20	punct	_	start_char=78|end_char=79
 13	and	and	CCONJ	CC	_	20	cc	_	start_char=80|end_char=83
-14	further	further	ADV	RBR	_	20	advmod	_	start_char=84|end_char=91
+14	further	further	ADV	RBR	Degree=Cmp	20	advmod	_	start_char=84|end_char=91
 15	that	that	SCONJ	IN	_	20	mark	_	start_char=92|end_char=96
 16	Bill	Bill	PROPN	NNP	Number=Sing	20	nsubj	_	start_char=97|end_char=101
-17	Gates	Gate	PROPN	NNPS	Number=Plur	16	flat	_	start_char=102|end_char=107
+17	Gates	Gates	PROPN	NNP	Number=Sing	16	flat	_	start_char=102|end_char=107
 18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	start_char=108|end_char=111
 19	so	so	ADV	RB	_	20	advmod	_	start_char=112|end_char=114
 20	spot	spot	ADJ	JJ	Degree=Pos	11	conj	_	start_char=115|end_char=119
@@ -30,10 +36,13 @@
 25	technology	technology	NOUN	NN	Number=Sing	20	obl	_	start_char=140|end_char=150
 26	that	that	PRON	WDT	PronType=Rel	28	obj	_	start_char=151|end_char=155
 27	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	start_char=156|end_char=158
-28	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=159|end_char=162
+28	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=159|end_char=162
 29	today	today	NOUN	NN	Number=Sing	28	obl:tmod	_	start_char=163|end_char=168
 30	.	.	PUNCT	.	_	3	punct	_	start_char=168|end_char=169
 
+# text = It is a good read to see both the vision of this truly amazing entrepreneur, as well as to get an idea of how to think about technology enabling daily life.
+# sent_id = 2
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=170|end_char=172
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=173|end_char=175
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=176|end_char=177
@@ -52,27 +61,30 @@
 16	,	,	PUNCT	,	_	21	punct	_	start_char=245|end_char=246
 17	as	as	ADV	RB	_	21	cc	_	start_char=247|end_char=249
 18	well	well	ADV	RB	Degree=Pos	17	fixed	_	start_char=250|end_char=254
-19	as	as	SCONJ	IN	_	17	fixed	_	start_char=255|end_char=257
+19	as	as	ADP	IN	_	17	fixed	_	start_char=255|end_char=257
 20	to	to	PART	TO	_	21	mark	_	start_char=258|end_char=260
 21	get	get	VERB	VB	VerbForm=Inf	7	conj	_	start_char=261|end_char=264
 22	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=265|end_char=267
 23	idea	idea	NOUN	NN	Number=Sing	21	obj	_	start_char=268|end_char=272
-24	of	of	SCONJ	IN	_	27	mark	_	start_char=273|end_char=275
-25	how	how	SCONJ	WRB	PronType=Int	27	mark	_	start_char=276|end_char=279
+24	of	of	SCONJ	IN	_	25	case	_	start_char=273|end_char=275
+25	how	how	ADV	WRB	PronType=Int	23	nmod	_	start_char=276|end_char=279
 26	to	to	PART	TO	_	27	mark	_	start_char=280|end_char=282
 27	think	think	VERB	VB	VerbForm=Inf	23	acl	_	start_char=283|end_char=288
 28	about	about	ADP	IN	_	29	case	_	start_char=289|end_char=294
 29	technology	technology	NOUN	NN	Number=Sing	27	obl	_	start_char=295|end_char=305
-30	enabling	enable	VERB	VBG	VerbForm=Ger	27	advcl	_	start_char=306|end_char=314
+30	enabling	enable	VERB	VBG	VerbForm=Ger	29	acl	_	start_char=306|end_char=314
 31	daily	daily	ADJ	JJ	Degree=Pos	32	amod	_	start_char=315|end_char=320
 32	life	life	NOUN	NN	Number=Sing	30	obj	_	start_char=321|end_char=325
 33	.	.	PUNCT	.	_	5	punct	_	start_char=325|end_char=326
 
+# text = Listen to what Bill gates says about the future of technology in your life - the past would indicate he knows what he's talking about.
+# sent_id = 3
+# sentiment = 1
 1	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=327|end_char=333
 2	to	to	ADP	IN	_	3	case	_	start_char=334|end_char=336
 3	what	what	PRON	WP	PronType=Int	1	obl	_	start_char=337|end_char=341
-4	Bill	Bill	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=342|end_char=346
-5	gates	gate	NOUN	NNS	Number=Plur	4	flat	_	start_char=347|end_char=352
+4	Bill	Bill	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=342|end_char=346
+5	gates	gate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=347|end_char=352
 6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=353|end_char=357
 7	about	about	ADP	IN	_	9	case	_	start_char=358|end_char=363
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=364|end_char=367
@@ -80,7 +92,7 @@
 10	of	of	ADP	IN	_	11	case	_	start_char=375|end_char=377
 11	technology	technology	NOUN	NN	Number=Sing	9	nmod	_	start_char=378|end_char=388
 12	in	in	ADP	IN	_	14	case	_	start_char=389|end_char=391
-13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=392|end_char=396
+13	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=392|end_char=396
 14	life	life	NOUN	NN	Number=Sing	9	nmod	_	start_char=397|end_char=401
 15	-	-	PUNCT	,	_	1	punct	_	start_char=402|end_char=403
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=404|end_char=407

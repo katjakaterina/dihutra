@@ -1,0 +1,106 @@
+# text = В стране слепых...
+# sent_id = 0
+1	В	в	ADP	_	_	2	case	_	start_char=0|end_char=1
+2	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=2|end_char=8
+3	слепых	слепой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	2	nsubj	_	start_char=9|end_char=15
+4	.	.	PUNCT	_	_	3	punct	_	start_char=15|end_char=16
+5	.	.	PUNCT	_	_	3	punct	_	start_char=16|end_char=17
+6	.	.	PUNCT	_	_	2	punct	_	start_char=17|end_char=18
+
+# text = Это литературное произведение обещает просветить, но не дает.
+# sent_id = 1
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=19|end_char=22
+2	литературное	литературный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=23|end_char=35
+3	произведение	произведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=36|end_char=48
+4	обещает	обещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=56
+5	просветить	просветить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=57|end_char=67
+6	,	,	PUNCT	_	_	9	punct	_	start_char=67|end_char=68
+7	но	но	CCONJ	_	_	9	cc	_	start_char=69|end_char=71
+8	не	не	PART	_	_	9	advmod	_	start_char=72|end_char=74
+9	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=75|end_char=79
+10	.	.	PUNCT	_	_	4	punct	_	start_char=79|end_char=80
+
+# text = Несмотря на то что пророк, живущий на грани жизни, действительно говорит красноречиво и его слова побуждают к глубоким размышлениям, они не дают истинного понимания.
+# sent_id = 2
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	start_char=81|end_char=89
+2	на	на	ADP	_	_	1	fixed	_	start_char=90|end_char=92
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	25	obl	_	start_char=93|end_char=95
+4	что	что	SCONJ	_	_	13	mark	_	start_char=96|end_char=99
+5	пророк	пророк	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=100|end_char=106
+6	,	,	PUNCT	_	_	7	punct	_	start_char=106|end_char=107
+7	живущий	жить	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	start_char=108|end_char=115
+8	на	на	ADP	_	_	9	case	_	start_char=116|end_char=118
+9	грани	грань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=119|end_char=124
+10	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=125|end_char=130
+11	,	,	PUNCT	_	_	7	punct	_	start_char=130|end_char=131
+12	действительно	действительно	ADV	_	Degree=Pos	13	advmod	_	start_char=132|end_char=145
+13	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	start_char=146|end_char=153
+14	красноречиво	красноречиво	ADV	_	Degree=Pos	13	advmod	_	start_char=154|end_char=166
+15	и	и	CCONJ	_	_	18	cc	_	start_char=167|end_char=168
+16	его	его	DET	_	Poss=Yes|PronType=Prs	17	det	_	start_char=169|end_char=172
+17	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	start_char=173|end_char=178
+18	побуждают	побуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	start_char=179|end_char=188
+19	к	к	ADP	_	_	21	case	_	start_char=189|end_char=190
+20	глубоким	глубокий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	amod	_	start_char=191|end_char=199
+21	размышлениям	размышление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	18	obl	_	start_char=200|end_char=212
+22	,	,	PUNCT	_	_	3	punct	_	start_char=212|end_char=213
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	start_char=214|end_char=217
+24	не	не	PART	_	_	25	advmod	_	start_char=218|end_char=220
+25	дают	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=221|end_char=225
+26	истинного	истинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	start_char=226|end_char=235
+27	понимания	понимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	start_char=236|end_char=245
+28	.	.	PUNCT	_	_	25	punct	_	start_char=245|end_char=246
+
+# text = Первые рассуждения о любви захватывают, но последующие быстро переходят в пустые риторические размышления, которые продолжаются до самого конца.
+# sent_id = 3
+1	Первые	первый	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=247|end_char=253
+2	рассуждения	рассуждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	start_char=254|end_char=265
+3	о	о	ADP	_	_	4	case	_	start_char=266|end_char=267
+4	любви	любовь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	start_char=268|end_char=273
+5	захватывают	захватывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=274|end_char=285
+6	,	,	PUNCT	_	_	10	punct	_	start_char=285|end_char=286
+7	но	но	CCONJ	_	_	10	cc	_	start_char=287|end_char=289
+8	последующие	последующий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	nsubj	_	start_char=290|end_char=301
+9	быстро	быстро	ADV	_	Degree=Pos	10	advmod	_	start_char=302|end_char=308
+10	переходят	переходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=309|end_char=318
+11	в	в	ADP	_	_	14	case	_	start_char=319|end_char=320
+12	пустые	пустой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	start_char=321|end_char=327
+13	риторические	риторический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	start_char=328|end_char=340
+14	размышления	размышление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obl	_	start_char=341|end_char=352
+15	,	,	PUNCT	_	_	17	punct	_	start_char=352|end_char=353
+16	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	17	nsubj	_	start_char=354|end_char=361
+17	продолжаются	продолжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	acl:relcl	_	start_char=362|end_char=374
+18	до	до	ADP	_	_	20	case	_	start_char=375|end_char=377
+19	самого	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=378|end_char=384
+20	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	start_char=385|end_char=390
+21	.	.	PUNCT	_	_	5	punct	_	start_char=390|end_char=391
+
+# text = Наиболее интересным аспектом этой книги является искусное использование языка, которое почти скрывает тот факт, что пророк действительно говорит, но ничего не говорит.
+# sent_id = 4
+1	Наиболее	наиболее	ADV	_	Degree=Pos	2	obl	_	start_char=392|end_char=400
+2	интересным	интересный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=401|end_char=411
+3	аспектом	аспект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=412|end_char=420
+4	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=421|end_char=425
+5	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=426|end_char=431
+6	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=432|end_char=440
+7	искусное	искусный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=441|end_char=449
+8	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=450|end_char=463
+9	языка	язык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=464|end_char=469
+10	,	,	PUNCT	_	_	13	punct	_	start_char=469|end_char=470
+11	которое	который	PRON	_	Case=Nom|PronType=Int,Rel	13	nsubj	_	start_char=471|end_char=478
+12	почти	почти	ADV	_	Degree=Pos	13	advmod	_	start_char=479|end_char=484
+13	скрывает	скрывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=485|end_char=493
+14	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	start_char=494|end_char=497
+15	факт	факт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=498|end_char=502
+16	,	,	PUNCT	_	_	20	punct	_	start_char=502|end_char=503
+17	что	что	SCONJ	_	_	20	mark	_	start_char=504|end_char=507
+18	пророк	пророк	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=508|end_char=514
+19	действительно	действительно	ADV	_	Degree=Pos	20	advmod	_	start_char=515|end_char=528
+20	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	_	start_char=529|end_char=536
+21	,	,	PUNCT	_	_	25	punct	_	start_char=536|end_char=537
+22	но	но	CCONJ	_	_	25	cc	_	start_char=538|end_char=540
+23	ничего	ничто	PRON	_	Case=Gen|PronType=Neg	25	obl	_	start_char=541|end_char=547
+24	не	не	PART	_	_	25	advmod	_	start_char=548|end_char=550
+25	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	start_char=551|end_char=558
+26	.	.	PUNCT	_	_	6	punct	_	start_char=558|end_char=559
+

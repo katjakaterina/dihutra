@@ -1,9 +1,15 @@
-1	Show	show	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+# text = Show me the money!
+# sent_id = 0
+# sentiment = 1
+1	Show	show	VERB	VB	Mood=Imp|VerbForm=Inf	0	root	_	start_char=0|end_char=4
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=5|end_char=7
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=8|end_char=11
 4	money	money	NOUN	NN	Number=Sing	1	obj	_	start_char=12|end_char=17
 5	!	!	PUNCT	.	_	1	punct	_	start_char=17|end_char=18
 
+# text = Interesting Grisham tale of a lawyer that takes millions of dollars from his firm after faking his own death.
+# sent_id = 1
+# sentiment = 2
 1	Interesting	interesting	ADJ	JJ	Degree=Pos	3	amod	_	start_char=19|end_char=30
 2	Grisham	Grisham	PROPN	NNP	Number=Sing	3	compound	_	start_char=31|end_char=38
 3	tale	tale	NOUN	NN	Number=Sing	0	root	_	start_char=39|end_char=43
@@ -16,26 +22,29 @@
 10	of	of	ADP	IN	_	11	case	_	start_char=76|end_char=78
 11	dollars	dollar	NOUN	NNS	Number=Plur	9	nmod	_	start_char=79|end_char=86
 12	from	from	ADP	IN	_	14	case	_	start_char=87|end_char=91
-13	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=92|end_char=95
+13	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=92|end_char=95
 14	firm	firm	NOUN	NN	Number=Sing	8	obl	_	start_char=96|end_char=100
 15	after	after	SCONJ	IN	_	16	mark	_	start_char=101|end_char=106
 16	faking	fake	VERB	VBG	VerbForm=Ger	8	advcl	_	start_char=107|end_char=113
-17	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=114|end_char=117
+17	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=114|end_char=117
 18	own	own	ADJ	JJ	Degree=Pos	19	amod	_	start_char=118|end_char=121
 19	death	death	NOUN	NN	Number=Sing	16	obj	_	start_char=122|end_char=127
 20	.	.	PUNCT	.	_	3	punct	_	start_char=127|end_char=128
 
+# text = Grisham usually is able to hook his readers early and ,in this case, doesn't play his hand to soon.
+# sent_id = 2
+# sentiment = 0
 1	Grisham	Grisham	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=129|end_char=136
 2	usually	usually	ADV	RB	_	4	advmod	_	start_char=137|end_char=144
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=145|end_char=147
 4	able	able	ADJ	JJ	Degree=Pos	0	root	_	start_char=148|end_char=152
 5	to	to	PART	TO	_	6	mark	_	start_char=153|end_char=155
 6	hook	hook	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=156|end_char=160
-7	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=161|end_char=164
+7	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=161|end_char=164
 8	readers	reader	NOUN	NNS	Number=Plur	6	obj	_	start_char=165|end_char=172
 9	early	early	ADV	RB	Degree=Pos	6	advmod	_	start_char=173|end_char=178
 10	and	and	CCONJ	CC	_	18	cc	_	start_char=179|end_char=182
-11	,	,	PUNCT	,	_	18	punct	_	start_char=183|end_char=184
+11	,	,	PUNCT	,	_	10	punct	_	start_char=183|end_char=184
 12	in	in	ADP	IN	_	14	case	_	start_char=184|end_char=186
 13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	start_char=187|end_char=191
 14	case	case	NOUN	NN	Number=Sing	18	obl	_	start_char=192|end_char=196
@@ -43,12 +52,15 @@
 16	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=198|end_char=202
 17	n't	not	PART	RB	_	18	advmod	_	start_char=202|end_char=205
 18	play	play	VERB	VB	VerbForm=Inf	4	conj	_	start_char=206|end_char=210
-19	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=211|end_char=214
+19	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=211|end_char=214
 20	hand	hand	NOUN	NN	Number=Sing	18	obj	_	start_char=215|end_char=219
-21	to	to	ADV	RB	_	22	advmod	_	start_char=220|end_char=222
+21	to	to	ADP	IN	_	18	obl	_	start_char=220|end_char=222
 22	soon	soon	ADV	RB	Degree=Pos	18	advmod	_	start_char=223|end_char=227
 23	.	.	PUNCT	.	_	4	punct	_	start_char=227|end_char=228
 
+# text = The usually reliable Frank Mueller makes this story even an even better bet on Audiobook.
+# sent_id = 3
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=229|end_char=232
 2	usually	usually	ADV	RB	_	3	advmod	_	start_char=233|end_char=240
 3	reliable	reliable	ADJ	JJ	Degree=Pos	4	amod	_	start_char=241|end_char=249

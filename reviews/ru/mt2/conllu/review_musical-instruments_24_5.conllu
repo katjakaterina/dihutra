@@ -1,0 +1,84 @@
+# text = Качественный кабель!
+# sent_id = 0
+1	Качественный	качественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=12
+2	кабель	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=13|end_char=19
+3	!	!	PUNCT	_	_	2	punct	_	start_char=19|end_char=20
+
+# text = Приобрел этот кабель для подключения клавиатурного контроллера rockband к моему M-audio profire 2626 для управления midi в Pro Tools.
+# sent_id = 1
+1	Приобрел	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=29
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=30|end_char=34
+3	кабель	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=35|end_char=41
+4	для	для	ADP	_	_	5	case	_	start_char=42|end_char=45
+5	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	start_char=46|end_char=57
+6	клавиатурного	клавиатурный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=58|end_char=71
+7	контроллера	контроллер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=72|end_char=83
+8	rockband	rockband	X	_	Foreign=Yes	7	flat:foreign	_	start_char=84|end_char=92
+9	к	к	ADP	_	_	11	case	_	start_char=93|end_char=94
+10	моему	мой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=95|end_char=100
+11	M-audio	M-audio	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=101|end_char=108
+12	profire	profire	X	_	Foreign=Yes	7	flat:foreign	_	start_char=109|end_char=116
+13	2626	2626	NUM	_	NumType=Card	11	nummod:entity	_	start_char=117|end_char=121
+14	для	для	ADP	_	_	15	case	_	start_char=122|end_char=125
+15	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=126|end_char=136
+16	midi	midi	X	_	Foreign=Yes	15	flat:foreign	_	start_char=137|end_char=141
+17	в	в	ADP	_	_	15	case	_	start_char=142|end_char=143
+18	Pro	Pro	PROPN	_	Foreign=Yes	15	flat:foreign	_	start_char=144|end_char=147
+19	Tools	Tools	PROPN	_	Foreign=Yes	15	flat:foreign	_	start_char=148|end_char=153
+20	.	.	PUNCT	_	_	1	punct	_	start_char=153|end_char=154
+
+# text = Работает отлично!
+# sent_id = 2
+1	Работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=155|end_char=163
+2	отлично	отлично	ADV	_	Degree=Pos	1	advmod	_	start_char=164|end_char=171
+3	!	!	PUNCT	_	_	1	punct	_	start_char=171|end_char=172
+
+# text = Плотное прилегание, прочные литые концы, солидный фирменный кабель.
+# sent_id = 3
+1	Плотное	плотный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=173|end_char=180
+2	прилегание	прилегание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=181|end_char=191
+3	,	,	PUNCT	_	_	6	punct	_	start_char=191|end_char=192
+4	прочные	прочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=193|end_char=200
+5	литые	литой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=201|end_char=206
+6	концы	конец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=207|end_char=212
+7	,	,	PUNCT	_	_	10	punct	_	start_char=212|end_char=213
+8	солидный	солидный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=214|end_char=222
+9	фирменный	фирменный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=223|end_char=232
+10	кабель	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=233|end_char=239
+11	.	.	PUNCT	_	_	2	punct	_	start_char=239|end_char=240
+
+# text = (Немного тонковат, но я не видел никаких проблем из-за этого.
+# sent_id = 4
+1	(	(	PUNCT	_	_	3	punct	_	start_char=241|end_char=242
+2	Немного	немного	ADV	_	Degree=Pos	3	advmod	_	start_char=242|end_char=249
+3	тонковат	тонковатый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=250|end_char=258
+4	,	,	PUNCT	_	_	8	punct	_	start_char=258|end_char=259
+5	но	но	CCONJ	_	_	8	cc	_	start_char=260|end_char=262
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=263|end_char=264
+7	не	не	PART	_	_	8	advmod	_	start_char=265|end_char=267
+8	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=268|end_char=273
+9	никаких	никакой	DET	_	Case=Gen|Number=Plur|PronType=Neg	10	det	_	start_char=274|end_char=281
+10	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	start_char=282|end_char=289
+11	из-за	из-за	ADP	_	_	12	case	_	start_char=290|end_char=295
+12	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	start_char=296|end_char=301
+13	.	.	PUNCT	_	_	3	punct	_	start_char=301|end_char=302
+
+# text = За $5 на момент покупки и с учетом прайм-прайма я не ошибся.
+# sent_id = 5
+1	За	за	ADP	_	_	2	case	_	start_char=303|end_char=305
+2	$	$	SYM	_	_	15	obl	_	start_char=306|end_char=307
+3	5	5	NUM	_	NumType=Card	2	nummod	_	start_char=307|end_char=308
+4	на	на	ADP	_	_	5	case	_	start_char=309|end_char=311
+5	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	start_char=312|end_char=318
+6	покупки	покупка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=319|end_char=326
+7	и	и	CCONJ	_	_	9	cc	_	start_char=327|end_char=328
+8	с	с	ADP	_	_	9	case	_	start_char=329|end_char=330
+9	учетом	учет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	start_char=331|end_char=337
+10	прайм	прайм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	compound	_	start_char=338|end_char=343
+11	-	-	PUNCT	_	_	10	punct	_	start_char=343|end_char=344
+12	прайма	прайма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=344|end_char=350
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=351|end_char=352
+14	не	не	PART	_	_	15	advmod	_	start_char=353|end_char=355
+15	ошибся	ошибиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=356|end_char=362
+16	.	.	PUNCT	_	_	15	punct	_	start_char=362|end_char=363
+

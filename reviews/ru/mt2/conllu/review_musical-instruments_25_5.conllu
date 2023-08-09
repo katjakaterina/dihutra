@@ -1,0 +1,124 @@
+# text = Я получил отличную цену, но все равно очень хороший продукт Когда я искал MIDI-кабели для своего ножного контроллера ART X-15, я наткнулся на эти кабели Hosa, и они стоили 2 доллара за штуку!
+# sent_id = 0
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2|end_char=9
+3	отличную	отличный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=10|end_char=18
+4	цену	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=19|end_char=23
+5	,	,	PUNCT	_	_	28	punct	_	start_char=23|end_char=24
+6	но	но	CCONJ	_	_	28	cc	_	start_char=25|end_char=27
+7	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	11	advmod	_	start_char=28|end_char=31
+8	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	fixed	_	start_char=32|end_char=37
+9	очень	очень	ADV	_	Degree=Pos	10	obl	_	start_char=38|end_char=43
+10	хороший	хороший	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=44|end_char=51
+11	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	start_char=52|end_char=59
+12	Когда	когда	SCONJ	_	_	14	mark	_	start_char=60|end_char=65
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=66|end_char=67
+14	искал	искать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=68|end_char=73
+15	MIDI	MIDI	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=74|end_char=78
+16	-	-	PUNCT	_	_	17	punct	_	start_char=78|end_char=79
+17	кабели	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	flat:foreign	_	start_char=79|end_char=85
+18	для	для	ADP	_	_	21	case	_	start_char=86|end_char=89
+19	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	start_char=90|end_char=96
+20	ножного	ножной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=97|end_char=104
+21	контроллера	контроллер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=105|end_char=116
+22	ART	ART	PROPN	_	Foreign=Yes	21	flat:foreign	_	start_char=117|end_char=120
+23	X	X	PROPN	_	Foreign=Yes	21	flat:foreign	_	start_char=121|end_char=122
+24	-	-	PUNCT	_	_	25	punct	_	start_char=122|end_char=123
+25	15	15	NUM	_	NumType=Card	23	appos	_	start_char=123|end_char=125
+26	,	,	PUNCT	_	_	11	punct	_	start_char=125|end_char=126
+27	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=127|end_char=128
+28	наткнулся	наткнуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=129|end_char=138
+29	на	на	ADP	_	_	31	case	_	start_char=139|end_char=141
+30	эти	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	31	det	_	start_char=142|end_char=145
+31	кабели	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	28	obl	_	start_char=146|end_char=152
+32	Hosa	Hosa	PROPN	_	Foreign=Yes	31	flat:foreign	_	start_char=153|end_char=157
+33	,	,	PUNCT	_	_	36	punct	_	start_char=157|end_char=158
+34	и	и	CCONJ	_	_	36	cc	_	start_char=159|end_char=160
+35	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	start_char=161|end_char=164
+36	стоили	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=165|end_char=171
+37	2	2	NUM	_	NumType=Card	38	nummod	_	start_char=172|end_char=173
+38	доллара	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	obl	_	start_char=174|end_char=181
+39	за	за	ADP	_	_	40	case	_	start_char=182|end_char=184
+40	штуку	штука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	nmod	_	start_char=185|end_char=190
+41	!	!	PUNCT	_	_	2	punct	_	start_char=190|end_char=191
+
+# text = Сейчас они стоят 6 долларов, но я понимаю, что и такая цена меня бы устроила, поскольку это высококачественные пластиковые и металлические разъемы, и работают они безупречно.
+# sent_id = 1
+1	Сейчас	сейчас	ADV	_	Degree=Pos	3	advmod	_	start_char=192|end_char=198
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=199|end_char=202
+3	стоят	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=203|end_char=208
+4	6	6	NUM	_	NumType=Card	5	nummod	_	start_char=209|end_char=210
+5	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=211|end_char=219
+6	,	,	PUNCT	_	_	9	punct	_	start_char=219|end_char=220
+7	но	но	CCONJ	_	_	9	cc	_	start_char=221|end_char=223
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=224|end_char=225
+9	понимаю	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=226|end_char=233
+10	,	,	PUNCT	_	_	17	punct	_	start_char=233|end_char=234
+11	что	что	SCONJ	_	_	17	mark	_	start_char=235|end_char=238
+12	и	и	PART	_	_	13	advmod	_	start_char=239|end_char=240
+13	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=241|end_char=246
+14	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=247|end_char=251
+15	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	start_char=252|end_char=256
+16	бы	бы	AUX	_	_	17	aux	_	start_char=257|end_char=259
+17	устроила	устроить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	start_char=260|end_char=268
+18	,	,	PUNCT	_	_	25	punct	_	start_char=268|end_char=269
+19	поскольку	поскольку	SCONJ	_	_	25	mark	_	start_char=270|end_char=279
+20	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	25	nsubj	_	start_char=280|end_char=283
+21	высококачественные	высококачественный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	start_char=284|end_char=302
+22	пластиковые	пластиковый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	start_char=303|end_char=314
+23	и	и	CCONJ	_	_	24	cc	_	start_char=315|end_char=316
+24	металлические	металлический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	conj	_	start_char=317|end_char=330
+25	разъемы	разъем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	advcl	_	start_char=331|end_char=338
+26	,	,	PUNCT	_	_	28	punct	_	start_char=338|end_char=339
+27	и	и	CCONJ	_	_	28	cc	_	start_char=340|end_char=341
+28	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	start_char=342|end_char=350
+29	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	start_char=351|end_char=354
+30	безупречно	безупречно	ADV	_	Degree=Pos	28	advmod	_	start_char=355|end_char=365
+31	.	.	PUNCT	_	_	3	punct	_	start_char=365|end_char=366
+
+# text = Вы должны понимать, что их длина составляет всего 5 футов, так как я переоценил ее и теперь жалею, что они не длиннее.
+# sent_id = 2
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=367|end_char=369
+2	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=370|end_char=376
+3	понимать	понимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=377|end_char=385
+4	,	,	PUNCT	_	_	8	punct	_	start_char=385|end_char=386
+5	что	что	SCONJ	_	_	8	mark	_	start_char=387|end_char=390
+6	их	их	DET	_	Poss=Yes|PronType=Prs	7	det	_	start_char=391|end_char=393
+7	длина	длина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=394|end_char=399
+8	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=400|end_char=410
+9	всего	всего	PART	_	_	10	advmod	_	start_char=411|end_char=416
+10	5	5	NUM	_	NumType=Card	11	nummod	_	start_char=417|end_char=418
+11	футов	фут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	start_char=419|end_char=424
+12	,	,	PUNCT	_	_	16	punct	_	start_char=424|end_char=425
+13	так	так	ADV	_	Degree=Pos	16	mark	_	start_char=426|end_char=429
+14	как	как	SCONJ	_	_	13	fixed	_	start_char=430|end_char=433
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=434|end_char=435
+16	переоценил	переоценить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=436|end_char=446
+17	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=447|end_char=449
+18	и	и	CCONJ	_	_	20	cc	_	start_char=450|end_char=451
+19	теперь	теперь	ADV	_	Degree=Pos	20	advmod	_	start_char=452|end_char=458
+20	жалею	жалеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	start_char=459|end_char=464
+21	,	,	PUNCT	_	_	25	punct	_	start_char=464|end_char=465
+22	что	что	SCONJ	_	_	25	mark	_	start_char=466|end_char=469
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	start_char=470|end_char=473
+24	не	не	PART	_	_	25	advmod	_	start_char=474|end_char=476
+25	длиннее	длинный	ADJ	_	Degree=Cmp	20	ccomp	_	start_char=477|end_char=484
+26	.	.	PUNCT	_	_	2	punct	_	start_char=484|end_char=485
+
+# text = Для любого подключения звуковых модулей, установленных в стойках, они подойдут идеально.
+# sent_id = 3
+1	Для	для	ADP	_	_	3	case	_	start_char=486|end_char=489
+2	любого	любой	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	start_char=490|end_char=496
+3	подключения	подключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	start_char=497|end_char=508
+4	звуковых	звуковой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=509|end_char=517
+5	модулей	модуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=518|end_char=525
+6	,	,	PUNCT	_	_	7	punct	_	start_char=525|end_char=526
+7	установленных	установить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=527|end_char=540
+8	в	в	ADP	_	_	9	case	_	start_char=541|end_char=542
+9	стойках	стойка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	start_char=543|end_char=550
+10	,	,	PUNCT	_	_	7	punct	_	start_char=550|end_char=551
+11	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=552|end_char=555
+12	подойдут	подойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=556|end_char=564
+13	идеально	идеально	ADV	_	Degree=Pos	12	advmod	_	start_char=565|end_char=573
+14	.	.	PUNCT	_	_	12	punct	_	start_char=573|end_char=574
+

@@ -1,4 +1,7 @@
-1	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=0|end_char=6
+# text = became a mess Started out as a great road trip activity for my 5 yro but after the 2 yro used it, it became a mess.
+# sent_id = 0
+# sentiment = 0
+1	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=0|end_char=6
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=7|end_char=8
 3	mess	mess	NOUN	NN	Number=Sing	1	xcomp	_	start_char=9|end_char=13
 4	Started	start	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	start_char=14|end_char=21
@@ -10,36 +13,42 @@
 10	trip	trip	NOUN	NN	Number=Sing	11	compound	_	start_char=42|end_char=46
 11	activity	activity	NOUN	NN	Number=Sing	4	obl	_	start_char=47|end_char=55
 12	for	for	ADP	IN	_	15	case	_	start_char=56|end_char=59
-13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=60|end_char=62
-14	5	5	NUM	CD	NumType=Card	15	nummod	_	start_char=63|end_char=64
-15	yro	yro	NOUN	NN	Number=Sing	11	nmod	_	start_char=65|end_char=68
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=60|end_char=62
+14	5	5	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=63|end_char=64
+15	yro	yro	NOUN	NN	Number=Sing	4	obl	_	start_char=65|end_char=68
 16	but	but	CCONJ	CC	_	25	cc	_	start_char=70|end_char=73
 17	after	after	SCONJ	IN	_	21	mark	_	start_char=74|end_char=79
 18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=80|end_char=83
-19	2	2	NUM	CD	NumType=Card	20	nummod	_	start_char=84|end_char=85
+19	2	2	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	_	start_char=84|end_char=85
 20	yro	yro	NOUN	NN	Number=Sing	21	nsubj	_	start_char=86|end_char=89
-21	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	start_char=90|end_char=94
+21	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	advcl	_	start_char=90|end_char=94
 22	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=95|end_char=97
 23	,	,	PUNCT	,	_	25	punct	_	start_char=97|end_char=98
 24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=99|end_char=101
-25	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	start_char=102|end_char=108
+25	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	start_char=102|end_char=108
 26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=109|end_char=110
 27	mess	mess	NOUN	NN	Number=Sing	25	xcomp	_	start_char=111|end_char=115
 28	.	.	PUNCT	.	_	1	punct	_	start_char=115|end_char=116
 
+# text = The stix became stuck together or had hairs stuck to them.
+# sent_id = 1
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=117|end_char=120
 2	stix	stix	NOUN	NN	Number=Sing	3	nsubj	_	start_char=121|end_char=125
-3	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=126|end_char=132
-4	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part	3	xcomp	_	start_char=133|end_char=138
+3	became	become	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=126|end_char=132
+4	stuck	stuck	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=133|end_char=138
 5	together	together	ADV	RB	_	4	advmod	_	start_char=139|end_char=147
 6	or	or	CCONJ	CC	_	7	cc	_	start_char=148|end_char=150
-7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	start_char=151|end_char=154
+7	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=151|end_char=154
 8	hairs	hair	NOUN	NNS	Number=Plur	7	obj	_	start_char=155|end_char=160
 9	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part	7	xcomp	_	start_char=161|end_char=166
 10	to	to	ADP	IN	_	11	case	_	start_char=167|end_char=169
 11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obl	_	start_char=170|end_char=174
 12	.	.	PUNCT	.	_	3	punct	_	start_char=174|end_char=175
 
+# text = It doesn't come with a reusable bag or anything so they are all stuck in a big ball to the top of the book right now - neither my kids nor I want to deal with organizing them.
+# sent_id = 2
+# sentiment = 0
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=176|end_char=178
 2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=179|end_char=183
 3	n't	not	PART	RB	_	4	advmod	_	start_char=183|end_char=186
@@ -49,12 +58,12 @@
 7	reusable	reusable	ADJ	JJ	Degree=Pos	8	amod	_	start_char=199|end_char=207
 8	bag	bag	NOUN	NN	Number=Sing	4	obl	_	start_char=208|end_char=211
 9	or	or	CCONJ	CC	_	10	cc	_	start_char=212|end_char=214
-10	anything	anything	PRON	NN	Number=Sing	8	conj	_	start_char=215|end_char=223
-11	so	so	ADV	RB	_	15	advmod	_	start_char=224|end_char=226
+10	anything	anything	PRON	NN	Number=Sing|PronType=Ind	8	conj	_	start_char=215|end_char=223
+11	so	so	SCONJ	IN	_	15	mark	_	start_char=224|end_char=226
 12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=227|end_char=231
-13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=232|end_char=235
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=232|end_char=235
 14	all	all	ADV	RB	_	15	advmod	_	start_char=236|end_char=239
-15	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	start_char=240|end_char=245
+15	stuck	stuck	ADJ	JJ	Degree=Pos	4	advcl	_	start_char=240|end_char=245
 16	in	in	ADP	IN	_	19	case	_	start_char=246|end_char=248
 17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	start_char=249|end_char=250
 18	big	big	ADJ	JJ	Degree=Pos	19	amod	_	start_char=251|end_char=254
@@ -69,11 +78,11 @@
 27	now	now	ADV	RB	_	15	advmod	_	start_char=289|end_char=292
 28	-	-	PUNCT	,	_	4	punct	_	start_char=293|end_char=294
 29	neither	neither	CCONJ	CC	_	31	cc:preconj	_	start_char=295|end_char=302
-30	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	start_char=303|end_char=305
+30	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	start_char=303|end_char=305
 31	kids	kid	NOUN	NNS	Number=Plur	34	nsubj	_	start_char=306|end_char=310
 32	nor	nor	CCONJ	CC	_	33	cc	_	start_char=311|end_char=314
 33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	conj	_	start_char=315|end_char=316
-34	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	start_char=317|end_char=321
+34	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=317|end_char=321
 35	to	to	PART	TO	_	36	mark	_	start_char=322|end_char=324
 36	deal	deal	VERB	VB	VerbForm=Inf	34	xcomp	_	start_char=325|end_char=329
 37	with	with	SCONJ	IN	_	38	mark	_	start_char=330|end_char=334

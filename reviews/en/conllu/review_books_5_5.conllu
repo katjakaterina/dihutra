@@ -1,3 +1,6 @@
+# text = I was disappointed that you would only allow me to purchase 4 when your inventory showed that you had 14 available.
+# sent_id = 0
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=1
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=2|end_char=5
 3	disappointed	disappointed	ADJ	JJ	Degree=Pos	0	root	_	start_char=6|end_char=18
@@ -9,20 +12,23 @@
 9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	start_char=45|end_char=47
 10	to	to	PART	TO	_	11	mark	_	start_char=48|end_char=50
 11	purchase	purchase	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=51|end_char=59
-12	4	4	NUM	CD	NumType=Card	11	obj	_	start_char=60|end_char=61
-13	when	when	SCONJ	WRB	PronType=Int	16	mark	_	start_char=62|end_char=66
-14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=67|end_char=71
+12	4	4	NUM	CD	NumForm=Digit|NumType=Card	11	obj	_	start_char=60|end_char=61
+13	when	when	ADV	WRB	PronType=Int	16	advmod	_	start_char=62|end_char=66
+14	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=67|end_char=71
 15	inventory	inventory	NOUN	NN	Number=Sing	16	nsubj	_	start_char=72|end_char=81
-16	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=82|end_char=88
+16	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	start_char=82|end_char=88
 17	that	that	SCONJ	IN	_	19	mark	_	start_char=89|end_char=93
 18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	start_char=94|end_char=97
-19	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	start_char=98|end_char=101
-20	14	14	NUM	CD	NumType=Card	19	obj	_	start_char=102|end_char=104
+19	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	16	ccomp	_	start_char=98|end_char=101
+20	14	14	NUM	CD	NumForm=Digit|NumType=Card	19	obj	_	start_char=102|end_char=104
 21	available	available	ADJ	JJ	Degree=Pos	19	xcomp	_	start_char=105|end_char=114
 22	.	.	PUNCT	.	_	3	punct	_	start_char=114|end_char=115
 
+# text = We have many of the old, old issue.
+# sent_id = 1
+# sentiment = 1
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=116|end_char=118
-2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=119|end_char=123
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=119|end_char=123
 3	many	many	ADJ	JJ	Degree=Pos	2	obj	_	start_char=124|end_char=128
 4	of	of	ADP	IN	_	9	case	_	start_char=129|end_char=131
 5	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=132|end_char=135
@@ -32,15 +38,21 @@
 9	issue	issue	NOUN	NN	Number=Sing	3	nmod	_	start_char=145|end_char=150
 10	.	.	PUNCT	.	_	2	punct	_	start_char=150|end_char=151
 
+# text = But the number had depleted.
+# sent_id = 2
+# sentiment = 0
 1	But	but	CCONJ	CC	_	5	cc	_	start_char=152|end_char=155
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=156|end_char=159
 3	number	number	NOUN	NN	Number=Sing	5	nsubj	_	start_char=160|end_char=166
-4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	start_char=167|end_char=170
-5	depleted	deplete	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=171|end_char=179
+4	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=167|end_char=170
+5	depleted	deplet	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=171|end_char=179
 6	.	.	PUNCT	.	_	5	punct	_	start_char=179|end_char=180
 
+# text = There were not enough books to allow us to use them regularly.
+# sent_id = 3
+# sentiment = 0
 1	There	there	PRON	EX	_	2	expl	_	start_char=181|end_char=186
-2	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=187|end_char=191
+2	were	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=187|end_char=191
 3	not	not	PART	RB	_	2	advmod	_	start_char=192|end_char=195
 4	enough	enough	ADJ	JJ	Degree=Pos	5	amod	_	start_char=197|end_char=203
 5	books	book	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=204|end_char=209
@@ -50,9 +62,12 @@
 9	to	to	PART	TO	_	10	mark	_	start_char=222|end_char=224
 10	use	use	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=225|end_char=228
 11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	start_char=229|end_char=233
-12	regularly	regularly	ADV	RB	Degree=Pos	10	advmod	_	start_char=234|end_char=243
+12	regularly	regularly	ADV	RB	_	10	advmod	_	start_char=234|end_char=243
 13	.	.	PUNCT	.	_	2	punct	_	start_char=243|end_char=244
 
+# text = With the additional supply the books will be used more often.
+# sent_id = 4
+# sentiment = 1
 1	With	with	ADP	IN	_	4	case	_	start_char=245|end_char=249
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=250|end_char=253
 3	additional	additional	ADJ	JJ	Degree=Pos	4	amod	_	start_char=254|end_char=264
@@ -63,17 +78,20 @@
 8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	start_char=287|end_char=289
 9	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=290|end_char=294
 10	more	more	ADV	RBR	Degree=Cmp	11	advmod	_	start_char=295|end_char=299
-11	often	often	ADV	RB	Degree=Pos	9	advmod	_	start_char=300|end_char=305
+11	often	often	ADV	RB	_	9	advmod	_	start_char=300|end_char=305
 12	.	.	PUNCT	.	_	9	punct	_	start_char=305|end_char=306
 
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=307|end_char=311
-2	arre	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=312|end_char=316
+# text = They arre a good old standby for gospel singing.
+# sent_id = 5
+# sentiment = 2
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=307|end_char=311
+2	arre	arre	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=312|end_char=316
 3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=317|end_char=318
 4	good	good	ADJ	JJ	Degree=Pos	6	amod	_	start_char=319|end_char=323
 5	old	old	ADJ	JJ	Degree=Pos	6	amod	_	start_char=324|end_char=327
-6	standby	standby	NOUN	NN	Number=Sing	0	root	_	start_char=328|end_char=335
+6	standby	standby	NOUN	NN	Number=Sing	2	obj	_	start_char=328|end_char=335
 7	for	for	ADP	IN	_	9	case	_	start_char=336|end_char=339
 8	gospel	gospel	NOUN	NN	Number=Sing	9	compound	_	start_char=340|end_char=346
-9	singing	singing	NOUN	NN	Number=Sing	6	nmod	_	start_char=347|end_char=354
-10	.	.	PUNCT	.	_	6	punct	_	start_char=354|end_char=355
+9	singing	singing	NOUN	NN	Number=Sing	2	obl	_	start_char=347|end_char=354
+10	.	.	PUNCT	.	_	2	punct	_	start_char=354|end_char=355
 

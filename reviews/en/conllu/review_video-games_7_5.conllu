@@ -1,13 +1,16 @@
+# text = Best racing game i love this game i have had the best fun with this game if it does not work try it on a laptopif u like racing game you might like this.
+# sent_id = 0
+# sentiment = 2
 1	Best	good	ADJ	JJS	Degree=Sup	3	amod	_	start_char=0|end_char=4
 2	racing	racing	NOUN	NN	Number=Sing	3	compound	_	start_char=5|end_char=11
-3	game	game	NOUN	NN	Number=Sing	0	root	_	start_char=12|end_char=16
+3	game	game	NOUN	NN	Number=Sing	10	dislocated	_	start_char=12|end_char=16
 4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=17|end_char=18
-5	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=19|end_char=23
+5	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=19|end_char=23
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	start_char=24|end_char=28
 7	game	game	NOUN	NN	Number=Sing	5	obj	_	start_char=29|end_char=33
 8	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=34|end_char=35
-9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=36|end_char=40
-10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	3	parataxis	_	start_char=41|end_char=44
+9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=36|end_char=40
+10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=41|end_char=44
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=45|end_char=48
 12	best	good	ADJ	JJS	Degree=Sup	13	amod	_	start_char=49|end_char=53
 13	fun	fun	NOUN	NN	Number=Sing	10	obj	_	start_char=54|end_char=57
@@ -21,34 +24,37 @@
 21	work	work	VERB	VB	VerbForm=Inf	10	advcl	_	start_char=88|end_char=92
 22	try	try	VERB	VB	VerbForm=Inf	21	xcomp	_	start_char=93|end_char=96
 23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=97|end_char=99
-24	on	on	ADP	IN	_	27	case	_	start_char=100|end_char=102
-25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=103|end_char=104
-26	laptopif	laptopif	NOUN	NN	Number=Sing	27	compound	_	start_char=105|end_char=113
-27	u	u	NOUN	NN	Number=Sing	22	obl	_	start_char=114|end_char=115
+24	on	on	ADP	IN	_	30	case	_	start_char=100|end_char=102
+25	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=103|end_char=104
+26	laptopif	laptopif	NOUN	NN	Number=Sing	30	compound	_	start_char=105|end_char=113
+27	u	u	NOUN	NN	Number=Sing	30	compound	_	start_char=114|end_char=115
 28	like	like	ADP	IN	_	30	case	_	start_char=116|end_char=120
 29	racing	racing	NOUN	NN	Number=Sing	30	compound	_	start_char=121|end_char=127
-30	game	game	NOUN	NN	Number=Sing	27	nmod	_	start_char=128|end_char=132
+30	game	game	NOUN	NN	Number=Sing	22	obl	_	start_char=128|end_char=132
 31	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	33	nsubj	_	start_char=133|end_char=136
 32	might	might	AUX	MD	VerbForm=Fin	33	aux	_	start_char=137|end_char=142
 33	like	like	VERB	VB	VerbForm=Inf	30	acl:relcl	_	start_char=143|end_char=147
 34	this	this	PRON	DT	Number=Sing|PronType=Dem	33	obj	_	start_char=148|end_char=152
-35	.	.	PUNCT	.	_	3	punct	_	start_char=152|end_char=153
+35	.	.	PUNCT	.	_	10	punct	_	start_char=152|end_char=153
 
+# text = It is kinda old so be expecting that but other wise other than graphics it is grait
+# sent_id = 1
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=153|end_char=155
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=156|end_char=158
 3	kinda	kinda	ADV	RB	_	4	advmod	_	start_char=159|end_char=164
 4	old	old	ADJ	JJ	Degree=Pos	0	root	_	start_char=165|end_char=168
 5	so	so	ADV	RB	_	7	advmod	_	start_char=169|end_char=171
-6	be	be	AUX	VB	Mood=Imp|VerbForm=Inf	7	aux	_	start_char=172|end_char=174
+6	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	7	aux	_	start_char=172|end_char=174
 7	expecting	expect	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	_	start_char=175|end_char=184
-8	that	that	SCONJ	IN	_	16	mark	_	start_char=185|end_char=189
-9	but	but	CCONJ	CC	_	11	cc	_	start_char=190|end_char=193
-10	other	other	ADJ	JJ	Degree=Pos	12	amod	_	start_char=194|end_char=199
-11	wise	wise	ADJ	JJ	Degree=Pos	12	amod	_	start_char=200|end_char=204
-12	other	other	ADJ	JJ	Degree=Pos	7	ccomp	_	start_char=205|end_char=210
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	start_char=185|end_char=189
+9	but	but	CCONJ	CC	_	17	cc	_	start_char=190|end_char=193
+10	other	other	ADJ	JJ	Degree=Pos	11	advmod	_	start_char=194|end_char=199
+11	wise	wise	ADJ	JJ	Degree=Pos	17	advmod	_	start_char=200|end_char=204
+12	other	other	ADJ	JJ	Degree=Pos	11	amod	_	start_char=205|end_char=210
 13	than	than	ADP	IN	_	14	case	_	start_char=211|end_char=215
 14	graphics	graphic	NOUN	NNS	Number=Plur	12	obl	_	start_char=216|end_char=224
-15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=225|end_char=227
-16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=228|end_char=230
-17	grait	grait	PUNCT	.	_	4	punct	_	start_char=231|end_char=236
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=225|end_char=227
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=228|end_char=230
+17	grait	grait	ADJ	JJ	Degree=Pos	4	conj	_	start_char=231|end_char=236
 

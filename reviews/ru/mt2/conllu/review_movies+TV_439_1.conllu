@@ -1,0 +1,92 @@
+# text = По-прежнему НЕ полностью ремастированный В примечаниях к данному DVD указано, что он ремастирован.
+# sent_id = 0
+1	По-прежнему	по-прежнему	ADV	_	Degree=Pos	10	advmod	_	start_char=0|end_char=11
+2	НЕ	не	PART	_	_	3	advmod	_	start_char=12|end_char=14
+3	полностью	полностью	ADV	_	Degree=Pos	4	advmod	_	start_char=15|end_char=24
+4	ремастированный	ремастировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	nsubj:pass	_	start_char=25|end_char=40
+5	В	в	ADP	_	_	6	case	_	start_char=41|end_char=42
+6	примечаниях	примечание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	4	obl	_	start_char=43|end_char=54
+7	к	к	ADP	_	_	9	case	_	start_char=55|end_char=56
+8	данному	данный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=57|end_char=64
+9	DVD	DVD	PROPN	_	Foreign=Yes	6	nmod	_	start_char=65|end_char=68
+10	указано	указать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=69|end_char=76
+11	,	,	PUNCT	_	_	14	punct	_	start_char=76|end_char=77
+12	что	что	SCONJ	_	_	14	mark	_	start_char=78|end_char=81
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	start_char=82|end_char=84
+14	ремастирован	ремастировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	ccomp	_	start_char=85|end_char=97
+15	.	.	PUNCT	_	_	10	punct	_	start_char=97|end_char=98
+
+# text = Несмотря на то, что качество записи не такое плохое, как на DVD 2004 года, на изображении все еще присутствуют черные точки и белые царапины.
+# sent_id = 1
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	start_char=99|end_char=107
+2	на	на	ADP	_	_	1	fixed	_	start_char=108|end_char=110
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	22	obl	_	start_char=111|end_char=113
+4	,	,	PUNCT	_	_	10	punct	_	start_char=113|end_char=114
+5	что	что	SCONJ	_	_	10	mark	_	start_char=115|end_char=118
+6	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=119|end_char=127
+7	записи	запись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=128|end_char=134
+8	не	не	PART	_	_	9	advmod	_	start_char=135|end_char=137
+9	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=138|end_char=143
+10	плохое	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	acl	_	start_char=144|end_char=150
+11	,	,	PUNCT	_	_	14	punct	_	start_char=150|end_char=151
+12	как	как	SCONJ	_	_	14	case	_	start_char=152|end_char=155
+13	на	на	ADP	_	_	14	case	_	start_char=156|end_char=158
+14	DVD	DVD	PROPN	_	Foreign=Yes	9	obl	_	start_char=159|end_char=162
+15	2004	2004	ADJ	_	Degree=Pos	16	amod	_	start_char=163|end_char=167
+16	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=168|end_char=172
+17	,	,	PUNCT	_	_	3	punct	_	start_char=172|end_char=173
+18	на	на	ADP	_	_	19	case	_	start_char=174|end_char=176
+19	изображении	изображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	start_char=177|end_char=188
+20	все	все	PART	_	_	21	advmod	_	start_char=189|end_char=192
+21	еще	еще	ADV	_	Degree=Pos	22	advmod	_	start_char=193|end_char=196
+22	присутствуют	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=197|end_char=209
+23	черные	черный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	start_char=210|end_char=216
+24	точки	точка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	start_char=217|end_char=222
+25	и	и	CCONJ	_	_	27	cc	_	start_char=223|end_char=224
+26	белые	белый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	start_char=225|end_char=230
+27	царапины	царапина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	conj	_	start_char=231|end_char=239
+28	.	.	PUNCT	_	_	22	punct	_	start_char=239|end_char=240
+
+# text = Неужели CBS - единственное место, где можно найти полностью ремастированную версию?
+# sent_id = 2
+1	Неужели	неужели	PART	_	_	5	advmod	_	start_char=241|end_char=248
+2	CBS	CBS	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=249|end_char=252
+3	-	-	PUNCT	_	_	2	punct	_	start_char=253|end_char=254
+4	единственное	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=255|end_char=267
+5	место	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=268|end_char=273
+6	,	,	PUNCT	_	_	8	punct	_	start_char=273|end_char=274
+7	где	где	ADV	_	Degree=Pos	8	advmod	_	start_char=275|end_char=278
+8	можно	можно	ADV	_	Degree=Pos	5	acl:relcl	_	start_char=279|end_char=284
+9	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	start_char=285|end_char=290
+10	полностью	полностью	ADV	_	Degree=Pos	11	advmod	_	start_char=291|end_char=300
+11	ремастированную	ремастировать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	start_char=301|end_char=316
+12	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=317|end_char=323
+13	?	?	PUNCT	_	_	5	punct	_	start_char=323|end_char=324
+
+# text = Это НЕ стоит $14,99, скорее $4,99.
+# sent_id = 3
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=325|end_char=328
+2	НЕ	не	PART	_	_	3	advmod	_	start_char=329|end_char=331
+3	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=332|end_char=337
+4	$	$	SYM	_	_	3	obl	_	start_char=338|end_char=339
+5	14,99	14,99	NUM	_	NumType=Card	4	nummod	_	start_char=339|end_char=344
+6	,	,	PUNCT	_	_	8	punct	_	start_char=344|end_char=345
+7	скорее	скорее	ADV	_	Degree=Pos	8	obl	_	start_char=346|end_char=352
+8	$	$	SYM	_	_	4	conj	_	start_char=353|end_char=354
+9	4,99	4,99	NUM	_	NumType=Card	8	nummod	_	start_char=354|end_char=358
+10	.	.	PUNCT	_	_	3	punct	_	start_char=358|end_char=359
+
+# text = Ремастируйте его или не поставляйте.
+# sent_id = 4
+1	Ремастируйте	ремастировать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=360|end_char=372
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=373|end_char=376
+3	или	или	CCONJ	_	_	5	cc	_	start_char=377|end_char=380
+4	не	не	PART	_	_	5	advmod	_	start_char=381|end_char=383
+5	поставляйте	поставлять	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=384|end_char=395
+6	.	.	PUNCT	_	_	1	punct	_	start_char=395|end_char=396
+
+# text = :(
+# sent_id = 5
+1	:	:	PUNCT	_	_	2	punct	_	start_char=397|end_char=398
+2	(	(	PUNCT	_	_	0	root	_	start_char=398|end_char=399
+

@@ -1,0 +1,93 @@
+# text = Недостающие детали, дешевое исполнение Мой набор прибыл с недостающими деталями.
+# sent_id = 0
+1	Недостающие	недостающий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=11
+2	детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=12|end_char=18
+3	,	,	PUNCT	_	_	5	punct	_	start_char=18|end_char=19
+4	дешевое	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=20|end_char=27
+5	исполнение	исполнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	start_char=28|end_char=38
+6	Мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=39|end_char=42
+7	набор	набор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=43|end_char=48
+8	прибыл	прибыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=55
+9	с	с	ADP	_	_	11	case	_	start_char=56|end_char=57
+10	недостающими	недостающий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	start_char=58|end_char=70
+11	деталями	деталь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	8	obl	_	start_char=71|end_char=79
+12	.	.	PUNCT	_	_	8	punct	_	start_char=79|end_char=80
+
+# text = Все было в беспорядке, только несколько деталей лежали на своих местах.
+# sent_id = 1
+1	Все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	4	nsubj	_	start_char=81|end_char=84
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=85|end_char=89
+3	в	в	ADP	_	_	4	case	_	start_char=90|end_char=91
+4	беспорядке	беспорядка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=92|end_char=102
+5	,	,	PUNCT	_	_	9	punct	_	start_char=102|end_char=103
+6	только	только	PART	_	_	7	advmod	_	start_char=104|end_char=110
+7	несколько	несколько	NUM	_	Case=Nom|NumType=Card	8	nummod:gov	_	start_char=111|end_char=120
+8	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nsubj	_	start_char=121|end_char=128
+9	лежали	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=129|end_char=135
+10	на	на	ADP	_	_	12	case	_	start_char=136|end_char=138
+11	своих	свой	DET	_	Case=Loc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	start_char=139|end_char=144
+12	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	start_char=145|end_char=151
+13	.	.	PUNCT	_	_	4	punct	_	start_char=151|end_char=152
+
+# text = Осмотрев его и поставив все на свои места, я решил отправить его обратно.
+# sent_id = 2
+1	Осмотрев	осмотреть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	start_char=153|end_char=161
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=162|end_char=165
+3	и	и	CCONJ	_	_	4	cc	_	start_char=166|end_char=167
+4	поставив	ставить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	1	conj	_	start_char=168|end_char=176
+5	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	4	obj	_	start_char=177|end_char=180
+6	на	на	ADP	_	_	8	case	_	start_char=181|end_char=183
+7	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=184|end_char=188
+8	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obl	_	start_char=189|end_char=194
+9	,	,	PUNCT	_	_	4	punct	_	start_char=194|end_char=195
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=196|end_char=197
+11	решил	решить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=198|end_char=203
+12	отправить	отправить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=204|end_char=213
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=214|end_char=217
+14	обратно	обратно	ADV	_	Degree=Pos	12	advmod	_	start_char=218|end_char=225
+15	.	.	PUNCT	_	_	11	punct	_	start_char=225|end_char=226
+
+# text = Детали выглядят неаккуратно, и в целом это выглядит как дешевый набор.
+# sent_id = 3
+1	Детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=227|end_char=233
+2	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=234|end_char=242
+3	неаккуратно	неаккуратно	ADV	_	Degree=Pos	2	advmod	_	start_char=243|end_char=254
+4	,	,	PUNCT	_	_	9	punct	_	start_char=254|end_char=255
+5	и	и	CCONJ	_	_	9	cc	_	start_char=256|end_char=257
+6	в	в	ADP	_	_	7	case	_	start_char=258|end_char=259
+7	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	start_char=260|end_char=265
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=266|end_char=269
+9	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=270|end_char=278
+10	как	как	SCONJ	_	_	12	mark	_	start_char=279|end_char=282
+11	дешевый	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=283|end_char=290
+12	набор	набор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	advcl	_	start_char=291|end_char=296
+13	.	.	PUNCT	_	_	2	punct	_	start_char=296|end_char=297
+
+# text = Я даже не пытался его использовать...
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=298|end_char=299
+2	даже	даже	PART	_	_	3	advmod	_	start_char=300|end_char=304
+3	не	не	PART	_	_	4	advmod	_	start_char=305|end_char=307
+4	пытался	пытаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=308|end_char=315
+5	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=316|end_char=319
+6	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=320|end_char=332
+7	.	.	PUNCT	_	_	6	punct	_	start_char=332|end_char=333
+8	.	.	PUNCT	_	_	6	punct	_	start_char=333|end_char=334
+9	.	.	PUNCT	_	_	4	punct	_	start_char=334|end_char=335
+
+# text = просто упаковал его и отправил обратно.
+# sent_id = 5
+1	просто	просто	PART	_	_	2	advmod	_	start_char=336|end_char=342
+2	упаковал	упаковать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=343|end_char=351
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=352|end_char=355
+4	и	и	CCONJ	_	_	5	cc	_	start_char=356|end_char=357
+5	отправил	отправить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=358|end_char=366
+6	обратно	обратно	ADV	_	Degree=Pos	5	advmod	_	start_char=367|end_char=374
+7	.	.	PUNCT	_	_	2	punct	_	start_char=374|end_char=375
+
+# text = Какое разочарование.
+# sent_id = 6
+1	Какое	какой	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	det	_	start_char=376|end_char=381
+2	разочарование	разочарование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=382|end_char=395
+3	.	.	PUNCT	_	_	2	punct	_	start_char=395|end_char=396
+

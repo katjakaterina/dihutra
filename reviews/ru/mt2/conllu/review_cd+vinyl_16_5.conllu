@@ -1,0 +1,123 @@
+# text = Фаворит!
+# sent_id = 0
+1	Фаворит	фаворит	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7
+2	!	!	PUNCT	_	_	1	punct	_	start_char=7|end_char=8
+
+# text = Я купил эту пластинку, когда она была совсем новой, записал ее на кассету, чтобы иметь возможность слушать ее в машине, и слушал, слушал, слушал.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=9|end_char=10
+2	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=16
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=17|end_char=20
+4	пластинку	пластинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=21|end_char=30
+5	,	,	PUNCT	_	_	10	punct	_	start_char=30|end_char=31
+6	когда	когда	SCONJ	_	_	10	mark	_	start_char=32|end_char=37
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=38|end_char=41
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=42|end_char=46
+9	совсем	совсем	ADV	_	Degree=Pos	10	obl	_	start_char=47|end_char=53
+10	новой	новый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	advcl	_	start_char=54|end_char=59
+11	,	,	PUNCT	_	_	12	punct	_	start_char=59|end_char=60
+12	записал	записать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=61|end_char=68
+13	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=69|end_char=71
+14	на	на	ADP	_	_	15	case	_	start_char=72|end_char=74
+15	кассету	кассет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=75|end_char=82
+16	,	,	PUNCT	_	_	18	punct	_	start_char=82|end_char=83
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	start_char=84|end_char=89
+18	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	advcl	_	start_char=90|end_char=95
+19	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=96|end_char=107
+20	слушать	слушать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	obl	_	start_char=108|end_char=115
+21	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=116|end_char=118
+22	в	в	ADP	_	_	23	case	_	start_char=119|end_char=120
+23	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	start_char=121|end_char=127
+24	,	,	PUNCT	_	_	26	punct	_	start_char=127|end_char=128
+25	и	и	CCONJ	_	_	26	cc	_	start_char=129|end_char=130
+26	слушал	слушать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=131|end_char=137
+27	,	,	PUNCT	_	_	28	punct	_	start_char=137|end_char=138
+28	слушал	слушать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=139|end_char=145
+29	,	,	PUNCT	_	_	30	punct	_	start_char=145|end_char=146
+30	слушал	слушать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=147|end_char=153
+31	.	.	PUNCT	_	_	2	punct	_	start_char=153|end_char=154
+
+# text = Я так соскучился по этому прослушиванию (у меня больше нет поворотного стола), что наконец-то заказал его на CD.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=155|end_char=156
+2	так	так	ADV	_	Degree=Pos	3	advmod	_	start_char=157|end_char=160
+3	соскучился	соскучиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=161|end_char=171
+4	по	по	ADP	_	_	6	case	_	start_char=172|end_char=174
+5	этому	этот	DET	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	start_char=175|end_char=180
+6	прослушиванию	прослушивание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=181|end_char=194
+7	(	(	PUNCT	_	_	11	punct	_	start_char=195|end_char=196
+8	у	у	ADP	_	_	9	case	_	start_char=196|end_char=197
+9	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	obl	_	start_char=198|end_char=202
+10	больше	больше	ADV	_	Degree=Cmp	11	advmod	_	start_char=203|end_char=209
+11	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=210|end_char=213
+12	поворотного	поворотный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=214|end_char=225
+13	стола	стол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nsubj	_	start_char=226|end_char=231
+14	)	)	PUNCT	_	_	11	punct	_	start_char=231|end_char=232
+15	,	,	PUNCT	_	_	20	punct	_	start_char=232|end_char=233
+16	что	что	SCONJ	_	_	20	mark	_	start_char=234|end_char=237
+17	наконец	наконец	ADV	_	Degree=Pos	20	advmod	_	start_char=238|end_char=245
+18	-	-	PUNCT	_	_	19	punct	_	start_char=245|end_char=246
+19	то	то	PART	_	_	17	discourse	_	start_char=246|end_char=248
+20	заказал	заказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=249|end_char=256
+21	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=257|end_char=260
+22	на	на	ADP	_	_	20	case	_	start_char=261|end_char=263
+23	CD	CD	PROPN	_	Foreign=Yes	20	flat:foreign	_	start_char=264|end_char=266
+24	.	.	PUNCT	_	_	3	punct	_	start_char=266|end_char=267
+
+# text = УРА!!!
+# sent_id = 3
+1	УРА	ура	INTJ	_	_	0	root	_	start_char=268|end_char=271
+2	!	!	PUNCT	_	_	1	punct	_	start_char=271|end_char=272
+3	!	!	PUNCT	_	_	1	punct	_	start_char=272|end_char=273
+4	!	!	PUNCT	_	_	1	punct	_	start_char=273|end_char=274
+
+# text = Не могу дождаться, когда смогу играть, и играть, и играть.
+# sent_id = 4
+1	Не	не	PART	_	_	2	advmod	_	start_char=275|end_char=277
+2	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=278|end_char=282
+3	дождаться	дожидаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	start_char=283|end_char=292
+4	,	,	PUNCT	_	_	6	punct	_	start_char=292|end_char=293
+5	когда	когда	SCONJ	_	_	6	mark	_	start_char=294|end_char=299
+6	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=300|end_char=305
+7	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=306|end_char=312
+8	,	,	PUNCT	_	_	10	punct	_	start_char=312|end_char=313
+9	и	и	CCONJ	_	_	10	cc	_	start_char=314|end_char=315
+10	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	start_char=316|end_char=322
+11	,	,	PUNCT	_	_	13	punct	_	start_char=322|end_char=323
+12	и	и	CCONJ	_	_	13	cc	_	start_char=324|end_char=325
+13	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	start_char=326|end_char=332
+14	.	.	PUNCT	_	_	2	punct	_	start_char=332|end_char=333
+
+# text = Никто, абсолютно никто не носит свое сердце для Бога на рукаве, как Кит Грин!
+# sent_id = 5
+1	Никто	никто	PRON	_	Case=Nom|PronType=Neg	6	nsubj	_	start_char=334|end_char=339
+2	,	,	PUNCT	_	_	1	punct	_	start_char=339|end_char=340
+3	абсолютно	абсолютно	ADV	_	Degree=Pos	4	obl	_	start_char=341|end_char=350
+4	никто	никто	PRON	_	Case=Nom|PronType=Neg	1	conj	_	start_char=351|end_char=356
+5	не	не	PART	_	_	6	advmod	_	start_char=357|end_char=359
+6	носит	носить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=360|end_char=365
+7	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=366|end_char=370
+8	сердце	сердце	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=371|end_char=377
+9	для	для	ADP	_	_	10	case	_	start_char=378|end_char=381
+10	Бога	Бог	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=382|end_char=386
+11	на	на	ADP	_	_	12	case	_	start_char=387|end_char=389
+12	рукаве	рукав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=390|end_char=396
+13	,	,	PUNCT	_	_	15	punct	_	start_char=396|end_char=397
+14	как	как	SCONJ	_	_	15	mark	_	start_char=398|end_char=401
+15	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	obl	_	start_char=402|end_char=405
+16	Грин	Грин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	start_char=406|end_char=410
+17	!	!	PUNCT	_	_	6	punct	_	start_char=410|end_char=411
+
+# text = Я не могу дождаться встречи с ним на небесах.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=412|end_char=413
+2	не	не	PART	_	_	3	advmod	_	start_char=414|end_char=416
+3	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=417|end_char=421
+4	дождаться	дожидаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	start_char=422|end_char=431
+5	встречи	встреча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=432|end_char=439
+6	с	с	ADP	_	_	7	case	_	start_char=440|end_char=441
+7	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	start_char=442|end_char=445
+8	на	на	ADP	_	_	9	case	_	start_char=446|end_char=448
+9	небесах	небо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	start_char=449|end_char=456
+10	.	.	PUNCT	_	_	3	punct	_	start_char=456|end_char=457
+

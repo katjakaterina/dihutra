@@ -1,6 +1,12 @@
+# text = A Winner
+# sent_id = 0
+# sentiment = 1
 1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	start_char=0|end_char=1
 2	Winner	winner	NOUN	NN	Number=Sing	0	root	_	start_char=2|end_char=8
 
+# text = This is the first battery case I have had for my Galaxy S4.
+# sent_id = 1
+# sentiment = 1
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	6	nsubj	_	start_char=9|end_char=13
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=14|end_char=16
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=17|end_char=20
@@ -8,14 +14,17 @@
 5	battery	battery	NOUN	NN	Number=Sing	6	compound	_	start_char=27|end_char=34
 6	case	case	NOUN	NN	Number=Sing	0	root	_	start_char=35|end_char=39
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=40|end_char=41
-8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=42|end_char=46
+8	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=42|end_char=46
 9	had	have	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	start_char=47|end_char=50
 10	for	for	ADP	IN	_	13	case	_	start_char=51|end_char=54
-11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=55|end_char=57
-12	Galaxy	galaxy	PROPN	NNP	Number=Sing	13	compound	_	start_char=58|end_char=64
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=55|end_char=57
+12	Galaxy	Galaxy	PROPN	NNP	Number=Sing	13	compound	_	start_char=58|end_char=64
 13	S4	S4	PROPN	NNP	Number=Sing	9	obl	_	start_char=65|end_char=67
 14	.	.	PUNCT	.	_	6	punct	_	start_char=67|end_char=68
 
+# text = The S4 fits very well, is slim and doesn't add much weight to the Galaxy S4.
+# sent_id = 2
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=69|end_char=72
 2	S4	S4	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=73|end_char=75
 3	fits	fit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=76|end_char=80
@@ -23,7 +32,7 @@
 5	well	well	ADV	RB	Degree=Pos	3	advmod	_	start_char=86|end_char=90
 6	,	,	PUNCT	,	_	8	punct	_	start_char=90|end_char=91
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=92|end_char=94
-8	slim	slim	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=95|end_char=99
+8	slim	slim	ADJ	JJ	Degree=Pos	3	conj	_	start_char=95|end_char=99
 9	and	and	CCONJ	CC	_	12	cc	_	start_char=100|end_char=103
 10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=104|end_char=108
 11	n't	not	PART	RB	_	12	advmod	_	start_char=108|end_char=111
@@ -32,10 +41,13 @@
 14	weight	weight	NOUN	NN	Number=Sing	12	obj	_	start_char=121|end_char=127
 15	to	to	ADP	IN	_	18	case	_	start_char=128|end_char=130
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=131|end_char=134
-17	Galaxy	galaxy	PROPN	NNP	Number=Sing	18	compound	_	start_char=135|end_char=141
+17	Galaxy	Galaxy	PROPN	NNP	Number=Sing	18	compound	_	start_char=135|end_char=141
 18	S4	S4	PROPN	NNP	Number=Sing	12	obl	_	start_char=142|end_char=144
 19	.	.	PUNCT	.	_	3	punct	_	start_char=144|end_char=145
 
+# text = It doubles the battery life.
+# sent_id = 3
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=146|end_char=148
 2	doubles	double	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=149|end_char=156
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=157|end_char=160
@@ -43,6 +55,9 @@
 5	life	life	NOUN	NN	Number=Sing	2	obj	_	start_char=169|end_char=173
 6	.	.	PUNCT	.	_	2	punct	_	start_char=173|end_char=174
 
+# text = You can charge either the battery, the phone or both.
+# sent_id = 4
+# sentiment = 1
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=175|end_char=178
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=179|end_char=182
 3	charge	charge	VERB	VB	VerbForm=Inf	0	root	_	start_char=183|end_char=189
@@ -56,28 +71,34 @@
 11	both	both	DET	DT	_	6	conj	_	start_char=223|end_char=227
 12	.	.	PUNCT	.	_	3	punct	_	start_char=227|end_char=228
 
+# text = There is a handy on-off switch with leds to indicate the level of charge.
+# sent_id = 5
+# sentiment = 1
 1	There	there	PRON	EX	_	2	expl	_	start_char=229|end_char=234
 2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=235|end_char=237
 3	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=238|end_char=239
 4	handy	handy	ADJ	JJ	Degree=Pos	8	amod	_	start_char=240|end_char=245
-5	on	on	ADP	IN	_	7	case	_	start_char=246|end_char=248
+5	on	on	ADP	IN	_	8	compound	_	start_char=246|end_char=248
 6	-	-	PUNCT	HYPH	_	7	punct	_	start_char=248|end_char=249
-7	off	off	NOUN	NN	Number=Sing	8	compound	_	start_char=249|end_char=252
+7	off	off	ADP	RP	_	5	compound:prt	_	start_char=249|end_char=252
 8	switch	switch	NOUN	NN	Number=Sing	2	nsubj	_	start_char=253|end_char=259
 9	with	with	ADP	IN	_	10	case	_	start_char=260|end_char=264
 10	leds	led	NOUN	NNS	Number=Plur	8	nmod	_	start_char=265|end_char=269
 11	to	to	PART	TO	_	12	mark	_	start_char=270|end_char=272
-12	indicate	indicate	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=273|end_char=281
+12	indicate	indicate	VERB	VB	VerbForm=Inf	2	csubj	_	start_char=273|end_char=281
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=282|end_char=285
 14	level	level	NOUN	NN	Number=Sing	12	obj	_	start_char=286|end_char=291
 15	of	of	ADP	IN	_	16	case	_	start_char=292|end_char=294
 16	charge	charge	NOUN	NN	Number=Sing	14	nmod	_	start_char=295|end_char=301
 17	.	.	PUNCT	.	_	2	punct	_	start_char=301|end_char=302
 
+# text = The battery case came on time and was packaged well.
+# sent_id = 6
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=302|end_char=305
 2	battery	battery	NOUN	NN	Number=Sing	3	compound	_	start_char=306|end_char=313
 3	case	case	NOUN	NN	Number=Sing	4	nsubj	_	start_char=314|end_char=318
-4	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=319|end_char=323
+4	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=319|end_char=323
 5	on	on	ADP	IN	_	6	case	_	start_char=324|end_char=326
 6	time	time	NOUN	NN	Number=Sing	4	obl	_	start_char=327|end_char=331
 7	and	and	CCONJ	CC	_	9	cc	_	start_char=332|end_char=335
@@ -86,6 +107,9 @@
 10	well	well	ADV	RB	Degree=Pos	9	advmod	_	start_char=349|end_char=353
 11	.	.	PUNCT	.	_	4	punct	_	start_char=353|end_char=354
 
+# text = Well worth the price.
+# sent_id = 7
+# sentiment = 2
 1	Well	well	INTJ	UH	_	2	discourse	_	start_char=355|end_char=359
 2	worth	worth	ADJ	JJ	Degree=Pos	0	root	_	start_char=360|end_char=365
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=366|end_char=369

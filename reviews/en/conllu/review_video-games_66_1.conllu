@@ -1,16 +1,21 @@
-1	ANNO	ANNO	PROPN	NNP	Number=Sing	0	root	_	start_char=0|end_char=4
-2	2070	2070	NUM	CD	NumType=Card	1	nmod:tmod	_	start_char=5|end_char=9
+# text = ANNO 2070 I have been unable to play this game.
+# sent_id = 0
+# sentiment = 0
+1	ANNO	ANNO	PROPN	NNP	Number=Sing	6	vocative	_	start_char=0|end_char=4
+2	2070	2070	NUM	CD	NumForm=Digit|NumType=Card	1	nummod	_	start_char=5|end_char=9
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=10|end_char=11
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=12|end_char=16
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	start_char=17|end_char=21
+6	unable	unable	ADJ	JJ	Degree=Pos	0	root	_	start_char=22|end_char=28
+7	to	to	PART	TO	_	8	mark	_	start_char=29|end_char=31
+8	play	play	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=32|end_char=36
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=37|end_char=41
+10	game	game	NOUN	NN	Number=Sing	8	obj	_	start_char=42|end_char=46
+11	.	.	PUNCT	.	_	6	punct	_	start_char=46|end_char=47
 
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=10|end_char=11
-2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=12|end_char=16
-3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	cop	_	start_char=17|end_char=21
-4	unable	unable	ADJ	JJ	Degree=Pos	0	root	_	start_char=22|end_char=28
-5	to	to	PART	TO	_	6	mark	_	start_char=29|end_char=31
-6	play	play	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=32|end_char=36
-7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=37|end_char=41
-8	game	game	NOUN	NN	Number=Sing	6	obj	_	start_char=42|end_char=46
-9	.	.	PUNCT	.	_	4	punct	_	start_char=46|end_char=47
-
+# text = Unisoft has made it unplayable if you are not a techno whiz.
+# sent_id = 1
+# sentiment = 0
 1	Unisoft	Unisoft	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=48|end_char=55
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=56|end_char=59
 3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=60|end_char=64
@@ -18,16 +23,19 @@
 5	unplayable	unplayable	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=68|end_char=78
 6	if	if	SCONJ	IN	_	12	mark	_	start_char=79|end_char=81
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	start_char=82|end_char=85
-8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=86|end_char=89
+8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=86|end_char=89
 9	not	not	PART	RB	_	12	advmod	_	start_char=90|end_char=93
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=94|end_char=95
-11	techno	techno	ADJ	JJ	Degree=Pos	12	amod	_	start_char=96|end_char=102
+11	techno	techno	NOUN	NN	Number=Sing	12	compound	_	start_char=96|end_char=102
 12	whiz	whiz	NOUN	NN	Number=Sing	3	advcl	_	start_char=103|end_char=107
 13	.	.	PUNCT	.	_	3	punct	_	start_char=107|end_char=108
 
+# text = ( I have tried several times to get it up and running.)
+# sent_id = 2
+# sentiment = 1
 1	(	(	PUNCT	-LRB-	_	4	punct	_	start_char=109|end_char=110
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=111|end_char=112
-3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=113|end_char=117
+3	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=113|end_char=117
 4	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=118|end_char=123
 5	several	several	ADJ	JJ	Degree=Pos	6	amod	_	start_char=124|end_char=131
 6	times	time	NOUN	NNS	Number=Plur	4	obl:tmod	_	start_char=132|end_char=137
@@ -40,15 +48,18 @@
 13	.	.	PUNCT	.	_	4	punct	_	start_char=162|end_char=163
 14	)	)	PUNCT	-RRB-	_	4	punct	_	start_char=163|end_char=164
 
+# text = I just want to play in my home not on the internet and for some reason it will not load on the computer.
+# sent_id = 3
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=165|end_char=166
 2	just	just	ADV	RB	_	3	advmod	_	start_char=167|end_char=171
-3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=172|end_char=176
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=172|end_char=176
 4	to	to	PART	TO	_	5	mark	_	start_char=177|end_char=179
 5	play	play	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=180|end_char=184
 6	in	in	ADP	IN	_	8	case	_	start_char=185|end_char=187
-7	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=188|end_char=190
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=188|end_char=190
 8	home	home	NOUN	NN	Number=Sing	5	obl	_	start_char=191|end_char=195
-9	not	not	ADV	RB	_	12	advmod	_	start_char=196|end_char=199
+9	not	not	PART	RB	_	12	advmod	_	start_char=196|end_char=199
 10	on	on	ADP	IN	_	12	case	_	start_char=200|end_char=202
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=203|end_char=206
 12	internet	internet	NOUN	NN	Number=Sing	5	obl	_	start_char=207|end_char=215
@@ -65,13 +76,16 @@
 23	computer	computer	NOUN	NN	Number=Sing	20	obl	_	start_char=260|end_char=268
 24	.	.	PUNCT	.	_	3	punct	_	start_char=268|end_char=269
 
+# text = I probably will never buy another UNI-SOFT game or product..
+# sent_id = 4
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=270|end_char=271
 2	probably	probably	ADV	RB	_	5	advmod	_	start_char=272|end_char=280
 3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=281|end_char=285
 4	never	never	ADV	RB	_	5	advmod	_	start_char=286|end_char=291
 5	buy	buy	VERB	VB	VerbForm=Inf	0	root	_	start_char=292|end_char=295
 6	another	another	DET	DT	_	10	det	_	start_char=296|end_char=303
-7	UNI	uni	NOUN	NN	Number=Sing	9	obl:npmod	_	start_char=304|end_char=307
+7	UNI	uni	NOUN	NN	Number=Sing	9	compound	_	start_char=304|end_char=307
 8	-	-	PUNCT	HYPH	_	9	punct	_	start_char=307|end_char=308
 9	SOFT	soft	ADJ	JJ	Degree=Pos	10	amod	_	start_char=308|end_char=312
 10	game	game	NOUN	NN	Number=Sing	5	obj	_	start_char=313|end_char=317

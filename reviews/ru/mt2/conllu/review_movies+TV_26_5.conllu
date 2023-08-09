@@ -1,0 +1,76 @@
+# text = Фонзи в роли Скруджа Генри Уинклер - прекрасный актер, и эта версия знаменитой истории - тому подтверждение.
+# sent_id = 0
+1	Фонзи	Фонзи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=5
+2	в	в	ADP	_	_	3	case	_	start_char=6|end_char=7
+3	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	start_char=8|end_char=12
+4	Скруджа	Скруджа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=13|end_char=20
+5	Генри	Генри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	start_char=21|end_char=26
+6	Уинклер	Уинклер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	start_char=27|end_char=34
+7	-	-	PUNCT	_	_	1	punct	_	start_char=35|end_char=36
+8	прекрасный	прекрасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=37|end_char=47
+9	актер	актер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=48|end_char=53
+10	,	,	PUNCT	_	_	18	punct	_	start_char=53|end_char=54
+11	и	и	CCONJ	_	_	18	cc	_	start_char=55|end_char=56
+12	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=57|end_char=60
+13	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=61|end_char=67
+14	знаменитой	знаменитый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=68|end_char=78
+15	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=79|end_char=86
+16	-	-	PUNCT	_	_	13	punct	_	start_char=87|end_char=88
+17	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	18	iobj	_	start_char=89|end_char=93
+18	подтверждение	подтверждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	conj	_	start_char=94|end_char=107
+19	.	.	PUNCT	_	_	9	punct	_	start_char=107|end_char=108
+
+# text = Он прекрасно справился с ролью Эбенизера Скруджа.
+# sent_id = 1
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=109|end_char=111
+2	прекрасно	прекрасно	ADV	_	Degree=Pos	3	advmod	_	start_char=112|end_char=121
+3	справился	справиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=122|end_char=131
+4	с	с	ADP	_	_	5	case	_	start_char=132|end_char=133
+5	ролью	роль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	start_char=134|end_char=139
+6	Эбенизера	Эбенизер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=140|end_char=149
+7	Скруджа	Скруджа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	start_char=150|end_char=157
+8	.	.	PUNCT	_	_	3	punct	_	start_char=157|end_char=158
+
+# text = Сюжет, конечно, тот же, что и в других версиях, но каждый ремейк по-своему интерпретируется актерами и сценаристами.
+# sent_id = 2
+1	Сюжет	сюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=159|end_char=164
+2	,	,	PUNCT	_	_	1	punct	_	start_char=164|end_char=165
+3	конечно	конечно	ADV	_	Degree=Pos	5	parataxis	_	start_char=166|end_char=173
+4	,	,	PUNCT	_	_	3	punct	_	start_char=173|end_char=174
+5	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	start_char=175|end_char=178
+6	же	же	PART	_	_	5	advmod	_	start_char=179|end_char=181
+7	,	,	PUNCT	_	_	12	punct	_	start_char=181|end_char=182
+8	что	что	SCONJ	_	_	12	mark	_	start_char=183|end_char=186
+9	и	и	PART	_	_	12	advmod	_	start_char=187|end_char=188
+10	в	в	ADP	_	_	12	case	_	start_char=189|end_char=190
+11	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	start_char=191|end_char=197
+12	версиях	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	start_char=198|end_char=205
+13	,	,	PUNCT	_	_	18	punct	_	start_char=205|end_char=206
+14	но	но	CCONJ	_	_	18	cc	_	start_char=207|end_char=209
+15	каждый	каждый	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	16	det	_	start_char=210|end_char=216
+16	ремейк	ремейк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	start_char=217|end_char=223
+17	по-своему	по-своему	ADV	_	Degree=Pos	18	advmod	_	start_char=224|end_char=233
+18	интерпретируется	интерпретировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	start_char=234|end_char=250
+19	актерами	актер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	start_char=251|end_char=259
+20	и	и	CCONJ	_	_	21	cc	_	start_char=260|end_char=261
+21	сценаристами	сценарист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	19	conj	_	start_char=262|end_char=274
+22	.	.	PUNCT	_	_	5	punct	_	start_char=274|end_char=275
+
+# text = Этот фильм веселый и легкий для просмотра.
+# sent_id = 3
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=276|end_char=280
+2	фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=281|end_char=286
+3	веселый	веселый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=287|end_char=294
+4	и	и	CCONJ	_	_	5	cc	_	start_char=295|end_char=296
+5	легкий	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=297|end_char=303
+6	для	для	ADP	_	_	7	case	_	start_char=304|end_char=307
+7	просмотра	просмотр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=308|end_char=317
+8	.	.	PUNCT	_	_	3	punct	_	start_char=317|end_char=318
+
+# text = Отличный семейный фильм.
+# sent_id = 4
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=319|end_char=327
+2	семейный	семейный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=328|end_char=336
+3	фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=337|end_char=342
+4	.	.	PUNCT	_	_	3	punct	_	start_char=342|end_char=343
+

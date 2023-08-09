@@ -1,0 +1,81 @@
+# text = превратился в беспорядок Это было отличное занятие для моего 5-летнего ребенка, но после того, как им воспользовался 2-летний ребенок, оно превратилось в беспорядок.
+# sent_id = 0
+1	превратился	превратиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=0|end_char=11
+2	в	в	ADP	_	_	3	case	_	start_char=12|end_char=13
+3	беспорядок	беспорядок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=14|end_char=24
+4	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=25|end_char=28
+5	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=29|end_char=33
+6	отличное	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=34|end_char=42
+7	занятие	занятие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	start_char=43|end_char=50
+8	для	для	ADP	_	_	11	case	_	start_char=51|end_char=54
+9	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=55|end_char=60
+10	5-летнего	5-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=61|end_char=70
+11	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=71|end_char=78
+12	,	,	PUNCT	_	_	24	punct	_	start_char=78|end_char=79
+13	но	но	CCONJ	_	_	24	cc	_	start_char=80|end_char=82
+14	после	после	ADP	_	_	15	case	_	start_char=83|end_char=88
+15	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	24	obl	_	start_char=89|end_char=93
+16	,	,	PUNCT	_	_	19	punct	_	start_char=93|end_char=94
+17	как	как	SCONJ	_	_	19	mark	_	start_char=95|end_char=98
+18	им	они	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	19	iobj	_	start_char=99|end_char=101
+19	воспользовался	пользоваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl	_	start_char=102|end_char=116
+20	2-летний	2-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=117|end_char=125
+21	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=126|end_char=133
+22	,	,	PUNCT	_	_	15	punct	_	start_char=133|end_char=134
+23	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=135|end_char=138
+24	превратилось	превратиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	start_char=139|end_char=151
+25	в	в	ADP	_	_	26	case	_	start_char=152|end_char=153
+26	беспорядок	беспорядок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	start_char=154|end_char=164
+27	.	.	PUNCT	_	_	1	punct	_	start_char=164|end_char=165
+
+# text = Стиксы слипались или к ним прилипали волоски.
+# sent_id = 1
+1	Стиксы	стикс	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=166|end_char=172
+2	слипались	слипаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=173|end_char=182
+3	или	или	CCONJ	_	_	6	cc	_	start_char=183|end_char=186
+4	к	к	ADP	_	_	5	case	_	start_char=187|end_char=188
+5	ним	он	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	obl	_	start_char=189|end_char=192
+6	прилипали	прилипать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=193|end_char=202
+7	волоски	волосок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=203|end_char=210
+8	.	.	PUNCT	_	_	2	punct	_	start_char=210|end_char=211
+
+# text = В комплект не входит многоразовый пакет или что-то в этом роде, поэтому сейчас они все сложены в большой шар на самом верху книги - ни мои дети, ни я не хотим заниматься их упорядочиванием.
+# sent_id = 2
+1	В	в	ADP	_	_	2	case	_	start_char=212|end_char=213
+2	комплект	комплект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=214|end_char=222
+3	не	не	PART	_	_	4	advmod	_	start_char=223|end_char=225
+4	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=226|end_char=232
+5	многоразовый	многоразовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=233|end_char=245
+6	пакет	пакет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=246|end_char=251
+7	или	или	CCONJ	_	_	8	cc	_	start_char=252|end_char=255
+8	что-то	что-то	PRON	_	Case=Nom|PronType=Ind	6	conj	_	start_char=256|end_char=262
+9	в	в	ADP	_	_	11	case	_	start_char=263|end_char=264
+10	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=265|end_char=269
+11	роде	род	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=270|end_char=274
+12	,	,	PUNCT	_	_	17	punct	_	start_char=274|end_char=275
+13	поэтому	поэтому	ADV	_	Degree=Pos	17	advmod	_	start_char=276|end_char=283
+14	сейчас	сейчас	ADV	_	Degree=Pos	17	advmod	_	start_char=284|end_char=290
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj:pass	_	start_char=291|end_char=294
+16	все	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	15	det	_	start_char=295|end_char=298
+17	сложены	сложить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	start_char=299|end_char=306
+18	в	в	ADP	_	_	20	case	_	start_char=307|end_char=308
+19	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=309|end_char=316
+20	шар	шар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=317|end_char=320
+21	на	на	ADP	_	_	23	case	_	start_char=321|end_char=323
+22	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=324|end_char=329
+23	верху	верх	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	start_char=330|end_char=335
+24	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	start_char=336|end_char=341
+25	-	-	PUNCT	_	_	33	punct	_	start_char=342|end_char=343
+26	ни	ни	CCONJ	_	_	28	cc	_	start_char=344|end_char=346
+27	мои	мой	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	28	det	_	start_char=347|end_char=350
+28	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	start_char=351|end_char=355
+29	,	,	PUNCT	_	_	31	punct	_	start_char=355|end_char=356
+30	ни	ни	CCONJ	_	_	31	cc	_	start_char=357|end_char=359
+31	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	conj	_	start_char=360|end_char=361
+32	не	не	PART	_	_	33	advmod	_	start_char=362|end_char=364
+33	хотим	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	start_char=365|end_char=370
+34	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	33	xcomp	_	start_char=371|end_char=381
+35	их	их	DET	_	Poss=Yes|PronType=Prs	36	det	_	start_char=382|end_char=384
+36	упорядочиванием	упорядочивание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	34	obl	_	start_char=385|end_char=400
+37	.	.	PUNCT	_	_	4	punct	_	start_char=400|end_char=401
+

@@ -1,0 +1,79 @@
+# text = Другая книга.
+# sent_id = 0
+1	Другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=12
+3	.	.	PUNCT	_	_	2	punct	_	start_char=12|end_char=13
+
+# text = Не тот оригинал, который ожидался.
+# sent_id = 1
+1	Не	не	PART	_	_	2	advmod	_	start_char=14|end_char=16
+2	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=17|end_char=20
+3	оригинал	оригинал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=21|end_char=29
+4	,	,	PUNCT	_	_	6	punct	_	start_char=29|end_char=30
+5	который	который	PRON	_	Case=Nom|PronType=Int,Rel	6	nsubj:pass	_	start_char=31|end_char=38
+6	ожидался	ожидать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	start_char=39|end_char=47
+7	.	.	PUNCT	_	_	3	punct	_	start_char=47|end_char=48
+
+# text = Отсутствуют части.
+# sent_id = 2
+1	Отсутствуют	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=60
+2	части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=61|end_char=66
+3	.	.	PUNCT	_	_	1	punct	_	start_char=66|end_char=67
+
+# text = Я ожидала получить книгу "Спокойной ночи, сладкие бабочки", которая была у меня в большем формате.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=68|end_char=69
+2	ожидала	ожидать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=70|end_char=77
+3	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=78|end_char=86
+4	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=87|end_char=92
+5	"	"	PUNCT	_	_	7	punct	_	start_char=93|end_char=94
+6	Спокойной	спокойный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=94|end_char=103
+7	ночи	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=104|end_char=108
+8	,	,	PUNCT	_	_	10	punct	_	start_char=108|end_char=109
+9	сладкие	сладкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=110|end_char=117
+10	бабочки	бабочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	conj	_	start_char=118|end_char=125
+11	"	"	PUNCT	_	_	7	punct	_	start_char=125|end_char=126
+12	,	,	PUNCT	_	_	19	punct	_	start_char=126|end_char=127
+13	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	19	nsubj	_	start_char=128|end_char=135
+14	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	start_char=136|end_char=140
+15	у	у	ADP	_	_	16	case	_	start_char=141|end_char=142
+16	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	19	nmod	_	start_char=143|end_char=147
+17	в	в	ADP	_	_	19	case	_	start_char=148|end_char=149
+18	большем	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=150|end_char=157
+19	формате	формат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	acl:relcl	_	start_char=158|end_char=165
+20	.	.	PUNCT	_	_	2	punct	_	start_char=165|end_char=166
+
+# text = Поскольку книга маленькая, некоторые страницы были обрезаны, а текст совершенно другой и намного хуже, чем в большой книге.
+# sent_id = 4
+1	Поскольку	поскольку	SCONJ	_	_	3	mark	_	start_char=167|end_char=176
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=177|end_char=182
+3	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	advcl	_	start_char=183|end_char=192
+4	,	,	PUNCT	_	_	3	punct	_	start_char=192|end_char=193
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	6	det	_	start_char=194|end_char=203
+6	страницы	страница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	start_char=204|end_char=212
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=213|end_char=217
+8	обрезаны	обрезать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=218|end_char=226
+9	,	,	PUNCT	_	_	13	punct	_	start_char=226|end_char=227
+10	а	а	CCONJ	_	_	13	cc	_	start_char=228|end_char=229
+11	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=230|end_char=235
+12	совершенно	совершенно	ADV	_	Degree=Pos	13	obl	_	start_char=236|end_char=246
+13	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	start_char=247|end_char=253
+14	и	и	CCONJ	_	_	16	cc	_	start_char=254|end_char=255
+15	намного	намного	ADV	_	Degree=Pos	16	advmod	_	start_char=256|end_char=263
+16	хуже	плохой	ADJ	_	Degree=Cmp	8	conj	_	start_char=264|end_char=268
+17	,	,	PUNCT	_	_	21	punct	_	start_char=268|end_char=269
+18	чем	чем	SCONJ	_	_	21	mark	_	start_char=270|end_char=273
+19	в	в	ADP	_	_	21	case	_	start_char=274|end_char=275
+20	большой	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=276|end_char=283
+21	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	start_char=284|end_char=289
+22	.	.	PUNCT	_	_	8	punct	_	start_char=289|end_char=290
+
+# text = Я очень разочарована этой покупкой.
+# sent_id = 5
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=291|end_char=292
+2	очень	очень	ADV	_	Degree=Pos	3	advmod	_	start_char=293|end_char=298
+3	разочарована	разочаровать	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=299|end_char=311
+4	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=312|end_char=316
+5	покупкой	покупка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	start_char=317|end_char=325
+6	.	.	PUNCT	_	_	3	punct	_	start_char=325|end_char=326
+

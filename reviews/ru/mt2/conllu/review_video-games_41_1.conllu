@@ -1,0 +1,151 @@
+# text = Пустая трата времени и денег.......
+# sent_id = 0
+1	Пустая	пустой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	трата	трата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=12
+3	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=13|end_char=20
+4	и	и	CCONJ	_	_	5	cc	_	start_char=21|end_char=22
+5	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	start_char=23|end_char=28
+6	.	.	PUNCT	_	_	5	punct	_	start_char=28|end_char=29
+7	.	.	PUNCT	_	_	5	punct	_	start_char=29|end_char=30
+8	.	.	PUNCT	_	_	5	punct	_	start_char=30|end_char=31
+9	.	.	PUNCT	_	_	5	punct	_	start_char=31|end_char=32
+10	.	.	PUNCT	_	_	5	punct	_	start_char=32|end_char=33
+11	.	.	PUNCT	_	_	2	punct	_	start_char=33|end_char=34
+12	.	.	PUNCT	_	_	2	punct	_	start_char=34|end_char=35
+
+# text = Эта игра не устанавливается ни на один из моих семи компьютеров.
+# sent_id = 1
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=36|end_char=39
+2	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	_	start_char=40|end_char=44
+3	не	не	PART	_	_	4	advmod	_	start_char=45|end_char=47
+4	устанавливается	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=48|end_char=63
+5	ни	ни	PART	_	_	7	advmod	_	start_char=64|end_char=66
+6	на	на	ADP	_	_	7	case	_	start_char=67|end_char=69
+7	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	4	obl	_	start_char=70|end_char=74
+8	из	из	ADP	_	_	11	case	_	start_char=75|end_char=77
+9	моих	мой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	start_char=78|end_char=82
+10	семи	семь	NUM	_	Case=Gen|NumType=Card	11	nummod	_	start_char=83|end_char=87
+11	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=88|end_char=99
+12	.	.	PUNCT	_	_	4	punct	_	start_char=99|end_char=100
+
+# text = Программа установки настолько устарела, что если она обнаруживает какое-либо оборудование, которое она не распознает (т.е. современное оборудование), она прерывает установку. современное оборудование), она завершает работу.
+# sent_id = 2
+1	Программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=101|end_char=110
+2	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=111|end_char=120
+3	настолько	настолько	ADV	_	Degree=Pos	4	advmod	_	start_char=121|end_char=130
+4	устарела	устареть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=131|end_char=139
+5	,	,	PUNCT	_	_	33	punct	_	start_char=139|end_char=140
+6	что	что	SCONJ	_	_	33	mark	_	start_char=141|end_char=144
+7	если	если	SCONJ	_	_	9	mark	_	start_char=145|end_char=149
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=150|end_char=153
+9	обнаруживает	обнаруживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	advcl	_	start_char=154|end_char=166
+10	какое-либо	какой-либо	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	start_char=167|end_char=177
+11	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=178|end_char=190
+12	,	,	PUNCT	_	_	16	punct	_	start_char=190|end_char=191
+13	которое	который	PRON	_	Case=Acc|PronType=Int,Rel	16	obj	_	start_char=192|end_char=199
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=200|end_char=203
+15	не	не	PART	_	_	16	advmod	_	start_char=204|end_char=206
+16	распознает	распознавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=207|end_char=217
+17	(	(	PUNCT	_	_	18	punct	_	start_char=218|end_char=219
+18	т.е	т.е	ADV	_	Degree=Pos	16	parataxis	_	start_char=219|end_char=222
+19	.	.	PUNCT	_	_	18	punct	_	start_char=222|end_char=223
+20	современное	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	start_char=224|end_char=235
+21	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	start_char=236|end_char=248
+22	)	)	PUNCT	_	_	18	punct	_	start_char=248|end_char=249
+23	,	,	PUNCT	_	_	9	punct	_	start_char=249|end_char=250
+24	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=251|end_char=254
+25	прерывает	прерывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	start_char=255|end_char=264
+26	установку	установка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	start_char=265|end_char=274
+27	.	.	PUNCT	_	_	26	punct	_	start_char=274|end_char=275
+28	современное	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	start_char=276|end_char=287
+29	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	appos	_	start_char=288|end_char=300
+30	)	)	PUNCT	_	_	25	punct	_	start_char=300|end_char=301
+31	,	,	PUNCT	_	_	9	punct	_	start_char=301|end_char=302
+32	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	start_char=303|end_char=306
+33	завершает	завершать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=307|end_char=316
+34	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	33	obj	_	start_char=317|end_char=323
+35	.	.	PUNCT	_	_	4	punct	_	start_char=323|end_char=324
+
+# text = Перепробовал все приемы на форуме пользователей, которые смог найти.
+# sent_id = 3
+1	Перепробовал	перепробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=325|end_char=337
+2	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	3	det	_	start_char=338|end_char=341
+3	приемы	прием	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=342|end_char=348
+4	на	на	ADP	_	_	5	case	_	start_char=349|end_char=351
+5	форуме	форум	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=352|end_char=358
+6	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=359|end_char=372
+7	,	,	PUNCT	_	_	9	punct	_	start_char=372|end_char=373
+8	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	10	obj	_	start_char=374|end_char=381
+9	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=382|end_char=386
+10	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=387|end_char=392
+11	.	.	PUNCT	_	_	1	punct	_	start_char=392|end_char=393
+
+# text = Ни один из них не помог.
+# sent_id = 4
+1	Ни	ни	PART	_	_	2	advmod	_	start_char=394|end_char=396
+2	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	6	nsubj	_	start_char=397|end_char=401
+3	из	из	ADP	_	_	4	case	_	start_char=402|end_char=404
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod	_	start_char=405|end_char=408
+5	не	не	PART	_	_	6	advmod	_	start_char=409|end_char=411
+6	помог	помочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=412|end_char=417
+7	.	.	PUNCT	_	_	6	punct	_	start_char=417|end_char=418
+
+# text = Даже издатель отказался от этой игры и больше не поддерживает ее.
+# sent_id = 5
+1	Даже	даже	PART	_	_	2	advmod	_	start_char=419|end_char=423
+2	издатель	издатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=424|end_char=432
+3	отказался	отказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=433|end_char=442
+4	от	от	ADP	_	_	6	case	_	start_char=443|end_char=445
+5	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=446|end_char=450
+6	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=451|end_char=455
+7	и	и	CCONJ	_	_	10	cc	_	start_char=456|end_char=457
+8	больше	больше	ADV	_	Degree=Cmp	9	advmod	_	start_char=458|end_char=464
+9	не	не	PART	_	_	10	advmod	_	start_char=465|end_char=467
+10	поддерживает	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=468|end_char=480
+11	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=481|end_char=483
+12	.	.	PUNCT	_	_	3	punct	_	start_char=483|end_char=484
+
+# text = Полный бред.
+# sent_id = 6
+1	Полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=485|end_char=491
+2	бред	бред	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=492|end_char=496
+3	.	.	PUNCT	_	_	2	punct	_	start_char=496|end_char=497
+
+# text = Не стоит и говорить, что мой сын был очень разочарован.
+# sent_id = 7
+1	Не	не	PART	_	_	2	advmod	_	start_char=498|end_char=500
+2	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=501|end_char=506
+3	и	и	CCONJ	_	_	4	advmod	_	start_char=507|end_char=508
+4	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=509|end_char=517
+5	,	,	PUNCT	_	_	11	punct	_	start_char=517|end_char=518
+6	что	что	SCONJ	_	_	11	mark	_	start_char=519|end_char=522
+7	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	start_char=523|end_char=526
+8	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=527|end_char=530
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=531|end_char=534
+10	очень	очень	ADV	_	Degree=Pos	11	obl	_	start_char=535|end_char=540
+11	разочарован	разочарованный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	ccomp	_	start_char=541|end_char=552
+12	.	.	PUNCT	_	_	2	punct	_	start_char=552|end_char=553
+
+# text = Не стоит беспокоиться об этой игре.
+# sent_id = 8
+1	Не	не	PART	_	_	2	advmod	_	start_char=554|end_char=556
+2	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=557|end_char=562
+3	беспокоиться	беспокоиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	csubj	_	start_char=563|end_char=575
+4	об	о	ADP	_	_	6	case	_	start_char=576|end_char=578
+5	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=579|end_char=583
+6	игре	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	start_char=584|end_char=588
+7	.	.	PUNCT	_	_	2	punct	_	start_char=588|end_char=589
+
+# text = Это устаревшее программное обеспечение, предназначенное для устаревшего оборудования.
+# sent_id = 9
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=590|end_char=593
+2	устаревшее	устареть	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	amod	_	start_char=594|end_char=604
+3	программное	программный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=605|end_char=616
+4	обеспечение	обеспечение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=617|end_char=628
+5	,	,	PUNCT	_	_	6	punct	_	start_char=628|end_char=629
+6	предназначенное	предназначить	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=630|end_char=645
+7	для	для	ADP	_	_	9	case	_	start_char=646|end_char=649
+8	устаревшего	устареть	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	amod	_	start_char=650|end_char=661
+9	оборудования	оборудование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	start_char=662|end_char=674
+10	.	.	PUNCT	_	_	4	punct	_	start_char=674|end_char=675
+

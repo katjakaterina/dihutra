@@ -1,20 +1,26 @@
+# text = Hurts my ears.
+# sent_id = 0
+# sentiment = 1
 1	Hurts	hurt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
-2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=6|end_char=8
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=6|end_char=8
 3	ears	ear	NOUN	NNS	Number=Plur	1	obj	_	start_char=9|end_char=13
 4	.	.	PUNCT	.	_	1	punct	_	start_char=13|end_char=14
 
-1	Came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=15|end_char=19
+# text = Came across this accidentally and took it home to play--thought it might be a good gift for a seven year old I know.
+# sent_id = 1
+# sentiment = 2
+1	Came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=15|end_char=19
 2	across	across	ADP	IN	_	3	case	_	start_char=20|end_char=26
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obl	_	start_char=27|end_char=31
 4	accidentally	accidentally	ADV	RB	_	1	advmod	_	start_char=32|end_char=44
 5	and	and	CCONJ	CC	_	6	cc	_	start_char=45|end_char=48
-6	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	start_char=49|end_char=53
+6	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	conj	_	start_char=49|end_char=53
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=54|end_char=56
 8	home	home	ADV	RB	_	6	advmod	_	start_char=57|end_char=61
 9	to	to	PART	TO	_	10	mark	_	start_char=62|end_char=64
 10	play	play	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=65|end_char=69
 11	--	--	PUNCT	,	_	1	punct	_	start_char=69|end_char=71
-12	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	start_char=71|end_char=78
+12	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	parataxis	_	start_char=71|end_char=78
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=79|end_char=81
 14	might	might	AUX	MD	VerbForm=Fin	18	aux	_	start_char=82|end_char=87
 15	be	be	AUX	VB	VerbForm=Inf	18	cop	_	start_char=88|end_char=90
@@ -23,15 +29,18 @@
 18	gift	gift	NOUN	NN	Number=Sing	12	ccomp	_	start_char=98|end_char=102
 19	for	for	ADP	IN	_	23	case	_	start_char=103|end_char=106
 20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	start_char=107|end_char=108
-21	seven	seven	NUM	CD	NumType=Card	22	nummod	_	start_char=109|end_char=114
-22	year	year	NOUN	NN	Number=Sing	23	obl:tmod	_	start_char=115|end_char=119
+21	seven	seven	NUM	CD	NumForm=Word|NumType=Card	22	nummod	_	start_char=109|end_char=114
+22	year	year	NOUN	NN	Number=Sing	23	obl:npmod	_	start_char=115|end_char=119
 23	old	old	ADJ	JJ	Degree=Pos	18	nmod	_	start_char=120|end_char=123
 24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	start_char=124|end_char=125
-25	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	start_char=126|end_char=130
+25	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	start_char=126|end_char=130
 26	.	.	PUNCT	.	_	1	punct	_	start_char=130|end_char=131
 
+# text = Games are fun, so far as I could stand the decibel level.
+# sent_id = 2
+# sentiment = 2
 1	Games	game	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=132|end_char=137
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=138|end_char=141
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=138|end_char=141
 3	fun	fun	ADJ	JJ	Degree=Pos	0	root	_	start_char=142|end_char=145
 4	,	,	PUNCT	,	_	3	punct	_	start_char=145|end_char=146
 5	so	so	ADV	RB	_	6	advmod	_	start_char=147|end_char=149
@@ -45,6 +54,9 @@
 13	level	level	NOUN	NN	Number=Sing	10	obj	_	start_char=183|end_char=188
 14	.	.	PUNCT	.	_	3	punct	_	start_char=188|end_char=189
 
+# text = For me to hear the voices, the music was so loud that the total sound hurt my ears.
+# sent_id = 3
+# sentiment = 0
 1	For	for	SCONJ	IN	_	4	mark	_	start_char=190|end_char=193
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=194|end_char=196
 3	to	to	PART	TO	_	4	mark	_	start_char=197|end_char=199
@@ -61,11 +73,14 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=244|end_char=247
 15	total	total	ADJ	JJ	Degree=Pos	16	amod	_	start_char=248|end_char=253
 16	sound	sound	NOUN	NN	Number=Sing	17	nsubj	_	start_char=254|end_char=259
-17	hurt	hurt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	ccomp	_	start_char=260|end_char=264
-18	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=265|end_char=267
+17	hurt	hurt	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	start_char=260|end_char=264
+18	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=265|end_char=267
 19	ears	ear	NOUN	NNS	Number=Plur	17	obj	_	start_char=268|end_char=272
 20	.	.	PUNCT	.	_	12	punct	_	start_char=272|end_char=273
 
+# text = If the relative loudness of the music and voices were reversed, this would be a better product.
+# sent_id = 4
+# sentiment = 0
 1	If	if	SCONJ	IN	_	11	mark	_	start_char=274|end_char=276
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=277|end_char=280
 3	relative	relative	ADJ	JJ	Degree=Pos	4	amod	_	start_char=281|end_char=289
@@ -75,9 +90,9 @@
 7	music	music	NOUN	NN	Number=Sing	4	nmod	_	start_char=306|end_char=311
 8	and	and	CCONJ	CC	_	9	cc	_	start_char=312|end_char=315
 9	voices	voice	NOUN	NNS	Number=Plur	7	conj	_	start_char=316|end_char=322
-10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	start_char=323|end_char=327
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	start_char=323|end_char=327
 11	reversed	reverse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	start_char=328|end_char=336
-12	,	,	PUNCT	,	_	18	punct	_	start_char=336|end_char=337
+12	,	,	PUNCT	,	_	11	punct	_	start_char=336|end_char=337
 13	this	this	PRON	DT	Number=Sing|PronType=Dem	18	nsubj	_	start_char=338|end_char=342
 14	would	would	AUX	MD	VerbForm=Fin	18	aux	_	start_char=343|end_char=348
 15	be	be	AUX	VB	VerbForm=Inf	18	cop	_	start_char=349|end_char=351

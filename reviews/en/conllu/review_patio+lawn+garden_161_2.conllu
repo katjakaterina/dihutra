@@ -1,53 +1,69 @@
+# text = Not For Hills
+# sent_id = 0
+# sentiment = 1
 1	Not	not	PART	RB	_	3	advmod	_	start_char=0|end_char=3
 2	For	for	ADP	IN	_	3	case	_	start_char=4|end_char=7
 3	Hills	Hills	PROPN	NNPS	Number=Plur	0	root	_	start_char=8|end_char=13
 
+# text = I'm not sure how I missed that important point, but I did.
+# sent_id = 1
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=14|end_char=15
-2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=15|end_char=17
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=15|end_char=17
 3	not	not	PART	RB	_	4	advmod	_	start_char=18|end_char=21
 4	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	start_char=22|end_char=26
-5	how	how	SCONJ	WRB	PronType=Int	7	mark	_	start_char=27|end_char=30
+5	how	how	ADV	WRB	PronType=Int	7	advmod	_	start_char=27|end_char=30
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=31|end_char=32
-7	missed	miss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=33|end_char=39
+7	missed	miss	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=33|end_char=39
 8	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=40|end_char=44
 9	important	important	ADJ	JJ	Degree=Pos	10	amod	_	start_char=45|end_char=54
 10	point	point	NOUN	NN	Number=Sing	7	obj	_	start_char=55|end_char=60
 11	,	,	PUNCT	,	_	14	punct	_	start_char=60|end_char=61
 12	but	but	CCONJ	CC	_	14	cc	_	start_char=62|end_char=65
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=66|end_char=67
-14	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	start_char=68|end_char=71
+14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	conj	_	start_char=68|end_char=71
 15	.	.	PUNCT	.	_	4	punct	_	start_char=71|end_char=72
 
+# text = I don't see that clearly mentioned from scott's, either.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=73|end_char=74
-2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=75|end_char=77
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=75|end_char=77
 3	n't	not	PART	RB	_	4	advmod	_	start_char=77|end_char=80
 4	see	see	VERB	VB	VerbForm=Inf	0	root	_	start_char=81|end_char=84
-5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=85|end_char=89
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=85|end_char=89
 6	clearly	clearly	ADV	RB	_	7	advmod	_	start_char=90|end_char=97
-7	mentioned	mention	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=98|end_char=107
+7	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Part	4	xcomp	_	start_char=98|end_char=107
 8	from	from	ADP	IN	_	9	case	_	start_char=108|end_char=112
-9	scott's	scott's	NOUN	NNS	Number=Plur	7	obl	_	start_char=113|end_char=120
-10	,	,	PUNCT	,	_	4	punct	_	start_char=120|end_char=121
-11	either	either	ADV	RB	_	7	advmod	_	start_char=122|end_char=128
-12	.	.	PUNCT	.	_	4	punct	_	start_char=128|end_char=129
+9	scott	scott	PROPN	NNP	Number=Sing	7	obl	_	start_char=113|end_char=118
+10	's	's	PART	POS	_	9	case	_	start_char=118|end_char=120
+11	,	,	PUNCT	,	_	4	punct	_	start_char=120|end_char=121
+12	either	either	ADV	RB	_	4	advmod	_	start_char=122|end_char=128
+13	.	.	PUNCT	.	_	4	punct	_	start_char=128|end_char=129
 
+# text = This particular model with the four wheels makes it nearly impossible to use on hills.
+# sent_id = 3
+# sentiment = 0
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=130|end_char=134
 2	particular	particular	ADJ	JJ	Degree=Pos	3	amod	_	start_char=135|end_char=145
 3	model	model	NOUN	NN	Number=Sing	8	nsubj	_	start_char=146|end_char=151
 4	with	with	ADP	IN	_	7	case	_	start_char=152|end_char=156
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=157|end_char=160
-6	four	four	NUM	CD	NumType=Card	7	nummod	_	start_char=161|end_char=165
+6	four	four	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=161|end_char=165
 7	wheels	wheel	NOUN	NNS	Number=Plur	3	nmod	_	start_char=166|end_char=172
 8	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=173|end_char=178
-9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=179|end_char=181
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	start_char=179|end_char=181
 10	nearly	nearly	ADV	RB	_	11	advmod	_	start_char=182|end_char=188
 11	impossible	impossible	ADJ	JJ	Degree=Pos	8	xcomp	_	start_char=189|end_char=199
 12	to	to	PART	TO	_	13	mark	_	start_char=200|end_char=202
-13	use	use	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=203|end_char=206
+13	use	use	VERB	VB	VerbForm=Inf	11	ccomp	_	start_char=203|end_char=206
 14	on	on	ADP	IN	_	15	case	_	start_char=207|end_char=209
 15	hills	hill	NOUN	NNS	Number=Plur	13	obl	_	start_char=210|end_char=215
 16	.	.	PUNCT	.	_	8	punct	_	start_char=215|end_char=216
 
+# text = It just doesn't have the leverage to cut the grass.
+# sent_id = 4
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=217|end_char=219
 2	just	just	ADV	RB	_	5	advmod	_	start_char=220|end_char=224
 3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=225|end_char=229
@@ -61,24 +77,30 @@
 11	grass	grass	NOUN	NN	Number=Sing	9	obj	_	start_char=262|end_char=267
 12	.	.	PUNCT	.	_	5	punct	_	start_char=267|end_char=268
 
+# text = So I'm back to the mower.
+# sent_id = 5
+# sentiment = 1
 1	So	so	ADV	RB	_	4	advmod	_	start_char=269|end_char=271
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=272|end_char=273
-3	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=273|end_char=275
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=273|end_char=275
 4	back	back	ADV	RB	_	0	root	_	start_char=276|end_char=280
 5	to	to	ADP	IN	_	7	case	_	start_char=281|end_char=283
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=284|end_char=287
 7	mower	mower	NOUN	NN	Number=Sing	4	obl	_	start_char=288|end_char=293
-8	.	.	PUNCT	.	_	4	punct	_	start_char=293|end_char=294
+8	.	.	PUNCT	.	_	7	punct	_	start_char=293|end_char=294
 
-1	One	one	NUM	CD	NumType=Card	2	nummod	_	start_char=295|end_char=298
-2	thing	thing	NOUN	NN	Number=Sing	6	nsubj	_	start_char=299|end_char=304
+# text = One thing I will say is that it cuts well on flat surfaces, but it does require a bit more effort than I thought to push.
+# sent_id = 6
+# sentiment = 1
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=295|end_char=298
+2	thing	thing	NOUN	NN	Number=Sing	9	nsubj:outer	_	start_char=299|end_char=304
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=305|end_char=306
 4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=307|end_char=311
 5	say	say	VERB	VB	VerbForm=Inf	2	acl:relcl	_	start_char=312|end_char=315
-6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=316|end_char=318
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=316|end_char=318
 7	that	that	SCONJ	IN	_	9	mark	_	start_char=319|end_char=323
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=324|end_char=326
-9	cuts	cut	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=327|end_char=331
+9	cuts	cut	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=327|end_char=331
 10	well	well	ADV	RB	Degree=Pos	9	advmod	_	start_char=332|end_char=336
 11	on	on	ADP	IN	_	13	case	_	start_char=337|end_char=339
 12	flat	flat	ADJ	JJ	Degree=Pos	13	amod	_	start_char=340|end_char=344
@@ -94,8 +116,8 @@
 22	effort	effort	NOUN	NN	Number=Sing	18	obj	_	start_char=386|end_char=392
 23	than	than	SCONJ	IN	_	25	mark	_	start_char=393|end_char=397
 24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	start_char=398|end_char=399
-25	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	start_char=400|end_char=407
+25	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	advcl	_	start_char=400|end_char=407
 26	to	to	PART	TO	_	27	mark	_	start_char=408|end_char=410
 27	push	push	VERB	VB	VerbForm=Inf	25	xcomp	_	start_char=411|end_char=415
-28	.	.	PUNCT	.	_	6	punct	_	start_char=415|end_char=416
+28	.	.	PUNCT	.	_	9	punct	_	start_char=415|end_char=416
 

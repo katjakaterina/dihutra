@@ -1,0 +1,110 @@
+# text = потратить дополнительные деньги на лучший комплект пользовался им около года и, безусловно, пришлось купить более качественное оборудование.
+# sent_id = 0
+1	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	start_char=0|end_char=9
+2	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=10|end_char=24
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=25|end_char=31
+4	на	на	ADP	_	_	6	case	_	start_char=32|end_char=34
+5	лучший	лучший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=35|end_char=41
+6	комплект	комплект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=42|end_char=50
+7	пользовался	пользоваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=51|end_char=62
+8	им	они	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	start_char=63|end_char=65
+9	около	около	ADP	_	_	10	case	_	start_char=66|end_char=71
+10	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=72|end_char=76
+11	и	и	CCONJ	_	_	15	cc	_	start_char=77|end_char=78
+12	,	,	PUNCT	_	_	11	punct	_	start_char=78|end_char=79
+13	безусловно	безусловно	ADV	_	Degree=Pos	15	parataxis	_	start_char=80|end_char=90
+14	,	,	PUNCT	_	_	13	punct	_	start_char=90|end_char=91
+15	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	start_char=92|end_char=100
+16	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	csubj	_	start_char=101|end_char=107
+17	более	более	ADV	_	Degree=Cmp	18	obl	_	start_char=108|end_char=113
+18	качественное	качественный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=114|end_char=126
+19	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=127|end_char=139
+20	.	.	PUNCT	_	_	7	punct	_	start_char=139|end_char=140
+
+# text = Тонкий стержень для чистки - сломался.
+# sent_id = 1
+1	Тонкий	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=141|end_char=147
+2	стержень	стержень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=148|end_char=156
+3	для	для	ADP	_	_	4	case	_	start_char=157|end_char=160
+4	чистки	чистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=161|end_char=167
+5	-	-	PUNCT	_	_	2	punct	_	start_char=168|end_char=169
+6	сломался	ломаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=170|end_char=178
+7	.	.	PUNCT	_	_	6	punct	_	start_char=178|end_char=179
+
+# text = Более толстый стержень для чистки - тоже сломался.
+# sent_id = 2
+1	Более	более	ADV	_	Degree=Cmp	2	obl	_	start_char=180|end_char=185
+2	толстый	толстый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=186|end_char=193
+3	стержень	стержень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=194|end_char=202
+4	для	для	ADP	_	_	5	case	_	start_char=203|end_char=206
+5	чистки	чистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=207|end_char=213
+6	-	-	PUNCT	_	_	3	punct	_	start_char=214|end_char=215
+7	тоже	тоже	PART	_	_	8	advmod	_	start_char=216|end_char=220
+8	сломался	ломаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=221|end_char=229
+9	.	.	PUNCT	_	_	8	punct	_	start_char=229|end_char=230
+
+# text = Я не прикладываю к ним больших усилий, они просто очень мягкие/дешевые.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=231|end_char=232
+2	не	не	PART	_	_	3	advmod	_	start_char=233|end_char=235
+3	прикладываю	прикладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=236|end_char=247
+4	к	к	ADP	_	_	5	case	_	start_char=248|end_char=249
+5	ним	он	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	obl	_	start_char=250|end_char=253
+6	больших	большой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=254|end_char=261
+7	усилий	усилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	start_char=262|end_char=268
+8	,	,	PUNCT	_	_	12	punct	_	start_char=268|end_char=269
+9	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=270|end_char=273
+10	просто	просто	PART	_	_	11	advmod	_	start_char=274|end_char=280
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	start_char=281|end_char=286
+12	мягкие	мягкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	start_char=287|end_char=293
+13	/	/	PUNCT	_	_	14	punct	_	start_char=293|end_char=294
+14	дешевые	дешевый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	conj	_	start_char=294|end_char=301
+15	.	.	PUNCT	_	_	3	punct	_	start_char=301|end_char=302
+
+# text = Щетки достаточно приличные.
+# sent_id = 4
+1	Щетки	щетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=303|end_char=308
+2	достаточно	достаточно	ADV	_	Degree=Pos	3	obl	_	start_char=309|end_char=319
+3	приличные	приличный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=320|end_char=329
+4	.	.	PUNCT	_	_	3	punct	_	start_char=329|end_char=330
+
+# text = После того, как я потратил деньги на более хороший набор, я думаю, что получил урок.
+# sent_id = 5
+1	После	после	ADP	_	_	2	case	_	start_char=331|end_char=336
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	start_char=337|end_char=341
+3	,	,	PUNCT	_	_	6	punct	_	start_char=341|end_char=342
+4	как	как	SCONJ	_	_	6	mark	_	start_char=343|end_char=346
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=347|end_char=348
+6	потратил	тратить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	start_char=349|end_char=357
+7	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=358|end_char=364
+8	на	на	ADP	_	_	11	case	_	start_char=365|end_char=367
+9	более	более	ADV	_	Degree=Cmp	10	obl	_	start_char=368|end_char=373
+10	хороший	хороший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=374|end_char=381
+11	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=382|end_char=387
+12	,	,	PUNCT	_	_	2	punct	_	start_char=387|end_char=388
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=389|end_char=390
+14	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=391|end_char=396
+15	,	,	PUNCT	_	_	17	punct	_	start_char=396|end_char=397
+16	что	что	SCONJ	_	_	17	mark	_	start_char=398|end_char=401
+17	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	ccomp	_	start_char=402|end_char=409
+18	урок	урок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=410|end_char=414
+19	.	.	PUNCT	_	_	14	punct	_	start_char=414|end_char=415
+
+# text = если у вас есть средства, не стоит тратиться и купить что-то более приятное.
+# sent_id = 6
+1	если	если	SCONJ	_	_	4	mark	_	start_char=416|end_char=420
+2	у	у	ADP	_	_	3	case	_	start_char=421|end_char=422
+3	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	obl	_	start_char=423|end_char=426
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=427|end_char=431
+5	средства	средства	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=432|end_char=440
+6	,	,	PUNCT	_	_	4	punct	_	start_char=440|end_char=441
+7	не	не	PART	_	_	8	advmod	_	start_char=442|end_char=444
+8	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=445|end_char=450
+9	тратиться	тратиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	csubj	_	start_char=451|end_char=460
+10	и	и	CCONJ	_	_	11	cc	_	start_char=461|end_char=462
+11	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	start_char=463|end_char=469
+12	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	11	obj	_	start_char=470|end_char=476
+13	более	более	ADV	_	Degree=Cmp	14	obl	_	start_char=477|end_char=482
+14	приятное	приятный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=483|end_char=491
+15	.	.	PUNCT	_	_	8	punct	_	start_char=491|end_char=492
+

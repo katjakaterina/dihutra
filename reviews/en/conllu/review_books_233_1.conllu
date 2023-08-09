@@ -1,11 +1,17 @@
+# text = Excellent
+# sent_id = 0
+# sentiment = 1
 1	Excellent	excellent	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=9
 
+# text = Those that I stared I have and would recommend to others.
+# sent_id = 1
+# sentiment = 1
 1	Those	that	PRON	DT	Number=Plur|PronType=Dem	6	obj	_	start_char=10|end_char=15
 2	that	that	PRON	WDT	PronType=Rel	4	obj	_	start_char=16|end_char=20
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=21|end_char=22
-4	stared	stare	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	start_char=23|end_char=29
+4	stared	stare	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	acl:relcl	_	start_char=23|end_char=29
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=30|end_char=31
-6	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=32|end_char=36
+6	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=32|end_char=36
 7	and	and	CCONJ	CC	_	9	cc	_	start_char=37|end_char=40
 8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	start_char=41|end_char=46
 9	recommend	recommend	VERB	VB	VerbForm=Inf	6	conj	_	start_char=47|end_char=56
@@ -13,8 +19,11 @@
 11	others	other	NOUN	NNS	Number=Plur	9	obl	_	start_char=60|end_char=66
 12	.	.	PUNCT	.	_	6	punct	_	start_char=66|end_char=67
 
+# text = Payne did an excellent job of describing the market for on who hasn't a financial background.
+# sent_id = 2
+# sentiment = 2
 1	Payne	Payne	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=68|end_char=73
-2	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=77
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=77
 3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=78|end_char=80
 4	excellent	excellent	ADJ	JJ	Degree=Pos	5	amod	_	start_char=81|end_char=90
 5	job	job	NOUN	NN	Number=Sing	2	obj	_	start_char=91|end_char=94
@@ -22,17 +31,20 @@
 7	describing	describe	VERB	VBG	VerbForm=Ger	5	acl	_	start_char=98|end_char=108
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=109|end_char=112
 9	market	market	NOUN	NN	Number=Sing	7	obj	_	start_char=113|end_char=119
-10	for	for	ADP	IN	_	12	case	_	start_char=120|end_char=123
+10	for	for	ADP	IN	_	7	obl	_	start_char=120|end_char=123
 11	on	on	ADP	IN	_	12	case	_	start_char=124|end_char=126
-12	who	who	PRON	WP	PronType=Rel	17	obl	_	start_char=127|end_char=130
-13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=131|end_char=134
+12	who	who	PRON	WP	PronType=Int	13	nsubj	_	start_char=127|end_char=130
+13	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=131|end_char=134
 14	n't	not	PART	RB	_	17	advmod	_	start_char=134|end_char=137
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=138|end_char=139
 16	financial	financial	ADJ	JJ	Degree=Pos	17	amod	_	start_char=140|end_char=149
-17	background	background	NOUN	NN	Number=Sing	9	acl:relcl	_	start_char=150|end_char=160
+17	background	background	NOUN	NN	Number=Sing	13	obj	_	start_char=150|end_char=160
 18	.	.	PUNCT	.	_	2	punct	_	start_char=160|end_char=161
 
-1	Have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=162|end_char=166
+# text = Have enjoyed the prophet (book) for years and the recording of same by Harris I wore out 33rpm vinyl in college and replaced it with cd when it became available.
+# sent_id = 3
+# sentiment = 2
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=162|end_char=166
 2	enjoyed	enjoy	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=167|end_char=174
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=175|end_char=178
 4	prophet	prophet	NOUN	NN	Number=Sing	2	obj	_	start_char=179|end_char=186
@@ -47,23 +59,22 @@
 13	of	of	ADP	IN	_	14	case	_	start_char=222|end_char=224
 14	same	same	ADJ	JJ	Degree=Pos	12	nmod	_	start_char=225|end_char=229
 15	by	by	ADP	IN	_	16	case	_	start_char=230|end_char=232
-16	Harris	Harris	PROPN	NNP	Number=Sing	12	nmod	_	start_char=233|end_char=239
+16	Harris	Harris	PROPN	NNP	Number=Sing	14	obl	_	start_char=233|end_char=239
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=240|end_char=241
-18	wore	wear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	start_char=242|end_char=246
+18	wore	wear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=242|end_char=246
 19	out	out	ADP	RP	_	18	compound:prt	_	start_char=247|end_char=250
-20	33	33	NUM	CD	NumType=Card	22	nummod	_	start_char=251|end_char=253
-21	rpm	rpm	NOUN	NN	Number=Sing	22	compound	_	start_char=253|end_char=256
-22	vinyl	vinyl	NOUN	NN	Number=Sing	18	obj	_	start_char=257|end_char=262
-23	in	in	ADP	IN	_	24	case	_	start_char=263|end_char=265
-24	college	college	NOUN	NN	Number=Sing	22	nmod	_	start_char=266|end_char=273
-25	and	and	CCONJ	CC	_	26	cc	_	start_char=274|end_char=277
-26	replaced	replace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	start_char=278|end_char=286
-27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=287|end_char=289
-28	with	with	ADP	IN	_	29	case	_	start_char=290|end_char=294
-29	cd	cd	NOUN	NN	Number=Sing	26	obl	_	start_char=295|end_char=297
-30	when	when	SCONJ	WRB	PronType=Int	32	mark	_	start_char=298|end_char=302
-31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=303|end_char=305
-32	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	start_char=306|end_char=312
-33	available	available	ADJ	JJ	Degree=Pos	32	xcomp	_	start_char=313|end_char=322
-34	.	.	PUNCT	.	_	2	punct	_	start_char=322|end_char=323
+20	33rpm	33rpm	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	_	start_char=251|end_char=256
+21	vinyl	vinyl	NOUN	NN	Number=Sing	18	obj	_	start_char=257|end_char=262
+22	in	in	ADP	IN	_	23	case	_	start_char=263|end_char=265
+23	college	college	NOUN	NN	Number=Sing	18	obl	_	start_char=266|end_char=273
+24	and	and	CCONJ	CC	_	25	cc	_	start_char=274|end_char=277
+25	replaced	replace	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	conj	_	start_char=278|end_char=286
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	start_char=287|end_char=289
+27	with	with	ADP	IN	_	28	case	_	start_char=290|end_char=294
+28	cd	cd	NOUN	NN	Number=Sing	25	obl	_	start_char=295|end_char=297
+29	when	when	ADV	WRB	PronType=Int	31	advmod	_	start_char=298|end_char=302
+30	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	start_char=303|end_char=305
+31	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	advcl	_	start_char=306|end_char=312
+32	available	available	ADJ	JJ	Degree=Pos	31	xcomp	_	start_char=313|end_char=322
+33	.	.	PUNCT	.	_	2	punct	_	start_char=322|end_char=323
 

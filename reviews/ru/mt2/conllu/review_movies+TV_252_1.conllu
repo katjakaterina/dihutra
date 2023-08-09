@@ -1,0 +1,135 @@
+# text = Классика 1960-х дошла до этого?
+# sent_id = 0
+1	Классика	классика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=8
+2	1960-х	1960-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	1	nmod	_	start_char=9|end_char=15
+3	дошла	дойти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=21
+4	до	до	ADP	_	_	5	case	_	start_char=22|end_char=24
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	start_char=25|end_char=30
+6	?	?	PUNCT	_	_	3	punct	_	start_char=30|end_char=31
+
+# text = Повествование нормальное, но сюжет слабый, а песни до гениальности не запоминающиеся.
+# sent_id = 1
+1	Повествование	повествование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=32|end_char=45
+2	нормальное	нормальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=46|end_char=56
+3	,	,	PUNCT	_	_	6	punct	_	start_char=56|end_char=57
+4	но	но	CCONJ	_	_	6	cc	_	start_char=58|end_char=60
+5	сюжет	сюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=61|end_char=66
+6	слабый	слабый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	start_char=67|end_char=73
+7	,	,	PUNCT	_	_	13	punct	_	start_char=73|end_char=74
+8	а	а	CCONJ	_	_	13	cc	_	start_char=75|end_char=76
+9	песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=77|end_char=82
+10	до	до	ADP	_	_	11	case	_	start_char=83|end_char=85
+11	гениальности	гениальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	start_char=86|end_char=98
+12	не	не	PART	_	_	13	advmod	_	start_char=99|end_char=101
+13	запоминающиеся	запоминать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	2	conj	_	start_char=102|end_char=116
+14	.	.	PUNCT	_	_	2	punct	_	start_char=116|end_char=117
+
+# text = Я содрогнулся, когда смотрел его вместе с сыном.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=118|end_char=119
+2	содрогнулся	содрогнуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=120|end_char=131
+3	,	,	PUNCT	_	_	5	punct	_	start_char=131|end_char=132
+4	когда	когда	SCONJ	_	_	5	mark	_	start_char=133|end_char=138
+5	смотрел	смотреть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=139|end_char=146
+6	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=147|end_char=150
+7	вместе	вместе	ADV	_	Degree=Pos	5	advmod	_	start_char=151|end_char=157
+8	с	с	ADP	_	_	9	case	_	start_char=158|end_char=159
+9	сыном	сын	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	start_char=160|end_char=165
+10	.	.	PUNCT	_	_	2	punct	_	start_char=165|end_char=166
+
+# text = Признаюсь, я вырос на оригинальном шоу с Джимми Дюранте в роли диктора и заглавной песней, которая была хорошо написанной классикой, а не убогим паясничаньем на тему ПК 1990-х годов.
+# sent_id = 3
+1	Признаюсь	признаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	start_char=167|end_char=176
+2	,	,	PUNCT	_	_	1	punct	_	start_char=176|end_char=177
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=178|end_char=179
+4	вырос	вырасти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=180|end_char=185
+5	на	на	ADP	_	_	7	case	_	start_char=186|end_char=188
+6	оригинальном	оригинальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=189|end_char=201
+7	шоу	шоу	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=202|end_char=205
+8	с	с	ADP	_	_	9	case	_	start_char=206|end_char=207
+9	Джимми	Джимми	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	start_char=208|end_char=214
+10	Дюранте	Дюранта	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	flat:name	_	start_char=215|end_char=222
+11	в	в	ADP	_	_	12	case	_	start_char=223|end_char=224
+12	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=225|end_char=229
+13	диктора	диктор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=230|end_char=237
+14	и	и	CCONJ	_	_	16	cc	_	start_char=238|end_char=239
+15	заглавной	заглавной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=240|end_char=249
+16	песней	песня	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	start_char=250|end_char=256
+17	,	,	PUNCT	_	_	21	punct	_	start_char=256|end_char=257
+18	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	22	nsubj	_	start_char=258|end_char=265
+19	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	start_char=266|end_char=270
+20	хорошо	хорошо	ADV	_	Degree=Pos	21	advmod	_	start_char=271|end_char=277
+21	написанной	писать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	acl	_	start_char=278|end_char=288
+22	классикой	классика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	acl:relcl	_	start_char=289|end_char=298
+23	,	,	PUNCT	_	_	27	punct	_	start_char=298|end_char=299
+24	а	а	CCONJ	_	_	27	cc	_	start_char=300|end_char=301
+25	не	не	PART	_	_	26	advmod	_	start_char=302|end_char=304
+26	убогим	убогий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=305|end_char=311
+27	паясничаньем	паясничание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	conj	_	start_char=312|end_char=324
+28	на	на	ADP	_	_	29	case	_	start_char=325|end_char=327
+29	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	nmod	_	start_char=328|end_char=332
+30	ПК	ПК	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	start_char=333|end_char=335
+31	1990-х	1990-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	start_char=336|end_char=342
+32	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	30	nmod	_	start_char=343|end_char=348
+33	.	.	PUNCT	_	_	4	punct	_	start_char=348|end_char=349
+
+# text = Это, наверное, неизбежно, потому что, к сожалению, нельзя переделать что-то из той эпохи с той же невинностью и чувством: не в эпоху, когда Рождество стало безжизненным.
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=350|end_char=353
+2	,	,	PUNCT	_	_	1	punct	_	start_char=353|end_char=354
+3	наверное	наверное	ADV	_	Degree=Pos	5	parataxis	_	start_char=355|end_char=363
+4	,	,	PUNCT	_	_	3	punct	_	start_char=363|end_char=364
+5	неизбежно	неизбежный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=365|end_char=374
+6	,	,	PUNCT	_	_	13	punct	_	start_char=374|end_char=375
+7	потому	потому	ADV	_	Degree=Pos	13	mark	_	start_char=376|end_char=382
+8	что	что	SCONJ	_	_	7	fixed	_	start_char=383|end_char=386
+9	,	,	PUNCT	_	_	7	punct	_	start_char=386|end_char=387
+10	к	к	ADP	_	_	11	case	_	start_char=388|end_char=389
+11	сожалению	сожаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	parataxis	_	start_char=390|end_char=399
+12	,	,	PUNCT	_	_	11	punct	_	start_char=399|end_char=400
+13	нельзя	нельзя	ADV	_	Degree=Pos	5	advcl	_	start_char=401|end_char=407
+14	переделать	переделать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	csubj	_	start_char=408|end_char=418
+15	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	14	obj	_	start_char=419|end_char=425
+16	из	из	ADP	_	_	18	case	_	start_char=426|end_char=428
+17	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	start_char=429|end_char=432
+18	эпохи	эпоха	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=433|end_char=438
+19	с	с	ADP	_	_	22	case	_	start_char=439|end_char=440
+20	той	тот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=441|end_char=444
+21	же	же	PART	_	_	20	advmod	_	start_char=445|end_char=447
+22	невинностью	невинность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	start_char=448|end_char=459
+23	и	и	CCONJ	_	_	24	cc	_	start_char=460|end_char=461
+24	чувством	чувство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	conj	_	start_char=462|end_char=470
+25	:	:	PUNCT	_	_	28	punct	_	start_char=470|end_char=471
+26	не	не	PART	_	_	28	advmod	_	start_char=472|end_char=474
+27	в	в	ADP	_	_	28	case	_	start_char=475|end_char=476
+28	эпоху	эпоха	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	parataxis	_	start_char=477|end_char=482
+29	,	,	PUNCT	_	_	32	punct	_	start_char=482|end_char=483
+30	когда	когда	SCONJ	_	_	32	mark	_	start_char=484|end_char=489
+31	Рождество	Рождество	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	start_char=490|end_char=499
+32	стало	стать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	28	acl	_	start_char=500|end_char=505
+33	безжизненным	безжизненный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	32	obl	_	start_char=506|end_char=518
+34	.	.	PUNCT	_	_	5	punct	_	start_char=518|end_char=519
+
+# text = Ой!
+# sent_id = 5
+1	Ой	ой	INTJ	_	_	0	root	_	start_char=520|end_char=522
+2	!	!	PUNCT	_	_	1	punct	_	start_char=522|end_char=523
+
+# text = Я сказал "Рождество", а имел в виду "С праздником"!
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=524|end_char=525
+2	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=526|end_char=532
+3	"	"	PUNCT	_	_	4	punct	_	start_char=533|end_char=534
+4	Рождество	Рождество	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=534|end_char=543
+5	"	"	PUNCT	_	_	4	punct	_	start_char=543|end_char=544
+6	,	,	PUNCT	_	_	8	punct	_	start_char=544|end_char=545
+7	а	а	CCONJ	_	_	8	cc	_	start_char=546|end_char=547
+8	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=548|end_char=552
+9	в	в	ADP	_	_	8	advmod	_	start_char=553|end_char=554
+10	виду	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	fixed	_	start_char=555|end_char=559
+11	"	"	PUNCT	_	_	13	punct	_	start_char=560|end_char=561
+12	С	с	ADP	_	_	13	case	_	start_char=561|end_char=562
+13	праздником	праздник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=563|end_char=573
+14	"	"	PUNCT	_	_	13	punct	_	start_char=573|end_char=574
+15	!	!	PUNCT	_	_	2	punct	_	start_char=574|end_char=575
+

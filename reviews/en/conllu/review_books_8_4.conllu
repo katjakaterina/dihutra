@@ -1,67 +1,85 @@
-1	Heavenly	heavenly	ADJ	NNP	Degree=Pos	2	amod	_	start_char=0|end_char=8
+# text = Heavenly Highway Hymns Heavenly Highway HymnsI ordered this hymnal because I learned to read shaped note music when I was a teenager.
+# sent_id = 0
+# sentiment = 1
+1	Heavenly	heavenly	ADJ	NNP	Degree=Pos	3	amod	_	start_char=0|end_char=8
 2	Highway	Highway	PROPN	NNP	Number=Sing	3	compound	_	start_char=9|end_char=16
-3	Hymns	Hymns	PROPN	NNPS	Number=Plur	7	nsubj	_	start_char=17|end_char=22
-4	Heavenly	heavenly	ADJ	NNP	Degree=Pos	5	amod	_	start_char=23|end_char=31
-5	Highway	Highway	PROPN	NNP	Number=Sing	3	appos	_	start_char=32|end_char=39
-6	HymnsI	HymnsI	PROPN	NNP	Number=Sing	5	flat	_	start_char=40|end_char=46
-7	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=47|end_char=54
+3	Hymns	Hymns	PROPN	NNPS	Number=Plur	5	compound	_	start_char=17|end_char=22
+4	Heavenly	Heavenly	PROPN	NNP	Number=Sing	5	compound	_	start_char=23|end_char=31
+5	Highway	Highway	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=32|end_char=39
+6	HymnsI	HymnsI	PROPN	NNP	Number=Sing	7	nsubj	_	start_char=40|end_char=46
+7	ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=47|end_char=54
 8	this	this	DET	DT	Number=Sing|PronType=Dem	9	det	_	start_char=55|end_char=59
 9	hymnal	hymnal	NOUN	NN	Number=Sing	7	obj	_	start_char=60|end_char=66
 10	because	because	SCONJ	IN	_	12	mark	_	start_char=67|end_char=74
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=75|end_char=76
-12	learned	learn	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	start_char=77|end_char=84
+12	learned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	advcl	_	start_char=77|end_char=84
 13	to	to	PART	TO	_	14	mark	_	start_char=85|end_char=87
 14	read	read	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=88|end_char=92
 15	shaped	shape	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	start_char=93|end_char=99
 16	note	note	NOUN	NN	Number=Sing	17	compound	_	start_char=100|end_char=104
 17	music	music	NOUN	NN	Number=Sing	14	obj	_	start_char=105|end_char=110
-18	when	when	SCONJ	WRB	PronType=Int	22	mark	_	start_char=111|end_char=115
+18	when	when	ADV	WRB	PronType=Int	22	advmod	_	start_char=111|end_char=115
 19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=116|end_char=117
 20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	start_char=118|end_char=121
 21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=122|end_char=123
 22	teenager	teenager	NOUN	NN	Number=Sing	14	advcl	_	start_char=124|end_char=132
 23	.	.	PUNCT	.	_	7	punct	_	start_char=132|end_char=133
 
+# text = I play piano but do not sing.
+# sent_id = 1
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=134|end_char=135
-2	play	play	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=136|end_char=140
+2	play	play	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=136|end_char=140
 3	piano	piano	NOUN	NN	Number=Sing	2	obj	_	start_char=141|end_char=146
 4	but	but	CCONJ	CC	_	7	cc	_	start_char=147|end_char=150
-5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=151|end_char=153
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=151|end_char=153
 6	not	not	PART	RB	_	7	advmod	_	start_char=154|end_char=157
-7	sing	sing	VERB	VB	VerbForm=Inf	2	conj	_	start_char=158|end_char=162
+7	sing	sing	VERB	VB	Mood=Imp|VerbForm=Fin	2	conj	_	start_char=158|end_char=162
 8	.	.	PUNCT	.	_	2	punct	_	start_char=162|end_char=163
 
+# text = I am 85 years old.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=164|end_char=165
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=166|end_char=168
-3	85	85	NUM	CD	NumType=Card	4	nummod	_	start_char=169|end_char=171
+3	85	85	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=169|end_char=171
 4	years	year	NOUN	NNS	Number=Plur	5	obl:npmod	_	start_char=172|end_char=177
 5	old	old	ADJ	JJ	Degree=Pos	0	root	_	start_char=178|end_char=181
 6	.	.	PUNCT	.	_	5	punct	_	start_char=181|end_char=182
 
+# text = This hymnal has mostof the songs I have learned over the years.
+# sent_id = 3
+# sentiment = 1
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=183|end_char=187
-2	hymnal	hymnal	NOUN	NN	Number=Sing	4	nsubj	_	start_char=188|end_char=194
-3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=195|end_char=198
-4	mostof	mostof	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=199|end_char=205
+2	hymnal	hymnal	NOUN	NN	Number=Sing	3	nsubj	_	start_char=188|end_char=194
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=195|end_char=198
+4	mostof	mostof	NOUN	NN	Number=Sing	3	iobj	_	start_char=199|end_char=205
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=206|end_char=209
-6	songs	song	NOUN	NNS	Number=Plur	4	obj	_	start_char=210|end_char=215
+6	songs	song	NOUN	NNS	Number=Plur	3	obj	_	start_char=210|end_char=215
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=216|end_char=217
-8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=218|end_char=222
+8	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=218|end_char=222
 9	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	start_char=223|end_char=230
 10	over	over	ADP	IN	_	12	case	_	start_char=231|end_char=235
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=236|end_char=239
 12	years	year	NOUN	NNS	Number=Plur	9	obl	_	start_char=240|end_char=245
-13	.	.	PUNCT	.	_	4	punct	_	start_char=245|end_char=246
+13	.	.	PUNCT	.	_	3	punct	_	start_char=245|end_char=246
 
+# text = It was exactly what I wanted and needed.
+# sent_id = 4
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=247|end_char=249
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=250|end_char=253
 3	exactly	exactly	ADV	RB	_	4	advmod	_	start_char=254|end_char=261
 4	what	what	PRON	WP	PronType=Int	2	nsubj	_	start_char=262|end_char=266
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=267|end_char=268
-6	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=269|end_char=275
+6	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=269|end_char=275
 7	and	and	CCONJ	CC	_	8	cc	_	start_char=276|end_char=279
-8	needed	need	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	start_char=280|end_char=286
+8	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	conj	_	start_char=280|end_char=286
 9	.	.	PUNCT	.	_	2	punct	_	start_char=286|end_char=287
 
+# text = It was in good condition and the price was right.
+# sent_id = 5
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=287|end_char=289
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	start_char=290|end_char=293
 3	in	in	ADP	IN	_	5	case	_	start_char=294|end_char=296
@@ -74,8 +92,11 @@
 10	right	right	ADJ	JJ	Degree=Pos	5	conj	_	start_char=330|end_char=335
 11	.	.	PUNCT	.	_	5	punct	_	start_char=335|end_char=336
 
+# text = I purchased this book from Amazon.
+# sent_id = 6
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=337|end_char=338
-2	purchased	purchase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=339|end_char=348
+2	purchased	purchase	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=339|end_char=348
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=349|end_char=353
 4	book	book	NOUN	NN	Number=Sing	2	obj	_	start_char=354|end_char=358
 5	from	from	ADP	IN	_	6	case	_	start_char=359|end_char=363

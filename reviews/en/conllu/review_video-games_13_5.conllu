@@ -1,10 +1,16 @@
+# text = AMAZING COMPANY
+# sent_id = 0
+# sentiment = 1
 1	AMAZING	amazing	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=7
 2	COMPANY	company	NOUN	NN	Number=Sing	0	root	_	start_char=8|end_char=15
 
+# text = Such fast shipping, games is such great condition she even included two extra's so nice of her.
+# sent_id = 1
+# sentiment = 2
 1	Such	such	ADJ	JJ	Degree=Pos	3	amod	_	start_char=16|end_char=20
 2	fast	fast	ADJ	JJ	Degree=Pos	3	amod	_	start_char=21|end_char=25
 3	shipping	shipping	NOUN	NN	Number=Sing	9	nsubj	_	start_char=26|end_char=34
-4	,	,	PUNCT	,	_	9	punct	_	start_char=34|end_char=35
+4	,	,	PUNCT	,	_	3	punct	_	start_char=34|end_char=35
 5	games	game	NOUN	NNS	Number=Plur	9	nsubj	_	start_char=36|end_char=41
 6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=42|end_char=44
 7	such	such	ADJ	JJ	Degree=Pos	9	amod	_	start_char=45|end_char=49
@@ -13,32 +19,36 @@
 10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=66|end_char=69
 11	even	even	ADV	RB	_	12	advmod	_	start_char=70|end_char=74
 12	included	include	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	acl:relcl	_	start_char=75|end_char=83
-13	two	two	NUM	CD	NumType=Card	14	nummod	_	start_char=84|end_char=87
-14	extra's	extra'	NOUN	NNS	Number=Plur	12	obj	_	start_char=88|end_char=95
-15	so	so	ADV	RB	_	16	advmod	_	start_char=96|end_char=98
-16	nice	nice	ADJ	JJ	Degree=Pos	12	xcomp	_	start_char=99|end_char=103
-17	of	of	ADP	IN	_	18	case	_	start_char=104|end_char=106
-18	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obl	_	start_char=107|end_char=110
-19	.	.	PUNCT	.	_	9	punct	_	start_char=110|end_char=111
+13	two	two	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=84|end_char=87
+14	extra	extra	NOUN	NN	Number=Sing	17	nsubj	_	start_char=88|end_char=93
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=93|end_char=95
+16	so	so	ADV	RB	_	17	advmod	_	start_char=96|end_char=98
+17	nice	nice	ADJ	JJ	Degree=Pos	9	parataxis	_	start_char=99|end_char=103
+18	of	of	ADP	IN	_	19	case	_	start_char=104|end_char=106
+19	her	she	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	start_char=107|end_char=110
+20	.	.	PUNCT	.	_	9	punct	_	start_char=110|end_char=111
 
+# text = Now all i have to do is start up my old windows 2000 to play it and ill be happy as a puppy with a chew toy :)i recommend everyone to buy from this company they are so nice, lovely little messages included and made my day so much better seeing how awesome this person/company is.
+# sent_id = 2
+# sentiment = 0
 1	Now	now	ADV	RB	_	8	advmod	_	start_char=111|end_char=114
-2	all	all	DET	DT	_	8	nsubj	_	start_char=115|end_char=118
+2	all	all	DET	DT	_	8	nsubj:outer	_	start_char=115|end_char=118
 3	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=119|end_char=120
-4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=121|end_char=125
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=121|end_char=125
 5	to	to	PART	TO	_	6	mark	_	start_char=126|end_char=128
 6	do	do	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=129|end_char=131
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=132|end_char=134
 8	start	start	VERB	VB	VerbForm=Inf	0	root	_	start_char=135|end_char=140
 9	up	up	ADP	RP	_	8	compound:prt	_	start_char=141|end_char=143
-10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=144|end_char=146
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=144|end_char=146
 11	old	old	ADJ	JJ	Degree=Pos	12	amod	_	start_char=147|end_char=150
 12	windows	window	NOUN	NNS	Number=Plur	8	obj	_	start_char=151|end_char=158
-13	2000	2000	NUM	CD	NumType=Card	12	nmod:npmod	_	start_char=159|end_char=163
+13	2000	2000	NUM	CD	NumForm=Digit|NumType=Card	12	nmod:npmod	_	start_char=159|end_char=163
 14	to	to	PART	TO	_	15	mark	_	start_char=164|end_char=166
 15	play	play	VERB	VB	VerbForm=Inf	8	advcl	_	start_char=167|end_char=171
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=172|end_char=174
 17	and	and	CCONJ	CC	_	20	cc	_	start_char=175|end_char=178
-18	ill	ill	ADJ	JJ	Degree=Pos	20	nsubj	_	start_char=179|end_char=182
+18	ill	ill	ADV	RB	_	20	advmod	_	start_char=179|end_char=182
 19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	start_char=183|end_char=185
 20	happy	happy	ADJ	JJ	Degree=Pos	8	conj	_	start_char=186|end_char=191
 21	as	as	ADP	IN	_	23	case	_	start_char=192|end_char=194
@@ -47,34 +57,34 @@
 24	with	with	ADP	IN	_	27	case	_	start_char=203|end_char=207
 25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=208|end_char=209
 26	chew	chew	NOUN	NN	Number=Sing	27	compound	_	start_char=210|end_char=214
-27	toy	toy	NOUN	NN	Number=Sing	23	nmod	_	start_char=215|end_char=218
-28	:)	:)	SYM	NFP	_	8	discourse	_	start_char=219|end_char=221
+27	toy	toy	NOUN	NN	Number=Sing	20	obl	_	start_char=215|end_char=218
+28	:)	:)	SYM	NFP	_	30	discourse	_	start_char=219|end_char=221
 29	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	start_char=221|end_char=222
-30	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=223|end_char=232
-31	everyone	everyone	PRON	NN	Number=Sing	30	obj	_	start_char=233|end_char=241
+30	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	start_char=223|end_char=232
+31	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	30	obj	_	start_char=233|end_char=241
 32	to	to	PART	TO	_	33	mark	_	start_char=242|end_char=244
 33	buy	buy	VERB	VB	VerbForm=Inf	30	xcomp	_	start_char=245|end_char=248
 34	from	from	ADP	IN	_	36	case	_	start_char=249|end_char=253
 35	this	this	DET	DT	Number=Sing|PronType=Dem	36	det	_	start_char=254|end_char=258
 36	company	company	NOUN	NN	Number=Sing	33	obl	_	start_char=259|end_char=266
 37	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	40	nsubj	_	start_char=267|end_char=271
-38	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	40	cop	_	start_char=272|end_char=275
+38	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	start_char=272|end_char=275
 39	so	so	ADV	RB	_	40	advmod	_	start_char=276|end_char=278
-40	nice	nice	ADJ	JJ	Degree=Pos	30	parataxis	_	start_char=279|end_char=283
+40	nice	nice	ADJ	JJ	Degree=Pos	36	acl:relcl	_	start_char=279|end_char=283
 41	,	,	PUNCT	,	_	44	punct	_	start_char=283|end_char=284
 42	lovely	lovely	ADJ	JJ	Degree=Pos	44	amod	_	start_char=285|end_char=291
 43	little	little	ADJ	JJ	Degree=Pos	44	amod	_	start_char=292|end_char=298
 44	messages	message	NOUN	NNS	Number=Plur	40	conj	_	start_char=299|end_char=307
 45	included	include	VERB	VBN	Tense=Past|VerbForm=Part	44	acl	_	start_char=308|end_char=316
 46	and	and	CCONJ	CC	_	47	cc	_	start_char=317|end_char=320
-47	made	make	VERB	VBN	Tense=Past|VerbForm=Part	45	conj	_	start_char=321|end_char=325
-48	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	49	nmod:poss	_	start_char=326|end_char=328
+47	made	make	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	start_char=321|end_char=325
+48	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	49	nmod:poss	_	start_char=326|end_char=328
 49	day	day	NOUN	NN	Number=Sing	47	obj	_	start_char=329|end_char=332
 50	so	so	ADV	RB	_	51	advmod	_	start_char=333|end_char=335
 51	much	much	ADV	RB	_	52	advmod	_	start_char=336|end_char=340
-52	better	well	ADV	RBR	Degree=Cmp	53	advmod	_	start_char=341|end_char=347
+52	better	well	ADV	RBR	Degree=Cmp	47	advmod	_	start_char=341|end_char=347
 53	seeing	see	VERB	VBG	VerbForm=Ger	47	advcl	_	start_char=348|end_char=354
-54	how	how	SCONJ	WRB	PronType=Int	55	mark	_	start_char=355|end_char=358
+54	how	how	ADV	WRB	PronType=Int	55	advmod	_	start_char=355|end_char=358
 55	awesome	awesome	ADJ	JJ	Degree=Pos	53	ccomp	_	start_char=359|end_char=366
 56	this	this	DET	DT	Number=Sing|PronType=Dem	57	det	_	start_char=367|end_char=371
 57	person	person	NOUN	NN	Number=Sing	55	nsubj	_	start_char=372|end_char=378

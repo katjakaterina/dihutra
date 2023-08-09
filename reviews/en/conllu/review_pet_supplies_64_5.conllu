@@ -1,6 +1,12 @@
+# text = Grooming Notes
+# sent_id = 0
+# sentiment = 1
 1	Grooming	grooming	NOUN	NN	Number=Sing	2	compound	_	start_char=0|end_char=8
-2	Notes	Note	PROPN	NNPS	Number=Plur	0	root	_	start_char=9|end_char=14
+2	Notes	Note	NOUN	NNS	Number=Plur	0	root	_	start_char=9|end_char=14
 
+# text = As a self trained groomer, this was the best buy I've made in a long time.
+# sent_id = 1
+# sentiment = 2
 1	As	as	ADP	IN	_	5	case	_	start_char=15|end_char=17
 2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=18|end_char=19
 3	self	self	NOUN	NN	Number=Sing	4	compound	_	start_char=20|end_char=24
@@ -13,7 +19,7 @@
 10	best	good	ADJ	JJS	Degree=Sup	11	amod	_	start_char=55|end_char=59
 11	buy	buy	NOUN	NN	Number=Sing	0	root	_	start_char=60|end_char=63
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=64|end_char=65
-13	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=65|end_char=68
+13	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=65|end_char=68
 14	made	make	VERB	VBN	Tense=Past|VerbForm=Part	11	acl:relcl	_	start_char=69|end_char=73
 15	in	in	ADP	IN	_	18	case	_	start_char=74|end_char=76
 16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=77|end_char=78
@@ -21,6 +27,9 @@
 18	time	time	NOUN	NN	Number=Sing	14	obl	_	start_char=84|end_char=88
 19	.	.	PUNCT	.	_	11	punct	_	start_char=88|end_char=89
 
+# text = It's a wonderful reference guide and it makes my job a whole lot easier.
+# sent_id = 2
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=90|end_char=92
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=92|end_char=94
 3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=95|end_char=96
@@ -30,7 +39,7 @@
 7	and	and	CCONJ	CC	_	9	cc	_	start_char=123|end_char=126
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=127|end_char=129
 9	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=130|end_char=135
-10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=136|end_char=138
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=136|end_char=138
 11	job	job	NOUN	NN	Number=Sing	9	obj	_	start_char=139|end_char=142
 12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=143|end_char=144
 13	whole	whole	ADJ	JJ	Degree=Pos	14	amod	_	start_char=145|end_char=150
@@ -38,22 +47,25 @@
 15	easier	easy	ADJ	JJR	Degree=Cmp	9	xcomp	_	start_char=155|end_char=161
 16	.	.	PUNCT	.	_	6	punct	_	start_char=161|end_char=162
 
+# text = I can find everything I need if I have questions about a breed or the AKC standards for the breed.
+# sent_id = 3
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=163|end_char=164
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=165|end_char=168
 3	find	find	VERB	VB	VerbForm=Inf	0	root	_	start_char=169|end_char=173
-4	everything	everything	PRON	NN	Number=Sing	3	obj	_	start_char=174|end_char=184
+4	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	obj	_	start_char=174|end_char=184
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=185|end_char=186
-6	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=187|end_char=191
+6	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=187|end_char=191
 7	if	if	SCONJ	IN	_	9	mark	_	start_char=192|end_char=194
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=195|end_char=196
-9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=197|end_char=201
+9	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=197|end_char=201
 10	questions	question	NOUN	NNS	Number=Plur	9	obj	_	start_char=202|end_char=211
 11	about	about	ADP	IN	_	13	case	_	start_char=212|end_char=217
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=218|end_char=219
 13	breed	breed	NOUN	NN	Number=Sing	10	nmod	_	start_char=220|end_char=225
 14	or	or	CCONJ	CC	_	17	cc	_	start_char=226|end_char=228
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=229|end_char=232
-16	AKC	akc	NOUN	NN	Number=Sing	17	compound	_	start_char=233|end_char=236
+16	AKC	AKC	PROPN	NNP	Number=Sing	17	compound	_	start_char=233|end_char=236
 17	standards	standard	NOUN	NNS	Number=Plur	13	conj	_	start_char=237|end_char=246
 18	for	for	ADP	IN	_	20	case	_	start_char=247|end_char=250
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=251|end_char=254

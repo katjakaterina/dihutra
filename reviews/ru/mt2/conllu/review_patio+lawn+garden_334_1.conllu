@@ -1,0 +1,98 @@
+# text = Бесполезная ловушка, ужасный дизайн Еноты воруют приманку из этой ловушки по своему усмотрению.
+# sent_id = 0
+1	Бесполезная	бесполезный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=11
+2	ловушка	ловушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=12|end_char=19
+3	,	,	PUNCT	_	_	5	punct	_	start_char=19|end_char=20
+4	ужасный	ужасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=21|end_char=28
+5	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=29|end_char=35
+6	Еноты	Енота	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	appos	_	start_char=36|end_char=41
+7	воруют	воровать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=42|end_char=48
+8	приманку	приманка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=49|end_char=57
+9	из	из	ADP	_	_	11	case	_	start_char=58|end_char=60
+10	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	start_char=61|end_char=65
+11	ловушки	ловушка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=66|end_char=73
+12	по	по	ADP	_	_	14	case	_	start_char=74|end_char=76
+13	своему	свой	DET	_	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	start_char=77|end_char=83
+14	усмотрению	усмотрение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=84|end_char=94
+15	.	.	PUNCT	_	_	7	punct	_	start_char=94|end_char=95
+
+# text = Мне пришлось переделать пусковой механизм, чтобы он вообще срабатывал, так как шар для боулинга, закатившийся в него, сначала не срабатывал.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=96|end_char=99
+2	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=100|end_char=108
+3	переделать	переделать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=109|end_char=119
+4	пусковой	пусковой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=120|end_char=128
+5	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=129|end_char=137
+6	,	,	PUNCT	_	_	10	punct	_	start_char=137|end_char=138
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	start_char=139|end_char=144
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=145|end_char=147
+9	вообще	вообще	ADV	_	Degree=Pos	10	advmod	_	start_char=148|end_char=154
+10	срабатывал	срабатывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=155|end_char=165
+11	,	,	PUNCT	_	_	24	punct	_	start_char=165|end_char=166
+12	так	так	ADV	_	Degree=Pos	24	mark	_	start_char=167|end_char=170
+13	как	как	SCONJ	_	_	12	fixed	_	start_char=171|end_char=174
+14	шар	шар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=175|end_char=178
+15	для	для	ADP	_	_	16	case	_	start_char=179|end_char=182
+16	боулинга	боулинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=183|end_char=191
+17	,	,	PUNCT	_	_	18	punct	_	start_char=191|end_char=192
+18	закатившийся	закатиться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	14	acl	_	start_char=193|end_char=205
+19	в	в	ADP	_	_	20	case	_	start_char=206|end_char=207
+20	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obl	_	start_char=208|end_char=212
+21	,	,	PUNCT	_	_	18	punct	_	start_char=212|end_char=213
+22	сначала	сначала	ADV	_	Degree=Pos	24	advmod	_	start_char=214|end_char=221
+23	не	не	PART	_	_	24	advmod	_	start_char=222|end_char=224
+24	срабатывал	срабатывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=225|end_char=235
+25	.	.	PUNCT	_	_	2	punct	_	start_char=235|end_char=236
+
+# text = Они советуют класть приманку на пластину, но еноты просто проникают сквозь сетку и достают приманку, что является еще одним серьезным недостатком конструкции.
+# sent_id = 2
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=237|end_char=240
+2	советуют	советовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=241|end_char=249
+3	класть	класть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=250|end_char=256
+4	приманку	приманка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=257|end_char=265
+5	на	на	ADP	_	_	6	case	_	start_char=266|end_char=268
+6	пластину	пластина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=269|end_char=277
+7	,	,	PUNCT	_	_	11	punct	_	start_char=277|end_char=278
+8	но	но	CCONJ	_	_	11	cc	_	start_char=279|end_char=281
+9	еноты	енота	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=282|end_char=287
+10	просто	просто	PART	_	_	11	advmod	_	start_char=288|end_char=294
+11	проникают	проникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=295|end_char=304
+12	сквозь	сквозь	ADP	_	_	13	case	_	start_char=305|end_char=311
+13	сетку	сетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=312|end_char=317
+14	и	и	CCONJ	_	_	15	cc	_	start_char=318|end_char=319
+15	достают	доставать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=320|end_char=327
+16	приманку	приманка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=328|end_char=336
+17	,	,	PUNCT	_	_	19	punct	_	start_char=336|end_char=337
+18	что	что	PRON	_	Case=Nom|PronType=Int,Rel	19	nsubj	_	start_char=338|end_char=341
+19	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	parataxis	_	start_char=342|end_char=350
+20	еще	еще	ADV	_	Degree=Pos	21	advmod	_	start_char=351|end_char=354
+21	одним	один	NUM	_	Case=Ins|Gender=Masc|NumType=Card	23	nummod	_	start_char=355|end_char=360
+22	серьезным	серьезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=361|end_char=370
+23	недостатком	недостаток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	start_char=371|end_char=382
+24	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	start_char=383|end_char=394
+25	.	.	PUNCT	_	_	2	punct	_	start_char=394|end_char=395
+
+# text = Есть ловушки, которые работают, но эта ловушка к ним не относится.
+# sent_id = 3
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=396|end_char=400
+2	ловушки	ловушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=401|end_char=408
+3	,	,	PUNCT	_	_	5	punct	_	start_char=408|end_char=409
+4	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	5	nsubj	_	start_char=410|end_char=417
+5	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=418|end_char=426
+6	,	,	PUNCT	_	_	13	punct	_	start_char=426|end_char=427
+7	но	но	CCONJ	_	_	13	cc	_	start_char=428|end_char=430
+8	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=431|end_char=434
+9	ловушка	ловушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=435|end_char=442
+10	к	к	ADP	_	_	11	case	_	start_char=443|end_char=444
+11	ним	он	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	13	obl	_	start_char=445|end_char=448
+12	не	не	PART	_	_	13	advmod	_	start_char=449|end_char=451
+13	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	conj	_	start_char=452|end_char=461
+14	.	.	PUNCT	_	_	1	punct	_	start_char=461|end_char=462
+
+# text = Поберегите свои деньги!
+# sent_id = 4
+1	Поберегите	поберечь	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=463|end_char=473
+2	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	start_char=474|end_char=478
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=479|end_char=485
+4	!	!	PUNCT	_	_	1	punct	_	start_char=485|end_char=486
+

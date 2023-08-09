@@ -1,3 +1,6 @@
+# text = Disturbing I can honestly say that this is my least favorite holiday movie.
+# sent_id = 0
+# sentiment = 0
 1	Disturbing	disturb	VERB	VBG	VerbForm=Ger	5	advcl	_	start_char=0|end_char=10
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=11|end_char=12
 3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	start_char=13|end_char=16
@@ -6,40 +9,46 @@
 6	that	that	SCONJ	IN	_	13	mark	_	start_char=30|end_char=34
 7	this	this	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	start_char=35|end_char=39
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=40|end_char=42
-9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=43|end_char=45
-10	least	least	ADJ	JJS	Degree=Sup	11	advmod	_	start_char=46|end_char=51
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=43|end_char=45
+10	least	least	ADJ	JJS	Degree=Sup	13	amod	_	start_char=46|end_char=51
 11	favorite	favorite	ADJ	JJ	Degree=Pos	13	amod	_	start_char=52|end_char=60
 12	holiday	holiday	NOUN	NN	Number=Sing	13	compound	_	start_char=61|end_char=68
 13	movie	movie	NOUN	NN	Number=Sing	5	ccomp	_	start_char=69|end_char=74
 14	.	.	PUNCT	.	_	5	punct	_	start_char=74|end_char=75
 
+# text = As a child I remember being very upset by the images of Aaron losing his parents, being kidnapped and almost losing his sheep BaaBaa.
+# sent_id = 1
+# sentiment = 0
 1	As	as	ADP	IN	_	3	case	_	start_char=76|end_char=78
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=79|end_char=80
 3	child	child	NOUN	NN	Number=Sing	5	obl	_	start_char=81|end_char=86
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=87|end_char=88
-5	remember	remember	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=89|end_char=97
+5	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=89|end_char=97
 6	being	be	AUX	VBG	VerbForm=Ger	8	cop	_	start_char=98|end_char=103
 7	very	very	ADV	RB	_	8	advmod	_	start_char=104|end_char=108
 8	upset	upset	ADJ	JJ	Degree=Pos	5	xcomp	_	start_char=109|end_char=114
 9	by	by	ADP	IN	_	11	case	_	start_char=115|end_char=117
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=118|end_char=121
 11	images	image	NOUN	NNS	Number=Plur	8	obl	_	start_char=122|end_char=128
-12	of	of	ADP	IN	_	13	case	_	start_char=129|end_char=131
-13	Aaron	Aaron	PROPN	NNP	Number=Sing	11	nmod	_	start_char=132|end_char=137
+12	of	of	SCONJ	IN	_	14	mark	_	start_char=129|end_char=131
+13	Aaron	Aaron	PROPN	NNP	Number=Sing	14	nsubj	_	start_char=132|end_char=137
 14	losing	lose	VERB	VBG	VerbForm=Ger	11	acl	_	start_char=138|end_char=144
-15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=145|end_char=148
+15	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=145|end_char=148
 16	parents	parent	NOUN	NNS	Number=Plur	14	obj	_	start_char=149|end_char=156
 17	,	,	PUNCT	,	_	19	punct	_	start_char=156|end_char=157
 18	being	be	AUX	VBG	VerbForm=Ger	19	aux:pass	_	start_char=158|end_char=163
-19	kidnapped	kidnap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	advcl	_	start_char=164|end_char=173
+19	kidnapped	kidnap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	start_char=164|end_char=173
 20	and	and	CCONJ	CC	_	22	cc	_	start_char=174|end_char=177
 21	almost	almost	ADV	RB	_	22	advmod	_	start_char=178|end_char=184
 22	losing	lose	VERB	VBG	VerbForm=Ger	19	conj	_	start_char=185|end_char=191
-23	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=192|end_char=195
-24	sheep	sheep	NOUN	NN	Number=Sing	22	obj	_	start_char=196|end_char=201
-25	BaaBaa	BaaBaa	PROPN	NNP	Number=Sing	24	appos	_	start_char=202|end_char=208
+23	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=192|end_char=195
+24	sheep	sheep	NOUN	NN	Number=Sing	25	compound	_	start_char=196|end_char=201
+25	BaaBaa	BaaBaa	PROPN	NNP	Number=Sing	22	obj	_	start_char=202|end_char=208
 26	.	.	PUNCT	.	_	5	punct	_	start_char=208|end_char=209
 
+# text = The best part of this movie is Aaron playing for baby Jesus and regaining his trust in people again otherwise, make sure you have a box of tissues when viewing this movie.
+# sent_id = 2
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=210|end_char=213
 2	best	good	ADJ	JJS	Degree=Sup	3	amod	_	start_char=214|end_char=218
 3	part	part	NOUN	NN	Number=Sing	8	nsubj	_	start_char=219|end_char=223
@@ -54,22 +63,22 @@
 12	Jesus	Jesus	PROPN	NNP	Number=Sing	9	obl	_	start_char=264|end_char=269
 13	and	and	CCONJ	CC	_	14	cc	_	start_char=270|end_char=273
 14	regaining	regain	VERB	VBG	VerbForm=Ger	9	conj	_	start_char=274|end_char=283
-15	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=284|end_char=287
+15	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=284|end_char=287
 16	trust	trust	NOUN	NN	Number=Sing	14	obj	_	start_char=288|end_char=293
 17	in	in	ADP	IN	_	18	case	_	start_char=294|end_char=296
 18	people	people	NOUN	NNS	Number=Plur	14	obl	_	start_char=297|end_char=303
-19	again	again	ADV	RB	_	20	advmod	_	start_char=304|end_char=309
+19	again	again	ADV	RB	_	14	advmod	_	start_char=304|end_char=309
 20	otherwise	otherwise	ADV	RB	_	14	advmod	_	start_char=310|end_char=319
 21	,	,	PUNCT	,	_	22	punct	_	start_char=319|end_char=320
-22	make	make	VERB	VB	VerbForm=Inf	8	parataxis	_	start_char=321|end_char=325
+22	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	8	parataxis	_	start_char=321|end_char=325
 23	sure	sure	ADJ	JJ	Degree=Pos	22	xcomp	_	start_char=326|end_char=330
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	start_char=331|end_char=334
-25	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	start_char=335|end_char=339
+25	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	ccomp	_	start_char=335|end_char=339
 26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=340|end_char=341
 27	box	box	NOUN	NN	Number=Sing	25	obj	_	start_char=342|end_char=345
 28	of	of	ADP	IN	_	29	case	_	start_char=346|end_char=348
 29	tissues	tissue	NOUN	NNS	Number=Plur	27	nmod	_	start_char=349|end_char=356
-30	when	when	SCONJ	WRB	PronType=Int	31	mark	_	start_char=357|end_char=361
+30	when	when	ADV	WRB	PronType=Int	31	advmod	_	start_char=357|end_char=361
 31	viewing	view	VERB	VBG	VerbForm=Ger	25	advcl	_	start_char=362|end_char=369
 32	this	this	DET	DT	Number=Sing|PronType=Dem	33	det	_	start_char=370|end_char=374
 33	movie	movie	NOUN	NN	Number=Sing	31	obj	_	start_char=375|end_char=380

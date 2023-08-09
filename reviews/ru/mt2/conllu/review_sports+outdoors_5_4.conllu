@@ -1,0 +1,76 @@
+# text = Хорошо, инструмент делает то же самое, что и обычный дырокол.
+# sent_id = 0
+1	Хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	_	_	4	punct	_	start_char=6|end_char=7
+3	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=8|end_char=18
+4	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj	_	start_char=19|end_char=25
+5	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=26|end_char=28
+6	же	же	PART	_	_	5	advmod	_	start_char=29|end_char=31
+7	самое	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=32|end_char=37
+8	,	,	PUNCT	_	_	12	punct	_	start_char=37|end_char=38
+9	что	что	SCONJ	_	_	12	mark	_	start_char=39|end_char=42
+10	и	и	PART	_	_	12	advmod	_	start_char=43|end_char=44
+11	обычный	обычный	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=45|end_char=52
+12	дырокол	дырокол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	acl	_	start_char=53|end_char=60
+13	.	.	PUNCT	_	_	1	punct	_	start_char=60|end_char=61
+
+# text = Я купил этот инструмент, думая, что мне нужен специальный инструмент, чтобы легко откручивать опорные пластины для магазинов, но он делает то же самое, что и обычный перфоратор.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=62|end_char=63
+2	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=64|end_char=69
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=70|end_char=74
+4	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=75|end_char=85
+5	,	,	PUNCT	_	_	6	punct	_	start_char=85|end_char=86
+6	думая	думать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	_	start_char=87|end_char=92
+7	,	,	PUNCT	_	_	10	punct	_	start_char=92|end_char=93
+8	что	что	SCONJ	_	_	10	mark	_	start_char=94|end_char=97
+9	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	start_char=98|end_char=101
+10	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	ccomp	_	start_char=102|end_char=107
+11	специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=108|end_char=119
+12	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=120|end_char=130
+13	,	,	PUNCT	_	_	16	punct	_	start_char=130|end_char=131
+14	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	start_char=132|end_char=137
+15	легко	легко	ADV	_	Degree=Pos	16	advmod	_	start_char=138|end_char=143
+16	откручивать	откручивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=144|end_char=155
+17	опорные	опорный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	start_char=156|end_char=163
+18	пластины	пластина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=164|end_char=172
+19	для	для	ADP	_	_	20	case	_	start_char=173|end_char=176
+20	магазинов	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	start_char=177|end_char=186
+21	,	,	PUNCT	_	_	24	punct	_	start_char=186|end_char=187
+22	но	но	CCONJ	_	_	24	cc	_	start_char=188|end_char=190
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=191|end_char=193
+24	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=194|end_char=200
+25	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	obj	_	start_char=201|end_char=203
+26	же	же	PART	_	_	25	advmod	_	start_char=204|end_char=206
+27	самое	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	start_char=207|end_char=212
+28	,	,	PUNCT	_	_	32	punct	_	start_char=212|end_char=213
+29	что	что	SCONJ	_	_	32	mark	_	start_char=214|end_char=217
+30	и	и	PART	_	_	32	advmod	_	start_char=218|end_char=219
+31	обычный	обычный	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=220|end_char=227
+32	перфоратор	перфоратор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	acl	_	start_char=228|end_char=238
+33	.	.	PUNCT	_	_	2	punct	_	start_char=238|end_char=239
+
+# text = Снимать опорные пластины с магазинов Glock - та еще морока.
+# sent_id = 2
+1	Снимать	снимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	csubj	_	start_char=240|end_char=247
+2	опорные	опорный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=248|end_char=255
+3	пластины	пластина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=256|end_char=264
+4	с	с	ADP	_	_	5	case	_	start_char=265|end_char=266
+5	магазинов	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	start_char=267|end_char=276
+6	Glock	Glock	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=277|end_char=282
+7	-	-	PUNCT	_	_	1	punct	_	start_char=283|end_char=284
+8	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=285|end_char=287
+9	еще	еще	ADV	_	Degree=Pos	10	obl	_	start_char=288|end_char=291
+10	морока	морок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=292|end_char=298
+11	.	.	PUNCT	_	_	10	punct	_	start_char=298|end_char=299
+
+# text = Этот инструмент не имеет особого значения.
+# sent_id = 3
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=300|end_char=304
+2	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=305|end_char=315
+3	не	не	PART	_	_	4	advmod	_	start_char=316|end_char=318
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=319|end_char=324
+5	особого	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=325|end_char=332
+6	значения	значение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	start_char=333|end_char=341
+7	.	.	PUNCT	_	_	4	punct	_	start_char=341|end_char=342
+

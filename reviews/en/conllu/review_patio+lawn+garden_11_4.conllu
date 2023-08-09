@@ -1,4 +1,7 @@
-1	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=0|end_char=4
+# text = have you changed the rubber formula ????
+# sent_id = 0
+# sentiment = 0
+1	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=0|end_char=4
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=5|end_char=8
 3	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=9|end_char=16
 4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=17|end_char=20
@@ -6,65 +9,74 @@
 6	formula	formula	NOUN	NN	Number=Sing	3	obj	_	start_char=28|end_char=35
 7	????	????	PUNCT	.	_	3	punct	_	start_char=36|end_char=40
 
+# text = Hey Gilmore I have been buying your hoses for years and only your hoses.
+# sent_id = 1
+# sentiment = 1
 1	Hey	hey	INTJ	UH	_	6	discourse	_	start_char=41|end_char=44
 2	Gilmore	Gilmore	PROPN	NNP	Number=Sing	6	vocative	_	start_char=45|end_char=52
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=53|end_char=54
-4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=55|end_char=59
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=55|end_char=59
 5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux	_	start_char=60|end_char=64
 6	buying	buy	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=65|end_char=71
-7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=72|end_char=76
+7	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=72|end_char=76
 8	hoses	hose	NOUN	NNS	Number=Plur	6	obj	_	start_char=77|end_char=82
 9	for	for	ADP	IN	_	10	case	_	start_char=83|end_char=86
 10	years	year	NOUN	NNS	Number=Plur	6	obl	_	start_char=87|end_char=92
 11	and	and	CCONJ	CC	_	14	cc	_	start_char=93|end_char=96
 12	only	only	ADV	RB	_	14	advmod	_	start_char=97|end_char=101
-13	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=102|end_char=106
+13	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=102|end_char=106
 14	hoses	hose	NOUN	NNS	Number=Plur	10	conj	_	start_char=107|end_char=112
 15	.	.	PUNCT	.	_	6	punct	_	start_char=112|end_char=113
 
+# text = You stand behind your product and provide great customer support..
+# sent_id = 2
+# sentiment = 2
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=114|end_char=117
-2	stand	stand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=118|end_char=123
+2	stand	stand	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=118|end_char=123
 3	behind	behind	ADP	IN	_	5	case	_	start_char=124|end_char=130
-4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=131|end_char=135
+4	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=131|end_char=135
 5	product	product	NOUN	NN	Number=Sing	2	obl	_	start_char=136|end_char=143
 6	and	and	CCONJ	CC	_	7	cc	_	start_char=144|end_char=147
-7	provide	provide	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=148|end_char=155
+7	provide	provide	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=148|end_char=155
 8	great	great	ADJ	JJ	Degree=Pos	10	amod	_	start_char=156|end_char=161
 9	customer	customer	NOUN	NN	Number=Sing	10	compound	_	start_char=162|end_char=170
 10	support	support	NOUN	NN	Number=Sing	7	obj	_	start_char=171|end_char=178
 11	..	..	PUNCT	.	_	2	punct	_	start_char=178|end_char=180
 
+# text = But I am only giving you 4 stars because this hose and the 100 footer I bought a few months back seem to kink more than my older Flexogens not sure why ?
+# sent_id = 3
+# sentiment = 0
 1	But	but	CCONJ	CC	_	5	cc	_	start_char=181|end_char=184
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=185|end_char=186
 3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=187|end_char=189
 4	only	only	ADV	RB	_	5	advmod	_	start_char=190|end_char=194
 5	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=195|end_char=201
 6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	iobj	_	start_char=202|end_char=205
-7	4	4	NUM	CD	NumType=Card	8	nummod	_	start_char=206|end_char=207
+7	4	4	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=206|end_char=207
 8	stars	star	NOUN	NNS	Number=Plur	5	obj	_	start_char=208|end_char=213
 9	because	because	SCONJ	IN	_	22	mark	_	start_char=215|end_char=222
 10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=223|end_char=227
 11	hose	hose	NOUN	NN	Number=Sing	22	nsubj	_	start_char=228|end_char=232
 12	and	and	CCONJ	CC	_	15	cc	_	start_char=233|end_char=236
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=237|end_char=240
-14	100	100	NUM	CD	NumType=Card	15	nummod	_	start_char=241|end_char=244
+14	100	100	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=241|end_char=244
 15	footer	footer	NOUN	NN	Number=Sing	11	conj	_	start_char=245|end_char=251
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=252|end_char=253
-17	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	start_char=254|end_char=260
+17	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	acl:relcl	_	start_char=254|end_char=260
 18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	start_char=262|end_char=263
 19	few	few	ADJ	JJ	Degree=Pos	20	amod	_	start_char=264|end_char=267
-20	months	month	NOUN	NNS	Number=Plur	17	obj	_	start_char=268|end_char=274
+20	months	month	NOUN	NNS	Number=Plur	21	obl:npmod	_	start_char=268|end_char=274
 21	back	back	ADV	RB	_	17	advmod	_	start_char=275|end_char=279
-22	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=280|end_char=284
+22	seem	seem	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=280|end_char=284
 23	to	to	PART	TO	_	24	mark	_	start_char=285|end_char=287
 24	kink	kink	VERB	VB	VerbForm=Inf	22	xcomp	_	start_char=288|end_char=292
 25	more	more	ADJ	JJR	Degree=Cmp	24	obj	_	start_char=293|end_char=297
 26	than	than	ADP	IN	_	29	case	_	start_char=298|end_char=302
-27	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=303|end_char=305
+27	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=303|end_char=305
 28	older	old	ADJ	JJR	Degree=Cmp	29	amod	_	start_char=306|end_char=311
-29	Flexogens	Flexogen	PROPN	NNPS	Number=Plur	24	obj	_	start_char=312|end_char=321
-30	not	not	ADV	RB	_	31	advmod	_	start_char=322|end_char=325
+29	Flexogens	Flexogen	PROPN	NNPS	Number=Plur	25	obl	_	start_char=312|end_char=321
+30	not	not	PART	RB	_	31	advmod	_	start_char=322|end_char=325
 31	sure	sure	ADJ	JJ	Degree=Pos	24	advcl	_	start_char=326|end_char=330
-32	why	why	SCONJ	WRB	PronType=Int	31	mark	_	start_char=331|end_char=334
+32	why	why	ADV	WRB	PronType=Int	31	ccomp	_	start_char=331|end_char=334
 33	?	?	PUNCT	.	_	5	punct	_	start_char=335|end_char=336
 

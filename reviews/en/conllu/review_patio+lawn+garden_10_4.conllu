@@ -1,9 +1,12 @@
+# text = Flexible hose as marketed....hope it lives up to the hipe!
+# sent_id = 0
+# sentiment = 1
 1	Flexible	flexible	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=8
 2	hose	hose	NOUN	NN	Number=Sing	0	root	_	start_char=9|end_char=13
 3	as	as	SCONJ	IN	_	4	mark	_	start_char=14|end_char=16
 4	marketed	market	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	start_char=17|end_char=25
 5	....	....	PUNCT	,	_	2	punct	_	start_char=25|end_char=29
-6	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=29|end_char=33
+6	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=29|end_char=33
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=34|end_char=36
 8	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=37|end_char=42
 9	up	up	ADP	RP	_	8	compound:prt	_	start_char=43|end_char=45
@@ -12,14 +15,20 @@
 12	hipe	hipe	NOUN	NN	Number=Sing	8	obl	_	start_char=53|end_char=57
 13	!	!	PUNCT	.	_	2	punct	_	start_char=57|end_char=58
 
-1	So	so	ADV	RB	_	2	advmod	_	start_char=59|end_char=61
+# text = So far so good!
+# sent_id = 1
+# sentiment = 2
+1	So	so	ADV	RB	_	4	advmod	_	start_char=59|end_char=61
 2	far	far	ADV	RB	Degree=Pos	4	advmod	_	start_char=62|end_char=65
 3	so	so	ADV	RB	_	4	advmod	_	start_char=66|end_char=68
 4	good	good	ADJ	JJ	Degree=Pos	0	root	_	start_char=69|end_char=73
 5	!	!	PUNCT	.	_	4	punct	_	start_char=73|end_char=74
 
+# text = I have not really had the time to test out the hose as it is cold weather time right now.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=75|end_char=76
-2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=77|end_char=81
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=77|end_char=81
 3	not	not	PART	RB	_	5	advmod	_	start_char=82|end_char=85
 4	really	really	ADV	RB	_	5	advmod	_	start_char=86|end_char=92
 5	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=93|end_char=96
@@ -40,18 +49,24 @@
 20	now	now	ADV	RB	_	18	advmod	_	start_char=160|end_char=163
 21	.	.	PUNCT	.	_	5	punct	_	start_char=163|end_char=164
 
+# text = I bought this Gilmour hose based on all the recommendations.
+# sent_id = 3
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=165|end_char=166
-2	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=167|end_char=173
+2	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=167|end_char=173
 3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=174|end_char=178
 4	Gilmour	Gilmour	PROPN	NNP	Number=Sing	5	compound	_	start_char=179|end_char=186
 5	hose	hose	NOUN	NN	Number=Sing	2	obj	_	start_char=187|end_char=191
-6	based	base	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	start_char=192|end_char=197
+6	based	base	VERB	VBN	Tense=Past|VerbForm=Part	10	case	_	start_char=192|end_char=197
 7	on	on	ADP	IN	_	10	case	_	start_char=198|end_char=200
 8	all	all	DET	PDT	_	10	det:predet	_	start_char=201|end_char=204
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=205|end_char=208
 10	recommendations	recommendation	NOUN	NNS	Number=Plur	2	obl	_	start_char=209|end_char=224
 11	.	.	PUNCT	.	_	2	punct	_	start_char=224|end_char=225
 
+# text = I am looking forward to not having to wrestle the hose to use it.
+# sent_id = 4
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=226|end_char=227
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=228|end_char=230
 3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=231|end_char=238

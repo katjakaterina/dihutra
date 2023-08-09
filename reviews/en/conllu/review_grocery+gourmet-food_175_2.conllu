@@ -1,33 +1,45 @@
+# text = Flavorless and not that strong
+# sent_id = 0
+# sentiment = 0
 1	Flavorless	flavorless	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=10
 2	and	and	CCONJ	CC	_	5	cc	_	start_char=11|end_char=14
 3	not	not	PART	RB	_	5	advmod	_	start_char=15|end_char=18
 4	that	that	ADV	RB	_	5	advmod	_	start_char=19|end_char=23
 5	strong	strong	ADJ	JJ	Degree=Pos	1	conj	_	start_char=24|end_char=30
 
+# text = This brand of tea felt stronger in the past.
+# sent_id = 1
+# sentiment = 2
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=31|end_char=35
 2	brand	brand	NOUN	NN	Number=Sing	5	nsubj	_	start_char=36|end_char=41
 3	of	of	ADP	IN	_	4	case	_	start_char=42|end_char=44
 4	tea	tea	NOUN	NN	Number=Sing	2	nmod	_	start_char=45|end_char=48
-5	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=49|end_char=53
+5	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=49|end_char=53
 6	stronger	strong	ADJ	JJR	Degree=Cmp	5	xcomp	_	start_char=54|end_char=62
 7	in	in	ADP	IN	_	9	case	_	start_char=63|end_char=65
 8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=66|end_char=69
-9	past	past	NOUN	NN	Number=Sing	6	obl	_	start_char=70|end_char=74
+9	past	past	NOUN	NN	Number=Sing	5	obl	_	start_char=70|end_char=74
 10	.	.	PUNCT	.	_	5	punct	_	start_char=74|end_char=75
 
+# text = Now it feels more ordinary.
+# sent_id = 2
+# sentiment = 1
 1	Now	now	ADV	RB	_	3	advmod	_	start_char=76|end_char=79
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=80|end_char=82
 3	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=83|end_char=88
-4	more	more	ADV	RBR	_	5	advmod	_	start_char=89|end_char=93
+4	more	more	ADV	RBR	Degree=Cmp	5	advmod	_	start_char=89|end_char=93
 5	ordinary	ordinary	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=94|end_char=102
 6	.	.	PUNCT	.	_	3	punct	_	start_char=102|end_char=103
 
-1	Relative	relative	ADJ	JJ	Degree=Pos	11	advmod	_	start_char=103|end_char=111
+# text = Relative to other teas I have consumed, this one has no flavor whatsoever.
+# sent_id = 3
+# sentiment = 0
+1	Relative	relative	ADP	IN	_	11	advcl	_	start_char=103|end_char=111
 2	to	to	ADP	IN	_	4	case	_	start_char=112|end_char=114
 3	other	other	ADJ	JJ	Degree=Pos	4	amod	_	start_char=115|end_char=120
-4	teas	teas	NOUN	NNS	Number=Plur	1	obl	_	start_char=121|end_char=125
+4	teas	tea	NOUN	NNS	Number=Plur	1	obl	_	start_char=121|end_char=125
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=126|end_char=127
-6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=128|end_char=132
+6	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=128|end_char=132
 7	consumed	consume	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	start_char=133|end_char=141
 8	,	,	PUNCT	,	_	11	punct	_	start_char=141|end_char=142
 9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=143|end_char=147
@@ -38,11 +50,14 @@
 14	whatsoever	whatsoever	ADV	RB	_	11	advmod	_	start_char=166|end_char=176
 15	.	.	PUNCT	.	_	11	punct	_	start_char=176|end_char=177
 
+# text = It is not even Organic, but that's okay as it was never advertised as such.
+# sent_id = 4
+# sentiment = 0
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=178|end_char=180
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=181|end_char=183
 3	not	not	PART	RB	_	5	advmod	_	start_char=184|end_char=187
 4	even	even	ADV	RB	_	5	advmod	_	start_char=188|end_char=192
-5	Organic	Organic	ADJ	JJ	Degree=Pos	0	root	_	start_char=193|end_char=200
+5	Organic	Organic	PROPN	NNP	Number=Sing	0	root	_	start_char=193|end_char=200
 6	,	,	PUNCT	,	_	10	punct	_	start_char=200|end_char=201
 7	but	but	CCONJ	CC	_	10	cc	_	start_char=202|end_char=205
 8	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	start_char=206|end_char=210
@@ -57,6 +72,9 @@
 17	such	such	ADJ	JJ	Degree=Pos	15	obl	_	start_char=248|end_char=252
 18	.	.	PUNCT	.	_	5	punct	_	start_char=252|end_char=253
 
+# text = I will not be buying it again.
+# sent_id = 5
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=253|end_char=254
 2	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=255|end_char=259
 3	not	not	PART	RB	_	5	advmod	_	start_char=260|end_char=263

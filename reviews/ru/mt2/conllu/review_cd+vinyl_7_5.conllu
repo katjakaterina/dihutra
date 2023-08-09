@@ -1,0 +1,70 @@
+# text = Его последний альбом посвящен прославлению Keith Green / Songs for the Shepherd:
+# sent_id = 0
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	3	det	_	start_char=0|end_char=3
+2	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=4|end_char=13
+3	альбом	альбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=14|end_char=20
+4	посвящен	посвятить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=21|end_char=29
+5	прославлению	прославление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	start_char=30|end_char=42
+6	Keith	Keith	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=43|end_char=48
+7	Green	Green	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=49|end_char=54
+8	/	/	PUNCT	_	_	5	punct	_	start_char=55|end_char=56
+9	Songs	Songs	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=57|end_char=62
+10	for	for	X	_	Foreign=Yes	5	flat:foreign	_	start_char=63|end_char=66
+11	the	the	X	_	Foreign=Yes	5	flat:foreign	_	start_char=67|end_char=70
+12	Shepherd	Shepherd	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=71|end_char=79
+13	:	:	PUNCT	_	_	4	punct	_	start_char=79|end_char=80
+
+# text = Его предыдущие альбомы были больше направлены на ободрение и исправление Церкви.
+# sent_id = 1
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	3	det	_	start_char=81|end_char=84
+2	предыдущие	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=85|end_char=95
+3	альбомы	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	start_char=96|end_char=103
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=104|end_char=108
+5	больше	больше	ADV	_	Degree=Cmp	6	advmod	_	start_char=109|end_char=115
+6	направлены	направить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=116|end_char=126
+7	на	на	ADP	_	_	8	case	_	start_char=127|end_char=129
+8	ободрение	ободрение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	start_char=130|end_char=139
+9	и	и	CCONJ	_	_	10	cc	_	start_char=140|end_char=141
+10	исправление	исправление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	conj	_	start_char=142|end_char=153
+11	Церкви	Церковь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=154|end_char=160
+12	.	.	PUNCT	_	_	6	punct	_	start_char=160|end_char=161
+
+# text = Этот, последний, альбом посвящен прославлению.
+# sent_id = 2
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=162|end_char=166
+2	,	,	PUNCT	_	_	3	punct	_	start_char=166|end_char=167
+3	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	start_char=168|end_char=177
+4	,	,	PUNCT	_	_	3	punct	_	start_char=177|end_char=178
+5	альбом	альбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	start_char=179|end_char=185
+6	посвящен	посвятить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=186|end_char=194
+7	прославлению	прославление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	iobj	_	start_char=195|end_char=207
+8	.	.	PUNCT	_	_	6	punct	_	start_char=207|end_char=208
+
+# text = Этот альбом все еще не так хорош, как его первый альбом, но это достаточно сильный альбом прославления, чтобы заслужить пять звезд.
+# sent_id = 3
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=209|end_char=213
+2	альбом	альбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=214|end_char=220
+3	все	все	PART	_	_	4	advmod	_	start_char=221|end_char=224
+4	еще	еще	ADV	_	Degree=Pos	7	obl	_	start_char=225|end_char=228
+5	не	не	PART	_	_	6	advmod	_	start_char=229|end_char=231
+6	так	так	ADV	_	Degree=Pos	7	obl	_	start_char=232|end_char=235
+7	хорош	хороший	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=236|end_char=241
+8	,	,	PUNCT	_	_	12	punct	_	start_char=241|end_char=242
+9	как	как	SCONJ	_	_	12	mark	_	start_char=243|end_char=246
+10	его	его	DET	_	Poss=Yes|PronType=Prs	12	det	_	start_char=247|end_char=250
+11	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=251|end_char=257
+12	альбом	альбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	advcl	_	start_char=258|end_char=264
+13	,	,	PUNCT	_	_	18	punct	_	start_char=264|end_char=265
+14	но	но	CCONJ	_	_	18	cc	_	start_char=266|end_char=268
+15	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	start_char=269|end_char=272
+16	достаточно	достаточно	ADV	_	Degree=Pos	17	obl	_	start_char=273|end_char=283
+17	сильный	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=284|end_char=291
+18	альбом	альбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	start_char=292|end_char=298
+19	прославления	прославление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	start_char=299|end_char=311
+20	,	,	PUNCT	_	_	22	punct	_	start_char=311|end_char=312
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	22	mark	_	start_char=313|end_char=318
+22	заслужить	заслужить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	start_char=319|end_char=328
+23	пять	пять	NUM	_	Case=Acc|NumType=Card	24	nummod:gov	_	start_char=329|end_char=333
+24	звезд	звезда	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	22	obl	_	start_char=334|end_char=339
+25	.	.	PUNCT	_	_	7	punct	_	start_char=339|end_char=340
+

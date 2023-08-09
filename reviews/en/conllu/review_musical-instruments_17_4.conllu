@@ -1,7 +1,13 @@
-1	Durable	durable	ADJ	JJ	Degree=Pos	3	amod	_	start_char=0|end_char=7
+# text = Durable Instrument Cable
+# sent_id = 0
+# sentiment = 1
+1	Durable	Durable	ADJ	JJ	Degree=Pos	3	amod	_	start_char=0|end_char=7
 2	Instrument	instrument	NOUN	NN	Number=Sing	3	compound	_	start_char=8|end_char=18
 3	Cable	cable	NOUN	NN	Number=Sing	0	root	_	start_char=19|end_char=24
 
+# text = This Fender cable is the perfect length for me!
+# sent_id = 1
+# sentiment = 2
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=25|end_char=29
 2	Fender	Fender	PROPN	NNP	Number=Sing	3	compound	_	start_char=30|end_char=36
 3	cable	cable	NOUN	NN	Number=Sing	7	nsubj	_	start_char=37|end_char=42
@@ -13,22 +19,27 @@
 9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	nmod	_	start_char=69|end_char=71
 10	!	!	PUNCT	.	_	7	punct	_	start_char=71|end_char=72
 
-1	Sometimes	sometimes	ADV	RB	_	0	root	_	start_char=73|end_char=82
+# text = Sometimes I find it a bit too long but I don't mind.
+# sent_id = 2
+# sentiment = 1
+1	Sometimes	sometimes	ADV	RB	_	3	advmod	_	start_char=73|end_char=82
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=83|end_char=84
+3	find	find	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=85|end_char=89
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=90|end_char=92
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=93|end_char=94
+6	bit	bit	NOUN	NN	Number=Sing	8	obl:npmod	_	start_char=95|end_char=98
+7	too	too	ADV	RB	_	8	advmod	_	start_char=99|end_char=102
+8	long	long	ADV	RB	Degree=Pos	3	xcomp	_	start_char=103|end_char=107
+9	but	but	CCONJ	CC	_	13	cc	_	start_char=108|end_char=111
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=112|end_char=113
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=114|end_char=116
+12	n't	not	PART	RB	_	13	advmod	_	start_char=116|end_char=119
+13	mind	mind	VERB	VB	VerbForm=Inf	3	conj	_	start_char=120|end_char=124
+14	.	.	PUNCT	.	_	3	punct	_	start_char=124|end_char=125
 
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=83|end_char=84
-2	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=85|end_char=89
-3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=90|end_char=92
-4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=93|end_char=94
-5	bit	bit	NOUN	NN	Number=Sing	7	obl:npmod	_	start_char=95|end_char=98
-6	too	too	ADV	RB	_	7	advmod	_	start_char=99|end_char=102
-7	long	long	ADV	RB	Degree=Pos	2	advmod	_	start_char=103|end_char=107
-8	but	but	CCONJ	CC	_	12	cc	_	start_char=108|end_char=111
-9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=112|end_char=113
-10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=114|end_char=116
-11	n't	not	PART	RB	_	12	advmod	_	start_char=116|end_char=119
-12	mind	mind	VERB	VB	VerbForm=Inf	2	conj	_	start_char=120|end_char=124
-13	.	.	PUNCT	.	_	2	punct	_	start_char=124|end_char=125
-
+# text = The build quality is great and I know that it will last.
+# sent_id = 3
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=126|end_char=129
 2	build	build	NOUN	NN	Number=Sing	3	compound	_	start_char=130|end_char=135
 3	quality	quality	NOUN	NN	Number=Sing	5	nsubj	_	start_char=136|end_char=143
@@ -36,40 +47,46 @@
 5	great	great	ADJ	JJ	Degree=Pos	0	root	_	start_char=147|end_char=152
 6	and	and	CCONJ	CC	_	8	cc	_	start_char=153|end_char=156
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=157|end_char=158
-8	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=159|end_char=163
+8	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=159|end_char=163
 9	that	that	SCONJ	IN	_	12	mark	_	start_char=164|end_char=168
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=169|end_char=171
 11	will	will	AUX	MD	VerbForm=Fin	12	aux	_	start_char=172|end_char=176
 12	last	last	VERB	VB	VerbForm=Inf	8	ccomp	_	start_char=177|end_char=181
 13	.	.	PUNCT	.	_	5	punct	_	start_char=181|end_char=182
 
+# text = The only gripe I have with this cable is that the metal sleeve gets unscrewed way too easily, requiring me to tighten it often.
+# sent_id = 4
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=183|end_char=186
 2	only	only	ADJ	JJ	Degree=Pos	3	amod	_	start_char=187|end_char=191
-3	gripe	gripe	NOUN	NN	Number=Sing	9	nsubj	_	start_char=192|end_char=197
+3	gripe	gripe	NOUN	NN	Number=Sing	15	nsubj:outer	_	start_char=192|end_char=197
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=198|end_char=199
-5	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=200|end_char=204
+5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=200|end_char=204
 6	with	with	ADP	IN	_	8	case	_	start_char=205|end_char=209
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=210|end_char=214
 8	cable	cable	NOUN	NN	Number=Sing	5	obl	_	start_char=215|end_char=220
-9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=221|end_char=223
-10	that	that	SCONJ	IN	_	14	mark	_	start_char=224|end_char=228
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=221|end_char=223
+10	that	that	SCONJ	IN	_	15	mark	_	start_char=224|end_char=228
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=229|end_char=232
 12	metal	metal	NOUN	NN	Number=Sing	13	compound	_	start_char=233|end_char=238
-13	sleeve	sleeve	NOUN	NN	Number=Sing	14	nsubj	_	start_char=239|end_char=245
-14	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	start_char=246|end_char=250
-15	unscrewed	unscrewed	ADJ	JJ	Degree=Pos	16	amod	_	start_char=251|end_char=260
-16	way	way	NOUN	NN	Number=Sing	14	obj	_	start_char=261|end_char=264
+13	sleeve	sleeve	NOUN	NN	Number=Sing	15	nsubj	_	start_char=239|end_char=245
+14	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	start_char=246|end_char=250
+15	unscrewed	unscrew	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=251|end_char=260
+16	way	way	ADV	RB	_	18	advmod	_	start_char=261|end_char=264
 17	too	too	ADV	RB	_	18	advmod	_	start_char=265|end_char=268
-18	easily	easily	ADV	RB	_	14	advmod	_	start_char=269|end_char=275
-19	,	,	PUNCT	,	_	14	punct	_	start_char=275|end_char=276
-20	requiring	require	VERB	VBG	VerbForm=Ger	14	advcl	_	start_char=277|end_char=286
+18	easily	easily	ADV	RB	_	15	advmod	_	start_char=269|end_char=275
+19	,	,	PUNCT	,	_	15	punct	_	start_char=275|end_char=276
+20	requiring	require	VERB	VBG	VerbForm=Ger	15	advcl	_	start_char=277|end_char=286
 21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	start_char=287|end_char=289
 22	to	to	PART	TO	_	23	mark	_	start_char=290|end_char=292
 23	tighten	tighten	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=293|end_char=300
 24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=301|end_char=303
 25	often	often	ADV	RB	_	23	advmod	_	start_char=304|end_char=309
-26	.	.	PUNCT	.	_	9	punct	_	start_char=309|end_char=310
+26	.	.	PUNCT	.	_	15	punct	_	start_char=309|end_char=310
 
+# text = Sound quality is not affected, and the color is cool, definitely try this cable out.
+# sent_id = 5
+# sentiment = 0
 1	Sound	sound	NOUN	NN	Number=Sing	2	compound	_	start_char=310|end_char=315
 2	quality	quality	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=316|end_char=323
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=324|end_char=326

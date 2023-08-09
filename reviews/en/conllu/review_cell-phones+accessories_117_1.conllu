@@ -1,44 +1,53 @@
-1	Stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=0|end_char=7
+# text = Stopped Working after 1 1/2 month..
+# sent_id = 0
+# sentiment = 1
+1	Stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=0|end_char=7
 2	Working	work	VERB	VBG	VerbForm=Ger	1	xcomp	_	start_char=8|end_char=15
 3	after	after	ADP	IN	_	6	case	_	start_char=16|end_char=21
-4	1	1	NUM	CD	NumType=Card	6	nummod	_	start_char=22|end_char=23
-5	1/2	1/2	NUM	CD	NumType=Card	6	nummod	_	start_char=24|end_char=27
+4	1	1	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=22|end_char=23
+5	1/2	1/2	NUM	CD	NumForm=Word|NumType=Card	6	nummod	_	start_char=24|end_char=27
 6	month	month	NOUN	NN	Number=Sing	2	obl	_	start_char=28|end_char=33
 7	..	..	PUNCT	.	_	1	punct	_	start_char=33|end_char=35
 
+# text = This thing worked well when it actually functioned, but today it stopped working and I am past the 30 day return window by 10 days give or take.
+# sent_id = 1
+# sentiment = 0
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=36|end_char=40
 2	thing	thing	NOUN	NN	Number=Sing	3	nsubj	_	start_char=41|end_char=46
-3	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=47|end_char=53
+3	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=47|end_char=53
 4	well	well	ADV	RB	Degree=Pos	3	advmod	_	start_char=54|end_char=58
-5	when	when	SCONJ	WRB	PronType=Int	8	mark	_	start_char=59|end_char=63
+5	when	when	ADV	WRB	PronType=Int	8	advmod	_	start_char=59|end_char=63
 6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=64|end_char=66
 7	actually	actually	ADV	RB	_	8	advmod	_	start_char=67|end_char=75
-8	functioned	function	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=76|end_char=86
+8	functioned	function	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=76|end_char=86
 9	,	,	PUNCT	,	_	13	punct	_	start_char=86|end_char=87
 10	but	but	CCONJ	CC	_	13	cc	_	start_char=88|end_char=91
 11	today	today	NOUN	NN	Number=Sing	13	obl:tmod	_	start_char=92|end_char=97
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=98|end_char=100
-13	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	start_char=101|end_char=108
+13	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=101|end_char=108
 14	working	work	VERB	VBG	VerbForm=Ger	13	xcomp	_	start_char=109|end_char=116
 15	and	and	CCONJ	CC	_	23	cc	_	start_char=117|end_char=120
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	start_char=121|end_char=122
 17	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=123|end_char=125
 18	past	past	ADP	IN	_	23	case	_	start_char=126|end_char=130
 19	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=131|end_char=134
-20	30	30	NUM	CD	NumType=Card	21	nummod	_	start_char=135|end_char=137
+20	30	30	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	_	start_char=135|end_char=137
 21	day	day	NOUN	NN	Number=Sing	23	compound	_	start_char=138|end_char=141
 22	return	return	NOUN	NN	Number=Sing	23	compound	_	start_char=142|end_char=148
 23	window	window	NOUN	NN	Number=Sing	13	conj	_	start_char=149|end_char=155
 24	by	by	ADP	IN	_	26	case	_	start_char=156|end_char=158
-25	10	10	NUM	CD	NumType=Card	26	nummod	_	start_char=159|end_char=161
-26	days	day	NOUN	NNS	Number=Plur	23	nmod	_	start_char=162|end_char=166
-27	give	give	VERB	VB	VerbForm=Fin	23	acl	_	start_char=167|end_char=171
+25	10	10	NUM	CD	NumForm=Digit|NumType=Card	26	nummod	_	start_char=159|end_char=161
+26	days	day	NOUN	NNS	Number=Plur	23	obl	_	start_char=162|end_char=166
+27	give	give	VERB	VB	VerbForm=Fin	23	advcl	_	start_char=167|end_char=171
 28	or	or	CCONJ	CC	_	29	cc	_	start_char=172|end_char=174
-29	take	take	VERB	VB	VerbForm=Inf	27	conj	_	start_char=175|end_char=179
+29	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	conj	_	start_char=175|end_char=179
 30	.	.	PUNCT	.	_	3	punct	_	start_char=179|end_char=180
 
+# text = I'm guessing the quality might not be great as that is why it stopped working, who knows..
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=180|end_char=181
-2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=181|end_char=183
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=181|end_char=183
 3	guessing	guess	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=184|end_char=192
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=193|end_char=196
 5	quality	quality	NOUN	NN	Number=Sing	9	nsubj	_	start_char=197|end_char=204
@@ -49,16 +58,19 @@
 10	as	as	SCONJ	IN	_	13	mark	_	start_char=224|end_char=226
 11	that	that	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	start_char=227|end_char=231
 12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=232|end_char=234
-13	why	why	SCONJ	WRB	PronType=Int	9	advcl	_	start_char=235|end_char=238
+13	why	why	ADV	WRB	PronType=Int	9	advcl	_	start_char=235|end_char=238
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=239|end_char=241
-15	stopped	stop	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	start_char=242|end_char=249
+15	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl:relcl	_	start_char=242|end_char=249
 16	working	work	VERB	VBG	VerbForm=Ger	15	xcomp	_	start_char=250|end_char=257
 17	,	,	PUNCT	,	_	19	punct	_	start_char=257|end_char=258
-18	who	who	PRON	WP	PronType=Int	19	nsubj	_	start_char=259|end_char=262
-19	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=263|end_char=268
+18	who	who	PRON	WP	PronType=Rel	19	nsubj	_	start_char=259|end_char=262
+19	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl:relcl	_	start_char=263|end_char=268
 20	..	..	PUNCT	.	_	3	punct	_	start_char=268|end_char=270
 
-1	What	what	PRON	WP	PronType=Int	3	nsubj	_	start_char=271|end_char=275
+# text = What a waste of money.
+# sent_id = 3
+# sentiment = 1
+1	What	what	DET	WDT	PronType=Int	3	det:predet	_	start_char=271|end_char=275
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=276|end_char=277
 3	waste	waste	NOUN	NN	Number=Sing	0	root	_	start_char=278|end_char=283
 4	of	of	ADP	IN	_	5	case	_	start_char=284|end_char=286

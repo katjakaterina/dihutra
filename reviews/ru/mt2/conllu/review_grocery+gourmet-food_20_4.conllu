@@ -1,0 +1,80 @@
+# text = Вкус отличный!
+# sent_id = 0
+1	Вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=4
+2	отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=5|end_char=13
+3	!	!	PUNCT	_	_	2	punct	_	start_char=13|end_char=14
+
+# text = Я начала новую диету, ограничивающую все добавленные сахара.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=15|end_char=16
+2	начала	начать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=23
+3	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=24|end_char=29
+4	диету	диета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=30|end_char=35
+5	,	,	PUNCT	_	_	6	punct	_	start_char=35|end_char=36
+6	ограничивающую	ограничивать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	start_char=37|end_char=51
+7	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	9	det	_	start_char=52|end_char=55
+8	добавленные	добавить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=56|end_char=67
+9	сахара	сахар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=68|end_char=74
+10	.	.	PUNCT	_	_	2	punct	_	start_char=74|end_char=75
+
+# text = Это одна из единственных марок, которую я смогла найти, в ингредиенты которой не добавлен сахар.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=76|end_char=79
+2	одна	один	NUM	_	Case=Nom|Gender=Fem|NumType=Card	0	root	_	start_char=80|end_char=84
+3	из	из	ADP	_	_	5	case	_	start_char=85|end_char=87
+4	единственных	единственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=88|end_char=100
+5	марок	марка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=101|end_char=106
+6	,	,	PUNCT	_	_	9	punct	_	start_char=106|end_char=107
+7	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	10	obj	_	start_char=108|end_char=115
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=116|end_char=117
+9	смогла	мочь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=118|end_char=124
+10	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=125|end_char=130
+11	,	,	PUNCT	_	_	16	punct	_	start_char=130|end_char=131
+12	в	в	ADP	_	_	13	case	_	start_char=132|end_char=133
+13	ингредиенты	ингредиент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obl	_	start_char=134|end_char=145
+14	которой	который	PRON	_	Case=Gen|PronType=Int,Rel	13	nmod	_	start_char=146|end_char=153
+15	не	не	PART	_	_	16	advmod	_	start_char=154|end_char=156
+16	добавлен	добавить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	ccomp	_	start_char=157|end_char=165
+17	сахар	сахар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	start_char=166|end_char=171
+18	.	.	PUNCT	_	_	2	punct	_	start_char=171|end_char=172
+
+# text = И, кроме того, он прекрасен на вкус!
+# sent_id = 3
+1	И	и	CCONJ	_	_	7	cc	_	start_char=173|end_char=174
+2	,	,	PUNCT	_	_	1	punct	_	start_char=174|end_char=175
+3	кроме	кроме	ADP	_	_	4	case	_	start_char=176|end_char=181
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	parataxis	_	start_char=182|end_char=186
+5	,	,	PUNCT	_	_	4	punct	_	start_char=186|end_char=187
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=188|end_char=190
+7	прекрасен	прекрасный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=191|end_char=200
+8	на	на	ADP	_	_	9	case	_	start_char=201|end_char=203
+9	вкус	вкус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=204|end_char=208
+10	!	!	PUNCT	_	_	7	punct	_	start_char=208|end_char=209
+
+# text = Хотя я не уверена, что смогу выпить всю баночку, прежде чем она закончится.
+# sent_id = 4
+1	Хотя	хотя	SCONJ	_	_	4	mark	_	start_char=210|end_char=214
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=215|end_char=216
+3	не	не	PART	_	_	4	advmod	_	start_char=217|end_char=219
+4	уверена	уверенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=220|end_char=227
+5	,	,	PUNCT	_	_	7	punct	_	start_char=227|end_char=228
+6	что	что	SCONJ	_	_	7	mark	_	start_char=229|end_char=232
+7	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=233|end_char=238
+8	выпить	выпить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=239|end_char=245
+9	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	10	det	_	start_char=246|end_char=249
+10	баночку	баночка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=250|end_char=257
+11	,	,	PUNCT	_	_	15	punct	_	start_char=257|end_char=258
+12	прежде	прежде	ADV	_	Degree=Pos	15	mark	_	start_char=259|end_char=265
+13	чем	чем	SCONJ	_	_	12	fixed	_	start_char=266|end_char=269
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=270|end_char=273
+15	закончится	закончиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	8	advcl	_	start_char=274|end_char=284
+16	.	.	PUNCT	_	_	4	punct	_	start_char=284|end_char=285
+
+# text = Как долго он действует?
+# sent_id = 5
+1	Как	как	ADV	_	Degree=Pos	2	advmod	_	start_char=286|end_char=289
+2	долго	долго	ADV	_	Degree=Pos	4	advmod	_	start_char=290|end_char=295
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=296|end_char=298
+4	действует	действовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=299|end_char=308
+5	?	?	PUNCT	_	_	4	punct	_	start_char=308|end_char=309
+

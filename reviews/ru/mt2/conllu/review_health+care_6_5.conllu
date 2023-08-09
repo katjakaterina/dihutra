@@ -1,0 +1,62 @@
+# text = 9,99 долл.
+# sent_id = 0
+1	9,99	9,99	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=4
+2	долл	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	start_char=5|end_char=9
+3	.	.	PUNCT	_	_	2	punct	_	start_char=9|end_char=10
+
+# text = При вытягивании предмета загорается лампочка.
+# sent_id = 1
+1	При	при	ADP	_	_	2	case	_	start_char=11|end_char=14
+2	вытягивании	вытягивание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=15|end_char=26
+3	предмета	предмет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=27|end_char=35
+4	загорается	загораться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=36|end_char=46
+5	лампочка	лампочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=47|end_char=55
+6	.	.	PUNCT	_	_	4	punct	_	start_char=55|end_char=56
+
+# text = Это намного удобнее в использовании, чем пластиковая лупа-закладка и лупа-штрих, которые я покупал ранее.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=57|end_char=60
+2	намного	намного	ADV	_	Degree=Pos	3	advmod	_	start_char=61|end_char=68
+3	удобнее	удобный	ADJ	_	Degree=Cmp	0	root	_	start_char=69|end_char=76
+4	в	в	ADP	_	_	5	case	_	start_char=77|end_char=78
+5	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	start_char=79|end_char=92
+6	,	,	PUNCT	_	_	9	punct	_	start_char=92|end_char=93
+7	чем	чем	SCONJ	_	_	9	mark	_	start_char=94|end_char=97
+8	пластиковая	пластиковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=98|end_char=109
+9	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	obl	_	start_char=110|end_char=114
+10	-	-	PUNCT	_	_	11	punct	_	start_char=114|end_char=115
+11	закладка	закладка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	parataxis	_	start_char=115|end_char=123
+12	и	и	CCONJ	_	_	13	cc	_	start_char=124|end_char=125
+13	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	conj	_	start_char=126|end_char=130
+14	-	-	PUNCT	_	_	15	punct	_	start_char=130|end_char=131
+15	штрих	штрих	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	start_char=131|end_char=136
+16	,	,	PUNCT	_	_	19	punct	_	start_char=136|end_char=137
+17	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	19	obj	_	start_char=138|end_char=145
+18	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=146|end_char=147
+19	покупал	покупать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=148|end_char=155
+20	ранее	ранее	ADV	_	Degree=Pos	19	advmod	_	start_char=156|end_char=161
+21	.	.	PUNCT	_	_	3	punct	_	start_char=161|end_char=162
+
+# text = Я был рад, что она загорается, когда мне нужно было увидеть серийный номер на задней панели ipod.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=163|end_char=164
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=165|end_char=168
+3	рад	рад	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=169|end_char=172
+4	,	,	PUNCT	_	_	7	punct	_	start_char=172|end_char=173
+5	что	что	SCONJ	_	_	7	mark	_	start_char=174|end_char=177
+6	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=178|end_char=181
+7	загорается	загораться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	ccomp	_	start_char=182|end_char=192
+8	,	,	PUNCT	_	_	11	punct	_	start_char=192|end_char=193
+9	когда	когда	SCONJ	_	_	11	mark	_	start_char=194|end_char=199
+10	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	iobj	_	start_char=200|end_char=203
+11	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	advcl	_	start_char=204|end_char=209
+12	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=210|end_char=214
+13	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	start_char=215|end_char=222
+14	серийный	серийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=223|end_char=231
+15	номер	номер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=232|end_char=237
+16	на	на	ADP	_	_	18	case	_	start_char=238|end_char=240
+17	задней	задний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=241|end_char=247
+18	панели	панель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	start_char=248|end_char=254
+19	ipod	ipod	X	_	Foreign=Yes	18	flat:foreign	_	start_char=255|end_char=259
+20	.	.	PUNCT	_	_	3	punct	_	start_char=259|end_char=260
+

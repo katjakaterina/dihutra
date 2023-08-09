@@ -1,5 +1,8 @@
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=0|end_char=1
-2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=1|end_char=3
+# text = I'm not opposed to this resistance!
+# sent_id = 0
+# sentiment = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=1|end_char=3
 3	not	not	PART	RB	_	4	advmod	_	start_char=4|end_char=7
 4	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=8|end_char=15
 5	to	to	ADP	IN	_	7	case	_	start_char=16|end_char=18
@@ -7,93 +10,107 @@
 7	resistance	resistance	NOUN	NN	Number=Sing	4	obl	_	start_char=24|end_char=34
 8	!	!	PUNCT	.	_	4	punct	_	start_char=34|end_char=35
 
+# text = I worked out once back in '08.
+# sent_id = 1
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=36|end_char=37
-2	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=38|end_char=44
-3	out	out	ADP	RP	_	2	advmod	_	start_char=45|end_char=48
+2	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=38|end_char=44
+3	out	out	ADP	RP	_	2	compound:prt	_	start_char=45|end_char=48
 4	once	once	ADV	RB	NumType=Mult	2	advmod	_	start_char=49|end_char=53
 5	back	back	ADV	RB	_	2	advmod	_	start_char=54|end_char=58
-6	in	in	ADP	IN	_	8	case	_	start_char=59|end_char=61
-7	'	'	PUNCT	``	_	8	punct	_	start_char=62|end_char=63
-8	08	08	NUM	CD	NumType=Card	2	obl	_	start_char=63|end_char=65
-9	.	.	PUNCT	.	_	2	punct	_	start_char=65|end_char=66
+6	in	in	ADP	IN	_	7	case	_	start_char=59|end_char=61
+7	'08	'08	NUM	CD	NumForm=Digit|NumType=Card	2	obl	_	start_char=62|end_char=65
+8	.	.	PUNCT	.	_	2	punct	_	start_char=65|end_char=66
 
+# text = I picked up some 40 lb weights and was like - &#34;too easy&#34;.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=67|end_char=68
-2	picked	pick	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=69|end_char=75
+2	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=69|end_char=75
 3	up	up	ADP	RP	_	2	compound:prt	_	start_char=76|end_char=78
 4	some	some	DET	DT	_	7	det	_	start_char=79|end_char=83
-5	40	40	NUM	CD	NumType=Card	6	nummod	_	start_char=84|end_char=86
+5	40	40	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=84|end_char=86
 6	lb	lb	NOUN	NN	Number=Sing	7	compound	_	start_char=87|end_char=89
 7	weights	weight	NOUN	NNS	Number=Plur	2	obj	_	start_char=90|end_char=97
-8	and	and	CCONJ	CC	_	10	cc	_	start_char=98|end_char=101
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	start_char=102|end_char=105
-10	like	like	ADP	IN	_	2	conj	_	start_char=106|end_char=110
-11	-	-	PUNCT	,	_	10	punct	_	start_char=111|end_char=112
+8	and	and	CCONJ	CC	_	9	cc	_	start_char=98|end_char=101
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=102|end_char=105
+10	like	like	ADP	RP	_	9	compound:prt	_	start_char=106|end_char=110
+11	-	-	PUNCT	HYPH	_	13	punct	_	start_char=111|end_char=112
 12	&	&	CCONJ	CC	_	13	cc	_	start_char=113|end_char=114
-13	#	#	SYM	NN	Number=Sing	10	conj	_	start_char=114|end_char=115
-14	34	34	NUM	CD	NumType=Card	13	nummod	_	start_char=115|end_char=117
-15	;	;	PUNCT	,	_	2	punct	_	start_char=117|end_char=118
+13	#	#	SYM	NN	Number=Sing	9	obj	_	start_char=114|end_char=115
+14	34	34	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=115|end_char=117
+15	;	;	PUNCT	,	_	17	punct	_	start_char=117|end_char=118
 16	too	too	ADV	RB	_	17	advmod	_	start_char=118|end_char=121
 17	easy	easy	ADJ	JJ	Degree=Pos	2	parataxis	_	start_char=122|end_char=126
 18	&	&	CCONJ	CC	_	19	cc	_	start_char=126|end_char=127
 19	#	#	SYM	NN	Number=Sing	17	conj	_	start_char=127|end_char=128
-20	34	34	NUM	CD	NumType=Card	19	nummod	_	start_char=128|end_char=130
+20	34	34	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=128|end_char=130
 21	;	;	PUNCT	,	_	2	punct	_	start_char=130|end_char=131
 22	.	.	PUNCT	.	_	2	punct	_	start_char=131|end_char=132
 
+# text = So then I grabbed some resistance bands and almost broke them.
+# sent_id = 3
+# sentiment = 1
 1	So	so	ADV	RB	_	4	advmod	_	start_char=133|end_char=135
 2	then	then	ADV	RB	PronType=Dem	4	advmod	_	start_char=136|end_char=140
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=141|end_char=142
-4	grabbed	grab	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=143|end_char=150
+4	grabbed	grab	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=143|end_char=150
 5	some	some	DET	DT	_	7	det	_	start_char=151|end_char=155
 6	resistance	resistance	NOUN	NN	Number=Sing	7	compound	_	start_char=156|end_char=166
 7	bands	band	NOUN	NNS	Number=Plur	4	obj	_	start_char=167|end_char=172
 8	and	and	CCONJ	CC	_	10	cc	_	start_char=173|end_char=176
 9	almost	almost	ADV	RB	_	10	advmod	_	start_char=177|end_char=183
-10	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	start_char=184|end_char=189
+10	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	conj	_	start_char=184|end_char=189
 11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	start_char=190|end_char=194
 12	.	.	PUNCT	.	_	4	punct	_	start_char=194|end_char=195
 
+# text = Now I've been recommended Black Mountain products because they are very durable.
+# sent_id = 4
+# sentiment = 2
 1	Now	now	ADV	RB	_	5	advmod	_	start_char=196|end_char=199
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=200|end_char=201
-3	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=201|end_char=204
-4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux	_	start_char=205|end_char=209
-5	recommended	recommend	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=210|end_char=221
-6	Black	Black	ADJ	NNP	Degree=Pos	8	amod	_	start_char=222|end_char=227
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	start_char=200|end_char=201
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=201|end_char=204
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	aux:pass	_	start_char=205|end_char=209
+5	recommended	recommend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=210|end_char=221
+6	Black	Black	ADJ	NNP	Degree=Pos|Number=Sing	7	amod	_	start_char=222|end_char=227
 7	Mountain	Mountain	PROPN	NNP	Number=Sing	8	compound	_	start_char=228|end_char=236
 8	products	product	NOUN	NNS	Number=Plur	5	obj	_	start_char=237|end_char=245
 9	because	because	SCONJ	IN	_	13	mark	_	start_char=246|end_char=253
 10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=254|end_char=258
-11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=259|end_char=262
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=259|end_char=262
 12	very	very	ADV	RB	_	13	advmod	_	start_char=263|end_char=267
 13	durable	durable	ADJ	JJ	Degree=Pos	5	advcl	_	start_char=268|end_char=275
 14	.	.	PUNCT	.	_	5	punct	_	start_char=275|end_char=276
 
+# text = I've had a set of the 25 lb red resistance bands for 3 months now and they look as good as when I first got them after an hour of use every day except Sunday.
+# sent_id = 5
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=277|end_char=278
-2	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=278|end_char=281
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=278|end_char=281
 3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=282|end_char=285
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=286|end_char=287
 5	set	set	NOUN	NN	Number=Sing	3	obj	_	start_char=288|end_char=291
 6	of	of	ADP	IN	_	12	case	_	start_char=292|end_char=294
 7	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=295|end_char=298
-8	25	25	NUM	CD	NumType=Card	9	nummod	_	start_char=299|end_char=301
+8	25	25	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=299|end_char=301
 9	lb	lb	NOUN	NN	Number=Sing	12	compound	_	start_char=302|end_char=304
-10	red	red	ADJ	JJ	Degree=Pos	11	amod	_	start_char=305|end_char=308
+10	red	red	ADJ	JJ	Degree=Pos	12	amod	_	start_char=305|end_char=308
 11	resistance	resistance	NOUN	NN	Number=Sing	12	compound	_	start_char=309|end_char=319
 12	bands	band	NOUN	NNS	Number=Plur	5	nmod	_	start_char=320|end_char=325
 13	for	for	ADP	IN	_	15	case	_	start_char=326|end_char=329
-14	3	3	NUM	CD	NumType=Card	15	nummod	_	start_char=330|end_char=331
+14	3	3	NUM	CD	NumForm=Digit|NumType=Card	15	nummod	_	start_char=330|end_char=331
 15	months	month	NOUN	NNS	Number=Plur	3	obl	_	start_char=332|end_char=338
 16	now	now	ADV	RB	_	3	advmod	_	start_char=339|end_char=342
 17	and	and	CCONJ	CC	_	19	cc	_	start_char=343|end_char=346
 18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	start_char=347|end_char=351
-19	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=352|end_char=356
+19	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=352|end_char=356
 20	as	as	ADV	RB	_	21	advmod	_	start_char=357|end_char=359
 21	good	good	ADJ	JJ	Degree=Pos	19	xcomp	_	start_char=360|end_char=364
 22	as	as	SCONJ	IN	_	26	mark	_	start_char=365|end_char=367
-23	when	when	SCONJ	WRB	PronType=Int	26	mark	_	start_char=368|end_char=372
+23	when	when	ADV	WRB	PronType=Int	26	advmod	_	start_char=368|end_char=372
 24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=373|end_char=374
-25	first	first	ADV	RB	_	26	advmod	_	start_char=375|end_char=380
-26	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	start_char=381|end_char=384
+25	first	first	ADV	RB	NumType=Ord	26	advmod	_	start_char=375|end_char=380
+26	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	advcl	_	start_char=381|end_char=384
 27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	start_char=385|end_char=389
 28	after	after	ADP	IN	_	30	case	_	start_char=390|end_char=395
 29	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=396|end_char=398
@@ -101,7 +118,7 @@
 31	of	of	ADP	IN	_	32	case	_	start_char=404|end_char=406
 32	use	use	NOUN	NN	Number=Sing	30	nmod	_	start_char=407|end_char=410
 33	every	every	DET	DT	_	34	det	_	start_char=411|end_char=416
-34	day	day	NOUN	NN	Number=Sing	30	nmod:tmod	_	start_char=417|end_char=420
+34	day	day	NOUN	NN	Number=Sing	26	obl:tmod	_	start_char=417|end_char=420
 35	except	except	ADP	IN	_	36	case	_	start_char=421|end_char=427
 36	Sunday	Sunday	PROPN	NNP	Number=Sing	26	obl	_	start_char=428|end_char=434
 37	.	.	PUNCT	.	_	3	punct	_	start_char=434|end_char=435

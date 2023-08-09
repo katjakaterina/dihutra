@@ -1,6 +1,9 @@
+# text = Now I don't have to grow up I can color right along with my grandchildren, without feeling intellectually compromised at the project.
+# sent_id = 0
+# sentiment = 1
 1	Now	now	ADV	RB	_	5	advmod	_	start_char=0|end_char=3
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4|end_char=5
-3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=6|end_char=8
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=6|end_char=8
 4	n't	not	PART	RB	_	5	advmod	_	start_char=8|end_char=11
 5	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=12|end_char=16
 6	to	to	PART	TO	_	7	mark	_	start_char=17|end_char=19
@@ -12,7 +15,7 @@
 12	right	right	ADV	RB	_	13	advmod	_	start_char=40|end_char=45
 13	along	along	ADV	RB	_	11	advmod	_	start_char=46|end_char=51
 14	with	with	ADP	IN	_	16	case	_	start_char=52|end_char=56
-15	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=57|end_char=59
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=57|end_char=59
 16	grandchildren	grandchild	NOUN	NNS	Number=Plur	11	obl	_	start_char=60|end_char=73
 17	,	,	PUNCT	,	_	11	punct	_	start_char=73|end_char=74
 18	without	without	SCONJ	IN	_	19	mark	_	start_char=75|end_char=82
@@ -24,6 +27,9 @@
 24	project	project	NOUN	NN	Number=Sing	21	obl	_	start_char=125|end_char=132
 25	.	.	PUNCT	.	_	5	punct	_	start_char=132|end_char=133
 
+# text = This book is so amazing that I have used some of the designs for stained glass windows.
+# sent_id = 1
+# sentiment = 2
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=134|end_char=138
 2	book	book	NOUN	NN	Number=Sing	5	nsubj	_	start_char=139|end_char=143
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=144|end_char=146
@@ -31,7 +37,7 @@
 5	amazing	amazing	ADJ	JJ	Degree=Pos	0	root	_	start_char=150|end_char=157
 6	that	that	SCONJ	IN	_	9	mark	_	start_char=158|end_char=162
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=163|end_char=164
-8	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=165|end_char=169
+8	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=165|end_char=169
 9	used	use	VERB	VBN	Tense=Past|VerbForm=Part	5	ccomp	_	start_char=170|end_char=174
 10	some	some	DET	DT	_	9	obj	_	start_char=175|end_char=179
 11	of	of	ADP	IN	_	13	case	_	start_char=180|end_char=182
@@ -43,12 +49,15 @@
 17	windows	window	NOUN	NNS	Number=Plur	13	nmod	_	start_char=213|end_char=220
 18	.	.	PUNCT	.	_	5	punct	_	start_char=220|end_char=221
 
+# text = I highly recommend this for anyone who does not want to grow out of a favorite pasttime.
+# sent_id = 2
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=222|end_char=223
 2	highly	highly	ADV	RB	_	3	advmod	_	start_char=224|end_char=230
-3	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=231|end_char=240
+3	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=231|end_char=240
 4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	start_char=241|end_char=245
 5	for	for	ADP	IN	_	6	case	_	start_char=246|end_char=249
-6	anyone	anyone	PRON	NN	Number=Sing	3	obl	_	start_char=250|end_char=256
+6	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	3	obl	_	start_char=250|end_char=256
 7	who	who	PRON	WP	PronType=Rel	10	nsubj	_	start_char=257|end_char=260
 8	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=261|end_char=265
 9	not	not	PART	RB	_	10	advmod	_	start_char=266|end_char=269
@@ -56,7 +65,7 @@
 11	to	to	PART	TO	_	12	mark	_	start_char=275|end_char=277
 12	grow	grow	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=278|end_char=282
 13	out	out	ADP	IN	_	17	case	_	start_char=283|end_char=286
-14	of	of	ADP	IN	_	17	case	_	start_char=287|end_char=289
+14	of	of	ADP	IN	_	13	fixed	_	start_char=287|end_char=289
 15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=290|end_char=291
 16	favorite	favorite	ADJ	JJ	Degree=Pos	17	amod	_	start_char=292|end_char=300
 17	pasttime	pasttime	NOUN	NN	Number=Sing	12	obl	_	start_char=301|end_char=309

@@ -1,0 +1,118 @@
+# text = Искажает Это дешевый хлам, который делает то, о чем говорит, - искажает звук.
+# sent_id = 0
+1	Искажает	искажать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	start_char=9|end_char=12
+3	дешевый	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=13|end_char=20
+4	хлам	хлам	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=21|end_char=25
+5	,	,	PUNCT	_	_	7	punct	_	start_char=25|end_char=26
+6	который	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=27|end_char=34
+7	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=35|end_char=41
+8	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	start_char=42|end_char=44
+9	,	,	PUNCT	_	_	12	punct	_	start_char=44|end_char=45
+10	о	о	ADP	_	_	11	case	_	start_char=46|end_char=47
+11	чем	что	PRON	_	Case=Loc|PronType=Int,Rel	12	obl	_	start_char=48|end_char=51
+12	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	start_char=52|end_char=59
+13	,	,	PUNCT	_	_	15	punct	_	start_char=59|end_char=60
+14	-	-	PUNCT	_	_	15	punct	_	start_char=61|end_char=62
+15	искажает	искажать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=63|end_char=71
+16	звук	звук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=72|end_char=76
+17	.	.	PUNCT	_	_	1	punct	_	start_char=76|end_char=77
+
+# text = Если вы хотите, чтобы ваша гитара звучала как хлам, это сделает это.
+# sent_id = 1
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=78|end_char=82
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=83|end_char=85
+3	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	start_char=86|end_char=92
+4	,	,	PUNCT	_	_	8	punct	_	start_char=92|end_char=93
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	start_char=94|end_char=99
+6	ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=100|end_char=104
+7	гитара	гитар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=105|end_char=111
+8	звучала	звучать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=112|end_char=119
+9	как	как	SCONJ	_	_	10	mark	_	start_char=120|end_char=123
+10	хлам	хлам	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	obl	_	start_char=124|end_char=128
+11	,	,	PUNCT	_	_	3	punct	_	start_char=128|end_char=129
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=130|end_char=133
+13	сделает	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=134|end_char=141
+14	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obj	_	start_char=142|end_char=145
+15	.	.	PUNCT	_	_	13	punct	_	start_char=145|end_char=146
+
+# text = Почему педали, которые заставляют вашу гитару звучать как хлам, являются самыми популярными, мне непонятно.
+# sent_id = 2
+1	Почему	почему	ADV	_	Degree=Pos	12	advmod	_	start_char=147|end_char=153
+2	педали	педаль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=154|end_char=160
+3	,	,	PUNCT	_	_	5	punct	_	start_char=160|end_char=161
+4	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	5	nsubj	_	start_char=162|end_char=169
+5	заставляют	заставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=170|end_char=180
+6	вашу	ваш	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=181|end_char=185
+7	гитару	гитара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=186|end_char=192
+8	звучать	звучать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=193|end_char=200
+9	как	как	SCONJ	_	_	10	mark	_	start_char=201|end_char=204
+10	хлам	хлам	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	obl	_	start_char=205|end_char=209
+11	,	,	PUNCT	_	_	2	punct	_	start_char=209|end_char=210
+12	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=211|end_char=219
+13	самыми	самый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	start_char=220|end_char=226
+14	популярными	популярный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	obl	_	start_char=227|end_char=238
+15	,	,	PUNCT	_	_	17	punct	_	start_char=238|end_char=239
+16	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	iobj	_	start_char=240|end_char=243
+17	непонятно	непонятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	12	conj	_	start_char=244|end_char=253
+18	.	.	PUNCT	_	_	12	punct	_	start_char=253|end_char=254
+
+# text = Это не бутиковая педаль дисторшна, которую использовал бы Хендрикс.
+# sent_id = 3
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=255|end_char=258
+2	не	не	PART	_	_	3	advmod	_	start_char=259|end_char=261
+3	бутиковая	бутиковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=262|end_char=271
+4	педаль	педаль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=272|end_char=278
+5	дисторшна	дисторшно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=279|end_char=288
+6	,	,	PUNCT	_	_	8	punct	_	start_char=288|end_char=289
+7	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	8	obj	_	start_char=290|end_char=297
+8	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=298|end_char=309
+9	бы	бы	AUX	_	_	8	aux	_	start_char=310|end_char=312
+10	Хендрикс	Хендрикс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=313|end_char=321
+11	.	.	PUNCT	_	_	4	punct	_	start_char=321|end_char=322
+
+# text = Бутик и дисторшн - это оксюморон.
+# sent_id = 4
+1	Бутик	бутик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=323|end_char=328
+2	и	и	CCONJ	_	_	3	cc	_	start_char=329|end_char=330
+3	дисторшн	дисторшн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=331|end_char=339
+4	-	-	PUNCT	_	_	1	punct	_	start_char=340|end_char=341
+5	это	это	PRON	_	PronType=Dem	6	expl	_	start_char=342|end_char=345
+6	оксюморон	оксюморон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=346|end_char=355
+7	.	.	PUNCT	_	_	6	punct	_	start_char=355|end_char=356
+
+# text = Эти вещи сделаны из тяжелого металла, они должны прослужить долго, но я надеюсь, что это не так (шучу), вы хотите дисторшн, вы получили дисторшн.
+# sent_id = 5
+1	Эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=357|end_char=360
+2	вещи	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	start_char=361|end_char=365
+3	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=366|end_char=373
+4	из	из	ADP	_	_	6	case	_	start_char=374|end_char=376
+5	тяжелого	тяжелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=377|end_char=385
+6	металла	металл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=386|end_char=393
+7	,	,	PUNCT	_	_	9	punct	_	start_char=393|end_char=394
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=395|end_char=398
+9	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	start_char=399|end_char=405
+10	прослужить	прослужить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=406|end_char=416
+11	долго	долго	ADV	_	Degree=Pos	10	advmod	_	start_char=417|end_char=422
+12	,	,	PUNCT	_	_	15	punct	_	start_char=422|end_char=423
+13	но	но	CCONJ	_	_	15	cc	_	start_char=424|end_char=426
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=427|end_char=428
+15	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=429|end_char=436
+16	,	,	PUNCT	_	_	20	punct	_	start_char=436|end_char=437
+17	что	что	SCONJ	_	_	20	mark	_	start_char=438|end_char=441
+18	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	nsubj	_	start_char=442|end_char=445
+19	не	не	PART	_	_	20	advmod	_	start_char=446|end_char=448
+20	так	так	ADV	_	Degree=Pos	15	ccomp	_	start_char=449|end_char=452
+21	(	(	PUNCT	_	_	22	punct	_	start_char=453|end_char=454
+22	шучу	шучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	20	parataxis	_	start_char=454|end_char=458
+23	)	)	PUNCT	_	_	22	punct	_	start_char=458|end_char=459
+24	,	,	PUNCT	_	_	26	punct	_	start_char=459|end_char=460
+25	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	26	nsubj	_	start_char=461|end_char=463
+26	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	start_char=464|end_char=470
+27	дисторшн	дисторшн	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	start_char=471|end_char=479
+28	,	,	PUNCT	_	_	30	punct	_	start_char=479|end_char=480
+29	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	30	nsubj	_	start_char=481|end_char=483
+30	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=484|end_char=492
+31	дисторшн	дисторшн	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	start_char=493|end_char=501
+32	.	.	PUNCT	_	_	3	punct	_	start_char=501|end_char=502
+

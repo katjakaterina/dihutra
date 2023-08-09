@@ -1,14 +1,24 @@
+# text = beautiful wedding cakes
+# sent_id = 0
+# sentiment = 2
 1	beautiful	beautiful	ADJ	JJ	Degree=Pos	3	amod	_	start_char=0|end_char=9
 2	wedding	wedding	NOUN	NN	Number=Sing	3	compound	_	start_char=10|end_char=17
-3	cakes	cake	NOUN	NNS	Number=Plur	5	nsubj	_	start_char=18|end_char=23
-4	Just	just	ADV	RB	_	5	advmod	_	start_char=24|end_char=28
-5	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=29|end_char=33
-6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	start_char=34|end_char=38
-7	book	book	NOUN	NN	Number=Sing	5	obj	_	start_char=39|end_char=43
-8	!!	!!	PUNCT	.	_	5	punct	_	start_char=43|end_char=45
+3	cakes	cake	NOUN	NNS	Number=Plur	0	root	_	start_char=18|end_char=23
 
+# text = Just love this book!!
+# sent_id = 1
+# sentiment = 2
+1	Just	just	ADV	RB	_	2	advmod	_	start_char=24|end_char=28
+2	love	love	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=29|end_char=33
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=34|end_char=38
+4	book	book	NOUN	NN	Number=Sing	2	obj	_	start_char=39|end_char=43
+5	!!	!!	PUNCT	.	_	2	punct	_	start_char=43|end_char=45
+
+# text = I got some great ideas from it.
+# sent_id = 2
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=46|end_char=47
-2	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=48|end_char=51
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=48|end_char=51
 3	some	some	DET	DT	_	5	det	_	start_char=52|end_char=56
 4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	start_char=57|end_char=62
 5	ideas	idea	NOUN	NNS	Number=Plur	2	obj	_	start_char=63|end_char=68
@@ -16,6 +26,9 @@
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=74|end_char=76
 8	.	.	PUNCT	.	_	2	punct	_	start_char=76|end_char=77
 
+# text = It is well written, recipes easy to follow.
+# sent_id = 3
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=78|end_char=80
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=81|end_char=83
 3	well	well	ADV	RB	Degree=Pos	4	advmod	_	start_char=84|end_char=88
@@ -24,11 +37,14 @@
 6	recipes	recipe	NOUN	NNS	Number=Plur	4	parataxis	_	start_char=98|end_char=105
 7	easy	easy	ADJ	JJ	Degree=Pos	6	amod	_	start_char=106|end_char=110
 8	to	to	PART	TO	_	9	mark	_	start_char=111|end_char=113
-9	follow	follow	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=114|end_char=120
+9	follow	follow	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=114|end_char=120
 10	.	.	PUNCT	.	_	4	punct	_	start_char=120|end_char=121
 
+# text = I did wonder whether this would be just another wedding cake book when I first saw it.
+# sent_id = 4
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=122|end_char=123
-2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	start_char=124|end_char=127
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=124|end_char=127
 3	wonder	wonder	VERB	VB	VerbForm=Inf	0	root	_	start_char=128|end_char=134
 4	whether	whether	SCONJ	IN	_	12	mark	_	start_char=135|end_char=142
 5	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	start_char=143|end_char=147
@@ -39,36 +55,42 @@
 10	wedding	wedding	NOUN	NN	Number=Sing	11	compound	_	start_char=170|end_char=177
 11	cake	cake	NOUN	NN	Number=Sing	12	compound	_	start_char=178|end_char=182
 12	book	book	NOUN	NN	Number=Sing	3	ccomp	_	start_char=183|end_char=187
-13	when	when	SCONJ	WRB	PronType=Int	16	mark	_	start_char=188|end_char=192
+13	when	when	ADV	WRB	PronType=Int	16	advmod	_	start_char=188|end_char=192
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=193|end_char=194
-15	first	first	ADV	RB	_	16	advmod	_	start_char=195|end_char=200
-16	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=201|end_char=204
+15	first	first	ADV	RB	NumType=Ord	16	advmod	_	start_char=195|end_char=200
+16	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=201|end_char=204
 17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=205|end_char=207
 18	.	.	PUNCT	.	_	3	punct	_	start_char=207|end_char=208
 
+# text = I am so glad I went with my gut feeling and bought it.
+# sent_id = 5
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=209|end_char=210
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=211|end_char=213
 3	so	so	ADV	RB	_	4	advmod	_	start_char=214|end_char=216
 4	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	start_char=217|end_char=221
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=222|end_char=223
-6	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=224|end_char=228
+6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=224|end_char=228
 7	with	with	ADP	IN	_	10	case	_	start_char=229|end_char=233
-8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=234|end_char=236
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=234|end_char=236
 9	gut	gut	NOUN	NN	Number=Sing	10	compound	_	start_char=237|end_char=240
 10	feeling	feeling	NOUN	NN	Number=Sing	6	obl	_	start_char=241|end_char=248
 11	and	and	CCONJ	CC	_	12	cc	_	start_char=249|end_char=252
-12	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	start_char=253|end_char=259
+12	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	conj	_	start_char=253|end_char=259
 13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=260|end_char=262
 14	.	.	PUNCT	.	_	4	punct	_	start_char=262|end_char=263
 
+# text = I love Martha Stewart items, this delivered well.
+# sent_id = 6
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=264|end_char=265
-2	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=266|end_char=270
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=266|end_char=270
 3	Martha	Martha	PROPN	NNP	Number=Sing	5	compound	_	start_char=271|end_char=277
 4	Stewart	Stewart	PROPN	NNP	Number=Sing	3	flat	_	start_char=278|end_char=285
 5	items	item	NOUN	NNS	Number=Plur	2	obj	_	start_char=286|end_char=291
 6	,	,	PUNCT	,	_	2	punct	_	start_char=291|end_char=292
 7	this	this	PRON	DT	Number=Sing|PronType=Dem	8	nsubj	_	start_char=293|end_char=297
-8	delivered	deliver	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=298|end_char=307
+8	delivered	deliver	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=298|end_char=307
 9	well	well	ADV	RB	Degree=Pos	8	advmod	_	start_char=308|end_char=312
 10	.	.	PUNCT	.	_	2	punct	_	start_char=312|end_char=313
 

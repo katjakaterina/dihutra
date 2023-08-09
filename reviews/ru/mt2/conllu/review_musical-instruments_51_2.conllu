@@ -1,0 +1,107 @@
+# text = Не могу рекомендовать Я не ожидал, что этот кабель окажется таким тонким.
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=7
+3	рекомендовать	рекомендовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=8|end_char=21
+4	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=22|end_char=23
+5	не	не	PART	_	_	6	advmod	_	start_char=24|end_char=26
+6	ожидал	ожидать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=27|end_char=33
+7	,	,	PUNCT	_	_	11	punct	_	start_char=33|end_char=34
+8	что	что	SCONJ	_	_	11	mark	_	start_char=35|end_char=38
+9	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=39|end_char=43
+10	кабель	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=44|end_char=50
+11	окажется	оказаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	ccomp	_	start_char=51|end_char=59
+12	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=60|end_char=65
+13	тонким	тонкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	obl	_	start_char=66|end_char=72
+14	.	.	PUNCT	_	_	2	punct	_	start_char=72|end_char=73
+
+# text = Его толщина в два раза меньше, чем у любого другого гитарного кабеля, который я использовал.
+# sent_id = 1
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	2	det	_	start_char=74|end_char=77
+2	толщина	толщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=78|end_char=85
+3	в	в	ADP	_	_	5	case	_	start_char=86|end_char=87
+4	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	5	nummod	_	start_char=88|end_char=91
+5	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=92|end_char=96
+6	меньше	малый	ADJ	_	Degree=Cmp	0	root	_	start_char=97|end_char=103
+7	,	,	PUNCT	_	_	13	punct	_	start_char=103|end_char=104
+8	чем	чем	SCONJ	_	_	13	mark	_	start_char=105|end_char=108
+9	у	у	ADP	_	_	13	case	_	start_char=109|end_char=110
+10	любого	любой	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	13	det	_	start_char=111|end_char=117
+11	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=118|end_char=125
+12	гитарного	гитарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=126|end_char=135
+13	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=136|end_char=142
+14	,	,	PUNCT	_	_	17	punct	_	start_char=142|end_char=143
+15	который	который	PRON	_	Case=Acc|PronType=Int,Rel	17	obj	_	start_char=144|end_char=151
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=152|end_char=153
+17	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=154|end_char=165
+18	.	.	PUNCT	_	_	6	punct	_	start_char=165|end_char=166
+
+# text = Не уверен в долговечности или потере/помехах сигнала.
+# sent_id = 2
+1	Не	не	PART	_	_	2	advmod	_	start_char=167|end_char=169
+2	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=170|end_char=176
+3	в	в	ADP	_	_	4	case	_	start_char=177|end_char=178
+4	долговечности	долговечность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=179|end_char=192
+5	или	или	CCONJ	_	_	6	cc	_	start_char=193|end_char=196
+6	потере	потеря	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	conj	_	start_char=197|end_char=203
+7	/	/	PUNCT	_	_	8	punct	_	start_char=203|end_char=204
+8	помехах	помехи	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	start_char=204|end_char=211
+9	сигнала	сигнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=212|end_char=219
+10	.	.	PUNCT	_	_	2	punct	_	start_char=219|end_char=220
+
+# text = Если бы у меня была предусмотрительность, я бы потратил пару лишних баксов на более толстый кабель.
+# sent_id = 3
+1	Если	если	SCONJ	_	_	5	mark	_	start_char=221|end_char=225
+2	бы	бы	AUX	_	_	5	aux	_	start_char=226|end_char=228
+3	у	у	ADP	_	_	4	case	_	start_char=229|end_char=230
+4	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	advcl	_	start_char=231|end_char=235
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=236|end_char=240
+6	предусмотрительность	предусмотрительность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=241|end_char=261
+7	,	,	PUNCT	_	_	5	punct	_	start_char=261|end_char=262
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=263|end_char=264
+9	бы	бы	AUX	_	_	10	aux	_	start_char=265|end_char=267
+10	потратил	тратить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=268|end_char=276
+11	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=277|end_char=281
+12	лишних	лишний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=282|end_char=288
+13	баксов	бакс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=289|end_char=295
+14	на	на	ADP	_	_	17	case	_	start_char=296|end_char=298
+15	более	более	ADV	_	Degree=Cmp	16	obl	_	start_char=299|end_char=304
+16	толстый	толстый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=305|end_char=312
+17	кабель	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	start_char=313|end_char=319
+18	.	.	PUNCT	_	_	10	punct	_	start_char=319|end_char=320
+
+# text = Тем не менее, он работает и стоил недорого.
+# sent_id = 4
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	6	discourse	_	start_char=321|end_char=324
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	start_char=325|end_char=327
+3	менее	менее	ADV	_	Degree=Cmp	1	fixed	_	start_char=328|end_char=333
+4	,	,	PUNCT	_	_	1	punct	_	start_char=333|end_char=334
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=335|end_char=337
+6	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=338|end_char=346
+7	и	и	CCONJ	_	_	8	cc	_	start_char=347|end_char=348
+8	стоил	стоить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=349|end_char=354
+9	недорого	недорого	ADV	_	Degree=Pos	8	advmod	_	start_char=355|end_char=363
+10	.	.	PUNCT	_	_	6	punct	_	start_char=363|end_char=364
+
+# text = Провод перетерся у гнезда под прямым углом.
+# sent_id = 5
+1	Провод	провод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=365|end_char=371
+2	перетерся	перетереться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=372|end_char=381
+3	у	у	ADP	_	_	4	case	_	start_char=382|end_char=383
+4	гнезда	гнездо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=384|end_char=390
+5	под	под	ADP	_	_	7	case	_	start_char=391|end_char=394
+6	прямым	прямой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=395|end_char=401
+7	углом	угол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	start_char=402|end_char=407
+8	.	.	PUNCT	_	_	2	punct	_	start_char=407|end_char=408
+
+# text = Вы получаете то, за что платите.
+# sent_id = 6
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=409|end_char=411
+2	получаете	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=412|end_char=421
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=422|end_char=424
+4	,	,	PUNCT	_	_	7	punct	_	start_char=424|end_char=425
+5	за	за	ADP	_	_	6	case	_	start_char=426|end_char=428
+6	что	что	PRON	_	Case=Acc|PronType=Int,Rel	7	obl	_	start_char=429|end_char=432
+7	платите	платить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	start_char=433|end_char=440
+8	.	.	PUNCT	_	_	2	punct	_	start_char=440|end_char=441
+

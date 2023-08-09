@@ -1,0 +1,110 @@
+# text = Я не против такого сопротивления!
+# sent_id = 0
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=0|end_char=1
+2	не	не	PART	_	_	5	advmod	_	start_char=2|end_char=4
+3	против	против	ADP	_	_	5	case	_	start_char=5|end_char=11
+4	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	start_char=12|end_char=18
+5	сопротивления	сопротивление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	start_char=19|end_char=32
+6	!	!	PUNCT	_	_	5	punct	_	start_char=32|end_char=33
+
+# text = Я занимался один раз в 08 году.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=34|end_char=35
+2	занимался	заниматься	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=36|end_char=45
+3	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	4	nummod	_	start_char=46|end_char=50
+4	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=51|end_char=54
+5	в	в	ADP	_	_	7	case	_	start_char=55|end_char=56
+6	08	08	ADJ	_	Degree=Pos	7	amod	_	start_char=57|end_char=59
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=60|end_char=64
+8	.	.	PUNCT	_	_	2	punct	_	start_char=64|end_char=65
+
+# text = Взял несколько 40-фунтовых гирь и подумал - &#34;слишком легко&#34;.
+# sent_id = 2
+1	Взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=66|end_char=70
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	4	nummod	_	start_char=71|end_char=80
+3	40-фунтовых	40-фунтовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	start_char=81|end_char=92
+4	гирь	гирь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=93|end_char=97
+5	и	и	CCONJ	_	_	6	cc	_	start_char=98|end_char=99
+6	подумал	подумать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=100|end_char=107
+7	-	-	PUNCT	_	_	8	punct	_	start_char=108|end_char=109
+8	&	&	SYM	_	_	6	parataxis	_	start_char=110|end_char=111
+9	#34	#34	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=111|end_char=114
+10	;	;	PUNCT	_	_	12	punct	_	start_char=114|end_char=115
+11	слишком	слишком	ADV	_	Degree=Pos	12	obl	_	start_char=115|end_char=122
+12	легко&	легкий	ADJ	_	Degree=Pos|Number=Sing	1	conj	_	start_char=123|end_char=129
+13	#	#	SYM	_	_	12	nsubj	_	start_char=129|end_char=130
+14	34	34	NUM	_	NumType=Card	13	nummod:entity	_	start_char=130|end_char=132
+15	;	;	PUNCT	_	_	14	punct	_	start_char=132|end_char=133
+16	.	.	PUNCT	_	_	1	punct	_	start_char=133|end_char=134
+
+# text = Тогда я взял резинки и чуть не сломал их.
+# sent_id = 3
+1	Тогда	тогда	ADV	_	Degree=Pos	3	advmod	_	start_char=135|end_char=140
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=141|end_char=142
+3	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=143|end_char=147
+4	резинки	резинок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=148|end_char=155
+5	и	и	CCONJ	_	_	8	cc	_	start_char=156|end_char=157
+6	чуть	чуть	ADV	_	Degree=Pos	8	advmod	_	start_char=158|end_char=162
+7	не	не	PART	_	_	8	advmod	_	start_char=163|end_char=165
+8	сломал	ломать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=166|end_char=172
+9	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	start_char=173|end_char=175
+10	.	.	PUNCT	_	_	3	punct	_	start_char=175|end_char=176
+
+# text = Теперь мне порекомендовали продукцию Black Mountain, потому что она очень прочная.
+# sent_id = 4
+1	Теперь	теперь	ADV	_	Degree=Pos	3	advmod	_	start_char=177|end_char=183
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=184|end_char=187
+3	порекомендовали	порекомендовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=188|end_char=203
+4	продукцию	продукция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=204|end_char=213
+5	Black	Black	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=214|end_char=219
+6	Mountain	Mountain	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=220|end_char=228
+7	,	,	PUNCT	_	_	12	punct	_	start_char=228|end_char=229
+8	потому	потому	ADV	_	Degree=Pos	12	mark	_	start_char=230|end_char=236
+9	что	что	SCONJ	_	_	8	fixed	_	start_char=237|end_char=240
+10	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=241|end_char=244
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	start_char=245|end_char=250
+12	прочная	прочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	advcl	_	start_char=251|end_char=258
+13	.	.	PUNCT	_	_	3	punct	_	start_char=258|end_char=259
+
+# text = У меня уже 3 месяца есть набор красных лент весом 25 фунтов, и они выглядят так же хорошо, как и тогда, когда я их только получил, после часа использования каждый день, кроме воскресенья.
+# sent_id = 5
+1	У	у	ADP	_	_	2	case	_	start_char=260|end_char=261
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	obl	_	start_char=262|end_char=266
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	start_char=267|end_char=270
+4	3	3	NUM	_	NumType=Card	5	nummod	_	start_char=271|end_char=272
+5	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=273|end_char=279
+6	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=280|end_char=284
+7	набор	набор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=285|end_char=290
+8	красных	красный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	start_char=291|end_char=298
+9	лент	лента	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=299|end_char=303
+10	весом	вес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	start_char=304|end_char=309
+11	25	25	NUM	_	NumType=Card	12	nummod	_	start_char=310|end_char=312
+12	фунтов	фунт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=313|end_char=319
+13	,	,	PUNCT	_	_	16	punct	_	start_char=319|end_char=320
+14	и	и	CCONJ	_	_	16	cc	_	start_char=321|end_char=322
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=323|end_char=326
+16	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=327|end_char=335
+17	так	так	ADV	_	Degree=Pos	19	advmod	_	start_char=336|end_char=339
+18	же	же	PART	_	_	17	advmod	_	start_char=340|end_char=342
+19	хорошо	хорошо	ADV	_	Degree=Pos	16	advmod	_	start_char=343|end_char=349
+20	,	,	PUNCT	_	_	23	punct	_	start_char=349|end_char=350
+21	как	как	SCONJ	_	_	23	mark	_	start_char=351|end_char=354
+22	и	и	PART	_	_	23	advmod	_	start_char=355|end_char=356
+23	тогда	тогда	ADV	_	Degree=Pos	17	advcl	_	start_char=357|end_char=362
+24	,	,	PUNCT	_	_	29	punct	_	start_char=362|end_char=363
+25	когда	когда	SCONJ	_	_	29	mark	_	start_char=364|end_char=369
+26	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=370|end_char=371
+27	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	obj	_	start_char=372|end_char=374
+28	только	только	PART	_	_	29	advmod	_	start_char=375|end_char=381
+29	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	start_char=382|end_char=389
+30	,	,	PUNCT	_	_	32	punct	_	start_char=389|end_char=390
+31	после	после	ADP	_	_	32	case	_	start_char=391|end_char=396
+32	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	conj	_	start_char=397|end_char=401
+33	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	start_char=402|end_char=415
+34	каждый	каждый	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	35	det	_	start_char=416|end_char=422
+35	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	nmod	_	start_char=423|end_char=427
+36	,	,	PUNCT	_	_	38	punct	_	start_char=427|end_char=428
+37	кроме	кроме	ADP	_	_	38	case	_	start_char=429|end_char=434
+38	воскресенья	воскресенье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	start_char=435|end_char=446
+39	.	.	PUNCT	_	_	6	punct	_	start_char=446|end_char=447
+

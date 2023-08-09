@@ -1,0 +1,62 @@
+# text = Абсолютное сокровище Каждый, кто мечтает создавать красивые торты, должен иметь эту книгу на своем ночном столике.
+# sent_id = 0
+1	Абсолютное	абсолютный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	сокровище	сокровище	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=11|end_char=20
+3	Каждый	каждый	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	start_char=21|end_char=27
+4	,	,	PUNCT	_	_	6	punct	_	start_char=27|end_char=28
+5	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	6	nsubj	_	start_char=29|end_char=32
+6	мечтает	мечтать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=33|end_char=40
+7	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=41|end_char=50
+8	красивые	красивый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	start_char=51|end_char=59
+9	торты	торт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=60|end_char=65
+10	,	,	PUNCT	_	_	3	punct	_	start_char=65|end_char=66
+11	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=67|end_char=73
+12	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=74|end_char=79
+13	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=80|end_char=83
+14	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=84|end_char=89
+15	на	на	ADP	_	_	18	case	_	start_char=90|end_char=92
+16	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	start_char=93|end_char=98
+17	ночном	ночной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=99|end_char=105
+18	столике	столик	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=106|end_char=113
+19	.	.	PUNCT	_	_	11	punct	_	start_char=113|end_char=114
+
+# text = Я не знаю, сколько ночей я изучала ее страницы перед сном, - это абсолютное сокровище.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=115|end_char=116
+2	не	не	PART	_	_	3	advmod	_	start_char=117|end_char=119
+3	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=120|end_char=124
+4	,	,	PUNCT	_	_	8	punct	_	start_char=124|end_char=125
+5	сколько	сколько	NUM	_	NumType=Card	6	nummod:gov	_	start_char=126|end_char=133
+6	ночей	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	start_char=134|end_char=139
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=140|end_char=141
+8	изучала	изучать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=142|end_char=149
+9	ее	ее	DET	_	Poss=Yes|PronType=Prs	10	det	_	start_char=150|end_char=152
+10	страницы	страница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=153|end_char=161
+11	перед	перед	ADP	_	_	12	case	_	start_char=162|end_char=167
+12	сном	сон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=168|end_char=172
+13	,	,	PUNCT	_	_	17	punct	_	start_char=172|end_char=173
+14	-	-	PUNCT	_	_	17	punct	_	start_char=174|end_char=175
+15	это	это	PRON	_	PronType=Dem	17	nsubj	_	start_char=176|end_char=179
+16	абсолютное	абсолютный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=180|end_char=190
+17	сокровище	сокровище	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	parataxis	_	start_char=191|end_char=200
+18	.	.	PUNCT	_	_	3	punct	_	start_char=200|end_char=201
+
+# text = Это как Святой Грааль среди книг о тортах.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=202|end_char=205
+2	как	как	SCONJ	_	_	4	mark	_	start_char=206|end_char=209
+3	Святой	святой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=210|end_char=216
+4	Грааль	Грааль	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=217|end_char=223
+5	среди	среди	ADP	_	_	6	case	_	start_char=224|end_char=229
+6	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=230|end_char=234
+7	о	о	ADP	_	_	8	case	_	start_char=235|end_char=236
+8	тортах	торт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	start_char=237|end_char=243
+9	.	.	PUNCT	_	_	4	punct	_	start_char=243|end_char=244
+
+# text = Вы не пожалеете.
+# sent_id = 3
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=245|end_char=247
+2	не	не	PART	_	_	3	advmod	_	start_char=248|end_char=250
+3	пожалеете	жалеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=251|end_char=260
+4	.	.	PUNCT	_	_	3	punct	_	start_char=260|end_char=261
+

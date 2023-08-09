@@ -1,0 +1,128 @@
+# text = Отличная работа - проблема с обрамлением Заплатил больше, чтобы получить обрамленную версию этой работы для комнаты сына.
+# sent_id = 0
+1	Отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=9|end_char=15
+3	-	-	PUNCT	_	_	2	punct	_	start_char=16|end_char=17
+4	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=18|end_char=26
+5	с	с	ADP	_	_	6	case	_	start_char=27|end_char=28
+6	обрамлением	обрамление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	start_char=29|end_char=40
+7	Заплатил	заплатить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=49
+8	больше	больше	ADV	_	Degree=Cmp	7	advmod	_	start_char=50|end_char=56
+9	,	,	PUNCT	_	_	11	punct	_	start_char=56|end_char=57
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	start_char=58|end_char=63
+11	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	start_char=64|end_char=72
+12	обрамленную	обрамить	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	start_char=73|end_char=84
+13	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=85|end_char=91
+14	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	start_char=92|end_char=96
+15	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=97|end_char=103
+16	для	для	ADP	_	_	17	case	_	start_char=104|end_char=107
+17	комнаты	комната	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	start_char=108|end_char=115
+18	сына	сын	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=116|end_char=120
+19	.	.	PUNCT	_	_	7	punct	_	start_char=120|end_char=121
+
+# text = Сам мультфильм очень нравится.
+# sent_id = 1
+1	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=122|end_char=125
+2	мультфильм	мультфильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=126|end_char=136
+3	очень	очень	ADV	_	Degree=Pos	4	advmod	_	start_char=137|end_char=142
+4	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=143|end_char=151
+5	.	.	PUNCT	_	_	4	punct	_	start_char=151|end_char=152
+
+# text = Но был разочарован тем, что цвет паспарту в рамке отличается от того, что изображено на фотографии товара.
+# sent_id = 2
+1	Но	но	CCONJ	_	_	3	cc	_	start_char=153|end_char=155
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=156|end_char=159
+3	разочарован	разочаровать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=160|end_char=171
+4	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	start_char=172|end_char=175
+5	,	,	PUNCT	_	_	11	punct	_	start_char=175|end_char=176
+6	что	что	SCONJ	_	_	11	mark	_	start_char=177|end_char=180
+7	цвет	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=181|end_char=185
+8	паспарту	паспарт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=186|end_char=194
+9	в	в	ADP	_	_	10	case	_	start_char=195|end_char=196
+10	рамке	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	start_char=197|end_char=202
+11	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl	_	start_char=203|end_char=213
+12	от	от	ADP	_	_	13	case	_	start_char=214|end_char=216
+13	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	11	obl	_	start_char=217|end_char=221
+14	,	,	PUNCT	_	_	16	punct	_	start_char=221|end_char=222
+15	что	что	PRON	_	Case=Nom|PronType=Int,Rel	16	nsubj:pass	_	start_char=223|end_char=226
+16	изображено	изобразить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	acl	_	start_char=227|end_char=237
+17	на	на	ADP	_	_	18	case	_	start_char=238|end_char=240
+18	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obl	_	start_char=241|end_char=251
+19	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=252|end_char=258
+20	.	.	PUNCT	_	_	3	punct	_	start_char=258|end_char=259
+
+# text = Я отправил письмо в компанию (Andrews McMeel Art) около недели назад, и до сих пор они не ответили.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=260|end_char=261
+2	отправил	отправить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=262|end_char=270
+3	письмо	письмо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=271|end_char=277
+4	в	в	ADP	_	_	5	case	_	start_char=278|end_char=279
+5	компанию	компания	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=280|end_char=288
+6	(	(	PUNCT	_	_	7	punct	_	start_char=289|end_char=290
+7	Andrews	Andrews	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=290|end_char=297
+8	McMeel	McMeel	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=298|end_char=304
+9	Art	Art	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=305|end_char=308
+10	)	)	PUNCT	_	_	9	punct	_	start_char=308|end_char=309
+11	около	около	ADP	_	_	12	case	_	start_char=310|end_char=315
+12	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=316|end_char=322
+13	назад	назад	ADV	_	Degree=Pos	12	advmod	_	start_char=323|end_char=328
+14	,	,	PUNCT	_	_	21	punct	_	start_char=328|end_char=329
+15	и	и	CCONJ	_	_	21	cc	_	start_char=330|end_char=331
+16	до	до	ADP	_	_	21	advmod	_	start_char=332|end_char=334
+17	сих	сей	DET	_	Case=Gen|Number=Plur|PronType=Dem	16	fixed	_	start_char=335|end_char=338
+18	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	fixed	_	start_char=339|end_char=342
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	start_char=343|end_char=346
+20	не	не	PART	_	_	21	advmod	_	start_char=347|end_char=349
+21	ответили	ответить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=350|end_char=358
+22	.	.	PUNCT	_	_	2	punct	_	start_char=358|end_char=359
+
+# text = Обновление - компания ответила на мое письмо с очень милой запиской, в которой говорится, что они все исправят.
+# sent_id = 4
+1	Обновление	обновление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=360|end_char=370
+2	-	-	PUNCT	_	_	3	punct	_	start_char=371|end_char=372
+3	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=373|end_char=381
+4	ответила	ответить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=382|end_char=390
+5	на	на	ADP	_	_	7	case	_	start_char=391|end_char=393
+6	мое	мой	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=394|end_char=397
+7	письмо	письмо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=398|end_char=404
+8	с	с	ADP	_	_	11	case	_	start_char=405|end_char=406
+9	очень	очень	ADV	_	Degree=Pos	10	obl	_	start_char=407|end_char=412
+10	милой	милый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=413|end_char=418
+11	запиской	записка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	nmod	_	start_char=419|end_char=427
+12	,	,	PUNCT	_	_	15	punct	_	start_char=427|end_char=428
+13	в	в	ADP	_	_	14	case	_	start_char=429|end_char=430
+14	которой	который	PRON	_	Case=Loc|PronType=Int,Rel	15	obl	_	start_char=431|end_char=438
+15	говорится	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	acl:relcl	_	start_char=439|end_char=448
+16	,	,	PUNCT	_	_	20	punct	_	start_char=448|end_char=449
+17	что	что	SCONJ	_	_	20	mark	_	start_char=450|end_char=453
+18	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=454|end_char=457
+19	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	20	obj	_	start_char=458|end_char=461
+20	исправят	исправить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	ccomp	_	start_char=462|end_char=470
+21	.	.	PUNCT	_	_	4	punct	_	start_char=470|end_char=471
+
+# text = Возможно, после этого я стану полностью удовлетворенным покупателем.
+# sent_id = 5
+1	Возможно	возможно	ADV	_	Degree=Pos	6	parataxis	_	start_char=472|end_char=480
+2	,	,	PUNCT	_	_	1	punct	_	start_char=480|end_char=481
+3	после	после	ADP	_	_	4	case	_	start_char=482|end_char=487
+4	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	start_char=488|end_char=493
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=494|end_char=495
+6	стану	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=496|end_char=501
+7	полностью	полностью	ADV	_	Degree=Pos	8	advmod	_	start_char=502|end_char=511
+8	удовлетворенным	удовлетворить	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	start_char=512|end_char=527
+9	покупателем	покупатель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=528|end_char=539
+10	.	.	PUNCT	_	_	6	punct	_	start_char=539|end_char=540
+
+# text = Если так, то я снова сообщу об этом.
+# sent_id = 6
+1	Если	если	SCONJ	_	_	2	mark	_	start_char=541|end_char=545
+2	так	так	ADV	_	Degree=Pos	7	advmod	_	start_char=546|end_char=549
+3	,	,	PUNCT	_	_	2	punct	_	start_char=549|end_char=550
+4	то	то	SCONJ	_	_	7	mark	_	start_char=551|end_char=553
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=554|end_char=555
+6	снова	снова	ADV	_	Degree=Pos	7	advmod	_	start_char=556|end_char=561
+7	сообщу	сообщить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=562|end_char=568
+8	об	о	ADP	_	_	9	case	_	start_char=569|end_char=571
+9	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	start_char=572|end_char=576
+10	.	.	PUNCT	_	_	7	punct	_	start_char=576|end_char=577
+

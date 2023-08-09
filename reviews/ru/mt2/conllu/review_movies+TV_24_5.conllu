@@ -1,0 +1,94 @@
+# text = Достойная версия рождественской сказки Это классическая "Рождественская песнь" Чарльза Диккенса с американским уклоном.
+# sent_id = 0
+1	Достойная	достойный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=9
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=10|end_char=16
+3	рождественской	рождественский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=17|end_char=31
+4	сказки	сказка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=32|end_char=38
+5	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	expl	_	start_char=39|end_char=42
+6	классическая	классический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=43|end_char=55
+7	"	"	PUNCT	_	_	9	punct	_	start_char=56|end_char=57
+8	Рождественская	рождественский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=57|end_char=71
+9	песнь	песнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=72|end_char=77
+10	"	"	PUNCT	_	_	9	punct	_	start_char=77|end_char=78
+11	Чарльза	Чарльз	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=79|end_char=86
+12	Диккенса	Диккенс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	start_char=87|end_char=95
+13	с	с	ADP	_	_	15	case	_	start_char=96|end_char=97
+14	американским	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=98|end_char=110
+15	уклоном	уклон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	start_char=111|end_char=118
+16	.	.	PUNCT	_	_	9	punct	_	start_char=118|end_char=119
+
+# text = В этой версии хорошо переданы последствия истории и личная роль человека в ней.
+# sent_id = 1
+1	В	в	ADP	_	_	3	case	_	start_char=120|end_char=121
+2	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=122|end_char=126
+3	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=127|end_char=133
+4	хорошо	хорошо	ADV	_	Degree=Pos	5	advmod	_	start_char=134|end_char=140
+5	переданы	передать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=141|end_char=149
+6	последствия	последствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj:pass	_	start_char=150|end_char=161
+7	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=162|end_char=169
+8	и	и	CCONJ	_	_	10	cc	_	start_char=170|end_char=171
+9	личная	личный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=172|end_char=178
+10	роль	роль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=179|end_char=183
+11	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=184|end_char=192
+12	в	в	ADP	_	_	13	case	_	start_char=193|end_char=194
+13	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nmod	_	start_char=195|end_char=198
+14	.	.	PUNCT	_	_	5	punct	_	start_char=198|end_char=199
+
+# text = Как и в оригинале &#34;A Christmas Carol,&#34;, она дает отрезвляющий взгляд на выбор главного героя, но при этом показывает, как выбор одного человека влияет на окружающих его людей.
+# sent_id = 2
+1	Как	как	SCONJ	_	_	4	mark	_	start_char=200|end_char=203
+2	и	и	PART	_	_	4	advmod	_	start_char=204|end_char=205
+3	в	в	ADP	_	_	4	case	_	start_char=206|end_char=207
+4	оригинале	оригиналь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	advcl	_	start_char=208|end_char=217
+5	&	&	SYM	_	_	4	flat:foreign	_	start_char=218|end_char=219
+6	#34;A	#34;A	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=219|end_char=224
+7	Christmas	Christmas	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=225|end_char=234
+8	Carol	Carol	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=235|end_char=240
+9	,	,	PUNCT	_	_	10	punct	_	start_char=240|end_char=241
+10	&#34	&#34	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=241|end_char=245
+11	;	;	PUNCT	_	_	14	punct	_	start_char=245|end_char=246
+12	,	,	PUNCT	_	_	14	punct	_	start_char=246|end_char=247
+13	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=248|end_char=251
+14	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=252|end_char=256
+15	отрезвляющий	отрезвлять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	amod	_	start_char=257|end_char=269
+16	взгляд	взгляд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=270|end_char=276
+17	на	на	ADP	_	_	18	case	_	start_char=277|end_char=279
+18	выбор	выбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	start_char=280|end_char=285
+19	главного	главный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=286|end_char=294
+20	героя	герой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=295|end_char=300
+21	,	,	PUNCT	_	_	25	punct	_	start_char=300|end_char=301
+22	но	но	CCONJ	_	_	25	cc	_	start_char=302|end_char=304
+23	при	при	ADP	_	_	24	case	_	start_char=305|end_char=308
+24	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	25	obl	_	start_char=309|end_char=313
+25	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	start_char=314|end_char=324
+26	,	,	PUNCT	_	_	31	punct	_	start_char=324|end_char=325
+27	как	как	SCONJ	_	_	31	mark	_	start_char=326|end_char=329
+28	выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	start_char=330|end_char=335
+29	одного	один	NUM	_	Case=Gen|Gender=Masc|NumType=Card	30	nummod	_	start_char=336|end_char=342
+30	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	start_char=343|end_char=351
+31	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	ccomp	_	start_char=352|end_char=358
+32	на	на	ADP	_	_	35	case	_	start_char=359|end_char=361
+33	окружающих	окружать	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	35	acl	_	start_char=362|end_char=372
+34	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	obj	_	start_char=373|end_char=376
+35	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	31	obl	_	start_char=377|end_char=382
+36	.	.	PUNCT	_	_	14	punct	_	start_char=382|end_char=383
+
+# text = Я рекомендую этот фильм всем, кто коллекционирует различные версии &#34;A Christmas Carol.&#34;
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=384|end_char=385
+2	рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=386|end_char=396
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=397|end_char=401
+4	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=402|end_char=407
+5	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur|PronType=Tot	2	iobj	_	start_char=408|end_char=412
+6	,	,	PUNCT	_	_	8	punct	_	start_char=412|end_char=413
+7	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=414|end_char=417
+8	коллекционирует	коллекционировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=418|end_char=433
+9	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=434|end_char=443
+10	версии	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=444|end_char=450
+11	&	&	SYM	_	_	10	flat:foreign	_	start_char=451|end_char=452
+12	#34;A	#34;A	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=452|end_char=457
+13	Christmas	Christmas	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=458|end_char=467
+14	Carol.&	Carol.&	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=468|end_char=475
+15	#34	#34	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=475|end_char=478
+16	;	;	PUNCT	_	_	2	punct	_	start_char=478|end_char=479
+

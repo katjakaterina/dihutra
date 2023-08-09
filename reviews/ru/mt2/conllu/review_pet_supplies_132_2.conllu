@@ -1,0 +1,103 @@
+# text = Пустая трата денег.
+# sent_id = 0
+1	Пустая	пустой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	трата	трата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=12
+3	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=13|end_char=18
+4	.	.	PUNCT	_	_	2	punct	_	start_char=18|end_char=19
+
+# text = Это та же самая серия DVD, которую кто-то дал мне в 2007 году, и она воняет.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=20|end_char=23
+2	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=24|end_char=26
+3	же	же	PART	_	_	2	advmod	_	start_char=27|end_char=29
+4	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=30|end_char=35
+5	серия	серия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=36|end_char=41
+6	DVD	DVD	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=42|end_char=45
+7	,	,	PUNCT	_	_	10	punct	_	start_char=45|end_char=46
+8	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	10	obj	_	start_char=47|end_char=54
+9	кто-то	кто-то	PRON	_	Case=Nom|PronType=Ind	10	nsubj	_	start_char=55|end_char=61
+10	дал	дать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=62|end_char=65
+11	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	start_char=66|end_char=69
+12	в	в	ADP	_	_	14	case	_	start_char=70|end_char=71
+13	2007	2007	ADJ	_	Degree=Pos	14	amod	_	start_char=72|end_char=76
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	start_char=77|end_char=81
+15	,	,	PUNCT	_	_	18	punct	_	start_char=81|end_char=82
+16	и	и	CCONJ	_	_	18	cc	_	start_char=83|end_char=84
+17	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=85|end_char=88
+18	воняет	вонять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=89|end_char=95
+19	.	.	PUNCT	_	_	5	punct	_	start_char=95|end_char=96
+
+# text = Камера слишком много двигается, дергается, и я мог бы снять видео получше с помощью своего мобильного телефона.
+# sent_id = 2
+1	Камера	камера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=97|end_char=103
+2	слишком	слишком	ADV	_	Degree=Pos	3	advmod	_	start_char=104|end_char=111
+3	много	много	ADV	_	Degree=Pos	4	advmod	_	start_char=112|end_char=117
+4	двигается	двигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=118|end_char=127
+5	,	,	PUNCT	_	_	6	punct	_	start_char=127|end_char=128
+6	дергается	дергаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	start_char=129|end_char=138
+7	,	,	PUNCT	_	_	10	punct	_	start_char=138|end_char=139
+8	и	и	CCONJ	_	_	10	cc	_	start_char=140|end_char=141
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=142|end_char=143
+10	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=144|end_char=147
+11	бы	бы	AUX	_	_	10	aux	_	start_char=148|end_char=150
+12	снять	снять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=151|end_char=156
+13	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=157|end_char=162
+14	получше	хорошо	ADV	_	Degree=Cmp	12	advmod	_	start_char=163|end_char=170
+15	с	с	ADP	_	_	19	case	_	start_char=171|end_char=172
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	start_char=173|end_char=180
+17	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	_	start_char=181|end_char=187
+18	мобильного	мобильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=188|end_char=198
+19	телефона	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	start_char=199|end_char=207
+20	.	.	PUNCT	_	_	4	punct	_	start_char=207|end_char=208
+
+# text = Только один из трех роликов хоть немного заинтересовал мою кошку, тот же самый ролик, который ей понравился в 2007 году, но через 10 минут ей тоже стало скучно.
+# sent_id = 3
+1	Только	только	PART	_	_	2	advmod	_	start_char=209|end_char=215
+2	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	8	nsubj	_	start_char=216|end_char=220
+3	из	из	ADP	_	_	5	case	_	start_char=221|end_char=223
+4	трех	три	NUM	_	Case=Gen|NumType=Card	5	nummod	_	start_char=224|end_char=228
+5	роликов	ролик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=229|end_char=236
+6	хоть	хоть	ADV	_	Degree=Pos	7	advmod	_	start_char=237|end_char=241
+7	немного	немного	ADV	_	Degree=Pos	8	advmod	_	start_char=242|end_char=249
+8	заинтересовал	заинтересовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=250|end_char=263
+9	мою	мой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	start_char=264|end_char=267
+10	кошку	кошка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=268|end_char=273
+11	,	,	PUNCT	_	_	15	punct	_	start_char=273|end_char=274
+12	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	start_char=275|end_char=278
+13	же	же	PART	_	_	12	advmod	_	start_char=279|end_char=281
+14	самый	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=282|end_char=287
+15	ролик	ролик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	conj	_	start_char=288|end_char=293
+16	,	,	PUNCT	_	_	19	punct	_	start_char=293|end_char=294
+17	который	который	PRON	_	Case=Nom|PronType=Int,Rel	19	nsubj	_	start_char=295|end_char=302
+18	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	iobj	_	start_char=303|end_char=305
+19	понравился	понравиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	start_char=306|end_char=316
+20	в	в	ADP	_	_	22	case	_	start_char=317|end_char=318
+21	2007	2007	ADJ	_	Degree=Pos	22	amod	_	start_char=319|end_char=323
+22	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	start_char=324|end_char=328
+23	,	,	PUNCT	_	_	30	punct	_	start_char=328|end_char=329
+24	но	но	CCONJ	_	_	30	cc	_	start_char=330|end_char=332
+25	через	через	ADP	_	_	27	case	_	start_char=333|end_char=338
+26	10	10	NUM	_	NumType=Card	27	nummod	_	start_char=339|end_char=341
+27	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	obl	_	start_char=342|end_char=347
+28	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	iobj	_	start_char=348|end_char=350
+29	тоже	тоже	PART	_	_	30	advmod	_	start_char=351|end_char=355
+30	стало	стать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	conj	_	start_char=356|end_char=361
+31	скучно	скучный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	30	obl	_	start_char=362|end_char=368
+32	.	.	PUNCT	_	_	8	punct	_	start_char=368|end_char=369
+
+# text = Я не могу его смотреть, у меня от него кружится голова.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=370|end_char=371
+2	не	не	PART	_	_	3	advmod	_	start_char=372|end_char=374
+3	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=375|end_char=379
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=380|end_char=383
+5	смотреть	смотреть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=384|end_char=392
+6	,	,	PUNCT	_	_	11	punct	_	start_char=392|end_char=393
+7	у	у	ADP	_	_	8	case	_	start_char=394|end_char=395
+8	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	obl	_	start_char=396|end_char=400
+9	от	от	ADP	_	_	10	case	_	start_char=401|end_char=403
+10	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	start_char=404|end_char=408
+11	кружится	кружиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=409|end_char=417
+12	голова	голова	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=418|end_char=424
+13	.	.	PUNCT	_	_	3	punct	_	start_char=424|end_char=425
+

@@ -1,16 +1,19 @@
-1	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
+# text = Thank goodness they are expensive Yes - this is one of the most expensive candies around, because it only comes imported.
+# sent_id = 0
+# sentiment = 1
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
 2	goodness	goodness	NOUN	NN	Number=Sing	1	obj	_	start_char=6|end_char=14
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=15|end_char=19
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=20|end_char=23
-5	expensive	expensive	ADJ	JJ	Degree=Pos	1	ccomp	_	start_char=24|end_char=33
-6	Yes	yes	INTJ	UH	_	10	discourse	_	start_char=34|end_char=37
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=20|end_char=23
+5	expensive	expensive	ADJ	JJ	Degree=Pos	1	parataxis	_	start_char=24|end_char=33
+6	Yes	yes	INTJ	UH	_	1	discourse	_	start_char=34|end_char=37
 7	-	-	PUNCT	,	_	1	punct	_	start_char=38|end_char=39
 8	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj	_	start_char=40|end_char=44
 9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=45|end_char=47
-10	one	one	NUM	CD	NumType=Card	1	parataxis	_	start_char=48|end_char=51
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	1	parataxis	_	start_char=48|end_char=51
 11	of	of	ADP	IN	_	15	case	_	start_char=52|end_char=54
 12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=55|end_char=58
-13	most	most	ADV	RBS	_	14	advmod	_	start_char=59|end_char=63
+13	most	most	ADV	RBS	Degree=Sup	14	advmod	_	start_char=59|end_char=63
 14	expensive	expensive	ADJ	JJ	Degree=Pos	15	amod	_	start_char=64|end_char=73
 15	candies	candy	NOUN	NNS	Number=Plur	10	nmod	_	start_char=74|end_char=81
 16	around	around	ADV	RB	_	15	advmod	_	start_char=82|end_char=88
@@ -22,16 +25,22 @@
 22	imported	import	VERB	VBN	Tense=Past|VerbForm=Part	21	xcomp	_	start_char=112|end_char=120
 23	.	.	PUNCT	.	_	1	punct	_	start_char=120|end_char=121
 
-1	But	but	CCONJ	CC	_	8	cc	_	start_char=122|end_char=125
-2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=126|end_char=128
-3	goodness	goodness	NOUN	NN	Number=Sing	8	nsubj	_	start_char=129|end_char=137
-4	-	-	PUNCT	,	_	8	punct	_	start_char=138|end_char=139
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=140|end_char=143
+# text = But my goodness - are these ever good.
+# sent_id = 1
+# sentiment = 1
+1	But	but	CCONJ	CC	_	3	cc	_	start_char=122|end_char=125
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=126|end_char=128
+3	goodness	goodness	NOUN	NN	Number=Sing	0	root	_	start_char=129|end_char=137
+4	-	-	PUNCT	,	_	3	punct	_	start_char=138|end_char=139
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=140|end_char=143
 6	these	this	PRON	DT	Number=Plur|PronType=Dem	8	nsubj	_	start_char=144|end_char=149
 7	ever	ever	ADV	RB	_	8	advmod	_	start_char=150|end_char=154
-8	good	good	ADJ	JJ	Degree=Pos	0	root	_	start_char=155|end_char=159
-9	.	.	PUNCT	.	_	8	punct	_	start_char=159|end_char=160
+8	good	good	ADJ	JJ	Degree=Pos	3	parataxis	_	start_char=155|end_char=159
+9	.	.	PUNCT	.	_	3	punct	_	start_char=159|end_char=160
 
+# text = The KitKat folks could really clean up if they started selling these in the US.
+# sent_id = 2
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=161|end_char=164
 2	KitKat	KitKat	PROPN	NNP	Number=Sing	3	compound	_	start_char=165|end_char=171
 3	folks	folk	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=172|end_char=177
@@ -41,7 +50,7 @@
 7	up	up	ADP	RP	_	6	compound:prt	_	start_char=197|end_char=199
 8	if	if	SCONJ	IN	_	10	mark	_	start_char=200|end_char=202
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=203|end_char=207
-10	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	start_char=208|end_char=215
+10	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	start_char=208|end_char=215
 11	selling	sell	VERB	VBG	VerbForm=Ger	10	xcomp	_	start_char=216|end_char=223
 12	these	this	PRON	DT	Number=Plur|PronType=Dem	11	obj	_	start_char=224|end_char=229
 13	in	in	ADP	IN	_	15	case	_	start_char=230|end_char=232
@@ -49,22 +58,27 @@
 15	US	US	PROPN	NNP	Number=Sing	11	obl	_	start_char=237|end_char=239
 16	.	.	PUNCT	.	_	6	punct	_	start_char=239|end_char=240
 
+# text = Once you try them you can't wait for more.
+# sent_id = 3
+# sentiment = 2
 1	Once	once	SCONJ	IN	_	3	mark	_	start_char=241|end_char=245
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=246|end_char=249
-3	try	try	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=250|end_char=253
+3	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=250|end_char=253
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	start_char=254|end_char=258
-5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	start_char=259|end_char=262
-6	ca	can	AUX	MD	VerbForm=Fin	8	aux	_	start_char=263|end_char=265
-7	n't	not	PART	RB	_	8	advmod	_	start_char=265|end_char=268
-8	wait	wait	VERB	VB	VerbForm=Inf	0	root	_	start_char=269|end_char=273
-9	for	for	ADP	IN	_	10	case	_	start_char=274|end_char=277
-10	more	more	ADV	RBR	_	8	obl	_	start_char=278|end_char=282
-11	.	.	PUNCT	.	_	8	punct	_	start_char=282|end_char=283
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=259|end_char=262
+6	can't	can't	AUX	MD	VerbForm=Fin	7	aux	_	start_char=263|end_char=268
+7	wait	wait	VERB	VB	VerbForm=Inf	0	root	_	start_char=269|end_char=273
+8	for	for	ADP	IN	_	9	case	_	start_char=274|end_char=277
+9	more	more	ADJ	JJR	Degree=Cmp	7	obl	_	start_char=278|end_char=282
+10	.	.	PUNCT	.	_	7	punct	_	start_char=282|end_char=283
 
+# text = So yummy and delivered quickly and fresh.
+# sent_id = 4
+# sentiment = 2
 1	So	so	ADV	RB	_	2	advmod	_	start_char=284|end_char=286
 2	yummy	yummy	ADJ	JJ	Degree=Pos	0	root	_	start_char=287|end_char=292
 3	and	and	CCONJ	CC	_	4	cc	_	start_char=293|end_char=296
-4	delivered	deliver	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	start_char=297|end_char=306
+4	delivered	deliver	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=297|end_char=306
 5	quickly	quickly	ADV	RB	_	4	advmod	_	start_char=307|end_char=314
 6	and	and	CCONJ	CC	_	7	cc	_	start_char=315|end_char=318
 7	fresh	fresh	ADJ	JJ	Degree=Pos	5	conj	_	start_char=319|end_char=324

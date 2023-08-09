@@ -1,59 +1,65 @@
-1	Keith	Keith	PROPN	NNP	Number=Sing	0	root	_	start_char=0|end_char=5
+# text = Keith Green - Relevant for the Ages Though it has been over 3 decades since Keith left this life, his music still resonates with truth.
+# sent_id = 0
+# sentiment = 2
+1	Keith	Keith	PROPN	NNP	Number=Sing	24	vocative	_	start_char=0|end_char=5
 2	Green	Green	PROPN	NNP	Number=Sing	1	flat	_	start_char=6|end_char=11
-3	-	-	PUNCT	,	_	1	punct	_	start_char=12|end_char=13
-4	Relevant	relevant	ADJ	JJ	Degree=Pos	1	parataxis	_	start_char=14|end_char=22
+3	-	-	PUNCT	HYPH	_	4	punct	_	start_char=12|end_char=13
+4	Relevant	relevant	PROPN	NNP	Number=Sing	1	flat	_	start_char=14|end_char=22
 5	for	for	ADP	IN	_	7	case	_	start_char=23|end_char=26
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=27|end_char=30
-7	Ages	Age	PROPN	NNPS	Number=Plur	4	obl	_	start_char=31|end_char=35
+7	Ages	Age	PROPN	NNPS	Number=Plur	1	nmod	_	start_char=31|end_char=35
+8	Though	though	SCONJ	IN	_	14	mark	_	start_char=36|end_char=42
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=43|end_char=45
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=46|end_char=49
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	cop	_	start_char=50|end_char=54
+12	over	over	ADV	RB	_	13	advmod	_	start_char=55|end_char=59
+13	3	3	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	_	start_char=60|end_char=61
+14	decades	decade	NOUN	NNS	Number=Plur	1	parataxis	_	start_char=62|end_char=69
+15	since	since	SCONJ	IN	_	17	mark	_	start_char=70|end_char=75
+16	Keith	Keith	PROPN	NNP	Number=Sing	17	nsubj	_	start_char=76|end_char=81
+17	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	advcl	_	start_char=82|end_char=86
+18	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=87|end_char=91
+19	life	life	NOUN	NN	Number=Sing	17	obj	_	start_char=92|end_char=96
+20	,	,	PUNCT	,	_	24	punct	_	start_char=96|end_char=97
+21	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=98|end_char=101
+22	music	music	NOUN	NN	Number=Sing	24	nsubj	_	start_char=102|end_char=107
+23	still	still	ADV	RB	_	24	advmod	_	start_char=108|end_char=113
+24	resonates	resonate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=114|end_char=123
+25	with	with	ADP	IN	_	26	case	_	start_char=124|end_char=128
+26	truth	truth	NOUN	NN	Number=Sing	24	obl	_	start_char=129|end_char=134
+27	.	.	PUNCT	.	_	24	punct	_	start_char=134|end_char=135
 
-1	Though	though	SCONJ	IN	_	7	mark	_	start_char=36|end_char=42
-2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=43|end_char=45
-3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=46|end_char=49
-4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	start_char=50|end_char=54
-5	over	over	ADV	RB	_	6	advmod	_	start_char=55|end_char=59
-6	3	3	NUM	CD	NumType=Card	7	nummod	_	start_char=60|end_char=61
-7	decades	decade	NOUN	NNS	Number=Plur	17	advcl	_	start_char=62|end_char=69
-8	since	since	SCONJ	IN	_	10	mark	_	start_char=70|end_char=75
-9	Keith	Keith	PROPN	NNP	Number=Sing	10	nsubj	_	start_char=76|end_char=81
-10	left	leave	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	start_char=82|end_char=86
-11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=87|end_char=91
-12	life	life	NOUN	NN	Number=Sing	10	obj	_	start_char=92|end_char=96
-13	,	,	PUNCT	,	_	17	punct	_	start_char=96|end_char=97
-14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=98|end_char=101
-15	music	music	NOUN	NN	Number=Sing	17	nsubj	_	start_char=102|end_char=107
-16	still	still	ADV	RB	_	17	advmod	_	start_char=108|end_char=113
-17	resonates	resonate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=114|end_char=123
-18	with	with	ADP	IN	_	19	case	_	start_char=124|end_char=128
-19	truth	truth	NOUN	NN	Number=Sing	17	obl	_	start_char=129|end_char=134
-20	.	.	PUNCT	.	_	17	punct	_	start_char=134|end_char=135
-
+# text = This was one of the first albums I purchased of Keith's &#34;back in the day&#34;.
+# sent_id = 1
+# sentiment = 1
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=136|end_char=140
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=141|end_char=144
-3	one	one	NUM	CD	NumType=Card	0	root	_	start_char=145|end_char=148
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	_	start_char=145|end_char=148
 4	of	of	ADP	IN	_	7	case	_	start_char=149|end_char=151
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=152|end_char=155
 6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	start_char=156|end_char=161
 7	albums	album	NOUN	NNS	Number=Plur	3	nmod	_	start_char=162|end_char=168
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=169|end_char=170
-9	purchased	purchase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	start_char=171|end_char=180
-10	of	of	ADP	IN	_	11	case	_	start_char=181|end_char=183
-11	Keith	Keith	PROPN	NNP	Number=Sing	9	obl	_	start_char=184|end_char=189
+9	purchased	purchase	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	acl:relcl	_	start_char=171|end_char=180
+10	of	of	ADP	IN	_	13	case	_	start_char=181|end_char=183
+11	Keith	Keith	PROPN	NNP	Number=Sing	13	nmod:poss	_	start_char=184|end_char=189
 12	's	's	PART	POS	_	11	case	_	start_char=189|end_char=191
-13	&	&	CCONJ	CC	_	14	cc	_	start_char=192|end_char=193
-14	#	#	SYM	NN	Number=Sing	11	conj	_	start_char=193|end_char=194
-15	34	34	NUM	CD	NumType=Card	14	nummod	_	start_char=194|end_char=196
-16	;	;	PUNCT	,	_	3	punct	_	start_char=196|end_char=197
-17	back	back	ADV	RB	_	20	advmod	_	start_char=197|end_char=201
-18	in	in	ADP	IN	_	20	case	_	start_char=202|end_char=204
-19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=205|end_char=208
-20	day	day	NOUN	NN	Number=Sing	9	obl	_	start_char=209|end_char=212
-21	&	&	CCONJ	CC	_	22	cc	_	start_char=212|end_char=213
-22	#	#	SYM	NN	Number=Sing	20	conj	_	start_char=213|end_char=214
-23	34	34	NUM	CD	NumType=Card	22	nummod	_	start_char=214|end_char=216
-24	;	;	PUNCT	,	_	3	punct	_	start_char=216|end_char=217
-25	.	.	PUNCT	.	_	3	punct	_	start_char=217|end_char=218
+13	&#34	&#34	NOUN	NN	Number=Sing	9	obl	_	start_char=192|end_char=196
+14	;	;	PUNCT	,	_	18	punct	_	start_char=196|end_char=197
+15	back	back	ADV	RB	_	18	advmod	_	start_char=197|end_char=201
+16	in	in	ADP	IN	_	18	case	_	start_char=202|end_char=204
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=205|end_char=208
+18	day	day	NOUN	NN	Number=Sing	3	obl	_	start_char=209|end_char=212
+19	&	&	CCONJ	CC	_	20	cc	_	start_char=212|end_char=213
+20	#	#	SYM	NN	Number=Sing	18	conj	_	start_char=213|end_char=214
+21	34	34	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	_	start_char=214|end_char=216
+22	;	;	PUNCT	,	_	3	punct	_	start_char=216|end_char=217
+23	.	.	PUNCT	.	_	3	punct	_	start_char=217|end_char=218
 
-1	What	what	PRON	WP	PronType=Int	4	nsubj	_	start_char=219|end_char=223
+# text = What a sweet album of praise as he moves through the Psalms!
+# sent_id = 2
+# sentiment = 2
+1	What	what	DET	WDT	PronType=Int	4	det:predet	_	start_char=219|end_char=223
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=224|end_char=225
 3	sweet	sweet	ADJ	JJ	Degree=Pos	4	amod	_	start_char=226|end_char=231
 4	album	album	NOUN	NN	Number=Sing	0	root	_	start_char=232|end_char=237

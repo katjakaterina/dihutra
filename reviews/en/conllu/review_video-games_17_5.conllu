@@ -1,11 +1,17 @@
+# text = Great game!
+# sent_id = 0
+# sentiment = 2
 1	Great	great	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=5
 2	game	game	NOUN	NN	Number=Sing	0	root	_	start_char=6|end_char=10
 3	!	!	PUNCT	.	_	2	punct	_	start_char=10|end_char=11
 
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=12|end_char=14
-2	seven	seven	NUM	CD	NumType=Card	3	nummod	_	start_char=15|end_char=20
-3	year	year	NOUN	NN	Number=Sing	4	obl:npmod	_	start_char=21|end_char=25
-4	old	old	ADJ	JJ	Degree=Pos	6	nsubj	_	start_char=26|end_char=29
+# text = My seven year old has had a lot of fun with this game while learning math at the same time!
+# sent_id = 1
+# sentiment = 2
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=12|end_char=14
+2	seven	seven	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=15|end_char=20
+3	year	year	NOUN	NN	Number=Sing	4	compound	_	start_char=21|end_char=25
+4	old	old	NOUN	NN	Number=Sing	6	nsubj	_	start_char=26|end_char=29
 5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=30|end_char=33
 6	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=34|end_char=37
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=38|end_char=39
@@ -24,11 +30,14 @@
 20	time	time	NOUN	NN	Number=Sing	15	obl	_	start_char=98|end_char=102
 21	!	!	PUNCT	.	_	6	punct	_	start_char=102|end_char=103
 
-1	Bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=104|end_char=110
+# text = Bought it for him when he was in kindergarten and he still loves to play it.
+# sent_id = 2
+# sentiment = 1
+1	Bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=104|end_char=110
 2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=111|end_char=113
 3	for	for	ADP	IN	_	4	case	_	start_char=114|end_char=117
 4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	start_char=118|end_char=121
-5	when	when	SCONJ	WRB	PronType=Int	9	mark	_	start_char=122|end_char=126
+5	when	when	ADV	WRB	PronType=Int	9	advmod	_	start_char=122|end_char=126
 6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=127|end_char=129
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=130|end_char=133
 8	in	in	ADP	IN	_	9	case	_	start_char=134|end_char=136
@@ -42,6 +51,9 @@
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=177|end_char=179
 17	.	.	PUNCT	.	_	1	punct	_	start_char=179|end_char=180
 
+# text = No problems with the noise of this game - no noisier than any other PC game.
+# sent_id = 3
+# sentiment = 2
 1	No	no	DET	DT	_	2	det	_	start_char=181|end_char=183
 2	problems	problem	NOUN	NNS	Number=Plur	0	root	_	start_char=184|end_char=192
 3	with	with	ADP	IN	_	5	case	_	start_char=193|end_char=197
@@ -51,12 +63,12 @@
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=211|end_char=215
 8	game	game	NOUN	NN	Number=Sing	5	nmod	_	start_char=216|end_char=220
 9	-	-	PUNCT	,	_	2	punct	_	start_char=221|end_char=222
-10	no	no	ADV	RB	_	11	advmod	_	start_char=223|end_char=225
-11	noisier	noisy	ADJ	JJR	Degree=Cmp	2	amod	_	start_char=226|end_char=233
+10	no	no	DET	DT	_	11	det	_	start_char=223|end_char=225
+11	noisier	noisy	ADJ	JJR	Degree=Cmp	2	appos	_	start_char=226|end_char=233
 12	than	than	ADP	IN	_	16	case	_	start_char=234|end_char=238
 13	any	any	DET	DT	_	16	det	_	start_char=239|end_char=242
 14	other	other	ADJ	JJ	Degree=Pos	16	amod	_	start_char=243|end_char=248
-15	PC	PC	PROPN	NNP	Number=Sing	16	compound	_	start_char=249|end_char=251
+15	PC	PC	NOUN	NN	Number=Sing	16	compound	_	start_char=249|end_char=251
 16	game	game	NOUN	NN	Number=Sing	11	obl	_	start_char=252|end_char=256
 17	.	.	PUNCT	.	_	2	punct	_	start_char=256|end_char=257
 

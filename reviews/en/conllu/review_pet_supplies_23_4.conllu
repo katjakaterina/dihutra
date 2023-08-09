@@ -1,10 +1,16 @@
-1	Feathered	feathered	ADJ	JJ	Degree=Pos	3	amod	_	start_char=0|end_char=9
-2	Phonics	Phonics	PROPN	NNP	Number=Sing	3	compound	_	start_char=10|end_char=17
+# text = Feathered Phonics volume 1
+# sent_id = 0
+# sentiment = 0
+1	Feathered	feathered	VERB	VBN	Tense=Past|VerbForm=Part	3	amod	_	start_char=0|end_char=9
+2	Phonics	phonic	NOUN	NN	Number=Sing	3	compound	_	start_char=10|end_char=17
 3	volume	volume	NOUN	NN	Number=Sing	0	root	_	start_char=18|end_char=24
 4	1	1	NUM	CD	NumForm=Digit|NumType=Card	3	dep	_	start_char=25|end_char=26
 
+# text = The CD is a good idea for teaching a bird to speak,but there are words on it that would never be spoken in our home so why teach them to the bird.
+# sent_id = 1
+# sentiment = 1
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=27|end_char=30
-2	CD	CD	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=31|end_char=33
+2	CD	cd	NOUN	NN	Number=Sing	6	nsubj	_	start_char=31|end_char=33
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=34|end_char=36
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=37|end_char=38
 5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	start_char=39|end_char=43
@@ -14,11 +20,11 @@
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=62|end_char=63
 10	bird	bird	NOUN	NN	Number=Sing	8	obj	_	start_char=64|end_char=68
 11	to	to	PART	TO	_	12	mark	_	start_char=69|end_char=71
-12	speak	speak	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=72|end_char=77
+12	speak	speak	VERB	VB	VerbForm=Inf	8	advcl	_	start_char=72|end_char=77
 13	,	,	PUNCT	,	_	16	punct	_	start_char=77|end_char=78
 14	but	but	CCONJ	CC	_	16	cc	_	start_char=78|end_char=81
 15	there	there	PRON	EX	_	16	expl	_	start_char=82|end_char=87
-16	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=88|end_char=91
+16	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=88|end_char=91
 17	words	word	NOUN	NNS	Number=Plur	16	nsubj	_	start_char=92|end_char=97
 18	on	on	ADP	IN	_	19	case	_	start_char=98|end_char=100
 19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nmod	_	start_char=101|end_char=103
@@ -28,9 +34,9 @@
 23	be	be	AUX	VB	VerbForm=Inf	24	aux:pass	_	start_char=121|end_char=123
 24	spoken	speak	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	start_char=124|end_char=130
 25	in	in	ADP	IN	_	27	case	_	start_char=131|end_char=133
-26	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=134|end_char=137
+26	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=134|end_char=137
 27	home	home	NOUN	NN	Number=Sing	24	obl	_	start_char=138|end_char=142
-28	so	so	ADV	RB	_	30	advmod	_	start_char=143|end_char=145
+28	so	so	SCONJ	IN	_	30	mark	_	start_char=143|end_char=145
 29	why	why	ADV	WRB	PronType=Int	30	advmod	_	start_char=146|end_char=149
 30	teach	teach	VERB	VB	VerbForm=Inf	24	advcl	_	start_char=150|end_char=155
 31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obj	_	start_char=156|end_char=160
@@ -39,6 +45,9 @@
 34	bird	bird	NOUN	NN	Number=Sing	30	obl	_	start_char=168|end_char=172
 35	.	.	PUNCT	.	_	6	punct	_	start_char=172|end_char=173
 
+# text = I will look through the other choices of CD's and try to find one with different words.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=174|end_char=175
 2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=176|end_char=180
 3	look	look	VERB	VB	VerbForm=Inf	0	root	_	start_char=181|end_char=185
@@ -47,15 +56,14 @@
 6	other	other	ADJ	JJ	Degree=Pos	7	amod	_	start_char=198|end_char=203
 7	choices	choice	NOUN	NNS	Number=Plur	3	obl	_	start_char=204|end_char=211
 8	of	of	ADP	IN	_	9	case	_	start_char=212|end_char=214
-9	CD	CD	PROPN	NNP	Number=Sing	7	nmod	_	start_char=215|end_char=217
-10	's	's	PART	POS	_	9	case	_	start_char=217|end_char=219
-11	and	and	CCONJ	CC	_	12	cc	_	start_char=220|end_char=223
-12	try	try	VERB	VB	VerbForm=Inf	3	conj	_	start_char=224|end_char=227
-13	to	to	PART	TO	_	14	mark	_	start_char=228|end_char=230
-14	find	find	VERB	VB	VerbForm=Inf	12	xcomp	_	start_char=231|end_char=235
-15	one	one	NUM	CD	NumType=Card	14	obj	_	start_char=236|end_char=239
-16	with	with	ADP	IN	_	18	case	_	start_char=240|end_char=244
-17	different	different	ADJ	JJ	Degree=Pos	18	amod	_	start_char=245|end_char=254
-18	words	word	NOUN	NNS	Number=Plur	15	nmod	_	start_char=255|end_char=260
-19	.	.	PUNCT	.	_	3	punct	_	start_char=260|end_char=261
+9	CD's	CD's	PROPN	NNPS	Number=Plur	7	nmod	_	start_char=215|end_char=219
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=220|end_char=223
+11	try	try	VERB	VB	VerbForm=Inf	3	conj	_	start_char=224|end_char=227
+12	to	to	PART	TO	_	13	mark	_	start_char=228|end_char=230
+13	find	find	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=231|end_char=235
+14	one	one	NUM	CD	NumForm=Word|NumType=Card	13	obj	_	start_char=236|end_char=239
+15	with	with	ADP	IN	_	17	case	_	start_char=240|end_char=244
+16	different	different	ADJ	JJ	Degree=Pos	17	amod	_	start_char=245|end_char=254
+17	words	word	NOUN	NNS	Number=Plur	14	nmod	_	start_char=255|end_char=260
+18	.	.	PUNCT	.	_	3	punct	_	start_char=260|end_char=261
 

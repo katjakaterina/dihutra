@@ -1,8 +1,14 @@
+# text = taste is awful
+# sent_id = 0
+# sentiment = 0
 1	taste	taste	NOUN	NN	Number=Sing	3	nsubj	_	start_char=0|end_char=5
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=6|end_char=8
 3	awful	awful	ADJ	JJ	Degree=Pos	0	root	_	start_char=9|end_char=14
 
-1	When	when	SCONJ	WRB	PronType=Int	4	mark	_	start_char=15|end_char=19
+# text = When I was incarcerated in a Mexican prison, this was the only drink in the joint.
+# sent_id = 1
+# sentiment = 1
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=15|end_char=19
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	start_char=20|end_char=21
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=22|end_char=25
 4	incarcerated	incarcerate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	start_char=26|end_char=38
@@ -10,7 +16,7 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=42|end_char=43
 7	Mexican	Mexican	ADJ	JJ	Degree=Pos	8	amod	_	start_char=44|end_char=51
 8	prison	prison	NOUN	NN	Number=Sing	4	obl	_	start_char=52|end_char=58
-9	,	,	PUNCT	,	_	14	punct	_	start_char=58|end_char=59
+9	,	,	PUNCT	,	_	4	punct	_	start_char=58|end_char=59
 10	this	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	start_char=60|end_char=64
 11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	start_char=65|end_char=68
 12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=69|end_char=72
@@ -21,8 +27,11 @@
 17	joint	joint	NOUN	NN	Number=Sing	14	nmod	_	start_char=91|end_char=96
 18	.	.	PUNCT	.	_	14	punct	_	start_char=96|end_char=97
 
+# text = We had to fix it with goat's milk and heat it over an open flame in the yard.
+# sent_id = 2
+# sentiment = 0
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=98|end_char=100
-2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=101|end_char=104
+2	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=101|end_char=104
 3	to	to	PART	TO	_	4	mark	_	start_char=105|end_char=107
 4	fix	fix	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=108|end_char=111
 5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=112|end_char=114
@@ -42,12 +51,18 @@
 19	yard	yard	NOUN	NN	Number=Sing	16	nmod	_	start_char=170|end_char=174
 20	.	.	PUNCT	.	_	2	punct	_	start_char=174|end_char=175
 
+# text = The taste is awful.
+# sent_id = 3
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=176|end_char=179
 2	taste	taste	NOUN	NN	Number=Sing	4	nsubj	_	start_char=180|end_char=185
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=186|end_char=188
 4	awful	awful	ADJ	JJ	Degree=Pos	0	root	_	start_char=189|end_char=194
 5	.	.	PUNCT	.	_	4	punct	_	start_char=194|end_char=195
 
+# text = It's not pleasing like the thick, hot Chocolate found in Madrid.
+# sent_id = 4
+# sentiment = 0
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=196|end_char=198
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=198|end_char=200
 3	not	not	PART	RB	_	4	advmod	_	start_char=201|end_char=204

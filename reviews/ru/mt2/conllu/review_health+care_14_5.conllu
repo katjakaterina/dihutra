@@ -1,0 +1,89 @@
+# text = Цветная, светящаяся, карманная лупа - ее легко найти в черной сумочке!
+# sent_id = 0
+1	Цветная	цветной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=0|end_char=7
+2	,	,	PUNCT	_	_	3	punct	_	start_char=7|end_char=8
+3	светящаяся	светиться	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	start_char=9|end_char=19
+4	,	,	PUNCT	_	_	5	punct	_	start_char=19|end_char=20
+5	карманная	карманный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	start_char=21|end_char=30
+6	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=31|end_char=35
+7	-	-	PUNCT	_	_	9	punct	_	start_char=36|end_char=37
+8	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=38|end_char=40
+9	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	parataxis	_	start_char=41|end_char=46
+10	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	csubj	_	start_char=47|end_char=52
+11	в	в	ADP	_	_	13	case	_	start_char=53|end_char=54
+12	черной	черный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=55|end_char=61
+13	сумочке	сумочка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	start_char=62|end_char=69
+14	!	!	PUNCT	_	_	6	punct	_	start_char=69|end_char=70
+
+# text = Большинство моих сумок имеют черную подкладку.
+# sent_id = 1
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=71|end_char=82
+2	моих	мой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	start_char=83|end_char=87
+3	сумок	сумка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	start_char=88|end_char=93
+4	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=94|end_char=99
+5	черную	черный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=100|end_char=106
+6	подкладку	подкладка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=107|end_char=116
+7	.	.	PUNCT	_	_	4	punct	_	start_char=116|end_char=117
+
+# text = Удачи в поисках чего-либо черного в черной сумочке!
+# sent_id = 2
+1	Удачи	удача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	start_char=118|end_char=123
+2	в	в	ADP	_	_	3	case	_	start_char=124|end_char=125
+3	поисках	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	nmod	_	start_char=126|end_char=133
+4	чего-либо	что-либо	PRON	_	Case=Gen	3	nmod	_	start_char=134|end_char=143
+5	черного	черный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=144|end_char=151
+6	в	в	ADP	_	_	8	case	_	start_char=152|end_char=153
+7	черной	черный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=154|end_char=160
+8	сумочке	сумочка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	start_char=161|end_char=168
+9	!	!	PUNCT	_	_	1	punct	_	start_char=168|end_char=169
+
+# text = Я выбрала этот цвет, потому что я действительно могу его найти!!!
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=170|end_char=171
+2	выбрала	выбрать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=172|end_char=179
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=180|end_char=184
+4	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=185|end_char=189
+5	,	,	PUNCT	_	_	10	punct	_	start_char=189|end_char=190
+6	потому	потому	ADV	_	Degree=Pos	10	mark	_	start_char=191|end_char=197
+7	что	что	SCONJ	_	_	6	fixed	_	start_char=198|end_char=201
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=202|end_char=203
+9	действительно	действительно	ADV	_	Degree=Pos	10	advmod	_	start_char=204|end_char=217
+10	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=218|end_char=222
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=223|end_char=226
+12	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=227|end_char=232
+13	!	!	PUNCT	_	_	12	punct	_	start_char=232|end_char=233
+14	!	!	PUNCT	_	_	12	punct	_	start_char=233|end_char=234
+15	!	!	PUNCT	_	_	2	punct	_	start_char=234|end_char=235
+
+# text = Он прекрасно работает в тускло освещенном ресторане, когда шрифт очень мелкий, когда мне нужен свет и лупа, чтобы найти занозу.
+# sent_id = 4
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=236|end_char=238
+2	прекрасно	прекрасно	ADV	_	Degree=Pos	3	advmod	_	start_char=239|end_char=248
+3	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=249|end_char=257
+4	в	в	ADP	_	_	7	case	_	start_char=258|end_char=259
+5	тускло	тускло	ADV	_	Degree=Pos	6	advmod	_	start_char=260|end_char=266
+6	освещенном	освести	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	start_char=267|end_char=277
+7	ресторане	ресторан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=278|end_char=287
+8	,	,	PUNCT	_	_	12	punct	_	start_char=287|end_char=288
+9	когда	когда	SCONJ	_	_	12	mark	_	start_char=289|end_char=294
+10	шрифт	шрифт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=295|end_char=300
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	start_char=301|end_char=306
+12	мелкий	мелкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	advcl	_	start_char=307|end_char=313
+13	,	,	PUNCT	_	_	16	punct	_	start_char=313|end_char=314
+14	когда	когда	SCONJ	_	_	16	mark	_	start_char=315|end_char=320
+15	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	start_char=321|end_char=324
+16	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	conj	_	start_char=325|end_char=330
+17	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=331|end_char=335
+18	и	и	CCONJ	_	_	19	cc	_	start_char=336|end_char=337
+19	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	conj	_	start_char=338|end_char=342
+20	,	,	PUNCT	_	_	22	punct	_	start_char=342|end_char=343
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	22	mark	_	start_char=344|end_char=349
+22	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	start_char=350|end_char=355
+23	занозу	заноза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=356|end_char=362
+24	.	.	PUNCT	_	_	3	punct	_	start_char=362|end_char=363
+
+# text = ЗАМЕЧАТЕЛЬНО.
+# sent_id = 5
+1	ЗАМЕЧАТЕЛЬНО	замечательно	ADV	_	Degree=Pos	0	root	_	start_char=364|end_char=376
+2	.	.	PUNCT	_	_	1	punct	_	start_char=376|end_char=377
+

@@ -1,0 +1,105 @@
+# text = Симпатичное девчачье компактное зеркало Одностороннее зеркало.
+# sent_id = 0
+1	Симпатичное	симпатичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=0|end_char=11
+2	девчачье	девчачий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=12|end_char=20
+3	компактное	компактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=21|end_char=31
+4	зеркало	зеркало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=32|end_char=39
+5	Одностороннее	односторонний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=40|end_char=53
+6	зеркало	зеркало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=54|end_char=61
+7	.	.	PUNCT	_	_	6	punct	_	start_char=61|end_char=62
+
+# text = Компактное зеркало имеет переливающийся цвет, но в основном лавандовый с аква-блеском.
+# sent_id = 1
+1	Компактное	компактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=63|end_char=73
+2	зеркало	зеркало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=74|end_char=81
+3	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=82|end_char=87
+4	переливающийся	переливаться	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	start_char=88|end_char=102
+5	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=103|end_char=107
+6	,	,	PUNCT	_	_	10	punct	_	start_char=107|end_char=108
+7	но	но	CCONJ	_	_	10	cc	_	start_char=109|end_char=111
+8	в	в	ADP	_	_	9	case	_	start_char=112|end_char=113
+9	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	obl	_	start_char=114|end_char=122
+10	лавандовый	лавандовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=123|end_char=133
+11	с	с	ADP	_	_	12	case	_	start_char=134|end_char=135
+12	аква-блеском	аква-блеское	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	nmod	_	start_char=136|end_char=148
+13	.	.	PUNCT	_	_	3	punct	_	start_char=148|end_char=149
+
+# text = Компактное зеркало тонкое, но достаточно большое, чтобы видеть все лицо.
+# sent_id = 2
+1	Компактное	компактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=150|end_char=160
+2	зеркало	зеркало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=161|end_char=168
+3	тонкое	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=169|end_char=175
+4	,	,	PUNCT	_	_	7	punct	_	start_char=175|end_char=176
+5	но	но	CCONJ	_	_	7	cc	_	start_char=177|end_char=179
+6	достаточно	достаточно	ADV	_	Degree=Pos	7	obl	_	start_char=180|end_char=190
+7	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	start_char=191|end_char=198
+8	,	,	PUNCT	_	_	10	punct	_	start_char=198|end_char=199
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	start_char=200|end_char=205
+10	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=206|end_char=212
+11	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	12	det	_	start_char=213|end_char=216
+12	лицо	лицо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=217|end_char=221
+13	.	.	PUNCT	_	_	3	punct	_	start_char=221|end_char=222
+
+# text = Компактное зеркало размером с мою ладонь и даже больше.
+# sent_id = 3
+1	Компактное	компактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=223|end_char=233
+2	зеркало	зеркало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=234|end_char=241
+3	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	start_char=242|end_char=250
+4	с	с	ADP	_	_	6	case	_	start_char=251|end_char=252
+5	мою	мой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	start_char=253|end_char=256
+6	ладонь	ладонь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=257|end_char=263
+7	и	и	CCONJ	_	_	9	cc	_	start_char=264|end_char=265
+8	даже	даже	PART	_	_	9	advmod	_	start_char=266|end_char=270
+9	больше	больше	ADV	_	Degree=Cmp	6	conj	_	start_char=271|end_char=277
+10	.	.	PUNCT	_	_	2	punct	_	start_char=277|end_char=278
+
+# text = Отличное маленькое зеркальце.
+# sent_id = 4
+1	Отличное	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=279|end_char=287
+2	маленькое	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=288|end_char=297
+3	зеркальце	зеркальце	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=298|end_char=307
+4	.	.	PUNCT	_	_	3	punct	_	start_char=307|end_char=308
+
+# text = Не уверена, что оно соответствует розничной цене...
+# sent_id = 5
+1	Не	не	PART	_	_	2	advmod	_	start_char=309|end_char=311
+2	уверена	уверенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=312|end_char=319
+3	,	,	PUNCT	_	_	6	punct	_	start_char=319|end_char=320
+4	что	что	SCONJ	_	_	6	mark	_	start_char=321|end_char=324
+5	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=325|end_char=328
+6	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=329|end_char=342
+7	розничной	розничный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=343|end_char=352
+8	цене	цена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	start_char=353|end_char=357
+9	.	.	PUNCT	_	_	8	punct	_	start_char=357|end_char=358
+10	.	.	PUNCT	_	_	8	punct	_	start_char=358|end_char=359
+11	.	.	PUNCT	_	_	2	punct	_	start_char=359|end_char=360
+
+# text = мое было в составе посылки, которую я получила.
+# sent_id = 6
+1	мое	мой	DET	_	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nsubj	_	start_char=361|end_char=364
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=365|end_char=369
+3	в	в	ADP	_	_	4	case	_	start_char=370|end_char=371
+4	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=372|end_char=379
+5	посылки	посылка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=380|end_char=387
+6	,	,	PUNCT	_	_	9	punct	_	start_char=387|end_char=388
+7	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	9	obj	_	start_char=389|end_char=396
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=397|end_char=398
+9	получила	получить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=399|end_char=407
+10	.	.	PUNCT	_	_	4	punct	_	start_char=407|end_char=408
+
+# text = Однако качество достаточно высокое, поэтому компактное зеркало прослужит мне несколько лет.
+# sent_id = 7
+1	Однако	однако	ADV	_	Degree=Pos	4	obl	_	start_char=409|end_char=415
+2	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=416|end_char=424
+3	достаточно	достаточно	ADV	_	Degree=Pos	4	obl	_	start_char=425|end_char=435
+4	высокое	высокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=436|end_char=443
+5	,	,	PUNCT	_	_	9	punct	_	start_char=443|end_char=444
+6	поэтому	поэтому	ADV	_	Degree=Pos	9	advmod	_	start_char=445|end_char=452
+7	компактное	компактный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=453|end_char=463
+8	зеркало	зеркало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=464|end_char=471
+9	прослужит	прослужать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	start_char=472|end_char=481
+10	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	start_char=482|end_char=485
+11	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	12	nummod	_	start_char=486|end_char=495
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	start_char=496|end_char=499
+13	.	.	PUNCT	_	_	4	punct	_	start_char=499|end_char=500
+

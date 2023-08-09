@@ -1,21 +1,33 @@
+# text = Worst Christmas special ever!
+# sent_id = 0
+# sentiment = 0
 1	Worst	bad	ADJ	JJS	Degree=Sup	2	amod	_	start_char=0|end_char=5
-2	Christmas	Christmas	PROPN	NNP	Number=Sing	3	compound	_	start_char=6|end_char=15
-3	special	special	ADJ	JJ	Degree=Pos	0	root	_	start_char=16|end_char=23
+2	Christmas	Christmas	PROPN	NNP	Number=Sing	0	root	_	start_char=6|end_char=15
+3	special	special	ADJ	JJ	Degree=Pos	2	amod	_	start_char=16|end_char=23
 4	ever	ever	ADV	RB	_	3	advmod	_	start_char=24|end_char=28
 5	!	!	PUNCT	.	_	3	punct	_	start_char=28|end_char=29
 
+# text = This is so lame!
+# sent_id = 1
+# sentiment = 0
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=30|end_char=34
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=35|end_char=37
 3	so	so	ADV	RB	_	4	advmod	_	start_char=38|end_char=40
 4	lame	lame	ADJ	JJ	Degree=Pos	0	root	_	start_char=41|end_char=45
 5	!	!	PUNCT	.	_	4	punct	_	start_char=45|end_char=46
 
+# text = The songs are terrible!
+# sent_id = 2
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=47|end_char=50
 2	songs	song	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=51|end_char=56
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=57|end_char=60
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=57|end_char=60
 4	terrible	terrible	ADJ	JJ	Degree=Pos	0	root	_	start_char=61|end_char=69
 5	!	!	PUNCT	.	_	4	punct	_	start_char=69|end_char=70
 
+# text = The villan is a ripoff of Mr. Burns from The Simpsons while the kids look like they're on loan from a Charlie Brown show.
+# sent_id = 3
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=71|end_char=74
 2	villan	villan	NOUN	NN	Number=Sing	5	nsubj	_	start_char=75|end_char=81
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=82|end_char=84
@@ -23,17 +35,17 @@
 5	ripoff	ripoff	NOUN	NN	Number=Sing	0	root	_	start_char=87|end_char=93
 6	of	of	ADP	IN	_	7	case	_	start_char=94|end_char=96
 7	Mr.	Mr.	PROPN	NNP	Number=Sing	5	nmod	_	start_char=97|end_char=100
-8	Burns	Burn	PROPN	NNP	Number=Sing	7	flat	_	start_char=101|end_char=106
+8	Burns	Burns	PROPN	NNP	Number=Sing	7	flat	_	start_char=101|end_char=106
 9	from	from	ADP	IN	_	11	case	_	start_char=107|end_char=111
 10	The	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=112|end_char=115
-11	Simpsons	Simpsons	PROPN	NNPS	Number=Plur	5	nmod	_	start_char=116|end_char=124
+11	Simpsons	Simpson	PROPN	NNP	Number=Sing	7	nmod	_	start_char=116|end_char=124
 12	while	while	SCONJ	IN	_	15	mark	_	start_char=125|end_char=130
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=131|end_char=134
 14	kids	kid	NOUN	NNS	Number=Plur	15	nsubj	_	start_char=135|end_char=139
-15	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=140|end_char=144
+15	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=140|end_char=144
 16	like	like	SCONJ	IN	_	20	mark	_	start_char=145|end_char=149
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=150|end_char=154
-18	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=154|end_char=157
+18	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=154|end_char=157
 19	on	on	ADP	IN	_	20	case	_	start_char=158|end_char=160
 20	loan	loan	NOUN	NN	Number=Sing	15	advcl	_	start_char=161|end_char=165
 21	from	from	ADP	IN	_	25	case	_	start_char=166|end_char=170
@@ -43,6 +55,9 @@
 25	show	show	NOUN	NN	Number=Sing	20	nmod	_	start_char=187|end_char=191
 26	.	.	PUNCT	.	_	5	punct	_	start_char=191|end_char=192
 
+# text = But the biggest lowpoint is the Politically Correct ranting!
+# sent_id = 4
+# sentiment = 0
 1	But	but	CCONJ	CC	_	9	cc	_	start_char=193|end_char=196
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=197|end_char=200
 3	biggest	big	ADJ	JJS	Degree=Sup	4	amod	_	start_char=201|end_char=208
@@ -54,21 +69,24 @@
 9	ranting	ranting	NOUN	NN	Number=Sing	0	root	_	start_char=245|end_char=252
 10	!	!	PUNCT	.	_	9	punct	_	start_char=252|end_char=253
 
+# text = Too bad CBS insists on running this back-to-back with the 1969 classic.
+# sent_id = 5
+# sentiment = 1
 1	Too	too	ADV	RB	_	2	advmod	_	start_char=254|end_char=257
-2	bad	bad	ADJ	JJ	Degree=Pos	3	amod	_	start_char=258|end_char=261
+2	bad	bad	ADJ	JJ	Degree=Pos	0	root	_	start_char=258|end_char=261
 3	CBS	CBS	PROPN	NNP	Number=Sing	4	nsubj	_	start_char=262|end_char=265
-4	insists	insist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=266|end_char=273
+4	insists	insist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=266|end_char=273
 5	on	on	SCONJ	IN	_	6	mark	_	start_char=274|end_char=276
 6	running	run	VERB	VBG	VerbForm=Ger	4	advcl	_	start_char=277|end_char=284
-7	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=285|end_char=289
-8	back	back	NOUN	NN	Number=Sing	12	compound	_	start_char=290|end_char=294
-9	-	-	PUNCT	HYPH	_	8	punct	_	start_char=294|end_char=295
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=285|end_char=289
+8	back	back	NOUN	NN	Number=Sing	6	obj	_	start_char=290|end_char=294
+9	-	-	PUNCT	HYPH	_	10	punct	_	start_char=294|end_char=295
 10	to	to	ADP	IN	_	12	case	_	start_char=295|end_char=297
 11	-	-	PUNCT	HYPH	_	12	punct	_	start_char=297|end_char=298
-12	back	back	NOUN	NN	Number=Sing	6	obj	_	start_char=298|end_char=302
+12	back	back	ADV	RB	_	8	nmod	_	start_char=298|end_char=302
 13	with	with	ADP	IN	_	16	case	_	start_char=303|end_char=307
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=308|end_char=311
-15	1969	1969	NUM	CD	NumType=Card	16	nummod	_	start_char=312|end_char=316
+15	1969	1969	NUM	CD	NumForm=Digit|NumType=Card	16	nummod	_	start_char=312|end_char=316
 16	classic	classic	NOUN	NN	Number=Sing	6	obl	_	start_char=317|end_char=324
-17	.	.	PUNCT	.	_	4	punct	_	start_char=324|end_char=325
+17	.	.	PUNCT	.	_	2	punct	_	start_char=324|end_char=325
 

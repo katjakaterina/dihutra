@@ -1,0 +1,86 @@
+# text = Давно пора...
+# sent_id = 0
+1	Давно	давно	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=5
+2	пора	пора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6|end_char=10
+3	.	.	PUNCT	_	_	2	punct	_	start_char=10|end_char=11
+4	.	.	PUNCT	_	_	2	punct	_	start_char=11|end_char=12
+5	.	.	PUNCT	_	_	2	punct	_	start_char=12|end_char=13
+
+# text = Невероятно, сколько времени понадобилось &#34;им&#34;, чтобы выпустить на DVD этот замечательный рождественский спектакль.
+# sent_id = 1
+1	Невероятно	невероятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=14|end_char=24
+2	,	,	PUNCT	_	_	5	punct	_	start_char=24|end_char=25
+3	сколько	сколько	NUM	_	NumType=Card	4	nummod:gov	_	start_char=26|end_char=33
+4	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nsubj	_	start_char=34|end_char=41
+5	понадобилось	понадобиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	csubj	_	start_char=42|end_char=54
+6	&	&	SYM	_	_	5	nsubj	_	start_char=55|end_char=56
+7	#34	#34	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=56|end_char=59
+8	;им&	;им&	PUNCT	_	_	9	punct	_	start_char=59|end_char=63
+9	#34	#34	NUM	_	NumType=Card	6	flat:foreign	_	start_char=63|end_char=66
+10	;	;	PUNCT	_	_	13	punct	_	start_char=66|end_char=67
+11	,	,	PUNCT	_	_	13	punct	_	start_char=67|end_char=68
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	start_char=69|end_char=74
+13	выпустить	выпустить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=75|end_char=84
+14	на	на	ADP	_	_	15	case	_	start_char=85|end_char=87
+15	DVD	DVD	PROPN	_	_	13	obl	_	start_char=88|end_char=91
+16	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	start_char=92|end_char=96
+17	замечательный	замечательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=97|end_char=110
+18	рождественский	рождественский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=111|end_char=125
+19	спектакль	спектакль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=126|end_char=135
+20	.	.	PUNCT	_	_	1	punct	_	start_char=135|end_char=136
+
+# text = Это современный (Америка 30-х годов) поворот к классической сказке Чарльза Диккенса.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=137|end_char=140
+2	современный	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=141|end_char=152
+3	(	(	PUNCT	_	_	4	punct	_	start_char=153|end_char=154
+4	Америка	Америка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=154|end_char=161
+5	30-х	30-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=162|end_char=166
+6	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=167|end_char=172
+7	)	)	PUNCT	_	_	4	punct	_	start_char=172|end_char=173
+8	поворот	поворот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=174|end_char=181
+9	к	к	ADP	_	_	11	case	_	start_char=182|end_char=183
+10	классической	классический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=184|end_char=196
+11	сказке	сказка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	start_char=197|end_char=203
+12	Чарльза	Чарльз	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=204|end_char=211
+13	Диккенса	Диккенс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	flat:name	_	start_char=212|end_char=220
+14	.	.	PUNCT	_	_	8	punct	_	start_char=220|end_char=221
+
+# text = Уинклер заставляет меня ненавидеть его персонажа так же сильно, как Алистера Сима, изображавшего Скруджа в постановке 1951 года.
+# sent_id = 3
+1	Уинклер	Уинклер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=222|end_char=229
+2	заставляет	заставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=230|end_char=240
+3	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=241|end_char=245
+4	ненавидеть	ненавидеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=246|end_char=256
+5	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=257|end_char=260
+6	персонажа	персонаж	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=261|end_char=270
+7	так	так	ADV	_	Degree=Pos	9	advmod	_	start_char=271|end_char=274
+8	же	же	PART	_	_	7	advmod	_	start_char=275|end_char=277
+9	сильно	сильно	ADV	_	Degree=Pos	4	advmod	_	start_char=278|end_char=284
+10	,	,	PUNCT	_	_	12	punct	_	start_char=284|end_char=285
+11	как	как	SCONJ	_	_	12	mark	_	start_char=286|end_char=289
+12	Алистера	Алистер	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	advcl	_	start_char=290|end_char=298
+13	Сима	Сима	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	flat:name	_	start_char=299|end_char=303
+14	,	,	PUNCT	_	_	15	punct	_	start_char=303|end_char=304
+15	изображавшего	изображать	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	start_char=305|end_char=318
+16	Скруджа	Скруджа	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=319|end_char=326
+17	в	в	ADP	_	_	18	case	_	start_char=327|end_char=328
+18	постановке	постановка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	start_char=329|end_char=339
+19	1951	1951	ADJ	_	Degree=Pos	20	amod	_	start_char=340|end_char=344
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=345|end_char=349
+21	.	.	PUNCT	_	_	2	punct	_	start_char=349|end_char=350
+
+# text = Определенно, этот фильм должен войти в вашу визуальную библиотеку.
+# sent_id = 4
+1	Определенно	определенно	ADV	_	Degree=Pos	5	parataxis	_	start_char=351|end_char=362
+2	,	,	PUNCT	_	_	1	punct	_	start_char=362|end_char=363
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=364|end_char=368
+4	фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=369|end_char=374
+5	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=375|end_char=381
+6	войти	войти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=382|end_char=387
+7	в	в	ADP	_	_	10	case	_	start_char=388|end_char=389
+8	вашу	ваш	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	start_char=390|end_char=394
+9	визуальную	визуальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=395|end_char=405
+10	библиотеку	библиотека	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=406|end_char=416
+11	.	.	PUNCT	_	_	5	punct	_	start_char=416|end_char=417
+

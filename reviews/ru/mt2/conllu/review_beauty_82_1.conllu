@@ -1,0 +1,74 @@
+# text = самый неловкий подарок Потому что когда человек, которому подарили эту подводку, открыл ее, на подводке не было ни одной кисточки, и на меня посмотрели как на дешевый подарок!
+# sent_id = 0
+1	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	неловкий	неловкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=6|end_char=14
+3	подарок	подарок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=15|end_char=22
+4	Потому	потому	ADV	_	Degree=Pos	14	mark	_	start_char=23|end_char=29
+5	что	что	SCONJ	_	_	4	fixed	_	start_char=30|end_char=33
+6	когда	когда	SCONJ	_	_	14	mark	_	start_char=34|end_char=39
+7	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=40|end_char=47
+8	,	,	PUNCT	_	_	10	punct	_	start_char=47|end_char=48
+9	которому	который	PRON	_	Case=Dat|PronType=Int,Rel	10	iobj	_	start_char=49|end_char=57
+10	подарили	дарить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=58|end_char=66
+11	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=67|end_char=70
+12	подводку	подводка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=71|end_char=79
+13	,	,	PUNCT	_	_	7	punct	_	start_char=79|end_char=80
+14	открыл	открыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=81|end_char=87
+15	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=88|end_char=90
+16	,	,	PUNCT	_	_	14	punct	_	start_char=90|end_char=91
+17	на	на	ADP	_	_	18	case	_	start_char=92|end_char=94
+18	подводке	подводка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	start_char=95|end_char=103
+19	не	не	PART	_	_	20	advmod	_	start_char=104|end_char=106
+20	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=107|end_char=111
+21	ни	ни	PART	_	_	22	advmod	_	start_char=112|end_char=114
+22	одной	один	NUM	_	Case=Gen|Gender=Fem|NumType=Card	23	nummod	_	start_char=115|end_char=120
+23	кисточки	кисточка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nsubj	_	start_char=121|end_char=129
+24	,	,	PUNCT	_	_	28	punct	_	start_char=129|end_char=130
+25	и	и	CCONJ	_	_	28	cc	_	start_char=131|end_char=132
+26	на	на	ADP	_	_	27	case	_	start_char=133|end_char=135
+27	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	28	obl	_	start_char=136|end_char=140
+28	посмотрели	смотреть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	start_char=141|end_char=151
+29	как	как	SCONJ	_	_	32	mark	_	start_char=152|end_char=155
+30	на	на	ADP	_	_	32	case	_	start_char=156|end_char=158
+31	дешевый	дешевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=159|end_char=166
+32	подарок	подарок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	advcl	_	start_char=167|end_char=174
+33	!	!	PUNCT	_	_	3	punct	_	start_char=174|end_char=175
+
+# text = И спросили, не подделка ли это, а потом прочитали один отзыв, который был оставлен.
+# sent_id = 1
+1	И	и	CCONJ	_	_	2	cc	_	start_char=176|end_char=177
+2	спросили	спросить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=178|end_char=186
+3	,	,	PUNCT	_	_	5	punct	_	start_char=186|end_char=187
+4	не	не	PART	_	_	5	advmod	_	start_char=188|end_char=190
+5	подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	start_char=191|end_char=199
+6	ли	ли	PART	_	_	5	advmod	_	start_char=200|end_char=202
+7	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=203|end_char=206
+8	,	,	PUNCT	_	_	11	punct	_	start_char=206|end_char=207
+9	а	а	CCONJ	_	_	11	cc	_	start_char=208|end_char=209
+10	потом	потом	ADV	_	Degree=Pos	11	advmod	_	start_char=210|end_char=215
+11	прочитали	прочесть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=216|end_char=225
+12	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	13	nummod	_	start_char=226|end_char=230
+13	отзыв	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=231|end_char=236
+14	,	,	PUNCT	_	_	17	punct	_	start_char=236|end_char=237
+15	который	который	PRON	_	Case=Nom|PronType=Int,Rel	17	nsubj:pass	_	start_char=238|end_char=245
+16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	start_char=246|end_char=249
+17	оставлен	оставить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	acl:relcl	_	start_char=250|end_char=258
+18	.	.	PUNCT	_	_	2	punct	_	start_char=258|end_char=259
+
+# text = Надеюсь получить замену или возврат денег.
+# sent_id = 2
+1	Надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=260|end_char=267
+2	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=268|end_char=276
+3	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=277|end_char=283
+4	или	или	CCONJ	_	_	5	cc	_	start_char=284|end_char=287
+5	возврат	возврат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	start_char=288|end_char=295
+6	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=296|end_char=301
+7	.	.	PUNCT	_	_	1	punct	_	start_char=301|end_char=302
+
+# text = Очень недовольный покупатель.
+# sent_id = 3
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=303|end_char=308
+2	недовольный	недовольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=309|end_char=320
+3	покупатель	покупатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=321|end_char=331
+4	.	.	PUNCT	_	_	3	punct	_	start_char=331|end_char=332
+

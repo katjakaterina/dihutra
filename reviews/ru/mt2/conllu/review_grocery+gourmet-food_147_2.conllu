@@ -1,0 +1,128 @@
+# text = Порошок солодки с корицей Этот продукт является плохим примером аутентичного порошка 5 специй, за 4 унции которого я заплатил 1,5 доллара, несмотря на то, что другие продукты Dynasty полезны, например, их соус Satay.
+# sent_id = 0
+1	Порошок	порошок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=0|end_char=7
+2	солодки	солодка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=8|end_char=15
+3	с	с	ADP	_	_	4	case	_	start_char=16|end_char=17
+4	корицей	корица	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	start_char=18|end_char=25
+5	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=26|end_char=30
+6	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=31|end_char=38
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=39|end_char=47
+8	плохим	плохой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=48|end_char=54
+9	примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	start_char=55|end_char=63
+10	аутентичного	аутентичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=64|end_char=76
+11	порошка	порошок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=77|end_char=84
+12	5	5	NUM	_	NumType=Card	13	nummod	_	start_char=85|end_char=86
+13	специй	специя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=87|end_char=93
+14	,	,	PUNCT	_	_	20	punct	_	start_char=93|end_char=94
+15	за	за	ADP	_	_	17	case	_	start_char=95|end_char=97
+16	4	4	NUM	_	NumType=Card	17	nummod	_	start_char=98|end_char=99
+17	унции	унция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	start_char=100|end_char=105
+18	которого	который	PRON	_	Case=Gen|PronType=Int,Rel	17	nmod	_	start_char=106|end_char=114
+19	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=115|end_char=116
+20	заплатил	платить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=117|end_char=125
+21	1,5	1,5	NUM	_	NumType=Card	22	nummod	_	start_char=126|end_char=129
+22	доллара	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	start_char=130|end_char=137
+23	,	,	PUNCT	_	_	26	punct	_	start_char=137|end_char=138
+24	несмотря	несмотря	ADV	_	Polarity=Neg	26	case	_	start_char=139|end_char=147
+25	на	на	ADP	_	_	24	fixed	_	start_char=148|end_char=150
+26	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	start_char=151|end_char=153
+27	,	,	PUNCT	_	_	32	punct	_	start_char=153|end_char=154
+28	что	что	SCONJ	_	_	32	mark	_	start_char=155|end_char=158
+29	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	30	amod	_	start_char=159|end_char=165
+30	продукты	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	start_char=166|end_char=174
+31	Dynasty	Dynasty	PROPN	_	Foreign=Yes	30	flat:foreign	_	start_char=175|end_char=182
+32	полезны	полезный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	26	acl	_	start_char=183|end_char=190
+33	,	,	PUNCT	_	_	37	punct	_	start_char=190|end_char=191
+34	например	например	ADV	_	Degree=Pos	37	parataxis	_	start_char=192|end_char=200
+35	,	,	PUNCT	_	_	37	punct	_	start_char=200|end_char=201
+36	их	их	DET	_	Poss=Yes|PronType=Prs	37	det	_	start_char=202|end_char=204
+37	соус	соус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	start_char=205|end_char=209
+38	Satay	Satay	PROPN	_	Foreign=Yes	37	flat:foreign	_	start_char=210|end_char=215
+39	.	.	PUNCT	_	_	7	punct	_	start_char=215|end_char=216
+
+# text = Я живу в нескольких минутах ходьбы от Flushing Queens и имею представление о том, каким он должен быть на вкус, по аутентичной азиатской кухне, продающейся поблизости.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=217|end_char=218
+2	живу	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=219|end_char=223
+3	в	в	ADP	_	_	5	case	_	start_char=224|end_char=225
+4	нескольких	несколько	NUM	_	Case=Loc|NumType=Card	5	nummod	_	start_char=226|end_char=236
+5	минутах	минута	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	start_char=237|end_char=244
+6	ходьбы	ходьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=245|end_char=251
+7	от	от	ADP	_	_	6	case	_	start_char=252|end_char=254
+8	Flushing	Flushing	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=255|end_char=263
+9	Queens	Queens	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=264|end_char=270
+10	и	и	CCONJ	_	_	11	cc	_	start_char=271|end_char=272
+11	имею	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=273|end_char=277
+12	представление	представление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=278|end_char=291
+13	о	о	ADP	_	_	14	case	_	start_char=292|end_char=293
+14	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	12	nmod	_	start_char=294|end_char=297
+15	,	,	PUNCT	_	_	18	punct	_	start_char=297|end_char=298
+16	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	18	det	_	start_char=299|end_char=304
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=305|end_char=307
+18	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	acl	_	start_char=308|end_char=314
+19	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	cop	_	start_char=315|end_char=319
+20	на	на	ADP	_	_	21	case	_	start_char=320|end_char=322
+21	вкус	вкус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	start_char=323|end_char=327
+22	,	,	PUNCT	_	_	26	punct	_	start_char=327|end_char=328
+23	по	по	ADP	_	_	26	case	_	start_char=329|end_char=331
+24	аутентичной	аутентичный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=332|end_char=343
+25	азиатской	азиатский	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=344|end_char=353
+26	кухне	кухня	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	conj	_	start_char=354|end_char=359
+27	,	,	PUNCT	_	_	28	punct	_	start_char=359|end_char=360
+28	продающейся	продавать	VERB	_	Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	26	acl	_	start_char=361|end_char=372
+29	поблизости	поблизости	ADV	_	Degree=Pos	28	advmod	_	start_char=373|end_char=383
+30	.	.	PUNCT	_	_	2	punct	_	start_char=383|end_char=384
+
+# text = Если вы хотите дешево купить на Amazon, то вам лучше всего подойдетFrontier Five Spice Powder, 1.92-Ounce Bottle.
+# sent_id = 2
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=385|end_char=389
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=390|end_char=392
+3	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=393|end_char=399
+4	дешево	дешево	ADV	_	Degree=Pos	5	advmod	_	start_char=400|end_char=406
+5	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=407|end_char=413
+6	на	на	ADP	_	_	7	case	_	start_char=414|end_char=416
+7	Amazon	Amazon	PROPN	_	_	5	obl	_	start_char=417|end_char=423
+8	,	,	PUNCT	_	_	3	punct	_	start_char=423|end_char=424
+9	то	то	SCONJ	_	_	11	mark	_	start_char=425|end_char=427
+10	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	iobj	_	start_char=428|end_char=431
+11	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	start_char=432|end_char=437
+12	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	11	obl	_	start_char=438|end_char=443
+13	подойдетFrontier	подойдетFrontier	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=444|end_char=460
+14	Five	Five	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=461|end_char=465
+15	Spice	Spice	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=466|end_char=471
+16	Powder	Powder	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=472|end_char=478
+17	,	,	PUNCT	_	_	18	punct	_	start_char=478|end_char=479
+18	1.92-Ounce	1.92-Ounce	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=480|end_char=490
+19	Bottle	Bottle	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=491|end_char=497
+20	.	.	PUNCT	_	_	11	punct	_	start_char=497|end_char=498
+
+# text = BTW "звездчатый анис" или "анис" - это уже лакричный аромат, так что добавлять еще больше лакрицы в эту бутылку было глупо.
+# sent_id = 3
+1	BTW	BTW	PROPN	_	Foreign=Yes	14	nsubj	_	start_char=499|end_char=502
+2	"	"	PUNCT	_	_	4	punct	_	start_char=503|end_char=504
+3	звездчатый	звездчатый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=504|end_char=514
+4	анис	анис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=515|end_char=519
+5	"	"	PUNCT	_	_	4	punct	_	start_char=519|end_char=520
+6	или	или	CCONJ	_	_	8	cc	_	start_char=521|end_char=524
+7	"	"	PUNCT	_	_	8	punct	_	start_char=525|end_char=526
+8	анис	анис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	start_char=526|end_char=530
+9	"	"	PUNCT	_	_	8	punct	_	start_char=530|end_char=531
+10	-	-	PUNCT	_	_	1	punct	_	start_char=532|end_char=533
+11	это	это	PRON	_	PronType=Dem	14	expl	_	start_char=534|end_char=537
+12	уже	уже	ADV	_	Degree=Pos	13	obl	_	start_char=538|end_char=541
+13	лакричный	лакричный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=542|end_char=551
+14	аромат	аромат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=552|end_char=558
+15	,	,	PUNCT	_	_	26	punct	_	start_char=558|end_char=559
+16	так	так	ADV	_	Degree=Pos	26	mark	_	start_char=560|end_char=563
+17	что	что	SCONJ	_	_	16	fixed	_	start_char=564|end_char=567
+18	добавлять	добавлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	csubj	_	start_char=568|end_char=577
+19	еще	еще	ADV	_	Degree=Pos	20	advmod	_	start_char=578|end_char=581
+20	больше	больше	ADV	_	Degree=Cmp	18	advmod	_	start_char=582|end_char=588
+21	лакрицы	лакрица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	start_char=589|end_char=596
+22	в	в	ADP	_	_	24	case	_	start_char=597|end_char=598
+23	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	24	det	_	start_char=599|end_char=602
+24	бутылку	бутылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	start_char=603|end_char=610
+25	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	cop	_	start_char=611|end_char=615
+26	глупо	глупый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	advcl	_	start_char=616|end_char=621
+27	.	.	PUNCT	_	_	14	punct	_	start_char=621|end_char=622
+

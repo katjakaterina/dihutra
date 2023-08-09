@@ -1,0 +1,129 @@
+# text = FAIL JUNK!!! ......Этот товар должен быть неправильно маркирован.
+# sent_id = 0
+1	FAIL	FAIL	PROPN	_	Foreign=Yes	0	root	_	start_char=0|end_char=4
+2	JUNK	JUNK	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=5|end_char=9
+3	!	!	PUNCT	_	_	1	punct	_	start_char=9|end_char=10
+4	!	!	PUNCT	_	_	1	punct	_	start_char=10|end_char=11
+5	!	!	PUNCT	_	_	1	punct	_	start_char=11|end_char=12
+6	.	.	PUNCT	_	_	1	punct	_	start_char=13|end_char=14
+7	.	.	PUNCT	_	_	1	punct	_	start_char=14|end_char=15
+8	.	.	PUNCT	_	_	1	punct	_	start_char=15|end_char=16
+9	.	.	PUNCT	_	_	1	punct	_	start_char=16|end_char=17
+10	.	.	PUNCT	_	_	1	punct	_	start_char=17|end_char=18
+11	.	.	PUNCT	_	_	14	punct	_	start_char=18|end_char=19
+12	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=19|end_char=23
+13	товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	start_char=24|end_char=29
+14	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	parataxis	_	start_char=30|end_char=36
+15	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	aux:pass	_	start_char=37|end_char=41
+16	неправильно	неправильно	ADV	_	Degree=Pos	17	advmod	_	start_char=42|end_char=53
+17	маркирован	маркировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	xcomp	_	start_char=54|end_char=64
+18	.	.	PUNCT	_	_	1	punct	_	start_char=64|end_char=65
+
+# text = Я не могу зарядить свой телефон Samsung S2 с помощью этого штатного зарядного устройства.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=66|end_char=67
+2	не	не	PART	_	_	3	advmod	_	start_char=68|end_char=70
+3	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=71|end_char=75
+4	зарядить	зарядить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=76|end_char=84
+5	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=85|end_char=89
+6	телефон	телефон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=90|end_char=97
+7	Samsung	Samsung	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=98|end_char=105
+8	S2	S2	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=106|end_char=108
+9	с	с	ADP	_	_	14	case	_	start_char=109|end_char=110
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	start_char=111|end_char=118
+11	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	start_char=119|end_char=124
+12	штатного	штатный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=125|end_char=133
+13	зарядного	зарядный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=134|end_char=143
+14	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	start_char=144|end_char=154
+15	.	.	PUNCT	_	_	3	punct	_	start_char=154|end_char=155
+
+# text = Индикаторы горят, телефон говорит, что заряжается, но ничего не происходит.
+# sent_id = 2
+1	Индикаторы	индикатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=156|end_char=166
+2	горят	гореть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=167|end_char=172
+3	,	,	PUNCT	_	_	5	punct	_	start_char=172|end_char=173
+4	телефон	телефон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=174|end_char=181
+5	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=182|end_char=189
+6	,	,	PUNCT	_	_	8	punct	_	start_char=189|end_char=190
+7	что	что	SCONJ	_	_	8	mark	_	start_char=191|end_char=194
+8	заряжается	заряжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	ccomp	_	start_char=195|end_char=205
+9	,	,	PUNCT	_	_	13	punct	_	start_char=205|end_char=206
+10	но	но	CCONJ	_	_	13	cc	_	start_char=207|end_char=209
+11	ничего	ничто	PRON	_	Case=Gen|PronType=Neg	13	nsubj	_	start_char=210|end_char=216
+12	не	не	PART	_	_	13	advmod	_	start_char=217|end_char=219
+13	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=220|end_char=230
+14	.	.	PUNCT	_	_	2	punct	_	start_char=230|end_char=231
+
+# text = Я не уверен, что мне попался бракованный товар, но очень обидно сидеть в машине часами и не видеть, как телефон заряжается.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=232|end_char=233
+2	не	не	PART	_	_	3	advmod	_	start_char=234|end_char=236
+3	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=237|end_char=243
+4	,	,	PUNCT	_	_	7	punct	_	start_char=243|end_char=244
+5	что	что	SCONJ	_	_	7	mark	_	start_char=245|end_char=248
+6	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	start_char=249|end_char=252
+7	попался	попасться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	ccomp	_	start_char=253|end_char=260
+8	бракованный	браковать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	start_char=261|end_char=272
+9	товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=273|end_char=278
+10	,	,	PUNCT	_	_	13	punct	_	start_char=278|end_char=279
+11	но	но	CCONJ	_	_	13	cc	_	start_char=280|end_char=282
+12	очень	очень	ADV	_	Degree=Pos	13	obl	_	start_char=283|end_char=288
+13	обидно	обидный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	conj	_	start_char=289|end_char=295
+14	сидеть	сидеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	csubj	_	start_char=296|end_char=302
+15	в	в	ADP	_	_	16	case	_	start_char=303|end_char=304
+16	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	start_char=305|end_char=311
+17	часами	час	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	start_char=312|end_char=318
+18	и	и	CCONJ	_	_	20	cc	_	start_char=319|end_char=320
+19	не	не	PART	_	_	20	advmod	_	start_char=321|end_char=323
+20	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	conj	_	start_char=324|end_char=330
+21	,	,	PUNCT	_	_	24	punct	_	start_char=330|end_char=331
+22	как	как	SCONJ	_	_	24	mark	_	start_char=332|end_char=335
+23	телефон	телефон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=336|end_char=343
+24	заряжается	заряжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	ccomp	_	start_char=344|end_char=354
+25	.	.	PUNCT	_	_	3	punct	_	start_char=354|end_char=355
+
+# text = Если вам нужно надежное зарядное устройство, НЕ покупайте этот продукт.
+# sent_id = 4
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=356|end_char=360
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=361|end_char=364
+3	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	advcl	_	start_char=365|end_char=370
+4	надежное	надежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=371|end_char=379
+5	зарядное	зарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=380|end_char=388
+6	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=389|end_char=399
+7	,	,	PUNCT	_	_	3	punct	_	start_char=399|end_char=400
+8	НЕ	не	PART	_	_	9	advmod	_	start_char=401|end_char=403
+9	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=404|end_char=413
+10	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=414|end_char=418
+11	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=419|end_char=426
+12	.	.	PUNCT	_	_	9	punct	_	start_char=426|end_char=427
+
+# text = Если вам нужно автомобильное зарядное устройство для Samsung S2, я бы рекомендовал Motorola Vehicle Power Adapter.
+# sent_id = 5
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=428|end_char=432
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=433|end_char=436
+3	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	advcl	_	start_char=437|end_char=442
+4	автомобильное	автомобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=443|end_char=456
+5	зарядное	зарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=457|end_char=465
+6	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=466|end_char=476
+7	для	для	ADP	_	_	6	case	_	start_char=477|end_char=480
+8	Samsung	Samsung	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=481|end_char=488
+9	S2	S2	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=489|end_char=491
+10	,	,	PUNCT	_	_	3	punct	_	start_char=491|end_char=492
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=493|end_char=494
+12	бы	бы	AUX	_	_	13	aux	_	start_char=495|end_char=497
+13	рекомендовал	рекомендовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=498|end_char=510
+14	Motorola	Моторола	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=511|end_char=519
+15	Vehicle	Vehicle	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=520|end_char=527
+16	Power	Power	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=528|end_char=533
+17	Adapter	Adapter	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=534|end_char=541
+18	.	.	PUNCT	_	_	13	punct	_	start_char=541|end_char=542
+
+# text = Он заряжает быстро и надежно.
+# sent_id = 6
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=543|end_char=545
+2	заряжает	заряжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=546|end_char=554
+3	быстро	быстро	ADV	_	Degree=Pos	2	advmod	_	start_char=555|end_char=561
+4	и	и	CCONJ	_	_	5	cc	_	start_char=562|end_char=563
+5	надежно	надежно	ADV	_	Degree=Pos	3	conj	_	start_char=564|end_char=571
+6	.	.	PUNCT	_	_	2	punct	_	start_char=571|end_char=572
+

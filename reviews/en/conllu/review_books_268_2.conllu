@@ -1,6 +1,9 @@
+# text = We all know the text, but this book is a small version of the original.
+# sent_id = 0
+# sentiment = 1
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
 2	all	all	DET	DT	_	1	det	_	start_char=3|end_char=6
-3	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7|end_char=11
+3	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=7|end_char=11
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=12|end_char=15
 5	text	text	NOUN	NN	Number=Sing	3	obj	_	start_char=16|end_char=20
 6	,	,	PUNCT	,	_	13	punct	_	start_char=20|end_char=21
@@ -16,16 +19,19 @@
 16	original	original	NOUN	NN	Number=Sing	13	nmod	_	start_char=62|end_char=70
 17	.	.	PUNCT	.	_	3	punct	_	start_char=70|end_char=71
 
+# text = I ordered it and when I opened it I was very disappointed to find that it is not the industry standard that I knew.
+# sent_id = 1
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=72|end_char=73
-2	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=81
+2	ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=81
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=82|end_char=84
 4	and	and	CCONJ	CC	_	12	cc	_	start_char=85|end_char=88
-5	when	when	SCONJ	WRB	PronType=Int	7	mark	_	start_char=89|end_char=93
+5	when	when	ADV	WRB	PronType=Int	7	advmod	_	start_char=89|end_char=93
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=94|end_char=95
-7	opened	open	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=96|end_char=102
+7	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	advcl	_	start_char=96|end_char=102
 8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=103|end_char=105
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=106|end_char=107
-10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=108|end_char=111
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	cop	_	start_char=108|end_char=111
 11	very	very	ADV	RB	_	12	advmod	_	start_char=112|end_char=116
 12	disappointed	disappointed	ADJ	JJ	Degree=Pos	2	conj	_	start_char=117|end_char=129
 13	to	to	PART	TO	_	14	mark	_	start_char=130|end_char=132
@@ -39,19 +45,22 @@
 21	standard	standard	NOUN	NN	Number=Sing	14	ccomp	_	start_char=166|end_char=174
 22	that	that	PRON	WDT	PronType=Rel	24	obj	_	start_char=175|end_char=179
 23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	start_char=180|end_char=181
-24	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	start_char=182|end_char=186
+24	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	acl:relcl	_	start_char=182|end_char=186
 25	.	.	PUNCT	.	_	2	punct	_	start_char=186|end_char=187
 
+# text = Then I went back to see if I missed something about the size in the description, but could not find any reference to it.
+# sent_id = 2
+# sentiment = 0
 1	Then	then	ADV	RB	PronType=Dem	3	advmod	_	start_char=188|end_char=192
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=193|end_char=194
-3	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=195|end_char=199
+3	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=195|end_char=199
 4	back	back	ADV	RB	_	3	advmod	_	start_char=200|end_char=204
 5	to	to	PART	TO	_	6	mark	_	start_char=205|end_char=207
 6	see	see	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=208|end_char=211
 7	if	if	SCONJ	IN	_	9	mark	_	start_char=212|end_char=214
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=215|end_char=216
-9	missed	miss	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	start_char=217|end_char=223
-10	something	something	PRON	NN	Number=Sing	9	obj	_	start_char=224|end_char=233
+9	missed	miss	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	advcl	_	start_char=217|end_char=223
+10	something	something	PRON	NN	Number=Sing|PronType=Ind	9	obj	_	start_char=224|end_char=233
 11	about	about	ADP	IN	_	13	case	_	start_char=234|end_char=239
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=240|end_char=243
 13	size	size	NOUN	NN	Number=Sing	10	nmod	_	start_char=244|end_char=248
@@ -69,6 +78,9 @@
 25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nmod	_	start_char=305|end_char=307
 26	.	.	PUNCT	.	_	3	punct	_	start_char=307|end_char=308
 
+# text = On a positive note, Amazon's return policy is amazing.
+# sent_id = 3
+# sentiment = 2
 1	On	on	ADP	IN	_	4	case	_	start_char=309|end_char=311
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=312|end_char=313
 3	positive	positive	ADJ	JJ	Degree=Pos	4	amod	_	start_char=314|end_char=322
@@ -82,9 +94,12 @@
 11	amazing	amazing	ADJ	JJ	Degree=Pos	0	root	_	start_char=355|end_char=362
 12	.	.	PUNCT	.	_	11	punct	_	start_char=362|end_char=363
 
+# text = Immediate Credit when informed of the problem and the return shipping was very easy.
+# sent_id = 4
+# sentiment = 2
 1	Immediate	immediate	ADJ	JJ	Degree=Pos	2	amod	_	start_char=364|end_char=373
 2	Credit	credit	NOUN	NN	Number=Sing	0	root	_	start_char=374|end_char=380
-3	when	when	SCONJ	WRB	PronType=Int	4	mark	_	start_char=381|end_char=385
+3	when	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=381|end_char=385
 4	informed	inform	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	start_char=386|end_char=394
 5	of	of	ADP	IN	_	7	case	_	start_char=395|end_char=397
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=398|end_char=401

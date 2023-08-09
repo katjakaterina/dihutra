@@ -1,0 +1,67 @@
+# text = Будьте осторожны Купил 2 штуки и попробовал сначала протестировать...
+# sent_id = 0
+1	Будьте	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	cop	_	start_char=0|end_char=6
+2	осторожны	осторожный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	obl	_	start_char=7|end_char=16
+3	Купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=22
+4	2	2	NUM	_	NumType=Card	5	nummod	_	start_char=23|end_char=24
+5	штуки	штука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=25|end_char=30
+6	и	и	CCONJ	_	_	7	cc	_	start_char=31|end_char=32
+7	попробовал	пробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=33|end_char=43
+8	сначала	сначала	ADV	_	Degree=Pos	9	advmod	_	start_char=44|end_char=51
+9	протестировать	тестировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=52|end_char=66
+10	.	.	PUNCT	_	_	9	punct	_	start_char=66|end_char=67
+11	.	.	PUNCT	_	_	9	punct	_	start_char=67|end_char=68
+12	.	.	PUNCT	_	_	3	punct	_	start_char=68|end_char=69
+
+# text = после нескольких минут зарядки он стал горячим.
+# sent_id = 1
+1	после	после	ADP	_	_	3	case	_	start_char=70|end_char=75
+2	нескольких	несколько	NUM	_	Case=Gen|NumType=Card	3	nummod	_	start_char=76|end_char=86
+3	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=87|end_char=92
+4	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=93|end_char=100
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=101|end_char=103
+6	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=104|end_char=108
+7	горячим	горячий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	start_char=109|end_char=116
+8	.	.	PUNCT	_	_	6	punct	_	start_char=116|end_char=117
+
+# text = Вытащил его и почувствовал запах горелого.
+# sent_id = 2
+1	Вытащил	вытащить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=118|end_char=125
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=126|end_char=129
+3	и	и	CCONJ	_	_	4	cc	_	start_char=130|end_char=131
+4	почувствовал	почувствовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=132|end_char=144
+5	запах	запах	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=145|end_char=150
+6	горелого	горелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	start_char=151|end_char=159
+7	.	.	PUNCT	_	_	1	punct	_	start_char=159|end_char=160
+
+# text = Попробовал второй и тоже самое.
+# sent_id = 3
+1	Попробовал	пробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=161|end_char=171
+2	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	obj	_	start_char=172|end_char=178
+3	и	и	CCONJ	_	_	5	cc	_	start_char=179|end_char=180
+4	тоже	тоже	PART	_	_	5	advmod	_	start_char=181|end_char=185
+5	самое	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	start_char=186|end_char=191
+6	.	.	PUNCT	_	_	1	punct	_	start_char=191|end_char=192
+
+# text = Будьте осторожны...
+# sent_id = 4
+1	Будьте	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	cop	_	start_char=193|end_char=199
+2	осторожны	осторожный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=200|end_char=209
+3	.	.	PUNCT	_	_	2	punct	_	start_char=209|end_char=210
+4	.	.	PUNCT	_	_	2	punct	_	start_char=210|end_char=211
+5	.	.	PUNCT	_	_	2	punct	_	start_char=211|end_char=212
+
+# text = это устройство может быть пожароопасным или потенциально разрушить электрическую систему.
+# sent_id = 5
+1	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=213|end_char=216
+2	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=217|end_char=227
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=228|end_char=233
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	cop	_	start_char=234|end_char=238
+5	пожароопасным	пожароопасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	obl	_	start_char=239|end_char=252
+6	или	или	CCONJ	_	_	8	cc	_	start_char=253|end_char=256
+7	потенциально	потенциально	ADV	_	Degree=Pos	8	advmod	_	start_char=257|end_char=269
+8	разрушить	разрушить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	start_char=270|end_char=279
+9	электрическую	электрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=280|end_char=293
+10	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=294|end_char=301
+11	.	.	PUNCT	_	_	3	punct	_	start_char=301|end_char=302
+

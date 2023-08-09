@@ -1,7 +1,10 @@
-1	Expensive	expensive	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=9
+# text = Expensive junk I bought a pack of these a while back from Sam's Club.
+# sent_id = 0
+# sentiment = 0
+1	Expensive	Expensive	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=9
 2	junk	junk	NOUN	NN	Number=Sing	0	root	_	start_char=10|end_char=14
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=15|end_char=16
-4	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	start_char=17|end_char=23
+4	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=17|end_char=23
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=24|end_char=25
 6	pack	pack	NOUN	NN	Number=Sing	4	obj	_	start_char=26|end_char=30
 7	of	of	ADP	IN	_	10	case	_	start_char=31|end_char=33
@@ -14,21 +17,24 @@
 14	Club	Club	PROPN	NNP	Number=Sing	4	obl	_	start_char=64|end_char=68
 15	.	.	PUNCT	.	_	2	punct	_	start_char=68|end_char=69
 
+# text = I used them in my appliance remotes but noticed that they don't hold their charges for long thereby necessitating frequent recharges.
+# sent_id = 1
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=70|end_char=71
-2	used	use	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=72|end_char=76
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=72|end_char=76
 3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=77|end_char=81
 4	in	in	ADP	IN	_	7	case	_	start_char=82|end_char=84
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=85|end_char=87
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=85|end_char=87
 6	appliance	appliance	NOUN	NN	Number=Sing	7	compound	_	start_char=88|end_char=97
 7	remotes	remote	NOUN	NNS	Number=Plur	2	obl	_	start_char=98|end_char=105
 8	but	but	CCONJ	CC	_	9	cc	_	start_char=106|end_char=109
-9	noticed	notice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	start_char=110|end_char=117
+9	noticed	notice	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	start_char=110|end_char=117
 10	that	that	SCONJ	IN	_	14	mark	_	start_char=118|end_char=122
 11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	start_char=123|end_char=127
-12	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=128|end_char=130
+12	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=128|end_char=130
 13	n't	not	PART	RB	_	14	advmod	_	start_char=130|end_char=133
 14	hold	hold	VERB	VB	VerbForm=Inf	9	ccomp	_	start_char=134|end_char=138
-15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=139|end_char=144
+15	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=139|end_char=144
 16	charges	charge	NOUN	NNS	Number=Plur	14	obj	_	start_char=145|end_char=152
 17	for	for	ADP	IN	_	18	case	_	start_char=153|end_char=156
 18	long	long	ADV	RB	Degree=Pos	14	obl	_	start_char=157|end_char=161
@@ -38,37 +44,40 @@
 22	recharges	recharge	NOUN	NNS	Number=Plur	20	obj	_	start_char=193|end_char=202
 23	.	.	PUNCT	.	_	2	punct	_	start_char=202|end_char=203
 
+# text = The cheap rapid charger 'CH30MN' that came with the battery pack did not help matters either as it heats the batteries up during the charging process to the point of being unbearable to touch.
+# sent_id = 2
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=204|end_char=207
 2	cheap	cheap	ADJ	JJ	Degree=Pos	4	amod	_	start_char=208|end_char=213
 3	rapid	rapid	ADJ	JJ	Degree=Pos	4	amod	_	start_char=214|end_char=219
 4	charger	charge	NOUN	NN	Number=Sing	16	nsubj	_	start_char=220|end_char=227
 5	'	'	PUNCT	``	_	6	punct	_	start_char=228|end_char=229
-6	CH30MN	CH30MN	PROPN	NNP	Number=Sing	4	appos	_	start_char=229|end_char=235
+6	CH30MN	ch30mn	NOUN	NN	Number=Sing	4	appos	_	start_char=229|end_char=235
 7	'	'	PUNCT	''	_	6	punct	_	start_char=235|end_char=236
 8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	start_char=237|end_char=241
-9	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=242|end_char=246
+9	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=242|end_char=246
 10	with	with	ADP	IN	_	13	case	_	start_char=247|end_char=251
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=252|end_char=255
 12	battery	battery	NOUN	NN	Number=Sing	13	compound	_	start_char=256|end_char=263
 13	pack	pack	NOUN	NN	Number=Sing	9	obl	_	start_char=264|end_char=268
-14	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	start_char=269|end_char=272
+14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	start_char=269|end_char=272
 15	not	not	PART	RB	_	16	advmod	_	start_char=273|end_char=276
 16	help	help	VERB	VB	VerbForm=Inf	0	root	_	start_char=277|end_char=281
 17	matters	matter	NOUN	NNS	Number=Plur	16	obj	_	start_char=282|end_char=289
-18	either	either	CCONJ	CC	_	21	cc:preconj	_	start_char=290|end_char=296
+18	either	either	ADV	RB	_	16	advmod	_	start_char=290|end_char=296
 19	as	as	SCONJ	IN	_	21	mark	_	start_char=297|end_char=299
 20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=300|end_char=302
 21	heats	heat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=303|end_char=308
 22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=309|end_char=312
 23	batteries	battery	NOUN	NNS	Number=Plur	21	obj	_	start_char=313|end_char=322
-24	up	up	ADP	RP	_	21	compound:prt	_	start_char=323|end_char=325
+24	up	up	ADV	RB	_	21	compound:prt	_	start_char=323|end_char=325
 25	during	during	ADP	IN	_	28	case	_	start_char=326|end_char=332
 26	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=333|end_char=336
-27	charging	charge	NOUN	NN	Number=Sing	28	amod	_	start_char=337|end_char=345
+27	charging	charging	NOUN	NN	Number=Sing	28	compound	_	start_char=337|end_char=345
 28	process	process	NOUN	NN	Number=Sing	21	obl	_	start_char=346|end_char=353
 29	to	to	ADP	IN	_	31	case	_	start_char=354|end_char=356
 30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	start_char=357|end_char=360
-31	point	point	NOUN	NN	Number=Sing	28	nmod	_	start_char=361|end_char=366
+31	point	point	NOUN	NN	Number=Sing	21	obl	_	start_char=361|end_char=366
 32	of	of	SCONJ	IN	_	34	mark	_	start_char=367|end_char=369
 33	being	be	AUX	VBG	VerbForm=Ger	34	cop	_	start_char=370|end_char=375
 34	unbearable	unbearable	ADJ	JJ	Degree=Pos	31	acl	_	start_char=376|end_char=386
@@ -76,22 +85,25 @@
 36	touch	touch	VERB	VB	VerbForm=Inf	34	xcomp	_	start_char=390|end_char=395
 37	.	.	PUNCT	.	_	16	punct	_	start_char=395|end_char=396
 
+# text = Save your money and buy the newSANYO NEW 1500 eneloop 8 Pack AA Ni-MH Pre-Charged Rechargeable Batteriesinstead.
+# sent_id = 3
+# sentiment = 1
 1	Save	save	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=396|end_char=400
-2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=401|end_char=405
+2	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=401|end_char=405
 3	money	money	NOUN	NN	Number=Sing	1	obj	_	start_char=406|end_char=411
 4	and	and	CCONJ	CC	_	5	cc	_	start_char=412|end_char=415
 5	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	start_char=416|end_char=419
-6	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=420|end_char=423
-7	newSANYO	newsanyo	NOUN	NN	Number=Sing	12	compound	_	start_char=424|end_char=432
-8	NEW	new	ADJ	JJ	Degree=Pos	12	amod	_	start_char=433|end_char=436
-9	1500	1500	NUM	CD	NumType=Card	10	nummod	_	start_char=437|end_char=441
-10	eneloop	eneloop	NOUN	NN	Number=Sing	12	compound	_	start_char=442|end_char=449
-11	8	8	NUM	CD	NumType=Card	10	nummod	_	start_char=450|end_char=451
+6	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=420|end_char=423
+7	newSANYO	newsanyo	NOUN	NN	Number=Sing	10	compound	_	start_char=424|end_char=432
+8	NEW	new	ADJ	JJ	Degree=Pos	10	amod	_	start_char=433|end_char=436
+9	1500	1500	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=437|end_char=441
+10	eneloop	eneloop	NOUN	NN	Number=Sing	5	obj	_	start_char=442|end_char=449
+11	8	8	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=450|end_char=451
 12	Pack	pack	NOUN	NN	Number=Sing	17	compound	_	start_char=452|end_char=456
 13	AA	aa	NOUN	NN	Number=Sing	17	compound	_	start_char=457|end_char=459
 14	Ni-MH	ni-mh	NOUN	NN	Number=Sing	17	compound	_	start_char=460|end_char=465
 15	Pre-Charged	pre-charged	ADJ	JJ	Degree=Pos	17	amod	_	start_char=466|end_char=477
-16	Rechargeable	Rechargeable	PROPN	NNP	Number=Sing	17	compound	_	start_char=478|end_char=490
-17	Batteriesinstead	Batteriesinstead	PROPN	NNP	Number=Sing	5	obj	_	start_char=491|end_char=507
+16	Rechargeable	rechargeable	NOUN	NN	Number=Sing	17	compound	_	start_char=478|end_char=490
+17	Batteriesinstead	Batteriesinstead	PROPN	NNP	Number=Sing	10	appos	_	start_char=491|end_char=507
 18	.	.	PUNCT	.	_	1	punct	_	start_char=507|end_char=508
 

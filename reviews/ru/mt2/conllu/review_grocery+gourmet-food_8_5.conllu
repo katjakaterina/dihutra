@@ -1,0 +1,127 @@
+# text = Очень вкусно!!!
+# sent_id = 0
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=0|end_char=5
+2	вкусно	вкусный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=6|end_char=12
+3	!	!	PUNCT	_	_	2	punct	_	start_char=12|end_char=13
+4	!	!	PUNCT	_	_	2	punct	_	start_char=13|end_char=14
+5	!	!	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+
+# text = Сливочный белый шоколад, настоянный на зеленом чае Матча, окружает слои вафель.
+# sent_id = 1
+1	Сливочный	сливочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=16|end_char=25
+2	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=26|end_char=31
+3	шоколад	шоколад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=32|end_char=39
+4	,	,	PUNCT	_	_	5	punct	_	start_char=39|end_char=40
+5	настоянный	настоять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=41|end_char=51
+6	на	на	ADP	_	_	8	case	_	start_char=52|end_char=54
+7	зеленом	зеленый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=55|end_char=62
+8	чае	чай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=63|end_char=66
+9	Матча	Матча	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=67|end_char=72
+10	,	,	PUNCT	_	_	5	punct	_	start_char=72|end_char=73
+11	окружает	окружать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=74|end_char=82
+12	слои	слой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=83|end_char=87
+13	вафель	вафель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=88|end_char=94
+14	.	.	PUNCT	_	_	11	punct	_	start_char=94|end_char=95
+
+# text = Гораздо менее сладкий, чем традиционный Kitkat.
+# sent_id = 2
+1	Гораздо	гораздо	ADV	_	Degree=Pos	2	advmod	_	start_char=96|end_char=103
+2	менее	менее	ADV	_	Degree=Cmp	3	obl	_	start_char=104|end_char=109
+3	сладкий	сладкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=110|end_char=117
+4	,	,	PUNCT	_	_	7	punct	_	start_char=117|end_char=118
+5	чем	чем	SCONJ	_	_	7	mark	_	start_char=119|end_char=122
+6	традиционный	традиционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=123|end_char=135
+7	Kitkat	Kitkat	PROPN	_	Foreign=Yes	2	obl	_	start_char=136|end_char=142
+8	.	.	PUNCT	_	_	3	punct	_	start_char=142|end_char=143
+
+# text = Маленький размер идеально подходит для того, чтобы удовлетворить тягу к шоколаду без чувства вины.
+# sent_id = 3
+1	Маленький	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=144|end_char=153
+2	размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=154|end_char=160
+3	идеально	идеально	ADV	_	Degree=Pos	4	advmod	_	start_char=161|end_char=169
+4	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=170|end_char=178
+5	для	для	ADP	_	_	6	case	_	start_char=179|end_char=182
+6	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	start_char=183|end_char=187
+7	,	,	PUNCT	_	_	9	punct	_	start_char=187|end_char=188
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	start_char=189|end_char=194
+9	удовлетворить	удовлетворить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=195|end_char=208
+10	тягу	тяга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=209|end_char=213
+11	к	к	ADP	_	_	12	case	_	start_char=214|end_char=215
+12	шоколаду	шоколад	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	start_char=216|end_char=224
+13	без	без	ADP	_	_	14	case	_	start_char=225|end_char=228
+14	чувства	чувство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	start_char=229|end_char=236
+15	вины	вина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=237|end_char=241
+16	.	.	PUNCT	_	_	4	punct	_	start_char=241|end_char=242
+
+# text = На прошлой неделе я была в Лос-Анджелесе и по прихоти купила пакетик в японском магазине в Маленьком Токио.
+# sent_id = 4
+1	На	на	ADP	_	_	3	case	_	start_char=243|end_char=245
+2	прошлой	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=246|end_char=253
+3	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	start_char=254|end_char=260
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=261|end_char=262
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=263|end_char=267
+6	в	в	ADP	_	_	7	case	_	start_char=268|end_char=269
+7	Лос-Анджелесе	Лос-Анджелес	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=270|end_char=283
+8	и	и	CCONJ	_	_	11	cc	_	start_char=284|end_char=285
+9	по	по	ADP	_	_	10	case	_	start_char=286|end_char=288
+10	прихоти	прихоть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	11	obl	_	start_char=289|end_char=296
+11	купила	купить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=297|end_char=303
+12	пакетик	пакетик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=304|end_char=311
+13	в	в	ADP	_	_	15	case	_	start_char=312|end_char=313
+14	японском	японский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=314|end_char=322
+15	магазине	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=323|end_char=331
+16	в	в	ADP	_	_	18	case	_	start_char=332|end_char=333
+17	Маленьком	маленький	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=334|end_char=343
+18	Токио	Токио	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	start_char=344|end_char=349
+19	.	.	PUNCT	_	_	7	punct	_	start_char=349|end_char=350
+
+# text = Теперь, вернувшись в WI, жалею, что не взял еще горсть.
+# sent_id = 5
+1	Теперь	теперь	ADV	_	Degree=Pos	7	advmod	_	start_char=351|end_char=357
+2	,	,	PUNCT	_	_	1	punct	_	start_char=357|end_char=358
+3	вернувшись	вернуться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	7	advcl	_	start_char=359|end_char=369
+4	в	в	ADP	_	_	3	case	_	start_char=370|end_char=371
+5	WI	WI	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=372|end_char=374
+6	,	,	PUNCT	_	_	3	punct	_	start_char=374|end_char=375
+7	жалею	жалеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=376|end_char=381
+8	,	,	PUNCT	_	_	11	punct	_	start_char=381|end_char=382
+9	что	что	SCONJ	_	_	11	mark	_	start_char=383|end_char=386
+10	не	не	PART	_	_	11	advmod	_	start_char=387|end_char=389
+11	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=390|end_char=394
+12	еще	еще	ADV	_	Degree=Pos	13	obl	_	start_char=395|end_char=398
+13	горсть	горсть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=399|end_char=405
+14	.	.	PUNCT	_	_	7	punct	_	start_char=405|end_char=406
+
+# text = Мало того, что эти Киткэты были восхитительны, так еще и стоили всего 5 долларов за пакетик!
+# sent_id = 6
+1	Мало	мало	ADV	_	Degree=Pos	13	nsubj	_	start_char=407|end_char=411
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	start_char=412|end_char=416
+3	,	,	PUNCT	_	_	8	punct	_	start_char=416|end_char=417
+4	что	что	SCONJ	_	_	8	mark	_	start_char=418|end_char=421
+5	эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	6	det	_	start_char=422|end_char=425
+6	Киткэты	Киткэт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=426|end_char=433
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=434|end_char=438
+8	восхитительны	восхитительный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	acl	_	start_char=439|end_char=452
+9	,	,	PUNCT	_	_	8	punct	_	start_char=452|end_char=453
+10	так	так	ADV	_	Degree=Pos	13	advmod	_	start_char=454|end_char=457
+11	еще	еще	ADV	_	Degree=Pos	13	advmod	_	start_char=458|end_char=461
+12	и	и	PART	_	_	13	advmod	_	start_char=462|end_char=463
+13	стоили	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=464|end_char=470
+14	всего	всего	PART	_	_	15	advmod	_	start_char=471|end_char=476
+15	5	5	NUM	_	NumType=Card	16	nummod	_	start_char=477|end_char=478
+16	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	start_char=479|end_char=487
+17	за	за	ADP	_	_	18	case	_	start_char=488|end_char=490
+18	пакетик	пакетик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	start_char=491|end_char=498
+19	!	!	PUNCT	_	_	13	punct	_	start_char=498|end_char=499
+
+# text = Переведено с помощью www.DeepL.com/Translator (бесплатная версия)
+# sent_id = 7
+1	Переведено	перевести	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=501|end_char=511
+2	с	с	ADP	_	_	4	case	_	start_char=512|end_char=513
+3	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	fixed	_	start_char=514|end_char=521
+4	www.DeepL.com/Translator	www.DeepL.co/Trannannanr	PROPN	_	Foreign=Yes	1	obl	_	start_char=522|end_char=546
+5	(	(	PUNCT	_	_	7	punct	_	start_char=547|end_char=548
+6	бесплатная	бесплатный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=548|end_char=558
+7	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	start_char=559|end_char=565
+8	)	)	PUNCT	_	_	7	punct	_	start_char=565|end_char=566
+

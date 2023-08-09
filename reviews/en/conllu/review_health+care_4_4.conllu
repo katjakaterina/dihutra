@@ -1,61 +1,69 @@
+# text = great addition to your purse Love the Great point light pocket magnifier!
+# sent_id = 0
+# sentiment = 2
 1	great	great	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=5
-2	addition	addition	NOUN	NN	Number=Sing	0	root	_	start_char=6|end_char=14
+2	addition	addition	NOUN	NN	Number=Sing	6	nsubj	_	start_char=6|end_char=14
 3	to	to	ADP	IN	_	5	case	_	start_char=15|end_char=17
-4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=18|end_char=22
+4	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=18|end_char=22
 5	purse	purse	NOUN	NN	Number=Sing	2	nmod	_	start_char=23|end_char=28
-6	Love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=29|end_char=33
+6	Love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=29|end_char=33
 7	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=34|end_char=37
 8	Great	great	ADJ	JJ	Degree=Pos	12	amod	_	start_char=38|end_char=43
 9	point	point	NOUN	NN	Number=Sing	12	compound	_	start_char=44|end_char=49
-10	light	light	NOUN	NN	Number=Sing	12	compound	_	start_char=50|end_char=55
+10	light	light	NOUN	NN	Number=Sing	11	compound	_	start_char=50|end_char=55
 11	pocket	pocket	NOUN	NN	Number=Sing	12	compound	_	start_char=56|end_char=62
 12	magnifier	magnifier	NOUN	NN	Number=Sing	6	obj	_	start_char=63|end_char=72
-13	!	!	PUNCT	.	_	2	punct	_	start_char=72|end_char=73
+13	!	!	PUNCT	.	_	6	punct	_	start_char=72|end_char=73
 
+# text = works great, especially if you forget your glasses and can't read the menu when you are out for dinner.... the light is a bonus in a dark restaurant, too.
+# sent_id = 1
+# sentiment = 2
 1	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=74|end_char=79
 2	great	great	ADJ	JJ	Degree=Pos	1	xcomp	_	start_char=80|end_char=85
 3	,	,	PUNCT	,	_	1	punct	_	start_char=85|end_char=86
 4	especially	especially	ADV	RB	_	7	advmod	_	start_char=87|end_char=97
 5	if	if	SCONJ	IN	_	7	mark	_	start_char=98|end_char=100
 6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	start_char=101|end_char=104
-7	forget	forget	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=105|end_char=111
-8	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=112|end_char=116
+7	forget	forget	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=105|end_char=111
+8	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=112|end_char=116
 9	glasses	glasses	NOUN	NNS	Number=Plur	7	obj	_	start_char=117|end_char=124
-10	and	and	CCONJ	CC	_	13	cc	_	start_char=125|end_char=128
-11	ca	can	AUX	MD	VerbForm=Fin	13	aux	_	start_char=129|end_char=131
-12	n't	not	PART	RB	_	13	advmod	_	start_char=131|end_char=134
-13	read	read	VERB	VB	VerbForm=Inf	7	conj	_	start_char=135|end_char=139
-14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=140|end_char=143
-15	menu	menu	NOUN	NN	Number=Sing	13	obj	_	start_char=144|end_char=148
-16	when	when	SCONJ	WRB	PronType=Int	21	mark	_	start_char=149|end_char=153
-17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	start_char=154|end_char=157
-18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=158|end_char=161
-19	out	out	ADP	IN	_	21	case	_	start_char=162|end_char=165
-20	for	for	ADP	IN	_	21	case	_	start_char=166|end_char=169
-21	dinner	dinner	NOUN	NN	Number=Sing	13	advcl	_	start_char=170|end_char=176
-22	....	....	PUNCT	,	_	1	punct	_	start_char=176|end_char=180
-23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=181|end_char=184
-24	light	light	NOUN	NN	Number=Sing	27	nsubj	_	start_char=185|end_char=190
-25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	start_char=191|end_char=193
-26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=194|end_char=195
-27	bonus	bonus	NOUN	NN	Number=Sing	1	parataxis	_	start_char=196|end_char=201
-28	in	in	ADP	IN	_	31	case	_	start_char=202|end_char=204
-29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	start_char=205|end_char=206
-30	dark	dark	ADJ	JJ	Degree=Pos	31	amod	_	start_char=207|end_char=211
-31	restaurant	restaurant	NOUN	NN	Number=Sing	27	nmod	_	start_char=212|end_char=222
-32	,	,	PUNCT	,	_	27	punct	_	start_char=222|end_char=223
-33	too	too	ADV	RB	_	27	advmod	_	start_char=224|end_char=227
-34	.	.	PUNCT	.	_	1	punct	_	start_char=227|end_char=228
+10	and	and	CCONJ	CC	_	11	cc	_	start_char=125|end_char=128
+11	can't	can't	NOUN	NN	Number=Sing	9	conj	_	start_char=129|end_char=134
+12	read	read	VERB	VB	VerbForm=Inf	7	conj	_	start_char=135|end_char=139
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=140|end_char=143
+14	menu	menu	NOUN	NN	Number=Sing	12	obj	_	start_char=144|end_char=148
+15	when	when	ADV	WRB	PronType=Int	18	advmod	_	start_char=149|end_char=153
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	start_char=154|end_char=157
+17	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=158|end_char=161
+18	out	out	ADV	RB	_	12	advcl	_	start_char=162|end_char=165
+19	for	for	ADP	IN	_	20	case	_	start_char=166|end_char=169
+20	dinner	dinner	NOUN	NN	Number=Sing	18	obl	_	start_char=170|end_char=176
+21	....	....	PUNCT	,	_	1	punct	_	start_char=176|end_char=180
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=181|end_char=184
+23	light	light	NOUN	NN	Number=Sing	26	nsubj	_	start_char=185|end_char=190
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	start_char=191|end_char=193
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=194|end_char=195
+26	bonus	bonus	NOUN	NN	Number=Sing	1	parataxis	_	start_char=196|end_char=201
+27	in	in	ADP	IN	_	30	case	_	start_char=202|end_char=204
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=205|end_char=206
+29	dark	dark	ADJ	JJ	Degree=Pos	30	amod	_	start_char=207|end_char=211
+30	restaurant	restaurant	NOUN	NN	Number=Sing	26	nmod	_	start_char=212|end_char=222
+31	,	,	PUNCT	,	_	26	punct	_	start_char=222|end_char=223
+32	too	too	ADV	RB	_	26	advmod	_	start_char=224|end_char=227
+33	.	.	PUNCT	.	_	1	punct	_	start_char=227|end_char=228
 
+# text = I would have given 5 stars if it came with a case that covers the glass.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=229|end_char=230
 2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	start_char=231|end_char=236
 3	have	have	AUX	VB	VerbForm=Inf	4	aux	_	start_char=237|end_char=241
 4	given	give	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=242|end_char=247
-5	5	5	NUM	CD	NumType=Card	6	nummod	_	start_char=248|end_char=249
+5	5	5	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=248|end_char=249
 6	stars	star	NOUN	NNS	Number=Plur	4	obj	_	start_char=250|end_char=255
 7	if	if	SCONJ	IN	_	9	mark	_	start_char=256|end_char=258
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=259|end_char=261
-9	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=262|end_char=266
+9	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=262|end_char=266
 10	with	with	ADP	IN	_	12	case	_	start_char=267|end_char=271
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=272|end_char=273
 12	case	case	NOUN	NN	Number=Sing	9	obl	_	start_char=274|end_char=278
@@ -65,13 +73,16 @@
 16	glass	glass	NOUN	NN	Number=Sing	14	obj	_	start_char=295|end_char=300
 17	.	.	PUNCT	.	_	4	punct	_	start_char=300|end_char=301
 
+# text = The clear plastic case it comes in is a little tacky and I'd be willing to pay a little more for a nice case to protec the lens.
+# sent_id = 3
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=302|end_char=305
 2	clear	clear	ADJ	JJ	Degree=Pos	4	amod	_	start_char=306|end_char=311
 3	plastic	plastic	ADJ	JJ	Degree=Pos	4	amod	_	start_char=312|end_char=319
 4	case	case	NOUN	NN	Number=Sing	11	nsubj	_	start_char=320|end_char=324
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=325|end_char=327
 6	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=328|end_char=333
-7	in	in	ADP	IN	_	6	obl	_	start_char=334|end_char=336
+7	in	in	ADV	RB	_	6	advmod	_	start_char=334|end_char=336
 8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=337|end_char=339
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=340|end_char=341
 10	little	little	ADJ	JJ	Degree=Pos	11	obl:npmod	_	start_char=342|end_char=348

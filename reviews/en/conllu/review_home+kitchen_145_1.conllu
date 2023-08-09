@@ -1,19 +1,31 @@
+# text = Different book.
+# sent_id = 0
+# sentiment = 1
 1	Different	different	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=9
 2	book	book	NOUN	NN	Number=Sing	0	root	_	start_char=10|end_char=14
 3	.	.	PUNCT	.	_	2	punct	_	start_char=14|end_char=15
 
+# text = Not the expected original.
+# sent_id = 1
+# sentiment = 1
 1	Not	not	PART	RB	_	4	advmod	_	start_char=16|end_char=19
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=20|end_char=23
 3	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	start_char=24|end_char=32
 4	original	original	NOUN	NN	Number=Sing	0	root	_	start_char=33|end_char=41
 5	.	.	PUNCT	.	_	4	punct	_	start_char=41|end_char=42
 
-1	Parts	part	NOUN	NNS	Number=Plur	0	root	_	start_char=43|end_char=48
-2	missing	miss	VERB	VBG	VerbForm=Ger	1	acl	_	start_char=49|end_char=56
-3	.	.	PUNCT	.	_	1	punct	_	start_char=56|end_char=57
+# text = Parts missing.
+# sent_id = 2
+# sentiment = 1
+1	Parts	part	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=43|end_char=48
+2	missing	miss	VERB	VBG	VerbForm=Ger	0	root	_	start_char=49|end_char=56
+3	.	.	PUNCT	.	_	2	punct	_	start_char=56|end_char=57
 
+# text = I expected the "good night sweet butterflies" book that I had in a largerformat.
+# sent_id = 3
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=58|end_char=59
-2	expected	expect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=60|end_char=68
+2	expected	expect	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=60|end_char=68
 3	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=69|end_char=72
 4	"	"	PUNCT	``	_	8	punct	_	start_char=73|end_char=74
 5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	start_char=74|end_char=78
@@ -24,21 +36,24 @@
 10	book	book	NOUN	NN	Number=Sing	2	obj	_	start_char=104|end_char=108
 11	that	that	PRON	WDT	PronType=Rel	13	obj	_	start_char=109|end_char=113
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=114|end_char=115
-13	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	start_char=116|end_char=119
+13	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	acl:relcl	_	start_char=116|end_char=119
 14	in	in	ADP	IN	_	16	case	_	start_char=120|end_char=122
 15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=123|end_char=124
 16	largerformat	largerformat	NOUN	NN	Number=Sing	13	obl	_	start_char=125|end_char=137
 17	.	.	PUNCT	.	_	2	punct	_	start_char=137|end_char=138
 
+# text = Because the book is small, some pages have been cut off, and the text is completely different and much worse than the text of the large book.
+# sent_id = 4
+# sentiment = 0
 1	Because	because	SCONJ	IN	_	5	mark	_	start_char=139|end_char=146
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=147|end_char=150
 3	book	book	NOUN	NN	Number=Sing	5	nsubj	_	start_char=151|end_char=155
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=156|end_char=158
 5	small	small	ADJ	JJ	Degree=Pos	11	advcl	_	start_char=159|end_char=164
-6	,	,	PUNCT	,	_	11	punct	_	start_char=164|end_char=165
+6	,	,	PUNCT	,	_	5	punct	_	start_char=164|end_char=165
 7	some	some	DET	DT	_	8	det	_	start_char=166|end_char=170
 8	pages	page	NOUN	NNS	Number=Plur	11	nsubj:pass	_	start_char=171|end_char=176
-9	have	have	AUX	VBP	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=177|end_char=181
+9	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=177|end_char=181
 10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux:pass	_	start_char=182|end_char=186
 11	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=187|end_char=190
 12	off	off	ADP	RP	_	11	compound:prt	_	start_char=191|end_char=194
@@ -47,10 +62,10 @@
 15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=200|end_char=203
 16	text	text	NOUN	NN	Number=Sing	19	nsubj	_	start_char=204|end_char=208
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=209|end_char=211
-18	completely	completely	ADV	RB	Degree=Pos	19	advmod	_	start_char=212|end_char=222
+18	completely	completely	ADV	RB	_	19	advmod	_	start_char=212|end_char=222
 19	different	different	ADJ	JJ	Degree=Pos	11	conj	_	start_char=223|end_char=232
 20	and	and	CCONJ	CC	_	22	cc	_	start_char=233|end_char=236
-21	much	much	ADV	RB	Degree=Pos	22	advmod	_	start_char=237|end_char=241
+21	much	much	ADV	RB	_	22	advmod	_	start_char=237|end_char=241
 22	worse	bad	ADJ	JJR	Degree=Cmp	19	conj	_	start_char=242|end_char=247
 23	than	than	ADP	IN	_	25	case	_	start_char=248|end_char=252
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=253|end_char=256
@@ -61,6 +76,9 @@
 29	book	book	NOUN	NN	Number=Sing	25	nmod	_	start_char=275|end_char=279
 30	.	.	PUNCT	.	_	11	punct	_	start_char=279|end_char=280
 
+# text = I am very disappointed with this purchase.
+# sent_id = 5
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=280|end_char=281
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=282|end_char=284
 3	very	very	ADV	RB	_	4	advmod	_	start_char=285|end_char=289

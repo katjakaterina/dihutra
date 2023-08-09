@@ -1,0 +1,65 @@
+# text = Теперь мне не нужно взрослеть.
+# sent_id = 0
+1	Теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	start_char=0|end_char=6
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	start_char=7|end_char=10
+3	не	не	PART	_	_	4	advmod	_	start_char=11|end_char=13
+4	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=14|end_char=19
+5	взрослеть	взрослеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=20|end_char=29
+6	.	.	PUNCT	_	_	4	punct	_	start_char=29|end_char=30
+
+# text = Я могу раскрашивать вместе со своими внуками, не чувствуя себя интеллектуально ущербной при работе над проектом.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=31|end_char=32
+2	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=33|end_char=37
+3	раскрашивать	раскрашивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=38|end_char=50
+4	вместе	вместе	ADV	_	Degree=Pos	3	advmod	_	start_char=51|end_char=57
+5	со	с	ADP	_	_	7	case	_	start_char=58|end_char=60
+6	своими	свой	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	start_char=61|end_char=67
+7	внуками	внук	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	start_char=68|end_char=75
+8	,	,	PUNCT	_	_	10	punct	_	start_char=75|end_char=76
+9	не	не	PART	_	_	10	advmod	_	start_char=77|end_char=79
+10	чувствуя	чувствовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	start_char=80|end_char=88
+11	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	start_char=89|end_char=93
+12	интеллектуально	интеллектуально	ADV	_	Degree=Pos	13	obl	_	start_char=94|end_char=109
+13	ущербной	ущербный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	obl	_	start_char=110|end_char=118
+14	при	при	ADP	_	_	15	case	_	start_char=119|end_char=122
+15	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	start_char=123|end_char=129
+16	над	над	ADP	_	_	17	case	_	start_char=130|end_char=133
+17	проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	start_char=134|end_char=142
+18	.	.	PUNCT	_	_	2	punct	_	start_char=142|end_char=143
+
+# text = Эта книга настолько удивительна, что некоторые из рисунков я использовала для создания витражей.
+# sent_id = 2
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=144|end_char=147
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=148|end_char=153
+3	настолько	настолько	ADV	_	Degree=Pos	4	obl	_	start_char=154|end_char=163
+4	удивительна	удивительный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=164|end_char=175
+5	,	,	PUNCT	_	_	11	punct	_	start_char=175|end_char=176
+6	что	что	SCONJ	_	_	11	mark	_	start_char=177|end_char=180
+7	некоторые	некоторый	DET	_	Case=Acc|Number=Plur|PronType=Ind	11	obj	_	start_char=181|end_char=190
+8	из	из	ADP	_	_	9	case	_	start_char=191|end_char=193
+9	рисунков	рисунок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=194|end_char=202
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=203|end_char=204
+11	использовала	использовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=205|end_char=217
+12	для	для	ADP	_	_	13	case	_	start_char=218|end_char=221
+13	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	start_char=222|end_char=230
+14	витражей	витраж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=231|end_char=239
+15	.	.	PUNCT	_	_	4	punct	_	start_char=239|end_char=240
+
+# text = Я очень рекомендую ее всем, кто не хочет расставаться с любимым занятием.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=241|end_char=242
+2	очень	очень	ADV	_	Degree=Pos	3	advmod	_	start_char=243|end_char=248
+3	рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=249|end_char=259
+4	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=260|end_char=262
+5	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur|PronType=Tot	3	iobj	_	start_char=263|end_char=267
+6	,	,	PUNCT	_	_	9	punct	_	start_char=267|end_char=268
+7	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	9	nsubj	_	start_char=269|end_char=272
+8	не	не	PART	_	_	9	advmod	_	start_char=273|end_char=275
+9	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=276|end_char=281
+10	расставаться	расставаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	start_char=282|end_char=294
+11	с	с	ADP	_	_	13	case	_	start_char=295|end_char=296
+12	любимым	любимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=297|end_char=304
+13	занятием	занятие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	obl	_	start_char=305|end_char=313
+14	.	.	PUNCT	_	_	3	punct	_	start_char=313|end_char=314
+

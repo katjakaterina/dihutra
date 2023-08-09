@@ -1,0 +1,99 @@
+# text = То, что я искал Эта лупа - именно то, что я искал.
+# sent_id = 0
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=0|end_char=2
+2	,	,	PUNCT	_	_	5	punct	_	start_char=2|end_char=3
+3	что	что	PRON	_	Case=Acc|PronType=Int,Rel	5	obj	_	start_char=4|end_char=7
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=8|end_char=9
+5	искал	искать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	start_char=10|end_char=15
+6	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=16|end_char=19
+7	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=20|end_char=24
+8	-	-	PUNCT	_	_	1	punct	_	start_char=25|end_char=26
+9	именно	именно	PART	_	_	10	advmod	_	start_char=27|end_char=33
+10	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=34|end_char=36
+11	,	,	PUNCT	_	_	14	punct	_	start_char=36|end_char=37
+12	что	что	PRON	_	Case=Acc|PronType=Int,Rel	14	obj	_	start_char=38|end_char=41
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=42|end_char=43
+14	искал	искать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	start_char=44|end_char=49
+15	.	.	PUNCT	_	_	10	punct	_	start_char=49|end_char=50
+
+# text = Она маленькая и ее легко держать в руках.
+# sent_id = 1
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=51|end_char=54
+2	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=55|end_char=64
+3	и	и	CCONJ	_	_	5	cc	_	start_char=65|end_char=66
+4	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=67|end_char=69
+5	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	start_char=70|end_char=75
+6	держать	держать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	csubj	_	start_char=76|end_char=83
+7	в	в	ADP	_	_	8	case	_	start_char=84|end_char=85
+8	руках	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	6	obl	_	start_char=86|end_char=91
+9	.	.	PUNCT	_	_	2	punct	_	start_char=91|end_char=92
+
+# text = Мне нужно было что-то для чтения мелких цифр/символов на электронных устройствах, таких как компьютеры, электроника и т.д.
+# sent_id = 2
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=93|end_char=96
+2	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=97|end_char=102
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	start_char=103|end_char=107
+4	что-то	что-то	PRON	_	Case=Nom|PronType=Ind	2	nsubj	_	start_char=108|end_char=114
+5	для	для	ADP	_	_	6	case	_	start_char=115|end_char=118
+6	чтения	чтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=119|end_char=125
+7	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=126|end_char=132
+8	цифр/символов	цифр/символ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=133|end_char=146
+9	на	на	ADP	_	_	11	case	_	start_char=147|end_char=149
+10	электронных	электронный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	start_char=150|end_char=161
+11	устройствах	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	start_char=162|end_char=173
+12	,	,	PUNCT	_	_	13	punct	_	start_char=173|end_char=174
+13	таких	такой	DET	_	Case=Loc|Number=Plur|PronType=Dem	11	det	_	start_char=175|end_char=180
+14	как	как	SCONJ	_	_	15	mark	_	start_char=181|end_char=184
+15	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	obl	_	start_char=185|end_char=195
+16	,	,	PUNCT	_	_	17	punct	_	start_char=195|end_char=196
+17	электроника	электроника	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	conj	_	start_char=197|end_char=208
+18	и	и	CCONJ	_	_	19	cc	_	start_char=209|end_char=210
+19	т.	так	ADV	_	Degree=Pos	15	conj	_	start_char=211|end_char=213
+20	д	далее	ADV	_	Degree=Pos	19	fixed	_	start_char=213|end_char=214
+21	.	.	PUNCT	_	_	2	punct	_	start_char=214|end_char=215
+
+# text = Я также работаю с внутренностями компьютеров, и эта лупа отлично подходит для просмотра мелких деталей.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=216|end_char=217
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=218|end_char=223
+3	работаю	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=224|end_char=231
+4	с	с	ADP	_	_	5	case	_	start_char=232|end_char=233
+5	внутренностями	внутренность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	start_char=234|end_char=248
+6	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=249|end_char=260
+7	,	,	PUNCT	_	_	12	punct	_	start_char=260|end_char=261
+8	и	и	CCONJ	_	_	12	cc	_	start_char=262|end_char=263
+9	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=264|end_char=267
+10	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=268|end_char=272
+11	отлично	отлично	ADV	_	Degree=Pos	12	advmod	_	start_char=273|end_char=280
+12	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=281|end_char=289
+13	для	для	ADP	_	_	14	case	_	start_char=290|end_char=293
+14	просмотра	просмотр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	start_char=294|end_char=303
+15	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	start_char=304|end_char=310
+16	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	start_char=311|end_char=318
+17	.	.	PUNCT	_	_	3	punct	_	start_char=318|end_char=319
+
+# text = Я не хочу увеличивать книги или журналы.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=320|end_char=321
+2	не	не	PART	_	_	3	advmod	_	start_char=322|end_char=324
+3	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=325|end_char=329
+4	увеличивать	увеличивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=330|end_char=341
+5	книги	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=342|end_char=347
+6	или	или	CCONJ	_	_	7	cc	_	start_char=348|end_char=351
+7	журналы	журнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	conj	_	start_char=352|end_char=359
+8	.	.	PUNCT	_	_	3	punct	_	start_char=359|end_char=360
+
+# text = Подсветка работает хорошо и делает чтение мелких деталей очень легким.
+# sent_id = 5
+1	Подсветка	подсветка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=361|end_char=370
+2	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=371|end_char=379
+3	хорошо	хорошо	ADV	_	Degree=Pos	2	advmod	_	start_char=380|end_char=386
+4	и	и	CCONJ	_	_	5	cc	_	start_char=387|end_char=388
+5	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=389|end_char=395
+6	чтение	чтение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=396|end_char=402
+7	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=403|end_char=409
+8	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=410|end_char=417
+9	очень	очень	ADV	_	Degree=Pos	10	obl	_	start_char=418|end_char=423
+10	легким	легкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	obl	_	start_char=424|end_char=430
+11	.	.	PUNCT	_	_	2	punct	_	start_char=430|end_char=431
+

@@ -1,0 +1,78 @@
+# text = Работает отлично У меня несколько зарядных устройств.
+# sent_id = 0
+1	Работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	отлично	отлично	ADV	_	Degree=Pos	1	advmod	_	start_char=9|end_char=16
+3	У	у	ADP	_	_	4	case	_	start_char=17|end_char=18
+4	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obl	_	start_char=19|end_char=23
+5	несколько	несколько	NUM	_	Case=Nom|NumType=Card	7	nummod:gov	_	start_char=24|end_char=33
+6	зарядных	зарядный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=34|end_char=42
+7	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nsubj	_	start_char=43|end_char=52
+8	.	.	PUNCT	_	_	1	punct	_	start_char=52|end_char=53
+
+# text = У меня несколько автомобилей, поэтому я держу несколько таких устройств в каждом.
+# sent_id = 1
+1	У	у	ADP	_	_	2	case	_	start_char=54|end_char=55
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=56|end_char=60
+3	несколько	несколько	NUM	_	Case=Nom|NumType=Card	4	nummod:gov	_	start_char=61|end_char=70
+4	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	start_char=71|end_char=82
+5	,	,	PUNCT	_	_	8	punct	_	start_char=82|end_char=83
+6	поэтому	поэтому	ADV	_	Degree=Pos	8	advmod	_	start_char=84|end_char=91
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=92|end_char=93
+8	держу	держать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=94|end_char=99
+9	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	11	nummod	_	start_char=100|end_char=109
+10	таких	такой	DET	_	Case=Gen|Number=Plur|PronType=Dem	11	det	_	start_char=110|end_char=115
+11	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	start_char=116|end_char=125
+12	в	в	ADP	_	_	13	case	_	start_char=126|end_char=127
+13	каждом	каждый	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	11	det	_	start_char=128|end_char=134
+14	.	.	PUNCT	_	_	2	punct	_	start_char=134|end_char=135
+
+# text = Нет ничего более неприятного, чем внезапно обнаружить, что одно из них перестало работать, и у вас нет возможности подзарядить телефон.
+# sent_id = 2
+1	Нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=136|end_char=139
+2	ничего	ничто	PRON	_	Case=Gen|PronType=Neg	1	nsubj	_	start_char=140|end_char=146
+3	более	более	ADV	_	Degree=Cmp	4	obl	_	start_char=147|end_char=152
+4	неприятного	неприятный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=153|end_char=164
+5	,	,	PUNCT	_	_	8	punct	_	start_char=164|end_char=165
+6	чем	чем	SCONJ	_	_	8	mark	_	start_char=166|end_char=169
+7	внезапно	внезапно	ADV	_	Degree=Pos	8	advmod	_	start_char=170|end_char=178
+8	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=179|end_char=189
+9	,	,	PUNCT	_	_	14	punct	_	start_char=189|end_char=190
+10	что	что	SCONJ	_	_	14	mark	_	start_char=191|end_char=194
+11	одно	один	NUM	_	Case=Nom|Gender=Neut|NumType=Card	14	nsubj	_	start_char=195|end_char=199
+12	из	из	ADP	_	_	13	case	_	start_char=200|end_char=202
+13	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	11	nmod	_	start_char=203|end_char=206
+14	перестало	перестать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=207|end_char=216
+15	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=217|end_char=225
+16	,	,	PUNCT	_	_	20	punct	_	start_char=225|end_char=226
+17	и	и	CCONJ	_	_	20	cc	_	start_char=227|end_char=228
+18	у	у	ADP	_	_	19	case	_	start_char=229|end_char=230
+19	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	20	obl	_	start_char=231|end_char=234
+20	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	start_char=235|end_char=238
+21	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nsubj	_	start_char=239|end_char=250
+22	подзарядить	подзарядить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	obl	_	start_char=251|end_char=262
+23	телефон	телефон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	start_char=263|end_char=270
+24	.	.	PUNCT	_	_	1	punct	_	start_char=270|end_char=271
+
+# text = Это всегда происходит в самый нужный момент.
+# sent_id = 3
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=272|end_char=275
+2	всегда	всегда	ADV	_	Degree=Pos	3	advmod	_	start_char=276|end_char=282
+3	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=283|end_char=293
+4	в	в	ADP	_	_	7	case	_	start_char=294|end_char=295
+5	самый	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=296|end_char=301
+6	нужный	нужный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=302|end_char=308
+7	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=309|end_char=315
+8	.	.	PUNCT	_	_	3	punct	_	start_char=315|end_char=316
+
+# text = Это устройство отлично подходит для всех моих продуктов.
+# sent_id = 4
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=317|end_char=320
+2	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=321|end_char=331
+3	отлично	отлично	ADV	_	Degree=Pos	4	advmod	_	start_char=332|end_char=339
+4	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=340|end_char=348
+5	для	для	ADP	_	_	8	case	_	start_char=349|end_char=352
+6	всех	весь	DET	_	Case=Gen|Number=Plur|PronType=Tot	8	det	_	start_char=353|end_char=357
+7	моих	мой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	8	det	_	start_char=358|end_char=362
+8	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=363|end_char=372
+9	.	.	PUNCT	_	_	4	punct	_	start_char=372|end_char=373
+

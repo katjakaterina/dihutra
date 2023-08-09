@@ -1,12 +1,18 @@
-1	Very	very	ADV	RB	_	2	advmod	_	start_char=0|end_char=4
+# text = Very Cheaply made product.
+# sent_id = 0
+# sentiment = 2
+1	Very	very	ADV	RB	_	3	advmod	_	start_char=0|end_char=4
 2	Cheaply	cheaply	ADV	RB	_	3	advmod	_	start_char=5|end_char=12
 3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	start_char=13|end_char=17
 4	product	product	NOUN	NN	Number=Sing	0	root	_	start_char=18|end_char=25
 5	.	.	PUNCT	.	_	4	punct	_	start_char=25|end_char=26
 
+# text = As I write this review this product is coming apart,most of the workmanship was glue together and taped with doublesided tape which is not sticking and this item has not even been used yet.
+# sent_id = 1
+# sentiment = 0
 1	As	as	SCONJ	IN	_	3	mark	_	start_char=27|end_char=29
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=30|end_char=31
-3	write	write	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=32|end_char=37
+3	write	write	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=32|end_char=37
 4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=38|end_char=42
 5	review	review	NOUN	NN	Number=Sing	3	obj	_	start_char=43|end_char=49
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	start_char=50|end_char=54
@@ -19,8 +25,8 @@
 13	of	of	ADP	IN	_	15	case	_	start_char=84|end_char=86
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=87|end_char=90
 15	workmanship	workmanship	NOUN	NN	Number=Sing	12	nmod	_	start_char=91|end_char=102
-16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	start_char=103|end_char=106
-17	glue	glue	VERB	VB	VerbForm=Inf	9	conj	_	start_char=107|end_char=111
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	cop	_	start_char=103|end_char=106
+17	glue	glue	NOUN	NN	Number=Sing	9	parataxis	_	start_char=107|end_char=111
 18	together	together	ADV	RB	_	17	advmod	_	start_char=112|end_char=120
 19	and	and	CCONJ	CC	_	20	cc	_	start_char=121|end_char=124
 20	taped	tape	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	start_char=125|end_char=130
@@ -38,12 +44,15 @@
 32	not	not	PART	RB	_	35	advmod	_	start_char=193|end_char=196
 33	even	even	ADV	RB	_	35	advmod	_	start_char=197|end_char=201
 34	been	be	AUX	VBN	Tense=Past|VerbForm=Part	35	aux:pass	_	start_char=202|end_char=206
-35	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	conj	_	start_char=207|end_char=211
+35	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	start_char=207|end_char=211
 36	yet	yet	ADV	RB	_	35	advmod	_	start_char=212|end_char=215
 37	.	.	PUNCT	.	_	9	punct	_	start_char=215|end_char=216
 
+# text = I have not even had the oppurtunity to use this product to to countining to make repairs.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=217|end_char=218
-2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=219|end_char=223
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=219|end_char=223
 3	not	not	PART	RB	_	5	advmod	_	start_char=224|end_char=227
 4	even	even	ADV	RB	_	5	advmod	_	start_char=228|end_char=232
 5	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=233|end_char=236
@@ -53,14 +62,17 @@
 9	use	use	VERB	VB	VerbForm=Inf	7	acl	_	start_char=256|end_char=259
 10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=260|end_char=264
 11	product	product	NOUN	NN	Number=Sing	9	obj	_	start_char=265|end_char=272
-12	to	to	ADP	IN	_	14	mark	_	start_char=273|end_char=275
+12	to	to	ADP	IN	_	9	obl	_	start_char=273|end_char=275
 13	to	to	SCONJ	IN	_	14	mark	_	start_char=276|end_char=278
 14	countining	countine	VERB	VBG	VerbForm=Ger	9	advcl	_	start_char=279|end_char=289
 15	to	to	PART	TO	_	16	mark	_	start_char=290|end_char=292
-16	make	make	VERB	VB	VerbForm=Inf	14	xcomp	_	start_char=293|end_char=297
+16	make	make	VERB	VB	VerbForm=Inf	9	advcl	_	start_char=293|end_char=297
 17	repairs	repair	NOUN	NNS	Number=Plur	16	obj	_	start_char=298|end_char=305
 18	.	.	PUNCT	.	_	5	punct	_	start_char=305|end_char=306
 
+# text = Very unsatisfied with this item.
+# sent_id = 3
+# sentiment = 0
 1	Very	very	ADV	RB	_	2	advmod	_	start_char=306|end_char=310
 2	unsatisfied	unsatisfied	ADJ	JJ	Degree=Pos	0	root	_	start_char=311|end_char=322
 3	with	with	ADP	IN	_	5	case	_	start_char=323|end_char=327

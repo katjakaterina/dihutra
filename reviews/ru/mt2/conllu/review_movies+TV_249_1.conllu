@@ -1,0 +1,84 @@
+# text = Худший рождественский спецвыпуск за всю историю!
+# sent_id = 0
+1	Худший	худший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=6
+2	рождественский	рождественский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=7|end_char=21
+3	спецвыпуск	спецвыпуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=32
+4	за	за	ADP	_	_	6	case	_	start_char=33|end_char=35
+5	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	6	det	_	start_char=36|end_char=39
+6	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=40|end_char=47
+7	!	!	PUNCT	_	_	3	punct	_	start_char=47|end_char=48
+
+# text = Это такой отстой!
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=49|end_char=52
+2	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=53|end_char=58
+3	отстой	отста	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=59|end_char=65
+4	!	!	PUNCT	_	_	3	punct	_	start_char=65|end_char=66
+
+# text = Песни просто ужасны!
+# sent_id = 2
+1	Песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=67|end_char=72
+2	просто	просто	PART	_	_	3	advmod	_	start_char=73|end_char=79
+3	ужасны	ужасный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=80|end_char=86
+4	!	!	PUNCT	_	_	3	punct	_	start_char=86|end_char=87
+
+# text = Злодей похож на мистера Бернса из "Симпсонов", а дети выглядят так, будто их одолжили из шоу Чарли Брауна.
+# sent_id = 3
+1	Злодей	злодей	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=88|end_char=94
+2	похож	похожий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=95|end_char=100
+3	на	на	ADP	_	_	4	case	_	start_char=101|end_char=103
+4	мистера	мистер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=104|end_char=111
+5	Бернса	Бернс	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	appos	_	start_char=112|end_char=118
+6	из	из	ADP	_	_	8	case	_	start_char=119|end_char=121
+7	"	"	PUNCT	_	_	8	punct	_	start_char=122|end_char=123
+8	Симпсонов	Симпсонов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=123|end_char=132
+9	"	"	PUNCT	_	_	8	punct	_	start_char=132|end_char=133
+10	,	,	PUNCT	_	_	13	punct	_	start_char=133|end_char=134
+11	а	а	CCONJ	_	_	13	cc	_	start_char=135|end_char=136
+12	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=137|end_char=141
+13	выглядят	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=142|end_char=150
+14	так	так	ADV	_	Degree=Pos	13	advmod	_	start_char=151|end_char=154
+15	,	,	PUNCT	_	_	18	punct	_	start_char=154|end_char=155
+16	будто	будто	SCONJ	_	_	18	mark	_	start_char=156|end_char=161
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	_	start_char=162|end_char=164
+18	одолжили	одолжить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	start_char=165|end_char=173
+19	из	из	ADP	_	_	20	case	_	start_char=174|end_char=176
+20	шоу	шоу	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	start_char=177|end_char=180
+21	Чарли	Чарли	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=181|end_char=186
+22	Брауна	Браун	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	flat:name	_	start_char=187|end_char=193
+23	.	.	PUNCT	_	_	2	punct	_	start_char=193|end_char=194
+
+# text = Но самый главный минус - это политкорректные разглагольствования!
+# sent_id = 4
+1	Но	но	CCONJ	_	_	8	cc	_	start_char=195|end_char=197
+2	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=198|end_char=203
+3	главный	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=204|end_char=211
+4	минус	минус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=212|end_char=217
+5	-	-	PUNCT	_	_	4	punct	_	start_char=218|end_char=219
+6	это	это	PRON	_	PronType=Dem	8	expl	_	start_char=220|end_char=223
+7	политкорректные	политкорректный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=224|end_char=239
+8	разглагольствования	разглагольствование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=240|end_char=259
+9	!	!	PUNCT	_	_	8	punct	_	start_char=259|end_char=260
+
+# text = Жаль, что CBS настаивает на том, чтобы показывать этот фильм в паре с классикой 1969 года.
+# sent_id = 5
+1	Жаль	жаль	ADV	_	Degree=Pos	0	root	_	start_char=261|end_char=265
+2	,	,	PUNCT	_	_	5	punct	_	start_char=265|end_char=266
+3	что	что	SCONJ	_	_	5	mark	_	start_char=267|end_char=270
+4	CBS	CBS	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=271|end_char=274
+5	настаивает	настаивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=275|end_char=285
+6	на	на	ADP	_	_	7	case	_	start_char=286|end_char=288
+7	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	start_char=289|end_char=292
+8	,	,	PUNCT	_	_	10	punct	_	start_char=292|end_char=293
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	start_char=294|end_char=299
+10	показывать	показывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=300|end_char=310
+11	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=311|end_char=315
+12	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=316|end_char=321
+13	в	в	ADP	_	_	14	case	_	start_char=322|end_char=323
+14	паре	пара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	start_char=324|end_char=328
+15	с	с	ADP	_	_	16	case	_	start_char=329|end_char=330
+16	классикой	классика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	start_char=331|end_char=340
+17	1969	1969	ADJ	_	Degree=Pos	18	amod	_	start_char=341|end_char=345
+18	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=346|end_char=350
+19	.	.	PUNCT	_	_	1	punct	_	start_char=350|end_char=351
+

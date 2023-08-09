@@ -1,45 +1,53 @@
-1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	start_char=0|end_char=2
+# text = Don't buy if your lawn is larger than 10 sq yards Couldm't cut my grass very well.
+# sent_id = 0
+# sentiment = 0
+1	Do	do	AUX	VB	VerbForm=Fin	3	aux	_	start_char=0|end_char=2
 2	n't	not	PART	RB	_	3	advmod	_	start_char=2|end_char=5
 3	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=6|end_char=9
 4	if	if	SCONJ	IN	_	8	mark	_	start_char=10|end_char=12
-5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=13|end_char=17
+5	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=13|end_char=17
 6	lawn	lawn	NOUN	NN	Number=Sing	8	nsubj	_	start_char=18|end_char=22
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=23|end_char=25
 8	larger	large	ADJ	JJR	Degree=Cmp	3	advcl	_	start_char=26|end_char=32
 9	than	than	ADP	IN	_	12	case	_	start_char=33|end_char=37
-10	10	10	NUM	CD	NumType=Card	12	nummod	_	start_char=38|end_char=40
+10	10	10	NUM	CD	NumForm=Digit|NumType=Card	12	nummod	_	start_char=38|end_char=40
 11	sq	sq	NOUN	NN	Number=Sing	12	compound	_	start_char=41|end_char=43
 12	yards	yard	NOUN	NNS	Number=Plur	8	obl	_	start_char=44|end_char=49
-13	Could	could	AUX	MD	VerbForm=Fin	15	aux	_	start_char=50|end_char=55
-14	m't	mot	ADV	RB	_	15	advmod	_	start_char=55|end_char=58
-15	cut	cut	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=59|end_char=62
-16	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=63|end_char=65
-17	grass	grass	NOUN	NN	Number=Sing	15	obj	_	start_char=66|end_char=71
-18	very	very	ADV	RB	_	19	advmod	_	start_char=72|end_char=76
-19	well	well	ADV	RB	Degree=Pos	15	advmod	_	start_char=77|end_char=81
-20	.	.	PUNCT	.	_	3	punct	_	start_char=81|end_char=82
+13	Couldm't	Couldm't	PROPN	NNP	Number=Sing	14	nsubj	_	start_char=50|end_char=58
+14	cut	cut	VERB	VB	Mood=Ind|Number=Sing|VerbForm=Fin	3	parataxis	_	start_char=59|end_char=62
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=63|end_char=65
+16	grass	grass	NOUN	NN	Number=Sing	14	obj	_	start_char=66|end_char=71
+17	very	very	ADV	RB	_	18	advmod	_	start_char=72|end_char=76
+18	well	well	ADV	RB	Degree=Pos	14	advmod	_	start_char=77|end_char=81
+19	.	.	PUNCT	.	_	3	punct	_	start_char=81|end_char=82
 
+# text = Misses some spots because it just didn't cut it.
+# sent_id = 1
+# sentiment = 1
 1	Misses	miss	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=83|end_char=89
 2	some	some	DET	DT	_	3	det	_	start_char=90|end_char=94
 3	spots	spot	NOUN	NNS	Number=Plur	1	obj	_	start_char=95|end_char=100
 4	because	because	SCONJ	IN	_	9	mark	_	start_char=101|end_char=108
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=109|end_char=111
 6	just	just	ADV	RB	_	9	advmod	_	start_char=112|end_char=116
-7	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	start_char=117|end_char=120
+7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=117|end_char=120
 8	n't	not	PART	RB	_	9	advmod	_	start_char=120|end_char=123
 9	cut	cut	VERB	VB	VerbForm=Inf	1	advcl	_	start_char=124|end_char=127
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=128|end_char=130
 11	.	.	PUNCT	.	_	1	punct	_	start_char=130|end_char=131
 
+# text = if the grass is taller than 2 inches, this is not mower for you.
+# sent_id = 2
+# sentiment = 0
 1	if	if	SCONJ	IN	_	5	mark	_	start_char=132|end_char=134
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=135|end_char=138
 3	grass	grass	NOUN	NN	Number=Sing	5	nsubj	_	start_char=139|end_char=144
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=145|end_char=147
 5	taller	tall	ADJ	JJR	Degree=Cmp	13	advcl	_	start_char=148|end_char=154
 6	than	than	ADP	IN	_	8	case	_	start_char=155|end_char=159
-7	2	2	NUM	CD	NumType=Card	8	nummod	_	start_char=160|end_char=161
+7	2	2	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=160|end_char=161
 8	inches	inch	NOUN	NNS	Number=Plur	5	obl	_	start_char=162|end_char=168
-9	,	,	PUNCT	,	_	13	punct	_	start_char=168|end_char=169
+9	,	,	PUNCT	,	_	5	punct	_	start_char=168|end_char=169
 10	this	this	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	start_char=170|end_char=174
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=175|end_char=177
 12	not	not	PART	RB	_	13	advmod	_	start_char=178|end_char=181
@@ -48,14 +56,17 @@
 15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	nmod	_	start_char=192|end_char=195
 16	.	.	PUNCT	.	_	13	punct	_	start_char=195|end_char=196
 
-1	Need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=197|end_char=201
+# text = Need to spend the money and get something that works.
+# sent_id = 3
+# sentiment = 2
+1	Need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=197|end_char=201
 2	to	to	PART	TO	_	3	mark	_	start_char=202|end_char=204
 3	spend	spend	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=205|end_char=210
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=211|end_char=214
 5	money	money	NOUN	NN	Number=Sing	3	obj	_	start_char=215|end_char=220
 6	and	and	CCONJ	CC	_	7	cc	_	start_char=221|end_char=224
 7	get	get	VERB	VB	VerbForm=Inf	3	conj	_	start_char=225|end_char=228
-8	something	something	PRON	NN	Number=Sing	7	obj	_	start_char=229|end_char=238
+8	something	something	PRON	NN	Number=Sing|PronType=Ind	7	obj	_	start_char=229|end_char=238
 9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	start_char=239|end_char=243
 10	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	start_char=244|end_char=249
 11	.	.	PUNCT	.	_	1	punct	_	start_char=249|end_char=250

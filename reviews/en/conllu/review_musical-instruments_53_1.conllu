@@ -1,5 +1,8 @@
+# text = I have bought many cables and this one is the only one that gives me problems
+# sent_id = 0
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=1
-2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=2|end_char=6
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=2|end_char=6
 3	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=7|end_char=13
 4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	start_char=14|end_char=18
 5	cables	cable	NOUN	NNS	Number=Plur	3	obj	_	start_char=19|end_char=25
@@ -15,6 +18,9 @@
 15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	iobj	_	start_char=66|end_char=68
 16	problems	problem	NOUN	NNS	Number=Plur	14	obj	_	start_char=69|end_char=77
 
+# text = It hums, crackles, and I think I'm having problems with my equipment.
+# sent_id = 1
+# sentiment = 0
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=78|end_char=80
 2	hums	hum	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=81|end_char=85
 3	,	,	PUNCT	,	_	4	punct	_	start_char=85|end_char=86
@@ -22,51 +28,60 @@
 5	,	,	PUNCT	,	_	8	punct	_	start_char=95|end_char=96
 6	and	and	CCONJ	CC	_	8	cc	_	start_char=97|end_char=100
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=101|end_char=102
-8	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=103|end_char=108
+8	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=103|end_char=108
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=109|end_char=110
-10	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=110|end_char=112
+10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=110|end_char=112
 11	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	8	ccomp	_	start_char=113|end_char=119
 12	problems	problem	NOUN	NNS	Number=Plur	11	obj	_	start_char=120|end_char=128
 13	with	with	ADP	IN	_	15	case	_	start_char=129|end_char=133
-14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=134|end_char=136
-15	equipment	equipment	NOUN	NN	Number=Sing	11	obl	_	start_char=137|end_char=146
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=134|end_char=136
+15	equipment	equipment	NOUN	NN	Number=Sing	12	nmod	_	start_char=137|end_char=146
 16	.	.	PUNCT	.	_	2	punct	_	start_char=146|end_char=147
 
+# text = As soon as I use any of my other cords then the problem is gone.
+# sent_id = 2
+# sentiment = 0
 1	As	as	ADV	RB	_	2	advmod	_	start_char=148|end_char=150
 2	soon	soon	ADV	RB	Degree=Pos	15	advmod	_	start_char=151|end_char=155
 3	as	as	SCONJ	IN	_	5	mark	_	start_char=156|end_char=158
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=159|end_char=160
-5	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=161|end_char=164
+5	use	use	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=161|end_char=164
 6	any	any	DET	DT	_	5	obj	_	start_char=165|end_char=168
 7	of	of	ADP	IN	_	10	case	_	start_char=169|end_char=171
-8	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=172|end_char=174
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=172|end_char=174
 9	other	other	ADJ	JJ	Degree=Pos	10	amod	_	start_char=175|end_char=180
 10	cords	cord	NOUN	NNS	Number=Plur	6	nmod	_	start_char=181|end_char=186
 11	then	then	ADV	RB	PronType=Dem	15	advmod	_	start_char=187|end_char=191
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=192|end_char=195
 13	problem	problem	NOUN	NN	Number=Sing	15	nsubj	_	start_char=196|end_char=203
 14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=204|end_char=206
-15	gone	go	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=207|end_char=211
+15	gone	gone	ADJ	JJ	Degree=Pos	0	root	_	start_char=207|end_char=211
 16	.	.	PUNCT	.	_	15	punct	_	start_char=211|end_char=212
 
+# text = Hosa makes some other products that have good value.
+# sent_id = 3
+# sentiment = 2
 1	Hosa	Hosa	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=213|end_char=217
 2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=218|end_char=223
 3	some	some	DET	DT	_	5	det	_	start_char=224|end_char=228
 4	other	other	ADJ	JJ	Degree=Pos	5	amod	_	start_char=229|end_char=234
 5	products	product	NOUN	NNS	Number=Plur	2	obj	_	start_char=235|end_char=243
 6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=244|end_char=248
-7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=249|end_char=253
+7	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=249|end_char=253
 8	good	good	ADJ	JJ	Degree=Pos	9	amod	_	start_char=254|end_char=258
 9	value	value	NOUN	NN	Number=Sing	7	obj	_	start_char=259|end_char=264
 10	.	.	PUNCT	.	_	2	punct	_	start_char=264|end_char=265
 
+# text = But based on my experience I don't recommend this one.
+# sent_id = 4
+# sentiment = 0
 1	But	but	CCONJ	CC	_	9	cc	_	start_char=266|end_char=269
-2	based	base	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	start_char=270|end_char=275
+2	based	base	VERB	VBN	Tense=Past|VerbForm=Part	5	case	_	start_char=270|end_char=275
 3	on	on	ADP	IN	_	5	case	_	start_char=276|end_char=278
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=279|end_char=281
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=279|end_char=281
 5	experience	experience	NOUN	NN	Number=Sing	9	obl	_	start_char=282|end_char=292
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=293|end_char=294
-7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=295|end_char=297
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=295|end_char=297
 8	n't	not	PART	RB	_	9	advmod	_	start_char=297|end_char=300
 9	recommend	recommend	VERB	VB	VerbForm=Inf	0	root	_	start_char=301|end_char=310
 10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=311|end_char=315

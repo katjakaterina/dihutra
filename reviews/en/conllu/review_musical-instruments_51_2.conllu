@@ -1,7 +1,10 @@
+# text = Cannot recommend I didn't expect this cable to be so thin.
+# sent_id = 0
+# sentiment = 0
 1	Cannot	cannot	AUX	MD	VerbForm=Fin	2	aux	_	start_char=0|end_char=6
 2	recommend	recommend	VERB	VB	VerbForm=Inf	0	root	_	start_char=7|end_char=16
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=17|end_char=18
-4	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	start_char=19|end_char=22
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	start_char=19|end_char=22
 5	n't	not	PART	RB	_	6	advmod	_	start_char=22|end_char=25
 6	expect	expect	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=26|end_char=32
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=33|end_char=37
@@ -12,43 +15,56 @@
 12	thin	thin	ADJ	JJ	Degree=Pos	6	xcomp	_	start_char=53|end_char=57
 13	.	.	PUNCT	.	_	2	punct	_	start_char=57|end_char=58
 
+# text = It's easily 1/2 the thickness of any guitar cable I've used.
+# sent_id = 1
+# sentiment = 0
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=59|end_char=61
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=61|end_char=63
 3	easily	easily	ADV	RB	_	6	advmod	_	start_char=64|end_char=70
-4	1/2	1/2	NUM	CD	NumType=Card	6	nummod	_	start_char=71|end_char=74
-5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=75|end_char=78
-6	thickness	thickness	NOUN	NN	Number=Sing	0	root	_	start_char=79|end_char=88
-7	of	of	ADP	IN	_	10	case	_	start_char=89|end_char=91
-8	any	any	DET	DT	_	10	det	_	start_char=92|end_char=95
-9	guitar	guitar	NOUN	NN	Number=Sing	10	compound	_	start_char=96|end_char=102
-10	cable	cable	NOUN	NN	Number=Sing	6	nmod	_	start_char=103|end_char=108
-11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=109|end_char=110
-12	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=110|end_char=113
-13	used	use	VERB	VBN	Tense=Past|VerbForm=Part	10	acl:relcl	_	start_char=114|end_char=118
-14	.	.	PUNCT	.	_	6	punct	_	start_char=118|end_char=119
+4	1	1	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=71|end_char=72
+5	/	/	SYM	,	_	6	punct	_	start_char=72|end_char=73
+6	2	2	NUM	CD	NumForm=Digit|NumType=Card	0	root	_	start_char=73|end_char=74
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=75|end_char=78
+8	thickness	thickness	NOUN	NN	Number=Sing	6	appos	_	start_char=79|end_char=88
+9	of	of	ADP	IN	_	12	case	_	start_char=89|end_char=91
+10	any	any	DET	DT	_	12	det	_	start_char=92|end_char=95
+11	guitar	guitar	NOUN	NN	Number=Sing	12	compound	_	start_char=96|end_char=102
+12	cable	cable	NOUN	NN	Number=Sing	8	nmod	_	start_char=103|end_char=108
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=109|end_char=110
+14	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=110|end_char=113
+15	used	use	VERB	VBN	Tense=Past|VerbForm=Part	12	acl:relcl	_	start_char=114|end_char=118
+16	.	.	PUNCT	.	_	6	punct	_	start_char=118|end_char=119
 
-1	Not	not	PART	RB	Polarity=Neg	2	advmod	_	start_char=120|end_char=123
+# text = Not sure about long-term durability or signal loss/interference.
+# sent_id = 2
+# sentiment = 0
+1	Not	not	PART	RB	_	2	advmod	_	start_char=120|end_char=123
 2	sure	sure	ADJ	JJ	Degree=Pos	0	root	_	start_char=124|end_char=128
-3	about	about	ADP	IN	_	5	case	_	start_char=129|end_char=134
-4	long-term	long-term	ADJ	JJ	Degree=Pos	5	amod	_	start_char=135|end_char=144
-5	durability	durability	NOUN	NN	Number=Sing	2	obl	_	start_char=145|end_char=155
-6	or	or	CCONJ	CC	_	8	cc	_	start_char=156|end_char=158
-7	signal	signal	NOUN	NN	Number=Sing	8	compound	_	start_char=159|end_char=165
-8	loss	loss	NOUN	NN	Number=Sing	5	conj	_	start_char=166|end_char=170
-9	/	/	SYM	,	_	10	cc	_	start_char=170|end_char=171
-10	interference	interference	NOUN	NN	Number=Sing	5	conj	_	start_char=171|end_char=183
-11	.	.	PUNCT	.	_	2	punct	_	start_char=183|end_char=184
+3	about	about	ADP	IN	_	7	case	_	start_char=129|end_char=134
+4	long	long	ADJ	JJ	Degree=Pos	6	amod	_	start_char=135|end_char=139
+5	-	-	PUNCT	HYPH	_	6	punct	_	start_char=139|end_char=140
+6	term	term	NOUN	NN	Number=Sing	7	compound	_	start_char=140|end_char=144
+7	durability	durability	NOUN	NN	Number=Sing	2	obl	_	start_char=145|end_char=155
+8	or	or	CCONJ	CC	_	10	cc	_	start_char=156|end_char=158
+9	signal	signal	NOUN	NN	Number=Sing	10	compound	_	start_char=159|end_char=165
+10	loss	loss	NOUN	NN	Number=Sing	7	conj	_	start_char=166|end_char=170
+11	/	/	SYM	,	_	12	cc	_	start_char=170|end_char=171
+12	interference	interference	NOUN	NN	Number=Sing	7	conj	_	start_char=171|end_char=183
+13	.	.	PUNCT	.	_	2	punct	_	start_char=183|end_char=184
 
+# text = If I had the foresight I'd spend a couple extra bucks on a thicker cable.
+# sent_id = 3
+# sentiment = 0
 1	If	if	SCONJ	IN	_	3	mark	_	start_char=185|end_char=187
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=188|end_char=189
-3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	start_char=190|end_char=193
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	advcl	_	start_char=190|end_char=193
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=194|end_char=197
 5	foresight	foresight	NOUN	NN	Number=Sing	3	obj	_	start_char=198|end_char=207
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=208|end_char=209
 7	'd	would	AUX	MD	VerbForm=Fin	8	aux	_	start_char=209|end_char=211
 8	spend	spend	VERB	VB	VerbForm=Inf	0	root	_	start_char=212|end_char=217
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=218|end_char=219
-10	couple	couple	NOUN	NN	Number=Sing	12	nmod:npmod	_	start_char=220|end_char=226
+10	couple	couple	NOUN	NN	Number=Sing	11	obl:npmod	_	start_char=220|end_char=226
 11	extra	extra	ADJ	JJ	Degree=Pos	12	amod	_	start_char=227|end_char=232
 12	bucks	buck	NOUN	NNS	Number=Plur	8	obj	_	start_char=233|end_char=238
 13	on	on	ADP	IN	_	16	case	_	start_char=239|end_char=241
@@ -57,6 +73,9 @@
 16	cable	cable	NOUN	NN	Number=Sing	8	obl	_	start_char=252|end_char=257
 17	.	.	PUNCT	.	_	8	punct	_	start_char=257|end_char=258
 
+# text = Still, it works and was inexpensive.
+# sent_id = 4
+# sentiment = 2
 1	Still	still	ADV	RB	_	4	advmod	_	start_char=259|end_char=264
 2	,	,	PUNCT	,	_	4	punct	_	start_char=264|end_char=265
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=266|end_char=268
@@ -66,11 +85,14 @@
 7	inexpensive	inexpensive	ADJ	JJ	Degree=Pos	4	conj	_	start_char=283|end_char=294
 8	.	.	PUNCT	.	_	4	punct	_	start_char=294|end_char=295
 
+# text = EDIT: 6 months later and it's dead already.
+# sent_id = 5
+# sentiment = 0
 1	EDIT	edit	NOUN	NN	Number=Sing	0	root	_	start_char=295|end_char=299
 2	:	:	PUNCT	:	_	1	punct	_	start_char=299|end_char=300
-3	6	6	NUM	CD	NumType=Card	4	nummod	_	start_char=301|end_char=302
+3	6	6	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=301|end_char=302
 4	months	month	NOUN	NNS	Number=Plur	5	obl:npmod	_	start_char=303|end_char=309
-5	later	late	ADV	RB	Degree=Cmp	1	advmod	_	start_char=310|end_char=315
+5	later	late	ADV	RBR	Degree=Cmp	1	appos	_	start_char=310|end_char=315
 6	and	and	CCONJ	CC	_	9	cc	_	start_char=316|end_char=319
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=320|end_char=322
 8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=322|end_char=324
@@ -78,8 +100,11 @@
 10	already	already	ADV	RB	_	9	advmod	_	start_char=330|end_char=337
 11	.	.	PUNCT	.	_	1	punct	_	start_char=337|end_char=338
 
+# text = Wire frayed at the right angle jack.
+# sent_id = 6
+# sentiment = 0
 1	Wire	wire	NOUN	NN	Number=Sing	2	nsubj	_	start_char=339|end_char=343
-2	frayed	fray	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=344|end_char=350
+2	frayed	fray	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=344|end_char=350
 3	at	at	ADP	IN	_	7	case	_	start_char=351|end_char=353
 4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=354|end_char=357
 5	right	right	ADJ	JJ	Degree=Pos	7	amod	_	start_char=358|end_char=363
@@ -87,11 +112,14 @@
 7	jack	jack	NOUN	NN	Number=Sing	2	obl	_	start_char=370|end_char=374
 8	.	.	PUNCT	.	_	2	punct	_	start_char=374|end_char=375
 
+# text = You get what you pay for.
+# sent_id = 7
+# sentiment = 1
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=376|end_char=379
-2	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=380|end_char=383
+2	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=380|end_char=383
 3	what	what	PRON	WP	PronType=Int	2	obj	_	start_char=384|end_char=388
 4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	start_char=389|end_char=392
-5	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=393|end_char=396
-6	for	for	ADP	IN	_	3	case	_	start_char=397|end_char=400
+5	pay	pay	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=393|end_char=396
+6	for	for	ADP	IN	_	5	obl	_	start_char=397|end_char=400
 7	.	.	PUNCT	.	_	2	punct	_	start_char=400|end_char=401
 

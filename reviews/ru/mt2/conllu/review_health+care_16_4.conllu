@@ -1,0 +1,80 @@
+# text = Очень удобный, хорошо работает Я поставил 4 звезды вместо 5 только из-за упаковки.
+# sent_id = 0
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=0|end_char=5
+2	удобный	удобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=6|end_char=13
+3	,	,	PUNCT	_	_	4	punct	_	start_char=13|end_char=14
+4	хорошо	хорошо	ADV	_	Degree=Pos	5	advmod	_	start_char=15|end_char=21
+5	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=22|end_char=30
+6	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=31|end_char=32
+7	поставил	ставить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=33|end_char=41
+8	4	4	NUM	_	NumType=Card	9	nummod	_	start_char=42|end_char=43
+9	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=44|end_char=50
+10	вместо	вместо	ADP	_	_	11	case	_	start_char=51|end_char=57
+11	5	5	NUM	_	NumType=Card	7	obl	_	start_char=58|end_char=59
+12	только	только	PART	_	_	14	advmod	_	start_char=60|end_char=66
+13	из-за	из-за	ADP	_	_	14	case	_	start_char=67|end_char=72
+14	упаковки	упаковка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=73|end_char=81
+15	.	.	PUNCT	_	_	5	punct	_	start_char=81|end_char=82
+
+# text = Пластик острый, и его не так легко носить в сумке, не поранившись о него, но без пластиковой коробки лупа сильно поцарапается.
+# sent_id = 1
+1	Пластик	пластик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=83|end_char=90
+2	острый	острый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=91|end_char=97
+3	,	,	PUNCT	_	_	8	punct	_	start_char=97|end_char=98
+4	и	и	CCONJ	_	_	8	cc	_	start_char=99|end_char=100
+5	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=101|end_char=104
+6	не	не	PART	_	_	7	advmod	_	start_char=105|end_char=107
+7	так	так	ADV	_	Degree=Pos	8	obl	_	start_char=108|end_char=111
+8	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	start_char=112|end_char=117
+9	носить	носить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	csubj	_	start_char=118|end_char=124
+10	в	в	ADP	_	_	11	case	_	start_char=125|end_char=126
+11	сумке	сумка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=127|end_char=132
+12	,	,	PUNCT	_	_	14	punct	_	start_char=132|end_char=133
+13	не	не	PART	_	_	14	advmod	_	start_char=134|end_char=136
+14	поранившись	пораниться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	9	advcl	_	start_char=137|end_char=148
+15	о	о	ADP	_	_	16	case	_	start_char=149|end_char=150
+16	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	start_char=151|end_char=155
+17	,	,	PUNCT	_	_	24	punct	_	start_char=155|end_char=156
+18	но	но	CCONJ	_	_	24	cc	_	start_char=157|end_char=159
+19	без	без	ADP	_	_	21	case	_	start_char=160|end_char=163
+20	пластиковой	пластиковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=164|end_char=175
+21	коробки	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	start_char=176|end_char=183
+22	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	start_char=184|end_char=188
+23	сильно	сильно	ADV	_	Degree=Pos	24	advmod	_	start_char=189|end_char=195
+24	поцарапается	поцарапать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=196|end_char=208
+25	.	.	PUNCT	_	_	2	punct	_	start_char=208|end_char=209
+
+# text = Возможно, я откажусь от пластиковой коробки, но буду хранить лупу в чем-то мягком, например, в маленьком носке.
+# sent_id = 2
+1	Возможно	возможно	ADV	_	Degree=Pos	4	parataxis	_	start_char=210|end_char=218
+2	,	,	PUNCT	_	_	1	punct	_	start_char=218|end_char=219
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=220|end_char=221
+4	откажусь	отказаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=222|end_char=230
+5	от	от	ADP	_	_	7	case	_	start_char=231|end_char=233
+6	пластиковой	пластиковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=234|end_char=245
+7	коробки	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=246|end_char=253
+8	,	,	PUNCT	_	_	11	punct	_	start_char=253|end_char=254
+9	но	но	CCONJ	_	_	11	cc	_	start_char=255|end_char=257
+10	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=258|end_char=262
+11	хранить	хранить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	start_char=263|end_char=270
+12	лупу	лупа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=271|end_char=275
+13	в	в	ADP	_	_	14	case	_	start_char=276|end_char=277
+14	чем-то	что-то	PRON	_	Case=Loc|PronType=Ind	11	obl	_	start_char=278|end_char=284
+15	мягком	мягкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=285|end_char=291
+16	,	,	PUNCT	_	_	21	punct	_	start_char=291|end_char=292
+17	например	например	ADV	_	Degree=Pos	21	parataxis	_	start_char=293|end_char=301
+18	,	,	PUNCT	_	_	17	punct	_	start_char=301|end_char=302
+19	в	в	ADP	_	_	21	case	_	start_char=303|end_char=304
+20	маленьком	маленький	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=305|end_char=314
+21	носке	носок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	start_char=315|end_char=320
+22	.	.	PUNCT	_	_	4	punct	_	start_char=320|end_char=321
+
+# text = В остальном лупа работает отлично.
+# sent_id = 3
+1	В	в	ADP	_	_	2	case	_	start_char=322|end_char=323
+2	остальном	остальной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	start_char=324|end_char=333
+3	лупа	лупа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=334|end_char=338
+4	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=339|end_char=347
+5	отлично	отлично	ADV	_	Degree=Pos	4	advmod	_	start_char=348|end_char=355
+6	.	.	PUNCT	_	_	4	punct	_	start_char=355|end_char=356
+

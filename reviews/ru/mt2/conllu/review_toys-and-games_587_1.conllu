@@ -1,0 +1,101 @@
+# text = жуткий эльф - дополнительные услуги - это как инвестиция в skylanders или disney xfinity Вот маленький жуткий эльф и книга.
+# sent_id = 0
+1	жуткий	жуткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	эльф	эльф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=7|end_char=11
+3	-	-	PUNCT	_	_	5	punct	_	start_char=12|end_char=13
+4	дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=14|end_char=28
+5	услуги	услуга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	appos	_	start_char=29|end_char=35
+6	-	-	PUNCT	_	_	2	punct	_	start_char=36|end_char=37
+7	это	это	PRON	_	PronType=Dem	9	expl	_	start_char=38|end_char=41
+8	как	как	SCONJ	_	_	9	case	_	start_char=42|end_char=45
+9	инвестиция	инвестиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=46|end_char=56
+10	в	в	ADP	_	_	9	case	_	start_char=57|end_char=58
+11	skylanders	skylanders	X	_	Foreign=Yes	9	flat:foreign	_	start_char=59|end_char=69
+12	или	или	CCONJ	_	_	13	cc	_	start_char=70|end_char=73
+13	disney	disney	X	_	Foreign=Yes	9	flat:foreign	_	start_char=74|end_char=80
+14	xfinity	xfinity	X	_	Foreign=Yes	9	flat:foreign	_	start_char=81|end_char=88
+15	Вот	вот	PART	_	_	9	advmod	_	start_char=89|end_char=92
+16	маленький	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=93|end_char=102
+17	жуткий	жуткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=103|end_char=109
+18	эльф	эльф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=110|end_char=114
+19	и	и	CCONJ	_	_	20	cc	_	start_char=115|end_char=116
+20	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	conj	_	start_char=117|end_char=122
+21	.	.	PUNCT	_	_	9	punct	_	start_char=122|end_char=123
+
+# text = Если вы хотите, чтобы эльф готовил, и покупаете все аксессуары, то это все равно что покупать Skylanders или Disney xfinity.
+# sent_id = 1
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=124|end_char=128
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=129|end_char=131
+3	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	start_char=132|end_char=138
+4	,	,	PUNCT	_	_	7	punct	_	start_char=138|end_char=139
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	start_char=140|end_char=145
+6	эльф	эльф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=146|end_char=150
+7	готовил	готовить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=151|end_char=158
+8	,	,	PUNCT	_	_	10	punct	_	start_char=158|end_char=159
+9	и	и	CCONJ	_	_	10	cc	_	start_char=160|end_char=161
+10	покупаете	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=162|end_char=171
+11	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	12	det	_	start_char=172|end_char=175
+12	аксессуары	аксессуар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	start_char=176|end_char=186
+13	,	,	PUNCT	_	_	3	punct	_	start_char=186|end_char=187
+14	то	то	SCONJ	_	_	19	mark	_	start_char=188|end_char=190
+15	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	_	start_char=191|end_char=194
+16	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	19	advmod	_	start_char=195|end_char=198
+17	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	16	fixed	_	start_char=199|end_char=204
+18	что	что	SCONJ	_	_	16	fixed	_	start_char=205|end_char=208
+19	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=209|end_char=217
+20	Skylanders	Skylanders	PROPN	_	Foreign=Yes	19	flat:foreign	_	start_char=218|end_char=228
+21	или	или	CCONJ	_	_	19	cc	_	start_char=229|end_char=232
+22	Disney	Disney	PROPN	_	Foreign=Yes	19	flat:foreign	_	start_char=233|end_char=239
+23	xfinity	xfinity	X	_	Foreign=Yes	19	flat:foreign	_	start_char=240|end_char=247
+24	.	.	PUNCT	_	_	19	punct	_	start_char=247|end_char=248
+
+# text = Каждая дополнительная мелочь стоит не менее 20.00.
+# sent_id = 2
+1	Каждая	каждый	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	3	det	_	start_char=249|end_char=255
+2	дополнительная	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=256|end_char=270
+3	мелочь	мелочь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=271|end_char=277
+4	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=278|end_char=283
+5	не	не	PART	_	_	6	advmod	_	start_char=284|end_char=286
+6	менее	менее	ADV	_	Degree=Cmp	4	advmod	_	start_char=287|end_char=292
+7	20.00	20.00	NUM	_	NumType=Card	6	obl	_	start_char=293|end_char=298
+8	.	.	PUNCT	_	_	4	punct	_	start_char=298|end_char=299
+
+# text = Качество тоже ужасное.
+# sent_id = 3
+1	Качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=300|end_char=308
+2	тоже	тоже	PART	_	_	3	advmod	_	start_char=309|end_char=313
+3	ужасное	ужасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=314|end_char=321
+4	.	.	PUNCT	_	_	3	punct	_	start_char=321|end_char=322
+
+# text = Я бы не рекомендовал thistle никому.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=323|end_char=324
+2	бы	бы	AUX	_	_	4	aux	_	start_char=325|end_char=327
+3	не	не	PART	_	_	4	advmod	_	start_char=328|end_char=330
+4	рекомендовал	рекомендовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=331|end_char=343
+5	thistle	thistle	X	_	Foreign=Yes	4	obj	_	start_char=344|end_char=351
+6	никому	никто	PRON	_	Case=Dat|PronType=Neg	4	iobj	_	start_char=352|end_char=358
+7	.	.	PUNCT	_	_	4	punct	_	start_char=358|end_char=359
+
+# text = Сэкономьте свои деньги и купите вместо этого хороший адвент-календарь - я предлагаю адвент-календарь LEGO!
+# sent_id = 5
+1	Сэкономьте	сэконойти	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=360|end_char=370
+2	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	start_char=371|end_char=375
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=376|end_char=382
+4	и	и	CCONJ	_	_	5	cc	_	start_char=383|end_char=384
+5	купите	купить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=385|end_char=391
+6	вместо	вместо	ADP	_	_	7	case	_	start_char=392|end_char=398
+7	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	start_char=399|end_char=404
+8	хороший	хороший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=405|end_char=412
+9	адвент	адвент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=413|end_char=419
+10	-	-	PUNCT	_	_	11	punct	_	start_char=419|end_char=420
+11	календарь	календарь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	start_char=420|end_char=429
+12	-	-	PUNCT	_	_	14	punct	_	start_char=430|end_char=431
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=432|end_char=433
+14	предлагаю	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=434|end_char=443
+15	адвент	адвент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=444|end_char=450
+16	-	-	PUNCT	_	_	17	punct	_	start_char=450|end_char=451
+17	календарь	календарь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	appos	_	start_char=451|end_char=460
+18	LEGO	LEGO	PROPN	_	Foreign=Yes	17	flat:foreign	_	start_char=461|end_char=465
+19	!	!	PUNCT	_	_	1	punct	_	start_char=465|end_char=466
+

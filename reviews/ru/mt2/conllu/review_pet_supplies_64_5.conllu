@@ -1,0 +1,59 @@
+# text = Заметки о груминге Для грумера-самоучки эта книга стала лучшей покупкой за долгое время.
+# sent_id = 0
+1	Заметки	заметка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=0|end_char=7
+2	о	о	ADP	_	_	3	case	_	start_char=8|end_char=9
+3	груминге	груминг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=18
+4	Для	для	ADP	_	_	5	case	_	start_char=19|end_char=22
+5	грумера	грумор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=23|end_char=30
+6	-	-	PUNCT	_	_	7	punct	_	start_char=30|end_char=31
+7	самоучки	самоучка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	appos	_	start_char=31|end_char=39
+8	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=40|end_char=43
+9	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=44|end_char=49
+10	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=50|end_char=55
+11	лучшей	лучший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=56|end_char=62
+12	покупкой	покупка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	start_char=63|end_char=71
+13	за	за	ADP	_	_	15	case	_	start_char=72|end_char=74
+14	долгое	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=75|end_char=81
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	start_char=82|end_char=87
+16	.	.	PUNCT	_	_	10	punct	_	start_char=87|end_char=88
+
+# text = Это замечательное справочное руководство, которое значительно облегчает мою работу.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=89|end_char=92
+2	замечательное	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=93|end_char=106
+3	справочное	справочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=107|end_char=117
+4	руководство	руководство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=118|end_char=129
+5	,	,	PUNCT	_	_	8	punct	_	start_char=129|end_char=130
+6	которое	который	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=131|end_char=138
+7	значительно	значительно	ADV	_	Degree=Pos	8	advmod	_	start_char=139|end_char=150
+8	облегчает	облегчать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=151|end_char=160
+9	мою	мой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	start_char=161|end_char=164
+10	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=165|end_char=171
+11	.	.	PUNCT	_	_	4	punct	_	start_char=171|end_char=172
+
+# text = Я могу найти все, что мне нужно, если у меня возникают вопросы о породе или стандартах AKC для этой породы.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=173|end_char=174
+2	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=175|end_char=179
+3	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=180|end_char=185
+4	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obj	_	start_char=186|end_char=189
+5	,	,	PUNCT	_	_	8	punct	_	start_char=189|end_char=190
+6	что	что	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=191|end_char=194
+7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	start_char=195|end_char=198
+8	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	acl:relcl	_	start_char=199|end_char=204
+9	,	,	PUNCT	_	_	13	punct	_	start_char=204|end_char=205
+10	если	если	SCONJ	_	_	13	mark	_	start_char=206|end_char=210
+11	у	у	ADP	_	_	12	case	_	start_char=211|end_char=212
+12	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	obl	_	start_char=213|end_char=217
+13	возникают	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=218|end_char=227
+14	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=228|end_char=235
+15	о	о	ADP	_	_	16	case	_	start_char=236|end_char=237
+16	породе	порода	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	start_char=238|end_char=244
+17	или	или	CCONJ	_	_	18	cc	_	start_char=245|end_char=248
+18	стандартах	стандарт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	conj	_	start_char=249|end_char=259
+19	AKC	AKC	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=260|end_char=263
+20	для	для	ADP	_	_	22	case	_	start_char=264|end_char=267
+21	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=268|end_char=272
+22	породы	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=273|end_char=279
+23	.	.	PUNCT	_	_	2	punct	_	start_char=279|end_char=280
+

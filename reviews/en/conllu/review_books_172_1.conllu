@@ -1,23 +1,33 @@
-1	Kindle	Kindle	PROPN	NNP	Number=Sing	2	compound	_	start_char=0|end_char=6
-2	Sample	Sample	PROPN	NNP	Number=Sing	0	root	_	start_char=7|end_char=13
-3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=14|end_char=15
-4	adore	adore	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=16|end_char=21
-5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	start_char=22|end_char=26
-6	book	book	NOUN	NN	Number=Sing	4	obj	_	start_char=27|end_char=31
-7	and	and	CCONJ	CC	_	10	cc	_	start_char=32|end_char=35
-8	must	must	AUX	MD	VerbForm=Fin	10	aux	_	start_char=36|end_char=40
-9	have	have	AUX	VB	VerbForm=Inf	10	aux	_	start_char=41|end_char=45
-10	misplaced	misplace	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	start_char=46|end_char=55
-11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=56|end_char=58
-12	somewhere	somewhere	ADV	RB	_	10	advmod	_	start_char=59|end_char=68
-13	.	.	PUNCT	.	_	4	punct	_	start_char=68|end_char=69
+# text = Kindle Sample
+# sent_id = 0
+# sentiment = 1
+1	Kindle	Kindle	NOUN	NN	Number=Sing	2	compound	_	start_char=0|end_char=6
+2	Sample	sample	NOUN	NN	Number=Sing	0	root	_	start_char=7|end_char=13
 
+# text = I adore this book and must have misplaced it somewhere.
+# sent_id = 1
+# sentiment = 0
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=14|end_char=15
+2	adore	adore	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=16|end_char=21
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=22|end_char=26
+4	book	book	NOUN	NN	Number=Sing	2	obj	_	start_char=27|end_char=31
+5	and	and	CCONJ	CC	_	8	cc	_	start_char=32|end_char=35
+6	must	must	AUX	MD	VerbForm=Fin	8	aux	_	start_char=36|end_char=40
+7	have	have	AUX	VB	VerbForm=Inf	8	aux	_	start_char=41|end_char=45
+8	misplaced	misplace	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	start_char=46|end_char=55
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=56|end_char=58
+10	somewhere	somewhere	ADV	RB	_	8	advmod	_	start_char=59|end_char=68
+11	.	.	PUNCT	.	_	2	punct	_	start_char=68|end_char=69
+
+# text = I was curious to see how the Kindle version was, due to things like formatting issues that sometimes occur.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=70|end_char=71
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=72|end_char=75
 3	curious	curious	ADJ	JJ	Degree=Pos	0	root	_	start_char=76|end_char=83
 4	to	to	PART	TO	_	5	mark	_	start_char=84|end_char=86
-5	see	see	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=87|end_char=90
-6	how	how	SCONJ	WRB	PronType=Int	5	obj	_	start_char=91|end_char=94
+5	see	see	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=87|end_char=90
+6	how	how	ADV	WRB	PronType=Int	5	obj	_	start_char=91|end_char=94
 7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=95|end_char=98
 8	Kindle	Kindle	PROPN	NNP	Number=Sing	9	compound	_	start_char=99|end_char=105
 9	version	version	NOUN	NN	Number=Sing	6	nsubj	_	start_char=106|end_char=113
@@ -26,14 +36,17 @@
 12	due	due	ADP	IN	_	14	case	_	start_char=119|end_char=122
 13	to	to	ADP	IN	_	12	fixed	_	start_char=123|end_char=125
 14	things	thing	NOUN	NNS	Number=Plur	5	obl	_	start_char=126|end_char=132
-15	like	like	ADP	IN	_	17	case	_	start_char=133|end_char=137
-16	formatting	format	NOUN	NN	Number=Sing	17	compound	_	start_char=138|end_char=148
-17	issues	issue	NOUN	NNS	Number=Plur	14	nmod	_	start_char=149|end_char=155
+15	like	like	ADP	IN	_	16	mark	_	start_char=133|end_char=137
+16	formatting	format	VERB	VBG	VerbForm=Ger	14	acl	_	start_char=138|end_char=148
+17	issues	issue	NOUN	NNS	Number=Plur	16	obj	_	start_char=149|end_char=155
 18	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	start_char=156|end_char=160
 19	sometimes	sometimes	ADV	RB	_	20	advmod	_	start_char=161|end_char=170
-20	occur	occur	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=171|end_char=176
+20	occur	occur	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=171|end_char=176
 21	.	.	PUNCT	.	_	3	punct	_	start_char=176|end_char=177
 
+# text = Disappointingly, the free sample is only the forward.
+# sent_id = 3
+# sentiment = 1
 1	Disappointingly	disappointingly	ADV	RB	_	9	advmod	_	start_char=178|end_char=193
 2	,	,	PUNCT	,	_	9	punct	_	start_char=193|end_char=194
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=195|end_char=198
@@ -45,15 +58,21 @@
 9	forward	forward	ADJ	JJ	Degree=Pos	0	root	_	start_char=223|end_char=230
 10	.	.	PUNCT	.	_	9	punct	_	start_char=230|end_char=231
 
+# text = Not even one page of the book.
+# sent_id = 4
+# sentiment = 1
 1	Not	not	PART	RB	_	4	advmod	_	start_char=232|end_char=235
 2	even	even	ADV	RB	_	4	advmod	_	start_char=236|end_char=240
-3	one	one	NUM	CD	NumType=Card	4	nummod	_	start_char=241|end_char=244
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=241|end_char=244
 4	page	page	NOUN	NN	Number=Sing	0	root	_	start_char=245|end_char=249
 5	of	of	ADP	IN	_	7	case	_	start_char=250|end_char=252
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=253|end_char=256
 7	book	book	NOUN	NN	Number=Sing	4	nmod	_	start_char=257|end_char=261
 8	.	.	PUNCT	.	_	4	punct	_	start_char=261|end_char=262
 
+# text = The price is not bad in comparison to some Kindle editions, but the sample definitely didn't let me check out the book at all.
+# sent_id = 5
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=263|end_char=266
 2	price	price	NOUN	NN	Number=Sing	5	nsubj	_	start_char=267|end_char=272
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=273|end_char=275
@@ -70,7 +89,7 @@
 14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=327|end_char=330
 15	sample	sample	NOUN	NN	Number=Sing	19	nsubj	_	start_char=331|end_char=337
 16	definitely	definitely	ADV	RB	_	19	advmod	_	start_char=338|end_char=348
-17	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	start_char=349|end_char=352
+17	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	start_char=349|end_char=352
 18	n't	not	PART	RB	_	19	advmod	_	start_char=352|end_char=355
 19	let	let	VERB	VB	VerbForm=Inf	5	conj	_	start_char=356|end_char=359
 20	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	start_char=360|end_char=362

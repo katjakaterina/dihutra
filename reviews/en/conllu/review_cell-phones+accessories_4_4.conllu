@@ -1,8 +1,14 @@
+# text = Cute!
+# sent_id = 0
+# sentiment = 1
 1	Cute	cute	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=4
 2	!	!	PUNCT	.	_	1	punct	_	start_char=4|end_char=5
 
+# text = Item arrived in great time and was in perfect condition.
+# sent_id = 1
+# sentiment = 2
 1	Item	item	NOUN	NN	Number=Sing	2	nsubj	_	start_char=6|end_char=10
-2	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=11|end_char=18
+2	arrived	arrive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=11|end_char=18
 3	in	in	ADP	IN	_	5	case	_	start_char=19|end_char=21
 4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	start_char=22|end_char=27
 5	time	time	NOUN	NN	Number=Sing	2	obl	_	start_char=28|end_char=32
@@ -13,35 +19,44 @@
 10	condition	condition	NOUN	NN	Number=Sing	2	conj	_	start_char=52|end_char=61
 11	.	.	PUNCT	.	_	2	punct	_	start_char=61|end_char=62
 
+# text = However, I ordered these buttons because they were a great deal and included a FREE screen protector.
+# sent_id = 2
+# sentiment = 1
 1	However	however	ADV	RB	_	4	advmod	_	start_char=63|end_char=70
 2	,	,	PUNCT	,	_	4	punct	_	start_char=70|end_char=71
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=72|end_char=73
-4	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=81
+4	ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=74|end_char=81
 5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=82|end_char=87
 6	buttons	button	NOUN	NNS	Number=Plur	4	obj	_	start_char=88|end_char=95
 7	because	because	SCONJ	IN	_	12	mark	_	start_char=96|end_char=103
 8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=104|end_char=108
-9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	start_char=109|end_char=113
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	start_char=109|end_char=113
 10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=114|end_char=115
 11	great	great	ADJ	JJ	Degree=Pos	12	amod	_	start_char=116|end_char=121
 12	deal	deal	NOUN	NN	Number=Sing	4	advcl	_	start_char=122|end_char=126
 13	and	and	CCONJ	CC	_	14	cc	_	start_char=127|end_char=130
-14	included	include	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	start_char=131|end_char=139
+14	included	include	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	start_char=131|end_char=139
 15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=140|end_char=141
 16	FREE	free	ADJ	JJ	Degree=Pos	18	amod	_	start_char=142|end_char=146
 17	screen	screen	NOUN	NN	Number=Sing	18	compound	_	start_char=147|end_char=153
 18	protector	protector	NOUN	NN	Number=Sing	14	obj	_	start_char=154|end_char=163
 19	.	.	PUNCT	.	_	4	punct	_	start_char=163|end_char=164
 
+# text = I never received one.
+# sent_id = 3
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=165|end_char=166
 2	never	never	ADV	RB	_	3	advmod	_	start_char=167|end_char=172
-3	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=173|end_char=181
-4	one	one	NUM	CD	NumType=Card	3	obj	_	start_char=182|end_char=185
+3	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=173|end_char=181
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	obj	_	start_char=182|end_char=185
 5	.	.	PUNCT	.	_	3	punct	_	start_char=185|end_char=186
 
+# text = Though its not a big deal, it would've been nice to get it since they claim it comes with one.
+# sent_id = 4
+# sentiment = 0
 1	Though	though	SCONJ	IN	_	6	mark	_	start_char=187|end_char=193
-2	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=194|end_char=197
-3	not	not	ADV	RB	_	6	advmod	_	start_char=198|end_char=201
+2	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=194|end_char=197
+3	not	not	PART	RB	_	6	advmod	_	start_char=198|end_char=201
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=202|end_char=203
 5	big	big	ADJ	JJ	Degree=Pos	6	amod	_	start_char=204|end_char=207
 6	deal	deal	NOUN	NN	Number=Sing	12	advcl	_	start_char=208|end_char=212
@@ -56,10 +71,10 @@
 15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=243|end_char=245
 16	since	since	SCONJ	IN	_	18	mark	_	start_char=246|end_char=251
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=252|end_char=256
-18	claim	claim	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=257|end_char=262
+18	claim	claim	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=257|end_char=262
 19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=263|end_char=265
 20	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	start_char=266|end_char=271
 21	with	with	ADP	IN	_	22	case	_	start_char=272|end_char=276
-22	one	one	NUM	CD	NumType=Card	20	obl	_	start_char=277|end_char=280
+22	one	one	NUM	CD	NumForm=Word|NumType=Card	20	obl	_	start_char=277|end_char=280
 23	.	.	PUNCT	.	_	12	punct	_	start_char=280|end_char=281
 

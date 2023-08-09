@@ -1,11 +1,17 @@
+# text = These are my favorite candies ever!
+# sent_id = 0
+# sentiment = 2
 1	These	this	PRON	DT	Number=Plur|PronType=Dem	5	nsubj	_	start_char=0|end_char=5
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6|end_char=9
-3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=10|end_char=12
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=6|end_char=9
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=10|end_char=12
 4	favorite	favorite	ADJ	JJ	Degree=Pos	5	amod	_	start_char=13|end_char=21
 5	candies	candy	NOUN	NNS	Number=Plur	0	root	_	start_char=22|end_char=29
 6	ever	ever	ADV	RB	_	5	advmod	_	start_char=30|end_char=34
 7	!	!	PUNCT	.	_	5	punct	_	start_char=34|end_char=35
 
+# text = After hearing mixed opinions about these Kit Kats, I decided to try them.
+# sent_id = 1
+# sentiment = 1
 1	After	after	SCONJ	IN	_	2	mark	_	start_char=36|end_char=41
 2	hearing	hear	VERB	VBG	VerbForm=Ger	11	advcl	_	start_char=42|end_char=49
 3	mixed	mix	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	start_char=50|end_char=55
@@ -13,22 +19,25 @@
 5	about	about	ADP	IN	_	8	case	_	start_char=65|end_char=70
 6	these	this	DET	DT	Number=Plur|PronType=Dem	8	det	_	start_char=71|end_char=76
 7	Kit	Kit	PROPN	NNP	Number=Sing	8	compound	_	start_char=77|end_char=80
-8	Kats	Kat	PROPN	NNP	Number=Plur	4	nmod	_	start_char=81|end_char=85
-9	,	,	PUNCT	,	_	11	punct	_	start_char=85|end_char=86
+8	Kats	Kat	PROPN	NNP	Number=Sing	4	nmod	_	start_char=81|end_char=85
+9	,	,	PUNCT	,	_	2	punct	_	start_char=85|end_char=86
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=87|end_char=88
-11	decided	decide	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=89|end_char=96
+11	decided	decide	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=89|end_char=96
 12	to	to	PART	TO	_	13	mark	_	start_char=97|end_char=99
 13	try	try	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=100|end_char=103
 14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	start_char=104|end_char=108
 15	.	.	PUNCT	.	_	11	punct	_	start_char=108|end_char=109
 
+# text = They are excellent, and I do not regret purchasing them at all.
+# sent_id = 2
+# sentiment = 1
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=110|end_char=114
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=115|end_char=118
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=115|end_char=118
 3	excellent	excellent	ADJ	JJ	Degree=Pos	0	root	_	start_char=119|end_char=128
 4	,	,	PUNCT	,	_	9	punct	_	start_char=128|end_char=129
 5	and	and	CCONJ	CC	_	9	cc	_	start_char=130|end_char=133
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=134|end_char=135
-7	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=136|end_char=138
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=136|end_char=138
 8	not	not	PART	RB	_	9	advmod	_	start_char=139|end_char=142
 9	regret	regret	VERB	VB	VerbForm=Inf	3	conj	_	start_char=143|end_char=149
 10	purchasing	purchase	VERB	VBG	VerbForm=Ger	9	xcomp	_	start_char=150|end_char=160
@@ -37,6 +46,9 @@
 13	all	all	DET	DT	_	10	obl	_	start_char=169|end_char=172
 14	.	.	PUNCT	.	_	3	punct	_	start_char=172|end_char=173
 
+# text = They taste like matcha with a bit of a vanilla and milky flavor as well.
+# sent_id = 3
+# sentiment = 2
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=174|end_char=178
 2	taste	taste	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=179|end_char=184
 3	like	like	ADP	IN	_	4	case	_	start_char=185|end_char=189
@@ -54,8 +66,11 @@
 15	well	well	ADV	RB	Degree=Pos	14	fixed	_	start_char=241|end_char=245
 16	.	.	PUNCT	.	_	2	punct	_	start_char=245|end_char=246
 
+# text = They are not too sweet or too plain.
+# sent_id = 4
+# sentiment = 1
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=247|end_char=251
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=252|end_char=255
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=252|end_char=255
 3	not	not	PART	RB	_	5	advmod	_	start_char=256|end_char=259
 4	too	too	ADV	RB	_	5	advmod	_	start_char=260|end_char=263
 5	sweet	sweet	ADJ	JJ	Degree=Pos	0	root	_	start_char=264|end_char=269
@@ -64,14 +79,17 @@
 8	plain	plain	ADJ	JJ	Degree=Pos	5	conj	_	start_char=277|end_char=282
 9	.	.	PUNCT	.	_	5	punct	_	start_char=282|end_char=283
 
+# text = These are the best Kit Kats I've ever had, and I would recommend them to anyone who likes matcha-flavored candies or anyone wanting to try an unusual kind of Kit Kat.
+# sent_id = 5
+# sentiment = 2
 1	These	this	PRON	DT	Number=Plur|PronType=Dem	6	nsubj	_	start_char=284|end_char=289
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=290|end_char=293
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=290|end_char=293
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=294|end_char=297
 4	best	good	ADJ	JJS	Degree=Sup	6	amod	_	start_char=298|end_char=302
 5	Kit	Kit	PROPN	NNP	Number=Sing	6	compound	_	start_char=303|end_char=306
-6	Kats	Kat	PROPN	NNP	Number=Plur	0	root	_	start_char=307|end_char=311
+6	Kats	Kat	PROPN	NNP	Number=Sing	0	root	_	start_char=307|end_char=311
 7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=312|end_char=313
-8	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=313|end_char=316
+8	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=313|end_char=316
 9	ever	ever	ADV	RB	_	10	advmod	_	start_char=317|end_char=321
 10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	start_char=322|end_char=325
 11	,	,	PUNCT	,	_	15	punct	_	start_char=325|end_char=326
@@ -81,21 +99,23 @@
 15	recommend	recommend	VERB	VB	VerbForm=Inf	6	conj	_	start_char=339|end_char=348
 16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	start_char=349|end_char=353
 17	to	to	ADP	IN	_	18	case	_	start_char=354|end_char=356
-18	anyone	anyone	PRON	NN	Number=Sing	15	obl	_	start_char=357|end_char=363
+18	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	15	obl	_	start_char=357|end_char=363
 19	who	who	PRON	WP	PronType=Rel	20	nsubj	_	start_char=364|end_char=367
 20	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	start_char=368|end_char=373
-21	matcha-flavored	matcha-flavored	ADJ	JJ	Degree=Pos	22	amod	_	start_char=374|end_char=389
-22	candies	candy	NOUN	NNS	Number=Plur	20	obj	_	start_char=390|end_char=397
-23	or	or	CCONJ	CC	_	24	cc	_	start_char=398|end_char=400
-24	anyone	anyone	PRON	NN	Number=Sing	22	conj	_	start_char=401|end_char=407
-25	wanting	want	VERB	VBG	VerbForm=Ger	24	acl	_	start_char=408|end_char=415
-26	to	to	PART	TO	_	27	mark	_	start_char=416|end_char=418
-27	try	try	VERB	VB	VerbForm=Inf	25	xcomp	_	start_char=419|end_char=422
-28	an	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	start_char=423|end_char=425
-29	unusual	unusual	ADJ	JJ	Degree=Pos	30	amod	_	start_char=426|end_char=433
-30	kind	kind	NOUN	NN	Number=Sing	27	obj	_	start_char=434|end_char=438
-31	of	of	ADP	IN	_	33	case	_	start_char=439|end_char=441
-32	Kit	Kit	PROPN	NNP	Number=Sing	33	compound	_	start_char=442|end_char=445
-33	Kat	Kat	PROPN	NNP	Number=Sing	30	nmod	_	start_char=446|end_char=449
-34	.	.	PUNCT	.	_	6	punct	_	start_char=449|end_char=450
+21	matcha	matcha	NOUN	NN	Number=Sing	23	compound	_	start_char=374|end_char=380
+22	-	-	PUNCT	HYPH	_	21	punct	_	start_char=380|end_char=381
+23	flavored	flavor	VERB	VBN	Tense=Past|VerbForm=Part	24	amod	_	start_char=381|end_char=389
+24	candies	candy	NOUN	NNS	Number=Plur	20	obj	_	start_char=390|end_char=397
+25	or	or	CCONJ	CC	_	26	cc	_	start_char=398|end_char=400
+26	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	18	conj	_	start_char=401|end_char=407
+27	wanting	want	VERB	VBG	VerbForm=Ger	26	acl	_	start_char=408|end_char=415
+28	to	to	PART	TO	_	29	mark	_	start_char=416|end_char=418
+29	try	try	VERB	VB	VerbForm=Inf	27	xcomp	_	start_char=419|end_char=422
+30	an	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	start_char=423|end_char=425
+31	unusual	unusual	ADJ	JJ	Degree=Pos	32	amod	_	start_char=426|end_char=433
+32	kind	kind	NOUN	NN	Number=Sing	29	obj	_	start_char=434|end_char=438
+33	of	of	ADP	IN	_	34	case	_	start_char=439|end_char=441
+34	Kit	Kit	PROPN	NNP	Number=Sing	32	nmod	_	start_char=442|end_char=445
+35	Kat	Kat	PROPN	NNP	Number=Sing	34	flat	_	start_char=446|end_char=449
+36	.	.	PUNCT	.	_	6	punct	_	start_char=449|end_char=450
 

@@ -1,0 +1,80 @@
+# text = Отличный продукт Это потрясающая вещь.
+# sent_id = 0
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=9|end_char=16
+3	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	expl	_	start_char=17|end_char=20
+4	потрясающая	потрясающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=21|end_char=32
+5	вещь	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=33|end_char=37
+6	.	.	PUNCT	_	_	5	punct	_	start_char=37|end_char=38
+
+# text = Отличный продукт.
+# sent_id = 1
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=39|end_char=47
+2	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=48|end_char=55
+3	.	.	PUNCT	_	_	2	punct	_	start_char=55|end_char=56
+
+# text = Подводка для глаз и тушь держатся весь день и ночь...
+# sent_id = 2
+1	Подводка	подводка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=57|end_char=65
+2	для	для	ADP	_	_	3	case	_	start_char=66|end_char=69
+3	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=70|end_char=74
+4	и	и	CCONJ	_	_	5	cc	_	start_char=75|end_char=76
+5	тушь	тушь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=77|end_char=81
+6	держатся	держаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=82|end_char=90
+7	весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	8	det	_	start_char=91|end_char=95
+8	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=96|end_char=100
+9	и	и	CCONJ	_	_	10	cc	_	start_char=101|end_char=102
+10	ночь	ночь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	start_char=103|end_char=107
+11	.	.	PUNCT	_	_	10	punct	_	start_char=107|end_char=108
+12	.	.	PUNCT	_	_	10	punct	_	start_char=108|end_char=109
+13	.	.	PUNCT	_	_	6	punct	_	start_char=109|end_char=110
+
+# text = а если вы слишком сильно веселитесь и засыпаете в макияже...
+# sent_id = 3
+1	а	а	CCONJ	_	_	6	cc	_	start_char=111|end_char=112
+2	если	если	SCONJ	_	_	6	mark	_	start_char=113|end_char=117
+3	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	start_char=118|end_char=120
+4	слишком	слишком	ADV	_	Degree=Pos	5	advmod	_	start_char=121|end_char=128
+5	сильно	сильно	ADV	_	Degree=Pos	6	advmod	_	start_char=129|end_char=135
+6	веселитесь	веселиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=136|end_char=146
+7	и	и	CCONJ	_	_	8	cc	_	start_char=147|end_char=148
+8	засыпаете	засыпать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=149|end_char=158
+9	в	в	ADP	_	_	10	case	_	start_char=159|end_char=160
+10	макияже	макияж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	start_char=161|end_char=168
+11	.	.	PUNCT	_	_	10	punct	_	start_char=168|end_char=169
+12	.	.	PUNCT	_	_	10	punct	_	start_char=169|end_char=170
+13	.	.	PUNCT	_	_	6	punct	_	start_char=170|end_char=171
+
+# text = можете быть уверены, что утром он все еще будет на месте!
+# sent_id = 4
+1	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=172|end_char=178
+2	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	cop	_	start_char=179|end_char=183
+3	уверены	уверенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	1	obl	_	start_char=184|end_char=191
+4	,	,	PUNCT	_	_	12	punct	_	start_char=191|end_char=192
+5	что	что	SCONJ	_	_	12	mark	_	start_char=193|end_char=196
+6	утром	утро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	start_char=197|end_char=202
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=203|end_char=205
+8	все	все	PART	_	_	9	advmod	_	start_char=206|end_char=209
+9	еще	еще	ADV	_	Degree=Pos	12	obl	_	start_char=210|end_char=213
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=214|end_char=219
+11	на	на	ADP	_	_	12	case	_	start_char=220|end_char=222
+12	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	ccomp	_	start_char=223|end_char=228
+13	!	!	PUNCT	_	_	1	punct	_	start_char=228|end_char=229
+
+# text = Идеально подходит для точечного нанесения под глаза и довольно эффективно держится на помаде.
+# sent_id = 5
+1	Идеально	идеально	ADV	_	Degree=Pos	2	advmod	_	start_char=230|end_char=238
+2	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=239|end_char=247
+3	для	для	ADP	_	_	5	case	_	start_char=248|end_char=251
+4	точечного	точечный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=252|end_char=261
+5	нанесения	нанесение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=262|end_char=271
+6	под	под	ADP	_	_	7	case	_	start_char=272|end_char=275
+7	глаза	глаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	start_char=276|end_char=281
+8	и	и	CCONJ	_	_	11	cc	_	start_char=282|end_char=283
+9	довольно	довольно	ADV	_	Degree=Pos	10	advmod	_	start_char=284|end_char=292
+10	эффективно	эффективно	ADV	_	Degree=Pos	11	advmod	_	start_char=293|end_char=303
+11	держится	держаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=304|end_char=312
+12	на	на	ADP	_	_	13	case	_	start_char=313|end_char=315
+13	помаде	помад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=316|end_char=322
+14	.	.	PUNCT	_	_	2	punct	_	start_char=322|end_char=323
+

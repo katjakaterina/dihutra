@@ -1,0 +1,81 @@
+# text = Потрясающе!
+# sent_id = 0
+1	Потрясающе	потрясающий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=10
+2	!	!	PUNCT	_	_	1	punct	_	start_char=10|end_char=11
+
+# text = Я заказала их летом, поэтому они, конечно, пришли подтаявшими, но после поездки в морозилку они снова стали потрясающими.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=12|end_char=13
+2	заказала	заказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=14|end_char=22
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=23|end_char=25
+4	летом	лето	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	start_char=26|end_char=31
+5	,	,	PUNCT	_	_	11	punct	_	start_char=31|end_char=32
+6	поэтому	поэтому	ADV	_	Degree=Pos	11	advmod	_	start_char=33|end_char=40
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	start_char=41|end_char=44
+8	,	,	PUNCT	_	_	7	punct	_	start_char=44|end_char=45
+9	конечно	конечно	ADV	_	Degree=Pos	11	parataxis	_	start_char=46|end_char=53
+10	,	,	PUNCT	_	_	9	punct	_	start_char=53|end_char=54
+11	пришли	прийти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=55|end_char=61
+12	подтаявшими	подтаять	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	xcomp	_	start_char=62|end_char=73
+13	,	,	PUNCT	_	_	21	punct	_	start_char=73|end_char=74
+14	но	но	CCONJ	_	_	21	cc	_	start_char=75|end_char=77
+15	после	после	ADP	_	_	16	case	_	start_char=78|end_char=83
+16	поездки	поездка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	start_char=84|end_char=91
+17	в	в	ADP	_	_	18	case	_	start_char=92|end_char=93
+18	морозилку	морозилка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	start_char=94|end_char=103
+19	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	start_char=104|end_char=107
+20	снова	снова	ADV	_	Degree=Pos	21	advmod	_	start_char=108|end_char=113
+21	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=114|end_char=119
+22	потрясающими	потрясающий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	obl	_	start_char=120|end_char=132
+23	.	.	PUNCT	_	_	2	punct	_	start_char=132|end_char=133
+
+# text = Просто заказывайте их в прохладное время года, и вы получите их в хорошем состоянии.
+# sent_id = 2
+1	Просто	просто	PART	_	_	2	advmod	_	start_char=134|end_char=140
+2	заказывайте	заказывать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=141|end_char=152
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=153|end_char=155
+4	в	в	ADP	_	_	6	case	_	start_char=156|end_char=157
+5	прохладное	прохладный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=158|end_char=168
+6	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=169|end_char=174
+7	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=175|end_char=179
+8	,	,	PUNCT	_	_	11	punct	_	start_char=179|end_char=180
+9	и	и	CCONJ	_	_	11	cc	_	start_char=181|end_char=182
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	start_char=183|end_char=185
+11	получите	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	start_char=186|end_char=194
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=195|end_char=197
+13	в	в	ADP	_	_	15	case	_	start_char=198|end_char=199
+14	хорошем	хороший	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=200|end_char=207
+15	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	start_char=208|end_char=217
+16	.	.	PUNCT	_	_	2	punct	_	start_char=217|end_char=218
+
+# text = Я люблю их гораздо больше, чем обычные шоколадные батончики Kit-Kat.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=219|end_char=220
+2	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=221|end_char=226
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=227|end_char=229
+4	гораздо	гораздо	ADV	_	Degree=Pos	5	advmod	_	start_char=230|end_char=237
+5	больше	больше	ADV	_	Degree=Cmp	2	advmod	_	start_char=238|end_char=244
+6	,	,	PUNCT	_	_	10	punct	_	start_char=244|end_char=245
+7	чем	чем	SCONJ	_	_	10	mark	_	start_char=246|end_char=249
+8	обычные	обычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=250|end_char=257
+9	шоколадные	шоколадный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=258|end_char=268
+10	батончики	батончик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	advcl	_	start_char=269|end_char=278
+11	Kit-Kat	Kit-Kat	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=279|end_char=286
+12	.	.	PUNCT	_	_	2	punct	_	start_char=286|end_char=287
+
+# text = Я надеюсь, что когда-нибудь они появятся на полках магазинов в США.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=288|end_char=289
+2	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=290|end_char=297
+3	,	,	PUNCT	_	_	7	punct	_	start_char=297|end_char=298
+4	что	что	SCONJ	_	_	7	mark	_	start_char=299|end_char=302
+5	когда-нибудь	когда-нибудь	ADV	_	Degree=Pos	7	advmod	_	start_char=303|end_char=315
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=316|end_char=319
+7	появятся	появиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	ccomp	_	start_char=320|end_char=328
+8	на	на	ADP	_	_	9	case	_	start_char=329|end_char=331
+9	полках	полках	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	start_char=332|end_char=338
+10	магазинов	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=339|end_char=348
+11	в	в	ADP	_	_	12	case	_	start_char=349|end_char=350
+12	США	США	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	10	nmod	_	start_char=351|end_char=354
+13	.	.	PUNCT	_	_	2	punct	_	start_char=354|end_char=355
+

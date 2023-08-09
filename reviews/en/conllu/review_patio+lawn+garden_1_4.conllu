@@ -1,3 +1,6 @@
+# text = Great Hoses Good USA company that stands behind their products.
+# sent_id = 0
+# sentiment = 1
 1	Great	great	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=5
 2	Hoses	hose	NOUN	NNS	Number=Plur	0	root	_	start_char=6|end_char=11
 3	Good	good	ADJ	JJ	Degree=Pos	5	amod	_	start_char=12|end_char=16
@@ -6,30 +9,36 @@
 6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=29|end_char=33
 7	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=34|end_char=40
 8	behind	behind	ADP	IN	_	10	case	_	start_char=41|end_char=47
-9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=48|end_char=53
+9	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=48|end_char=53
 10	products	product	NOUN	NNS	Number=Plur	7	obl	_	start_char=54|end_char=62
 11	.	.	PUNCT	.	_	2	punct	_	start_char=62|end_char=63
 
+# text = I have had to warranty two hoses and they send replacements right out to you.
+# sent_id = 1
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=64|end_char=65
-2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=66|end_char=70
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=66|end_char=70
 3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=71|end_char=74
 4	to	to	PART	TO	_	5	mark	_	start_char=75|end_char=77
 5	warranty	warranty	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=78|end_char=86
-6	two	two	NUM	CD	NumType=Card	7	nummod	_	start_char=87|end_char=90
+6	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=87|end_char=90
 7	hoses	hose	NOUN	NNS	Number=Plur	5	obj	_	start_char=91|end_char=96
 8	and	and	CCONJ	CC	_	10	cc	_	start_char=97|end_char=100
 9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=101|end_char=105
-10	send	send	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=106|end_char=110
+10	send	send	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=106|end_char=110
 11	replacements	replacement	NOUN	NNS	Number=Plur	10	obj	_	start_char=111|end_char=123
 12	right	right	ADV	RB	_	13	advmod	_	start_char=124|end_char=129
-13	out	out	ADP	RP	_	10	compound:prt	_	start_char=130|end_char=133
+13	out	out	ADV	RB	_	10	advmod	_	start_char=130|end_char=133
 14	to	to	ADP	IN	_	15	case	_	start_char=134|end_char=136
 15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	obl	_	start_char=137|end_char=140
 16	.	.	PUNCT	.	_	3	punct	_	start_char=140|end_char=141
 
+# text = I had one burst after awhile, you could see it buldge for weeks before it went so no suprises.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=142|end_char=143
-2	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=144|end_char=147
-3	one	one	NUM	CD	NumType=Card	4	nummod	_	start_char=148|end_char=151
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=144|end_char=147
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=148|end_char=151
 4	burst	burst	NOUN	NN	Number=Sing	2	obj	_	start_char=152|end_char=157
 5	after	after	ADP	IN	_	6	case	_	start_char=158|end_char=163
 6	awhile	awhile	ADV	RB	_	2	obl	_	start_char=164|end_char=170
@@ -38,17 +47,20 @@
 9	could	could	AUX	MD	VerbForm=Fin	10	aux	_	start_char=176|end_char=181
 10	see	see	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=182|end_char=185
 11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=186|end_char=188
-12	buldge	buldge	ADV	RB	_	10	advmod	_	start_char=189|end_char=195
+12	buldge	buldge	NOUN	NN	Number=Sing	10	obj	_	start_char=189|end_char=195
 13	for	for	ADP	IN	_	14	case	_	start_char=196|end_char=199
 14	weeks	week	NOUN	NNS	Number=Plur	10	obl	_	start_char=200|end_char=205
 15	before	before	SCONJ	IN	_	17	mark	_	start_char=206|end_char=212
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=213|end_char=215
-17	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	start_char=216|end_char=220
+17	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	start_char=216|end_char=220
 18	so	so	ADV	RB	_	20	advmod	_	start_char=221|end_char=223
 19	no	no	DET	DT	_	20	det	_	start_char=224|end_char=226
 20	suprises	suprise	NOUN	NNS	Number=Plur	17	obj	_	start_char=227|end_char=235
 21	.	.	PUNCT	.	_	2	punct	_	start_char=235|end_char=236
 
+# text = The other one was winter related as I am bad and leave them out most of the time.
+# sent_id = 3
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=237|end_char=240
 2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	start_char=241|end_char=246
 3	one	one	NOUN	NN	Number=Sing	6	nsubj	_	start_char=247|end_char=250
@@ -60,22 +72,28 @@
 9	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=275|end_char=277
 10	bad	bad	ADJ	JJ	Degree=Pos	6	advcl	_	start_char=278|end_char=281
 11	and	and	CCONJ	CC	_	12	cc	_	start_char=282|end_char=285
-12	leave	leave	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=286|end_char=291
+12	leave	leave	VERB	VB	VerbForm=Inf	6	conj	_	start_char=286|end_char=291
 13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	start_char=292|end_char=296
 14	out	out	ADP	RP	_	12	compound:prt	_	start_char=297|end_char=300
-15	most	most	ADJ	JJS	Degree=Sup	12	obj	_	start_char=301|end_char=305
+15	most	most	ADJ	JJS	Degree=Sup	12	obl:tmod	_	start_char=301|end_char=305
 16	of	of	ADP	IN	_	18	case	_	start_char=306|end_char=308
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=309|end_char=312
 18	time	time	NOUN	NN	Number=Sing	15	nmod	_	start_char=313|end_char=317
 19	.	.	PUNCT	.	_	6	punct	_	start_char=317|end_char=318
 
+# text = Highly reccomend.
+# sent_id = 4
+# sentiment = 1
 1	Highly	highly	ADV	RB	_	2	advmod	_	start_char=319|end_char=325
-2	reccomend	recommend	VERB	VB	VerbForm=Fin	0	root	_	start_char=326|end_char=335
+2	reccomend	recommend	ADJ	JJ	Degree=Pos	0	root	_	start_char=326|end_char=335
 3	.	.	PUNCT	.	_	2	punct	_	start_char=335|end_char=336
 
+# text = Note the hundred footer is heavy and like wresting an anaconda when its time to put away, but it does have a far reach.
+# sent_id = 5
+# sentiment = 1
 1	Note	note	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=337|end_char=341
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=342|end_char=345
-3	hundred	hundred	NUM	CD	NumType=Card	4	nummod	_	start_char=346|end_char=353
+3	hundred	hundred	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=346|end_char=353
 4	footer	footer	NOUN	NN	Number=Sing	6	nsubj	_	start_char=354|end_char=360
 5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=361|end_char=363
 6	heavy	heavy	ADJ	JJ	Degree=Pos	1	ccomp	_	start_char=364|end_char=369
@@ -84,11 +102,11 @@
 9	wresting	wrest	VERB	VBG	VerbForm=Ger	6	conj	_	start_char=379|end_char=387
 10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=388|end_char=390
 11	anaconda	anaconda	NOUN	NN	Number=Sing	9	obj	_	start_char=391|end_char=399
-12	when	when	SCONJ	WRB	PronType=Int	16	mark	_	start_char=400|end_char=404
-13	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=405|end_char=408
-14	time	time	NOUN	NN	Number=Sing	9	obl	_	start_char=409|end_char=413
+12	when	when	ADV	WRB	PronType=Int	16	advmod	_	start_char=400|end_char=404
+13	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=405|end_char=408
+14	time	time	NOUN	NN	Number=Sing	16	nsubj	_	start_char=409|end_char=413
 15	to	to	PART	TO	_	16	mark	_	start_char=414|end_char=416
-16	put	put	VERB	VB	VerbForm=Inf	14	acl	_	start_char=417|end_char=420
+16	put	put	VERB	VB	VerbForm=Inf	9	advcl	_	start_char=417|end_char=420
 17	away	away	ADV	RB	_	16	advmod	_	start_char=421|end_char=425
 18	,	,	PUNCT	,	_	22	punct	_	start_char=425|end_char=426
 19	but	but	CCONJ	CC	_	22	cc	_	start_char=427|end_char=430

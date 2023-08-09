@@ -1,15 +1,24 @@
+# text = Every
+# sent_id = 0
+# sentiment = 1
 1	Every	every	DET	DT	_	0	root	_	start_char=0|end_char=5
 
+# text = Cat owner's must have manual
+# sent_id = 1
+# sentiment = 1
 1	Cat	cat	NOUN	NN	Number=Sing	2	compound	_	start_char=6|end_char=9
-2	owner	owner	NOUN	NN	Number=Sing	5	nsubj	_	start_char=10|end_char=15
+2	owner	owner	NOUN	NN	Number=Sing	6	nsubj	_	start_char=10|end_char=15
 3	's	's	PART	POS	_	2	case	_	start_char=15|end_char=17
-4	must	must	AUX	MD	VerbForm=Fin	5	aux	_	start_char=18|end_char=22
-5	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=23|end_char=27
-6	manual	manual	NOUN	NN	Number=Sing	5	obj	_	start_char=28|end_char=34
+4	must	must	AUX	MD	VerbForm=Fin	6	aux	_	start_char=18|end_char=22
+5	have	have	AUX	VB	VerbForm=Inf	6	aux	_	start_char=23|end_char=27
+6	manual	manual	NOUN	NN	Number=Sing	0	root	_	start_char=28|end_char=34
 
+# text = If you are a cat owner, or looking for a gift for a cat lover, this is your book!
+# sent_id = 2
+# sentiment = 1
 1	If	if	SCONJ	IN	_	6	mark	_	start_char=35|end_char=37
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	start_char=38|end_char=41
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=42|end_char=45
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=42|end_char=45
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=46|end_char=47
 5	cat	cat	NOUN	NN	Number=Sing	6	compound	_	start_char=48|end_char=51
 6	owner	owner	NOUN	NN	Number=Sing	21	advcl	_	start_char=52|end_char=57
@@ -23,16 +32,19 @@
 14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	start_char=85|end_char=86
 15	cat	cat	NOUN	NN	Number=Sing	16	compound	_	start_char=87|end_char=90
 16	lover	lover	NOUN	NN	Number=Sing	12	nmod	_	start_char=91|end_char=96
-17	,	,	PUNCT	,	_	21	punct	_	start_char=96|end_char=97
+17	,	,	PUNCT	,	_	6	punct	_	start_char=96|end_char=97
 18	this	this	PRON	DT	Number=Sing|PronType=Dem	21	nsubj	_	start_char=99|end_char=103
 19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=104|end_char=106
-20	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=107|end_char=111
+20	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=107|end_char=111
 21	book	book	NOUN	NN	Number=Sing	0	root	_	start_char=112|end_char=116
 22	!	!	PUNCT	.	_	21	punct	_	start_char=116|end_char=117
 
-1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=118|end_char=121
+# text = Its an opportunity to document all the important moments of the cat's life and in the process, the illustrations and narrative makes it a lot of fun!
+# sent_id = 3
+# sentiment = 2
+1	Its	its	PRON	PRP	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=118|end_char=121
 2	an	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=122|end_char=124
-3	opportunity	opportunity	NOUN	NN	Number=Sing	24	nsubj	_	start_char=125|end_char=136
+3	opportunity	opportunity	NOUN	NN	Number=Sing	0	root	_	start_char=125|end_char=136
 4	to	to	PART	TO	_	5	mark	_	start_char=137|end_char=139
 5	document	document	VERB	VB	VerbForm=Inf	3	acl	_	start_char=140|end_char=148
 6	all	all	DET	PDT	_	9	det:predet	_	start_char=149|end_char=152
@@ -44,31 +56,37 @@
 12	cat	cat	NOUN	NN	Number=Sing	14	nmod:poss	_	start_char=182|end_char=185
 13	's	's	PART	POS	_	12	case	_	start_char=185|end_char=187
 14	life	life	NOUN	NN	Number=Sing	9	nmod	_	start_char=188|end_char=192
-15	and	and	CCONJ	CC	_	18	cc	_	start_char=193|end_char=196
+15	and	and	CCONJ	CC	_	24	cc	_	start_char=193|end_char=196
 16	in	in	ADP	IN	_	18	case	_	start_char=197|end_char=199
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=200|end_char=203
-18	process	process	NOUN	NN	Number=Sing	14	conj	_	start_char=204|end_char=211
+18	process	process	NOUN	NN	Number=Sing	24	obl	_	start_char=204|end_char=211
 19	,	,	PUNCT	,	_	24	punct	_	start_char=211|end_char=212
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=213|end_char=216
 21	illustrations	illustration	NOUN	NNS	Number=Plur	24	nsubj	_	start_char=217|end_char=230
 22	and	and	CCONJ	CC	_	23	cc	_	start_char=231|end_char=234
 23	narrative	narrative	NOUN	NN	Number=Sing	21	conj	_	start_char=235|end_char=244
-24	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=245|end_char=250
+24	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=245|end_char=250
 25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	start_char=251|end_char=253
 26	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=254|end_char=255
 27	lot	lot	NOUN	NN	Number=Sing	24	xcomp	_	start_char=256|end_char=259
 28	of	of	ADP	IN	_	29	case	_	start_char=260|end_char=262
 29	fun	fun	NOUN	NN	Number=Sing	27	nmod	_	start_char=263|end_char=266
-30	!	!	PUNCT	.	_	24	punct	_	start_char=266|end_char=267
+30	!	!	PUNCT	.	_	3	punct	_	start_char=266|end_char=267
 
+# text = So if you have a cat?
+# sent_id = 4
+# sentiment = 1
 1	So	so	ADV	RB	_	4	advmod	_	start_char=268|end_char=270
 2	if	if	SCONJ	IN	_	4	mark	_	start_char=271|end_char=273
 3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=274|end_char=277
-4	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=278|end_char=282
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=278|end_char=282
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=283|end_char=284
 6	cat	cat	NOUN	NN	Number=Sing	4	obj	_	start_char=285|end_char=288
 7	?	?	PUNCT	.	_	4	punct	_	start_char=288|end_char=289
 
+# text = You must have this book!
+# sent_id = 5
+# sentiment = 1
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=290|end_char=293
 2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	start_char=294|end_char=298
 3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=299|end_char=303

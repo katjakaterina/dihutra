@@ -1,0 +1,66 @@
+# text = Сначала понравился Мне понравился чехол, когда я его только получил, но вскоре после этого чехол начал отслаиваться, сначала я не знал, что это такое, пока не посмотрел на заднюю часть чехла и не обнаружил, что на ней нет пятен.
+# sent_id = 0
+1	Сначала	сначала	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=7
+2	понравился	понравиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=8|end_char=18
+3	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	start_char=19|end_char=22
+4	понравился	понравиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=23|end_char=33
+5	чехол	чехол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=34|end_char=39
+6	,	,	PUNCT	_	_	11	punct	_	start_char=39|end_char=40
+7	когда	когда	SCONJ	_	_	11	mark	_	start_char=41|end_char=46
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=47|end_char=48
+9	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=49|end_char=52
+10	только	только	PART	_	_	11	advmod	_	start_char=53|end_char=59
+11	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=60|end_char=67
+12	,	,	PUNCT	_	_	18	punct	_	start_char=67|end_char=68
+13	но	но	CCONJ	_	_	18	cc	_	start_char=69|end_char=71
+14	вскоре	вскоре	ADV	_	Degree=Pos	18	advmod	_	start_char=72|end_char=78
+15	после	после	ADP	_	_	16	case	_	start_char=79|end_char=84
+16	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	start_char=85|end_char=90
+17	чехол	чехол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=91|end_char=96
+18	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=97|end_char=102
+19	отслаиваться	отслаиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	18	xcomp	_	start_char=103|end_char=115
+20	,	,	PUNCT	_	_	24	punct	_	start_char=115|end_char=116
+21	сначала	сначала	ADV	_	Degree=Pos	24	advmod	_	start_char=117|end_char=124
+22	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	start_char=125|end_char=126
+23	не	не	PART	_	_	24	advmod	_	start_char=127|end_char=129
+24	знал	знать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=130|end_char=134
+25	,	,	PUNCT	_	_	26	punct	_	start_char=134|end_char=135
+26	что	что	SCONJ	_	_	24	ccomp	_	start_char=136|end_char=139
+27	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	nsubj	_	start_char=140|end_char=143
+28	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	det	_	start_char=144|end_char=149
+29	,	,	PUNCT	_	_	32	punct	_	start_char=149|end_char=150
+30	пока	пока	SCONJ	_	_	32	mark	_	start_char=151|end_char=155
+31	не	не	PART	_	_	32	advmod	_	start_char=156|end_char=158
+32	посмотрел	смотреть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	advcl	_	start_char=159|end_char=168
+33	на	на	ADP	_	_	35	case	_	start_char=169|end_char=171
+34	заднюю	задний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=172|end_char=178
+35	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obl	_	start_char=179|end_char=184
+36	чехла	чехол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	start_char=185|end_char=190
+37	и	и	CCONJ	_	_	39	cc	_	start_char=191|end_char=192
+38	не	не	PART	_	_	39	advmod	_	start_char=193|end_char=195
+39	обнаружил	обнаружить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=196|end_char=205
+40	,	,	PUNCT	_	_	44	punct	_	start_char=205|end_char=206
+41	что	что	SCONJ	_	_	44	mark	_	start_char=207|end_char=210
+42	на	на	ADP	_	_	43	case	_	start_char=211|end_char=213
+43	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	obl	_	start_char=214|end_char=217
+44	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	ccomp	_	start_char=218|end_char=221
+45	пятен	пятно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	44	nsubj	_	start_char=222|end_char=227
+46	.	.	PUNCT	_	_	2	punct	_	start_char=227|end_char=228
+
+# text = Полагаю, что иногда хорошая сделка на самом деле не является хорошей сделкой.
+# sent_id = 1
+1	Полагаю	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=229|end_char=236
+2	,	,	PUNCT	_	_	11	punct	_	start_char=236|end_char=237
+3	что	что	SCONJ	_	_	11	mark	_	start_char=238|end_char=241
+4	иногда	иногда	ADV	_	Degree=Pos	11	advmod	_	start_char=242|end_char=248
+5	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=249|end_char=256
+6	сделка	сделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=257|end_char=263
+7	на	на	ADP	_	_	9	case	_	start_char=264|end_char=266
+8	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=267|end_char=272
+9	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	start_char=273|end_char=277
+10	не	не	PART	_	_	11	advmod	_	start_char=278|end_char=280
+11	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	ccomp	_	start_char=281|end_char=289
+12	хорошей	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=290|end_char=297
+13	сделкой	сделка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	start_char=298|end_char=305
+14	.	.	PUNCT	_	_	1	punct	_	start_char=305|end_char=306
+

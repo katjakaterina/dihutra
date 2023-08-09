@@ -1,6 +1,9 @@
+# text = If you're looking for a tiny printed novelty you'll love this I've always loved The Prophet and I've read it many times.
+# sent_id = 0
+# sentiment = 2
 1	If	if	SCONJ	IN	_	4	mark	_	start_char=0|end_char=2
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=3|end_char=6
-3	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6|end_char=9
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=6|end_char=9
 4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	start_char=10|end_char=17
 5	for	for	ADP	IN	_	9	case	_	start_char=18|end_char=21
 6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=22|end_char=23
@@ -12,24 +15,27 @@
 12	love	love	VERB	VB	VerbForm=Inf	0	root	_	start_char=52|end_char=56
 13	this	this	PRON	DT	Number=Sing|PronType=Dem	12	obj	_	start_char=57|end_char=61
 14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=62|end_char=63
-15	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=63|end_char=66
+15	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=63|end_char=66
 16	always	always	ADV	RB	_	17	advmod	_	start_char=67|end_char=73
-17	loved	love	VERB	VBN	Tense=Past|VerbForm=Part	12	ccomp	_	start_char=74|end_char=79
+17	loved	love	VERB	VBN	Tense=Past|VerbForm=Part	12	parataxis	_	start_char=74|end_char=79
 18	The	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=80|end_char=83
 19	Prophet	Prophet	PROPN	NNP	Number=Sing	17	obj	_	start_char=84|end_char=91
 20	and	and	CCONJ	CC	_	23	cc	_	start_char=92|end_char=95
 21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	start_char=96|end_char=97
-22	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=97|end_char=100
-23	read	read	VERB	VBN	Tense=Past|VerbForm=Part	17	conj	_	start_char=101|end_char=105
+22	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=97|end_char=100
+23	read	read	VERB	VBN	Tense=Past|VerbForm=Part	12	conj	_	start_char=101|end_char=105
 24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=106|end_char=108
 25	many	many	ADJ	JJ	Degree=Pos	26	amod	_	start_char=109|end_char=113
 26	times	time	NOUN	NNS	Number=Plur	23	obl:tmod	_	start_char=114|end_char=119
 27	.	.	PUNCT	.	_	12	punct	_	start_char=119|end_char=120
 
+# text = I gave away my last copy and was looking for a replacement.
+# sent_id = 1
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=121|end_char=122
-2	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=123|end_char=127
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=123|end_char=127
 3	away	away	ADP	RP	_	2	compound:prt	_	start_char=128|end_char=132
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=133|end_char=135
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=133|end_char=135
 5	last	last	ADJ	JJ	Degree=Pos	6	amod	_	start_char=136|end_char=140
 6	copy	copy	NOUN	NN	Number=Sing	2	obj	_	start_char=141|end_char=145
 7	and	and	CCONJ	CC	_	9	cc	_	start_char=146|end_char=149
@@ -40,11 +46,14 @@
 12	replacement	replacement	NOUN	NN	Number=Sing	9	obl	_	start_char=168|end_char=179
 13	.	.	PUNCT	.	_	2	punct	_	start_char=179|end_char=180
 
+# text = I purchased this copy only to find that it was a tiny novelty version of the book.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=181|end_char=182
-2	purchased	purchase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=183|end_char=192
+2	purchased	purchase	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=183|end_char=192
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=193|end_char=197
 4	copy	copy	NOUN	NN	Number=Sing	2	obj	_	start_char=198|end_char=202
-5	only	only	ADV	RB	_	2	advmod	_	start_char=203|end_char=207
+5	only	only	ADV	RB	_	7	advmod	_	start_char=203|end_char=207
 6	to	to	PART	TO	_	7	mark	_	start_char=208|end_char=210
 7	find	find	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=211|end_char=215
 8	that	that	SCONJ	IN	_	14	mark	_	start_char=216|end_char=220
@@ -59,17 +68,20 @@
 17	book	book	NOUN	NN	Number=Sing	14	nmod	_	start_char=258|end_char=262
 18	.	.	PUNCT	.	_	2	punct	_	start_char=262|end_char=263
 
+# text = If you're looking for something tiny to keep in your purse then this is for you.
+# sent_id = 3
+# sentiment = 2
 1	If	if	SCONJ	IN	_	4	mark	_	start_char=264|end_char=266
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=267|end_char=270
-3	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=270|end_char=273
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=270|end_char=273
 4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	start_char=274|end_char=281
 5	for	for	ADP	IN	_	6	case	_	start_char=282|end_char=285
-6	something	something	PRON	NN	Number=Sing	4	obl	_	start_char=286|end_char=295
+6	something	something	PRON	NN	Number=Sing|PronType=Ind	4	obl	_	start_char=286|end_char=295
 7	tiny	tiny	ADJ	JJ	Degree=Pos	6	amod	_	start_char=296|end_char=300
 8	to	to	PART	TO	_	9	mark	_	start_char=301|end_char=303
-9	keep	keep	VERB	VB	VerbForm=Inf	6	acl	_	start_char=304|end_char=308
+9	keep	keep	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=304|end_char=308
 10	in	in	ADP	IN	_	12	case	_	start_char=309|end_char=311
-11	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=312|end_char=316
+11	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=312|end_char=316
 12	purse	purse	NOUN	NN	Number=Sing	9	obl	_	start_char=317|end_char=322
 13	then	then	ADV	RB	PronType=Dem	17	advmod	_	start_char=323|end_char=327
 14	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	start_char=328|end_char=332
@@ -78,9 +90,12 @@
 17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	0	root	_	start_char=340|end_char=343
 18	.	.	PUNCT	.	_	17	punct	_	start_char=343|end_char=344
 
+# text = If you're looking for a "real book" then this is a joke.
+# sent_id = 4
+# sentiment = 0
 1	If	if	SCONJ	IN	_	4	mark	_	start_char=345|end_char=347
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=348|end_char=351
-3	're	be	AUX	VBP	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=351|end_char=354
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=351|end_char=354
 4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	15	advcl	_	start_char=355|end_char=362
 5	for	for	ADP	IN	_	9	case	_	start_char=363|end_char=366
 6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=367|end_char=368

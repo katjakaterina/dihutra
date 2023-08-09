@@ -1,3 +1,6 @@
+# text = In the land of the blind...
+# sent_id = 0
+# sentiment = 1
 1	In	in	ADP	IN	_	3	case	_	start_char=0|end_char=2
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=3|end_char=6
 3	land	land	NOUN	NN	Number=Sing	0	root	_	start_char=7|end_char=11
@@ -6,6 +9,9 @@
 6	blind	blind	ADJ	JJ	Degree=Pos	3	nmod	_	start_char=19|end_char=24
 7	...	...	PUNCT	.	_	3	punct	_	start_char=24|end_char=27
 
+# text = This piece of literature promises enlightenment but fails to deliver.
+# sent_id = 1
+# sentiment = 0
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=28|end_char=32
 2	piece	piece	NOUN	NN	Number=Sing	5	nsubj	_	start_char=33|end_char=38
 3	of	of	ADP	IN	_	4	case	_	start_char=39|end_char=41
@@ -18,28 +24,34 @@
 10	deliver	deliver	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=89|end_char=96
 11	.	.	PUNCT	.	_	5	punct	_	start_char=96|end_char=97
 
+# text = Though the transient prophet indeed speaks eloquently and his words inspire deep reflection, they fail to impart true understanding.
+# sent_id = 2
+# sentiment = 0
 1	Though	though	SCONJ	IN	_	6	mark	_	start_char=98|end_char=104
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=105|end_char=108
 3	transient	transient	ADJ	JJ	Degree=Pos	4	amod	_	start_char=109|end_char=118
 4	prophet	prophet	NOUN	NN	Number=Sing	6	nsubj	_	start_char=119|end_char=126
-5	indeed	indeed	ADV	RB	Degree=Pos	6	advmod	_	start_char=127|end_char=133
+5	indeed	indeed	ADV	RB	_	6	advmod	_	start_char=127|end_char=133
 6	speaks	speak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=134|end_char=140
 7	eloquently	eloquently	ADV	RB	_	6	advmod	_	start_char=141|end_char=151
 8	and	and	CCONJ	CC	_	11	cc	_	start_char=152|end_char=155
-9	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=156|end_char=159
+9	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=156|end_char=159
 10	words	word	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=160|end_char=165
-11	inspire	inspire	VERB	VBP	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=166|end_char=173
+11	inspire	inspire	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=166|end_char=173
 12	deep	deep	ADJ	JJ	Degree=Pos	13	amod	_	start_char=174|end_char=178
 13	reflection	reflection	NOUN	NN	Number=Sing	11	obj	_	start_char=179|end_char=189
-14	,	,	PUNCT	,	_	16	punct	_	start_char=189|end_char=190
+14	,	,	PUNCT	,	_	6	punct	_	start_char=189|end_char=190
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=191|end_char=195
-16	fail	fail	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=196|end_char=200
+16	fail	fail	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=196|end_char=200
 17	to	to	PART	TO	_	18	mark	_	start_char=201|end_char=203
 18	impart	impart	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=204|end_char=210
 19	true	true	ADJ	JJ	Degree=Pos	20	amod	_	start_char=211|end_char=215
 20	understanding	understanding	NOUN	NN	Number=Sing	18	obj	_	start_char=216|end_char=229
 21	.	.	PUNCT	.	_	16	punct	_	start_char=229|end_char=230
 
+# text = The initial discourse on love is riveting but what follows quickly descends into empty rhetorical musings which continue until the bitter end.
+# sent_id = 3
+# sentiment = 1
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=231|end_char=234
 2	initial	initial	ADJ	JJ	Degree=Pos	3	amod	_	start_char=235|end_char=242
 3	discourse	discourse	NOUN	NN	Number=Sing	7	nsubj	_	start_char=243|end_char=252
@@ -64,8 +76,11 @@
 22	end	end	NOUN	NN	Number=Sing	18	obl	_	start_char=369|end_char=372
 23	.	.	PUNCT	.	_	7	punct	_	start_char=372|end_char=373
 
+# text = The most entertaining aspect of this book is the artful use of language which almost masks the fact that the prophet indeed speaks but says nothing.
+# sent_id = 4
+# sentiment = 1
 1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=374|end_char=377
-2	most	most	ADV	RBS	_	3	advmod	_	start_char=378|end_char=382
+2	most	most	ADV	RBS	Degree=Sup	3	advmod	_	start_char=378|end_char=382
 3	entertaining	entertaining	ADJ	JJ	Degree=Pos	4	amod	_	start_char=383|end_char=395
 4	aspect	aspect	NOUN	NN	Number=Sing	11	nsubj	_	start_char=396|end_char=402
 5	of	of	ADP	IN	_	7	case	_	start_char=403|end_char=405
@@ -85,10 +100,10 @@
 19	that	that	SCONJ	IN	_	23	mark	_	start_char=474|end_char=478
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=479|end_char=482
 21	prophet	prophet	NOUN	NN	Number=Sing	23	nsubj	_	start_char=483|end_char=490
-22	indeed	indeed	ADV	RB	Degree=Pos	23	advmod	_	start_char=491|end_char=497
+22	indeed	indeed	ADV	RB	_	23	advmod	_	start_char=491|end_char=497
 23	speaks	speak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	start_char=498|end_char=504
 24	but	but	CCONJ	CC	_	25	cc	_	start_char=505|end_char=508
 25	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	start_char=509|end_char=513
-26	nothing	nothing	PRON	NN	Number=Sing	25	obj	_	start_char=514|end_char=521
+26	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	25	obj	_	start_char=514|end_char=521
 27	.	.	PUNCT	.	_	11	punct	_	start_char=521|end_char=522
 

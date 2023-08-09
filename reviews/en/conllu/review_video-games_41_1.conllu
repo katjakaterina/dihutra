@@ -1,3 +1,6 @@
+# text = Complete waste of time and money.......
+# sent_id = 0
+# sentiment = 0
 1	Complete	complete	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=8
 2	waste	waste	NOUN	NN	Number=Sing	0	root	_	start_char=9|end_char=14
 3	of	of	ADP	IN	_	4	case	_	start_char=15|end_char=17
@@ -6,6 +9,9 @@
 6	money	money	NOUN	NN	Number=Sing	4	conj	_	start_char=27|end_char=32
 7	.......	.......	PUNCT	.	_	2	punct	_	start_char=32|end_char=39
 
+# text = This game would not install on any of my seven computers.
+# sent_id = 1
+# sentiment = 0
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=40|end_char=44
 2	game	game	NOUN	NN	Number=Sing	5	nsubj	_	start_char=45|end_char=49
 3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	start_char=50|end_char=55
@@ -14,16 +20,19 @@
 6	on	on	ADP	IN	_	7	case	_	start_char=68|end_char=70
 7	any	any	DET	DT	_	5	obl	_	start_char=71|end_char=74
 8	of	of	ADP	IN	_	11	case	_	start_char=75|end_char=77
-9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=78|end_char=80
-10	seven	seven	NUM	CD	NumType=Card	11	nummod	_	start_char=81|end_char=86
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=78|end_char=80
+10	seven	seven	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=81|end_char=86
 11	computers	computer	NOUN	NNS	Number=Plur	7	nmod	_	start_char=87|end_char=96
 12	.	.	PUNCT	.	_	5	punct	_	start_char=96|end_char=97
 
+# text = The installer is so dated that if it detects any hardware that it doesn't recognize (i.e. modern hardware), it aborts.
+# sent_id = 2
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=98|end_char=101
-2	installer	installer	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=102|end_char=111
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=112|end_char=114
+2	installer	installer	NOUN	NN	Number=Sing	5	nsubj	_	start_char=102|end_char=111
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=112|end_char=114
 4	so	so	ADV	RB	_	5	advmod	_	start_char=115|end_char=117
-5	dated	date	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=118|end_char=123
+5	dated	dated	ADJ	JJ	Degree=Pos	0	root	_	start_char=118|end_char=123
 6	that	that	SCONJ	IN	_	24	mark	_	start_char=124|end_char=128
 7	if	if	SCONJ	IN	_	9	mark	_	start_char=129|end_char=131
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=132|end_char=134
@@ -36,16 +45,19 @@
 15	n't	not	PART	RB	_	16	advmod	_	start_char=168|end_char=171
 16	recognize	recognize	VERB	VB	VerbForm=Inf	11	acl:relcl	_	start_char=172|end_char=181
 17	(	(	PUNCT	-LRB-	_	20	punct	_	start_char=182|end_char=183
-18	i.e.	i.e.	ADV	FW	Abbr=Yes	20	advmod	_	start_char=183|end_char=187
+18	i.e.	i.e.	ADV	FW	Abbr=Yes	19	advmod	_	start_char=183|end_char=187
 19	modern	modern	ADJ	JJ	Degree=Pos	20	amod	_	start_char=188|end_char=194
-20	hardware	hardware	NOUN	NN	Number=Sing	16	parataxis	_	start_char=195|end_char=203
+20	hardware	hardware	NOUN	NN	Number=Sing	16	obj	_	start_char=195|end_char=203
 21	)	)	PUNCT	-RRB-	_	20	punct	_	start_char=203|end_char=204
-22	,	,	PUNCT	,	_	24	punct	_	start_char=204|end_char=205
+22	,	,	PUNCT	,	_	9	punct	_	start_char=204|end_char=205
 23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=206|end_char=208
 24	aborts	abort	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=209|end_char=215
 25	.	.	PUNCT	.	_	5	punct	_	start_char=215|end_char=216
 
-1	Tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=217|end_char=222
+# text = Tried all the user forum tricks I could find.
+# sent_id = 3
+# sentiment = 1
+1	Tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=217|end_char=222
 2	all	all	DET	PDT	_	6	det:predet	_	start_char=223|end_char=226
 3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=227|end_char=230
 4	user	user	NOUN	NN	Number=Sing	5	compound	_	start_char=231|end_char=235
@@ -56,12 +68,18 @@
 9	find	find	VERB	VB	VerbForm=Inf	6	acl:relcl	_	start_char=257|end_char=261
 10	.	.	PUNCT	.	_	1	punct	_	start_char=261|end_char=262
 
+# text = None of them helped.
+# sent_id = 4
+# sentiment = 1
 1	None	none	NOUN	NN	Number=Sing	4	nsubj	_	start_char=263|end_char=267
 2	of	of	ADP	IN	_	3	case	_	start_char=268|end_char=270
 3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	start_char=271|end_char=275
-4	helped	help	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=276|end_char=282
+4	helped	help	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=276|end_char=282
 5	.	.	PUNCT	.	_	4	punct	_	start_char=282|end_char=283
 
+# text = Even the publisher has abandoned this game and no longer supports it.
+# sent_id = 5
+# sentiment = 0
 1	Even	even	ADV	RB	_	3	advmod	_	start_char=284|end_char=288
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=289|end_char=292
 3	publisher	publisher	NOUN	NN	Number=Sing	5	nsubj	_	start_char=293|end_char=302
@@ -76,22 +94,31 @@
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=350|end_char=352
 13	.	.	PUNCT	.	_	5	punct	_	start_char=352|end_char=353
 
+# text = Complete waste.
+# sent_id = 6
+# sentiment = 0
 1	Complete	complete	ADJ	JJ	Degree=Pos	2	amod	_	start_char=354|end_char=362
 2	waste	waste	NOUN	NN	Number=Sing	0	root	_	start_char=363|end_char=368
 3	.	.	PUNCT	.	_	2	punct	_	start_char=368|end_char=369
 
-1	Needless	needless	ADJ	JJ	Degree=Pos	9	advmod	_	start_char=370|end_char=378
+# text = Needless to say, my son was very dissappointed.
+# sent_id = 7
+# sentiment = 0
+1	Needless	needless	ADJ	JJ	Degree=Pos	9	advcl	_	start_char=370|end_char=378
 2	to	to	PART	TO	_	3	mark	_	start_char=379|end_char=381
 3	say	say	VERB	VB	VerbForm=Inf	1	csubj	_	start_char=382|end_char=385
 4	,	,	PUNCT	,	_	9	punct	_	start_char=385|end_char=386
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=387|end_char=389
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=387|end_char=389
 6	son	son	NOUN	NN	Number=Sing	9	nsubj	_	start_char=390|end_char=393
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=394|end_char=397
 8	very	very	ADV	RB	_	9	advmod	_	start_char=398|end_char=402
 9	dissappointed	dissappointed	ADJ	JJ	Degree=Pos	0	root	_	start_char=403|end_char=416
-10	.	.	PUNCT	.	_	1	punct	_	start_char=416|end_char=417
+10	.	.	PUNCT	.	_	9	punct	_	start_char=416|end_char=417
 
-1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	aux	_	start_char=418|end_char=420
+# text = Don't bother with this one.
+# sent_id = 8
+# sentiment = 1
+1	Do	do	AUX	VB	VerbForm=Fin	3	aux	_	start_char=418|end_char=420
 2	n't	not	PART	RB	_	3	advmod	_	start_char=420|end_char=423
 3	bother	bother	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=424|end_char=430
 4	with	with	ADP	IN	_	6	case	_	start_char=431|end_char=435
@@ -99,9 +126,12 @@
 6	one	one	NOUN	NN	Number=Sing	3	obl	_	start_char=441|end_char=444
 7	.	.	PUNCT	.	_	3	punct	_	start_char=444|end_char=445
 
+# text = It's deprecated software meant for deprecated hardware.
+# sent_id = 9
+# sentiment = 0
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=446|end_char=448
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=448|end_char=450
-3	deprecated	deprecate	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	start_char=451|end_char=461
+3	deprecated	deprecate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	start_char=451|end_char=461
 4	software	software	NOUN	NN	Number=Sing	0	root	_	start_char=462|end_char=470
 5	meant	mean	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	start_char=471|end_char=476
 6	for	for	ADP	IN	_	8	case	_	start_char=477|end_char=480

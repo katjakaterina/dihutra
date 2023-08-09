@@ -1,8 +1,14 @@
-1	Two	two	NUM	CD	NumType=Card	3	nummod	_	start_char=0|end_char=3
+# text = Two different ones broke
+# sent_id = 0
+# sentiment = 1
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	3	nummod	_	start_char=0|end_char=3
 2	different	different	ADJ	JJ	Degree=Pos	3	amod	_	start_char=4|end_char=13
 3	ones	one	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=14|end_char=18
 4	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=19|end_char=24
 
+# text = The pruner will not release easily if you grab hold of a branch a little too thick, and at five feet away it's not always the easiest thing to do to notice if that branch is an 1/8th inch too thick.
+# sent_id = 1
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=25|end_char=28
 2	pruner	pruner	NOUN	NN	Number=Sing	5	nsubj	_	start_char=29|end_char=35
 3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	start_char=36|end_char=40
@@ -11,19 +17,19 @@
 6	easily	easily	ADV	RB	_	5	advmod	_	start_char=53|end_char=59
 7	if	if	SCONJ	IN	_	9	mark	_	start_char=60|end_char=62
 8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	start_char=63|end_char=66
-9	grab	grab	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=67|end_char=71
+9	grab	grab	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=67|end_char=71
 10	hold	hold	NOUN	NN	Number=Sing	9	obj	_	start_char=72|end_char=76
 11	of	of	ADP	IN	_	13	case	_	start_char=77|end_char=79
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=80|end_char=81
 13	branch	branch	NOUN	NN	Number=Sing	10	nmod	_	start_char=82|end_char=88
 14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=89|end_char=90
-15	little	little	ADJ	JJ	Degree=Pos	17	obl:npmod	_	start_char=91|end_char=97
+15	little	little	ADJ	JJ	Degree=Pos	16	obl:npmod	_	start_char=91|end_char=97
 16	too	too	ADV	RB	_	17	advmod	_	start_char=98|end_char=101
 17	thick	thick	ADJ	JJ	Degree=Pos	9	xcomp	_	start_char=102|end_char=107
 18	,	,	PUNCT	,	_	30	punct	_	start_char=107|end_char=108
 19	and	and	CCONJ	CC	_	30	cc	_	start_char=109|end_char=112
 20	at	at	ADP	IN	_	22	case	_	start_char=113|end_char=115
-21	five	five	NUM	CD	NumType=Card	22	nummod	_	start_char=116|end_char=120
+21	five	five	NUM	CD	NumForm=Word|NumType=Card	22	nummod	_	start_char=116|end_char=120
 22	feet	foot	NOUN	NNS	Number=Plur	23	obl:npmod	_	start_char=121|end_char=125
 23	away	away	ADV	RB	_	30	advmod	_	start_char=126|end_char=130
 24	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	start_char=131|end_char=133
@@ -36,37 +42,43 @@
 31	to	to	PART	TO	_	32	mark	_	start_char=165|end_char=167
 32	do	do	VERB	VB	VerbForm=Inf	30	acl	_	start_char=168|end_char=170
 33	to	to	PART	TO	_	34	mark	_	start_char=171|end_char=173
-34	notice	notice	VERB	VB	VerbForm=Inf	32	xcomp	_	start_char=174|end_char=180
-35	if	if	SCONJ	IN	_	43	mark	_	start_char=181|end_char=183
+34	notice	notice	VERB	VB	VerbForm=Inf	32	advcl	_	start_char=174|end_char=180
+35	if	if	SCONJ	IN	_	41	mark	_	start_char=181|end_char=183
 36	that	that	DET	DT	Number=Sing|PronType=Dem	37	det	_	start_char=184|end_char=188
-37	branch	branch	NOUN	NN	Number=Sing	43	nsubj	_	start_char=189|end_char=195
-38	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	start_char=196|end_char=198
+37	branch	branch	NOUN	NN	Number=Sing	41	nsubj	_	start_char=189|end_char=195
+38	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	start_char=196|end_char=198
 39	an	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	start_char=199|end_char=201
-40	1/8th	1/8th	NUM	CD	NumType=Card	41	nummod	_	start_char=202|end_char=207
-41	inch	inch	NOUN	NN	Number=Sing	43	obl:tmod	_	start_char=208|end_char=212
+40	1/8th	1/8th	ADJ	JJ	Degree=Pos|NumType=Ord	41	amod	_	start_char=202|end_char=207
+41	inch	inch	NOUN	NN	Number=Sing	34	advcl	_	start_char=208|end_char=212
 42	too	too	ADV	RB	_	43	advmod	_	start_char=213|end_char=216
-43	thick	thick	ADJ	JJ	Degree=Pos	34	advcl	_	start_char=217|end_char=222
+43	thick	thick	ADJ	JJ	Degree=Pos	41	amod	_	start_char=217|end_char=222
 44	.	.	PUNCT	.	_	5	punct	_	start_char=222|end_char=223
 
+# text = As a result, it broke on the second day.
+# sent_id = 2
+# sentiment = 0
 1	As	as	ADP	IN	_	3	case	_	start_char=224|end_char=226
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=227|end_char=228
 3	result	result	NOUN	NN	Number=Sing	6	obl	_	start_char=229|end_char=235
 4	,	,	PUNCT	,	_	6	punct	_	start_char=235|end_char=236
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=237|end_char=239
-6	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=240|end_char=245
+6	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=240|end_char=245
 7	on	on	ADP	IN	_	10	case	_	start_char=246|end_char=248
 8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=249|end_char=252
 9	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	start_char=253|end_char=259
 10	day	day	NOUN	NN	Number=Sing	6	obl	_	start_char=260|end_char=263
 11	.	.	PUNCT	.	_	6	punct	_	start_char=263|end_char=264
 
+# text = Amazon replaced with another, which broke due to same issue, but this time was too late to return.
+# sent_id = 3
+# sentiment = 0
 1	Amazon	Amazon	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=265|end_char=271
-2	replaced	replace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=272|end_char=280
+2	replaced	replace	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=272|end_char=280
 3	with	with	ADP	IN	_	4	case	_	start_char=281|end_char=285
 4	another	another	DET	DT	_	2	obl	_	start_char=286|end_char=293
 5	,	,	PUNCT	,	_	7	punct	_	start_char=293|end_char=294
 6	which	which	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=295|end_char=300
-7	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=301|end_char=306
+7	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=301|end_char=306
 8	due	due	ADP	IN	_	11	case	_	start_char=307|end_char=310
 9	to	to	ADP	IN	_	8	fixed	_	start_char=311|end_char=313
 10	same	same	ADJ	JJ	Degree=Pos	11	amod	_	start_char=314|end_char=318
@@ -82,11 +94,14 @@
 20	return	return	VERB	VB	VerbForm=Inf	18	advcl	_	start_char=356|end_char=362
 21	.	.	PUNCT	.	_	2	punct	_	start_char=362|end_char=363
 
+# text = I bought another, more expensive one that I am happy with and I would recommend it to anyone else: ARS LA-180ZR203 4-to-7-Feet Long Reach Pruner
+# sent_id = 4
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=364|end_char=365
-2	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=366|end_char=372
+2	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=366|end_char=372
 3	another	another	DET	DT	_	7	det	_	start_char=373|end_char=380
 4	,	,	PUNCT	,	_	7	punct	_	start_char=380|end_char=381
-5	more	more	ADV	RBR	_	6	advmod	_	start_char=382|end_char=386
+5	more	more	ADV	RBR	Degree=Cmp	6	advmod	_	start_char=382|end_char=386
 6	expensive	expensive	ADJ	JJ	Degree=Pos	7	amod	_	start_char=387|end_char=396
 7	one	one	NOUN	NN	Number=Sing	2	obj	_	start_char=397|end_char=400
 8	that	that	PRON	WDT	PronType=Rel	11	obl	_	start_char=401|end_char=405
@@ -100,18 +115,21 @@
 16	recommend	recommend	VERB	VB	VerbForm=Inf	2	conj	_	start_char=434|end_char=443
 17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=444|end_char=446
 18	to	to	ADP	IN	_	19	case	_	start_char=447|end_char=449
-19	anyone	anyone	PRON	NN	Number=Sing	16	obl	_	start_char=450|end_char=456
+19	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	16	obl	_	start_char=450|end_char=456
 20	else	else	ADJ	JJ	Degree=Pos	19	amod	_	start_char=457|end_char=461
-21	:	:	PUNCT	:	_	23	punct	_	start_char=461|end_char=462
+21	:	:	PUNCT	:	_	19	punct	_	start_char=461|end_char=462
 22	ARS	ARS	PROPN	NNP	Number=Sing	23	compound	_	start_char=463|end_char=466
-23	LA-180	la-180	NOUN	NN	Number=Sing	19	appos	_	start_char=467|end_char=473
-24	ZR203	zr203	NOUN	NN	Number=Sing	23	appos	_	start_char=473|end_char=478
-25	4	4	NUM	CD	NumType=Card	24	nummod	_	start_char=479|end_char=480
-26	-	-	PUNCT	,	_	23	punct	_	start_char=480|end_char=481
-27	to-7	to-7	NUM	CD	NumType=Card	29	nummod	_	start_char=481|end_char=485
-28	-	-	PUNCT	HYPH	_	29	punct	_	start_char=485|end_char=486
-29	Feet	foot	NOUN	NNS	Number=Plur	32	compound	_	start_char=486|end_char=490
-30	Long	Long	ADJ	JJ	Degree=Pos	32	amod	_	start_char=491|end_char=495
-31	Reach	reach	NOUN	NN	Number=Sing	32	compound	_	start_char=496|end_char=501
-32	Pruner	pruner	NOUN	NN	Number=Sing	23	appos	_	start_char=502|end_char=508
+23	LA	LA	PROPN	NNP	Number=Sing	19	appos	_	start_char=467|end_char=469
+24	-	-	PUNCT	HYPH	_	25	punct	_	start_char=469|end_char=470
+25	180ZR203	180zr203	NUM	CD	NumForm=Digit|NumType=Card	23	dep	_	start_char=470|end_char=478
+26	4	4	NUM	CD	NumForm=Digit|NumType=Card	23	dep	_	start_char=479|end_char=480
+27	-	-	PUNCT	,	_	23	punct	_	start_char=480|end_char=481
+28	to	to	ADP	IN	_	30	case	_	start_char=481|end_char=483
+29	-	-	SYM	SYM	_	30	case	_	start_char=483|end_char=484
+30	7	7	NUM	CD	NumForm=Digit|NumType=Card	23	nmod	_	start_char=484|end_char=485
+31	-	-	PUNCT	,	_	23	punct	_	start_char=485|end_char=486
+32	Feet	foot	NOUN	NNS	Number=Plur	35	compound	_	start_char=486|end_char=490
+33	Long	Long	ADJ	JJ	Degree=Pos	35	amod	_	start_char=491|end_char=495
+34	Reach	reach	NOUN	NN	Number=Sing	35	compound	_	start_char=496|end_char=501
+35	Pruner	pruner	NOUN	NN	Number=Sing	23	appos	_	start_char=502|end_char=508
 

@@ -1,0 +1,76 @@
+# text = Обязательно для любого класса, где занимаются домашние учителя!
+# sent_id = 0
+1	Обязательно	обязательно	ADV	_	Degree=Pos	4	obl	_	start_char=0|end_char=11
+2	для	для	ADP	_	_	4	case	_	start_char=12|end_char=15
+3	любого	любой	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	start_char=16|end_char=22
+4	класса	класс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	start_char=23|end_char=29
+5	,	,	PUNCT	_	_	7	punct	_	start_char=29|end_char=30
+6	где	где	ADV	_	Degree=Pos	7	advmod	_	start_char=31|end_char=34
+7	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	start_char=35|end_char=45
+8	домашние	домашний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=46|end_char=54
+9	учителя	учитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=55|end_char=62
+10	!	!	PUNCT	_	_	4	punct	_	start_char=62|end_char=63
+
+# text = Это хороший продукт с неограниченными возможностями.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=64|end_char=67
+2	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=68|end_char=75
+3	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=76|end_char=83
+4	с	с	ADP	_	_	6	case	_	start_char=84|end_char=85
+5	неограниченными	неограниченный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	start_char=86|end_char=101
+6	возможностями	возможность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	nmod	_	start_char=102|end_char=115
+7	.	.	PUNCT	_	_	3	punct	_	start_char=115|end_char=116
+
+# text = Я также заказала магнитные буквы и цифры от Melissa & Doug.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=117|end_char=118
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=119|end_char=124
+3	заказала	заказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=125|end_char=133
+4	магнитные	магнитный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=134|end_char=143
+5	буквы	буква	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=144|end_char=149
+6	и	и	CCONJ	_	_	7	cc	_	start_char=150|end_char=151
+7	цифры	цифра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=152|end_char=157
+8	от	от	ADP	_	_	7	case	_	start_char=158|end_char=160
+9	Melissa	Melissa	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=161|end_char=168
+10	&	&	SYM	_	_	7	flat:foreign	_	start_char=169|end_char=170
+11	Doug	Doug	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=171|end_char=175
+12	.	.	PUNCT	_	_	3	punct	_	start_char=175|end_char=176
+
+# text = Сухое стирание требует быстрого стирания, иначе остаются следы.
+# sent_id = 3
+1	Сухое	сухой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=177|end_char=182
+2	стирание	стирание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=183|end_char=191
+3	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=192|end_char=199
+4	быстрого	быстрый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=200|end_char=208
+5	стирания	стирание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=209|end_char=217
+6	,	,	PUNCT	_	_	8	punct	_	start_char=217|end_char=218
+7	иначе	иначе	CCONJ	_	_	8	cc	_	start_char=219|end_char=224
+8	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=225|end_char=233
+9	следы	след	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	start_char=234|end_char=239
+10	.	.	PUNCT	_	_	3	punct	_	start_char=239|end_char=240
+
+# text = Кроме того, магнит не очень сильный.
+# sent_id = 4
+1	Кроме	кроме	ADP	_	_	2	case	_	start_char=241|end_char=246
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	parataxis	_	start_char=247|end_char=251
+3	,	,	PUNCT	_	_	2	punct	_	start_char=251|end_char=252
+4	магнит	магнит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=253|end_char=259
+5	не	не	PART	_	_	6	advmod	_	start_char=260|end_char=262
+6	очень	очень	ADV	_	Degree=Pos	7	obl	_	start_char=263|end_char=268
+7	сильный	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=269|end_char=276
+8	.	.	PUNCT	_	_	7	punct	_	start_char=276|end_char=277
+
+# text = Это хороший размер и очень хорошо подходит для наших нужд.
+# sent_id = 5
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=278|end_char=281
+2	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=282|end_char=289
+3	размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=290|end_char=296
+4	и	и	CCONJ	_	_	7	cc	_	start_char=297|end_char=298
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	start_char=299|end_char=304
+6	хорошо	хорошо	ADV	_	Degree=Pos	7	advmod	_	start_char=305|end_char=311
+7	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=312|end_char=320
+8	для	для	ADP	_	_	10	case	_	start_char=321|end_char=324
+9	наших	наш	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	10	det	_	start_char=325|end_char=330
+10	нужд	нужда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	start_char=331|end_char=335
+11	.	.	PUNCT	_	_	3	punct	_	start_char=335|end_char=336
+

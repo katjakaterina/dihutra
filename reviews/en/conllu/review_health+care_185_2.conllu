@@ -1,48 +1,57 @@
+# text = Only 3 years, instead of 5 as promised
+# sent_id = 0
+# sentiment = 1
 1	Only	only	ADV	RB	_	2	advmod	_	start_char=0|end_char=4
-2	3	3	NUM	CD	NumType=Card	3	nummod	_	start_char=5|end_char=6
+2	3	3	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	_	start_char=5|end_char=6
 3	years	year	NOUN	NNS	Number=Plur	0	root	_	start_char=7|end_char=12
-4	,	,	PUNCT	,	_	3	punct	_	start_char=12|end_char=13
+4	,	,	PUNCT	,	_	7	punct	_	start_char=12|end_char=13
 5	instead	instead	ADV	RB	_	7	case	_	start_char=14|end_char=21
 6	of	of	ADP	IN	_	5	fixed	_	start_char=22|end_char=24
-7	5	5	NUM	CD	NumType=Card	3	nmod	_	start_char=25|end_char=26
+7	5	5	NUM	CD	NumForm=Digit|NumType=Card	3	nmod	_	start_char=25|end_char=26
 8	as	as	SCONJ	IN	_	9	mark	_	start_char=27|end_char=29
 9	promised	promise	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	start_char=30|end_char=38
 
+# text = These were described as guaranteed for 5 years, but have an expiration date that is only 3 years (Mar 2016).
+# sent_id = 1
+# sentiment = 0
 1	These	this	PRON	DT	Number=Plur|PronType=Dem	3	nsubj:pass	_	start_char=39|end_char=44
-2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=45|end_char=49
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=45|end_char=49
 3	described	describe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=50|end_char=59
-4	as	as	ADP	IN	_	5	mark	_	start_char=60|end_char=62
+4	as	as	ADP	IN	_	5	case	_	start_char=60|end_char=62
 5	guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part	3	obl	_	start_char=63|end_char=73
 6	for	for	ADP	IN	_	8	case	_	start_char=74|end_char=77
-7	5	5	NUM	CD	NumType=Card	8	nummod	_	start_char=78|end_char=79
-8	years	year	NOUN	NNS	Number=Plur	5	obl	_	start_char=80|end_char=85
+7	5	5	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=78|end_char=79
+8	years	year	NOUN	NNS	Number=Plur	3	obl	_	start_char=80|end_char=85
 9	,	,	PUNCT	,	_	11	punct	_	start_char=85|end_char=86
 10	but	but	CCONJ	CC	_	11	cc	_	start_char=87|end_char=90
-11	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=91|end_char=95
+11	have	have	VERB	VB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=91|end_char=95
 12	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=96|end_char=98
 13	expiration	expiration	NOUN	NN	Number=Sing	14	compound	_	start_char=99|end_char=109
 14	date	date	NOUN	NN	Number=Sing	11	obj	_	start_char=110|end_char=114
 15	that	that	PRON	WDT	PronType=Rel	19	nsubj	_	start_char=115|end_char=119
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=120|end_char=122
-17	only	only	ADV	RB	_	19	advmod	_	start_char=123|end_char=127
-18	3	3	NUM	CD	NumType=Card	19	nummod	_	start_char=128|end_char=129
+17	only	only	ADV	RB	_	18	advmod	_	start_char=123|end_char=127
+18	3	3	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=128|end_char=129
 19	years	year	NOUN	NNS	Number=Plur	14	acl:relcl	_	start_char=130|end_char=135
 20	(	(	PUNCT	-LRB-	_	21	punct	_	start_char=136|end_char=137
-21	Mar	Mar	PROPN	NNP	Number=Sing	19	nmod:npmod	_	start_char=137|end_char=140
-22	2016	2016	NUM	CD	NumType=Card	21	nummod	_	start_char=141|end_char=145
+21	Mar	March	PROPN	NNP	Abbr=Yes|Number=Sing	19	nmod:npmod	_	start_char=137|end_char=140
+22	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	21	nmod:tmod	_	start_char=141|end_char=145
 23	)	)	PUNCT	-RRB-	_	21	punct	_	start_char=145|end_char=146
 24	.	.	PUNCT	.	_	3	punct	_	start_char=146|end_char=147
 
+# text = Since I am using them for battery back-up in clocks this is a real bummer.
+# sent_id = 2
+# sentiment = 0
 1	Since	since	SCONJ	IN	_	4	mark	_	start_char=148|end_char=153
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=154|end_char=155
 3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=156|end_char=158
 4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	start_char=159|end_char=164
 5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=165|end_char=169
-6	for	for	ADP	IN	_	7	case	_	start_char=170|end_char=173
-7	battery	battery	NOUN	NN	Number=Sing	4	obl	_	start_char=174|end_char=181
-8	back	back	ADV	RB	_	10	advmod	_	start_char=182|end_char=186
-9	-	-	PUNCT	HYPH	_	10	punct	_	start_char=186|end_char=187
-10	up	up	ADP	RP	_	4	obl	_	start_char=187|end_char=189
+6	for	for	ADP	IN	_	12	case	_	start_char=170|end_char=173
+7	battery	battery	NOUN	NN	Number=Sing	10	compound	_	start_char=174|end_char=181
+8	back	back	NOUN	NN	Number=Sing	10	compound	_	start_char=182|end_char=186
+9	-	-	PUNCT	HYPH	_	8	punct	_	start_char=186|end_char=187
+10	up	up	ADV	RB	_	12	case	_	start_char=187|end_char=189
 11	in	in	ADP	IN	_	12	case	_	start_char=190|end_char=192
 12	clocks	clock	NOUN	NNS	Number=Plur	4	obl	_	start_char=193|end_char=199
 13	this	this	PRON	DT	Number=Sing|PronType=Dem	17	nsubj	_	start_char=200|end_char=204
@@ -52,14 +61,20 @@
 17	bummer	bummer	NOUN	NN	Number=Sing	0	root	_	start_char=215|end_char=221
 18	.	.	PUNCT	.	_	17	punct	_	start_char=221|end_char=222
 
+# text = Not what I expect from Amazon.
+# sent_id = 3
+# sentiment = 1
 1	Not	not	PART	RB	_	2	advmod	_	start_char=223|end_char=226
-2	what	what	PRON	WP	PronType=Int	0	root	_	start_char=227|end_char=231
+2	what	what	PRON	WP	PronType=Int	4	obj	_	start_char=227|end_char=231
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=232|end_char=233
-4	expect	expect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=234|end_char=240
+4	expect	expect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=234|end_char=240
 5	from	from	ADP	IN	_	6	case	_	start_char=241|end_char=245
 6	Amazon	Amazon	PROPN	NNP	Number=Sing	4	obl	_	start_char=246|end_char=252
-7	.	.	PUNCT	.	_	2	punct	_	start_char=252|end_char=253
+7	.	.	PUNCT	.	_	4	punct	_	start_char=252|end_char=253
 
+# text = Will probably live with it rather than mess with a return.
+# sent_id = 4
+# sentiment = 2
 1	Will	will	AUX	MD	VerbForm=Fin	3	aux	_	start_char=254|end_char=258
 2	probably	probably	ADV	RB	_	3	advmod	_	start_char=259|end_char=267
 3	live	live	VERB	VB	VerbForm=Inf	0	root	_	start_char=268|end_char=272
@@ -70,6 +85,6 @@
 8	mess	mess	NOUN	NN	Number=Sing	3	conj	_	start_char=293|end_char=297
 9	with	with	ADP	IN	_	11	case	_	start_char=298|end_char=302
 10	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=303|end_char=304
-11	return	return	NOUN	NN	Number=Sing	8	nmod	_	start_char=305|end_char=311
+11	return	return	NOUN	NN	Number=Sing	3	obl	_	start_char=305|end_char=311
 12	.	.	PUNCT	.	_	3	punct	_	start_char=311|end_char=312
 

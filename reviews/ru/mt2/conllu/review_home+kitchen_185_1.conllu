@@ -1,0 +1,72 @@
+# text = Спокойной ночи, сладкие бабочки Я была очень разочарована состоянием этой книги.
+# sent_id = 0
+1	Спокойной	спокойный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=9
+2	ночи	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nsubj:pass	_	start_char=10|end_char=14
+3	,	,	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+4	сладкие	сладкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=16|end_char=23
+5	бабочки	бабочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj:pass	_	start_char=24|end_char=31
+6	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj:pass	_	start_char=32|end_char=33
+7	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=34|end_char=38
+8	очень	очень	ADV	_	Degree=Pos	9	advmod	_	start_char=39|end_char=44
+9	разочарована	разочаровать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=45|end_char=57
+10	состоянием	состояние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	start_char=58|end_char=68
+11	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=69|end_char=73
+12	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=74|end_char=79
+13	.	.	PUNCT	_	_	9	punct	_	start_char=79|end_char=80
+
+# text = Она была заявлена как очень хорошая, но оказалась очень сильно потрепанной.
+# sent_id = 1
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=81|end_char=84
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=85|end_char=89
+3	заявлена	заявить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=90|end_char=98
+4	как	как	SCONJ	_	_	6	mark	_	start_char=99|end_char=102
+5	очень	очень	ADV	_	Degree=Pos	6	obl	_	start_char=103|end_char=108
+6	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	advcl	_	start_char=109|end_char=116
+7	,	,	PUNCT	_	_	9	punct	_	start_char=116|end_char=117
+8	но	но	CCONJ	_	_	9	cc	_	start_char=118|end_char=120
+9	оказалась	оказаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=121|end_char=130
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	start_char=131|end_char=136
+11	сильно	сильно	ADV	_	Degree=Pos	12	advmod	_	start_char=137|end_char=143
+12	потрепанной	потрепать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	start_char=144|end_char=155
+13	.	.	PUNCT	_	_	3	punct	_	start_char=155|end_char=156
+
+# text = Я не смогла подарить ее своему внуку, и мне пришлось отложить ее в корзину.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=157|end_char=158
+2	не	не	PART	_	_	3	advmod	_	start_char=159|end_char=161
+3	смогла	мочь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=162|end_char=168
+4	подарить	дарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=169|end_char=177
+5	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=178|end_char=180
+6	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	start_char=181|end_char=187
+7	внуку	внук	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	start_char=188|end_char=193
+8	,	,	PUNCT	_	_	11	punct	_	start_char=193|end_char=194
+9	и	и	CCONJ	_	_	11	cc	_	start_char=195|end_char=196
+10	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	iobj	_	start_char=197|end_char=200
+11	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=201|end_char=209
+12	отложить	отложить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	start_char=210|end_char=218
+13	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=219|end_char=221
+14	в	в	ADP	_	_	15	case	_	start_char=222|end_char=223
+15	корзину	корзина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=224|end_char=231
+16	.	.	PUNCT	_	_	3	punct	_	start_char=231|end_char=232
+
+# text = Конечно, я не могла рассмотреть возможность возврата, потому что стоимость книги была меньше почтовых расходов.
+# sent_id = 3
+1	Конечно	конечно	ADV	_	Degree=Pos	5	parataxis	_	start_char=233|end_char=240
+2	,	,	PUNCT	_	_	1	punct	_	start_char=240|end_char=241
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=242|end_char=243
+4	не	не	PART	_	_	5	advmod	_	start_char=244|end_char=246
+5	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=247|end_char=252
+6	рассмотреть	рассмотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=253|end_char=264
+7	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=265|end_char=276
+8	возврата	возврат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=277|end_char=285
+9	,	,	PUNCT	_	_	15	punct	_	start_char=285|end_char=286
+10	потому	потому	ADV	_	Degree=Pos	15	mark	_	start_char=287|end_char=293
+11	что	что	SCONJ	_	_	10	fixed	_	start_char=294|end_char=297
+12	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=298|end_char=307
+13	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=308|end_char=313
+14	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	start_char=314|end_char=318
+15	меньше	меньше	ADV	_	Degree=Cmp	5	advcl	_	start_char=319|end_char=325
+16	почтовых	почтовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=326|end_char=334
+17	расходов	расход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	start_char=335|end_char=343
+18	.	.	PUNCT	_	_	5	punct	_	start_char=343|end_char=344
+

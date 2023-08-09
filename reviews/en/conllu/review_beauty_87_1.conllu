@@ -1,62 +1,77 @@
+# text = Fake, seller writes own reviews!
+# sent_id = 0
+# sentiment = 0
 1	Fake	Fake	ADJ	JJ	Degree=Pos	4	advmod	_	start_char=0|end_char=4
-2	,	,	PUNCT	,	_	4	punct	_	start_char=4|end_char=5
+2	,	,	PUNCT	,	_	1	punct	_	start_char=4|end_char=5
 3	seller	seller	NOUN	NN	Number=Sing	4	nsubj	_	start_char=6|end_char=12
 4	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=13|end_char=19
 5	own	own	ADJ	JJ	Degree=Pos	6	amod	_	start_char=20|end_char=23
 6	reviews	review	NOUN	NNS	Number=Plur	4	obj	_	start_char=24|end_char=31
 7	!	!	PUNCT	.	_	4	punct	_	start_char=31|end_char=32
 
+# text = Fake MAc. MAC doesnt even make this palette.
+# sent_id = 1
+# sentiment = 1
 1	Fake	Fake	ADJ	JJ	Degree=Pos	2	amod	_	start_char=33|end_char=37
-2	MAc.	MAc.	PROPN	NNP	Number=Sing	3	compound	_	start_char=38|end_char=42
+2	MAc.	mac.	NOUN	NN	Number=Sing	0	root	_	start_char=38|end_char=42
 3	MAC	MAC	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=43|end_char=46
-4	doesnt	doesnt	AUX	MD	VerbForm=Fin	6	aux	_	start_char=47|end_char=53
+4	doesnt	do	AUX	MD	Number=Sing|Person=3|VerbForm=Fin	6	aux	_	start_char=47|end_char=53
 5	even	even	ADV	RB	_	6	advmod	_	start_char=54|end_char=58
-6	make	make	VERB	VB	VerbForm=Inf	0	root	_	start_char=59|end_char=63
+6	make	make	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=59|end_char=63
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=64|end_char=68
 8	palette	palette	NOUN	NN	Number=Sing	6	obj	_	start_char=69|end_char=76
-9	.	.	PUNCT	.	_	6	punct	_	start_char=76|end_char=77
+9	.	.	PUNCT	.	_	2	punct	_	start_char=76|end_char=77
 
+# text = Seller has written positive reviews for her own item under the same two names, one Alexis and one ._...look at all the reviews they write for their own products.
+# sent_id = 2
+# sentiment = 2
 1	Seller	seller	NOUN	NN	Number=Sing	3	nsubj	_	start_char=78|end_char=84
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=85|end_char=88
 3	written	write	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=89|end_char=96
 4	positive	positive	ADJ	JJ	Degree=Pos	5	amod	_	start_char=97|end_char=105
 5	reviews	review	NOUN	NNS	Number=Plur	3	obj	_	start_char=106|end_char=113
 6	for	for	ADP	IN	_	9	case	_	start_char=114|end_char=117
-7	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=118|end_char=121
+7	her	she	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=118|end_char=121
 8	own	own	ADJ	JJ	Degree=Pos	9	amod	_	start_char=122|end_char=125
-9	item	item	NOUN	NN	Number=Sing	3	obl	_	start_char=126|end_char=130
+9	item	item	NOUN	NN	Number=Sing	5	nmod	_	start_char=126|end_char=130
 10	under	under	ADP	IN	_	14	case	_	start_char=131|end_char=136
 11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=137|end_char=140
 12	same	same	ADJ	JJ	Degree=Pos	14	amod	_	start_char=141|end_char=145
-13	two	two	NUM	CD	NumType=Card	14	nummod	_	start_char=146|end_char=149
+13	two	two	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=146|end_char=149
 14	names	name	NOUN	NNS	Number=Plur	3	obl	_	start_char=150|end_char=155
 15	,	,	PUNCT	,	_	16	punct	_	start_char=155|end_char=156
-16	one	one	NUM	CD	NumType=Card	14	appos	_	start_char=157|end_char=160
-17	Alexis	Alexis	PROPN	NNP	Number=Sing	16	appos	_	start_char=161|end_char=167
+16	one	one	NUM	CD	NumForm=Word|NumType=Card	14	appos	_	start_char=157|end_char=160
+17	Alexis	Alexis	PROPN	NNP	Number=Sing	16	conj	_	start_char=161|end_char=167
 18	and	and	CCONJ	CC	_	19	cc	_	start_char=168|end_char=171
-19	one	one	NUM	CD	NumType=Card	17	conj	_	start_char=172|end_char=175
-20	._...	._...	PUNCT	,	_	21	punct	_	start_char=176|end_char=181
-21	look	look	VERB	VB	VerbForm=Fin	3	parataxis	_	start_char=181|end_char=185
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	14	conj	_	start_char=172|end_char=175
+20	._...	._...	PUNCT	,	_	3	punct	_	start_char=176|end_char=181
+21	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	3	parataxis	_	start_char=181|end_char=185
 22	at	at	ADP	IN	_	25	case	_	start_char=186|end_char=188
 23	all	all	DET	PDT	_	25	det:predet	_	start_char=189|end_char=192
 24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=193|end_char=196
 25	reviews	review	NOUN	NNS	Number=Plur	21	obl	_	start_char=197|end_char=204
 26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	start_char=205|end_char=209
-27	write	write	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=210|end_char=215
+27	write	write	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	start_char=210|end_char=215
 28	for	for	ADP	IN	_	31	case	_	start_char=216|end_char=219
-29	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	start_char=220|end_char=225
+29	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	start_char=220|end_char=225
 30	own	own	ADJ	JJ	Degree=Pos	31	amod	_	start_char=226|end_char=229
 31	products	product	NOUN	NNS	Number=Plur	27	obl	_	start_char=230|end_char=238
 32	.	.	PUNCT	.	_	3	punct	_	start_char=238|end_char=239
 
+# text = Why does this go on here?
+# sent_id = 3
+# sentiment = 1
 1	Why	why	ADV	WRB	PronType=Int	4	advmod	_	start_char=240|end_char=243
 2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=244|end_char=248
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=249|end_char=253
 4	go	go	VERB	VB	VerbForm=Inf	0	root	_	start_char=254|end_char=256
-5	on	on	ADP	IN	_	6	case	_	start_char=257|end_char=259
-6	here	here	ADV	RB	PronType=Dem	4	obl	_	start_char=260|end_char=264
+5	on	on	ADP	RP	_	4	compound:prt	_	start_char=257|end_char=259
+6	here	here	ADV	RB	PronType=Dem	4	advmod	_	start_char=260|end_char=264
 7	?	?	PUNCT	.	_	4	punct	_	start_char=264|end_char=265
 
+# text = These guys should be stopped
+# sent_id = 4
+# sentiment = 0
 1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	_	start_char=266|end_char=271
 2	guys	guy	NOUN	NNS	Number=Plur	5	nsubj:pass	_	start_char=272|end_char=276
 3	should	should	AUX	MD	VerbForm=Fin	5	aux	_	start_char=277|end_char=283

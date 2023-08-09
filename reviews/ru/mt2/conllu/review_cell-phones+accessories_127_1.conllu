@@ -1,0 +1,57 @@
+# text = Некачественный товар.
+# sent_id = 0
+1	Некачественный	некачественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=14
+2	товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=15|end_char=20
+3	.	.	PUNCT	_	_	2	punct	_	start_char=20|end_char=21
+
+# text = Я получил этот товар очень своевременно, что было очень приятно, однако я подарил его и был смущен, узнав, что он оказался бракованным.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=22|end_char=23
+2	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=24|end_char=31
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=32|end_char=36
+4	товар	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=37|end_char=42
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	start_char=43|end_char=48
+6	своевременно	своевременно	ADV	_	Degree=Pos	2	advmod	_	start_char=49|end_char=61
+7	,	,	PUNCT	_	_	11	punct	_	start_char=61|end_char=62
+8	что	что	SCONJ	_	_	11	mark	_	start_char=63|end_char=66
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=67|end_char=71
+10	очень	очень	ADV	_	Degree=Pos	11	obl	_	start_char=72|end_char=77
+11	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	acl	_	start_char=78|end_char=85
+12	,	,	PUNCT	_	_	15	punct	_	start_char=85|end_char=86
+13	однако	однако	ADV	_	Degree=Pos	15	advmod	_	start_char=87|end_char=93
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=94|end_char=95
+15	подарил	дарить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=96|end_char=103
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=104|end_char=107
+17	и	и	CCONJ	_	_	19	cc	_	start_char=108|end_char=109
+18	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	start_char=110|end_char=113
+19	смущен	смутить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	start_char=114|end_char=120
+20	,	,	PUNCT	_	_	21	punct	_	start_char=120|end_char=121
+21	узнав	узнать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	19	advcl	_	start_char=122|end_char=127
+22	,	,	PUNCT	_	_	25	punct	_	start_char=127|end_char=128
+23	что	что	SCONJ	_	_	25	mark	_	start_char=129|end_char=132
+24	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=133|end_char=135
+25	оказался	оказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	21	ccomp	_	start_char=136|end_char=144
+26	бракованным	браковать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	xcomp	_	start_char=145|end_char=156
+27	.	.	PUNCT	_	_	2	punct	_	start_char=156|end_char=157
+
+# text = Мне возместили стоимость товара, но я бы предпочел получить товар, который сработал с первого раза.
+# sent_id = 2
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=158|end_char=161
+2	возместили	возместить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=162|end_char=172
+3	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=173|end_char=182
+4	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=183|end_char=189
+5	,	,	PUNCT	_	_	9	punct	_	start_char=189|end_char=190
+6	но	но	CCONJ	_	_	9	cc	_	start_char=191|end_char=193
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=194|end_char=195
+8	бы	бы	AUX	_	_	9	aux	_	start_char=196|end_char=198
+9	предпочел	предпочесть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=199|end_char=208
+10	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=209|end_char=217
+11	товар	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=218|end_char=223
+12	,	,	PUNCT	_	_	14	punct	_	start_char=223|end_char=224
+13	который	который	PRON	_	Case=Nom|PronType=Int,Rel	14	nsubj	_	start_char=225|end_char=232
+14	сработал	сработать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=233|end_char=241
+15	с	с	ADP	_	_	17	case	_	start_char=242|end_char=243
+16	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=244|end_char=251
+17	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=252|end_char=256
+18	.	.	PUNCT	_	_	2	punct	_	start_char=256|end_char=257
+

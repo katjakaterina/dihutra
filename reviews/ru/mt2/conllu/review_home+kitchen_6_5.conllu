@@ -1,0 +1,92 @@
+# text = Один на миллион Я нахожусь в поисках идеального рецепта свадебного торта уже более десяти лет.
+# sent_id = 0
+1	Один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	5	obl	_	start_char=0|end_char=4
+2	на	на	ADP	_	_	3	case	_	start_char=5|end_char=7
+3	миллион	миллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nummod:gov	_	start_char=8|end_char=15
+4	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=16|end_char=17
+5	нахожусь	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=18|end_char=26
+6	в	в	ADP	_	_	7	case	_	start_char=27|end_char=28
+7	поисках	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	start_char=29|end_char=36
+8	идеального	идеальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=37|end_char=47
+9	рецепта	рецепт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=48|end_char=55
+10	свадебного	свадебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=56|end_char=66
+11	торта	торт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=67|end_char=72
+12	уже	уже	ADV	_	Degree=Pos	13	advmod	_	start_char=73|end_char=76
+13	более	более	ADV	_	Degree=Cmp	15	advmod	_	start_char=77|end_char=82
+14	десяти	десять	NUM	_	Case=Gen|NumType=Card	15	nummod	_	start_char=83|end_char=89
+15	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=90|end_char=93
+16	.	.	PUNCT	_	_	5	punct	_	start_char=93|end_char=94
+
+# text = Можно назвать это навязчивой идеей, поскольку мне лично очень нравится вкус свадебного торта, а я даже не замужем!
+# sent_id = 1
+1	Можно	можно	ADV	_	Degree=Pos	0	root	_	start_char=95|end_char=100
+2	назвать	назвать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=101|end_char=108
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=109|end_char=112
+4	навязчивой	навязчивый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=113|end_char=123
+5	идеей	идея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=124|end_char=129
+6	,	,	PUNCT	_	_	11	punct	_	start_char=129|end_char=130
+7	поскольку	поскольку	SCONJ	_	_	11	mark	_	start_char=131|end_char=140
+8	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	iobj	_	start_char=141|end_char=144
+9	лично	лично	ADV	_	Degree=Pos	11	advmod	_	start_char=145|end_char=150
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	start_char=151|end_char=156
+11	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	start_char=157|end_char=165
+12	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=166|end_char=170
+13	свадебного	свадебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=171|end_char=181
+14	торта	торт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=182|end_char=187
+15	,	,	PUNCT	_	_	20	punct	_	start_char=187|end_char=188
+16	а	а	CCONJ	_	_	20	cc	_	start_char=189|end_char=190
+17	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=191|end_char=192
+18	даже	даже	PART	_	_	19	advmod	_	start_char=193|end_char=197
+19	не	не	PART	_	_	20	advmod	_	start_char=198|end_char=200
+20	замужем	замужем	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	11	conj	_	start_char=201|end_char=208
+21	!	!	PUNCT	_	_	1	punct	_	start_char=208|end_char=209
+
+# text = Я купила эту книгу, как только она вышла в свет, и рецепты просто потрясающие - так же, как и фотографии.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=210|end_char=211
+2	купила	купить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=212|end_char=218
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=219|end_char=222
+4	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=223|end_char=228
+5	,	,	PUNCT	_	_	9	punct	_	start_char=228|end_char=229
+6	как	как	SCONJ	_	_	9	mark	_	start_char=230|end_char=233
+7	только	только	PART	_	_	6	fixed	_	start_char=234|end_char=240
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=241|end_char=244
+9	вышла	выйти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=245|end_char=250
+10	в	в	ADP	_	_	11	case	_	start_char=251|end_char=252
+11	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=253|end_char=257
+12	,	,	PUNCT	_	_	16	punct	_	start_char=257|end_char=258
+13	и	и	CCONJ	_	_	16	cc	_	start_char=259|end_char=260
+14	рецепты	рецепт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=261|end_char=268
+15	просто	просто	PART	_	_	16	advmod	_	start_char=269|end_char=275
+16	потрясающие	потрясающий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj	_	start_char=276|end_char=287
+17	-	-	PUNCT	_	_	18	punct	_	start_char=288|end_char=289
+18	так	так	ADV	_	Degree=Pos	16	parataxis	_	start_char=290|end_char=293
+19	же	же	PART	_	_	18	advmod	_	start_char=294|end_char=296
+20	,	,	PUNCT	_	_	23	punct	_	start_char=296|end_char=297
+21	как	как	SCONJ	_	_	23	mark	_	start_char=298|end_char=301
+22	и	и	PART	_	_	23	advmod	_	start_char=302|end_char=303
+23	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	obl	_	start_char=304|end_char=314
+24	.	.	PUNCT	_	_	2	punct	_	start_char=314|end_char=315
+
+# text = Для всех, кто печет свадебные торты, эта книга рецептов стоит того, чтобы в нее вложиться.
+# sent_id = 3
+1	Для	для	ADP	_	_	2	case	_	start_char=316|end_char=319
+2	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur|PronType=Tot	12	obl	_	start_char=320|end_char=324
+3	,	,	PUNCT	_	_	5	punct	_	start_char=324|end_char=325
+4	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	5	nsubj	_	start_char=326|end_char=329
+5	печет	печь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=330|end_char=335
+6	свадебные	свадебный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	start_char=336|end_char=345
+7	торты	торт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=346|end_char=351
+8	,	,	PUNCT	_	_	2	punct	_	start_char=351|end_char=352
+9	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=353|end_char=356
+10	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=357|end_char=362
+11	рецептов	рецепт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=363|end_char=371
+12	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=372|end_char=377
+13	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	obl	_	start_char=378|end_char=382
+14	,	,	PUNCT	_	_	18	punct	_	start_char=382|end_char=383
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	start_char=384|end_char=389
+16	в	в	ADP	_	_	17	case	_	start_char=390|end_char=391
+17	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	start_char=392|end_char=395
+18	вложиться	вкладываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	advcl	_	start_char=396|end_char=405
+19	.	.	PUNCT	_	_	12	punct	_	start_char=405|end_char=406
+

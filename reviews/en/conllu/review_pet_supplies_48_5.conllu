@@ -1,6 +1,9 @@
-1	Groomer	groomer	NOUN	NN	Number=Sing	7	nsubj	_	start_char=0|end_char=7
+# text = Groomer in Training I am currently training to be a Groomer/Pet Stylist and this is the book my company uses in their grooming academy to train all groomers.
+# sent_id = 0
+# sentiment = 1
+1	Groomer	Groomer	PROPN	NNP	Number=Sing	7	vocative	_	start_char=0|end_char=7
 2	in	in	ADP	IN	_	3	case	_	start_char=8|end_char=10
-3	Training	training	NOUN	NN	Number=Sing	1	nmod	_	start_char=11|end_char=19
+3	Training	Training	PROPN	NNP	Number=Sing	1	nmod	_	start_char=11|end_char=19
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=20|end_char=21
 5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=22|end_char=24
 6	currently	currently	ADV	RB	_	7	advmod	_	start_char=25|end_char=34
@@ -8,20 +11,20 @@
 8	to	to	PART	TO	_	14	mark	_	start_char=44|end_char=46
 9	be	be	AUX	VB	VerbForm=Inf	14	cop	_	start_char=47|end_char=49
 10	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=50|end_char=51
-11	Groomer	groomer	NOUN	NN	Number=Sing	7	xcomp	_	start_char=52|end_char=59
-12	/	/	SYM	,	_	14	cc	_	start_char=59|end_char=60
+11	Groomer	groomer	NOUN	NN	Number=Sing	14	compound	_	start_char=52|end_char=59
+12	/	/	SYM	,	_	13	cc	_	start_char=59|end_char=60
 13	Pet	Pet	PROPN	NNP	Number=Sing	14	compound	_	start_char=60|end_char=63
-14	Stylist	stylist	NOUN	NN	Number=Sing	11	conj	_	start_char=64|end_char=71
+14	Stylist	Stylist	PROPN	NNP	Number=Sing	7	xcomp	_	start_char=64|end_char=71
 15	and	and	CCONJ	CC	_	19	cc	_	start_char=72|end_char=75
 16	this	this	PRON	DT	Number=Sing|PronType=Dem	19	nsubj	_	start_char=76|end_char=80
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=81|end_char=83
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=84|end_char=87
 19	book	book	NOUN	NN	Number=Sing	7	conj	_	start_char=88|end_char=92
-20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=93|end_char=95
+20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=93|end_char=95
 21	company	company	NOUN	NN	Number=Sing	22	nsubj	_	start_char=96|end_char=103
 22	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	start_char=104|end_char=108
 23	in	in	ADP	IN	_	26	case	_	start_char=109|end_char=111
-24	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=112|end_char=117
+24	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=112|end_char=117
 25	grooming	grooming	NOUN	NN	Number=Sing	26	compound	_	start_char=118|end_char=126
 26	academy	academy	NOUN	NN	Number=Sing	22	obl	_	start_char=127|end_char=134
 27	to	to	PART	TO	_	28	mark	_	start_char=135|end_char=137
@@ -30,11 +33,17 @@
 30	groomers	groomer	NOUN	NNS	Number=Plur	28	obj	_	start_char=148|end_char=156
 31	.	.	PUNCT	.	_	7	punct	_	start_char=156|end_char=157
 
+# text = It is wonderful.
+# sent_id = 1
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=158|end_char=160
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=161|end_char=163
 3	wonderful	wonderful	ADJ	JJ	Degree=Pos	0	root	_	start_char=164|end_char=173
 4	.	.	PUNCT	.	_	3	punct	_	start_char=173|end_char=174
 
+# text = It is very helpful to know that you can turn to any page in this book and find the breed of dog you are looking for.
+# sent_id = 2
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	start_char=175|end_char=177
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=178|end_char=180
 3	very	very	ADV	RB	_	4	advmod	_	start_char=181|end_char=185
@@ -50,7 +59,7 @@
 13	page	page	NOUN	NN	Number=Sing	10	obl	_	start_char=227|end_char=231
 14	in	in	ADP	IN	_	16	case	_	start_char=232|end_char=234
 15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	start_char=235|end_char=239
-16	book	book	NOUN	NN	Number=Sing	10	obl	_	start_char=240|end_char=244
+16	book	book	NOUN	NN	Number=Sing	13	nmod	_	start_char=240|end_char=244
 17	and	and	CCONJ	CC	_	18	cc	_	start_char=245|end_char=248
 18	find	find	VERB	VB	VerbForm=Inf	10	conj	_	start_char=249|end_char=253
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=254|end_char=257
@@ -58,46 +67,55 @@
 21	of	of	ADP	IN	_	22	case	_	start_char=264|end_char=266
 22	dog	dog	NOUN	NN	Number=Sing	20	nmod	_	start_char=267|end_char=270
 23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	start_char=271|end_char=274
-24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=275|end_char=278
+24	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=275|end_char=278
 25	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	22	acl:relcl	_	start_char=279|end_char=286
 26	for	for	ADP	IN	_	25	obl	_	start_char=287|end_char=290
 27	.	.	PUNCT	.	_	4	punct	_	start_char=290|end_char=291
 
+# text = There are also general instructions that apply to many breeds (ex: teddy bear heads, etc).
+# sent_id = 3
+# sentiment = 1
 1	There	there	PRON	EX	_	2	expl	_	start_char=292|end_char=297
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=298|end_char=301
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=298|end_char=301
 3	also	also	ADV	RB	_	2	advmod	_	start_char=302|end_char=306
 4	general	general	ADJ	JJ	Degree=Pos	5	amod	_	start_char=307|end_char=314
 5	instructions	instruction	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=315|end_char=327
 6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	start_char=328|end_char=332
-7	apply	apply	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=333|end_char=338
+7	apply	apply	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=333|end_char=338
 8	to	to	ADP	IN	_	10	case	_	start_char=339|end_char=341
 9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	start_char=342|end_char=346
 10	breeds	breed	NOUN	NNS	Number=Plur	7	obl	_	start_char=347|end_char=353
 11	(	(	PUNCT	-LRB-	_	12	punct	_	start_char=354|end_char=355
-12	ex	ex	NOUN	NN	Number=Sing	10	appos	_	start_char=355|end_char=357
-13	:	:	PUNCT	:	_	16	punct	_	start_char=357|end_char=358
-14	teddy	teddy	NOUN	NN	Number=Sing	16	compound	_	start_char=359|end_char=364
+12	ex	ex	X	FW	_	2	parataxis	_	start_char=355|end_char=357
+13	:	:	PUNCT	:	_	12	punct	_	start_char=357|end_char=358
+14	teddy	teddy	NOUN	NN	Number=Sing	15	compound	_	start_char=359|end_char=364
 15	bear	bear	NOUN	NN	Number=Sing	16	compound	_	start_char=365|end_char=369
-16	heads	head	NOUN	NNS	Number=Plur	12	appos	_	start_char=370|end_char=375
+16	heads	head	NOUN	NNS	Number=Plur	12	parataxis	_	start_char=370|end_char=375
 17	,	,	PUNCT	,	_	18	punct	_	start_char=375|end_char=376
-18	etc	etc	X	FW	_	16	conj	_	start_char=377|end_char=380
+18	etc	etc	NOUN	FW	Abbr=Yes|Number=Sing	12	conj	_	start_char=377|end_char=380
 19	)	)	PUNCT	-RRB-	_	12	punct	_	start_char=380|end_char=381
 20	.	.	PUNCT	.	_	2	punct	_	start_char=381|end_char=382
 
+# text = Directions are simple, yet detailed enough for anyone to understand.
+# sent_id = 4
+# sentiment = 1
 1	Directions	direction	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=383|end_char=393
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=394|end_char=397
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=394|end_char=397
 3	simple	simple	ADJ	JJ	Degree=Pos	0	root	_	start_char=398|end_char=404
 4	,	,	PUNCT	,	_	6	punct	_	start_char=404|end_char=405
 5	yet	yet	CCONJ	CC	_	6	cc	_	start_char=406|end_char=409
 6	detailed	detailed	ADJ	JJ	Degree=Pos	3	conj	_	start_char=410|end_char=418
 7	enough	enough	ADV	RB	_	6	advmod	_	start_char=419|end_char=425
-8	for	for	ADP	IN	_	9	case	_	start_char=426|end_char=429
-9	anyone	anyone	PRON	NN	Number=Sing	7	obl	_	start_char=430|end_char=436
+8	for	for	SCONJ	IN	_	11	mark	_	start_char=426|end_char=429
+9	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	11	nsubj	_	start_char=430|end_char=436
 10	to	to	PART	TO	_	11	mark	_	start_char=437|end_char=439
 11	understand	understand	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=440|end_char=450
 12	.	.	PUNCT	.	_	3	punct	_	start_char=450|end_char=451
 
-1	A	a	PRON	DT	Case=Nom|Definite=Ind|PronType=Art	3	nsubj	_	start_char=452|end_char=453
+# text = A must have for groomers and pet stylists!
+# sent_id = 5
+# sentiment = 1
+1	A	a	DET	DT	Definite=Ind|PronType=Art	3	nsubj	_	start_char=452|end_char=453
 2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	start_char=454|end_char=458
 3	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=459|end_char=463
 4	for	for	ADP	IN	_	5	case	_	start_char=464|end_char=467

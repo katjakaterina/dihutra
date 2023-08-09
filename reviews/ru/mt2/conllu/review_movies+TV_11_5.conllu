@@ -1,0 +1,88 @@
+# text = Выдающаяся концепция и исполнение Небольшой исторический канадский городок Элора с его вековыми зданиями - идеальное место для этой истории, действие которой происходит в начале 1900-х годов.
+# sent_id = 0
+1	Выдающаяся	выдающийся	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	концепция	концепция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=11|end_char=20
+3	и	и	CCONJ	_	_	4	cc	_	start_char=21|end_char=22
+4	исполнение	исполнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	start_char=23|end_char=33
+5	Небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=34|end_char=43
+6	исторический	исторический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=44|end_char=56
+7	канадский	канадский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=57|end_char=66
+8	городок	городок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=67|end_char=74
+9	Элора	Элора	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=75|end_char=80
+10	с	с	ADP	_	_	13	case	_	start_char=81|end_char=82
+11	его	его	DET	_	Poss=Yes|PronType=Prs	13	det	_	start_char=83|end_char=86
+12	вековыми	вековой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	start_char=87|end_char=95
+13	зданиями	здание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	nmod	_	start_char=96|end_char=104
+14	-	-	PUNCT	_	_	2	punct	_	start_char=105|end_char=106
+15	идеальное	идеальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=107|end_char=116
+16	место	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=117|end_char=122
+17	для	для	ADP	_	_	19	case	_	start_char=123|end_char=126
+18	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	start_char=127|end_char=131
+19	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=132|end_char=139
+20	,	,	PUNCT	_	_	23	punct	_	start_char=139|end_char=140
+21	действие	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=141|end_char=149
+22	которой	который	PRON	_	Case=Gen|PronType=Int,Rel	21	nmod	_	start_char=150|end_char=157
+23	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	start_char=158|end_char=168
+24	в	в	ADP	_	_	25	case	_	start_char=169|end_char=170
+25	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	start_char=171|end_char=177
+26	1900-х	1900-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	start_char=178|end_char=184
+27	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	start_char=185|end_char=190
+28	.	.	PUNCT	_	_	16	punct	_	start_char=190|end_char=191
+
+# text = Перенос сюжета в Америку XX века позволяет включить в него ситуации, с которыми американцам легче смириться.
+# sent_id = 1
+1	Перенос	перенос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=192|end_char=199
+2	сюжета	сюжет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=200|end_char=206
+3	в	в	ADP	_	_	4	case	_	start_char=207|end_char=208
+4	Америку	Америка	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	start_char=209|end_char=216
+5	XX	xx	ADJ	_	Degree=Pos	6	amod	_	start_char=217|end_char=219
+6	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=220|end_char=224
+7	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=225|end_char=234
+8	включить	включить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=235|end_char=243
+9	в	в	ADP	_	_	10	case	_	start_char=244|end_char=245
+10	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	start_char=246|end_char=250
+11	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=251|end_char=259
+12	,	,	PUNCT	_	_	16	punct	_	start_char=259|end_char=260
+13	с	с	ADP	_	_	14	case	_	start_char=261|end_char=262
+14	которыми	который	PRON	_	Case=Ins|PronType=Int,Rel	17	obl	_	start_char=263|end_char=271
+15	американцам	американец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	iobj	_	start_char=272|end_char=283
+16	легче	легкий	ADJ	_	Degree=Cmp	11	acl:relcl	_	start_char=284|end_char=289
+17	смириться	смириться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	16	csubj	_	start_char=290|end_char=299
+18	.	.	PUNCT	_	_	7	punct	_	start_char=299|end_char=300
+
+# text = Генри Уинклер прекрасно справляется с ролью Скруджа, да и актеры второго плана заслуживают не меньшего восхищения.
+# sent_id = 2
+1	Генри	Генри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=301|end_char=306
+2	Уинклер	Уинклер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=307|end_char=314
+3	прекрасно	прекрасно	ADV	_	Degree=Pos	4	advmod	_	start_char=315|end_char=324
+4	справляется	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=325|end_char=336
+5	с	с	ADP	_	_	6	case	_	start_char=337|end_char=338
+6	ролью	роль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	start_char=339|end_char=344
+7	Скруджа	Скруджа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=345|end_char=352
+8	,	,	PUNCT	_	_	14	punct	_	start_char=352|end_char=353
+9	да	да	CCONJ	_	_	14	cc	_	start_char=354|end_char=356
+10	и	и	PART	_	_	9	fixed	_	start_char=357|end_char=358
+11	актеры	актер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=359|end_char=365
+12	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=366|end_char=373
+13	плана	план	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=374|end_char=379
+14	заслуживают	заслуживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=380|end_char=391
+15	не	не	PART	_	_	16	advmod	_	start_char=392|end_char=394
+16	меньшего	меньший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=395|end_char=403
+17	восхищения	восхищение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	start_char=404|end_char=414
+18	.	.	PUNCT	_	_	4	punct	_	start_char=414|end_char=415
+
+# text = Для меня это ежегодный фильм &#34;must watch&#34;.
+# sent_id = 3
+1	Для	для	ADP	_	_	2	case	_	start_char=416|end_char=419
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod	_	start_char=420|end_char=424
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=425|end_char=428
+4	ежегодный	ежегодный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=429|end_char=438
+5	фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=439|end_char=444
+6	&	&	SYM	_	_	5	flat:foreign	_	start_char=445|end_char=446
+7	#34;must	#34;must	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=446|end_char=454
+8	watch&	watch&	X	_	Foreign=Yes	5	flat:foreign	_	start_char=455|end_char=461
+9	#	#	SYM	_	_	5	flat:foreign	_	start_char=461|end_char=462
+10	34	34	NUM	_	NumType=Card	9	nummod:entity	_	start_char=462|end_char=464
+11	;	;	PUNCT	_	_	10	punct	_	start_char=464|end_char=465
+12	.	.	PUNCT	_	_	5	punct	_	start_char=465|end_char=466
+

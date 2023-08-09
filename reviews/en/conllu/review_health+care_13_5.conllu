@@ -1,32 +1,41 @@
+# text = Just what I was looking for This magnifier is just what I was looking for.
+# sent_id = 0
+# sentiment = 2
 1	Just	just	ADV	RB	_	2	advmod	_	start_char=0|end_char=4
-2	what	what	PRON	WP	PronType=Int	9	nsubj	_	start_char=5|end_char=9
+2	what	what	PRON	WP	PronType=Int	11	nsubj	_	start_char=5|end_char=9
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=10|end_char=11
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	start_char=12|end_char=15
 5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	2	acl:relcl	_	start_char=16|end_char=23
-6	for	for	ADP	IN	_	8	case	_	start_char=24|end_char=27
+6	for	for	ADP	IN	_	5	obl	_	start_char=24|end_char=27
 7	This	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=28|end_char=32
 8	magnifier	magnifier	NOUN	NN	Number=Sing	5	obl	_	start_char=33|end_char=42
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=43|end_char=45
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=43|end_char=45
 10	just	just	ADV	RB	_	11	advmod	_	start_char=46|end_char=50
-11	what	what	PRON	WP	PronType=Int	9	ccomp	_	start_char=51|end_char=55
+11	what	what	PRON	WP	PronType=Int	0	root	_	start_char=51|end_char=55
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=56|end_char=57
-13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=58|end_char=61
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	aux	_	start_char=58|end_char=61
 14	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	11	acl:relcl	_	start_char=62|end_char=69
 15	for	for	ADP	IN	_	14	obl	_	start_char=70|end_char=73
-16	.	.	PUNCT	.	_	9	punct	_	start_char=73|end_char=74
+16	.	.	PUNCT	.	_	11	punct	_	start_char=73|end_char=74
 
+# text = It is small and easy to hold.
+# sent_id = 1
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=75|end_char=77
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=78|end_char=80
 3	small	small	ADJ	JJ	Degree=Pos	0	root	_	start_char=81|end_char=86
 4	and	and	CCONJ	CC	_	5	cc	_	start_char=87|end_char=90
 5	easy	easy	ADJ	JJ	Degree=Pos	3	conj	_	start_char=91|end_char=95
 6	to	to	PART	TO	_	7	mark	_	start_char=96|end_char=98
-7	hold	hold	VERB	VB	VerbForm=Inf	5	ccomp	_	start_char=99|end_char=103
+7	hold	hold	VERB	VB	VerbForm=Inf	3	csubj	_	start_char=99|end_char=103
 8	.	.	PUNCT	.	_	3	punct	_	start_char=103|end_char=104
 
+# text = I wanted something to read small numbers/characters on electronic stuff like computers, electronics, etc.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=105|end_char=106
-2	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=107|end_char=113
-3	something	something	PRON	NN	Number=Sing	2	obj	_	start_char=114|end_char=123
+2	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=107|end_char=113
+3	something	something	PRON	NN	Number=Sing|PronType=Ind	2	obj	_	start_char=114|end_char=123
 4	to	to	PART	TO	_	5	mark	_	start_char=124|end_char=126
 5	read	read	VERB	VB	VerbForm=Inf	3	acl	_	start_char=127|end_char=131
 6	small	small	ADJ	JJ	Degree=Pos	7	amod	_	start_char=132|end_char=137
@@ -41,12 +50,15 @@
 15	,	,	PUNCT	,	_	16	punct	_	start_char=191|end_char=192
 16	electronics	electronics	NOUN	NNS	Number=Plur	14	conj	_	start_char=193|end_char=204
 17	,	,	PUNCT	,	_	18	punct	_	start_char=204|end_char=205
-18	etc	etc	X	FW	_	14	conj	_	start_char=206|end_char=209
+18	etc	etc	NOUN	FW	Abbr=Yes|Number=Sing	14	conj	_	start_char=206|end_char=209
 19	.	.	PUNCT	.	_	2	punct	_	start_char=209|end_char=210
 
+# text = I also work on the insides of computers and this is great for seeing small things.
+# sent_id = 3
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=211|end_char=212
 2	also	also	ADV	RB	_	3	advmod	_	start_char=213|end_char=217
-3	work	work	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=218|end_char=222
+3	work	work	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=218|end_char=222
 4	on	on	ADP	IN	_	6	case	_	start_char=223|end_char=225
 5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=226|end_char=229
 6	insides	inside	NOUN	NNS	Number=Plur	3	obl	_	start_char=230|end_char=237
@@ -62,9 +74,12 @@
 16	things	thing	NOUN	NNS	Number=Plur	14	obj	_	start_char=286|end_char=292
 17	.	.	PUNCT	.	_	3	punct	_	start_char=292|end_char=293
 
+# text = I don't want to magnify books or magazines.
+# sent_id = 4
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=294|end_char=295
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=296|end_char=298
-3	n't	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=298|end_char=301
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=296|end_char=298
+3	n't	not	PART	RB	_	4	advmod	_	start_char=298|end_char=301
 4	want	want	VERB	VB	VerbForm=Inf	0	root	_	start_char=302|end_char=306
 5	to	to	PART	TO	_	6	mark	_	start_char=307|end_char=309
 6	magnify	magnify	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=310|end_char=317
@@ -73,6 +88,9 @@
 9	magazines	magazine	NOUN	NNS	Number=Plur	7	conj	_	start_char=327|end_char=336
 10	.	.	PUNCT	.	_	4	punct	_	start_char=336|end_char=337
 
+# text = The light works well and makes reading small things very easy.
+# sent_id = 5
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=338|end_char=341
 2	light	light	NOUN	NN	Number=Sing	3	nsubj	_	start_char=342|end_char=347
 3	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=348|end_char=353

@@ -1,22 +1,31 @@
+# text = Still NOT completely remastered
+# sent_id = 0
+# sentiment = 1
 1	Still	still	ADV	RB	_	4	advmod	_	start_char=0|end_char=5
 2	NOT	not	PART	RB	_	4	advmod	_	start_char=6|end_char=9
 3	completely	completely	ADV	RB	_	4	advmod	_	start_char=10|end_char=20
 4	remastered	remaster	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=21|end_char=31
 
-1	In	in	ADP	IN	_	3	case	_	start_char=32|end_char=34
-2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=35|end_char=38
-3	item	item	NOUN	NN	Number=Sing	4	nsubj	_	start_char=39|end_char=43
-4	notes	note	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=44|end_char=49
+# text = In the item notes for this DVD it claims it is remastered.
+# sent_id = 1
+# sentiment = 1
+1	In	in	ADP	IN	_	4	case	_	start_char=32|end_char=34
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=35|end_char=38
+3	item	item	NOUN	NN	Number=Sing	4	compound	_	start_char=39|end_char=43
+4	notes	note	NOUN	NNS	Number=Plur	9	obl	_	start_char=44|end_char=49
 5	for	for	ADP	IN	_	7	case	_	start_char=50|end_char=53
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	start_char=54|end_char=58
-7	DVD	dvd	NOUN	NN	Number=Sing	4	obl	_	start_char=59|end_char=62
+7	DVD	dvd	NOUN	NN	Number=Sing	4	nmod	_	start_char=59|end_char=62
 8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=63|end_char=65
-9	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=66|end_char=72
+9	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=66|end_char=72
 10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	start_char=73|end_char=75
 11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	start_char=76|end_char=78
 12	remastered	remaster	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	start_char=79|end_char=89
-13	.	.	PUNCT	.	_	4	punct	_	start_char=89|end_char=90
+13	.	.	PUNCT	.	_	9	punct	_	start_char=89|end_char=90
 
+# text = Though it is not as poor quality as the 2004 DVD, it still has black dots and white scratches in the picture.
+# sent_id = 2
+# sentiment = 1
 1	Though	though	SCONJ	IN	_	7	mark	_	start_char=91|end_char=97
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=98|end_char=100
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=101|end_char=103
@@ -26,9 +35,9 @@
 7	quality	quality	NOUN	NN	Number=Sing	15	advcl	_	start_char=116|end_char=123
 8	as	as	ADP	IN	_	11	case	_	start_char=124|end_char=126
 9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=127|end_char=130
-10	2004	2004	NUM	CD	NumType=Card	11	nummod	_	start_char=131|end_char=135
+10	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	11	compound	_	start_char=131|end_char=135
 11	DVD	dvd	NOUN	NN	Number=Sing	7	nmod	_	start_char=136|end_char=139
-12	,	,	PUNCT	,	_	15	punct	_	start_char=139|end_char=140
+12	,	,	PUNCT	,	_	7	punct	_	start_char=139|end_char=140
 13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=141|end_char=143
 14	still	still	ADV	RB	_	15	advmod	_	start_char=144|end_char=149
 15	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=150|end_char=153
@@ -42,6 +51,9 @@
 23	picture	picture	NOUN	NN	Number=Sing	15	obl	_	start_char=192|end_char=199
 24	.	.	PUNCT	.	_	15	punct	_	start_char=199|end_char=200
 
+# text = Is CBS the only place you can find the completely remastered version?
+# sent_id = 3
+# sentiment = 1
 1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=201|end_char=203
 2	CBS	CBS	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=204|end_char=207
 3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=208|end_char=211
@@ -56,19 +68,25 @@
 12	version	version	NOUN	NN	Number=Sing	8	obj	_	start_char=262|end_char=269
 13	?	?	PUNCT	.	_	5	punct	_	start_char=269|end_char=270
 
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=271|end_char=275
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=276|end_char=278
-3	NOT	not	PART	RB	_	4	advmod	_	start_char=279|end_char=282
-4	worth	worth	ADJ	JJ	Degree=Pos	0	root	_	start_char=283|end_char=288
-5	$	$	SYM	$	_	4	obj	_	start_char=289|end_char=290
-6	14.99	14.99	NUM	CD	NumType=Card	5	nummod	_	start_char=290|end_char=295
+# text = This is NOT worth $14.99, more like $4.99.
+# sent_id = 4
+# sentiment = 1
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=271|end_char=275
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=276|end_char=278
+3	NOT	not	PART	RB	_	5	advmod	_	start_char=279|end_char=282
+4	worth	worth	ADJ	JJ	Degree=Pos	5	case	_	start_char=283|end_char=288
+5	$	$	SYM	$	_	0	root	_	start_char=289|end_char=290
+6	14.99	14.99	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=290|end_char=295
 7	,	,	PUNCT	,	_	10	punct	_	start_char=295|end_char=296
-8	more	more	ADJ	JJR	Degree=Cmp	10	advmod	_	start_char=297|end_char=301
-9	like	like	ADP	IN	_	8	fixed	_	start_char=302|end_char=306
-10	$	$	SYM	$	_	5	conj	_	start_char=307|end_char=308
-11	4.99	4.99	NUM	CD	NumType=Card	10	nummod	_	start_char=308|end_char=312
-12	.	.	PUNCT	.	_	4	punct	_	start_char=312|end_char=313
+8	more	more	ADV	RBR	Degree=Cmp	10	advmod	_	start_char=297|end_char=301
+9	like	like	ADP	IN	_	10	case	_	start_char=302|end_char=306
+10	$	$	SYM	$	_	5	nmod	_	start_char=307|end_char=308
+11	4.99	4.99	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=308|end_char=312
+12	.	.	PUNCT	.	_	5	punct	_	start_char=312|end_char=313
 
+# text = Remaster the thing or don't supply it. :(
+# sent_id = 5
+# sentiment = 1
 1	Remaster	remaster	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=314|end_char=322
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=323|end_char=326
 3	thing	thing	NOUN	NN	Number=Sing	1	obj	_	start_char=327|end_char=332

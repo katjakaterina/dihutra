@@ -1,0 +1,115 @@
+# text = Хорошо, но можно разобраться самому без книги Я купила эту книгу, когда покупала поп-мейкер.
+# sent_id = 0
+1	Хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	_	_	4	punct	_	start_char=6|end_char=7
+3	но	но	CCONJ	_	_	4	cc	_	start_char=8|end_char=10
+4	можно	можно	ADV	_	Degree=Pos	1	conj	_	start_char=11|end_char=16
+5	разобраться	разобраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	csubj	_	start_char=17|end_char=28
+6	самому	сам	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=29|end_char=35
+7	без	без	ADP	_	_	8	case	_	start_char=36|end_char=39
+8	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	start_char=40|end_char=45
+9	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=46|end_char=47
+10	купила	купить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=48|end_char=54
+11	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=55|end_char=58
+12	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=59|end_char=64
+13	,	,	PUNCT	_	_	15	punct	_	start_char=64|end_char=65
+14	когда	когда	SCONJ	_	_	15	mark	_	start_char=66|end_char=71
+15	покупала	покупать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=72|end_char=80
+16	поп-мейкер	поп-мейкер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=81|end_char=91
+17	.	.	PUNCT	_	_	1	punct	_	start_char=91|end_char=92
+
+# text = Я думаю, что рецепты прекрасны, но в книге действительно нет ничего такого, с чем бы я не разобралась сама.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=93|end_char=94
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=95|end_char=100
+3	,	,	PUNCT	_	_	6	punct	_	start_char=100|end_char=101
+4	что	что	SCONJ	_	_	6	mark	_	start_char=102|end_char=105
+5	рецепты	рецепт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=106|end_char=113
+6	прекрасны	прекрасный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	ccomp	_	start_char=114|end_char=123
+7	,	,	PUNCT	_	_	12	punct	_	start_char=123|end_char=124
+8	но	но	CCONJ	_	_	12	cc	_	start_char=125|end_char=127
+9	в	в	ADP	_	_	10	case	_	start_char=128|end_char=129
+10	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	start_char=130|end_char=135
+11	действительно	действительно	ADV	_	Degree=Pos	12	advmod	_	start_char=136|end_char=149
+12	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=150|end_char=153
+13	ничего	ничто	PRON	_	Case=Gen|PronType=Neg	12	nsubj	_	start_char=154|end_char=160
+14	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	start_char=161|end_char=167
+15	,	,	PUNCT	_	_	21	punct	_	start_char=167|end_char=168
+16	с	с	ADP	_	_	17	case	_	start_char=169|end_char=170
+17	чем	что	PRON	_	Case=Ins|PronType=Int,Rel	21	obl	_	start_char=171|end_char=174
+18	бы	бы	AUX	_	_	21	aux	_	start_char=175|end_char=177
+19	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	start_char=178|end_char=179
+20	не	не	PART	_	_	21	advmod	_	start_char=180|end_char=182
+21	разобралась	разобраться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	start_char=183|end_char=194
+22	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	obl	_	start_char=195|end_char=199
+23	.	.	PUNCT	_	_	2	punct	_	start_char=199|end_char=200
+
+# text = Пара хороших рецептов крема, которые сейчас можно бесплатно найти на сайтах с рецептами.
+# sent_id = 2
+1	Пара	пара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=201|end_char=205
+2	хороших	хороший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=206|end_char=213
+3	рецептов	рецепт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=214|end_char=222
+4	крема	крем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=223|end_char=228
+5	,	,	PUNCT	_	_	8	punct	_	start_char=228|end_char=229
+6	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	10	obj	_	start_char=230|end_char=237
+7	сейчас	сейчас	ADV	_	Degree=Pos	8	advmod	_	start_char=238|end_char=244
+8	можно	можно	ADV	_	Degree=Pos	3	acl:relcl	_	start_char=245|end_char=250
+9	бесплатно	бесплатно	ADV	_	Degree=Pos	10	advmod	_	start_char=251|end_char=260
+10	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	start_char=261|end_char=266
+11	на	на	ADP	_	_	12	case	_	start_char=267|end_char=269
+12	сайтах	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	start_char=270|end_char=276
+13	с	с	ADP	_	_	14	case	_	start_char=277|end_char=278
+14	рецептами	рецепт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	12	nmod	_	start_char=279|end_char=288
+15	.	.	PUNCT	_	_	1	punct	_	start_char=288|end_char=289
+
+# text = Что касается "украшения попсы", ну, это тоже было не так уж сложно понять.
+# sent_id = 3
+1	Что	что	PRON	_	Case=Nom|PronType=Int,Rel	2	nsubj	_	start_char=290|end_char=293
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	advcl	_	start_char=294|end_char=302
+3	"	"	PUNCT	_	_	4	punct	_	start_char=303|end_char=304
+4	украшения	украшение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=304|end_char=313
+5	попсы	попс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=314|end_char=319
+6	"	"	PUNCT	_	_	4	punct	_	start_char=319|end_char=320
+7	,	,	PUNCT	_	_	2	punct	_	start_char=320|end_char=321
+8	ну	ну	PART	_	_	16	parataxis	_	start_char=322|end_char=324
+9	,	,	PUNCT	_	_	8	punct	_	start_char=324|end_char=325
+10	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	obj	_	start_char=326|end_char=329
+11	тоже	тоже	PART	_	_	16	advmod	_	start_char=330|end_char=334
+12	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	start_char=335|end_char=339
+13	не	не	PART	_	_	14	advmod	_	start_char=340|end_char=342
+14	так	так	ADV	_	Degree=Pos	16	obl	_	start_char=343|end_char=346
+15	уж	уж	PART	_	_	14	advmod	_	start_char=347|end_char=349
+16	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=350|end_char=356
+17	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	csubj	_	start_char=357|end_char=363
+18	.	.	PUNCT	_	_	16	punct	_	start_char=363|end_char=364
+
+# text = Я бы сэкономил деньги и потратил их на дополнительные палочки, которые, кажется, исчезают так же, как и носки.....
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=365|end_char=366
+2	бы	бы	AUX	_	_	3	aux	_	start_char=367|end_char=369
+3	сэкономил	экономить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=370|end_char=379
+4	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=380|end_char=386
+5	и	и	CCONJ	_	_	6	cc	_	start_char=387|end_char=388
+6	потратил	тратить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=389|end_char=397
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	start_char=398|end_char=400
+8	на	на	ADP	_	_	10	case	_	start_char=401|end_char=403
+9	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=404|end_char=418
+10	палочки	палочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obl	_	start_char=419|end_char=426
+11	,	,	PUNCT	_	_	16	punct	_	start_char=426|end_char=427
+12	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	16	nsubj	_	start_char=428|end_char=435
+13	,	,	PUNCT	_	_	12	punct	_	start_char=435|end_char=436
+14	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	16	parataxis	_	start_char=437|end_char=444
+15	,	,	PUNCT	_	_	14	punct	_	start_char=444|end_char=445
+16	исчезают	исчезать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=446|end_char=454
+17	так	так	ADV	_	Degree=Pos	16	advmod	_	start_char=455|end_char=458
+18	же	же	PART	_	_	17	advmod	_	start_char=459|end_char=461
+19	,	,	PUNCT	_	_	22	punct	_	start_char=461|end_char=462
+20	как	как	SCONJ	_	_	22	mark	_	start_char=463|end_char=466
+21	и	и	PART	_	_	22	advmod	_	start_char=467|end_char=468
+22	носки	носок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	advcl	_	start_char=469|end_char=474
+23	.	.	PUNCT	_	_	22	punct	_	start_char=474|end_char=475
+24	.	.	PUNCT	_	_	22	punct	_	start_char=475|end_char=476
+25	.	.	PUNCT	_	_	22	punct	_	start_char=476|end_char=477
+26	.	.	PUNCT	_	_	22	punct	_	start_char=477|end_char=478
+27	.	.	PUNCT	_	_	3	punct	_	start_char=478|end_char=479
+

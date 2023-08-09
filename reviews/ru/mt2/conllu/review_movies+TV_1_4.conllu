@@ -1,0 +1,69 @@
+# text = хорошая версия классики Очаровательная версия классической диккеновской сказки.
+# sent_id = 0
+1	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=8|end_char=14
+3	классики	классик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=15|end_char=23
+4	Очаровательная	очаровательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=24|end_char=38
+5	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=39|end_char=45
+6	классической	классический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=46|end_char=58
+7	диккеновской	диккеновский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=59|end_char=71
+8	сказки	сказка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=72|end_char=78
+9	.	.	PUNCT	_	_	5	punct	_	start_char=78|end_char=79
+
+# text = Генри Уинклер хорошо играет роль Скруджа.
+# sent_id = 1
+1	Генри	Генри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=80|end_char=85
+2	Уинклер	Уинклер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=86|end_char=93
+3	хорошо	хорошо	ADV	_	Degree=Pos	4	advmod	_	start_char=94|end_char=100
+4	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=101|end_char=107
+5	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=108|end_char=112
+6	Скруджа	Скруджа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=113|end_char=120
+7	.	.	PUNCT	_	_	4	punct	_	start_char=120|end_char=121
+
+# text = Несмотря на то, что вы знаете, что произойдет, в этой версии достаточно изменений, чтобы сделать ее лучше средней.
+# sent_id = 2
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	start_char=122|end_char=130
+2	на	на	ADP	_	_	1	fixed	_	start_char=131|end_char=133
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	start_char=134|end_char=136
+4	,	,	PUNCT	_	_	7	punct	_	start_char=136|end_char=137
+5	что	что	SCONJ	_	_	7	mark	_	start_char=138|end_char=141
+6	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=142|end_char=144
+7	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	start_char=145|end_char=151
+8	,	,	PUNCT	_	_	10	punct	_	start_char=151|end_char=152
+9	что	что	PRON	_	Case=Nom|PronType=Int,Rel	10	nsubj	_	start_char=153|end_char=156
+10	произойдет	произойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=157|end_char=167
+11	,	,	PUNCT	_	_	3	punct	_	start_char=167|end_char=168
+12	в	в	ADP	_	_	14	case	_	start_char=169|end_char=170
+13	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=171|end_char=175
+14	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	start_char=176|end_char=182
+15	достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=183|end_char=193
+16	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nsubj	_	start_char=194|end_char=203
+17	,	,	PUNCT	_	_	19	punct	_	start_char=203|end_char=204
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	19	mark	_	start_char=205|end_char=210
+19	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	start_char=211|end_char=218
+20	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=219|end_char=221
+21	лучше	хороший	ADJ	_	Degree=Cmp	19	obl	_	start_char=222|end_char=227
+22	средней	средний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	obl	_	start_char=228|end_char=235
+23	.	.	PUNCT	_	_	15	punct	_	start_char=235|end_char=236
+
+# text = Если вы любите "Рождественскую песнь" в любой ее версии, то вам понравится и эта.
+# sent_id = 3
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=237|end_char=241
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=242|end_char=244
+3	любите	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	start_char=245|end_char=251
+4	"	"	PUNCT	_	_	6	punct	_	start_char=252|end_char=253
+5	Рождественскую	рождественский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=253|end_char=267
+6	песнь	песнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=268|end_char=273
+7	"	"	PUNCT	_	_	6	punct	_	start_char=273|end_char=274
+8	в	в	ADP	_	_	11	case	_	start_char=275|end_char=276
+9	любой	любой	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind	11	det	_	start_char=277|end_char=282
+10	ее	ее	DET	_	Poss=Yes|PronType=Prs	11	det	_	start_char=283|end_char=285
+11	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	start_char=286|end_char=292
+12	,	,	PUNCT	_	_	3	punct	_	start_char=292|end_char=293
+13	то	то	SCONJ	_	_	15	mark	_	start_char=294|end_char=296
+14	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	15	iobj	_	start_char=297|end_char=300
+15	понравится	понравиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=301|end_char=311
+16	и	и	PART	_	_	17	advmod	_	start_char=312|end_char=313
+17	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	15	nsubj	_	start_char=314|end_char=317
+18	.	.	PUNCT	_	_	15	punct	_	start_char=317|end_char=318
+

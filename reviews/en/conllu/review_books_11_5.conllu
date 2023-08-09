@@ -1,9 +1,15 @@
+# text = Hand Clapping Toe Tapping Oldies
+# sent_id = 0
+# sentiment = 1
 1	Hand	Hand	NOUN	NN	Number=Sing	2	compound	_	start_char=0|end_char=4
 2	Clapping	clapping	NOUN	NN	Number=Sing	5	compound	_	start_char=5|end_char=13
 3	Toe	toe	NOUN	NN	Number=Sing	5	compound	_	start_char=14|end_char=17
-4	Tapping	tapping	NOUN	NN	Number=Sing	5	compound	_	start_char=18|end_char=25
-5	Oldies	Oldies	PROPN	NNPS	Number=Plur	0	root	_	start_char=26|end_char=32
+4	Tapping	tap	VERB	VBG	VerbForm=Ger	5	amod	_	start_char=18|end_char=25
+5	Oldies	Oldy	PROPN	NNPS	Number=Plur	0	root	_	start_char=26|end_char=32
 
+# text = We use this hymn book at the mission.
+# sent_id = 1
+# sentiment = 1
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=33|end_char=35
 2	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=36|end_char=39
 3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	start_char=40|end_char=44
@@ -14,6 +20,9 @@
 8	mission	mission	NOUN	NN	Number=Sing	2	obl	_	start_char=62|end_char=69
 9	.	.	PUNCT	.	_	2	punct	_	start_char=69|end_char=70
 
+# text = It has most of the well-loved oldies from a time gone by.
+# sent_id = 2
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=71|end_char=73
 2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=74|end_char=77
 3	most	most	ADJ	JJS	Degree=Sup	2	obj	_	start_char=78|end_char=82
@@ -25,47 +34,56 @@
 9	oldies	oldy	NOUN	NNS	Number=Plur	3	nmod	_	start_char=101|end_char=107
 10	from	from	ADP	IN	_	12	case	_	start_char=108|end_char=112
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=113|end_char=114
-12	time	time	NOUN	NN	Number=Sing	9	nmod	_	start_char=115|end_char=119
-13	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	start_char=120|end_char=124
-14	by	by	ADP	IN	_	13	obl	_	start_char=125|end_char=127
+12	time	time	NOUN	NN	Number=Sing	2	obl	_	start_char=115|end_char=119
+13	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	start_char=120|end_char=124
+14	by	by	ADV	RB	_	13	advmod	_	start_char=125|end_char=127
 15	.	.	PUNCT	.	_	2	punct	_	start_char=127|end_char=128
 
+# text = Songs like: "I'll Fly Away" and "Closer Walk With Thee".
+# sent_id = 3
+# sentiment = 1
 1	Songs	song	NOUN	NNS	Number=Plur	0	root	_	start_char=129|end_char=134
-2	like	like	ADP	IN	_	6	mark	_	start_char=135|end_char=139
-3	:	:	PUNCT	:	_	6	punct	_	start_char=139|end_char=140
-4	"	"	PUNCT	``	_	6	punct	_	start_char=141|end_char=142
-5	I'll	I'll	PROPN	NNP	Number=Sing	6	nsubj	_	start_char=142|end_char=146
-6	Fly	fly	VERB	VB	Mood=Imp|VerbForm=Fin	1	appos	_	start_char=147|end_char=150
-7	Away	away	ADV	RB	Degree=Pos	6	advmod	_	start_char=151|end_char=155
-8	"	"	PUNCT	''	_	6	punct	_	start_char=155|end_char=156
+2	like	like	ADP	IN	_	7	case	_	start_char=135|end_char=139
+3	:	:	PUNCT	:	_	7	punct	_	start_char=139|end_char=140
+4	"	"	PUNCT	``	_	7	punct	_	start_char=141|end_char=142
+5	I'll	I'll	PROPN	NNP	Number=Sing	6	compound	_	start_char=142|end_char=146
+6	Fly	fly	PROPN	NNP	Number=Sing	7	compound	_	start_char=147|end_char=150
+7	Away	away	ADV	RB	_	1	nmod	_	start_char=151|end_char=155
+8	"	"	PUNCT	''	_	7	punct	_	start_char=155|end_char=156
 9	and	and	CCONJ	CC	_	12	cc	_	start_char=157|end_char=160
 10	"	"	PUNCT	``	_	12	punct	_	start_char=161|end_char=162
-11	Closer	close	ADV	RB	Degree=Cmp	12	advmod	_	start_char=162|end_char=168
-12	Walk	walk	VERB	VB	VerbForm=Fin	6	conj	_	start_char=169|end_char=173
+11	Closer	Close	ADJ	JJR	Degree=Cmp	12	amod	_	start_char=162|end_char=168
+12	Walk	Walk	PROPN	NNP	Number=Sing	7	conj	_	start_char=169|end_char=173
 13	With	with	ADP	IN	_	14	case	_	start_char=174|end_char=178
-14	Thee	Thee	PROPN	NNP	Number=Sing	12	obl	_	start_char=179|end_char=183
-15	"	"	PUNCT	''	_	6	punct	_	start_char=183|end_char=184
+14	Thee	Thee	PROPN	NNP	Number=Sing	12	nmod	_	start_char=179|end_char=183
+15	"	"	PUNCT	''	_	12	punct	_	start_char=183|end_char=184
 16	.	.	PUNCT	.	_	1	punct	_	start_char=184|end_char=185
 
+# text = If you like a good singalong, you will really enjoy the "Heavenly Hiway Hymns."
+# sent_id = 4
+# sentiment = 2
 1	If	if	SCONJ	IN	_	3	mark	_	start_char=186|end_char=188
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=189|end_char=192
-3	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=193|end_char=197
+3	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=193|end_char=197
 4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=198|end_char=199
 5	good	good	ADJ	JJ	Degree=Pos	6	amod	_	start_char=200|end_char=204
 6	singalong	singalong	NOUN	NN	Number=Sing	3	obj	_	start_char=205|end_char=214
 7	,	,	PUNCT	,	_	11	punct	_	start_char=214|end_char=215
-8	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	start_char=216|end_char=219
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	start_char=216|end_char=219
 9	will	will	AUX	MD	VerbForm=Fin	11	aux	_	start_char=220|end_char=224
 10	really	really	ADV	RB	_	11	advmod	_	start_char=225|end_char=231
 11	enjoy	enjoy	VERB	VB	VerbForm=Inf	0	root	_	start_char=232|end_char=237
 12	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=238|end_char=241
 13	"	"	PUNCT	``	_	16	punct	_	start_char=242|end_char=243
-14	Heavenly	heavenly	ADJ	NNP	Degree=Pos	15	amod	_	start_char=243|end_char=251
+14	Heavenly	heavenly	ADJ	NNP	Degree=Pos	16	amod	_	start_char=243|end_char=251
 15	Hiway	Hiway	PROPN	NNP	Number=Sing	16	compound	_	start_char=252|end_char=257
 16	Hymns	Hymns	PROPN	NNPS	Number=Plur	11	obj	_	start_char=258|end_char=263
 17	.	.	PUNCT	.	_	11	punct	_	start_char=263|end_char=264
 18	"	"	PUNCT	''	_	11	punct	_	start_char=264|end_char=265
 
+# text = Be blessed.
+# sent_id = 5
+# sentiment = 1
 1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	aux:pass	_	start_char=266|end_char=268
 2	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=269|end_char=276
 3	.	.	PUNCT	.	_	2	punct	_	start_char=276|end_char=277

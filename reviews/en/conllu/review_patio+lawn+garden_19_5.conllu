@@ -1,23 +1,30 @@
+# text = Gilmour 8-ply Flexogen Hose 25 Foot
+# sent_id = 0
+# sentiment = 1
 1	Gilmour	Gilmour	PROPN	NNP	Number=Sing	0	root	_	start_char=0|end_char=7
-2	8-	8-	NUM	CD	NumType=Card	3	nummod	_	start_char=8|end_char=10
-3	ply	ply	NOUN	NN	Number=Sing	1	list	_	start_char=10|end_char=13
-4	Flexogen	Flexogen	PROPN	NNP	Number=Sing	5	compound	_	start_char=14|end_char=22
-5	Hose	Hose	PROPN	NNP	Number=Sing	1	list	_	start_char=23|end_char=27
-6	25	25	NUM	CD	NumType=Card	7	nummod	_	start_char=28|end_char=30
-7	Foot	Foot	PROPN	NNP	Number=Sing	5	appos	_	start_char=31|end_char=35
+2	8	8	NUM	CD	NumForm=Digit|NumType=Card	1	dep	_	start_char=8|end_char=9
+3	-	-	PUNCT	,	_	1	punct	_	start_char=9|end_char=10
+4	ply	ply	NOUN	NN	Number=Sing	1	appos	_	start_char=10|end_char=13
+5	Flexogen	flexogen	PROPN	NNP	Number=Sing	6	compound	_	start_char=14|end_char=22
+6	Hose	hose	NOUN	NN	Number=Sing	8	compound	_	start_char=23|end_char=27
+7	25	25	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=28|end_char=30
+8	Foot	Foot	NOUN	NN	Number=Sing	1	appos	_	start_char=31|end_char=35
 
+# text = This little hose was purchased to add on to my other 50 foot hose due to the very humid and oppressive weather this last month in the Northeast.
+# sent_id = 1
+# sentiment = 0
 1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=36|end_char=40
 2	little	little	ADJ	JJ	Degree=Pos	3	amod	_	start_char=41|end_char=47
 3	hose	hose	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=48|end_char=52
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	start_char=53|end_char=56
 5	purchased	purchase	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=57|end_char=66
 6	to	to	PART	TO	_	7	mark	_	start_char=67|end_char=69
-7	add	add	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=70|end_char=73
-8	on	on	ADP	IN	_	7	compound:prt	_	start_char=74|end_char=76
+7	add	add	VERB	VB	VerbForm=Inf	5	advcl	_	start_char=70|end_char=73
+8	on	on	ADP	RP	_	7	compound:prt	_	start_char=74|end_char=76
 9	to	to	ADP	IN	_	14	case	_	start_char=77|end_char=79
-10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=80|end_char=82
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=80|end_char=82
 11	other	other	ADJ	JJ	Degree=Pos	14	amod	_	start_char=83|end_char=88
-12	50	50	NUM	CD	NumType=Card	13	nummod	_	start_char=89|end_char=91
+12	50	50	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	_	start_char=89|end_char=91
 13	foot	foot	NOUN	NN	Number=Sing	14	compound	_	start_char=92|end_char=96
 14	hose	hose	NOUN	NN	Number=Sing	7	obl	_	start_char=97|end_char=101
 15	due	due	ADP	IN	_	22	case	_	start_char=102|end_char=105
@@ -33,9 +40,12 @@
 25	month	month	NOUN	NN	Number=Sing	22	nmod:tmod	_	start_char=157|end_char=162
 26	in	in	ADP	IN	_	28	case	_	start_char=163|end_char=165
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=166|end_char=169
-28	Northeast	Northeast	PROPN	NNP	Number=Sing	25	nmod	_	start_char=170|end_char=179
+28	Northeast	Northeast	PROPN	NNP	Number=Sing	22	nmod	_	start_char=170|end_char=179
 29	.	.	PUNCT	.	_	5	punct	_	start_char=179|end_char=180
 
+# text = It is very flexible and easy to handle and allows me total reach of the back perennial garden.
+# sent_id = 2
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=181|end_char=183
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=184|end_char=186
 3	very	very	ADV	RB	_	4	advmod	_	start_char=187|end_char=191
@@ -51,11 +61,14 @@
 13	reach	reach	NOUN	NN	Number=Sing	10	obj	_	start_char=240|end_char=245
 14	of	of	ADP	IN	_	18	case	_	start_char=246|end_char=248
 15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=249|end_char=252
-16	back	back	ADJ	JJ	Degree=Pos	18	amod	_	start_char=253|end_char=257
+16	back	back	NOUN	NN	Number=Sing	18	compound	_	start_char=253|end_char=257
 17	perennial	perennial	ADJ	JJ	Degree=Pos	18	amod	_	start_char=258|end_char=267
 18	garden	garden	NOUN	NN	Number=Sing	13	nmod	_	start_char=268|end_char=274
 19	.	.	PUNCT	.	_	4	punct	_	start_char=274|end_char=275
 
+# text = i would recommend this hose
+# sent_id = 3
+# sentiment = 2
 1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=276|end_char=277
 2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=278|end_char=283
 3	recommend	recommend	VERB	VB	VerbForm=Inf	0	root	_	start_char=284|end_char=293

@@ -1,0 +1,76 @@
+# text = Вводит в заблуждение Нигде в описании не сказано, что он не будет работать под управлением программ новее Windows 98.
+# sent_id = 0
+1	Вводит	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	в	в	ADP	_	_	3	case	_	start_char=7|end_char=8
+3	заблуждение	заблуждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=9|end_char=20
+4	Нигде	нигде	ADV	_	Degree=Pos	1	advmod	_	start_char=21|end_char=26
+5	в	в	ADP	_	_	6	case	_	start_char=27|end_char=28
+6	описании	описание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	start_char=29|end_char=37
+7	не	не	PART	_	_	8	advmod	_	start_char=38|end_char=40
+8	сказано	сказать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	start_char=41|end_char=48
+9	,	,	PUNCT	_	_	14	punct	_	start_char=48|end_char=49
+10	что	что	SCONJ	_	_	14	mark	_	start_char=50|end_char=53
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=54|end_char=56
+12	не	не	PART	_	_	14	advmod	_	start_char=57|end_char=59
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	start_char=60|end_char=65
+14	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	ccomp	_	start_char=66|end_char=74
+15	под	под	ADP	_	_	16	case	_	start_char=75|end_char=78
+16	управлением	управление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	start_char=79|end_char=90
+17	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=91|end_char=99
+18	новее	новый	ADJ	_	Degree=Cmp	16	obl	_	start_char=100|end_char=105
+19	Windows	Windows	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=106|end_char=113
+20	98	98	NUM	_	NumType=Card	18	nummod:entity	_	start_char=114|end_char=116
+21	.	.	PUNCT	_	_	1	punct	_	start_char=116|end_char=117
+
+# text = Я собрал игровой компьютер, который стоил бы более $3K, если бы вы могли купить что-то близкое к нему в розничной продаже, поэтому я знаю, что это не моя машина.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=118|end_char=119
+2	собрал	собрать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=120|end_char=126
+3	игровой	игровой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=127|end_char=134
+4	компьютер	компьютер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=135|end_char=144
+5	,	,	PUNCT	_	_	7	punct	_	start_char=144|end_char=145
+6	который	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=146|end_char=153
+7	стоил	стоить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=154|end_char=159
+8	бы	бы	AUX	_	_	7	aux	_	start_char=160|end_char=162
+9	более	более	ADV	_	Degree=Cmp	10	advmod	_	start_char=163|end_char=168
+10	$	$	SYM	_	_	7	obl	_	start_char=169|end_char=170
+11	3K	3K	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=170|end_char=172
+12	,	,	PUNCT	_	_	16	punct	_	start_char=172|end_char=173
+13	если	если	SCONJ	_	_	16	mark	_	start_char=174|end_char=178
+14	бы	бы	AUX	_	_	16	aux	_	start_char=179|end_char=181
+15	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	start_char=182|end_char=184
+16	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=185|end_char=190
+17	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=191|end_char=197
+18	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	17	obj	_	start_char=198|end_char=204
+19	близкое	близкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=205|end_char=212
+20	к	к	ADP	_	_	21	case	_	start_char=213|end_char=214
+21	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	start_char=215|end_char=219
+22	в	в	ADP	_	_	24	case	_	start_char=220|end_char=221
+23	розничной	розничный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=222|end_char=231
+24	продаже	продажа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	start_char=232|end_char=239
+25	,	,	PUNCT	_	_	28	punct	_	start_char=239|end_char=240
+26	поэтому	поэтому	ADV	_	Degree=Pos	28	advmod	_	start_char=241|end_char=248
+27	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=249|end_char=250
+28	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=251|end_char=255
+29	,	,	PUNCT	_	_	34	punct	_	start_char=255|end_char=256
+30	что	что	SCONJ	_	_	34	mark	_	start_char=257|end_char=260
+31	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	34	nsubj	_	start_char=261|end_char=264
+32	не	не	PART	_	_	33	advmod	_	start_char=265|end_char=267
+33	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det	_	start_char=268|end_char=271
+34	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	ccomp	_	start_char=272|end_char=278
+35	.	.	PUNCT	_	_	2	punct	_	start_char=278|end_char=279
+
+# text = Я очень разочарован, поскольку являюсь большим поклонником Дугласа Адамса.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=280|end_char=281
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=282|end_char=287
+3	разочарован	разочарованный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=288|end_char=299
+4	,	,	PUNCT	_	_	6	punct	_	start_char=299|end_char=300
+5	поскольку	поскольку	SCONJ	_	_	6	mark	_	start_char=301|end_char=310
+6	являюсь	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	start_char=311|end_char=318
+7	большим	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=319|end_char=326
+8	поклонником	поклонник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=327|end_char=338
+9	Дугласа	Дуглас	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=339|end_char=346
+10	Адамса	Адамс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	start_char=347|end_char=353
+11	.	.	PUNCT	_	_	3	punct	_	start_char=353|end_char=354
+

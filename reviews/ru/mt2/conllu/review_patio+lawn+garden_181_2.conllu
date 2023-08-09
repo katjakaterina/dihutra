@@ -1,0 +1,63 @@
+# text = Не покупайте, если площадь вашего газона превышает 10 кв. ярдов Не смог хорошо подстричь траву.
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=12
+3	,	,	PUNCT	_	_	8	punct	_	start_char=12|end_char=13
+4	если	если	SCONJ	_	_	8	mark	_	start_char=14|end_char=18
+5	площадь	площадь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=19|end_char=26
+6	вашего	ваш	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=27|end_char=33
+7	газона	газон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=34|end_char=40
+8	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=41|end_char=50
+9	10	10	NUM	_	NumType=Card	10	nummod	_	start_char=51|end_char=53
+10	кв	квадратный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=54|end_char=56
+11	.	.	PUNCT	_	_	10	punct	_	start_char=56|end_char=57
+12	ярдов	ярд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	start_char=58|end_char=63
+13	Не	не	PART	_	_	14	advmod	_	start_char=64|end_char=66
+14	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=67|end_char=71
+15	хорошо	хорошо	ADV	_	Degree=Pos	16	advmod	_	start_char=72|end_char=78
+16	подстричь	подстричь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=79|end_char=88
+17	траву	трава	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=89|end_char=94
+18	.	.	PUNCT	_	_	2	punct	_	start_char=94|end_char=95
+
+# text = Пропускает некоторые участки, потому что просто не режет их.
+# sent_id = 1
+1	Пропускает	пропускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=96|end_char=106
+2	некоторые	некоторый	DET	_	Case=Acc|Number=Plur|PronType=Ind	3	det	_	start_char=107|end_char=116
+3	участки	участок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=117|end_char=124
+4	,	,	PUNCT	_	_	9	punct	_	start_char=124|end_char=125
+5	потому	потому	ADV	_	Degree=Pos	9	mark	_	start_char=126|end_char=132
+6	что	что	SCONJ	_	_	5	fixed	_	start_char=133|end_char=136
+7	просто	просто	PART	_	_	8	advmod	_	start_char=137|end_char=143
+8	не	не	PART	_	_	9	advmod	_	start_char=144|end_char=146
+9	режет	резать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=147|end_char=152
+10	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	start_char=153|end_char=155
+11	.	.	PUNCT	_	_	1	punct	_	start_char=155|end_char=156
+
+# text = Если трава выше 2 дюймов, эта косилка не для вас.
+# sent_id = 2
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=157|end_char=161
+2	трава	трава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=162|end_char=167
+3	выше	высокий	ADJ	_	Degree=Cmp	11	advcl	_	start_char=168|end_char=172
+4	2	2	NUM	_	NumType=Card	5	nummod	_	start_char=173|end_char=174
+5	дюймов	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=175|end_char=181
+6	,	,	PUNCT	_	_	3	punct	_	start_char=181|end_char=182
+7	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=183|end_char=186
+8	косилка	косилка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=187|end_char=194
+9	не	не	PART	_	_	11	advmod	_	start_char=195|end_char=197
+10	для	для	ADP	_	_	11	case	_	start_char=198|end_char=201
+11	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	0	root	_	start_char=202|end_char=205
+12	.	.	PUNCT	_	_	11	punct	_	start_char=205|end_char=206
+
+# text = Нужно потратить деньги и купить то, что работает.
+# sent_id = 3
+1	Нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=207|end_char=212
+2	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=213|end_char=222
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=223|end_char=229
+4	и	и	CCONJ	_	_	5	cc	_	start_char=230|end_char=231
+5	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	_	start_char=232|end_char=238
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	start_char=239|end_char=241
+7	,	,	PUNCT	_	_	9	punct	_	start_char=241|end_char=242
+8	что	что	PRON	_	Case=Nom|PronType=Int,Rel	9	nsubj	_	start_char=243|end_char=246
+9	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	start_char=247|end_char=255
+10	.	.	PUNCT	_	_	1	punct	_	start_char=255|end_char=256
+

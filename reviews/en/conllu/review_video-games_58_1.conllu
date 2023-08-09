@@ -1,5 +1,11 @@
-1	Misleading	misleading	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=10
+# text = Misleading
+# sent_id = 0
+# sentiment = 1
+1	Misleading	mislead	VERB	VBG	VerbForm=Ger	0	root	_	start_char=0|end_char=10
 
+# text = Nowhere in the description does it tell you that it won't run on any program newer than Windows 98.
+# sent_id = 1
+# sentiment = 0
 1	Nowhere	nowhere	ADV	RB	_	7	advmod	_	start_char=11|end_char=18
 2	in	in	ADP	IN	_	4	case	_	start_char=19|end_char=21
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=22|end_char=25
@@ -18,14 +24,17 @@
 16	program	program	NOUN	NN	Number=Sing	13	obl	_	start_char=80|end_char=87
 17	newer	new	ADJ	JJR	Degree=Cmp	16	amod	_	start_char=88|end_char=93
 18	than	than	ADP	IN	_	19	case	_	start_char=94|end_char=98
-19	Windows	window	PROPN	NNPS	Number=Plur	17	obl	_	start_char=99|end_char=106
-20	98	98	NUM	CD	NumType=Card	19	nummod	_	start_char=107|end_char=109
+19	Windows	window	NOUN	NNS	Number=Plur	17	obl	_	start_char=99|end_char=106
+20	98	98	NUM	CD	NumForm=Digit|NumType=Card	19	nummod	_	start_char=107|end_char=109
 21	.	.	PUNCT	.	_	7	punct	_	start_char=109|end_char=110
 
+# text = I built a gaming computer that would have cost over $3K if you could buy anything close to it in a retail environment so I know it isn't my machine.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=111|end_char=112
-2	built	build	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=113|end_char=118
+2	built	build	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=113|end_char=118
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=119|end_char=120
-4	gaming	game	NOUN	NN	Number=Sing	5	compound	_	start_char=121|end_char=127
+4	gaming	gaming	NOUN	NN	Number=Sing	5	compound	_	start_char=121|end_char=127
 5	computer	computer	NOUN	NN	Number=Sing	2	obj	_	start_char=128|end_char=136
 6	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	start_char=137|end_char=141
 7	would	would	AUX	MD	VerbForm=Fin	9	aux	_	start_char=142|end_char=147
@@ -33,14 +42,14 @@
 9	cost	cost	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	start_char=153|end_char=157
 10	over	over	ADV	RB	_	11	advmod	_	start_char=158|end_char=162
 11	$	$	SYM	$	_	9	obj	_	start_char=163|end_char=164
-12	3	3	NUM	CD	NumType=Card	13	compound	_	start_char=164|end_char=165
-13	K	k	NUM	CD	NumType=Card	11	nummod	_	start_char=165|end_char=166
+12	3	3	NUM	CD	NumForm=Digit|NumType=Card	13	compound	_	start_char=164|end_char=165
+13	K	k	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	11	nummod	_	start_char=165|end_char=166
 14	if	if	SCONJ	IN	_	17	mark	_	start_char=167|end_char=169
 15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	start_char=170|end_char=173
 16	could	could	AUX	MD	VerbForm=Fin	17	aux	_	start_char=174|end_char=179
 17	buy	buy	VERB	VB	VerbForm=Inf	9	advcl	_	start_char=180|end_char=183
-18	anything	anything	PRON	NN	Number=Sing	17	obj	_	start_char=184|end_char=192
-19	close	close	ADJ	JJ	Degree=Pos	18	amod	_	start_char=193|end_char=198
+18	anything	anything	PRON	NN	Number=Sing|PronType=Ind	17	obj	_	start_char=184|end_char=192
+19	close	close	ADV	RB	Degree=Pos	18	amod	_	start_char=193|end_char=198
 20	to	to	ADP	IN	_	21	case	_	start_char=199|end_char=201
 21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obl	_	start_char=202|end_char=204
 22	in	in	ADP	IN	_	25	case	_	start_char=205|end_char=207
@@ -49,14 +58,17 @@
 25	environment	environment	NOUN	NN	Number=Sing	17	obl	_	start_char=217|end_char=228
 26	so	so	ADV	RB	_	28	advmod	_	start_char=229|end_char=231
 27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=232|end_char=233
-28	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=234|end_char=238
+28	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=234|end_char=238
 29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	start_char=239|end_char=241
 30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	start_char=242|end_char=244
 31	n't	not	PART	RB	_	33	advmod	_	start_char=244|end_char=247
-32	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=248|end_char=250
+32	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	33	nmod:poss	_	start_char=248|end_char=250
 33	machine	machine	NOUN	NN	Number=Sing	28	ccomp	_	start_char=251|end_char=258
 34	.	.	PUNCT	.	_	2	punct	_	start_char=258|end_char=259
 
+# text = VERY disappointed as I am a very big Douglas Adams fan.
+# sent_id = 3
+# sentiment = 0
 1	VERY	very	ADV	RB	_	2	advmod	_	start_char=260|end_char=264
 2	disappointed	disappointed	ADJ	JJ	Degree=Pos	0	root	_	start_char=265|end_char=277
 3	as	as	SCONJ	IN	_	11	mark	_	start_char=278|end_char=280
@@ -65,8 +77,8 @@
 6	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=286|end_char=287
 7	very	very	ADV	RB	_	8	advmod	_	start_char=288|end_char=292
 8	big	big	ADJ	JJ	Degree=Pos	11	amod	_	start_char=293|end_char=296
-9	Douglas	Douglas	PROPN	NNP	Number=Sing	10	compound	_	start_char=297|end_char=304
-10	Adams	Adams	PROPN	NNP	Number=Sing	11	compound	_	start_char=305|end_char=310
+9	Douglas	Douglas	PROPN	NNP	Number=Sing	11	compound	_	start_char=297|end_char=304
+10	Adams	Adams	PROPN	NNP	Number=Sing	9	flat	_	start_char=305|end_char=310
 11	fan	fan	NOUN	NN	Number=Sing	2	advcl	_	start_char=311|end_char=314
 12	.	.	PUNCT	.	_	2	punct	_	start_char=314|end_char=315
 

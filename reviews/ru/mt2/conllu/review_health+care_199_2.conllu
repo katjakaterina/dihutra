@@ -1,0 +1,83 @@
+# text = Старые батареи поставлялись в пластиковом футляре.
+# sent_id = 0
+1	Старые	старый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=6
+2	батареи	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	_	start_char=7|end_char=14
+3	поставлялись	поставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=15|end_char=27
+4	в	в	ADP	_	_	6	case	_	start_char=28|end_char=29
+5	пластиковом	пластиковый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=30|end_char=41
+6	футляре	футляр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=42|end_char=49
+7	.	.	PUNCT	_	_	3	punct	_	start_char=49|end_char=50
+
+# text = Товар пришел не на картонной карточке, а в легко открывающемся пластиковом футляре и со сроком годности всего 3 года.
+# sent_id = 1
+1	Товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=51|end_char=56
+2	пришел	прийти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=57|end_char=63
+3	не	не	PART	_	_	6	advmod	_	start_char=64|end_char=66
+4	на	на	ADP	_	_	6	case	_	start_char=67|end_char=69
+5	картонной	картонный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=70|end_char=79
+6	карточке	карточка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=80|end_char=88
+7	,	,	PUNCT	_	_	13	punct	_	start_char=88|end_char=89
+8	а	а	CCONJ	_	_	13	cc	_	start_char=90|end_char=91
+9	в	в	ADP	_	_	13	case	_	start_char=92|end_char=93
+10	легко	легко	ADV	_	Degree=Pos	11	advmod	_	start_char=94|end_char=99
+11	открывающемся	открываться	VERB	_	Aspect=Imp|Case=Loc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	13	acl	_	start_char=100|end_char=113
+12	пластиковом	пластиковый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=114|end_char=125
+13	футляре	футляр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	conj	_	start_char=126|end_char=133
+14	и	и	CCONJ	_	_	16	cc	_	start_char=134|end_char=135
+15	со	с	ADP	_	_	16	case	_	start_char=136|end_char=138
+16	сроком	срок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	conj	_	start_char=139|end_char=145
+17	годности	годность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=146|end_char=154
+18	всего	всего	PART	_	_	19	advmod	_	start_char=155|end_char=160
+19	3	3	NUM	_	NumType=Card	20	nummod	_	start_char=161|end_char=162
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=163|end_char=167
+21	.	.	PUNCT	_	_	2	punct	_	start_char=167|end_char=168
+
+# text = Свежие батарейки имеют срок годности 5 лет.
+# sent_id = 2
+1	Свежие	свежий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=169|end_char=175
+2	батарейки	батарейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=176|end_char=185
+3	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=186|end_char=191
+4	срок	срок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=192|end_char=196
+5	годности	годность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=197|end_char=205
+6	5	5	NUM	_	NumType=Card	7	nummod	_	start_char=206|end_char=207
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=208|end_char=211
+8	.	.	PUNCT	_	_	3	punct	_	start_char=211|end_char=212
+
+# text = Описание и фотография этого товара должны быть изменены, если они собираются продавать клиентам Amazon другой и более старый товар.
+# sent_id = 3
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj:pass	_	start_char=213|end_char=221
+2	и	и	CCONJ	_	_	3	cc	_	start_char=222|end_char=223
+3	фотография	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=224|end_char=234
+4	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=235|end_char=240
+5	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=241|end_char=247
+6	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=248|end_char=254
+7	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	aux:pass	_	start_char=255|end_char=259
+8	изменены	изменить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	xcomp	_	start_char=260|end_char=268
+9	,	,	PUNCT	_	_	12	punct	_	start_char=268|end_char=269
+10	если	если	SCONJ	_	_	12	mark	_	start_char=270|end_char=274
+11	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=275|end_char=278
+12	собираются	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	advcl	_	start_char=279|end_char=289
+13	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=290|end_char=299
+14	клиентам	клиент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	iobj	_	start_char=300|end_char=308
+15	Amazon	Amazon	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=309|end_char=315
+16	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=316|end_char=322
+17	и	и	CCONJ	_	_	19	cc	_	start_char=323|end_char=324
+18	более	более	ADV	_	Degree=Cmp	19	obl	_	start_char=325|end_char=330
+19	старый	старый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	conj	_	start_char=331|end_char=337
+20	товар	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=338|end_char=343
+21	.	.	PUNCT	_	_	6	punct	_	start_char=343|end_char=344
+
+# text = Они были вежливы и бесплатно прислали мне этикетку для возврата.
+# sent_id = 4
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=345|end_char=348
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=349|end_char=353
+3	вежливы	вежливый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=354|end_char=361
+4	и	и	CCONJ	_	_	6	cc	_	start_char=362|end_char=363
+5	бесплатно	бесплатно	ADV	_	Degree=Pos	6	advmod	_	start_char=364|end_char=373
+6	прислали	прислать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=374|end_char=382
+7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	start_char=383|end_char=386
+8	этикетку	этикетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=387|end_char=395
+9	для	для	ADP	_	_	10	case	_	start_char=396|end_char=399
+10	возврата	возврат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=400|end_char=408
+11	.	.	PUNCT	_	_	3	punct	_	start_char=408|end_char=409
+

@@ -1,0 +1,76 @@
+# text = Лучшая история "Рождественской сказки"
+# sent_id = 0
+1	Лучшая	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=14
+3	"	"	PUNCT	_	_	5	punct	_	start_char=15|end_char=16
+4	Рождественской	рождественский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=16|end_char=30
+5	сказки	сказка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=31|end_char=37
+6	"	"	PUNCT	_	_	5	punct	_	start_char=37|end_char=38
+
+# text = Кажется, что почти все сняли фильм о Рождественской песне.
+# sent_id = 1
+1	Кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=39|end_char=46
+2	,	,	PUNCT	_	_	6	punct	_	start_char=46|end_char=47
+3	что	что	SCONJ	_	_	6	mark	_	start_char=48|end_char=51
+4	почти	почти	ADV	_	Degree=Pos	5	obl	_	start_char=52|end_char=57
+5	все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur|PronType=Tot	6	nsubj	_	start_char=58|end_char=61
+6	сняли	снять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=62|end_char=67
+7	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=68|end_char=73
+8	о	о	ADP	_	_	10	case	_	start_char=74|end_char=75
+9	Рождественской	рождественский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=76|end_char=90
+10	песне	песня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	start_char=91|end_char=96
+11	.	.	PUNCT	_	_	1	punct	_	start_char=96|end_char=97
+
+# text = Но этот фильм - лучший на сегодняшний день!
+# sent_id = 2
+1	Но	но	CCONJ	_	_	5	cc	_	start_char=98|end_char=100
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=101|end_char=105
+3	фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=106|end_char=111
+4	-	-	PUNCT	_	_	3	punct	_	start_char=112|end_char=113
+5	лучший	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=114|end_char=120
+6	на	на	ADP	_	_	8	case	_	start_char=121|end_char=123
+7	сегодняшний	сегодняшний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=124|end_char=135
+8	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=136|end_char=140
+9	!	!	PUNCT	_	_	5	punct	_	start_char=140|end_char=141
+
+# text = Он кажется более реалистичным, чем все остальные, и временной период в нем передан идеально.
+# sent_id = 3
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=142|end_char=144
+2	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=145|end_char=152
+3	более	более	ADV	_	Degree=Cmp	4	obl	_	start_char=153|end_char=158
+4	реалистичным	реалистичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	start_char=159|end_char=171
+5	,	,	PUNCT	_	_	8	punct	_	start_char=171|end_char=172
+6	чем	чем	SCONJ	_	_	8	mark	_	start_char=173|end_char=176
+7	все	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	8	det	_	start_char=177|end_char=180
+8	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	advcl	_	start_char=181|end_char=190
+9	,	,	PUNCT	_	_	15	punct	_	start_char=190|end_char=191
+10	и	и	CCONJ	_	_	15	cc	_	start_char=192|end_char=193
+11	временной	временный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=194|end_char=203
+12	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	start_char=204|end_char=210
+13	в	в	ADP	_	_	14	case	_	start_char=211|end_char=212
+14	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	start_char=213|end_char=216
+15	передан	передать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	start_char=217|end_char=224
+16	идеально	идеально	ADV	_	Degree=Pos	15	advmod	_	start_char=225|end_char=233
+17	.	.	PUNCT	_	_	2	punct	_	start_char=233|end_char=234
+
+# text = Актерская игра также намного лучше, чем в других фильмах, которые я видел; мое мнение.
+# sent_id = 4
+1	Актерская	актерский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=235|end_char=244
+2	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=245|end_char=249
+3	также	также	ADV	_	Degree=Pos	5	obl	_	start_char=250|end_char=255
+4	намного	намного	ADV	_	Degree=Pos	5	advmod	_	start_char=256|end_char=263
+5	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	start_char=264|end_char=269
+6	,	,	PUNCT	_	_	10	punct	_	start_char=269|end_char=270
+7	чем	чем	SCONJ	_	_	10	mark	_	start_char=271|end_char=274
+8	в	в	ADP	_	_	10	case	_	start_char=275|end_char=276
+9	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	start_char=277|end_char=283
+10	фильмах	фильм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	start_char=284|end_char=291
+11	,	,	PUNCT	_	_	14	punct	_	start_char=291|end_char=292
+12	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	14	obj	_	start_char=293|end_char=300
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=301|end_char=302
+14	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=303|end_char=308
+15	;	;	PUNCT	_	_	17	punct	_	start_char=308|end_char=309
+16	мое	мой	DET	_	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	start_char=310|end_char=313
+17	мнение	мнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	conj	_	start_char=314|end_char=320
+18	.	.	PUNCT	_	_	5	punct	_	start_char=320|end_char=321
+

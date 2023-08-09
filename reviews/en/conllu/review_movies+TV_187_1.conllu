@@ -1,13 +1,19 @@
+# text = Nakedness not necessary!
+# sent_id = 0
+# sentiment = 1
 1	Nakedness	nakedness	NOUN	NN	Number=Sing	3	nsubj	_	start_char=0|end_char=9
 2	not	not	PART	RB	_	3	advmod	_	start_char=10|end_char=13
 3	necessary	necessary	ADJ	JJ	Degree=Pos	0	root	_	start_char=14|end_char=23
 4	!	!	PUNCT	.	_	3	punct	_	start_char=23|end_char=24
 
+# text = The acting was good, the story was correct, but naked backsides was not necessary.
+# sent_id = 1
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=25|end_char=28
 2	acting	acting	NOUN	NN	Number=Sing	4	nsubj	_	start_char=29|end_char=35
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=36|end_char=39
 4	good	good	ADJ	JJ	Degree=Pos	0	root	_	start_char=40|end_char=44
-5	,	,	PUNCT	,	_	4	punct	_	start_char=44|end_char=45
+5	,	,	PUNCT	,	_	9	punct	_	start_char=44|end_char=45
 6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=46|end_char=49
 7	story	story	NOUN	NN	Number=Sing	9	nsubj	_	start_char=50|end_char=55
 8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=56|end_char=59
@@ -21,16 +27,19 @@
 16	necessary	necessary	ADJ	JJ	Degree=Pos	4	conj	_	start_char=97|end_char=106
 17	.	.	PUNCT	.	_	4	punct	_	start_char=106|end_char=107
 
+# text = Also the Potiphers wife did not need to be so very seductive of a naked Joseph.
+# sent_id = 2
+# sentiment = 2
 1	Also	also	ADV	RB	_	7	advmod	_	start_char=108|end_char=112
 2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=113|end_char=116
 3	Potiphers	Potipher	PROPN	NNP	Number=Sing	4	compound	_	start_char=117|end_char=126
 4	wife	wife	NOUN	NN	Number=Sing	7	nsubj	_	start_char=127|end_char=131
-5	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	start_char=132|end_char=135
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=132|end_char=135
 6	not	not	PART	RB	_	7	advmod	_	start_char=136|end_char=139
 7	need	need	VERB	VB	VerbForm=Inf	0	root	_	start_char=140|end_char=144
 8	to	to	PART	TO	_	12	mark	_	start_char=145|end_char=147
 9	be	be	AUX	VB	VerbForm=Inf	12	cop	_	start_char=148|end_char=150
-10	so	so	ADV	RB	_	12	advmod	_	start_char=151|end_char=153
+10	so	so	ADV	RB	_	11	advmod	_	start_char=151|end_char=153
 11	very	very	ADV	RB	_	12	advmod	_	start_char=154|end_char=158
 12	seductive	seductive	ADJ	JJ	Degree=Pos	7	xcomp	_	start_char=159|end_char=168
 13	of	of	ADP	IN	_	16	case	_	start_char=169|end_char=171
@@ -39,14 +48,20 @@
 16	Joseph	Joseph	PROPN	NNP	Number=Sing	12	obl	_	start_char=180|end_char=186
 17	.	.	PUNCT	.	_	7	punct	_	start_char=186|end_char=187
 
-1	Not	not	PART	RB	Polarity=Neg	4	advmod	_	start_char=188|end_char=191
+# text = Not a Christian movie.
+# sent_id = 3
+# sentiment = 1
+1	Not	not	PART	RB	_	4	advmod	_	start_char=188|end_char=191
 2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=192|end_char=193
 3	Christian	Christian	ADJ	JJ	Degree=Pos	4	amod	_	start_char=194|end_char=203
 4	movie	movie	NOUN	NN	Number=Sing	0	root	_	start_char=204|end_char=209
 5	.	.	PUNCT	.	_	4	punct	_	start_char=209|end_char=210
 
+# text = I felt that even though it was probably portrayed truthfully, Christans do not need to see so explicit a scene.
+# sent_id = 4
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=211|end_char=212
-2	felt	feel	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=213|end_char=217
+2	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=213|end_char=217
 3	that	that	SCONJ	IN	_	15	mark	_	start_char=218|end_char=222
 4	even	even	ADV	RB	_	9	advmod	_	start_char=223|end_char=227
 5	though	though	SCONJ	IN	_	9	mark	_	start_char=228|end_char=234
@@ -56,8 +71,8 @@
 9	portrayed	portray	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	start_char=251|end_char=260
 10	truthfully	truthfully	ADV	RB	_	9	advmod	_	start_char=261|end_char=271
 11	,	,	PUNCT	,	_	15	punct	_	start_char=271|end_char=272
-12	Christans	Christan	PROPN	NNPS	Number=Plur	15	nsubj	_	start_char=273|end_char=282
-13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=283|end_char=285
+12	Christans	Christans	PROPN	NNPS	Number=Plur	15	nsubj	_	start_char=273|end_char=282
+13	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=283|end_char=285
 14	not	not	PART	RB	_	15	advmod	_	start_char=286|end_char=289
 15	need	need	VERB	VB	VerbForm=Inf	2	ccomp	_	start_char=290|end_char=294
 16	to	to	PART	TO	_	17	mark	_	start_char=295|end_char=297
@@ -68,12 +83,15 @@
 21	scene	scene	NOUN	NN	Number=Sing	17	obj	_	start_char=316|end_char=321
 22	.	.	PUNCT	.	_	2	punct	_	start_char=321|end_char=322
 
+# text = This should be rated PG 13 at least.
+# sent_id = 5
+# sentiment = 1
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj:pass	_	start_char=323|end_char=327
 2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=328|end_char=334
 3	be	be	AUX	VB	VerbForm=Inf	4	aux:pass	_	start_char=335|end_char=337
 4	rated	rate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=338|end_char=343
-5	PG	PG	PROPN	NNP	Number=Sing	4	xcomp	_	start_char=344|end_char=346
-6	13	13	NUM	CD	NumType=Card	5	nummod	_	start_char=347|end_char=349
+5	PG	pg	NOUN	NN	Number=Sing	4	xcomp	_	start_char=344|end_char=346
+6	13	13	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=347|end_char=349
 7	at	at	ADP	IN	_	8	case	_	start_char=350|end_char=352
 8	least	least	ADJ	JJS	Degree=Sup	4	obl	_	start_char=353|end_char=358
 9	.	.	PUNCT	.	_	4	punct	_	start_char=358|end_char=359

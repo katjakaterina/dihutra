@@ -1,0 +1,92 @@
+# text = Прекрасно...
+# sent_id = 0
+1	Прекрасно	прекрасный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=9
+2	.	.	PUNCT	_	_	1	punct	_	start_char=9|end_char=10
+3	.	.	PUNCT	_	_	1	punct	_	start_char=10|end_char=11
+4	.	.	PUNCT	_	_	1	punct	_	start_char=11|end_char=12
+
+# text = Прекрасная во всех отношениях, хорошо написанная, превосходные фотографии и фантастические инструкции.... делают эту книгу "обязательной" ....... используете ли вы ее как журнальный столик или как справочник, она определенно "Top Shelf"...........
+# sent_id = 1
+1	Прекрасная	прекрасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=13|end_char=23
+2	во	в	ADP	_	_	4	case	_	start_char=24|end_char=26
+3	всех	весь	DET	_	Case=Loc|Number=Plur|PronType=Tot	4	det	_	start_char=27|end_char=31
+4	отношениях	отношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	nmod	_	start_char=32|end_char=42
+5	,	,	PUNCT	_	_	7	punct	_	start_char=42|end_char=43
+6	хорошо	хорошо	ADV	_	Degree=Pos	7	advmod	_	start_char=44|end_char=50
+7	написанная	писать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	start_char=51|end_char=61
+8	,	,	PUNCT	_	_	7	punct	_	start_char=61|end_char=62
+9	превосходные	превосходный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=63|end_char=75
+10	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	start_char=76|end_char=86
+11	и	и	CCONJ	_	_	13	cc	_	start_char=87|end_char=88
+12	фантастические	фантастический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	start_char=89|end_char=103
+13	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	conj	_	start_char=104|end_char=114
+14	.	.	PUNCT	_	_	13	punct	_	start_char=114|end_char=115
+15	.	.	PUNCT	_	_	13	punct	_	start_char=115|end_char=116
+16	.	.	PUNCT	_	_	10	punct	_	start_char=116|end_char=117
+17	.	.	PUNCT	_	_	18	punct	_	start_char=117|end_char=118
+18	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=119|end_char=125
+19	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	start_char=126|end_char=129
+20	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=130|end_char=135
+21	"	"	PUNCT	_	_	22	punct	_	start_char=136|end_char=137
+22	обязательной	обязательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	obl	_	start_char=137|end_char=149
+23	"	"	PUNCT	_	_	22	punct	_	start_char=149|end_char=150
+24	.	.	PUNCT	_	_	22	punct	_	start_char=151|end_char=152
+25	.	.	PUNCT	_	_	22	punct	_	start_char=152|end_char=153
+26	.	.	PUNCT	_	_	22	punct	_	start_char=153|end_char=154
+27	.	.	PUNCT	_	_	22	punct	_	start_char=154|end_char=155
+28	.	.	PUNCT	_	_	22	punct	_	start_char=155|end_char=156
+29	.	.	PUNCT	_	_	22	punct	_	start_char=156|end_char=157
+30	.	.	PUNCT	_	_	31	punct	_	start_char=157|end_char=158
+31	используете	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	start_char=159|end_char=170
+32	ли	ли	PART	_	_	31	advmod	_	start_char=171|end_char=173
+33	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	31	nsubj	_	start_char=174|end_char=176
+34	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	start_char=177|end_char=179
+35	как	как	SCONJ	_	_	37	mark	_	start_char=180|end_char=183
+36	журнальный	журнальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	start_char=184|end_char=194
+37	столик	столик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	advcl	_	start_char=195|end_char=201
+38	или	или	CCONJ	_	_	40	cc	_	start_char=202|end_char=205
+39	как	как	SCONJ	_	_	40	mark	_	start_char=206|end_char=209
+40	справочник	справочник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	conj	_	start_char=210|end_char=220
+41	,	,	PUNCT	_	_	45	punct	_	start_char=220|end_char=221
+42	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	start_char=222|end_char=225
+43	определенно	определенно	ADV	_	Degree=Pos	45	advmod	_	start_char=226|end_char=237
+44	"	"	PUNCT	_	_	45	punct	_	start_char=238|end_char=239
+45	Top	Top	PROPN	_	Foreign=Yes	31	conj	_	start_char=239|end_char=242
+46	Shelf	Shelf	PROPN	_	Foreign=Yes	45	flat:foreign	_	start_char=243|end_char=248
+47	"	"	PUNCT	_	_	45	punct	_	start_char=248|end_char=249
+48	.	.	PUNCT	_	_	45	punct	_	start_char=249|end_char=250
+49	.	.	PUNCT	_	_	45	punct	_	start_char=250|end_char=251
+50	.	.	PUNCT	_	_	45	punct	_	start_char=251|end_char=252
+51	.	.	PUNCT	_	_	45	punct	_	start_char=252|end_char=253
+52	.	.	PUNCT	_	_	45	punct	_	start_char=253|end_char=254
+53	.	.	PUNCT	_	_	45	punct	_	start_char=254|end_char=255
+54	.	.	PUNCT	_	_	45	punct	_	start_char=255|end_char=256
+55	.	.	PUNCT	_	_	45	punct	_	start_char=256|end_char=257
+56	.	.	PUNCT	_	_	45	punct	_	start_char=257|end_char=258
+57	.	.	PUNCT	_	_	45	punct	_	start_char=258|end_char=259
+58	.	.	PUNCT	_	_	45	punct	_	start_char=259|end_char=260
+
+# text = Я также подарил одну книгу в качестве подарка...... получатель был ошеломлен....
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=261|end_char=262
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=263|end_char=268
+3	подарил	дарить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=269|end_char=276
+4	одну	один	NUM	_	Case=Acc|Gender=Fem|NumType=Card	5	nummod	_	start_char=277|end_char=281
+5	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=282|end_char=287
+6	в	в	ADP	_	_	8	case	_	start_char=288|end_char=289
+7	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	fixed	_	start_char=290|end_char=298
+8	подарка	подарок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=299|end_char=306
+9	.	.	PUNCT	_	_	8	punct	_	start_char=306|end_char=307
+10	.	.	PUNCT	_	_	8	punct	_	start_char=307|end_char=308
+11	.	.	PUNCT	_	_	8	punct	_	start_char=308|end_char=309
+12	.	.	PUNCT	_	_	17	punct	_	start_char=309|end_char=310
+13	.	.	PUNCT	_	_	17	punct	_	start_char=310|end_char=311
+14	.	.	PUNCT	_	_	17	punct	_	start_char=311|end_char=312
+15	получатель	получатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=313|end_char=323
+16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	start_char=324|end_char=327
+17	ошеломлен	ошеломленный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	start_char=328|end_char=337
+18	.	.	PUNCT	_	_	17	punct	_	start_char=337|end_char=338
+19	.	.	PUNCT	_	_	17	punct	_	start_char=338|end_char=339
+20	.	.	PUNCT	_	_	17	punct	_	start_char=339|end_char=340
+21	.	.	PUNCT	_	_	3	punct	_	start_char=340|end_char=341
+

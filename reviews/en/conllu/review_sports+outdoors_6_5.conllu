@@ -1,23 +1,26 @@
-1	Glock	Glock	PROPN	NNP	Number=Sing	3	compound	_	start_char=0|end_char=5
-2	punch	punch	NOUN	NN	Number=Sing	3	compound	_	start_char=6|end_char=11
-3	tool	tool	NOUN	NN	Number=Sing	13	nsubj	_	start_char=12|end_char=16
+# text = Glock punch tool - needed for your Glock and other applications too Needed this tool to really break down my G22, and it works perfectly for that.
+# sent_id = 0
+# sentiment = 1
+1	Glock	Glock	PROPN	NNP	Number=Sing	2	compound	_	start_char=0|end_char=5
+2	punch	punch	NOUN	NN	Number=Sing	5	nsubj:pass	_	start_char=6|end_char=11
+3	tool	tool	NOUN	NN	Number=Sing	5	compound	_	start_char=12|end_char=16
 4	-	-	PUNCT	HYPH	_	3	punct	_	start_char=17|end_char=18
-5	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	start_char=19|end_char=25
+5	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=19|end_char=25
 6	for	for	ADP	IN	_	8	case	_	start_char=26|end_char=29
-7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=30|end_char=34
+7	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=30|end_char=34
 8	Glock	Glock	PROPN	NNP	Number=Sing	5	obl	_	start_char=35|end_char=40
 9	and	and	CCONJ	CC	_	11	cc	_	start_char=41|end_char=44
 10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	start_char=45|end_char=50
 11	applications	application	NOUN	NNS	Number=Plur	8	conj	_	start_char=51|end_char=63
 12	too	too	ADV	RB	_	13	advmod	_	start_char=64|end_char=67
-13	Needed	Need	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=68|end_char=74
+13	Needed	need	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	start_char=68|end_char=74
 14	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	start_char=75|end_char=79
 15	tool	tool	NOUN	NN	Number=Sing	13	obj	_	start_char=80|end_char=84
 16	to	to	PART	TO	_	18	mark	_	start_char=85|end_char=87
 17	really	really	ADV	RB	_	18	advmod	_	start_char=88|end_char=94
 18	break	break	VERB	VB	VerbForm=Inf	13	xcomp	_	start_char=95|end_char=100
 19	down	down	ADP	RP	_	18	compound:prt	_	start_char=101|end_char=105
-20	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=106|end_char=108
+20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=106|end_char=108
 21	G22	g22	NOUN	NN	Number=Sing	18	obj	_	start_char=109|end_char=112
 22	,	,	PUNCT	,	_	25	punct	_	start_char=112|end_char=113
 23	and	and	CCONJ	CC	_	25	cc	_	start_char=114|end_char=117
@@ -26,38 +29,44 @@
 26	perfectly	perfectly	ADV	RB	_	25	advmod	_	start_char=127|end_char=136
 27	for	for	ADP	IN	_	28	case	_	start_char=137|end_char=140
 28	that	that	PRON	DT	Number=Sing|PronType=Dem	25	obl	_	start_char=141|end_char=145
-29	.	.	PUNCT	.	_	13	punct	_	start_char=145|end_char=146
+29	.	.	PUNCT	.	_	5	punct	_	start_char=145|end_char=146
 
+# text = No difference from OEM I suspect.
+# sent_id = 1
+# sentiment = 1
 1	No	no	DET	DT	_	2	det	_	start_char=147|end_char=149
 2	difference	difference	NOUN	NN	Number=Sing	0	root	_	start_char=150|end_char=160
 3	from	from	ADP	IN	_	4	case	_	start_char=161|end_char=165
-4	OEM	oem	NOUN	NN	Number=Sing	2	nmod	_	start_char=166|end_char=169
+4	OEM	OEM	PROPN	NNP	Number=Sing	2	nmod	_	start_char=166|end_char=169
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=170|end_char=171
-6	suspect	suspect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=172|end_char=179
+6	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=172|end_char=179
 7	.	.	PUNCT	.	_	2	punct	_	start_char=179|end_char=180
 
+# text = However, had an added bonus when realizing that I needed a punch to properly disassemble the bolt carrier in my AR for a thorough cleaning, and this tool worked perfectly to push the carrier's retaining pin out and then back into place after the job was completed.
+# sent_id = 2
+# sentiment = 0
 1	However	however	ADV	RB	_	3	advmod	_	start_char=180|end_char=187
 2	,	,	PUNCT	,	_	3	punct	_	start_char=187|end_char=188
-3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=189|end_char=192
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=189|end_char=192
 4	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=193|end_char=195
 5	added	add	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	start_char=196|end_char=201
 6	bonus	bonus	NOUN	NN	Number=Sing	3	obj	_	start_char=202|end_char=207
-7	when	when	SCONJ	WRB	PronType=Int	8	mark	_	start_char=208|end_char=212
+7	when	when	ADV	WRB	PronType=Int	8	advmod	_	start_char=208|end_char=212
 8	realizing	realize	VERB	VBG	VerbForm=Ger	3	advcl	_	start_char=213|end_char=222
 9	that	that	SCONJ	IN	_	11	mark	_	start_char=223|end_char=227
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=228|end_char=229
-11	needed	need	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	start_char=230|end_char=236
+11	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	ccomp	_	start_char=230|end_char=236
 12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=237|end_char=238
 13	punch	punch	NOUN	NN	Number=Sing	11	obj	_	start_char=239|end_char=244
 14	to	to	PART	TO	_	16	mark	_	start_char=245|end_char=247
 15	properly	properly	ADV	RB	_	16	advmod	_	start_char=248|end_char=256
-16	disassemble	disassemble	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=257|end_char=268
+16	disassemble	disassemble	VERB	VB	VerbForm=Inf	11	advcl	_	start_char=257|end_char=268
 17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=269|end_char=272
 18	bolt	bolt	NOUN	NN	Number=Sing	19	compound	_	start_char=273|end_char=277
 19	carrier	carrier	NOUN	NN	Number=Sing	16	obj	_	start_char=278|end_char=285
 20	in	in	ADP	IN	_	22	case	_	start_char=286|end_char=288
-21	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=289|end_char=291
-22	AR	ar	PROPN	NNP	Number=Sing	16	obl	_	start_char=292|end_char=294
+21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=289|end_char=291
+22	AR	ar	NOUN	NN	Number=Sing	16	obl	_	start_char=292|end_char=294
 23	for	for	ADP	IN	_	26	case	_	start_char=295|end_char=298
 24	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	start_char=299|end_char=300
 25	thorough	thorough	ADJ	JJ	Degree=Pos	26	amod	_	start_char=301|end_char=309
@@ -66,7 +75,7 @@
 28	and	and	CCONJ	CC	_	31	cc	_	start_char=320|end_char=323
 29	this	this	DET	DT	Number=Sing|PronType=Dem	30	det	_	start_char=324|end_char=328
 30	tool	tool	NOUN	NN	Number=Sing	31	nsubj	_	start_char=329|end_char=333
-31	worked	work	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	start_char=334|end_char=340
+31	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=334|end_char=340
 32	perfectly	perfectly	ADV	RB	_	31	advmod	_	start_char=341|end_char=350
 33	to	to	PART	TO	_	34	mark	_	start_char=351|end_char=353
 34	push	push	VERB	VB	VerbForm=Inf	31	advcl	_	start_char=354|end_char=358
@@ -88,14 +97,20 @@
 50	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	43	advcl	_	start_char=434|end_char=443
 51	.	.	PUNCT	.	_	3	punct	_	start_char=443|end_char=444
 
+# text = Excellent!
+# sent_id = 3
+# sentiment = 1
 1	Excellent	excellent	ADJ	JJ	Degree=Pos	0	root	_	start_char=445|end_char=454
 2	!	!	PUNCT	.	_	1	punct	_	start_char=454|end_char=455
 
+# text = It is now in my range bag for safe keeping.
+# sent_id = 4
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=456|end_char=458
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=459|end_char=461
 3	now	now	ADV	RB	_	7	advmod	_	start_char=462|end_char=465
 4	in	in	ADP	IN	_	7	case	_	start_char=466|end_char=468
-5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=469|end_char=471
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=469|end_char=471
 6	range	range	NOUN	NN	Number=Sing	7	compound	_	start_char=472|end_char=477
 7	bag	bag	NOUN	NN	Number=Sing	0	root	_	start_char=478|end_char=481
 8	for	for	ADP	IN	_	10	case	_	start_char=482|end_char=485

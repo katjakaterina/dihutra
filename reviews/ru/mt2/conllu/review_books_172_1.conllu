@@ -1,0 +1,84 @@
+# text = Kindle Sample Я обожаю эту книгу и, видимо, где-то потеряла ее.
+# sent_id = 0
+1	Kindle	Kindle	PROPN	_	Foreign=Yes	4	nsubj	_	start_char=0|end_char=6
+2	Sample	Sample	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=7|end_char=13
+3	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=14|end_char=15
+4	обожаю	обожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=22
+5	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=23|end_char=26
+6	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=27|end_char=32
+7	и	и	CCONJ	_	_	12	cc	_	start_char=33|end_char=34
+8	,	,	PUNCT	_	_	7	punct	_	start_char=34|end_char=35
+9	видимо	видимо	ADV	_	Degree=Pos	12	parataxis	_	start_char=36|end_char=42
+10	,	,	PUNCT	_	_	9	punct	_	start_char=42|end_char=43
+11	где-то	где-то	ADV	_	Degree=Pos	12	advmod	_	start_char=44|end_char=50
+12	потеряла	терять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=51|end_char=59
+13	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=60|end_char=62
+14	.	.	PUNCT	_	_	4	punct	_	start_char=62|end_char=63
+
+# text = Мне было интересно посмотреть, как обстоят дела с версией для Kindle, поскольку иногда возникают проблемы с форматированием.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=64|end_char=67
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=68|end_char=72
+3	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=73|end_char=82
+4	посмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=83|end_char=93
+5	,	,	PUNCT	_	_	7	punct	_	start_char=93|end_char=94
+6	как	как	ADV	_	Degree=Pos	7	advmod	_	start_char=95|end_char=98
+7	обстоят	обстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=99|end_char=106
+8	дела	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	start_char=107|end_char=111
+9	с	с	ADP	_	_	10	case	_	start_char=112|end_char=113
+10	версией	версия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	start_char=114|end_char=121
+11	для	для	ADP	_	_	10	case	_	start_char=122|end_char=125
+12	Kindle	Kindle	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=126|end_char=132
+13	,	,	PUNCT	_	_	16	punct	_	start_char=132|end_char=133
+14	поскольку	поскольку	SCONJ	_	_	16	mark	_	start_char=134|end_char=143
+15	иногда	иногда	ADV	_	Degree=Pos	16	advmod	_	start_char=144|end_char=150
+16	возникают	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=151|end_char=160
+17	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=161|end_char=169
+18	с	с	ADP	_	_	19	case	_	start_char=170|end_char=171
+19	форматированием	форматирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	nmod	_	start_char=172|end_char=187
+20	.	.	PUNCT	_	_	3	punct	_	start_char=187|end_char=188
+
+# text = К моему разочарованию, в бесплатном образце есть только начало.
+# sent_id = 2
+1	К	к	ADP	_	_	3	case	_	start_char=189|end_char=190
+2	моему	мой	DET	_	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=191|end_char=196
+3	разочарованию	разочарование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	start_char=197|end_char=210
+4	,	,	PUNCT	_	_	3	punct	_	start_char=210|end_char=211
+5	в	в	ADP	_	_	7	case	_	start_char=212|end_char=213
+6	бесплатном	бесплатный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=214|end_char=224
+7	образце	образец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	start_char=225|end_char=232
+8	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=233|end_char=237
+9	только	только	PART	_	_	10	advmod	_	start_char=238|end_char=244
+10	начало	начало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=245|end_char=251
+11	.	.	PUNCT	_	_	7	punct	_	start_char=251|end_char=252
+
+# text = Даже не одна страница книги.
+# sent_id = 3
+1	Даже	даже	PART	_	_	2	advmod	_	start_char=253|end_char=257
+2	не	не	PART	_	_	3	advmod	_	start_char=258|end_char=260
+3	одна	один	NUM	_	Case=Nom|Gender=Fem|NumType=Card	4	nummod	_	start_char=261|end_char=265
+4	страница	страница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=266|end_char=274
+5	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=275|end_char=280
+6	.	.	PUNCT	_	_	4	punct	_	start_char=280|end_char=281
+
+# text = Цена неплохая по сравнению с некоторыми изданиями Kindle, но образец определенно не позволил мне заценить книгу.
+# sent_id = 4
+1	Цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=282|end_char=286
+2	неплохая	неплохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=287|end_char=295
+3	по	по	ADP	_	_	7	case	_	start_char=296|end_char=298
+4	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	fixed	_	start_char=299|end_char=308
+5	с	с	ADP	_	_	3	fixed	_	start_char=309|end_char=310
+6	некоторыми	некоторый	DET	_	Case=Ins|Number=Plur|PronType=Ind	7	det	_	start_char=311|end_char=321
+7	изданиями	издание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	2	obl	_	start_char=322|end_char=331
+8	Kindle	Kindle	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=332|end_char=338
+9	,	,	PUNCT	_	_	14	punct	_	start_char=338|end_char=339
+10	но	но	CCONJ	_	_	14	cc	_	start_char=340|end_char=342
+11	образец	образец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=343|end_char=350
+12	определенно	определенно	ADV	_	Degree=Pos	14	advmod	_	start_char=351|end_char=362
+13	не	не	PART	_	_	14	advmod	_	start_char=363|end_char=365
+14	позволил	позволить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=366|end_char=374
+15	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	start_char=375|end_char=378
+16	заценить	заценить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=379|end_char=387
+17	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=388|end_char=393
+18	.	.	PUNCT	_	_	2	punct	_	start_char=393|end_char=394
+

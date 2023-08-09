@@ -1,60 +1,80 @@
+# text = most embarrassing gift
+# sent_id = 0
+# sentiment = 0
 1	most	most	ADV	RBS	Degree=Sup	2	advmod	_	start_char=0|end_char=4
 2	embarrassing	embarrassing	ADJ	JJ	Degree=Pos	3	amod	_	start_char=5|end_char=17
 3	gift	gift	NOUN	NN	Number=Sing	0	root	_	start_char=18|end_char=22
-4	Because	because	SCONJ	IN	_	15	mark	_	start_char=23|end_char=30
-5	when	when	SCONJ	WRB	PronType=Int	10	mark	_	start_char=31|end_char=35
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=36|end_char=39
-7	person	person	NOUN	NN	Number=Sing	15	nsubj	_	start_char=40|end_char=46
-8	this	this	PRON	DT	Number=Sing|PronType=Dem	10	nsubj:pass	_	start_char=47|end_char=51
-9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	start_char=52|end_char=55
-10	gifted	gift	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	start_char=56|end_char=62
-11	to	to	PART	TO	_	12	mark	_	start_char=63|end_char=65
-12	opened	open	VERB	VBN	Tense=Past|VerbForm=Part	10	xcomp	_	start_char=66|end_char=72
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=73|end_char=75
-14	there	there	PRON	EX	_	15	expl	_	start_char=76|end_char=81
-15	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	start_char=82|end_char=85
-16	n't	not	PART	RB	Polarity=Neg	15	advmod	_	start_char=85|end_char=88
-17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	start_char=89|end_char=90
-18	brush	brush	NOUN	NN	Number=Sing	15	nsubj	_	start_char=91|end_char=96
-19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	start_char=97|end_char=100
-20	not	not	PART	RB	Polarity=Neg	23	advmod	_	start_char=101|end_char=104
-21	on	on	ADP	IN	_	23	case	_	start_char=105|end_char=107
-22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=108|end_char=111
-23	eyeliner	eyeliner	NOUN	NN	Number=Sing	15	ccomp	_	start_char=112|end_char=120
-24	.	.	PUNCT	.	_	3	punct	_	start_char=120|end_char=121
 
+# text = Because when the person this was gifted to opened it there wasn't a brush was not on the eyeliner.
+# sent_id = 1
+# sentiment = 0
+1	Because	because	SCONJ	IN	_	20	mark	_	start_char=23|end_char=30
+2	when	when	ADV	WRB	PronType=Int	12	advmod	_	start_char=31|end_char=35
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=36|end_char=39
+4	person	person	NOUN	NN	Number=Sing	12	nsubj	_	start_char=40|end_char=46
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj:pass	_	start_char=47|end_char=51
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	start_char=52|end_char=55
+7	gifted	gift	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	start_char=56|end_char=62
+8	to	to	PART	TO	_	9	mark	_	start_char=63|end_char=65
+9	opened	open	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=66|end_char=72
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=73|end_char=75
+11	there	there	PRON	EX	_	12	expl	_	start_char=76|end_char=81
+12	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	advcl	_	start_char=82|end_char=85
+13	n't	not	PART	RB	_	12	advmod	_	start_char=85|end_char=88
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	start_char=89|end_char=90
+15	brush	brush	NOUN	NN	Number=Sing	12	nsubj	_	start_char=91|end_char=96
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	start_char=97|end_char=100
+17	not	not	PART	RB	_	20	advmod	_	start_char=101|end_char=104
+18	on	on	ADP	IN	_	20	case	_	start_char=105|end_char=107
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=108|end_char=111
+20	eyeliner	eyeliner	NOUN	NN	Number=Sing	0	root	_	start_char=112|end_char=120
+21	.	.	PUNCT	.	_	20	punct	_	start_char=120|end_char=121
+
+# text = and I was looked at like what a cheap gift!
+# sent_id = 2
+# sentiment = 0
 1	and	and	CCONJ	CC	_	4	cc	_	start_char=121|end_char=124
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=125|end_char=126
-3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=127|end_char=130
-4	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=131|end_char=137
-5	at	at	ADP	IN	_	7	case	_	start_char=138|end_char=140
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj:pass	_	start_char=125|end_char=126
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=127|end_char=130
+4	looked	look	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=131|end_char=137
+5	at	at	ADP	IN	_	4	obl	_	start_char=138|end_char=140
 6	like	like	ADP	IN	_	7	case	_	start_char=141|end_char=145
 7	what	what	PRON	WP	PronType=Int	4	obl	_	start_char=146|end_char=150
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=151|end_char=152
 9	cheap	cheap	ADJ	JJ	Degree=Pos	10	amod	_	start_char=153|end_char=158
-10	gift	gift	NOUN	NN	Number=Sing	7	nsubj	_	start_char=159|end_char=163
+10	gift	gift	NOUN	NN	Number=Sing	4	advcl	_	start_char=159|end_char=163
 11	!	!	PUNCT	.	_	4	punct	_	start_char=163|end_char=164
 
-1	!	!	PUNCT	.	_	4	punct	_	start_char=165|end_char=166
-2	And	and	CCONJ	CC	_	4	cc	_	start_char=166|end_char=169
-3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	start_char=170|end_char=173
-4	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=174|end_char=179
-5	if	if	SCONJ	IN	_	9	mark	_	start_char=180|end_char=182
-6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=183|end_char=185
-7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=186|end_char=189
-8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=190|end_char=191
-9	knockoff	knockoff	NOUN	NN	Number=Sing	4	advcl	_	start_char=192|end_char=200
-10	and	and	CCONJ	CC	_	12	cc	_	start_char=201|end_char=204
-11	then	then	ADV	RB	PronType=Dem	12	advmod	_	start_char=205|end_char=209
-12	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	start_char=210|end_char=214
-13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=215|end_char=218
-14	one	one	NUM	CD	NumType=Card	15	nummod	_	start_char=219|end_char=222
-15	review	review	NOUN	NN	Number=Sing	12	obj	_	start_char=223|end_char=229
-16	that	that	PRON	WDT	PronType=Rel	18	nsubj:pass	_	start_char=230|end_char=234
-17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux:pass	_	start_char=235|end_char=238
-18	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	acl:relcl	_	start_char=239|end_char=243
-19	.	.	PUNCT	.	_	4	punct	_	start_char=243|end_char=244
+# text = !
+# sent_id = 3
+# sentiment = 1
+1	!	!	PUNCT	.	_	0	root	_	start_char=165|end_char=166
 
+# text = And was asked if it was a knockoff and then read the one review that was left.
+# sent_id = 4
+# sentiment = 1
+1	And	and	CCONJ	CC	_	3	cc	_	start_char=166|end_char=169
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	start_char=170|end_char=173
+3	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=174|end_char=179
+4	if	if	SCONJ	IN	_	8	mark	_	start_char=180|end_char=182
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=183|end_char=185
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=186|end_char=189
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=190|end_char=191
+8	knockoff	knockoff	NOUN	NN	Number=Sing	3	advcl	_	start_char=192|end_char=200
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=201|end_char=204
+10	then	then	ADV	RB	PronType=Dem	11	advmod	_	start_char=205|end_char=209
+11	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	start_char=210|end_char=214
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=215|end_char=218
+13	one	one	NUM	CD	NumForm=Word|NumType=Card	14	nummod	_	start_char=219|end_char=222
+14	review	review	NOUN	NN	Number=Sing	11	obj	_	start_char=223|end_char=229
+15	that	that	PRON	WDT	PronType=Rel	17	nsubj:pass	_	start_char=230|end_char=234
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	start_char=235|end_char=238
+17	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	start_char=239|end_char=243
+18	.	.	PUNCT	.	_	3	punct	_	start_char=243|end_char=244
+
+# text = Hoping to get it replaced or refunded.
+# sent_id = 5
+# sentiment = 1
 1	Hoping	hope	VERB	VBG	VerbForm=Ger	0	root	_	start_char=245|end_char=251
 2	to	to	PART	TO	_	3	mark	_	start_char=252|end_char=254
 3	get	get	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=255|end_char=258
@@ -64,6 +84,9 @@
 7	refunded	refund	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	start_char=274|end_char=282
 8	.	.	PUNCT	.	_	1	punct	_	start_char=282|end_char=283
 
+# text = Very unhappy customer
+# sent_id = 6
+# sentiment = 0
 1	Very	very	ADV	RB	_	2	advmod	_	start_char=283|end_char=287
 2	unhappy	unhappy	ADJ	JJ	Degree=Pos	3	amod	_	start_char=288|end_char=295
 3	customer	customer	NOUN	NN	Number=Sing	0	root	_	start_char=296|end_char=304

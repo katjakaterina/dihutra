@@ -1,0 +1,79 @@
+# text = Подделка, продавец сам пишет отзывы!
+# sent_id = 0
+1	Подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8
+2	,	,	PUNCT	_	_	5	punct	_	start_char=8|end_char=9
+3	продавец	продавец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=10|end_char=18
+4	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=19|end_char=22
+5	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=23|end_char=28
+6	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=29|end_char=35
+7	!	!	PUNCT	_	_	1	punct	_	start_char=35|end_char=36
+
+# text = Подделка MAc.
+# sent_id = 1
+1	Подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=37|end_char=45
+2	MAc	MAc	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=46|end_char=49
+3	.	.	PUNCT	_	_	1	punct	_	start_char=49|end_char=50
+
+# text = MAC даже не производит эту палитру.
+# sent_id = 2
+1	MAC	MAC	PROPN	_	Foreign=Yes	4	nsubj	_	start_char=51|end_char=54
+2	даже	даже	PART	_	_	3	advmod	_	start_char=55|end_char=59
+3	не	не	PART	_	_	4	advmod	_	start_char=60|end_char=62
+4	производит	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=63|end_char=73
+5	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=74|end_char=77
+6	палитру	палитр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=78|end_char=85
+7	.	.	PUNCT	_	_	4	punct	_	start_char=85|end_char=86
+
+# text = Продавец написала положительные отзывы на свой собственный товар под теми же двумя именами, одно Alexis и одно ._... посмотрите на все отзывы, которые они пишут на свои собственные товары.
+# sent_id = 3
+1	Продавец	продавец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=87|end_char=95
+2	написала	писать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=96|end_char=104
+3	положительные	положительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	start_char=105|end_char=118
+4	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=119|end_char=125
+5	на	на	ADP	_	_	8	case	_	start_char=126|end_char=128
+6	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=129|end_char=133
+7	собственный	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=134|end_char=145
+8	товар	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	start_char=146|end_char=151
+9	под	под	ADP	_	_	13	case	_	start_char=152|end_char=155
+10	теми	тот	DET	_	Case=Ins|Number=Plur|PronType=Dem	13	det	_	start_char=156|end_char=160
+11	же	же	PART	_	_	10	advmod	_	start_char=161|end_char=163
+12	двумя	два	NUM	_	Case=Ins|NumType=Card	13	nummod	_	start_char=164|end_char=169
+13	именами	имя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	2	obl	_	start_char=170|end_char=177
+14	,	,	PUNCT	_	_	16	punct	_	start_char=177|end_char=178
+15	одно	один	NUM	_	Case=Nom|Gender=Neut|NumType=Card	16	nummod	_	start_char=179|end_char=183
+16	Alexis	Alexis	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=184|end_char=190
+17	и	и	CCONJ	_	_	18	cc	_	start_char=191|end_char=192
+18	одно	один	NUM	_	Case=Nom|Gender=Neut|NumType=Card	13	conj	_	start_char=193|end_char=197
+19	.	.	PUNCT	_	_	18	punct	_	start_char=198|end_char=199
+20	_.	_.	PUNCT	_	_	18	punct	_	start_char=199|end_char=201
+21	.	.	PUNCT	_	_	18	punct	_	start_char=201|end_char=202
+22	.	.	PUNCT	_	_	23	punct	_	start_char=202|end_char=203
+23	посмотрите	смотреть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	start_char=204|end_char=214
+24	на	на	ADP	_	_	26	case	_	start_char=215|end_char=217
+25	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	26	det	_	start_char=218|end_char=221
+26	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	23	obl	_	start_char=222|end_char=228
+27	,	,	PUNCT	_	_	30	punct	_	start_char=228|end_char=229
+28	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	30	obj	_	start_char=230|end_char=237
+29	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	start_char=238|end_char=241
+30	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	start_char=242|end_char=247
+31	на	на	ADP	_	_	34	case	_	start_char=248|end_char=250
+32	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	34	det	_	start_char=251|end_char=255
+33	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	start_char=256|end_char=267
+34	товары	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obl	_	start_char=268|end_char=274
+35	.	.	PUNCT	_	_	2	punct	_	start_char=274|end_char=275
+
+# text = Почему это происходит здесь?
+# sent_id = 4
+1	Почему	почему	ADV	_	Degree=Pos	3	advmod	_	start_char=276|end_char=282
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=283|end_char=286
+3	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=287|end_char=297
+4	здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	start_char=298|end_char=303
+5	?	?	PUNCT	_	_	3	punct	_	start_char=303|end_char=304
+
+# text = Этих парней нужно остановить
+# sent_id = 5
+1	Этих	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	2	det	_	start_char=305|end_char=309
+2	парней	парень	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=310|end_char=316
+3	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=317|end_char=322
+4	остановить	остановить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=323|end_char=333
+

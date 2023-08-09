@@ -1,0 +1,80 @@
+# text = Слава богу, они дорогие Да, это одни из самых дорогих конфет, потому что они поставляются только по импорту.
+# sent_id = 0
+1	Слава	слава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	parataxis	_	start_char=0|end_char=5
+2	богу	бог	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	flat:name	_	start_char=6|end_char=10
+3	,	,	PUNCT	_	_	1	punct	_	start_char=10|end_char=11
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=12|end_char=15
+5	дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=16|end_char=23
+6	Да	да	PART	_	_	0	root	_	start_char=24|end_char=26
+7	,	,	PUNCT	_	_	9	punct	_	start_char=26|end_char=27
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=28|end_char=31
+9	одни	один	DET	_	Case=Nom|Number=Plur|PronType=Ind	6	conj	_	start_char=32|end_char=36
+10	из	из	ADP	_	_	13	case	_	start_char=37|end_char=39
+11	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=40|end_char=45
+12	дорогих	дорогой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=46|end_char=53
+13	конфет	конфета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=54|end_char=60
+14	,	,	PUNCT	_	_	18	punct	_	start_char=60|end_char=61
+15	потому	потому	ADV	_	Degree=Pos	18	mark	_	start_char=62|end_char=68
+16	что	что	SCONJ	_	_	15	fixed	_	start_char=69|end_char=72
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj:pass	_	start_char=73|end_char=76
+18	поставляются	поставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	start_char=77|end_char=89
+19	только	только	PART	_	_	21	advmod	_	start_char=90|end_char=96
+20	по	по	ADP	_	_	21	case	_	start_char=97|end_char=99
+21	импорту	импорт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	obl	_	start_char=100|end_char=107
+22	.	.	PUNCT	_	_	6	punct	_	start_char=107|end_char=108
+
+# text = Но, боже мой, какие же они вкусные.
+# sent_id = 1
+1	Но	но	CCONJ	_	_	9	cc	_	start_char=109|end_char=111
+2	,	,	PUNCT	_	_	1	punct	_	start_char=111|end_char=112
+3	боже	бог	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	9	parataxis	_	start_char=113|end_char=117
+4	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=118|end_char=121
+5	,	,	PUNCT	_	_	3	punct	_	start_char=121|end_char=122
+6	какие	какой	DET	_	Case=Nom|Number=Plur|PronType=Int,Rel	9	det	_	start_char=123|end_char=128
+7	же	же	PART	_	_	6	advmod	_	start_char=129|end_char=131
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=132|end_char=135
+9	вкусные	вкусный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=136|end_char=143
+10	.	.	PUNCT	_	_	9	punct	_	start_char=143|end_char=144
+
+# text = Компания KitKat могла бы навести порядок, если бы начала продавать их в США.
+# sent_id = 2
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=145|end_char=153
+2	KitKat	KitKat	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=154|end_char=160
+3	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=161|end_char=166
+4	бы	бы	AUX	_	_	3	aux	_	start_char=167|end_char=169
+5	навести	навести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=170|end_char=177
+6	порядок	порядок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=178|end_char=185
+7	,	,	PUNCT	_	_	10	punct	_	start_char=185|end_char=186
+8	если	если	SCONJ	_	_	10	mark	_	start_char=187|end_char=191
+9	бы	бы	AUX	_	_	10	aux	_	start_char=192|end_char=194
+10	начала	начать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=195|end_char=201
+11	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=202|end_char=211
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=212|end_char=214
+13	в	в	ADP	_	_	14	case	_	start_char=215|end_char=216
+14	США	США	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	11	obl	_	start_char=217|end_char=220
+15	.	.	PUNCT	_	_	3	punct	_	start_char=220|end_char=221
+
+# text = Попробовав их однажды, вы не сможете дождаться продолжения.
+# sent_id = 3
+1	Попробовав	пробовать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	start_char=222|end_char=232
+2	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=233|end_char=235
+3	однажды	однажды	ADV	_	Degree=Pos	1	advmod	_	start_char=236|end_char=243
+4	,	,	PUNCT	_	_	1	punct	_	start_char=243|end_char=244
+5	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=245|end_char=247
+6	не	не	PART	_	_	7	advmod	_	start_char=248|end_char=250
+7	сможете	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=251|end_char=258
+8	дождаться	дожидаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	start_char=259|end_char=268
+9	продолжения	продолжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=269|end_char=280
+10	.	.	PUNCT	_	_	7	punct	_	start_char=280|end_char=281
+
+# text = Такие вкусные, доставляются быстро и свежими.
+# sent_id = 4
+1	Такие	такой	DET	_	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=282|end_char=287
+2	вкусные	вкусный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=288|end_char=295
+3	,	,	PUNCT	_	_	4	punct	_	start_char=295|end_char=296
+4	доставляются	доставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	start_char=297|end_char=309
+5	быстро	быстро	ADV	_	Degree=Pos	4	advmod	_	start_char=310|end_char=316
+6	и	и	CCONJ	_	_	7	cc	_	start_char=317|end_char=318
+7	свежими	свежий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	conj	_	start_char=319|end_char=326
+8	.	.	PUNCT	_	_	4	punct	_	start_char=326|end_char=327
+

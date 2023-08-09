@@ -1,28 +1,34 @@
+# text = If your package is orange & black, then send it back.
+# sent_id = 0
+# sentiment = 1
 1	If	if	SCONJ	IN	_	5	mark	_	start_char=0|end_char=2
-2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=3|end_char=7
+2	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=3|end_char=7
 3	package	package	NOUN	NN	Number=Sing	5	nsubj	_	start_char=8|end_char=15
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=16|end_char=18
 5	orange	orange	ADJ	JJ	Degree=Pos	10	advcl	_	start_char=19|end_char=25
 6	&	&	CCONJ	CC	_	7	cc	_	start_char=26|end_char=27
 7	black	black	ADJ	JJ	Degree=Pos	5	conj	_	start_char=28|end_char=33
-8	,	,	PUNCT	,	_	10	punct	_	start_char=33|end_char=34
+8	,	,	PUNCT	,	_	5	punct	_	start_char=33|end_char=34
 9	then	then	ADV	RB	PronType=Dem	10	advmod	_	start_char=35|end_char=39
 10	send	send	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=40|end_char=44
 11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=45|end_char=47
 12	back	back	ADV	RB	_	10	advmod	_	start_char=48|end_char=52
 13	.	.	PUNCT	.	_	10	punct	_	start_char=52|end_char=53
 
-1	ONE	one	NUM	CD	NumType=Card	2	nummod	_	start_char=54|end_char=57
+# text = ONE STAR:The Maxell LR44 10-pack photo shows the new hologram packaging, but I received the old orange & black packaging.
+# sent_id = 1
+# sentiment = 1
+1	ONE	one	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=54|end_char=57
 2	STAR	STAR	NOUN	NN	Number=Sing	0	root	_	start_char=58|end_char=62
 3	:	:	PUNCT	:	_	2	punct	_	start_char=62|end_char=63
 4	The	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=63|end_char=66
 5	Maxell	Maxell	PROPN	NNP	Number=Sing	10	compound	_	start_char=67|end_char=73
 6	LR44	LR44	PROPN	NNP	Number=Sing	10	compound	_	start_char=74|end_char=78
-7	10	10	NUM	CD	NumType=Card	9	nummod	_	start_char=79|end_char=81
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=79|end_char=81
 8	-	-	PUNCT	HYPH	_	9	punct	_	start_char=81|end_char=82
 9	pack	pack	NOUN	NN	Number=Sing	10	compound	_	start_char=82|end_char=86
 10	photo	photo	NOUN	NN	Number=Sing	11	nsubj	_	start_char=87|end_char=92
-11	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	start_char=93|end_char=98
+11	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=93|end_char=98
 12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=99|end_char=102
 13	new	new	ADJ	JJ	Degree=Pos	15	amod	_	start_char=103|end_char=106
 14	hologram	hologram	NOUN	NN	Number=Sing	15	compound	_	start_char=107|end_char=115
@@ -30,7 +36,7 @@
 16	,	,	PUNCT	,	_	19	punct	_	start_char=125|end_char=126
 17	but	but	CCONJ	CC	_	19	cc	_	start_char=127|end_char=130
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=131|end_char=132
-19	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	start_char=133|end_char=141
+19	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	conj	_	start_char=133|end_char=141
 20	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	start_char=142|end_char=145
 21	old	old	ADJ	JJ	Degree=Pos	25	amod	_	start_char=146|end_char=149
 22	orange	orange	ADJ	JJ	Degree=Pos	25	amod	_	start_char=150|end_char=156
@@ -39,79 +45,98 @@
 25	packaging	packaging	NOUN	NN	Number=Sing	19	obj	_	start_char=165|end_char=174
 26	.	.	PUNCT	.	_	2	punct	_	start_char=174|end_char=175
 
+# text = The batteries are stale.
+# sent_id = 2
+# sentiment = 1
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=175|end_char=178
 2	batteries	battery	NOUN	NNS	Number=Plur	4	nsubj	_	start_char=179|end_char=188
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=189|end_char=192
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=189|end_char=192
 4	stale	stale	ADJ	JJ	Degree=Pos	0	root	_	start_char=193|end_char=198
 5	.	.	PUNCT	.	_	4	punct	_	start_char=198|end_char=199
 
-1	Lights	light	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=200|end_char=206
+# text = Lights powered by them are semi-bright, and only last a day or so.
+# sent_id = 3
+# sentiment = 1
+1	Lights	light	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=200|end_char=206
 2	powered	power	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	start_char=207|end_char=214
 3	by	by	ADP	IN	_	4	case	_	start_char=215|end_char=217
 4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	start_char=218|end_char=222
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=223|end_char=226
-6	semi-bright	semi-bright	ADJ	JJ	Degree=Pos	0	root	_	start_char=227|end_char=238
-7	,	,	PUNCT	,	_	10	punct	_	start_char=238|end_char=239
-8	and	and	CCONJ	CC	_	10	cc	_	start_char=240|end_char=243
-9	only	only	ADV	RB	_	10	advmod	_	start_char=244|end_char=248
-10	last	last	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=249|end_char=253
-11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=254|end_char=255
-12	day	day	NOUN	NN	Number=Sing	10	obl:tmod	_	start_char=256|end_char=259
-13	or	or	CCONJ	CC	_	14	cc	_	start_char=260|end_char=262
-14	so	so	ADV	RB	_	12	conj	_	start_char=263|end_char=265
-15	.	.	PUNCT	.	_	6	punct	_	start_char=265|end_char=266
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=223|end_char=226
+6	semi-	semi-	ADV	RB	_	7	advmod	_	start_char=227|end_char=232
+7	bright	bright	ADJ	JJ	Degree=Pos	0	root	_	start_char=232|end_char=238
+8	,	,	PUNCT	,	_	11	punct	_	start_char=238|end_char=239
+9	and	and	CCONJ	CC	_	11	cc	_	start_char=240|end_char=243
+10	only	only	ADV	RB	_	11	advmod	_	start_char=244|end_char=248
+11	last	last	ADJ	JJ	Degree=Pos	7	conj	_	start_char=249|end_char=253
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=254|end_char=255
+13	day	day	NOUN	NN	Number=Sing	11	obl:npmod	_	start_char=256|end_char=259
+14	or	or	CCONJ	CC	_	15	cc	_	start_char=260|end_char=262
+15	so	so	ADV	RB	_	13	conj	_	start_char=263|end_char=265
+16	.	.	PUNCT	.	_	7	punct	_	start_char=265|end_char=266
 
+# text = The orange & black pack rates 1-star.
+# sent_id = 4
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=266|end_char=269
 2	orange	orange	ADJ	JJ	Degree=Pos	6	amod	_	start_char=270|end_char=276
 3	&	&	CCONJ	CC	_	4	cc	_	start_char=277|end_char=278
 4	black	black	ADJ	JJ	Degree=Pos	2	conj	_	start_char=279|end_char=284
 5	pack	pack	NOUN	NN	Number=Sing	6	compound	_	start_char=285|end_char=289
-6	rates	rate	NOUN	NNS	Number=Plur	10	nsubj	_	start_char=290|end_char=295
-7	1	1	NUM	CD	NumType=Card	9	nummod	_	start_char=296|end_char=297
+6	rates	rate	NOUN	NNS	Number=Plur	9	compound	_	start_char=290|end_char=295
+7	1	1	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=296|end_char=297
 8	-	-	PUNCT	HYPH	_	9	punct	_	start_char=297|end_char=298
-9	star.FIVE	star.five	NOUN	NN	Number=Sing	10	compound	_	start_char=298|end_char=307
-10	STARS	star	NOUN	NNS	Number=Plur	0	root	_	start_char=308|end_char=313
-11	:	:	PUNCT	:	_	10	punct	_	start_char=313|end_char=314
-12	From	from	ADP	IN	_	15	case	_	start_char=314|end_char=318
-13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=319|end_char=322
-14	same	same	ADJ	JJ	Degree=Pos	15	amod	_	start_char=323|end_char=327
-15	supplier	supplier	NOUN	NN	Number=Sing	20	obl	_	start_char=328|end_char=336
-16	,	,	PUNCT	,	_	17	punct	_	start_char=336|end_char=337
-17	MyBatterySupplier	MyBatterySupplier	PROPN	NNP	Number=Sing	15	appos	_	start_char=338|end_char=355
-18	,	,	PUNCT	,	_	20	punct	_	start_char=355|end_char=356
-19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=357|end_char=358
-20	ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	start_char=359|end_char=366
-21	the50	the50	NUM	CD	NumType=Card	23	nummod	_	start_char=367|end_char=372
-22	-	-	PUNCT	HYPH	_	23	punct	_	start_char=372|end_char=373
-23	pack	pack	NOUN	NN	Number=Sing	20	obj	_	start_char=373|end_char=377
-24	,	,	PUNCT	,	_	23	punct	_	start_char=377|end_char=378
-25	which	which	PRON	WDT	PronType=Rel	27	nsubj	_	start_char=379|end_char=384
-26	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	start_char=385|end_char=388
-27	come	come	VERB	VB	VerbForm=Inf	23	acl:relcl	_	start_char=389|end_char=393
-28	in	in	ADP	IN	_	32	case	_	start_char=394|end_char=396
-29	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=397|end_char=400
-30	new	new	ADJ	JJ	Degree=Pos	32	amod	_	start_char=401|end_char=404
-31	hologram	hologram	NOUN	NN	Number=Sing	32	compound	_	start_char=405|end_char=413
-32	package	package	NOUN	NN	Number=Sing	27	obl	_	start_char=414|end_char=421
-33	,	,	PUNCT	,	_	38	punct	_	start_char=421|end_char=422
-34	and	and	CCONJ	CC	_	38	cc	_	start_char=423|end_char=426
-35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	start_char=427|end_char=430
-36	difference	difference	NOUN	NN	Number=Sing	38	nsubj	_	start_char=431|end_char=441
-37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	cop	_	start_char=442|end_char=445
-38	dramatic	dramatic	ADJ	JJ	Degree=Pos	27	conj	_	start_char=446|end_char=454
-39	.	.	PUNCT	.	_	10	punct	_	start_char=454|end_char=455
+9	star	star	NOUN	NN	Number=Sing	0	root	_	start_char=298|end_char=302
+10	.	.	PUNCT	.	_	9	punct	_	start_char=302|end_char=303
 
+# text = FIVE STARS:From the same supplier, MyBatterySupplier, I ordered the50-pack, which did come in the new hologram package, and the difference was dramatic.
+# sent_id = 5
+# sentiment = 2
+1	FIVE	five	NUM	CD	NumForm=Word|NumType=Card	2	nummod	_	start_char=303|end_char=307
+2	STARS	star	NOUN	NNS	Number=Plur	0	root	_	start_char=308|end_char=313
+3	:	:	PUNCT	:	_	2	punct	_	start_char=313|end_char=314
+4	From	from	ADP	IN	_	7	case	_	start_char=314|end_char=318
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=319|end_char=322
+6	same	same	ADJ	JJ	Degree=Pos	7	amod	_	start_char=323|end_char=327
+7	supplier	supplier	NOUN	NN	Number=Sing	12	obl	_	start_char=328|end_char=336
+8	,	,	PUNCT	,	_	9	punct	_	start_char=336|end_char=337
+9	MyBatterySupplier	MyBatterySupplier	PROPN	NNP	Number=Sing	7	appos	_	start_char=338|end_char=355
+10	,	,	PUNCT	,	_	12	punct	_	start_char=355|end_char=356
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=357|end_char=358
+12	ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=359|end_char=366
+13	the50	the50	NUM	CD	NumForm=Word|NumType=Card	15	nummod	_	start_char=367|end_char=372
+14	-	-	PUNCT	HYPH	_	15	punct	_	start_char=372|end_char=373
+15	pack	pack	NOUN	NN	Number=Sing	12	obj	_	start_char=373|end_char=377
+16	,	,	PUNCT	,	_	19	punct	_	start_char=377|end_char=378
+17	which	which	PRON	WDT	PronType=Rel	19	nsubj	_	start_char=379|end_char=384
+18	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	start_char=385|end_char=388
+19	come	come	VERB	VB	VerbForm=Inf	15	acl:relcl	_	start_char=389|end_char=393
+20	in	in	ADP	IN	_	24	case	_	start_char=394|end_char=396
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	start_char=397|end_char=400
+22	new	new	ADJ	JJ	Degree=Pos	24	amod	_	start_char=401|end_char=404
+23	hologram	hologram	NOUN	NN	Number=Sing	24	compound	_	start_char=405|end_char=413
+24	package	package	NOUN	NN	Number=Sing	19	obl	_	start_char=414|end_char=421
+25	,	,	PUNCT	,	_	30	punct	_	start_char=421|end_char=422
+26	and	and	CCONJ	CC	_	30	cc	_	start_char=423|end_char=426
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=427|end_char=430
+28	difference	difference	NOUN	NN	Number=Sing	30	nsubj	_	start_char=431|end_char=441
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	start_char=442|end_char=445
+30	dramatic	dramatic	ADJ	JJ	Degree=Pos	12	conj	_	start_char=446|end_char=454
+31	.	.	PUNCT	.	_	2	punct	_	start_char=454|end_char=455
+
+# text = Lights powered by the batteries were brilliant, and I expect them to last much longer.
+# sent_id = 6
+# sentiment = 2
 1	Lights	light	NOUN	NNS	Number=Plur	7	nsubj	_	start_char=456|end_char=462
 2	powered	power	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	start_char=463|end_char=470
 3	by	by	ADP	IN	_	5	case	_	start_char=471|end_char=473
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=474|end_char=477
-5	batteries	battery	NOUN	NNS	Number=Plur	2	obl	_	start_char=478|end_char=487
-6	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	start_char=488|end_char=492
+5	batteries	battery	NOUN	NNS	Number=Plur	2	obl:agent	_	start_char=478|end_char=487
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	start_char=488|end_char=492
 7	brilliant	brilliant	ADJ	JJ	Degree=Pos	0	root	_	start_char=493|end_char=502
 8	,	,	PUNCT	,	_	11	punct	_	start_char=502|end_char=503
 9	and	and	CCONJ	CC	_	11	cc	_	start_char=504|end_char=507
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=508|end_char=509
-11	expect	expect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=510|end_char=516
+11	expect	expect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=510|end_char=516
 12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=517|end_char=521
 13	to	to	PART	TO	_	14	mark	_	start_char=522|end_char=524
 14	last	last	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=525|end_char=529
@@ -119,13 +144,16 @@
 16	longer	long	ADV	RBR	Degree=Cmp	14	advmod	_	start_char=535|end_char=541
 17	.	.	PUNCT	.	_	7	punct	_	start_char=541|end_char=542
 
-1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=542|end_char=545
-2	new	new	ADJ	JJ	Degree=Pos	4	amod	_	start_char=546|end_char=549
+# text = The new hologram pack rates 5-stars.
+# sent_id = 7
+# sentiment = 2
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=542|end_char=545
+2	new	new	ADJ	JJ	Degree=Pos	5	amod	_	start_char=546|end_char=549
 3	hologram	hologram	NOUN	NN	Number=Sing	4	compound	_	start_char=550|end_char=558
-4	pack	pack	NOUN	NN	Number=Sing	5	nsubj	_	start_char=559|end_char=563
-5	rates	rate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=564|end_char=569
-6	5	5	NUM	CD	NumType=Card	8	nummod	_	start_char=570|end_char=571
+4	pack	pack	NOUN	NN	Number=Sing	5	compound	_	start_char=559|end_char=563
+5	rates	rate	NOUN	NNS	Number=Plur	0	root	_	start_char=564|end_char=569
+6	5	5	NUM	CD	NumForm=Digit|NumType=Card	8	nummod	_	start_char=570|end_char=571
 7	-	-	PUNCT	HYPH	_	8	punct	_	start_char=571|end_char=572
-8	stars	star	NOUN	NNS	Number=Plur	5	obj	_	start_char=572|end_char=577
+8	stars	star	NOUN	NNS	Number=Plur	5	appos	_	start_char=572|end_char=577
 9	.	.	PUNCT	.	_	5	punct	_	start_char=577|end_char=578
 

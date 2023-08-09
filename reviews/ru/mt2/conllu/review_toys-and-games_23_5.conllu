@@ -1,0 +1,68 @@
+# text = Замысловато и трудоемко.
+# sent_id = 0
+1	Замысловато	замысловатый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=11
+2	и	и	CCONJ	_	_	3	cc	_	start_char=12|end_char=13
+3	трудоемко	трудоемкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	start_char=14|end_char=23
+4	.	.	PUNCT	_	_	1	punct	_	start_char=23|end_char=24
+
+# text = Отличная возможность получить или подарить (если подарок) отдых от телевизора!
+# sent_id = 1
+1	Отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=25|end_char=33
+2	возможность	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=34|end_char=45
+3	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	obl	_	start_char=46|end_char=54
+4	или	или	CCONJ	_	_	5	cc	_	start_char=55|end_char=58
+5	подарить	дарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	start_char=59|end_char=67
+6	(	(	PUNCT	_	_	8	punct	_	start_char=68|end_char=69
+7	если	если	SCONJ	_	_	8	mark	_	start_char=69|end_char=73
+8	подарок	подарок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	start_char=74|end_char=81
+9	)	)	PUNCT	_	_	8	punct	_	start_char=81|end_char=82
+10	отдых	отдых	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=83|end_char=88
+11	от	от	ADP	_	_	12	case	_	start_char=89|end_char=91
+12	телевизора	телевизор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=92|end_char=102
+13	!	!	PUNCT	_	_	2	punct	_	start_char=102|end_char=103
+
+# text = Очень хорошо для отвлечения времени.
+# sent_id = 2
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=104|end_char=109
+2	хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=110|end_char=116
+3	для	для	ADP	_	_	4	case	_	start_char=117|end_char=120
+4	отвлечения	отвлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=121|end_char=131
+5	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=132|end_char=139
+6	.	.	PUNCT	_	_	2	punct	_	start_char=139|end_char=140
+
+# text = Купил для своей 14-летней племянницы.
+# sent_id = 3
+1	Купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=141|end_char=146
+2	для	для	ADP	_	_	5	case	_	start_char=147|end_char=150
+3	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=151|end_char=156
+4	14-летней	14-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=157|end_char=166
+5	племянницы	племянница	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	start_char=167|end_char=177
+6	.	.	PUNCT	_	_	1	punct	_	start_char=177|end_char=178
+
+# text = Хотя она предпочитает держать в руках контроллер или клавиатуру, я иногда даю ей эту игру для &#34;технологического перерыва&#34;!
+# sent_id = 4
+1	Хотя	хотя	SCONJ	_	_	3	mark	_	start_char=179|end_char=183
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=184|end_char=187
+3	предпочитает	предпочитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	start_char=188|end_char=200
+4	держать	держать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=201|end_char=208
+5	в	в	ADP	_	_	6	case	_	start_char=209|end_char=210
+6	руках	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	start_char=211|end_char=216
+7	контроллер	контроллер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=217|end_char=227
+8	или	или	CCONJ	_	_	9	cc	_	start_char=228|end_char=231
+9	клавиатуру	клавиатура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	start_char=232|end_char=242
+10	,	,	PUNCT	_	_	3	punct	_	start_char=242|end_char=243
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=244|end_char=245
+12	иногда	иногда	ADV	_	Degree=Pos	13	advmod	_	start_char=246|end_char=252
+13	даю	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=253|end_char=256
+14	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	start_char=257|end_char=259
+15	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	start_char=260|end_char=263
+16	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=264|end_char=268
+17	для	для	ADP	_	_	16	case	_	start_char=269|end_char=272
+18	&	&	SYM	_	_	16	nmod	_	start_char=273|end_char=274
+19	#34;технологического	#34;технологического	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=274|end_char=294
+20	перерыва&	перерыва&	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=295|end_char=304
+21	#	#	SYM	_	_	20	nummod:entity	_	start_char=304|end_char=305
+22	34	34	NUM	_	NumType=Card	21	nummod:entity	_	start_char=305|end_char=307
+23	;	;	PUNCT	_	_	22	punct	_	start_char=307|end_char=308
+24	!	!	PUNCT	_	_	13	punct	_	start_char=308|end_char=309
+

@@ -1,64 +1,79 @@
-1	disappointed	disappointed	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=12
-2	momma	momma	NOUN	NN	Number=Sing	0	root	_	start_char=13|end_char=18
+# text = disappointed momma
+# sent_id = 0
+# sentiment = 0
+1	disappointed	disappoint	VERB	VBN	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=0|end_char=12
+2	momma	momma	NOUN	NN	Number=Sing	1	obj	_	start_char=13|end_char=18
 
-1	Ordered	order	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=19|end_char=26
+# text = Ordered this for my son and was very disappointed when it did not work on our brand new CPU.
+# sent_id = 1
+# sentiment = 0
+1	Ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=19|end_char=26
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	obj	_	start_char=27|end_char=31
 3	for	for	ADP	IN	_	5	case	_	start_char=32|end_char=35
-4	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=36|end_char=38
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=36|end_char=38
 5	son	son	NOUN	NN	Number=Sing	1	obl	_	start_char=39|end_char=42
 6	and	and	CCONJ	CC	_	9	cc	_	start_char=43|end_char=46
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	start_char=47|end_char=50
 8	very	very	ADV	RB	_	9	advmod	_	start_char=51|end_char=55
 9	disappointed	disappointed	ADJ	JJ	Degree=Pos	1	conj	_	start_char=56|end_char=68
-10	when	when	SCONJ	WRB	PronType=Int	14	mark	_	start_char=69|end_char=73
+10	when	when	ADV	WRB	PronType=Int	14	advmod	_	start_char=69|end_char=73
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=74|end_char=76
-12	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	start_char=77|end_char=80
+12	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=77|end_char=80
 13	not	not	PART	RB	_	14	advmod	_	start_char=81|end_char=84
 14	work	work	VERB	VB	VerbForm=Inf	9	advcl	_	start_char=85|end_char=89
 15	on	on	ADP	IN	_	19	case	_	start_char=90|end_char=92
-16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=93|end_char=96
-17	brand	brand	NOUN	NN	Number=Sing	19	compound	_	start_char=97|end_char=102
+16	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=93|end_char=96
+17	brand	brand	NOUN	NN	Number=Sing	18	obl:npmod	_	start_char=97|end_char=102
 18	new	new	ADJ	JJ	Degree=Pos	19	amod	_	start_char=103|end_char=106
 19	CPU	cpu	NOUN	NN	Number=Sing	14	obl	_	start_char=107|end_char=110
 20	.	.	PUNCT	.	_	1	punct	_	start_char=110|end_char=111
 
+# text = It appears it was not compatible with our system software.
+# sent_id = 2
+# sentiment = 0
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	start_char=112|end_char=114
 2	appears	appear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=115|end_char=122
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=123|end_char=125
 4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	start_char=126|end_char=129
 5	not	not	PART	RB	_	6	advmod	_	start_char=130|end_char=133
-6	compatible	compatible	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=134|end_char=144
+6	compatible	compatible	ADJ	JJ	Degree=Pos	2	csubj	_	start_char=134|end_char=144
 7	with	with	ADP	IN	_	10	case	_	start_char=145|end_char=149
-8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=150|end_char=153
+8	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=150|end_char=153
 9	system	system	NOUN	NN	Number=Sing	10	compound	_	start_char=154|end_char=160
 10	software	software	NOUN	NN	Number=Sing	6	obl	_	start_char=161|end_char=169
 11	.	.	PUNCT	.	_	2	punct	_	start_char=169|end_char=170
 
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=171|end_char=173
+# text = My son tried it on two relative's CPU, and it did not work on theirs.
+# sent_id = 3
+# sentiment = 0
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=171|end_char=173
 2	son	son	NOUN	NN	Number=Sing	3	nsubj	_	start_char=174|end_char=177
-3	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=178|end_char=183
+3	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=178|end_char=183
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=184|end_char=186
 5	on	on	ADP	IN	_	9	case	_	start_char=187|end_char=189
-6	two	two	NUM	CD	NumType=Card	7	nummod	_	start_char=190|end_char=193
+6	two	two	NUM	CD	NumForm=Word|NumType=Card	7	nummod	_	start_char=190|end_char=193
 7	relative	relative	NOUN	NN	Number=Sing	9	nmod:poss	_	start_char=194|end_char=202
 8	's	's	PART	POS	_	7	case	_	start_char=202|end_char=204
 9	CPU	cpu	NOUN	NN	Number=Sing	3	obl	_	start_char=205|end_char=208
 10	,	,	PUNCT	,	_	15	punct	_	start_char=208|end_char=209
 11	and	and	CCONJ	CC	_	15	cc	_	start_char=210|end_char=213
 12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=214|end_char=216
-13	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	start_char=217|end_char=220
+13	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	start_char=217|end_char=220
 14	not	not	PART	RB	_	15	advmod	_	start_char=221|end_char=224
 15	work	work	VERB	VB	VerbForm=Inf	3	conj	_	start_char=225|end_char=229
 16	on	on	ADP	IN	_	17	case	_	start_char=230|end_char=232
 17	theirs	theirs	PRON	PRP	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	obl	_	start_char=233|end_char=239
 18	.	.	PUNCT	.	_	3	punct	_	start_char=239|end_char=240
 
+# text = Good thing I paid only $4.
+# sent_id = 4
+# sentiment = 1
 1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	start_char=240|end_char=244
 2	thing	thing	NOUN	NN	Number=Sing	0	root	_	start_char=245|end_char=250
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=251|end_char=252
-4	paid	pay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	start_char=253|end_char=257
+4	paid	pay	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	acl:relcl	_	start_char=253|end_char=257
 5	only	only	ADV	RB	_	6	advmod	_	start_char=258|end_char=262
 6	$	$	SYM	$	_	4	obj	_	start_char=263|end_char=264
-7	4	4	NUM	CD	NumType=Card	6	nummod	_	start_char=264|end_char=265
+7	4	4	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=264|end_char=265
 8	.	.	PUNCT	.	_	2	punct	_	start_char=265|end_char=266
 

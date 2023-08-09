@@ -1,5 +1,8 @@
+# text = I Got Great Pricing, But Still a Really Good Product
+# sent_id = 0
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
-2	Got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=2|end_char=5
+2	Got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=2|end_char=5
 3	Great	great	ADJ	JJ	Degree=Pos	4	amod	_	start_char=6|end_char=11
 4	Pricing	pricing	NOUN	NN	Number=Sing	2	obj	_	start_char=12|end_char=19
 5	,	,	PUNCT	,	_	11	punct	_	start_char=19|end_char=20
@@ -8,26 +11,29 @@
 8	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	start_char=31|end_char=32
 9	Really	really	ADV	RB	_	10	advmod	_	start_char=33|end_char=39
 10	Good	good	ADJ	JJ	Degree=Pos	11	amod	_	start_char=40|end_char=44
-11	Product	product	NOUN	NN	Number=Sing	2	conj	_	start_char=45|end_char=52
+11	Product	product	NOUN	NN	Number=Sing	4	conj	_	start_char=45|end_char=52
 
-1	When	when	SCONJ	WRB	PronType=Int	4	mark	_	start_char=53|end_char=57
+# text = When I was searching for MIDI cables for my ART X-15 foot controller, I came across these Hosa ones, and they were $2 dollars each!
+# sent_id = 1
+# sentiment = 0
+1	When	when	ADV	WRB	PronType=Int	4	advmod	_	start_char=53|end_char=57
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=58|end_char=59
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=60|end_char=63
 4	searching	search	VERB	VBG	Tense=Pres|VerbForm=Part	18	advcl	_	start_char=64|end_char=73
 5	for	for	ADP	IN	_	7	case	_	start_char=74|end_char=77
-6	MIDI	MIDI	PROPN	NNP	Number=Sing	7	compound	_	start_char=78|end_char=82
+6	MIDI	midi	NOUN	NN	Number=Sing	7	compound	_	start_char=78|end_char=82
 7	cables	cable	NOUN	NNS	Number=Plur	4	obl	_	start_char=83|end_char=89
 8	for	for	ADP	IN	_	15	case	_	start_char=90|end_char=93
-9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=94|end_char=96
-10	ART	ART	NOUN	NN	Number=Sing	15	compound	_	start_char=97|end_char=100
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=94|end_char=96
+10	ART	ART	PROPN	NNP	Number=Sing	15	compound	_	start_char=97|end_char=100
 11	X	x	NOUN	NN	Number=Sing	15	compound	_	start_char=101|end_char=102
 12	-	-	PUNCT	HYPH	_	13	punct	_	start_char=102|end_char=103
-13	15	15	NUM	CD	NumType=Card	11	nummod	_	start_char=103|end_char=105
+13	15	15	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=103|end_char=105
 14	foot	foot	NOUN	NN	Number=Sing	15	compound	_	start_char=106|end_char=110
-15	controller	controller	NOUN	NN	Number=Sing	4	obl	_	start_char=111|end_char=121
+15	controller	controller	NOUN	NN	Number=Sing	7	nmod	_	start_char=111|end_char=121
 16	,	,	PUNCT	,	_	4	punct	_	start_char=121|end_char=122
 17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=123|end_char=124
-18	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=125|end_char=129
+18	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=125|end_char=129
 19	across	across	ADP	IN	_	22	case	_	start_char=130|end_char=136
 20	these	this	DET	DT	Number=Plur|PronType=Dem	22	det	_	start_char=137|end_char=142
 21	Hosa	Hosa	PROPN	NNP	Number=Sing	22	compound	_	start_char=143|end_char=147
@@ -35,22 +41,25 @@
 23	,	,	PUNCT	,	_	29	punct	_	start_char=152|end_char=153
 24	and	and	CCONJ	CC	_	29	cc	_	start_char=154|end_char=157
 25	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	start_char=158|end_char=162
-26	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	cop	_	start_char=163|end_char=167
+26	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	start_char=163|end_char=167
 27	$	$	SYM	$	_	29	compound	_	start_char=168|end_char=169
-28	2	2	NUM	CD	NumType=Card	27	nummod	_	start_char=169|end_char=170
+28	2	2	NUM	CD	NumForm=Digit|NumType=Card	27	nummod	_	start_char=169|end_char=170
 29	dollars	dollar	NOUN	NNS	Number=Plur	18	conj	_	start_char=171|end_char=178
 30	each	each	DET	DT	_	29	advmod	_	start_char=179|end_char=183
 31	!	!	PUNCT	.	_	18	punct	_	start_char=183|end_char=184
 
+# text = As they are now $6, I realize I would still be happy with that price as well, as they are high quality plastic and metal connectors, and work flawlessly.
+# sent_id = 2
+# sentiment = 2
 1	As	as	SCONJ	IN	_	5	mark	_	start_char=185|end_char=187
 2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=188|end_char=192
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=193|end_char=196
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=193|end_char=196
 4	now	now	ADV	RB	_	5	advmod	_	start_char=197|end_char=200
 5	$	$	SYM	$	_	9	advcl	_	start_char=201|end_char=202
-6	6	6	NUM	CD	NumType=Card	5	nummod	_	start_char=202|end_char=203
-7	,	,	PUNCT	,	_	9	punct	_	start_char=203|end_char=204
+6	6	6	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=202|end_char=203
+7	,	,	PUNCT	,	_	5	punct	_	start_char=203|end_char=204
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=205|end_char=206
-9	realize	realize	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=207|end_char=214
+9	realize	realize	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=207|end_char=214
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=215|end_char=216
 11	would	would	AUX	MD	VerbForm=Fin	14	aux	_	start_char=217|end_char=222
 12	still	still	ADV	RB	_	14	advmod	_	start_char=223|end_char=228
@@ -61,12 +70,12 @@
 17	price	price	NOUN	NN	Number=Sing	14	obl	_	start_char=248|end_char=253
 18	as	as	ADV	RB	_	14	advmod	_	start_char=254|end_char=256
 19	well	well	ADV	RB	Degree=Pos	18	fixed	_	start_char=257|end_char=261
-20	,	,	PUNCT	,	_	14	punct	_	start_char=261|end_char=262
+20	,	,	PUNCT	,	_	9	punct	_	start_char=261|end_char=262
 21	as	as	SCONJ	IN	_	29	mark	_	start_char=263|end_char=265
 22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	start_char=266|end_char=270
-23	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	start_char=271|end_char=274
-24	high	high	ADJ	JJ	Degree=Pos	26	amod	_	start_char=275|end_char=279
-25	quality	quality	ADJ	JJ	Degree=Pos	26	amod	_	start_char=280|end_char=287
+23	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	start_char=271|end_char=274
+24	high	high	ADJ	JJ	Degree=Pos	25	amod	_	start_char=275|end_char=279
+25	quality	quality	NOUN	NN	Number=Sing	29	compound	_	start_char=280|end_char=287
 26	plastic	plastic	NOUN	NN	Number=Sing	29	compound	_	start_char=288|end_char=295
 27	and	and	CCONJ	CC	_	28	cc	_	start_char=296|end_char=299
 28	metal	metal	NOUN	NN	Number=Sing	26	conj	_	start_char=300|end_char=305
@@ -77,28 +86,34 @@
 33	flawlessly	flawlessly	ADV	RB	_	32	advmod	_	start_char=327|end_char=337
 34	.	.	PUNCT	.	_	9	punct	_	start_char=337|end_char=338
 
+# text = You must realize that they are only 5 feet, as I overestimated it and now wish they were longer.
+# sent_id = 3
+# sentiment = 0
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=339|end_char=342
 2	must	must	AUX	MD	VerbForm=Fin	3	aux	_	start_char=343|end_char=347
 3	realize	realize	VERB	VB	VerbForm=Inf	0	root	_	start_char=348|end_char=355
 4	that	that	SCONJ	IN	_	9	mark	_	start_char=356|end_char=360
 5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=361|end_char=365
-6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=366|end_char=369
-7	only	only	ADV	RB	_	9	advmod	_	start_char=370|end_char=374
-8	5	5	NUM	CD	NumType=Card	9	nummod	_	start_char=375|end_char=376
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=366|end_char=369
+7	only	only	ADV	RB	_	8	advmod	_	start_char=370|end_char=374
+8	5	5	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=375|end_char=376
 9	feet	foot	NOUN	NNS	Number=Plur	3	ccomp	_	start_char=377|end_char=381
-10	,	,	PUNCT	,	_	9	punct	_	start_char=381|end_char=382
+10	,	,	PUNCT	,	_	13	punct	_	start_char=381|end_char=382
 11	as	as	SCONJ	IN	_	13	mark	_	start_char=383|end_char=385
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=386|end_char=387
-13	overestimated	overestimate	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	start_char=388|end_char=401
+13	overestimated	overestimate	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=388|end_char=401
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=402|end_char=404
 15	and	and	CCONJ	CC	_	17	cc	_	start_char=405|end_char=408
 16	now	now	ADV	RB	_	17	advmod	_	start_char=409|end_char=412
-17	wish	wish	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=413|end_char=417
+17	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	start_char=413|end_char=417
 18	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	start_char=418|end_char=422
-19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	start_char=423|end_char=427
+19	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	start_char=423|end_char=427
 20	longer	long	ADV	RBR	Degree=Cmp	17	ccomp	_	start_char=428|end_char=434
 21	.	.	PUNCT	.	_	3	punct	_	start_char=434|end_char=435
 
+# text = For any connection from racked sound modules, this will be perfect.
+# sent_id = 4
+# sentiment = 2
 1	For	for	ADP	IN	_	3	case	_	start_char=436|end_char=439
 2	any	any	DET	DT	_	3	det	_	start_char=440|end_char=443
 3	connection	connection	NOUN	NN	Number=Sing	12	obl	_	start_char=444|end_char=454
@@ -106,7 +121,7 @@
 5	racked	rack	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	start_char=460|end_char=466
 6	sound	sound	NOUN	NN	Number=Sing	7	compound	_	start_char=467|end_char=472
 7	modules	module	NOUN	NNS	Number=Plur	3	nmod	_	start_char=473|end_char=480
-8	,	,	PUNCT	,	_	12	punct	_	start_char=480|end_char=481
+8	,	,	PUNCT	,	_	3	punct	_	start_char=480|end_char=481
 9	this	this	PRON	DT	Number=Sing|PronType=Dem	12	nsubj	_	start_char=482|end_char=486
 10	will	will	AUX	MD	VerbForm=Fin	12	aux	_	start_char=487|end_char=491
 11	be	be	AUX	VB	VerbForm=Inf	12	cop	_	start_char=492|end_char=494

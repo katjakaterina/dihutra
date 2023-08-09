@@ -1,21 +1,27 @@
+# text = Quality cable!
+# sent_id = 0
+# sentiment = 1
 1	Quality	quality	NOUN	NN	Number=Sing	2	compound	_	start_char=0|end_char=7
 2	cable	cable	NOUN	NN	Number=Sing	0	root	_	start_char=8|end_char=13
 3	!	!	PUNCT	.	_	2	punct	_	start_char=13|end_char=14
 
-1	Got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=15|end_char=18
+# text = Got this cable to run a rockband keyboard controller to my M-audio profire 2626 to control midi in Pro Tools.
+# sent_id = 1
+# sentiment = 1
+1	Got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=15|end_char=18
 2	this	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	start_char=19|end_char=23
 3	cable	cable	NOUN	NN	Number=Sing	1	obj	_	start_char=24|end_char=29
 4	to	to	PART	TO	_	5	mark	_	start_char=30|end_char=32
-5	run	run	VERB	VB	VerbForm=Inf	1	advcl	_	start_char=33|end_char=36
+5	run	run	VERB	VB	VerbForm=Inf	1	xcomp	_	start_char=33|end_char=36
 6	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=37|end_char=38
 7	rockband	rockband	NOUN	NN	Number=Sing	9	compound	_	start_char=39|end_char=47
 8	keyboard	keyboard	NOUN	NN	Number=Sing	9	compound	_	start_char=48|end_char=56
 9	controller	controller	NOUN	NN	Number=Sing	5	obj	_	start_char=57|end_char=67
 10	to	to	ADP	IN	_	13	case	_	start_char=68|end_char=70
-11	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=71|end_char=73
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=71|end_char=73
 12	M-audio	M-audio	PROPN	NNP	Number=Sing	13	compound	_	start_char=74|end_char=81
 13	profire	profire	NOUN	NN	Number=Sing	5	obl	_	start_char=82|end_char=89
-14	2626	2626	NUM	CD	NumType=Card	13	nummod	_	start_char=90|end_char=94
+14	2626	2626	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	_	start_char=90|end_char=94
 15	to	to	PART	TO	_	16	mark	_	start_char=95|end_char=97
 16	control	control	VERB	VB	VerbForm=Inf	5	advcl	_	start_char=98|end_char=105
 17	midi	midi	NOUN	NN	Number=Sing	16	obj	_	start_char=106|end_char=110
@@ -24,35 +30,44 @@
 20	Tools	Tool	PROPN	NNPS	Number=Plur	16	obl	_	start_char=118|end_char=123
 21	.	.	PUNCT	.	_	1	punct	_	start_char=123|end_char=124
 
+# text = Works great!
+# sent_id = 2
+# sentiment = 2
 1	Works	Works	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=125|end_char=130
 2	great	great	ADJ	JJ	Degree=Pos	1	xcomp	_	start_char=131|end_char=136
 3	!	!	PUNCT	.	_	1	punct	_	start_char=136|end_char=137
 
-1	Firm	firm	NOUN	NN	Number=Sing	2	compound	_	start_char=138|end_char=142
-2	fit	fit	NOUN	NN	Number=Sing	0	root	_	start_char=143|end_char=146
+# text = Firm fit, solidly molded ends, reputable branded cable.
+# sent_id = 3
+# sentiment = 1
+1	Firm	firm	ADJ	JJ	Degree=Pos	2	amod	_	start_char=138|end_char=142
+2	fit	fit	NOUN	NN	Number=Sing	6	nsubj	_	start_char=143|end_char=146
 3	,	,	PUNCT	,	_	2	punct	_	start_char=146|end_char=147
 4	solidly	solidly	ADV	RB	_	5	advmod	_	start_char=148|end_char=155
-5	molded	mold	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	start_char=156|end_char=162
-6	ends	end	NOUN	NNS	Number=Plur	2	list	_	start_char=163|end_char=167
+5	molded	mold	VERB	VBN	Tense=Past|VerbForm=Part	2	amod	_	start_char=156|end_char=162
+6	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=163|end_char=167
 7	,	,	PUNCT	,	_	10	punct	_	start_char=167|end_char=168
 8	reputable	reputable	ADJ	JJ	Degree=Pos	10	amod	_	start_char=169|end_char=178
 9	branded	brand	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	start_char=179|end_char=186
-10	cable	cable	NOUN	NN	Number=Sing	2	list	_	start_char=187|end_char=192
-11	.	.	PUNCT	.	_	2	punct	_	start_char=192|end_char=193
+10	cable	cable	NOUN	NN	Number=Sing	2	conj	_	start_char=187|end_char=192
+11	.	.	PUNCT	.	_	6	punct	_	start_char=192|end_char=193
 
-1	(	(	PUNCT	-LRB-	_	3	punct	_	start_char=194|end_char=195
+# text = (a bit on the thin side, but i haven't seen to have any issue due to this or anything.
+# sent_id = 4
+# sentiment = 2
+1	(	(	PUNCT	-LRB-	_	7	punct	_	start_char=194|end_char=195
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=195|end_char=196
-3	bit	bit	NOUN	NN	Number=Sing	0	root	_	start_char=197|end_char=200
+3	bit	bit	NOUN	NN	Number=Sing	7	nmod:npmod	_	start_char=197|end_char=200
 4	on	on	ADP	IN	_	7	case	_	start_char=201|end_char=203
 5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=204|end_char=207
 6	thin	thin	ADJ	JJ	Degree=Pos	7	amod	_	start_char=208|end_char=212
-7	side	side	NOUN	NN	Number=Sing	3	nmod	_	start_char=213|end_char=217
+7	side	side	NOUN	NN	Number=Sing	0	root	_	start_char=213|end_char=217
 8	,	,	PUNCT	,	_	13	punct	_	start_char=217|end_char=218
 9	but	but	CCONJ	CC	_	13	cc	_	start_char=219|end_char=222
 10	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=223|end_char=224
-11	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=225|end_char=229
+11	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=225|end_char=229
 12	n't	not	PART	RB	_	13	advmod	_	start_char=229|end_char=232
-13	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	conj	_	start_char=233|end_char=237
+13	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	_	start_char=233|end_char=237
 14	to	to	PART	TO	_	15	mark	_	start_char=238|end_char=240
 15	have	have	VERB	VB	VerbForm=Inf	13	xcomp	_	start_char=241|end_char=245
 16	any	any	DET	DT	_	17	det	_	start_char=246|end_char=249
@@ -61,21 +76,24 @@
 19	to	to	ADP	IN	_	18	fixed	_	start_char=260|end_char=262
 20	this	this	PRON	DT	Number=Sing|PronType=Dem	15	obl	_	start_char=263|end_char=267
 21	or	or	CCONJ	CC	_	22	cc	_	start_char=268|end_char=270
-22	anything	anything	PRON	NN	Number=Sing	20	conj	_	start_char=271|end_char=279
-23	.	.	PUNCT	.	_	3	punct	_	start_char=279|end_char=280
+22	anything	anything	PRON	NN	Number=Sing|PronType=Ind	20	conj	_	start_char=271|end_char=279
+23	.	.	PUNCT	.	_	7	punct	_	start_char=279|end_char=280
 
+# text = Couldn't go wrong for $5 at the time of my purchase and prime eligibility.
+# sent_id = 5
+# sentiment = 2
 1	Could	could	AUX	MD	VerbForm=Fin	3	aux	_	start_char=281|end_char=286
 2	n't	not	PART	RB	_	3	advmod	_	start_char=286|end_char=289
 3	go	go	VERB	VB	VerbForm=Inf	0	root	_	start_char=290|end_char=292
 4	wrong	wrong	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=293|end_char=298
 5	for	for	ADP	IN	_	6	case	_	start_char=299|end_char=302
 6	$	$	SYM	$	_	3	obl	_	start_char=303|end_char=304
-7	5	5	NUM	CD	NumType=Card	6	nummod	_	start_char=304|end_char=305
+7	5	5	NUM	CD	NumForm=Digit|NumType=Card	6	nummod	_	start_char=304|end_char=305
 8	at	at	ADP	IN	_	10	case	_	start_char=306|end_char=308
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=309|end_char=312
 10	time	time	NOUN	NN	Number=Sing	3	obl	_	start_char=313|end_char=317
 11	of	of	ADP	IN	_	13	case	_	start_char=318|end_char=320
-12	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=321|end_char=323
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=321|end_char=323
 13	purchase	purchase	NOUN	NN	Number=Sing	10	nmod	_	start_char=324|end_char=332
 14	and	and	CCONJ	CC	_	16	cc	_	start_char=333|end_char=336
 15	prime	prime	ADJ	JJ	Degree=Pos	16	amod	_	start_char=337|end_char=342

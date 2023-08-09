@@ -1,0 +1,86 @@
+# text = Голые зады не нужны!
+# sent_id = 0
+1	Голые	голый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=5
+2	зады	зад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=6|end_char=10
+3	не	не	PART	_	_	4	advmod	_	start_char=11|end_char=13
+4	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=14|end_char=19
+5	!	!	PUNCT	_	_	4	punct	_	start_char=19|end_char=20
+
+# text = Игра актеров была хорошей, сюжет - правильным, но голые зады были не нужны.
+# sent_id = 1
+1	Игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=21|end_char=25
+2	актеров	актер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=26|end_char=33
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=34|end_char=38
+4	хорошей	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=39|end_char=46
+5	,	,	PUNCT	_	_	8	punct	_	start_char=46|end_char=47
+6	сюжет	сюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=48|end_char=53
+7	-	-	PUNCT	_	_	6	punct	_	start_char=54|end_char=55
+8	правильным	правильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	start_char=56|end_char=66
+9	,	,	PUNCT	_	_	15	punct	_	start_char=66|end_char=67
+10	но	но	CCONJ	_	_	15	cc	_	start_char=68|end_char=70
+11	голые	голый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	start_char=71|end_char=76
+12	зады	зад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=77|end_char=81
+13	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	start_char=82|end_char=86
+14	не	не	PART	_	_	15	advmod	_	start_char=87|end_char=89
+15	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	conj	_	start_char=90|end_char=95
+16	.	.	PUNCT	_	_	4	punct	_	start_char=95|end_char=96
+
+# text = Также и жене Потифа не нужно было так соблазнять голого Иосифа.
+# sent_id = 2
+1	Также	также	ADV	_	Degree=Pos	6	advmod	_	start_char=97|end_char=102
+2	и	и	PART	_	_	3	advmod	_	start_char=103|end_char=104
+3	жене	жена	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	start_char=105|end_char=109
+4	Потифа	Потифа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=110|end_char=116
+5	не	не	PART	_	_	6	advmod	_	start_char=117|end_char=119
+6	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=120|end_char=125
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=126|end_char=130
+8	так	так	ADV	_	Degree=Pos	9	advmod	_	start_char=131|end_char=134
+9	соблазнять	соблазнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	start_char=135|end_char=145
+10	голого	голый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=146|end_char=152
+11	Иосифа	Иосиф	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=153|end_char=159
+12	.	.	PUNCT	_	_	6	punct	_	start_char=159|end_char=160
+
+# text = Не христианский фильм.
+# sent_id = 3
+1	Не	не	PART	_	_	2	advmod	_	start_char=161|end_char=163
+2	христианский	христианский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=164|end_char=176
+3	фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=177|end_char=182
+4	.	.	PUNCT	_	_	3	punct	_	start_char=182|end_char=183
+
+# text = Мне показалось, что даже если все было показано правдиво, христианам не нужно видеть столь откровенные сцены.
+# sent_id = 4
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=184|end_char=187
+2	показалось	казаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=188|end_char=198
+3	,	,	PUNCT	_	_	14	punct	_	start_char=198|end_char=199
+4	что	что	SCONJ	_	_	14	mark	_	start_char=200|end_char=203
+5	даже	даже	PART	_	_	9	advmod	_	start_char=204|end_char=208
+6	если	если	SCONJ	_	_	9	mark	_	start_char=209|end_char=213
+7	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	9	nsubj:pass	_	start_char=214|end_char=217
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=218|end_char=222
+9	показано	показать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	advcl	_	start_char=223|end_char=231
+10	правдиво	правдиво	ADV	_	Degree=Pos	9	advmod	_	start_char=232|end_char=240
+11	,	,	PUNCT	_	_	9	punct	_	start_char=240|end_char=241
+12	христианам	христианин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	14	iobj	_	start_char=242|end_char=252
+13	не	не	PART	_	_	14	advmod	_	start_char=253|end_char=255
+14	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	ccomp	_	start_char=256|end_char=261
+15	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	csubj	_	start_char=262|end_char=268
+16	столь	столь	ADV	_	Degree=Pos	17	obl	_	start_char=269|end_char=274
+17	откровенные	откровенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	start_char=275|end_char=286
+18	сцены	сцена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=287|end_char=292
+19	.	.	PUNCT	_	_	2	punct	_	start_char=292|end_char=293
+
+# text = Этому фильму должен быть присвоен рейтинг PG 13, как минимум.
+# sent_id = 5
+1	Этому	этот	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=294|end_char=299
+2	фильму	фильм	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	start_char=300|end_char=306
+3	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=307|end_char=313
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	start_char=314|end_char=318
+5	присвоен	присвоить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	xcomp	_	start_char=319|end_char=327
+6	рейтинг	рейтинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=328|end_char=335
+7	PG	PG	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=336|end_char=338
+8	13	13	NUM	_	NumType=Card	6	nummod:entity	_	start_char=339|end_char=341
+9	,	,	PUNCT	_	_	10	punct	_	start_char=341|end_char=342
+10	как	как	SCONJ	_	_	6	advmod	_	start_char=343|end_char=346
+11	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	fixed	_	start_char=347|end_char=354
+12	.	.	PUNCT	_	_	3	punct	_	start_char=354|end_char=355
+

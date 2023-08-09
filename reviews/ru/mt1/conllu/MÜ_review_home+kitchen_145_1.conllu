@@ -1,69 +1,75 @@
-1	Different	Different	PROPN	_	Foreign=Yes	0	root	_	start_char=0|end_char=9
-2	book	book	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=10|end_char=14
-3	.	.	PUNCT	_	_	1	punct	_	start_char=14|end_char=15
+# text = Другая книга.
+# sent_id = 0
+1	Другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=12
+3	.	.	PUNCT	_	_	2	punct	_	start_char=12|end_char=13
 
-1	Not	Not	PROPN	_	Foreign=Yes	0	root	_	start_char=16|end_char=19
-2	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=20|end_char=23
-3	expected	expected	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=24|end_char=32
-4	original	original	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=33|end_char=41
-5	.	.	PUNCT	_	_	1	punct	_	start_char=41|end_char=42
+# text = Не ожидаемый оригинал.
+# sent_id = 1
+1	Не	не	PART	_	_	2	advmod	_	start_char=14|end_char=16
+2	ожидаемый	ожидать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl	_	start_char=17|end_char=26
+3	оригинал	оригинал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=27|end_char=35
+4	.	.	PUNCT	_	_	3	punct	_	start_char=35|end_char=36
 
-1	Parts	Parts	PROPN	_	Foreign=Yes	0	root	_	start_char=43|end_char=48
-2	missing	missing	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=49|end_char=56
-3	.	.	PUNCT	_	_	1	punct	_	start_char=56|end_char=57
+# text = Части отсутствуют.
+# sent_id = 2
+1	Части	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=37|end_char=42
+2	отсутствуют	отсутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=43|end_char=54
+3	.	.	PUNCT	_	_	2	punct	_	start_char=54|end_char=55
 
-1	I	I	PROPN	_	Foreign=Yes	0	root	_	start_char=58|end_char=59
-2	expected	expected	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=60|end_char=68
-3	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=69|end_char=72
-4	"	"	PUNCT	_	_	5	punct	_	start_char=73|end_char=74
-5	good	good	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=74|end_char=78
-6	night	night	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=79|end_char=84
-7	sweet	sweet	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=85|end_char=90
-8	butterflies	butterflies	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=91|end_char=102
-9	"	"	PUNCT	_	_	8	punct	_	start_char=102|end_char=103
-10	book	book	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=104|end_char=108
-11	that	that	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=109|end_char=113
-12	I	I	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=114|end_char=115
-13	had	had	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=116|end_char=119
-14	in	in	X	_	Foreign=Yes	1	flat:foreign	_	start_char=120|end_char=122
-15	a	a	X	_	Foreign=Yes	1	flat:foreign	_	start_char=123|end_char=124
-16	largerformat	largerformat	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=125|end_char=137
-17	.	.	PUNCT	_	_	1	punct	_	start_char=137|end_char=138
+# text = Я ожидал книгу «Спокойной ночи, сладкие бабочки», которая у меня была в большем формате.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=56|end_char=57
+2	ожидал	ожидать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=58|end_char=64
+3	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=65|end_char=70
+4	«	"	PUNCT	_	_	6	punct	_	start_char=71|end_char=72
+5	Спокойной	спокойный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=72|end_char=81
+6	ночи	ночь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=82|end_char=86
+7	,	,	PUNCT	_	_	9	punct	_	start_char=86|end_char=87
+8	сладкие	сладкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=88|end_char=95
+9	бабочки	бабочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	conj	_	start_char=96|end_char=103
+10	»	"	PUNCT	_	_	6	punct	_	start_char=103|end_char=104
+11	,	,	PUNCT	_	_	18	punct	_	start_char=104|end_char=105
+12	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	18	nsubj	_	start_char=106|end_char=113
+13	у	у	ADP	_	_	14	case	_	start_char=114|end_char=115
+14	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	18	obl	_	start_char=116|end_char=120
+15	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	start_char=121|end_char=125
+16	в	в	ADP	_	_	18	case	_	start_char=126|end_char=127
+17	большем	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=128|end_char=135
+18	формате	формат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	acl:relcl	_	start_char=136|end_char=143
+19	.	.	PUNCT	_	_	2	punct	_	start_char=143|end_char=144
 
-1	Because	Because	PROPN	_	Foreign=Yes	0	root	_	start_char=139|end_char=146
-2	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=147|end_char=150
-3	book	book	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=151|end_char=155
-4	is	is	X	_	Foreign=Yes	1	flat:foreign	_	start_char=156|end_char=158
-5	small	small	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=159|end_char=164
-6	,	,	PUNCT	_	_	7	punct	_	start_char=164|end_char=165
-7	some	some	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=166|end_char=170
-8	pages	pages	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=171|end_char=176
-9	have	have	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=177|end_char=181
-10	been	been	X	_	Foreign=Yes	1	flat:foreign	_	start_char=182|end_char=186
-11	cut	Бил	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=187|end_char=190
-12	off	off	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=191|end_char=194
-13	,	,	PUNCT	_	_	1	punct	_	start_char=194|end_char=195
-14	and	and	X	_	Foreign=Yes	1	flat:foreign	_	start_char=196|end_char=199
-15	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=200|end_char=203
-16	text	text	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=204|end_char=208
-17	is	is	X	_	Foreign=Yes	1	flat:foreign	_	start_char=209|end_char=211
-18	completely	completely	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=212|end_char=222
-19	different	different	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=223|end_char=232
-20	and	and	X	_	Foreign=Yes	1	flat:foreign	_	start_char=233|end_char=236
-21	much	much	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=237|end_char=241
-22	worse	worse	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=242|end_char=247
-23	than	than	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=248|end_char=252
-24	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=253|end_char=256
-25	text	text	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=257|end_char=261
-26	of	of	X	_	Foreign=Yes	1	flat:foreign	_	start_char=262|end_char=264
-27	the	the	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=265|end_char=268
-28	large	large	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=269|end_char=274
-29	book.I	Эппл	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=275|end_char=281
-30	am	am	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=282|end_char=284
-31	very	very	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=285|end_char=289
-32	disappointed	disappointed	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=290|end_char=302
-33	with	with	X	_	Foreign=Yes	1	flat:foreign	_	start_char=303|end_char=307
-34	this	this	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=308|end_char=312
-35	purchase	purchase	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=313|end_char=321
-36	.	.	PUNCT	_	_	1	punct	_	start_char=321|end_char=322
+# text = Так как книга маленькая, некоторые страницы обрезаны, а текст совсем другой и намного хуже, чем текст большой книги.
+# sent_id = 4
+1	Так	так	ADV	_	Degree=Pos	4	mark	_	start_char=145|end_char=148
+2	как	как	SCONJ	_	_	1	fixed	_	start_char=149|end_char=152
+3	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=153|end_char=158
+4	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	advcl	_	start_char=159|end_char=168
+5	,	,	PUNCT	_	_	4	punct	_	start_char=168|end_char=169
+6	некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	7	det	_	start_char=170|end_char=179
+7	страницы	страница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	start_char=180|end_char=188
+8	обрезаны	обрезать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=189|end_char=197
+9	,	,	PUNCT	_	_	13	punct	_	start_char=197|end_char=198
+10	а	а	CCONJ	_	_	13	cc	_	start_char=199|end_char=200
+11	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=201|end_char=206
+12	совсем	совсем	ADV	_	Degree=Pos	13	obl	_	start_char=207|end_char=213
+13	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	start_char=214|end_char=220
+14	и	и	CCONJ	_	_	16	cc	_	start_char=221|end_char=222
+15	намного	намного	ADV	_	Degree=Pos	16	advmod	_	start_char=223|end_char=230
+16	хуже	плохой	ADJ	_	Degree=Cmp	8	conj	_	start_char=231|end_char=235
+17	,	,	PUNCT	_	_	19	punct	_	start_char=235|end_char=236
+18	чем	чем	SCONJ	_	_	19	mark	_	start_char=237|end_char=240
+19	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obl	_	start_char=241|end_char=246
+20	большой	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=247|end_char=254
+21	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=255|end_char=260
+22	.	.	PUNCT	_	_	8	punct	_	start_char=260|end_char=261
+
+# text = Я очень разочарован этой покупкой.
+# sent_id = 5
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=262|end_char=263
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=264|end_char=269
+3	разочарован	разочарованный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=270|end_char=281
+4	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=282|end_char=286
+5	покупкой	покупка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	start_char=287|end_char=295
+6	.	.	PUNCT	_	_	3	punct	_	start_char=295|end_char=296
 

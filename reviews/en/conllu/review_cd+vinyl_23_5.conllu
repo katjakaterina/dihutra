@@ -1,8 +1,14 @@
+# text = Wonderful!!!
+# sent_id = 0
+# sentiment = 2
 1	Wonderful	wonderful	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=9
 2	!!!	!!!	PUNCT	.	_	1	punct	_	start_char=9|end_char=12
 
+# text = I had had a cassette of this recording, and knew I loved it.
+# sent_id = 1
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=13|end_char=14
-2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	start_char=15|end_char=18
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=15|end_char=18
 3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=19|end_char=22
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=23|end_char=24
 5	cassette	cassette	NOUN	NN	Number=Sing	3	obj	_	start_char=25|end_char=33
@@ -11,18 +17,21 @@
 8	recording	recording	NOUN	NN	Number=Sing	5	nmod	_	start_char=42|end_char=51
 9	,	,	PUNCT	,	_	11	punct	_	start_char=51|end_char=52
 10	and	and	CCONJ	CC	_	11	cc	_	start_char=53|end_char=56
-11	knew	know	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	start_char=57|end_char=61
+11	knew	know	VERB	VBN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	start_char=57|end_char=61
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=62|end_char=63
-13	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	ccomp	_	start_char=64|end_char=69
+13	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	ccomp	_	start_char=64|end_char=69
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=70|end_char=72
 15	.	.	PUNCT	.	_	3	punct	_	start_char=72|end_char=73
 
+# text = I bought several of these CDs so that I could share with nephews, and friends, and keep one for myself.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=74|end_char=75
-2	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=76|end_char=82
+2	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=76|end_char=82
 3	several	several	ADJ	JJ	Degree=Pos	2	obj	_	start_char=83|end_char=90
 4	of	of	ADP	IN	_	6	case	_	start_char=91|end_char=93
 5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	start_char=94|end_char=99
-6	CDs	CD	NOUN	NNS	Number=Plur	3	obl	_	start_char=100|end_char=103
+6	CDs	CD	NOUN	NNS	Number=Plur	3	nmod	_	start_char=100|end_char=103
 7	so	so	SCONJ	IN	_	11	mark	_	start_char=104|end_char=106
 8	that	that	SCONJ	IN	_	7	fixed	_	start_char=107|end_char=111
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=112|end_char=113
@@ -36,39 +45,48 @@
 17	,	,	PUNCT	,	_	19	punct	_	start_char=151|end_char=152
 18	and	and	CCONJ	CC	_	19	cc	_	start_char=153|end_char=156
 19	keep	keep	VERB	VB	VerbForm=Inf	11	conj	_	start_char=157|end_char=161
-20	one	one	NUM	CD	NumType=Card	19	obj	_	start_char=162|end_char=165
+20	one	one	NUM	CD	NumForm=Word|NumType=Card	19	obj	_	start_char=162|end_char=165
 21	for	for	ADP	IN	_	22	case	_	start_char=166|end_char=169
 22	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	19	obl	_	start_char=170|end_char=176
 23	.	.	PUNCT	.	_	2	punct	_	start_char=176|end_char=177
 
+# text = Very gentle and easy to sleep to.
+# sent_id = 3
+# sentiment = 2
 1	Very	very	ADV	RB	_	2	advmod	_	start_char=178|end_char=182
 2	gentle	gentle	ADJ	JJ	Degree=Pos	0	root	_	start_char=183|end_char=189
 3	and	and	CCONJ	CC	_	4	cc	_	start_char=190|end_char=193
 4	easy	easy	ADJ	JJ	Degree=Pos	2	conj	_	start_char=194|end_char=198
 5	to	to	PART	TO	_	6	mark	_	start_char=199|end_char=201
-6	sleep	sleep	VERB	VB	VerbForm=Inf	2	advcl	_	start_char=202|end_char=207
+6	sleep	sleep	VERB	VB	VerbForm=Inf	4	ccomp	_	start_char=202|end_char=207
 7	to	to	ADP	IN	_	6	obl	_	start_char=208|end_char=210
 8	.	.	PUNCT	.	_	2	punct	_	start_char=210|end_char=211
 
+# text = Words are clearly sung, understandable.
+# sent_id = 4
+# sentiment = 1
 1	Words	word	NOUN	NNS	Number=Plur	4	nsubj:pass	_	start_char=212|end_char=217
-2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=218|end_char=221
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=218|end_char=221
 3	clearly	clearly	ADV	RB	_	4	advmod	_	start_char=222|end_char=229
 4	sung	sing	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=230|end_char=234
 5	,	,	PUNCT	,	_	6	punct	_	start_char=234|end_char=235
 6	understandable	understandable	ADJ	JJ	Degree=Pos	4	conj	_	start_char=236|end_char=250
 7	.	.	PUNCT	.	_	4	punct	_	start_char=250|end_char=251
 
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=252|end_char=254
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=254|end_char=256
+# text = It's been a blessing to me that I was anxious to find and pass on to others.
+# sent_id = 5
+# sentiment = 0
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	start_char=252|end_char=254
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=254|end_char=256
 3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	cop	_	start_char=257|end_char=261
 4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=262|end_char=263
 5	blessing	blessing	NOUN	NN	Number=Sing	0	root	_	start_char=264|end_char=272
 6	to	to	ADP	IN	_	7	case	_	start_char=273|end_char=275
-7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	start_char=276|end_char=278
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	start_char=276|end_char=278
 8	that	that	SCONJ	IN	_	11	mark	_	start_char=279|end_char=283
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=284|end_char=285
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	start_char=286|end_char=289
-11	anxious	anxious	ADJ	JJ	Degree=Pos	5	acl	_	start_char=290|end_char=297
+11	anxious	anxious	ADJ	JJ	Degree=Pos	5	csubj	_	start_char=290|end_char=297
 12	to	to	PART	TO	_	13	mark	_	start_char=298|end_char=300
 13	find	find	VERB	VB	VerbForm=Inf	11	xcomp	_	start_char=301|end_char=305
 14	and	and	CCONJ	CC	_	15	cc	_	start_char=306|end_char=309
@@ -78,6 +96,9 @@
 18	others	other	NOUN	NNS	Number=Plur	15	obl	_	start_char=321|end_char=327
 19	.	.	PUNCT	.	_	5	punct	_	start_char=327|end_char=328
 
+# text = Great for children-- I was a child when Grandma got me the tape.
+# sent_id = 6
+# sentiment = 2
 1	Great	great	ADJ	JJ	Degree=Pos	0	root	_	start_char=329|end_char=334
 2	for	for	ADP	IN	_	3	case	_	start_char=335|end_char=338
 3	children	child	NOUN	NNS	Number=Plur	1	obl	_	start_char=339|end_char=347
@@ -86,9 +107,9 @@
 6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	start_char=352|end_char=355
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=356|end_char=357
 8	child	child	NOUN	NN	Number=Sing	1	parataxis	_	start_char=358|end_char=363
-9	when	when	SCONJ	WRB	PronType=Int	11	mark	_	start_char=364|end_char=368
+9	when	when	ADV	WRB	PronType=Int	11	advmod	_	start_char=364|end_char=368
 10	Grandma	Grandma	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=369|end_char=376
-11	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	start_char=377|end_char=380
+11	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	start_char=377|end_char=380
 12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	iobj	_	start_char=381|end_char=383
 13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	start_char=384|end_char=387
 14	tape	tape	NOUN	NN	Number=Sing	11	obj	_	start_char=388|end_char=392

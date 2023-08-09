@@ -1,0 +1,88 @@
+# text = Это не настоящий MAC.
+# sent_id = 0
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=3
+2	не	не	PART	_	_	3	advmod	_	start_char=4|end_char=6
+3	настоящий	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=7|end_char=16
+4	MAC	MAC	PROPN	_	Foreign=Yes	0	root	_	start_char=17|end_char=20
+5	.	.	PUNCT	_	_	4	punct	_	start_char=20|end_char=21
+
+# text = Это подделка.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=22|end_char=25
+2	подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=26|end_char=34
+3	.	.	PUNCT	_	_	2	punct	_	start_char=34|end_char=35
+
+# text = Продавец продает все поддельные MAC!
+# sent_id = 2
+1	Продавец	продавец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=36|end_char=44
+2	продает	продавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=45|end_char=52
+3	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	5	det	_	start_char=53|end_char=56
+4	поддельные	поддельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=57|end_char=67
+5	MAC	MAC	PROPN	_	Foreign=Yes	2	obj	_	start_char=68|end_char=71
+6	!	!	PUNCT	_	_	2	punct	_	start_char=71|end_char=72
+
+# text = Это подделка MAC, я только что получила свою и очень расстроилась, узнав, что это не настоящая MAC.
+# sent_id = 3
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=73|end_char=76
+2	подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=77|end_char=85
+3	MAC	MAC	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=86|end_char=89
+4	,	,	PUNCT	_	_	8	punct	_	start_char=89|end_char=90
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=91|end_char=92
+6	только	только	PART	_	_	8	advmod	_	start_char=93|end_char=99
+7	что	что	SCONJ	_	_	6	fixed	_	start_char=100|end_char=103
+8	получила	получить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=104|end_char=112
+9	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=113|end_char=117
+10	и	и	CCONJ	_	_	12	cc	_	start_char=118|end_char=119
+11	очень	очень	ADV	_	Degree=Pos	12	advmod	_	start_char=120|end_char=125
+12	расстроилась	расстроиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=126|end_char=138
+13	,	,	PUNCT	_	_	14	punct	_	start_char=138|end_char=139
+14	узнав	узнать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	12	advcl	_	start_char=140|end_char=145
+15	,	,	PUNCT	_	_	20	punct	_	start_char=145|end_char=146
+16	что	что	SCONJ	_	_	20	mark	_	start_char=147|end_char=150
+17	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	nsubj	_	start_char=151|end_char=154
+18	не	не	PART	_	_	19	advmod	_	start_char=155|end_char=157
+19	настоящая	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=158|end_char=167
+20	MAC	MAC	PROPN	_	Foreign=Yes	14	ccomp	_	start_char=168|end_char=171
+21	.	.	PUNCT	_	_	2	punct	_	start_char=171|end_char=172
+
+# text = Amazon должен лучше контролировать продажи поддельной косметики.
+# sent_id = 4
+1	Amazon	Amazon	PROPN	_	Foreign=Yes	2	nsubj	_	start_char=173|end_char=179
+2	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=180|end_char=186
+3	лучше	хороший	ADJ	_	Degree=Cmp	2	obl	_	start_char=187|end_char=192
+4	контролировать	контролировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=193|end_char=207
+5	продажи	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=208|end_char=215
+6	поддельной	поддельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=216|end_char=226
+7	косметики	косметика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=227|end_char=236
+8	.	.	PUNCT	_	_	2	punct	_	start_char=236|end_char=237
+
+# text = MAc не дешевый, когда вы видите такую низкую цену, это должно было быть тревожным сигналом.
+# sent_id = 5
+1	MAc	MAc	PROPN	_	Foreign=Yes	3	nsubj	_	start_char=238|end_char=241
+2	не	не	PART	_	_	3	advmod	_	start_char=242|end_char=244
+3	дешевый	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=245|end_char=252
+4	,	,	PUNCT	_	_	7	punct	_	start_char=252|end_char=253
+5	когда	когда	SCONJ	_	_	7	mark	_	start_char=254|end_char=259
+6	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=260|end_char=262
+7	видите	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=263|end_char=269
+8	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=270|end_char=275
+9	низкую	низкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=276|end_char=282
+10	цену	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=283|end_char=287
+11	,	,	PUNCT	_	_	13	punct	_	start_char=287|end_char=288
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=289|end_char=292
+13	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	conj	_	start_char=293|end_char=299
+14	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	start_char=300|end_char=304
+15	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	cop	_	start_char=305|end_char=309
+16	тревожным	тревожный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=310|end_char=319
+17	сигналом	сигнал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	start_char=320|end_char=328
+18	.	.	PUNCT	_	_	3	punct	_	start_char=328|end_char=329
+
+# text = Не поддерживайте продажу поддельной косметики.
+# sent_id = 6
+1	Не	не	PART	_	_	2	advmod	_	start_char=330|end_char=332
+2	поддерживайте	поддерживать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=333|end_char=346
+3	продажу	продажа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=347|end_char=354
+4	поддельной	поддельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=355|end_char=365
+5	косметики	косметика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=366|end_char=375
+6	.	.	PUNCT	_	_	2	punct	_	start_char=375|end_char=376
+

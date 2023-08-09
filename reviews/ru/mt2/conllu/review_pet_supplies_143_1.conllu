@@ -1,0 +1,153 @@
+# text = Не стоит того.
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=8
+3	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=9|end_char=13
+4	.	.	PUNCT	_	_	2	punct	_	start_char=13|end_char=14
+
+# text = Когда я покупал этот комбо, он стоил дороже, чем 3 DVD, купленные по отдельности.
+# sent_id = 1
+1	Когда	когда	SCONJ	_	_	3	mark	_	start_char=15|end_char=20
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=21|end_char=22
+3	покупал	покупать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=23|end_char=30
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=31|end_char=35
+5	комбо	комбо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=36|end_char=41
+6	,	,	PUNCT	_	_	3	punct	_	start_char=41|end_char=42
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=43|end_char=45
+8	стоил	стоить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=46|end_char=51
+9	дороже	дорогой	ADJ	_	Degree=Cmp	8	obl	_	start_char=52|end_char=58
+10	,	,	PUNCT	_	_	13	punct	_	start_char=58|end_char=59
+11	чем	чем	SCONJ	_	_	13	mark	_	start_char=60|end_char=63
+12	3	3	NUM	_	NumType=Card	13	nummod	_	start_char=64|end_char=65
+13	DVD	DVD	PROPN	_	Animacy=Inan	9	obl	_	start_char=66|end_char=69
+14	,	,	PUNCT	_	_	15	punct	_	start_char=69|end_char=70
+15	купленные	купить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	start_char=71|end_char=80
+16	по	по	ADP	_	_	17	case	_	start_char=81|end_char=83
+17	отдельности	отдельность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=84|end_char=95
+18	.	.	PUNCT	_	_	8	punct	_	start_char=95|end_char=96
+
+# text = К сожалению, я увидел это слишком поздно.
+# sent_id = 2
+1	К	к	ADP	_	_	2	case	_	start_char=97|end_char=98
+2	сожалению	сожаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	parataxis	_	start_char=99|end_char=108
+3	,	,	PUNCT	_	_	2	punct	_	start_char=108|end_char=109
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=110|end_char=111
+5	увидел	видеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=112|end_char=118
+6	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	start_char=119|end_char=122
+7	слишком	слишком	ADV	_	Degree=Pos	8	advmod	_	start_char=123|end_char=130
+8	поздно	поздно	ADV	_	Degree=Pos	5	advmod	_	start_char=131|end_char=137
+9	.	.	PUNCT	_	_	5	punct	_	start_char=137|end_char=138
+
+# text = Я виноват.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=139|end_char=140
+2	виноват	виноватый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=141|end_char=148
+3	.	.	PUNCT	_	_	2	punct	_	start_char=148|end_char=149
+
+# text = Но где логика?
+# sent_id = 4
+1	Но	но	CCONJ	_	_	2	cc	_	start_char=150|end_char=152
+2	где	где	ADV	_	Degree=Pos	0	root	_	start_char=153|end_char=156
+3	логика	логика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=157|end_char=163
+4	?	?	PUNCT	_	_	2	punct	_	start_char=163|end_char=164
+
+# text = Значит, моим кошкам эти DVD не понравились.
+# sent_id = 5
+1	Значит	значит	ADV	_	Degree=Pos	8	discourse	_	start_char=165|end_char=171
+2	,	,	PUNCT	_	_	1	punct	_	start_char=171|end_char=172
+3	моим	мой	DET	_	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs	4	det	_	start_char=173|end_char=177
+4	кошкам	кошка	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Plur	8	iobj	_	start_char=178|end_char=184
+5	эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	6	det	_	start_char=185|end_char=188
+6	DVD	DVD	PROPN	_	_	8	nsubj	_	start_char=189|end_char=192
+7	не	не	PART	_	_	8	advmod	_	start_char=193|end_char=195
+8	понравились	понравиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=196|end_char=207
+9	.	.	PUNCT	_	_	8	punct	_	start_char=207|end_char=208
+
+# text = Ну, скорее "не интересно", чем "не нравится".
+# sent_id = 6
+1	Ну	ну	PART	_	_	6	parataxis	_	start_char=209|end_char=211
+2	,	,	PUNCT	_	_	1	punct	_	start_char=211|end_char=212
+3	скорее	скорее	ADV	_	Degree=Pos	6	parataxis	_	start_char=213|end_char=219
+4	"	"	PUNCT	_	_	6	punct	_	start_char=220|end_char=221
+5	не	не	PART	_	_	6	advmod	_	start_char=221|end_char=223
+6	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=224|end_char=233
+7	"	"	PUNCT	_	_	6	punct	_	start_char=233|end_char=234
+8	,	,	PUNCT	_	_	12	punct	_	start_char=234|end_char=235
+9	чем	чем	SCONJ	_	_	12	mark	_	start_char=236|end_char=239
+10	"	"	PUNCT	_	_	12	punct	_	start_char=240|end_char=241
+11	не	не	PART	_	_	12	advmod	_	start_char=241|end_char=243
+12	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	advcl	_	start_char=244|end_char=252
+13	"	"	PUNCT	_	_	12	punct	_	start_char=252|end_char=253
+14	.	.	PUNCT	_	_	6	punct	_	start_char=253|end_char=254
+
+# text = TV off или Cat Sitter - то же самое.
+# sent_id = 7
+1	TV	TV	PROPN	_	Foreign=Yes	7	nsubj	_	start_char=255|end_char=257
+2	off	off	X	_	Foreign=Yes	1	flat:foreign	_	start_char=258|end_char=261
+3	или	или	CCONJ	_	_	1	cc	_	start_char=262|end_char=265
+4	Cat	Cat	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=266|end_char=269
+5	Sitter	Sitter	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=270|end_char=276
+6	-	-	PUNCT	_	_	1	punct	_	start_char=277|end_char=278
+7	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=279|end_char=281
+8	же	же	PART	_	_	7	advmod	_	start_char=282|end_char=284
+9	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=285|end_char=290
+10	.	.	PUNCT	_	_	7	punct	_	start_char=290|end_char=291
+
+# text = И действительно, эти DVD дешевые.
+# sent_id = 8
+1	И	и	CCONJ	_	_	6	cc	_	start_char=292|end_char=293
+2	действительно	действительно	ADV	_	Degree=Pos	6	parataxis	_	start_char=294|end_char=307
+3	,	,	PUNCT	_	_	2	punct	_	start_char=307|end_char=308
+4	эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	5	det	_	start_char=309|end_char=312
+5	DVD	DVD	PROPN	_	_	6	nsubj	_	start_char=313|end_char=316
+6	дешевые	дешевый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=317|end_char=324
+7	.	.	PUNCT	_	_	6	punct	_	start_char=324|end_char=325
+
+# text = Всегда одно и то же видео, одни и те же животные, одни и те же звуки.
+# sent_id = 9
+1	Всегда	всегда	ADV	_	Degree=Pos	6	advmod	_	start_char=326|end_char=332
+2	одно	один	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	6	amod	_	start_char=333|end_char=337
+3	и	и	CCONJ	_	_	4	cc	_	start_char=338|end_char=339
+4	то	тот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=340|end_char=342
+5	же	же	PART	_	_	4	advmod	_	start_char=343|end_char=345
+6	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=346|end_char=351
+7	,	,	PUNCT	_	_	12	punct	_	start_char=351|end_char=352
+8	одни	один	DET	_	Case=Nom|Number=Plur|PronType=Ind	12	amod	_	start_char=353|end_char=357
+9	и	и	CCONJ	_	_	10	cc	_	start_char=358|end_char=359
+10	те	тот	DET	_	Case=Nom|Number=Plur|PronType=Dem	8	det	_	start_char=360|end_char=362
+11	же	же	PART	_	_	10	advmod	_	start_char=363|end_char=365
+12	животные	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	6	conj	_	start_char=366|end_char=374
+13	,	,	PUNCT	_	_	18	punct	_	start_char=374|end_char=375
+14	одни	один	DET	_	Case=Nom|Number=Plur|PronType=Ind	18	amod	_	start_char=376|end_char=380
+15	и	и	CCONJ	_	_	16	cc	_	start_char=381|end_char=382
+16	те	тот	DET	_	Case=Nom|Number=Plur|PronType=Dem	14	det	_	start_char=383|end_char=385
+17	же	же	PART	_	_	16	advmod	_	start_char=386|end_char=388
+18	звуки	звук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=389|end_char=394
+19	.	.	PUNCT	_	_	6	punct	_	start_char=394|end_char=395
+
+# text = Какой смысл слушать птиц, если мы видим рыб?
+# sent_id = 10
+1	Какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	2	det	_	start_char=396|end_char=401
+2	смысл	смысл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=402|end_char=407
+3	слушать	слушать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=408|end_char=415
+4	птиц	птица	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=416|end_char=420
+5	,	,	PUNCT	_	_	8	punct	_	start_char=420|end_char=421
+6	если	если	SCONJ	_	_	8	mark	_	start_char=422|end_char=426
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=427|end_char=429
+8	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=430|end_char=435
+9	рыб	рыба	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=436|end_char=439
+10	?	?	PUNCT	_	_	2	punct	_	start_char=439|end_char=440
+
+# text = Меня больше развлекали эти DVD, чем мои кошки.
+# sent_id = 11
+1	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=441|end_char=445
+2	больше	больше	ADV	_	Degree=Cmp	3	advmod	_	start_char=446|end_char=452
+3	развлекали	развлекать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=453|end_char=463
+4	эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	5	det	_	start_char=464|end_char=467
+5	DVD	DVD	PROPN	_	Foreign=Yes	3	nsubj	_	start_char=468|end_char=471
+6	,	,	PUNCT	_	_	9	punct	_	start_char=471|end_char=472
+7	чем	чем	SCONJ	_	_	9	mark	_	start_char=473|end_char=476
+8	мои	мой	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	start_char=477|end_char=480
+9	кошки	кошка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	2	obl	_	start_char=481|end_char=486
+10	.	.	PUNCT	_	_	3	punct	_	start_char=486|end_char=487
+

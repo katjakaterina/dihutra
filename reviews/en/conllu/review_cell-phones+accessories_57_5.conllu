@@ -1,6 +1,12 @@
+# text = Perfect!
+# sent_id = 0
+# sentiment = 1
 1	Perfect	perfect	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=7
 2	!	!	PUNCT	.	_	1	punct	_	start_char=7|end_char=8
 
+# text = I was worried about this order because the picture on the description page kept changing to a less-desireable green/orange cover.
+# sent_id = 1
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=9|end_char=10
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=11|end_char=14
 3	worried	worried	ADJ	JJ	Degree=Pos	0	root	_	start_char=15|end_char=22
@@ -14,36 +20,44 @@
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=63|end_char=66
 12	description	description	NOUN	NN	Number=Sing	13	compound	_	start_char=67|end_char=78
 13	page	page	NOUN	NN	Number=Sing	9	nmod	_	start_char=79|end_char=83
-14	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=84|end_char=88
+14	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	start_char=84|end_char=88
 15	changing	change	VERB	VBG	VerbForm=Ger	14	xcomp	_	start_char=89|end_char=97
-16	to	to	ADP	IN	_	22	case	_	start_char=98|end_char=100
-17	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	start_char=101|end_char=102
-18	less-desireable	less-desireable	ADJ	JJ	Degree=Pos	22	amod	_	start_char=103|end_char=118
-19	green	green	ADJ	JJ	Degree=Pos	22	amod	_	start_char=119|end_char=124
-20	/	/	SYM	,	_	21	punct	_	start_char=124|end_char=125
-21	orange	orange	ADJ	JJ	Degree=Pos	22	amod	_	start_char=125|end_char=131
-22	cover	cover	NOUN	NN	Number=Sing	15	obl	_	start_char=132|end_char=137
-23	.	.	PUNCT	.	_	3	punct	_	start_char=137|end_char=138
+16	to	to	ADP	IN	_	24	case	_	start_char=98|end_char=100
+17	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=101|end_char=102
+18	less	less	ADV	RBR	Degree=Cmp	20	advmod	_	start_char=103|end_char=107
+19	-	-	PUNCT	HYPH	_	20	punct	_	start_char=107|end_char=108
+20	desireable	desireable	ADJ	JJ	Degree=Pos	24	amod	_	start_char=108|end_char=118
+21	green	green	ADJ	JJ	Degree=Pos	24	amod	_	start_char=119|end_char=124
+22	/	/	SYM	,	_	23	punct	_	start_char=124|end_char=125
+23	orange	orange	ADJ	JJ	Degree=Pos	24	amod	_	start_char=125|end_char=131
+24	cover	cover	NOUN	NN	Number=Sing	15	obl	_	start_char=132|end_char=137
+25	.	.	PUNCT	.	_	3	punct	_	start_char=137|end_char=138
 
+# text = But alas, it came a day earlier than expected, and the beautiful pink product expected!
+# sent_id = 2
+# sentiment = 2
 1	But	but	CCONJ	CC	_	5	cc	_	start_char=139|end_char=142
-2	alas	alas	ADV	RB	_	5	advmod	_	start_char=143|end_char=147
-3	,	,	PUNCT	,	_	5	punct	_	start_char=147|end_char=148
+2	alas	alas	INTJ	UH	_	5	discourse	_	start_char=143|end_char=147
+3	,	,	PUNCT	,	_	2	punct	_	start_char=147|end_char=148
 4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=149|end_char=151
-5	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=152|end_char=156
+5	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=152|end_char=156
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=157|end_char=158
 7	day	day	NOUN	NN	Number=Sing	8	obl:npmod	_	start_char=159|end_char=162
 8	earlier	early	ADV	RBR	Degree=Cmp	5	advmod	_	start_char=163|end_char=170
-9	than	than	ADP	IN	_	10	case	_	start_char=171|end_char=175
-10	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	5	advcl	_	start_char=176|end_char=184
+9	than	than	SCONJ	IN	_	10	mark	_	start_char=171|end_char=175
+10	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	start_char=176|end_char=184
 11	,	,	PUNCT	,	_	17	punct	_	start_char=184|end_char=185
 12	and	and	CCONJ	CC	_	17	cc	_	start_char=186|end_char=189
 13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=190|end_char=193
 14	beautiful	beautiful	ADJ	JJ	Degree=Pos	16	amod	_	start_char=194|end_char=203
-15	pink	pink	ADJ	JJ	Degree=Pos	16	amod	_	start_char=204|end_char=208
+15	pink	pink	NOUN	NN	Number=Sing	16	compound	_	start_char=204|end_char=208
 16	product	product	NOUN	NN	Number=Sing	17	nsubj	_	start_char=209|end_char=216
-17	expected	expect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	start_char=217|end_char=225
+17	expected	expect	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	start_char=217|end_char=225
 18	!	!	PUNCT	.	_	5	punct	_	start_char=225|end_char=226
 
+# text = The "rubberized" cover feels a little greasy (like it was armor-all'd), but the design is gorgeous and a little 3D looking!
+# sent_id = 3
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=227|end_char=230
 2	"	"	PUNCT	``	_	5	punct	_	start_char=231|end_char=232
 3	rubberized	rubberized	ADJ	JJ	Degree=Pos	5	amod	_	start_char=232|end_char=242
@@ -53,22 +67,24 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=256|end_char=257
 8	little	little	ADJ	JJ	Degree=Pos	9	obl:npmod	_	start_char=258|end_char=264
 9	greasy	greasy	ADJ	JJ	Degree=Pos	6	xcomp	_	start_char=265|end_char=271
-10	(	(	PUNCT	-LRB-	_	14	punct	_	start_char=272|end_char=273
-11	like	like	SCONJ	IN	_	14	mark	_	start_char=273|end_char=277
-12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=278|end_char=280
-13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	cop	_	start_char=281|end_char=284
-14	armor-all'd	armor-all'd	ADJ	JJ	Degree=Pos	6	advcl	_	start_char=285|end_char=296
-15	)	)	PUNCT	-RRB-	_	14	punct	_	start_char=296|end_char=297
-16	,	,	PUNCT	,	_	21	punct	_	start_char=297|end_char=298
-17	but	but	CCONJ	CC	_	21	cc	_	start_char=299|end_char=302
-18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=303|end_char=306
-19	design	design	NOUN	NN	Number=Sing	21	nsubj	_	start_char=307|end_char=313
-20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=314|end_char=316
-21	gorgeous	gorgeous	ADJ	JJ	Degree=Pos	6	conj	_	start_char=317|end_char=325
-22	and	and	CCONJ	CC	_	26	cc	_	start_char=326|end_char=329
-23	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	start_char=330|end_char=331
-24	little	little	ADJ	JJ	Degree=Pos	25	amod	_	start_char=332|end_char=338
-25	3D	3d	NOUN	NN	Number=Sing	26	nsubj	_	start_char=339|end_char=341
-26	looking	look	VERB	VBG	VerbForm=Ger	21	conj	_	start_char=342|end_char=349
-27	!	!	PUNCT	.	_	6	punct	_	start_char=349|end_char=350
+10	(	(	PUNCT	-LRB-	_	16	punct	_	start_char=272|end_char=273
+11	like	like	SCONJ	IN	_	16	mark	_	start_char=273|end_char=277
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=278|end_char=280
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	start_char=281|end_char=284
+14	armor	armor	NOUN	NN	Number=Sing	16	compound	_	start_char=285|end_char=290
+15	-	-	PUNCT	HYPH	_	14	punct	_	start_char=290|end_char=291
+16	all'd	all'd	ADJ	JJ	Degree=Pos	6	advcl	_	start_char=291|end_char=296
+17	)	)	PUNCT	-RRB-	_	16	punct	_	start_char=296|end_char=297
+18	,	,	PUNCT	,	_	23	punct	_	start_char=297|end_char=298
+19	but	but	CCONJ	CC	_	23	cc	_	start_char=299|end_char=302
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=303|end_char=306
+21	design	design	NOUN	NN	Number=Sing	23	nsubj	_	start_char=307|end_char=313
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=314|end_char=316
+23	gorgeous	gorgeous	ADJ	JJ	Degree=Pos	6	conj	_	start_char=317|end_char=325
+24	and	and	CCONJ	CC	_	28	cc	_	start_char=326|end_char=329
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=330|end_char=331
+26	little	little	ADJ	JJ	Degree=Pos	27	amod	_	start_char=332|end_char=338
+27	3D	3D	NOUN	NN	Number=Sing	28	nsubj	_	start_char=339|end_char=341
+28	looking	look	VERB	VBG	VerbForm=Ger	23	conj	_	start_char=342|end_char=349
+29	!	!	PUNCT	.	_	6	punct	_	start_char=349|end_char=350
 

@@ -1,18 +1,23 @@
-1	Not	not	ADV	RB	_	2	advmod	_	start_char=0|end_char=3
+# text = Not worth the money The CD arrived in excellent conditons and promptly.
+# sent_id = 0
+# sentiment = 2
+1	Not	not	PART	RB	_	2	advmod	_	start_char=0|end_char=3
 2	worth	worth	ADJ	JJ	Degree=Pos	0	root	_	start_char=4|end_char=9
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=10|end_char=13
 4	money	money	NOUN	NN	Number=Sing	2	obj	_	start_char=14|end_char=19
+5	The	the	DET	DT	Definite=Def|PronType=Art	6	det	_	start_char=20|end_char=23
+6	CD	cd	NOUN	NN	Number=Sing	7	nsubj	_	start_char=24|end_char=26
+7	arrived	arrive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=27|end_char=34
+8	in	in	ADP	IN	_	10	case	_	start_char=35|end_char=37
+9	excellent	excellent	ADJ	JJ	Degree=Pos	10	amod	_	start_char=38|end_char=47
+10	conditons	conditon	NOUN	NNS	Number=Plur	7	obl	_	start_char=48|end_char=57
+11	and	and	CCONJ	CC	_	12	cc	_	start_char=58|end_char=61
+12	promptly	promptly	ADV	RB	_	10	conj	_	start_char=62|end_char=70
+13	.	.	PUNCT	.	_	2	punct	_	start_char=70|end_char=71
 
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=20|end_char=23
-2	CD	CD	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=24|end_char=26
-3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=27|end_char=34
-4	in	in	ADP	IN	_	6	case	_	start_char=35|end_char=37
-5	excellent	excellent	ADJ	JJ	Degree=Pos	6	amod	_	start_char=38|end_char=47
-6	conditons	conditon	NOUN	NNS	Number=Plur	3	obl	_	start_char=48|end_char=57
-7	and	and	CCONJ	CC	_	8	cc	_	start_char=58|end_char=61
-8	promptly	promptly	ADV	RB	_	6	conj	_	start_char=62|end_char=70
-9	.	.	PUNCT	.	_	3	punct	_	start_char=70|end_char=71
-
+# text = The merchandise is not worth the money.
+# sent_id = 1
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=72|end_char=75
 2	merchandise	merchandise	NOUN	NN	Number=Sing	5	nsubj	_	start_char=76|end_char=87
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=88|end_char=90
@@ -22,6 +27,9 @@
 7	money	money	NOUN	NN	Number=Sing	5	obj	_	start_char=105|end_char=110
 8	.	.	PUNCT	.	_	5	punct	_	start_char=110|end_char=111
 
+# text = Too much of the original story is missing in the interest of cramming it in one CD.
+# sent_id = 2
+# sentiment = 0
 1	Too	too	ADV	RB	_	2	advmod	_	start_char=112|end_char=115
 2	much	much	ADJ	JJ	Degree=Pos	8	nsubj	_	start_char=116|end_char=120
 3	of	of	ADP	IN	_	6	case	_	start_char=121|end_char=123
@@ -37,10 +45,13 @@
 13	cramming	cram	VERB	VBG	VerbForm=Ger	11	acl	_	start_char=173|end_char=181
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=182|end_char=184
 15	in	in	ADP	IN	_	17	case	_	start_char=185|end_char=187
-16	one	one	NUM	CD	NumType=Card	17	nummod	_	start_char=188|end_char=191
+16	one	one	NUM	CD	NumForm=Word|NumType=Card	17	nummod	_	start_char=188|end_char=191
 17	CD	cd	NOUN	NN	Number=Sing	13	obl	_	start_char=192|end_char=194
 18	.	.	PUNCT	.	_	8	punct	_	start_char=194|end_char=195
 
+# text = Will leave you with a lot of questions on how did sherlock homes arrived at his results.
+# sent_id = 3
+# sentiment = 0
 1	Will	will	AUX	MD	VerbForm=Fin	2	aux	_	start_char=196|end_char=200
 2	leave	leave	VERB	VB	VerbForm=Inf	0	root	_	start_char=201|end_char=206
 3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	obj	_	start_char=207|end_char=210
@@ -50,24 +61,27 @@
 7	of	of	ADP	IN	_	8	case	_	start_char=222|end_char=224
 8	questions	question	NOUN	NNS	Number=Plur	6	nmod	_	start_char=225|end_char=234
 9	on	on	SCONJ	IN	_	14	mark	_	start_char=235|end_char=237
-10	how	how	SCONJ	WRB	PronType=Int	14	mark	_	start_char=238|end_char=241
-11	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	start_char=242|end_char=245
-12	sherlock	sherlock	PROPN	NNP	Number=Sing	13	compound	_	start_char=246|end_char=254
+10	how	how	ADV	WRB	PronType=Int	14	advmod	_	start_char=238|end_char=241
+11	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	start_char=242|end_char=245
+12	sherlock	Sherlock	PROPN	NNP	Number=Sing	13	compound	_	start_char=246|end_char=254
 13	homes	home	NOUN	NNS	Number=Plur	14	nsubj	_	start_char=255|end_char=260
-14	arrived	arrive	VERB	VBN	Tense=Past|VerbForm=Part	2	advcl	_	start_char=261|end_char=268
+14	arrived	arrive	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	start_char=261|end_char=268
 15	at	at	ADP	IN	_	17	case	_	start_char=269|end_char=271
-16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=272|end_char=275
+16	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=272|end_char=275
 17	results	result	NOUN	NNS	Number=Plur	14	obl	_	start_char=276|end_char=283
 18	.	.	PUNCT	.	_	2	punct	_	start_char=283|end_char=284
 
-1	Your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=285|end_char=289
+# text = Your imagination will not be enough to fill out the gaps in the narrative.
+# sent_id = 4
+# sentiment = 1
+1	Your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=285|end_char=289
 2	imagination	imagination	NOUN	NN	Number=Sing	6	nsubj	_	start_char=290|end_char=301
 3	will	will	AUX	MD	VerbForm=Fin	6	aux	_	start_char=302|end_char=306
 4	not	not	PART	RB	_	6	advmod	_	start_char=307|end_char=310
 5	be	be	AUX	VB	VerbForm=Inf	6	cop	_	start_char=311|end_char=313
 6	enough	enough	ADJ	JJ	Degree=Pos	0	root	_	start_char=314|end_char=320
 7	to	to	PART	TO	_	8	mark	_	start_char=321|end_char=323
-8	fill	fill	VERB	VB	VerbForm=Inf	6	xcomp	_	start_char=324|end_char=328
+8	fill	fill	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=324|end_char=328
 9	out	out	ADP	RP	_	8	compound:prt	_	start_char=329|end_char=332
 10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=333|end_char=336
 11	gaps	gap	NOUN	NNS	Number=Plur	8	obj	_	start_char=337|end_char=341

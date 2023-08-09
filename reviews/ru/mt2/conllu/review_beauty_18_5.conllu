@@ -1,0 +1,63 @@
+# text = Я нашла свой священный Грааль косметики для кожи Я - признанный наркоман косметики.
+# sent_id = 0
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	нашла	найти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2|end_char=7
+3	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=8|end_char=12
+4	священный	священный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=13|end_char=22
+5	Грааль	Грааль	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=23|end_char=29
+6	косметики	косметика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=30|end_char=39
+7	для	для	ADP	_	_	8	case	_	start_char=40|end_char=43
+8	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=44|end_char=48
+9	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=49|end_char=50
+10	-	-	PUNCT	_	_	9	punct	_	start_char=51|end_char=52
+11	признанный	признать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	start_char=53|end_char=63
+12	наркоман	наркоман	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	start_char=64|end_char=72
+13	косметики	косметика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=73|end_char=82
+14	.	.	PUNCT	_	_	2	punct	_	start_char=82|end_char=83
+
+# text = Перепробовав за долгие годы десятки, если не сотни тональных средств, увлажняющих тональных кремов, консилеров и т.д., в 30 лет я наконец-то могу прекратить поиски, потому что нашла свой святой грааль косметики для кожи в Macely
+# sent_id = 1
+1	Перепробовав	перепробовать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	29	advcl	_	start_char=84|end_char=96
+2	за	за	ADP	_	_	4	case	_	start_char=97|end_char=99
+3	долгие	долгий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	start_char=100|end_char=106
+4	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	start_char=107|end_char=111
+5	десятки	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=112|end_char=119
+6	,	,	PUNCT	_	_	9	punct	_	start_char=119|end_char=120
+7	если	если	SCONJ	_	_	9	mark	_	start_char=121|end_char=125
+8	не	не	PART	_	_	9	advmod	_	start_char=126|end_char=128
+9	сотни	сотня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	advcl	_	start_char=129|end_char=134
+10	тональных	тональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=135|end_char=144
+11	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	start_char=145|end_char=152
+12	,	,	PUNCT	_	_	13	punct	_	start_char=152|end_char=153
+13	увлажняющих	увлажнять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	start_char=154|end_char=165
+14	тональных	тональный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=166|end_char=175
+15	кремов	крем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	start_char=176|end_char=182
+16	,	,	PUNCT	_	_	17	punct	_	start_char=182|end_char=183
+17	консилеров	консилер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	start_char=184|end_char=194
+18	и	и	CCONJ	_	_	19	cc	_	start_char=195|end_char=196
+19	т.	так	ADV	_	Degree=Pos	15	conj	_	start_char=197|end_char=199
+20	д.	далее	ADV	_	Degree=Pos	19	fixed	_	start_char=199|end_char=201
+21	,	,	PUNCT	_	_	1	punct	_	start_char=201|end_char=202
+22	в	в	ADP	_	_	24	case	_	start_char=203|end_char=204
+23	30	30	NUM	_	NumType=Card	24	nummod	_	start_char=205|end_char=207
+24	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	start_char=208|end_char=211
+25	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=212|end_char=213
+26	наконец	наконец	ADV	_	Degree=Pos	29	advmod	_	start_char=214|end_char=221
+27	-	-	PUNCT	_	_	28	punct	_	start_char=221|end_char=222
+28	то	то	PART	_	_	26	discourse	_	start_char=222|end_char=224
+29	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=225|end_char=229
+30	прекратить	прекратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	xcomp	_	start_char=230|end_char=240
+31	поиски	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obj	_	start_char=241|end_char=247
+32	,	,	PUNCT	_	_	35	punct	_	start_char=247|end_char=248
+33	потому	потому	ADV	_	Degree=Pos	35	mark	_	start_char=249|end_char=255
+34	что	что	SCONJ	_	_	33	fixed	_	start_char=256|end_char=259
+35	нашла	найти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	advcl	_	start_char=260|end_char=265
+36	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	38	det	_	start_char=266|end_char=270
+37	святой	святой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	start_char=271|end_char=277
+38	грааль	грааль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	start_char=278|end_char=284
+39	косметики	косметика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	start_char=285|end_char=294
+40	для	для	ADP	_	_	41	case	_	start_char=295|end_char=298
+41	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	nmod	_	start_char=299|end_char=303
+42	в	в	ADP	_	_	41	case	_	start_char=304|end_char=305
+43	Macely	Macely	PROPN	_	Foreign=Yes	41	flat:foreign	_	start_char=306|end_char=312
+

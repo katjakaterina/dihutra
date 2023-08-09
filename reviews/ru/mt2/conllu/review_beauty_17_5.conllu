@@ -1,0 +1,74 @@
+# text = Рекомендую попробовать.
+# sent_id = 0
+1	Рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=10
+2	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=11|end_char=22
+3	.	.	PUNCT	_	_	1	punct	_	start_char=22|end_char=23
+
+# text = Я люблю всю линию Macely.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=24|end_char=25
+2	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=26|end_char=31
+3	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	start_char=32|end_char=35
+4	линию	линия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=36|end_char=41
+5	Macely	Macely	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=42|end_char=48
+6	.	.	PUNCT	_	_	2	punct	_	start_char=48|end_char=49
+
+# text = Обычно я не берусь писать отзывы на продукты, но этот я просто не могла пропустить.
+# sent_id = 2
+1	Обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	start_char=50|end_char=56
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=57|end_char=58
+3	не	не	PART	_	_	4	advmod	_	start_char=59|end_char=61
+4	берусь	браться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=62|end_char=68
+5	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=69|end_char=75
+6	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=76|end_char=82
+7	на	на	ADP	_	_	8	case	_	start_char=83|end_char=85
+8	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	start_char=86|end_char=94
+9	,	,	PUNCT	_	_	15	punct	_	start_char=94|end_char=95
+10	но	но	CCONJ	_	_	15	cc	_	start_char=96|end_char=98
+11	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=99|end_char=103
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=104|end_char=105
+13	просто	просто	PART	_	_	15	advmod	_	start_char=106|end_char=112
+14	не	не	PART	_	_	15	advmod	_	start_char=113|end_char=115
+15	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=116|end_char=121
+16	пропустить	пропустить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=122|end_char=132
+17	.	.	PUNCT	_	_	4	punct	_	start_char=132|end_char=133
+
+# text = У меня комбинированная кожа, местами очень сухая, местами очень жирная.
+# sent_id = 3
+1	У	у	ADP	_	_	2	case	_	start_char=134|end_char=135
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=136|end_char=140
+3	комбинированная	комбинированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=141|end_char=156
+4	кожа	кожа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=157|end_char=161
+5	,	,	PUNCT	_	_	8	punct	_	start_char=161|end_char=162
+6	местами	место	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	obl	_	start_char=163|end_char=170
+7	очень	очень	ADV	_	Degree=Pos	8	obl	_	start_char=171|end_char=176
+8	сухая	сухой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=177|end_char=182
+9	,	,	PUNCT	_	_	12	punct	_	start_char=182|end_char=183
+10	местами	место	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	obl	_	start_char=184|end_char=191
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	start_char=192|end_char=197
+12	жирная	жирный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=198|end_char=204
+13	.	.	PUNCT	_	_	2	punct	_	start_char=204|end_char=205
+
+# text = Я обожаю этот продукт.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=206|end_char=207
+2	обожаю	обожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=208|end_char=214
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=215|end_char=219
+4	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=220|end_char=227
+5	.	.	PUNCT	_	_	2	punct	_	start_char=227|end_char=228
+
+# text = Рекомендую попробовать.
+# sent_id = 5
+1	Рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=229|end_char=239
+2	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=240|end_char=251
+3	.	.	PUNCT	_	_	1	punct	_	start_char=251|end_char=252
+
+# text = Я люблю всю линию Macely.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=253|end_char=254
+2	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=255|end_char=260
+3	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	start_char=261|end_char=264
+4	линию	линия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=265|end_char=270
+5	Macely	Macely	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=271|end_char=277
+6	.	.	PUNCT	_	_	2	punct	_	start_char=277|end_char=278
+

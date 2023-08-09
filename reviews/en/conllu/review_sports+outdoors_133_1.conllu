@@ -1,10 +1,13 @@
+# text = The worst kit out there I bought this from Walmart for the same price as Amazon.
+# sent_id = 0
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=0|end_char=3
 2	worst	bad	ADJ	JJS	Degree=Sup	3	amod	_	start_char=4|end_char=9
-3	kit	kit	NOUN	NN	Number=Sing	7	nsubj	_	start_char=10|end_char=13
+3	kit	kit	NOUN	NN	Number=Sing	7	nsubj:outer	_	start_char=10|end_char=13
 4	out	out	ADV	RB	_	5	advmod	_	start_char=14|end_char=17
 5	there	there	ADV	RB	PronType=Dem	3	advmod	_	start_char=18|end_char=23
 6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=24|end_char=25
-7	bought	buy	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=26|end_char=32
+7	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=26|end_char=32
 8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obj	_	start_char=33|end_char=37
 9	from	from	ADP	IN	_	10	case	_	start_char=38|end_char=42
 10	Walmart	Walmart	PROPN	NNP	Number=Sing	7	obl	_	start_char=43|end_char=50
@@ -13,18 +16,21 @@
 13	same	same	ADJ	JJ	Degree=Pos	14	amod	_	start_char=59|end_char=63
 14	price	price	NOUN	NN	Number=Sing	7	obl	_	start_char=64|end_char=69
 15	as	as	ADP	IN	_	16	case	_	start_char=70|end_char=72
-16	Amazon	Amazon	PROPN	NNP	Number=Sing	14	nmod	_	start_char=73|end_char=79
+16	Amazon	Amazon	PROPN	NNP	Number=Sing	7	obl	_	start_char=73|end_char=79
 17	.	.	PUNCT	.	_	7	punct	_	start_char=79|end_char=80
 
+# text = On my first use, the cleaning rod broke at the extension point and the plastic handle came off on the other one.
+# sent_id = 1
+# sentiment = 0
 1	On	on	ADP	IN	_	4	case	_	start_char=81|end_char=83
-2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=84|end_char=86
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=84|end_char=86
 3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	amod	_	start_char=87|end_char=92
 4	use	use	NOUN	NN	Number=Sing	9	obl	_	start_char=93|end_char=96
 5	,	,	PUNCT	,	_	9	punct	_	start_char=96|end_char=97
 6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=98|end_char=101
 7	cleaning	cleaning	NOUN	NN	Number=Sing	8	compound	_	start_char=102|end_char=110
 8	rod	rod	NOUN	NN	Number=Sing	9	nsubj	_	start_char=111|end_char=114
-9	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=115|end_char=120
+9	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=115|end_char=120
 10	at	at	ADP	IN	_	13	case	_	start_char=121|end_char=123
 11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=124|end_char=127
 12	extension	extension	NOUN	NN	Number=Sing	13	compound	_	start_char=128|end_char=137
@@ -33,7 +39,7 @@
 15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=148|end_char=151
 16	plastic	plastic	ADJ	JJ	Degree=Pos	17	amod	_	start_char=152|end_char=159
 17	handle	handle	NOUN	NN	Number=Sing	18	nsubj	_	start_char=160|end_char=166
-18	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	start_char=167|end_char=171
+18	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	start_char=167|end_char=171
 19	off	off	ADP	RP	_	18	compound:prt	_	start_char=172|end_char=175
 20	on	on	ADP	IN	_	23	case	_	start_char=176|end_char=178
 21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	start_char=179|end_char=182
@@ -41,18 +47,24 @@
 23	one	one	NOUN	NN	Number=Sing	18	obl	_	start_char=189|end_char=192
 24	.	.	PUNCT	.	_	9	punct	_	start_char=192|end_char=193
 
+# text = I will never buy anything with Outers written on it.
+# sent_id = 2
+# sentiment = 0
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=194|end_char=195
 2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=196|end_char=200
 3	never	never	ADV	RB	_	4	advmod	_	start_char=201|end_char=206
 4	buy	buy	VERB	VB	VerbForm=Inf	0	root	_	start_char=207|end_char=210
-5	anything	anything	PRON	NN	Number=Sing	4	obj	_	start_char=211|end_char=219
+5	anything	anything	PRON	NN	Number=Sing|PronType=Ind	4	obj	_	start_char=211|end_char=219
 6	with	with	ADP	IN	_	7	case	_	start_char=220|end_char=224
-7	Outers	Outer	PROPN	NNPS	Number=Plur	5	nmod	_	start_char=225|end_char=231
+7	Outers	outer	NOUN	NNS	Number=Plur	5	nmod	_	start_char=225|end_char=231
 8	written	write	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	start_char=232|end_char=239
 9	on	on	ADP	IN	_	10	case	_	start_char=240|end_char=242
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	start_char=243|end_char=245
 11	.	.	PUNCT	.	_	4	punct	_	start_char=245|end_char=246
 
+# text = I am buying individual parts from Tipton and other reputable manufacturers to make my own cleaning kit.
+# sent_id = 3
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=247|end_char=248
 2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=249|end_char=251
 3	buying	buy	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	start_char=252|end_char=258
@@ -66,7 +78,7 @@
 11	manufacturers	manufacturer	NOUN	NNS	Number=Plur	7	conj	_	start_char=308|end_char=321
 12	to	to	PART	TO	_	13	mark	_	start_char=322|end_char=324
 13	make	make	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=325|end_char=329
-14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=330|end_char=332
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=330|end_char=332
 15	own	own	ADJ	JJ	Degree=Pos	17	amod	_	start_char=333|end_char=336
 16	cleaning	cleaning	NOUN	NN	Number=Sing	17	compound	_	start_char=337|end_char=345
 17	kit	kit	NOUN	NN	Number=Sing	13	obj	_	start_char=346|end_char=349

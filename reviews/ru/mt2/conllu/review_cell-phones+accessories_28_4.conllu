@@ -1,0 +1,76 @@
+# text = Надежное зарядное устройство, но с радиочастотным шумом Это хорошее зарядное устройство, но можно сказать, что оно было сделано дешево в Китае.
+# sent_id = 0
+1	Надежное	надежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=0|end_char=8
+2	зарядное	зарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=9|end_char=17
+3	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=18|end_char=28
+4	,	,	PUNCT	_	_	12	punct	_	start_char=28|end_char=29
+5	но	но	CCONJ	_	_	12	cc	_	start_char=30|end_char=32
+6	с	с	ADP	_	_	8	case	_	start_char=33|end_char=34
+7	радиочастотным	радиочастотный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=35|end_char=49
+8	шумом	шум	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	nmod	_	start_char=50|end_char=55
+9	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	start_char=56|end_char=59
+10	хорошее	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=60|end_char=67
+11	зарядное	зарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=68|end_char=76
+12	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	start_char=77|end_char=87
+13	,	,	PUNCT	_	_	15	punct	_	start_char=87|end_char=88
+14	но	но	CCONJ	_	_	15	cc	_	start_char=89|end_char=91
+15	можно	можно	ADV	_	Degree=Pos	3	conj	_	start_char=92|end_char=97
+16	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	csubj	_	start_char=98|end_char=105
+17	,	,	PUNCT	_	_	21	punct	_	start_char=105|end_char=106
+18	что	что	SCONJ	_	_	21	mark	_	start_char=107|end_char=110
+19	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	start_char=111|end_char=114
+20	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	aux:pass	_	start_char=115|end_char=119
+21	сделано	делать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	ccomp	_	start_char=120|end_char=127
+22	дешево	дешево	ADV	_	Degree=Pos	21	advmod	_	start_char=128|end_char=134
+23	в	в	ADP	_	_	24	case	_	start_char=135|end_char=136
+24	Китае	Китай	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	start_char=137|end_char=142
+25	.	.	PUNCT	_	_	3	punct	_	start_char=142|end_char=143
+
+# text = Во время зарядки телефона автомобильное радио издает много помех.
+# sent_id = 1
+1	Во	в	ADP	_	_	3	case	_	start_char=144|end_char=146
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	start_char=147|end_char=152
+3	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=153|end_char=160
+4	телефона	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=161|end_char=169
+5	автомобильное	автомобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=170|end_char=183
+6	радио	радио	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=184|end_char=189
+7	издает	издавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=190|end_char=196
+8	много	много	ADV	_	Degree=Pos	9	advmod	_	start_char=197|end_char=202
+9	помех	помехи	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	start_char=203|end_char=208
+10	.	.	PUNCT	_	_	7	punct	_	start_char=208|end_char=209
+
+# text = Я дал ему 4 звезды, потому что оно отлично работает для меня, но если вы слушаете радио, вы можете подумать, что это скорее 2 или 3 звезды.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=210|end_char=211
+2	дал	дать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=212|end_char=215
+3	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	start_char=216|end_char=219
+4	4	4	NUM	_	NumType=Card	5	nummod	_	start_char=220|end_char=221
+5	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=222|end_char=228
+6	,	,	PUNCT	_	_	11	punct	_	start_char=228|end_char=229
+7	потому	потому	ADV	_	Degree=Pos	11	mark	_	start_char=230|end_char=236
+8	что	что	SCONJ	_	_	7	fixed	_	start_char=237|end_char=240
+9	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=241|end_char=244
+10	отлично	отлично	ADV	_	Degree=Pos	11	advmod	_	start_char=245|end_char=252
+11	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=253|end_char=261
+12	для	для	ADP	_	_	13	case	_	start_char=262|end_char=265
+13	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	obl	_	start_char=266|end_char=270
+14	,	,	PUNCT	_	_	22	punct	_	start_char=270|end_char=271
+15	но	но	CCONJ	_	_	22	cc	_	start_char=272|end_char=274
+16	если	если	SCONJ	_	_	18	mark	_	start_char=275|end_char=279
+17	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	18	nsubj	_	start_char=280|end_char=282
+18	слушаете	слушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	start_char=283|end_char=291
+19	радио	радио	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	start_char=292|end_char=297
+20	,	,	PUNCT	_	_	18	punct	_	start_char=297|end_char=298
+21	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	22	nsubj	_	start_char=299|end_char=301
+22	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	start_char=302|end_char=308
+23	подумать	подумать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	start_char=309|end_char=317
+24	,	,	PUNCT	_	_	31	punct	_	start_char=317|end_char=318
+25	что	что	SCONJ	_	_	31	mark	_	start_char=319|end_char=322
+26	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	31	nsubj	_	start_char=323|end_char=326
+27	скорее	скорее	ADV	_	Degree=Pos	31	advmod	_	start_char=327|end_char=333
+28	2	2	NUM	_	NumType=Card	31	nummod	_	start_char=334|end_char=335
+29	или	или	CCONJ	_	_	30	cc	_	start_char=336|end_char=339
+30	3	3	NUM	_	NumType=Card	28	conj	_	start_char=340|end_char=341
+31	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	ccomp	_	start_char=342|end_char=348
+32	.	.	PUNCT	_	_	2	punct	_	start_char=348|end_char=349
+

@@ -1,27 +1,37 @@
+# text = Great math game for your little Star Wars fan
+# sent_id = 0
+# sentiment = 1
 1	Great	great	ADJ	JJ	Degree=Pos	3	amod	_	start_char=0|end_char=5
 2	math	math	NOUN	NN	Number=Sing	3	compound	_	start_char=6|end_char=10
 3	game	game	NOUN	NN	Number=Sing	0	root	_	start_char=11|end_char=15
 4	for	for	ADP	IN	_	9	case	_	start_char=16|end_char=19
-5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=20|end_char=24
+5	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=20|end_char=24
 6	little	little	ADJ	JJ	Degree=Pos	9	amod	_	start_char=25|end_char=31
 7	Star	Star	PROPN	NNP	Number=Sing	8	compound	_	start_char=32|end_char=36
 8	Wars	War	PROPN	NNPS	Number=Plur	9	compound	_	start_char=37|end_char=41
 9	fan	fan	NOUN	NN	Number=Sing	3	nmod	_	start_char=42|end_char=45
-10	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=46|end_char=48
-11	son	son	NOUN	NN	Number=Sing	16	nsubj	_	start_char=49|end_char=52
-12	who	who	PRON	WP	PronType=Rel	13	nsubj	_	start_char=53|end_char=56
-13	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	start_char=57|end_char=62
-14	doing	do	VERB	VBG	VerbForm=Ger	13	xcomp	_	start_char=63|end_char=68
-15	math	math	NOUN	NN	Number=Sing	14	obj	_	start_char=69|end_char=73
-16	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=74|end_char=79
-17	to	to	PART	TO	_	18	mark	_	start_char=80|end_char=82
-18	play	play	VERB	VB	VerbForm=Inf	16	xcomp	_	start_char=83|end_char=87
-19	this	this	DET	DT	Number=Sing|PronType=Dem	20	det	_	start_char=88|end_char=92
-20	game	game	NOUN	NN	Number=Sing	18	obj	_	start_char=93|end_char=97
-21	.	.	PUNCT	.	_	3	punct	_	start_char=97|end_char=98
 
+# text = My son who hates doing math loves to play this game.
+# sent_id = 1
+# sentiment = 1
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=46|end_char=48
+2	son	son	NOUN	NN	Number=Sing	7	nsubj	_	start_char=49|end_char=52
+3	who	who	PRON	WP	PronType=Rel	4	nsubj	_	start_char=53|end_char=56
+4	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=57|end_char=62
+5	doing	do	VERB	VBG	VerbForm=Ger	4	xcomp	_	start_char=63|end_char=68
+6	math	math	NOUN	NN	Number=Sing	5	obj	_	start_char=69|end_char=73
+7	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=74|end_char=79
+8	to	to	PART	TO	_	9	mark	_	start_char=80|end_char=82
+9	play	play	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=83|end_char=87
+10	this	this	DET	DT	Number=Sing|PronType=Dem	11	det	_	start_char=88|end_char=92
+11	game	game	NOUN	NN	Number=Sing	9	obj	_	start_char=93|end_char=97
+12	.	.	PUNCT	.	_	7	punct	_	start_char=97|end_char=98
+
+# text = I like the fact that you can also have two players so I can play against him to see his progress.
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=99|end_char=100
-2	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=101|end_char=105
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=101|end_char=105
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=106|end_char=109
 4	fact	fact	NOUN	NN	Number=Sing	2	obj	_	start_char=110|end_char=114
 5	that	that	SCONJ	IN	_	9	mark	_	start_char=115|end_char=119
@@ -29,20 +39,23 @@
 7	can	can	AUX	MD	VerbForm=Fin	9	aux	_	start_char=124|end_char=127
 8	also	also	ADV	RB	_	9	advmod	_	start_char=128|end_char=132
 9	have	have	VERB	VB	VerbForm=Inf	4	acl	_	start_char=133|end_char=137
-10	two	two	NUM	CD	NumType=Card	11	nummod	_	start_char=138|end_char=141
+10	two	two	NUM	CD	NumForm=Word|NumType=Card	11	nummod	_	start_char=138|end_char=141
 11	players	player	NOUN	NNS	Number=Plur	9	obj	_	start_char=142|end_char=149
-12	so	so	ADV	RB	_	15	advmod	_	start_char=150|end_char=152
+12	so	so	SCONJ	IN	_	15	mark	_	start_char=150|end_char=152
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=153|end_char=154
 14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	start_char=155|end_char=158
-15	play	play	VERB	VB	VerbForm=Inf	2	conj	_	start_char=159|end_char=163
+15	play	play	VERB	VB	VerbForm=Inf	9	advcl	_	start_char=159|end_char=163
 16	against	against	ADP	IN	_	17	case	_	start_char=164|end_char=171
 17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	start_char=172|end_char=175
 18	to	to	PART	TO	_	19	mark	_	start_char=176|end_char=178
 19	see	see	VERB	VB	VerbForm=Inf	15	advcl	_	start_char=179|end_char=182
-20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=183|end_char=186
+20	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=183|end_char=186
 21	progress	progress	NOUN	NN	Number=Sing	19	obj	_	start_char=187|end_char=195
 22	.	.	PUNCT	.	_	2	punct	_	start_char=195|end_char=196
 
+# text = You can adjust the voice and music volumes separately and it plays on my Windows XP which I know some have had an issue with.
+# sent_id = 3
+# sentiment = 0
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=196|end_char=199
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=200|end_char=203
 3	adjust	adjust	VERB	VB	VerbForm=Inf	0	root	_	start_char=204|end_char=210
@@ -56,14 +69,14 @@
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=254|end_char=256
 12	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=257|end_char=262
 13	on	on	ADP	IN	_	16	case	_	start_char=263|end_char=265
-14	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=266|end_char=268
-15	Windows	window	PROPN	NNPS	Number=Plur	16	compound	_	start_char=269|end_char=276
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=266|end_char=268
+15	Windows	window	NOUN	NNS	Number=Plur	16	compound	_	start_char=269|end_char=276
 16	XP	XP	PROPN	NNP	Number=Sing	12	obl	_	start_char=277|end_char=279
-17	which	which	PRON	WDT	PronType=Rel	19	obj	_	start_char=280|end_char=285
+17	which	which	PRON	WDT	PronType=Rel	22	obj	_	start_char=280|end_char=285
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=286|end_char=287
-19	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=288|end_char=292
+19	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	start_char=288|end_char=292
 20	some	some	DET	DT	_	22	nsubj	_	start_char=293|end_char=297
-21	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=298|end_char=302
+21	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=298|end_char=302
 22	had	have	VERB	VBN	Tense=Past|VerbForm=Part	19	ccomp	_	start_char=303|end_char=306
 23	an	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=307|end_char=309
 24	issue	issue	NOUN	NN	Number=Sing	22	obj	_	start_char=310|end_char=315

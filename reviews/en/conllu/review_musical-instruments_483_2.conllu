@@ -1,13 +1,19 @@
+# text = Dunlop The Original CryBaby Pedal
+# sent_id = 0
+# sentiment = 1
 1	Dunlop	Dunlop	PROPN	NNP	Number=Sing	0	root	_	start_char=0|end_char=6
 2	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=7|end_char=10
-3	Original	original	ADJ	JJ	Degree=Pos	5	amod	_	start_char=11|end_char=19
+3	Original	original	ADJ	NNP	Degree=Pos	5	amod	_	start_char=11|end_char=19
 4	CryBaby	CryBaby	PROPN	NNP	Number=Sing	5	compound	_	start_char=20|end_char=27
 5	Pedal	Pedal	PROPN	NNP	Number=Sing	1	appos	_	start_char=28|end_char=33
 
+# text = If you want your guitar to sound like Eddie Van Halen, Joe Satriani and other guitarists studio album guitar sound, then get a BOSS GT-10 (guitar multi effects processor) and install BOSS GT-10 Patches by James Limborg.
+# sent_id = 1
+# sentiment = 2
 1	If	if	SCONJ	IN	_	3	mark	_	start_char=34|end_char=36
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=37|end_char=40
-3	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	advcl	_	start_char=41|end_char=45
-4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=46|end_char=50
+3	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	advcl	_	start_char=41|end_char=45
+4	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=46|end_char=50
 5	guitar	guitar	NOUN	NN	Number=Sing	3	obj	_	start_char=51|end_char=57
 6	to	to	PART	TO	_	7	mark	_	start_char=58|end_char=60
 7	sound	sound	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=61|end_char=66
@@ -18,47 +24,50 @@
 12	,	,	PUNCT	,	_	13	punct	_	start_char=87|end_char=88
 13	Joe	Joe	PROPN	NNP	Number=Sing	9	conj	_	start_char=89|end_char=92
 14	Satriani	Satriani	PROPN	NNP	Number=Sing	13	flat	_	start_char=93|end_char=101
-15	and	and	CCONJ	CC	_	19	cc	_	start_char=102|end_char=105
-16	other	other	ADJ	JJ	Degree=Pos	19	amod	_	start_char=106|end_char=111
-17	guitarists	guitarist	NOUN	NNS	Number=Plur	19	compound	_	start_char=112|end_char=122
-18	studio	studio	NOUN	NN	Number=Sing	19	compound	_	start_char=123|end_char=129
+15	and	and	CCONJ	CC	_	21	cc	_	start_char=102|end_char=105
+16	other	other	ADJ	JJ	Degree=Pos	21	amod	_	start_char=106|end_char=111
+17	guitarists	guitarist	NOUN	NNS	Number=Plur	21	compound	_	start_char=112|end_char=122
+18	studio	studio	NOUN	NN	Number=Sing	21	compound	_	start_char=123|end_char=129
 19	album	album	NOUN	NN	Number=Sing	21	compound	_	start_char=130|end_char=135
 20	guitar	guitar	NOUN	NN	Number=Sing	21	compound	_	start_char=136|end_char=142
 21	sound	sound	NOUN	NN	Number=Sing	9	conj	_	start_char=143|end_char=148
-22	,	,	PUNCT	,	_	24	punct	_	start_char=148|end_char=149
+22	,	,	PUNCT	,	_	3	punct	_	start_char=148|end_char=149
 23	then	then	ADV	RB	PronType=Dem	24	advmod	_	start_char=150|end_char=154
 24	get	get	VERB	VB	VerbForm=Inf	0	root	_	start_char=155|end_char=158
-25	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	start_char=159|end_char=160
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	start_char=159|end_char=160
 26	BOSS	boss	NOUN	NN	Number=Sing	27	compound	_	start_char=161|end_char=165
-27	GT	gt	NOUN	NN	Number=Sing	34	compound	_	start_char=166|end_char=168
+27	GT	gt	NOUN	NN	Number=Sing	24	obj	_	start_char=166|end_char=168
 28	-	-	PUNCT	HYPH	_	29	punct	_	start_char=168|end_char=169
-29	10	10	NUM	CD	NumType=Card	34	nummod	_	start_char=169|end_char=171
+29	10	10	NUM	CD	NumForm=Digit|NumType=Card	27	dep	_	start_char=169|end_char=171
 30	(	(	PUNCT	-LRB-	_	34	punct	_	start_char=172|end_char=173
-31	guitar	guitar	NOUN	NN	Number=Sing	33	compound	_	start_char=173|end_char=179
-32	multi	multi	NOUN	NN	Number=Sing	33	compound	_	start_char=180|end_char=185
+31	guitar	guitar	NOUN	NN	Number=Sing	34	compound	_	start_char=173|end_char=179
+32	multi	multi	ADJ	JJ	Degree=Pos	33	amod	_	start_char=180|end_char=185
 33	effects	effect	NOUN	NNS	Number=Plur	34	compound	_	start_char=186|end_char=193
-34	processor	processor	NOUN	NN	Number=Sing	24	obj	_	start_char=194|end_char=203
+34	processor	processor	NOUN	NN	Number=Sing	27	appos	_	start_char=194|end_char=203
 35	)	)	PUNCT	-RRB-	_	34	punct	_	start_char=203|end_char=204
 36	and	and	CCONJ	CC	_	37	cc	_	start_char=205|end_char=208
 37	install	install	VERB	VB	VerbForm=Inf	24	conj	_	start_char=209|end_char=216
-38	BOSS	boss	NOUN	NN	Number=Sing	42	compound	_	start_char=217|end_char=221
+38	BOSS	boss	NOUN	NN	Number=Sing	37	obj	_	start_char=217|end_char=221
 39	GT	GT	PROPN	NNP	Number=Sing	42	compound	_	start_char=222|end_char=224
-40	-	-	PUNCT	HYPH	_	39	punct	_	start_char=224|end_char=225
-41	10	10	NUM	CD	NumType=Card	39	nummod	_	start_char=225|end_char=227
+40	-	-	PUNCT	HYPH	_	41	punct	_	start_char=224|end_char=225
+41	10	10	NUM	CD	NumForm=Digit|NumType=Card	39	nummod	_	start_char=225|end_char=227
 42	Patches	patch	NOUN	NNS	Number=Plur	37	obj	_	start_char=228|end_char=235
 43	by	by	ADP	IN	_	44	case	_	start_char=236|end_char=238
 44	James	James	PROPN	NNP	Number=Sing	37	obl	_	start_char=239|end_char=244
 45	Limborg	Limborg	PROPN	NNP	Number=Sing	44	flat	_	start_char=245|end_char=252
 46	.	.	PUNCT	.	_	24	punct	_	start_char=252|end_char=253
 
-1	Search	search	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=254|end_char=260
+# text = Search Google for BOSS GT-10 Patches by James Limborg.
+# sent_id = 2
+# sentiment = 1
+1	Search	search	VERB	VB	VerbForm=Inf	0	root	_	start_char=254|end_char=260
 2	Google	Google	PROPN	NNP	Number=Sing	1	obj	_	start_char=261|end_char=267
-3	for	for	ADP	IN	_	8	case	_	start_char=268|end_char=271
-4	BOSS	BOSS	PROPN	NNP	Number=Sing	8	compound	_	start_char=272|end_char=276
-5	GT	GT	PROPN	NNP	Number=Sing	4	flat	_	start_char=277|end_char=279
-6	-	-	PUNCT	HYPH	_	4	punct	_	start_char=279|end_char=280
-7	10	10	NUM	CD	NumType=Card	4	nummod	_	start_char=280|end_char=282
-8	Patches	Patches	PROPN	NNPS	Number=Plur	1	obl	_	start_char=283|end_char=290
+3	for	for	ADP	IN	_	4	case	_	start_char=268|end_char=271
+4	BOSS	BOSS	PROPN	NNP	Number=Sing	1	obl	_	start_char=272|end_char=276
+5	GT	GT	PROPN	NNP	Number=Sing	8	compound	_	start_char=277|end_char=279
+6	-	-	PUNCT	HYPH	_	7	punct	_	start_char=279|end_char=280
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	5	nummod	_	start_char=280|end_char=282
+8	Patches	Patch	PROPN	NNPS	Number=Plur	1	obl	_	start_char=283|end_char=290
 9	by	by	ADP	IN	_	10	case	_	start_char=291|end_char=293
 10	James	James	PROPN	NNP	Number=Sing	8	nmod	_	start_char=294|end_char=299
 11	Limborg	Limborg	PROPN	NNP	Number=Sing	10	flat	_	start_char=300|end_char=307

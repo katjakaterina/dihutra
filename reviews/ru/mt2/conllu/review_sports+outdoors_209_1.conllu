@@ -1,0 +1,68 @@
+# text = Дешевый продукт Дешевый продукт!
+# sent_id = 0
+1	Дешевый	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=8|end_char=15
+3	Дешевый	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=16|end_char=23
+4	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=24|end_char=31
+5	!	!	PUNCT	_	_	4	punct	_	start_char=31|end_char=32
+
+# text = Через два дня использования он начал терять воздух, где я обнаружил отверстие размером с булавку, и теперь его невозможно использовать.
+# sent_id = 1
+1	Через	через	ADP	_	_	3	case	_	start_char=33|end_char=38
+2	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	3	nummod	_	start_char=39|end_char=42
+3	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=43|end_char=46
+4	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=47|end_char=60
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=61|end_char=63
+6	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=64|end_char=69
+7	терять	терять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=70|end_char=76
+8	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=77|end_char=83
+9	,	,	PUNCT	_	_	12	punct	_	start_char=83|end_char=84
+10	где	где	ADV	_	Degree=Pos	12	advmod	_	start_char=85|end_char=88
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=89|end_char=90
+12	обнаружил	обнаружить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=91|end_char=100
+13	отверстие	отверстие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=101|end_char=110
+14	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	start_char=111|end_char=119
+15	с	с	ADP	_	_	16	case	_	start_char=120|end_char=121
+16	булавку	булавка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	start_char=122|end_char=129
+17	,	,	PUNCT	_	_	21	punct	_	start_char=129|end_char=130
+18	и	и	CCONJ	_	_	21	cc	_	start_char=131|end_char=132
+19	теперь	теперь	ADV	_	Degree=Pos	21	advmod	_	start_char=133|end_char=139
+20	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=140|end_char=143
+21	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	12	conj	_	start_char=144|end_char=154
+22	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	csubj	_	start_char=155|end_char=167
+23	.	.	PUNCT	_	_	6	punct	_	start_char=167|end_char=168
+
+# text = Вы можете купить такой же продукт (также сделанный в Китае) в местных магазинах за 1/4 цены.
+# sent_id = 2
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=169|end_char=171
+2	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=172|end_char=178
+3	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=179|end_char=185
+4	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=186|end_char=191
+5	же	же	PART	_	_	4	advmod	_	start_char=192|end_char=194
+6	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=195|end_char=202
+7	(	(	PUNCT	_	_	9	punct	_	start_char=203|end_char=204
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	start_char=204|end_char=209
+9	сделанный	делать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	parataxis	_	start_char=210|end_char=219
+10	в	в	ADP	_	_	11	case	_	start_char=220|end_char=221
+11	Китае	Китай	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=222|end_char=227
+12	)	)	PUNCT	_	_	9	punct	_	start_char=227|end_char=228
+13	в	в	ADP	_	_	15	case	_	start_char=229|end_char=230
+14	местных	местный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	start_char=231|end_char=238
+15	магазинах	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	start_char=239|end_char=248
+16	за	за	ADP	_	_	20	case	_	start_char=249|end_char=251
+17	1	1	NUM	_	NumType=Card	20	nummod	_	start_char=252|end_char=253
+18	/	/	PUNCT	_	_	19	punct	_	start_char=253|end_char=254
+19	4	4	NUM	_	NumType=Card	17	nmod	_	start_char=254|end_char=255
+20	цены	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=256|end_char=260
+21	.	.	PUNCT	_	_	2	punct	_	start_char=260|end_char=261
+
+# text = Я бы не рекомендовал этот продукт.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=262|end_char=263
+2	бы	бы	AUX	_	_	4	aux	_	start_char=264|end_char=266
+3	не	не	PART	_	_	4	advmod	_	start_char=267|end_char=269
+4	рекомендовал	рекомендовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=270|end_char=282
+5	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=283|end_char=287
+6	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=288|end_char=295
+7	.	.	PUNCT	_	_	4	punct	_	start_char=295|end_char=296
+

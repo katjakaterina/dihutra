@@ -1,0 +1,92 @@
+# text = свадебные торты марты стюарт Я купила много книг по украшению тортов, но если вы ищете руководство по украшению тортов, я настоятельно рекомендую купить книгу Коллетт Петерес или Пегги Поршен.
+# sent_id = 0
+1	свадебные	свадебный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=9
+2	торты	торт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=10|end_char=15
+3	марты	март	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=16|end_char=21
+4	стюарт	стюарт	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=22|end_char=28
+5	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=29|end_char=30
+6	купила	купить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=31|end_char=37
+7	много	много	ADV	_	Degree=Pos	8	advmod	_	start_char=38|end_char=43
+8	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=44|end_char=48
+9	по	по	ADP	_	_	10	case	_	start_char=49|end_char=51
+10	украшению	украшение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=52|end_char=61
+11	тортов	торт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=62|end_char=68
+12	,	,	PUNCT	_	_	24	punct	_	start_char=68|end_char=69
+13	но	но	CCONJ	_	_	24	cc	_	start_char=70|end_char=72
+14	если	если	SCONJ	_	_	16	mark	_	start_char=73|end_char=77
+15	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	start_char=78|end_char=80
+16	ищете	искать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	24	advcl	_	start_char=81|end_char=86
+17	руководство	руководство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=87|end_char=98
+18	по	по	ADP	_	_	19	case	_	start_char=99|end_char=101
+19	украшению	украшение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	start_char=102|end_char=111
+20	тортов	торт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	start_char=112|end_char=118
+21	,	,	PUNCT	_	_	16	punct	_	start_char=118|end_char=119
+22	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	start_char=120|end_char=121
+23	настоятельно	настоятельно	ADV	_	Degree=Pos	24	advmod	_	start_char=122|end_char=134
+24	рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=135|end_char=145
+25	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	start_char=146|end_char=152
+26	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	start_char=153|end_char=158
+27	Коллетт	Коллетт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	start_char=159|end_char=166
+28	Петерес	Петерес	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	flat:name	_	start_char=167|end_char=174
+29	или	или	CCONJ	_	_	30	cc	_	start_char=175|end_char=178
+30	Пегги	Пегги	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	27	conj	_	start_char=179|end_char=184
+31	Поршен	Поршен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	30	flat:name	_	start_char=185|end_char=191
+32	.	.	PUNCT	_	_	6	punct	_	start_char=191|end_char=192
+
+# text = Несмотря на то, что в этой книге много фотографий, она дает немного информации, но не очень много, и, честно говоря, за такую цену я бы предпочла купить журнал о свадебных тортах.
+# sent_id = 1
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	start_char=193|end_char=201
+2	на	на	ADP	_	_	1	fixed	_	start_char=202|end_char=204
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	start_char=205|end_char=207
+4	,	,	PUNCT	_	_	8	punct	_	start_char=207|end_char=208
+5	что	что	SCONJ	_	_	8	mark	_	start_char=209|end_char=212
+6	в	в	ADP	_	_	8	case	_	start_char=213|end_char=214
+7	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=215|end_char=219
+8	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	acl	_	start_char=220|end_char=225
+9	много	много	ADV	_	Degree=Pos	8	nsubj	_	start_char=226|end_char=231
+10	фотографий	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	start_char=232|end_char=242
+11	,	,	PUNCT	_	_	3	punct	_	start_char=242|end_char=243
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=244|end_char=247
+13	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=248|end_char=252
+14	немного	немного	ADV	_	Degree=Pos	15	advmod	_	start_char=253|end_char=260
+15	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	start_char=261|end_char=271
+16	,	,	PUNCT	_	_	20	punct	_	start_char=271|end_char=272
+17	но	но	CCONJ	_	_	20	cc	_	start_char=273|end_char=275
+18	не	не	PART	_	_	19	advmod	_	start_char=276|end_char=278
+19	очень	очень	ADV	_	Degree=Pos	20	advmod	_	start_char=279|end_char=284
+20	много	много	ADV	_	Degree=Pos	13	conj	_	start_char=285|end_char=290
+21	,	,	PUNCT	_	_	32	punct	_	start_char=290|end_char=291
+22	и	и	CCONJ	_	_	32	cc	_	start_char=292|end_char=293
+23	,	,	PUNCT	_	_	22	punct	_	start_char=293|end_char=294
+24	честно	честно	ADV	_	Degree=Pos	25	advmod	_	start_char=295|end_char=301
+25	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	32	parataxis	_	start_char=302|end_char=308
+26	,	,	PUNCT	_	_	25	punct	_	start_char=308|end_char=309
+27	за	за	ADP	_	_	29	case	_	start_char=310|end_char=312
+28	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	29	det	_	start_char=313|end_char=318
+29	цену	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obl	_	start_char=319|end_char=323
+30	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	start_char=324|end_char=325
+31	бы	бы	AUX	_	_	32	aux	_	start_char=326|end_char=328
+32	предпочла	предпочесть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	start_char=329|end_char=338
+33	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	start_char=339|end_char=345
+34	журнал	журнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	start_char=346|end_char=352
+35	о	о	ADP	_	_	37	case	_	start_char=353|end_char=354
+36	свадебных	свадебный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	37	amod	_	start_char=355|end_char=364
+37	тортах	торт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	34	nmod	_	start_char=365|end_char=371
+38	.	.	PUNCT	_	_	13	punct	_	start_char=371|end_char=372
+
+# text = Эта книга была разочарованием, не очень полезной и не очень нужной.
+# sent_id = 2
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=373|end_char=376
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=377|end_char=382
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=383|end_char=387
+4	разочарованием	разочарование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	root	_	start_char=388|end_char=402
+5	,	,	PUNCT	_	_	8	punct	_	start_char=402|end_char=403
+6	не	не	PART	_	_	7	advmod	_	start_char=404|end_char=406
+7	очень	очень	ADV	_	Degree=Pos	8	obl	_	start_char=407|end_char=412
+8	полезной	полезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=413|end_char=421
+9	и	и	CCONJ	_	_	12	cc	_	start_char=422|end_char=423
+10	не	не	PART	_	_	11	advmod	_	start_char=424|end_char=426
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	start_char=427|end_char=432
+12	нужной	нужный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	start_char=433|end_char=439
+13	.	.	PUNCT	_	_	4	punct	_	start_char=439|end_char=440
+

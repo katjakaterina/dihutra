@@ -1,41 +1,54 @@
-1	COLORFUL	colorful	ADJ	JJ	Degree=Pos	6	amod	_	start_char=0|end_char=8
+# text = COLORFUL, lighted, pocket magnifier-easy to find in a black purse!
+# sent_id = 0
+# sentiment = 2
+1	COLORFUL	colorful	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=8
 2	,	,	PUNCT	,	_	3	punct	_	start_char=8|end_char=9
-3	lighted	light	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	start_char=10|end_char=17
+3	lighted	light	ADJ	JJ	Degree=Pos	1	conj	_	start_char=10|end_char=17
 4	,	,	PUNCT	,	_	6	punct	_	start_char=17|end_char=18
 5	pocket	pocket	NOUN	NN	Number=Sing	6	compound	_	start_char=19|end_char=25
-6	magnifier	magnifier	NOUN	NN	Number=Sing	0	root	_	start_char=26|end_char=35
-7	-easy	-easy	ADJ	JJ	Degree=Pos	6	amod	_	start_char=35|end_char=40
-8	to	to	PART	TO	_	9	mark	_	start_char=41|end_char=43
-9	find	find	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=44|end_char=48
-10	in	in	ADP	IN	_	13	case	_	start_char=49|end_char=51
-11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	start_char=52|end_char=53
-12	black	black	ADJ	JJ	Degree=Pos	13	amod	_	start_char=54|end_char=59
-13	purse	purse	NOUN	NN	Number=Sing	9	obl	_	start_char=60|end_char=65
-14	!	!	PUNCT	.	_	1	punct	_	start_char=65|end_char=66
+6	magnifier	magnifier	NOUN	NN	Number=Sing	1	conj	_	start_char=26|end_char=35
+7	-	-	PUNCT	HYPH	_	8	punct	_	start_char=35|end_char=36
+8	easy	easy	ADJ	JJ	Degree=Pos	1	conj	_	start_char=36|end_char=40
+9	to	to	PART	TO	_	10	mark	_	start_char=41|end_char=43
+10	find	find	VERB	VB	VerbForm=Inf	8	xcomp	_	start_char=44|end_char=48
+11	in	in	ADP	IN	_	14	case	_	start_char=49|end_char=51
+12	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	start_char=52|end_char=53
+13	black	black	ADJ	JJ	Degree=Pos	14	amod	_	start_char=54|end_char=59
+14	purse	purse	NOUN	NN	Number=Sing	10	obl	_	start_char=60|end_char=65
+15	!	!	PUNCT	.	_	1	punct	_	start_char=65|end_char=66
 
+# text = Most of the purses I own have black lining.
+# sent_id = 1
+# sentiment = 1
 1	Most	most	ADJ	JJS	Degree=Sup	7	nsubj	_	start_char=67|end_char=71
 2	of	of	ADP	IN	_	4	case	_	start_char=72|end_char=74
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=75|end_char=78
 4	purses	purse	NOUN	NNS	Number=Plur	1	nmod	_	start_char=79|end_char=85
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=86|end_char=87
-6	own	own	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=88|end_char=91
-7	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=92|end_char=96
+6	own	own	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=88|end_char=91
+7	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=92|end_char=96
 8	black	black	ADJ	JJ	Degree=Pos	9	amod	_	start_char=97|end_char=102
 9	lining	lining	NOUN	NN	Number=Sing	7	obj	_	start_char=103|end_char=109
 10	.	.	PUNCT	.	_	7	punct	_	start_char=109|end_char=110
 
+# text = Good luck finding anything black in black purse!
+# sent_id = 2
+# sentiment = 2
 1	Good	good	ADJ	JJ	Degree=Pos	2	amod	_	start_char=111|end_char=115
 2	luck	luck	NOUN	NN	Number=Sing	0	root	_	start_char=116|end_char=120
 3	finding	find	VERB	VBG	VerbForm=Ger	2	acl	_	start_char=121|end_char=128
-4	anything	anything	PRON	NN	Number=Sing	3	obj	_	start_char=129|end_char=137
+4	anything	anything	PRON	NN	Number=Sing|PronType=Ind	3	obj	_	start_char=129|end_char=137
 5	black	black	ADJ	JJ	Degree=Pos	4	amod	_	start_char=138|end_char=143
 6	in	in	ADP	IN	_	8	case	_	start_char=144|end_char=146
 7	black	black	ADJ	JJ	Degree=Pos	8	amod	_	start_char=147|end_char=152
-8	purse	purse	NOUN	NN	Number=Sing	5	obl	_	start_char=153|end_char=158
+8	purse	purse	NOUN	NN	Number=Sing	3	obl	_	start_char=153|end_char=158
 9	!	!	PUNCT	.	_	2	punct	_	start_char=158|end_char=159
 
+# text = I chose this color because I can actually find it!!!
+# sent_id = 3
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=160|end_char=161
-2	chose	choose	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=162|end_char=167
+2	chose	choose	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=162|end_char=167
 3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	start_char=168|end_char=172
 4	color	color	NOUN	NN	Number=Sing	2	obj	_	start_char=173|end_char=178
 5	because	because	SCONJ	IN	_	9	mark	_	start_char=179|end_char=186
@@ -46,36 +59,42 @@
 10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=207|end_char=209
 11	!!!	!!!	PUNCT	.	_	2	punct	_	start_char=209|end_char=212
 
+# text = It works wonderfully in a dimly lit restaurant, when the print is really small, when I need a light & a magnifier to find the splinter.
+# sent_id = 4
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=213|end_char=215
 2	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=216|end_char=221
 3	wonderfully	wonderfully	ADV	RB	_	2	advmod	_	start_char=222|end_char=233
 4	in	in	ADP	IN	_	8	case	_	start_char=234|end_char=236
 5	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	start_char=237|end_char=238
 6	dimly	dimly	ADV	RB	_	7	advmod	_	start_char=239|end_char=244
-7	lit	light	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	start_char=245|end_char=248
+7	lit	light	ADJ	JJ	Degree=Pos	8	amod	_	start_char=245|end_char=248
 8	restaurant	restaurant	NOUN	NN	Number=Sing	2	obl	_	start_char=249|end_char=259
-9	,	,	PUNCT	,	_	2	punct	_	start_char=259|end_char=260
-10	when	when	SCONJ	WRB	PronType=Int	15	mark	_	start_char=261|end_char=265
+9	,	,	PUNCT	,	_	15	punct	_	start_char=259|end_char=260
+10	when	when	ADV	WRB	PronType=Int	15	advmod	_	start_char=261|end_char=265
 11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=266|end_char=269
 12	print	print	NOUN	NN	Number=Sing	15	nsubj	_	start_char=270|end_char=275
 13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=276|end_char=278
 14	really	really	ADV	RB	_	15	advmod	_	start_char=279|end_char=285
 15	small	small	ADJ	JJ	Degree=Pos	2	advcl	_	start_char=286|end_char=291
 16	,	,	PUNCT	,	_	19	punct	_	start_char=291|end_char=292
-17	when	when	SCONJ	WRB	PronType=Int	19	mark	_	start_char=293|end_char=297
+17	when	when	ADV	WRB	PronType=Int	19	advmod	_	start_char=293|end_char=297
 18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=298|end_char=299
-19	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=300|end_char=304
+19	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=300|end_char=304
 20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=305|end_char=306
 21	light	light	NOUN	NN	Number=Sing	19	obj	_	start_char=307|end_char=312
 22	&	&	CCONJ	CC	_	24	cc	_	start_char=313|end_char=314
 23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	start_char=315|end_char=316
 24	magnifier	magnifier	NOUN	NN	Number=Sing	21	conj	_	start_char=317|end_char=326
 25	to	to	PART	TO	_	26	mark	_	start_char=327|end_char=329
-26	find	find	VERB	VB	VerbForm=Inf	24	acl	_	start_char=330|end_char=334
+26	find	find	VERB	VB	VerbForm=Inf	19	advcl	_	start_char=330|end_char=334
 27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	start_char=335|end_char=338
 28	splinter	splinter	NOUN	NN	Number=Sing	26	obj	_	start_char=339|end_char=347
 29	.	.	PUNCT	.	_	2	punct	_	start_char=347|end_char=348
 
+# text = WONDERFUL.
+# sent_id = 5
+# sentiment = 1
 1	WONDERFUL	wonderful	ADJ	JJ	Degree=Pos	0	root	_	start_char=349|end_char=358
 2	.	.	PUNCT	.	_	1	punct	_	start_char=358|end_char=359
 

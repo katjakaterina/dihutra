@@ -1,0 +1,51 @@
+# text = Отличная подборка гимнов Подборка гимнов в этом издании очень хорошая, но качество бумаги оставляет желать лучшего.
+# sent_id = 0
+1	Отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	подборка	подборка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=9|end_char=17
+3	гимнов	гимн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=18|end_char=24
+4	Подборка	подборка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=25|end_char=33
+5	гимнов	гимн	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=34|end_char=40
+6	в	в	ADP	_	_	8	case	_	start_char=41|end_char=42
+7	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	start_char=43|end_char=47
+8	издании	издание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	start_char=48|end_char=55
+9	очень	очень	ADV	_	Degree=Pos	10	obl	_	start_char=56|end_char=61
+10	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=62|end_char=69
+11	,	,	PUNCT	_	_	15	punct	_	start_char=69|end_char=70
+12	но	но	CCONJ	_	_	15	cc	_	start_char=71|end_char=73
+13	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=74|end_char=82
+14	бумаги	бумага	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=83|end_char=89
+15	оставляет	оставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=90|end_char=99
+16	желать	желать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=100|end_char=106
+17	лучшего	лучший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	obl	_	start_char=107|end_char=114
+18	.	.	PUNCT	_	_	10	punct	_	start_char=114|end_char=115
+
+# text = Для книги, которую певцы будут листать, пользоваться указателем, переворачивать страницы, качество бумаги не похоже на то, что она выдержит длительное использование.
+# sent_id = 1
+1	Для	для	ADP	_	_	2	case	_	start_char=116|end_char=119
+2	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	start_char=120|end_char=125
+3	,	,	PUNCT	_	_	7	punct	_	start_char=125|end_char=126
+4	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	7	obj	_	start_char=127|end_char=134
+5	певцы	певец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=135|end_char=140
+6	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=141|end_char=146
+7	листать	листать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	acl:relcl	_	start_char=147|end_char=154
+8	,	,	PUNCT	_	_	9	punct	_	start_char=154|end_char=155
+9	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	conj	_	start_char=156|end_char=168
+10	указателем	указатель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=169|end_char=179
+11	,	,	PUNCT	_	_	12	punct	_	start_char=179|end_char=180
+12	переворачивать	переворачивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	start_char=181|end_char=195
+13	страницы	страница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=196|end_char=204
+14	,	,	PUNCT	_	_	2	punct	_	start_char=204|end_char=205
+15	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	start_char=206|end_char=214
+16	бумаги	бумага	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=215|end_char=221
+17	не	не	PART	_	_	18	advmod	_	start_char=222|end_char=224
+18	похоже	похожий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=225|end_char=231
+19	на	на	ADP	_	_	20	case	_	start_char=232|end_char=234
+20	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	18	obl	_	start_char=235|end_char=237
+21	,	,	PUNCT	_	_	24	punct	_	start_char=237|end_char=238
+22	что	что	SCONJ	_	_	24	mark	_	start_char=239|end_char=242
+23	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=243|end_char=246
+24	выдержит	выдержать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	acl	_	start_char=247|end_char=255
+25	длительное	длительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	start_char=256|end_char=266
+26	использование	использование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	start_char=267|end_char=280
+27	.	.	PUNCT	_	_	18	punct	_	start_char=280|end_char=281
+

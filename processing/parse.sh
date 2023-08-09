@@ -7,7 +7,8 @@ InputENrev=./dihutra/reviews/en/txt
 #ru
 InputRUrevPRO=./dihutra/reviews/ru/prof/txt
 InputRUrevSTU=./dihutra/reviews/ru/stud/txt
-InputRUrevMT=./dihutra/reviews/ru/mt/txt
+InputRUrevMT1=./dihutra/reviews/ru/mt1/txt
+InputRUrevMT2=./dihutra/reviews/ru/mt2/txt
 #hr
 InputHRrevPRO=./dihutra/reviews/hr/prof/txt
 InputHRrevSTU=./dihutra/reviews/hr/stud/txt
@@ -32,9 +33,14 @@ for file in $InputRUrevSTU/*.txt ; do python3 stanza_pipeline_ru.py --language=r
 mkdir $LocalDir/reviews/ru/stud/conllu
 mv $InputRUrevSTU/*.conllu $LocalDir/reviews/ru/stud/conllu
 
-for file in $InputRUrevMT/*.txt ; do python3 stanza_pipeline_ru.py --language=ru "$file" "${file%.txt}.conllu"; done
-mkdir $LocalDir/reviews/ru/mt/conllu
-mv $InputRUrevMT/*.conllu $LocalDir/reviews/ru/mt/conllu
+for file in $InputRUrevMT1/*.txt ; do python3 stanza_pipeline_ru.py --language=ru "$file" "${file%.txt}.conllu"; done
+mkdir $LocalDir/reviews/ru/mt1/conllu
+mv $InputRUrevMT1/*.conllu $LocalDir/reviews/ru/mt1/conllu
+
+for file in $InputRUrevMT2/*.txt ; do python3 stanza_pipeline_ru.py --language=ru "$file" "${file%.txt}.conllu"; done
+mkdir $LocalDir/reviews/ru/mt2/conllu
+mv $InputRUrevMT2/*.conllu $LocalDir/reviews/ru/mt2/conllu
+
 
 #hr
 #stanza_pipeline_ru.py instead of stanza_pipeline.py because of missing mwt models for Croatian

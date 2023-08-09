@@ -1,0 +1,80 @@
+# text = Так вот каков на вкус французский кофе????
+# sent_id = 0
+1	Так	так	ADV	_	Degree=Pos	3	advmod	_	start_char=0|end_char=3
+2	вот	вот	PART	_	_	3	advmod	_	start_char=4|end_char=7
+3	каков	каков	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=8|end_char=13
+4	на	на	ADP	_	_	5	case	_	start_char=14|end_char=16
+5	вкус	вкус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=17|end_char=21
+6	французский	французский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=22|end_char=33
+7	кофе	кофе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=34|end_char=38
+8	?	?	PUNCT	_	_	7	punct	_	start_char=38|end_char=39
+9	?	?	PUNCT	_	_	7	punct	_	start_char=39|end_char=40
+10	?	?	PUNCT	_	_	7	punct	_	start_char=40|end_char=41
+11	?	?	PUNCT	_	_	3	punct	_	start_char=41|end_char=42
+
+# text = Не верю!!!
+# sent_id = 1
+1	Не	не	PART	_	_	2	advmod	_	start_char=44|end_char=46
+2	верю	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=47|end_char=51
+3	!	!	PUNCT	_	_	2	punct	_	start_char=51|end_char=52
+4	!	!	PUNCT	_	_	2	punct	_	start_char=52|end_char=53
+5	!	!	PUNCT	_	_	2	punct	_	start_char=53|end_char=54
+
+# text = Возможно, лучший кофе - в США, если это можно считать примером.
+# sent_id = 2
+1	Возможно	возможно	ADV	_	Degree=Pos	7	parataxis	_	start_char=55|end_char=63
+2	,	,	PUNCT	_	_	1	punct	_	start_char=63|end_char=64
+3	лучший	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=65|end_char=71
+4	кофе	кофе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=72|end_char=76
+5	-	-	PUNCT	_	_	4	punct	_	start_char=77|end_char=78
+6	в	в	ADP	_	_	7	case	_	start_char=79|end_char=80
+7	США	США	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	0	root	_	start_char=81|end_char=84
+8	,	,	PUNCT	_	_	11	punct	_	start_char=84|end_char=85
+9	если	если	SCONJ	_	_	11	mark	_	start_char=86|end_char=90
+10	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	start_char=91|end_char=94
+11	можно	можно	ADV	_	Degree=Pos	7	advcl	_	start_char=95|end_char=100
+12	считать	считать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	csubj	_	start_char=101|end_char=108
+13	примером	пример	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	start_char=109|end_char=117
+14	.	.	PUNCT	_	_	7	punct	_	start_char=117|end_char=118
+
+# text = Не очень люблю цикорий, но решил, что стоит попробовать.
+# sent_id = 3
+1	Не	не	PART	_	_	2	advmod	_	start_char=119|end_char=121
+2	очень	очень	ADV	_	Degree=Pos	3	advmod	_	start_char=122|end_char=127
+3	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=128|end_char=133
+4	цикорий	цикорий	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=134|end_char=141
+5	,	,	PUNCT	_	_	7	punct	_	start_char=141|end_char=142
+6	но	но	CCONJ	_	_	7	cc	_	start_char=143|end_char=145
+7	решил	решить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=146|end_char=151
+8	,	,	PUNCT	_	_	10	punct	_	start_char=151|end_char=152
+9	что	что	SCONJ	_	_	10	mark	_	start_char=153|end_char=156
+10	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=157|end_char=162
+11	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	csubj	_	start_char=163|end_char=174
+12	.	.	PUNCT	_	_	3	punct	_	start_char=174|end_char=175
+
+# text = На мой взгляд, это не кофе, но, возможно, его следует называть как-то иначе - что-то слабое и неароматное.
+# sent_id = 4
+1	На	на	ADP	_	_	3	case	_	start_char=176|end_char=178
+2	мой	мой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=179|end_char=182
+3	взгляд	взгляд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	parataxis	_	start_char=183|end_char=189
+4	,	,	PUNCT	_	_	3	punct	_	start_char=189|end_char=190
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=191|end_char=194
+6	не	не	PART	_	_	7	advmod	_	start_char=195|end_char=197
+7	кофе	кофе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=198|end_char=202
+8	,	,	PUNCT	_	_	14	punct	_	start_char=202|end_char=203
+9	но	но	CCONJ	_	_	14	cc	_	start_char=204|end_char=206
+10	,	,	PUNCT	_	_	9	punct	_	start_char=206|end_char=207
+11	возможно	возможно	ADV	_	Degree=Pos	14	parataxis	_	start_char=208|end_char=216
+12	,	,	PUNCT	_	_	11	punct	_	start_char=216|end_char=217
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=218|end_char=221
+14	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=222|end_char=229
+15	называть	называть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	csubj	_	start_char=230|end_char=238
+16	как-то	как-то	ADV	_	Degree=Pos	17	advmod	_	start_char=239|end_char=245
+17	иначе	иначе	ADV	_	Degree=Pos	15	advmod	_	start_char=246|end_char=251
+18	-	-	PUNCT	_	_	19	punct	_	start_char=252|end_char=253
+19	что-то	что-то	PRON	_	Case=Nom|PronType=Ind	17	parataxis	_	start_char=254|end_char=260
+20	слабое	слабый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=261|end_char=267
+21	и	и	CCONJ	_	_	22	cc	_	start_char=268|end_char=269
+22	неароматное	неароматный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	conj	_	start_char=270|end_char=281
+23	.	.	PUNCT	_	_	7	punct	_	start_char=281|end_char=282
+

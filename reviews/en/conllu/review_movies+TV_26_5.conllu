@@ -1,25 +1,30 @@
-1	Fonzie	Fonzie	PROPN	NNP	Number=Sing	0	root	_	start_char=0|end_char=6
+# text = Fonzie as Scrooge Henry Winkler is a fine actor and this version of the famous story is proof positive.
+# sent_id = 0
+# sentiment = 2
+1	Fonzie	Fonzie	PROPN	NNP	Number=Sing	9	nsubj	_	start_char=0|end_char=6
 2	as	as	ADP	IN	_	3	case	_	start_char=7|end_char=9
 3	Scrooge	Scrooge	PROPN	NNP	Number=Sing	1	nmod	_	start_char=10|end_char=17
 4	Henry	Henry	PROPN	NNP	Number=Sing	3	flat	_	start_char=18|end_char=23
+5	Winkler	Winkler	PROPN	NNP	Number=Sing	4	flat	_	start_char=24|end_char=31
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=32|end_char=34
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=35|end_char=36
+8	fine	fine	ADJ	JJ	Degree=Pos	9	amod	_	start_char=37|end_char=41
+9	actor	actor	NOUN	NN	Number=Sing	0	root	_	start_char=42|end_char=47
+10	and	and	CCONJ	CC	_	18	cc	_	start_char=48|end_char=51
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=52|end_char=56
+12	version	version	NOUN	NN	Number=Sing	18	nsubj	_	start_char=57|end_char=64
+13	of	of	ADP	IN	_	16	case	_	start_char=65|end_char=67
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=68|end_char=71
+15	famous	famous	ADJ	JJ	Degree=Pos	16	amod	_	start_char=72|end_char=78
+16	story	story	NOUN	NN	Number=Sing	12	nmod	_	start_char=79|end_char=84
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=85|end_char=87
+18	proof	proof	NOUN	NN	Number=Sing	9	conj	_	start_char=88|end_char=93
+19	positive	positive	ADJ	JJ	Degree=Pos	18	amod	_	start_char=94|end_char=102
+20	.	.	PUNCT	.	_	9	punct	_	start_char=102|end_char=103
 
-1	Winkler	Winkler	PROPN	NNP	Number=Sing	5	nsubj	_	start_char=24|end_char=31
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=32|end_char=34
-3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=35|end_char=36
-4	fine	fine	ADJ	JJ	Degree=Pos	5	amod	_	start_char=37|end_char=41
-5	actor	actor	NOUN	NN	Number=Sing	0	root	_	start_char=42|end_char=47
-6	and	and	CCONJ	CC	_	15	cc	_	start_char=48|end_char=51
-7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=52|end_char=56
-8	version	version	NOUN	NN	Number=Sing	15	nsubj	_	start_char=57|end_char=64
-9	of	of	ADP	IN	_	12	case	_	start_char=65|end_char=67
-10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	start_char=68|end_char=71
-11	famous	famous	ADJ	JJ	Degree=Pos	12	amod	_	start_char=72|end_char=78
-12	story	story	NOUN	NN	Number=Sing	8	nmod	_	start_char=79|end_char=84
-13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=85|end_char=87
-14	proof	proof	ADV	RB	_	15	advmod	_	start_char=88|end_char=93
-15	positive	positive	ADJ	JJ	Degree=Pos	5	conj	_	start_char=94|end_char=102
-16	.	.	PUNCT	.	_	5	punct	_	start_char=102|end_char=103
-
+# text = He does and excellent job as Ebeneezer Scrooge.
+# sent_id = 1
+# sentiment = 2
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=104|end_char=106
 2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=107|end_char=111
 3	and	and	CCONJ	CC	_	5	cc	_	start_char=112|end_char=115
@@ -30,10 +35,13 @@
 8	Scrooge	Scrooge	PROPN	NNP	Number=Sing	7	flat	_	start_char=143|end_char=150
 9	.	.	PUNCT	.	_	2	punct	_	start_char=150|end_char=151
 
+# text = The story, of course, is the same as the other versions, but each remake brings a different interpretation by the actors and writers.
+# sent_id = 2
+# sentiment = 1
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=152|end_char=155
 2	story	story	NOUN	NN	Number=Sing	9	nsubj	_	start_char=156|end_char=161
 3	,	,	PUNCT	,	_	9	punct	_	start_char=161|end_char=162
-4	of	of	ADP	IN	_	9	advmod	_	start_char=163|end_char=165
+4	of	of	ADP	IN	ExtPos=ADV	9	advmod	_	start_char=163|end_char=165
 5	course	course	NOUN	NN	Number=Sing	4	fixed	_	start_char=166|end_char=172
 6	,	,	PUNCT	,	_	9	punct	_	start_char=172|end_char=173
 7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=174|end_char=176
@@ -58,6 +66,9 @@
 26	writers	writer	NOUN	NNS	Number=Plur	24	conj	_	start_char=277|end_char=284
 27	.	.	PUNCT	.	_	9	punct	_	start_char=284|end_char=285
 
+# text = This one is fun and easy to watch.
+# sent_id = 3
+# sentiment = 2
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=286|end_char=290
 2	one	one	NOUN	NN	Number=Sing	4	nsubj	_	start_char=291|end_char=294
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=295|end_char=297
@@ -65,9 +76,12 @@
 5	and	and	CCONJ	CC	_	6	cc	_	start_char=302|end_char=305
 6	easy	easy	ADJ	JJ	Degree=Pos	4	conj	_	start_char=306|end_char=310
 7	to	to	PART	TO	_	8	mark	_	start_char=311|end_char=313
-8	watch	watch	VERB	VB	VerbForm=Inf	6	ccomp	_	start_char=314|end_char=319
+8	watch	watch	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=314|end_char=319
 9	.	.	PUNCT	.	_	4	punct	_	start_char=319|end_char=320
 
+# text = A fine family film.
+# sent_id = 4
+# sentiment = 2
 1	A	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=321|end_char=322
 2	fine	fine	ADJ	JJ	Degree=Pos	4	amod	_	start_char=323|end_char=327
 3	family	family	NOUN	NN	Number=Sing	4	compound	_	start_char=328|end_char=334

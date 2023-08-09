@@ -1,0 +1,71 @@
+# text = Обесцвечивание ленты Как и большинство товаров для тренировок, эти ленты использовались несколько раз и хранились в сумке в течение нескольких месяцев.
+# sent_id = 0
+1	Обесцвечивание	обесцвечивание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	start_char=0|end_char=14
+2	ленты	лента	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=15|end_char=20
+3	Как	как	SCONJ	_	_	5	mark	_	start_char=21|end_char=24
+4	и	и	PART	_	_	5	advmod	_	start_char=25|end_char=26
+5	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	acl	_	start_char=27|end_char=38
+6	товаров	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=39|end_char=46
+7	для	для	ADP	_	_	8	case	_	start_char=47|end_char=50
+8	тренировок	тренировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=51|end_char=61
+9	,	,	PUNCT	_	_	1	punct	_	start_char=61|end_char=62
+10	эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	11	det	_	start_char=63|end_char=66
+11	ленты	лента	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj:pass	_	start_char=67|end_char=72
+12	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=73|end_char=87
+13	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	14	nummod	_	start_char=88|end_char=97
+14	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	start_char=98|end_char=101
+15	и	и	CCONJ	_	_	16	cc	_	start_char=102|end_char=103
+16	хранились	храниться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	12	conj	_	start_char=104|end_char=113
+17	в	в	ADP	_	_	18	case	_	start_char=114|end_char=115
+18	сумке	сумка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	start_char=116|end_char=121
+19	в	в	ADP	_	_	22	case	_	start_char=122|end_char=123
+20	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	fixed	_	start_char=124|end_char=131
+21	нескольких	несколько	NUM	_	Case=Gen|NumType=Card	22	nummod	_	start_char=132|end_char=142
+22	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	start_char=143|end_char=150
+23	.	.	PUNCT	_	_	12	punct	_	start_char=150|end_char=151
+
+# text = Я достал их, чтобы снова начать использовать после того, как из-за автомобильной аварии я перестал заниматься со свободными весами, и ленты начали обесцвечиваться и выцветать.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=152|end_char=153
+2	достал	достать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=154|end_char=160
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=161|end_char=163
+4	,	,	PUNCT	_	_	7	punct	_	start_char=163|end_char=164
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	start_char=165|end_char=170
+6	снова	снова	ADV	_	Degree=Pos	7	advmod	_	start_char=171|end_char=176
+7	начать	начать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=177|end_char=183
+8	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=184|end_char=196
+9	после	после	ADP	_	_	10	case	_	start_char=197|end_char=202
+10	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	start_char=203|end_char=207
+11	,	,	PUNCT	_	_	17	punct	_	start_char=207|end_char=208
+12	как	как	SCONJ	_	_	17	mark	_	start_char=209|end_char=212
+13	из-за	из-за	ADP	_	_	15	case	_	start_char=213|end_char=218
+14	автомобильной	автомобильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=219|end_char=232
+15	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	start_char=233|end_char=239
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=240|end_char=241
+17	перестал	перестать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	start_char=242|end_char=250
+18	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	17	xcomp	_	start_char=251|end_char=261
+19	со	с	ADP	_	_	21	case	_	start_char=262|end_char=264
+20	свободными	свободный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	start_char=265|end_char=275
+21	весами	весы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	start_char=276|end_char=282
+22	,	,	PUNCT	_	_	25	punct	_	start_char=282|end_char=283
+23	и	и	CCONJ	_	_	25	cc	_	start_char=284|end_char=285
+24	ленты	лента	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	start_char=286|end_char=291
+25	начали	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	start_char=292|end_char=298
+26	обесцвечиваться	обесцвечиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	25	xcomp	_	start_char=299|end_char=314
+27	и	и	CCONJ	_	_	28	cc	_	start_char=315|end_char=316
+28	выцветать	выцветать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	conj	_	start_char=317|end_char=326
+29	.	.	PUNCT	_	_	2	punct	_	start_char=326|end_char=327
+
+# text = Меня беспокоит, что целостность резины ослабевает...
+# sent_id = 2
+1	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=328|end_char=332
+2	беспокоит	беспокоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=333|end_char=342
+3	,	,	PUNCT	_	_	7	punct	_	start_char=342|end_char=343
+4	что	что	SCONJ	_	_	7	mark	_	start_char=344|end_char=347
+5	целостность	целостность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=348|end_char=359
+6	резины	резина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=360|end_char=366
+7	ослабевает	ослабевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=367|end_char=377
+8	.	.	PUNCT	_	_	7	punct	_	start_char=377|end_char=378
+9	.	.	PUNCT	_	_	7	punct	_	start_char=378|end_char=379
+10	.	.	PUNCT	_	_	2	punct	_	start_char=379|end_char=380
+

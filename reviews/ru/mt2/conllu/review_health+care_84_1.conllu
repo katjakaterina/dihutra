@@ -1,0 +1,103 @@
+# text = Дорогое барахло Некоторое время назад я купил упаковку этих элементов в Sam's Club.
+# sent_id = 0
+1	Дорогое	дорогой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	барахло	барахло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=8|end_char=15
+3	Некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	4	det	_	start_char=16|end_char=25
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=26|end_char=31
+5	назад	назад	ADV	_	Degree=Pos	4	advmod	_	start_char=32|end_char=37
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=38|end_char=39
+7	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=40|end_char=45
+8	упаковку	упаковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=46|end_char=54
+9	этих	этот	DET	_	Case=Gen|Number=Plur|PronType=Dem	10	det	_	start_char=55|end_char=59
+10	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=60|end_char=69
+11	в	в	ADP	_	_	12	case	_	start_char=70|end_char=71
+12	Sam's	Sam's	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=72|end_char=77
+13	Club	Club	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=78|end_char=82
+14	.	.	PUNCT	_	_	7	punct	_	start_char=82|end_char=83
+
+# text = Я использовал их в пультах для бытовой техники, но заметил, что они недолго держат заряд, что требует частой подзарядки.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=84|end_char=85
+2	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=86|end_char=97
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=98|end_char=100
+4	в	в	ADP	_	_	5	case	_	start_char=101|end_char=102
+5	пультах	пульт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	start_char=103|end_char=110
+6	для	для	ADP	_	_	8	case	_	start_char=111|end_char=114
+7	бытовой	бытовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=115|end_char=122
+8	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=123|end_char=130
+9	,	,	PUNCT	_	_	11	punct	_	start_char=130|end_char=131
+10	но	но	CCONJ	_	_	11	cc	_	start_char=132|end_char=134
+11	заметил	заметить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=135|end_char=142
+12	,	,	PUNCT	_	_	16	punct	_	start_char=142|end_char=143
+13	что	что	SCONJ	_	_	16	mark	_	start_char=144|end_char=147
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=148|end_char=151
+15	недолго	недолго	ADV	_	Degree=Pos	16	advmod	_	start_char=152|end_char=159
+16	держат	держать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	_	start_char=160|end_char=166
+17	заряд	заряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=167|end_char=172
+18	,	,	PUNCT	_	_	20	punct	_	start_char=172|end_char=173
+19	что	что	PRON	_	Case=Nom|PronType=Int,Rel	20	nsubj	_	start_char=174|end_char=177
+20	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	start_char=178|end_char=185
+21	частой	частый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=186|end_char=192
+22	подзарядки	подзарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	start_char=193|end_char=203
+23	.	.	PUNCT	_	_	2	punct	_	start_char=203|end_char=204
+
+# text = Дешевое быстрое зарядное устройство "CH30MN", поставляемое в комплекте, тоже не помогло, так как в процессе зарядки батареи нагреваются до такой степени, что к ним невыносимо прикасаться.
+# sent_id = 2
+1	Дешевое	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=205|end_char=212
+2	быстрое	быстрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=213|end_char=220
+3	зарядное	зарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=221|end_char=229
+4	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=230|end_char=240
+5	"	"	PUNCT	_	_	6	punct	_	start_char=241|end_char=242
+6	CH30MN	CH30MN	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=242|end_char=248
+7	"	"	PUNCT	_	_	6	punct	_	start_char=248|end_char=249
+8	,	,	PUNCT	_	_	9	punct	_	start_char=249|end_char=250
+9	поставляемое	поставлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	acl	_	start_char=251|end_char=263
+10	в	в	ADP	_	_	11	case	_	start_char=264|end_char=265
+11	комплекте	комплект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=266|end_char=275
+12	,	,	PUNCT	_	_	9	punct	_	start_char=275|end_char=276
+13	тоже	тоже	PART	_	_	15	advmod	_	start_char=277|end_char=281
+14	не	не	PART	_	_	15	advmod	_	start_char=282|end_char=284
+15	помогло	помочь	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=285|end_char=292
+16	,	,	PUNCT	_	_	23	punct	_	start_char=292|end_char=293
+17	так	так	ADV	_	Degree=Pos	23	mark	_	start_char=294|end_char=297
+18	как	как	SCONJ	_	_	17	fixed	_	start_char=298|end_char=301
+19	в	в	ADP	_	_	20	case	_	start_char=302|end_char=303
+20	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	start_char=304|end_char=312
+21	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=313|end_char=320
+22	батареи	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	start_char=321|end_char=328
+23	нагреваются	нагреваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	advcl	_	start_char=329|end_char=340
+24	до	до	ADP	_	_	26	case	_	start_char=341|end_char=343
+25	такой	такой	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	26	det	_	start_char=344|end_char=349
+26	степени	степень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	obl	_	start_char=350|end_char=357
+27	,	,	PUNCT	_	_	31	punct	_	start_char=357|end_char=358
+28	что	что	SCONJ	_	_	31	mark	_	start_char=359|end_char=362
+29	к	к	ADP	_	_	30	case	_	start_char=363|end_char=364
+30	ним	он	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	31	obl	_	start_char=365|end_char=368
+31	невыносимо	невыносимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	25	ccomp	_	start_char=369|end_char=379
+32	прикасаться	прикасаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	31	csubj	_	start_char=380|end_char=391
+33	.	.	PUNCT	_	_	15	punct	_	start_char=391|end_char=392
+
+# text = Сэкономьте свои деньги и купите вместо этого новые никель-металлогидридные аккумуляторные батареи SANYO NEW 1500 eneloop 8 Pack AA.
+# sent_id = 3
+1	Сэкономьте	сэконойти	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=393|end_char=403
+2	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	start_char=404|end_char=408
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=409|end_char=415
+4	и	и	CCONJ	_	_	5	cc	_	start_char=416|end_char=417
+5	купите	купить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=418|end_char=424
+6	вместо	вместо	ADP	_	_	7	case	_	start_char=425|end_char=431
+7	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	start_char=432|end_char=437
+8	новые	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	start_char=438|end_char=443
+9	никель	никель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	compound	_	start_char=444|end_char=450
+10	-	-	PUNCT	_	_	9	punct	_	start_char=450|end_char=451
+11	металлогидридные	металлогидридный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	start_char=451|end_char=467
+12	аккумуляторные	аккумуляторный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	start_char=468|end_char=482
+13	батареи	батарея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=483|end_char=490
+14	SANYO	SANYO	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=491|end_char=496
+15	NEW	NEW	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=497|end_char=500
+16	1500	1500	NUM	_	NumType=Card	13	nummod:entity	_	start_char=501|end_char=505
+17	eneloop	eneloop	X	_	Foreign=Yes	13	flat:foreign	_	start_char=506|end_char=513
+18	8	8	NUM	_	NumType=Card	13	nummod:entity	_	start_char=514|end_char=515
+19	Pack	Pack	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=516|end_char=520
+20	AA	AA	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=521|end_char=523
+21	.	.	PUNCT	_	_	1	punct	_	start_char=523|end_char=524
+

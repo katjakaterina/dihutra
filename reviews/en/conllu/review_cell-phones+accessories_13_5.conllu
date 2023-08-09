@@ -1,15 +1,24 @@
+# text = Absolutely love the case !!
+# sent_id = 0
+# sentiment = 2
 1	Absolutely	absolutely	ADV	RB	_	2	advmod	_	start_char=0|end_char=10
-2	love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=11|end_char=15
+2	love	love	VERB	VB	VerbForm=Fin	0	root	_	start_char=11|end_char=15
 3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	start_char=16|end_char=19
 4	case	case	NOUN	NN	Number=Sing	2	obj	_	start_char=20|end_char=24
 5	!!	!!	PUNCT	.	_	2	punct	_	start_char=25|end_char=27
 
+# text = Performs exactly as advertised .
+# sent_id = 1
+# sentiment = 1
 1	Performs	perform	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=28|end_char=36
-2	exactly	exactly	ADV	RB	_	1	advmod	_	start_char=37|end_char=44
+2	exactly	exactly	ADV	RB	_	4	advmod	_	start_char=37|end_char=44
 3	as	as	SCONJ	IN	_	4	mark	_	start_char=45|end_char=47
 4	advertised	advertise	VERB	VBN	Tense=Past|VerbForm=Part	1	advcl	_	start_char=48|end_char=58
 5	.	.	PUNCT	.	_	1	punct	_	start_char=59|end_char=60
 
+# text = It's very sturdily built,and provides lots of boost .
+# sent_id = 2
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	start_char=61|end_char=63
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=63|end_char=65
 3	very	very	ADV	RB	_	4	advmod	_	start_char=66|end_char=70
@@ -23,32 +32,45 @@
 11	boost	boost	NOUN	NN	Number=Sing	9	nmod	_	start_char=108|end_char=113
 12	.	.	PUNCT	.	_	5	punct	_	start_char=114|end_char=115
 
+# text = It does exactly what it's supposed too .
+# sent_id = 3
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=116|end_char=118
-2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=119|end_char=123
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=119|end_char=123
 3	exactly	exactly	ADV	RB	_	4	advmod	_	start_char=124|end_char=131
 4	what	what	PRON	WP	PronType=Int	2	obj	_	start_char=132|end_char=136
 5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=137|end_char=139
 6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=139|end_char=141
-7	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	acl:relcl	_	start_char=142|end_char=150
+7	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=142|end_char=150
 8	too	too	ADV	RB	_	7	advmod	_	start_char=151|end_char=154
 9	.	.	PUNCT	.	_	2	punct	_	start_char=155|end_char=156
-10	Easy	easy	ADJ	JJ	Degree=Pos	2	parataxis	_	start_char=156|end_char=160
-11	to	to	PART	TO	_	12	mark	_	start_char=161|end_char=163
-12	insert	insert	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=164|end_char=170
-13	phone	phone	NOUN	NN	Number=Sing	12	obj	_	start_char=171|end_char=176
-14	in	in	ADP	IN	_	12	obl	_	start_char=177|end_char=179
-15	and	and	CCONJ	CC	_	16	cc	_	start_char=180|end_char=183
-16	out	out	ADP	RP	_	14	conj	_	start_char=184|end_char=187
-17	.	.	PUNCT	.	_	2	punct	_	start_char=188|end_char=189
 
+# text = Easy to insert phone in and out .
+# sent_id = 4
+# sentiment = 1
+1	Easy	easy	ADJ	JJ	Degree=Pos	0	root	_	start_char=156|end_char=160
+2	to	to	PART	TO	_	3	mark	_	start_char=161|end_char=163
+3	insert	insert	VERB	VB	VerbForm=Inf	1	csubj	_	start_char=164|end_char=170
+4	phone	phone	NOUN	NN	Number=Sing	3	obj	_	start_char=171|end_char=176
+5	in	in	ADV	RB	_	3	advmod	_	start_char=177|end_char=179
+6	and	and	CCONJ	CC	_	7	cc	_	start_char=180|end_char=183
+7	out	out	ADV	RB	_	5	conj	_	start_char=184|end_char=187
+8	.	.	PUNCT	.	_	1	punct	_	start_char=188|end_char=189
+
+# text = Definitely a 5 star experience.
+# sent_id = 5
+# sentiment = 2
 1	Definitely	definitely	ADV	RB	_	5	advmod	_	start_char=190|end_char=200
 2	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=201|end_char=202
-3	5	5	NUM	CD	NumType=Card	4	nummod	_	start_char=203|end_char=204
+3	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	_	start_char=203|end_char=204
 4	star	star	NOUN	NN	Number=Sing	5	compound	_	start_char=205|end_char=209
 5	experience	experience	NOUN	NN	Number=Sing	0	root	_	start_char=210|end_char=220
 6	.	.	PUNCT	.	_	5	punct	_	start_char=220|end_char=221
 
-1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=222|end_char=224
+# text = Don't know what I would do without this case LOVE LOVE LOVE it.
+# sent_id = 6
+# sentiment = 0
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=222|end_char=224
 2	n't	not	PART	RB	_	3	advmod	_	start_char=224|end_char=227
 3	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=228|end_char=232
 4	what	what	PRON	WP	PronType=Int	3	obj	_	start_char=233|end_char=237
@@ -58,9 +80,9 @@
 8	without	without	ADP	IN	_	10	case	_	start_char=249|end_char=256
 9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	start_char=257|end_char=261
 10	case	case	NOUN	NN	Number=Sing	7	obl	_	start_char=262|end_char=266
-11	LOVE	love	NOUN	NN	Number=Sing	12	compound	_	start_char=267|end_char=271
-12	LOVE	love	NOUN	NN	Number=Sing	13	nsubj	_	start_char=272|end_char=276
-13	LOVE	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=277|end_char=281
+11	LOVE	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=267|end_char=271
+12	LOVE	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	ccomp	_	start_char=272|end_char=276
+13	LOVE	love	VERB	VB	Mood=Ind|VerbForm=Fin	3	parataxis	_	start_char=277|end_char=281
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=282|end_char=284
 15	.	.	PUNCT	.	_	3	punct	_	start_char=284|end_char=285
 

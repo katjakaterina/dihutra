@@ -1,0 +1,104 @@
+# text = fender 18 ft. Cali clear...
+# sent_id = 0
+1	fender	fender	X	_	Foreign=Yes	0	root	_	start_char=0|end_char=6
+2	18	18	NUM	_	NumType=Card	1	nummod:entity	_	start_char=7|end_char=9
+3	ft	ft	X	_	Foreign=Yes	1	flat:foreign	_	start_char=10|end_char=12
+4	.	.	PUNCT	_	_	1	punct	_	start_char=12|end_char=13
+5	Cali	Cali	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=14|end_char=18
+6	clear	clear	X	_	Foreign=Yes	1	flat:foreign	_	start_char=19|end_char=24
+7	.	.	PUNCT	_	_	6	punct	_	start_char=24|end_char=25
+8	.	.	PUNCT	_	_	6	punct	_	start_char=25|end_char=26
+9	.	.	PUNCT	_	_	1	punct	_	start_char=26|end_char=27
+
+# text = Я хотел его только из-за внешнего вида...
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=28|end_char=29
+2	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=30|end_char=35
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=36|end_char=39
+4	только	только	PART	_	_	7	advmod	_	start_char=40|end_char=46
+5	из-за	из-за	ADP	_	_	7	case	_	start_char=47|end_char=52
+6	внешнего	внешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=53|end_char=61
+7	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=62|end_char=66
+8	.	.	PUNCT	_	_	7	punct	_	start_char=66|end_char=67
+9	.	.	PUNCT	_	_	7	punct	_	start_char=67|end_char=68
+10	.	.	PUNCT	_	_	2	punct	_	start_char=68|end_char=69
+
+# text = Это красивый шнур...
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=70|end_char=73
+2	красивый	красивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=74|end_char=82
+3	шнур	шнур	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=83|end_char=87
+4	.	.	PUNCT	_	_	3	punct	_	start_char=87|end_char=88
+5	.	.	PUNCT	_	_	3	punct	_	start_char=88|end_char=89
+6	.	.	PUNCT	_	_	3	punct	_	start_char=89|end_char=90
+
+# text = Я знаю, что он будет работать...
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=91|end_char=92
+2	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=93|end_char=97
+3	,	,	PUNCT	_	_	7	punct	_	start_char=97|end_char=98
+4	что	что	SCONJ	_	_	7	mark	_	start_char=99|end_char=102
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=103|end_char=105
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=106|end_char=111
+7	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	ccomp	_	start_char=112|end_char=120
+8	.	.	PUNCT	_	_	7	punct	_	start_char=120|end_char=121
+9	.	.	PUNCT	_	_	7	punct	_	start_char=121|end_char=122
+10	.	.	PUNCT	_	_	2	punct	_	start_char=122|end_char=123
+
+# text = Что касается Сэма Эша... этот шнур был упакован в почтовый пакет в другой коробке с моим Roc n Soc... его команда доставки делает отличную работу... никогда никаких жалоб от меня...
+# sent_id = 4
+1	Что	что	PRON	_	Case=Nom|PronType=Int,Rel	2	nsubj	_	start_char=124|end_char=127
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	start_char=128|end_char=136
+3	Сэма	Сэм	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=137|end_char=141
+4	Эша	Эша	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	start_char=142|end_char=145
+5	.	.	PUNCT	_	_	4	punct	_	start_char=145|end_char=146
+6	.	.	PUNCT	_	_	3	punct	_	start_char=146|end_char=147
+7	.	.	PUNCT	_	_	2	punct	_	start_char=147|end_char=148
+8	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=149|end_char=153
+9	шнур	шнур	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	start_char=154|end_char=158
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=159|end_char=162
+11	упакован	упаковать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=163|end_char=171
+12	в	в	ADP	_	_	14	case	_	start_char=172|end_char=173
+13	почтовый	почтовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=174|end_char=182
+14	пакет	пакет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=183|end_char=188
+15	в	в	ADP	_	_	17	case	_	start_char=189|end_char=190
+16	другой	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=191|end_char=197
+17	коробке	коробка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	start_char=198|end_char=205
+18	с	с	ADP	_	_	20	case	_	start_char=206|end_char=207
+19	моим	мой	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	start_char=208|end_char=212
+20	Roc	Roc	PROPN	_	Foreign=Yes	17	flat:foreign	_	start_char=213|end_char=216
+21	n	н-лат	PROPN	_	Foreign=Yes	20	flat:foreign	_	start_char=217|end_char=218
+22	Soc	Soc	PROPN	_	Foreign=Yes	20	flat:foreign	_	start_char=219|end_char=222
+23	.	.	PUNCT	_	_	22	punct	_	start_char=222|end_char=223
+24	.	.	PUNCT	_	_	22	punct	_	start_char=223|end_char=224
+25	.	.	PUNCT	_	_	29	punct	_	start_char=224|end_char=225
+26	его	его	DET	_	Poss=Yes|PronType=Prs	27	det	_	start_char=226|end_char=229
+27	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	start_char=230|end_char=237
+28	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	start_char=238|end_char=246
+29	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	start_char=247|end_char=253
+30	отличную	отличный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=254|end_char=262
+31	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	start_char=263|end_char=269
+32	.	.	PUNCT	_	_	31	punct	_	start_char=269|end_char=270
+33	.	.	PUNCT	_	_	31	punct	_	start_char=270|end_char=271
+34	.	.	PUNCT	_	_	31	punct	_	start_char=271|end_char=272
+35	никогда	никогда	ADV	_	Degree=Pos	29	advmod	_	start_char=273|end_char=280
+36	никаких	никакой	DET	_	Case=Gen|Number=Plur|PronType=Neg	37	det	_	start_char=281|end_char=288
+37	жалоб	жалоба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	obl	_	start_char=289|end_char=294
+38	от	от	ADP	_	_	39	case	_	start_char=295|end_char=297
+39	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	37	nmod	_	start_char=298|end_char=302
+40	.	.	PUNCT	_	_	39	punct	_	start_char=302|end_char=303
+41	.	.	PUNCT	_	_	39	punct	_	start_char=303|end_char=304
+42	.	.	PUNCT	_	_	29	punct	_	start_char=304|end_char=305
+
+# text = Я люблю Сэма Эша... спасибо Amazon
+# sent_id = 5
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=306|end_char=307
+2	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=308|end_char=313
+3	Сэма	Сэм	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=314|end_char=318
+4	Эша	Эша	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	flat:name	_	start_char=319|end_char=322
+5	.	.	PUNCT	_	_	4	punct	_	start_char=322|end_char=323
+6	.	.	PUNCT	_	_	4	punct	_	start_char=323|end_char=324
+7	.	.	PUNCT	_	_	8	punct	_	start_char=324|end_char=325
+8	спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	start_char=326|end_char=333
+9	Amazon	Amazon	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=334|end_char=340
+

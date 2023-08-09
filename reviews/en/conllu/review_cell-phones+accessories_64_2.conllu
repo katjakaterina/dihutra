@@ -1,15 +1,18 @@
-1	Loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=0|end_char=5
+# text = Loved it at first I loved the case when I first received it but shortly after, the case started to peel off at first i did not know what it was until i looked on the back of the case and it was missing spots.
+# sent_id = 0
+# sentiment = 0
+1	Loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=0|end_char=5
 2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=6|end_char=8
 3	at	at	ADP	IN	_	4	case	_	start_char=9|end_char=11
-4	first	first	ADV	RB	_	1	obl	_	start_char=12|end_char=17
+4	first	first	ADV	RB	NumType=Ord	1	obl	_	start_char=12|end_char=17
 5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=18|end_char=19
-6	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	start_char=20|end_char=25
+6	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	parataxis	_	start_char=20|end_char=25
 7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=26|end_char=29
 8	case	case	NOUN	NN	Number=Sing	6	obj	_	start_char=30|end_char=34
-9	when	when	SCONJ	WRB	PronType=Int	12	mark	_	start_char=35|end_char=39
+9	when	when	ADV	WRB	PronType=Int	12	advmod	_	start_char=35|end_char=39
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=40|end_char=41
-11	first	first	ADV	RB	_	12	advmod	_	start_char=42|end_char=47
-12	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	start_char=48|end_char=56
+11	first	first	ADV	RB	NumType=Ord	12	advmod	_	start_char=42|end_char=47
+12	received	receive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	advcl	_	start_char=48|end_char=56
 13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=57|end_char=59
 14	but	but	CCONJ	CC	_	20	cc	_	start_char=60|end_char=63
 15	shortly	shortly	ADV	RB	_	16	advmod	_	start_char=64|end_char=71
@@ -17,35 +20,38 @@
 17	,	,	PUNCT	,	_	20	punct	_	start_char=77|end_char=78
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=79|end_char=82
 19	case	case	NOUN	NN	Number=Sing	20	nsubj	_	start_char=83|end_char=87
-20	started	start	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	start_char=88|end_char=95
+20	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	conj	_	start_char=88|end_char=95
 21	to	to	PART	TO	_	22	mark	_	start_char=96|end_char=98
 22	peel	peel	VERB	VB	VerbForm=Inf	20	xcomp	_	start_char=99|end_char=103
 23	off	off	ADP	RP	_	22	compound:prt	_	start_char=104|end_char=107
 24	at	at	ADP	IN	_	25	case	_	start_char=108|end_char=110
-25	first	first	ADV	RB	_	22	obl	_	start_char=111|end_char=116
+25	first	first	ADV	RB	NumType=Ord	22	obl	_	start_char=111|end_char=116
 26	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=117|end_char=118
-27	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	aux	_	start_char=119|end_char=122
+27	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	29	aux	_	start_char=119|end_char=122
 28	not	not	PART	RB	_	29	advmod	_	start_char=123|end_char=126
-29	know	know	VERB	VB	VerbForm=Inf	6	conj	_	start_char=127|end_char=131
-30	what	what	PRON	WP	PronType=Int	29	obj	_	start_char=132|end_char=136
-31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	start_char=137|end_char=139
-32	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	start_char=140|end_char=143
+29	know	know	VERB	VB	VerbForm=Inf	20	parataxis	_	start_char=127|end_char=131
+30	what	what	PRON	WP	PronType=Int	29	ccomp	_	start_char=132|end_char=136
+31	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	start_char=137|end_char=139
+32	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	cop	_	start_char=140|end_char=143
 33	until	until	SCONJ	IN	_	35	mark	_	start_char=144|end_char=149
 34	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	start_char=150|end_char=151
-35	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	advcl	_	start_char=152|end_char=158
+35	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	29	advcl	_	start_char=152|end_char=158
 36	on	on	ADP	IN	_	38	case	_	start_char=159|end_char=161
 37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	start_char=162|end_char=165
 38	back	back	NOUN	NN	Number=Sing	35	obl	_	start_char=166|end_char=170
 39	of	of	ADP	IN	_	41	case	_	start_char=171|end_char=173
 40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	start_char=174|end_char=177
 41	case	case	NOUN	NN	Number=Sing	38	nmod	_	start_char=178|end_char=182
-42	and	and	CCONJ	CC	_	45	cc	_	start_char=183|end_char=186
-43	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	start_char=187|end_char=189
+42	and	and	CCONJ	CC	_	46	cc	_	start_char=183|end_char=186
+43	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	start_char=187|end_char=189
 44	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	aux	_	start_char=190|end_char=193
-45	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part	35	conj	_	start_char=194|end_char=201
+45	missing	miss	VERB	VBG	Tense=Pres|VerbForm=Part	1	conj	_	start_char=194|end_char=201
 46	spots	spot	NOUN	NNS	Number=Plur	45	obj	_	start_char=202|end_char=207
 47	.	.	PUNCT	.	_	1	punct	_	start_char=207|end_char=208
 
+# text = Guess sometimes a good deal is not really a good deal.
+# sent_id = 1
+# sentiment = 1
 1	Guess	guess	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=209|end_char=214
 2	sometimes	sometimes	ADV	RB	_	11	advmod	_	start_char=215|end_char=224
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=225|end_char=226
@@ -59,6 +65,9 @@
 11	deal	deal	NOUN	NN	Number=Sing	1	ccomp	_	start_char=258|end_char=262
 12	.	.	PUNCT	.	_	1	punct	_	start_char=262|end_char=263
 
+# text = would not purchase.
+# sent_id = 2
+# sentiment = 1
 1	would	would	AUX	MD	VerbForm=Fin	3	aux	_	start_char=263|end_char=268
 2	not	not	PART	RB	_	3	advmod	_	start_char=269|end_char=272
 3	purchase	purchase	VERB	VB	VerbForm=Inf	0	root	_	start_char=273|end_char=281

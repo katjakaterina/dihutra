@@ -1,42 +1,54 @@
-1	One	one	NUM	CD	NumType=Card	0	root	_	start_char=0|end_char=3
+# text = One of my favorite Christmas movies!
+# sent_id = 0
+# sentiment = 2
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	root	_	start_char=0|end_char=3
 2	of	of	ADP	IN	_	6	case	_	start_char=4|end_char=6
-3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=7|end_char=9
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=7|end_char=9
 4	favorite	favorite	ADJ	JJ	Degree=Pos	6	amod	_	start_char=10|end_char=18
 5	Christmas	Christmas	PROPN	NNP	Number=Sing	6	compound	_	start_char=19|end_char=28
 6	movies	movie	NOUN	NNS	Number=Plur	1	nmod	_	start_char=29|end_char=35
 7	!	!	PUNCT	.	_	1	punct	_	start_char=35|end_char=36
 
+# text = Ignore some of the more negative reviews on here.
+# sent_id = 1
+# sentiment = 0
 1	Ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=37|end_char=43
 2	some	some	DET	DT	_	1	obj	_	start_char=44|end_char=48
 3	of	of	ADP	IN	_	7	case	_	start_char=49|end_char=51
 4	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=52|end_char=55
-5	more	more	ADV	RBR	_	6	advmod	_	start_char=56|end_char=60
+5	more	more	ADV	RBR	Degree=Cmp	6	advmod	_	start_char=56|end_char=60
 6	negative	negative	ADJ	JJ	Degree=Pos	7	amod	_	start_char=61|end_char=69
 7	reviews	review	NOUN	NNS	Number=Plur	2	nmod	_	start_char=70|end_char=77
 8	on	on	ADP	IN	_	9	case	_	start_char=78|end_char=80
 9	here	here	ADV	RB	PronType=Dem	1	obl	_	start_char=81|end_char=85
 10	.	.	PUNCT	.	_	1	punct	_	start_char=85|end_char=86
 
-1	This	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=87|end_char=91
-2	made	make	VERB	VBN	Tense=Past|VerbForm=Part	1	acl	_	start_char=92|end_char=96
+# text = This made for TV movie really touches me every time I watch it; which is every Christmas.
+# sent_id = 2
+# sentiment = 2
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	start_char=87|end_char=91
+2	made	make	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	start_char=92|end_char=96
 3	for	for	ADP	IN	_	5	case	_	start_char=97|end_char=100
 4	TV	tv	NOUN	NN	Number=Sing	5	compound	_	start_char=101|end_char=103
 5	movie	movie	NOUN	NN	Number=Sing	2	obl	_	start_char=104|end_char=109
 6	really	really	ADV	RB	_	7	advmod	_	start_char=110|end_char=116
-7	touches	touch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=117|end_char=124
+7	touches	touch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=117|end_char=124
 8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	start_char=125|end_char=127
 9	every	every	DET	DT	_	10	det	_	start_char=128|end_char=133
 10	time	time	NOUN	NN	Number=Sing	7	obl:tmod	_	start_char=134|end_char=138
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=139|end_char=140
-12	watch	watch	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=141|end_char=146
+12	watch	watch	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=141|end_char=146
 13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=147|end_char=149
-14	;	;	PUNCT	,	_	7	punct	_	start_char=149|end_char=150
+14	;	;	PUNCT	,	_	18	punct	_	start_char=149|end_char=150
 15	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	start_char=151|end_char=156
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=157|end_char=159
 17	every	every	DET	DT	_	18	det	_	start_char=160|end_char=165
-18	Christmas	Christmas	PROPN	NNP	Number=Sing	12	parataxis	_	start_char=166|end_char=175
-19	.	.	PUNCT	.	_	7	punct	_	start_char=175|end_char=176
+18	Christmas	Christmas	PROPN	NNP	Number=Sing	10	acl:relcl	_	start_char=166|end_char=175
+19	.	.	PUNCT	.	_	2	punct	_	start_char=175|end_char=176
 
+# text = The acting is splendid and the story is well written.
+# sent_id = 3
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=176|end_char=179
 2	acting	acting	NOUN	NN	Number=Sing	4	nsubj	_	start_char=180|end_char=186
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=187|end_char=189
@@ -49,6 +61,9 @@
 10	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	start_char=221|end_char=228
 11	.	.	PUNCT	.	_	4	punct	_	start_char=228|end_char=229
 
+# text = It is suitable for the entire family and it gives a good picture of the depression era of our country.
+# sent_id = 4
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=230|end_char=232
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=233|end_char=235
 3	suitable	suitable	ADJ	JJ	Degree=Pos	0	root	_	start_char=236|end_char=244
@@ -67,7 +82,7 @@
 16	depression	depression	NOUN	NN	Number=Sing	17	compound	_	start_char=302|end_char=312
 17	era	era	NOUN	NN	Number=Sing	13	nmod	_	start_char=313|end_char=316
 18	of	of	ADP	IN	_	20	case	_	start_char=317|end_char=319
-19	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=320|end_char=323
+19	our	we	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=320|end_char=323
 20	country	country	NOUN	NN	Number=Sing	17	nmod	_	start_char=324|end_char=331
 21	.	.	PUNCT	.	_	3	punct	_	start_char=331|end_char=332
 

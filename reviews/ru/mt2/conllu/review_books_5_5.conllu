@@ -1,0 +1,83 @@
+# text = Я был разочарован тем, что вы позволили мне приобрести только 4 штуки, в то время как на складе было 14 штук.
+# sent_id = 0
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=1
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=2|end_char=5
+3	разочарован	разочарованный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=6|end_char=17
+4	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	start_char=18|end_char=21
+5	,	,	PUNCT	_	_	8	punct	_	start_char=21|end_char=22
+6	что	что	SCONJ	_	_	8	mark	_	start_char=23|end_char=26
+7	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	start_char=27|end_char=29
+8	позволили	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	start_char=30|end_char=39
+9	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	start_char=40|end_char=43
+10	приобрести	приобрести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=44|end_char=54
+11	только	только	PART	_	_	12	advmod	_	start_char=55|end_char=61
+12	4	4	NUM	_	NumType=Card	13	nummod	_	start_char=62|end_char=63
+13	штуки	штука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	start_char=64|end_char=69
+14	,	,	PUNCT	_	_	21	punct	_	start_char=69|end_char=70
+15	в	в	ADP	_	_	21	cc	_	start_char=71|end_char=72
+16	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	fixed	_	start_char=73|end_char=75
+17	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	start_char=76|end_char=81
+18	как	как	SCONJ	_	_	15	fixed	_	start_char=82|end_char=85
+19	на	на	ADP	_	_	20	case	_	start_char=86|end_char=88
+20	складе	склад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	start_char=89|end_char=95
+21	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=96|end_char=100
+22	14	14	NUM	_	NumType=Card	23	nummod	_	start_char=101|end_char=103
+23	штук	штука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nsubj	_	start_char=104|end_char=108
+24	.	.	PUNCT	_	_	3	punct	_	start_char=108|end_char=109
+
+# text = У нас много старых, старых выпусков.
+# sent_id = 1
+1	У	у	ADP	_	_	2	case	_	start_char=110|end_char=111
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	0	root	_	start_char=112|end_char=115
+3	много	много	ADV	_	Degree=Pos	2	nsubj	_	start_char=116|end_char=121
+4	старых	старый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=122|end_char=128
+5	,	,	PUNCT	_	_	6	punct	_	start_char=128|end_char=129
+6	старых	старый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	conj	_	start_char=130|end_char=136
+7	выпусков	выпуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=137|end_char=145
+8	.	.	PUNCT	_	_	2	punct	_	start_char=145|end_char=146
+
+# text = Но их количество истощилось.
+# sent_id = 2
+1	Но	но	CCONJ	_	_	4	cc	_	start_char=147|end_char=149
+2	их	их	DET	_	Poss=Yes|PronType=Prs	3	det	_	start_char=150|end_char=152
+3	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=153|end_char=163
+4	истощилось	истощиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=164|end_char=174
+5	.	.	PUNCT	_	_	4	punct	_	start_char=174|end_char=175
+
+# text = Книг не хватало, чтобы мы могли использовать их регулярно.
+# sent_id = 3
+1	Книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nsubj	_	start_char=176|end_char=180
+2	не	не	PART	_	_	3	advmod	_	start_char=181|end_char=183
+3	хватало	хватать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=184|end_char=191
+4	,	,	PUNCT	_	_	7	punct	_	start_char=191|end_char=192
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	start_char=193|end_char=198
+6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=199|end_char=201
+7	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=202|end_char=207
+8	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=208|end_char=220
+9	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	start_char=221|end_char=223
+10	регулярно	регулярно	ADV	_	Degree=Pos	8	advmod	_	start_char=224|end_char=233
+11	.	.	PUNCT	_	_	3	punct	_	start_char=233|end_char=234
+
+# text = С дополнительной поставкой книги будут использоваться чаще.
+# sent_id = 4
+1	С	с	ADP	_	_	3	case	_	start_char=235|end_char=236
+2	дополнительной	дополнительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=237|end_char=251
+3	поставкой	поставка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	start_char=252|end_char=261
+4	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=262|end_char=267
+5	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=268|end_char=273
+6	использоваться	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	start_char=274|end_char=288
+7	чаще	часто	ADV	_	Degree=Cmp	6	advmod	_	start_char=289|end_char=293
+8	.	.	PUNCT	_	_	6	punct	_	start_char=293|end_char=294
+
+# text = Они являются старым добрым подспорьем для пения госпела.
+# sent_id = 5
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=295|end_char=298
+2	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=299|end_char=307
+3	старым	старый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=308|end_char=314
+4	добрым	добрый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=315|end_char=321
+5	подспорьем	подспорье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	start_char=322|end_char=332
+6	для	для	ADP	_	_	7	case	_	start_char=333|end_char=336
+7	пения	пение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=337|end_char=342
+8	госпела	госпел	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=343|end_char=350
+9	.	.	PUNCT	_	_	2	punct	_	start_char=350|end_char=351
+

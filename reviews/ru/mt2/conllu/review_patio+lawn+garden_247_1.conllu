@@ -1,0 +1,97 @@
+# text = Перекрученный шланг с отслоившимся винилом - возврат!
+# sent_id = 0
+1	Перекрученный	перекручить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	start_char=0|end_char=13
+2	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=14|end_char=19
+3	с	с	ADP	_	_	5	case	_	start_char=20|end_char=21
+4	отслоившимся	отслоиться	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	amod	_	start_char=22|end_char=34
+5	винилом	винил	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	start_char=35|end_char=42
+6	-	-	PUNCT	_	_	7	punct	_	start_char=43|end_char=44
+7	возврат	возврат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=45|end_char=52
+8	!	!	PUNCT	_	_	7	punct	_	start_char=52|end_char=53
+
+# text = Прежде чем купить этот шланг, я прочитал отзывы других пользователей, у которых были аналогичные проблемы.
+# sent_id = 1
+1	Прежде	прежде	ADV	_	Degree=Pos	3	mark	_	start_char=54|end_char=60
+2	чем	чем	SCONJ	_	_	1	fixed	_	start_char=61|end_char=64
+3	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	start_char=65|end_char=71
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=72|end_char=76
+5	шланг	шланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=77|end_char=82
+6	,	,	PUNCT	_	_	3	punct	_	start_char=82|end_char=83
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=84|end_char=85
+8	прочитал	читать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=86|end_char=94
+9	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=95|end_char=101
+10	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=102|end_char=108
+11	пользователей	пользователь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=109|end_char=122
+12	,	,	PUNCT	_	_	15	punct	_	start_char=122|end_char=123
+13	у	у	ADP	_	_	14	case	_	start_char=124|end_char=125
+14	которых	который	PRON	_	Case=Gen|PronType=Int,Rel	11	acl:relcl	_	start_char=126|end_char=133
+15	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	start_char=134|end_char=138
+16	аналогичные	аналогичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	start_char=139|end_char=150
+17	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=151|end_char=159
+18	.	.	PUNCT	_	_	8	punct	_	start_char=159|end_char=160
+
+# text = Я также читал отзывы, в которых этот шланг описывался с восторгом.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=161|end_char=162
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=163|end_char=168
+3	читал	читать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=169|end_char=174
+4	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=175|end_char=181
+5	,	,	PUNCT	_	_	10	punct	_	start_char=181|end_char=182
+6	в	в	ADP	_	_	7	case	_	start_char=183|end_char=184
+7	которых	который	PRON	_	Case=Loc|PronType=Int,Rel	10	obl	_	start_char=185|end_char=192
+8	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=193|end_char=197
+9	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	start_char=198|end_char=203
+10	описывался	описывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	start_char=204|end_char=214
+11	с	с	ADP	_	_	12	case	_	start_char=215|end_char=216
+12	восторгом	восторг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	start_char=217|end_char=226
+13	.	.	PUNCT	_	_	3	punct	_	start_char=226|end_char=227
+
+# text = Поскольку эти шланги изготавливаются из остатков, я полагаю, что это вопрос удачи, какой шланг вам попадется.
+# sent_id = 3
+1	Поскольку	поскольку	SCONJ	_	_	4	mark	_	start_char=228|end_char=237
+2	эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	3	det	_	start_char=238|end_char=241
+3	шланги	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	start_char=242|end_char=248
+4	изготавливаются	изготовлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	start_char=249|end_char=264
+5	из	из	ADP	_	_	6	case	_	start_char=265|end_char=267
+6	остатков	остатки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=268|end_char=276
+7	,	,	PUNCT	_	_	4	punct	_	start_char=276|end_char=277
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=278|end_char=279
+9	полагаю	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=280|end_char=287
+10	,	,	PUNCT	_	_	13	punct	_	start_char=287|end_char=288
+11	что	что	SCONJ	_	_	13	mark	_	start_char=289|end_char=292
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=293|end_char=296
+13	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	ccomp	_	start_char=297|end_char=303
+14	удачи	удача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=304|end_char=309
+15	,	,	PUNCT	_	_	19	punct	_	start_char=309|end_char=310
+16	какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	det	_	start_char=311|end_char=316
+17	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=317|end_char=322
+18	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	19	iobj	_	start_char=323|end_char=326
+19	попадется	попасться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	13	conj	_	start_char=327|end_char=336
+20	.	.	PUNCT	_	_	9	punct	_	start_char=336|end_char=337
+
+# text = Мне не повезло.
+# sent_id = 4
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=338|end_char=341
+2	не	не	PART	_	_	3	advmod	_	start_char=342|end_char=344
+3	повезло	везти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=345|end_char=352
+4	.	.	PUNCT	_	_	3	punct	_	start_char=352|end_char=353
+
+# text = Шланг постоянно перегибался, а на виниловой коже появились пузырьки, которые отделялись от шланга.
+# sent_id = 5
+1	Шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=354|end_char=359
+2	постоянно	постоянно	ADV	_	Degree=Pos	3	advmod	_	start_char=360|end_char=369
+3	перегибался	перегибаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=370|end_char=381
+4	,	,	PUNCT	_	_	9	punct	_	start_char=381|end_char=382
+5	а	а	CCONJ	_	_	9	cc	_	start_char=383|end_char=384
+6	на	на	ADP	_	_	8	case	_	start_char=385|end_char=387
+7	виниловой	виниловый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=388|end_char=397
+8	коже	кожа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=398|end_char=402
+9	появились	появиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=403|end_char=412
+10	пузырьки	пузырек	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	start_char=413|end_char=421
+11	,	,	PUNCT	_	_	13	punct	_	start_char=421|end_char=422
+12	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	13	nsubj	_	start_char=423|end_char=430
+13	отделялись	отделяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	10	acl:relcl	_	start_char=431|end_char=441
+14	от	от	ADP	_	_	15	case	_	start_char=442|end_char=444
+15	шланга	шланг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	start_char=445|end_char=451
+16	.	.	PUNCT	_	_	3	punct	_	start_char=451|end_char=452
+

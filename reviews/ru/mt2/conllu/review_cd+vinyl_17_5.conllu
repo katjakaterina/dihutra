@@ -1,0 +1,65 @@
+# text = Помазанник!
+# sent_id = 0
+1	Помазанник	помазанник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=10
+2	!	!	PUNCT	_	_	1	punct	_	start_char=10|end_char=11
+
+# text = Мне нравятся песни этого альбома и то, что Кит снова сосредоточил все внимание на Добром Пастыре, нашем Господе Иисусе.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=12|end_char=15
+2	нравятся	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=16|end_char=24
+3	песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=25|end_char=30
+4	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=31|end_char=36
+5	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=37|end_char=44
+6	и	и	CCONJ	_	_	7	cc	_	start_char=45|end_char=46
+7	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	conj	_	start_char=47|end_char=49
+8	,	,	PUNCT	_	_	12	punct	_	start_char=49|end_char=50
+9	что	что	SCONJ	_	_	12	mark	_	start_char=51|end_char=54
+10	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=55|end_char=58
+11	снова	снова	ADV	_	Degree=Pos	12	advmod	_	start_char=59|end_char=64
+12	сосредоточил	сосредоточить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	_	start_char=65|end_char=77
+13	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	det	_	start_char=78|end_char=81
+14	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=82|end_char=90
+15	на	на	ADP	_	_	17	case	_	start_char=91|end_char=93
+16	Добром	добрый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=94|end_char=100
+17	Пастыре	Пастыр	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=101|end_char=108
+18	,	,	PUNCT	_	_	20	punct	_	start_char=108|end_char=109
+19	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	start_char=110|end_char=115
+20	Господе	Господи	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	17	appos	_	start_char=116|end_char=123
+21	Иисусе	Иисус	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	20	appos	_	start_char=124|end_char=130
+22	.	.	PUNCT	_	_	2	punct	_	start_char=130|end_char=131
+
+# text = Песни неподвластны времени, помазание свежо даже спустя столько лет после их написания.
+# sent_id = 2
+1	Песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=132|end_char=137
+2	неподвластны	неподвластный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=138|end_char=150
+3	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	iobj	_	start_char=151|end_char=158
+4	,	,	PUNCT	_	_	6	punct	_	start_char=158|end_char=159
+5	помазание	помазание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=160|end_char=169
+6	свежо	свежий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	conj	_	start_char=170|end_char=175
+7	даже	даже	PART	_	_	10	advmod	_	start_char=176|end_char=180
+8	спустя	спустя	ADP	_	_	10	case	_	start_char=181|end_char=187
+9	столько	столько	NUM	_	Case=Acc|NumType=Card	10	nummod:gov	_	start_char=188|end_char=195
+10	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=196|end_char=199
+11	после	после	ADP	_	_	13	case	_	start_char=200|end_char=205
+12	их	их	DET	_	Poss=Yes|PronType=Prs	13	det	_	start_char=206|end_char=208
+13	написания	написание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=209|end_char=218
+14	.	.	PUNCT	_	_	2	punct	_	start_char=218|end_char=219
+
+# text = Я думаю, что это верный признак помазания - видеть, что плоды остаются.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=220|end_char=221
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=222|end_char=227
+3	,	,	PUNCT	_	_	7	punct	_	start_char=227|end_char=228
+4	что	что	SCONJ	_	_	7	mark	_	start_char=229|end_char=232
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=233|end_char=236
+6	верный	верный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=237|end_char=243
+7	признак	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	start_char=244|end_char=251
+8	помазания	помазание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=252|end_char=261
+9	-	-	PUNCT	_	_	10	punct	_	start_char=262|end_char=263
+10	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	parataxis	_	start_char=264|end_char=270
+11	,	,	PUNCT	_	_	14	punct	_	start_char=270|end_char=271
+12	что	что	SCONJ	_	_	14	mark	_	start_char=272|end_char=275
+13	плоды	плод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=276|end_char=281
+14	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	ccomp	_	start_char=282|end_char=290
+15	.	.	PUNCT	_	_	2	punct	_	start_char=290|end_char=291
+

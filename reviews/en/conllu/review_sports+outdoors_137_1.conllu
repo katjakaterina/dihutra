@@ -1,55 +1,70 @@
+# text = Missing parts, Cheaply made
+# sent_id = 0
+# sentiment = 1
 1	Missing	miss	VERB	VBG	VerbForm=Ger	2	amod	_	start_char=0|end_char=7
 2	parts	part	NOUN	NNS	Number=Plur	0	root	_	start_char=8|end_char=13
-3	,	,	PUNCT	,	_	2	punct	_	start_char=13|end_char=14
+3	,	,	PUNCT	,	_	5	punct	_	start_char=13|end_char=14
 4	Cheaply	cheaply	ADV	RB	_	5	advmod	_	start_char=15|end_char=22
-5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	start_char=23|end_char=27
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	start_char=23|end_char=27
 
-1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=28|end_char=30
+# text = My kit arrived with parts missing.
+# sent_id = 1
+# sentiment = 0
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=28|end_char=30
 2	kit	kit	NOUN	NN	Number=Sing	3	nsubj	_	start_char=31|end_char=34
-3	arrived	arrive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=35|end_char=42
+3	arrived	arrive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=35|end_char=42
 4	with	with	ADP	IN	_	5	case	_	start_char=43|end_char=47
 5	parts	part	NOUN	NNS	Number=Plur	3	obl	_	start_char=48|end_char=53
 6	missing	miss	VERB	VBG	VerbForm=Ger	3	advcl	_	start_char=54|end_char=61
 7	.	.	PUNCT	.	_	3	punct	_	start_char=61|end_char=62
 
-1	Everything	everything	PRON	NN	Number=Sing	4	nsubj	_	start_char=63|end_char=73
+# text = Everything was in disarray, with just a few parts resting in their spots.
+# sent_id = 2
+# sentiment = 0
+1	Everything	everything	PRON	NN	Number=Sing|PronType=Tot	4	nsubj	_	start_char=63|end_char=73
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	start_char=74|end_char=77
 3	in	in	ADP	IN	_	4	case	_	start_char=78|end_char=80
 4	disarray	disarray	NOUN	NN	Number=Sing	0	root	_	start_char=81|end_char=89
 5	,	,	PUNCT	,	_	4	punct	_	start_char=89|end_char=90
-6	with	with	ADP	IN	_	10	case	_	start_char=91|end_char=95
+6	with	with	SCONJ	IN	_	11	mark	_	start_char=91|end_char=95
 7	just	just	ADV	RB	_	10	advmod	_	start_char=96|end_char=100
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=101|end_char=102
 9	few	few	ADJ	JJ	Degree=Pos	10	amod	_	start_char=103|end_char=106
-10	parts	part	NOUN	NNS	Number=Plur	4	obl	_	start_char=107|end_char=112
-11	resting	rest	VERB	VBG	VerbForm=Ger	10	acl	_	start_char=113|end_char=120
+10	parts	part	NOUN	NNS	Number=Plur	11	nsubj	_	start_char=107|end_char=112
+11	resting	rest	VERB	VBG	VerbForm=Ger	4	advcl	_	start_char=113|end_char=120
 12	in	in	ADP	IN	_	14	case	_	start_char=121|end_char=123
-13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=124|end_char=129
+13	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=124|end_char=129
 14	spots	spot	NOUN	NNS	Number=Plur	11	obl	_	start_char=130|end_char=135
 15	.	.	PUNCT	.	_	4	punct	_	start_char=135|end_char=136
 
+# text = After inspecting it and putting everything back where it belongs, I opted to send it back.
+# sent_id = 3
+# sentiment = 1
 1	After	after	SCONJ	IN	_	2	mark	_	start_char=137|end_char=142
 2	inspecting	inspect	VERB	VBG	VerbForm=Ger	13	advcl	_	start_char=143|end_char=153
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=154|end_char=156
 4	and	and	CCONJ	CC	_	5	cc	_	start_char=157|end_char=160
 5	putting	put	VERB	VBG	VerbForm=Ger	2	conj	_	start_char=161|end_char=168
-6	everything	everything	PRON	NN	Number=Sing	5	obj	_	start_char=169|end_char=179
+6	everything	everything	PRON	NN	Number=Sing|PronType=Tot	5	obj	_	start_char=169|end_char=179
 7	back	back	ADV	RB	_	5	advmod	_	start_char=180|end_char=184
-8	where	where	SCONJ	WRB	PronType=Int	10	mark	_	start_char=185|end_char=190
+8	where	where	ADV	WRB	PronType=Int	10	advmod	_	start_char=185|end_char=190
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=191|end_char=193
 10	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=194|end_char=201
-11	,	,	PUNCT	,	_	13	punct	_	start_char=201|end_char=202
+11	,	,	PUNCT	,	_	2	punct	_	start_char=201|end_char=202
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=203|end_char=204
-13	opted	opt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=205|end_char=210
+13	opted	opt	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=205|end_char=210
 14	to	to	PART	TO	_	15	mark	_	start_char=211|end_char=213
 15	send	send	VERB	VB	VerbForm=Inf	13	xcomp	_	start_char=214|end_char=218
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=219|end_char=221
 17	back	back	ADV	RB	_	15	advmod	_	start_char=222|end_char=226
 18	.	.	PUNCT	.	_	13	punct	_	start_char=226|end_char=227
 
+# text = The parts feel chintzy and overall looks like a cheap kit.
+# sent_id = 4
+# sentiment = 0
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=228|end_char=231
 2	parts	part	NOUN	NNS	Number=Plur	3	nsubj	_	start_char=232|end_char=237
-3	feel	feel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=238|end_char=242
+3	feel	feel	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=238|end_char=242
 4	chintzy	chintzy	ADJ	JJ	Degree=Pos	3	xcomp	_	start_char=243|end_char=250
 5	and	and	CCONJ	CC	_	7	cc	_	start_char=251|end_char=254
 6	overall	overall	ADV	RB	_	7	advmod	_	start_char=255|end_char=262
@@ -60,8 +75,11 @@
 11	kit	kit	NOUN	NN	Number=Sing	7	obl	_	start_char=283|end_char=286
 12	.	.	PUNCT	.	_	3	punct	_	start_char=286|end_char=287
 
+# text = I didn't even try to use it...just packed it up and sent it back.
+# sent_id = 5
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=288|end_char=289
-2	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	start_char=290|end_char=293
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	start_char=290|end_char=293
 3	n't	not	PART	RB	_	5	advmod	_	start_char=293|end_char=296
 4	even	even	ADV	RB	_	5	advmod	_	start_char=297|end_char=301
 5	try	try	VERB	VB	VerbForm=Inf	0	root	_	start_char=302|end_char=305
@@ -70,16 +88,19 @@
 8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=313|end_char=315
 9	...	...	PUNCT	,	_	5	punct	_	start_char=315|end_char=318
 10	just	just	ADV	RB	_	11	advmod	_	start_char=318|end_char=322
-11	packed	pack	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=323|end_char=329
+11	packed	pack	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=323|end_char=329
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=330|end_char=332
 13	up	up	ADP	RP	_	11	compound:prt	_	start_char=333|end_char=335
 14	and	and	CCONJ	CC	_	15	cc	_	start_char=336|end_char=339
-15	sent	send	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	start_char=340|end_char=344
+15	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	conj	_	start_char=340|end_char=344
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=345|end_char=347
 17	back	back	ADV	RB	_	15	advmod	_	start_char=348|end_char=352
 18	.	.	PUNCT	.	_	5	punct	_	start_char=352|end_char=353
 
-1	What	what	PRON	WP	PronType=Int	3	det:predet	_	start_char=354|end_char=358
+# text = What a disappointment.
+# sent_id = 6
+# sentiment = 0
+1	What	what	DET	WDT	PronType=Int	3	det:predet	_	start_char=354|end_char=358
 2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	start_char=359|end_char=360
 3	disappointment	disappointment	NOUN	NN	Number=Sing	0	root	_	start_char=361|end_char=375
 4	.	.	PUNCT	.	_	3	punct	_	start_char=375|end_char=376

@@ -1,0 +1,67 @@
+# text = Кит Грин - актуальность на века Хотя прошло уже более трех десятилетий с тех пор, как Кит покинул эту жизнь, его музыка до сих пор не теряет своей актуальности.
+# sent_id = 0
+1	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=3
+2	Грин	Грин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=4|end_char=8
+3	-	-	PUNCT	_	_	1	punct	_	start_char=9|end_char=10
+4	актуальность	актуальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=23
+5	на	на	ADP	_	_	6	case	_	start_char=24|end_char=26
+6	века	век	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	start_char=27|end_char=31
+7	Хотя	хотя	SCONJ	_	_	8	mark	_	start_char=32|end_char=36
+8	прошло	пройти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=37|end_char=43
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	start_char=44|end_char=47
+10	более	более	ADV	_	Degree=Cmp	8	nsubj	_	start_char=48|end_char=53
+11	трех	три	NUM	_	Case=Gen|NumType=Card	12	nummod	_	start_char=54|end_char=58
+12	десятилетий	десятилетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	start_char=59|end_char=70
+13	с	с	ADP	_	_	19	mark	_	start_char=71|end_char=72
+14	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	13	fixed	_	start_char=73|end_char=76
+15	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	fixed	_	start_char=77|end_char=80
+16	,	,	PUNCT	_	_	13	punct	_	start_char=80|end_char=81
+17	как	как	SCONJ	_	_	13	fixed	_	start_char=82|end_char=85
+18	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=86|end_char=89
+19	покинул	покинуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=90|end_char=97
+20	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	start_char=98|end_char=101
+21	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=102|end_char=107
+22	,	,	PUNCT	_	_	29	punct	_	start_char=107|end_char=108
+23	его	его	DET	_	Poss=Yes|PronType=Prs	24	det	_	start_char=109|end_char=112
+24	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	start_char=113|end_char=119
+25	до	до	ADP	_	_	29	advmod	_	start_char=120|end_char=122
+26	сих	сей	DET	_	Case=Gen|Number=Plur|PronType=Dem	25	fixed	_	start_char=123|end_char=126
+27	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	fixed	_	start_char=127|end_char=130
+28	не	не	PART	_	_	29	advmod	_	start_char=131|end_char=133
+29	теряет	терять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	start_char=134|end_char=140
+30	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	31	det	_	start_char=141|end_char=146
+31	актуальности	актуальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	obl	_	start_char=147|end_char=159
+32	.	.	PUNCT	_	_	4	punct	_	start_char=159|end_char=160
+
+# text = Это был один из первых альбомов Кита, который я приобрел еще в те времена.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=161|end_char=164
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=165|end_char=168
+3	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	0	root	_	start_char=169|end_char=173
+4	из	из	ADP	_	_	6	case	_	start_char=174|end_char=176
+5	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=177|end_char=183
+6	альбомов	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=184|end_char=192
+7	Кита	Кита	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=193|end_char=197
+8	,	,	PUNCT	_	_	11	punct	_	start_char=197|end_char=198
+9	который	который	PRON	_	Case=Acc|PronType=Int,Rel	11	obj	_	start_char=199|end_char=206
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=207|end_char=208
+11	приобрел	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=209|end_char=217
+12	еще	еще	ADV	_	Degree=Pos	15	obl	_	start_char=218|end_char=221
+13	в	в	ADP	_	_	15	case	_	start_char=222|end_char=223
+14	те	тот	DET	_	Case=Acc|Number=Plur|PronType=Dem	15	det	_	start_char=224|end_char=226
+15	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	obl	_	start_char=227|end_char=234
+16	.	.	PUNCT	_	_	3	punct	_	start_char=234|end_char=235
+
+# text = Какой приятный альбом хвалы, когда он перебирает Псалмы!
+# sent_id = 2
+1	Какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	start_char=236|end_char=241
+2	приятный	приятный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=242|end_char=250
+3	альбом	альбо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=251|end_char=257
+4	хвалы	хвала	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=258|end_char=263
+5	,	,	PUNCT	_	_	8	punct	_	start_char=263|end_char=264
+6	когда	когда	SCONJ	_	_	8	mark	_	start_char=265|end_char=270
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=271|end_char=273
+8	перебирает	перебирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=274|end_char=284
+9	Псалмы	Псалма	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=285|end_char=291
+10	!	!	PUNCT	_	_	3	punct	_	start_char=291|end_char=292
+

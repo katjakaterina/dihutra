@@ -1,3 +1,6 @@
+# text = Every child should have this!
+# sent_id = 0
+# sentiment = 1
 1	Every	every	DET	DT	_	2	det	_	start_char=0|end_char=5
 2	child	child	NOUN	NN	Number=Sing	4	nsubj	_	start_char=6|end_char=11
 3	should	should	AUX	MD	VerbForm=Fin	4	aux	_	start_char=12|end_char=18
@@ -5,30 +8,39 @@
 5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	start_char=24|end_char=28
 6	!	!	PUNCT	.	_	4	punct	_	start_char=28|end_char=29
 
+# text = We had purchased Melissa & Doug magnets & had some made & went looking for a board.
+# sent_id = 1
+# sentiment = 1
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=30|end_char=32
-2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	start_char=33|end_char=36
+2	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=33|end_char=36
 3	purchased	purchase	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=37|end_char=46
 4	Melissa	Melissa	PROPN	NNP	Number=Sing	7	compound	_	start_char=47|end_char=54
 5	&	&	CCONJ	CC	_	6	cc	_	start_char=55|end_char=56
 6	Doug	Doug	PROPN	NNP	Number=Sing	4	conj	_	start_char=57|end_char=61
 7	magnets	magnet	NOUN	NNS	Number=Plur	3	obj	_	start_char=62|end_char=69
-8	&	&	CCONJ	CC	_	11	cc	_	start_char=70|end_char=71
-9	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	start_char=72|end_char=75
-10	some	some	DET	DT	_	7	conj	_	start_char=76|end_char=80
-11	made	make	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	start_char=81|end_char=85
+8	&	&	CCONJ	CC	_	9	cc	_	start_char=70|end_char=71
+9	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	start_char=72|end_char=75
+10	some	some	DET	DT	_	9	obj	_	start_char=76|end_char=80
+11	made	make	VERB	VBN	Tense=Past|VerbForm=Part	9	xcomp	_	start_char=81|end_char=85
 12	&	&	CCONJ	CC	_	13	cc	_	start_char=86|end_char=87
-13	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	start_char=88|end_char=92
+13	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	conj	_	start_char=88|end_char=92
 14	looking	look	VERB	VBG	VerbForm=Ger	13	xcomp	_	start_char=93|end_char=100
 15	for	for	ADP	IN	_	17	case	_	start_char=101|end_char=104
 16	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	start_char=105|end_char=106
 17	board	board	NOUN	NN	Number=Sing	14	obl	_	start_char=107|end_char=112
 18	.	.	PUNCT	.	_	3	punct	_	start_char=112|end_char=113
 
+# text = THIS IS IT!
+# sent_id = 2
+# sentiment = 1
 1	THIS	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	start_char=114|end_char=118
 2	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=119|end_char=121
-3	IT	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=122|end_char=124
+3	IT	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=122|end_char=124
 4	!	!	PUNCT	.	_	3	punct	_	start_char=124|end_char=125
 
+# text = It is so reasonable and has been in use ever since we received it.
+# sent_id = 3
+# sentiment = 2
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=126|end_char=128
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=129|end_char=131
 3	so	so	ADV	RB	_	4	advmod	_	start_char=132|end_char=134
@@ -38,13 +50,16 @@
 7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	cop	_	start_char=154|end_char=158
 8	in	in	ADP	IN	_	9	case	_	start_char=159|end_char=161
 9	use	use	NOUN	NN	Number=Sing	4	conj	_	start_char=162|end_char=165
-10	ever	ever	ADV	RB	_	9	advmod	_	start_char=166|end_char=170
+10	ever	ever	ADV	RB	_	13	advmod	_	start_char=166|end_char=170
 11	since	since	SCONJ	IN	_	13	mark	_	start_char=171|end_char=176
 12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=177|end_char=179
-13	received	receive	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	start_char=180|end_char=188
+13	received	receive	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	advcl	_	start_char=180|end_char=188
 14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=189|end_char=191
 15	.	.	PUNCT	.	_	4	punct	_	start_char=191|end_char=192
 
+# text = You can spell words, put the Leap Frog base on it to put in letters/animals, numbers, etc.
+# sent_id = 4
+# sentiment = 1
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	start_char=193|end_char=196
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=197|end_char=200
 3	spell	spell	VERB	VB	VerbForm=Inf	0	root	_	start_char=201|end_char=206
@@ -52,30 +67,36 @@
 5	,	,	PUNCT	,	_	6	punct	_	start_char=212|end_char=213
 6	put	put	VERB	VB	VerbForm=Inf	3	conj	_	start_char=214|end_char=217
 7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=218|end_char=221
-8	Leap	Leap	NOUN	NN	Number=Sing	10	compound	_	start_char=222|end_char=226
-9	Frog	frog	NOUN	NN	Number=Sing	10	compound	_	start_char=227|end_char=231
+8	Leap	Leap	PROPN	NNP	Number=Sing	10	compound	_	start_char=222|end_char=226
+9	Frog	Frog	PROPN	NNP	Number=Sing	10	compound	_	start_char=227|end_char=231
 10	base	base	NOUN	NN	Number=Sing	6	obj	_	start_char=232|end_char=236
 11	on	on	ADP	IN	_	12	case	_	start_char=237|end_char=239
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	start_char=240|end_char=242
 13	to	to	PART	TO	_	14	mark	_	start_char=243|end_char=245
 14	put	put	VERB	VB	VerbForm=Inf	6	advcl	_	start_char=246|end_char=249
-15	in	in	ADP	RP	_	14	compound:prt	_	start_char=250|end_char=252
+15	in	in	ADP	IN	_	16	case	_	start_char=250|end_char=252
 16	letters	letter	NOUN	NNS	Number=Plur	14	obj	_	start_char=253|end_char=260
 17	/	/	SYM	,	_	18	cc	_	start_char=260|end_char=261
 18	animals	animal	NOUN	NNS	Number=Plur	16	conj	_	start_char=261|end_char=268
 19	,	,	PUNCT	,	_	20	punct	_	start_char=268|end_char=269
 20	numbers	number	NOUN	NNS	Number=Plur	16	conj	_	start_char=270|end_char=277
 21	,	,	PUNCT	,	_	22	punct	_	start_char=277|end_char=278
-22	etc	etc	X	FW	_	16	conj	_	start_char=279|end_char=282
+22	etc	etc	NOUN	FW	Abbr=Yes|Number=Sing	16	conj	_	start_char=279|end_char=282
 23	.	.	PUNCT	.	_	3	punct	_	start_char=282|end_char=283
 
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	start_char=284|end_char=286
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=287|end_char=289
+# text = It is also double sided.
+# sent_id = 5
+# sentiment = 0
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=284|end_char=286
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=287|end_char=289
 3	also	also	ADV	RB	_	5	advmod	_	start_char=290|end_char=294
-4	double	double	ADV	RB	Degree=Pos	5	advmod	_	start_char=295|end_char=301
-5	sided	sided	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=302|end_char=307
+4	double	double	ADJ	JJ	Degree=Pos	5	amod	_	start_char=295|end_char=301
+5	sided	sided	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	start_char=302|end_char=307
 6	.	.	PUNCT	.	_	5	punct	_	start_char=307|end_char=308
 
+# text = Even though it's not intended they also like to put things under/inside the board.
+# sent_id = 6
+# sentiment = 1
 1	Even	even	ADV	RB	_	6	advmod	_	start_char=309|end_char=313
 2	though	though	SCONJ	IN	_	6	mark	_	start_char=314|end_char=320
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	start_char=321|end_char=323
@@ -84,17 +105,20 @@
 6	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	start_char=330|end_char=338
 7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=339|end_char=343
 8	also	also	ADV	RB	_	9	advmod	_	start_char=344|end_char=348
-9	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=349|end_char=353
+9	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=349|end_char=353
 10	to	to	PART	TO	_	11	mark	_	start_char=354|end_char=356
 11	put	put	VERB	VB	VerbForm=Inf	9	xcomp	_	start_char=357|end_char=360
 12	things	thing	NOUN	NNS	Number=Plur	11	obj	_	start_char=361|end_char=367
 13	under	under	ADP	IN	_	17	case	_	start_char=368|end_char=373
 14	/	/	SYM	,	_	15	cc	_	start_char=373|end_char=374
-15	inside	inside	ADP	IN	_	17	case	_	start_char=374|end_char=380
+15	inside	inside	ADP	IN	_	13	conj	_	start_char=374|end_char=380
 16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	start_char=381|end_char=384
 17	board	board	NOUN	NN	Number=Sing	11	obl	_	start_char=385|end_char=390
 18	.	.	PUNCT	.	_	9	punct	_	start_char=390|end_char=391
 
+# text = They can roll things through it.
+# sent_id = 7
+# sentiment = 1
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=392|end_char=396
 2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	start_char=397|end_char=400
 3	roll	roll	VERB	VB	VerbForm=Inf	0	root	_	start_char=401|end_char=405
@@ -103,18 +127,21 @@
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=421|end_char=423
 7	.	.	PUNCT	.	_	3	punct	_	start_char=423|end_char=424
 
+# text = Highly recommend & every child should have one to put their magnets on.
+# sent_id = 8
+# sentiment = 1
 1	Highly	highly	ADV	RB	_	2	advmod	_	start_char=425|end_char=431
-2	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=432|end_char=441
+2	recommend	recommend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=432|end_char=441
 3	&	&	CCONJ	CC	_	7	cc	_	start_char=442|end_char=443
 4	every	every	DET	DT	_	5	det	_	start_char=444|end_char=449
 5	child	child	NOUN	NN	Number=Sing	7	nsubj	_	start_char=450|end_char=455
 6	should	should	AUX	MD	VerbForm=Fin	7	aux	_	start_char=456|end_char=462
 7	have	have	VERB	VB	VerbForm=Inf	2	conj	_	start_char=463|end_char=467
-8	one	one	NUM	CD	NumType=Card	7	obj	_	start_char=468|end_char=471
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	obj	_	start_char=468|end_char=471
 9	to	to	PART	TO	_	10	mark	_	start_char=472|end_char=474
 10	put	put	VERB	VB	VerbForm=Inf	8	acl	_	start_char=475|end_char=478
-11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=479|end_char=484
+11	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=479|end_char=484
 12	magnets	magnet	NOUN	NNS	Number=Plur	10	obj	_	start_char=485|end_char=492
-13	on	on	ADP	IN	_	10	obl	_	start_char=493|end_char=495
+13	on	on	ADP	RP	_	10	compound:prt	_	start_char=493|end_char=495
 14	.	.	PUNCT	.	_	2	punct	_	start_char=495|end_char=496
 

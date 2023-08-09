@@ -1,49 +1,57 @@
+# text = Absolute Treasure Everyone that dreams of designing beautiful cakes, should have this on their night stand.
+# sent_id = 0
+# sentiment = 2
 1	Absolute	absolute	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=8
-2	Treasure	treasure	NOUN	NN	Number=Sing	0	root	_	start_char=9|end_char=17
+2	Treasure	treasure	NOUN	NN	Number=Sing	12	nsubj	_	start_char=9|end_char=17
+3	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	2	appos	_	start_char=18|end_char=26
+4	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	start_char=27|end_char=31
+5	dreams	dream	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=32|end_char=38
+6	of	of	SCONJ	IN	_	7	mark	_	start_char=39|end_char=41
+7	designing	design	VERB	VBG	VerbForm=Ger	5	advcl	_	start_char=42|end_char=51
+8	beautiful	beautiful	ADJ	JJ	Degree=Pos	9	amod	_	start_char=52|end_char=61
+9	cakes	cake	NOUN	NNS	Number=Plur	7	obj	_	start_char=62|end_char=67
+10	,	,	PUNCT	,	_	2	punct	_	start_char=67|end_char=68
+11	should	should	AUX	MD	VerbForm=Fin	12	aux	_	start_char=69|end_char=75
+12	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=76|end_char=80
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	12	obj	_	start_char=81|end_char=85
+14	on	on	ADP	IN	_	17	case	_	start_char=86|end_char=88
+15	their	they	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=89|end_char=94
+16	night	night	NOUN	NN	Number=Sing	17	compound	_	start_char=95|end_char=100
+17	stand	stand	NOUN	NN	Number=Sing	12	obl	_	start_char=101|end_char=106
+18	.	.	PUNCT	.	_	12	punct	_	start_char=106|end_char=107
 
-1	Everyone	everyone	PRON	NN	Number=Sing	10	nsubj	_	start_char=18|end_char=26
-2	that	that	PRON	WDT	PronType=Rel	5	nsubj	_	start_char=27|end_char=31
-3	dreams	dream	NOUN	NNS	Number=Plur	1	acl:relcl	_	start_char=32|end_char=38
-4	of	of	SCONJ	IN	_	5	mark	_	start_char=39|end_char=41
-5	designing	design	VERB	VBG	VerbForm=Ger	3	acl	_	start_char=42|end_char=51
-6	beautiful	beautiful	ADJ	JJ	Degree=Pos	7	amod	_	start_char=52|end_char=61
-7	cakes	cake	NOUN	NNS	Number=Plur	5	obj	_	start_char=62|end_char=67
-8	,	,	PUNCT	,	_	10	punct	_	start_char=67|end_char=68
-9	should	should	AUX	MD	VerbForm=Fin	10	aux	_	start_char=69|end_char=75
-10	have	have	VERB	VB	VerbForm=Inf	0	root	_	start_char=76|end_char=80
-11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obj	_	start_char=81|end_char=85
-12	on	on	ADP	IN	_	15	case	_	start_char=86|end_char=88
-13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=89|end_char=94
-14	night	night	NOUN	NN	Number=Sing	15	compound	_	start_char=95|end_char=100
-15	stand	stand	NOUN	NN	Number=Sing	10	obl	_	start_char=101|end_char=106
-16	.	.	PUNCT	.	_	10	punct	_	start_char=106|end_char=107
-
+# text = I don't know how many nights I have studied it pages before going to bed, what an absolute treasure this book is.
+# sent_id = 1
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=108|end_char=109
-2	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=110|end_char=112
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=110|end_char=112
 3	n't	not	PART	RB	_	4	advmod	_	start_char=112|end_char=115
 4	know	know	VERB	VB	VerbForm=Inf	0	root	_	start_char=116|end_char=120
-5	how	how	SCONJ	WRB	PronType=Int	6	mark	_	start_char=121|end_char=124
+5	how	how	ADV	WRB	PronType=Int	6	advmod	_	start_char=121|end_char=124
 6	many	many	ADJ	JJ	Degree=Pos	7	amod	_	start_char=125|end_char=129
-7	nights	night	NOUN	NNS	Number=Plur	10	obl:npmod	_	start_char=130|end_char=136
+7	nights	night	NOUN	NNS	Number=Plur	10	obj	_	start_char=130|end_char=136
 8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=137|end_char=138
-9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=139|end_char=143
+9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=139|end_char=143
 10	studied	study	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	start_char=144|end_char=151
-11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=152|end_char=154
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nmod:poss	_	start_char=152|end_char=154
 12	pages	page	NOUN	NNS	Number=Plur	10	obj	_	start_char=155|end_char=160
 13	before	before	SCONJ	IN	_	14	mark	_	start_char=161|end_char=167
 14	going	go	VERB	VBG	VerbForm=Ger	10	advcl	_	start_char=168|end_char=173
 15	to	to	ADP	IN	_	16	case	_	start_char=174|end_char=176
 16	bed	bed	NOUN	NN	Number=Sing	14	obl	_	start_char=177|end_char=180
 17	,	,	PUNCT	,	_	4	punct	_	start_char=180|end_char=181
-18	what	what	PRON	WP	PronType=Int	4	parataxis	_	start_char=182|end_char=186
+18	what	what	PRON	WP	PronType=Int	21	nsubj	_	start_char=182|end_char=186
 19	an	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	start_char=187|end_char=189
 20	absolute	absolute	ADJ	JJ	Degree=Pos	21	amod	_	start_char=190|end_char=198
-21	treasure	treasure	NOUN	NN	Number=Sing	18	nsubj	_	start_char=199|end_char=207
+21	treasure	treasure	NOUN	NN	Number=Sing	4	parataxis	_	start_char=199|end_char=207
 22	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	start_char=208|end_char=212
 23	book	book	NOUN	NN	Number=Sing	24	nsubj	_	start_char=213|end_char=217
-24	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	start_char=218|end_char=220
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	start_char=218|end_char=220
 25	.	.	PUNCT	.	_	4	punct	_	start_char=220|end_char=221
 
+# text = It's like the Holy Grail of cake books.
+# sent_id = 2
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=222|end_char=224
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=224|end_char=226
 3	like	like	ADP	IN	_	6	case	_	start_char=227|end_char=231
@@ -55,6 +63,9 @@
 9	books	book	NOUN	NNS	Number=Plur	6	nmod	_	start_char=255|end_char=260
 10	.	.	PUNCT	.	_	6	punct	_	start_char=260|end_char=261
 
+# text = You won't regret it.
+# sent_id = 3
+# sentiment = 1
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	start_char=262|end_char=265
 2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	start_char=266|end_char=268
 3	n't	not	PART	RB	_	4	advmod	_	start_char=268|end_char=271

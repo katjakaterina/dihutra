@@ -1,0 +1,74 @@
+# text = Единственный тональный крем, которым я пользуюсь!
+# sent_id = 0
+1	Единственный	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=12
+2	тональный	тональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=13|end_char=22
+3	крем	крем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=23|end_char=27
+4	,	,	PUNCT	_	_	7	punct	_	start_char=27|end_char=28
+5	которым	который	PRON	_	Case=Ins|PronType=Int,Rel	7	obl	_	start_char=29|end_char=36
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=37|end_char=38
+7	пользуюсь	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	3	acl:relcl	_	start_char=39|end_char=48
+8	!	!	PUNCT	_	_	3	punct	_	start_char=48|end_char=49
+
+# text = Я больше не могу купить его в местных магазинах, а этот тональный крем действительно долго держится и делает свою работу.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=50|end_char=51
+2	больше	больше	ADV	_	Degree=Cmp	3	advmod	_	start_char=52|end_char=58
+3	не	не	PART	_	_	4	advmod	_	start_char=59|end_char=61
+4	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=62|end_char=66
+5	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=67|end_char=73
+6	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=74|end_char=77
+7	в	в	ADP	_	_	9	case	_	start_char=78|end_char=79
+8	местных	местный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	start_char=80|end_char=87
+9	магазинах	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	start_char=88|end_char=97
+10	,	,	PUNCT	_	_	17	punct	_	start_char=97|end_char=98
+11	а	а	CCONJ	_	_	17	cc	_	start_char=99|end_char=100
+12	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=101|end_char=105
+13	тональный	тональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=106|end_char=115
+14	крем	крем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=116|end_char=120
+15	действительно	действительно	ADV	_	Degree=Pos	16	advmod	_	start_char=121|end_char=134
+16	долго	долго	ADV	_	Degree=Pos	17	advmod	_	start_char=135|end_char=140
+17	держится	держаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	start_char=141|end_char=149
+18	и	и	CCONJ	_	_	19	cc	_	start_char=150|end_char=151
+19	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=152|end_char=158
+20	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	start_char=159|end_char=163
+21	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	start_char=164|end_char=170
+22	.	.	PUNCT	_	_	4	punct	_	start_char=170|end_char=171
+
+# text = Он не тает в жару во Флориде и достаточно прозрачен, чтобы быть естественным, но при этом имеет достаточное покрытие.
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=172|end_char=174
+2	не	не	PART	_	_	3	advmod	_	start_char=175|end_char=177
+3	тает	таять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=178|end_char=182
+4	в	в	ADP	_	_	5	case	_	start_char=183|end_char=184
+5	жару	жара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=185|end_char=189
+6	во	в	ADP	_	_	7	case	_	start_char=190|end_char=192
+7	Флориде	Флорида	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	start_char=193|end_char=200
+8	и	и	CCONJ	_	_	10	cc	_	start_char=201|end_char=202
+9	достаточно	достаточно	ADV	_	Degree=Pos	10	obl	_	start_char=203|end_char=213
+10	прозрачен	прозрачный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	start_char=214|end_char=223
+11	,	,	PUNCT	_	_	14	punct	_	start_char=223|end_char=224
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	start_char=225|end_char=230
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	cop	_	start_char=231|end_char=235
+14	естественным	естественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	advcl	_	start_char=236|end_char=248
+15	,	,	PUNCT	_	_	19	punct	_	start_char=248|end_char=249
+16	но	но	CCONJ	_	_	19	cc	_	start_char=250|end_char=252
+17	при	при	ADP	_	_	18	case	_	start_char=253|end_char=256
+18	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	start_char=257|end_char=261
+19	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=262|end_char=267
+20	достаточное	достаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	start_char=268|end_char=279
+21	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	start_char=280|end_char=288
+22	.	.	PUNCT	_	_	3	punct	_	start_char=288|end_char=289
+
+# text = Я пользуюсь им уже около 5-6 лет.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=290|end_char=291
+2	пользуюсь	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=292|end_char=301
+3	им	они	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	start_char=302|end_char=304
+4	уже	уже	ADV	_	Degree=Pos	9	obl	_	start_char=305|end_char=308
+5	около	около	ADP	_	_	9	case	_	start_char=309|end_char=314
+6	5	5	NUM	_	NumType=Card	9	nummod	_	start_char=315|end_char=316
+7	-	-	PUNCT	_	_	8	punct	_	start_char=316|end_char=317
+8	6	6	NUM	_	NumType=Card	6	nmod	_	start_char=317|end_char=318
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=319|end_char=322
+10	.	.	PUNCT	_	_	2	punct	_	start_char=322|end_char=323
+

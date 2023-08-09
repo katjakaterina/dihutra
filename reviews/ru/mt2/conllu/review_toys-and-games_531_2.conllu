@@ -1,0 +1,76 @@
+# text = Аккумулятор разрядился сразу же.
+# sent_id = 0
+1	Аккумулятор	аккумулятор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=11
+2	разрядился	разрядиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=12|end_char=22
+3	сразу	сразу	ADV	_	Degree=Pos	2	advmod	_	start_char=23|end_char=28
+4	же	же	PART	_	_	3	advmod	_	start_char=29|end_char=31
+5	.	.	PUNCT	_	_	2	punct	_	start_char=31|end_char=32
+
+# text = Я хотел бы дать этому прибору более высокую оценку.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=33|end_char=34
+2	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=35|end_char=40
+3	бы	бы	AUX	_	_	2	aux	_	start_char=41|end_char=43
+4	дать	дать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=44|end_char=48
+5	этому	этот	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=49|end_char=54
+6	прибору	прибор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	start_char=55|end_char=62
+7	более	более	ADV	_	Degree=Cmp	8	obl	_	start_char=63|end_char=68
+8	высокую	высокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=69|end_char=76
+9	оценку	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=77|end_char=83
+10	.	.	PUNCT	_	_	2	punct	_	start_char=83|end_char=84
+
+# text = Мне кажется, что это отличная идея, и я так хотела подарить ее своему сыну.
+# sent_id = 2
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=85|end_char=88
+2	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=89|end_char=96
+3	,	,	PUNCT	_	_	7	punct	_	start_char=96|end_char=97
+4	что	что	SCONJ	_	_	7	mark	_	start_char=98|end_char=101
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=102|end_char=105
+6	отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=106|end_char=114
+7	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	start_char=115|end_char=119
+8	,	,	PUNCT	_	_	12	punct	_	start_char=119|end_char=120
+9	и	и	CCONJ	_	_	12	cc	_	start_char=121|end_char=122
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=123|end_char=124
+11	так	так	ADV	_	Degree=Pos	12	advmod	_	start_char=125|end_char=128
+12	хотела	хотеть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=129|end_char=135
+13	подарить	дарить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=136|end_char=144
+14	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=145|end_char=147
+15	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	start_char=148|end_char=154
+16	сыну	сын	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	start_char=155|end_char=159
+17	.	.	PUNCT	_	_	2	punct	_	start_char=159|end_char=160
+
+# text = Но батарея сдохла через 2 дня после того, как мы ее получили, и, конечно, для нее требуется маленькая дорогая специализированная батарея.
+# sent_id = 3
+1	Но	но	CCONJ	_	_	3	cc	_	start_char=161|end_char=163
+2	батарея	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=164|end_char=171
+3	сдохла	сдохнуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=172|end_char=178
+4	через	через	ADP	_	_	6	case	_	start_char=179|end_char=184
+5	2	2	NUM	_	NumType=Card	6	nummod	_	start_char=185|end_char=186
+6	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=187|end_char=190
+7	после	после	ADP	_	_	8	case	_	start_char=191|end_char=196
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	start_char=197|end_char=201
+9	,	,	PUNCT	_	_	13	punct	_	start_char=201|end_char=202
+10	как	как	SCONJ	_	_	13	mark	_	start_char=203|end_char=206
+11	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=207|end_char=209
+12	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=210|end_char=212
+13	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl	_	start_char=213|end_char=221
+14	,	,	PUNCT	_	_	21	punct	_	start_char=221|end_char=222
+15	и	и	CCONJ	_	_	21	cc	_	start_char=223|end_char=224
+16	,	,	PUNCT	_	_	15	punct	_	start_char=224|end_char=225
+17	конечно	конечно	ADV	_	Degree=Pos	21	parataxis	_	start_char=226|end_char=233
+18	,	,	PUNCT	_	_	17	punct	_	start_char=233|end_char=234
+19	для	для	ADP	_	_	20	case	_	start_char=235|end_char=238
+20	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obl	_	start_char=239|end_char=242
+21	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	conj	_	start_char=243|end_char=252
+22	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=253|end_char=262
+23	дорогая	дорогой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=263|end_char=270
+24	специализированная	специализированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=271|end_char=289
+25	батарея	батарея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	start_char=290|end_char=297
+26	.	.	PUNCT	_	_	3	punct	_	start_char=297|end_char=298
+
+# text = Не впечатлило.
+# sent_id = 4
+1	Не	не	PART	_	_	2	advmod	_	start_char=299|end_char=301
+2	впечатлило	впечатлять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=302|end_char=312
+3	.	.	PUNCT	_	_	2	punct	_	start_char=312|end_char=313
+

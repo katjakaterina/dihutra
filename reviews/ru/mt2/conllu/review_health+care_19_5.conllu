@@ -1,0 +1,78 @@
+# text = очень удобно - жаль, что не в чехле Я ношу его с собой в сумке (на всякий случай).
+# sent_id = 0
+1	очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=0|end_char=5
+2	удобно	удобный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=6|end_char=12
+3	-	-	PUNCT	_	_	4	punct	_	start_char=13|end_char=14
+4	жаль	жаль	ADV	_	Degree=Pos	2	parataxis	_	start_char=15|end_char=19
+5	,	,	PUNCT	_	_	11	punct	_	start_char=19|end_char=20
+6	что	что	SCONJ	_	_	11	mark	_	start_char=21|end_char=24
+7	не	не	PART	_	_	9	advmod	_	start_char=25|end_char=27
+8	в	в	ADP	_	_	9	case	_	start_char=28|end_char=29
+9	чехле	чехля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=30|end_char=35
+10	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=36|end_char=37
+11	ношу	ноша	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=38|end_char=42
+12	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=43|end_char=46
+13	с	с	ADP	_	_	14	case	_	start_char=47|end_char=48
+14	собой	себя	PRON	_	Case=Ins|PronType=Prs|Reflex=Yes	11	obl	_	start_char=49|end_char=54
+15	в	в	ADP	_	_	16	case	_	start_char=55|end_char=56
+16	сумке	сумка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=57|end_char=62
+17	(	(	PUNCT	_	_	20	punct	_	start_char=63|end_char=64
+18	на	на	ADP	_	_	20	case	_	start_char=64|end_char=66
+19	всякий	всякий	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	20	det	_	start_char=67|end_char=73
+20	случай	случай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	parataxis	_	start_char=74|end_char=80
+21	)	)	PUNCT	_	_	20	punct	_	start_char=80|end_char=81
+22	.	.	PUNCT	_	_	2	punct	_	start_char=81|end_char=82
+
+# text = Правда, мне придется сделать для него небольшой чехол, чтобы уменьшить количество ворсинок и царапин, которые он собирает.
+# sent_id = 1
+1	Правда	правда	ADV	_	Degree=Pos	4	parataxis	_	start_char=83|end_char=89
+2	,	,	PUNCT	_	_	1	punct	_	start_char=89|end_char=90
+3	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	start_char=91|end_char=94
+4	придется	прийтись	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=95|end_char=103
+5	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=104|end_char=111
+6	для	для	ADP	_	_	7	case	_	start_char=112|end_char=115
+7	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	start_char=116|end_char=120
+8	небольшой	небольшой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=121|end_char=130
+9	чехол	чехол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=131|end_char=136
+10	,	,	PUNCT	_	_	12	punct	_	start_char=136|end_char=137
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	start_char=138|end_char=143
+12	уменьшить	уменьшить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=144|end_char=153
+13	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=154|end_char=164
+14	ворсинок	ворсинка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	start_char=165|end_char=173
+15	и	и	CCONJ	_	_	16	cc	_	start_char=174|end_char=175
+16	царапин	царапина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	conj	_	start_char=176|end_char=183
+17	,	,	PUNCT	_	_	20	punct	_	start_char=183|end_char=184
+18	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	20	obj	_	start_char=185|end_char=192
+19	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=193|end_char=195
+20	собирает	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	start_char=196|end_char=204
+21	.	.	PUNCT	_	_	4	punct	_	start_char=204|end_char=205
+
+# text = Он работает очень хорошо и имеет идеальный размер - не слишком большой, чтобы быть аляповатым, и не слишком маленький, чтобы быть неэффективным.
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=206|end_char=208
+2	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=209|end_char=217
+3	очень	очень	ADV	_	Degree=Pos	4	advmod	_	start_char=218|end_char=223
+4	хорошо	хорошо	ADV	_	Degree=Pos	2	advmod	_	start_char=224|end_char=230
+5	и	и	CCONJ	_	_	6	cc	_	start_char=231|end_char=232
+6	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=233|end_char=238
+7	идеальный	идеальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=239|end_char=248
+8	размер	размер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=249|end_char=255
+9	-	-	PUNCT	_	_	12	punct	_	start_char=256|end_char=257
+10	не	не	PART	_	_	11	advmod	_	start_char=258|end_char=260
+11	слишком	слишком	ADV	_	Degree=Pos	12	obl	_	start_char=261|end_char=268
+12	большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	parataxis	_	start_char=269|end_char=276
+13	,	,	PUNCT	_	_	16	punct	_	start_char=276|end_char=277
+14	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	start_char=278|end_char=283
+15	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	cop	_	start_char=284|end_char=288
+16	аляповатым	аляповатый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	advcl	_	start_char=289|end_char=299
+17	,	,	PUNCT	_	_	21	punct	_	start_char=299|end_char=300
+18	и	и	CCONJ	_	_	21	cc	_	start_char=301|end_char=302
+19	не	не	PART	_	_	20	advmod	_	start_char=303|end_char=305
+20	слишком	слишком	ADV	_	Degree=Pos	21	obl	_	start_char=306|end_char=313
+21	маленький	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	start_char=314|end_char=323
+22	,	,	PUNCT	_	_	25	punct	_	start_char=323|end_char=324
+23	чтобы	чтобы	SCONJ	_	Mood=Cnd	25	mark	_	start_char=325|end_char=330
+24	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	cop	_	start_char=331|end_char=335
+25	неэффективным	неэффективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	advcl	_	start_char=336|end_char=349
+26	.	.	PUNCT	_	_	2	punct	_	start_char=349|end_char=350
+

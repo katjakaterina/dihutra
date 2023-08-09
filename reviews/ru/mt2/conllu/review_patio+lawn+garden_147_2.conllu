@@ -1,0 +1,103 @@
+# text = Пришлось вернуть...
+# sent_id = 0
+1	Пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=0|end_char=8
+2	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=9|end_char=16
+3	.	.	PUNCT	_	_	2	punct	_	start_char=16|end_char=17
+4	.	.	PUNCT	_	_	2	punct	_	start_char=17|end_char=18
+5	.	.	PUNCT	_	_	1	punct	_	start_char=18|end_char=19
+
+# text = Этот секатор даже отдаленно не срезает ветки 1&#34;, ни мокрые, ни сухие.
+# sent_id = 1
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=20|end_char=24
+2	секатор	секатор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=25|end_char=32
+3	даже	даже	PART	_	_	4	advmod	_	start_char=33|end_char=37
+4	отдаленно	отдаленно	ADV	_	Degree=Pos	6	advmod	_	start_char=38|end_char=47
+5	не	не	PART	_	_	6	advmod	_	start_char=48|end_char=50
+6	срезает	срезать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=51|end_char=58
+7	ветки	ветка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=59|end_char=64
+8	1&	1&	SYM	_	_	7	nummod:entity	_	start_char=65|end_char=67
+9	#34	#34	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=67|end_char=70
+10	;	;	PUNCT	_	_	13	punct	_	start_char=70|end_char=71
+11	,	,	PUNCT	_	_	13	punct	_	start_char=71|end_char=72
+12	ни	ни	CCONJ	_	_	13	cc	_	start_char=73|end_char=75
+13	мокрые	мокрый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	conj	_	start_char=76|end_char=82
+14	,	,	PUNCT	_	_	16	punct	_	start_char=82|end_char=83
+15	ни	ни	CCONJ	_	_	16	cc	_	start_char=84|end_char=86
+16	сухие	сухой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	conj	_	start_char=87|end_char=92
+17	.	.	PUNCT	_	_	6	punct	_	start_char=92|end_char=93
+
+# text = Не режет 3/4&#34; ветки.
+# sent_id = 2
+1	Не	не	PART	_	_	2	advmod	_	start_char=94|end_char=96
+2	режет	резать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=97|end_char=102
+3	3	3	NUM	_	NumType=Card	2	obl	_	start_char=103|end_char=104
+4	/	/	PUNCT	_	_	5	punct	_	start_char=104|end_char=105
+5	4&	4&	NUM	_	NumType=Card	3	nmod	_	start_char=105|end_char=107
+6	#	#	SYM	_	_	3	flat	_	start_char=107|end_char=108
+7	34	34	NUM	_	NumType=Card	6	nummod:entity	_	start_char=108|end_char=110
+8	;	;	PUNCT	_	_	9	punct	_	start_char=110|end_char=111
+9	ветки	ветка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=112|end_char=117
+10	.	.	PUNCT	_	_	2	punct	_	start_char=117|end_char=118
+
+# text = Он может срезать некоторые сухие ветки 1/2&#34;, но, по крайней мере, тот, который я получил, не был заточен, и я был вынужден вернуть его.
+# sent_id = 3
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=119|end_char=121
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=122|end_char=127
+3	срезать	срезать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=128|end_char=135
+4	некоторые	некоторый	DET	_	Case=Acc|Number=Plur|PronType=Ind	6	det	_	start_char=136|end_char=145
+5	сухие	сухой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=146|end_char=151
+6	ветки	ветка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=152|end_char=157
+7	1	1	NUM	_	NumType=Card	6	nummod:entity	_	start_char=158|end_char=159
+8	/	/	PUNCT	_	_	9	punct	_	start_char=159|end_char=160
+9	2&	2&	NUM	_	NumType=Card	7	nmod	_	start_char=160|end_char=162
+10	#	#	SYM	_	_	9	nummod:entity	_	start_char=162|end_char=163
+11	34	34	NUM	_	NumType=Card	10	nummod:entity	_	start_char=163|end_char=165
+12	;	;	PUNCT	_	_	28	punct	_	start_char=165|end_char=166
+13	,	,	PUNCT	_	_	28	punct	_	start_char=166|end_char=167
+14	но	но	CCONJ	_	_	28	cc	_	start_char=168|end_char=170
+15	,	,	PUNCT	_	_	14	punct	_	start_char=170|end_char=171
+16	по	по	ADP	_	_	28	advmod	_	start_char=172|end_char=174
+17	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	16	fixed	_	start_char=175|end_char=182
+18	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	fixed	_	start_char=183|end_char=187
+19	,	,	PUNCT	_	_	16	punct	_	start_char=187|end_char=188
+20	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	28	nsubj:pass	_	start_char=189|end_char=192
+21	,	,	PUNCT	_	_	24	punct	_	start_char=192|end_char=193
+22	который	который	PRON	_	Case=Acc|PronType=Int,Rel	24	obj	_	start_char=194|end_char=201
+23	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	start_char=202|end_char=203
+24	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	acl:relcl	_	start_char=204|end_char=211
+25	,	,	PUNCT	_	_	20	punct	_	start_char=211|end_char=212
+26	не	не	PART	_	_	28	advmod	_	start_char=213|end_char=215
+27	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	aux:pass	_	start_char=216|end_char=219
+28	заточен	заточить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	start_char=220|end_char=227
+29	,	,	PUNCT	_	_	33	punct	_	start_char=227|end_char=228
+30	и	и	CCONJ	_	_	33	cc	_	start_char=229|end_char=230
+31	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	start_char=231|end_char=232
+32	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	33	cop	_	start_char=233|end_char=236
+33	вынужден	вынужденный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=237|end_char=245
+34	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	xcomp	_	start_char=246|end_char=253
+35	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	start_char=254|end_char=257
+36	.	.	PUNCT	_	_	2	punct	_	start_char=257|end_char=258
+
+# text = Пока не решился на новый, так как был очень разочарован после прочтения всех положительных отзывов и поиска другого.
+# sent_id = 4
+1	Пока	пока	SCONJ	_	_	3	advmod	_	start_char=259|end_char=263
+2	не	не	PART	_	_	3	advmod	_	start_char=264|end_char=266
+3	решился	решиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=267|end_char=274
+4	на	на	ADP	_	_	5	case	_	start_char=275|end_char=277
+5	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	start_char=278|end_char=283
+6	,	,	PUNCT	_	_	11	punct	_	start_char=283|end_char=284
+7	так	так	ADV	_	Degree=Pos	11	mark	_	start_char=285|end_char=288
+8	как	как	SCONJ	_	_	7	fixed	_	start_char=289|end_char=292
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=293|end_char=296
+10	очень	очень	ADV	_	Degree=Pos	11	obl	_	start_char=297|end_char=302
+11	разочарован	разочарованный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	advcl	_	start_char=303|end_char=314
+12	после	после	ADP	_	_	13	case	_	start_char=315|end_char=320
+13	прочтения	прочтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	start_char=321|end_char=330
+14	всех	весь	DET	_	Case=Gen|Number=Plur|PronType=Tot	16	det	_	start_char=331|end_char=335
+15	положительных	положительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	start_char=336|end_char=349
+16	отзывов	отзыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=350|end_char=357
+17	и	и	CCONJ	_	_	18	cc	_	start_char=358|end_char=359
+18	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	conj	_	start_char=360|end_char=366
+19	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	nmod	_	start_char=367|end_char=374
+20	.	.	PUNCT	_	_	3	punct	_	start_char=374|end_char=375
+

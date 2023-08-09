@@ -1,21 +1,26 @@
+# text = $9.99, pretty and cute The light comes on when the item is pulled.
+# sent_id = 0
+# sentiment = 2
 1	$	$	SYM	$	_	0	root	_	start_char=0|end_char=1
-2	9.99	9.99	NUM	CD	NumType=Card	1	nummod	_	start_char=1|end_char=5
+2	9.99	9.99	NUM	CD	NumForm=Digit|NumType=Card	1	nummod	_	start_char=1|end_char=5
 3	,	,	PUNCT	,	_	1	punct	_	start_char=5|end_char=6
-4	pretty	pretty	ADV	RB	_	1	advmod	_	start_char=7|end_char=13
+4	pretty	pretty	ADJ	JJ	Degree=Pos	1	parataxis	_	start_char=7|end_char=13
 5	and	and	CCONJ	CC	_	6	cc	_	start_char=14|end_char=17
 6	cute	cute	ADJ	JJ	Degree=Pos	4	conj	_	start_char=18|end_char=22
+7	The	the	DET	DT	Definite=Def|PronType=Art	8	det	_	start_char=23|end_char=26
+8	light	light	NOUN	NN	Number=Sing	9	nsubj	_	start_char=27|end_char=32
+9	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=33|end_char=38
+10	on	on	ADV	RB	_	9	advmod	_	start_char=39|end_char=41
+11	when	when	ADV	WRB	PronType=Int	15	advmod	_	start_char=42|end_char=46
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=47|end_char=50
+13	item	item	NOUN	NN	Number=Sing	15	nsubj:pass	_	start_char=51|end_char=55
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	start_char=56|end_char=58
+15	pulled	pull	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	start_char=59|end_char=65
+16	.	.	PUNCT	.	_	1	punct	_	start_char=65|end_char=66
 
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=23|end_char=26
-2	light	light	NOUN	NN	Number=Sing	3	nsubj	_	start_char=27|end_char=32
-3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=33|end_char=38
-4	on	on	ADP	IN	_	3	advmod	_	start_char=39|end_char=41
-5	when	when	SCONJ	WRB	PronType=Int	9	mark	_	start_char=42|end_char=46
-6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	start_char=47|end_char=50
-7	item	item	NOUN	NN	Number=Sing	9	nsubj:pass	_	start_char=51|end_char=55
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	start_char=56|end_char=58
-9	pulled	pull	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	_	start_char=59|end_char=65
-10	.	.	PUNCT	.	_	3	punct	_	start_char=65|end_char=66
-
+# text = This is much easier to use than the plastic bookmark magnifier and the bar magnifier I previously purchased.
+# sent_id = 1
+# sentiment = 1
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	start_char=67|end_char=71
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=72|end_char=74
 3	much	much	ADV	RB	_	4	advmod	_	start_char=75|end_char=79
@@ -24,7 +29,7 @@
 6	use	use	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=90|end_char=93
 7	than	than	ADP	IN	_	11	case	_	start_char=94|end_char=98
 8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	start_char=99|end_char=102
-9	plastic	plastic	ADJ	JJ	Degree=Pos	11	amod	_	start_char=103|end_char=110
+9	plastic	plastic	ADJ	JJ	Degree=Pos	10	amod	_	start_char=103|end_char=110
 10	bookmark	bookmark	NOUN	NN	Number=Sing	11	compound	_	start_char=111|end_char=119
 11	magnifier	magnifier	NOUN	NN	Number=Sing	6	obl	_	start_char=120|end_char=129
 12	and	and	CCONJ	CC	_	15	cc	_	start_char=130|end_char=133
@@ -33,9 +38,12 @@
 15	magnifier	magnifier	NOUN	NN	Number=Sing	11	conj	_	start_char=142|end_char=151
 16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=152|end_char=153
 17	previously	previously	ADV	RB	_	18	advmod	_	start_char=154|end_char=164
-18	purchased	purchase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	start_char=165|end_char=174
+18	purchased	purchase	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	acl:relcl	_	start_char=165|end_char=174
 19	.	.	PUNCT	.	_	4	punct	_	start_char=174|end_char=175
 
+# text = I was glad to have it lit when I needed to see the serial number on the back of an ipod.
+# sent_id = 2
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=176|end_char=177
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	start_char=178|end_char=181
 3	glad	glad	ADJ	JJ	Degree=Pos	0	root	_	start_char=182|end_char=186
@@ -43,13 +51,13 @@
 5	have	have	VERB	VB	VerbForm=Inf	3	xcomp	_	start_char=190|end_char=194
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=195|end_char=197
 7	lit	light	VERB	VBN	Tense=Past|VerbForm=Part	5	xcomp	_	start_char=198|end_char=201
-8	when	when	SCONJ	WRB	PronType=Int	10	mark	_	start_char=202|end_char=206
+8	when	when	ADV	WRB	PronType=Int	10	advmod	_	start_char=202|end_char=206
 9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=207|end_char=208
-10	needed	need	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	start_char=209|end_char=215
+10	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	advcl	_	start_char=209|end_char=215
 11	to	to	PART	TO	_	12	mark	_	start_char=216|end_char=218
 12	see	see	VERB	VB	VerbForm=Inf	10	xcomp	_	start_char=219|end_char=222
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=223|end_char=226
-14	serial	serial	NOUN	NN	Number=Sing	15	compound	_	start_char=227|end_char=233
+14	serial	serial	ADJ	JJ	Degree=Pos	15	amod	_	start_char=227|end_char=233
 15	number	number	NOUN	NN	Number=Sing	12	obj	_	start_char=234|end_char=240
 16	on	on	ADP	IN	_	18	case	_	start_char=241|end_char=243
 17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=244|end_char=247

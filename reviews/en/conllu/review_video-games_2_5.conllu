@@ -1,41 +1,50 @@
-1	Love	love	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+# text = Love the game I want to start off by saying I have never played the Call of Duty games.
+# sent_id = 0
+# sentiment = 1
+1	Love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=5|end_char=8
 3	game	game	NOUN	NN	Number=Sing	1	obj	_	start_char=9|end_char=13
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=14|end_char=15
-5	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=16|end_char=20
+5	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	start_char=16|end_char=20
 6	to	to	PART	TO	_	7	mark	_	start_char=21|end_char=23
 7	start	start	VERB	VB	VerbForm=Inf	5	xcomp	_	start_char=24|end_char=29
 8	off	off	ADP	RP	_	7	compound:prt	_	start_char=30|end_char=33
 9	by	by	SCONJ	IN	_	10	mark	_	start_char=34|end_char=36
 10	saying	say	VERB	VBG	VerbForm=Ger	7	advcl	_	start_char=37|end_char=43
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=44|end_char=45
-12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=46|end_char=50
+12	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=46|end_char=50
 13	never	never	ADV	RB	_	14	advmod	_	start_char=51|end_char=56
 14	played	play	VERB	VBN	Tense=Past|VerbForm=Part	10	ccomp	_	start_char=57|end_char=63
-15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=64|end_char=67
-16	Call	call	NOUN	NN	Number=Sing	14	obj	_	start_char=68|end_char=72
-17	of	of	ADP	IN	_	19	case	_	start_char=73|end_char=75
-18	Duty	duty	NOUN	NN	Number=Sing	19	compound	_	start_char=76|end_char=80
-19	games	game	NOUN	NNS	Number=Plur	16	nmod	_	start_char=81|end_char=86
+15	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=64|end_char=67
+16	Call	Call	PROPN	NNP	Number=Sing	19	compound	_	start_char=68|end_char=72
+17	of	of	ADP	IN	_	18	case	_	start_char=73|end_char=75
+18	Duty	Duty	PROPN	NNP	Number=Sing	16	nmod	_	start_char=76|end_char=80
+19	games	game	NOUN	NNS	Number=Plur	14	obj	_	start_char=81|end_char=86
 20	.	.	PUNCT	.	_	1	punct	_	start_char=86|end_char=87
 
+# text = This is only the second first person shooter game that I have own.
+# sent_id = 1
+# sentiment = 1
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	9	nsubj	_	start_char=88|end_char=92
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=93|end_char=95
 3	only	only	ADV	RB	_	9	advmod	_	start_char=96|end_char=100
 4	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	start_char=101|end_char=104
 5	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	9	amod	_	start_char=105|end_char=111
-6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	9	amod	_	start_char=112|end_char=117
+6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	amod	_	start_char=112|end_char=117
 7	person	person	NOUN	NN	Number=Sing	9	compound	_	start_char=118|end_char=124
 8	shooter	shooter	NOUN	NN	Number=Sing	9	compound	_	start_char=125|end_char=132
 9	game	game	NOUN	NN	Number=Sing	0	root	_	start_char=133|end_char=137
-10	that	that	PRON	WDT	PronType=Rel	13	mark	_	start_char=138|end_char=142
+10	that	that	PRON	WDT	PronType=Rel	13	obj	_	start_char=138|end_char=142
 11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=143|end_char=144
-12	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=145|end_char=149
+12	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=145|end_char=149
 13	own	own	ADJ	JJ	Degree=Pos	9	acl:relcl	_	start_char=150|end_char=153
 14	.	.	PUNCT	.	_	9	punct	_	start_char=153|end_char=154
 
+# text = I think it is a lot of fun.
+# sent_id = 2
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=155|end_char=156
-2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=157|end_char=162
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=157|end_char=162
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=163|end_char=165
 4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=166|end_char=168
 5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=169|end_char=170
@@ -44,6 +53,9 @@
 8	fun	fun	NOUN	NN	Number=Sing	6	nmod	_	start_char=178|end_char=181
 9	.	.	PUNCT	.	_	2	punct	_	start_char=181|end_char=182
 
+# text = Has good graphics and nice story line.
+# sent_id = 3
+# sentiment = 2
 1	Has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=183|end_char=186
 2	good	good	ADJ	JJ	Degree=Pos	3	amod	_	start_char=187|end_char=191
 3	graphics	graphic	NOUN	NNS	Number=Plur	1	obj	_	start_char=192|end_char=200
@@ -53,20 +65,26 @@
 7	line	line	NOUN	NN	Number=Sing	3	conj	_	start_char=216|end_char=220
 8	.	.	PUNCT	.	_	1	punct	_	start_char=220|end_char=221
 
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=222|end_char=224
+# text = It does take some skill to get through the levels.
+# sent_id = 4
+# sentiment = 2
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	start_char=222|end_char=224
 2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=225|end_char=229
 3	take	take	VERB	VB	VerbForm=Inf	0	root	_	start_char=230|end_char=234
 4	some	some	DET	DT	_	5	det	_	start_char=235|end_char=239
 5	skill	skill	NOUN	NN	Number=Sing	3	obj	_	start_char=240|end_char=245
 6	to	to	PART	TO	_	7	mark	_	start_char=246|end_char=248
-7	get	get	VERB	VB	VerbForm=Inf	5	acl	_	start_char=249|end_char=252
+7	get	get	VERB	VB	VerbForm=Inf	3	csubj	_	start_char=249|end_char=252
 8	through	through	ADP	IN	_	10	case	_	start_char=253|end_char=260
 9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	start_char=261|end_char=264
 10	levels	level	NOUN	NNS	Number=Plur	7	obl	_	start_char=265|end_char=271
 11	.	.	PUNCT	.	_	3	punct	_	start_char=271|end_char=272
 
+# text = I think all players can enjoy this game.
+# sent_id = 5
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=273|end_char=274
-2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=275|end_char=280
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=275|end_char=280
 3	all	all	DET	DT	_	4	det	_	start_char=281|end_char=284
 4	players	player	NOUN	NNS	Number=Plur	6	nsubj	_	start_char=285|end_char=292
 5	can	can	AUX	MD	VerbForm=Fin	6	aux	_	start_char=293|end_char=296
@@ -75,25 +93,31 @@
 8	game	game	NOUN	NN	Number=Sing	6	obj	_	start_char=308|end_char=312
 9	.	.	PUNCT	.	_	2	punct	_	start_char=312|end_char=313
 
+# text = There are three levels to choose from based on your skill level.
+# sent_id = 6
+# sentiment = 1
 1	There	there	PRON	EX	_	2	expl	_	start_char=314|end_char=319
-2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=320|end_char=323
-3	three	three	NUM	CD	NumType=Card	4	nummod	_	start_char=324|end_char=329
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=320|end_char=323
+3	three	three	NUM	CD	NumForm=Word|NumType=Card	4	nummod	_	start_char=324|end_char=329
 4	levels	level	NOUN	NNS	Number=Plur	2	nsubj	_	start_char=330|end_char=336
 5	to	to	PART	TO	_	6	mark	_	start_char=337|end_char=339
 6	choose	choose	VERB	VB	VerbForm=Inf	4	acl	_	start_char=340|end_char=346
 7	from	from	ADP	IN	_	6	obl	_	start_char=347|end_char=351
 8	based	base	VERB	VBN	Tense=Past|VerbForm=Part	12	case	_	start_char=352|end_char=357
 9	on	on	ADP	IN	_	12	case	_	start_char=358|end_char=360
-10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=361|end_char=365
+10	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=361|end_char=365
 11	skill	skill	NOUN	NN	Number=Sing	12	compound	_	start_char=366|end_char=371
 12	level	level	NOUN	NN	Number=Sing	6	obl	_	start_char=372|end_char=377
 13	.	.	PUNCT	.	_	2	punct	_	start_char=377|end_char=378
 
+# text = If your looking for first person shooter game that has current military type play than this is a good buy.
+# sent_id = 7
+# sentiment = 2
 1	If	if	SCONJ	IN	_	3	mark	_	start_char=379|end_char=381
-2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=382|end_char=386
-3	looking	look	NOUN	NN	Number=Sing	0	root	_	start_char=387|end_char=394
+2	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	nsubj	_	start_char=382|end_char=386
+3	looking	look	VERB	VBG	VerbForm=Ger	0	root	_	start_char=387|end_char=394
 4	for	for	ADP	IN	_	8	case	_	start_char=395|end_char=398
-5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	amod	_	start_char=399|end_char=404
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	amod	_	start_char=399|end_char=404
 6	person	person	NOUN	NN	Number=Sing	8	compound	_	start_char=405|end_char=411
 7	shooter	shooter	NOUN	NN	Number=Sing	8	compound	_	start_char=412|end_char=419
 8	game	game	NOUN	NN	Number=Sing	3	obl	_	start_char=420|end_char=424

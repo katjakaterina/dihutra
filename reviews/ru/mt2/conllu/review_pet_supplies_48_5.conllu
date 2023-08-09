@@ -1,0 +1,109 @@
+# text = Грумер в процессе обучения В настоящее время я обучаюсь на грумера/пет-стилиста, и эта книга используется в академии груминга моей компании для обучения всех грумеров.
+# sent_id = 0
+1	Грумер	грумер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=0|end_char=6
+2	в	в	ADP	_	_	3	case	_	start_char=7|end_char=8
+3	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=9|end_char=17
+4	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=18|end_char=26
+5	В	в	ADP	_	_	9	advmod	_	start_char=27|end_char=28
+6	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	fixed	_	start_char=29|end_char=38
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	start_char=39|end_char=44
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=45|end_char=46
+9	обучаюсь	обучаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=47|end_char=55
+10	на	на	ADP	_	_	11	case	_	start_char=56|end_char=58
+11	грумера	грумор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=59|end_char=66
+12	/	/	PUNCT	_	_	13	punct	_	start_char=66|end_char=67
+13	пет	пет	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	start_char=67|end_char=70
+14	-стилиста	-стилист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=70|end_char=79
+15	,	,	PUNCT	_	_	19	punct	_	start_char=79|end_char=80
+16	и	и	CCONJ	_	_	19	cc	_	start_char=81|end_char=82
+17	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	start_char=83|end_char=86
+18	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	start_char=87|end_char=92
+19	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	conj	_	start_char=93|end_char=105
+20	в	в	ADP	_	_	21	case	_	start_char=106|end_char=107
+21	академии	академия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	start_char=108|end_char=116
+22	груминга	груминга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=117|end_char=125
+23	моей	мой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	start_char=126|end_char=130
+24	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	start_char=131|end_char=139
+25	для	для	ADP	_	_	26	case	_	start_char=140|end_char=143
+26	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	start_char=144|end_char=152
+27	всех	весь	DET	_	Case=Gen|Number=Plur|PronType=Tot	28	det	_	start_char=153|end_char=157
+28	грумеров	грумер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	start_char=158|end_char=166
+29	.	.	PUNCT	_	_	9	punct	_	start_char=166|end_char=167
+
+# text = Она замечательная.
+# sent_id = 1
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=168|end_char=171
+2	замечательная	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=172|end_char=185
+3	.	.	PUNCT	_	_	2	punct	_	start_char=185|end_char=186
+
+# text = Очень полезно знать, что можно обратиться к любой странице этой книги и найти нужную породу собаки.
+# sent_id = 2
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=187|end_char=192
+2	полезно	полезный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=193|end_char=200
+3	знать	знать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=201|end_char=206
+4	,	,	PUNCT	_	_	6	punct	_	start_char=206|end_char=207
+5	что	что	SCONJ	_	_	6	mark	_	start_char=208|end_char=211
+6	можно	можно	ADV	_	Degree=Pos	3	ccomp	_	start_char=212|end_char=217
+7	обратиться	обратиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	csubj	_	start_char=218|end_char=228
+8	к	к	ADP	_	_	10	case	_	start_char=229|end_char=230
+9	любой	любой	DET	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	10	det	_	start_char=231|end_char=236
+10	странице	страница	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=237|end_char=245
+11	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=246|end_char=250
+12	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=251|end_char=256
+13	и	и	CCONJ	_	_	14	cc	_	start_char=257|end_char=258
+14	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	start_char=259|end_char=264
+15	нужную	нужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=265|end_char=271
+16	породу	порода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=272|end_char=278
+17	собаки	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=279|end_char=285
+18	.	.	PUNCT	_	_	2	punct	_	start_char=285|end_char=286
+
+# text = Есть также общие инструкции, которые применимы ко многим породам (например: плюшевые головы и т.д.).
+# sent_id = 3
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=287|end_char=291
+2	также	также	ADV	_	Degree=Pos	4	obl	_	start_char=292|end_char=297
+3	общие	общий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	start_char=298|end_char=303
+4	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=304|end_char=314
+5	,	,	PUNCT	_	_	7	punct	_	start_char=314|end_char=315
+6	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=316|end_char=323
+7	применимы	применимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	acl:relcl	_	start_char=324|end_char=333
+8	ко	к	ADP	_	_	10	case	_	start_char=334|end_char=336
+9	многим	много	NUM	_	NumType=Card	10	amod	_	start_char=337|end_char=343
+10	породам	порода	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	start_char=344|end_char=351
+11	(	(	PUNCT	_	_	15	punct	_	start_char=352|end_char=353
+12	например	например	ADV	_	Degree=Pos	15	parataxis	_	start_char=353|end_char=361
+13	:	:	PUNCT	_	_	12	punct	_	start_char=361|end_char=362
+14	плюшевые	плюшевой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	start_char=363|end_char=371
+15	головы	голова	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	parataxis	_	start_char=372|end_char=378
+16	и	и	CCONJ	_	_	17	cc	_	start_char=379|end_char=380
+17	т.	так	ADV	_	Degree=Pos	15	conj	_	start_char=381|end_char=383
+18	д	далее	ADV	_	Degree=Pos	17	fixed	_	start_char=383|end_char=384
+19	.	.	PUNCT	_	_	18	punct	_	start_char=384|end_char=385
+20	)	)	PUNCT	_	_	15	punct	_	start_char=385|end_char=386
+21	.	.	PUNCT	_	_	1	punct	_	start_char=386|end_char=387
+
+# text = Инструкции просты, но достаточно подробны, чтобы каждый мог их понять.
+# sent_id = 4
+1	Инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=388|end_char=398
+2	просты	простой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=399|end_char=405
+3	,	,	PUNCT	_	_	6	punct	_	start_char=405|end_char=406
+4	но	но	CCONJ	_	_	6	cc	_	start_char=407|end_char=409
+5	достаточно	достаточно	ADV	_	Degree=Pos	6	obl	_	start_char=410|end_char=420
+6	подробны	подробный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	start_char=421|end_char=429
+7	,	,	PUNCT	_	_	10	punct	_	start_char=429|end_char=430
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	start_char=431|end_char=436
+9	каждый	каждый	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	10	nsubj	_	start_char=437|end_char=443
+10	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=444|end_char=447
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	start_char=448|end_char=450
+12	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=451|end_char=457
+13	.	.	PUNCT	_	_	2	punct	_	start_char=457|end_char=458
+
+# text = Обязательная вещь для грумеров и зоостилистов!
+# sent_id = 5
+1	Обязательная	обязательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=459|end_char=471
+2	вещь	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=472|end_char=476
+3	для	для	ADP	_	_	4	case	_	start_char=477|end_char=480
+4	грумеров	грумер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=481|end_char=489
+5	и	и	CCONJ	_	_	6	cc	_	start_char=490|end_char=491
+6	зоостилистов	зоостилист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	start_char=492|end_char=504
+7	!	!	PUNCT	_	_	2	punct	_	start_char=504|end_char=505
+

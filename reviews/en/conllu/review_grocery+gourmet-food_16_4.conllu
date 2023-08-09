@@ -1,16 +1,19 @@
-1	Not	not	ADV	RB	_	5	advmod	_	start_char=0|end_char=3
+# text = Not enough Matcha tea flavor for me ... (=_=) I tried this for the first time today and it is delicious but I don't quite taste the Matcha flavor as you would in like say a Green Tea ice cream.
+# sent_id = 0
+# sentiment = 0
+1	Not	not	PART	RB	_	5	advmod	_	start_char=0|end_char=3
 2	enough	enough	ADJ	JJ	Degree=Pos	5	amod	_	start_char=4|end_char=10
 3	Matcha	matcha	NOUN	NN	Number=Sing	5	compound	_	start_char=11|end_char=17
 4	tea	tea	NOUN	NN	Number=Sing	5	compound	_	start_char=18|end_char=21
-5	flavor	flavor	NOUN	NN	Number=Sing	13	nsubj	_	start_char=22|end_char=28
+5	flavor	flavor	NOUN	NN	Number=Sing	0	root	_	start_char=22|end_char=28
 6	for	for	ADP	IN	_	7	case	_	start_char=29|end_char=32
 7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	start_char=33|end_char=35
 8	...	...	PUNCT	,	_	5	punct	_	start_char=36|end_char=39
-9	(	(	PUNCT	-LRB-	_	13	punct	_	start_char=40|end_char=41
+9	(	(	PUNCT	-LRB-	_	10	punct	_	start_char=40|end_char=41
 10	=_=	=_=	SYM	NFP	_	13	discourse	_	start_char=41|end_char=44
 11	)	)	PUNCT	-RRB-	_	10	punct	_	start_char=44|end_char=45
 12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=46|end_char=47
-13	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=48|end_char=53
+13	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	parataxis	_	start_char=48|end_char=53
 14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	obj	_	start_char=54|end_char=58
 15	for	for	ADP	IN	_	18	case	_	start_char=59|end_char=62
 16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	start_char=63|end_char=66
@@ -23,30 +26,33 @@
 23	delicious	delicious	ADJ	JJ	Degree=Pos	13	conj	_	start_char=94|end_char=103
 24	but	but	CCONJ	CC	_	29	cc	_	start_char=104|end_char=107
 25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	start_char=108|end_char=109
-26	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=110|end_char=112
+26	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	start_char=110|end_char=112
 27	n't	not	PART	RB	_	29	advmod	_	start_char=112|end_char=115
 28	quite	quite	ADV	RB	_	29	advmod	_	start_char=116|end_char=121
 29	taste	taste	VERB	VB	VerbForm=Inf	13	conj	_	start_char=122|end_char=127
 30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	start_char=128|end_char=131
 31	Matcha	matcha	NOUN	NN	Number=Sing	32	compound	_	start_char=132|end_char=138
 32	flavor	flavor	NOUN	NN	Number=Sing	29	obj	_	start_char=139|end_char=145
-33	as	as	SCONJ	IN	_	36	mark	_	start_char=146|end_char=148
-34	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	35	nsubj	_	start_char=149|end_char=152
-35	would	would	AUX	MD	VerbForm=Fin	36	aux	_	start_char=153|end_char=158
-36	in	in	ADV	RB	_	29	advcl	_	start_char=159|end_char=161
+33	as	as	SCONJ	IN	_	38	mark	_	start_char=146|end_char=148
+34	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	38	nsubj	_	start_char=149|end_char=152
+35	would	would	AUX	MD	VerbForm=Fin	38	aux	_	start_char=153|end_char=158
+36	in	in	ADP	IN	_	38	mark	_	start_char=159|end_char=161
 37	like	like	INTJ	UH	_	38	discourse	_	start_char=162|end_char=166
 38	say	say	VERB	VB	VerbForm=Inf	29	advcl	_	start_char=167|end_char=170
 39	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	start_char=171|end_char=172
-40	Green	Green	ADJ	JJ	Degree=Pos	43	amod	_	start_char=173|end_char=178
-41	Tea	tea	NOUN	NN	Number=Sing	43	compound	_	start_char=179|end_char=182
+40	Green	Green	ADJ	NNP	Degree=Pos	41	amod	_	start_char=173|end_char=178
+41	Tea	Tea	PROPN	NNP	Number=Sing	43	compound	_	start_char=179|end_char=182
 42	ice	ice	NOUN	NN	Number=Sing	43	compound	_	start_char=183|end_char=186
 43	cream	cream	NOUN	NN	Number=Sing	38	obj	_	start_char=187|end_char=192
-44	.	.	PUNCT	.	_	13	punct	_	start_char=192|end_char=193
+44	.	.	PUNCT	.	_	5	punct	_	start_char=192|end_char=193
 
+# text = To me it tasted like white chocolate with a grainy texture which I'm guessing is the Matcha tea powder.
+# sent_id = 1
+# sentiment = 1
 1	To	to	ADP	IN	_	2	case	_	start_char=194|end_char=196
 2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=197|end_char=199
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=200|end_char=202
-4	tasted	taste	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=203|end_char=209
+4	tasted	taste	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=203|end_char=209
 5	like	like	ADP	IN	_	7	case	_	start_char=210|end_char=214
 6	white	white	ADJ	JJ	Degree=Pos	7	amod	_	start_char=215|end_char=220
 7	chocolate	chocolate	NOUN	NN	Number=Sing	4	obl	_	start_char=221|end_char=230
@@ -56,18 +62,21 @@
 11	texture	texture	NOUN	NN	Number=Sing	4	obl	_	start_char=245|end_char=252
 12	which	which	PRON	WDT	PronType=Rel	15	obj	_	start_char=253|end_char=258
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=259|end_char=260
-14	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=260|end_char=262
+14	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=260|end_char=262
 15	guessing	guess	VERB	VBG	Tense=Pres|VerbForm=Part	11	acl:relcl	_	start_char=263|end_char=271
 16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=272|end_char=274
 17	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=275|end_char=278
 18	Matcha	matcha	NOUN	NN	Number=Sing	20	compound	_	start_char=279|end_char=285
 19	tea	tea	NOUN	NN	Number=Sing	20	compound	_	start_char=286|end_char=289
-20	powder	powder	NOUN	NN	Number=Sing	15	ccomp	_	start_char=290|end_char=296
+20	powder	powder	NOUN	NN	Number=Sing	4	parataxis	_	start_char=290|end_char=296
 21	.	.	PUNCT	.	_	4	punct	_	start_char=296|end_char=297
 
+# text = I think my favorite KitKat flavor mix is the Mocha.
+# sent_id = 2
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=298|end_char=299
-2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=300|end_char=305
-3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=306|end_char=308
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=300|end_char=305
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=306|end_char=308
 4	favorite	favorite	ADJ	JJ	Degree=Pos	7	amod	_	start_char=309|end_char=317
 5	KitKat	KitKat	PROPN	NNP	Number=Sing	6	compound	_	start_char=318|end_char=324
 6	flavor	flavor	NOUN	NN	Number=Sing	7	compound	_	start_char=325|end_char=331

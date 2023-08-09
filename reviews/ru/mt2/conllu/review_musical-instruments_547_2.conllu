@@ -1,0 +1,121 @@
+# text = Слишком большие.
+# sent_id = 0
+1	Слишком	слишком	ADV	_	Degree=Pos	2	obl	_	start_char=0|end_char=7
+2	большие	большой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=8|end_char=15
+3	.	.	PUNCT	_	_	2	punct	_	start_char=15|end_char=16
+
+# text = Извините, но мне они не нравятся, так как слишком велики.
+# sent_id = 1
+1	Извините	извинить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	7	parataxis	_	start_char=17|end_char=25
+2	,	,	PUNCT	_	_	7	punct	_	start_char=25|end_char=26
+3	но	но	CCONJ	_	_	7	cc	_	start_char=27|end_char=29
+4	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	start_char=30|end_char=33
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=34|end_char=37
+6	не	не	PART	_	_	7	advmod	_	start_char=38|end_char=40
+7	нравятся	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=41|end_char=49
+8	,	,	PUNCT	_	_	12	punct	_	start_char=49|end_char=50
+9	так	так	ADV	_	Degree=Pos	12	mark	_	start_char=51|end_char=54
+10	как	как	SCONJ	_	_	9	fixed	_	start_char=55|end_char=58
+11	слишком	слишком	ADV	_	Degree=Pos	12	obl	_	start_char=59|end_char=66
+12	велики	большой	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	advcl	_	start_char=67|end_char=73
+13	.	.	PUNCT	_	_	7	punct	_	start_char=73|end_char=74
+
+# text = Они слишком сильно выделяются.
+# sent_id = 2
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=75|end_char=78
+2	слишком	слишком	ADV	_	Degree=Pos	3	advmod	_	start_char=79|end_char=86
+3	сильно	сильно	ADV	_	Degree=Pos	4	advmod	_	start_char=87|end_char=93
+4	выделяются	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=94|end_char=104
+5	.	.	PUNCT	_	_	4	punct	_	start_char=104|end_char=105
+
+# text = Они работают и эффективны, но они слишком заметны.
+# sent_id = 3
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=106|end_char=109
+2	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=110|end_char=118
+3	и	и	CCONJ	_	_	4	cc	_	start_char=119|end_char=120
+4	эффективны	эффективный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	start_char=121|end_char=131
+5	,	,	PUNCT	_	_	9	punct	_	start_char=131|end_char=132
+6	но	но	CCONJ	_	_	9	cc	_	start_char=133|end_char=135
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=136|end_char=139
+8	слишком	слишком	ADV	_	Degree=Pos	9	obl	_	start_char=140|end_char=147
+9	заметны	заметный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	start_char=148|end_char=155
+10	.	.	PUNCT	_	_	2	punct	_	start_char=155|end_char=156
+
+# text = Есть много хороших альтернатив: прокладки для ремешка, замки для ремешка, откручивание штифта и вставка его прямо в ремень гитары.
+# sent_id = 4
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=157|end_char=161
+2	много	много	ADV	_	Degree=Pos	1	nsubj	_	start_char=162|end_char=167
+3	хороших	хороший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	start_char=168|end_char=175
+4	альтернатив	альтернатива	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	start_char=176|end_char=187
+5	:	:	PUNCT	_	_	6	punct	_	start_char=187|end_char=188
+6	прокладки	прокладка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	parataxis	_	start_char=189|end_char=198
+7	для	для	ADP	_	_	8	case	_	start_char=199|end_char=202
+8	ремешка	ремешка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=203|end_char=210
+9	,	,	PUNCT	_	_	10	punct	_	start_char=210|end_char=211
+10	замки	замок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=212|end_char=217
+11	для	для	ADP	_	_	12	case	_	start_char=218|end_char=221
+12	ремешка	ремешка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=222|end_char=229
+13	,	,	PUNCT	_	_	14	punct	_	start_char=229|end_char=230
+14	откручивание	откручивание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	start_char=231|end_char=243
+15	штифта	штифт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=244|end_char=250
+16	и	и	CCONJ	_	_	17	cc	_	start_char=251|end_char=252
+17	вставка	вставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=253|end_char=260
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nmod	_	start_char=261|end_char=264
+19	прямо	прямо	ADV	_	Degree=Pos	21	obl	_	start_char=265|end_char=270
+20	в	в	ADP	_	_	21	case	_	start_char=271|end_char=272
+21	ремень	ремень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	start_char=273|end_char=279
+22	гитары	гитара	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=280|end_char=286
+23	.	.	PUNCT	_	_	1	punct	_	start_char=286|end_char=287
+
+# text = Опять же, они работают, но они не эстетичны и не элегантны.
+# sent_id = 5
+1	Опять	опять	ADV	_	Degree=Pos	5	parataxis	_	start_char=288|end_char=293
+2	же	же	PART	_	_	1	advmod	_	start_char=294|end_char=296
+3	,	,	PUNCT	_	_	1	punct	_	start_char=296|end_char=297
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=298|end_char=301
+5	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=302|end_char=310
+6	,	,	PUNCT	_	_	10	punct	_	start_char=310|end_char=311
+7	но	но	CCONJ	_	_	10	cc	_	start_char=312|end_char=314
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=315|end_char=318
+9	не	не	PART	_	_	10	advmod	_	start_char=319|end_char=321
+10	эстетичны	эстетичный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	conj	_	start_char=322|end_char=331
+11	и	и	CCONJ	_	_	13	cc	_	start_char=332|end_char=333
+12	не	не	PART	_	_	13	advmod	_	start_char=334|end_char=336
+13	элегантны	элегантный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	conj	_	start_char=337|end_char=346
+14	.	.	PUNCT	_	_	5	punct	_	start_char=346|end_char=347
+
+# text = Я также приобрел золотой комплект для своего баса, и теперь он выглядит так, будто я должен носить большие фиолетовые платформы, когда играю.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=348|end_char=349
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=350|end_char=355
+3	приобрел	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=356|end_char=364
+4	золотой	золотой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=365|end_char=372
+5	комплект	комплект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=373|end_char=381
+6	для	для	ADP	_	_	8	case	_	start_char=382|end_char=385
+7	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=386|end_char=392
+8	баса	бас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=393|end_char=397
+9	,	,	PUNCT	_	_	13	punct	_	start_char=397|end_char=398
+10	и	и	CCONJ	_	_	13	cc	_	start_char=399|end_char=400
+11	теперь	теперь	ADV	_	Degree=Pos	13	advmod	_	start_char=401|end_char=407
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=408|end_char=410
+13	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=411|end_char=419
+14	так	так	ADV	_	Degree=Pos	13	advmod	_	start_char=420|end_char=423
+15	,	,	PUNCT	_	_	18	punct	_	start_char=423|end_char=424
+16	будто	будто	SCONJ	_	_	18	mark	_	start_char=425|end_char=430
+17	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=431|end_char=432
+18	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	14	advcl	_	start_char=433|end_char=439
+19	носить	носить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	start_char=440|end_char=446
+20	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	start_char=447|end_char=454
+21	фиолетовые	фиолетовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	start_char=455|end_char=465
+22	платформы	платформа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=466|end_char=475
+23	,	,	PUNCT	_	_	25	punct	_	start_char=475|end_char=476
+24	когда	когда	SCONJ	_	_	25	mark	_	start_char=477|end_char=482
+25	играю	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	start_char=483|end_char=488
+26	.	.	PUNCT	_	_	3	punct	_	start_char=488|end_char=489
+
+# text = Не круто.
+# sent_id = 7
+1	Не	не	PART	_	_	2	advmod	_	start_char=490|end_char=492
+2	круто	крутой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=493|end_char=498
+3	.	.	PUNCT	_	_	2	punct	_	start_char=498|end_char=499
+

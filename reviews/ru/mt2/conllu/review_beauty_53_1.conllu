@@ -1,0 +1,121 @@
+# text = Еще один фальшивый MAC здесь, не покупайте!
+# sent_id = 0
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=3
+2	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	4	nummod	_	start_char=4|end_char=8
+3	фальшивый	фальшивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=9|end_char=18
+4	MAC	MAC	PROPN	_	Foreign=Yes	0	root	_	start_char=19|end_char=22
+5	здесь	здесь	ADV	_	Degree=Pos	4	advmod	_	start_char=23|end_char=28
+6	,	,	PUNCT	_	_	8	punct	_	start_char=28|end_char=29
+7	не	не	PART	_	_	8	advmod	_	start_char=30|end_char=32
+8	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	start_char=33|end_char=42
+9	!	!	PUNCT	_	_	4	punct	_	start_char=42|end_char=43
+
+# text = Почему вас это должно волновать?
+# sent_id = 1
+1	Почему	почему	ADV	_	Degree=Pos	4	advmod	_	start_char=44|end_char=50
+2	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	obj	_	start_char=51|end_char=54
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	start_char=55|end_char=58
+4	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=59|end_char=65
+5	волновать	волновать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=66|end_char=75
+6	?	?	PUNCT	_	_	4	punct	_	start_char=75|end_char=76
+
+# text = Продажа поддельных пигментов MAC широко распространена в Интернете, поэтому люди часто полагают, что они должны быть безопасными или даже идентичными настоящим продуктам MAC.
+# sent_id = 2
+1	Продажа	продажа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=77|end_char=84
+2	поддельных	поддельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=85|end_char=95
+3	пигментов	пигмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=96|end_char=105
+4	MAC	MAC	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=106|end_char=109
+5	широко	широко	ADV	_	Degree=Pos	6	obl	_	start_char=110|end_char=116
+6	распространена	распространенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=117|end_char=131
+7	в	в	ADP	_	_	8	case	_	start_char=132|end_char=133
+8	Интернете	Интернет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=134|end_char=143
+9	,	,	PUNCT	_	_	13	punct	_	start_char=143|end_char=144
+10	поэтому	поэтому	ADV	_	Degree=Pos	13	advmod	_	start_char=145|end_char=152
+11	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=153|end_char=157
+12	часто	часто	ADV	_	Degree=Pos	13	advmod	_	start_char=158|end_char=163
+13	полагают	полагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=164|end_char=172
+14	,	,	PUNCT	_	_	17	punct	_	start_char=172|end_char=173
+15	что	что	SCONJ	_	_	17	mark	_	start_char=174|end_char=177
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=178|end_char=181
+17	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	ccomp	_	start_char=182|end_char=188
+18	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	cop	_	start_char=189|end_char=193
+19	безопасными	безопасный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	xcomp	_	start_char=194|end_char=205
+20	или	или	CCONJ	_	_	22	cc	_	start_char=206|end_char=209
+21	даже	даже	PART	_	_	22	advmod	_	start_char=210|end_char=214
+22	идентичными	идентичный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	conj	_	start_char=215|end_char=226
+23	настоящим	настоящий	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	24	amod	_	start_char=227|end_char=236
+24	продуктам	продукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	19	iobj	_	start_char=237|end_char=246
+25	MAC	MAC	PROPN	_	Foreign=Yes	24	flat:foreign	_	start_char=247|end_char=250
+26	.	.	PUNCT	_	_	6	punct	_	start_char=250|end_char=251
+
+# text = К сожалению, это не так.
+# sent_id = 3
+1	К	к	ADP	_	_	2	case	_	start_char=252|end_char=253
+2	сожалению	сожаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	parataxis	_	start_char=254|end_char=263
+3	,	,	PUNCT	_	_	2	punct	_	start_char=263|end_char=264
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=265|end_char=268
+5	не	не	PART	_	_	6	advmod	_	start_char=269|end_char=271
+6	так	так	ADV	_	Degree=Pos	0	root	_	start_char=272|end_char=275
+7	.	.	PUNCT	_	_	6	punct	_	start_char=275|end_char=276
+
+# text = Анализ поддельных пигментов MAC показал, что они содержат химические раздражители, бактериальное заражение (в том числе, по крайней мере, в одном случае - кишечную палочку) и даже токсины, такие как свинец и канцерогены.
+# sent_id = 4
+1	Анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=277|end_char=283
+2	поддельных	поддельный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=284|end_char=294
+3	пигментов	пигмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=295|end_char=304
+4	MAC	MAC	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=305|end_char=308
+5	показал	показать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=309|end_char=316
+6	,	,	PUNCT	_	_	9	punct	_	start_char=316|end_char=317
+7	что	что	SCONJ	_	_	9	mark	_	start_char=318|end_char=321
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=322|end_char=325
+9	содержат	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=326|end_char=334
+10	химические	химический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	start_char=335|end_char=345
+11	раздражители	раздражитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=346|end_char=358
+12	,	,	PUNCT	_	_	14	punct	_	start_char=358|end_char=359
+13	бактериальное	бактериальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=360|end_char=373
+14	заражение	заражение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	conj	_	start_char=374|end_char=383
+15	(	(	PUNCT	_	_	29	punct	_	start_char=384|end_char=385
+16	в	в	ADP	_	_	18	case	_	start_char=385|end_char=386
+17	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	start_char=387|end_char=390
+18	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	nmod	_	start_char=391|end_char=396
+19	,	,	PUNCT	_	_	18	punct	_	start_char=396|end_char=397
+20	по	по	ADP	_	_	26	advmod	_	start_char=398|end_char=400
+21	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	20	fixed	_	start_char=401|end_char=408
+22	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	fixed	_	start_char=409|end_char=413
+23	,	,	PUNCT	_	_	20	punct	_	start_char=413|end_char=414
+24	в	в	ADP	_	_	26	case	_	start_char=415|end_char=416
+25	одном	один	NUM	_	Case=Loc|Gender=Masc|NumType=Card	26	nummod	_	start_char=417|end_char=422
+26	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	nmod	_	start_char=423|end_char=429
+27	-	-	PUNCT	_	_	26	punct	_	start_char=430|end_char=431
+28	кишечную	кишечный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=432|end_char=440
+29	палочку	палочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	parataxis	_	start_char=441|end_char=448
+30	)	)	PUNCT	_	_	29	punct	_	start_char=448|end_char=449
+31	и	и	CCONJ	_	_	33	cc	_	start_char=450|end_char=451
+32	даже	даже	PART	_	_	33	advmod	_	start_char=452|end_char=456
+33	токсины	токсина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	conj	_	start_char=457|end_char=464
+34	,	,	PUNCT	_	_	35	punct	_	start_char=464|end_char=465
+35	такие	такой	DET	_	Case=Acc|Number=Plur|PronType=Dem	33	det	_	start_char=466|end_char=471
+36	как	как	SCONJ	_	_	37	mark	_	start_char=472|end_char=475
+37	свинец	свинец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obl	_	start_char=476|end_char=482
+38	и	и	CCONJ	_	_	39	cc	_	start_char=483|end_char=484
+39	канцерогены	канцероген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	37	conj	_	start_char=485|end_char=496
+40	.	.	PUNCT	_	_	5	punct	_	start_char=496|end_char=497
+
+# text = Неужели вы хотите рисковать слепотой или постоянными шрамами на лице только ради выгодной сделки?
+# sent_id = 5
+1	Неужели	неужели	PART	_	_	3	advmod	_	start_char=498|end_char=505
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=506|end_char=508
+3	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=509|end_char=515
+4	рисковать	рисковать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=516|end_char=525
+5	слепотой	слепота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	start_char=526|end_char=534
+6	или	или	CCONJ	_	_	8	cc	_	start_char=535|end_char=538
+7	постоянными	постоянный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	start_char=539|end_char=550
+8	шрамами	шрам	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	conj	_	start_char=551|end_char=558
+9	на	на	ADP	_	_	10	case	_	start_char=559|end_char=561
+10	лице	лицо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	start_char=562|end_char=566
+11	только	только	PART	_	_	14	advmod	_	start_char=567|end_char=573
+12	ради	ради	ADP	_	_	14	case	_	start_char=574|end_char=578
+13	выгодной	выгодный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=579|end_char=587
+14	сделки	сделка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=588|end_char=594
+15	?	?	PUNCT	_	_	3	punct	_	start_char=594|end_char=595
+

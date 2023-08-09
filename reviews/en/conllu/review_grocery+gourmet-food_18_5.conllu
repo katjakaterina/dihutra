@@ -1,8 +1,11 @@
+# text = Great flavor I've purchased different curries in the grocery store and was never completely happy with the flavor.
+# sent_id = 0
+# sentiment = 0
 1	Great	great	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=5
 2	flavor	flavor	NOUN	NN	Number=Sing	0	root	_	start_char=6|end_char=12
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=13|end_char=14
-4	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=14|end_char=17
-5	purchased	purchase	VERB	VBN	Tense=Past|VerbForm=Part	2	acl:relcl	_	start_char=18|end_char=27
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=14|end_char=17
+5	purchased	purchase	VERB	VBN	Tense=Past|VerbForm=Part	2	parataxis	_	start_char=18|end_char=27
 6	different	different	ADJ	JJ	Degree=Pos	7	amod	_	start_char=28|end_char=37
 7	curries	curry	NOUN	NNS	Number=Plur	5	obj	_	start_char=38|end_char=45
 8	in	in	ADP	IN	_	11	case	_	start_char=46|end_char=48
@@ -13,18 +16,21 @@
 13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	start_char=71|end_char=74
 14	never	never	ADV	RB	_	16	advmod	_	start_char=75|end_char=80
 15	completely	completely	ADV	RB	_	16	advmod	_	start_char=81|end_char=91
-16	happy	happy	ADJ	JJ	Degree=Pos	2	conj	_	start_char=92|end_char=97
+16	happy	happy	ADJ	JJ	Degree=Pos	5	conj	_	start_char=92|end_char=97
 17	with	with	ADP	IN	_	19	case	_	start_char=98|end_char=102
 18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	start_char=103|end_char=106
 19	flavor	flavor	NOUN	NN	Number=Sing	16	obl	_	start_char=107|end_char=113
 20	.	.	PUNCT	.	_	2	punct	_	start_char=113|end_char=114
 
+# text = I read a recipe that recommended this brand and after using it I can see why they recommend this specific brand.
+# sent_id = 1
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=115|end_char=116
-2	read	read	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=117|end_char=121
+2	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=117|end_char=121
 3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	start_char=122|end_char=123
 4	recipe	recipe	NOUN	NN	Number=Sing	2	obj	_	start_char=124|end_char=130
 5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	start_char=131|end_char=135
-6	recommended	recommend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=136|end_char=147
+6	recommended	recommend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl:relcl	_	start_char=136|end_char=147
 7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	start_char=148|end_char=152
 8	brand	brand	NOUN	NN	Number=Sing	6	obj	_	start_char=153|end_char=158
 9	and	and	CCONJ	CC	_	15	cc	_	start_char=159|end_char=162
@@ -34,35 +40,38 @@
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=178|end_char=179
 14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	start_char=180|end_char=183
 15	see	see	VERB	VB	VerbForm=Inf	2	conj	_	start_char=184|end_char=187
-16	why	why	SCONJ	WRB	PronType=Int	18	mark	_	start_char=188|end_char=191
+16	why	why	ADV	WRB	PronType=Int	18	advmod	_	start_char=188|end_char=191
 17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	start_char=192|end_char=196
-18	recommend	recommend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=197|end_char=206
+18	recommend	recommend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	start_char=197|end_char=206
 19	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	start_char=207|end_char=211
 20	specific	specific	ADJ	JJ	Degree=Pos	21	amod	_	start_char=212|end_char=220
 21	brand	brand	NOUN	NN	Number=Sing	18	obj	_	start_char=221|end_char=226
 22	.	.	PUNCT	.	_	2	punct	_	start_char=226|end_char=227
 
+# text = Great flavor - I purchased all 3 - Green, Red, and Yellow curry paste and have enjoyed all 3 types.
+# sent_id = 2
+# sentiment = 2
 1	Great	great	ADJ	JJ	Degree=Pos	2	amod	_	start_char=228|end_char=233
 2	flavor	flavor	NOUN	NN	Number=Sing	0	root	_	start_char=234|end_char=240
 3	-	-	PUNCT	,	_	2	punct	_	start_char=241|end_char=242
 4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=243|end_char=244
-5	purchased	purchase	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=245|end_char=254
+5	purchased	purchase	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	parataxis	_	start_char=245|end_char=254
 6	all	all	DET	DT	_	16	det	_	start_char=255|end_char=258
-7	3	3	NUM	CD	NumType=Card	9	nummod	_	start_char=259|end_char=260
+7	3	3	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	_	start_char=259|end_char=260
 8	-	-	PUNCT	HYPH	_	9	punct	_	start_char=261|end_char=262
-9	Green	Green	ADJ	JJ	Degree=Pos	16	amod	_	start_char=263|end_char=268
+9	Green	Green	ADJ	NNP	Degree=Pos	16	amod	_	start_char=263|end_char=268
 10	,	,	PUNCT	,	_	11	punct	_	start_char=268|end_char=269
-11	Red	Red	ADJ	JJ	Degree=Pos	9	conj	_	start_char=270|end_char=273
+11	Red	Red	ADJ	NNP	Degree=Pos	9	conj	_	start_char=270|end_char=273
 12	,	,	PUNCT	,	_	14	punct	_	start_char=273|end_char=274
 13	and	and	CCONJ	CC	_	14	cc	_	start_char=275|end_char=278
-14	Yellow	yellow	ADJ	JJ	Degree=Pos	9	conj	_	start_char=279|end_char=285
-15	curry	curry	NOUN	NN	Number=Sing	16	compound	_	start_char=286|end_char=291
+14	Yellow	Yellow	ADJ	NNP	Degree=Pos	9	conj	_	start_char=279|end_char=285
+15	curry	curry	PROPN	NNP	Number=Sing	16	compound	_	start_char=286|end_char=291
 16	paste	paste	NOUN	NN	Number=Sing	5	obj	_	start_char=292|end_char=297
 17	and	and	CCONJ	CC	_	19	cc	_	start_char=298|end_char=301
-18	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=302|end_char=306
+18	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=302|end_char=306
 19	enjoyed	enjoy	VERB	VBN	Tense=Past|VerbForm=Part	5	conj	_	start_char=307|end_char=314
 20	all	all	DET	DT	_	22	det	_	start_char=315|end_char=318
-21	3	3	NUM	CD	NumType=Card	22	nummod	_	start_char=319|end_char=320
+21	3	3	NUM	CD	NumForm=Digit|NumType=Card	22	nummod	_	start_char=319|end_char=320
 22	types	type	NOUN	NNS	Number=Plur	19	obj	_	start_char=321|end_char=326
 23	.	.	PUNCT	.	_	2	punct	_	start_char=326|end_char=327
 

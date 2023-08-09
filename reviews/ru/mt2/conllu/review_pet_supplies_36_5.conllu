@@ -1,0 +1,109 @@
+# text = Необходимый текст для грумера Вы профессиональный грумер?
+# sent_id = 0
+1	Необходимый	необходимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=11
+2	текст	текст	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=12|end_char=17
+3	для	для	ADP	_	_	4	case	_	start_char=18|end_char=21
+4	грумера	грумор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=22|end_char=29
+5	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=30|end_char=32
+6	профессиональный	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=33|end_char=49
+7	грумер	грумер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=50|end_char=56
+8	?	?	PUNCT	_	_	7	punct	_	start_char=56|end_char=57
+
+# text = Хотите им стать?
+# sent_id = 1
+1	Хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=58|end_char=64
+2	им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	iobj	_	start_char=65|end_char=67
+3	стать	стать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	1	xcomp	_	start_char=68|end_char=73
+4	?	?	PUNCT	_	_	1	punct	_	start_char=73|end_char=74
+
+# text = Тогда купите эту книгу!
+# sent_id = 2
+1	Тогда	тогда	ADV	_	Degree=Pos	2	advmod	_	start_char=75|end_char=80
+2	купите	купить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=81|end_char=87
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=88|end_char=91
+4	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=92|end_char=97
+5	!	!	PUNCT	_	_	2	punct	_	start_char=97|end_char=98
+
+# text = Эта книга, а также сопутствующая ей "Теория пяти" - незаменимые книги в коллекции грумера.
+# sent_id = 3
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=99|end_char=102
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=103|end_char=108
+3	,	,	PUNCT	_	_	9	punct	_	start_char=108|end_char=109
+4	а	а	CCONJ	_	_	9	cc	_	start_char=110|end_char=111
+5	также	также	PART	_	_	4	fixed	_	start_char=112|end_char=117
+6	сопутствующая	сопутствовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	start_char=118|end_char=131
+7	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	iobj	_	start_char=132|end_char=134
+8	"	"	PUNCT	_	_	9	punct	_	start_char=135|end_char=136
+9	Теория	теория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=136|end_char=142
+10	пяти	пять	NUM	_	Case=Gen|NumType=Card	9	nummod:entity	_	start_char=143|end_char=147
+11	"	"	PUNCT	_	_	9	punct	_	start_char=147|end_char=148
+12	-	-	PUNCT	_	_	2	punct	_	start_char=149|end_char=150
+13	незаменимые	незаменимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=151|end_char=162
+14	книги	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=163|end_char=168
+15	в	в	ADP	_	_	16	case	_	start_char=169|end_char=170
+16	коллекции	коллекция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	start_char=171|end_char=180
+17	грумера	грумор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=181|end_char=188
+18	.	.	PUNCT	_	_	14	punct	_	start_char=188|end_char=189
+
+# text = Охватывая огромное количество пород собак, она показывает стандартные модели и стрижки этих пород, а в некоторых случаях, таких как пудели, скоттиши и те, кто имеет немного более "сложные стрижки", она очень глубоко прорабатывает детали и дает советы.
+# sent_id = 4
+1	Охватывая	охватывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	start_char=190|end_char=199
+2	огромное	огромный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=200|end_char=208
+3	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=209|end_char=219
+4	пород	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	start_char=220|end_char=225
+5	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=226|end_char=231
+6	,	,	PUNCT	_	_	1	punct	_	start_char=231|end_char=232
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=233|end_char=236
+8	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=237|end_char=247
+9	стандартные	стандартный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=248|end_char=259
+10	модели	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=260|end_char=266
+11	и	и	CCONJ	_	_	12	cc	_	start_char=267|end_char=268
+12	стрижки	стрижок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	conj	_	start_char=269|end_char=276
+13	этих	этот	DET	_	Case=Gen|Number=Plur|PronType=Dem	14	det	_	start_char=277|end_char=281
+14	пород	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=282|end_char=287
+15	,	,	PUNCT	_	_	41	punct	_	start_char=287|end_char=288
+16	а	а	CCONJ	_	_	41	cc	_	start_char=289|end_char=290
+17	в	в	ADP	_	_	19	case	_	start_char=291|end_char=292
+18	некоторых	некоторый	DET	_	Case=Loc|Number=Plur|PronType=Ind	19	det	_	start_char=293|end_char=302
+19	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	41	obl	_	start_char=303|end_char=310
+20	,	,	PUNCT	_	_	21	punct	_	start_char=310|end_char=311
+21	таких	такой	DET	_	Case=Loc|Number=Plur|PronType=Dem	19	det	_	start_char=312|end_char=317
+22	как	как	SCONJ	_	_	23	mark	_	start_char=318|end_char=321
+23	пудели	пудель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	obl	_	start_char=322|end_char=328
+24	,	,	PUNCT	_	_	25	punct	_	start_char=328|end_char=329
+25	скоттиши	скоттиш	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	conj	_	start_char=330|end_char=338
+26	и	и	CCONJ	_	_	27	cc	_	start_char=339|end_char=340
+27	те	тот	DET	_	Case=Nom|Number=Plur|PronType=Dem	23	conj	_	start_char=341|end_char=343
+28	,	,	PUNCT	_	_	30	punct	_	start_char=343|end_char=344
+29	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	30	nsubj	_	start_char=345|end_char=348
+30	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	start_char=349|end_char=354
+31	немного	немного	ADV	_	Degree=Pos	32	advmod	_	start_char=355|end_char=362
+32	более	более	ADV	_	Degree=Cmp	34	obl	_	start_char=363|end_char=368
+33	"	"	PUNCT	_	_	35	punct	_	start_char=369|end_char=370
+34	сложные	сложный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	35	amod	_	start_char=370|end_char=377
+35	стрижки	стрижок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	30	obj	_	start_char=378|end_char=385
+36	"	"	PUNCT	_	_	35	punct	_	start_char=385|end_char=386
+37	,	,	PUNCT	_	_	19	punct	_	start_char=386|end_char=387
+38	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	start_char=388|end_char=391
+39	очень	очень	ADV	_	Degree=Pos	40	advmod	_	start_char=392|end_char=397
+40	глубоко	глубоко	ADV	_	Degree=Pos	41	advmod	_	start_char=398|end_char=405
+41	прорабатывает	прорабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=406|end_char=419
+42	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	41	obj	_	start_char=420|end_char=426
+43	и	и	CCONJ	_	_	44	cc	_	start_char=427|end_char=428
+44	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=429|end_char=433
+45	советы	совет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	44	obj	_	start_char=434|end_char=440
+46	.	.	PUNCT	_	_	8	punct	_	start_char=440|end_char=441
+
+# text = Великолепная книга!
+# sent_id = 5
+1	Великолепная	великолепный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=442|end_char=454
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=455|end_char=460
+3	!	!	PUNCT	_	_	2	punct	_	start_char=460|end_char=461
+
+# text = Обязательна к прочтению.
+# sent_id = 6
+1	Обязательна	обязательный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=462|end_char=473
+2	к	к	ADP	_	_	3	case	_	start_char=474|end_char=475
+3	прочтению	прочтение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	obl	_	start_char=476|end_char=485
+4	.	.	PUNCT	_	_	1	punct	_	start_char=485|end_char=486
+

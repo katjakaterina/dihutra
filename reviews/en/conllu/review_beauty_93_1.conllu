@@ -1,56 +1,77 @@
+# text = Fake mac!
+# sent_id = 0
+# sentiment = 1
 1	Fake	Fake	ADJ	JJ	Degree=Pos	2	amod	_	start_char=0|end_char=4
 2	mac	mac	NOUN	NN	Number=Sing	0	root	_	start_char=5|end_char=8
 3	!	!	PUNCT	.	_	2	punct	_	start_char=8|end_char=9
 
+# text = Fake MAC.
+# sent_id = 1
+# sentiment = 1
 1	Fake	Fake	ADJ	JJ	Degree=Pos	2	amod	_	start_char=10|end_char=14
 2	MAC	MAC	PROPN	NNP	Number=Sing	0	root	_	start_char=15|end_char=18
 3	.	.	PUNCT	.	_	2	punct	_	start_char=18|end_char=19
 
+# text = Another one.
+# sent_id = 2
+# sentiment = 1
 1	Another	another	DET	DT	_	2	det	_	start_char=20|end_char=27
 2	one	one	NOUN	NN	Number=Sing	0	root	_	start_char=28|end_char=31
 3	.	.	PUNCT	.	_	2	punct	_	start_char=31|end_char=32
 
+# text = Mac doesnt make palettes like this.
+# sent_id = 3
+# sentiment = 1
 1	Mac	Mac	PROPN	NNP	Number=Sing	3	nsubj	_	start_char=33|end_char=36
-2	doesnt	doesnt	AUX	MD	VerbForm=Fin	3	aux	_	start_char=37|end_char=43
+2	doesnt	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	start_char=37|end_char=43
 3	make	make	VERB	VB	VerbForm=Inf	0	root	_	start_char=44|end_char=48
 4	palettes	palette	NOUN	NNS	Number=Plur	3	obj	_	start_char=49|end_char=57
 5	like	like	ADP	IN	_	6	case	_	start_char=58|end_char=62
-6	this	this	PRON	DT	Number=Sing|PronType=Dem	4	nmod	_	start_char=63|end_char=67
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obl	_	start_char=63|end_char=67
 7	.	.	PUNCT	.	_	3	punct	_	start_char=67|end_char=68
 
-1	If	if	SCONJ	IN	_	3	mark	_	start_char=69|end_char=71
-2	not	not	PART	RB	_	3	advmod	_	start_char=72|end_char=75
-3	sure	sure	ADJ	JJ	Degree=Pos	17	advcl	_	start_char=76|end_char=80
+# text = If not sure just take it to a MAc store in the Mall, they will verify that all these palettes are fake.
+# sent_id = 4
+# sentiment = 0
+1	If	if	SCONJ	IN	_	2	mark	_	start_char=69|end_char=71
+2	not	not	PART	RB	_	5	advcl	_	start_char=72|end_char=75
+3	sure	sure	ADV	RB	_	5	advcl	_	start_char=76|end_char=80
 4	just	just	ADV	RB	_	5	advmod	_	start_char=81|end_char=85
-5	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	3	ccomp	_	start_char=86|end_char=90
+5	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=86|end_char=90
 6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=91|end_char=93
 7	to	to	ADP	IN	_	10	case	_	start_char=94|end_char=96
 8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=97|end_char=98
-9	MAc	MAc	PROPN	NNP	Number=Sing	10	compound	_	start_char=99|end_char=102
+9	MAc	mac	NOUN	NN	Number=Sing	10	compound	_	start_char=99|end_char=102
 10	store	store	NOUN	NN	Number=Sing	5	obl	_	start_char=103|end_char=108
 11	in	in	ADP	IN	_	13	case	_	start_char=109|end_char=111
 12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	start_char=112|end_char=115
 13	Mall	Mall	PROPN	NNP	Number=Sing	10	nmod	_	start_char=116|end_char=120
-14	,	,	PUNCT	,	_	17	punct	_	start_char=120|end_char=121
+14	,	,	PUNCT	,	_	5	punct	_	start_char=120|end_char=121
 15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=122|end_char=126
 16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	start_char=127|end_char=131
-17	verify	verify	VERB	VB	VerbForm=Inf	0	root	_	start_char=132|end_char=138
+17	verify	verify	VERB	VB	VerbForm=Inf	5	parataxis	_	start_char=132|end_char=138
 18	that	that	SCONJ	IN	_	23	mark	_	start_char=139|end_char=143
 19	all	all	DET	PDT	_	21	det:predet	_	start_char=144|end_char=147
 20	these	this	DET	DT	Number=Plur|PronType=Dem	21	det	_	start_char=148|end_char=153
 21	palettes	palette	NOUN	NNS	Number=Plur	23	nsubj	_	start_char=154|end_char=162
-22	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=163|end_char=166
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=163|end_char=166
 23	fake	fake	ADJ	JJ	Degree=Pos	17	ccomp	_	start_char=167|end_char=171
-24	.	.	PUNCT	.	_	17	punct	_	start_char=171|end_char=172
+24	.	.	PUNCT	.	_	5	punct	_	start_char=171|end_char=172
 
+# text = The seller writes her own reviews.
+# sent_id = 5
+# sentiment = 1
 1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	start_char=173|end_char=176
 2	seller	seller	NOUN	NN	Number=Sing	3	nsubj	_	start_char=177|end_char=183
 3	writes	write	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=184|end_char=190
-4	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=191|end_char=194
+4	her	she	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=191|end_char=194
 5	own	own	ADJ	JJ	Degree=Pos	6	amod	_	start_char=195|end_char=198
 6	reviews	review	NOUN	NNS	Number=Plur	3	obj	_	start_char=199|end_char=206
 7	.	.	PUNCT	.	_	3	punct	_	start_char=206|end_char=207
 
+# text = Under various names like Victoria, Alexis and a&#34;.-&#34; character.
+# sent_id = 6
+# sentiment = 1
 1	Under	under	ADP	IN	_	3	case	_	start_char=208|end_char=213
 2	various	various	ADJ	JJ	Degree=Pos	3	amod	_	start_char=214|end_char=221
 3	names	name	NOUN	NNS	Number=Plur	0	root	_	start_char=222|end_char=227
@@ -59,18 +80,22 @@
 6	,	,	PUNCT	,	_	7	punct	_	start_char=241|end_char=242
 7	Alexis	Alexis	PROPN	NNP	Number=Sing	5	conj	_	start_char=243|end_char=249
 8	and	and	CCONJ	CC	_	9	cc	_	start_char=250|end_char=253
-9	a&	a&	PROPN	NNP	Number=Sing	5	conj	_	start_char=254|end_char=256
-10	#	#	SYM	NN	Number=Sing	5	conj	_	start_char=256|end_char=257
-11	34	34	NUM	CD	NumForm=Digit|NumType=Card	10	nummod	_	start_char=257|end_char=259
-12	;	;	PUNCT	:	_	13	punct	_	start_char=259|end_char=260
-13	.-&#	.-&#	PROPN	NNP	Number=Sing	5	conj	_	start_char=260|end_char=264
-14	34	34	NUM	CD	NumForm=Digit|NumType=Card	13	flat	_	start_char=264|end_char=266
-15	;	;	PUNCT	:	_	16	punct	_	start_char=266|end_char=267
-16	character	character	NOUN	NN	Number=Sing	5	appos	_	start_char=268|end_char=277
-17	.	.	PUNCT	.	_	3	punct	_	start_char=277|end_char=278
+9	a	a	DET	DT	Definite=Ind|PronType=Art	5	conj	_	start_char=254|end_char=255
+10	&	&	CCONJ	CC	_	11	cc	_	start_char=255|end_char=256
+11	#	#	SYM	NN	Number=Sing	5	conj	_	start_char=256|end_char=257
+12	34	34	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=257|end_char=259
+13	;	;	PUNCT	,	_	14	punct	_	start_char=259|end_char=260
+14	.-&#	.-&#	SYM	SYM	_	5	appos	_	start_char=260|end_char=264
+15	34	34	NUM	CD	NumForm=Digit|NumType=Card	14	nummod	_	start_char=264|end_char=266
+16	;	;	PUNCT	,	_	17	punct	_	start_char=266|end_char=267
+17	character	character	NOUN	NN	Number=Sing	5	appos	_	start_char=268|end_char=277
+18	.	.	PUNCT	.	_	3	punct	_	start_char=277|end_char=278
 
+# text = Only to up the sales of fake palettes.
+# sent_id = 7
+# sentiment = 1
 1	Only	only	ADV	RB	_	5	advmod	_	start_char=279|end_char=283
-2	to	to	ADP	IN	_	3	case	_	start_char=284|end_char=286
+2	to	to	ADP	IN	_	5	case	_	start_char=284|end_char=286
 3	up	up	ADP	RP	_	5	case	_	start_char=287|end_char=289
 4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	start_char=290|end_char=293
 5	sales	sale	NOUN	NNS	Number=Plur	0	root	_	start_char=294|end_char=299
@@ -79,8 +104,11 @@
 8	palettes	palette	NOUN	NNS	Number=Plur	5	nmod	_	start_char=308|end_char=316
 9	.	.	PUNCT	.	_	5	punct	_	start_char=316|end_char=317
 
-1	Dont	dont	INTJ	UH	_	2	discourse	_	start_char=318|end_char=322
-2	support	support	VERB	VB	VerbForm=Inf	0	root	_	start_char=323|end_char=330
+# text = Dont support fake mac.
+# sent_id = 8
+# sentiment = 1
+1	Dont	do	AUX	MD	VerbForm=Fin	2	aux	_	start_char=318|end_char=322
+2	support	support	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	start_char=323|end_char=330
 3	fake	fake	ADJ	JJ	Degree=Pos	4	amod	_	start_char=331|end_char=335
 4	mac	mac	NOUN	NN	Number=Sing	2	obj	_	start_char=336|end_char=339
 5	.	.	PUNCT	.	_	2	punct	_	start_char=339|end_char=340

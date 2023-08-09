@@ -1,9 +1,15 @@
+# text = Bride to be help!
+# sent_id = 0
+# sentiment = 1
 1	Bride	bride	NOUN	NN	Number=Sing	0	root	_	start_char=0|end_char=5
 2	to	to	PART	TO	_	4	mark	_	start_char=6|end_char=8
 3	be	be	AUX	VB	VerbForm=Inf	4	cop	_	start_char=9|end_char=11
-4	help	help	NOUN	NN	Number=Sing	1	xcomp	_	start_char=12|end_char=16
+4	help	help	NOUN	NN	Number=Sing	1	acl	_	start_char=12|end_char=16
 5	!	!	PUNCT	.	_	1	punct	_	start_char=16|end_char=17
 
+# text = This book is very inspirational if you're looking for a cake that is unique or if you just don't know what your style is.
+# sent_id = 1
+# sentiment = 2
 1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	start_char=18|end_char=22
 2	book	book	NOUN	NN	Number=Sing	5	nsubj	_	start_char=23|end_char=27
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=28|end_char=30
@@ -11,7 +17,7 @@
 5	inspirational	inspirational	ADJ	JJ	Degree=Pos	0	root	_	start_char=36|end_char=49
 6	if	if	SCONJ	IN	_	9	mark	_	start_char=50|end_char=52
 7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	start_char=53|end_char=56
-8	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=56|end_char=59
+8	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=56|end_char=59
 9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	5	advcl	_	start_char=60|end_char=67
 10	for	for	ADP	IN	_	12	case	_	start_char=68|end_char=71
 11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	start_char=72|end_char=73
@@ -23,15 +29,18 @@
 17	if	if	SCONJ	IN	_	22	mark	_	start_char=97|end_char=99
 18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	start_char=100|end_char=103
 19	just	just	ADV	RB	_	22	advmod	_	start_char=104|end_char=108
-20	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=109|end_char=111
+20	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=109|end_char=111
 21	n't	not	PART	RB	_	22	advmod	_	start_char=111|end_char=114
-22	know	know	VERB	VB	VerbForm=Inf	15	conj	_	start_char=115|end_char=119
-23	what	what	PRON	WP	PronType=Int	22	obj	_	start_char=120|end_char=124
-24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=125|end_char=129
-25	style	style	NOUN	NN	Number=Sing	26	nsubj	_	start_char=130|end_char=135
-26	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	start_char=136|end_char=138
+22	know	know	VERB	VB	VerbForm=Inf	9	conj	_	start_char=115|end_char=119
+23	what	what	PRON	WP	PronType=Int	22	ccomp	_	start_char=120|end_char=124
+24	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=125|end_char=129
+25	style	style	NOUN	NN	Number=Sing	23	nsubj	_	start_char=130|end_char=135
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	start_char=136|end_char=138
 27	.	.	PUNCT	.	_	5	punct	_	start_char=138|end_char=139
 
+# text = The front portion of the book helps you choose your style and the back half features specs on the cakes they show.
+# sent_id = 2
+# sentiment = 2
 1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	start_char=140|end_char=143
 2	front	front	ADJ	JJ	Degree=Pos	3	amod	_	start_char=144|end_char=149
 3	portion	portion	NOUN	NN	Number=Sing	7	nsubj	_	start_char=150|end_char=157
@@ -41,30 +50,33 @@
 7	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=170|end_char=175
 8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	obj	_	start_char=176|end_char=179
 9	choose	choose	VERB	VB	VerbForm=Inf	7	xcomp	_	start_char=180|end_char=186
-10	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=187|end_char=191
+10	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=187|end_char=191
 11	style	style	NOUN	NN	Number=Sing	9	obj	_	start_char=192|end_char=197
 12	and	and	CCONJ	CC	_	16	cc	_	start_char=198|end_char=201
 13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	start_char=202|end_char=205
 14	back	back	NOUN	NN	Number=Sing	15	compound	_	start_char=206|end_char=210
-15	half	half	NOUN	NN	Number=Sing	16	nsubj	_	start_char=211|end_char=215
+15	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	16	nsubj	_	start_char=211|end_char=215
 16	features	feature	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=216|end_char=224
-17	specs	spec	NOUN	NNS	Number=Plur	16	obj	_	start_char=225|end_char=230
+17	specs	specs	NOUN	NNS	Number=Plur	16	obj	_	start_char=225|end_char=230
 18	on	on	ADP	IN	_	20	case	_	start_char=231|end_char=233
 19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	start_char=234|end_char=237
 20	cakes	cake	NOUN	NNS	Number=Plur	16	obl	_	start_char=238|end_char=243
 21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=244|end_char=248
-22	show	show	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	start_char=249|end_char=253
+22	show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	start_char=249|end_char=253
 23	.	.	PUNCT	.	_	7	punct	_	start_char=253|end_char=254
 
+# text = i.e. how many people they serve, recipes, ect.
+# sent_id = 3
+# sentiment = 1
 1	i.e.	i.e.	ADV	FW	Abbr=Yes	6	advmod	_	start_char=255|end_char=259
-2	how	how	SCONJ	WRB	PronType=Int	3	mark	_	start_char=260|end_char=263
+2	how	how	ADV	WRB	PronType=Int	3	advmod	_	start_char=260|end_char=263
 3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	start_char=264|end_char=268
 4	people	people	NOUN	NNS	Number=Plur	6	obj	_	start_char=269|end_char=275
 5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=276|end_char=280
 6	serve	serve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=281|end_char=286
 7	,	,	PUNCT	,	_	8	punct	_	start_char=286|end_char=287
-8	recipes	recipe	NOUN	NNS	Number=Plur	6	obj	_	start_char=288|end_char=295
+8	recipes	recipe	NOUN	NNS	Number=Plur	6	conj	_	start_char=288|end_char=295
 9	,	,	PUNCT	,	_	10	punct	_	start_char=295|end_char=296
-10	ect	ect	ADV	RB	_	8	advmod	_	start_char=297|end_char=300
-11	.	.	PUNCT	.	_	8	punct	_	start_char=300|end_char=301
+10	ect	ect	NOUN	NN	Number=Sing	6	conj	_	start_char=297|end_char=300
+11	.	.	PUNCT	.	_	6	punct	_	start_char=300|end_char=301
 

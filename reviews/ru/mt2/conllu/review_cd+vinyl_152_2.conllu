@@ -1,0 +1,78 @@
+# text = НЕ КЛЭПТОН МУЗЫКАЛЬНОЕ ВИДЕО!
+# sent_id = 0
+1	НЕ	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	КЛЭПТОН	клэптон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3|end_char=10
+3	МУЗЫКАЛЬНОЕ	музокальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=11|end_char=22
+4	ВИДЕО	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	appos	_	start_char=23|end_char=28
+5	!	!	PUNCT	_	_	2	punct	_	start_char=28|end_char=29
+
+# text = Учитесь играть на гитаре LIKE Clapton Я купил этот DVD и возвращаю его.
+# sent_id = 1
+1	Учитесь	учиться	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	start_char=31|end_char=38
+2	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=39|end_char=45
+3	на	на	ADP	_	_	4	case	_	start_char=46|end_char=48
+4	гитаре	гитара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=49|end_char=55
+5	LIKE	LIKE	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=56|end_char=60
+6	Clapton	Clapton	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=61|end_char=68
+7	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=69|end_char=70
+8	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=71|end_char=76
+9	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=77|end_char=81
+10	DVD	DVD	PROPN	_	_	8	obj	_	start_char=82|end_char=85
+11	и	и	CCONJ	_	_	12	cc	_	start_char=86|end_char=87
+12	возвращаю	возвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=88|end_char=97
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=98|end_char=101
+14	.	.	PUNCT	_	_	1	punct	_	start_char=101|end_char=102
+
+# text = Описание и редакционная рецензия вводят в заблуждение.
+# sent_id = 2
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=103|end_char=111
+2	и	и	CCONJ	_	_	4	cc	_	start_char=112|end_char=113
+3	редакционная	редакционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=114|end_char=126
+4	рецензия	рецензия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=127|end_char=135
+5	вводят	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=136|end_char=142
+6	в	в	ADP	_	_	7	case	_	start_char=143|end_char=144
+7	заблуждение	заблуждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	start_char=145|end_char=156
+8	.	.	PUNCT	_	_	5	punct	_	start_char=156|end_char=157
+
+# text = Это НЕ клип Клэптона.
+# sent_id = 3
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=158|end_char=161
+2	НЕ	не	PART	_	_	3	advmod	_	start_char=162|end_char=164
+3	клип	клип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=165|end_char=169
+4	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=170|end_char=178
+5	.	.	PUNCT	_	_	3	punct	_	start_char=178|end_char=179
+
+# text = Конечно, есть некоторые клипы Клэптона, но в целом это видео "как играть".
+# sent_id = 4
+1	Конечно	конечно	ADV	_	Degree=Pos	3	parataxis	_	start_char=180|end_char=187
+2	,	,	PUNCT	_	_	1	punct	_	start_char=187|end_char=188
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=189|end_char=193
+4	некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	5	det	_	start_char=194|end_char=203
+5	клипы	клип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=204|end_char=209
+6	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=210|end_char=218
+7	,	,	PUNCT	_	_	12	punct	_	start_char=218|end_char=219
+8	но	но	CCONJ	_	_	12	cc	_	start_char=220|end_char=222
+9	в	в	ADP	_	_	10	case	_	start_char=223|end_char=224
+10	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	start_char=225|end_char=230
+11	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	start_char=231|end_char=234
+12	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	start_char=235|end_char=240
+13	"	"	PUNCT	_	_	15	punct	_	start_char=241|end_char=242
+14	как	как	ADV	_	Degree=Pos	15	advmod	_	start_char=242|end_char=245
+15	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	orphan	_	start_char=246|end_char=252
+16	"	"	PUNCT	_	_	15	punct	_	start_char=252|end_char=253
+17	.	.	PUNCT	_	_	3	punct	_	start_char=253|end_char=254
+
+# text = То же самое относится и к Clapton The Early Years!
+# sent_id = 5
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=255|end_char=257
+2	же	же	PART	_	_	1	advmod	_	start_char=258|end_char=260
+3	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	start_char=261|end_char=266
+4	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=267|end_char=276
+5	и	и	PART	_	_	7	advmod	_	start_char=277|end_char=278
+6	к	к	ADP	_	_	7	case	_	start_char=279|end_char=280
+7	Clapton	Clapton	PROPN	_	Foreign=Yes	4	obl	_	start_char=281|end_char=288
+8	The	The	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=289|end_char=292
+9	Early	Early	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=293|end_char=298
+10	Years	Years	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=299|end_char=304
+11	!	!	PUNCT	_	_	4	punct	_	start_char=304|end_char=305
+

@@ -1,6 +1,12 @@
+# text = It distorts
+# sent_id = 0
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
 2	distorts	distort	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=11
 
+# text = This is a cheap piece of junk that does what it says, it distorts,
+# sent_id = 1
+# sentiment = 0
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	start_char=12|end_char=16
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=17|end_char=19
 3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	start_char=20|end_char=21
@@ -9,76 +15,92 @@
 6	of	of	ADP	IN	_	7	case	_	start_char=34|end_char=36
 7	junk	junk	NOUN	NN	Number=Sing	5	nmod	_	start_char=37|end_char=41
 8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	start_char=42|end_char=46
-9	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	start_char=47|end_char=51
+9	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	start_char=47|end_char=51
 10	what	what	PRON	WP	PronType=Int	9	obj	_	start_char=52|end_char=56
 11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=57|end_char=59
 12	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	start_char=60|end_char=64
-13	,	,	PUNCT	,	_	15	punct	_	start_char=64|end_char=65
+13	,	,	PUNCT	,	_	5	punct	_	start_char=64|end_char=65
 14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=66|end_char=68
 15	distorts	distort	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=69|end_char=77
-16	,	,	PUNCT	,	_	18	punct	_	start_char=77|end_char=78
-17	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	start_char=79|end_char=82
-18	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	parataxis	_	start_char=83|end_char=87
-19	something	something	PRON	NN	Number=Sing	18	obj	_	start_char=88|end_char=97
-20	to	to	PART	TO	_	21	mark	_	start_char=98|end_char=100
-21	make	make	VERB	VB	VerbForm=Inf	19	acl	_	start_char=101|end_char=105
-22	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=106|end_char=110
-23	guitar	guitar	NOUN	NN	Number=Sing	24	compound	_	start_char=111|end_char=117
-24	sound	sound	NOUN	NN	Number=Sing	21	obj	_	start_char=118|end_char=123
-25	like	like	ADP	IN	_	26	case	_	start_char=124|end_char=128
-26	junk	junk	NOUN	NN	Number=Sing	21	obl	_	start_char=129|end_char=133
-27	,	,	PUNCT	,	_	30	punct	_	start_char=133|end_char=134
-28	this	this	PRON	DT	Number=Sing|PronType=Dem	30	nsubj	_	start_char=135|end_char=139
-29	will	will	AUX	MD	VerbForm=Fin	30	aux	_	start_char=140|end_char=144
-30	do	do	VERB	VB	VerbForm=Inf	5	parataxis	_	start_char=145|end_char=147
-31	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obj	_	start_char=148|end_char=150
-32	.	.	PUNCT	.	_	5	punct	_	start_char=150|end_char=151
+16	,	,	PUNCT	,	_	5	punct	_	start_char=77|end_char=78
 
-1	Why	why	SCONJ	WRB	PronType=Int	19	advmod	_	start_char=152|end_char=155
-2	pedals	pedal	NOUN	NNS	Number=Plur	16	nsubj	_	start_char=156|end_char=162
+# text = You want something to make your guitar sound like junk, this will do it.
+# sent_id = 2
+# sentiment = 1
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	start_char=79|end_char=82
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=83|end_char=87
+3	something	something	PRON	NN	Number=Sing|PronType=Ind	2	obj	_	start_char=88|end_char=97
+4	to	to	PART	TO	_	5	mark	_	start_char=98|end_char=100
+5	make	make	VERB	VB	VerbForm=Inf	3	acl	_	start_char=101|end_char=105
+6	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=106|end_char=110
+7	guitar	guitar	NOUN	NN	Number=Sing	8	compound	_	start_char=111|end_char=117
+8	sound	sound	NOUN	NN	Number=Sing	5	obj	_	start_char=118|end_char=123
+9	like	like	ADP	IN	_	10	case	_	start_char=124|end_char=128
+10	junk	junk	NOUN	NN	Number=Sing	5	obl	_	start_char=129|end_char=133
+11	,	,	PUNCT	,	_	2	punct	_	start_char=133|end_char=134
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	14	nsubj	_	start_char=135|end_char=139
+13	will	will	AUX	MD	VerbForm=Fin	14	aux	_	start_char=140|end_char=144
+14	do	do	VERB	VB	VerbForm=Inf	2	parataxis	_	start_char=145|end_char=147
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=148|end_char=150
+16	.	.	PUNCT	.	_	2	punct	_	start_char=150|end_char=151
+
+# text = Why pedals that make your guitar sound like a piece of junk are the most popular is beyond me.
+# sent_id = 3
+# sentiment = 0
+1	Why	why	ADV	WRB	PronType=Int	19	advmod	_	start_char=152|end_char=155
+2	pedals	pedal	NOUN	NNS	Number=Plur	19	nsubj	_	start_char=156|end_char=162
 3	that	that	PRON	WDT	PronType=Rel	4	nsubj	_	start_char=163|end_char=167
-4	make	make	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=168|end_char=172
-5	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=173|end_char=177
-6	guitar	guitar	NOUN	NN	Number=Sing	7	compound	_	start_char=178|end_char=184
-7	sound	sound	NOUN	NN	Number=Sing	4	obj	_	start_char=185|end_char=190
+4	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	start_char=168|end_char=172
+5	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=173|end_char=177
+6	guitar	guitar	NOUN	NN	Number=Sing	4	obj	_	start_char=178|end_char=184
+7	sound	sound	VERB	VB	VerbForm=Inf	4	xcomp	_	start_char=185|end_char=190
 8	like	like	ADP	IN	_	10	case	_	start_char=191|end_char=195
 9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	start_char=196|end_char=197
-10	piece	piece	NOUN	NN	Number=Sing	4	obl	_	start_char=198|end_char=203
+10	piece	piece	NOUN	NN	Number=Sing	7	obl	_	start_char=198|end_char=203
 11	of	of	ADP	IN	_	12	case	_	start_char=204|end_char=206
 12	junk	junk	NOUN	NN	Number=Sing	10	nmod	_	start_char=207|end_char=211
-13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=212|end_char=215
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=212|end_char=215
 14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	start_char=216|end_char=219
-15	most	most	ADV	RBS	_	16	advmod	_	start_char=220|end_char=224
-16	popular	popular	ADJ	JJ	Degree=Pos	0	root	_	start_char=225|end_char=232
+15	most	most	ADV	RBS	Degree=Sup	16	advmod	_	start_char=220|end_char=224
+16	popular	popular	ADJ	JJ	Degree=Pos	19	amod	_	start_char=225|end_char=232
 17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=233|end_char=235
 18	beyond	beyond	ADP	IN	_	19	case	_	start_char=236|end_char=242
-19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obl	_	start_char=243|end_char=245
-20	.	.	PUNCT	.	_	16	punct	_	start_char=245|end_char=246
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=243|end_char=245
+20	.	.	PUNCT	.	_	19	punct	_	start_char=245|end_char=246
 
+# text = This is not a boutique Distortion pedal like Hendrix would use.
+# sent_id = 4
+# sentiment = 1
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	start_char=247|end_char=251
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=252|end_char=254
 3	not	not	PART	RB	_	7	advmod	_	start_char=255|end_char=258
 4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=259|end_char=260
-5	boutique	boutique	ADJ	JJ	Degree=Pos	7	amod	_	start_char=261|end_char=269
+5	boutique	boutique	NOUN	NN	Number=Sing	6	compound	_	start_char=261|end_char=269
 6	Distortion	distortion	NOUN	NN	Number=Sing	7	compound	_	start_char=270|end_char=280
 7	pedal	pedal	NOUN	NN	Number=Sing	0	root	_	start_char=281|end_char=286
-8	like	like	SCONJ	IN	_	11	mark	_	start_char=287|end_char=291
+8	like	like	ADP	IN	_	9	case	_	start_char=287|end_char=291
 9	Hendrix	Hendrix	PROPN	NNP	Number=Sing	11	nsubj	_	start_char=292|end_char=299
 10	would	would	AUX	MD	VerbForm=Fin	11	aux	_	start_char=300|end_char=305
-11	use	use	VERB	VB	VerbForm=Inf	7	advcl	_	start_char=306|end_char=309
+11	use	use	VERB	VB	VerbForm=Inf	7	acl:relcl	_	start_char=306|end_char=309
 12	.	.	PUNCT	.	_	7	punct	_	start_char=309|end_char=310
 
+# text = Boutique and distortion are an oxymoron.
+# sent_id = 5
+# sentiment = 0
 1	Boutique	boutique	NOUN	NN	Number=Sing	6	nsubj	_	start_char=311|end_char=319
 2	and	and	CCONJ	CC	_	3	cc	_	start_char=320|end_char=323
 3	distortion	distortion	NOUN	NN	Number=Sing	1	conj	_	start_char=324|end_char=334
-4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=335|end_char=338
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=335|end_char=338
 5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	start_char=339|end_char=341
 6	oxymoron	oxymoron	NOUN	NN	Number=Sing	0	root	_	start_char=342|end_char=350
 7	.	.	PUNCT	.	_	6	punct	_	start_char=350|end_char=351
 
+# text = These things are built with heavy metal, it should last, I kinda hope it doesn't(just kidding), you want distortion, you got distortion
+# sent_id = 6
+# sentiment = 0
 1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	_	start_char=351|end_char=356
 2	things	thing	NOUN	NNS	Number=Plur	4	nsubj:pass	_	start_char=357|end_char=363
-3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=364|end_char=367
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	start_char=364|end_char=367
 4	built	build	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=368|end_char=373
 5	with	with	ADP	IN	_	7	case	_	start_char=374|end_char=378
 6	heavy	heavy	ADJ	JJ	Degree=Pos	7	amod	_	start_char=379|end_char=384
@@ -87,23 +109,23 @@
 9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=392|end_char=394
 10	should	should	AUX	MD	VerbForm=Fin	11	aux	_	start_char=395|end_char=401
 11	last	last	VERB	VB	VerbForm=Inf	4	parataxis	_	start_char=402|end_char=406
-12	,	,	PUNCT	,	_	4	punct	_	start_char=406|end_char=407
+12	,	,	PUNCT	,	_	15	punct	_	start_char=406|end_char=407
 13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=408|end_char=409
 14	kinda	kinda	ADV	RB	_	15	advmod	_	start_char=410|end_char=415
-15	hope	hope	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=416|end_char=420
+15	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=416|end_char=420
 16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=421|end_char=423
 17	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	start_char=424|end_char=428
 18	n't	not	PART	RB	_	17	advmod	_	start_char=428|end_char=431
 19	(	(	PUNCT	-LRB-	_	21	punct	_	start_char=431|end_char=432
 20	just	just	ADV	RB	_	21	advmod	_	start_char=432|end_char=436
-21	kidding	kid	VERB	VBG	VerbForm=Ger	15	parataxis	_	start_char=437|end_char=444
+21	kidding	kid	VERB	VBG	VerbForm=Ger	17	parataxis	_	start_char=437|end_char=444
 22	)	)	PUNCT	-RRB-	_	21	punct	_	start_char=444|end_char=445
 23	,	,	PUNCT	,	_	25	punct	_	start_char=445|end_char=446
 24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	start_char=447|end_char=450
-25	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=451|end_char=455
+25	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis	_	start_char=451|end_char=455
 26	distortion	distortion	NOUN	NN	Number=Sing	25	obj	_	start_char=456|end_char=466
-27	,	,	PUNCT	,	_	29	punct	_	start_char=466|end_char=467
+27	,	,	PUNCT	,	_	4	punct	_	start_char=466|end_char=467
 28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	start_char=468|end_char=471
-29	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	start_char=472|end_char=475
+29	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	parataxis	_	start_char=472|end_char=475
 30	distortion	distortion	NOUN	NN	Number=Sing	29	obj	_	start_char=476|end_char=486
 

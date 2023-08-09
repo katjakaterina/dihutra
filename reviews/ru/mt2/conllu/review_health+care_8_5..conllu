@@ -1,0 +1,73 @@
+# text = Отличный дизайн и функциональность Мы купили его для автомобильных поездок и попыток интерпретировать карты, не напрягая глаза.
+# sent_id = 0
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=9|end_char=15
+3	и	и	CCONJ	_	_	4	cc	_	start_char=16|end_char=17
+4	функциональность	функциональность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=18|end_char=34
+5	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=35|end_char=37
+6	купили	купить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=38|end_char=44
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=45|end_char=48
+8	для	для	ADP	_	_	10	case	_	start_char=49|end_char=52
+9	автомобильных	автомобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=53|end_char=66
+10	поездок	поездка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=67|end_char=74
+11	и	и	CCONJ	_	_	12	cc	_	start_char=75|end_char=76
+12	попыток	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	start_char=77|end_char=84
+13	интерпретировать	интерпретировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	obl	_	start_char=85|end_char=101
+14	карты	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=102|end_char=107
+15	,	,	PUNCT	_	_	17	punct	_	start_char=107|end_char=108
+16	не	не	PART	_	_	17	advmod	_	start_char=109|end_char=111
+17	напрягая	напрягать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	13	advcl	_	start_char=112|end_char=120
+18	глаза	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	start_char=121|end_char=126
+19	.	.	PUNCT	_	_	6	punct	_	start_char=126|end_char=127
+
+# text = Очень приятный дизайн, хорошие тактильные ощущения.
+# sent_id = 1
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=128|end_char=133
+2	приятный	приятный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=134|end_char=142
+3	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=143|end_char=149
+4	,	,	PUNCT	_	_	7	punct	_	start_char=149|end_char=150
+5	хорошие	хороший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	start_char=151|end_char=158
+6	тактильные	тактильный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	start_char=159|end_char=169
+7	ощущения	ощущение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	conj	_	start_char=170|end_char=178
+8	.	.	PUNCT	_	_	3	punct	_	start_char=178|end_char=179
+
+# text = Я не мог понять, где находятся батарейки, отправил письмо в службу поддержки клиентов Lightwedge и получил ответ в течение 24 часов.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=180|end_char=181
+2	не	не	PART	_	_	3	advmod	_	start_char=182|end_char=184
+3	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=185|end_char=188
+4	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=189|end_char=195
+5	,	,	PUNCT	_	_	7	punct	_	start_char=195|end_char=196
+6	где	где	ADV	_	Degree=Pos	7	advmod	_	start_char=197|end_char=200
+7	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	ccomp	_	start_char=201|end_char=210
+8	батарейки	батарейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=211|end_char=220
+9	,	,	PUNCT	_	_	10	punct	_	start_char=220|end_char=221
+10	отправил	отправить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=222|end_char=230
+11	письмо	письмо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=231|end_char=237
+12	в	в	ADP	_	_	13	case	_	start_char=238|end_char=239
+13	службу	служба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=240|end_char=246
+14	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=247|end_char=256
+15	клиентов	клиент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=257|end_char=265
+16	Lightwedge	Lightwedge	PROPN	_	Foreign=Yes	15	flat:foreign	_	start_char=266|end_char=276
+17	и	и	CCONJ	_	_	18	cc	_	start_char=277|end_char=278
+18	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=279|end_char=286
+19	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=287|end_char=292
+20	в	в	ADP	_	_	23	case	_	start_char=293|end_char=294
+21	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	start_char=295|end_char=302
+22	24	24	NUM	_	NumType=Card	23	nummod	_	start_char=303|end_char=305
+23	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	start_char=306|end_char=311
+24	.	.	PUNCT	_	_	3	punct	_	start_char=311|end_char=312
+
+# text = Если вам нужен такой прибор, я рекомендую его.
+# sent_id = 3
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=313|end_char=317
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=318|end_char=321
+3	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	advcl	_	start_char=322|end_char=327
+4	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=328|end_char=333
+5	прибор	прибор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=334|end_char=340
+6	,	,	PUNCT	_	_	3	punct	_	start_char=340|end_char=341
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=342|end_char=343
+8	рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=344|end_char=354
+9	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=355|end_char=358
+10	.	.	PUNCT	_	_	8	punct	_	start_char=358|end_char=359
+

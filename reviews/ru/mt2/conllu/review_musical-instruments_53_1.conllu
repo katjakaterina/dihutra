@@ -1,0 +1,81 @@
+# text = Я купил много кабелей, и только с этим кабелем у меня возникли проблемы.
+# sent_id = 0
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2|end_char=7
+3	много	много	ADV	_	Degree=Pos	4	advmod	_	start_char=8|end_char=13
+4	кабелей	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=14|end_char=21
+5	,	,	PUNCT	_	_	13	punct	_	start_char=21|end_char=22
+6	и	и	CCONJ	_	_	13	cc	_	start_char=23|end_char=24
+7	только	только	PART	_	_	10	advmod	_	start_char=25|end_char=31
+8	с	с	ADP	_	_	10	case	_	start_char=32|end_char=33
+9	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=34|end_char=38
+10	кабелем	кабель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	start_char=39|end_char=46
+11	у	у	ADP	_	_	12	case	_	start_char=47|end_char=48
+12	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	obl	_	start_char=49|end_char=53
+13	возникли	возникнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=54|end_char=62
+14	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=63|end_char=71
+15	.	.	PUNCT	_	_	2	punct	_	start_char=71|end_char=72
+
+# text = Он гудит, трещит, и я думаю, что у меня проблемы с оборудованием.
+# sent_id = 1
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=73|end_char=75
+2	гудит	гудить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=76|end_char=81
+3	,	,	PUNCT	_	_	4	punct	_	start_char=81|end_char=82
+4	трещит	трещить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=83|end_char=89
+5	,	,	PUNCT	_	_	8	punct	_	start_char=89|end_char=90
+6	и	и	CCONJ	_	_	8	cc	_	start_char=91|end_char=92
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=93|end_char=94
+8	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=95|end_char=100
+9	,	,	PUNCT	_	_	12	punct	_	start_char=100|end_char=101
+10	что	что	SCONJ	_	_	12	mark	_	start_char=102|end_char=105
+11	у	у	ADP	_	_	12	case	_	start_char=106|end_char=107
+12	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	ccomp	_	start_char=108|end_char=112
+13	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=113|end_char=121
+14	с	с	ADP	_	_	15	case	_	start_char=122|end_char=123
+15	оборудованием	оборудование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	nmod	_	start_char=124|end_char=137
+16	.	.	PUNCT	_	_	2	punct	_	start_char=137|end_char=138
+
+# text = Как только я использую другие шнуры, проблема исчезает.
+# sent_id = 2
+1	Как	как	SCONJ	_	_	4	mark	_	start_char=139|end_char=142
+2	только	только	PART	_	_	1	fixed	_	start_char=143|end_char=149
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=150|end_char=151
+4	использую	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=152|end_char=161
+5	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=162|end_char=168
+6	шнуры	шнур	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=169|end_char=174
+7	,	,	PUNCT	_	_	4	punct	_	start_char=174|end_char=175
+8	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=176|end_char=184
+9	исчезает	исчезать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=185|end_char=193
+10	.	.	PUNCT	_	_	9	punct	_	start_char=193|end_char=194
+
+# text = Компания Hosa выпускает и другие продукты, которые имеют хорошую стоимость.
+# sent_id = 3
+1	Компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=195|end_char=203
+2	Hosa	Hosa	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=204|end_char=208
+3	выпускает	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=209|end_char=218
+4	и	и	PART	_	_	5	advmod	_	start_char=219|end_char=220
+5	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=221|end_char=227
+6	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=228|end_char=236
+7	,	,	PUNCT	_	_	9	punct	_	start_char=236|end_char=237
+8	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	9	nsubj	_	start_char=238|end_char=245
+9	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=246|end_char=251
+10	хорошую	хороший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=252|end_char=259
+11	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=260|end_char=269
+12	.	.	PUNCT	_	_	3	punct	_	start_char=269|end_char=270
+
+# text = Но, основываясь на своем опыте, я не рекомендую этот шнур.
+# sent_id = 4
+1	Но	но	CCONJ	_	_	10	cc	_	start_char=271|end_char=273
+2	,	,	PUNCT	_	_	1	punct	_	start_char=273|end_char=274
+3	основываясь	основываться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	10	advcl	_	start_char=275|end_char=286
+4	на	на	ADP	_	_	6	case	_	start_char=287|end_char=289
+5	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=290|end_char=295
+6	опыте	опыт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=296|end_char=301
+7	,	,	PUNCT	_	_	3	punct	_	start_char=301|end_char=302
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=303|end_char=304
+9	не	не	PART	_	_	10	advmod	_	start_char=305|end_char=307
+10	рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=308|end_char=318
+11	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=319|end_char=323
+12	шнур	шнур	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=324|end_char=328
+13	.	.	PUNCT	_	_	10	punct	_	start_char=328|end_char=329
+

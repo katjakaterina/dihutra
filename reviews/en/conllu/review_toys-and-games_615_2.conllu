@@ -1,13 +1,16 @@
+# text = I hate that these are so expensive My Grandson got this and because of the movie, he got this one, but all my Great Grands got one cheaper and IMHO better because the arms and legs were wire and extremely posable.
+# sent_id = 0
+# sentiment = 2
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
-2	hate	hate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2|end_char=6
+2	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=2|end_char=6
 3	that	that	SCONJ	IN	_	7	mark	_	start_char=7|end_char=11
 4	these	this	PRON	DT	Number=Plur|PronType=Dem	7	nsubj	_	start_char=12|end_char=17
-5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=18|end_char=21
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=18|end_char=21
 6	so	so	ADV	RB	_	7	advmod	_	start_char=22|end_char=24
 7	expensive	expensive	ADJ	JJ	Degree=Pos	2	ccomp	_	start_char=25|end_char=34
-8	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=35|end_char=37
+8	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=35|end_char=37
 9	Grandson	grandson	NOUN	NN	Number=Sing	10	nsubj	_	start_char=38|end_char=46
-10	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	ccomp	_	start_char=47|end_char=50
+10	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	ccomp	_	start_char=47|end_char=50
 11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	obj	_	start_char=51|end_char=55
 12	and	and	CCONJ	CC	_	19	cc	_	start_char=56|end_char=59
 13	because	because	ADP	IN	_	16	case	_	start_char=60|end_char=67
@@ -16,52 +19,55 @@
 16	movie	movie	NOUN	NN	Number=Sing	19	obl	_	start_char=75|end_char=80
 17	,	,	PUNCT	,	_	19	punct	_	start_char=80|end_char=81
 18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=82|end_char=84
-19	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	start_char=85|end_char=88
+19	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=85|end_char=88
 20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	start_char=89|end_char=93
 21	one	one	NOUN	NN	Number=Sing	19	obj	_	start_char=94|end_char=97
 22	,	,	PUNCT	,	_	28	punct	_	start_char=97|end_char=98
 23	but	but	CCONJ	CC	_	28	cc	_	start_char=99|end_char=102
 24	all	all	DET	PDT	_	27	det:predet	_	start_char=103|end_char=106
-25	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=107|end_char=109
-26	Great	great	ADJ	JJ	Degree=Pos	27	amod	_	start_char=110|end_char=115
+25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	nmod:poss	_	start_char=107|end_char=109
+26	Great	great	ADJ	NNP	Degree=Pos	27	amod	_	start_char=110|end_char=115
 27	Grands	Grand	PROPN	NNPS	Number=Plur	28	nsubj	_	start_char=116|end_char=122
-28	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	start_char=123|end_char=126
-29	one	one	NUM	CD	NumType=Card	30	nsubj	_	start_char=127|end_char=130
+28	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	start_char=123|end_char=126
+29	one	one	NUM	CD	NumForm=Word|NumType=Card	28	obj	_	start_char=127|end_char=130
 30	cheaper	cheap	ADJ	JJR	Degree=Cmp	28	xcomp	_	start_char=131|end_char=138
 31	and	and	CCONJ	CC	_	33	cc	_	start_char=139|end_char=142
 32	IMHO	imho	ADV	RB	_	33	advmod	_	start_char=143|end_char=147
-33	better	good	ADJ	JJR	Degree=Cmp	30	conj	_	start_char=148|end_char=154
+33	better	good	ADJ	JJR	Degree=Cmp	28	conj	_	start_char=148|end_char=154
 34	because	because	SCONJ	IN	_	40	mark	_	start_char=155|end_char=162
 35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	start_char=163|end_char=166
 36	arms	arm	NOUN	NNS	Number=Plur	40	nsubj	_	start_char=167|end_char=171
 37	and	and	CCONJ	CC	_	38	cc	_	start_char=172|end_char=175
 38	legs	leg	NOUN	NNS	Number=Plur	36	conj	_	start_char=176|end_char=180
-39	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	40	cop	_	start_char=181|end_char=185
+39	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	40	cop	_	start_char=181|end_char=185
 40	wire	wire	NOUN	NN	Number=Sing	28	advcl	_	start_char=186|end_char=190
 41	and	and	CCONJ	CC	_	43	cc	_	start_char=191|end_char=194
 42	extremely	extremely	ADV	RB	_	43	advmod	_	start_char=195|end_char=204
 43	posable	posable	ADJ	JJ	Degree=Pos	40	conj	_	start_char=205|end_char=212
 44	.	.	PUNCT	.	_	2	punct	_	start_char=212|end_char=213
 
+# text = However, my Grandson (9 yrs old) loved this elf and his Momand Dad had fun using the concept during the Holidays.
+# sent_id = 1
+# sentiment = 2
 1	However	however	ADV	RB	_	10	advmod	_	start_char=214|end_char=221
 2	,	,	PUNCT	,	_	10	punct	_	start_char=221|end_char=222
-3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=223|end_char=225
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=223|end_char=225
 4	Grandson	grandson	NOUN	NN	Number=Sing	10	nsubj	_	start_char=226|end_char=234
 5	(	(	PUNCT	-LRB-	_	8	punct	_	start_char=235|end_char=236
-6	9	9	NUM	CD	NumType=Card	7	nummod	_	start_char=236|end_char=237
+6	9	9	NUM	CD	NumForm=Digit|NumType=Card	7	nummod	_	start_char=236|end_char=237
 7	yrs	year	NOUN	NNS	Number=Plur	8	obl:npmod	_	start_char=238|end_char=241
 8	old	old	ADJ	JJ	Degree=Pos	4	amod	_	start_char=242|end_char=245
 9	)	)	PUNCT	-RRB-	_	8	punct	_	start_char=245|end_char=246
-10	loved	love	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=247|end_char=252
+10	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	start_char=247|end_char=252
 11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	start_char=253|end_char=257
 12	elf	elf	NOUN	NN	Number=Sing	10	obj	_	start_char=258|end_char=261
 13	and	and	CCONJ	CC	_	17	cc	_	start_char=262|end_char=265
-14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=266|end_char=269
-15	Momand	Momand	PROPN	NNP	Number=Sing	17	nsubj	_	start_char=270|end_char=276
-16	Dad	Dad	PROPN	NNP	Number=Sing	15	flat	_	start_char=277|end_char=280
-17	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	start_char=281|end_char=284
+14	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=266|end_char=269
+15	Momand	Momand	PROPN	NNP	Number=Sing	16	compound	_	start_char=270|end_char=276
+16	Dad	dad	NOUN	NN	Number=Sing	17	nsubj	_	start_char=277|end_char=280
+17	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	start_char=281|end_char=284
 18	fun	fun	NOUN	NN	Number=Sing	17	obj	_	start_char=285|end_char=288
-19	using	use	VERB	VBG	VerbForm=Ger	18	acl	_	start_char=289|end_char=294
+19	using	use	VERB	VBG	VerbForm=Ger	17	advcl	_	start_char=289|end_char=294
 20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=295|end_char=298
 21	concept	concept	NOUN	NN	Number=Sing	19	obj	_	start_char=299|end_char=306
 22	during	during	ADP	IN	_	24	case	_	start_char=307|end_char=313

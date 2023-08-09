@@ -1,42 +1,47 @@
+# text = It's about time...
+# sent_id = 0
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=0|end_char=2
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=2|end_char=4
 3	about	about	ADP	IN	_	4	case	_	start_char=5|end_char=10
 4	time	time	NOUN	NN	Number=Sing	0	root	_	start_char=11|end_char=15
 5	...	...	PUNCT	.	_	4	punct	_	start_char=15|end_char=18
 
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=19|end_char=20
-2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	start_char=21|end_char=23
-3	n't	not	PART	RB	_	4	advmod	_	start_char=23|end_char=26
-4	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	start_char=27|end_char=34
-5	how	how	SCONJ	WRB	PronType=Int	6	mark	_	start_char=35|end_char=38
-6	long	long	ADV	RB	Degree=Pos	8	advmod	_	start_char=39|end_char=43
-7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=44|end_char=46
-8	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	start_char=47|end_char=51
-9	&	&	CCONJ	CC	_	10	cc	_	start_char=52|end_char=53
-10	#	#	SYM	NN	Number=Sing	8	conj	_	start_char=53|end_char=54
-11	34	34	NUM	CD	NumType=Card	10	nummod	_	start_char=54|end_char=56
-12	;	;	PUNCT	,	_	4	punct	_	start_char=56|end_char=57
-13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	conj	_	start_char=57|end_char=61
-14	&	&	CCONJ	CC	_	15	cc	_	start_char=61|end_char=62
-15	#	#	SYM	NN	Number=Sing	13	conj	_	start_char=62|end_char=63
-16	34	34	NUM	CD	NumType=Card	15	nummod	_	start_char=63|end_char=65
-17	;	;	PUNCT	,	_	4	punct	_	start_char=65|end_char=66
-18	to	to	PART	TO	_	19	mark	_	start_char=67|end_char=69
-19	get	get	VERB	VB	VerbForm=Inf	8	advcl	_	start_char=70|end_char=73
-20	this	this	DET	DT	Number=Sing|PronType=Dem	23	det	_	start_char=74|end_char=78
-21	wonderful	wonderful	ADJ	JJ	Degree=Pos	23	amod	_	start_char=79|end_char=88
-22	Christmas	Christmas	PROPN	NNP	Number=Sing	23	compound	_	start_char=89|end_char=98
-23	show	show	NOUN	NN	Number=Sing	19	obj	_	start_char=99|end_char=103
-24	on	on	ADP	IN	_	25	case	_	start_char=104|end_char=106
-25	DVD	dvd	PROPN	NNP	Number=Sing	23	nmod	_	start_char=107|end_char=110
-26	.	.	PUNCT	.	_	4	punct	_	start_char=110|end_char=111
+# text = I can't believe how long it took &#34;them&#34; to get this wonderful Christmas show on DVD.
+# sent_id = 1
+# sentiment = 2
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=19|end_char=20
+2	can't	can't	AUX	MD	VerbForm=Fin	3	aux	_	start_char=21|end_char=26
+3	believe	believe	VERB	VB	VerbForm=Inf	0	root	_	start_char=27|end_char=34
+4	how	how	ADV	WRB	PronType=Int	5	advmod	_	start_char=35|end_char=38
+5	long	long	ADV	RB	Degree=Pos	7	advmod	_	start_char=39|end_char=43
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=44|end_char=46
+7	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	start_char=47|end_char=51
+8	&#34	&#34	NOUN	NN	Number=Sing	7	obj	_	start_char=52|end_char=56
+9	;	;	PUNCT	,	_	11	punct	_	start_char=56|end_char=57
+10	them&	them&	NOUN	NN	Number=Sing	11	compound	_	start_char=57|end_char=62
+11	#	#	SYM	NN	Number=Sing	3	parataxis	_	start_char=62|end_char=63
+12	34	34	NUM	CD	NumForm=Digit|NumType=Card	11	nummod	_	start_char=63|end_char=65
+13	;	;	PUNCT	,	_	15	punct	_	start_char=65|end_char=66
+14	to	to	PART	TO	_	15	mark	_	start_char=67|end_char=69
+15	get	get	VERB	VB	VerbForm=Inf	3	advcl	_	start_char=70|end_char=73
+16	this	this	DET	DT	Number=Sing|PronType=Dem	19	det	_	start_char=74|end_char=78
+17	wonderful	wonderful	ADJ	JJ	Degree=Pos	19	amod	_	start_char=79|end_char=88
+18	Christmas	Christmas	PROPN	NNP	Number=Sing	19	compound	_	start_char=89|end_char=98
+19	show	show	NOUN	NN	Number=Sing	15	obj	_	start_char=99|end_char=103
+20	on	on	ADP	IN	_	21	case	_	start_char=104|end_char=106
+21	DVD	dvd	NOUN	NN	Number=Sing	15	obl	_	start_char=107|end_char=110
+22	.	.	PUNCT	.	_	3	punct	_	start_char=110|end_char=111
 
+# text = It's a modern (1930s America) twist on Charles Dickens' classic tale.
+# sent_id = 2
+# sentiment = 1
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=112|end_char=114
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=114|end_char=116
 3	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	start_char=117|end_char=118
 4	modern	modern	ADJ	JJ	Degree=Pos	9	amod	_	start_char=119|end_char=125
 5	(	(	PUNCT	-LRB-	_	7	punct	_	start_char=126|end_char=127
-6	1930s	1930s	NOUN	NNS	Number=Plur	7	compound	_	start_char=127|end_char=132
+6	1930s	1930s	PROPN	NNP	Number=Sing	7	compound	_	start_char=127|end_char=132
 7	America	America	PROPN	NNP	Number=Sing	9	compound	_	start_char=133|end_char=140
 8	)	)	PUNCT	-RRB-	_	7	punct	_	start_char=140|end_char=141
 9	twist	twist	NOUN	NN	Number=Sing	0	root	_	start_char=142|end_char=147
@@ -48,33 +53,39 @@
 15	tale	tale	NOUN	NN	Number=Sing	9	nmod	_	start_char=176|end_char=180
 16	.	.	PUNCT	.	_	9	punct	_	start_char=180|end_char=181
 
+# text = Winkler makes me hate his character as much as Alister Sim did in his portrayal of Scrooge in the 1951 production.
+# sent_id = 3
+# sentiment = 0
 1	Winkler	Winkler	PROPN	NNP	Number=Sing	2	nsubj	_	start_char=182|end_char=189
 2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=190|end_char=195
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=196|end_char=198
 4	hate	hate	VERB	VB	VerbForm=Inf	2	xcomp	_	start_char=199|end_char=203
-5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=204|end_char=207
+5	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=204|end_char=207
 6	character	character	NOUN	NN	Number=Sing	4	obj	_	start_char=208|end_char=217
 7	as	as	ADV	RB	_	8	advmod	_	start_char=218|end_char=220
-8	much	much	ADV	RB	Degree=Pos	4	advmod	_	start_char=221|end_char=225
+8	much	much	ADV	RB	_	4	advmod	_	start_char=221|end_char=225
 9	as	as	SCONJ	IN	_	12	mark	_	start_char=226|end_char=228
 10	Alister	Alister	PROPN	NNP	Number=Sing	12	nsubj	_	start_char=229|end_char=236
 11	Sim	Sim	PROPN	NNP	Number=Sing	10	flat	_	start_char=237|end_char=240
-12	did	do	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	start_char=241|end_char=244
+12	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	start_char=241|end_char=244
 13	in	in	ADP	IN	_	15	case	_	start_char=245|end_char=247
-14	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=248|end_char=251
+14	his	he	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=248|end_char=251
 15	portrayal	portrayal	NOUN	NN	Number=Sing	12	obl	_	start_char=252|end_char=261
 16	of	of	ADP	IN	_	17	case	_	start_char=262|end_char=264
 17	Scrooge	Scrooge	PROPN	NNP	Number=Sing	15	nmod	_	start_char=265|end_char=272
 18	in	in	ADP	IN	_	21	case	_	start_char=273|end_char=275
 19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	start_char=276|end_char=279
-20	1951	1951	NUM	CD	NumType=Card	21	nummod	_	start_char=280|end_char=284
+20	1951	1951	NUM	CD	NumForm=Digit|NumType=Card	21	nummod	_	start_char=280|end_char=284
 21	production	production	NOUN	NN	Number=Sing	15	nmod	_	start_char=285|end_char=295
 22	.	.	PUNCT	.	_	2	punct	_	start_char=295|end_char=296
 
+# text = Certainly one for your visual library.
+# sent_id = 4
+# sentiment = 1
 1	Certainly	certainly	ADV	RB	_	2	advmod	_	start_char=297|end_char=306
-2	one	one	NUM	CD	NumType=Card	0	root	_	start_char=307|end_char=310
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	0	root	_	start_char=307|end_char=310
 3	for	for	ADP	IN	_	6	case	_	start_char=311|end_char=314
-4	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=315|end_char=319
+4	your	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=315|end_char=319
 5	visual	visual	ADJ	JJ	Degree=Pos	6	amod	_	start_char=320|end_char=326
 6	library	library	NOUN	NN	Number=Sing	2	nmod	_	start_char=327|end_char=334
 7	.	.	PUNCT	.	_	2	punct	_	start_char=334|end_char=335

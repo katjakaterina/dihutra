@@ -1,0 +1,82 @@
+# text = Поддельный MAC, не стоит покупать поддельную косметику!
+# sent_id = 0
+1	Поддельный	поддельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	MAC	MAC	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=11|end_char=14
+3	,	,	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+4	не	не	PART	_	_	5	advmod	_	start_char=16|end_char=18
+5	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=24
+6	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	csubj	_	start_char=25|end_char=33
+7	поддельную	поддельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=34|end_char=44
+8	косметику	косметика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=45|end_char=54
+9	!	!	PUNCT	_	_	5	punct	_	start_char=54|end_char=55
+
+# text = Поддельный Mac.
+# sent_id = 1
+1	Поддельный	поддельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=56|end_char=66
+2	Mac	Mac	PROPN	_	Foreign=Yes	0	root	_	start_char=67|end_char=70
+3	.	.	PUNCT	_	_	2	punct	_	start_char=70|end_char=71
+
+# text = Mac не производит эти палитры, просто позвоните им и спросите.
+# sent_id = 2
+1	Mac	Mac	PROPN	_	Foreign=Yes	3	nsubj	_	start_char=72|end_char=75
+2	не	не	PART	_	_	3	advmod	_	start_char=76|end_char=78
+3	производит	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=79|end_char=89
+4	эти	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	5	det	_	start_char=90|end_char=93
+5	палитры	палитра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=94|end_char=101
+6	,	,	PUNCT	_	_	8	punct	_	start_char=101|end_char=102
+7	просто	просто	PART	_	_	8	advmod	_	start_char=103|end_char=109
+8	позвоните	звонить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	start_char=110|end_char=119
+9	им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	8	iobj	_	start_char=120|end_char=122
+10	и	и	CCONJ	_	_	11	cc	_	start_char=123|end_char=124
+11	спросите	спросить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	start_char=125|end_char=133
+12	.	.	PUNCT	_	_	3	punct	_	start_char=133|end_char=134
+
+# text = Спросите даже в любом магазине MAc в местном торговом центре.
+# sent_id = 3
+1	Спросите	спросить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=135|end_char=143
+2	даже	даже	PART	_	_	5	advmod	_	start_char=144|end_char=148
+3	в	в	ADP	_	_	5	case	_	start_char=149|end_char=150
+4	любом	любой	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	start_char=151|end_char=156
+5	магазине	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=157|end_char=165
+6	MAc	MAc	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=166|end_char=169
+7	в	в	ADP	_	_	10	case	_	start_char=170|end_char=171
+8	местном	местный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=172|end_char=179
+9	торговом	торговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=180|end_char=188
+10	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	start_char=189|end_char=195
+11	.	.	PUNCT	_	_	1	punct	_	start_char=195|end_char=196
+
+# text = Один взгляд на эту картинку, и они знают, что это не настоящий товар MAC.
+# sent_id = 4
+1	Один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	2	nummod	_	start_char=197|end_char=201
+2	взгляд	взгляд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=202|end_char=208
+3	на	на	ADP	_	_	5	case	_	start_char=209|end_char=211
+4	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=212|end_char=215
+5	картинку	картинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=216|end_char=224
+6	,	,	PUNCT	_	_	9	punct	_	start_char=224|end_char=225
+7	и	и	CCONJ	_	_	9	cc	_	start_char=226|end_char=227
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=228|end_char=231
+9	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=232|end_char=237
+10	,	,	PUNCT	_	_	15	punct	_	start_char=237|end_char=238
+11	что	что	SCONJ	_	_	15	mark	_	start_char=239|end_char=242
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=243|end_char=246
+13	не	не	PART	_	_	14	advmod	_	start_char=247|end_char=249
+14	настоящий	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=250|end_char=259
+15	товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	ccomp	_	start_char=260|end_char=265
+16	MAC	MAC	PROPN	_	Foreign=Yes	15	flat:foreign	_	start_char=266|end_char=269
+17	.	.	PUNCT	_	_	2	punct	_	start_char=269|end_char=270
+
+# text = Пожалуйста, держитесь подальше от товаров, которые не являются настоящими.
+# sent_id = 5
+1	Пожалуйста	пожалуйста	ADV	_	Degree=Pos	3	parataxis	_	start_char=271|end_char=281
+2	,	,	PUNCT	_	_	1	punct	_	start_char=281|end_char=282
+3	держитесь	держаться	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	start_char=283|end_char=292
+4	подальше	далеко	ADV	_	Degree=Cmp	3	advmod	_	start_char=293|end_char=301
+5	от	от	ADP	_	_	6	case	_	start_char=302|end_char=304
+6	товаров	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=305|end_char=312
+7	,	,	PUNCT	_	_	10	punct	_	start_char=312|end_char=313
+8	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	10	nsubj	_	start_char=314|end_char=321
+9	не	не	PART	_	_	10	advmod	_	start_char=322|end_char=324
+10	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	start_char=325|end_char=333
+11	настоящими	настоящий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	obl	_	start_char=334|end_char=344
+12	.	.	PUNCT	_	_	3	punct	_	start_char=344|end_char=345
+

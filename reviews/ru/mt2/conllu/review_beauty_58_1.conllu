@@ -1,0 +1,82 @@
+# text = это подделка, покупатель остерегается Не покупайте это, это дешевая подделка.
+# sent_id = 0
+1	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3
+2	подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=4|end_char=12
+3	,	,	PUNCT	_	_	5	punct	_	start_char=12|end_char=13
+4	покупатель	покупатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=14|end_char=24
+5	остерегается	остерегаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=25|end_char=37
+6	Не	не	PART	_	_	7	advmod	_	start_char=38|end_char=40
+7	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	xcomp	_	start_char=41|end_char=50
+8	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	start_char=51|end_char=54
+9	,	,	PUNCT	_	_	12	punct	_	start_char=54|end_char=55
+10	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	start_char=56|end_char=59
+11	дешевая	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=60|end_char=67
+12	подделка	подделка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=68|end_char=76
+13	.	.	PUNCT	_	_	2	punct	_	start_char=76|end_char=77
+
+# text = Косметика MAC никогда не выпускала такую палитру, и вы понятия не имеете, кто на самом деле ее сделал и какие ингредиенты входят в состав косметики...
+# sent_id = 1
+1	Косметика	косметика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=78|end_char=87
+2	MAC	MAC	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=88|end_char=91
+3	никогда	никогда	ADV	_	Degree=Pos	5	advmod	_	start_char=92|end_char=99
+4	не	не	PART	_	_	5	advmod	_	start_char=100|end_char=102
+5	выпускала	выпускать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=103|end_char=112
+6	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=113|end_char=118
+7	палитру	палитр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=119|end_char=126
+8	,	,	PUNCT	_	_	13	punct	_	start_char=126|end_char=127
+9	и	и	CCONJ	_	_	13	cc	_	start_char=128|end_char=129
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	start_char=130|end_char=132
+11	понятия	понятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=133|end_char=140
+12	не	не	PART	_	_	13	advmod	_	start_char=141|end_char=143
+13	имеете	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=144|end_char=150
+14	,	,	PUNCT	_	_	20	punct	_	start_char=150|end_char=151
+15	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	20	nsubj	_	start_char=152|end_char=155
+16	на	на	ADP	_	_	18	case	_	start_char=156|end_char=158
+17	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=159|end_char=164
+18	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	start_char=165|end_char=169
+19	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=170|end_char=172
+20	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	start_char=173|end_char=179
+21	и	и	CCONJ	_	_	24	cc	_	start_char=180|end_char=181
+22	какие	какой	DET	_	Case=Nom|Number=Plur|PronType=Int,Rel	23	det	_	start_char=182|end_char=187
+23	ингредиенты	ингредиент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	start_char=188|end_char=199
+24	входят	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	start_char=200|end_char=206
+25	в	в	ADP	_	_	26	case	_	start_char=207|end_char=208
+26	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	start_char=209|end_char=215
+27	косметики	косметика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	start_char=216|end_char=225
+28	.	.	PUNCT	_	_	27	punct	_	start_char=225|end_char=226
+29	.	.	PUNCT	_	_	27	punct	_	start_char=226|end_char=227
+30	.	.	PUNCT	_	_	5	punct	_	start_char=227|end_char=228
+
+# text = Это небезопасно для использования и пустая трата ваших денег.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=229|end_char=232
+2	небезопасно	небезопасный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=233|end_char=244
+3	для	для	ADP	_	_	4	case	_	start_char=245|end_char=248
+4	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=249|end_char=262
+5	и	и	CCONJ	_	_	7	cc	_	start_char=263|end_char=264
+6	пустая	пустой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=265|end_char=271
+7	трата	трата	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=272|end_char=277
+8	ваших	ваш	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	start_char=278|end_char=283
+9	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=284|end_char=289
+10	.	.	PUNCT	_	_	2	punct	_	start_char=289|end_char=290
+
+# text = Если вам нужна настоящая палитра MAC, то это не тот вариант, который вам нужен.
+# sent_id = 3
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=291|end_char=295
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=296|end_char=299
+3	нужна	нужный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	12	advcl	_	start_char=300|end_char=305
+4	настоящая	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=306|end_char=315
+5	палитра	палитр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=316|end_char=323
+6	MAC	MAC	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=324|end_char=327
+7	,	,	PUNCT	_	_	3	punct	_	start_char=327|end_char=328
+8	то	то	SCONJ	_	_	12	mark	_	start_char=329|end_char=331
+9	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	start_char=332|end_char=335
+10	не	не	PART	_	_	11	advmod	_	start_char=336|end_char=338
+11	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=339|end_char=342
+12	вариант	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=343|end_char=350
+13	,	,	PUNCT	_	_	16	punct	_	start_char=350|end_char=351
+14	который	который	PRON	_	Case=Nom|PronType=Int,Rel	16	nsubj	_	start_char=352|end_char=359
+15	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	16	iobj	_	start_char=360|end_char=363
+16	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	acl:relcl	_	start_char=364|end_char=369
+17	.	.	PUNCT	_	_	12	punct	_	start_char=369|end_char=370
+

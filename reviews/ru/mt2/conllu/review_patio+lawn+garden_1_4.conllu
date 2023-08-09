@@ -1,0 +1,123 @@
+# text = Отличные шланги Хорошая американская компания, которая поддерживает свою продукцию.
+# sent_id = 0
+1	Отличные	отличный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=8
+2	шланги	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=9|end_char=15
+3	Хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=16|end_char=23
+4	американская	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=24|end_char=36
+5	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=37|end_char=45
+6	,	,	PUNCT	_	_	8	punct	_	start_char=45|end_char=46
+7	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=47|end_char=54
+8	поддерживает	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=55|end_char=67
+9	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	start_char=68|end_char=72
+10	продукцию	продукция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=73|end_char=82
+11	.	.	PUNCT	_	_	5	punct	_	start_char=82|end_char=83
+
+# text = Мне пришлось сдавать по гарантии два шланга, и они сразу же выслали замену.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=84|end_char=87
+2	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=88|end_char=96
+3	сдавать	сдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=97|end_char=104
+4	по	по	ADP	_	_	5	case	_	start_char=105|end_char=107
+5	гарантии	гарантия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=108|end_char=116
+6	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	7	nummod	_	start_char=117|end_char=120
+7	шланга	шланг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=121|end_char=127
+8	,	,	PUNCT	_	_	13	punct	_	start_char=127|end_char=128
+9	и	и	CCONJ	_	_	13	cc	_	start_char=129|end_char=130
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=131|end_char=134
+11	сразу	сразу	ADV	_	Degree=Pos	13	advmod	_	start_char=135|end_char=140
+12	же	же	PART	_	_	11	advmod	_	start_char=141|end_char=143
+13	выслали	выслать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=144|end_char=151
+14	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=152|end_char=158
+15	.	.	PUNCT	_	_	2	punct	_	start_char=158|end_char=159
+
+# text = Один шланг лопнул через некоторое время, вы могли видеть его выпуклость в течение нескольких недель, прежде чем он лопнул, так что ничего удивительного.
+# sent_id = 2
+1	Один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	2	nummod	_	start_char=160|end_char=164
+2	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=165|end_char=170
+3	лопнул	лопаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=171|end_char=177
+4	через	через	ADP	_	_	6	case	_	start_char=178|end_char=183
+5	некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	6	det	_	start_char=184|end_char=193
+6	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=194|end_char=199
+7	,	,	PUNCT	_	_	9	punct	_	start_char=199|end_char=200
+8	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	start_char=201|end_char=203
+9	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=204|end_char=209
+10	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=210|end_char=216
+11	его	его	DET	_	Poss=Yes|PronType=Prs	12	det	_	start_char=217|end_char=220
+12	выпуклость	выпуклость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=221|end_char=231
+13	в	в	ADP	_	_	16	case	_	start_char=232|end_char=233
+14	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	start_char=234|end_char=241
+15	нескольких	несколько	NUM	_	Case=Gen|NumType=Card	16	nummod	_	start_char=242|end_char=252
+16	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	start_char=253|end_char=259
+17	,	,	PUNCT	_	_	21	punct	_	start_char=259|end_char=260
+18	прежде	прежде	ADV	_	Degree=Pos	21	mark	_	start_char=261|end_char=267
+19	чем	чем	SCONJ	_	_	18	fixed	_	start_char=268|end_char=271
+20	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=272|end_char=274
+21	лопнул	лопаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=275|end_char=281
+22	,	,	PUNCT	_	_	25	punct	_	start_char=281|end_char=282
+23	так	так	ADV	_	Degree=Pos	25	mark	_	start_char=283|end_char=286
+24	что	что	SCONJ	_	_	23	fixed	_	start_char=287|end_char=290
+25	ничего	ничто	PRON	_	Case=Gen|PronType=Neg	21	obl	_	start_char=291|end_char=297
+26	удивительного	удивительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	start_char=298|end_char=311
+27	.	.	PUNCT	_	_	3	punct	_	start_char=311|end_char=312
+
+# text = Другой был связан с зимой, так как я плохо себя чувствую и оставляю их без присмотра большую часть времени.
+# sent_id = 3
+1	Другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=313|end_char=319
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=320|end_char=323
+3	связан	связать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=324|end_char=330
+4	с	с	ADP	_	_	5	case	_	start_char=331|end_char=332
+5	зимой	зима	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	start_char=333|end_char=338
+6	,	,	PUNCT	_	_	12	punct	_	start_char=338|end_char=339
+7	так	так	ADV	_	Degree=Pos	12	mark	_	start_char=340|end_char=343
+8	как	как	SCONJ	_	_	7	fixed	_	start_char=344|end_char=347
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=348|end_char=349
+10	плохо	плохо	ADV	_	Degree=Pos	12	advmod	_	start_char=350|end_char=355
+11	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	start_char=356|end_char=360
+12	чувствую	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=361|end_char=369
+13	и	и	CCONJ	_	_	14	cc	_	start_char=370|end_char=371
+14	оставляю	оставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	start_char=372|end_char=380
+15	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	start_char=381|end_char=383
+16	без	без	ADP	_	_	17	case	_	start_char=384|end_char=387
+17	присмотра	присмотр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=388|end_char=397
+18	большую	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=398|end_char=405
+19	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=406|end_char=411
+20	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	start_char=412|end_char=419
+21	.	.	PUNCT	_	_	3	punct	_	start_char=419|end_char=420
+
+# text = Очень рекомендую.
+# sent_id = 4
+1	Очень	очень	ADV	_	Degree=Pos	2	advmod	_	start_char=421|end_char=426
+2	рекомендую	рекомездовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=427|end_char=437
+3	.	.	PUNCT	_	_	2	punct	_	start_char=437|end_char=438
+
+# text = Обратите внимание на то, что стофутовое устройство тяжелое и похоже на борьбу с анакондой, когда пора его убирать, но у него большой радиус действия.
+# sent_id = 5
+1	Обратите	обратить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=439|end_char=447
+2	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=448|end_char=456
+3	на	на	ADP	_	_	4	case	_	start_char=457|end_char=459
+4	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	start_char=460|end_char=462
+5	,	,	PUNCT	_	_	9	punct	_	start_char=462|end_char=463
+6	что	что	SCONJ	_	_	9	mark	_	start_char=464|end_char=467
+7	стофутовое	стофутовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=468|end_char=478
+8	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=479|end_char=489
+9	тяжелое	тяжелый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	acl	_	start_char=490|end_char=497
+10	и	и	CCONJ	_	_	11	cc	_	start_char=498|end_char=499
+11	похоже	похожий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	conj	_	start_char=500|end_char=506
+12	на	на	ADP	_	_	13	case	_	start_char=507|end_char=509
+13	борьбу	борьба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=510|end_char=516
+14	с	с	ADP	_	_	15	case	_	start_char=517|end_char=518
+15	анакондой	анаконда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	nmod	_	start_char=519|end_char=528
+16	,	,	PUNCT	_	_	18	punct	_	start_char=528|end_char=529
+17	когда	когда	SCONJ	_	_	18	mark	_	start_char=530|end_char=535
+18	пора	пора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	advcl	_	start_char=536|end_char=540
+19	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=541|end_char=544
+20	убирать	убирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	csubj	_	start_char=545|end_char=552
+21	,	,	PUNCT	_	_	24	punct	_	start_char=552|end_char=553
+22	но	но	CCONJ	_	_	24	cc	_	start_char=554|end_char=556
+23	у	у	ADP	_	_	24	case	_	start_char=557|end_char=558
+24	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	conj	_	start_char=559|end_char=563
+25	большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=564|end_char=571
+26	радиус	радиус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=572|end_char=578
+27	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	start_char=579|end_char=587
+28	.	.	PUNCT	_	_	1	punct	_	start_char=587|end_char=588
+

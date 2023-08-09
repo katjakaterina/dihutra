@@ -1,20 +1,26 @@
+# text = Beautiful...
+# sent_id = 0
+# sentiment = 1
 1	Beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	start_char=0|end_char=9
 2	...	...	PUNCT	.	_	1	punct	_	start_char=9|end_char=12
 
+# text = Beautiful in every way ,well written , superb photography , and fantastic instructions.... make this book a " must have".......whether you use this book as a coffee table, or as a reference book, it is definatley "Top Shelf"..........
+# sent_id = 1
+# sentiment = 2
 1	Beautiful	beautiful	ADJ	JJ	Degree=Pos	0	root	_	start_char=13|end_char=22
 2	in	in	ADP	IN	_	4	case	_	start_char=23|end_char=25
 3	every	every	DET	DT	_	4	det	_	start_char=26|end_char=31
 4	way	way	NOUN	NN	Number=Sing	1	obl	_	start_char=32|end_char=35
 5	,	,	PUNCT	,	_	7	punct	_	start_char=36|end_char=37
 6	well	well	ADV	RB	Degree=Pos	7	advmod	_	start_char=37|end_char=41
-7	written	write	VERB	VBN	Tense=Past|VerbForm=Part	10	amod	_	start_char=42|end_char=49
+7	written	write	VERB	VBN	Tense=Past|VerbForm=Part	1	conj	_	start_char=42|end_char=49
 8	,	,	PUNCT	,	_	10	punct	_	start_char=50|end_char=51
 9	superb	superb	ADJ	JJ	Degree=Pos	10	amod	_	start_char=52|end_char=58
 10	photography	photography	NOUN	NN	Number=Sing	1	conj	_	start_char=59|end_char=70
 11	,	,	PUNCT	,	_	14	punct	_	start_char=71|end_char=72
 12	and	and	CCONJ	CC	_	14	cc	_	start_char=73|end_char=76
 13	fantastic	fantastic	ADJ	JJ	Degree=Pos	14	amod	_	start_char=77|end_char=86
-14	instructions	instruction	NOUN	NNS	Number=Plur	10	conj	_	start_char=87|end_char=99
+14	instructions	instruction	NOUN	NNS	Number=Plur	7	conj	_	start_char=87|end_char=99
 15	....	....	PUNCT	,	_	1	punct	_	start_char=99|end_char=103
 16	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	start_char=104|end_char=108
 17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	start_char=109|end_char=113
@@ -27,7 +33,7 @@
 24	.......	.......	PUNCT	,	_	16	punct	_	start_char=133|end_char=140
 25	whether	whether	SCONJ	IN	_	27	mark	_	start_char=140|end_char=147
 26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	start_char=148|end_char=151
-27	use	use	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=152|end_char=155
+27	use	use	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=152|end_char=155
 28	this	this	DET	DT	Number=Sing|PronType=Dem	29	det	_	start_char=156|end_char=160
 29	book	book	NOUN	NN	Number=Sing	27	obj	_	start_char=161|end_char=165
 30	as	as	ADP	IN	_	33	case	_	start_char=166|end_char=168
@@ -40,20 +46,23 @@
 37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	start_char=191|end_char=192
 38	reference	reference	NOUN	NN	Number=Sing	39	compound	_	start_char=193|end_char=202
 39	book	book	NOUN	NN	Number=Sing	33	conj	_	start_char=203|end_char=207
-40	,	,	PUNCT	,	_	46	punct	_	start_char=207|end_char=208
-41	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	start_char=209|end_char=211
-42	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	start_char=212|end_char=214
-43	definatley	definatley	ADV	RB	_	46	advmod	_	start_char=215|end_char=225
+40	,	,	PUNCT	,	_	43	punct	_	start_char=207|end_char=208
+41	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	start_char=209|end_char=211
+42	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	start_char=212|end_char=214
+43	definatley	definatley	ADJ	JJ	Degree=Pos	1	parataxis	_	start_char=215|end_char=225
 44	"	"	PUNCT	``	_	46	punct	_	start_char=226|end_char=227
-45	Top	top	ADJ	NNP	Degree=Pos	46	amod	_	start_char=227|end_char=230
-46	Shelf	Shelf	PROPN	NNP	Number=Sing	39	acl:relcl	_	start_char=231|end_char=236
+45	Top	top	ADJ	JJ	Degree=Pos	46	amod	_	start_char=227|end_char=230
+46	Shelf	Shelf	NOUN	NN	Number=Sing	43	parataxis	_	start_char=231|end_char=236
 47	"	"	PUNCT	''	_	46	punct	_	start_char=236|end_char=237
 48	..........	..........	PUNCT	.	_	1	punct	_	start_char=237|end_char=247
 
+# text = I also gave one as a gift...... the receipient was overwhelmed....
+# sent_id = 2
+# sentiment = 1
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=248|end_char=249
 2	also	also	ADV	RB	_	3	advmod	_	start_char=250|end_char=254
-3	gave	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	start_char=255|end_char=259
-4	one	one	NUM	CD	NumType=Card	3	obj	_	start_char=260|end_char=263
+3	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	start_char=255|end_char=259
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	obj	_	start_char=260|end_char=263
 5	as	as	ADP	IN	_	7	case	_	start_char=264|end_char=266
 6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	start_char=267|end_char=268
 7	gift	gift	NOUN	NN	Number=Sing	3	obl	_	start_char=269|end_char=273

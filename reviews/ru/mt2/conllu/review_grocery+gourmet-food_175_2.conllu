@@ -1,0 +1,68 @@
+# text = Без вкуса и не очень крепкий Раньше чай этой марки казался более крепким.
+# sent_id = 0
+1	Без	без	ADP	_	_	2	case	_	start_char=0|end_char=3
+2	вкуса	вкус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	start_char=4|end_char=9
+3	и	и	CCONJ	_	_	6	cc	_	start_char=10|end_char=11
+4	не	не	PART	_	_	5	advmod	_	start_char=12|end_char=14
+5	очень	очень	ADV	_	Degree=Pos	6	obl	_	start_char=15|end_char=20
+6	крепкий	крепкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=21|end_char=28
+7	Раньше	рано	ADV	_	Degree=Cmp	6	advmod	_	start_char=29|end_char=35
+8	чай	чай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=36|end_char=39
+9	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=40|end_char=44
+10	марки	марка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=45|end_char=50
+11	казался	казаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=51|end_char=58
+12	более	более	ADV	_	Degree=Cmp	13	obl	_	start_char=59|end_char=64
+13	крепким	крепкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	obl	_	start_char=65|end_char=72
+14	.	.	PUNCT	_	_	11	punct	_	start_char=72|end_char=73
+
+# text = По сравнению с другими чаями, которые я употреблял, этот не имеет никакого вкуса.
+# sent_id = 1
+1	По	по	ADP	_	_	5	case	_	start_char=74|end_char=76
+2	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	fixed	_	start_char=77|end_char=86
+3	с	с	ADP	_	_	1	fixed	_	start_char=87|end_char=88
+4	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	start_char=89|end_char=96
+5	чаями	чай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	start_char=97|end_char=102
+6	,	,	PUNCT	_	_	9	punct	_	start_char=102|end_char=103
+7	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	9	obj	_	start_char=104|end_char=111
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=112|end_char=113
+9	употреблял	употреблять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=114|end_char=124
+10	,	,	PUNCT	_	_	5	punct	_	start_char=124|end_char=125
+11	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	start_char=126|end_char=130
+12	не	не	PART	_	_	13	advmod	_	start_char=131|end_char=133
+13	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=134|end_char=139
+14	никакого	никакой	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Neg	15	det	_	start_char=140|end_char=148
+15	вкуса	вкус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	start_char=149|end_char=154
+16	.	.	PUNCT	_	_	13	punct	_	start_char=154|end_char=155
+
+# text = Он даже не является органическим, но это нормально, так как он никогда не рекламировался как таковой.
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=156|end_char=158
+2	даже	даже	PART	_	_	4	advmod	_	start_char=159|end_char=163
+3	не	не	PART	_	_	4	advmod	_	start_char=164|end_char=166
+4	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=167|end_char=175
+5	органическим	органический	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	start_char=176|end_char=188
+6	,	,	PUNCT	_	_	9	punct	_	start_char=188|end_char=189
+7	но	но	CCONJ	_	_	9	cc	_	start_char=190|end_char=192
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=193|end_char=196
+9	нормально	нормальный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	start_char=197|end_char=206
+10	,	,	PUNCT	_	_	16	punct	_	start_char=206|end_char=207
+11	так	так	ADV	_	Degree=Pos	16	mark	_	start_char=208|end_char=211
+12	как	как	SCONJ	_	_	11	fixed	_	start_char=212|end_char=215
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=216|end_char=218
+14	никогда	никогда	ADV	_	Degree=Pos	16	advmod	_	start_char=219|end_char=226
+15	не	не	PART	_	_	16	advmod	_	start_char=227|end_char=229
+16	рекламировался	рекламировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	advcl	_	start_char=230|end_char=244
+17	как	как	SCONJ	_	_	18	mark	_	start_char=245|end_char=248
+18	таковой	таковой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	advcl	_	start_char=249|end_char=256
+19	.	.	PUNCT	_	_	4	punct	_	start_char=256|end_char=257
+
+# text = Я не буду покупать его снова.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=258|end_char=259
+2	не	не	PART	_	_	4	advmod	_	start_char=260|end_char=262
+3	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=263|end_char=267
+4	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=268|end_char=276
+5	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=277|end_char=280
+6	снова	снова	ADV	_	Degree=Pos	4	advmod	_	start_char=281|end_char=286
+7	.	.	PUNCT	_	_	4	punct	_	start_char=286|end_char=287
+

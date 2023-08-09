@@ -1,0 +1,91 @@
+# text = Игра "Гражданская война Я не знаю об этой игре, потому что не могу в нее играть.
+# sent_id = 0
+1	Игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=4
+2	"	"	PUNCT	_	_	4	punct	_	start_char=5|end_char=6
+3	Гражданская	гражданский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=6|end_char=17
+4	война	война	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=18|end_char=23
+5	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=24|end_char=25
+6	не	не	PART	_	_	7	advmod	_	start_char=26|end_char=28
+7	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=29|end_char=33
+8	об	о	ADP	_	_	10	case	_	start_char=34|end_char=36
+9	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=37|end_char=41
+10	игре	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=42|end_char=46
+11	,	,	PUNCT	_	_	15	punct	_	start_char=46|end_char=47
+12	потому	потому	ADV	_	Degree=Pos	15	mark	_	start_char=48|end_char=54
+13	что	что	SCONJ	_	_	12	fixed	_	start_char=55|end_char=58
+14	не	не	PART	_	_	15	advmod	_	start_char=59|end_char=61
+15	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=62|end_char=66
+16	в	в	ADP	_	_	17	case	_	start_char=67|end_char=68
+17	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl	_	start_char=69|end_char=72
+18	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=73|end_char=79
+19	.	.	PUNCT	_	_	7	punct	_	start_char=79|end_char=80
+
+# text = У меня widows vista, и я могу загрузить инструкции, но при попытке поиграть в игру появляется ошибка.
+# sent_id = 1
+1	У	у	ADP	_	_	2	case	_	start_char=81|end_char=82
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=83|end_char=87
+3	widows	widows	X	_	Foreign=Yes	2	nsubj	_	start_char=88|end_char=94
+4	vista	vista	X	_	Foreign=Yes	3	flat:foreign	_	start_char=95|end_char=100
+5	,	,	PUNCT	_	_	8	punct	_	start_char=100|end_char=101
+6	и	и	CCONJ	_	_	8	cc	_	start_char=102|end_char=103
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=104|end_char=105
+8	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=106|end_char=110
+9	загрузить	загрузить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=111|end_char=120
+10	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=121|end_char=131
+11	,	,	PUNCT	_	_	18	punct	_	start_char=131|end_char=132
+12	но	но	CCONJ	_	_	18	cc	_	start_char=133|end_char=135
+13	при	при	ADP	_	_	14	case	_	start_char=136|end_char=139
+14	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	start_char=140|end_char=147
+15	поиграть	поиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	obl	_	start_char=148|end_char=156
+16	в	в	ADP	_	_	17	case	_	start_char=157|end_char=158
+17	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=159|end_char=163
+18	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=164|end_char=174
+19	ошибка	ошибка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=175|end_char=181
+20	.	.	PUNCT	_	_	2	punct	_	start_char=181|end_char=182
+
+# text = Я связался с компанией Ageod, и они сказали, что проблема только у меня.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=183|end_char=184
+2	связался	связаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=185|end_char=193
+3	с	с	ADP	_	_	4	case	_	start_char=194|end_char=195
+4	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=196|end_char=205
+5	Ageod	Ageod	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=206|end_char=211
+6	,	,	PUNCT	_	_	9	punct	_	start_char=211|end_char=212
+7	и	и	CCONJ	_	_	9	cc	_	start_char=213|end_char=214
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	start_char=215|end_char=218
+9	сказали	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=219|end_char=226
+10	,	,	PUNCT	_	_	15	punct	_	start_char=226|end_char=227
+11	что	что	SCONJ	_	_	15	mark	_	start_char=228|end_char=231
+12	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=232|end_char=240
+13	только	только	PART	_	_	15	advmod	_	start_char=241|end_char=247
+14	у	у	ADP	_	_	15	case	_	start_char=248|end_char=249
+15	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	9	ccomp	_	start_char=250|end_char=254
+16	.	.	PUNCT	_	_	2	punct	_	start_char=254|end_char=255
+
+# text = В Интернете пишут, что в Vista много проблем с игрой.
+# sent_id = 3
+1	В	в	ADP	_	_	2	case	_	start_char=256|end_char=257
+2	Интернете	Интернет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=258|end_char=267
+3	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=268|end_char=273
+4	,	,	PUNCT	_	_	7	punct	_	start_char=273|end_char=274
+5	что	что	SCONJ	_	_	7	mark	_	start_char=275|end_char=278
+6	в	в	ADP	_	_	7	case	_	start_char=279|end_char=280
+7	Vista	Vista	PROPN	_	Foreign=Yes	3	ccomp	_	start_char=281|end_char=286
+8	много	много	ADV	_	Degree=Pos	7	nsubj	_	start_char=287|end_char=292
+9	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	start_char=293|end_char=300
+10	с	с	ADP	_	_	11	case	_	start_char=301|end_char=302
+11	игрой	игра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	start_char=303|end_char=308
+12	.	.	PUNCT	_	_	3	punct	_	start_char=308|end_char=309
+
+# text = Я только зря потратил деньги на эту игру.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=310|end_char=311
+2	только	только	PART	_	_	3	advmod	_	start_char=312|end_char=318
+3	зря	зря	ADV	_	Degree=Pos	4	advmod	_	start_char=319|end_char=322
+4	потратил	тратить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=323|end_char=331
+5	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=332|end_char=338
+6	на	на	ADP	_	_	8	case	_	start_char=339|end_char=341
+7	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=342|end_char=345
+8	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=346|end_char=350
+9	.	.	PUNCT	_	_	4	punct	_	start_char=350|end_char=351
+

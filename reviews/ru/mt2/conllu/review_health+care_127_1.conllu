@@ -1,0 +1,69 @@
+# text = Работали отлично в течение примерно 5 зарядок Некоторое время назад я использовал никель-металлогидридные аккумуляторы и отказался от них.
+# sent_id = 0
+1	Работали	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	отлично	отлично	ADV	_	Degree=Pos	1	advmod	_	start_char=9|end_char=16
+3	в	в	ADP	_	_	7	case	_	start_char=17|end_char=18
+4	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	start_char=19|end_char=26
+5	примерно	примерно	ADV	_	Degree=Pos	6	advmod	_	start_char=27|end_char=35
+6	5	5	NUM	_	NumType=Card	7	nummod	_	start_char=36|end_char=37
+7	зарядок	зарядок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=38|end_char=45
+8	Некоторое	некоторый	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	9	det	_	start_char=46|end_char=55
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=56|end_char=61
+10	назад	назад	ADV	_	Degree=Pos	9	advmod	_	start_char=62|end_char=67
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=68|end_char=69
+12	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=70|end_char=81
+13	никель	никель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	compound	_	start_char=82|end_char=88
+14	-	-	PUNCT	_	_	13	punct	_	start_char=88|end_char=89
+15	металлогидридные	металлогидридный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	start_char=89|end_char=105
+16	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	start_char=106|end_char=118
+17	и	и	CCONJ	_	_	18	cc	_	start_char=119|end_char=120
+18	отказался	отказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	start_char=121|end_char=130
+19	от	от	ADP	_	_	20	case	_	start_char=131|end_char=133
+20	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	18	obl	_	start_char=134|end_char=137
+21	.	.	PUNCT	_	_	1	punct	_	start_char=137|end_char=138
+
+# text = Когда я попробовал NiMH аккумуляторы, я начал с этих и был очень разочарован технологией, мы использовали их в мыши, которая требовала замены примерно два раза в неделю, позже я перешел на eneloop от Sanyo и очень доволен.
+# sent_id = 1
+1	Когда	когда	SCONJ	_	_	3	mark	_	start_char=139|end_char=144
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=145|end_char=146
+3	попробовал	пробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=147|end_char=157
+4	NiMH	NiMH	PROPN	_	_	3	obj	_	start_char=158|end_char=162
+5	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=163|end_char=175
+6	,	,	PUNCT	_	_	3	punct	_	start_char=175|end_char=176
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=177|end_char=178
+8	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=179|end_char=184
+9	с	с	ADP	_	_	10	case	_	start_char=185|end_char=186
+10	этих	этот	DET	_	Case=Gen|Number=Plur|PronType=Dem	8	det	_	start_char=187|end_char=191
+11	и	и	CCONJ	_	_	14	cc	_	start_char=192|end_char=193
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	start_char=194|end_char=197
+13	очень	очень	ADV	_	Degree=Pos	14	obl	_	start_char=198|end_char=203
+14	разочарован	разочарованный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	conj	_	start_char=204|end_char=215
+15	технологией	технология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	start_char=216|end_char=227
+16	,	,	PUNCT	_	_	18	punct	_	start_char=227|end_char=228
+17	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=229|end_char=231
+18	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=232|end_char=244
+19	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	_	start_char=245|end_char=247
+20	в	в	ADP	_	_	21	case	_	start_char=248|end_char=249
+21	мыши	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	start_char=250|end_char=254
+22	,	,	PUNCT	_	_	24	punct	_	start_char=254|end_char=255
+23	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	24	nsubj	_	start_char=256|end_char=263
+24	требовала	требовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	acl:relcl	_	start_char=264|end_char=273
+25	замены	замена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	start_char=274|end_char=280
+26	примерно	примерно	ADV	_	Degree=Pos	27	advmod	_	start_char=281|end_char=289
+27	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	28	nummod	_	start_char=290|end_char=293
+28	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	start_char=294|end_char=298
+29	в	в	ADP	_	_	30	case	_	start_char=299|end_char=300
+30	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	start_char=301|end_char=307
+31	,	,	PUNCT	_	_	34	punct	_	start_char=307|end_char=308
+32	позже	поздно	ADV	_	Degree=Cmp	34	advmod	_	start_char=309|end_char=314
+33	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	start_char=315|end_char=316
+34	перешел	перейти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=317|end_char=324
+35	на	на	ADP	_	_	34	case	_	start_char=325|end_char=327
+36	eneloop	eneloop	X	_	Foreign=Yes	34	flat:foreign	_	start_char=328|end_char=335
+37	от	от	ADP	_	_	34	case	_	start_char=336|end_char=338
+38	Sanyo	Sanyo	PROPN	_	Foreign=Yes	34	flat:foreign	_	start_char=339|end_char=344
+39	и	и	CCONJ	_	_	41	cc	_	start_char=345|end_char=346
+40	очень	очень	ADV	_	Degree=Pos	41	obl	_	start_char=347|end_char=352
+41	доволен	довольный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	conj	_	start_char=353|end_char=360
+42	.	.	PUNCT	_	_	8	punct	_	start_char=360|end_char=361
+
