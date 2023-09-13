@@ -1,7 +1,11 @@
+# text = Odlična igra!
+# sent_id = 0
 1	Odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=7
 2	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8|end_char=12
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=12|end_char=13
 
+# text = Moj sedmogodišnjak se jako zabavljao s ovom igrom dok je istovremeno učio matematiku!
+# sent_id = 1
 1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=14|end_char=17
 2	sedmogodišnjak	sedmogodišnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=18|end_char=32
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=33|end_char=35
@@ -17,6 +21,8 @@
 13	matematiku	matematika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=88|end_char=98
 14	!	!	PUNCT	Z	_	5	punct	_	start_char=98|end_char=99
 
+# text = Kupio sam mu ga dok je bio u vrtiću i još uvijek ga voli igrati.
+# sent_id = 2
 1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=100|end_char=105
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=106|end_char=109
 3	mu	on	PRON	Pp3msd	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	start_char=110|end_char=112
@@ -34,6 +40,8 @@
 15	igrati	igrati	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=157|end_char=163
 16	.	.	PUNCT	Z	_	1	punct	_	start_char=163|end_char=164
 
+# text = Nema problema s bukom ove igre - nije bučnija od bilo koje druge PC igre.
+# sent_id = 3
 1	Nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=165|end_char=169
 2	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obj	_	start_char=170|end_char=178
 3	s	sa	ADP	Si	Case=Ins	4	case	_	start_char=179|end_char=180

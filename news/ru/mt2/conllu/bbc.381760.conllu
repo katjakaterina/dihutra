@@ -1,0 +1,107 @@
+# text = Мужчина получил множественные огнестрельные ранения из пневматического ружья в Илфракомбе Мужчина получил множественные огнестрельные ранения из пневматической винтовки, когда возвращался домой после ночной прогулки.
+# sent_id = 0
+1	Мужчина	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7
+2	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=15
+3	множественные	множественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=16|end_char=29
+4	огнестрельные	огнестрельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=30|end_char=43
+5	ранения	ранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obj	_	start_char=44|end_char=51
+6	из	из	ADP	_	_	8	case	_	start_char=52|end_char=54
+7	пневматического	пневматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=55|end_char=70
+8	ружья	ружье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=71|end_char=76
+9	в	в	ADP	_	_	10	case	_	start_char=77|end_char=78
+10	Илфракомбе	Илфракомб	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	start_char=79|end_char=89
+11	Мужчина	мужчина	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=90|end_char=97
+12	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=98|end_char=105
+13	множественные	множественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=106|end_char=119
+14	огнестрельные	огнестрельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=120|end_char=133
+15	ранения	ранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=134|end_char=141
+16	из	из	ADP	_	_	18	case	_	start_char=142|end_char=144
+17	пневматической	пневматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=145|end_char=159
+18	винтовки	винтовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	start_char=160|end_char=168
+19	,	,	PUNCT	_	_	21	punct	_	start_char=168|end_char=169
+20	когда	когда	SCONJ	_	_	21	mark	_	start_char=170|end_char=175
+21	возвращался	возвращаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	advcl	_	start_char=176|end_char=187
+22	домой	домой	ADV	_	Degree=Pos	21	advmod	_	start_char=188|end_char=193
+23	после	после	ADP	_	_	25	case	_	start_char=194|end_char=199
+24	ночной	ночной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=200|end_char=206
+25	прогулки	прогулка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	start_char=207|end_char=215
+26	.	.	PUNCT	_	_	2	punct	_	start_char=215|end_char=216
+
+# text = Пострадавший, которому было около 40 лет, находился в районе Oxford Grove города Илфракомб (Девон), когда в него выстрелили в грудь, живот и руку.
+# sent_id = 1
+1	Пострадавший	пострадать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	nsubj	_	start_char=217|end_char=229
+2	,	,	PUNCT	_	_	4	punct	_	start_char=229|end_char=230
+3	которому	который	PRON	_	Case=Dat|PronType=Int,Rel	4	iobj	_	start_char=231|end_char=239
+4	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=240|end_char=244
+5	около	около	ADP	_	_	7	case	_	start_char=245|end_char=250
+6	40	40	NUM	_	NumType=Card	7	nummod	_	start_char=251|end_char=253
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	start_char=254|end_char=257
+8	,	,	PUNCT	_	_	1	punct	_	start_char=257|end_char=258
+9	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=259|end_char=268
+10	в	в	ADP	_	_	11	case	_	start_char=269|end_char=270
+11	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=271|end_char=277
+12	Oxford	Oxford	PROPN	_	Foreign=Yes	11	flat:foreign	_	start_char=278|end_char=284
+13	Grove	Grove	PROPN	_	Foreign=Yes	11	flat:foreign	_	start_char=285|end_char=290
+14	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=291|end_char=297
+15	Илфракомб	Илфракомб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	start_char=298|end_char=307
+16	(	(	PUNCT	_	_	17	punct	_	start_char=308|end_char=309
+17	Девон	Девон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	parataxis	_	start_char=309|end_char=314
+18	)	)	PUNCT	_	_	17	punct	_	start_char=314|end_char=315
+19	,	,	PUNCT	_	_	23	punct	_	start_char=315|end_char=316
+20	когда	когда	SCONJ	_	_	23	mark	_	start_char=317|end_char=322
+21	в	в	ADP	_	_	22	case	_	start_char=323|end_char=324
+22	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obl	_	start_char=325|end_char=329
+23	выстрелили	выстрелять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=330|end_char=340
+24	в	в	ADP	_	_	25	case	_	start_char=341|end_char=342
+25	грудь	грудь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	start_char=343|end_char=348
+26	,	,	PUNCT	_	_	27	punct	_	start_char=348|end_char=349
+27	живот	живот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	conj	_	start_char=350|end_char=355
+28	и	и	CCONJ	_	_	29	cc	_	start_char=356|end_char=357
+29	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	conj	_	start_char=358|end_char=362
+30	.	.	PUNCT	_	_	9	punct	_	start_char=362|end_char=363
+
+# text = Офицеры охарактеризовали стрельбу, произошедшую примерно в 02:30 BST, как "случайный акт".
+# sent_id = 2
+1	Офицеры	офицер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=364|end_char=371
+2	охарактеризовали	характеризовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=372|end_char=388
+3	стрельбу	стрельба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=389|end_char=397
+4	,	,	PUNCT	_	_	5	punct	_	start_char=397|end_char=398
+5	произошедшую	произойти	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	start_char=399|end_char=411
+6	примерно	примерно	ADV	_	Degree=Pos	8	advmod	_	start_char=412|end_char=420
+7	в	в	ADP	_	_	8	case	_	start_char=421|end_char=422
+8	02	02	NUM	_	NumType=Card	5	obl	_	start_char=423|end_char=425
+9	:	:	PUNCT	_	_	10	punct	_	start_char=425|end_char=426
+10	30	30	NUM	_	NumType=Card	8	nmod	_	start_char=426|end_char=428
+11	BST	BST	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=429|end_char=432
+12	,	,	PUNCT	_	_	16	punct	_	start_char=432|end_char=433
+13	как	как	SCONJ	_	_	16	mark	_	start_char=434|end_char=437
+14	"	"	PUNCT	_	_	16	punct	_	start_char=438|end_char=439
+15	случайный	случайный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=439|end_char=448
+16	акт	акт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	start_char=449|end_char=452
+17	"	"	PUNCT	_	_	16	punct	_	start_char=452|end_char=453
+18	.	.	PUNCT	_	_	2	punct	_	start_char=453|end_char=454
+
+# text = Пострадавший не видел нападавшего.
+# sent_id = 3
+1	Пострадавший	пострадать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	nsubj	_	start_char=455|end_char=467
+2	не	не	PART	_	_	3	advmod	_	start_char=468|end_char=470
+3	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=471|end_char=476
+4	нападавшего	нападавший	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=477|end_char=488
+5	.	.	PUNCT	_	_	3	punct	_	start_char=488|end_char=489
+
+# text = Его ранения не опасны для жизни, и полиция обратилась к очевидцам.
+# sent_id = 4
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	2	det	_	start_char=490|end_char=493
+2	ранения	ранение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=494|end_char=501
+3	не	не	PART	_	_	4	advmod	_	start_char=502|end_char=504
+4	опасны	опасный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=505|end_char=511
+5	для	для	ADP	_	_	6	case	_	start_char=512|end_char=515
+6	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=516|end_char=521
+7	,	,	PUNCT	_	_	10	punct	_	start_char=521|end_char=522
+8	и	и	CCONJ	_	_	10	cc	_	start_char=523|end_char=524
+9	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=525|end_char=532
+10	обратилась	обратиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	start_char=533|end_char=543
+11	к	к	ADP	_	_	12	case	_	start_char=544|end_char=545
+12	очевидцам	очевидец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	start_char=546|end_char=555
+13	.	.	PUNCT	_	_	4	punct	_	start_char=555|end_char=556
+

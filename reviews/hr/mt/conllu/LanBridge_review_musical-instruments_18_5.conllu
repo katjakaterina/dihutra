@@ -1,3 +1,5 @@
+# text = branik 18 ft. Cali prozirni...
+# sent_id = 0
 1	branik	branik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6
 2	18	18	NUM	Mdc	NumType=Card	3	nummod	_	start_char=7|end_char=9
 3	ft	ft	NOUN	Y	_	1	nmod	_	start_char=10|end_char=12
@@ -6,6 +8,8 @@
 6	prozirni	proziran	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=19|end_char=27
 7	...	...	PUNCT	Z	_	1	punct	_	start_char=27|end_char=30
 
+# text = Htio sam ga samo na izgled...
+# sent_id = 1
 1	Htio	htjeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=31|end_char=35
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=36|end_char=39
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=40|end_char=42
@@ -14,11 +18,15 @@
 6	izgled	izgled	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=51|end_char=57
 7	...	...	PUNCT	Z	_	1	punct	_	start_char=57|end_char=60
 
+# text = Lijepo izgleda kabel...
+# sent_id = 2
 1	Lijepo	lijep	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=61|end_char=67
 2	izgleda	izgledati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=68|end_char=75
 3	kabel	kabel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=76|end_char=81
 4	...	...	PUNCT	Z	_	2	punct	_	start_char=81|end_char=84
 
+# text = Znam da će funkcionirati...što se tiče Sama Asha ...ovaj je kabel bio zapakiran u poštansku pošiljku unutar druge kutije s mojim Roc n Soc-om... njegov tim za otpremu odlično radi..nikada nisam imao nikakvih pritužbi...
+# sent_id = 3
 1	Znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=85|end_char=89
 2	da	da	SCONJ	Cs	_	4	mark	_	start_char=90|end_char=92
 3	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=93|end_char=95
@@ -61,6 +69,8 @@
 40	pritužbi	pritužba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	38	obj	_	start_char=293|end_char=301
 41	...	...	PUNCT	Z	_	1	punct	_	start_char=301|end_char=304
 
+# text = Volim Sama Asha.. hvala Amazon
+# sent_id = 4
 1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=305|end_char=310
 2	Sama	sam	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=311|end_char=315
 3	Ash	Ash	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=316|end_char=319

@@ -1,0 +1,344 @@
+# text = Элитная лига: Данди Старз 5-3 Белфаст Джайентс Патрик Дуайер забил два гола в ворота "Джайантс" в матче с "Данди Dundee Stars искупили вину за пятничное поражение в Элит-Лиге от Belfast Giants, выиграв в субботу в Данди ответный матч со счетом 5:3.
+# sent_id = 0
+1	Элитная	элитный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	лига	лига	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8|end_char=12
+3	:	:	PUNCT	_	_	13	punct	_	start_char=12|end_char=13
+4	Данди	Данди	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=14|end_char=19
+5	Старз	Старз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	start_char=20|end_char=25
+6	5	5	NUM	_	NumType=Card	4	nummod:entity	_	start_char=26|end_char=27
+7	-	-	PUNCT	_	_	8	punct	_	start_char=27|end_char=28
+8	3	3	NUM	_	NumType=Card	6	nmod	_	start_char=28|end_char=29
+9	Белфаст	Белфаст	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=30|end_char=37
+10	Джайентс	Джайентс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	start_char=38|end_char=46
+11	Патрик	Патрик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	start_char=47|end_char=53
+12	Дуайер	Дуайер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	start_char=54|end_char=60
+13	забил	забить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=61|end_char=66
+14	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	15	nummod	_	start_char=67|end_char=70
+15	гола	гол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	start_char=71|end_char=75
+16	в	в	ADP	_	_	17	case	_	start_char=76|end_char=77
+17	ворота	ворота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	15	nmod	_	start_char=78|end_char=84
+18	"	"	PUNCT	_	_	19	punct	_	start_char=85|end_char=86
+19	Джайантс	Джайантс	PROPN	_	_	17	nmod	_	start_char=86|end_char=94
+20	"	"	PUNCT	_	_	19	punct	_	start_char=94|end_char=95
+21	в	в	ADP	_	_	22	case	_	start_char=96|end_char=97
+22	матче	матч	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	start_char=98|end_char=103
+23	с	с	ADP	_	_	25	case	_	start_char=104|end_char=105
+24	"	"	PUNCT	_	_	25	punct	_	start_char=106|end_char=107
+25	Данди	Данди	PROPN	_	Foreign=Yes	22	flat:foreign	_	start_char=107|end_char=112
+26	Dundee	Dundee	PROPN	_	Foreign=Yes	25	flat:foreign	_	start_char=113|end_char=119
+27	Stars	Stars	PROPN	_	Foreign=Yes	25	flat:foreign	_	start_char=120|end_char=125
+28	искупили	искупить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	start_char=126|end_char=134
+29	вину	вина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	start_char=135|end_char=139
+30	за	за	ADP	_	_	32	case	_	start_char=140|end_char=142
+31	пятничное	пятничный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	start_char=143|end_char=152
+32	поражение	поражение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	nmod	_	start_char=153|end_char=162
+33	в	в	ADP	_	_	34	case	_	start_char=163|end_char=164
+34	Элит-Лиге	Элит-Лиг	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	start_char=165|end_char=174
+35	от	от	ADP	_	_	32	case	_	start_char=175|end_char=177
+36	Belfast	Belfast	PROPN	_	Foreign=Yes	32	flat:foreign	_	start_char=178|end_char=185
+37	Giants	Giants	PROPN	_	Foreign=Yes	32	flat:foreign	_	start_char=186|end_char=192
+38	,	,	PUNCT	_	_	39	punct	_	start_char=192|end_char=193
+39	выиграв	выиграть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	28	advcl	_	start_char=194|end_char=201
+40	в	в	ADP	_	_	41	case	_	start_char=202|end_char=203
+41	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obl	_	start_char=204|end_char=211
+42	в	в	ADP	_	_	43	case	_	start_char=212|end_char=213
+43	Данди	Данди	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	obl	_	start_char=214|end_char=219
+44	ответный	ответный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	45	amod	_	start_char=220|end_char=228
+45	матч	матч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obj	_	start_char=229|end_char=233
+46	со	с	ADP	_	_	47	case	_	start_char=234|end_char=236
+47	счетом	счет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	45	nmod	_	start_char=237|end_char=243
+48	5	5	NUM	_	NumType=Card	47	nummod:entity	_	start_char=244|end_char=245
+49	:	:	PUNCT	_	_	50	punct	_	start_char=245|end_char=246
+50	3	3	NUM	_	NumType=Card	48	nmod	_	start_char=246|end_char=247
+51	.	.	PUNCT	_	_	2	punct	_	start_char=247|end_char=248
+
+# text = Гиганты" получили преимущество в два гола благодаря ударам Патрика Дуайера и Франсиса Бовилье.
+# sent_id = 1
+1	Гиганты	гигант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=249|end_char=256
+2	"	"	PUNCT	_	_	1	punct	_	start_char=256|end_char=257
+3	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=258|end_char=266
+4	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=267|end_char=279
+5	в	в	ADP	_	_	7	case	_	start_char=280|end_char=281
+6	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	7	nummod	_	start_char=282|end_char=285
+7	гола	гол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=286|end_char=290
+8	благодаря	благодаря	ADP	_	_	9	case	_	start_char=291|end_char=300
+9	ударам	удар	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	start_char=301|end_char=307
+10	Патрика	Патрика	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=308|end_char=315
+11	Дуайера	Дуайер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	start_char=316|end_char=323
+12	и	и	CCONJ	_	_	13	cc	_	start_char=324|end_char=325
+13	Франсиса	Франсис	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	start_char=326|end_char=334
+14	Бовилье	Бовилье	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	start_char=335|end_char=342
+15	.	.	PUNCT	_	_	3	punct	_	start_char=342|end_char=343
+
+# text = Майк Салливан и Джордан Коуни сравняли счет, после чего Дуайер восстановил преимущество "Джайентс".
+# sent_id = 2
+1	Майк	Майк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=344|end_char=348
+2	Салливан	Салливан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=349|end_char=357
+3	и	и	CCONJ	_	_	4	cc	_	start_char=358|end_char=359
+4	Джордан	Джордан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=360|end_char=367
+5	Коуни	Коуни	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	start_char=368|end_char=373
+6	сравняли	сровнять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=374|end_char=382
+7	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=383|end_char=387
+8	,	,	PUNCT	_	_	12	punct	_	start_char=387|end_char=388
+9	после	после	ADP	_	_	10	case	_	start_char=389|end_char=394
+10	чего	что	PRON	_	Case=Gen|PronType=Int,Rel	12	obl	_	start_char=395|end_char=399
+11	Дуайер	Дуайер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=400|end_char=406
+12	восстановил	восстановить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=407|end_char=418
+13	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=419|end_char=431
+14	"	"	PUNCT	_	_	15	punct	_	start_char=432|end_char=433
+15	Джайентс	Джайентс	PROPN	_	_	13	nmod	_	start_char=433|end_char=441
+16	"	"	PUNCT	_	_	15	punct	_	start_char=441|end_char=442
+17	.	.	PUNCT	_	_	6	punct	_	start_char=442|end_char=443
+
+# text = Франсуа Бушар сравнял счет в пользу "Данди", а два гола Лукаса Лундвальда Нильсена обеспечили победу.
+# sent_id = 3
+1	Франсуа	Франсуа	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=444|end_char=451
+2	Бушар	Бушар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=452|end_char=457
+3	сравнял	сровнять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=458|end_char=465
+4	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=466|end_char=470
+5	в	в	ADP	_	_	6	case	_	start_char=471|end_char=472
+6	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=473|end_char=479
+7	"	"	PUNCT	_	_	8	punct	_	start_char=480|end_char=481
+8	Данди	Данди	PROPN	_	_	6	nmod	_	start_char=481|end_char=486
+9	"	"	PUNCT	_	_	8	punct	_	start_char=486|end_char=487
+10	,	,	PUNCT	_	_	17	punct	_	start_char=487|end_char=488
+11	а	а	CCONJ	_	_	17	cc	_	start_char=489|end_char=490
+12	два	два	NUM	_	Case=Nom|Gender=Masc|NumType=Card	13	nummod:gov	_	start_char=491|end_char=494
+13	гола	гол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nsubj	_	start_char=495|end_char=499
+14	Лукаса	Лукас	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=500|end_char=506
+15	Лундвальда	Лундвальд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat:name	_	start_char=507|end_char=517
+16	Нильсена	Нильсен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	flat:name	_	start_char=518|end_char=526
+17	обеспечили	обеспечить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=527|end_char=537
+18	победу	победа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=538|end_char=544
+19	.	.	PUNCT	_	_	3	punct	_	start_char=544|end_char=545
+
+# text = Для подопечных Адама Кифа, которые в пятницу вечером в Белфасте одержали победу над "Данди" со счетом 2:1, это было третье поражение в сезоне в рамках Элитной Лиги.
+# sent_id = 4
+1	Для	для	ADP	_	_	2	case	_	start_char=546|end_char=549
+2	подопечных	подопечный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	start_char=550|end_char=560
+3	Адама	Адам	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=561|end_char=566
+4	Кифа	Кифа	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	start_char=567|end_char=571
+5	,	,	PUNCT	_	_	12	punct	_	start_char=571|end_char=572
+6	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	12	nsubj	_	start_char=573|end_char=580
+7	в	в	ADP	_	_	8	case	_	start_char=581|end_char=582
+8	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=583|end_char=590
+9	вечером	вечер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	start_char=591|end_char=598
+10	в	в	ADP	_	_	11	case	_	start_char=599|end_char=600
+11	Белфасте	Белфаст	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	start_char=601|end_char=609
+12	одержали	одержать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=610|end_char=618
+13	победу	победа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=619|end_char=625
+14	над	над	ADP	_	_	16	case	_	start_char=626|end_char=629
+15	"	"	PUNCT	_	_	16	punct	_	start_char=630|end_char=631
+16	Данди	Данди	PROPN	_	_	13	nmod	_	start_char=631|end_char=636
+17	"	"	PUNCT	_	_	16	punct	_	start_char=636|end_char=637
+18	со	с	ADP	_	_	19	case	_	start_char=638|end_char=640
+19	счетом	счет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	start_char=641|end_char=647
+20	2	2	NUM	_	NumType=Card	19	nummod	_	start_char=648|end_char=649
+21	:	:	PUNCT	_	_	22	punct	_	start_char=649|end_char=650
+22	1	1	NUM	_	NumType=Card	20	nmod	_	start_char=650|end_char=651
+23	,	,	PUNCT	_	_	2	punct	_	start_char=651|end_char=652
+24	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nsubj	_	start_char=653|end_char=656
+25	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	_	start_char=657|end_char=661
+26	третье	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	start_char=662|end_char=668
+27	поражение	поражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=669|end_char=678
+28	в	в	ADP	_	_	29	case	_	start_char=679|end_char=680
+29	сезоне	сезон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	start_char=681|end_char=687
+30	в	в	ADP	_	_	31	case	_	start_char=688|end_char=689
+31	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	27	nmod	_	start_char=690|end_char=696
+32	Элитной	элитный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	start_char=697|end_char=704
+33	Лиги	Лига	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	start_char=705|end_char=709
+34	.	.	PUNCT	_	_	27	punct	_	start_char=709|end_char=710
+
+# text = Это была четвертая встреча в сезоне между командами, причем "Гиганты" выиграли три предыдущих матча.
+# sent_id = 5
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=711|end_char=714
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=715|end_char=719
+3	четвертая	четвертый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=720|end_char=729
+4	встреча	встреча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=730|end_char=737
+5	в	в	ADP	_	_	6	case	_	start_char=738|end_char=739
+6	сезоне	сезон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	start_char=740|end_char=746
+7	между	между	ADP	_	_	8	case	_	start_char=747|end_char=752
+8	командами	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	nmod	_	start_char=753|end_char=762
+9	,	,	PUNCT	_	_	14	punct	_	start_char=762|end_char=763
+10	причем	причем	CCONJ	_	_	14	cc	_	start_char=764|end_char=770
+11	"	"	PUNCT	_	_	12	punct	_	start_char=771|end_char=772
+12	Гиганты	гигант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=772|end_char=779
+13	"	"	PUNCT	_	_	12	punct	_	start_char=779|end_char=780
+14	выиграли	выиграть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=781|end_char=789
+15	три	три	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	17	nummod	_	start_char=790|end_char=793
+16	предыдущих	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=794|end_char=804
+17	матча	матч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=805|end_char=810
+18	.	.	PUNCT	_	_	4	punct	_	start_char=810|end_char=811
+
+# text = Дуайер открыл счет на четвертой минуте на 3:35 с передачи Кендалла Макфолла, а Дэвид Рутерфорд ассистировал ему, когда Бовилье удвоил преимущество четыре минуты спустя.
+# sent_id = 6
+1	Дуайер	Дуайер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=812|end_char=818
+2	открыл	открыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=819|end_char=825
+3	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=826|end_char=830
+4	на	на	ADP	_	_	6	case	_	start_char=831|end_char=833
+5	четвертой	четвертый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=834|end_char=843
+6	минуте	минута	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=844|end_char=850
+7	на	на	ADP	_	_	8	case	_	start_char=851|end_char=853
+8	3	3	NUM	_	NumType=Card	2	obl	_	start_char=854|end_char=855
+9	:	:	PUNCT	_	_	10	punct	_	start_char=855|end_char=856
+10	35	35	NUM	_	NumType=Card	8	nmod	_	start_char=856|end_char=858
+11	с	с	ADP	_	_	12	case	_	start_char=859|end_char=860
+12	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=861|end_char=869
+13	Кендалла	Кендалл	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=870|end_char=878
+14	Макфолла	Макфолла	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	flat:name	_	start_char=879|end_char=887
+15	,	,	PUNCT	_	_	19	punct	_	start_char=887|end_char=888
+16	а	а	CCONJ	_	_	19	cc	_	start_char=889|end_char=890
+17	Дэвид	Дэвид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=891|end_char=896
+18	Рутерфорд	Рутерфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	start_char=897|end_char=906
+19	ассистировал	ассистировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=907|end_char=919
+20	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	iobj	_	start_char=920|end_char=923
+21	,	,	PUNCT	_	_	24	punct	_	start_char=923|end_char=924
+22	когда	когда	SCONJ	_	_	24	mark	_	start_char=925|end_char=930
+23	Бовилье	Бовилье	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=931|end_char=938
+24	удвоил	удвоить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	start_char=939|end_char=945
+25	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	start_char=946|end_char=958
+26	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	27	nummod	_	start_char=959|end_char=965
+27	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	start_char=966|end_char=972
+28	спустя	спустя	ADP	_	_	27	case	_	start_char=973|end_char=979
+29	.	.	PUNCT	_	_	2	punct	_	start_char=979|end_char=980
+
+# text = В напряженном стартовом периоде Салливан вернул хозяев в игру на 13:10, а Мэтт Марквардт стал автором равного счета для Коуни на 15:16.
+# sent_id = 7
+1	В	в	ADP	_	_	4	case	_	start_char=981|end_char=982
+2	напряженном	напряженный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=983|end_char=994
+3	стартовом	стартовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=995|end_char=1004
+4	периоде	период	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=1005|end_char=1012
+5	Салливан	Салливан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=1013|end_char=1021
+6	вернул	вернуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1022|end_char=1028
+7	хозяев	хозяин	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=1029|end_char=1035
+8	в	в	ADP	_	_	9	case	_	start_char=1036|end_char=1037
+9	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=1038|end_char=1042
+10	на	на	ADP	_	_	11	case	_	start_char=1043|end_char=1045
+11	13	13	NUM	_	NumType=Card	9	nmod	_	start_char=1046|end_char=1048
+12	:	:	PUNCT	_	_	13	punct	_	start_char=1048|end_char=1049
+13	10	10	NUM	_	NumType=Card	11	nmod	_	start_char=1049|end_char=1051
+14	,	,	PUNCT	_	_	18	punct	_	start_char=1051|end_char=1052
+15	а	а	CCONJ	_	_	18	cc	_	start_char=1053|end_char=1054
+16	Мэтт	Мэтт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=1055|end_char=1059
+17	Марквардт	Марквардт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	start_char=1060|end_char=1069
+18	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	start_char=1070|end_char=1074
+19	автором	автор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	start_char=1075|end_char=1082
+20	равного	равный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=1083|end_char=1090
+21	счета	счет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=1091|end_char=1096
+22	для	для	ADP	_	_	23	case	_	start_char=1097|end_char=1100
+23	Коуни	Коуни	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=1101|end_char=1106
+24	на	на	ADP	_	_	25	case	_	start_char=1107|end_char=1109
+25	15	15	NUM	_	NumType=Card	18	obl	_	start_char=1110|end_char=1112
+26	:	:	PUNCT	_	_	27	punct	_	start_char=1112|end_char=1113
+27	16	16	NUM	_	NumType=Card	25	nmod	_	start_char=1113|end_char=1115
+28	.	.	PUNCT	_	_	6	punct	_	start_char=1115|end_char=1116
+
+# text = Дуайер обеспечил преимущество "Гигантов" на первый перерыв, забив свой второй гол за вечер в конце первого периода.
+# sent_id = 8
+1	Дуайер	Дуайер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1117|end_char=1123
+2	обеспечил	обеспечить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1124|end_char=1133
+3	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=1134|end_char=1146
+4	"	"	PUNCT	_	_	5	punct	_	start_char=1147|end_char=1148
+5	Гигантов	Гигантов	PROPN	_	Animacy=Inan|Case=Gen	3	nmod	_	start_char=1148|end_char=1156
+6	"	"	PUNCT	_	_	5	punct	_	start_char=1156|end_char=1157
+7	на	на	ADP	_	_	9	case	_	start_char=1158|end_char=1160
+8	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1161|end_char=1167
+9	перерыв	перерыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=1168|end_char=1175
+10	,	,	PUNCT	_	_	11	punct	_	start_char=1175|end_char=1176
+11	забив	забить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	start_char=1177|end_char=1182
+12	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	start_char=1183|end_char=1187
+13	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1188|end_char=1194
+14	гол	гол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=1195|end_char=1198
+15	за	за	ADP	_	_	16	case	_	start_char=1199|end_char=1201
+16	вечер	вечер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=1202|end_char=1207
+17	в	в	ADP	_	_	18	case	_	start_char=1208|end_char=1209
+18	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=1210|end_char=1215
+19	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=1216|end_char=1223
+20	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=1224|end_char=1231
+21	.	.	PUNCT	_	_	2	punct	_	start_char=1231|end_char=1232
+
+# text = Хозяева перегруппировались, и Бушар вновь вывел их на равный счет, забив гол в большинстве на 27:37.
+# sent_id = 9
+1	Хозяева	хозяин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=1233|end_char=1240
+2	перегруппировались	перегруппироваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1241|end_char=1259
+3	,	,	PUNCT	_	_	7	punct	_	start_char=1259|end_char=1260
+4	и	и	CCONJ	_	_	7	cc	_	start_char=1261|end_char=1262
+5	Бушар	Бушар	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1263|end_char=1268
+6	вновь	вновь	ADV	_	Degree=Pos	7	advmod	_	start_char=1269|end_char=1274
+7	вывел	вывести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=1275|end_char=1280
+8	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	start_char=1281|end_char=1283
+9	на	на	ADP	_	_	11	case	_	start_char=1284|end_char=1286
+10	равный	равный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=1287|end_char=1293
+11	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=1294|end_char=1298
+12	,	,	PUNCT	_	_	13	punct	_	start_char=1298|end_char=1299
+13	забив	забить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	start_char=1300|end_char=1305
+14	гол	гол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=1306|end_char=1309
+15	в	в	ADP	_	_	16	case	_	start_char=1310|end_char=1311
+16	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	start_char=1312|end_char=1323
+17	на	на	ADP	_	_	18	case	_	start_char=1324|end_char=1326
+18	27	27	NUM	_	NumType=Card	13	obl	_	start_char=1327|end_char=1329
+19	:	:	PUNCT	_	_	20	punct	_	start_char=1329|end_char=1330
+20	37	37	NUM	_	NumType=Card	18	nmod	_	start_char=1330|end_char=1332
+21	.	.	PUNCT	_	_	2	punct	_	start_char=1332|end_char=1333
+
+# text = В конце второго периода Коуни и Чарльз Коркоран помогли Нильсену впервые за матч вывести "Данди" вперед, а в середине заключительного периода он сделал пятую шайбу своей команды уверенной в победе.
+# sent_id = 10
+1	В	в	ADP	_	_	2	case	_	start_char=1334|end_char=1335
+2	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=1336|end_char=1341
+3	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=1342|end_char=1349
+4	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1350|end_char=1357
+5	Коуни	Коуни	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1358|end_char=1363
+6	и	и	CCONJ	_	_	7	cc	_	start_char=1364|end_char=1365
+7	Чарльз	Чарльз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=1366|end_char=1372
+8	Коркоран	Коркоран	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	start_char=1373|end_char=1381
+9	помогли	помочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1382|end_char=1389
+10	Нильсену	Нильсен	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	start_char=1390|end_char=1398
+11	впервые	впервые	ADV	_	Degree=Pos	14	advmod	_	start_char=1399|end_char=1406
+12	за	за	ADP	_	_	13	case	_	start_char=1407|end_char=1409
+13	матч	матч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=1410|end_char=1414
+14	вывести	вывести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=1415|end_char=1422
+15	"	"	PUNCT	_	_	16	punct	_	start_char=1423|end_char=1424
+16	Данди	Данди	PROPN	_	_	14	obj	_	start_char=1424|end_char=1429
+17	"	"	PUNCT	_	_	16	punct	_	start_char=1429|end_char=1430
+18	вперед	вперед	ADV	_	Degree=Pos	14	advmod	_	start_char=1431|end_char=1437
+19	,	,	PUNCT	_	_	26	punct	_	start_char=1437|end_char=1438
+20	а	а	CCONJ	_	_	26	cc	_	start_char=1439|end_char=1440
+21	в	в	ADP	_	_	22	case	_	start_char=1441|end_char=1442
+22	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	start_char=1443|end_char=1451
+23	заключительного	заключительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=1452|end_char=1467
+24	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=1468|end_char=1475
+25	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=1476|end_char=1478
+26	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=1479|end_char=1485
+27	пятую	пятый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=1486|end_char=1491
+28	шайбу	шайба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	start_char=1492|end_char=1497
+29	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	30	det	_	start_char=1498|end_char=1503
+30	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	start_char=1504|end_char=1511
+31	уверенной	уверенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	obl	_	start_char=1512|end_char=1521
+32	в	в	ADP	_	_	33	case	_	start_char=1522|end_char=1523
+33	победе	победа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	31	nmod	_	start_char=1524|end_char=1530
+34	.	.	PUNCT	_	_	9	punct	_	start_char=1530|end_char=1531
+
+# text = В пятницу "Гиганты", проигравшие четыре из пяти последних матчей, сыграют дома с "Милтон Кейнс".
+# sent_id = 11
+1	В	в	ADP	_	_	2	case	_	start_char=1532|end_char=1533
+2	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=1534|end_char=1541
+3	"	"	PUNCT	_	_	4	punct	_	start_char=1542|end_char=1543
+4	Гиганты	гигант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=1543|end_char=1550
+5	"	"	PUNCT	_	_	4	punct	_	start_char=1550|end_char=1551
+6	,	,	PUNCT	_	_	7	punct	_	start_char=1551|end_char=1552
+7	проигравшие	проиграть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	start_char=1553|end_char=1564
+8	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	7	obl	_	start_char=1565|end_char=1571
+9	из	из	ADP	_	_	12	case	_	start_char=1572|end_char=1574
+10	пяти	пять	NUM	_	Case=Gen|NumType=Card	12	nummod	_	start_char=1575|end_char=1579
+11	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=1580|end_char=1589
+12	матчей	матч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=1590|end_char=1596
+13	,	,	PUNCT	_	_	7	punct	_	start_char=1596|end_char=1597
+14	сыграют	сыграть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=1598|end_char=1605
+15	дома	дома	ADV	_	Degree=Pos	14	advmod	_	start_char=1606|end_char=1610
+16	с	с	ADP	_	_	18	case	_	start_char=1611|end_char=1612
+17	"	"	PUNCT	_	_	18	punct	_	start_char=1613|end_char=1614
+18	Милтон	Милтон	PROPN	_	_	15	obl	_	start_char=1614|end_char=1620
+19	Кейнс	Кейнс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	start_char=1621|end_char=1626
+20	"	"	PUNCT	_	_	18	punct	_	start_char=1626|end_char=1627
+21	.	.	PUNCT	_	_	14	punct	_	start_char=1627|end_char=1628
+

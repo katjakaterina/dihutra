@@ -1,3 +1,5 @@
+# text = Najbolja priča "Christmas Carol" Čini se kao da su skoro svi snimili film Božićne pjesme.
+# sent_id = 0
 1	Najbolja	dobar	ADJ	Agsfsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
 2	priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=9|end_char=14
 3	"	"	PUNCT	Z	_	4	punct	_	start_char=15|end_char=16
@@ -17,12 +19,16 @@
 17	pjesme	pjesma	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=82|end_char=88
 18	.	.	PUNCT	Z	_	7	punct	_	start_char=88|end_char=89
 
+# text = Ovaj je najbolji daleko!
+# sent_id = 1
 1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	start_char=90|end_char=94
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=95|end_char=97
 3	najbolji	dobar	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	start_char=98|end_char=106
 4	daleko	daleko	ADV	Rgp	Degree=Pos	0	root	_	start_char=107|end_char=113
 5	!	!	PUNCT	Z	_	4	punct	_	start_char=113|end_char=114
 
+# text = Čini se realističnijim od svih ostalih, a vremensko razdoblje savršeno.
+# sent_id = 2
 1	Čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=115|end_char=119
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=120|end_char=122
 3	realističnijim	realističan	ADJ	Agcmsiy	Case=Ins|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	1	xcomp	_	start_char=123|end_char=137
@@ -36,6 +42,8 @@
 11	savršeno	savršeno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	start_char=177|end_char=185
 12	.	.	PUNCT	Z	_	1	punct	_	start_char=185|end_char=186
 
+# text = Gluma je također daleko bolja od svih ostalih koje sam vidio; moje mišljenje.
+# sent_id = 3
 1	Gluma	gluma	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=187|end_char=192
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=193|end_char=195
 3	također	također	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=196|end_char=203

@@ -1,3 +1,5 @@
+# text = U redu, alat radi isto što i obični udarac.
+# sent_id = 0
 1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=0|end_char=1
 2	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=2|end_char=6
 3	,	,	PUNCT	Z	_	2	punct	_	start_char=6|end_char=7
@@ -10,6 +12,8 @@
 10	udarac	udarac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	ccomp	_	start_char=36|end_char=42
 11	.	.	PUNCT	Z	_	5	punct	_	start_char=42|end_char=43
 
+# text = Kupio sam ovaj misleći da mi možda treba poseban alat za lako skidanje temeljnih ploča za moje časopise, ali radi isto kao i obični alat za bušenje.
+# sent_id = 1
 1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=44|end_char=49
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=50|end_char=53
 3	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	start_char=54|end_char=58
@@ -40,6 +44,8 @@
 28	bušenje	bušenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	26	nmod	_	start_char=184|end_char=191
 29	.	.	PUNCT	Z	_	1	punct	_	start_char=191|end_char=192
 
+# text = Glock magne je teško skinuti bazne ploče.
+# sent_id = 2
 1	Glock	Glock	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=193|end_char=198
 2	magne	magna	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=199|end_char=204
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=205|end_char=207
@@ -49,6 +55,8 @@
 7	ploče	ploča	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=228|end_char=233
 8	.	.	PUNCT	Z	_	4	punct	_	start_char=233|end_char=234
 
+# text = Alat zapravo ne čini razliku.
+# sent_id = 3
 1	Alat	Alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=235|end_char=239
 2	zapravo	zapravo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=240|end_char=247
 3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=248|end_char=250

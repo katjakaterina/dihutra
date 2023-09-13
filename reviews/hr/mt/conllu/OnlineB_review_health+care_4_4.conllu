@@ -1,8 +1,12 @@
+# text = odličan dodatak vašoj torbici
+# sent_id = 0
 1	odličan	odličan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
 2	dodatak	dodatak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8|end_char=15
 3	vašoj	vaš	DET	Ps1fsd	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=16|end_char=21
 4	torbici	torbika	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=22|end_char=29
 
+# text = Obožavam džepno povećalo Great Point Light!
+# sent_id = 1
 1	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=30|end_char=38
 2	džepno	džepno	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=39|end_char=45
 3	povećalo	povećalo	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=46|end_char=54
@@ -11,6 +15,8 @@
 6	Light	Light	X	Xf	_	4	flat	_	start_char=67|end_char=72
 7	!	!	PUNCT	Z	_	1	punct	_	start_char=72|end_char=73
 
+# text = radi odlično, pogotovo ako zaboravite naočale i ne možete pročitati jelovnik kad ste vani na večeri... svjetlo je također bonus u mračnom restoranu.
+# sent_id = 2
 1	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=74|end_char=78
 2	odlično	odlično	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=79|end_char=86
 3	,	,	PUNCT	Z	_	22	punct	_	start_char=86|end_char=87
@@ -38,6 +44,8 @@
 25	restoranu	restoran	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	start_char=212|end_char=221
 26	.	.	PUNCT	Z	_	1	punct	_	start_char=221|end_char=222
 
+# text = Dao bih mu 5 zvjezdica da dolazi s futrolom koja prekriva staklo.
+# sent_id = 3
 1	Dao	dati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=223|end_char=226
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	start_char=227|end_char=230
 3	mu	on	PRON	Pp3msd	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	start_char=231|end_char=233
@@ -52,6 +60,8 @@
 12	staklo	staklo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=281|end_char=287
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=287|end_char=288
 
+# text = Prozirna plastična kutija u kojoj dolazi malo je ljepljiva i bio bih spreman platiti malo više za lijepu kutiju za zaštitu leće.
+# sent_id = 4
 1	Prozirna	proziran	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=289|end_char=297
 2	plastična	plastičan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=298|end_char=307
 3	kutija	kutija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=308|end_char=314

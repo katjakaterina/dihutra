@@ -1,8 +1,12 @@
+# text = Puno zabave!!
+# sent_id = 0
 1	Puno	puno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=4
 2	zabave	zabava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=5|end_char=11
 3	!	!	INTJ	I	_	2	advmod	_	start_char=11|end_char=12
 4	!	!	PUNCT	Z	_	2	punct	_	start_char=12|end_char=13
 
+# text = Vrlo JEFTINO napravljeno!!!
+# sent_id = 1
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=14|end_char=18
 2	JEFTINO	jeftino	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=19|end_char=26
 3	napravljeno	napraviti	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=27|end_char=38
@@ -10,6 +14,8 @@
 5	!	!	INTJ	I	_	3	advmod	_	start_char=39|end_char=40
 6	!	!	PUNCT	Z	_	3	punct	_	start_char=40|end_char=41
 
+# text = Imamo ovu istu igru, ali je napravljena 1967., samo smo mislili da će novija verzija više ići u korak s vremenom, ali nam se stara mnogo više sviđa!!
+# sent_id = 2
 1	Imamo	imati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=42|end_char=47
 2	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=48|end_char=51
 3	istu	isti	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=52|end_char=56
@@ -44,6 +50,8 @@
 32	!	!	PUNCT	Z	_	1	punct	_	start_char=189|end_char=190
 33	!	!	PUNCT	Z	_	1	punct	_	start_char=190|end_char=191
 
+# text = Ove pločice su kartonske, a mali stalak na koji možete staviti svoje dijelove također je napravljen od vrlo jeftinog kartona!!
+# sent_id = 3
 1	Ove	ovaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=192|end_char=195
 2	pločice	pločica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=196|end_char=203
 3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=204|end_char=206
@@ -68,6 +76,8 @@
 22	!	!	PUNCT	Z	_	4	punct	_	start_char=316|end_char=317
 23	!	!	PUNCT	Z	_	4	punct	_	start_char=317|end_char=318
 
+# text = Upravo smo omogućili ovu igru i zadržali našu staru!
+# sent_id = 4
 1	Upravo	upravo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=319|end_char=325
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=326|end_char=329
 3	omogućili	omogućiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=330|end_char=339
@@ -79,5 +89,7 @@
 9	staru	star	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	obj	_	start_char=365|end_char=370
 10	!	!	PUNCT	Z	_	3	punct	_	start_char=370|end_char=371
 
+# text = !
+# sent_id = 5
 1	!	!	PUNCT	Z	_	0	root	_	start_char=372|end_char=373
 

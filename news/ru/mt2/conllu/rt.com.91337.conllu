@@ -1,0 +1,148 @@
+# text = Македонцы идут на референдум по изменению названия страны В воскресенье жители Македонии примут участие в голосовании по вопросу о том, следует ли изменить название страны на "Республику Северная Македония".
+# sent_id = 0
+1	Македонцы	македонец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=0|end_char=9
+2	идут	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=10|end_char=14
+3	на	на	ADP	_	_	4	case	_	start_char=15|end_char=17
+4	референдум	референдум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=18|end_char=28
+5	по	по	ADP	_	_	6	case	_	start_char=29|end_char=31
+6	изменению	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	start_char=32|end_char=41
+7	названия	название	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=42|end_char=50
+8	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=51|end_char=57
+9	В	в	ADP	_	_	10	case	_	start_char=58|end_char=59
+10	воскресенье	воскресенье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obl	_	start_char=60|end_char=71
+11	жители	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=72|end_char=78
+12	Македонии	Македония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=79|end_char=88
+13	примут	принять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	start_char=89|end_char=95
+14	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=96|end_char=103
+15	в	в	ADP	_	_	16	case	_	start_char=104|end_char=105
+16	голосовании	голосование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	start_char=106|end_char=117
+17	по	по	ADP	_	_	18	case	_	start_char=118|end_char=120
+18	вопросу	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	start_char=121|end_char=128
+19	о	о	ADP	_	_	20	case	_	start_char=129|end_char=130
+20	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	18	nmod	_	start_char=131|end_char=134
+21	,	,	PUNCT	_	_	22	punct	_	start_char=134|end_char=135
+22	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl	_	start_char=136|end_char=143
+23	ли	ли	PART	_	_	22	advmod	_	start_char=144|end_char=146
+24	изменить	изменить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	csubj	_	start_char=147|end_char=155
+25	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	start_char=156|end_char=164
+26	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	start_char=165|end_char=171
+27	на	на	ADP	_	_	29	case	_	start_char=172|end_char=174
+28	"	"	PUNCT	_	_	29	punct	_	start_char=175|end_char=176
+29	Республику	Республика	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	start_char=176|end_char=186
+30	Северная	Северный	PROPN	_	_	31	amod	_	start_char=187|end_char=195
+31	Македония	Македония	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	appos	_	start_char=196|end_char=205
+32	"	"	PUNCT	_	_	29	punct	_	start_char=205|end_char=206
+33	.	.	PUNCT	_	_	2	punct	_	start_char=206|end_char=207
+
+# text = Народное голосование было организовано в попытке разрешить многолетний спор с соседней Грецией, имеющей собственную провинцию Македония.
+# sent_id = 1
+1	Народное	народный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=208|end_char=216
+2	голосование	голосование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	start_char=217|end_char=228
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	start_char=229|end_char=233
+4	организовано	организовывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=234|end_char=246
+5	в	в	ADP	_	_	6	case	_	start_char=247|end_char=248
+6	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=249|end_char=256
+7	разрешить	разрешить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	obl	_	start_char=257|end_char=266
+8	многолетний	многолетний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=267|end_char=278
+9	спор	спор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=279|end_char=283
+10	с	с	ADP	_	_	12	case	_	start_char=284|end_char=285
+11	соседней	соседний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=286|end_char=294
+12	Грецией	Греция	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	start_char=295|end_char=302
+13	,	,	PUNCT	_	_	14	punct	_	start_char=302|end_char=303
+14	имеющей	иметь	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	start_char=304|end_char=311
+15	собственную	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=312|end_char=323
+16	провинцию	провинция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=324|end_char=333
+17	Македония	Македония	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	start_char=334|end_char=343
+18	.	.	PUNCT	_	_	4	punct	_	start_char=343|end_char=344
+
+# text = Афины давно настаивают на том, что название северного соседа представляет собой претензию на их территорию, и неоднократно возражали против его заявок на вступление в ЕС и НАТО.
+# sent_id = 2
+1	Афины	Афины	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=345|end_char=350
+2	давно	давно	ADV	_	Degree=Pos	3	advmod	_	start_char=351|end_char=356
+3	настаивают	настаивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=357|end_char=367
+4	на	на	ADP	_	_	5	case	_	start_char=368|end_char=370
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	start_char=371|end_char=374
+6	,	,	PUNCT	_	_	11	punct	_	start_char=374|end_char=375
+7	что	что	SCONJ	_	_	11	mark	_	start_char=376|end_char=379
+8	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=380|end_char=388
+9	северного	северный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=389|end_char=398
+10	соседа	сосед	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=399|end_char=405
+11	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	start_char=406|end_char=418
+12	собой	себя	PRON	_	Case=Ins|PronType=Prs|Reflex=Yes	11	fixed	_	start_char=419|end_char=424
+13	претензию	претензия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=425|end_char=434
+14	на	на	ADP	_	_	16	case	_	start_char=435|end_char=437
+15	их	их	DET	_	Poss=Yes|PronType=Prs	16	det	_	start_char=438|end_char=440
+16	территорию	территория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=441|end_char=451
+17	,	,	PUNCT	_	_	20	punct	_	start_char=451|end_char=452
+18	и	и	CCONJ	_	_	20	cc	_	start_char=453|end_char=454
+19	неоднократно	неоднократно	ADV	_	Degree=Pos	20	advmod	_	start_char=455|end_char=467
+20	возражали	возражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	start_char=468|end_char=477
+21	против	против	ADP	_	_	23	case	_	start_char=478|end_char=484
+22	его	его	DET	_	Poss=Yes|PronType=Prs	23	det	_	start_char=485|end_char=488
+23	заявок	заявка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	obl	_	start_char=489|end_char=495
+24	на	на	ADP	_	_	25	case	_	start_char=496|end_char=498
+25	вступление	вступление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	start_char=499|end_char=509
+26	в	в	ADP	_	_	27	case	_	start_char=510|end_char=511
+27	ЕС	ЕС	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	start_char=512|end_char=514
+28	и	и	CCONJ	_	_	29	cc	_	start_char=515|end_char=516
+29	НАТО	НАТО	PROPN	_	Animacy=Inan	27	conj	_	start_char=517|end_char=521
+30	.	.	PUNCT	_	_	3	punct	_	start_char=521|end_char=522
+
+# text = Президент Македонии Георге Иванов, противник плебисцита по вопросу изменения названия, заявил, что не будет принимать во внимание результаты голосования.
+# sent_id = 3
+1	Президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=523|end_char=532
+2	Македонии	Македония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=533|end_char=542
+3	Георге	Георг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=543|end_char=549
+4	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=550|end_char=556
+5	,	,	PUNCT	_	_	6	punct	_	start_char=556|end_char=557
+6	противник	противник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=558|end_char=567
+7	плебисцита	плебисцит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=568|end_char=578
+8	по	по	ADP	_	_	9	case	_	start_char=579|end_char=581
+9	вопросу	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	start_char=582|end_char=589
+10	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=590|end_char=599
+11	названия	название	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=600|end_char=608
+12	,	,	PUNCT	_	_	1	punct	_	start_char=608|end_char=609
+13	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=610|end_char=616
+14	,	,	PUNCT	_	_	18	punct	_	start_char=616|end_char=617
+15	что	что	SCONJ	_	_	18	mark	_	start_char=618|end_char=621
+16	не	не	PART	_	_	18	advmod	_	start_char=622|end_char=624
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	start_char=625|end_char=630
+18	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	ccomp	_	start_char=631|end_char=640
+19	во	в	ADP	_	_	20	case	_	start_char=641|end_char=643
+20	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obl	_	start_char=644|end_char=652
+21	результаты	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=653|end_char=663
+22	голосования	голосование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	start_char=664|end_char=675
+23	.	.	PUNCT	_	_	13	punct	_	start_char=675|end_char=676
+
+# text = Однако сторонники референдума, включая премьер-министра Зорана Заева, утверждают, что изменение названия - это просто цена, которую необходимо заплатить за вступление в ЕС и НАТО.
+# sent_id = 4
+1	Однако	однако	ADV	_	Degree=Pos	10	advmod	_	start_char=677|end_char=683
+2	сторонники	сторонник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=684|end_char=694
+3	референдума	референдум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=695|end_char=706
+4	,	,	PUNCT	_	_	5	punct	_	start_char=706|end_char=707
+5	включая	включая	ADV	_	Degree=Pos	3	advmod	_	start_char=708|end_char=715
+6	премьер-министра	премьер-министр	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=716|end_char=732
+7	Зорана	Зоран	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	appos	_	start_char=733|end_char=739
+8	Заева	Заева	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	flat:name	_	start_char=740|end_char=745
+9	,	,	PUNCT	_	_	5	punct	_	start_char=745|end_char=746
+10	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=747|end_char=757
+11	,	,	PUNCT	_	_	18	punct	_	start_char=757|end_char=758
+12	что	что	SCONJ	_	_	18	mark	_	start_char=759|end_char=762
+13	изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	start_char=763|end_char=772
+14	названия	название	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=773|end_char=781
+15	-	-	PUNCT	_	_	13	punct	_	start_char=782|end_char=783
+16	это	это	PRON	_	PronType=Dem	18	expl	_	start_char=784|end_char=787
+17	просто	просто	PART	_	_	18	advmod	_	start_char=788|end_char=794
+18	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	ccomp	_	start_char=795|end_char=799
+19	,	,	PUNCT	_	_	21	punct	_	start_char=799|end_char=800
+20	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	22	obj	_	start_char=801|end_char=808
+21	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	18	acl:relcl	_	start_char=809|end_char=819
+22	заплатить	платить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	csubj	_	start_char=820|end_char=829
+23	за	за	ADP	_	_	24	case	_	start_char=830|end_char=832
+24	вступление	вступление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obl	_	start_char=833|end_char=843
+25	в	в	ADP	_	_	26	case	_	start_char=844|end_char=845
+26	ЕС	ЕС	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	start_char=846|end_char=848
+27	и	и	CCONJ	_	_	28	cc	_	start_char=849|end_char=850
+28	НАТО	НАТО	PROPN	_	Animacy=Inan	26	conj	_	start_char=851|end_char=855
+29	.	.	PUNCT	_	_	10	punct	_	start_char=855|end_char=856
+

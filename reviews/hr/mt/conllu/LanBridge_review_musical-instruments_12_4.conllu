@@ -1,3 +1,5 @@
+# text = Radi odlično, ali jedva koristim.
+# sent_id = 0
 1	Radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	odlično	odlično	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=5|end_char=12
 3	,	,	PUNCT	Z	_	6	punct	_	start_char=12|end_char=13
@@ -6,6 +8,8 @@
 6	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=24|end_char=32
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=32|end_char=33
 
+# text = Imam ga da ga imam ako mi zatreba.
+# sent_id = 1
 1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=34|end_char=38
 2	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=39|end_char=41
 3	da	da	SCONJ	Cs	_	5	mark	_	start_char=42|end_char=44
@@ -16,6 +20,8 @@
 8	zatreba	zatrebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=60|end_char=67
 9	.	.	PUNCT	Z	_	1	punct	_	start_char=67|end_char=68
 
+# text = Ustanovio sam da mi zapravo ne treba tako često i da ga rijetko koristim.
+# sent_id = 2
 1	Ustanovio	ustanoviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=69|end_char=78
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=79|end_char=82
 3	da	da	SCONJ	Cs	_	7	mark	_	start_char=83|end_char=85
@@ -32,6 +38,8 @@
 14	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=133|end_char=141
 15	.	.	PUNCT	Z	_	1	punct	_	start_char=141|end_char=142
 
+# text = Da sam stvarno dobar, vidim potrebu.
+# sent_id = 3
 1	Da	da	SCONJ	Cs	_	4	mark	_	start_char=143|end_char=145
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=146|end_char=149
 3	stvarno	stvarno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=150|end_char=157
@@ -41,6 +49,8 @@
 7	potrebu	potreba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=171|end_char=178
 8	.	.	PUNCT	Z	_	6	punct	_	start_char=178|end_char=179
 
+# text = Ali ovo je klavijatura, a ne orgulje.
+# sent_id = 4
 1	Ali	ali	CCONJ	Cc	_	4	cc	_	start_char=180|end_char=183
 2	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=184|end_char=187
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=188|end_char=190

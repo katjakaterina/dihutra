@@ -1,7 +1,11 @@
+# text = Prekrasno!!!
+# sent_id = 0
 1	Prekrasno	prekrasno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=9
 2	!	!	INTJ	I	_	3	advmod	_	start_char=9|end_char=10
 3	!!	!!	PRON	Pp2-sn	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	start_char=10|end_char=12
 
+# text = Imao sam kasetu s ovom snimkom i znao sam da mi se sviđa.
+# sent_id = 1
 1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=13|end_char=17
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=18|end_char=21
 3	kasetu	kaset	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=22|end_char=28
@@ -17,6 +21,8 @@
 13	sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	start_char=64|end_char=69
 14	.	.	PUNCT	Z	_	1	punct	_	start_char=69|end_char=70
 
+# text = Kupio sam nekoliko ovih CD-ova kako bih ih mogao podijeliti s nećacima i prijateljima, a jedan zadržati za sebe.
+# sent_id = 2
 1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=71|end_char=76
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=77|end_char=80
 3	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	5	advmod	_	start_char=81|end_char=89
@@ -39,6 +45,8 @@
 20	sebe	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	18	obl	_	start_char=178|end_char=182
 21	.	.	PUNCT	Z	_	1	punct	_	start_char=182|end_char=183
 
+# text = Vrlo nježan i lak za spavanje.
+# sent_id = 3
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=184|end_char=188
 2	nježan	nježan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=189|end_char=195
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=196|end_char=197
@@ -47,6 +55,8 @@
 6	spavanje	spavanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=205|end_char=213
 7	.	.	PUNCT	Z	_	2	punct	_	start_char=213|end_char=214
 
+# text = Riječi su jasno pjevane, razumljive.
+# sent_id = 4
 1	Riječi	riječ	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=215|end_char=221
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=222|end_char=224
 3	jasno	jasno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=225|end_char=230
@@ -55,6 +65,8 @@
 6	razumljive	razumljiv	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	start_char=240|end_char=250
 7	.	.	PUNCT	Z	_	4	punct	_	start_char=250|end_char=251
 
+# text = Za mene je bio blagoslov što sam jedva čekao pronaći i prenijeti ga drugima.
+# sent_id = 5
 1	Za	za	ADP	Sa	Case=Acc	2	case	_	start_char=252|end_char=254
 2	mene	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nmod	_	start_char=255|end_char=259
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=260|end_char=262
@@ -71,6 +83,8 @@
 14	drugima	drugi	ADJ	Mlompd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	12	iobj	_	start_char=320|end_char=327
 15	.	.	PUNCT	Z	_	5	punct	_	start_char=327|end_char=328
 
+# text = Izvrsno za djecu-- Bio sam dijete kad mi je baka dala kasetu.
+# sent_id = 6
 1	Izvrsno	izvrsno	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=329|end_char=336
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=337|end_char=339
 3	djecu--	djecu	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=340|end_char=347

@@ -1,3 +1,5 @@
+# text = Svi znamo tekst, ali ova knjiga je mala verzija originala.
+# sent_id = 0
 1	Svi	sav	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	nsubj	_	start_char=0|end_char=3
 2	znamo	znati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=9
 3	tekst	tekst	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=10|end_char=15
@@ -11,6 +13,8 @@
 11	originala	original	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=48|end_char=57
 12	.	.	PUNCT	Z	_	2	punct	_	start_char=57|end_char=58
 
+# text = Naručio sam ga i kad sam ga otvorio, bio sam jako razočaran kad sam otkrio da to nije industrijski standard koji sam znao.
+# sent_id = 1
 1	Naručio	naručiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=59|end_char=66
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=67|end_char=70
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=71|end_char=73
@@ -37,6 +41,8 @@
 24	znao	znati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	acl	_	start_char=176|end_char=180
 25	.	.	PUNCT	Z	_	1	punct	_	start_char=180|end_char=181
 
+# text = Zatim sam se vratio da vidim jesam li propustio nešto o veličini u opisu, ali nisam mogao pronaći nikakvu referencu na to.
+# sent_id = 2
 1	Zatim	zatim	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=182|end_char=187
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=188|end_char=191
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=192|end_char=194
@@ -62,6 +68,8 @@
 23	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	start_char=301|end_char=303
 24	.	.	PUNCT	Z	_	4	punct	_	start_char=303|end_char=304
 
+# text = S pozitivne strane, Amazonova politika povrata je nevjerojatna.
+# sent_id = 3
 1	S	sa	ADP	Sg	Case=Gen	3	case	_	start_char=305|end_char=306
 2	pozitivne	pozitivan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=307|end_char=316
 3	strane	strana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	start_char=317|end_char=323
@@ -73,6 +81,8 @@
 9	nevjerojatna	nevjerojatan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=355|end_char=367
 10	.	.	PUNCT	Z	_	9	punct	_	start_char=367|end_char=368
 
+# text = Trenutni kredit kada smo obaviješteni o problemu i povratna otprema bili su vrlo jednostavni.
+# sent_id = 4
 1	Trenutni	trenutan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=369|end_char=377
 2	kredit	kredit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=378|end_char=384
 3	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	5	advmod	_	start_char=385|end_char=389

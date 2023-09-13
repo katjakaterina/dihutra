@@ -1,7 +1,11 @@
+# text = dobra verzija klasika
+# sent_id = 0
 1	dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=5
 2	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6|end_char=13
 3	klasika	klasika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=14|end_char=21
 
+# text = Ovo je šarmantna verzija klasične Dickenove priče.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=22|end_char=25
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=26|end_char=28
 3	šarmantna	šarmantan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=29|end_char=38
@@ -11,6 +15,8 @@
 7	priče	priča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=66|end_char=71
 8	.	.	PUNCT	Z	_	4	punct	_	start_char=71|end_char=72
 
+# text = Henry Winkler se dobro pokazao kao lik "Scroogea".
+# sent_id = 2
 1	Henry	Henry	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=73|end_char=78
 2	Winkler	Winkler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=79|end_char=86
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=87|end_char=89
@@ -23,6 +29,8 @@
 10	"	"	PUNCT	Z	_	9	punct	_	start_char=121|end_char=122
 11	.	.	PUNCT	Z	_	5	punct	_	start_char=122|end_char=123
 
+# text = Iako znate što će se dogoditi, ova verzija ima dovoljno promjena da bude bolja od prosjeka.
+# sent_id = 3
 1	Iako	iako	SCONJ	Cs	_	2	mark	_	start_char=124|end_char=128
 2	znate	znati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=129|end_char=134
 3	što	što	SCONJ	Cs	_	6	mark	_	start_char=135|end_char=138
@@ -42,6 +50,8 @@
 17	prosjeka	prosjek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	start_char=206|end_char=214
 18	.	.	PUNCT	Z	_	10	punct	_	start_char=214|end_char=215
 
+# text = Ako volite Božićnu pjesmu u bilo kojoj verziji, onda će vam se ovo svidjeti.
+# sent_id = 4
 1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=216|end_char=219
 2	volite	voljeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=220|end_char=226
 3	Božićnu	božićan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=227|end_char=234

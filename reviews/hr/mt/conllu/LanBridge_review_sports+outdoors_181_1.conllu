@@ -1,8 +1,12 @@
+# text = Vrlo jeftin proizvod.
+# sent_id = 0
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=4
 2	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=5|end_char=11
 3	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=12|end_char=20
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=20|end_char=21
 
+# text = Dok pišem ovu recenziju ovaj proizvod se raspada, većina izrade bila je zalijepljena ljepilom i zalijepljena dvostranom trakom koja se ne lijepi, a ovaj predmet još nije ni korišten.
+# sent_id = 1
 1	Dok	dok	SCONJ	Cs	_	2	mark	_	start_char=22|end_char=25
 2	pišem	pisati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=26|end_char=31
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=32|end_char=35
@@ -36,6 +40,8 @@
 31	korišten	korišten	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	start_char=195|end_char=203
 32	.	.	PUNCT	Z	_	14	punct	_	start_char=203|end_char=204
 
+# text = Nisam čak ni imao priliku koristiti ovaj proizvod za odbrojavanje popravaka.
+# sent_id = 2
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=205|end_char=210
 2	čak	čak	PART	Qo	_	4	advmod	_	start_char=211|end_char=214
 3	ni	ni	PART	Qo	_	4	discourse	_	start_char=215|end_char=217
@@ -49,6 +55,8 @@
 11	popravaka	popravak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=271|end_char=280
 12	.	.	PUNCT	Z	_	4	punct	_	start_char=280|end_char=281
 
+# text = Vrlo sam nezadovoljan ovom stavkom.
+# sent_id = 3
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=282|end_char=286
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=287|end_char=290
 3	nezadovoljan	nezadovoljan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=291|end_char=303

@@ -1,6 +1,10 @@
+# text = razočarana mama
+# sent_id = 0
 1	razočarana	razočaran	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=10
 2	mama	mama	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=15
 
+# text = Naručio sam ovo za svog sina i bio sam jako razočaran kada nije radio na našem potpuno novom procesoru.
+# sent_id = 1
 1	Naručio	naručiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=16|end_char=23
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=24|end_char=27
 3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=28|end_char=31
@@ -22,6 +26,8 @@
 19	procesoru	procesor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	start_char=109|end_char=118
 20	.	.	PUNCT	Z	_	1	punct	_	start_char=118|end_char=119
 
+# text = Čini se da nije bio kompatibilan sa softverom našeg sustava.
+# sent_id = 2
 1	Čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=120|end_char=124
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=125|end_char=127
 3	da	da	SCONJ	Cs	_	6	mark	_	start_char=128|end_char=130
@@ -34,6 +40,8 @@
 10	sustava	sustav	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=172|end_char=179
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=179|end_char=180
 
+# text = Moj sin ga je isprobao na CPU-u dva rođaka, a nije radio na njihovom.
+# sent_id = 3
 1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=181|end_char=184
 2	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=185|end_char=188
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=189|end_char=191
@@ -51,6 +59,8 @@
 15	njihovom	njihov	DET	Ps3msl	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	13	obl	_	start_char=241|end_char=249
 16	.	.	PUNCT	Z	_	5	punct	_	start_char=249|end_char=250
 
+# text = Dobro je da sam platio samo 4 USD.
+# sent_id = 4
 1	Dobro	dobar	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=251|end_char=256
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=257|end_char=259
 3	da	da	SCONJ	Cs	_	5	mark	_	start_char=260|end_char=262

@@ -1,0 +1,613 @@
+# text = Мэтью де Груда не следует наказывать из-за стигмы шизофрении В 2016 году Мэтью де Груда, убившего пять человек на домашней вечеринке в Калгари, признали не несущим уголовной ответственности за свои действия.
+# sent_id = 0
+1	Мэтью	Мэть	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=5
+2	де	де	PART	_	_	1	appos	_	start_char=6|end_char=8
+3	Груда	Груд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	start_char=9|end_char=14
+4	не	не	PART	_	_	5	advmod	_	start_char=15|end_char=17
+5	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=25
+6	наказывать	наказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	csubj	_	start_char=26|end_char=36
+7	из-за	из-за	ADP	_	_	8	case	_	start_char=37|end_char=42
+8	стигмы	стигма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=43|end_char=49
+9	шизофрении	шизофрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=50|end_char=60
+10	В	в	ADP	_	_	12	case	_	start_char=61|end_char=62
+11	2016	2016	ADJ	_	Degree=Pos	12	amod	_	start_char=63|end_char=67
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	start_char=68|end_char=72
+13	Мэтью	Мэть	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	start_char=73|end_char=78
+14	де	де	PART	_	_	13	appos	_	start_char=79|end_char=81
+15	Груда	Груд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	flat:name	_	start_char=82|end_char=87
+16	,	,	PUNCT	_	_	17	punct	_	start_char=87|end_char=88
+17	убившего	бить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	start_char=89|end_char=97
+18	пять	пять	NUM	_	Case=Acc|NumType=Card	19	nummod:gov	_	start_char=98|end_char=102
+19	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	start_char=103|end_char=110
+20	на	на	ADP	_	_	22	case	_	start_char=111|end_char=113
+21	домашней	домашний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=114|end_char=122
+22	вечеринке	вечеринка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	start_char=123|end_char=132
+23	в	в	ADP	_	_	24	case	_	start_char=133|end_char=134
+24	Калгари	Калгари	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	nmod	_	start_char=135|end_char=142
+25	,	,	PUNCT	_	_	17	punct	_	start_char=142|end_char=143
+26	признали	признать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	start_char=144|end_char=152
+27	не	не	PART	_	_	28	advmod	_	start_char=153|end_char=155
+28	несущим	нести	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	26	xcomp	_	start_char=156|end_char=163
+29	уголовной	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=164|end_char=173
+30	ответственности	ответственность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	start_char=174|end_char=189
+31	за	за	ADP	_	_	33	case	_	start_char=190|end_char=192
+32	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	33	det	_	start_char=193|end_char=197
+33	действия	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	30	nmod	_	start_char=198|end_char=206
+34	.	.	PUNCT	_	_	5	punct	_	start_char=206|end_char=207
+
+# text = Теперь, в 2019 году, состоится слушание, на котором будет решаться вопрос о том, следует ли предоставить ему больше свободы, например, гулять без присмотра.
+# sent_id = 1
+1	Теперь	теперь	ADV	_	Degree=Pos	7	advmod	_	start_char=208|end_char=214
+2	,	,	PUNCT	_	_	5	punct	_	start_char=214|end_char=215
+3	в	в	ADP	_	_	5	case	_	start_char=216|end_char=217
+4	2019	2019	ADJ	_	Degree=Pos	5	amod	_	start_char=218|end_char=222
+5	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	conj	_	start_char=223|end_char=227
+6	,	,	PUNCT	_	_	1	punct	_	start_char=227|end_char=228
+7	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=229|end_char=238
+8	слушание	слушание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=239|end_char=247
+9	,	,	PUNCT	_	_	13	punct	_	start_char=247|end_char=248
+10	на	на	ADP	_	_	11	case	_	start_char=249|end_char=251
+11	котором	который	PRON	_	Case=Loc|PronType=Int,Rel	13	obl	_	start_char=252|end_char=259
+12	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux:pass	_	start_char=260|end_char=265
+13	решаться	решать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Pass	8	acl:relcl	_	start_char=266|end_char=274
+14	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	start_char=275|end_char=281
+15	о	о	ADP	_	_	16	case	_	start_char=282|end_char=283
+16	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	14	nmod	_	start_char=284|end_char=287
+17	,	,	PUNCT	_	_	18	punct	_	start_char=287|end_char=288
+18	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl	_	start_char=289|end_char=296
+19	ли	ли	PART	_	_	18	advmod	_	start_char=297|end_char=299
+20	предоставить	предоставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	csubj	_	start_char=300|end_char=312
+21	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	iobj	_	start_char=313|end_char=316
+22	больше	больше	ADV	_	Degree=Cmp	23	advmod	_	start_char=317|end_char=323
+23	свободы	свобода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	start_char=324|end_char=331
+24	,	,	PUNCT	_	_	27	punct	_	start_char=331|end_char=332
+25	например	например	ADV	_	Degree=Pos	27	parataxis	_	start_char=333|end_char=341
+26	,	,	PUNCT	_	_	25	punct	_	start_char=341|end_char=342
+27	гулять	гулять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	conj	_	start_char=343|end_char=349
+28	без	без	ADP	_	_	29	case	_	start_char=350|end_char=353
+29	присмотра	присмотр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	obl	_	start_char=354|end_char=363
+30	.	.	PUNCT	_	_	7	punct	_	start_char=363|end_char=364
+
+# text = Решение будет принято только через несколько недель, а пока нам остается гадать, хорошая это идея или нет.
+# sent_id = 2
+1	Решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	start_char=365|end_char=372
+2	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=373|end_char=378
+3	принято	принять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=379|end_char=386
+4	только	только	PART	_	_	7	advmod	_	start_char=387|end_char=393
+5	через	через	ADP	_	_	7	case	_	start_char=394|end_char=399
+6	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	7	nummod	_	start_char=400|end_char=409
+7	недель	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	start_char=410|end_char=416
+8	,	,	PUNCT	_	_	17	punct	_	start_char=416|end_char=417
+9	а	а	CCONJ	_	_	17	cc	_	start_char=418|end_char=419
+10	пока	пока	SCONJ	_	_	12	mark	_	start_char=420|end_char=424
+11	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	iobj	_	start_char=425|end_char=428
+12	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	advcl	_	start_char=429|end_char=437
+13	гадать	гадать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	csubj	_	start_char=438|end_char=444
+14	,	,	PUNCT	_	_	12	punct	_	start_char=444|end_char=445
+15	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=446|end_char=453
+16	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	start_char=454|end_char=457
+17	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=458|end_char=462
+18	или	или	CCONJ	_	_	19	cc	_	start_char=463|end_char=466
+19	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=467|end_char=470
+20	.	.	PUNCT	_	_	3	punct	_	start_char=470|end_char=471
+
+# text = Здесь есть две стороны: одна ссылается на его агрессивное поведение в прошлом и призывает не допустить его повторения, а другая верит в силу перемен и реабилитации.
+# sent_id = 3
+1	Здесь	здесь	ADV	_	Degree=Pos	2	advmod	_	start_char=472|end_char=477
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=478|end_char=482
+3	две	два	NUM	_	Case=Nom|Gender=Fem|NumType=Card	4	nummod:gov	_	start_char=483|end_char=486
+4	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	start_char=487|end_char=494
+5	:	:	PUNCT	_	_	7	punct	_	start_char=494|end_char=495
+6	одна	один	NUM	_	Case=Nom|Gender=Fem|NumType=Card	7	nsubj	_	start_char=496|end_char=500
+7	ссылается	ссылаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	start_char=501|end_char=510
+8	на	на	ADP	_	_	11	case	_	start_char=511|end_char=513
+9	его	его	DET	_	Poss=Yes|PronType=Prs	11	det	_	start_char=514|end_char=517
+10	агрессивное	агрессивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=518|end_char=529
+11	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=530|end_char=539
+12	в	в	ADP	_	_	13	case	_	start_char=540|end_char=541
+13	прошлом	прошлое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	start_char=542|end_char=549
+14	и	и	CCONJ	_	_	15	cc	_	start_char=550|end_char=551
+15	призывает	призывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=552|end_char=561
+16	не	не	PART	_	_	17	advmod	_	start_char=562|end_char=564
+17	допустить	допустить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=565|end_char=574
+18	его	его	DET	_	Poss=Yes|PronType=Prs	19	det	_	start_char=575|end_char=578
+19	повторения	повторение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	start_char=579|end_char=589
+20	,	,	PUNCT	_	_	23	punct	_	start_char=589|end_char=590
+21	а	а	CCONJ	_	_	23	cc	_	start_char=591|end_char=592
+22	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	nsubj	_	start_char=593|end_char=599
+23	верит	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=600|end_char=605
+24	в	в	ADP	_	_	25	case	_	start_char=606|end_char=607
+25	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	start_char=608|end_char=612
+26	перемен	перемена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	start_char=613|end_char=620
+27	и	и	CCONJ	_	_	28	cc	_	start_char=621|end_char=622
+28	реабилитации	реабилитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	conj	_	start_char=623|end_char=635
+29	.	.	PUNCT	_	_	2	punct	_	start_char=635|end_char=636
+
+# text = Сначала рассмотрим более пессимистичную сторону.
+# sent_id = 4
+1	Сначала	сначала	ADV	_	Degree=Pos	2	advmod	_	start_char=637|end_char=644
+2	рассмотрим	рассмотреть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=645|end_char=655
+3	более	более	ADV	_	Degree=Cmp	4	obl	_	start_char=656|end_char=661
+4	пессимистичную	пессимистичный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=662|end_char=676
+5	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=677|end_char=684
+6	.	.	PUNCT	_	_	2	punct	_	start_char=684|end_char=685
+
+# text = Де Гроод действительно зарезал и убил пять человек во время психотического срыва.
+# sent_id = 5
+1	Де	де	PART	_	_	4	nsubj	_	start_char=686|end_char=688
+2	Гроод	Гроод	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=689|end_char=694
+3	действительно	действительно	ADV	_	Degree=Pos	4	advmod	_	start_char=695|end_char=708
+4	зарезал	зарезать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=709|end_char=716
+5	и	и	CCONJ	_	_	6	cc	_	start_char=717|end_char=718
+6	убил	убить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=719|end_char=723
+7	пять	пять	NUM	_	Case=Acc|NumType=Card	8	nummod:gov	_	start_char=724|end_char=728
+8	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=729|end_char=736
+9	во	в	ADP	_	_	12	case	_	start_char=737|end_char=739
+10	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	fixed	_	start_char=740|end_char=745
+11	психотического	психотический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=746|end_char=760
+12	срыва	срыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=761|end_char=766
+13	.	.	PUNCT	_	_	4	punct	_	start_char=766|end_char=767
+
+# text = Это было жестокое и непредсказуемое нападение.
+# sent_id = 6
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=768|end_char=771
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=772|end_char=776
+3	жестокое	жестокий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=777|end_char=785
+4	и	и	CCONJ	_	_	5	cc	_	start_char=786|end_char=787
+5	непредсказуемое	непредсказуемый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	start_char=788|end_char=803
+6	нападение	нападение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=804|end_char=813
+7	.	.	PUNCT	_	_	6	punct	_	start_char=813|end_char=814
+
+# text = Он страдает шизофренией, поэтому был признан невиновным в совершении преступления, но с тех пор посещает психиатра и принимает лекарства.
+# sent_id = 7
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=815|end_char=817
+2	страдает	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=818|end_char=826
+3	шизофренией	шизофрение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=827|end_char=838
+4	,	,	PUNCT	_	_	7	punct	_	start_char=838|end_char=839
+5	поэтому	поэтому	ADV	_	Degree=Pos	7	advmod	_	start_char=840|end_char=847
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	start_char=848|end_char=851
+7	признан	признать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	start_char=852|end_char=859
+8	невиновным	невиновный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	start_char=860|end_char=870
+9	в	в	ADP	_	_	10	case	_	start_char=871|end_char=872
+10	совершении	совершение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	start_char=873|end_char=883
+11	преступления	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=884|end_char=896
+12	,	,	PUNCT	_	_	17	punct	_	start_char=896|end_char=897
+13	но	но	CCONJ	_	_	17	cc	_	start_char=898|end_char=900
+14	с	с	ADP	_	_	17	advmod	_	start_char=901|end_char=902
+15	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	14	fixed	_	start_char=903|end_char=906
+16	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	fixed	_	start_char=907|end_char=910
+17	посещает	посещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=911|end_char=919
+18	психиатра	психиатр	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=920|end_char=929
+19	и	и	CCONJ	_	_	20	cc	_	start_char=930|end_char=931
+20	принимает	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=932|end_char=941
+21	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	start_char=942|end_char=951
+22	.	.	PUNCT	_	_	2	punct	_	start_char=951|end_char=952
+
+# text = Его психиатр, доктор Сантох Рай, заявил перед комиссией, что "если Мэтью де Гроод совершит еще одно преступление, то оно будет тяжелым".
+# sent_id = 8
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nmod	_	start_char=953|end_char=956
+2	психиатр	психиатр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=957|end_char=965
+3	,	,	PUNCT	_	_	4	punct	_	start_char=965|end_char=966
+4	доктор	доктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=967|end_char=973
+5	Сантох	Сант	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=974|end_char=980
+6	Рай	Рай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	start_char=981|end_char=984
+7	,	,	PUNCT	_	_	2	punct	_	start_char=984|end_char=985
+8	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=986|end_char=992
+9	перед	перед	ADP	_	_	10	case	_	start_char=993|end_char=998
+10	комиссией	комиссия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	start_char=999|end_char=1008
+11	,	,	PUNCT	_	_	26	punct	_	start_char=1008|end_char=1009
+12	что	что	SCONJ	_	_	26	mark	_	start_char=1010|end_char=1013
+13	"	"	PUNCT	_	_	26	punct	_	start_char=1014|end_char=1015
+14	если	если	SCONJ	_	_	18	mark	_	start_char=1015|end_char=1019
+15	Мэтью	Мэть	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=1020|end_char=1025
+16	де	де	PART	_	_	15	flat:name	_	start_char=1026|end_char=1028
+17	Гроод	Гроод	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	start_char=1029|end_char=1034
+18	совершит	совершить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	26	advcl	_	start_char=1035|end_char=1043
+19	еще	еще	ADV	_	Degree=Pos	20	advmod	_	start_char=1044|end_char=1047
+20	одно	один	NUM	_	Case=Acc|Gender=Neut|NumType=Card	21	nummod	_	start_char=1048|end_char=1052
+21	преступление	преступление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	start_char=1053|end_char=1065
+22	,	,	PUNCT	_	_	18	punct	_	start_char=1065|end_char=1066
+23	то	то	SCONJ	_	_	26	mark	_	start_char=1067|end_char=1069
+24	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	start_char=1070|end_char=1073
+25	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	_	start_char=1074|end_char=1079
+26	тяжелым	тяжелый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	ccomp	_	start_char=1080|end_char=1087
+27	"	"	PUNCT	_	_	26	punct	_	start_char=1087|end_char=1088
+28	.	.	PUNCT	_	_	8	punct	_	start_char=1088|end_char=1089
+
+# text = Несмотря на видимое улучшение состояния, риск повторного совершения преступления сохраняется.
+# sent_id = 9
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	4	case	_	start_char=1090|end_char=1098
+2	на	на	ADP	_	_	1	fixed	_	start_char=1099|end_char=1101
+3	видимое	видимый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=1102|end_char=1109
+4	улучшение	улучшение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	start_char=1110|end_char=1119
+5	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=1120|end_char=1129
+6	,	,	PUNCT	_	_	4	punct	_	start_char=1129|end_char=1130
+7	риск	риск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=1131|end_char=1135
+8	повторного	повторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=1136|end_char=1146
+9	совершения	совершение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=1147|end_char=1157
+10	преступления	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=1158|end_char=1170
+11	сохраняется	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1171|end_char=1182
+12	.	.	PUNCT	_	_	11	punct	_	start_char=1182|end_char=1183
+
+# text = Но достаточно ли этого для того, чтобы продолжать бояться?
+# sent_id = 10
+1	Но	но	CCONJ	_	_	2	cc	_	start_char=1184|end_char=1186
+2	достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=1187|end_char=1197
+3	ли	ли	PART	_	_	2	advmod	_	start_char=1198|end_char=1200
+4	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=1201|end_char=1206
+5	для	для	ADP	_	_	6	case	_	start_char=1207|end_char=1210
+6	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	start_char=1211|end_char=1215
+7	,	,	PUNCT	_	_	9	punct	_	start_char=1215|end_char=1216
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	start_char=1217|end_char=1222
+9	продолжать	продолжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=1223|end_char=1233
+10	бояться	бояться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	start_char=1234|end_char=1241
+11	?	?	PUNCT	_	_	2	punct	_	start_char=1241|end_char=1242
+
+# text = Достаточно ли этого, чтобы держать де Груда в тюрьме?
+# sent_id = 11
+1	Достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=1243|end_char=1253
+2	ли	ли	PART	_	_	1	advmod	_	start_char=1254|end_char=1256
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	start_char=1257|end_char=1262
+4	,	,	PUNCT	_	_	6	punct	_	start_char=1262|end_char=1263
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=1264|end_char=1269
+6	держать	держать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=1270|end_char=1277
+7	де	де	PART	_	_	6	obj	_	start_char=1278|end_char=1280
+8	Груда	Груд	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	flat:name	_	start_char=1281|end_char=1286
+9	в	в	ADP	_	_	10	case	_	start_char=1287|end_char=1288
+10	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=1289|end_char=1295
+11	?	?	PUNCT	_	_	1	punct	_	start_char=1295|end_char=1296
+
+# text = До тех пор пока де Гроод продолжает принимать лекарства, риск повторного совершения преступления не велик, так почему же люди так обеспокоены?
+# sent_id = 12
+1	До	до	ADP	_	_	7	mark	_	start_char=1297|end_char=1299
+2	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	1	fixed	_	start_char=1300|end_char=1303
+3	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	fixed	_	start_char=1304|end_char=1307
+4	пока	пока	SCONJ	_	_	1	fixed	_	start_char=1308|end_char=1312
+5	де	де	PART	_	_	7	nsubj	_	start_char=1313|end_char=1315
+6	Гроод	Гроод	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	start_char=1316|end_char=1321
+7	продолжает	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	start_char=1322|end_char=1332
+8	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=1333|end_char=1342
+9	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=1343|end_char=1352
+10	,	,	PUNCT	_	_	7	punct	_	start_char=1352|end_char=1353
+11	риск	риск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=1354|end_char=1358
+12	повторного	повторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=1359|end_char=1369
+13	совершения	совершение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	start_char=1370|end_char=1380
+14	преступления	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=1381|end_char=1393
+15	не	не	PART	_	_	16	advmod	_	start_char=1394|end_char=1396
+16	велик	большой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=1397|end_char=1402
+17	,	,	PUNCT	_	_	23	punct	_	start_char=1402|end_char=1403
+18	так	так	ADV	_	Degree=Pos	23	advmod	_	start_char=1404|end_char=1407
+19	почему	почему	ADV	_	Degree=Pos	23	advmod	_	start_char=1408|end_char=1414
+20	же	же	PART	_	_	19	advmod	_	start_char=1415|end_char=1417
+21	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj:pass	_	start_char=1418|end_char=1422
+22	так	так	ADV	_	Degree=Pos	23	advmod	_	start_char=1423|end_char=1426
+23	обеспокоены	обеспокоить	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	16	conj	_	start_char=1427|end_char=1438
+24	?	?	PUNCT	_	_	16	punct	_	start_char=1438|end_char=1439
+
+# text = Я считаю, что в значительной степени на этот страх влияет стигматизация людей с психическими заболеваниями, особенно с шизофренией.
+# sent_id = 13
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1440|end_char=1441
+2	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1442|end_char=1448
+3	,	,	PUNCT	_	_	11	punct	_	start_char=1448|end_char=1449
+4	что	что	SCONJ	_	_	11	mark	_	start_char=1450|end_char=1453
+5	в	в	ADP	_	_	7	case	_	start_char=1454|end_char=1455
+6	значительной	значительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1456|end_char=1468
+7	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=1469|end_char=1476
+8	на	на	ADP	_	_	10	case	_	start_char=1477|end_char=1479
+9	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=1480|end_char=1484
+10	страх	страх	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=1485|end_char=1490
+11	влияет	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=1491|end_char=1497
+12	стигматизация	стигматизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=1498|end_char=1511
+13	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=1512|end_char=1517
+14	с	с	ADP	_	_	16	case	_	start_char=1518|end_char=1519
+15	психическими	психический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	start_char=1520|end_char=1532
+16	заболеваниями	заболевание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	13	nmod	_	start_char=1533|end_char=1546
+17	,	,	PUNCT	_	_	20	punct	_	start_char=1546|end_char=1547
+18	особенно	особенно	ADV	_	Degree=Pos	20	obl	_	start_char=1548|end_char=1556
+19	с	с	ADP	_	_	20	case	_	start_char=1557|end_char=1558
+20	шизофренией	шизофрение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	parataxis	_	start_char=1559|end_char=1570
+21	.	.	PUNCT	_	_	2	punct	_	start_char=1570|end_char=1571
+
+# text = Некоторые психические заболевания стали менее стигматизированными, например, аффективные и тревожные расстройства.
+# sent_id = 14
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	3	det	_	start_char=1572|end_char=1581
+2	психические	психический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=1582|end_char=1593
+3	заболевания	заболевание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=1594|end_char=1605
+4	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1606|end_char=1611
+5	менее	менее	ADV	_	Degree=Cmp	6	obl	_	start_char=1612|end_char=1617
+6	стигматизированными	стигматизированный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	obl	_	start_char=1618|end_char=1637
+7	,	,	PUNCT	_	_	13	punct	_	start_char=1637|end_char=1638
+8	например	например	ADV	_	Degree=Pos	13	parataxis	_	start_char=1639|end_char=1647
+9	,	,	PUNCT	_	_	8	punct	_	start_char=1647|end_char=1648
+10	аффективные	аффективный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	start_char=1649|end_char=1660
+11	и	и	CCONJ	_	_	12	cc	_	start_char=1661|end_char=1662
+12	тревожные	тревожный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	conj	_	start_char=1663|end_char=1672
+13	расстройства	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	parataxis	_	start_char=1673|end_char=1685
+14	.	.	PUNCT	_	_	4	punct	_	start_char=1685|end_char=1686
+
+# text = Однако другие, в том числе шизофрения, по-прежнему подвергаются сильной стигматизации.
+# sent_id = 15
+1	Однако	однако	ADV	_	Degree=Pos	10	advmod	_	start_char=1687|end_char=1693
+2	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	nsubj	_	start_char=1694|end_char=1700
+3	,	,	PUNCT	_	_	7	punct	_	start_char=1700|end_char=1701
+4	в	в	ADP	_	_	6	case	_	start_char=1702|end_char=1703
+5	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	start_char=1704|end_char=1707
+6	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	start_char=1708|end_char=1713
+7	шизофрения	шизофрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=1714|end_char=1724
+8	,	,	PUNCT	_	_	2	punct	_	start_char=1724|end_char=1725
+9	по-прежнему	по-прежнему	ADV	_	Degree=Pos	10	advmod	_	start_char=1726|end_char=1737
+10	подвергаются	подвергаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1738|end_char=1750
+11	сильной	сильный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1751|end_char=1758
+12	стигматизации	стигматизация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	iobj	_	start_char=1759|end_char=1772
+13	.	.	PUNCT	_	_	10	punct	_	start_char=1772|end_char=1773
+
+# text = Во многом это связано с тем, что шизофреников часто изображают как опасных людей, у которых в голове звучат голоса, заставляющие их убивать людей.
+# sent_id = 16
+1	Во	в	ADP	_	_	2	case	_	start_char=1774|end_char=1776
+2	многом	многое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=1777|end_char=1783
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj:pass	_	start_char=1784|end_char=1787
+4	связано	связать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=1788|end_char=1795
+5	с	с	ADP	_	_	6	case	_	start_char=1796|end_char=1797
+6	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	start_char=1798|end_char=1801
+7	,	,	PUNCT	_	_	11	punct	_	start_char=1801|end_char=1802
+8	что	что	SCONJ	_	_	11	mark	_	start_char=1803|end_char=1806
+9	шизофреников	шизофреник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=1807|end_char=1819
+10	часто	часто	ADV	_	Degree=Pos	11	advmod	_	start_char=1820|end_char=1825
+11	изображают	изображать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	start_char=1826|end_char=1836
+12	как	как	SCONJ	_	_	14	mark	_	start_char=1837|end_char=1840
+13	опасных	опасный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	start_char=1841|end_char=1848
+14	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	advcl	_	start_char=1849|end_char=1854
+15	,	,	PUNCT	_	_	20	punct	_	start_char=1854|end_char=1855
+16	у	у	ADP	_	_	17	case	_	start_char=1856|end_char=1857
+17	которых	который	PRON	_	Case=Gen|PronType=Int,Rel	20	obl	_	start_char=1858|end_char=1865
+18	в	в	ADP	_	_	19	case	_	start_char=1866|end_char=1867
+19	голове	голова	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	start_char=1868|end_char=1874
+20	звучат	звучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	start_char=1875|end_char=1881
+21	голоса	голос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	start_char=1882|end_char=1888
+22	,	,	PUNCT	_	_	23	punct	_	start_char=1888|end_char=1889
+23	заставляющие	заставлять	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	acl	_	start_char=1890|end_char=1902
+24	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	obj	_	start_char=1903|end_char=1905
+25	убивать	убивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	start_char=1906|end_char=1913
+26	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	start_char=1914|end_char=1919
+27	.	.	PUNCT	_	_	4	punct	_	start_char=1919|end_char=1920
+
+# text = Так было и в данной ситуации, но такие случаи редки, и, возможно, именно поэтому мы так хорошо помним их, когда они происходят.
+# sent_id = 17
+1	Так	так	ADV	_	Degree=Pos	2	advmod	_	start_char=1921|end_char=1924
+2	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1925|end_char=1929
+3	и	и	PART	_	_	6	advmod	_	start_char=1930|end_char=1931
+4	в	в	ADP	_	_	6	case	_	start_char=1932|end_char=1933
+5	данной	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1934|end_char=1940
+6	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=1941|end_char=1949
+7	,	,	PUNCT	_	_	11	punct	_	start_char=1949|end_char=1950
+8	но	но	CCONJ	_	_	11	cc	_	start_char=1951|end_char=1953
+9	такие	такой	DET	_	Case=Nom|Number=Plur|PronType=Dem	10	det	_	start_char=1954|end_char=1959
+10	случаи	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=1960|end_char=1966
+11	редки	редкий	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	conj	_	start_char=1967|end_char=1972
+12	,	,	PUNCT	_	_	22	punct	_	start_char=1972|end_char=1973
+13	и	и	CCONJ	_	_	22	cc	_	start_char=1974|end_char=1975
+14	,	,	PUNCT	_	_	13	punct	_	start_char=1975|end_char=1976
+15	возможно	возможно	ADV	_	Degree=Pos	22	parataxis	_	start_char=1977|end_char=1985
+16	,	,	PUNCT	_	_	15	punct	_	start_char=1985|end_char=1986
+17	именно	именно	PART	_	_	18	advmod	_	start_char=1987|end_char=1993
+18	поэтому	поэтому	ADV	_	Degree=Pos	22	advmod	_	start_char=1994|end_char=2001
+19	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	start_char=2002|end_char=2004
+20	так	так	ADV	_	Degree=Pos	21	advmod	_	start_char=2005|end_char=2008
+21	хорошо	хорошо	ADV	_	Degree=Pos	22	advmod	_	start_char=2009|end_char=2015
+22	помним	помнить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=2016|end_char=2022
+23	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	obj	_	start_char=2023|end_char=2025
+24	,	,	PUNCT	_	_	27	punct	_	start_char=2025|end_char=2026
+25	когда	когда	SCONJ	_	_	27	mark	_	start_char=2027|end_char=2032
+26	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	start_char=2033|end_char=2036
+27	происходят	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	advcl	_	start_char=2037|end_char=2047
+28	.	.	PUNCT	_	_	2	punct	_	start_char=2047|end_char=2048
+
+# text = На самом деле большинство шизофреников не склонны к насилию и чаще всего становятся жертвами, а не виновниками преступлений или насилия.
+# sent_id = 18
+1	На	на	ADP	_	_	3	case	_	start_char=2049|end_char=2051
+2	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=2052|end_char=2057
+3	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	start_char=2058|end_char=2062
+4	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=2063|end_char=2074
+5	шизофреников	шизофреник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=2075|end_char=2087
+6	не	не	PART	_	_	7	advmod	_	start_char=2088|end_char=2090
+7	склонны	склонный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=2091|end_char=2098
+8	к	к	ADP	_	_	9	case	_	start_char=2099|end_char=2100
+9	насилию	насилие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	start_char=2101|end_char=2108
+10	и	и	CCONJ	_	_	13	cc	_	start_char=2109|end_char=2110
+11	чаще	часто	ADV	_	Degree=Cmp	13	advmod	_	start_char=2111|end_char=2115
+12	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	11	obl	_	start_char=2116|end_char=2121
+13	становятся	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	start_char=2122|end_char=2132
+14	жертвами	жертва	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	start_char=2133|end_char=2141
+15	,	,	PUNCT	_	_	18	punct	_	start_char=2141|end_char=2142
+16	а	а	CCONJ	_	_	18	cc	_	start_char=2143|end_char=2144
+17	не	не	PART	_	_	18	advmod	_	start_char=2145|end_char=2147
+18	виновниками	виновник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	14	conj	_	start_char=2148|end_char=2159
+19	преступлений	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	start_char=2160|end_char=2172
+20	или	или	CCONJ	_	_	21	cc	_	start_char=2173|end_char=2176
+21	насилия	насилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	conj	_	start_char=2177|end_char=2184
+22	.	.	PUNCT	_	_	7	punct	_	start_char=2184|end_char=2185
+
+# text = В свете этого представляется неразумным настаивать на лишении де Груда определенных свобод, когда страх повторного преступления основан скорее на предвзятом отношении к людям с шизофренией, чем на реальной вероятности.
+# sent_id = 19
+1	В	в	ADP	_	_	2	case	_	start_char=2186|end_char=2187
+2	свете	свет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=2188|end_char=2193
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	start_char=2194|end_char=2199
+4	представляется	представляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=2200|end_char=2214
+5	неразумным	неразумный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	start_char=2215|end_char=2225
+6	настаивать	настаивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=2226|end_char=2236
+7	на	на	ADP	_	_	8	case	_	start_char=2237|end_char=2239
+8	лишении	лишение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=2240|end_char=2247
+9	де	де	PART	_	_	8	nmod	_	start_char=2248|end_char=2250
+10	Груда	Груд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	start_char=2251|end_char=2256
+11	определенных	определенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=2257|end_char=2269
+12	свобод	свобода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=2270|end_char=2276
+13	,	,	PUNCT	_	_	18	punct	_	start_char=2276|end_char=2277
+14	когда	когда	SCONJ	_	_	18	mark	_	start_char=2278|end_char=2283
+15	страх	страх	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj:pass	_	start_char=2284|end_char=2289
+16	повторного	повторный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=2290|end_char=2300
+17	преступления	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=2301|end_char=2313
+18	основан	основать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	advcl	_	start_char=2314|end_char=2321
+19	скорее	скорее	ADV	_	Degree=Pos	22	obl	_	start_char=2322|end_char=2328
+20	на	на	ADP	_	_	22	case	_	start_char=2329|end_char=2331
+21	предвзятом	предвзятый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	start_char=2332|end_char=2342
+22	отношении	отношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	start_char=2343|end_char=2352
+23	к	к	ADP	_	_	24	case	_	start_char=2353|end_char=2354
+24	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	22	nmod	_	start_char=2355|end_char=2360
+25	с	с	ADP	_	_	26	case	_	start_char=2361|end_char=2362
+26	шизофренией	шизофрение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	nmod	_	start_char=2363|end_char=2374
+27	,	,	PUNCT	_	_	31	punct	_	start_char=2374|end_char=2375
+28	чем	чем	SCONJ	_	_	31	mark	_	start_char=2376|end_char=2379
+29	на	на	ADP	_	_	31	case	_	start_char=2380|end_char=2382
+30	реальной	реальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=2383|end_char=2391
+31	вероятности	вероятность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	advcl	_	start_char=2392|end_char=2403
+32	.	.	PUNCT	_	_	4	punct	_	start_char=2403|end_char=2404
+
+# text = Я не считаю, что де Груду следует постоянно находиться без надзора.
+# sent_id = 20
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2405|end_char=2406
+2	не	не	PART	_	_	3	advmod	_	start_char=2407|end_char=2409
+3	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2410|end_char=2416
+4	,	,	PUNCT	_	_	8	punct	_	start_char=2416|end_char=2417
+5	что	что	SCONJ	_	_	8	mark	_	start_char=2418|end_char=2421
+6	де	де	PART	_	_	8	iobj	_	start_char=2422|end_char=2424
+7	Груду	Груд	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	flat:name	_	start_char=2425|end_char=2430
+8	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=2431|end_char=2438
+9	постоянно	постоянно	ADV	_	Degree=Pos	10	advmod	_	start_char=2439|end_char=2448
+10	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	csubj	_	start_char=2449|end_char=2459
+11	без	без	ADP	_	_	12	case	_	start_char=2460|end_char=2463
+12	надзора	надзор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	start_char=2464|end_char=2471
+13	.	.	PUNCT	_	_	3	punct	_	start_char=2471|end_char=2472
+
+# text = Система, похожая на условно-досрочное освобождение, когда он должен отмечаться, чтобы убедиться, что продолжает принимать лекарства, могла бы хорошо работать.
+# sent_id = 21
+1	Система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	start_char=2473|end_char=2480
+2	,	,	PUNCT	_	_	3	punct	_	start_char=2480|end_char=2481
+3	похожая	похожий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	start_char=2482|end_char=2489
+4	на	на	ADP	_	_	8	case	_	start_char=2490|end_char=2492
+5	условно	условный	ADJ	_	Degree=Pos	7	compound	_	start_char=2493|end_char=2500
+6	-	-	PUNCT	_	_	5	punct	_	start_char=2500|end_char=2501
+7	досрочное	досрочный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=2501|end_char=2510
+8	освобождение	освобождение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=2511|end_char=2523
+9	,	,	PUNCT	_	_	12	punct	_	start_char=2523|end_char=2524
+10	когда	когда	SCONJ	_	_	12	mark	_	start_char=2525|end_char=2530
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=2531|end_char=2533
+12	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	acl:relcl	_	start_char=2534|end_char=2540
+13	отмечаться	отмечаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	12	xcomp	_	start_char=2541|end_char=2551
+14	,	,	PUNCT	_	_	16	punct	_	start_char=2551|end_char=2552
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	start_char=2553|end_char=2558
+16	убедиться	убедиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	advcl	_	start_char=2559|end_char=2568
+17	,	,	PUNCT	_	_	19	punct	_	start_char=2568|end_char=2569
+18	что	что	SCONJ	_	_	19	mark	_	start_char=2570|end_char=2573
+19	продолжает	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	start_char=2574|end_char=2584
+20	принимать	принимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=2585|end_char=2594
+21	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	20	obj	_	start_char=2595|end_char=2604
+22	,	,	PUNCT	_	_	1	punct	_	start_char=2604|end_char=2605
+23	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2606|end_char=2611
+24	бы	бы	AUX	_	_	23	aux	_	start_char=2612|end_char=2614
+25	хорошо	хорошо	ADV	_	Degree=Pos	26	advmod	_	start_char=2615|end_char=2621
+26	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	start_char=2622|end_char=2630
+27	.	.	PUNCT	_	_	23	punct	_	start_char=2630|end_char=2631
+
+# text = Утверждение, что он или другие психически больные люди должны оставаться в стационаре, если в этом нет крайней необходимости, является формой сегрегации.
+# sent_id = 22
+1	Утверждение	утверждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	start_char=2632|end_char=2643
+2	,	,	PUNCT	_	_	10	punct	_	start_char=2643|end_char=2644
+3	что	что	SCONJ	_	_	10	mark	_	start_char=2645|end_char=2648
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=2649|end_char=2651
+5	или	или	CCONJ	_	_	9	cc	_	start_char=2652|end_char=2655
+6	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=2656|end_char=2662
+7	психически	психически	ADV	_	Degree=Pos	8	obl	_	start_char=2663|end_char=2673
+8	больные	больной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	start_char=2674|end_char=2681
+9	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	start_char=2682|end_char=2686
+10	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	1	acl	_	start_char=2687|end_char=2693
+11	оставаться	оставаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	10	xcomp	_	start_char=2694|end_char=2704
+12	в	в	ADP	_	_	13	case	_	start_char=2705|end_char=2706
+13	стационаре	стационар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=2707|end_char=2717
+14	,	,	PUNCT	_	_	18	punct	_	start_char=2717|end_char=2718
+15	если	если	SCONJ	_	_	18	mark	_	start_char=2719|end_char=2723
+16	в	в	ADP	_	_	17	case	_	start_char=2724|end_char=2725
+17	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	18	obl	_	start_char=2726|end_char=2730
+18	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=2731|end_char=2734
+19	крайней	крайний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=2735|end_char=2742
+20	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nsubj	_	start_char=2743|end_char=2756
+21	,	,	PUNCT	_	_	1	punct	_	start_char=2756|end_char=2757
+22	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=2758|end_char=2766
+23	формой	форма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	obl	_	start_char=2767|end_char=2773
+24	сегрегации	сегрегация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	start_char=2774|end_char=2784
+25	.	.	PUNCT	_	_	22	punct	_	start_char=2784|end_char=2785
+
+# text = Это закрепляет идею о том, что психически больные люди, в частности больные шизофренией, никогда не смогут вписаться в общество; таким образом, сохраняется стигматизация и закрепляется идея о том, что они являются опасными преступниками.
+# sent_id = 23
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=2786|end_char=2789
+2	закрепляет	закреплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2790|end_char=2800
+3	идею	идея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=2801|end_char=2805
+4	о	о	ADP	_	_	5	case	_	start_char=2806|end_char=2807
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	start_char=2808|end_char=2811
+6	,	,	PUNCT	_	_	19	punct	_	start_char=2811|end_char=2812
+7	что	что	SCONJ	_	_	19	mark	_	start_char=2813|end_char=2816
+8	психически	психически	ADV	_	Degree=Pos	9	obl	_	start_char=2817|end_char=2827
+9	больные	больной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=2828|end_char=2835
+10	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	start_char=2836|end_char=2840
+11	,	,	PUNCT	_	_	14	punct	_	start_char=2840|end_char=2841
+12	в	в	ADP	_	_	14	discourse	_	start_char=2842|end_char=2843
+13	частности	частность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	fixed	_	start_char=2844|end_char=2853
+14	больные	больной	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	appos	_	start_char=2854|end_char=2861
+15	шизофренией	шизофрение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	start_char=2862|end_char=2873
+16	,	,	PUNCT	_	_	10	punct	_	start_char=2873|end_char=2874
+17	никогда	никогда	ADV	_	Degree=Pos	19	advmod	_	start_char=2875|end_char=2882
+18	не	не	PART	_	_	19	advmod	_	start_char=2883|end_char=2885
+19	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	acl	_	start_char=2886|end_char=2892
+20	вписаться	вписаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	19	xcomp	_	start_char=2893|end_char=2902
+21	в	в	ADP	_	_	22	case	_	start_char=2903|end_char=2904
+22	общество	общество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obl	_	start_char=2905|end_char=2913
+23	;	;	PUNCT	_	_	27	punct	_	start_char=2913|end_char=2914
+24	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	start_char=2915|end_char=2920
+25	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	parataxis	_	start_char=2921|end_char=2928
+26	,	,	PUNCT	_	_	25	punct	_	start_char=2928|end_char=2929
+27	сохраняется	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	conj	_	start_char=2930|end_char=2941
+28	стигматизация	стигматизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	start_char=2942|end_char=2955
+29	и	и	CCONJ	_	_	30	cc	_	start_char=2956|end_char=2957
+30	закрепляется	закреплять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	conj	_	start_char=2958|end_char=2970
+31	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	30	nsubj:pass	_	start_char=2971|end_char=2975
+32	о	о	ADP	_	_	33	case	_	start_char=2976|end_char=2977
+33	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	31	nmod	_	start_char=2978|end_char=2981
+34	,	,	PUNCT	_	_	37	punct	_	start_char=2981|end_char=2982
+35	что	что	SCONJ	_	_	37	mark	_	start_char=2983|end_char=2986
+36	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	start_char=2987|end_char=2990
+37	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	33	acl	_	start_char=2991|end_char=2999
+38	опасными	опасный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	39	amod	_	start_char=3000|end_char=3008
+39	преступниками	преступник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	37	obl	_	start_char=3009|end_char=3022
+40	.	.	PUNCT	_	_	2	punct	_	start_char=3022|end_char=3023
+
+# text = Суд признал его невиновным, так почему же к нему следует относиться как к заключенному, а не как к человеку, который был болен и теперь поправился?
+# sent_id = 24
+1	Суд	суд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=3024|end_char=3027
+2	признал	признать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=3028|end_char=3035
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=3036|end_char=3039
+4	невиновным	невиновный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	start_char=3040|end_char=3050
+5	,	,	PUNCT	_	_	11	punct	_	start_char=3050|end_char=3051
+6	так	так	ADV	_	Degree=Pos	11	advmod	_	start_char=3052|end_char=3055
+7	почему	почему	ADV	_	Degree=Pos	11	advmod	_	start_char=3056|end_char=3062
+8	же	же	PART	_	_	7	advmod	_	start_char=3063|end_char=3065
+9	к	к	ADP	_	_	10	case	_	start_char=3066|end_char=3067
+10	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	start_char=3068|end_char=3072
+11	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=3073|end_char=3080
+12	относиться	относиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	csubj	_	start_char=3081|end_char=3091
+13	как	как	SCONJ	_	_	15	mark	_	start_char=3092|end_char=3095
+14	к	к	ADP	_	_	15	case	_	start_char=3096|end_char=3097
+15	заключенному	заключенный	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=3098|end_char=3110
+16	,	,	PUNCT	_	_	21	punct	_	start_char=3110|end_char=3111
+17	а	а	CCONJ	_	_	21	cc	_	start_char=3112|end_char=3113
+18	не	не	PART	_	_	21	advmod	_	start_char=3114|end_char=3116
+19	как	как	SCONJ	_	_	21	case	_	start_char=3117|end_char=3120
+20	к	к	ADP	_	_	21	case	_	start_char=3121|end_char=3122
+21	человеку	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	conj	_	start_char=3123|end_char=3131
+22	,	,	PUNCT	_	_	25	punct	_	start_char=3131|end_char=3132
+23	который	который	PRON	_	Case=Nom|PronType=Int,Rel	25	nsubj	_	start_char=3133|end_char=3140
+24	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	cop	_	start_char=3141|end_char=3144
+25	болен	больной	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	21	acl:relcl	_	start_char=3145|end_char=3150
+26	и	и	CCONJ	_	_	28	cc	_	start_char=3151|end_char=3152
+27	теперь	теперь	ADV	_	Degree=Pos	28	advmod	_	start_char=3153|end_char=3159
+28	поправился	правиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	25	conj	_	start_char=3160|end_char=3170
+29	?	?	PUNCT	_	_	2	punct	_	start_char=3170|end_char=3171
+

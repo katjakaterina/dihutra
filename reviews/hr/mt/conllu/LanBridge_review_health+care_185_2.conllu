@@ -1,3 +1,5 @@
+# text = Samo 3 godine, umjesto 5 kako je obećano Opisani su kao zajamčeni na 5 godina, ali imaju rok trajanja koji je samo 3 godine (ožujak 2016.).
+# sent_id = 0
 1	Samo	samo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=4
 2	3	3	NUM	Mdc	NumType=Card	3	nummod	_	start_char=5|end_char=6
 3	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	start_char=7|end_char=13
@@ -30,6 +32,8 @@
 30	)	)	PUNCT	Z	_	28	punct	_	start_char=137|end_char=138
 31	.	.	PUNCT	Z	_	10	punct	_	start_char=138|end_char=139
 
+# text = Budući da ih koristim za rezervnu bateriju u satovima, ovo je pravi problem.
+# sent_id = 1
 1	Budući	budući	SCONJ	Cs	_	4	mark	_	start_char=140|end_char=146
 2	da	da	SCONJ	Cs	_	1	fixed	_	start_char=147|end_char=149
 3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=150|end_char=152
@@ -46,6 +50,8 @@
 14	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=208|end_char=215
 15	.	.	PUNCT	Z	_	14	punct	_	start_char=215|end_char=216
 
+# text = Nije ono što očekujem od Amazona.
+# sent_id = 2
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=217|end_char=221
 2	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=222|end_char=225
 3	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	4	obj	_	start_char=226|end_char=229
@@ -54,6 +60,8 @@
 6	Amazona	Amazon	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	start_char=242|end_char=249
 7	.	.	PUNCT	Z	_	2	punct	_	start_char=249|end_char=250
 
+# text = Vjerojatno će živjeti s tim radije nego petljati s povratkom.
+# sent_id = 3
 1	Vjerojatno	vjerojatno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=251|end_char=261
 2	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=262|end_char=264
 3	živjeti	živjeti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=265|end_char=272

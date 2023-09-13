@@ -1,13 +1,19 @@
+# text = ovo volim!
+# sent_id = 0
 1	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3
 2	volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=4|end_char=9
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=9|end_char=10
 
+# text = Obje strane su magnetske.
+# sent_id = 1
 1	Obje	oba	NUM	Mlsf-n	Case=Nom|Gender=Fem|NumType=Mult	2	nummod	_	start_char=11|end_char=15
 2	strane	strana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	start_char=16|end_char=22
 3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=23|end_char=25
 4	magnetske	magnetski	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=26|end_char=35
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=35|end_char=36
 
+# text = Pravi plus kada zabavljate više od jednog djeteta.
+# sent_id = 2
 1	Pravi	prav	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=37|end_char=42
 2	plus	plus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=43|end_char=47
 3	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	advmod	_	start_char=48|end_char=52
@@ -18,6 +24,8 @@
 8	djeteta	dijete	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	obj	_	start_char=79|end_char=86
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=86|end_char=87
 
+# text = Četverogodišnjak može pronaći slova za riječi, dok dvogodišnjak može pronaći slike koje riječi slažu.
+# sent_id = 3
 1	Četverogodišnjak	četverogodišnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=88|end_char=104
 2	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=105|end_char=109
 3	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=110|end_char=117
@@ -35,6 +43,8 @@
 15	slažu	slagati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=183|end_char=188
 16	.	.	PUNCT	Z	_	2	punct	_	start_char=188|end_char=189
 
+# text = (Kupio sam pisma i magnetske slike za ovu ploču).
+# sent_id = 4
 1	(	(	PUNCT	Z	_	2	punct	_	start_char=190|end_char=191
 2	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=191|end_char=196
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=197|end_char=200
@@ -48,6 +58,8 @@
 11	)	)	PUNCT	Z	_	2	punct	_	start_char=237|end_char=238
 12	.	.	PUNCT	Z	_	2	punct	_	start_char=238|end_char=239
 
+# text = Obojici unuka se jako svidio, što znači da se i meni jako sviđa.
+# sent_id = 5
 1	Obojici	obojica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=240|end_char=247
 2	unuka	unuk	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=248|end_char=253
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=254|end_char=256
@@ -64,6 +76,8 @@
 14	sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	start_char=298|end_char=303
 15	.	.	PUNCT	Z	_	5	punct	_	start_char=303|end_char=304
 
+# text = Nisam čak ni uveo markere, jer će se ovo koristiti isključivo kao magnetska ploča.
+# sent_id = 6
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=305|end_char=310
 2	čak	čak	PART	Qo	_	4	advmod	_	start_char=311|end_char=314
 3	ni	ni	PART	Qo	_	4	discourse	_	start_char=315|end_char=317

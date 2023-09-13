@@ -1,3 +1,5 @@
+# text = Booooorrrring Mrzio sam ovaj proizvod.
+# sent_id = 0
 1	Booooorrrring	Booooorrrring	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=13
 2	Mrzio	mrziti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=14|end_char=19
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=20|end_char=23
@@ -5,13 +7,19 @@
 5	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=29|end_char=37
 6	.	.	PUNCT	Z	_	2	punct	_	start_char=37|end_char=38
 
+# text = Predvidljivo.
+# sent_id = 1
 1	Predvidljivo	predvidljiv	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=39|end_char=51
 2	.	.	PUNCT	Z	_	1	punct	_	start_char=51|end_char=52
 
+# text = Nije zabavno.
+# sent_id = 2
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=53|end_char=57
 2	zabavno	zabavan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=58|end_char=65
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=65|end_char=66
 
+# text = Pokušava biti stolna igra s brzim postavljanjem, ali djeluje kao isprepletana zbrka sranja.
+# sent_id = 3
 1	Pokušava	pokušavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=67|end_char=75
 2	biti	biti	AUX	Van	VerbForm=Inf	1	xcomp	_	start_char=76|end_char=80
 3	stolna	stolni	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=81|end_char=87
@@ -28,6 +36,8 @@
 14	sranja	sranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=151|end_char=157
 15	.	.	PUNCT	Z	_	1	punct	_	start_char=157|end_char=158
 
+# text = Često sam pomislio "ovo izgleda kao d&d; bitka... Šalim se".
+# sent_id = 4
 1	Često	često	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=159|end_char=164
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=165|end_char=168
 3	pomislio	pomisliti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=169|end_char=177
@@ -44,6 +54,8 @@
 14	"	"	PUNCT	Z	_	12	punct	_	start_char=217|end_char=218
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=218|end_char=219
 
+# text = Nikada je više nismo igrali nakon jedne igre.
+# sent_id = 5
 1	Nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	5	advmod	_	start_char=220|end_char=226
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=227|end_char=229
 3	više	mnogo	ADV	Rgc	Degree=Cmp	5	advmod	_	start_char=230|end_char=234
@@ -54,6 +66,8 @@
 8	igre	igra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	start_char=260|end_char=264
 9	.	.	PUNCT	Z	_	5	punct	_	start_char=264|end_char=265
 
+# text = Ne bismo je preporučili starijoj grupi igrača koja uživa u igrama na tabli/kartama kao što su talisman i 7 čuda i uzašašće.
+# sent_id = 6
 1	Ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=266|end_char=268
 2	bismo	biti	AUX	Vaa1p	Mood=Cnd|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	start_char=269|end_char=274
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=275|end_char=277
@@ -78,5 +92,7 @@
 22	uzašašće	uzašašće	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	17	conj	_	start_char=380|end_char=388
 23	.	.	PUNCT	Z	_	4	punct	_	start_char=388|end_char=389
 
+# text = F
+# sent_id = 7
 1	F	f	NOUN	Y	_	0	root	_	start_char=389|end_char=390
 

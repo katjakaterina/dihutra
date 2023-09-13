@@ -1,3 +1,5 @@
+# text = Ovo je proizvod koji sam tražio.
+# sent_id = 0
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=3
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4|end_char=6
 3	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7|end_char=15
@@ -6,6 +8,8 @@
 6	tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	start_char=25|end_char=31
 7	.	.	PUNCT	Z	_	3	punct	_	start_char=31|end_char=32
 
+# text = Ovo je proizvod koji sam tražio.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=33|end_char=36
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=37|end_char=39
 3	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=40|end_char=48
@@ -14,6 +18,8 @@
 6	tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	start_char=58|end_char=64
 7	.	.	PUNCT	Z	_	3	punct	_	start_char=64|end_char=65
 
+# text = Nakon 3 tjedna smeđe mrlje su nestale.
+# sent_id = 2
 1	Nakon	nakon	ADP	Sg	Case=Gen	3	case	_	start_char=66|end_char=71
 2	3	3	NUM	Mdc	NumType=Card	3	nummod	_	start_char=72|end_char=73
 3	tjedna	tjedan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=74|end_char=80
@@ -23,6 +29,8 @@
 7	nestale	nestati	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=96|end_char=103
 8	.	.	PUNCT	Z	_	7	punct	_	start_char=103|end_char=104
 
+# text = Nema više potrebe za teškim pokrivnim kremama; obični tekući puder mi odgovara i koža mi je prekrasno čista.
+# sent_id = 3
 1	Nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=105|end_char=109
 2	više	mnogo	ADV	Rgc	Degree=Cmp	3	advmod	_	start_char=110|end_char=114
 3	potrebe	potreba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	obj	_	start_char=115|end_char=122
@@ -44,12 +52,16 @@
 19	čista	čist	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	start_char=207|end_char=212
 20	.	.	PUNCT	Z	_	1	punct	_	start_char=212|end_char=213
 
+# text = Ovo je dobar proizvod.
+# sent_id = 4
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=214|end_char=217
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=218|end_char=220
 3	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=221|end_char=226
 4	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=227|end_char=235
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=235|end_char=236
 
+# text = Dosljednom upotrebom uklanja mrlje na licu i tamne mrlje na laktovima.
+# sent_id = 5
 1	Dosljednom	dosljedan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=237|end_char=247
 2	upotrebom	upotreba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	start_char=248|end_char=257
 3	uklanja	uklanjati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=258|end_char=265

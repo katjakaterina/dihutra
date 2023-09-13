@@ -1,3 +1,5 @@
+# text = Radilo je izvrsno za oko 5 punjenja
+# sent_id = 0
 1	Radilo	raditi	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=6
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=7|end_char=9
 3	izvrsno	izvrstan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	start_char=10|end_char=17
@@ -6,6 +8,8 @@
 6	5	5	NUM	Mdc	NumType=Card	7	nummod	_	start_char=25|end_char=26
 7	punjenja	punjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	obl	_	start_char=27|end_char=35
 
+# text = Koristio sam NiCD baterije neko vrijeme prije mnogo godina i odustao sam od njih.
+# sent_id = 1
 1	Koristio	koristiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=36|end_char=44
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=45|end_char=48
 3	NiCD	nicd	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=49|end_char=53
@@ -22,6 +26,8 @@
 14	njih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	11	obl	_	start_char=112|end_char=116
 15	.	.	PUNCT	Z	_	1	punct	_	start_char=116|end_char=117
 
+# text = Kad sam isprobao NiMH baterije, počeo sam s ovima i bio sam jako razočaran tehnologijom, koristili smo je u mišu koji je zahtijevao otprilike dva puta tjedno mijenjanje, kasnije sam promijenio na Sanyo's eneloop i jako sam zadovoljan.
+# sent_id = 2
 1	Kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=118|end_char=121
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=122|end_char=125
 3	isprobao	isprobati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=126|end_char=134

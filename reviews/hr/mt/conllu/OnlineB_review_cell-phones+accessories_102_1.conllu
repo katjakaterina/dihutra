@@ -1,8 +1,12 @@
+# text = IZNEVJERITI STARUDIJA!!
+# sent_id = 0
 1	IZNEVJERITI	iznevjeti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=0|end_char=11
 2	STARUDIJA	Starudiča	PROPN	Npmsa	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=12|end_char=21
 3	!	!	INTJ	I	_	1	advmod	_	start_char=21|end_char=22
 4	!	!	PUNCT	Z	_	1	punct	_	start_char=22|end_char=23
 
+# text = !......Ovaj proizvod mora biti označen nedostatkom.
+# sent_id = 1
 1	!	!	INTJ	I	_	4	discourse	_	start_char=24|end_char=25
 2	......Ovaj	......Ovaj	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	start_char=25|end_char=35
 3	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=36|end_char=44
@@ -12,6 +16,8 @@
 7	nedostatkom	nedostatak	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	obj	_	start_char=63|end_char=74
 8	.	.	PUNCT	Z	_	4	punct	_	start_char=74|end_char=75
 
+# text = Ne mogu napuniti svoj Samsung S2 telefon ovim OEM punjačem.
+# sent_id = 2
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=76|end_char=78
 2	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=79|end_char=83
 3	napuniti	napuniti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=84|end_char=92
@@ -24,6 +30,8 @@
 10	punjačem	punjač	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	start_char=126|end_char=134
 11	.	.	PUNCT	Z	_	2	punct	_	start_char=134|end_char=135
 
+# text = Svjetla su upaljena, telefon kaže da se puni, ali ništa se ne događa.
+# sent_id = 3
 1	Svjetla	svjetlo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=136|end_char=143
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=144|end_char=146
 3	upaljena	upaliti	ADJ	Agpnpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	0	root	_	start_char=147|end_char=155
@@ -41,6 +49,8 @@
 15	događa	događati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=198|end_char=204
 16	.	.	PUNCT	Z	_	3	punct	_	start_char=204|end_char=205
 
+# text = Nisam siguran jesam li dobio neispravan proizvod, ali jako je uznemirujuće sjediti u automobilu satima i ne vidjeti kako se vaš telefon ponovno puni.
+# sent_id = 4
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=206|end_char=211
 2	siguran	siguran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=212|end_char=219
 3	jesam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=220|end_char=225
@@ -68,6 +78,8 @@
 25	puni	pun	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	ccomp	_	start_char=350|end_char=354
 26	.	.	PUNCT	Z	_	2	punct	_	start_char=354|end_char=355
 
+# text = Ako vam je potreban pouzdan punjač, NEMOJTE kupovati ovaj proizvod.
+# sent_id = 5
 1	Ako	ako	SCONJ	Cs	_	4	mark	_	start_char=356|end_char=359
 2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	obj	_	start_char=360|end_char=363
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=364|end_char=366
@@ -81,6 +93,8 @@
 11	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=414|end_char=422
 12	.	.	PUNCT	Z	_	8	punct	_	start_char=422|end_char=423
 
+# text = Ako vam je potreban auto punjač za vaš Samsung S2, preporučio bih motorolin adapter za napajanje u vozilu.
+# sent_id = 6
 1	Ako	ako	SCONJ	Cs	_	4	mark	_	start_char=424|end_char=427
 2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	obj	_	start_char=428|end_char=431
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=432|end_char=434
@@ -102,6 +116,8 @@
 19	vozilu	vozilo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	nmod	_	start_char=523|end_char=529
 20	.	.	PUNCT	Z	_	12	punct	_	start_char=529|end_char=530
 
+# text = Brzo se puni i pouzdan je.
+# sent_id = 7
 1	Brzo	brzo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=531|end_char=535
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=536|end_char=538
 3	puni	pun	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=539|end_char=543

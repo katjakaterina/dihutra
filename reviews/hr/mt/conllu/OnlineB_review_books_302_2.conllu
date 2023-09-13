@@ -1,8 +1,12 @@
+# text = U zemlji slijepih...
+# sent_id = 0
 1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=0|end_char=1
 2	zemlji	zemlja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=2|end_char=8
 3	slijepih	slijep	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	nmod	_	start_char=9|end_char=17
 4	...	...	PUNCT	Z	_	2	punct	_	start_char=17|end_char=20
 
+# text = Ovaj dio književnosti obećava prosvjetljenje, ali ne uspijeva.
+# sent_id = 1
 1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=21|end_char=25
 2	dio	dio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=26|end_char=29
 3	književnosti	književnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=30|end_char=42
@@ -14,6 +18,8 @@
 9	uspijeva	uspijevati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=74|end_char=82
 10	.	.	PUNCT	Z	_	4	punct	_	start_char=82|end_char=83
 
+# text = Iako prolazni prorok doista govori rječito i njegove riječi potiču duboko razmišljanje, one ne uspijevaju prenijeti pravo razumijevanje.
+# sent_id = 2
 1	Iako	iako	SCONJ	Cs	_	5	mark	_	start_char=84|end_char=88
 2	prolazni	prolazni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=89|end_char=97
 3	prorok	prorok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=98|end_char=104
@@ -35,6 +41,8 @@
 19	razumijevanje	razumijevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=206|end_char=219
 20	.	.	PUNCT	Z	_	16	punct	_	start_char=219|end_char=220
 
+# text = Početni govor o ljubavi je privlačan, ali ono što slijedi brzo se spušta u prazna retorička razmišljanja koja se nastavljaju do gorkog kraja.
+# sent_id = 3
 1	Početni	početan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=221|end_char=228
 2	govor	govor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=229|end_char=234
 3	o	o	ADP	Sl	Case=Loc	4	case	_	start_char=235|end_char=236
@@ -61,6 +69,8 @@
 24	kraja	kraj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	obl	_	start_char=356|end_char=361
 25	.	.	PUNCT	Z	_	6	punct	_	start_char=361|end_char=362
 
+# text = Najzabavniji aspekt ove knjige je vješta upotreba jezika koja gotovo prikriva činjenicu da prorok doista govori, ali ne govori ništa.
+# sent_id = 4
 1	Najzabavniji	zabavan	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	start_char=363|end_char=375
 2	aspekt	aspekt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=376|end_char=382
 3	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=383|end_char=386

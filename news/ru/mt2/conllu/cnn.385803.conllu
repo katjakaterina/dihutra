@@ -1,0 +1,137 @@
+# text = Владельцам домашних животных, не выгуливающим своих собак, грозит штраф в размере 2700 долл.
+# sent_id = 0
+1	Владельцам	владелец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	start_char=0|end_char=10
+2	домашних	домашний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=11|end_char=19
+3	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	start_char=20|end_char=28
+4	,	,	PUNCT	_	_	6	punct	_	start_char=28|end_char=29
+5	не	не	PART	_	_	6	advmod	_	start_char=30|end_char=32
+6	выгуливающим	выгуливать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	start_char=33|end_char=45
+7	своих	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=46|end_char=51
+8	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=52|end_char=57
+9	,	,	PUNCT	_	_	6	punct	_	start_char=57|end_char=58
+10	грозит	грозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=59|end_char=65
+11	штраф	штраф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=66|end_char=71
+12	в	в	ADP	_	_	13	case	_	start_char=72|end_char=73
+13	размере	размер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	start_char=74|end_char=81
+14	2700	2700	NUM	_	NumType=Card	15	nummod	_	start_char=82|end_char=86
+15	долл	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=87|end_char=91
+16	.	.	PUNCT	_	_	10	punct	_	start_char=91|end_char=92
+
+# text = Владельцы собак могут быть оштрафованы на месте, если они не обеспечили собакам элементарные условия содержания: кров, пищу и воду.
+# sent_id = 1
+1	Владельцы	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj:pass	_	start_char=93|end_char=102
+2	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	start_char=103|end_char=108
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=109|end_char=114
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	start_char=115|end_char=119
+5	оштрафованы	оштрафовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	xcomp	_	start_char=120|end_char=131
+6	на	на	ADP	_	_	7	case	_	start_char=132|end_char=134
+7	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	start_char=135|end_char=140
+8	,	,	PUNCT	_	_	12	punct	_	start_char=140|end_char=141
+9	если	если	SCONJ	_	_	12	mark	_	start_char=142|end_char=146
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=147|end_char=150
+11	не	не	PART	_	_	12	advmod	_	start_char=151|end_char=153
+12	обеспечили	обеспечить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=154|end_char=164
+13	собакам	собака	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	12	iobj	_	start_char=165|end_char=172
+14	элементарные	элементарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=173|end_char=185
+15	условия	условие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	start_char=186|end_char=193
+16	содержания	содержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=194|end_char=204
+17	:	:	PUNCT	_	_	18	punct	_	start_char=204|end_char=205
+18	кров	крова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	parataxis	_	start_char=206|end_char=210
+19	,	,	PUNCT	_	_	20	punct	_	start_char=210|end_char=211
+20	пищу	пища	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	conj	_	start_char=212|end_char=216
+21	и	и	CCONJ	_	_	22	cc	_	start_char=217|end_char=218
+22	воду	вода	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	conj	_	start_char=219|end_char=223
+23	.	.	PUNCT	_	_	3	punct	_	start_char=223|end_char=224
+
+# text = Лица, содержащие собак в течение 24 часов, обязаны обеспечить им свободное передвижение в течение следующих двух часов, иначе им грозит судебное преследование.
+# sent_id = 2
+1	Лица	лицо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	start_char=225|end_char=229
+2	,	,	PUNCT	_	_	3	punct	_	start_char=229|end_char=230
+3	содержащие	содержать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	acl	_	start_char=231|end_char=241
+4	собак	собака	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=242|end_char=247
+5	в	в	ADP	_	_	8	case	_	start_char=248|end_char=249
+6	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	fixed	_	start_char=250|end_char=257
+7	24	24	NUM	_	NumType=Card	8	nummod	_	start_char=258|end_char=260
+8	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=261|end_char=266
+9	,	,	PUNCT	_	_	3	punct	_	start_char=266|end_char=267
+10	обязаны	обязанный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=268|end_char=275
+11	обеспечить	обеспечить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=276|end_char=286
+12	им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	iobj	_	start_char=287|end_char=289
+13	свободное	свободный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=290|end_char=299
+14	передвижение	передвижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=300|end_char=312
+15	в	в	ADP	_	_	19	case	_	start_char=313|end_char=314
+16	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	fixed	_	start_char=315|end_char=322
+17	следующих	следующий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	start_char=323|end_char=332
+18	двух	два	NUM	_	Case=Gen|NumType=Card	19	nummod	_	start_char=333|end_char=337
+19	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	start_char=338|end_char=343
+20	,	,	PUNCT	_	_	23	punct	_	start_char=343|end_char=344
+21	иначе	иначе	CCONJ	_	_	23	cc	_	start_char=345|end_char=350
+22	им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	23	iobj	_	start_char=351|end_char=353
+23	грозит	грозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=354|end_char=360
+24	судебное	судебный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	start_char=361|end_char=369
+25	преследование	преследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=370|end_char=383
+26	.	.	PUNCT	_	_	10	punct	_	start_char=383|end_char=384
+
+# text = Территория стала первой юрисдикцией в Австралии, признавшей разумность животных.
+# sent_id = 3
+1	Территория	территория	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=385|end_char=395
+2	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=396|end_char=401
+3	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=402|end_char=408
+4	юрисдикцией	юрисдикция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=409|end_char=420
+5	в	в	ADP	_	_	6	case	_	start_char=421|end_char=422
+6	Австралии	Австралия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	start_char=423|end_char=432
+7	,	,	PUNCT	_	_	8	punct	_	start_char=432|end_char=433
+8	признавшей	признать	VERB	_	Aspect=Imp|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl	_	start_char=434|end_char=444
+9	разумность	разумность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=445|end_char=455
+10	животных	животное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	start_char=456|end_char=464
+11	.	.	PUNCT	_	_	2	punct	_	start_char=464|end_char=465
+
+# text = "Современная забота о животных предполагает учет того, как животное справляется с психическими и физическими нагрузками в тех условиях, в которых оно живет", - заявил в пресс-релизе министр городского хозяйства АСТ Крис Стил (Chris Steel), обеспечивший принятие законопроекта.
+# sent_id = 4
+1	"	"	PUNCT	_	_	6	punct	_	start_char=466|end_char=467
+2	Современная	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=467|end_char=478
+3	забота	забота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=479|end_char=485
+4	о	о	ADP	_	_	5	case	_	start_char=486|end_char=487
+5	животных	животное	NOUN	_	Animacy=Anim|Case=Loc|Gender=Neut|Number=Plur	3	nmod	_	start_char=488|end_char=496
+6	предполагает	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=497|end_char=509
+7	учет	учет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=510|end_char=514
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	nmod	_	start_char=515|end_char=519
+9	,	,	PUNCT	_	_	12	punct	_	start_char=519|end_char=520
+10	как	как	ADV	_	Degree=Pos	12	advmod	_	start_char=521|end_char=524
+11	животное	животное	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	start_char=525|end_char=533
+12	справляется	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl	_	start_char=534|end_char=545
+13	с	с	ADP	_	_	17	case	_	start_char=546|end_char=547
+14	психическими	психический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	start_char=548|end_char=560
+15	и	и	CCONJ	_	_	16	cc	_	start_char=561|end_char=562
+16	физическими	физический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	conj	_	start_char=563|end_char=574
+17	нагрузками	нагрузка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	obl	_	start_char=575|end_char=585
+18	в	в	ADP	_	_	20	case	_	start_char=586|end_char=587
+19	тех	тот	DET	_	Case=Loc|Number=Plur|PronType=Dem	20	det	_	start_char=588|end_char=591
+20	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	obl	_	start_char=592|end_char=600
+21	,	,	PUNCT	_	_	25	punct	_	start_char=600|end_char=601
+22	в	в	ADP	_	_	23	case	_	start_char=602|end_char=603
+23	которых	который	PRON	_	Case=Loc|PronType=Int,Rel	25	obl	_	start_char=604|end_char=611
+24	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	start_char=612|end_char=615
+25	живет	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	start_char=616|end_char=621
+26	"	"	PUNCT	_	_	6	punct	_	start_char=621|end_char=622
+27	,	,	PUNCT	_	_	29	punct	_	start_char=622|end_char=623
+28	-	-	PUNCT	_	_	29	punct	_	start_char=624|end_char=625
+29	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=626|end_char=632
+30	в	в	ADP	_	_	31	case	_	start_char=633|end_char=634
+31	пресс-релизе	пресс-релиз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	start_char=635|end_char=647
+32	министр	министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	start_char=648|end_char=655
+33	городского	городской	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	start_char=656|end_char=666
+34	хозяйства	хозяйство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	start_char=667|end_char=676
+35	АСТ	АСТ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	start_char=677|end_char=680
+36	Крис	Крис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	appos	_	start_char=681|end_char=685
+37	Стил	Стил	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	36	flat:name	_	start_char=686|end_char=690
+38	(	(	PUNCT	_	_	39	punct	_	start_char=691|end_char=692
+39	Chris	Chris	PROPN	_	Foreign=Yes	36	flat:foreign	_	start_char=692|end_char=697
+40	Steel	Steel	PROPN	_	Foreign=Yes	36	flat:foreign	_	start_char=698|end_char=703
+41	)	)	PUNCT	_	_	40	punct	_	start_char=703|end_char=704
+42	,	,	PUNCT	_	_	43	punct	_	start_char=704|end_char=705
+43	обеспечивший	обеспечить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	32	acl	_	start_char=706|end_char=718
+44	принятие	принятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	43	obj	_	start_char=719|end_char=727
+45	законопроекта	законопроект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	start_char=728|end_char=741
+46	.	.	PUNCT	_	_	6	punct	_	start_char=741|end_char=742
+

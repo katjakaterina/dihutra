@@ -1,7 +1,11 @@
+# text = Jedan u milijun
+# sent_id = 0
 1	Jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	0	root	_	start_char=0|end_char=5
 2	u	u	ADP	Sa	Case=Acc	3	case	_	start_char=6|end_char=7
 3	milijun	milijun	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=15
 
+# text = Bio sam u potrazi za savršenim receptom za vjenčanu tortu više od deset godina.
+# sent_id = 1
 1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=16|end_char=19
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=20|end_char=23
 3	u	u	ADP	Sl	Case=Loc	4	case	_	start_char=24|end_char=25
@@ -18,6 +22,8 @@
 14	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	start_char=88|end_char=94
 15	.	.	PUNCT	Z	_	4	punct	_	start_char=94|end_char=95
 
+# text = Možete to nazvati opsesijom jer osobno volim ukus svadbene torte, a nisam čak ni oženjen!
+# sent_id = 2
 1	Možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=96|end_char=102
 2	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=103|end_char=105
 3	nazvati	nazvati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=106|end_char=113
@@ -36,6 +42,8 @@
 16	oženjen	oženiti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	conj	_	start_char=177|end_char=184
 17	!	!	PUNCT	Z	_	1	punct	_	start_char=184|end_char=185
 
+# text = Ovu sam knjigu kupila čim je izašla, a recepti su nevjerojatni - kao i fotografije.
+# sent_id = 3
 1	Ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=186|end_char=189
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=190|end_char=193
 3	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=194|end_char=200
@@ -54,6 +62,8 @@
 16	fotografije	fotografija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	12	conj	_	start_char=257|end_char=268
 17	.	.	PUNCT	Z	_	4	punct	_	start_char=268|end_char=269
 
+# text = Za sve koji peku svadbene torte ovo je knjiga recepata vrijedna ulaganja.
+# sent_id = 4
 1	Za	za	ADP	Sa	Case=Acc	2	case	_	start_char=270|end_char=272
 2	sve	sve	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	start_char=273|end_char=276
 3	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	4	nsubj	_	start_char=277|end_char=281

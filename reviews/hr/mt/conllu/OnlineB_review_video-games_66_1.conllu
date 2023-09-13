@@ -1,3 +1,5 @@
+# text = GODINA 2070 Nisam mogao igrati ovu igru.
+# sent_id = 0
 1	GODINA	godina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=6
 2	2070	2070	NUM	Mdc	NumType=Card	1	flat	_	start_char=7|end_char=11
 3	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=12|end_char=17
@@ -7,6 +9,8 @@
 7	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=35|end_char=39
 8	.	.	PUNCT	Z	_	4	punct	_	start_char=39|end_char=40
 
+# text = Unisoft ga je učinio nesviravim ako niste tehno stručnjak.
+# sent_id = 1
 1	Unisoft	Unisoft	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=41|end_char=48
 2	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=49|end_char=51
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=52|end_char=54
@@ -18,6 +22,8 @@
 9	stručnjak	stručnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	advcl	_	start_char=89|end_char=98
 10	.	.	PUNCT	Z	_	4	punct	_	start_char=98|end_char=99
 
+# text = (Pokušao sam ga nekoliko puta pokrenuti.)
+# sent_id = 2
 1	(	(	PUNCT	Z	_	2	punct	_	start_char=100|end_char=101
 2	Pokušao	pokušati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=101|end_char=108
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=109|end_char=112
@@ -28,6 +34,8 @@
 8	.	.	PUNCT	Z	_	2	punct	_	start_char=139|end_char=140
 9	)	)	PUNCT	Z	_	2	punct	_	start_char=140|end_char=141
 
+# text = Samo želim igrati kod kuće, a ne na internetu i iz nekog razloga se ne učitava na računalu.
+# sent_id = 3
 1	Samo	samo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=142|end_char=146
 2	želim	željeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=147|end_char=152
 3	igrati	igrati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=153|end_char=159
@@ -49,6 +57,8 @@
 19	računalu	računalo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	start_char=224|end_char=232
 20	.	.	PUNCT	Z	_	2	punct	_	start_char=232|end_char=233
 
+# text = Vjerojatno više nikad neću kupiti UNI-SOFT igru ili proizvod..
+# sent_id = 4
 1	Vjerojatno	vjerojatno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=234|end_char=244
 2	više	mnogo	ADV	Rgc	Degree=Cmp	4	advmod	_	start_char=245|end_char=249
 3	nikad	nikad	ADV	Rgp	Degree=Pos|PronType=Neg	4	advmod	_	start_char=250|end_char=255

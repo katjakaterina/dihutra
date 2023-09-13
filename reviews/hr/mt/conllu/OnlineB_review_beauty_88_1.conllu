@@ -1,14 +1,20 @@
+# text = Ovo nije pravi MAC.
+# sent_id = 0
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=0|end_char=3
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=4|end_char=8
 3	pravi	prav	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=9|end_char=14
 4	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=15|end_char=18
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=18|end_char=19
 
+# text = To je lažno.
+# sent_id = 1
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=20|end_char=22
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=23|end_char=25
 3	lažno	lažan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=26|end_char=31
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=31|end_char=32
 
+# text = Prodavač koji prodaje sve lažne MAC-ove! ovo je lažni MAC, upravo sam primio svoj i jako sam se uzrujao kad sam saznao da to nije pravi MAC.
+# sent_id = 2
 1	Prodavač	prodavač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=33|end_char=41
 2	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	nsubj	_	start_char=42|end_char=46
 3	prodaje	prodavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=47|end_char=54
@@ -40,6 +46,8 @@
 29	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	ccomp	_	start_char=169|end_char=172
 30	.	.	PUNCT	Z	_	11	punct	_	start_char=172|end_char=173
 
+# text = Amazon bi trebao imati bolju kontrolu nad prodajom lažne šminke.
+# sent_id = 3
 1	Amazon	Amazon	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=174|end_char=180
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=181|end_char=183
 3	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=184|end_char=190
@@ -52,6 +60,8 @@
 10	šminke	šminka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=231|end_char=237
 11	.	.	PUNCT	Z	_	3	punct	_	start_char=237|end_char=238
 
+# text = MAc nije jeftin, kad vidite ovako nisku cijenu, to je trebala biti crvena zastavica.
+# sent_id = 4
 1	MAc	MAc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=239|end_char=242
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=243|end_char=247
 3	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=248|end_char=254
@@ -70,6 +80,8 @@
 16	zastavica	zastavica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	xcomp	_	start_char=313|end_char=322
 17	.	.	PUNCT	Z	_	3	punct	_	start_char=322|end_char=323
 
+# text = Nemojte podržavati prodaju lažne šminke.
+# sent_id = 5
 1	Nemojte	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=324|end_char=331
 2	podržavati	podržavati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=332|end_char=342
 3	prodaju	prodaja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=343|end_char=350

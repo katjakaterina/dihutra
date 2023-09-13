@@ -1,8 +1,12 @@
+# text = UGHHHH!!!
+# sent_id = 0
 1	UGHHHH	UGHHHH	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6
 2	!	!	INTJ	I	_	1	cc	_	start_char=6|end_char=7
 3	!	!	INTJ	I	_	1	advmod	_	start_char=7|end_char=8
 4	!	!	PUNCT	Z	_	1	punct	_	start_char=8|end_char=9
 
+# text = Igra uopće ne sprema i to je jako iritantno jer ne možete isključiti računalo a da ono potpuno ne izbriše vaš napredak.
+# sent_id = 1
 1	Igra	ići	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10|end_char=14
 2	uopće	uopće	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=15|end_char=20
 3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=21|end_char=23
@@ -27,6 +31,8 @@
 22	napredak	napredak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=120|end_char=128
 23	.	.	PUNCT	Z	_	1	punct	_	start_char=128|end_char=129
 
+# text = Također se uključuje i isključuje nasumično, tako da kad izađete iz igre iznenada se ponovno pojavi.
+# sent_id = 2
 1	Također	također	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=130|end_char=137
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=138|end_char=140
 3	uključuje	uključivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=141|end_char=150
@@ -46,6 +52,8 @@
 17	pojavi	pojaviti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=223|end_char=229
 18	.	.	PUNCT	Z	_	3	punct	_	start_char=229|end_char=230
 
+# text = Moj šestogodišnjak misli da je to zabavno, ali ga to frustrira.
+# sent_id = 3
 1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=231|end_char=234
 2	šestogodišnjak	šestogodišnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=235|end_char=249
 3	misli	misliti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=250|end_char=255

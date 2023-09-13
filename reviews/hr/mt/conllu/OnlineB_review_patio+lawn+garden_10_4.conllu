@@ -1,3 +1,5 @@
+# text = Fleksibilno crijevo kakvo je na tržištu...nadam se da će zadovoljiti!
+# sent_id = 0
 1	Fleksibilno	fleksibilan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=11
 2	crijevo	crijevo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=12|end_char=19
 3	kakvo	kakav	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	8	advcl	_	start_char=20|end_char=25
@@ -12,11 +14,15 @@
 12	zadovoljiti	zadovoljiti	VERB	Vmn	VerbForm=Inf	8	ccomp	_	start_char=57|end_char=68
 13	!	!	PUNCT	Z	_	8	punct	_	start_char=68|end_char=69
 
+# text = Zasada je dobro!
+# sent_id = 1
 1	Zasada	zasada	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=70|end_char=76
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=77|end_char=79
 3	dobro	dobar	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=80|end_char=85
 4	!	!	PUNCT	Z	_	3	punct	_	start_char=85|end_char=86
 
+# text = Nisam baš imao vremena testirati crijevo jer je trenutno hladno vrijeme.
+# sent_id = 2
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=87|end_char=92
 2	baš	baš	PART	Qo	_	3	advmod	_	start_char=93|end_char=96
 3	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=97|end_char=101
@@ -30,6 +36,8 @@
 11	vrijeme	vrijeme	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	advcl	_	start_char=151|end_char=158
 12	.	.	PUNCT	Z	_	3	punct	_	start_char=158|end_char=159
 
+# text = Kupio sam ovo Gilmour crijevo na temelju svih preporuka.
+# sent_id = 3
 1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=160|end_char=165
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=166|end_char=169
 3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=170|end_char=173
@@ -41,6 +49,8 @@
 9	preporuka	preporuka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=206|end_char=215
 10	.	.	PUNCT	Z	_	1	punct	_	start_char=215|end_char=216
 
+# text = Veselim se što se ne moram boriti oko crijeva da bih ga koristio.
+# sent_id = 4
 1	Veselim	veseti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=217|end_char=224
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=225|end_char=227
 3	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	6	nsubj	_	start_char=228|end_char=231

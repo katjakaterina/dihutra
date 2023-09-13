@@ -1,9 +1,13 @@
+# text = Mrzim što su tako skupe
+# sent_id = 0
 1	Mrzim	mrziti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
 2	što	što	SCONJ	Cs	_	5	mark	_	start_char=6|end_char=9
 3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=10|end_char=12
 4	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	start_char=13|end_char=17
 5	skupe	skupiti	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	1	ccomp	_	start_char=18|end_char=23
 
+# text = Moj unuk je dobio ovo i zbog filma je dobio ovaj, ali svi moji veliki djedovi su dobili jedan jeftiniji i IMHO bolji jer su ruke i noge bile žičane i izuzetno pokretljive.
+# sent_id = 1
 1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=24|end_char=27
 2	unuk	unuk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=28|end_char=32
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=33|end_char=35
@@ -40,6 +44,8 @@
 34	pokretljive	pokretljiv	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	31	conj	_	start_char=183|end_char=194
 35	.	.	PUNCT	Z	_	4	punct	_	start_char=194|end_char=195
 
+# text = Međutim, moj unuk (9 godina star) volio je ovog vilenjaka, a njegov Momand Tata se zabavljao koristeći koncept tijekom praznika.
+# sent_id = 2
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	10	discourse	_	start_char=196|end_char=203
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=203|end_char=204
 3	moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=205|end_char=208

@@ -1,3 +1,5 @@
+# text = Hvala bogu da su skupi Da - ovo je jedan od najskupljih slatkiša, jer dolazi samo iz uvoza.
+# sent_id = 0
 1	Hvala	hvala	PROPN	Npfsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5
 2	bogu	bog	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	start_char=6|end_char=10
 3	da	da	SCONJ	Cs	_	5	mark	_	start_char=11|end_char=13
@@ -19,6 +21,8 @@
 19	uvoza	uvoz	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	start_char=85|end_char=90
 20	.	.	PUNCT	Z	_	1	punct	_	start_char=90|end_char=91
 
+# text = Ali bože moj - jesu li ovi ikada dobri.
+# sent_id = 1
 1	Ali	ali	CCONJ	Cc	_	3	cc	_	start_char=92|end_char=95
 2	bože	bože	INTJ	I	_	3	discourse	_	start_char=96|end_char=100
 3	moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	0	root	_	start_char=101|end_char=104
@@ -30,6 +34,8 @@
 9	dobri	dobar	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	acl	_	start_char=125|end_char=130
 10	.	.	PUNCT	Z	_	9	punct	_	start_char=130|end_char=131
 
+# text = Ljudi iz KitKata bi stvarno mogli počistiti ako počnu prodavati ovo u SAD-u.
+# sent_id = 2
 1	Ljudi	čovjek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=132|end_char=137
 2	iz	iz	ADP	Sg	Case=Gen	3	case	_	start_char=138|end_char=140
 3	KitKata	Kitkat	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=141|end_char=148
@@ -45,6 +51,8 @@
 13	SAD-u	SAD	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	start_char=202|end_char=207
 14	.	.	PUNCT	Z	_	6	punct	_	start_char=207|end_char=208
 
+# text = Jednom kada ih isprobate, ne možete više čekati.
+# sent_id = 3
 1	Jednom	jednom	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=209|end_char=215
 2	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	advmod	_	start_char=216|end_char=220
 3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=221|end_char=223
@@ -56,6 +64,8 @@
 9	čekati	čekati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=250|end_char=256
 10	.	.	PUNCT	Z	_	7	punct	_	start_char=256|end_char=257
 
+# text = Tako ukusno i dostavljeno brzo i svježe.
+# sent_id = 4
 1	Tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	2	advmod	_	start_char=258|end_char=262
 2	ukusno	ukusan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=263|end_char=269
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=270|end_char=271

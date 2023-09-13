@@ -1,3 +1,5 @@
+# text = Nekoliko dobrih savjeta, ali to je sve Ako zapravo želite napraviti i ukrasiti tortu, ova knjiga nije od velike koristi.
+# sent_id = 0
 1	Nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	3	advmod	_	start_char=0|end_char=8
 2	dobrih	dobar	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=9|end_char=15
 3	savjeta	savjet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	nsubj	_	start_char=16|end_char=23
@@ -22,6 +24,8 @@
 22	koristi	korist	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=112|end_char=119
 23	.	.	PUNCT	Z	_	22	punct	_	start_char=119|end_char=120
 
+# text = Knjiga se uglavnom sastoji od slika svadbenih kolača, od kojih većina nije bila ni blizu nečemu što bih ja smatrao.
+# sent_id = 1
 1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=121|end_char=127
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=128|end_char=130
 3	uglavnom	uglavnom	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=131|end_char=139
@@ -45,6 +49,8 @@
 21	smatrao	smatrati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	acl	_	start_char=228|end_char=235
 22	.	.	PUNCT	Z	_	4	punct	_	start_char=235|end_char=236
 
+# text = Čak i da su mi se svidjeli, samo nekoliko njih je uključivalo upute, što znači da većinu ionako ne bih uspio napraviti.
+# sent_id = 2
 1	Čak	čak	PART	Qo	_	7	advmod	_	start_char=237|end_char=240
 2	i	i	CCONJ	Cc	_	7	discourse	_	start_char=241|end_char=242
 3	da	da	SCONJ	Cs	_	7	mark	_	start_char=243|end_char=245
@@ -71,6 +77,8 @@
 24	napraviti	napraviti	VERB	Vmn	VerbForm=Inf	23	xcomp	_	start_char=346|end_char=355
 25	.	.	PUNCT	Z	_	13	punct	_	start_char=355|end_char=356
 
+# text = Knjiga je sadržavala nekoliko dobrih savjeta i nekoliko recepata za kolače i glazure.
+# sent_id = 3
 1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=357|end_char=363
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=364|end_char=366
 3	sadržavala	sadržavati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=367|end_char=377

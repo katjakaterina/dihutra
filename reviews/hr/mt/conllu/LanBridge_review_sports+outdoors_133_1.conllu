@@ -1,3 +1,5 @@
+# text = Najgori komplet vani Kupio sam ovo od Walmarta po istoj cijeni kao Amazon.
+# sent_id = 0
 1	Najgori	najgor	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
 2	komplet	komplet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=8|end_char=15
 3	vani	vani	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=16|end_char=20
@@ -13,6 +15,8 @@
 13	Amazon	Amazon	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	start_char=67|end_char=73
 14	.	.	PUNCT	Z	_	4	punct	_	start_char=73|end_char=74
 
+# text = Pri prvom korištenju štap za čišćenje se slomio na produžetku i plastična ručka je otpala na drugom.
+# sent_id = 1
 1	Pri	pri	ADP	Sl	Case=Loc	3	case	_	start_char=75|end_char=78
 2	prvom	prvi	ADJ	Mlonsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=79|end_char=84
 3	korištenju	korištenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	obl	_	start_char=85|end_char=95
@@ -32,6 +36,8 @@
 17	drugom	drugi	ADJ	Mlomsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	start_char=168|end_char=174
 18	.	.	PUNCT	Z	_	8	punct	_	start_char=174|end_char=175
 
+# text = Nikad neću kupiti ništa na čemu piše Outers.
+# sent_id = 2
 1	Nikad	nikad	ADV	Rgp	Degree=Pos|PronType=Neg	2	advmod	_	start_char=176|end_char=181
 2	neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	start_char=182|end_char=186
 3	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=187|end_char=193
@@ -42,6 +48,8 @@
 8	Outers	Outers	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=213|end_char=219
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=219|end_char=220
 
+# text = Kupujem pojedinačne dijelove od Tiptona i drugih renomiranih proizvođača kako bih napravio vlastiti komplet za čišćenje.
+# sent_id = 3
 1	Kupujem	kupovati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=221|end_char=228
 2	pojedinačne	pojedinačan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=229|end_char=240
 3	dijelove	dio	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=241|end_char=249

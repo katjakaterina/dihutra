@@ -1,3 +1,5 @@
+# text = Baš kako se nadalo Bio sam zabrinut zbog kraćeg, ali ovo sasvim dobro služi mojim potrebama, jer ga prati duži i problematičniji.
+# sent_id = 0
 1	Baš	baš	PART	Qo	_	4	advmod	_	start_char=0|end_char=3
 2	kako	kako	SCONJ	Cs	_	4	mark	_	start_char=4|end_char=8
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=9|end_char=11
@@ -24,6 +26,8 @@
 24	problematičniji	problematičan	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	22	conj	_	start_char=113|end_char=128
 25	.	.	PUNCT	Z	_	7	punct	_	start_char=128|end_char=129
 
+# text = Ostavljam prskalicu na njemu umjesto da mijenjam glave - tako je lakše.
+# sent_id = 1
 1	Ostavljam	ostavljati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=130|end_char=139
 2	prskalicu	prskalica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=140|end_char=149
 3	na	na	ADP	Sl	Case=Loc	4	case	_	start_char=150|end_char=152
@@ -38,6 +42,8 @@
 12	lakše	lako	ADV	Rgc	Degree=Cmp	1	parataxis	_	start_char=195|end_char=200
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=200|end_char=201
 
+# text = pomalo krut za postavljanje, ali da nije, siguran sam da bi se savijao.
+# sent_id = 2
 1	pomalo	pomalo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=202|end_char=208
 2	krut	krut	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	advcl	_	start_char=209|end_char=213
 3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=214|end_char=216
@@ -55,6 +61,8 @@
 15	savijao	savijati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	csubj	_	start_char=265|end_char=272
 16	.	.	PUNCT	Z	_	10	punct	_	start_char=272|end_char=273
 
+# text = Dobio sam ga s gilmore mesinganim dvosmjernim priključkom za crijevo - izvrstan par za mene
+# sent_id = 3
 1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=274|end_char=279
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=280|end_char=283
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=284|end_char=286

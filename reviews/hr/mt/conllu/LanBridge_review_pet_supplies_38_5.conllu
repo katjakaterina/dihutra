@@ -1,6 +1,10 @@
+# text = Izuzetno informativno
+# sent_id = 0
 1	Izuzetno	izuzetno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=8
 2	informativno	informativno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=9|end_char=21
 
+# text = Ovo je tako briljantna knjiga!
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=22|end_char=25
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=26|end_char=28
 3	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	4	advmod	_	start_char=29|end_char=33
@@ -8,6 +12,8 @@
 5	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=45|end_char=51
 6	!	!	PUNCT	Z	_	5	punct	_	start_char=51|end_char=52
 
+# text = Dobio sam ovu knjigu kao referentni vodič dok sam se školovao za profesionalnog timaritelja i smatrao sam da je tako korisna i informativna!
+# sent_id = 2
 1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=53|end_char=58
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=59|end_char=62
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=63|end_char=66
@@ -33,6 +39,8 @@
 23	informativna	informativan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	conj	_	start_char=180|end_char=192
 24	!	!	PUNCT	Z	_	1	punct	_	start_char=192|end_char=193
 
+# text = upute su dovoljno detaljne da vas nikada ne zaglave s milijun pitanja, ali dovoljno jednostavne da ih svatko može razumjeti.
+# sent_id = 3
 1	upute	uputa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=194|end_char=199
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=200|end_char=202
 3	dovoljno	dovoljno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=203|end_char=211
@@ -56,6 +64,8 @@
 21	razumjeti	razumjeti	VERB	Vmn	VerbForm=Inf	20	xcomp	_	start_char=308|end_char=317
 22	.	.	PUNCT	Z	_	4	punct	_	start_char=317|end_char=318
 
+# text = ovo je knjiga koju morate imati
+# sent_id = 4
 1	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=319|end_char=322
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=323|end_char=325
 3	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=326|end_char=332

@@ -1,0 +1,149 @@
+# text = Воры похитили 26 750 долл. во время пополнения банкомата в Newport on the Levee В пятницу утром воры похитили 26 750 долл. у сотрудника компании Brink's, пополнявшего банкомат в Newport on the Levee, сообщается в пресс-релизе полицейского управления Ньюпорта.
+# sent_id = 0
+1	Воры	вора	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=0|end_char=4
+2	похитили	похитить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=5|end_char=13
+3	26	26	NUM	_	NumType=Card	4	compound	_	start_char=14|end_char=16
+4	750	750	NUM	_	NumType=Card	5	nummod	_	start_char=17|end_char=20
+5	долл	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=21|end_char=25
+6	.	.	PUNCT	_	_	5	punct	_	start_char=25|end_char=26
+7	во	в	ADP	_	_	9	case	_	start_char=27|end_char=29
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	start_char=30|end_char=35
+9	пополнения	пополнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=36|end_char=46
+10	банкомата	банкомат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=47|end_char=56
+11	в	в	ADP	_	_	10	case	_	start_char=57|end_char=58
+12	Newport	Newport	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=59|end_char=66
+13	on	on	X	_	Foreign=Yes	10	flat:foreign	_	start_char=67|end_char=69
+14	the	the	X	_	Foreign=Yes	10	flat:foreign	_	start_char=70|end_char=73
+15	Levee	Levee	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=74|end_char=79
+16	В	в	ADP	_	_	17	case	_	start_char=80|end_char=81
+17	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	start_char=82|end_char=89
+18	утром	утро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	nmod	_	start_char=90|end_char=95
+19	воры	вор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	start_char=96|end_char=100
+20	похитили	похитить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=101|end_char=109
+21	26	26	NUM	_	NumType=Card	22	nummod	_	start_char=110|end_char=112
+22	750	750	NUM	_	NumType=Card	23	nummod	_	start_char=113|end_char=116
+23	долл	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	start_char=117|end_char=121
+24	.	.	PUNCT	_	_	23	punct	_	start_char=121|end_char=122
+25	у	у	ADP	_	_	26	case	_	start_char=123|end_char=124
+26	сотрудника	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	start_char=125|end_char=135
+27	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	start_char=136|end_char=144
+28	Brink's	Brink's	PROPN	_	Foreign=Yes	27	flat:foreign	_	start_char=145|end_char=152
+29	,	,	PUNCT	_	_	30	punct	_	start_char=152|end_char=153
+30	пополнявшего	пополнять	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	27	acl	_	start_char=154|end_char=166
+31	банкомат	банкомат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	start_char=167|end_char=175
+32	в	в	ADP	_	_	31	case	_	start_char=176|end_char=177
+33	Newport	Newport	PROPN	_	Foreign=Yes	31	flat:foreign	_	start_char=178|end_char=185
+34	on	on	X	_	Foreign=Yes	31	flat:foreign	_	start_char=186|end_char=188
+35	the	the	X	_	Foreign=Yes	31	flat:foreign	_	start_char=189|end_char=192
+36	Levee	Levee	PROPN	_	Foreign=Yes	31	flat:foreign	_	start_char=193|end_char=198
+37	,	,	PUNCT	_	_	38	punct	_	start_char=198|end_char=199
+38	сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	parataxis	_	start_char=200|end_char=210
+39	в	в	ADP	_	_	40	case	_	start_char=211|end_char=212
+40	пресс-релизе	пресс-релиз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	obl	_	start_char=213|end_char=225
+41	полицейского	полицейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	start_char=226|end_char=238
+42	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	40	nmod	_	start_char=239|end_char=249
+43	Ньюпорта	Ньюпорт	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	start_char=250|end_char=258
+44	.	.	PUNCT	_	_	2	punct	_	start_char=258|end_char=259
+
+# text = Водитель автомобиля опустошал банкомат в развлекательном комплексе и готовился к выдаче денег, пишет в пресс-релизе детектив Деннис Маккарти (Dennis McCarthy).
+# sent_id = 1
+1	Водитель	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=260|end_char=268
+2	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=269|end_char=279
+3	опустошал	опустошать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=280|end_char=289
+4	банкомат	банкомат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=290|end_char=298
+5	в	в	ADP	_	_	7	case	_	start_char=299|end_char=300
+6	развлекательном	развлекательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=301|end_char=316
+7	комплексе	комплекс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=317|end_char=326
+8	и	и	CCONJ	_	_	9	cc	_	start_char=327|end_char=328
+9	готовился	готовиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=329|end_char=338
+10	к	к	ADP	_	_	11	case	_	start_char=339|end_char=340
+11	выдаче	выдача	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=341|end_char=347
+12	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=348|end_char=353
+13	,	,	PUNCT	_	_	14	punct	_	start_char=353|end_char=354
+14	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=355|end_char=360
+15	в	в	ADP	_	_	16	case	_	start_char=361|end_char=362
+16	пресс-релизе	пресс-релиз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	start_char=363|end_char=375
+17	детектив	детектив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=376|end_char=384
+18	Деннис	Деннис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	start_char=385|end_char=391
+19	Маккарти	Маккарти	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	start_char=392|end_char=400
+20	(	(	PUNCT	_	_	21	punct	_	start_char=401|end_char=402
+21	Dennis	Dennis	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=402|end_char=408
+22	McCarthy	McCarthy	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=409|end_char=417
+23	)	)	PUNCT	_	_	22	punct	_	start_char=417|end_char=418
+24	.	.	PUNCT	_	_	3	punct	_	start_char=418|end_char=419
+
+# text = Пока он был занят, другой человек "подбежал сзади к сотруднику Brink's" и украл сумку с деньгами, предназначенную для доставки.
+# sent_id = 2
+1	Пока	пока	SCONJ	_	_	4	mark	_	start_char=420|end_char=424
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	start_char=425|end_char=427
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	start_char=428|end_char=431
+4	занят	занять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	advcl	_	start_char=432|end_char=437
+5	,	,	PUNCT	_	_	4	punct	_	start_char=437|end_char=438
+6	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=439|end_char=445
+7	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=446|end_char=453
+8	"	"	PUNCT	_	_	9	punct	_	start_char=454|end_char=455
+9	подбежал	подбежать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=455|end_char=463
+10	сзади	сзади	ADV	_	Degree=Pos	9	advmod	_	start_char=464|end_char=469
+11	к	к	ADP	_	_	12	case	_	start_char=470|end_char=471
+12	сотруднику	сотрудник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	start_char=472|end_char=482
+13	Brink's	Brink's	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=483|end_char=490
+14	"	"	PUNCT	_	_	9	punct	_	start_char=490|end_char=491
+15	и	и	CCONJ	_	_	16	cc	_	start_char=492|end_char=493
+16	украл	красть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=494|end_char=499
+17	сумку	сумка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=500|end_char=505
+18	с	с	ADP	_	_	19	case	_	start_char=506|end_char=507
+19	деньгами	деньги	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	17	nmod	_	start_char=508|end_char=516
+20	,	,	PUNCT	_	_	21	punct	_	start_char=516|end_char=517
+21	предназначенную	предназначить	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	start_char=518|end_char=533
+22	для	для	ADP	_	_	23	case	_	start_char=534|end_char=537
+23	доставки	доставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	start_char=538|end_char=546
+24	.	.	PUNCT	_	_	9	punct	_	start_char=546|end_char=547
+
+# text = Свидетели заметили нескольких подозреваемых, скрывавшихся с места происшествия, но полиция не уточнила, сколько человек участвовало в инциденте.
+# sent_id = 3
+1	Свидетели	свидетель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=548|end_char=557
+2	заметили	заметить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=558|end_char=566
+3	нескольких	несколько	NUM	_	Animacy=Anim|Case=Acc|NumType=Card	4	nummod	_	start_char=567|end_char=577
+4	подозреваемых	подозреваемый	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=578|end_char=591
+5	,	,	PUNCT	_	_	6	punct	_	start_char=591|end_char=592
+6	скрывавшихся	скрываться	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	4	acl	_	start_char=593|end_char=605
+7	с	с	ADP	_	_	8	case	_	start_char=606|end_char=607
+8	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	start_char=608|end_char=613
+9	происшествия	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	start_char=614|end_char=626
+10	,	,	PUNCT	_	_	14	punct	_	start_char=626|end_char=627
+11	но	но	CCONJ	_	_	14	cc	_	start_char=628|end_char=630
+12	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=631|end_char=638
+13	не	не	PART	_	_	14	advmod	_	start_char=639|end_char=641
+14	уточнила	уточнить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=642|end_char=650
+15	,	,	PUNCT	_	_	18	punct	_	start_char=650|end_char=651
+16	сколько	сколько	NUM	_	NumType=Card	17	nummod:gov	_	start_char=652|end_char=659
+17	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nsubj	_	start_char=660|end_char=667
+18	участвовало	участвовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	ccomp	_	start_char=668|end_char=679
+19	в	в	ADP	_	_	20	case	_	start_char=680|end_char=681
+20	инциденте	инцидент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	start_char=682|end_char=691
+21	.	.	PUNCT	_	_	2	punct	_	start_char=691|end_char=692
+
+# text = Всем, кто располагает информацией об их личностях, следует обратиться в полицию Ньюпорта по телефону 859-292-3680.
+# sent_id = 4
+1	Всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur|PronType=Tot	10	iobj	_	start_char=693|end_char=697
+2	,	,	PUNCT	_	_	4	punct	_	start_char=697|end_char=698
+3	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	4	nsubj	_	start_char=699|end_char=702
+4	располагает	располагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=703|end_char=714
+5	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	start_char=715|end_char=726
+6	об	о	ADP	_	_	8	case	_	start_char=727|end_char=729
+7	их	их	DET	_	Poss=Yes|PronType=Prs	8	det	_	start_char=730|end_char=732
+8	личностях	личность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	start_char=733|end_char=742
+9	,	,	PUNCT	_	_	1	punct	_	start_char=742|end_char=743
+10	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=744|end_char=751
+11	обратиться	обратиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	csubj	_	start_char=752|end_char=762
+12	в	в	ADP	_	_	13	case	_	start_char=763|end_char=764
+13	полицию	полиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=765|end_char=772
+14	Ньюпорта	Ньюпорт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=773|end_char=781
+15	по	по	ADP	_	_	16	case	_	start_char=782|end_char=784
+16	телефону	телефон	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=785|end_char=793
+17	859	859	NUM	_	NumType=Card	16	nummod:entity	_	start_char=794|end_char=797
+18	-	-	PUNCT	_	_	19	punct	_	start_char=797|end_char=798
+19	292	292	NUM	_	NumType=Card	17	nmod	_	start_char=798|end_char=801
+20	-	-	PUNCT	_	_	21	punct	_	start_char=801|end_char=802
+21	3680.	3680.	NUM	_	NumType=Card	17	nmod	_	start_char=802|end_char=807
+

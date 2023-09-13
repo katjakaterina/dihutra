@@ -1,3 +1,5 @@
+# text = Ovo su moji najdraži slatkiši ikada!
+# sent_id = 0
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=0|end_char=3
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4|end_char=6
 3	moji	moj	DET	Ps1mpn	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	start_char=7|end_char=11
@@ -6,6 +8,8 @@
 6	ikada	ikada	ADV	Rgp	Degree=Pos|PronType=Ind	5	advmod	_	start_char=30|end_char=35
 7	!	!	PUNCT	Z	_	5	punct	_	start_char=35|end_char=36
 
+# text = Nakon što sam čuo pomiješana mišljenja o ovim Kit Katama, odlučio sam ih isprobati.
+# sent_id = 1
 1	Nakon	nakon	SCONJ	Cs	_	4	mark	_	start_char=37|end_char=42
 2	što	što	SCONJ	Cs	_	1	fixed	_	start_char=43|end_char=46
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=47|end_char=50
@@ -23,6 +27,8 @@
 15	isprobati	isprobati	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=110|end_char=119
 16	.	.	PUNCT	Z	_	12	punct	_	start_char=119|end_char=120
 
+# text = Izvrsni su i nije mi žao što sam ih kupila.
+# sent_id = 2
 1	Izvrsni	izvrstan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=121|end_char=128
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=129|end_char=131
 3	i	i	CCONJ	Cc	_	6	cc	_	start_char=132|end_char=133
@@ -35,6 +41,8 @@
 10	kupila	kupiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	csubj	_	start_char=157|end_char=163
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=163|end_char=164
 
+# text = Imaju okus matche s malo vanilije i mliječnog okusa.
+# sent_id = 3
 1	Imaju	imati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=165|end_char=170
 2	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=171|end_char=175
 3	matche	matcha	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=176|end_char=182
@@ -46,12 +54,16 @@
 9	okusa	okus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	conj	_	start_char=211|end_char=216
 10	.	.	PUNCT	Z	_	1	punct	_	start_char=216|end_char=217
 
+# text = Nisu preslatke ni prejednostavne.
+# sent_id = 4
 1	Nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=218|end_char=222
 2	preslatke	preslatak	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=223|end_char=232
 3	ni	ni	CCONJ	Cc	_	4	cc	_	start_char=233|end_char=235
 4	prejednostavne	prejednostavan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	conj	_	start_char=236|end_char=250
 5	.	.	PUNCT	Z	_	2	punct	_	start_char=250|end_char=251
 
+# text = Ovo su najbolji Kit Kats koje sam ikad jeo i preporučio bih ih svima koji vole bombone s okusom matche ili svima koji žele probati neobičnu vrstu Kit Kata.
+# sent_id = 5
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=252|end_char=255
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=256|end_char=258
 3	najbolji	dobar	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	start_char=259|end_char=267

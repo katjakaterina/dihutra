@@ -1,7 +1,11 @@
+# text = Promjena boje trake
+# sent_id = 0
 1	Promjena	promjena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8
 2	boje	boja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=9|end_char=13
 3	trake	traka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=14|end_char=19
 
+# text = Kao i većina proizvoda za vježbanje, ovi su korišteni nekoliko puta i pohranjeni u torbi nekoliko mjeseci.
+# sent_id = 1
 1	Kao	kao	SCONJ	Cs	_	3	case	_	start_char=20|end_char=23
 2	i	i	CCONJ	Cc	_	3	discourse	_	start_char=24|end_char=25
 3	većina	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	start_char=26|end_char=32
@@ -22,6 +26,8 @@
 18	mjeseci	mjesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	obl	_	start_char=118|end_char=125
 19	.	.	PUNCT	Z	_	10	punct	_	start_char=125|end_char=126
 
+# text = Izvadio sam ih kako bih ih ponovno počeo koristiti nakon što me prometna nesreća spriječila u slobodnim utezima, a trake su počele gubiti boju i blijediti.
+# sent_id = 2
 1	Izvadio	izvaditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=127|end_char=134
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=135|end_char=138
 3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=139|end_char=141
@@ -51,6 +57,8 @@
 27	blijediti	blijediti	VERB	Vmn	VerbForm=Inf	24	conj	_	start_char=272|end_char=281
 28	.	.	PUNCT	Z	_	1	punct	_	start_char=281|end_char=282
 
+# text = Čini me nervoznim što cjelovitost gume slabi...
+# sent_id = 3
 1	Čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=283|end_char=287
 2	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=288|end_char=290
 3	nervoznim	nervozan	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	1	xcomp	_	start_char=291|end_char=300

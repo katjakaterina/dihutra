@@ -1,3 +1,5 @@
+# text = Lažno, prodavač sam piše recenzije!
+# sent_id = 0
 1	Lažno	lažno	ADV	Rgp	Degree=Pos	5	discourse	_	start_char=0|end_char=5
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=5|end_char=6
 3	prodavač	prodavač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=7|end_char=15
@@ -6,6 +8,8 @@
 6	recenzije	recenzija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=25|end_char=34
 7	!	!	PUNCT	Z	_	5	punct	_	start_char=34|end_char=35
 
+# text = Lažni MAc. MAC čak i ne proizvodi ovu paletu.
+# sent_id = 1
 1	Lažni	lažan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=36|end_char=41
 2	MAc	MAc	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=42|end_char=45
 3	.	.	PUNCT	Z	_	4	punct	_	start_char=45|end_char=46
@@ -18,6 +22,8 @@
 10	paletu	palet	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=74|end_char=80
 11	.	.	PUNCT	Z	_	8	punct	_	start_char=80|end_char=81
 
+# text = Prodavač je napisao pozitivne recenzije za vlastiti artikl pod ista dva imena, jedno Alexis i jedno ._...pogledajte sve recenzije koje pišu za vlastite proizvode.
+# sent_id = 2
 1	Prodavač	prodavač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=82|end_char=90
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=91|end_char=93
 3	napisao	napisati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=94|end_char=101
@@ -46,6 +52,8 @@
 26	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	23	obl	_	start_char=234|end_char=243
 27	.	.	PUNCT	Z	_	3	punct	_	start_char=243|end_char=244
 
+# text = Zašto se ovo ovdje događa?
+# sent_id = 3
 1	Zašto	zašto	ADV	Rgp	Degree=Pos|PronType=Int,Rel	5	advmod	_	start_char=245|end_char=250
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=251|end_char=253
 3	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=254|end_char=257
@@ -53,6 +61,8 @@
 5	događa	događati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=264|end_char=270
 6	?	?	PUNCT	Z	_	5	punct	_	start_char=270|end_char=271
 
+# text = Ove tipove treba zaustaviti
+# sent_id = 4
 1	Ove	ovaj	DET	Pd-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	start_char=272|end_char=275
 2	tipove	tip	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=276|end_char=282
 3	treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=283|end_char=288

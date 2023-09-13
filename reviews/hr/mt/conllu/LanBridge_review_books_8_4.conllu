@@ -1,3 +1,5 @@
+# text = himne nebeske ceste Heavenly Highway Hymns.
+# sent_id = 0
 1	himne	himne	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=5
 2	nebeske	nebeski	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=6|end_char=13
 3	ceste	cesta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=14|end_char=19
@@ -6,6 +8,8 @@
 6	Hymns	Hymns	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	start_char=37|end_char=42
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=42|end_char=43
 
+# text = Naručio sam ovu pjesmaricu jer sam naučio čitati oblikovane note kad sam bio tinejdžer.
+# sent_id = 1
 1	Naručio	naručiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=44|end_char=51
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=52|end_char=55
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=56|end_char=59
@@ -22,6 +26,8 @@
 14	tinejdžer	tinejdžer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	start_char=121|end_char=130
 15	.	.	PUNCT	Z	_	1	punct	_	start_char=130|end_char=131
 
+# text = Sviram klavir, ali ne pjevam.
+# sent_id = 2
 1	Sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=132|end_char=138
 2	klavir	klavir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=139|end_char=145
 3	,	,	PUNCT	Z	_	6	punct	_	start_char=145|end_char=146
@@ -30,11 +36,15 @@
 6	pjevam	pjevati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=154|end_char=160
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=160|end_char=161
 
+# text = Imam 85 godina.
+# sent_id = 3
 1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=162|end_char=166
 2	85	85	NUM	Mdc	NumType=Card	3	nummod	_	start_char=167|end_char=169
 3	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=170|end_char=176
 4	.	.	PUNCT	Z	_	1	punct	_	start_char=176|end_char=177
 
+# text = Ova pjesmarica sadrži većinu pjesama koje sam naučio tijekom godina.
+# sent_id = 4
 1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=178|end_char=181
 2	pjesmarica	pjesmarica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=182|end_char=192
 3	sadrži	sadržati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=193|end_char=199
@@ -47,6 +57,8 @@
 10	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	obl	_	start_char=239|end_char=245
 11	.	.	PUNCT	Z	_	3	punct	_	start_char=245|end_char=246
 
+# text = Bio je upravo ono što sam želio i trebao.
+# sent_id = 5
 1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=247|end_char=250
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=251|end_char=253
 3	upravo	upravo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=254|end_char=260
@@ -58,6 +70,8 @@
 9	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	start_char=281|end_char=287
 10	.	.	PUNCT	Z	_	4	punct	_	start_char=287|end_char=288
 
+# text = Bio je u dobrom stanju i cijena mu je bila odgovarajuća.
+# sent_id = 6
 1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=289|end_char=292
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=293|end_char=295
 3	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=296|end_char=297
@@ -71,6 +85,8 @@
 11	odgovarajuća	odgovarajući	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=332|end_char=344
 12	.	.	PUNCT	Z	_	5	punct	_	start_char=344|end_char=345
 
+# text = Kupio sam ovu knjigu na Amazonu.
+# sent_id = 7
 1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=346|end_char=351
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=352|end_char=355
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=356|end_char=359

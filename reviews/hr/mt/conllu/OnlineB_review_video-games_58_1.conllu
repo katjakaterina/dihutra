@@ -1,5 +1,9 @@
+# text = Zavaravajuće
+# sent_id = 0
 1	Zavaravajuće	zavaravajući	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=12
 
+# text = Nigdje u opisu ne piše da neće raditi ni na jednom programu novijem od Windows 98.
+# sent_id = 1
 1	Nigdje	nigdje	ADV	Rgp	Degree=Pos|PronType=Neg	5	advmod	_	start_char=13|end_char=19
 2	u	u	ADP	Sl	Case=Loc	3	case	_	start_char=20|end_char=21
 3	opisu	opis	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=22|end_char=27
@@ -18,6 +22,8 @@
 16	98	98	NUM	Mdc	NumType=Card	15	nummod	_	start_char=92|end_char=94
 17	.	.	PUNCT	Z	_	5	punct	_	start_char=94|end_char=95
 
+# text = Napravio sam računalo za igranje koje bi koštalo više od 3.000 dolara da se može kupiti bilo što slično njemu u maloprodajnom okruženju pa znam da to nije moj stroj.
+# sent_id = 2
 1	Napravio	napraviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=96|end_char=104
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=105|end_char=108
 3	računalo	računalo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=109|end_char=117
@@ -50,6 +56,8 @@
 30	stroj	stroj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	25	ccomp	_	start_char=255|end_char=260
 31	.	.	PUNCT	Z	_	1	punct	_	start_char=260|end_char=261
 
+# text = JAKO sam razočaran jer sam veliki obožavatelj Douglasa Adamsa.
+# sent_id = 3
 1	JAKO	jako	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=262|end_char=266
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=267|end_char=270
 3	razočaran	razočaran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=271|end_char=280

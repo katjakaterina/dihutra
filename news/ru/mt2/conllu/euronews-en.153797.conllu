@@ -1,0 +1,107 @@
+# text = Цунами и землетрясение в Индонезии: сотни погибших По меньшей мере 384 человека погибли в результате землетрясения, произошедшего в пятницу на индонезийском острове Сулавеси.
+# sent_id = 0
+1	Цунами	цуна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	start_char=0|end_char=6
+2	и	и	CCONJ	_	_	3	cc	_	start_char=7|end_char=8
+3	землетрясение	землетрясение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=9|end_char=22
+4	в	в	ADP	_	_	5	case	_	start_char=23|end_char=24
+5	Индонезии	Индонезия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	start_char=25|end_char=34
+6	:	:	PUNCT	_	_	14	punct	_	start_char=34|end_char=35
+7	сотни	сотня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=36|end_char=41
+8	погибших	погибнуть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	start_char=42|end_char=50
+9	По	по	ADP	_	_	12	advmod	_	start_char=51|end_char=53
+10	меньшей	меньший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	fixed	_	start_char=54|end_char=61
+11	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	fixed	_	start_char=62|end_char=66
+12	384	384	NUM	_	NumType=Card	13	nummod	_	start_char=67|end_char=70
+13	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=71|end_char=79
+14	погибли	погибнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=80|end_char=87
+15	в	в	ADP	_	_	16	case	_	start_char=88|end_char=89
+16	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	start_char=90|end_char=100
+17	землетрясения	землетрясение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	start_char=101|end_char=114
+18	,	,	PUNCT	_	_	19	punct	_	start_char=114|end_char=115
+19	произошедшего	произойти	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	acl	_	start_char=116|end_char=129
+20	в	в	ADP	_	_	21	case	_	start_char=130|end_char=131
+21	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	start_char=132|end_char=139
+22	на	на	ADP	_	_	24	case	_	start_char=140|end_char=142
+23	индонезийском	индонезийский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=143|end_char=156
+24	острове	остров	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	start_char=157|end_char=164
+25	Сулавеси	Сулавеси	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	start_char=165|end_char=173
+26	.	.	PUNCT	_	_	1	punct	_	start_char=173|end_char=174
+
+# text = Землетрясение магнитудой 7,5 вызвало цунами и разрушило тысячи домов.
+# sent_id = 1
+1	Землетрясение	землетрясение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=175|end_char=188
+2	магнитудой	магнитуда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=189|end_char=199
+3	7,5	7,5	NUM	_	NumType=Card	2	nummod:entity	_	start_char=200|end_char=203
+4	вызвало	вызвать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=204|end_char=211
+5	цунами	цунами	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=212|end_char=218
+6	и	и	CCONJ	_	_	7	cc	_	start_char=219|end_char=220
+7	разрушило	разрушить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=221|end_char=230
+8	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	nummod:gov	_	start_char=231|end_char=237
+9	домов	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=238|end_char=243
+10	.	.	PUNCT	_	_	4	punct	_	start_char=243|end_char=244
+
+# text = В ближайшие дни ожидается рост числа погибших.
+# sent_id = 2
+1	В	в	ADP	_	_	3	case	_	start_char=245|end_char=246
+2	ближайшие	ближайший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=247|end_char=256
+3	дни	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obl	_	start_char=257|end_char=260
+4	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=261|end_char=270
+5	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=271|end_char=275
+6	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=276|end_char=281
+7	погибших	погибнуть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	nmod	_	start_char=282|end_char=290
+8	.	.	PUNCT	_	_	4	punct	_	start_char=290|end_char=291
+
+# text = Землетрясение произошло недалеко от центральной части острова Сулавеси, расположенного к северо-востоку от столицы Индонезии Джакарты.
+# sent_id = 3
+1	Землетрясение	землетрясение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=292|end_char=305
+2	произошло	произойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=306|end_char=315
+3	недалеко	недалеко	ADV	_	Degree=Pos	2	advmod	_	start_char=316|end_char=324
+4	от	от	ADP	_	_	6	case	_	start_char=325|end_char=327
+5	центральной	центральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=328|end_char=339
+6	части	часть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=340|end_char=345
+7	острова	остров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=346|end_char=353
+8	Сулавеси	Сулавеси	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	start_char=354|end_char=362
+9	,	,	PUNCT	_	_	10	punct	_	start_char=362|end_char=363
+10	расположенного	расположенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=364|end_char=378
+11	к	к	ADP	_	_	12	case	_	start_char=379|end_char=380
+12	северо-востоку	северо-восток	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=381|end_char=395
+13	от	от	ADP	_	_	14	case	_	start_char=396|end_char=398
+14	столицы	столица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=399|end_char=406
+15	Индонезии	Индонезия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=407|end_char=416
+16	Джакарты	Джакарта	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=417|end_char=425
+17	.	.	PUNCT	_	_	2	punct	_	start_char=425|end_char=426
+
+# text = В социальных сетях распространяются видеоролики, на которых запечатлен момент толчка.
+# sent_id = 4
+1	В	в	ADP	_	_	3	case	_	start_char=427|end_char=428
+2	социальных	социальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	start_char=429|end_char=439
+3	сетях	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	obl	_	start_char=440|end_char=445
+4	распространяются	распространяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=446|end_char=462
+5	видеоролики	видеоролик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=463|end_char=474
+6	,	,	PUNCT	_	_	9	punct	_	start_char=474|end_char=475
+7	на	на	ADP	_	_	8	case	_	start_char=476|end_char=478
+8	которых	который	PRON	_	Case=Loc|PronType=Int,Rel	9	obl	_	start_char=479|end_char=486
+9	запечатлен	запечать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl:relcl	_	start_char=487|end_char=497
+10	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	start_char=498|end_char=504
+11	толчка	толчка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=505|end_char=511
+12	.	.	PUNCT	_	_	4	punct	_	start_char=511|end_char=512
+
+# text = Сотни людей собрались на пляжный фестиваль в городе Палу, когда цунами обрушилось на берег.
+# sent_id = 5
+1	Сотни	сотня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=513|end_char=518
+2	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=519|end_char=524
+3	собрались	собраться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=525|end_char=534
+4	на	на	ADP	_	_	6	case	_	start_char=535|end_char=537
+5	пляжный	пляжный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=538|end_char=545
+6	фестиваль	фестиваль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=546|end_char=555
+7	в	в	ADP	_	_	8	case	_	start_char=556|end_char=557
+8	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=558|end_char=564
+9	Палу	Пал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	start_char=565|end_char=569
+10	,	,	PUNCT	_	_	13	punct	_	start_char=569|end_char=570
+11	когда	когда	SCONJ	_	_	13	mark	_	start_char=571|end_char=576
+12	цунами	цунами	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=577|end_char=583
+13	обрушилось	обрушиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	start_char=584|end_char=594
+14	на	на	ADP	_	_	15	case	_	start_char=595|end_char=597
+15	берег	берег	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	start_char=598|end_char=603
+16	.	.	PUNCT	_	_	3	punct	_	start_char=603|end_char=604
+

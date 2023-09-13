@@ -1,3 +1,5 @@
+# text = Ne mogu preporučiti Nisam očekivao da će ovaj kabel biti tako tanak.
+# sent_id = 0
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=0|end_char=2
 2	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=3|end_char=7
 3	preporučiti	preporučiti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=8|end_char=19
@@ -12,6 +14,8 @@
 12	tanak	tanak	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	ccomp	_	start_char=62|end_char=67
 13	.	.	PUNCT	Z	_	2	punct	_	start_char=67|end_char=68
 
+# text = Lako je 1/2 debljine bilo kojeg kabela za gitaru koji sam koristio.
+# sent_id = 1
 1	Lako	lako	ADV	Rgp	Degree=Pos	0	root	_	start_char=69|end_char=73
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=74|end_char=76
 3	1/2	1/2	NUM	Mdc	NumType=Card	4	nummod	_	start_char=77|end_char=80
@@ -26,6 +30,8 @@
 12	koristio	koristiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	acl	_	start_char=127|end_char=135
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=135|end_char=136
 
+# text = Nisam siguran za dugotrajnu trajnost ili gubitak signala/smetnje.
+# sent_id = 2
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=137|end_char=142
 2	siguran	siguran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=143|end_char=150
 3	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=151|end_char=153
@@ -36,6 +42,8 @@
 8	signala/smetnje	signala/smetnja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=186|end_char=201
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=201|end_char=202
 
+# text = Da sam imao dovoljno predviđanja, potrošio bih nekoliko dodatnih dolara na deblji kabel.
+# sent_id = 3
 1	Da	da	SCONJ	Cs	_	3	mark	_	start_char=203|end_char=205
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=206|end_char=209
 3	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=210|end_char=214
@@ -52,6 +60,8 @@
 14	kabel	kabel	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=285|end_char=290
 15	.	.	PUNCT	Z	_	7	punct	_	start_char=290|end_char=291
 
+# text = Ipak, radi i bio je jeftin.EDIT: 6 mjeseci kasnije i već je mrtav.
+# sent_id = 4
 1	Ipak	ipak	ADV	Rgp	Degree=Pos	3	discourse	_	start_char=292|end_char=296
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=296|end_char=297
 3	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=298|end_char=302
@@ -69,6 +79,8 @@
 15	mrtav	mrtav	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=352|end_char=357
 16	.	.	PUNCT	Z	_	3	punct	_	start_char=357|end_char=358
 
+# text = Žica pohabana na utičnici pod pravim kutom.
+# sent_id = 5
 1	Žica	žico	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=359|end_char=363
 2	pohabana	pohaban	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=364|end_char=372
 3	na	na	ADP	Sl	Case=Loc	4	case	_	start_char=373|end_char=375
@@ -78,6 +90,8 @@
 7	kutom	kut	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	start_char=396|end_char=401
 8	.	.	PUNCT	Z	_	1	punct	_	start_char=401|end_char=402
 
+# text = Dobijete ono za što plaćate.
+# sent_id = 6
 1	Dobijete	dobiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=403|end_char=411
 2	ono	onaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=412|end_char=415
 3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=416|end_char=418

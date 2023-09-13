@@ -1,3 +1,5 @@
+# text = Knjiga nije o šivanju krugova, već o stavljanju krugova na poplun aplikacijom
+# sent_id = 0
 1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=6
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=7|end_char=11
 3	o	o	ADP	Sl	Case=Loc	4	case	_	start_char=12|end_char=13
@@ -12,6 +14,8 @@
 12	poplun	poplun	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	start_char=59|end_char=65
 13	aplikacijom	aplikacija	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	start_char=66|end_char=77
 
+# text = Nadala sam se savjetima kako šivati krugove.
+# sent_id = 1
 1	Nadala	nadati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=78|end_char=84
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=85|end_char=88
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=89|end_char=91
@@ -21,6 +25,8 @@
 7	krugove	krug	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=114|end_char=121
 8	.	.	PUNCT	Z	_	1	punct	_	start_char=121|end_char=122
 
+# text = Ova knjiga govori o pričvršćivanju krugova na poplun pomoću topljive trake i korištenju neobrađenih rubnih aplikacija.
+# sent_id = 2
 1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=123|end_char=126
 2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=127|end_char=133
 3	govori	govoriti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=134|end_char=140
@@ -39,6 +45,8 @@
 16	aplikacija	aplikacija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	start_char=230|end_char=240
 17	.	.	PUNCT	Z	_	3	punct	_	start_char=240|end_char=241
 
+# text = Nema čak ni savjeta o aplikacijama.
+# sent_id = 3
 1	Nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=242|end_char=246
 2	čak	čak	PART	Qo	_	4	advmod	_	start_char=247|end_char=250
 3	ni	ni	PART	Qo	_	4	discourse	_	start_char=251|end_char=253
@@ -47,6 +55,8 @@
 6	aplikacijama	aplikacija	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	4	nmod	_	start_char=264|end_char=276
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=276|end_char=277
 
+# text = Dobra vijest je da knjiga ima samo 35 stranica i da mi nije oduzela previše vremena.
+# sent_id = 4
 1	Dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=278|end_char=283
 2	vijest	vijest	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=284|end_char=290
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=291|end_char=293

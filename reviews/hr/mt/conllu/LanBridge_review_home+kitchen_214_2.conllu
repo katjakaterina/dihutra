@@ -1,9 +1,13 @@
+# text = Velika umjetnost -- problem kadriranja
+# sent_id = 0
 1	Velika	velik	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
 2	umjetnost	umjetnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=16
 3	--	--	PUNCT	Z	_	4	punct	_	start_char=17|end_char=19
 4	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=20|end_char=27
 5	kadriranja	kadriranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=28|end_char=38
 
+# text = Dodatno sam platio da dobijem uokvirenu verziju ovog umjetničkog djela za sobu mog sina.
+# sent_id = 1
 1	Dodatno	dodatno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=39|end_char=46
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=47|end_char=50
 3	platio	platiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=51|end_char=57
@@ -20,11 +24,15 @@
 14	sina	sin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=122|end_char=126
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=126|end_char=127
 
+# text = Volim sam crtić.
+# sent_id = 2
 1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=128|end_char=133
 2	sam	sam	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=134|end_char=137
 3	crtić	crtić	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=138|end_char=143
 4	.	.	PUNCT	Z	_	1	punct	_	start_char=143|end_char=144
 
+# text = Ali bio sam razočaran činjenicom da je okvir drugačije boje od onoga što je prikazano na fotografiji predmeta.
+# sent_id = 3
 1	Ali	ali	CCONJ	Cc	_	4	cc	_	start_char=145|end_char=148
 2	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=149|end_char=152
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=153|end_char=156
@@ -45,6 +53,8 @@
 18	predmeta	predmet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=246|end_char=254
 19	.	.	PUNCT	Z	_	4	punct	_	start_char=254|end_char=255
 
+# text = Poslao sam e-poštu tvrtki (Andrews McMeel Art) prije otprilike tjedan dana i do sada nisu odgovorili.
+# sent_id = 4
 1	Poslao	poslati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=256|end_char=262
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=263|end_char=266
 3	e-poštu	e-post	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=267|end_char=274
@@ -65,6 +75,8 @@
 18	odgovorili	odgovoriti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=346|end_char=356
 19	.	.	PUNCT	Z	_	1	punct	_	start_char=356|end_char=357
 
+# text = Ažuriranje -- tvrtka je odgovorila na moju e-poštu vrlo lijepom porukom koja pokazuje da će ispraviti stvari.
+# sent_id = 5
 1	Ažuriranje	ažuriranje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	start_char=358|end_char=368
 2	--	--	PUNCT	Z	_	1	punct	_	start_char=369|end_char=371
 3	tvrtka	tvrtka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=372|end_char=378
@@ -84,6 +96,8 @@
 17	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=460|end_char=466
 18	.	.	PUNCT	Z	_	5	punct	_	start_char=466|end_char=467
 
+# text = Možda ću nakon toga postati potpuno zadovoljan kupac.
+# sent_id = 6
 1	Možda	možda	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=468|end_char=473
 2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=474|end_char=476
 3	nakon	nakon	ADP	Sg	Case=Gen	4	case	_	start_char=477|end_char=482
@@ -94,6 +108,8 @@
 8	kupac	kupac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=515|end_char=520
 9	.	.	PUNCT	Z	_	5	punct	_	start_char=520|end_char=521
 
+# text = Ako je tako, ponovno ću ažurirati.
+# sent_id = 7
 1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=522|end_char=525
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=526|end_char=528
 3	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	7	advcl	_	start_char=529|end_char=533

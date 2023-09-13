@@ -1,0 +1,234 @@
+# text = Тюрьма Лонг Лартин: Шесть сотрудников пострадали в результате беспорядков В результате беспорядков в мужской тюрьме строгого режима пострадали шесть сотрудников, сообщает Управление тюрем.
+# sent_id = 0
+1	Тюрьма	тюрьма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6
+2	Лонг	Лонг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=7|end_char=11
+3	Лартин	Лартин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	start_char=12|end_char=18
+4	:	:	PUNCT	_	_	7	punct	_	start_char=18|end_char=19
+5	Шесть	шесть	NUM	_	Case=Nom|NumType=Card	6	nummod:gov	_	start_char=20|end_char=25
+6	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	start_char=26|end_char=37
+7	пострадали	страдать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=38|end_char=48
+8	в	в	ADP	_	_	9	case	_	start_char=49|end_char=50
+9	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=51|end_char=61
+10	беспорядков	беспорядки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=62|end_char=73
+11	В	в	ADP	_	_	12	case	_	start_char=74|end_char=75
+12	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	start_char=76|end_char=86
+13	беспорядков	беспорядки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=87|end_char=98
+14	в	в	ADP	_	_	16	case	_	start_char=99|end_char=100
+15	мужской	мужской	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=101|end_char=108
+16	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	start_char=109|end_char=115
+17	строгого	строгий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=116|end_char=124
+18	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=125|end_char=131
+19	пострадали	страдать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	start_char=132|end_char=142
+20	шесть	шесть	NUM	_	Case=Nom|NumType=Card	21	nummod:gov	_	start_char=143|end_char=148
+21	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nsubj	_	start_char=149|end_char=160
+22	,	,	PUNCT	_	_	23	punct	_	start_char=160|end_char=161
+23	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=162|end_char=170
+24	Управление	Управление	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=171|end_char=181
+25	тюрем	тюрьма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	start_char=182|end_char=187
+26	.	.	PUNCT	_	_	1	punct	_	start_char=187|end_char=188
+
+# text = Беспорядки в тюрьме HMP Long Lartin в графстве Вустершир начались около 09:30 BST в воскресенье и продолжаются до сих пор.
+# sent_id = 1
+1	Беспорядки	беспорядки	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=189|end_char=199
+2	в	в	ADP	_	_	3	case	_	start_char=200|end_char=201
+3	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	start_char=202|end_char=208
+4	HMP	HMP	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=209|end_char=212
+5	Long	Long	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=213|end_char=217
+6	Lartin	Lartin	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=218|end_char=224
+7	в	в	ADP	_	_	8	case	_	start_char=225|end_char=226
+8	графстве	графство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	start_char=227|end_char=235
+9	Вустершир	Вустершир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	start_char=236|end_char=245
+10	начались	начаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=246|end_char=254
+11	около	около	ADP	_	_	12	case	_	start_char=255|end_char=260
+12	09	09	NUM	_	NumType=Card	10	obl	_	start_char=261|end_char=263
+13	:	:	PUNCT	_	_	14	punct	_	start_char=263|end_char=264
+14	30	30	NUM	_	NumType=Card	12	nmod	_	start_char=264|end_char=266
+15	BST	BST	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=267|end_char=270
+16	в	в	ADP	_	_	17	case	_	start_char=271|end_char=272
+17	воскресенье	воскресенье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=273|end_char=284
+18	и	и	CCONJ	_	_	19	cc	_	start_char=285|end_char=286
+19	продолжаются	продолжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	conj	_	start_char=287|end_char=299
+20	до	до	ADP	_	_	19	advmod	_	start_char=300|end_char=302
+21	сих	сей	DET	_	Case=Gen|Number=Plur|PronType=Dem	20	fixed	_	start_char=303|end_char=306
+22	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	fixed	_	start_char=307|end_char=310
+23	.	.	PUNCT	_	_	10	punct	_	start_char=310|end_char=311
+
+# text = Для борьбы с беспорядками, в которых участвуют восемь заключенных и которые локализованы в одном крыле, были привлечены специальные сотрудники "Торнадо".
+# sent_id = 2
+1	Для	для	ADP	_	_	2	case	_	start_char=312|end_char=315
+2	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	start_char=316|end_char=322
+3	с	с	ADP	_	_	4	case	_	start_char=323|end_char=324
+4	беспорядками	беспорядки	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	start_char=325|end_char=337
+5	,	,	PUNCT	_	_	8	punct	_	start_char=337|end_char=338
+6	в	в	ADP	_	_	7	case	_	start_char=339|end_char=340
+7	которых	который	PRON	_	Case=Loc|PronType=Int,Rel	8	obl	_	start_char=341|end_char=348
+8	участвуют	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=349|end_char=358
+9	восемь	восемь	NUM	_	Case=Nom|NumType=Card	10	nummod:gov	_	start_char=359|end_char=365
+10	заключенных	заключенный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	start_char=366|end_char=377
+11	и	и	CCONJ	_	_	13	cc	_	start_char=378|end_char=379
+12	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	13	nsubj:pass	_	start_char=380|end_char=387
+13	локализованы	локализовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	start_char=388|end_char=400
+14	в	в	ADP	_	_	16	case	_	start_char=401|end_char=402
+15	одном	один	NUM	_	Case=Loc|Gender=Masc|NumType=Card	16	nummod	_	start_char=403|end_char=408
+16	крыле	крыло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	start_char=409|end_char=414
+17	,	,	PUNCT	_	_	2	punct	_	start_char=414|end_char=415
+18	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	start_char=416|end_char=420
+19	привлечены	привлечь	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=421|end_char=431
+20	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	start_char=432|end_char=443
+21	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj:pass	_	start_char=444|end_char=454
+22	"	"	PUNCT	_	_	23	punct	_	start_char=455|end_char=456
+23	Торнадо	Торнадо	PROPN	_	_	21	nmod	_	start_char=456|end_char=463
+24	"	"	PUNCT	_	_	23	punct	_	start_char=463|end_char=464
+25	.	.	PUNCT	_	_	19	punct	_	start_char=464|end_char=465
+
+# text = На месте происшествия сотрудникам была оказана медицинская помощь в связи с незначительными повреждениями лица.
+# sent_id = 3
+1	На	на	ADP	_	_	2	case	_	start_char=466|end_char=468
+2	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=469|end_char=474
+3	происшествия	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=475|end_char=487
+4	сотрудникам	сотрудник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	start_char=488|end_char=499
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=500|end_char=504
+6	оказана	оказать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=505|end_char=512
+7	медицинская	медицинский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=513|end_char=524
+8	помощь	помощь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	start_char=525|end_char=531
+9	в	в	ADP	_	_	13	case	_	start_char=532|end_char=533
+10	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	fixed	_	start_char=534|end_char=539
+11	с	с	ADP	_	_	9	fixed	_	start_char=540|end_char=541
+12	незначительными	незначительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	start_char=542|end_char=557
+13	повреждениями	повреждение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	nmod	_	start_char=558|end_char=571
+14	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=572|end_char=576
+15	.	.	PUNCT	_	_	6	punct	_	start_char=576|end_char=577
+
+# text = Представитель тюремной службы сказал: "Специально обученный тюремный персонал был направлен на ликвидацию последствий инцидента в тюрьме HMP Long Lartin.
+# sent_id = 4
+1	Представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=578|end_char=591
+2	тюремной	тюремный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=592|end_char=600
+3	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=601|end_char=607
+4	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=608|end_char=614
+5	:	:	PUNCT	_	_	12	punct	_	start_char=614|end_char=615
+6	"	"	PUNCT	_	_	12	punct	_	start_char=616|end_char=617
+7	Специально	специально	ADV	_	Degree=Pos	8	advmod	_	start_char=617|end_char=627
+8	обученный	обучить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	start_char=628|end_char=637
+9	тюремный	тюремный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=638|end_char=646
+10	персонал	персонал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	start_char=647|end_char=655
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=656|end_char=659
+12	направлен	направить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	start_char=660|end_char=669
+13	на	на	ADP	_	_	14	case	_	start_char=670|end_char=672
+14	ликвидацию	ликвидация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=673|end_char=683
+15	последствий	последствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	start_char=684|end_char=695
+16	инцидента	инцидент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=696|end_char=705
+17	в	в	ADP	_	_	18	case	_	start_char=706|end_char=707
+18	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	start_char=708|end_char=714
+19	HMP	HMP	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=715|end_char=718
+20	Long	Long	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=719|end_char=723
+21	Lartin	Lartin	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=724|end_char=730
+22	.	.	PUNCT	_	_	4	punct	_	start_char=730|end_char=731
+
+# text = Шесть сотрудников получили травмы.
+# sent_id = 5
+1	Шесть	шесть	NUM	_	Case=Nom|NumType=Card	2	nummod:gov	_	start_char=732|end_char=737
+2	сотрудников	сотрудник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	start_char=738|end_char=749
+3	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=750|end_char=758
+4	травмы	травма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=759|end_char=765
+5	.	.	PUNCT	_	_	3	punct	_	start_char=765|end_char=766
+
+# text = Мы не приемлем насилия в наших тюрьмах и однозначно заявляем, что виновные будут переданы в полицию и могут провести за решеткой больше времени".
+# sent_id = 6
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=767|end_char=769
+2	не	не	PART	_	_	3	advmod	_	start_char=770|end_char=772
+3	приемлем	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=773|end_char=781
+4	насилия	насилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=782|end_char=789
+5	в	в	ADP	_	_	7	case	_	start_char=790|end_char=791
+6	наших	наш	DET	_	Case=Loc|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	start_char=792|end_char=797
+7	тюрьмах	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	start_char=798|end_char=805
+8	и	и	CCONJ	_	_	10	cc	_	start_char=806|end_char=807
+9	однозначно	однозначно	ADV	_	Degree=Pos	10	advmod	_	start_char=808|end_char=818
+10	заявляем	заявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=819|end_char=827
+11	,	,	PUNCT	_	_	15	punct	_	start_char=827|end_char=828
+12	что	что	SCONJ	_	_	15	mark	_	start_char=829|end_char=832
+13	виновные	виновный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	nsubj:pass	_	start_char=833|end_char=841
+14	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux:pass	_	start_char=842|end_char=847
+15	переданы	передать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	ccomp	_	start_char=848|end_char=856
+16	в	в	ADP	_	_	17	case	_	start_char=857|end_char=858
+17	полицию	полиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=859|end_char=866
+18	и	и	CCONJ	_	_	19	cc	_	start_char=867|end_char=868
+19	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	start_char=869|end_char=874
+20	провести	провести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=875|end_char=883
+21	за	за	ADP	_	_	22	case	_	start_char=884|end_char=886
+22	решеткой	решетка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	start_char=887|end_char=895
+23	больше	больше	ADV	_	Degree=Cmp	24	advmod	_	start_char=896|end_char=902
+24	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	start_char=903|end_char=910
+25	"	"	PUNCT	_	_	24	punct	_	start_char=910|end_char=911
+26	.	.	PUNCT	_	_	3	punct	_	start_char=911|end_char=912
+
+# text = В тюрьме HMP Long Lartin содержится более 500 заключенных, в том числе наиболее опасные преступники страны.
+# sent_id = 7
+1	В	в	ADP	_	_	2	case	_	start_char=913|end_char=914
+2	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=915|end_char=921
+3	HMP	HMP	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=922|end_char=925
+4	Long	Long	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=926|end_char=930
+5	Lartin	Lartin	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=931|end_char=937
+6	содержится	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=938|end_char=948
+7	более	более	ADV	_	Degree=Cmp	6	nsubj	_	start_char=949|end_char=954
+8	500	500	NUM	_	NumType=Card	9	nummod	_	start_char=955|end_char=958
+9	заключенных	заключенный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=959|end_char=970
+10	,	,	PUNCT	_	_	16	punct	_	start_char=970|end_char=971
+11	в	в	ADP	_	_	13	case	_	start_char=972|end_char=973
+12	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	start_char=974|end_char=977
+13	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	start_char=978|end_char=983
+14	наиболее	наиболее	ADV	_	Degree=Pos	15	obl	_	start_char=984|end_char=992
+15	опасные	опасный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	start_char=993|end_char=1000
+16	преступники	преступник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	start_char=1001|end_char=1012
+17	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=1013|end_char=1019
+18	.	.	PUNCT	_	_	6	punct	_	start_char=1019|end_char=1020
+
+# text = В июне сообщалось, что начальник тюрьмы попал в больницу после нападения на него одного из заключенных.
+# sent_id = 8
+1	В	в	ADP	_	_	2	case	_	start_char=1021|end_char=1022
+2	июне	июнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=1023|end_char=1027
+3	сообщалось	сообщать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=1028|end_char=1038
+4	,	,	PUNCT	_	_	8	punct	_	start_char=1038|end_char=1039
+5	что	что	SCONJ	_	_	8	mark	_	start_char=1040|end_char=1043
+6	начальник	начальник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1044|end_char=1053
+7	тюрьмы	тюрьма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=1054|end_char=1060
+8	попал	попасть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=1061|end_char=1066
+9	в	в	ADP	_	_	10	case	_	start_char=1067|end_char=1068
+10	больницу	больница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=1069|end_char=1077
+11	после	после	ADP	_	_	12	case	_	start_char=1078|end_char=1083
+12	нападения	нападение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=1084|end_char=1093
+13	на	на	ADP	_	_	14	case	_	start_char=1094|end_char=1096
+14	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	start_char=1097|end_char=1101
+15	одного	один	NUM	_	Case=Acc|Gender=Masc|NumType=Card	12	nmod	_	start_char=1102|end_char=1108
+16	из	из	ADP	_	_	17	case	_	start_char=1109|end_char=1111
+17	заключенных	заключенный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=1112|end_char=1123
+18	.	.	PUNCT	_	_	3	punct	_	start_char=1123|end_char=1124
+
+# text = А в октябре прошлого года в тюрьму были вызваны сотрудники ОМОНа для устранения серьезных беспорядков, в ходе которых персонал подвергся нападению с бильярдными шарами.
+# sent_id = 9
+1	А	а	CCONJ	_	_	9	cc	_	start_char=1125|end_char=1126
+2	в	в	ADP	_	_	3	case	_	start_char=1127|end_char=1128
+3	октябре	октябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=1129|end_char=1136
+4	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=1137|end_char=1145
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=1146|end_char=1150
+6	в	в	ADP	_	_	7	case	_	start_char=1151|end_char=1152
+7	тюрьму	тюрьма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=1153|end_char=1159
+8	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=1160|end_char=1164
+9	вызваны	вызвать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=1165|end_char=1172
+10	сотрудники	сотрудник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	start_char=1173|end_char=1183
+11	ОМОНа	омон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=1184|end_char=1189
+12	для	для	ADP	_	_	13	case	_	start_char=1190|end_char=1193
+13	устранения	устранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=1194|end_char=1204
+14	серьезных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=1205|end_char=1214
+15	беспорядков	беспорядки	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=1215|end_char=1226
+16	,	,	PUNCT	_	_	21	punct	_	start_char=1226|end_char=1227
+17	в	в	ADP	_	_	19	case	_	start_char=1228|end_char=1229
+18	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	fixed	_	start_char=1230|end_char=1234
+19	которых	который	PRON	_	Case=Gen|PronType=Int,Rel	21	obl	_	start_char=1235|end_char=1242
+20	персонал	персонал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	start_char=1243|end_char=1251
+21	подвергся	подвергнуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl:relcl	_	start_char=1252|end_char=1261
+22	нападению	нападение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	iobj	_	start_char=1262|end_char=1271
+23	с	с	ADP	_	_	25	case	_	start_char=1272|end_char=1273
+24	бильярдными	бильярдный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	start_char=1274|end_char=1285
+25	шарами	шар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	22	nmod	_	start_char=1286|end_char=1292
+26	.	.	PUNCT	_	_	9	punct	_	start_char=1292|end_char=1293
+

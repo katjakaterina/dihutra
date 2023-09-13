@@ -1,8 +1,12 @@
+# text = Odličan je okus!
+# sent_id = 0
 1	Odličan	odličan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=7
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=8|end_char=10
 3	okus	okus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=15
 4	!	!	PUNCT	Z	_	3	punct	_	start_char=15|end_char=16
 
+# text = Započela sam novu dijetu ograničavajući sve dodane šećere.
+# sent_id = 1
 1	Započela	započeti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=17|end_char=25
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=26|end_char=29
 3	novu	nov	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=30|end_char=34
@@ -13,6 +17,8 @@
 8	šećere	šećera	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=68|end_char=74
 9	.	.	PUNCT	Z	_	1	punct	_	start_char=74|end_char=75
 
+# text = Ovo je bio jedan od rijetkih brendova koje sam mogao pronaći koji nisu dodali šećer u sastojke.
+# sent_id = 2
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=76|end_char=79
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=80|end_char=82
 3	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	start_char=83|end_char=86
@@ -32,12 +38,16 @@
 17	sastojke	sastojka	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	14	obl	_	start_char=162|end_char=170
 18	.	.	PUNCT	Z	_	7	punct	_	start_char=170|end_char=171
 
+# text = I izvrsnog je okusa!
+# sent_id = 3
 1	I	i	CCONJ	Cc	_	4	cc	_	start_char=172|end_char=173
 2	izvrsnog	izvrstan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=174|end_char=182
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=183|end_char=185
 4	okusa	okus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	start_char=186|end_char=191
 5	!	!	PUNCT	Z	_	3	punct	_	start_char=191|end_char=192
 
+# text = Nisam siguran da bih mogao završiti cijelu ovu kadu prije nego što se aktivira.
+# sent_id = 4
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=193|end_char=198
 2	siguran	siguran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=199|end_char=206
 3	da	da	SCONJ	Cs	_	5	mark	_	start_char=207|end_char=209
@@ -54,6 +64,8 @@
 14	aktivira	aktivirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=263|end_char=271
 15	.	.	PUNCT	Z	_	2	punct	_	start_char=271|end_char=272
 
+# text = Koliko dugo traje?
+# sent_id = 5
 1	Koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=273|end_char=279
 2	dugo	dugo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=280|end_char=284
 3	traje	trajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=285|end_char=290

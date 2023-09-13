@@ -1,9 +1,13 @@
+# text = Apsolutno volim kućište!!
+# sent_id = 0
 1	Apsolutno	apsolutno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=9
 2	volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10|end_char=15
 3	kućište	kućište	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=16|end_char=23
 4	!	!	PUNCT	Z	_	2	punct	_	start_char=23|end_char=24
 5	!	!	PUNCT	Z	_	2	punct	_	start_char=24|end_char=25
 
+# text = Radi točno onako kako je oglašeno.
+# sent_id = 1
 1	Radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=26|end_char=30
 2	točno	točno	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=31|end_char=36
 3	onako	onako	SCONJ	Cs	_	6	mark	_	start_char=37|end_char=42
@@ -12,6 +16,8 @@
 6	oglašeno	oglašen	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	1	advcl	_	start_char=51|end_char=59
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=59|end_char=60
 
+# text = Vrlo je čvrsto izgrađen i pruža mnogo poticaja.
+# sent_id = 2
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=61|end_char=65
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=66|end_char=68
 3	čvrsto	čvrsto	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=69|end_char=75
@@ -22,6 +28,8 @@
 8	poticaja	poticaj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obj	_	start_char=99|end_char=107
 9	.	.	PUNCT	Z	_	4	punct	_	start_char=107|end_char=108
 
+# text = Također radi točno ono što bi trebao.
+# sent_id = 3
 1	Također	također	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=109|end_char=116
 2	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=117|end_char=121
 3	točno	točno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=122|end_char=127
@@ -31,6 +39,8 @@
 7	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	start_char=139|end_char=145
 8	.	.	PUNCT	Z	_	2	punct	_	start_char=145|end_char=146
 
+# text = Jednostavno umetanje i uklanjanje telefona.
+# sent_id = 4
 1	Jednostavno	jednostavno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=147|end_char=158
 2	umetanje	umetanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=159|end_char=167
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=168|end_char=169
@@ -38,6 +48,8 @@
 5	telefona	telefon	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=181|end_char=189
 6	.	.	PUNCT	Z	_	2	punct	_	start_char=189|end_char=190
 
+# text = Definitivno iskustvo s 5 zvjezdica.
+# sent_id = 5
 1	Definitivno	definitivno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=191|end_char=202
 2	iskustvo	iskustvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=203|end_char=211
 3	s	sa	ADP	Si	Case=Ins	5	case	_	start_char=212|end_char=213
@@ -45,6 +57,8 @@
 5	zvjezdica	zvjezdica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=216|end_char=225
 6	.	.	PUNCT	Z	_	2	punct	_	start_char=225|end_char=226
 
+# text = Ne znam što bih napravio bez ovog slučaja LJUBAV LJUBAV LJUBAV to.
+# sent_id = 6
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=227|end_char=229
 2	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=230|end_char=234
 3	što	što	SCONJ	Cs	_	5	mark	_	start_char=235|end_char=238

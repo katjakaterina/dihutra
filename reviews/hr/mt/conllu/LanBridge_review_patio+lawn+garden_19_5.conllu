@@ -1,3 +1,5 @@
+# text = Gilmour 8-slojno Flexogen crijevo 25 stopa
+# sent_id = 0
 1	Gilmour	Gilmour	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7
 2	8-slojno	8-slojno	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=8|end_char=16
 3	Flexogen	Flexogen	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=17|end_char=25
@@ -5,6 +7,8 @@
 5	25	25	NUM	Mdc	NumType=Card	6	nummod	_	start_char=34|end_char=36
 6	stopa	stopa	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=37|end_char=42
 
+# text = Ovo malo crijevo je kupljeno kao dodatak mom drugom crijevu od 50 stopa zbog vrlo vlažnog i opresivnog vremena prošlog mjeseca na sjeveroistoku.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=43|end_char=46
 2	malo	mali	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=47|end_char=51
 3	crijevo	crijevo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=52|end_char=59
@@ -30,6 +34,8 @@
 23	sjeveroistoku	sjeveroistok	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	start_char=173|end_char=186
 24	.	.	PUNCT	Z	_	5	punct	_	start_char=186|end_char=187
 
+# text = Vrlo je fleksibilan i jednostavan za rukovanje i omogućuje mi potpuni doseg stražnjeg višegodišnjeg vrta.
+# sent_id = 2
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=188|end_char=192
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=193|end_char=195
 3	fleksibilan	fleksibilan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=196|end_char=207
@@ -47,6 +53,8 @@
 15	vrta	vrt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=288|end_char=292
 16	.	.	PUNCT	Z	_	3	punct	_	start_char=292|end_char=293
 
+# text = preporučio bih ovo crijevo
+# sent_id = 3
 1	preporučio	preporučiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=294|end_char=304
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	start_char=305|end_char=308
 3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	start_char=309|end_char=312

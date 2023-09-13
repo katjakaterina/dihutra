@@ -1,5 +1,9 @@
+# text = Iskrivljuje
+# sent_id = 0
 1	Iskrivljuje	iskrivljivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=11
 
+# text = Ovo je jeftino smeće koje radi ono što kaže, iskrivljuje.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=12|end_char=15
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=16|end_char=18
 3	jeftino	jeftin	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=19|end_char=26
@@ -13,6 +17,8 @@
 11	iskrivljuje	iskrivljivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=57|end_char=68
 12	.	.	PUNCT	Z	_	4	punct	_	start_char=68|end_char=69
 
+# text = Želite nešto da vaša gitara zvuči kao smeće, ovo će uspjeti.
+# sent_id = 2
 1	Želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=70|end_char=76
 2	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	1	obj	_	start_char=77|end_char=82
 3	da	da	SCONJ	Cs	_	6	mark	_	start_char=83|end_char=85
@@ -27,6 +33,8 @@
 12	uspjeti	uspjeti	VERB	Vmn	VerbForm=Inf	1	conj	_	start_char=122|end_char=129
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=129|end_char=130
 
+# text = Nije mi jasno zašto su pedale zbog kojih vaša gitara zvuči kao komad smeća najpopularnije.
+# sent_id = 3
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=131|end_char=135
 2	mi	ja	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=136|end_char=138
 3	jasno	jasno	ADV	Rgp	Degree=Pos	0	root	_	start_char=139|end_char=144
@@ -44,6 +52,8 @@
 15	najpopularnije	popularan	ADJ	Agsnsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	3	csubj	_	start_char=206|end_char=220
 16	.	.	PUNCT	Z	_	3	punct	_	start_char=220|end_char=221
 
+# text = Ovo nije boutique Distortion pedala kakvu bi koristio Hendrix.
+# sent_id = 4
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=222|end_char=225
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=226|end_char=230
 3	boutique	boutique	X	Xf	_	4	amod	_	start_char=231|end_char=239
@@ -55,6 +65,8 @@
 9	Hendrix	Hendrix	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=276|end_char=283
 10	.	.	PUNCT	Z	_	4	punct	_	start_char=283|end_char=284
 
+# text = Butik i distorzija su oksimoron.
+# sent_id = 5
 1	Butik	butik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=285|end_char=290
 2	i	i	CCONJ	Cc	_	3	cc	_	start_char=291|end_char=292
 3	distorzija	distorzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=293|end_char=303
@@ -62,6 +74,8 @@
 5	oksimoron	oksimoron	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=307|end_char=316
 6	.	.	PUNCT	Z	_	5	punct	_	start_char=316|end_char=317
 
+# text = Ove stvari su napravljene od teškog metala, trebalo bi trajati, pomalo se nadam da neće (samo se šalim), želite distorziju, imate distorziju
+# sent_id = 6
 1	Ove	ovaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=318|end_char=321
 2	stvari	stvar	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=322|end_char=328
 3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=329|end_char=331

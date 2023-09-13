@@ -1,8 +1,12 @@
+# text = Boli me uši.
+# sent_id = 0
 1	Boli	bol	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=4
 2	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=5|end_char=7
 3	uši	uš	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=8|end_char=11
 4	.	.	PUNCT	Z	_	1	punct	_	start_char=11|end_char=12
 
+# text = Slučajno sam naišao na ovo i odnio ga kući da se igram - mislio sam da bi to mogao biti dobar dar za sedmogodišnjaka kojeg poznajem.
+# sent_id = 1
 1	Slučajno	slučajno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=13|end_char=21
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=22|end_char=25
 3	naišao	naići	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=26|end_char=32
@@ -31,6 +35,8 @@
 26	poznajem	poznavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	acl	_	start_char=136|end_char=144
 27	.	.	PUNCT	Z	_	3	punct	_	start_char=144|end_char=145
 
+# text = Igre su zabavne, koliko sam mogao podnijeti razinu decibela.
+# sent_id = 2
 1	Igre	igra	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=146|end_char=150
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=151|end_char=153
 3	zabavne	zabavan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=154|end_char=161
@@ -43,6 +49,8 @@
 10	decibela	decibel	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=197|end_char=205
 11	.	.	PUNCT	Z	_	3	punct	_	start_char=205|end_char=206
 
+# text = Da bih čuo glasove, glazba je bila toliko glasna da su me od ukupnog zvuka boljele uši.
+# sent_id = 3
 1	Da	da	SCONJ	Cs	_	3	mark	_	start_char=207|end_char=209
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=210|end_char=213
 3	čuo	čuti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	start_char=214|end_char=217
@@ -63,6 +71,8 @@
 18	uši	uš	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	start_char=290|end_char=293
 19	.	.	PUNCT	Z	_	10	punct	_	start_char=293|end_char=294
 
+# text = Kad bi se relativna glasnoća glazbe i glasova obrnula, ovo bi bio bolji proizvod.
+# sent_id = 4
 1	Kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	9	advmod	_	start_char=295|end_char=298
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=299|end_char=301
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=302|end_char=304

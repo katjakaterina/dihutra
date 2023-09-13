@@ -1,3 +1,5 @@
+# text = U redu je, ali volio bih da sam kupio nešto drugo.
+# sent_id = 0
 1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=0|end_char=1
 2	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=6
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=7|end_char=9
@@ -12,6 +14,8 @@
 12	drugo	drugi	ADJ	Mlonsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=44|end_char=49
 13	.	.	PUNCT	Z	_	2	punct	_	start_char=49|end_char=50
 
+# text = Ručka i snaga opruge čine ovo neudobnim za postavljanje na gitaru, a ja se žuri da stegnem capo jer je neugodan za korištenje - bole prste.
+# sent_id = 1
 1	Ručka	ručka	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=51|end_char=56
 2	i	i	CCONJ	Cc	_	3	cc	_	start_char=57|end_char=58
 3	snaga	snaga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=59|end_char=64
@@ -41,6 +45,8 @@
 27	prste	prsta	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	26	obj	_	start_char=184|end_char=189
 28	.	.	PUNCT	Z	_	5	punct	_	start_char=189|end_char=190
 
+# text = Jeftin je i jednostavan za korištenje.
+# sent_id = 2
 1	Jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=191|end_char=197
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=198|end_char=200
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=201|end_char=202
@@ -49,6 +55,8 @@
 6	korištenje	korištenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=218|end_char=228
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=228|end_char=229
 
+# text = Učinit će posao, ali ne sviđa mi se.
+# sent_id = 3
 1	Učinit	učiniti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=230|end_char=236
 2	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=237|end_char=239
 3	posao	posao	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=240|end_char=245

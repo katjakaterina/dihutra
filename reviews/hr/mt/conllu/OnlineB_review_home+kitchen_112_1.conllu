@@ -1,3 +1,5 @@
+# text = Nije za upotrebu sa srebrnim priborom
+# sent_id = 0
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=5|end_char=7
 3	upotrebu	upotreba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=8|end_char=16
@@ -5,6 +7,8 @@
 5	srebrnim	srebrn	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=20|end_char=28
 6	priborom	pribor	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	start_char=29|end_char=37
 
+# text = Ove tanjure i zdjele za salatu dobili smo iz matične knjige vjenčanih.
+# sent_id = 1
 1	Ove	ovaj	DET	Pd-fpa	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=38|end_char=41
 2	tanjure	tanjura	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=42|end_char=49
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=50|end_char=51
@@ -19,6 +23,8 @@
 12	vjenčanih	vjenčan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	11	nmod	_	start_char=98|end_char=107
 13	.	.	PUNCT	Z	_	7	punct	_	start_char=107|end_char=108
 
+# text = Apsolutno su lijepe, ALI NISU FUNKCIONALNE.
+# sent_id = 2
 1	Apsolutno	apsolutno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=109|end_char=118
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=119|end_char=121
 3	lijepe	lijepa	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=122|end_char=128
@@ -28,6 +34,8 @@
 7	FUNKCIONALNE	funkcionalan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	conj	_	start_char=139|end_char=151
 8	.	.	PUNCT	Z	_	3	punct	_	start_char=151|end_char=152
 
+# text = Čini se da su zamišljeni samo za korištenje s drvenim posuđem ili štapićima jer svaki metalni posuđe na površini ostavlja sivi trag i stvara užasnu buku koja je potpuno nepodnošljiva!
+# sent_id = 3
 1	Čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=153|end_char=157
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=158|end_char=160
 3	da	da	SCONJ	Cs	_	5	mark	_	start_char=161|end_char=163
@@ -60,6 +68,8 @@
 30	nepodnošljiva	nepodnošljiv	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	26	acl	_	start_char=322|end_char=335
 31	!	!	PUNCT	Z	_	1	punct	_	start_char=335|end_char=336
 
+# text = Dovoljno da moramo kupiti novo posuđe.
+# sent_id = 4
 1	Dovoljno	dovoljno	ADV	Rgp	Degree=Pos	0	root	_	start_char=337|end_char=345
 2	da	da	SCONJ	Cs	_	3	mark	_	start_char=346|end_char=348
 3	moramo	morati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	csubj	_	start_char=349|end_char=355
@@ -68,6 +78,8 @@
 6	posuđe	posuđe	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=368|end_char=374
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=374|end_char=375
 
+# text = Stvarno bih volio da to nije slučaj jer volim dizajn, samo budite svjesni prije kupnje!
+# sent_id = 5
 1	Stvarno	stvarno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=376|end_char=383
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=384|end_char=387
 3	volio	voliti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=388|end_char=393

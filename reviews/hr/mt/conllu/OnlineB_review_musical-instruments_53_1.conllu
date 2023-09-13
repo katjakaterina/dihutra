@@ -1,3 +1,5 @@
+# text = Kupio sam puno kabela i samo mi ovaj pravi probleme Zuji, pucketa i mislim da imam problema s opremom.
+# sent_id = 0
 1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=5
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=6|end_char=9
 3	puno	puno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=10|end_char=14
@@ -20,6 +22,8 @@
 20	opremom	oprema	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	start_char=94|end_char=101
 21	.	.	PUNCT	Z	_	1	punct	_	start_char=101|end_char=102
 
+# text = Čim upotrijebim bilo koji drugi kabel, problem nestaje.
+# sent_id = 1
 1	Čim	čim	SCONJ	Cs	_	2	mark	_	start_char=103|end_char=106
 2	upotrijebim	upotrijebiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=107|end_char=118
 3	bilo	bilo	PART	Qo	_	4	discourse	_	start_char=119|end_char=123
@@ -31,6 +35,8 @@
 9	nestaje	nestajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=150|end_char=157
 10	.	.	PUNCT	Z	_	9	punct	_	start_char=157|end_char=158
 
+# text = Hosa proizvodi neke druge proizvode koji imaju dobru vrijednost.
+# sent_id = 2
 1	Hosa	Hosa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=159|end_char=163
 2	proizvodi	proizvod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=164|end_char=173
 3	neke	neki	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=174|end_char=178
@@ -42,6 +48,8 @@
 9	vrijednost	vrijednost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=212|end_char=222
 10	.	.	PUNCT	Z	_	2	punct	_	start_char=222|end_char=223
 
+# text = Ali na temelju mog iskustva ne preporučujem ovo.
+# sent_id = 3
 1	Ali	ali	CCONJ	Cc	_	7	cc	_	start_char=224|end_char=227
 2	na	na	ADP	Sl	Case=Loc	3	case	_	start_char=228|end_char=230
 3	temelju	temelj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=231|end_char=238

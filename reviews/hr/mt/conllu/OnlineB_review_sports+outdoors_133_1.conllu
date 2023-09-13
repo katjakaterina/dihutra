@@ -1,3 +1,5 @@
+# text = Najgori komplet koji postoji Kupio sam ovo od Walmarta po istoj cijeni kao Amazon.
+# sent_id = 0
 1	Najgori	najgor	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
 2	komplet	komplet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=8|end_char=15
 3	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=16|end_char=20
@@ -14,6 +16,8 @@
 14	Amazon	Amazon	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	start_char=75|end_char=81
 15	.	.	PUNCT	Z	_	5	punct	_	start_char=81|end_char=82
 
+# text = Pri prvom korištenju, šipka za čišćenje se slomila na produžetku, a plastična ručka je otpala na drugoj.
+# sent_id = 1
 1	Pri	pri	ADP	Sl	Case=Loc	3	case	_	start_char=83|end_char=86
 2	prvom	prvi	ADJ	Mlonsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=87|end_char=92
 3	korištenju	korištenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	9	obl	_	start_char=93|end_char=103
@@ -35,6 +39,8 @@
 19	drugoj	drugi	ADJ	Mlofsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	obl	_	start_char=180|end_char=186
 20	.	.	PUNCT	Z	_	9	punct	_	start_char=186|end_char=187
 
+# text = Nikad neću kupiti ništa na čemu piše Outers.
+# sent_id = 2
 1	Nikad	nikad	ADV	Rgp	Degree=Pos|PronType=Neg	2	advmod	_	start_char=188|end_char=193
 2	neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	start_char=194|end_char=198
 3	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=199|end_char=205
@@ -45,6 +51,8 @@
 8	Outers	Outers	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=225|end_char=231
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=231|end_char=232
 
+# text = Kupujem pojedinačne dijelove od Tiptona i drugih renomiranih proizvođača kako bih napravio vlastiti komplet za čišćenje.
+# sent_id = 3
 1	Kupujem	kupovati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=233|end_char=240
 2	pojedinačne	pojedinačan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=241|end_char=252
 3	dijelove	dio	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=253|end_char=261

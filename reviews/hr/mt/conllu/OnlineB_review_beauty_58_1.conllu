@@ -1,3 +1,5 @@
+# text = ovo je imitacija, kupac oprez Ne kupujte ovo, to je jeftina kopija.
+# sent_id = 0
 1	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=3
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4|end_char=6
 3	imitacija	imitacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=16
@@ -14,6 +16,8 @@
 14	kopija	kopija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=60|end_char=66
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=66|end_char=67
 
+# text = MAC cosmetics nikada nije napravio takvu paletu, a nemate pojma tko je to zapravo napravio i koji su sastojci u šminki.. nesigurno je koristiti i bacanje novca.
+# sent_id = 1
 1	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=68|end_char=71
 2	cosmetics	cosmetics	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=72|end_char=81
 3	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	5	advmod	_	start_char=82|end_char=88
@@ -45,6 +49,8 @@
 29	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	start_char=222|end_char=227
 30	.	.	PUNCT	Z	_	5	punct	_	start_char=227|end_char=228
 
+# text = Uštedite vrijeme i novac, ako želite autentični MAC, ovo nije način da ga dobijete.
+# sent_id = 2
 1	Uštedite	ušteći	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=229|end_char=237
 2	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=238|end_char=245
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=246|end_char=247

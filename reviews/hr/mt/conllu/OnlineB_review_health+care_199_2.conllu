@@ -1,3 +1,5 @@
+# text = Starije baterije su izašle u plastičnoj kutiji.
+# sent_id = 0
 1	Starije	star	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=0|end_char=7
 2	baterije	baterija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=8|end_char=16
 3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=17|end_char=19
@@ -7,6 +9,8 @@
 7	kutiji	kutija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=40|end_char=46
 8	.	.	PUNCT	Z	_	4	punct	_	start_char=46|end_char=47
 
+# text = Artikl nije stigao na kartonskoj kartici, stigao je u plastičnoj kutiji koja se lako otvara i s rokom trajanja tek 3 godine.
+# sent_id = 1
 1	Artikl	artikl	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=48|end_char=54
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=55|end_char=59
 3	stigao	stići	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=60|end_char=66
@@ -32,6 +36,8 @@
 23	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=165|end_char=171
 24	.	.	PUNCT	Z	_	3	punct	_	start_char=171|end_char=172
 
+# text = Svježe baterije imaju rok trajanja od 5 godina.
+# sent_id = 2
 1	Svježe	svjež	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=173|end_char=179
 2	baterije	baterija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=180|end_char=188
 3	imaju	imati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=189|end_char=194
@@ -42,6 +48,8 @@
 8	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=213|end_char=219
 9	.	.	PUNCT	Z	_	3	punct	_	start_char=219|end_char=220
 
+# text = Opis i sliku ovog artikla treba promijeniti ako kupcima Amazona namjeravaju prodavati drugačiji i stariji artikl.
+# sent_id = 3
 1	Opis	opis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=221|end_char=225
 2	i	i	CCONJ	Cc	_	3	cc	_	start_char=226|end_char=227
 3	sliku	slika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	start_char=228|end_char=233
@@ -60,6 +68,8 @@
 16	artikl	artikl	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=327|end_char=333
 17	.	.	PUNCT	Z	_	6	punct	_	start_char=333|end_char=334
 
+# text = Bili su ljubazni i besplatno su mi poslali naljepnicu za povrat.
+# sent_id = 4
 1	Bili	biti	AUX	Vap-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	start_char=335|end_char=339
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=340|end_char=342
 3	ljubazni	ljubazni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=343|end_char=351

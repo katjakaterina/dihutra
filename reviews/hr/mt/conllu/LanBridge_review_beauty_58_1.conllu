@@ -1,3 +1,5 @@
+# text = ovo je laž, kupac na oprezu
+# sent_id = 0
 1	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=3
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4|end_char=6
 3	laž	laž	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=10
@@ -6,6 +8,8 @@
 6	na	na	ADP	Sl	Case=Loc	7	case	_	start_char=18|end_char=20
 7	oprezu	opreza	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	start_char=21|end_char=27
 
+# text = Ne kupujte ovo, to je jeftina zamjena.
+# sent_id = 1
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=28|end_char=30
 2	kupujte	kupovati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=31|end_char=38
 3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=39|end_char=42
@@ -16,6 +20,8 @@
 8	zamjena	zamjena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=58|end_char=65
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=65|end_char=66
 
+# text = MAC cosmetics nikada nije napravio takvu paletu, a vi nemate pojma tko je to zapravo napravio i koji su sastojci u šminki.. nesigurno je koristiti i bacanje novca.
+# sent_id = 2
 1	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=67|end_char=70
 2	cosmetics	cosmetics	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=71|end_char=80
 3	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	5	advmod	_	start_char=81|end_char=87
@@ -48,6 +54,8 @@
 30	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	start_char=224|end_char=229
 31	.	.	PUNCT	Z	_	5	punct	_	start_char=229|end_char=230
 
+# text = Uštedite vrijeme i novac, ako želite autentični MAC, ovo nije način da ga dobijete.
+# sent_id = 3
 1	Uštedite	ušteći	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=231|end_char=239
 2	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=240|end_char=247
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=248|end_char=249

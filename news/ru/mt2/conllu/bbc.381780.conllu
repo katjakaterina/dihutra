@@ -1,0 +1,88 @@
+# text = Лондондерри: Мужчины арестованы после того, как дом был протаранен автомобилем Трое мужчин в возрасте 33, 34 и 39 лет были арестованы после того, как автомобиль несколько раз протаранил дом в Лондондерри.
+# sent_id = 0
+1	Лондондерри	Лондондерри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=11
+2	:	:	PUNCT	_	_	4	punct	_	start_char=11|end_char=12
+3	Мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj:pass	_	start_char=13|end_char=20
+4	арестованы	арестовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	parataxis	_	start_char=21|end_char=31
+5	после	после	ADP	_	_	6	case	_	start_char=32|end_char=37
+6	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	start_char=38|end_char=42
+7	,	,	PUNCT	_	_	11	punct	_	start_char=42|end_char=43
+8	как	как	SCONJ	_	_	11	mark	_	start_char=44|end_char=47
+9	дом	дом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	start_char=48|end_char=51
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=52|end_char=55
+11	протаранен	протаранить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	acl	_	start_char=56|end_char=66
+12	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	start_char=67|end_char=78
+13	Трое	трое	NUM	_	Case=Nom|NumType=Card	14	nummod:gov	_	start_char=79|end_char=83
+14	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=84|end_char=90
+15	в	в	ADP	_	_	16	case	_	start_char=91|end_char=92
+16	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	start_char=93|end_char=101
+17	33	33	NUM	_	NumType=Card	22	nummod	_	start_char=102|end_char=104
+18	,	,	PUNCT	_	_	19	punct	_	start_char=104|end_char=105
+19	34	34	NUM	_	NumType=Card	17	conj	_	start_char=106|end_char=108
+20	и	и	CCONJ	_	_	21	cc	_	start_char=109|end_char=110
+21	39	39	NUM	_	NumType=Card	17	conj	_	start_char=111|end_char=113
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=114|end_char=117
+23	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	start_char=118|end_char=122
+24	арестованы	арестовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	conj	_	start_char=123|end_char=133
+25	после	после	ADP	_	_	26	case	_	start_char=134|end_char=139
+26	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	24	obl	_	start_char=140|end_char=144
+27	,	,	PUNCT	_	_	32	punct	_	start_char=144|end_char=145
+28	как	как	SCONJ	_	_	32	mark	_	start_char=146|end_char=149
+29	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	start_char=150|end_char=160
+30	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	31	nummod	_	start_char=161|end_char=170
+31	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	32	obl	_	start_char=171|end_char=174
+32	протаранил	протаранить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	acl	_	start_char=175|end_char=185
+33	дом	дом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	start_char=186|end_char=189
+34	в	в	ADP	_	_	35	case	_	start_char=190|end_char=191
+35	Лондондерри	Лондондерри	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	obl	_	start_char=192|end_char=203
+36	.	.	PUNCT	_	_	1	punct	_	start_char=203|end_char=204
+
+# text = Инцидент произошел на улице Ballynagard Crescent в четверг около 19:30 BST.
+# sent_id = 1
+1	Инцидент	инцидент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=205|end_char=213
+2	произошел	произойти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=214|end_char=223
+3	на	на	ADP	_	_	4	case	_	start_char=224|end_char=226
+4	улице	улица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=227|end_char=232
+5	Ballynagard	Ballynagard	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=233|end_char=244
+6	Crescent	Crescent	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=245|end_char=253
+7	в	в	ADP	_	_	8	case	_	start_char=254|end_char=255
+8	четверг	четверг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=256|end_char=263
+9	около	около	ADP	_	_	10	case	_	start_char=264|end_char=269
+10	19	19	NUM	_	NumType=Card	8	nmod	_	start_char=270|end_char=272
+11	:	:	PUNCT	_	_	12	punct	_	start_char=272|end_char=273
+12	30	30	NUM	_	NumType=Card	10	nmod	_	start_char=273|end_char=275
+13	BST	BST	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=276|end_char=279
+14	.	.	PUNCT	_	_	2	punct	_	start_char=279|end_char=280
+
+# text = Инспектор Боб Блеммингс сообщил, что были повреждены ворота и само здание.
+# sent_id = 2
+1	Инспектор	инспектор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=281|end_char=290
+2	Боб	Боб	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=291|end_char=294
+3	Блеммингс	Блеммингс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	start_char=295|end_char=304
+4	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=305|end_char=312
+5	,	,	PUNCT	_	_	8	punct	_	start_char=312|end_char=313
+6	что	что	SCONJ	_	_	8	mark	_	start_char=314|end_char=317
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=318|end_char=322
+8	повреждены	повредить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	ccomp	_	start_char=323|end_char=333
+9	ворота	ворота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj:pass	_	start_char=334|end_char=340
+10	и	и	CCONJ	_	_	12	cc	_	start_char=341|end_char=342
+11	само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=343|end_char=347
+12	здание	здание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	conj	_	start_char=348|end_char=354
+13	.	.	PUNCT	_	_	4	punct	_	start_char=354|end_char=355
+
+# text = Возможно, в какой-то момент по машине был открыт огонь из арбалета.
+# sent_id = 3
+1	Возможно	возможно	ADV	_	Degree=Pos	9	parataxis	_	start_char=356|end_char=364
+2	,	,	PUNCT	_	_	1	punct	_	start_char=364|end_char=365
+3	в	в	ADP	_	_	5	case	_	start_char=366|end_char=367
+4	какой-то	какой-то	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	start_char=368|end_char=376
+5	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=377|end_char=383
+6	по	по	ADP	_	_	7	case	_	start_char=384|end_char=386
+7	машине	машина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	start_char=387|end_char=393
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=394|end_char=397
+9	открыт	открыть	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=398|end_char=404
+10	огонь	огонь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	start_char=405|end_char=410
+11	из	из	ADP	_	_	12	case	_	start_char=411|end_char=413
+12	арбалета	арбалет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=414|end_char=422
+13	.	.	PUNCT	_	_	9	punct	_	start_char=422|end_char=423
+

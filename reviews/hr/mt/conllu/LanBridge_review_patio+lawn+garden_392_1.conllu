@@ -1,7 +1,11 @@
+# text = Nije za grmlje
+# sent_id = 0
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=5|end_char=7
 3	grmlje	grmlja	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=8|end_char=14
 
+# text = Imam veliki komad posjeda u Arizoni koji zahtijeva uklanjanje grmlja s vremena na vrijeme i zaključio sam da ovo izgleda kao savršen alat za rezanje glavnog debla/grana desertnog grma; NE!!!!
+# sent_id = 1
 1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=15|end_char=19
 2	veliki	velik	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=20|end_char=26
 3	komad	komad	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=27|end_char=32
@@ -38,6 +42,8 @@
 34	!	!	INTJ	I	_	29	parataxis	_	start_char=204|end_char=205
 35	!	!	PUNCT	Z	_	1	punct	_	start_char=205|end_char=206
 
+# text = !Vrijedilo je pokušati, ali je nespretan i neće prerezati većinu vlaknastih izdanaka tipičnog pustinjskog grma.
+# sent_id = 2
 1	!	!	INTJ	I	_	2	discourse	_	start_char=207|end_char=208
 2	Vrijedilo	vrijediti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=208|end_char=217
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=218|end_char=220
@@ -57,6 +63,8 @@
 17	grma	grm	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=313|end_char=317
 18	.	.	PUNCT	Z	_	2	punct	_	start_char=317|end_char=318
 
+# text = Vratio sam se krumpiru i lopatici.
+# sent_id = 3
 1	Vratio	vratiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=319|end_char=325
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=326|end_char=329
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=330|end_char=332
@@ -65,6 +73,8 @@
 6	lopatici	lopatika	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	start_char=344|end_char=352
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=352|end_char=353
 
+# text = Imam mnogo alata za grane drveća koji rade puno bolje od ovoga.
+# sent_id = 4
 1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=354|end_char=358
 2	mnogo	mnogo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=359|end_char=364
 3	alata	alat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obj	_	start_char=365|end_char=370
@@ -79,6 +89,8 @@
 12	ovoga	ovaj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	start_char=411|end_char=416
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=416|end_char=417
 
+# text = Dat ću ga svom bratu.
+# sent_id = 5
 1	Dat	dati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=418|end_char=421
 2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=422|end_char=424
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=425|end_char=427
@@ -86,6 +98,8 @@
 5	bratu	brat	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	start_char=433|end_char=438
 6	.	.	PUNCT	Z	_	1	punct	_	start_char=438|end_char=439
 
+# text = :>) Napomena: Moja ocjena odnosi se isključivo na navedenu aplikaciju.
+# sent_id = 6
 1	:	:	PUNCT	Z	_	2	punct	_	start_char=440|end_char=441
 2	>	>	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	start_char=441|end_char=442
 3	)	)	PUNCT	Z	_	2	punct	_	start_char=442|end_char=443

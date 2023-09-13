@@ -1,0 +1,234 @@
+# text = Арест в связи с гибелью игрока LSU Симса Полиция города Батон-Руж (штат Латинская Америка) объявила в субботу об аресте подозреваемого в убийстве баскетболиста команды LSU Уэйда Симса в пятницу.
+# sent_id = 0
+1	Арест	арест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=0|end_char=5
+2	в	в	ADP	_	_	5	case	_	start_char=6|end_char=7
+3	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	fixed	_	start_char=8|end_char=13
+4	с	с	ADP	_	_	2	fixed	_	start_char=14|end_char=15
+5	гибелью	гибель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	start_char=16|end_char=23
+6	игрока	игрок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=24|end_char=30
+7	LSU	LSU	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=31|end_char=34
+8	Симса	Симс	PROPN	_	_	6	appos	_	start_char=35|end_char=40
+9	Полиция	полиция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	start_char=41|end_char=48
+10	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	start_char=49|end_char=55
+11	Батон-Руж	Батон-Руж	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	start_char=56|end_char=65
+12	(	(	PUNCT	_	_	13	punct	_	start_char=66|end_char=67
+13	штат	штат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	start_char=67|end_char=71
+14	Латинская	Латинский	PROPN	_	_	15	amod	_	start_char=72|end_char=81
+15	Америка	Америка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	appos	_	start_char=82|end_char=89
+16	)	)	PUNCT	_	_	13	punct	_	start_char=89|end_char=90
+17	объявила	объявить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=91|end_char=99
+18	в	в	ADP	_	_	19	case	_	start_char=100|end_char=101
+19	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	start_char=102|end_char=109
+20	об	о	ADP	_	_	21	case	_	start_char=110|end_char=112
+21	аресте	арест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	start_char=113|end_char=119
+22	подозреваемого	подозреваемый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=120|end_char=134
+23	в	в	ADP	_	_	24	case	_	start_char=135|end_char=136
+24	убийстве	убийство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	nmod	_	start_char=137|end_char=145
+25	баскетболиста	баскетболист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	start_char=146|end_char=159
+26	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	start_char=160|end_char=167
+27	LSU	LSU	PROPN	_	Foreign=Yes	26	flat:foreign	_	start_char=168|end_char=171
+28	Уэйда	Уэйд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	appos	_	start_char=172|end_char=177
+29	Симса	Симс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	flat:name	_	start_char=178|end_char=183
+30	в	в	ADP	_	_	31	case	_	start_char=184|end_char=185
+31	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	start_char=186|end_char=193
+32	.	.	PUNCT	_	_	17	punct	_	start_char=193|end_char=194
+
+# text = Департамент полиции Батон-Руж объявил об аресте 20-летнего Дайтона Симпсона на пресс-конференции в 11 часов утра по восточному времени.
+# sent_id = 1
+1	Департамент	департамент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=195|end_char=206
+2	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=207|end_char=214
+3	Батон-Руж	Батон-Руж	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=215|end_char=224
+4	объявил	объявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=225|end_char=232
+5	об	о	ADP	_	_	6	case	_	start_char=233|end_char=235
+6	аресте	арест	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=236|end_char=242
+7	20-летнего	20-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=243|end_char=253
+8	Дайтона	Дайтон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=254|end_char=261
+9	Симпсона	Симпсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	start_char=262|end_char=270
+10	на	на	ADP	_	_	11	case	_	start_char=271|end_char=273
+11	пресс-конференции	пресс-конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	start_char=274|end_char=291
+12	в	в	ADP	_	_	14	case	_	start_char=292|end_char=293
+13	11	11	NUM	_	NumType=Card	14	nummod	_	start_char=294|end_char=296
+14	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=297|end_char=302
+15	утра	утро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=303|end_char=307
+16	по	по	ADP	_	_	18	case	_	start_char=308|end_char=310
+17	восточному	восточный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=311|end_char=321
+18	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	start_char=322|end_char=329
+19	.	.	PUNCT	_	_	4	punct	_	start_char=329|end_char=330
+
+# text = В пятницу полиция опубликовала видеозапись стрельбы и попросила помощи в опознании человека, который был замечен на кадрах.
+# sent_id = 2
+1	В	в	ADP	_	_	2	case	_	start_char=331|end_char=332
+2	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=333|end_char=340
+3	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=341|end_char=348
+4	опубликовала	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=349|end_char=361
+5	видеозапись	видеозапись	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=362|end_char=373
+6	стрельбы	стрельба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=374|end_char=382
+7	и	и	CCONJ	_	_	8	cc	_	start_char=383|end_char=384
+8	попросила	просить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=385|end_char=394
+9	помощи	помощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=395|end_char=401
+10	в	в	ADP	_	_	11	case	_	start_char=402|end_char=403
+11	опознании	опознание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	start_char=404|end_char=413
+12	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=414|end_char=422
+13	,	,	PUNCT	_	_	16	punct	_	start_char=422|end_char=423
+14	который	который	PRON	_	Case=Nom|PronType=Int,Rel	16	nsubj:pass	_	start_char=424|end_char=431
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	start_char=432|end_char=435
+16	замечен	заметить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	acl:relcl	_	start_char=436|end_char=443
+17	на	на	ADP	_	_	18	case	_	start_char=444|end_char=446
+18	кадрах	кадр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	start_char=447|end_char=453
+19	.	.	PUNCT	_	_	4	punct	_	start_char=453|end_char=454
+
+# text = 20-летний Симс был застрелен неподалеку от кампуса Южного университета рано утром в пятницу.
+# sent_id = 3
+1	20-летний	20-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=455|end_char=464
+2	Симс	Симс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=465|end_char=469
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	start_char=470|end_char=473
+4	застрелен	застрелить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=474|end_char=483
+5	неподалеку	неподалеку	ADV	_	Degree=Pos	4	advmod	_	start_char=484|end_char=494
+6	от	от	ADP	_	_	7	case	_	start_char=495|end_char=497
+7	кампуса	кампус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=498|end_char=505
+8	Южного	Южный	PROPN	_	_	9	amod	_	start_char=506|end_char=512
+9	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=513|end_char=525
+10	рано	рано	ADV	_	Degree=Pos	11	advmod	_	start_char=526|end_char=530
+11	утром	утро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	start_char=531|end_char=536
+12	в	в	ADP	_	_	13	case	_	start_char=537|end_char=538
+13	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	start_char=539|end_char=546
+14	.	.	PUNCT	_	_	4	punct	_	start_char=546|end_char=547
+
+# text = "Уэйд Симс получил огнестрельное ранение в голову и в результате скончался", - заявил в субботу начальник полиции Мерфи Джей Пол, сообщает 247sports.
+# sent_id = 4
+1	"	"	PUNCT	_	_	4	punct	_	start_char=548|end_char=549
+2	Уэйд	Уэйд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=549|end_char=553
+3	Симс	Симс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	start_char=554|end_char=558
+4	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=559|end_char=566
+5	огнестрельное	огнестрельный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=567|end_char=580
+6	ранение	ранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=581|end_char=588
+7	в	в	ADP	_	_	8	case	_	start_char=589|end_char=590
+8	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=591|end_char=597
+9	и	и	CCONJ	_	_	12	cc	_	start_char=598|end_char=599
+10	в	в	ADP	_	_	11	case	_	start_char=600|end_char=601
+11	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=602|end_char=612
+12	скончался	скончаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	start_char=613|end_char=622
+13	"	"	PUNCT	_	_	4	punct	_	start_char=622|end_char=623
+14	,	,	PUNCT	_	_	16	punct	_	start_char=623|end_char=624
+15	-	-	PUNCT	_	_	16	punct	_	start_char=625|end_char=626
+16	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=627|end_char=633
+17	в	в	ADP	_	_	18	case	_	start_char=634|end_char=635
+18	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=636|end_char=643
+19	начальник	начальник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=644|end_char=653
+20	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=654|end_char=661
+21	Мерфи	Мэрфи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	appos	_	start_char=662|end_char=667
+22	Джей	Джей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	start_char=668|end_char=672
+23	Пол	Пол	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	start_char=673|end_char=676
+24	,	,	PUNCT	_	_	25	punct	_	start_char=676|end_char=677
+25	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=678|end_char=686
+26	247sports	247sports	PROPN	_	Foreign=Yes	25	nsubj	_	start_char=687|end_char=696
+27	.	.	PUNCT	_	_	4	punct	_	start_char=696|end_char=697
+
+# text = Уэйд встал на защиту своего друга и был застрелен Симпсоном.
+# sent_id = 5
+1	Уэйд	Уэйд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	start_char=698|end_char=702
+2	встал	встать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=703|end_char=708
+3	на	на	ADP	_	_	4	case	_	start_char=709|end_char=711
+4	защиту	защита	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=712|end_char=718
+5	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=719|end_char=725
+6	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=726|end_char=731
+7	и	и	CCONJ	_	_	9	cc	_	start_char=732|end_char=733
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=734|end_char=737
+9	застрелен	застрелить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	start_char=738|end_char=747
+10	Симпсоном	Симпсон	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=748|end_char=757
+11	.	.	PUNCT	_	_	2	punct	_	start_char=757|end_char=758
+
+# text = Симпсон был допрошен и признал, что находился на месте происшествия, владел оружием и признал, что стрелял в Уэйда Симса.
+# sent_id = 6
+1	Симпсон	Симпсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=759|end_char=766
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=767|end_char=770
+3	допрошен	допросить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=771|end_char=779
+4	и	и	CCONJ	_	_	5	cc	_	start_char=780|end_char=781
+5	признал	признать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=782|end_char=789
+6	,	,	PUNCT	_	_	8	punct	_	start_char=789|end_char=790
+7	что	что	SCONJ	_	_	8	mark	_	start_char=791|end_char=794
+8	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	ccomp	_	start_char=795|end_char=804
+9	на	на	ADP	_	_	10	case	_	start_char=805|end_char=807
+10	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	start_char=808|end_char=813
+11	происшествия	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=814|end_char=826
+12	,	,	PUNCT	_	_	13	punct	_	start_char=826|end_char=827
+13	владел	владеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=828|end_char=834
+14	оружием	оружие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	obl	_	start_char=835|end_char=842
+15	и	и	CCONJ	_	_	16	cc	_	start_char=843|end_char=844
+16	признал	признать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=845|end_char=852
+17	,	,	PUNCT	_	_	19	punct	_	start_char=852|end_char=853
+18	что	что	SCONJ	_	_	19	mark	_	start_char=854|end_char=857
+19	стрелял	стрелять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	ccomp	_	start_char=858|end_char=865
+20	в	в	ADP	_	_	21	case	_	start_char=866|end_char=867
+21	Уэйда	Уэйд	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	start_char=868|end_char=873
+22	Симса	Симс	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	21	flat:name	_	start_char=874|end_char=879
+23	.	.	PUNCT	_	_	3	punct	_	start_char=879|end_char=880
+
+# text = Симпсон был арестован без каких-либо происшествий и помещен под стражу в полицейское управление округа Ист-Батон-Руж.
+# sent_id = 7
+1	Симпсон	Симпсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=881|end_char=888
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=889|end_char=892
+3	арестован	арестовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=893|end_char=902
+4	без	без	ADP	_	_	6	case	_	start_char=903|end_char=906
+5	каких-либо	какой-либо	DET	_	Case=Gen|Number=Plur|PronType=Ind	6	det	_	start_char=907|end_char=917
+6	происшествий	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	start_char=918|end_char=930
+7	и	и	CCONJ	_	_	8	cc	_	start_char=931|end_char=932
+8	помещен	поместить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=933|end_char=940
+9	под	под	ADP	_	_	10	case	_	start_char=941|end_char=944
+10	стражу	стража	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=945|end_char=951
+11	в	в	ADP	_	_	13	case	_	start_char=952|end_char=953
+12	полицейское	полицейский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=954|end_char=965
+13	управление	управление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	start_char=966|end_char=976
+14	округа	округ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=977|end_char=983
+15	Ист-Батон-	Ист-Батон-	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	start_char=984|end_char=994
+16	Руж	Руж	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	start_char=994|end_char=997
+17	.	.	PUNCT	_	_	3	punct	_	start_char=997|end_char=998
+
+# text = Выросший в Батон-Руж юниор ростом 6 футов 6 дюймов, Симс в прошлом сезоне принял участие в 32 играх, в которых 10 раз выходил в старте, и в среднем за игру набирал 17,4 минуты, набирал 5,6 очка и делал 2,9 подбора.
+# sent_id = 8
+1	Выросший	вырасти	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	start_char=999|end_char=1007
+2	в	в	ADP	_	_	3	case	_	start_char=1008|end_char=1009
+3	Батон-Руж	Батон-Руж	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=1010|end_char=1019
+4	юниор	юниор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1020|end_char=1025
+5	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	start_char=1026|end_char=1032
+6	6	6	NUM	_	NumType=Card	7	nummod	_	start_char=1033|end_char=1034
+7	футов	фут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=1035|end_char=1040
+8	6	6	NUM	_	NumType=Card	9	nummod	_	start_char=1041|end_char=1042
+9	дюймов	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=1043|end_char=1049
+10	,	,	PUNCT	_	_	4	punct	_	start_char=1049|end_char=1050
+11	Симс	Симс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1051|end_char=1055
+12	в	в	ADP	_	_	14	case	_	start_char=1056|end_char=1057
+13	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=1058|end_char=1065
+14	сезоне	сезон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	start_char=1066|end_char=1072
+15	принял	принять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1073|end_char=1079
+16	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=1080|end_char=1087
+17	в	в	ADP	_	_	19	case	_	start_char=1088|end_char=1089
+18	32	32	NUM	_	NumType=Card	19	nummod	_	start_char=1090|end_char=1092
+19	играх	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	start_char=1093|end_char=1098
+20	,	,	PUNCT	_	_	25	punct	_	start_char=1098|end_char=1099
+21	в	в	ADP	_	_	22	case	_	start_char=1100|end_char=1101
+22	которых	который	PRON	_	Case=Loc|PronType=Int,Rel	25	obl	_	start_char=1102|end_char=1109
+23	10	10	NUM	_	NumType=Card	24	nummod	_	start_char=1110|end_char=1112
+24	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	start_char=1113|end_char=1116
+25	выходил	выходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	start_char=1117|end_char=1124
+26	в	в	ADP	_	_	27	case	_	start_char=1125|end_char=1126
+27	старте	старт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	start_char=1127|end_char=1133
+28	,	,	PUNCT	_	_	34	punct	_	start_char=1133|end_char=1134
+29	и	и	CCONJ	_	_	34	cc	_	start_char=1135|end_char=1136
+30	в	в	ADP	_	_	31	case	_	start_char=1137|end_char=1138
+31	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	34	obl	_	start_char=1139|end_char=1146
+32	за	за	ADP	_	_	33	case	_	start_char=1147|end_char=1149
+33	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	obl	_	start_char=1150|end_char=1154
+34	набирал	набирать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	start_char=1155|end_char=1162
+35	17,4	17,4	NUM	_	NumType=Card	36	nummod	_	start_char=1163|end_char=1167
+36	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	obl	_	start_char=1168|end_char=1174
+37	,	,	PUNCT	_	_	38	punct	_	start_char=1174|end_char=1175
+38	набирал	набирать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	start_char=1176|end_char=1183
+39	5,6	5,6	NUM	_	NumType=Card	40	nummod	_	start_char=1184|end_char=1187
+40	очка	очко	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	obl	_	start_char=1188|end_char=1192
+41	и	и	CCONJ	_	_	42	cc	_	start_char=1193|end_char=1194
+42	делал	делать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	start_char=1195|end_char=1200
+43	2,9	2,9	NUM	_	NumType=Card	44	nummod	_	start_char=1201|end_char=1204
+44	подбора	подбор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	obl	_	start_char=1205|end_char=1212
+45	.	.	PUNCT	_	_	15	punct	_	start_char=1212|end_char=1213
+

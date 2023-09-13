@@ -1,7 +1,11 @@
+# text = Odličan set.
+# sent_id = 0
 1	Odličan	odličan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
 2	set	set	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8|end_char=11
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=11|end_char=12
 
+# text = Sviđa mi se, ali moram reći da bih volio da su uključili način "petljanja" trake preko nečega kako bi mogli raditi vježbe spuštanja ili vježbe za leđa.
+# sent_id = 1
 1	Sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=13|end_char=18
 2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=19|end_char=21
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=22|end_char=24
@@ -34,6 +38,8 @@
 30	leđa	leđa	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	28	nmod	_	start_char=159|end_char=163
 31	.	.	PUNCT	Z	_	1	punct	_	start_char=163|end_char=164
 
+# text = Na kraju sam upotrijebio nastavak za "gležanj" da to učinim i radi mi.
+# sent_id = 2
 1	Na	na	ADP	Sl	Case=Loc	2	case	_	start_char=165|end_char=167
 2	kraju	kraj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=168|end_char=173
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=174|end_char=177
@@ -51,6 +57,8 @@
 15	mi	ja	PRON	Pp1-pn	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	obj	_	start_char=232|end_char=234
 16	.	.	PUNCT	Z	_	4	punct	_	start_char=234|end_char=235
 
+# text = Kvaliteta je odlična i sigurno bih vidio da će mi ovo dugo trajati.
+# sent_id = 3
 1	Kvaliteta	kvaliteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=236|end_char=245
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=246|end_char=248
 3	odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=249|end_char=256
@@ -66,6 +74,8 @@
 13	trajati	trajati	VERB	Vmn	VerbForm=Inf	7	ccomp	_	start_char=295|end_char=302
 14	.	.	PUNCT	Z	_	3	punct	_	start_char=302|end_char=303
 
+# text = Obožavam karabinjere jer ih možete koristiti 2 ili više u isto vrijeme s ručkama kada ojačate.
+# sent_id = 4
 1	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=304|end_char=312
 2	karabinjere	karabinjer	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=313|end_char=324
 3	jer	jer	SCONJ	Cs	_	5	mark	_	start_char=325|end_char=328

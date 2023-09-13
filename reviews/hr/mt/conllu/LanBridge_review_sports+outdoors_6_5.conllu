@@ -1,3 +1,5 @@
+# text = Glock alat za bušenje - potreban za vaš Glock i druge aplikacije
+# sent_id = 0
 1	Glock	Glock	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
 2	alat	alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=10
 3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=11|end_char=13
@@ -11,6 +13,8 @@
 11	druge	drugi	ADJ	Mlofpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=48|end_char=53
 12	aplikacije	aplikacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	start_char=54|end_char=64
 
+# text = Trebao mi je ovaj alat da bih stvarno razbio svoj G22, a za to radi savršeno.
+# sent_id = 1
 1	Trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=65|end_char=71
 2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=72|end_char=74
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=75|end_char=77
@@ -30,6 +34,8 @@
 17	savršeno	savršeno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	start_char=133|end_char=141
 18	.	.	PUNCT	Z	_	1	punct	_	start_char=141|end_char=142
 
+# text = Pretpostavljam da nema razlike u odnosu na OEM.
+# sent_id = 2
 1	Pretpostavljam	pretpostavljati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=143|end_char=157
 2	da	da	SCONJ	Cs	_	3	mark	_	start_char=158|end_char=160
 3	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=161|end_char=165
@@ -40,6 +46,8 @@
 8	OEM	OEM	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=186|end_char=189
 9	.	.	PUNCT	Z	_	1	punct	_	start_char=189|end_char=190
 
+# text = Međutim, imao sam dodatnu prednost kada sam shvatio da trebam bušilicu za pravilno rastavljanje nosača vijaka u svom AR-u radi temeljitog čišćenja, a ovaj je alat savršeno funkcionirao i gurnuo pričvrsnu iglu nosača van, a zatim natrag u mjesto nakon obavljenog posla.
+# sent_id = 3
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	3	discourse	_	start_char=191|end_char=198
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=198|end_char=199
 3	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=200|end_char=204
@@ -87,9 +95,13 @@
 45	posla	posao	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	start_char=453|end_char=458
 46	.	.	PUNCT	Z	_	3	punct	_	start_char=458|end_char=459
 
+# text = Izvrsno!
+# sent_id = 4
 1	Izvrsno	izvrsno	ADV	Rgp	Degree=Pos	0	root	_	start_char=460|end_char=467
 2	!	!	PUNCT	Z	_	1	punct	_	start_char=467|end_char=468
 
+# text = Sada je u mojoj torbi radi sigurnog čuvanja.
+# sent_id = 5
 1	Sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	start_char=469|end_char=473
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=474|end_char=476
 3	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=477|end_char=478

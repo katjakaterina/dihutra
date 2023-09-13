@@ -1,0 +1,102 @@
+# text = Число погибших в результате цунами в Индонезии возросло до 832 человек Число погибших в результате землетрясения и цунами в Индонезии возросло до 832 человек, сообщило в воскресенье агентство по чрезвычайным ситуациям страны.
+# sent_id = 0
+1	Число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=0|end_char=5
+2	погибших	погибнуть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	nmod	_	start_char=6|end_char=14
+3	в	в	ADP	_	_	4	case	_	start_char=15|end_char=16
+4	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=17|end_char=27
+5	цунами	цунами	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=28|end_char=34
+6	в	в	ADP	_	_	7	case	_	start_char=35|end_char=36
+7	Индонезии	Индонезия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	start_char=37|end_char=46
+8	возросло	возрасти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=47|end_char=55
+9	до	до	ADP	_	_	11	case	_	start_char=56|end_char=58
+10	832	832	NUM	_	NumType=Card	11	nummod	_	start_char=59|end_char=62
+11	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	start_char=63|end_char=70
+12	Число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	start_char=71|end_char=76
+13	погибших	погибнуть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	nmod	_	start_char=77|end_char=85
+14	в	в	ADP	_	_	15	case	_	start_char=86|end_char=87
+15	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	start_char=88|end_char=98
+16	землетрясения	землетрясение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=99|end_char=112
+17	и	и	CCONJ	_	_	18	cc	_	start_char=113|end_char=114
+18	цунами	цунами	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	start_char=115|end_char=121
+19	в	в	ADP	_	_	20	case	_	start_char=122|end_char=123
+20	Индонезии	Индонезия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	start_char=124|end_char=133
+21	возросло	возрасти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=134|end_char=142
+22	до	до	ADP	_	_	24	case	_	start_char=143|end_char=145
+23	832	832	NUM	_	NumType=Card	24	nummod	_	start_char=146|end_char=149
+24	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	start_char=150|end_char=157
+25	,	,	PUNCT	_	_	26	punct	_	start_char=157|end_char=158
+26	сообщило	сообщить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	start_char=159|end_char=167
+27	в	в	ADP	_	_	28	case	_	start_char=168|end_char=169
+28	воскресенье	воскресенье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obl	_	start_char=170|end_char=181
+29	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	start_char=182|end_char=191
+30	по	по	ADP	_	_	32	case	_	start_char=192|end_char=194
+31	чрезвычайным	чрезвычайный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	32	amod	_	start_char=195|end_char=207
+32	ситуациям	ситуация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	29	nmod	_	start_char=208|end_char=217
+33	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	start_char=218|end_char=224
+34	.	.	PUNCT	_	_	8	punct	_	start_char=224|end_char=225
+
+# text = Как сообщил на пресс-конференции представитель агентства Сутопо Пурво Нугрохо (Sutopo Purwo Nugroho), многие люди оказались в завалах зданий, обрушившихся в результате землетрясения магнитудой 7,5, которое произошло в пятницу и вызвало волны высотой до 20 футов.
+# sent_id = 1
+1	Как	как	SCONJ	_	_	2	mark	_	start_char=226|end_char=229
+2	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	start_char=230|end_char=237
+3	на	на	ADP	_	_	4	case	_	start_char=238|end_char=240
+4	пресс-конференции	пресс-конференция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=241|end_char=258
+5	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=259|end_char=272
+6	агентства	агентство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=273|end_char=282
+7	Сутопо	Сутопо	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	start_char=283|end_char=289
+8	Пурво	Пурво	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	start_char=290|end_char=295
+9	Нугрохо	Нугрохо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	start_char=296|end_char=303
+10	(	(	PUNCT	_	_	11	punct	_	start_char=304|end_char=305
+11	Sutopo	Sutopo	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=305|end_char=311
+12	Purwo	Purwo	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=312|end_char=317
+13	Nugroho	Nugroho	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=318|end_char=325
+14	)	)	PUNCT	_	_	13	punct	_	start_char=325|end_char=326
+15	,	,	PUNCT	_	_	2	punct	_	start_char=326|end_char=327
+16	многие	много	NUM	_	NumType=Card	17	amod	_	start_char=328|end_char=334
+17	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=335|end_char=339
+18	оказались	оказаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=340|end_char=349
+19	в	в	ADP	_	_	20	case	_	start_char=350|end_char=351
+20	завалах	завал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	start_char=352|end_char=359
+21	зданий	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	start_char=360|end_char=366
+22	,	,	PUNCT	_	_	23	punct	_	start_char=366|end_char=367
+23	обрушившихся	обрушиться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	21	acl	_	start_char=368|end_char=380
+24	в	в	ADP	_	_	25	case	_	start_char=381|end_char=382
+25	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	start_char=383|end_char=393
+26	землетрясения	землетрясение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	start_char=394|end_char=407
+27	магнитудой	магнитуда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	start_char=408|end_char=418
+28	7,5	7,5	NUM	_	NumType=Card	27	nummod:entity	_	start_char=419|end_char=422
+29	,	,	PUNCT	_	_	31	punct	_	start_char=422|end_char=423
+30	которое	который	PRON	_	Case=Nom|PronType=Int,Rel	31	nsubj	_	start_char=424|end_char=431
+31	произошло	произойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	acl:relcl	_	start_char=432|end_char=441
+32	в	в	ADP	_	_	33	case	_	start_char=442|end_char=443
+33	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obl	_	start_char=444|end_char=451
+34	и	и	CCONJ	_	_	35	cc	_	start_char=452|end_char=453
+35	вызвало	вызвать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	31	conj	_	start_char=454|end_char=461
+36	волны	волна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	obj	_	start_char=462|end_char=467
+37	высотой	высота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	36	nmod	_	start_char=468|end_char=475
+38	до	до	ADP	_	_	40	case	_	start_char=476|end_char=478
+39	20	20	NUM	_	NumType=Card	40	nummod	_	start_char=479|end_char=481
+40	футов	фут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	start_char=482|end_char=487
+41	.	.	PUNCT	_	_	18	punct	_	start_char=487|end_char=488
+
+# text = Город Палу, в котором проживает более 380 тыс. человек, был усыпан обломками рухнувших зданий.
+# sent_id = 2
+1	Город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	start_char=489|end_char=494
+2	Палу	Пал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=495|end_char=499
+3	,	,	PUNCT	_	_	6	punct	_	start_char=499|end_char=500
+4	в	в	ADP	_	_	5	case	_	start_char=501|end_char=502
+5	котором	который	PRON	_	Case=Loc|PronType=Int,Rel	6	obl	_	start_char=503|end_char=510
+6	проживает	проживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=511|end_char=520
+7	более	более	ADV	_	Degree=Cmp	6	nsubj	_	start_char=521|end_char=526
+8	380	380	NUM	_	NumType=Card	9	nummod	_	start_char=527|end_char=530
+9	тыс	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nummod	_	start_char=531|end_char=534
+10	.	.	PUNCT	_	_	9	punct	_	start_char=534|end_char=535
+11	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=536|end_char=543
+12	,	,	PUNCT	_	_	1	punct	_	start_char=543|end_char=544
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	start_char=545|end_char=548
+14	усыпан	усыпать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=549|end_char=555
+15	обломками	обломок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	obl	_	start_char=556|end_char=565
+16	рухнувших	рухнуть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	17	amod	_	start_char=566|end_char=575
+17	зданий	здание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	start_char=576|end_char=582
+18	.	.	PUNCT	_	_	14	punct	_	start_char=582|end_char=583
+

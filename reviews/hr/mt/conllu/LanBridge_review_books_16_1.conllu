@@ -1,3 +1,5 @@
+# text = Nije vrijedno $$ Ovo je vrlo jeftin proizvod.
+# sent_id = 0
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=0|end_char=4
 2	vrijedno	vrijedan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=5|end_char=13
 3	$$	$$	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=14|end_char=16
@@ -8,6 +10,8 @@
 8	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=36|end_char=44
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=44|end_char=45
 
+# text = Ne bih platio 1 $ za ovo.
+# sent_id = 1
 1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=46|end_char=48
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=49|end_char=52
 3	platio	platiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=53|end_char=59
@@ -17,6 +21,8 @@
 7	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	start_char=67|end_char=70
 8	.	.	PUNCT	Z	_	3	punct	_	start_char=70|end_char=71
 
+# text = Papir je jeftin i krhak--knjiga čak neće ostati otvorena (uz strah da ne potrgam uvez) tako da se mogu otvoriti i staviti na stalak za klavir da sviram.
+# sent_id = 2
 1	Papir	papir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=72|end_char=77
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=78|end_char=80
 3	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=81|end_char=87
@@ -49,6 +55,8 @@
 30	sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	acl	_	start_char=217|end_char=223
 31	.	.	PUNCT	Z	_	3	punct	_	start_char=223|end_char=224
 
+# text = Ne kupujte ovu verziju.
+# sent_id = 3
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=225|end_char=227
 2	kupujte	kupovati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=228|end_char=235
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=236|end_char=239

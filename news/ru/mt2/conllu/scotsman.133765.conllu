@@ -1,0 +1,407 @@
+# text = Айр 38 - 17 Мелроуз:
+# sent_id = 0
+1	Айр	айр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=3
+2	38	38	NUM	_	NumType=Card	1	nummod:entity	_	start_char=4|end_char=6
+3	-	-	PUNCT	_	_	4	punct	_	start_char=7|end_char=8
+4	17	17	NUM	_	NumType=Card	2	nmod	_	start_char=9|end_char=11
+5	Мелроуз	Мелроуз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=12|end_char=19
+6	:	:	PUNCT	_	_	1	punct	_	start_char=19|end_char=20
+
+# text = Непобедимый Ayr выходит на первое место Две поздние попытки, возможно, несколько исказили итоговый результат, но, несомненно, Ayr заслужил победу в этом удивительно интересном матче дня Tennent's Premiership.
+# sent_id = 1
+1	Непобедимый	непобедимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=21|end_char=32
+2	Ayr	Ayr	PROPN	_	Foreign=Yes	3	nsubj	_	start_char=33|end_char=36
+3	выходит	выходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=37|end_char=44
+4	на	на	ADP	_	_	6	case	_	start_char=45|end_char=47
+5	первое	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=48|end_char=54
+6	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=55|end_char=60
+7	Две	два	NUM	_	Case=Acc|Gender=Fem|NumType=Card	9	nummod	_	start_char=61|end_char=64
+8	поздние	поздний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	start_char=65|end_char=72
+9	попытки	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=73|end_char=80
+10	,	,	PUNCT	_	_	14	punct	_	start_char=80|end_char=81
+11	возможно	возможно	ADV	_	Degree=Pos	14	parataxis	_	start_char=82|end_char=90
+12	,	,	PUNCT	_	_	11	punct	_	start_char=90|end_char=91
+13	несколько	несколько	ADV	_	Degree=Pos	14	advmod	_	start_char=92|end_char=101
+14	исказили	исказить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=102|end_char=110
+15	итоговый	итоговый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=111|end_char=119
+16	результат	результат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=120|end_char=129
+17	,	,	PUNCT	_	_	23	punct	_	start_char=129|end_char=130
+18	но	но	CCONJ	_	_	23	cc	_	start_char=131|end_char=133
+19	,	,	PUNCT	_	_	18	punct	_	start_char=133|end_char=134
+20	несомненно	несомненно	ADV	_	Degree=Pos	23	parataxis	_	start_char=135|end_char=145
+21	,	,	PUNCT	_	_	20	punct	_	start_char=145|end_char=146
+22	Ayr	Ayr	PROPN	_	Foreign=Yes	23	nsubj	_	start_char=147|end_char=150
+23	заслужил	заслужить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=151|end_char=159
+24	победу	победа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=160|end_char=166
+25	в	в	ADP	_	_	29	case	_	start_char=167|end_char=168
+26	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=169|end_char=173
+27	удивительно	удивительно	ADV	_	Degree=Pos	28	obl	_	start_char=174|end_char=185
+28	интересном	интересный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=186|end_char=196
+29	матче	матч	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	start_char=197|end_char=202
+30	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	start_char=203|end_char=206
+31	Tennent's	Tennent's	PROPN	_	Foreign=Yes	30	flat:foreign	_	start_char=207|end_char=216
+32	Premiership	Premiership	PROPN	_	Foreign=Yes	30	flat:foreign	_	start_char=217|end_char=228
+33	.	.	PUNCT	_	_	3	punct	_	start_char=228|end_char=229
+
+# text = Теперь они возглавляют турнирную таблицу и являются единственной непобедимой командой из десяти.
+# sent_id = 2
+1	Теперь	теперь	ADV	_	Degree=Pos	3	advmod	_	start_char=230|end_char=236
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=237|end_char=240
+3	возглавляют	возглавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=241|end_char=252
+4	турнирную	турнирный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=253|end_char=262
+5	таблицу	таблица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=263|end_char=270
+6	и	и	CCONJ	_	_	7	cc	_	start_char=271|end_char=272
+7	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=273|end_char=281
+8	единственной	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=282|end_char=294
+9	непобедимой	непобедимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=295|end_char=306
+10	командой	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	start_char=307|end_char=315
+11	из	из	ADP	_	_	12	case	_	start_char=316|end_char=318
+12	десяти	десять	NUM	_	Case=Gen|NumType=Card	10	nmod	_	start_char=319|end_char=325
+13	.	.	PUNCT	_	_	3	punct	_	start_char=325|end_char=326
+
+# text = В конце концов, именно превосходство в обороне, а также лучшая реализация моментов привели к победе хозяев, и тренер Питер Мерчи имеет полное право быть довольным.
+# sent_id = 3
+1	В	в	ADP	_	_	15	advmod	_	start_char=327|end_char=328
+2	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	start_char=329|end_char=334
+3	концов	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	fixed	_	start_char=335|end_char=341
+4	,	,	PUNCT	_	_	1	punct	_	start_char=341|end_char=342
+5	именно	именно	PART	_	_	6	advmod	_	start_char=343|end_char=349
+6	превосходство	превосходство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=350|end_char=363
+7	в	в	ADP	_	_	8	case	_	start_char=364|end_char=365
+8	обороне	оборона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	start_char=366|end_char=373
+9	,	,	PUNCT	_	_	13	punct	_	start_char=373|end_char=374
+10	а	а	CCONJ	_	_	13	cc	_	start_char=375|end_char=376
+11	также	также	PART	_	_	10	fixed	_	start_char=377|end_char=382
+12	лучшая	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=383|end_char=389
+13	реализация	реализация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=390|end_char=400
+14	моментов	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=401|end_char=409
+15	привели	привести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=410|end_char=417
+16	к	к	ADP	_	_	17	case	_	start_char=418|end_char=419
+17	победе	победа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	start_char=420|end_char=426
+18	хозяев	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=427|end_char=433
+19	,	,	PUNCT	_	_	24	punct	_	start_char=433|end_char=434
+20	и	и	CCONJ	_	_	24	cc	_	start_char=435|end_char=436
+21	тренер	тренер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=437|end_char=443
+22	Питер	Питер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	appos	_	start_char=444|end_char=449
+23	Мерчи	Мерчи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	start_char=450|end_char=455
+24	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	start_char=456|end_char=461
+25	полное	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	start_char=462|end_char=468
+26	право	право	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	start_char=469|end_char=474
+27	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	cop	_	start_char=475|end_char=479
+28	довольным	довольный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	obl	_	start_char=480|end_char=489
+29	.	.	PUNCT	_	_	15	punct	_	start_char=489|end_char=490
+
+# text = "Мы прошли через все испытания, и мы все еще непобедимы, так что я должен быть доволен", - сказал он.
+# sent_id = 4
+1	"	"	PUNCT	_	_	3	punct	_	start_char=491|end_char=492
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=492|end_char=494
+3	прошли	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=495|end_char=501
+4	через	через	ADP	_	_	6	case	_	start_char=502|end_char=507
+5	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	6	det	_	start_char=508|end_char=511
+6	испытания	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obl	_	start_char=512|end_char=521
+7	,	,	PUNCT	_	_	12	punct	_	start_char=521|end_char=522
+8	и	и	CCONJ	_	_	12	cc	_	start_char=523|end_char=524
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=525|end_char=527
+10	все	все	PART	_	_	11	advmod	_	start_char=528|end_char=531
+11	еще	еще	ADV	_	Degree=Pos	12	obl	_	start_char=532|end_char=535
+12	непобедимы	непобедимый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	start_char=536|end_char=546
+13	,	,	PUNCT	_	_	17	punct	_	start_char=546|end_char=547
+14	так	так	ADV	_	Degree=Pos	17	mark	_	start_char=548|end_char=551
+15	что	что	SCONJ	_	_	14	fixed	_	start_char=552|end_char=555
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=556|end_char=557
+17	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	advcl	_	start_char=558|end_char=564
+18	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	cop	_	start_char=565|end_char=569
+19	доволен	довольный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	xcomp	_	start_char=570|end_char=577
+20	"	"	PUNCT	_	_	3	punct	_	start_char=577|end_char=578
+21	,	,	PUNCT	_	_	23	punct	_	start_char=578|end_char=579
+22	-	-	PUNCT	_	_	23	punct	_	start_char=580|end_char=581
+23	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=582|end_char=588
+24	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	start_char=589|end_char=591
+25	.	.	PUNCT	_	_	3	punct	_	start_char=591|end_char=592
+
+# text = Робин Кристи из "Мелроуз" сказала: "Надо отдать должное Ayr, они использовали свои шансы лучше, чем мы".
+# sent_id = 5
+1	Робин	Робин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=593|end_char=598
+2	Кристи	Кристи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=599|end_char=605
+3	из	из	ADP	_	_	5	case	_	start_char=606|end_char=608
+4	"	"	PUNCT	_	_	5	punct	_	start_char=609|end_char=610
+5	Мелроуз	Мелроуз	PROPN	_	_	1	nmod	_	start_char=610|end_char=617
+6	"	"	PUNCT	_	_	5	punct	_	start_char=617|end_char=618
+7	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=619|end_char=626
+8	:	:	PUNCT	_	_	10	punct	_	start_char=626|end_char=627
+9	"	"	PUNCT	_	_	10	punct	_	start_char=628|end_char=629
+10	Надо	надо	ADV	_	Degree=Pos	7	parataxis	_	start_char=629|end_char=633
+11	отдать	отдать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	csubj	_	start_char=634|end_char=640
+12	должное	должное	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=641|end_char=648
+13	Ayr	Ayr	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=649|end_char=652
+14	,	,	PUNCT	_	_	16	punct	_	start_char=652|end_char=653
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=654|end_char=657
+16	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=658|end_char=670
+17	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	start_char=671|end_char=675
+18	шансы	шанс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=676|end_char=681
+19	лучше	хороший	ADJ	_	Degree=Cmp	16	obl	_	start_char=682|end_char=687
+20	,	,	PUNCT	_	_	22	punct	_	start_char=687|end_char=688
+21	чем	чем	SCONJ	_	_	22	mark	_	start_char=689|end_char=692
+22	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	obl	_	start_char=693|end_char=695
+23	"	"	PUNCT	_	_	10	punct	_	start_char=695|end_char=696
+24	.	.	PUNCT	_	_	7	punct	_	start_char=696|end_char=697
+
+# text = Попытка Гранта Андерсона на 14-й минуте, конвертированная Фрейзером Климо, вывела Ayr вперед, но желтая карточка игрока сборной Шотландии Рори Хьюза, освобожденного на время игры командой Warriors, позволила Melrose добиться успеха, и Джейсон Баггот сделал неконвертируемую попытку.
+# sent_id = 6
+1	Попытка	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=698|end_char=705
+2	Гранта	Грант	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=706|end_char=712
+3	Андерсона	Андерсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	start_char=713|end_char=722
+4	на	на	ADP	_	_	6	case	_	start_char=723|end_char=725
+5	14-й	14-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=726|end_char=730
+6	минуте	минута	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	start_char=731|end_char=737
+7	,	,	PUNCT	_	_	8	punct	_	start_char=737|end_char=738
+8	конвертированная	конвертировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	start_char=739|end_char=755
+9	Фрейзером	Фрейзер	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=756|end_char=765
+10	Климо	Климо	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	flat:name	_	start_char=766|end_char=771
+11	,	,	PUNCT	_	_	8	punct	_	start_char=771|end_char=772
+12	вывела	вывести	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=773|end_char=779
+13	Ayr	Ayr	PROPN	_	Foreign=Yes	12	obj	_	start_char=780|end_char=783
+14	вперед	вперед	ADV	_	Degree=Pos	12	advmod	_	start_char=784|end_char=790
+15	,	,	PUNCT	_	_	32	punct	_	start_char=790|end_char=791
+16	но	но	CCONJ	_	_	32	cc	_	start_char=792|end_char=794
+17	желтая	желтый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=795|end_char=801
+18	карточка	карточка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	start_char=802|end_char=810
+19	игрока	игрок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=811|end_char=817
+20	сборной	сборная	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=818|end_char=825
+21	Шотландии	Шотландия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=826|end_char=835
+22	Рори	Рори	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	appos	_	start_char=836|end_char=840
+23	Хьюза	Хьюза	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	flat:name	_	start_char=841|end_char=846
+24	,	,	PUNCT	_	_	25	punct	_	start_char=846|end_char=847
+25	освобожденного	освободить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	start_char=848|end_char=862
+26	на	на	ADP	_	_	27	case	_	start_char=863|end_char=865
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	obl	_	start_char=866|end_char=871
+28	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	start_char=872|end_char=876
+29	командой	команда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	start_char=877|end_char=885
+30	Warriors	Warriors	PROPN	_	Foreign=Yes	29	flat:foreign	_	start_char=886|end_char=894
+31	,	,	PUNCT	_	_	18	punct	_	start_char=894|end_char=895
+32	позволила	позволить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	start_char=896|end_char=905
+33	Melrose	Melrose	PROPN	_	_	32	iobj	_	start_char=906|end_char=913
+34	добиться	добиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	32	xcomp	_	start_char=914|end_char=922
+35	успеха	успех	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	obl	_	start_char=923|end_char=929
+36	,	,	PUNCT	_	_	40	punct	_	start_char=929|end_char=930
+37	и	и	CCONJ	_	_	40	cc	_	start_char=931|end_char=932
+38	Джейсон	Джейсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	start_char=933|end_char=940
+39	Баггот	Баггот	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	flat:name	_	start_char=941|end_char=947
+40	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	start_char=948|end_char=954
+41	неконвертируемую	неконвертируемый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	start_char=955|end_char=971
+42	попытку	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	obj	_	start_char=972|end_char=979
+43	.	.	PUNCT	_	_	12	punct	_	start_char=979|end_char=980
+
+# text = Климо увеличил преимущество Ayr с помощью пенальти, а затем, ближе к перерыву, забил и реализовал сольную попытку, сделав счет 17-5 в пользу Ayr к перерыву.
+# sent_id = 7
+1	Климо	Климо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=981|end_char=986
+2	увеличил	увеличить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=987|end_char=995
+3	преимущество	преимущество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=996|end_char=1008
+4	Ayr	Ayr	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=1009|end_char=1012
+5	с	с	ADP	_	_	7	case	_	start_char=1013|end_char=1014
+6	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	fixed	_	start_char=1015|end_char=1022
+7	пенальти	пенальти	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=1023|end_char=1031
+8	,	,	PUNCT	_	_	16	punct	_	start_char=1031|end_char=1032
+9	а	а	CCONJ	_	_	16	cc	_	start_char=1033|end_char=1034
+10	затем	затем	ADV	_	Degree=Pos	16	advmod	_	start_char=1035|end_char=1040
+11	,	,	PUNCT	_	_	10	punct	_	start_char=1040|end_char=1041
+12	ближе	близко	ADV	_	Degree=Cmp	16	advmod	_	start_char=1042|end_char=1047
+13	к	к	ADP	_	_	14	case	_	start_char=1048|end_char=1049
+14	перерыву	перерыв	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=1050|end_char=1058
+15	,	,	PUNCT	_	_	12	punct	_	start_char=1058|end_char=1059
+16	забил	забить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=1060|end_char=1065
+17	и	и	CCONJ	_	_	18	cc	_	start_char=1066|end_char=1067
+18	реализовал	реализовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=1068|end_char=1078
+19	сольную	сольный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1079|end_char=1086
+20	попытку	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	start_char=1087|end_char=1094
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1094|end_char=1095
+22	сделав	делать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	18	advcl	_	start_char=1096|end_char=1102
+23	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	start_char=1103|end_char=1107
+24	17	17	NUM	_	NumType=Card	23	nummod:entity	_	start_char=1108|end_char=1110
+25	-	-	PUNCT	_	_	26	punct	_	start_char=1110|end_char=1111
+26	5	5	NUM	_	NumType=Card	24	nmod	_	start_char=1111|end_char=1112
+27	в	в	ADP	_	_	28	case	_	start_char=1113|end_char=1114
+28	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	start_char=1115|end_char=1121
+29	Ayr	Ayr	PROPN	_	Foreign=Yes	28	flat:foreign	_	start_char=1122|end_char=1125
+30	к	к	ADP	_	_	31	case	_	start_char=1126|end_char=1127
+31	перерыву	перерыв	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	28	nmod	_	start_char=1128|end_char=1136
+32	.	.	PUNCT	_	_	2	punct	_	start_char=1136|end_char=1137
+
+# text = Но Melrose хорошо начал вторую половину игры, и попытка Патрика Андерсона, реализованная Багготом, сократила отставание до пяти очков.
+# sent_id = 8
+1	Но	но	CCONJ	_	_	4	cc	_	start_char=1138|end_char=1140
+2	Melrose	Melrose	PROPN	_	Foreign=Yes	4	nsubj	_	start_char=1141|end_char=1148
+3	хорошо	хорошо	ADV	_	Degree=Pos	4	advmod	_	start_char=1149|end_char=1155
+4	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1156|end_char=1161
+5	вторую	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=1162|end_char=1168
+6	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=1169|end_char=1177
+7	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=1178|end_char=1182
+8	,	,	PUNCT	_	_	17	punct	_	start_char=1182|end_char=1183
+9	и	и	CCONJ	_	_	17	cc	_	start_char=1184|end_char=1185
+10	попытка	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=1186|end_char=1193
+11	Патрика	Патрика	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=1194|end_char=1201
+12	Андерсона	Андерсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	start_char=1202|end_char=1211
+13	,	,	PUNCT	_	_	14	punct	_	start_char=1211|end_char=1212
+14	реализованная	реализовать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	start_char=1213|end_char=1226
+15	Багготом	Баггот	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	obl	_	start_char=1227|end_char=1235
+16	,	,	PUNCT	_	_	14	punct	_	start_char=1235|end_char=1236
+17	сократила	сократить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=1237|end_char=1246
+18	отставание	отставание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=1247|end_char=1257
+19	до	до	ADP	_	_	21	case	_	start_char=1258|end_char=1260
+20	пяти	пять	NUM	_	Case=Gen|NumType=Card	21	nummod	_	start_char=1261|end_char=1265
+21	очков	очко	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	start_char=1266|end_char=1271
+22	.	.	PUNCT	_	_	4	punct	_	start_char=1271|end_char=1272
+
+# text = Затем последовала длительная передышка из-за серьезной травмы Руарида Нотта, которого унесли на носилках, и после возобновления игры "Эйр" вышел вперед благодаря попытке Стаффорда Макдауолла, которую реализовал Климо.
+# sent_id = 9
+1	Затем	затем	ADV	_	Degree=Pos	2	advmod	_	start_char=1273|end_char=1278
+2	последовала	следовать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1279|end_char=1290
+3	длительная	длительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1291|end_char=1301
+4	передышка	передышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=1302|end_char=1311
+5	из-за	из-за	ADP	_	_	7	case	_	start_char=1312|end_char=1317
+6	серьезной	серьезный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1318|end_char=1327
+7	травмы	травма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=1328|end_char=1334
+8	Руарида	Руарид	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=1335|end_char=1342
+9	Нотта	Нотта	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	flat:name	_	start_char=1343|end_char=1348
+10	,	,	PUNCT	_	_	12	punct	_	start_char=1348|end_char=1349
+11	которого	который	PRON	_	Case=Acc|PronType=Int,Rel	12	obj	_	start_char=1350|end_char=1358
+12	унесли	унести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=1359|end_char=1365
+13	на	на	ADP	_	_	14	case	_	start_char=1366|end_char=1368
+14	носилках	носилки	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	start_char=1369|end_char=1377
+15	,	,	PUNCT	_	_	23	punct	_	start_char=1377|end_char=1378
+16	и	и	CCONJ	_	_	23	cc	_	start_char=1379|end_char=1380
+17	после	после	ADP	_	_	18	case	_	start_char=1381|end_char=1386
+18	возобновления	возобновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	start_char=1387|end_char=1400
+19	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=1401|end_char=1405
+20	"	"	PUNCT	_	_	21	punct	_	start_char=1406|end_char=1407
+21	Эйр	Эйр	PROPN	_	_	23	nsubj	_	start_char=1407|end_char=1410
+22	"	"	PUNCT	_	_	21	punct	_	start_char=1410|end_char=1411
+23	вышел	выйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=1412|end_char=1417
+24	вперед	вперед	ADV	_	Degree=Pos	23	advmod	_	start_char=1418|end_char=1424
+25	благодаря	благодаря	ADP	_	_	26	case	_	start_char=1425|end_char=1434
+26	попытке	попытка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	obl	_	start_char=1435|end_char=1442
+27	Стаффорда	Стаффорд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	start_char=1443|end_char=1452
+28	Макдауолла	Макдауолла	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	flat:name	_	start_char=1453|end_char=1463
+29	,	,	PUNCT	_	_	31	punct	_	start_char=1463|end_char=1464
+30	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	31	obj	_	start_char=1465|end_char=1472
+31	реализовал	реализовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	acl:relcl	_	start_char=1473|end_char=1483
+32	Климо	Климо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	start_char=1484|end_char=1489
+33	.	.	PUNCT	_	_	2	punct	_	start_char=1489|end_char=1490
+
+# text = Затем капитан команды Блэр Макферсон (Blair Macpherson) получил желтую карточку, и в конце периода жесткого давления "Мелроуз" снова заставил "лишнего" человека поплатиться неконвертированной попыткой Брюса Колвайна (Bruce Colvine).
+# sent_id = 10
+1	Затем	затем	ADV	_	Degree=Pos	10	advmod	_	start_char=1491|end_char=1496
+2	капитан	капитан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1497|end_char=1504
+3	команды	команда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=1505|end_char=1512
+4	Блэр	Блэр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=1513|end_char=1517
+5	Макферсон	Макферсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	start_char=1518|end_char=1527
+6	(	(	PUNCT	_	_	7	punct	_	start_char=1528|end_char=1529
+7	Blair	Blair	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1529|end_char=1534
+8	Macpherson	Macpherson	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1535|end_char=1545
+9	)	)	PUNCT	_	_	8	punct	_	start_char=1545|end_char=1546
+10	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1547|end_char=1554
+11	желтую	желтый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1555|end_char=1561
+12	карточку	карточка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=1562|end_char=1570
+13	,	,	PUNCT	_	_	24	punct	_	start_char=1570|end_char=1571
+14	и	и	CCONJ	_	_	24	cc	_	start_char=1572|end_char=1573
+15	в	в	ADP	_	_	16	case	_	start_char=1574|end_char=1575
+16	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	obl	_	start_char=1576|end_char=1581
+17	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=1582|end_char=1589
+18	жесткого	жесткий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=1590|end_char=1598
+19	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	start_char=1599|end_char=1607
+20	"	"	PUNCT	_	_	21	punct	_	start_char=1608|end_char=1609
+21	Мелроуз	Мелроуз	PROPN	_	_	19	appos	_	start_char=1609|end_char=1616
+22	"	"	PUNCT	_	_	21	punct	_	start_char=1616|end_char=1617
+23	снова	снова	ADV	_	Degree=Pos	24	advmod	_	start_char=1618|end_char=1623
+24	заставил	заставить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=1624|end_char=1632
+25	"	"	PUNCT	_	_	26	punct	_	start_char=1633|end_char=1634
+26	лишнего	лишний	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	start_char=1634|end_char=1641
+27	"	"	PUNCT	_	_	26	punct	_	start_char=1641|end_char=1642
+28	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=1643|end_char=1651
+29	поплатиться	поплатиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	24	xcomp	_	start_char=1652|end_char=1663
+30	неконвертированной	неконвертированный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=1664|end_char=1682
+31	попыткой	попытка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	29	obl	_	start_char=1683|end_char=1691
+32	Брюса	Брюс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	start_char=1692|end_char=1697
+33	Колвайна	Колвайн	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	flat:name	_	start_char=1698|end_char=1706
+34	(	(	PUNCT	_	_	35	punct	_	start_char=1707|end_char=1708
+35	Bruce	Bruce	PROPN	_	Foreign=Yes	32	flat:foreign	_	start_char=1708|end_char=1713
+36	Colvine	Colvine	PROPN	_	Foreign=Yes	32	flat:foreign	_	start_char=1714|end_char=1721
+37	)	)	PUNCT	_	_	36	punct	_	start_char=1721|end_char=1722
+38	.	.	PUNCT	_	_	10	punct	_	start_char=1722|end_char=1723
+
+# text = Однако хозяева вернулись, и когда Струан Хатчинсон был наказан желтой карточкой за атаку Климо без мяча, Макферсон со штрафного в касание переправил мяч в заднюю часть наступающего мола Ayr.
+# sent_id = 11
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	start_char=1724|end_char=1730
+2	хозяева	хозяин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1731|end_char=1738
+3	вернулись	вернуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1739|end_char=1748
+4	,	,	PUNCT	_	_	24	punct	_	start_char=1748|end_char=1749
+5	и	и	CCONJ	_	_	24	cc	_	start_char=1750|end_char=1751
+6	когда	когда	SCONJ	_	_	10	mark	_	start_char=1752|end_char=1757
+7	Струан	Струан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj:pass	_	start_char=1758|end_char=1764
+8	Хатчинсон	Хатчинсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	start_char=1765|end_char=1774
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	start_char=1775|end_char=1778
+10	наказан	наказать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	advcl	_	start_char=1779|end_char=1786
+11	желтой	желтый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1787|end_char=1793
+12	карточкой	карточка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	start_char=1794|end_char=1803
+13	за	за	ADP	_	_	14	case	_	start_char=1804|end_char=1806
+14	атаку	атака	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=1807|end_char=1812
+15	Климо	Климо	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=1813|end_char=1818
+16	без	без	ADP	_	_	17	case	_	start_char=1819|end_char=1822
+17	мяча	мяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=1823|end_char=1827
+18	,	,	PUNCT	_	_	10	punct	_	start_char=1827|end_char=1828
+19	Макферсон	Макферсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=1829|end_char=1838
+20	со	с	ADP	_	_	21	case	_	start_char=1839|end_char=1841
+21	штрафного	штрафное	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	start_char=1842|end_char=1851
+22	в	в	ADP	_	_	23	case	_	start_char=1852|end_char=1853
+23	касание	касание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obl	_	start_char=1854|end_char=1861
+24	переправил	переправить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1862|end_char=1872
+25	мяч	мяч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=1873|end_char=1876
+26	в	в	ADP	_	_	28	case	_	start_char=1877|end_char=1878
+27	заднюю	задний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	start_char=1879|end_char=1885
+28	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	start_char=1886|end_char=1891
+29	наступающего	наступать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	30	amod	_	start_char=1892|end_char=1904
+30	мола	мола	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	start_char=1905|end_char=1909
+31	Ayr	Ayr	PROPN	_	Foreign=Yes	30	flat:foreign	_	start_char=1910|end_char=1913
+32	.	.	PUNCT	_	_	3	punct	_	start_char=1913|end_char=1914
+
+# text = Климо реализовал свою попытку, как и почти сразу после возобновления игры, после того как Кайл Роу собрал удар Дэвида Армстронга и отправил флангового игрока Грегора Генри в отрыв, что привело к пятой попытке хозяев.
+# sent_id = 12
+1	Климо	Климо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1915|end_char=1920
+2	реализовал	реализовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1921|end_char=1931
+3	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	start_char=1932|end_char=1936
+4	попытку	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=1937|end_char=1944
+5	,	,	PUNCT	_	_	11	punct	_	start_char=1944|end_char=1945
+6	как	как	SCONJ	_	_	11	mark	_	start_char=1946|end_char=1949
+7	и	и	PART	_	_	11	advmod	_	start_char=1950|end_char=1951
+8	почти	почти	ADV	_	Degree=Pos	9	advmod	_	start_char=1952|end_char=1957
+9	сразу	сразу	ADV	_	Degree=Pos	11	advmod	_	start_char=1958|end_char=1963
+10	после	после	ADP	_	_	11	case	_	start_char=1964|end_char=1969
+11	возобновления	возобновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=1970|end_char=1983
+12	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=1984|end_char=1988
+13	,	,	PUNCT	_	_	15	punct	_	start_char=1988|end_char=1989
+14	после	после	ADP	_	_	15	case	_	start_char=1990|end_char=1995
+15	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	start_char=1996|end_char=2000
+16	как	как	SCONJ	_	_	19	mark	_	start_char=2001|end_char=2004
+17	Кайл	Кайл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=2005|end_char=2009
+18	Роу	Роу	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	start_char=2010|end_char=2013
+19	собрал	собрать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl	_	start_char=2014|end_char=2020
+20	удар	удар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=2021|end_char=2025
+21	Дэвида	Дэвид	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=2026|end_char=2032
+22	Армстронга	Армстронг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	flat:name	_	start_char=2033|end_char=2043
+23	и	и	CCONJ	_	_	24	cc	_	start_char=2044|end_char=2045
+24	отправил	отправить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	start_char=2046|end_char=2054
+25	флангового	фланговый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=2055|end_char=2065
+26	игрока	игрок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=2066|end_char=2072
+27	Грегора	Грегор	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	26	appos	_	start_char=2073|end_char=2080
+28	Генри	Генри	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	27	flat:name	_	start_char=2081|end_char=2086
+29	в	в	ADP	_	_	30	case	_	start_char=2087|end_char=2088
+30	отрыв	отрыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	start_char=2089|end_char=2094
+31	,	,	PUNCT	_	_	33	punct	_	start_char=2094|end_char=2095
+32	что	что	PRON	_	Case=Nom|PronType=Int,Rel	33	nsubj	_	start_char=2096|end_char=2099
+33	привело	привести	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	acl	_	start_char=2100|end_char=2107
+34	к	к	ADP	_	_	36	case	_	start_char=2108|end_char=2109
+35	пятой	пятый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	start_char=2110|end_char=2115
+36	попытке	попытка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	33	obl	_	start_char=2116|end_char=2123
+37	хозяев	хозяин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	start_char=2124|end_char=2130
+38	.	.	PUNCT	_	_	2	punct	_	start_char=2130|end_char=2131
+

@@ -1,3 +1,5 @@
+# text = Apsolutno blago Svatko tko sanja o dizajniranju prekrasnih kolača, trebao bi ovo imati na svom noćnom ormariću.
+# sent_id = 0
 1	Apsolutno	apsolutno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=9
 2	blago	blago	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=10|end_char=15
 3	Svatko	svatko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Ind	11	nsubj	_	start_char=16|end_char=22
@@ -18,6 +20,8 @@
 18	ormariću	ormarić	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	start_char=102|end_char=110
 19	.	.	PUNCT	Z	_	11	punct	_	start_char=110|end_char=111
 
+# text = Ne znam koliko sam ga noći proučavao stranica prije spavanja, kakvo je apsolutno blago ova knjiga.
+# sent_id = 1
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=112|end_char=114
 2	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=115|end_char=119
 3	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	7	advmod	_	start_char=120|end_char=126
@@ -37,6 +41,8 @@
 17	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=203|end_char=209
 18	.	.	PUNCT	Z	_	2	punct	_	start_char=209|end_char=210
 
+# text = To je kao sveti gral knjiga o kolačima.
+# sent_id = 2
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=211|end_char=213
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=214|end_char=216
 3	kao	kao	SCONJ	Cs	_	5	case	_	start_char=217|end_char=220
@@ -47,6 +53,8 @@
 8	kolačima	kolač	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	start_char=241|end_char=249
 9	.	.	PUNCT	Z	_	5	punct	_	start_char=249|end_char=250
 
+# text = Nećete požaliti.
+# sent_id = 3
 1	Nećete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=251|end_char=257
 2	požaliti	požaliti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=258|end_char=266
 3	.	.	PUNCT	Z	_	1	punct	_	start_char=266|end_char=267

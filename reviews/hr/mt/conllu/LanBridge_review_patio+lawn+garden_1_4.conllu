@@ -1,3 +1,5 @@
+# text = Sjajna crijeva Dobra američka tvrtka koja stoji iza svojih proizvoda.
+# sent_id = 0
 1	Sjajna	sjajan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
 2	crijeva	crijevo	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=7|end_char=14
 3	Dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=15|end_char=20
@@ -10,6 +12,8 @@
 10	proizvoda	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=59|end_char=68
 11	.	.	PUNCT	Z	_	5	punct	_	start_char=68|end_char=69
 
+# text = Morao sam dati jamstvo za dva crijeva i oni vam šalju zamjenske.
+# sent_id = 1
 1	Morao	morati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=70|end_char=75
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=76|end_char=79
 3	dati	dati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=80|end_char=84
@@ -24,6 +28,8 @@
 12	zamjenske	zamjenski	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	obj	_	start_char=124|end_char=133
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=133|end_char=134
 
+# text = Imao sam jedan prasak nakon nekog vremena, mogli ste vidjeti kako se bulda tjednima prije nego što je otišlo, tako da nema iznenađenja.
+# sent_id = 2
 1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=135|end_char=139
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=140|end_char=143
 3	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	4	nummod	_	start_char=144|end_char=149
@@ -51,6 +57,8 @@
 25	iznenađenja	iznenađenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	24	obj	_	start_char=258|end_char=269
 26	.	.	PUNCT	Z	_	1	punct	_	start_char=269|end_char=270
 
+# text = Drugi je bio vezan za zimu jer sam loša i izostavljam ih većinu vremena.
+# sent_id = 3
 1	Drugi	drugi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	start_char=271|end_char=276
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=277|end_char=279
 3	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=280|end_char=283
@@ -67,10 +75,14 @@
 14	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=335|end_char=342
 15	.	.	PUNCT	Z	_	4	punct	_	start_char=342|end_char=343
 
+# text = Toplo preporučam.
+# sent_id = 4
 1	Toplo	toplo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=344|end_char=349
 2	preporučam	preporučati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=350|end_char=360
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=360|end_char=361
 
+# text = Imajte na umu da je podnožje od stotinu teško i poput otimanja anakonde kada je vrijeme za pospremanje, ali ima dalekosežan doseg.
+# sent_id = 5
 1	Imajte	imati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=362|end_char=368
 2	na	na	ADP	Sl	Case=Loc	3	case	_	start_char=369|end_char=371
 3	umu	um	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=372|end_char=375

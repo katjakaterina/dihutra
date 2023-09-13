@@ -1,3 +1,5 @@
+# text = Jedan od mojih najdražih božićnih filmova!
+# sent_id = 0
 1	Jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	6	nummod	_	start_char=0|end_char=5
 2	od	od	ADP	Sg	Case=Gen	6	case	_	start_char=6|end_char=8
 3	mojih	moj	DET	Ps1mpg	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	start_char=9|end_char=14
@@ -6,6 +8,8 @@
 6	filmova	film	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	start_char=34|end_char=41
 7	!	!	PUNCT	Z	_	1	punct	_	start_char=41|end_char=42
 
+# text = Zanemarite neke od negativnijih recenzija ovdje.
+# sent_id = 1
 1	Zanemarite	zanemariti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=43|end_char=53
 2	neke	neki	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=54|end_char=58
 3	od	od	ADP	Sg	Case=Gen	5	case	_	start_char=59|end_char=61
@@ -14,6 +18,8 @@
 6	ovdje	ovdje	ADV	Rgp	Degree=Pos|PronType=Dem	1	advmod	_	start_char=85|end_char=90
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=90|end_char=91
 
+# text = Ovaj film napravljen za TV stvarno me dirne svaki put kad ga pogledam; koji je svaki Božić.
+# sent_id = 2
 1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=92|end_char=96
 2	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=97|end_char=101
 3	napravljen	napraviti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	start_char=102|end_char=112
@@ -34,6 +40,8 @@
 18	Božić	Božić	PROPN	Npmsn	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=177|end_char=182
 19	.	.	PUNCT	Z	_	8	punct	_	start_char=182|end_char=183
 
+# text = Gluma je sjajna i priča je dobro napisana.
+# sent_id = 3
 1	Gluma	gluma	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=184|end_char=189
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=190|end_char=192
 3	sjajna	sjajan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=193|end_char=199
@@ -44,6 +52,8 @@
 8	napisana	napisati	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	start_char=217|end_char=225
 9	.	.	PUNCT	Z	_	3	punct	_	start_char=225|end_char=226
 
+# text = Pogodan je za cijelu obitelj i daje dobru sliku doba depresije u našoj zemlji.
+# sent_id = 4
 1	Pogodan	pogodan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=227|end_char=234
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=235|end_char=237
 3	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=238|end_char=240

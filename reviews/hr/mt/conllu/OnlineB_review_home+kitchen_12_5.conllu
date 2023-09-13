@@ -1,3 +1,5 @@
+# text = Nevjesta koja će biti pomoć!
+# sent_id = 0
 1	Nevjesta	nevjest	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=8
 2	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=9|end_char=13
 3	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=14|end_char=16
@@ -5,6 +7,8 @@
 5	pomoć	pomoć	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	acl	_	start_char=22|end_char=27
 6	!	!	PUNCT	Z	_	1	punct	_	start_char=27|end_char=28
 
+# text = Ova je knjiga vrlo inspirativna ako tražite tortu koja je jedinstvena ili ako jednostavno ne znate koji je vaš stil.
+# sent_id = 1
 1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=29|end_char=32
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=33|end_char=35
 3	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=36|end_char=42
@@ -27,6 +31,8 @@
 20	stil	stil	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	ccomp	_	start_char=140|end_char=144
 21	.	.	PUNCT	Z	_	5	punct	_	start_char=144|end_char=145
 
+# text = Prednji dio knjige pomaže vam odabrati svoj stil, a stražnja polovica sadrži specifikacije kolača koje prikazuju.
+# sent_id = 2
 1	Prednji	prednji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=146|end_char=153
 2	dio	dio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=154|end_char=157
 3	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=158|end_char=164
@@ -46,6 +52,8 @@
 17	prikazuju	prikazivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	start_char=249|end_char=258
 18	.	.	PUNCT	Z	_	4	punct	_	start_char=258|end_char=259
 
+# text = tj koliko ljudi poslužuju, recepte itd.
+# sent_id = 3
 1	tj	tj	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=260|end_char=262
 2	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	advmod	_	start_char=263|end_char=269
 3	ljudi	čovjek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=270|end_char=275

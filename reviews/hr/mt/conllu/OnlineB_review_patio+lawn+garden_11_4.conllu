@@ -1,3 +1,5 @@
+# text = jesi li promijenio formulu gume ????
+# sent_id = 0
 1	jesi	biti	AUX	Var2s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=0|end_char=4
 2	li	li	PART	Qq	_	3	mark	_	start_char=5|end_char=7
 3	promijenio	promijeniti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=8|end_char=18
@@ -8,6 +10,8 @@
 8	?	?	PUNCT	Z	_	3	punct	_	start_char=34|end_char=35
 9	?	?	PUNCT	Z	_	3	punct	_	start_char=35|end_char=36
 
+# text = Hej Gilmore, godinama kupujem tvoja crijeva i samo tvoja crijeva.
+# sent_id = 1
 1	Hej	hej	INTJ	I	_	5	discourse	_	start_char=37|end_char=40
 2	Gilmore	Gilmore	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=41|end_char=48
 3	,	,	PUNCT	Z	_	1	punct	_	start_char=48|end_char=49
@@ -21,6 +25,8 @@
 11	crijeva	crijevo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	start_char=94|end_char=101
 12	.	.	PUNCT	Z	_	5	punct	_	start_char=101|end_char=102
 
+# text = Vi stojite iza svog proizvoda i pružate izvrsnu korisničku podršku..
+# sent_id = 2
 1	Vi	vi	PRON	Pp2-pn	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=103|end_char=105
 2	stojite	stijeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=106|end_char=113
 3	iza	iza	ADP	Sg	Case=Gen	5	case	_	start_char=114|end_char=117
@@ -34,6 +40,8 @@
 11	.	.	PUNCT	Z	_	2	punct	_	start_char=169|end_char=170
 12	.	.	PUNCT	Z	_	2	punct	_	start_char=170|end_char=171
 
+# text = Ali dajem vam samo 4 zvjezdice jer se čini da ovo crijevo i podnožje od 100 koje sam kupio prije nekoliko mjeseci više savijaju od mojih starijih fleksogena, nisam siguran zašto?
+# sent_id = 3
 1	Ali	ali	CCONJ	Cc	_	2	cc	_	start_char=172|end_char=175
 2	dajem	davati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=176|end_char=181
 3	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	iobj	_	start_char=182|end_char=185

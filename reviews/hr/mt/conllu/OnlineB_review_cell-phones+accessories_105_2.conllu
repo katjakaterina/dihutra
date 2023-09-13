@@ -1,3 +1,5 @@
+# text = KVAR LAKOG RADA KAKVA SJAJNA CIJENA!
+# sent_id = 0
 1	KVAR	kvar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=4
 2	LAKOG	LAKOG	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=5|end_char=10
 3	RADA	rad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=15
@@ -6,6 +8,8 @@
 6	CIJENA	cijena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=29|end_char=35
 7	!	!	PUNCT	Z	_	1	punct	_	start_char=35|end_char=36
 
+# text = ODPRAVO IZ KUTIJE, PLUG N UPLOAD SUM JUICE ...
+# sent_id = 1
 1	ODPRAVO	ODPRAV	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=37|end_char=44
 2	IZ	IZ	ADP	Sg	Case=Gen	1	flat	_	start_char=45|end_char=47
 3	KUTIJE	kutija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	flat	_	start_char=48|end_char=54
@@ -19,6 +23,8 @@
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=81|end_char=82
 12	.	.	PUNCT	Z	_	1	punct	_	start_char=82|end_char=83
 
+# text = NE ZNAM DA LI GA OPETOVANJE ISPAĆE NA POD ILI POVREMENO STURATI U KONZOLU KAKO BI SAKRIO PROUZROKOVANI KVAR ...
+# sent_id = 2
 1	NE	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=84|end_char=86
 2	ZNAM	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=87|end_char=91
 3	DA	da	SCONJ	Cs	_	7	mark	_	start_char=92|end_char=94
@@ -42,6 +48,8 @@
 21	.	.	PUNCT	Z	_	2	punct	_	start_char=193|end_char=194
 22	.	.	PUNCT	Z	_	2	punct	_	start_char=194|end_char=195
 
+# text = ALI UBRZO JE ZELENO SVJETLO PRESTALO SVJETLO, A ZASLON TELEFONA POKAZIVAO JE DA SE NE PUNI. ZATO ILI POTROŠITE NEKOLIKO DOLARA VIŠE ZA JEDAN S TEŽIM UZVANJEM/JAČOM ŠKOLJKOM ILI SE S NJIM TRETIRAJTE KAO S NJEŽNIM CVIJETOM.
+# sent_id = 3
 1	ALI	ali	CCONJ	Cc	_	6	cc	_	start_char=196|end_char=199
 2	UBRZO	ubrzo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=200|end_char=205
 3	JE	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=206|end_char=208

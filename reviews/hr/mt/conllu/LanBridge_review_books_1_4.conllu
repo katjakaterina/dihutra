@@ -1,8 +1,12 @@
+# text = Pokaži mi novac!
+# sent_id = 0
 1	Pokaži	pokazati	VERB	Vmm2s	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	start_char=0|end_char=6
 2	mi	ja	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=7|end_char=9
 3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=10|end_char=15
 4	!	!	PUNCT	Z	_	1	punct	_	start_char=15|end_char=16
 
+# text = Zanimljiva Grishamova priča o odvjetniku koji uzima milijune dolara iz svoje tvrtke nakon što je lažirao vlastitu smrt.
+# sent_id = 1
 1	Zanimljiva	zanimljiv	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=17|end_char=27
 2	Grishamova	grishamov	ADJ	Aspfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	3	amod	_	start_char=28|end_char=38
 3	priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=39|end_char=44
@@ -23,6 +27,8 @@
 18	smrt	smrt	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=131|end_char=135
 19	.	.	PUNCT	Z	_	3	punct	_	start_char=135|end_char=136
 
+# text = Grisham obično može rano privući svoje čitatelje i, u ovom slučaju, ne igra tako brzo.
+# sent_id = 2
 1	Grisham	Grisham	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=137|end_char=144
 2	obično	obično	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=145|end_char=151
 3	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=152|end_char=156
@@ -42,6 +48,8 @@
 17	brzo	brzo	ADV	Rgp	Degree=Pos	15	advmod	_	start_char=218|end_char=222
 18	.	.	PUNCT	Z	_	3	punct	_	start_char=222|end_char=223
 
+# text = Obično pouzdani Frank Mueller čini ovu priču još boljom okladom na audioknjigu.
+# sent_id = 3
 1	Obično	obično	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=224|end_char=230
 2	pouzdani	pouzdati	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=231|end_char=239
 3	Frank	Frank	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=240|end_char=245

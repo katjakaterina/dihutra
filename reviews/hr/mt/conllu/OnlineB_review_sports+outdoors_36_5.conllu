@@ -1,9 +1,13 @@
+# text = Brzo, jednostavno i ekonomično
+# sent_id = 0
 1	Brzo	brzo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=0|end_char=4
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=4|end_char=5
 3	jednostavno	jednostavan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=6|end_char=17
 4	i	i	CCONJ	Cc	_	5	cc	_	start_char=18|end_char=19
 5	ekonomično	ekonomičan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	start_char=20|end_char=30
 
+# text = Ovo je bilo veliko iznenađenje za novac.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=31|end_char=34
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=35|end_char=37
 3	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=38|end_char=42
@@ -13,6 +17,8 @@
 7	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=65|end_char=70
 8	.	.	PUNCT	Z	_	5	punct	_	start_char=70|end_char=71
 
+# text = Pogledao sam treninge s trakom otpora na YouTubeu i odlučio isprobati.
+# sent_id = 2
 1	Pogledao	pogledati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=72|end_char=80
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=81|end_char=84
 3	treninge	trening	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=85|end_char=93
@@ -26,6 +32,8 @@
 11	isprobati	isprobati	VERB	Vmn	VerbForm=Inf	10	xcomp	_	start_char=132|end_char=141
 12	.	.	PUNCT	Z	_	1	punct	_	start_char=141|end_char=142
 
+# text = Po ovoj cijeni zašto ne?
+# sent_id = 3
 1	Po	po	ADP	Sl	Case=Loc	3	case	_	start_char=143|end_char=145
 2	ovoj	ovaj	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=146|end_char=150
 3	cijeni	cijena	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=151|end_char=157
@@ -33,6 +41,8 @@
 5	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=164|end_char=166
 6	?	?	PUNCT	Z	_	3	punct	_	start_char=166|end_char=167
 
+# text = Zaista se osjećam kao da sam dobro vježbao nakon prvog pokušaja.
+# sent_id = 4
 1	Zaista	zaista	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=168|end_char=174
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=175|end_char=177
 3	osjećam	osjećati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=178|end_char=185
@@ -46,6 +56,8 @@
 11	pokušaja	pokušaj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	start_char=223|end_char=231
 12	.	.	PUNCT	Z	_	3	punct	_	start_char=231|end_char=232
 
+# text = Sidro za vrata odlično je funkcioniralo.
+# sent_id = 5
 1	Sidro	sidro	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=233|end_char=238
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=239|end_char=241
 3	vrata	vrata	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	1	nmod	_	start_char=242|end_char=247
@@ -54,6 +66,8 @@
 6	funkcioniralo	funkcionirati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=259|end_char=272
 7	.	.	PUNCT	Z	_	6	punct	_	start_char=272|end_char=273
 
+# text = Imam 71 godinu i držanje velike opreme po kući jednostavno nije moguće.
+# sent_id = 6
 1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=274|end_char=278
 2	71	71	NUM	Mdc	NumType=Card	3	nummod	_	start_char=279|end_char=281
 3	godinu	godina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=282|end_char=288
@@ -68,6 +82,8 @@
 12	moguće	moguć	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	start_char=338|end_char=344
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=344|end_char=345
 
+# text = Ovo samo držim u noćnom ormariću i kad god imam viška minuta malo vježbam.
+# sent_id = 7
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=346|end_char=349
 2	samo	samo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=350|end_char=354
 3	držim	držati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=355|end_char=360
@@ -84,12 +100,16 @@
 14	vježbam	vježbati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=412|end_char=419
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=419|end_char=420
 
+# text = Ugodno iznenađen i zadovoljan.
+# sent_id = 8
 1	Ugodno	ugodan	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=421|end_char=427
 2	iznenađen	iznenaditi	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=428|end_char=437
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=438|end_char=439
 4	zadovoljan	zadovoljan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	start_char=440|end_char=450
 5	.	.	PUNCT	Z	_	2	punct	_	start_char=450|end_char=451
 
+# text = Toplo preporučam.
+# sent_id = 9
 1	Toplo	toplo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=452|end_char=457
 2	preporučam	preporučati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=458|end_char=468
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=468|end_char=469

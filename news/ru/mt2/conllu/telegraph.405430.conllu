@@ -1,0 +1,269 @@
+# text = Издатели "Паддингтона" опасались, что читатели не будут относиться к говорящему медвежонку, о чем свидетельствует новое письмо.
+# sent_id = 0
+1	Издатели	издатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=0|end_char=8
+2	"	"	PUNCT	_	_	3	punct	_	start_char=9|end_char=10
+3	Паддингтона	Паддингтон	PROPN	_	_	1	nmod	_	start_char=10|end_char=21
+4	"	"	PUNCT	_	_	3	punct	_	start_char=21|end_char=22
+5	опасались	опасаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=23|end_char=32
+6	,	,	PUNCT	_	_	11	punct	_	start_char=32|end_char=33
+7	что	что	SCONJ	_	_	11	mark	_	start_char=34|end_char=37
+8	читатели	читатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=38|end_char=46
+9	не	не	PART	_	_	11	advmod	_	start_char=47|end_char=49
+10	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=50|end_char=55
+11	относиться	относиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	ccomp	_	start_char=56|end_char=66
+12	к	к	ADP	_	_	14	case	_	start_char=67|end_char=68
+13	говорящему	говорить	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	start_char=69|end_char=79
+14	медвежонку	медвежонка	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	11	obl	_	start_char=80|end_char=90
+15	,	,	PUNCT	_	_	18	punct	_	start_char=90|end_char=91
+16	о	о	ADP	_	_	17	case	_	start_char=92|end_char=93
+17	чем	что	PRON	_	Case=Loc|PronType=Int,Rel	18	obl	_	start_char=94|end_char=97
+18	свидетельствует	свидетельствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	start_char=98|end_char=113
+19	новое	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	start_char=114|end_char=119
+20	письмо	письмо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	start_char=120|end_char=126
+21	.	.	PUNCT	_	_	5	punct	_	start_char=126|end_char=127
+
+# text = Дочь Бонда Карен Джанкель, которая родилась вскоре после принятия книги, сказала о письме: "Трудно поставить себя на место того, кто впервые читал эту книгу до ее публикации.
+# sent_id = 1
+1	Дочь	дочь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=128|end_char=132
+2	Бонда	Бонд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=133|end_char=138
+3	Карен	Карен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	start_char=139|end_char=144
+4	Джанкель	Джанкель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	flat:name	_	start_char=145|end_char=153
+5	,	,	PUNCT	_	_	7	punct	_	start_char=153|end_char=154
+6	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=155|end_char=162
+7	родилась	рождаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	acl:relcl	_	start_char=163|end_char=171
+8	вскоре	вскоре	ADV	_	Degree=Pos	7	advmod	_	start_char=172|end_char=178
+9	после	после	ADP	_	_	10	case	_	start_char=179|end_char=184
+10	принятия	принятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=185|end_char=193
+11	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=194|end_char=199
+12	,	,	PUNCT	_	_	1	punct	_	start_char=199|end_char=200
+13	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=201|end_char=208
+14	о	о	ADP	_	_	15	case	_	start_char=209|end_char=210
+15	письме	письмо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	start_char=211|end_char=217
+16	:	:	PUNCT	_	_	18	punct	_	start_char=217|end_char=218
+17	"	"	PUNCT	_	_	18	punct	_	start_char=219|end_char=220
+18	Трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	parataxis	_	start_char=220|end_char=226
+19	поставить	ставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	csubj	_	start_char=227|end_char=236
+20	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	19	obj	_	start_char=237|end_char=241
+21	на	на	ADP	_	_	22	case	_	start_char=242|end_char=244
+22	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	start_char=245|end_char=250
+23	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	start_char=251|end_char=255
+24	,	,	PUNCT	_	_	27	punct	_	start_char=255|end_char=256
+25	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	27	nsubj	_	start_char=257|end_char=260
+26	впервые	впервые	ADV	_	Degree=Pos	27	advmod	_	start_char=261|end_char=268
+27	читал	читать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	start_char=269|end_char=274
+28	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	29	det	_	start_char=275|end_char=278
+29	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	start_char=279|end_char=284
+30	до	до	ADP	_	_	32	case	_	start_char=285|end_char=287
+31	ее	ее	DET	_	Poss=Yes|PronType=Prs	32	det	_	start_char=288|end_char=290
+32	публикации	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	obl	_	start_char=291|end_char=301
+33	.	.	PUNCT	_	_	13	punct	_	start_char=301|end_char=302
+
+# text = Это очень забавно, зная сейчас, что мы знаем об огромном успехе Паддингтона".
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=303|end_char=306
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=307|end_char=312
+3	забавно	забавный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=313|end_char=320
+4	,	,	PUNCT	_	_	5	punct	_	start_char=320|end_char=321
+5	зная	знать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	start_char=322|end_char=326
+6	сейчас	сейчас	ADV	_	Degree=Pos	5	advmod	_	start_char=327|end_char=333
+7	,	,	PUNCT	_	_	10	punct	_	start_char=333|end_char=334
+8	что	что	SCONJ	_	_	10	mark	_	start_char=335|end_char=338
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=339|end_char=341
+10	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=342|end_char=347
+11	об	о	ADP	_	_	13	case	_	start_char=348|end_char=350
+12	огромном	огромный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=351|end_char=359
+13	успехе	успех	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	start_char=360|end_char=366
+14	Паддингтона	Паддингтон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=367|end_char=378
+15	"	"	PUNCT	_	_	14	punct	_	start_char=378|end_char=379
+16	.	.	PUNCT	_	_	3	punct	_	start_char=379|end_char=380
+
+# text = Говоря о том, что ее отец, который работал оператором на Би-би-си, прежде чем маленький игрушечный медвежонок вдохновил его на написание детской книги, был бы не в восторге от того, что его работу отвергли, она добавила, что 60-я годовщина выхода книги "горько-сладкая" после его смерти в прошлом году.
+# sent_id = 3
+1	Говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	32	advcl	_	start_char=381|end_char=387
+2	о	о	ADP	_	_	3	case	_	start_char=388|end_char=389
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	1	obl	_	start_char=390|end_char=393
+4	,	,	PUNCT	_	_	32	punct	_	start_char=393|end_char=394
+5	что	что	SCONJ	_	_	32	mark	_	start_char=395|end_char=398
+6	ее	ее	DET	_	Poss=Yes|PronType=Prs	7	det	_	start_char=399|end_char=401
+7	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	start_char=402|end_char=406
+8	,	,	PUNCT	_	_	10	punct	_	start_char=406|end_char=407
+9	который	который	PRON	_	Case=Nom|PronType=Int,Rel	10	nsubj	_	start_char=408|end_char=415
+10	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=416|end_char=423
+11	оператором	оператор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	start_char=424|end_char=434
+12	на	на	ADP	_	_	13	case	_	start_char=435|end_char=437
+13	Би-би-	Би-би-	PROPN	_	_	11	nmod	_	start_char=438|end_char=444
+14	си	си	PROPN	_	_	13	appos	_	start_char=444|end_char=446
+15	,	,	PUNCT	_	_	21	punct	_	start_char=446|end_char=447
+16	прежде	прежде	ADV	_	Degree=Pos	21	mark	_	start_char=448|end_char=454
+17	чем	чем	SCONJ	_	_	16	fixed	_	start_char=455|end_char=458
+18	маленький	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=459|end_char=468
+19	игрушечный	игрушечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=469|end_char=479
+20	медвежонок	медвежонка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	start_char=480|end_char=490
+21	вдохновил	вдохновить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=491|end_char=500
+22	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=501|end_char=504
+23	на	на	ADP	_	_	24	case	_	start_char=505|end_char=507
+24	написание	написание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obl	_	start_char=508|end_char=517
+25	детской	детский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=518|end_char=525
+26	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=526|end_char=531
+27	,	,	PUNCT	_	_	21	punct	_	start_char=531|end_char=532
+28	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	32	cop	_	start_char=533|end_char=536
+29	бы	бы	AUX	_	_	32	aux	_	start_char=537|end_char=539
+30	не	не	PART	_	_	32	advmod	_	start_char=540|end_char=542
+31	в	в	ADP	_	_	32	case	_	start_char=543|end_char=544
+32	восторге	восторг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	42	ccomp	_	start_char=545|end_char=553
+33	от	от	ADP	_	_	34	case	_	start_char=554|end_char=556
+34	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	32	nmod	_	start_char=557|end_char=561
+35	,	,	PUNCT	_	_	39	punct	_	start_char=561|end_char=562
+36	что	что	SCONJ	_	_	39	mark	_	start_char=563|end_char=566
+37	его	его	DET	_	Poss=Yes|PronType=Prs	38	det	_	start_char=567|end_char=570
+38	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	start_char=571|end_char=577
+39	отвергли	отвергнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	acl	_	start_char=578|end_char=586
+40	,	,	PUNCT	_	_	39	punct	_	start_char=586|end_char=587
+41	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	start_char=588|end_char=591
+42	добавила	добавить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=592|end_char=600
+43	,	,	PUNCT	_	_	46	punct	_	start_char=600|end_char=601
+44	что	что	SCONJ	_	_	46	mark	_	start_char=602|end_char=605
+45	60-я	60-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	start_char=606|end_char=610
+46	годовщина	годовщина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	42	ccomp	_	start_char=611|end_char=620
+47	выхода	выход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	start_char=621|end_char=627
+48	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	start_char=628|end_char=633
+49	"	"	PUNCT	_	_	52	punct	_	start_char=634|end_char=635
+50	горько	горький	ADJ	_	Degree=Pos	52	compound	_	start_char=635|end_char=641
+51	-	-	PUNCT	_	_	50	punct	_	start_char=641|end_char=642
+52	сладкая	сладкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	48	appos	_	start_char=642|end_char=649
+53	"	"	PUNCT	_	_	52	punct	_	start_char=649|end_char=650
+54	после	после	ADP	_	_	56	case	_	start_char=651|end_char=656
+55	его	его	DET	_	Poss=Yes|PronType=Prs	56	det	_	start_char=657|end_char=660
+56	смерти	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	nmod	_	start_char=661|end_char=667
+57	в	в	ADP	_	_	59	case	_	start_char=668|end_char=669
+58	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	59	amod	_	start_char=670|end_char=677
+59	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	56	nmod	_	start_char=678|end_char=682
+60	.	.	PUNCT	_	_	42	punct	_	start_char=682|end_char=683
+
+# text = О Паддингтоне, которого она называет "очень важным членом нашей семьи", она добавила, что ее отец тихо гордился его конечным успехом.
+# sent_id = 4
+1	О	о	ADP	_	_	2	case	_	start_char=684|end_char=685
+2	Паддингтоне	Паддингтон	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	start_char=686|end_char=697
+3	,	,	PUNCT	_	_	6	punct	_	start_char=697|end_char=698
+4	которого	который	PRON	_	Case=Acc|PronType=Int,Rel	6	obj	_	start_char=699|end_char=707
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=708|end_char=711
+6	называет	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=712|end_char=720
+7	"	"	PUNCT	_	_	10	punct	_	start_char=721|end_char=722
+8	очень	очень	ADV	_	Degree=Pos	9	obl	_	start_char=722|end_char=727
+9	важным	важный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=728|end_char=734
+10	членом	член	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=735|end_char=741
+11	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	start_char=742|end_char=747
+12	семьи	семья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=748|end_char=753
+13	"	"	PUNCT	_	_	10	punct	_	start_char=753|end_char=754
+14	,	,	PUNCT	_	_	2	punct	_	start_char=754|end_char=755
+15	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=756|end_char=759
+16	добавила	добавить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=760|end_char=768
+17	,	,	PUNCT	_	_	22	punct	_	start_char=768|end_char=769
+18	что	что	SCONJ	_	_	22	mark	_	start_char=770|end_char=773
+19	ее	ее	DET	_	Poss=Yes|PronType=Prs	20	det	_	start_char=774|end_char=776
+20	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	start_char=777|end_char=781
+21	тихо	тихо	ADV	_	Degree=Pos	22	advmod	_	start_char=782|end_char=786
+22	гордился	гордиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	16	ccomp	_	start_char=787|end_char=795
+23	его	его	DET	_	Poss=Yes|PronType=Prs	25	det	_	start_char=796|end_char=799
+24	конечным	конечный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=800|end_char=808
+25	успехом	успех	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	start_char=809|end_char=816
+26	.	.	PUNCT	_	_	16	punct	_	start_char=816|end_char=817
+
+# text = "Он был довольно тихим человеком и не любил хвастаться", - сказала она.
+# sent_id = 5
+1	"	"	PUNCT	_	_	6	punct	_	start_char=818|end_char=819
+2	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=819|end_char=821
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=822|end_char=825
+4	довольно	довольно	ADV	_	Degree=Pos	5	obl	_	start_char=826|end_char=834
+5	тихим	тихий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=835|end_char=840
+6	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	start_char=841|end_char=850
+7	и	и	CCONJ	_	_	9	cc	_	start_char=851|end_char=852
+8	не	не	PART	_	_	9	advmod	_	start_char=853|end_char=855
+9	любил	любить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=856|end_char=861
+10	хвастаться	хвастаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	start_char=862|end_char=872
+11	"	"	PUNCT	_	_	6	punct	_	start_char=872|end_char=873
+12	,	,	PUNCT	_	_	14	punct	_	start_char=873|end_char=874
+13	-	-	PUNCT	_	_	14	punct	_	start_char=875|end_char=876
+14	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=877|end_char=884
+15	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=885|end_char=888
+16	.	.	PUNCT	_	_	6	punct	_	start_char=888|end_char=889
+
+# text = "Но поскольку Паддингтон был для него таким настоящим, это было похоже на то, как если бы у вас был ребенок, который чего-то добился: вы бы гордились им, хотя на самом деле это не ваша заслуга.
+# sent_id = 6
+1	"	"	PUNCT	_	_	13	punct	_	start_char=890|end_char=891
+2	Но	но	CCONJ	_	_	13	cc	_	start_char=891|end_char=893
+3	поскольку	поскольку	SCONJ	_	_	9	mark	_	start_char=894|end_char=903
+4	Паддингтон	Паддингтон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=904|end_char=914
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=915|end_char=918
+6	для	для	ADP	_	_	7	case	_	start_char=919|end_char=922
+7	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	start_char=923|end_char=927
+8	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=928|end_char=933
+9	настоящим	настоящий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	advcl	_	start_char=934|end_char=943
+10	,	,	PUNCT	_	_	9	punct	_	start_char=943|end_char=944
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=945|end_char=948
+12	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	start_char=949|end_char=953
+13	похоже	похожий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=954|end_char=960
+14	на	на	ADP	_	_	15	case	_	start_char=961|end_char=963
+15	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	start_char=964|end_char=966
+16	,	,	PUNCT	_	_	22	punct	_	start_char=966|end_char=967
+17	как	как	ADV	_	Degree=Pos	22	mark	_	start_char=968|end_char=971
+18	если	если	SCONJ	_	_	22	mark	_	start_char=972|end_char=976
+19	бы	бы	AUX	_	_	22	aux	_	start_char=977|end_char=979
+20	у	у	ADP	_	_	21	case	_	start_char=980|end_char=981
+21	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	22	obl	_	start_char=982|end_char=985
+22	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl	_	start_char=986|end_char=989
+23	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	start_char=990|end_char=997
+24	,	,	PUNCT	_	_	27	punct	_	start_char=997|end_char=998
+25	который	который	PRON	_	Case=Nom|PronType=Int,Rel	27	nsubj	_	start_char=999|end_char=1006
+26	чего-то	что-то	PRON	_	Case=Gen	27	obj	_	start_char=1007|end_char=1014
+27	добился	добиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	23	acl:relcl	_	start_char=1015|end_char=1022
+28	:	:	PUNCT	_	_	31	punct	_	start_char=1022|end_char=1023
+29	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	31	nsubj	_	start_char=1024|end_char=1026
+30	бы	бы	AUX	_	_	31	aux	_	start_char=1027|end_char=1029
+31	гордились	гордиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	27	parataxis	_	start_char=1030|end_char=1039
+32	им	они	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	iobj	_	start_char=1040|end_char=1042
+33	,	,	PUNCT	_	_	41	punct	_	start_char=1042|end_char=1043
+34	хотя	хотя	SCONJ	_	_	41	mark	_	start_char=1044|end_char=1048
+35	на	на	ADP	_	_	37	case	_	start_char=1049|end_char=1051
+36	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	start_char=1052|end_char=1057
+37	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	41	nmod	_	start_char=1058|end_char=1062
+38	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	41	nsubj	_	start_char=1063|end_char=1066
+39	не	не	PART	_	_	40	advmod	_	start_char=1067|end_char=1069
+40	ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	41	det	_	start_char=1070|end_char=1074
+41	заслуга	заслуга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	advcl	_	start_char=1075|end_char=1082
+42	.	.	PUNCT	_	_	13	punct	_	start_char=1082|end_char=1083
+
+# text = Я думаю, что он воспринимал успех Паддингтона именно так.
+# sent_id = 7
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1084|end_char=1085
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1086|end_char=1091
+3	,	,	PUNCT	_	_	6	punct	_	start_char=1091|end_char=1092
+4	что	что	SCONJ	_	_	6	mark	_	start_char=1093|end_char=1096
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=1097|end_char=1099
+6	воспринимал	воспринимать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=1100|end_char=1111
+7	успех	успех	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=1112|end_char=1117
+8	Паддингтона	Паддингтон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=1118|end_char=1129
+9	именно	именно	PART	_	_	10	advmod	_	start_char=1130|end_char=1136
+10	так	так	ADV	_	Degree=Pos	6	advmod	_	start_char=1137|end_char=1140
+11	.	.	PUNCT	_	_	2	punct	_	start_char=1140|end_char=1141
+
+# text = Хотя это было его творение и его воображение, он всегда отдавал должное самому Паддингтону".
+# sent_id = 8
+1	Хотя	хотя	SCONJ	_	_	5	mark	_	start_char=1142|end_char=1146
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=1147|end_char=1150
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=1151|end_char=1155
+4	его	его	DET	_	Poss=Yes|PronType=Prs	5	det	_	start_char=1156|end_char=1159
+5	творение	творение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	advcl	_	start_char=1160|end_char=1168
+6	и	и	CCONJ	_	_	8	cc	_	start_char=1169|end_char=1170
+7	его	его	DET	_	Poss=Yes|PronType=Prs	8	det	_	start_char=1171|end_char=1174
+8	воображение	воображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	start_char=1175|end_char=1186
+9	,	,	PUNCT	_	_	5	punct	_	start_char=1186|end_char=1187
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=1188|end_char=1190
+11	всегда	всегда	ADV	_	Degree=Pos	12	advmod	_	start_char=1191|end_char=1197
+12	отдавал	отдавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1198|end_char=1205
+13	должное	должное	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=1206|end_char=1213
+14	самому	сам	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=1214|end_char=1220
+15	Паддингтону	Паддингтон	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	start_char=1221|end_char=1232
+16	"	"	PUNCT	_	_	15	punct	_	start_char=1232|end_char=1233
+17	.	.	PUNCT	_	_	12	punct	_	start_char=1233|end_char=1234
+

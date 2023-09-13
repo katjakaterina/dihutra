@@ -1,8 +1,12 @@
+# text = Odličan paket!!
+# sent_id = 0
 1	Odličan	odličan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
 2	paket	paket	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8|end_char=13
 3	!	!	INTJ	I	_	2	advmod	_	start_char=13|end_char=14
 4	!	!	PUNCT	Z	_	2	punct	_	start_char=14|end_char=15
 
+# text = Želio sam dovršiti svoju kolekciju NFS-a, a ovaj paket je samo imao naslov koji još nije imao ... vrijedno spomena da je za cijenu koju ste ga prodali bilo nemoguće ne kupiti ga, bez obzira jesam li već imao dva od tri igre.
+# sent_id = 1
 1	Želio	željeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=16|end_char=21
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=22|end_char=25
 3	dovršiti	dovršiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=26|end_char=34
@@ -50,6 +54,8 @@
 45	igre	igra	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	41	nsubj	_	start_char=235|end_char=239
 46	.	.	PUNCT	Z	_	1	punct	_	start_char=239|end_char=240
 
+# text = Žao mi je što se isporučuje samo u SAD-u, ali dostava je brza!.S ponudama kako ste, uvijek kupujem na Amazonu.
+# sent_id = 2
 1	Žao	žao	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=240|end_char=243
 2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=244|end_char=246
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=247|end_char=249
