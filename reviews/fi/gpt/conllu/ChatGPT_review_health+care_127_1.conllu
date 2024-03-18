@@ -1,0 +1,62 @@
+# text = Toimi loistavasti noin 5 latauskertaa.
+# sent_id = 0
+1	Toimi	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	loistavasti	loistavasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=6|end_char=17
+3	noin	noin	ADV	Adv	_	4	advmod	_	start_char=18|end_char=22
+4	5	5	NUM	Num	NumType=Card	5	nummod	_	start_char=23|end_char=24
+5	latauskertaa	lataus#kerta	NOUN	N	Case=Par|Number=Sing	1	nsubj	_	start_char=25|end_char=37
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=37|end_char=38
+
+# text = Käytin aikoinaan NiCD-paristoja ja luovuin niistä.
+# sent_id = 1
+1	Käytin	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=39|end_char=45
+2	aikoinaan	aika	ADV	Adv	_	1	advmod	_	start_char=46|end_char=55
+3	NiCD-paristoja	NiCD#paristo	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=56|end_char=70
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=71|end_char=73
+5	luovuin	luopua	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=74|end_char=81
+6	niistä	se	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	5	obl	_	start_char=82|end_char=88
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=88|end_char=89
+
+# text = Kun kokeilin NiMH-paristoja, aloitin näillä ja olin erittäin pettynyt teknologiaan.
+# sent_id = 2
+1	Kun	kun	SCONJ	C	_	2	mark	_	start_char=90|end_char=93
+2	kokeilin	kokeilla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=94|end_char=102
+3	NiMH-paristoja	NiMH#paristo	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=103|end_char=117
+4	,	,	PUNCT	Punct	_	2	punct	_	start_char=117|end_char=118
+5	aloitin	aloittaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=119|end_char=126
+6	näillä	tämä	PRON	Pron	Case=Ade|Number=Plur|PronType=Dem	5	obl	_	start_char=127|end_char=133
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=134|end_char=136
+8	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	start_char=137|end_char=141
+9	erittäin	erittäin	ADV	Adv	Derivation=Ttain	10	advmod	_	start_char=142|end_char=150
+10	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	conj	_	start_char=151|end_char=159
+11	teknologiaan	teknologia	NOUN	N	Case=Ill|Number=Sing	10	obl	_	start_char=160|end_char=172
+12	.	.	PUNCT	Punct	_	5	punct	_	start_char=172|end_char=173
+
+# text = Käytimme niitä hiirellä, joka vaati noin kahden viikon välein vaihdon.
+# sent_id = 3
+1	Käytimme	käyttää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=174|end_char=182
+2	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	1	obj	_	start_char=183|end_char=188
+3	hiirellä	hiiri	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=189|end_char=197
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=197|end_char=198
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=199|end_char=203
+6	vaati	vaatia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=204|end_char=209
+7	noin	noin	ADV	Adv	_	8	advmod	_	start_char=210|end_char=214
+8	kahden	kaksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	9	nummod	_	start_char=215|end_char=221
+9	viikon	viikko	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=222|end_char=228
+10	välein	väli	NOUN	N	Case=Ins|Number=Plur	6	obl	_	start_char=229|end_char=235
+11	vaihdon	vaihto	NOUN	N	Case=Gen|Number=Sing	6	obj	_	start_char=236|end_char=243
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=243|end_char=244
+
+# text = Myöhemmin vaihdoin Sanyon eneloop-paristoihin, ja olen erittäin tyytyväinen.
+# sent_id = 4
+1	Myöhemmin	myöhemmin	ADV	Adv	_	2	advmod	_	start_char=245|end_char=254
+2	vaihdoin	vaihtaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=255|end_char=263
+3	Sanyon	Sany	PROPN	N	Case=Gen|Number=Sing	2	obj	_	start_char=264|end_char=270
+4	eneloop-paristoihin	eneloop#paristo	NOUN	N	Case=Ill|Number=Plur	2	obl	_	start_char=271|end_char=290
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=290|end_char=291
+6	ja	ja	CCONJ	C	_	9	cc	_	start_char=292|end_char=294
+7	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	start_char=295|end_char=299
+8	erittäin	erittäin	ADV	Adv	Derivation=Ttain	9	advmod	_	start_char=300|end_char=308
+9	tyytyväinen	tyytyväinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	conj	_	start_char=309|end_char=320
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=320|end_char=321
+

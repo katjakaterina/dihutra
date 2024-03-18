@@ -1,0 +1,88 @@
+# text = Пора было...
+# sent_id = 0
+1	Пора	пора	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=4
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	start_char=5|end_char=9
+3	.	.	PUNCT	_	_	2	punct	_	start_char=9|end_char=10
+4	.	.	PUNCT	_	_	2	punct	_	start_char=10|end_char=11
+5	.	.	PUNCT	_	_	1	punct	_	start_char=11|end_char=12
+
+# text = Не могу поверить, сколько времени "им" потребовалось, чтобы выпустить этот замечательный рождественский спецвыпуск на DVD.
+# sent_id = 1
+1	Не	не	PART	_	_	2	advmod	_	start_char=13|end_char=15
+2	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=20
+3	поверить	поверить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=21|end_char=29
+4	,	,	PUNCT	_	_	10	punct	_	start_char=29|end_char=30
+5	сколько	сколько	NUM	_	Case=Acc|NumType=Card	6	nummod:gov	_	start_char=31|end_char=38
+6	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nsubj	_	start_char=39|end_char=46
+7	"	"	PUNCT	_	_	8	punct	_	start_char=47|end_char=48
+8	им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	10	iobj	_	start_char=48|end_char=50
+9	"	"	PUNCT	_	_	8	punct	_	start_char=50|end_char=51
+10	потребовалось	требоваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	ccomp	_	start_char=52|end_char=65
+11	,	,	PUNCT	_	_	13	punct	_	start_char=65|end_char=66
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	start_char=67|end_char=72
+13	выпустить	выпустить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=73|end_char=82
+14	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=83|end_char=87
+15	замечательный	замечательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=88|end_char=101
+16	рождественский	рождественский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=102|end_char=116
+17	спецвыпуск	спецвыпуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=117|end_char=127
+18	на	на	ADP	_	_	17	case	_	start_char=128|end_char=130
+19	DVD	DVD	PROPN	_	Foreign=Yes	17	flat:foreign	_	start_char=131|end_char=134
+20	.	.	PUNCT	_	_	2	punct	_	start_char=134|end_char=135
+
+# text = Это современное (Америка 1930-х годов) воплощение классической истории Чарльза Диккенса.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=136|end_char=139
+2	современное	современный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=140|end_char=151
+3	(	(	PUNCT	_	_	4	punct	_	start_char=152|end_char=153
+4	Америка	Америка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	start_char=153|end_char=160
+5	1930-х	1930-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=161|end_char=167
+6	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=168|end_char=173
+7	)	)	PUNCT	_	_	4	punct	_	start_char=173|end_char=174
+8	воплощение	воплощение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=175|end_char=185
+9	классической	классический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=186|end_char=198
+10	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=199|end_char=206
+11	Чарльза	Чарльз	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=207|end_char=214
+12	Диккенса	Диккенс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	flat:name	_	start_char=215|end_char=223
+13	.	.	PUNCT	_	_	8	punct	_	start_char=223|end_char=224
+
+# text = Винклер заставляет меня ненавидеть своего персонажа так же, как это сделал Алистер Сим в своей роли Скруджа в постановке 1951 года.
+# sent_id = 3
+1	Винклер	Винклер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=225|end_char=232
+2	заставляет	заставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=233|end_char=243
+3	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=244|end_char=248
+4	ненавидеть	ненавидеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=249|end_char=259
+5	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=260|end_char=266
+6	персонажа	персонаж	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=267|end_char=276
+7	так	так	ADV	_	Degree=Pos	4	advmod	_	start_char=277|end_char=280
+8	же	же	PART	_	_	7	advmod	_	start_char=281|end_char=283
+9	,	,	PUNCT	_	_	12	punct	_	start_char=283|end_char=284
+10	как	как	SCONJ	_	_	12	mark	_	start_char=285|end_char=288
+11	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	start_char=289|end_char=292
+12	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=293|end_char=299
+13	Алистер	Алистер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=300|end_char=307
+14	Сим	Сим	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	start_char=308|end_char=311
+15	в	в	ADP	_	_	17	case	_	start_char=312|end_char=313
+16	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	start_char=314|end_char=319
+17	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	start_char=320|end_char=324
+18	Скруджа	Скрудж	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=325|end_char=332
+19	в	в	ADP	_	_	20	case	_	start_char=333|end_char=334
+20	постановке	постановка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	start_char=335|end_char=345
+21	1951	1951	ADJ	_	Degree=Pos	22	amod	_	start_char=346|end_char=350
+22	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=351|end_char=355
+23	.	.	PUNCT	_	_	2	punct	_	start_char=355|end_char=356
+
+# text = Определенно один из тех, которые должны быть в вашей видеотеке.
+# sent_id = 4
+1	Определенно	определенно	ADV	_	Degree=Pos	2	obl	_	start_char=357|end_char=368
+2	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	0	root	_	start_char=369|end_char=373
+3	из	из	ADP	_	_	4	case	_	start_char=374|end_char=376
+4	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	2	det	_	start_char=377|end_char=380
+5	,	,	PUNCT	_	_	7	punct	_	start_char=380|end_char=381
+6	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=382|end_char=389
+7	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	acl:relcl	_	start_char=390|end_char=396
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	start_char=397|end_char=401
+9	в	в	ADP	_	_	11	case	_	start_char=402|end_char=403
+10	вашей	ваш	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=404|end_char=409
+11	видеотеке	видеотека	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=410|end_char=419
+12	.	.	PUNCT	_	_	2	punct	_	start_char=419|end_char=420
+

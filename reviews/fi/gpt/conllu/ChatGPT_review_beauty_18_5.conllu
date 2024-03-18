@@ -1,0 +1,60 @@
+# text = """Olen löytänyt ihonhoitotuotteideni pyhän Graalin."
+# sent_id = 0
+1	"	"	PUNCT	Punct	_	5	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Punct	_	5	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Punct	_	5	punct	_	start_char=2|end_char=3
+4	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=3|end_char=7
+5	löytänyt	löytää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=8|end_char=16
+6	ihonhoitotuotteideni	ihon#hoito#tuote	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	8	nmod:poss	_	start_char=17|end_char=37
+7	pyhän	pyhä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	_	start_char=38|end_char=43
+8	Graalin	graali	NOUN	N	Case=Gen|Number=Sing	5	obj	_	start_char=44|end_char=51
+9	.	.	PUNCT	Punct	_	5	punct	_	start_char=51|end_char=52
+10	"	"	PUNCT	Punct	_	5	punct	_	start_char=52|end_char=53
+
+# text = Tunnustan olevani kauneustuotteiden suurkuluttaja.
+# sent_id = 1
+1	Tunnustan	tunnustaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=63
+2	olevani	olla	AUX	V	Case=Nom|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	4	cop	_	start_char=64|end_char=71
+3	kauneustuotteiden	kauneus#tuote	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	start_char=72|end_char=89
+4	suurkuluttaja	suur#kuluttaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	1	ccomp	_	start_char=90|end_char=103
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=103|end_char=104
+
+# text = Kokeiltuani kymmeniä, ellei satoja perustuotteita, sävyttäviä kosteusvoiteita, peitevoiteita jne.
+# sent_id = 2
+1	Kokeiltuani	kokeilla	VERB	V	Case=Par|Number=Sing|Number[psor]=Sing|PartForm=Past|Person[psor]=1|VerbForm=Part|Voice=Pass	0	root	_	start_char=105|end_char=116
+2	kymmeniä	kymmenen	NUM	Num	Case=Par|NumType=Card|Number=Plur	7	nummod	_	start_char=117|end_char=125
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=125|end_char=126
+4-5	ellei	_	_	_	_	_	_	_	start_char=127|end_char=132
+4	jos	jos	SCONJ	C	_	7	mark	_	_
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	satoja	sata	NUM	Num	Case=Par|NumType=Card|Number=Plur	7	nummod	_	start_char=133|end_char=139
+7	perustuotteita	perus#tuote	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=140|end_char=154
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=154|end_char=155
+9	sävyttäviä	sävyttää	VERB	V	Case=Par|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	10	acl	_	start_char=156|end_char=166
+10	kosteusvoiteita	kosteus#voite	NOUN	N	Case=Par|Number=Plur	7	conj	_	start_char=167|end_char=182
+11	,	,	PUNCT	Punct	_	12	punct	_	start_char=182|end_char=183
+12	peitevoiteita	peite#voide	NOUN	N	Case=Par|Number=Plur	7	conj	_	start_char=184|end_char=197
+13	jne	jne.	ADV	Adv	Abbr=Yes	7	advmod	_	start_char=198|end_char=201
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=201|end_char=202
+
+# text = vuosien varrella, voin vihdoinkin 30-vuotiaana lopettaa etsinnän, koska olen löytänyt ihonhoitotuotteideni pyhän Graalin Macelysta."
+# sent_id = 3
+1	vuosien	vuosi	NOUN	N	Case=Gen|Number=Plur	7	obl	_	start_char=203|end_char=210
+2	varrella	varrella	ADP	Adp	AdpType=Post	1	case	_	start_char=211|end_char=219
+3	,	,	PUNCT	Punct	_	1	punct	_	start_char=219|end_char=220
+4	voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=221|end_char=225
+5	vihdoinkin	vihdoin	ADV	Adv	Clitic=Kin	7	advmod	_	start_char=226|end_char=236
+6	30-vuotiaana	30#vuotias	ADJ	A	Case=Ess|Degree=Pos|Number=Sing	7	obl	_	start_char=237|end_char=249
+7	lopettaa	lopettaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=250|end_char=258
+8	etsinnän	etsintä	NOUN	N	Case=Gen|Number=Sing	7	obj	_	start_char=259|end_char=267
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=267|end_char=268
+10	koska	koska	SCONJ	C	_	12	mark	_	start_char=269|end_char=274
+11	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=275|end_char=279
+12	löytänyt	löytää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=280|end_char=288
+13	ihonhoitotuotteideni	ihon#hoito#tuote	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	15	nmod:poss	_	start_char=289|end_char=309
+14	pyhän	pyhä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	15	amod	_	start_char=310|end_char=315
+15	Graalin	Graali	PROPN	N	Case=Gen|Number=Sing	16	nmod:poss	_	start_char=316|end_char=323
+16	Macelysta	Macely	PROPN	N	Case=Ela|Number=Sing	12	obl	_	start_char=324|end_char=333
+17	.	.	PUNCT	Punct	_	7	punct	_	start_char=333|end_char=334
+18	"	"	PUNCT	Punct	_	7	punct	_	start_char=334|end_char=335
+

@@ -1,0 +1,81 @@
+# text = IZVANREDAN referentni vodič za sve frizere pasa
+# sent_id = 0
+1	IZVANREDAN	Izvanredan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=10
+2	referentni	referentan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=11|end_char=21
+3	vodič	vodič	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=27
+4	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=28|end_char=30
+5	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=31|end_char=34
+6	frizere	frizer	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	start_char=35|end_char=42
+7	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=43|end_char=47
+
+# text = Ovo je možda najbolja i najtemeljitija knjiga koja je dostupna za friziranje pasa.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=48|end_char=51
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=52|end_char=54
+3	možda	možda	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=55|end_char=60
+4	najbolja	dobar	ADJ	Agsfsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	7	amod	_	start_char=61|end_char=69
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=70|end_char=71
+6	najtemeljitija	memeljit	ADJ	Agsfsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	4	conj	_	start_char=72|end_char=86
+7	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=87|end_char=93
+8	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	10	nsubj	_	start_char=94|end_char=98
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=99|end_char=101
+10	dostupna	dostupan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	acl	_	start_char=102|end_char=110
+11	za	za	ADP	Sa	Case=Acc	12	case	_	start_char=111|end_char=113
+12	friziranje	friziranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=114|end_char=124
+13	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=125|end_char=129
+14	.	.	PUNCT	Z	_	7	punct	_	start_char=129|end_char=130
+
+# text = Kao profesionalni frizer pasa, često se na nju oslanjam!
+# sent_id = 2
+1	Kao	kao	SCONJ	Cs	_	3	case	_	start_char=131|end_char=134
+2	profesionalni	profesionalan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=135|end_char=148
+3	frizer	frizer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	obl	_	start_char=149|end_char=155
+4	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=156|end_char=160
+5	,	,	PUNCT	Z	_	3	punct	_	start_char=160|end_char=161
+6	često	često	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=162|end_char=167
+7	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	start_char=168|end_char=170
+8	na	na	ADP	Sa	Case=Acc	9	case	_	start_char=171|end_char=173
+9	nju	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obl	_	start_char=174|end_char=177
+10	oslanjam	oslanjati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=178|end_char=186
+11	!	!	PUNCT	Z	_	10	punct	_	start_char=186|end_char=187
+
+# text = Jedina zamjerka je spiralno uvezivanje.
+# sent_id = 3
+1	Jedina	jedini	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=188|end_char=194
+2	zamjerka	zamjerka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=195|end_char=203
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=204|end_char=206
+4	spiralno	spiralan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=207|end_char=215
+5	uvezivanje	uvezivanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=216|end_char=226
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=226|end_char=227
+
+# text = Možda zato što je toliko koristim... uvezivanje se raspalo i stranice ispadaju.
+# sent_id = 4
+1	Možda	možda	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=228|end_char=233
+2	zato	zato	SCONJ	Cs	_	6	mark	_	start_char=234|end_char=238
+3	što	što	SCONJ	Cs	_	2	fixed	_	start_char=239|end_char=242
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=243|end_char=245
+5	toliko	toliko	ADV	Rgp	Degree=Pos|PronType=Dem	6	advmod	_	start_char=246|end_char=252
+6	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=253|end_char=261
+7	...	...	PUNCT	Z	_	6	punct	_	start_char=261|end_char=264
+8	uvezivanje	uvezivanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=265|end_char=275
+9	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	start_char=276|end_char=278
+10	raspalo	raspasti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=279|end_char=286
+11	i	i	CCONJ	Cc	_	13	cc	_	start_char=287|end_char=288
+12	stranice	stranica	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	start_char=289|end_char=297
+13	ispadaju	ispadati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=298|end_char=306
+14	.	.	PUNCT	Z	_	10	punct	_	start_char=306|end_char=307
+
+# text = To može biti dokaz koliko je ova knjiga zaista dobra!
+# sent_id = 5
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=308|end_char=310
+2	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=311|end_char=315
+3	biti	biti	AUX	Van	VerbForm=Inf	2	xcomp	_	start_char=316|end_char=320
+4	dokaz	dokaz	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	start_char=321|end_char=326
+5	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	10	advmod	_	start_char=327|end_char=333
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=334|end_char=336
+7	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=337|end_char=340
+8	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=341|end_char=347
+9	zaista	zaista	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=348|end_char=354
+10	dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	acl	_	start_char=355|end_char=360
+11	!	!	PUNCT	Z	_	2	punct	_	start_char=360|end_char=361
+

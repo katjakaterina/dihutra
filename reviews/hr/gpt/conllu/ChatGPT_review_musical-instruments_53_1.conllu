@@ -1,0 +1,75 @@
+# text = Kupio/la sam mnogo kablova, a ovaj je jedini koji mi pravi probleme.
+# sent_id = 0
+1	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=9|end_char=12
+3	mnogo	mnogo	DET	Rgp	Degree=Pos	4	det:numgov	_	start_char=13|end_char=18
+4	kablova	kablov	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=19|end_char=26
+5	,	,	PUNCT	Z	_	9	punct	_	start_char=26|end_char=27
+6	a	a	CCONJ	Cc	_	9	cc	_	start_char=28|end_char=29
+7	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	start_char=30|end_char=34
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=35|end_char=37
+9	jedini	jedini	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	start_char=38|end_char=44
+10	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	13	nsubj	_	start_char=45|end_char=49
+11	mi	ja	PRON	Pp1-pn	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	start_char=50|end_char=52
+12	pravi	prav	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	start_char=53|end_char=58
+13	probleme	problem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	ccomp	_	start_char=59|end_char=67
+14	.	.	PUNCT	Z	_	1	punct	_	start_char=67|end_char=68
+
+# text = Buka, škripanje, i mislim da imam problema sa svojom opremom.
+# sent_id = 1
+1	Buka	buk	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=69|end_char=73
+2	,	,	PUNCT	Z	_	3	punct	_	start_char=73|end_char=74
+3	škripanje	škripanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=75|end_char=84
+4	,	,	PUNCT	Z	_	6	punct	_	start_char=84|end_char=85
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=86|end_char=87
+6	mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=88|end_char=94
+7	da	da	SCONJ	Cs	_	8	mark	_	start_char=95|end_char=97
+8	imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=98|end_char=102
+9	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	start_char=103|end_char=111
+10	sa	sa	ADP	Si	Case=Ins	12	case	_	start_char=112|end_char=114
+11	svojom	svoj	DET	Px-fsi	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	start_char=115|end_char=121
+12	opremom	oprema	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	9	nmod	_	start_char=122|end_char=129
+13	.	.	PUNCT	Z	_	1	punct	_	start_char=129|end_char=130
+
+# text = Čim koristim bilo koji od svojih drugih kablova, problem nestane.
+# sent_id = 2
+1	Čim	čim	ADV	Rgp	Degree=Pos|PronType=Int,Rel	2	advmod	_	start_char=131|end_char=134
+2	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=135|end_char=143
+3	bilo	bilo	PART	Qo	_	4	discourse	_	start_char=144|end_char=148
+4	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	det	_	start_char=149|end_char=153
+5	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=154|end_char=156
+6	svojih	svoj	DET	Px-mpg	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=157|end_char=163
+7	drugih	drugi	ADJ	Mlompg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=164|end_char=170
+8	kablova	kablov	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=171|end_char=178
+9	,	,	PUNCT	Z	_	2	punct	_	start_char=178|end_char=179
+10	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=180|end_char=187
+11	nestane	nestati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=188|end_char=195
+12	.	.	PUNCT	Z	_	11	punct	_	start_char=195|end_char=196
+
+# text = Hosa proizvodi neke druge proizvode koji pružaju dobru vrijednost.
+# sent_id = 3
+1	Hosa	Hosa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=197|end_char=201
+2	proizvodi	proizvoditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=202|end_char=211
+3	neke	neki	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	5	det	_	start_char=212|end_char=216
+4	druge	drugi	ADJ	Mlompa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=217|end_char=222
+5	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=223|end_char=232
+6	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	7	nsubj	_	start_char=233|end_char=237
+7	pružaju	pružati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=238|end_char=245
+8	dobru	dobar	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=246|end_char=251
+9	vrijednost	vrijednost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=252|end_char=262
+10	.	.	PUNCT	Z	_	2	punct	_	start_char=262|end_char=263
+
+# text = No, na temelju svog iskustva, ne preporučujem ovaj.
+# sent_id = 4
+1	No	no	CCONJ	Cc	_	9	cc	_	start_char=264|end_char=266
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=266|end_char=267
+3	na	na	ADP	Sl	Case=Loc	4	case	_	start_char=268|end_char=270
+4	temelju	temelj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=271|end_char=278
+5	svog	svoj	DET	Px-nsg	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=279|end_char=283
+6	iskustva	iskustvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=284|end_char=292
+7	,	,	PUNCT	Z	_	4	punct	_	start_char=292|end_char=293
+8	ne	ne	PART	Qz	Polarity=Neg	9	advmod	_	start_char=294|end_char=296
+9	preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=297|end_char=309
+10	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	obj	_	start_char=310|end_char=314
+11	.	.	PUNCT	Z	_	9	punct	_	start_char=314|end_char=315
+

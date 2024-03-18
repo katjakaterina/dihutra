@@ -1,0 +1,110 @@
+# text = Эти конфеты - мои самые любимые!
+# sent_id = 0
+1	Эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=0|end_char=3
+2	конфеты	конфета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=4|end_char=11
+3	-	-	PUNCT	_	_	2	punct	_	start_char=12|end_char=13
+4	мои	мой	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	start_char=14|end_char=17
+5	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=18|end_char=23
+6	любимые	любимый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=24|end_char=31
+7	!	!	PUNCT	_	_	6	punct	_	start_char=31|end_char=32
+
+# text = После того как я услышал разные мнения о Kit Kat, я решил их попробовать.
+# sent_id = 1
+1	После	после	ADP	_	_	2	case	_	start_char=33|end_char=38
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	start_char=39|end_char=43
+3	как	как	SCONJ	_	_	5	mark	_	start_char=44|end_char=47
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=48|end_char=49
+5	услышал	услышать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	start_char=50|end_char=57
+6	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	start_char=58|end_char=64
+7	мнения	мнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=65|end_char=71
+8	о	о	ADP	_	_	7	case	_	start_char=72|end_char=73
+9	Kit	Kit	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=74|end_char=77
+10	Kat	Kat	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=78|end_char=81
+11	,	,	PUNCT	_	_	2	punct	_	start_char=81|end_char=82
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=83|end_char=84
+13	решил	решить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=85|end_char=90
+14	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	start_char=91|end_char=93
+15	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=94|end_char=105
+16	.	.	PUNCT	_	_	13	punct	_	start_char=105|end_char=106
+
+# text = Они отличные, и я совсем не жалею, что купил их.
+# sent_id = 2
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=107|end_char=110
+2	отличные	отличный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=111|end_char=119
+3	,	,	PUNCT	_	_	8	punct	_	start_char=119|end_char=120
+4	и	и	CCONJ	_	_	8	cc	_	start_char=121|end_char=122
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=123|end_char=124
+6	совсем	совсем	ADV	_	Degree=Pos	7	advmod	_	start_char=125|end_char=131
+7	не	не	PART	_	_	8	advmod	_	start_char=132|end_char=134
+8	жалею	жалеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=135|end_char=140
+9	,	,	PUNCT	_	_	11	punct	_	start_char=140|end_char=141
+10	что	что	SCONJ	_	_	11	mark	_	start_char=142|end_char=145
+11	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=146|end_char=151
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=152|end_char=154
+13	.	.	PUNCT	_	_	2	punct	_	start_char=154|end_char=155
+
+# text = Они имеют вкус матчи с небольшим оттенком ванили и молочного вкуса.
+# sent_id = 3
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=156|end_char=159
+2	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=160|end_char=165
+3	вкус	вкус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=166|end_char=170
+4	матчи	матч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=171|end_char=176
+5	с	с	ADP	_	_	7	case	_	start_char=177|end_char=178
+6	небольшим	небольшой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=179|end_char=188
+7	оттенком	оттенок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	start_char=189|end_char=197
+8	ванили	ваниль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=198|end_char=204
+9	и	и	CCONJ	_	_	11	cc	_	start_char=205|end_char=206
+10	молочного	молочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=207|end_char=216
+11	вкуса	вкус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	start_char=217|end_char=222
+12	.	.	PUNCT	_	_	2	punct	_	start_char=222|end_char=223
+
+# text = Они не слишком сладкие и не слишком обыденные.
+# sent_id = 4
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=224|end_char=227
+2	не	не	PART	_	_	3	advmod	_	start_char=228|end_char=230
+3	слишком	слишком	ADV	_	Degree=Pos	4	obl	_	start_char=231|end_char=238
+4	сладкие	сладкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=239|end_char=246
+5	и	и	CCONJ	_	_	8	cc	_	start_char=247|end_char=248
+6	не	не	PART	_	_	7	advmod	_	start_char=249|end_char=251
+7	слишком	слишком	ADV	_	Degree=Pos	8	obl	_	start_char=252|end_char=259
+8	обыденные	обыденный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	conj	_	start_char=260|end_char=269
+9	.	.	PUNCT	_	_	4	punct	_	start_char=269|end_char=270
+
+# text = Это лучшие Kit Kat, которые я когда-либо пробовал, и я бы порекомендовал их всем, кто любит конфеты с вкусом матчи, или тем, кто хочет попробовать необычный вид Kit Kat.
+# sent_id = 5
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=271|end_char=274
+2	лучшие	лучший	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=275|end_char=281
+3	Kit	Kit	PROPN	_	Foreign=Yes	0	root	_	start_char=282|end_char=285
+4	Kat	Kat	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=286|end_char=289
+5	,	,	PUNCT	_	_	9	punct	_	start_char=289|end_char=290
+6	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	9	obj	_	start_char=291|end_char=298
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=299|end_char=300
+8	когда-либо	когда-либо	ADV	_	Degree=Pos	9	advmod	_	start_char=301|end_char=311
+9	пробовал	пробовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=312|end_char=320
+10	,	,	PUNCT	_	_	14	punct	_	start_char=320|end_char=321
+11	и	и	CCONJ	_	_	14	cc	_	start_char=322|end_char=323
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=324|end_char=325
+13	бы	бы	AUX	_	_	14	aux	_	start_char=326|end_char=328
+14	порекомендовал	рекомендовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=329|end_char=343
+15	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	start_char=344|end_char=346
+16	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur|PronType=Tot	14	iobj	_	start_char=347|end_char=351
+17	,	,	PUNCT	_	_	19	punct	_	start_char=351|end_char=352
+18	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	19	nsubj	_	start_char=353|end_char=356
+19	любит	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	start_char=357|end_char=362
+20	конфеты	конфета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	start_char=363|end_char=370
+21	с	с	ADP	_	_	22	case	_	start_char=371|end_char=372
+22	вкусом	вкус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	start_char=373|end_char=379
+23	матчи	матч	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	start_char=380|end_char=385
+24	,	,	PUNCT	_	_	26	punct	_	start_char=385|end_char=386
+25	или	или	CCONJ	_	_	26	cc	_	start_char=387|end_char=390
+26	тем	тот	DET	_	Case=Dat|Number=Plur|PronType=Dem	16	det	_	start_char=391|end_char=394
+27	,	,	PUNCT	_	_	29	punct	_	start_char=394|end_char=395
+28	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	29	nsubj	_	start_char=396|end_char=399
+29	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	start_char=400|end_char=405
+30	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	xcomp	_	start_char=406|end_char=417
+31	необычный	необычный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=418|end_char=427
+32	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	start_char=428|end_char=431
+33	Kit	Kit	PROPN	_	Foreign=Yes	32	flat:foreign	_	start_char=432|end_char=435
+34	Kat	Kat	PROPN	_	Foreign=Yes	32	flat:foreign	_	start_char=436|end_char=439
+35	.	.	PUNCT	_	_	3	punct	_	start_char=439|end_char=440
+

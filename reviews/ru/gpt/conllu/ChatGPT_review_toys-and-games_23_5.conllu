@@ -1,0 +1,69 @@
+# text = Сложно и времязатратно.
+# sent_id = 0
+1	Сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=6
+2	и	и	CCONJ	_	_	3	cc	_	start_char=7|end_char=8
+3	времязатратно	времязатратный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	start_char=9|end_char=22
+4	.	.	PUNCT	_	_	1	punct	_	start_char=22|end_char=23
+
+# text = Отличный шанс воспользоваться перерывом от телевизора (если в качестве подарка).
+# sent_id = 1
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=24|end_char=32
+2	шанс	шанс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=33|end_char=37
+3	воспользоваться	пользоваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	obl	_	start_char=38|end_char=53
+4	перерывом	перерыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	start_char=54|end_char=63
+5	от	от	ADP	_	_	6	case	_	start_char=64|end_char=66
+6	телевизора	телевизор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=67|end_char=77
+7	(	(	PUNCT	_	_	11	punct	_	start_char=78|end_char=79
+8	если	если	SCONJ	_	_	11	mark	_	start_char=79|end_char=83
+9	в	в	ADP	_	_	11	case	_	start_char=84|end_char=85
+10	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	fixed	_	start_char=86|end_char=94
+11	подарка	подарок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	parataxis	_	start_char=95|end_char=102
+12	)	)	PUNCT	_	_	11	punct	_	start_char=102|end_char=103
+13	.	.	PUNCT	_	_	2	punct	_	start_char=103|end_char=104
+
+# text = Очень хорошо для развлечения на досуге.
+# sent_id = 2
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=105|end_char=110
+2	хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=111|end_char=117
+3	для	для	ADP	_	_	4	case	_	start_char=118|end_char=121
+4	развлечения	развлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=122|end_char=133
+5	на	на	ADP	_	_	6	case	_	start_char=134|end_char=136
+6	досуге	досуг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	start_char=137|end_char=143
+7	.	.	PUNCT	_	_	2	punct	_	start_char=143|end_char=144
+
+# text = Купил для своей 14-летней племянницы.
+# sent_id = 3
+1	Купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=145|end_char=150
+2	для	для	ADP	_	_	5	case	_	start_char=151|end_char=154
+3	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=155|end_char=160
+4	14-летней	14-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=161|end_char=170
+5	племянницы	племянница	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	obl	_	start_char=171|end_char=181
+6	.	.	PUNCT	_	_	1	punct	_	start_char=181|end_char=182
+
+# text = Хотя она предпочла бы держать в руках геймпад или клавиатуру, иногда я дарю ей это в качестве "перерыва от технологий"!
+# sent_id = 4
+1	Хотя	хотя	SCONJ	_	_	3	mark	_	start_char=183|end_char=187
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=188|end_char=191
+3	предпочла	предпочесть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=192|end_char=201
+4	бы	бы	AUX	_	_	3	aux	_	start_char=202|end_char=204
+5	держать	держать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=205|end_char=212
+6	в	в	ADP	_	_	7	case	_	start_char=213|end_char=214
+7	руках	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	start_char=215|end_char=220
+8	геймпад	геймпад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=221|end_char=228
+9	или	или	CCONJ	_	_	10	cc	_	start_char=229|end_char=232
+10	клавиатуру	клавиатура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	start_char=233|end_char=243
+11	,	,	PUNCT	_	_	14	punct	_	start_char=243|end_char=244
+12	иногда	иногда	ADV	_	Degree=Pos	14	advmod	_	start_char=245|end_char=251
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=252|end_char=253
+14	дарю	дарить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=254|end_char=258
+15	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	iobj	_	start_char=259|end_char=261
+16	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	14	obj	_	start_char=262|end_char=265
+17	в	в	ADP	_	_	20	case	_	start_char=266|end_char=267
+18	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	fixed	_	start_char=268|end_char=276
+19	"	"	PUNCT	_	_	20	punct	_	start_char=277|end_char=278
+20	перерыва	перерыв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=278|end_char=286
+21	от	от	ADP	_	_	22	case	_	start_char=287|end_char=289
+22	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	start_char=290|end_char=300
+23	"	"	PUNCT	_	_	20	punct	_	start_char=300|end_char=301
+24	!	!	PUNCT	_	_	3	punct	_	start_char=301|end_char=302
+

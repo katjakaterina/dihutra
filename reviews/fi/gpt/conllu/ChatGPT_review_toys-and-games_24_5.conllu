@@ -1,0 +1,57 @@
+# text = Nyt minun ei tarvitse kasvaa aikuiseksi.
+# sent_id = 0
+1	Nyt	nyt	ADV	Adv	_	5	advmod	_	start_char=0|end_char=3
+2	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=4|end_char=9
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=10|end_char=12
+4	tarvitse	tarvita	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=13|end_char=21
+5	kasvaa	kasvaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=22|end_char=28
+6	aikuiseksi	aikuinen	NOUN	N	Case=Tra|Number=Sing	5	xcomp	_	start_char=29|end_char=39
+7	.	.	PUNCT	Punct	_	5	punct	_	start_char=39|end_char=40
+
+# text = Voin värittää yhdessä lastenlasteni kanssa ilman, että tunnen itseni henkisesti rajoitetuksi projektissa.
+# sent_id = 1
+1	Voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=41|end_char=45
+2	värittää	värittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=46|end_char=54
+3	yhdessä	yhdessä	ADV	Adv	_	4	advmod	_	start_char=55|end_char=62
+4	lastenlasteni	lapsi#lapsi	NOUN	N	Case=Gen|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=63|end_char=76
+5	kanssa	kanssa	ADP	Adp	AdpType=Post	4	case	_	start_char=77|end_char=83
+6	ilman	ilman	ADV	Adv	_	2	advmod	_	start_char=84|end_char=89
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=89|end_char=90
+8	että	että	SCONJ	C	_	9	mark	_	start_char=91|end_char=95
+9	tunnen	tuntea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=96|end_char=102
+10	itseni	itse	PRON	Pron	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	9	obj	_	start_char=103|end_char=109
+11	henkisesti	henkisesti	ADV	Adv	Derivation=Sti	12	advmod	_	start_char=110|end_char=120
+12	rajoitetuksi	rajoittaa	VERB	V	Case=Tra|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	9	advcl	_	start_char=121|end_char=133
+13	projektissa	projekti	NOUN	N	Case=Ine|Number=Sing	12	obl	_	start_char=134|end_char=145
+14	.	.	PUNCT	Punct	_	2	punct	_	start_char=145|end_char=146
+
+# text = Tämä kirja on niin upea, että olen käyttänyt joitain suunnitteluita lasimaalauksiin.
+# sent_id = 2
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=147|end_char=151
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=152|end_char=157
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=158|end_char=160
+4	niin	niin	ADV	Adv	_	5	advmod	_	start_char=161|end_char=165
+5	upea	upea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=166|end_char=170
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=170|end_char=171
+7	että	että	SCONJ	C	_	9	mark	_	start_char=172|end_char=176
+8	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=177|end_char=181
+9	käyttänyt	käyttää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	ccomp	_	start_char=182|end_char=191
+10	joitain	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	11	det	_	start_char=192|end_char=199
+11	suunnitteluita	suunnittelu	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=200|end_char=214
+12	lasimaalauksiin	lasi#maalaus	NOUN	N	Case=Ill|Number=Plur	9	obl	_	start_char=215|end_char=230
+13	.	.	PUNCT	Punct	_	5	punct	_	start_char=230|end_char=231
+
+# text = Suosittelen lämpimästi tätä kaikille, jotka eivät halua luopua suosikkiharrastuksestaan.
+# sent_id = 3
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=232|end_char=243
+2	lämpimästi	lämpimästi	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=244|end_char=254
+3	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	1	obj	_	start_char=255|end_char=259
+4	kaikille	kaikki	PRON	Pron	Case=All|Number=Plur|PronType=Ind	1	obl	_	start_char=260|end_char=268
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=268|end_char=269
+6	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	8	nsubj	_	start_char=270|end_char=275
+7	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=276|end_char=281
+8	halua	haluta	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	start_char=282|end_char=287
+9	luopua	luopua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=288|end_char=294
+10	suosikkiharrastuksestaan	suosikki#harrastus	NOUN	N	Case=Ela|Number=Sing|Person[psor]=3	9	obl	_	start_char=295|end_char=319
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=319|end_char=320
+

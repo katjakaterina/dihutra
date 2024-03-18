@@ -1,0 +1,85 @@
+# text = Bolni grčevi uz ovo...
+# sent_id = 0
+1	Bolni	bolni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=0|end_char=5
+2	grčevi	grč	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=6|end_char=12
+3	uz	uz	ADP	Sa	Case=Acc	4	case	_	start_char=13|end_char=15
+4	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	nmod	_	start_char=16|end_char=19
+5	...	...	PUNCT	Z	_	2	punct	_	start_char=19|end_char=22
+
+# text = Mama i ja počele smo piti ovo još tijekom 1980-ih.
+# sent_id = 1
+1	Mama	Mam	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=23|end_char=27
+2	i	i	CCONJ	Cc	_	3	cc	_	start_char=28|end_char=29
+3	ja	ja	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	start_char=30|end_char=32
+4	počele	početi	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=33|end_char=39
+5	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=40|end_char=43
+6	piti	piti	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=44|end_char=48
+7	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	start_char=49|end_char=52
+8	još	još	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=53|end_char=56
+9	tijekom	tijekom	ADP	Sg	Case=Gen	10	case	_	start_char=57|end_char=64
+10	1980-ih	1980-ih	ADJ	Mdo	NumType=Ord	6	obl	_	start_char=65|end_char=72
+11	.	.	PUNCT	Z	_	4	punct	_	start_char=72|end_char=73
+
+# text = Ja sam prestala/ostao prestao piti jer mi je uzrokovalo previše boli, malo jače od menstrualnih grčeva.
+# sent_id = 2
+1	Ja	ja	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=74|end_char=76
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=77|end_char=80
+3	prestala/ostao	prestala/ostao	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=81|end_char=95
+4	prestao	prestati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=96|end_char=103
+5	piti	piti	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=104|end_char=108
+6	jer	jer	SCONJ	Cs	_	9	mark	_	start_char=109|end_char=112
+7	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	start_char=113|end_char=115
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=116|end_char=118
+9	uzrokovalo	uzrokovati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	start_char=119|end_char=129
+10	previše	previše	DET	Rgp	Degree=Pos	11	det:numgov	_	start_char=130|end_char=137
+11	boli	bol	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	start_char=138|end_char=142
+12	,	,	PUNCT	Z	_	14	punct	_	start_char=142|end_char=143
+13	malo	malo	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=144|end_char=148
+14	jače	jače	ADV	Rgc	Degree=Cmp	9	parataxis	_	start_char=149|end_char=153
+15	od	od	ADP	Sg	Case=Gen	17	case	_	start_char=154|end_char=156
+16	menstrualnih	menstrualan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=157|end_char=169
+17	grčeva	grč	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	obl	_	start_char=170|end_char=176
+18	.	.	PUNCT	Z	_	4	punct	_	start_char=176|end_char=177
+
+# text = Biljke u ovom čaju su jake.
+# sent_id = 3
+1	Biljke	biljka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=178|end_char=184
+2	u	u	ADP	Sl	Case=Loc	4	case	_	start_char=185|end_char=186
+3	ovom	ovaj	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=187|end_char=191
+4	čaju	čaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	start_char=192|end_char=196
+5	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=197|end_char=199
+6	jake	jak	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=200|end_char=204
+7	.	.	PUNCT	Z	_	6	punct	_	start_char=204|end_char=205
+
+# text = Mislim da sam negdje pročitala da senna u ovom čaju potiče crijeva na kontrakciju.
+# sent_id = 4
+1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=206|end_char=212
+2	da	da	SCONJ	Cs	_	5	mark	_	start_char=213|end_char=215
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=216|end_char=219
+4	negdje	negdje	ADV	Rgp	Degree=Pos|PronType=Ind	5	advmod	_	start_char=220|end_char=226
+5	pročitala	pročitati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	start_char=227|end_char=236
+6	da	da	SCONJ	Cs	_	11	mark	_	start_char=237|end_char=239
+7	senna	senan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=240|end_char=245
+8	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=246|end_char=247
+9	ovom	ovaj	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=248|end_char=252
+10	čaju	čaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=253|end_char=257
+11	potiče	poticati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=258|end_char=264
+12	crijeva	crijevo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	start_char=265|end_char=272
+13	na	na	ADP	Sa	Case=Acc	14	case	_	start_char=273|end_char=275
+14	kontrakciju	kontrakcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	start_char=276|end_char=287
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=287|end_char=288
+
+# text = Ovo zapravo nije proizvod za mršavljenje, već više laksativ.
+# sent_id = 5
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=289|end_char=292
+2	zapravo	zapravo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=293|end_char=300
+3	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=301|end_char=305
+4	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=306|end_char=314
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=315|end_char=317
+6	mršavljenje	mršavljenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=318|end_char=329
+7	,	,	PUNCT	Z	_	10	punct	_	start_char=329|end_char=330
+8	već	već	ADV	Rgp	Degree=Pos	10	cc	_	start_char=331|end_char=334
+9	više	mnogo	ADV	Rgc	Degree=Cmp	10	advmod	_	start_char=335|end_char=339
+10	laksativ	laksativ	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	start_char=340|end_char=348
+11	.	.	PUNCT	Z	_	4	punct	_	start_char=348|end_char=349
+

@@ -1,0 +1,68 @@
+# text = Покажи мне деньги!
+# sent_id = 0
+1	Покажи	показать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=7|end_char=10
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=11|end_char=17
+4	!	!	PUNCT	_	_	1	punct	_	start_char=17|end_char=18
+
+# text = Интересная рассказ о юристе, который украл миллионы долларов из своей фирмы, подделав свою смерть.
+# sent_id = 1
+1	Интересная	интересный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=19|end_char=29
+2	рассказ	рассказ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=30|end_char=37
+3	о	о	ADP	_	_	4	case	_	start_char=38|end_char=39
+4	юристе	юрист	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	start_char=40|end_char=46
+5	,	,	PUNCT	_	_	7	punct	_	start_char=46|end_char=47
+6	который	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=48|end_char=55
+7	украл	красть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=56|end_char=61
+8	миллионы	миллион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	nummod:gov	_	start_char=62|end_char=70
+9	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=71|end_char=79
+10	из	из	ADP	_	_	12	case	_	start_char=80|end_char=82
+11	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	start_char=83|end_char=88
+12	фирмы	фирма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=89|end_char=94
+13	,	,	PUNCT	_	_	14	punct	_	start_char=94|end_char=95
+14	подделав	подделать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	7	advcl	_	start_char=96|end_char=104
+15	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	start_char=105|end_char=109
+16	смерть	смерть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=110|end_char=116
+17	.	.	PUNCT	_	_	2	punct	_	start_char=116|end_char=117
+
+# text = Гришэм обычно умеет зацепить своих читателей с самого начала и, в этом случае, не раскрывает свои карты слишком рано.
+# sent_id = 2
+1	Гришэм	Гриший	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=118|end_char=124
+2	обычно	обычно	ADV	_	Degree=Pos	3	advmod	_	start_char=125|end_char=131
+3	умеет	уметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=132|end_char=137
+4	зацепить	зацепить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=138|end_char=146
+5	своих	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=147|end_char=152
+6	читателей	читатель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=153|end_char=162
+7	с	с	ADP	_	_	9	case	_	start_char=163|end_char=164
+8	самого	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=165|end_char=171
+9	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	start_char=172|end_char=178
+10	и	и	CCONJ	_	_	17	cc	_	start_char=179|end_char=180
+11	,	,	PUNCT	_	_	10	punct	_	start_char=180|end_char=181
+12	в	в	ADP	_	_	14	case	_	start_char=182|end_char=183
+13	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=184|end_char=188
+14	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	parataxis	_	start_char=189|end_char=195
+15	,	,	PUNCT	_	_	14	punct	_	start_char=195|end_char=196
+16	не	не	PART	_	_	17	advmod	_	start_char=197|end_char=199
+17	раскрывает	раскрывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=200|end_char=210
+18	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	_	start_char=211|end_char=215
+19	карты	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	start_char=216|end_char=221
+20	слишком	слишком	ADV	_	Degree=Pos	21	advmod	_	start_char=222|end_char=229
+21	рано	рано	ADV	_	Degree=Pos	17	advmod	_	start_char=230|end_char=234
+22	.	.	PUNCT	_	_	3	punct	_	start_char=234|end_char=235
+
+# text = Обычно надежный Фрэнк Мюллер делает этот рассказ еще более интересным в аудиокниге.
+# sent_id = 3
+1	Обычно	обычно	ADV	_	Degree=Pos	5	advmod	_	start_char=236|end_char=242
+2	надежный	надежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=243|end_char=251
+3	Фрэнк	Фрэнк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=252|end_char=257
+4	Мюллер	Мюллер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=258|end_char=264
+5	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=265|end_char=271
+6	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=272|end_char=276
+7	рассказ	рассказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=277|end_char=284
+8	еще	еще	ADV	_	Degree=Pos	9	advmod	_	start_char=285|end_char=288
+9	более	более	ADV	_	Degree=Cmp	10	obl	_	start_char=289|end_char=294
+10	интересным	интересный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=295|end_char=305
+11	в	в	ADP	_	_	12	case	_	start_char=306|end_char=307
+12	аудиокниге	аудиокнига	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	start_char=308|end_char=318
+13	.	.	PUNCT	_	_	5	punct	_	start_char=318|end_char=319
+

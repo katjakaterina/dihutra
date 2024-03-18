@@ -1,0 +1,79 @@
+# text = Savršeno!
+# sent_id = 0
+1	Savršeno	savršen	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=8
+2	!	!	PUNCT	Z	_	1	punct	_	start_char=8|end_char=9
+
+# text = Bio sam zabrinut zbog ove narudžbe jer se slika na stranici opisa neprestano mijenjala u manje privlačnu zelenu/narančastu masku.
+# sent_id = 1
+1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	start_char=10|end_char=13
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=14|end_char=17
+3	zabrinut	zabrinut	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=18|end_char=26
+4	zbog	zbog	ADP	Sg	Case=Gen	6	case	_	start_char=27|end_char=31
+5	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=32|end_char=35
+6	narudžbe	narudžba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=36|end_char=44
+7	jer	jer	SCONJ	Cs	_	14	mark	_	start_char=45|end_char=48
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	start_char=49|end_char=51
+9	slika	slika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=52|end_char=57
+10	na	na	ADP	Sl	Case=Loc	11	case	_	start_char=58|end_char=60
+11	stranici	stranica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	start_char=61|end_char=69
+12	opisa	opis	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=70|end_char=75
+13	neprestano	neprestano	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=76|end_char=86
+14	mijenjala	mijenjati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=87|end_char=96
+15	u	u	ADP	Sa	Case=Acc	19	case	_	start_char=97|end_char=98
+16	manje	malo	ADV	Rgc	Degree=Cmp	17	advmod	_	start_char=99|end_char=104
+17	privlačnu	privlačan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=105|end_char=114
+18	zelenu/narančastu	zelenu/narančast	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=115|end_char=132
+19	masku	maska	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=133|end_char=138
+20	.	.	PUNCT	Z	_	3	punct	_	start_char=138|end_char=139
+
+# text = Ali eto, došla je dan prije očekivanja, i prekrasan proizvod u predivnoj rozoj boji!
+# sent_id = 2
+1	Ali	ali	CCONJ	Cc	_	4	cc	_	start_char=140|end_char=143
+2	eto	eto	INTJ	I	_	4	discourse	_	start_char=144|end_char=147
+3	,	,	PUNCT	Z	_	2	punct	_	start_char=147|end_char=148
+4	došla	doći	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=149|end_char=154
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=155|end_char=157
+6	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=158|end_char=161
+7	prije	prije	ADP	Sg	Case=Gen	8	case	_	start_char=162|end_char=167
+8	očekivanja	očekivanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	start_char=168|end_char=178
+9	,	,	PUNCT	Z	_	12	punct	_	start_char=178|end_char=179
+10	i	i	CCONJ	Cc	_	12	cc	_	start_char=180|end_char=181
+11	prekrasan	prekrasan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=182|end_char=191
+12	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	start_char=192|end_char=200
+13	u	u	ADP	Sl	Case=Loc	16	case	_	start_char=201|end_char=202
+14	predivnoj	predivan	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=203|end_char=212
+15	rozoj	roz	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=213|end_char=218
+16	boji	boja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	start_char=219|end_char=223
+17	!	!	PUNCT	Z	_	4	punct	_	start_char=223|end_char=224
+
+# text = Ova "gumenasta" maska ​​se čini malo masnom (kao da je obrađena s Armor-All-om), ali dizajn je predivan i ima malo 3D efekta!
+# sent_id = 3
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=225|end_char=228
+2	"	"	PUNCT	Z	_	3	punct	_	start_char=229|end_char=230
+3	gumenasta	gumenasti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=230|end_char=239
+4	"	"	PUNCT	Z	_	3	punct	_	start_char=239|end_char=240
+5	maska	maska	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=241|end_char=246
+6	​​se	​​se	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=247|end_char=251
+7	čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=252|end_char=256
+8	malo	malo	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=257|end_char=261
+9	masnom	masan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	xcomp	_	start_char=262|end_char=268
+10	(	(	PUNCT	Z	_	14	punct	_	start_char=269|end_char=270
+11	kao	kao	SCONJ	Cs	_	14	mark	_	start_char=270|end_char=273
+12	da	da	SCONJ	Cs	_	11	fixed	_	start_char=274|end_char=276
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=277|end_char=279
+14	obrađena	obraditi	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=280|end_char=288
+15	s	sa	ADP	Si	Case=Ins	16	case	_	start_char=289|end_char=290
+16	Armor-All-om	Armor-All	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	14	obl	_	start_char=291|end_char=303
+17	)	)	PUNCT	Z	_	14	punct	_	start_char=303|end_char=304
+18	,	,	PUNCT	Z	_	22	punct	_	start_char=304|end_char=305
+19	ali	ali	CCONJ	Cc	_	22	cc	_	start_char=306|end_char=309
+20	dizajn	dizajn	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	start_char=310|end_char=316
+21	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=317|end_char=319
+22	predivan	predivan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	start_char=320|end_char=328
+23	i	i	CCONJ	Cc	_	24	cc	_	start_char=329|end_char=330
+24	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	start_char=331|end_char=334
+25	malo	malo	DET	Rgp	Degree=Pos	27	det:numgov	_	start_char=335|end_char=339
+26	3D	3D	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=340|end_char=342
+27	efekta	efekt	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	obj	_	start_char=343|end_char=349
+28	!	!	PUNCT	Z	_	7	punct	_	start_char=349|end_char=350
+

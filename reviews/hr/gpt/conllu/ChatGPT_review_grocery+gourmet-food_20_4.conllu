@@ -1,0 +1,79 @@
+# text = Izvrsnog je okusa!
+# sent_id = 0
+1	Izvrsnog	izvrstan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=8
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9|end_char=11
+3	okusa	okus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	start_char=12|end_char=17
+4	!	!	PUNCT	Z	_	2	punct	_	start_char=17|end_char=18
+
+# text = Započeo/la sam novu dijetu koja zabranjuje sve dodane šećere.
+# sent_id = 1
+1	Započeo/la	Započeo/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=19|end_char=29
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=30|end_char=33
+3	novu	nov	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=34|end_char=38
+4	dijetu	dio	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=39|end_char=45
+5	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=46|end_char=50
+6	zabranjuje	zabranjivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=51|end_char=61
+7	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=62|end_char=65
+8	dodane	dodati	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part	9	amod	_	start_char=66|end_char=72
+9	šećere	šećera	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=73|end_char=79
+10	.	.	PUNCT	Z	_	1	punct	_	start_char=79|end_char=80
+
+# text = Ovo je jedan od rijetkih brendova koje sam mogao/la pronaći koji nema dodanog šećera u sastojcima.
+# sent_id = 2
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=81|end_char=84
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=85|end_char=87
+3	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	6	nummod:gov	_	start_char=88|end_char=93
+4	od	od	ADP	Sg	Case=Gen	6	case	_	start_char=94|end_char=96
+5	rijetkih	rijedak	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=97|end_char=105
+6	brendova	brend	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	start_char=106|end_char=114
+7	koje	koji	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	9	obj	_	start_char=115|end_char=119
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=120|end_char=123
+9	mogao/la	mogaoći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl	_	start_char=124|end_char=132
+10	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=133|end_char=140
+11	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=141|end_char=145
+12	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=146|end_char=150
+13	dodanog	dodati	ADJ	Appmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	amod	_	start_char=151|end_char=158
+14	šećera	šećer	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obj	_	start_char=159|end_char=165
+15	u	u	ADP	Sl	Case=Loc	16	case	_	start_char=166|end_char=167
+16	sastojcima	sastojak	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	14	nmod	_	start_char=168|end_char=178
+17	.	.	PUNCT	Z	_	6	punct	_	start_char=178|end_char=179
+
+# text = A uz to je i izvrsnog okusa!
+# sent_id = 3
+1	A	a	CCONJ	Cc	_	4	cc	_	start_char=180|end_char=181
+2	uz	uz	ADP	Sa	Case=Acc	3	case	_	start_char=182|end_char=184
+3	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	start_char=185|end_char=187
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=188|end_char=190
+5	i	i	CCONJ	Cc	_	7	discourse	_	start_char=191|end_char=192
+6	izvrsnog	izvrstan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=193|end_char=201
+7	okusa	okus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	start_char=202|end_char=207
+8	!	!	PUNCT	Z	_	4	punct	_	start_char=207|end_char=208
+
+# text = Nisam siguran/a hoću li uspjeti pojesti cijelu ovu posudu prije nego što se pokvari.
+# sent_id = 4
+1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=209|end_char=214
+2	siguran/a	siguranti	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=215|end_char=224
+3	hoću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	csubj	_	start_char=225|end_char=229
+4	li	li	PART	Qq	_	5	mark	_	start_char=230|end_char=232
+5	uspjeti	uspjeti	VERB	Vmn	VerbForm=Inf	2	csubj	_	start_char=233|end_char=240
+6	pojesti	pojesti	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=241|end_char=248
+7	cijelu	cijel	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=249|end_char=255
+8	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=256|end_char=259
+9	posudu	posuda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=260|end_char=266
+10	prije	prije	SCONJ	Cs	_	14	mark	_	start_char=267|end_char=272
+11	nego	nego	SCONJ	Cs	_	10	fixed	_	start_char=273|end_char=277
+12	što	što	SCONJ	Cs	_	10	fixed	_	start_char=278|end_char=281
+13	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	start_char=282|end_char=284
+14	pokvari	pokvariti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=285|end_char=292
+15	.	.	PUNCT	Z	_	2	punct	_	start_char=292|end_char=293
+
+# text = Koliko dugo traje trajnost ovoga proizvoda?
+# sent_id = 5
+1	Koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=294|end_char=300
+2	dugo	dugo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=301|end_char=305
+3	traje	trajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=306|end_char=311
+4	trajnost	trajnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=312|end_char=320
+5	ovoga	ovaj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	start_char=321|end_char=326
+6	proizvoda	proizvod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=327|end_char=336
+7	?	?	PUNCT	Z	_	3	punct	_	start_char=336|end_char=337
+

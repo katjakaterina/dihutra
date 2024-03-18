@@ -1,0 +1,75 @@
+# text = Klasici Claptona Vrlo razočaravajuće.
+# sent_id = 0
+1	Klasici	klasica	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=0|end_char=7
+2	Claptona	Clapton	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=16
+3	Vrlo	vrlo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=17|end_char=21
+4	razočaravajuće	razočaravajući	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=22|end_char=36
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=36|end_char=37
+
+# text = Ovo je bilo oglašavano kao "nota za notu" lekcija za odabrane Claptonove pjesme, ali nije se ni približilo tome.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=38|end_char=41
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=42|end_char=44
+3	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	aux	_	start_char=45|end_char=49
+4	oglašavano	oglašavati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=50|end_char=60
+5	kao	kao	SCONJ	Cs	_	7	case	_	start_char=61|end_char=64
+6	"	"	PUNCT	Z	_	7	punct	_	start_char=65|end_char=66
+7	nota	nota	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	start_char=66|end_char=70
+8	za	za	ADP	Sa	Case=Acc	9	case	_	start_char=71|end_char=73
+9	notu	not	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	start_char=74|end_char=78
+10	"	"	PUNCT	Z	_	11	punct	_	start_char=78|end_char=79
+11	lekcija	lekcija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=80|end_char=87
+12	za	za	ADP	Sa	Case=Acc	15	case	_	start_char=88|end_char=90
+13	odabrane	odabrati	ADJ	Appfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	15	amod	_	start_char=91|end_char=99
+14	Claptonove	claptonov	ADJ	Aspfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	15	amod	_	start_char=100|end_char=110
+15	pjesme	pjesma	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	start_char=111|end_char=117
+16	,	,	PUNCT	Z	_	21	punct	_	start_char=117|end_char=118
+17	ali	ali	CCONJ	Cc	_	21	cc	_	start_char=119|end_char=122
+18	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=123|end_char=127
+19	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	21	expl	_	start_char=128|end_char=130
+20	ni	ni	PART	Qo	_	21	discourse	_	start_char=131|end_char=133
+21	približilo	približiti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=134|end_char=144
+22	tome	taj	DET	Pd-nsd	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	21	obj	_	start_char=145|end_char=149
+23	.	.	PUNCT	Z	_	4	punct	_	start_char=149|end_char=150
+
+# text = Nije bilo tablatura koje bi podržale male (a ponekad netočne) dijelove pjesama navedenih u lekciji.
+# sent_id = 2
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=151|end_char=155
+2	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=156|end_char=160
+3	tablatura	tablatura	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nsubj	_	start_char=161|end_char=170
+4	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	6	nsubj	_	start_char=171|end_char=175
+5	bi	biti	AUX	Vaa3p	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=176|end_char=178
+6	podržale	podržati	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	start_char=179|end_char=187
+7	male	mali	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=188|end_char=192
+8	(	(	PUNCT	Z	_	11	punct	_	start_char=193|end_char=194
+9	a	a	CCONJ	Cc	_	11	cc	_	start_char=194|end_char=195
+10	ponekad	ponekad	ADV	Rgp	Degree=Pos|PronType=Ind	11	advmod	_	start_char=196|end_char=203
+11	netočne	netočan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	parataxis	_	start_char=204|end_char=211
+12	)	)	PUNCT	Z	_	11	punct	_	start_char=211|end_char=212
+13	dijelove	dio	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=213|end_char=221
+14	pjesama	pjesma	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	start_char=222|end_char=229
+15	navedenih	naveden	ADJ	Appfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	start_char=230|end_char=239
+16	u	u	ADP	Sl	Case=Loc	17	case	_	start_char=240|end_char=241
+17	lekciji	lekcija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	start_char=242|end_char=249
+18	.	.	PUNCT	Z	_	2	punct	_	start_char=249|end_char=250
+
+# text = Poslao sam prigovor izravno Hal Leonardu, ali nikada nisam dobio odgovor, čak ni ljubazan.
+# sent_id = 3
+1	Poslao	poslati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=251|end_char=257
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=258|end_char=261
+3	prigovor	prigovor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=262|end_char=270
+4	izravno	izravno	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=271|end_char=278
+5	Hal	Hal	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=279|end_char=282
+6	Leonardu	Leonard	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	start_char=283|end_char=291
+7	,	,	PUNCT	Z	_	11	punct	_	start_char=291|end_char=292
+8	ali	ali	CCONJ	Cc	_	11	cc	_	start_char=293|end_char=296
+9	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	11	advmod	_	start_char=297|end_char=303
+10	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=304|end_char=309
+11	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=310|end_char=315
+12	odgovor	odgovor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=316|end_char=323
+13	,	,	PUNCT	Z	_	16	punct	_	start_char=323|end_char=324
+14	čak	čak	PART	Qo	_	16	advmod	_	start_char=325|end_char=328
+15	ni	ni	PART	Qz	Polarity=Neg	16	advmod	_	start_char=329|end_char=331
+16	ljubazan	ljubazan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	start_char=332|end_char=340
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=340|end_char=341
+

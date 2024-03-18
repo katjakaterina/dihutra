@@ -1,0 +1,75 @@
+# text = Это нормально, но я бы пожалел, что не купил что-то другое.
+# sent_id = 0
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3
+2	нормально	нормальный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=13
+3	,	,	PUNCT	_	_	7	punct	_	start_char=13|end_char=14
+4	но	но	CCONJ	_	_	7	cc	_	start_char=15|end_char=17
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=18|end_char=19
+6	бы	бы	AUX	_	_	7	aux	_	start_char=20|end_char=22
+7	пожалел	жалеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=23|end_char=30
+8	,	,	PUNCT	_	_	11	punct	_	start_char=30|end_char=31
+9	что	что	SCONJ	_	_	11	mark	_	start_char=32|end_char=35
+10	не	не	PART	_	_	11	advmod	_	start_char=36|end_char=38
+11	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=39|end_char=44
+12	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	11	obj	_	start_char=45|end_char=51
+13	другое	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=52|end_char=58
+14	.	.	PUNCT	_	_	2	punct	_	start_char=58|end_char=59
+
+# text = Рукоятка и сила пружины делают его неудобным для установки на гитару, и я чувствую себя спешащим, чтобы прикрепить каподастр, потому что им неприятно пользоваться - болят пальцы.
+# sent_id = 1
+1	Рукоятка	рукоятка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=60|end_char=68
+2	и	и	CCONJ	_	_	3	cc	_	start_char=69|end_char=70
+3	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=71|end_char=75
+4	пружины	пружина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=76|end_char=83
+5	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=84|end_char=90
+6	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=91|end_char=94
+7	неудобным	неудобный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=95|end_char=104
+8	для	для	ADP	_	_	9	case	_	start_char=105|end_char=108
+9	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=109|end_char=118
+10	на	на	ADP	_	_	11	case	_	start_char=119|end_char=121
+11	гитару	гитара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=122|end_char=128
+12	,	,	PUNCT	_	_	15	punct	_	start_char=128|end_char=129
+13	и	и	CCONJ	_	_	15	cc	_	start_char=130|end_char=131
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=132|end_char=133
+15	чувствую	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=134|end_char=142
+16	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	start_char=143|end_char=147
+17	спешащим	спешащий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	start_char=148|end_char=156
+18	,	,	PUNCT	_	_	20	punct	_	start_char=156|end_char=157
+19	чтобы	чтобы	SCONJ	_	Mood=Cnd	20	mark	_	start_char=158|end_char=163
+20	прикрепить	прикрепить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	start_char=164|end_char=174
+21	каподастр	каподастр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=175|end_char=184
+22	,	,	PUNCT	_	_	26	punct	_	start_char=184|end_char=185
+23	потому	потому	ADV	_	Degree=Pos	26	mark	_	start_char=186|end_char=192
+24	что	что	SCONJ	_	_	23	fixed	_	start_char=193|end_char=196
+25	им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	26	iobj	_	start_char=197|end_char=199
+26	неприятно	неприятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	20	advcl	_	start_char=200|end_char=209
+27	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	26	csubj	_	start_char=210|end_char=222
+28	-	-	PUNCT	_	_	29	punct	_	start_char=223|end_char=224
+29	болят	болеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	parataxis	_	start_char=225|end_char=230
+30	пальцы	палец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	start_char=231|end_char=237
+31	.	.	PUNCT	_	_	5	punct	_	start_char=237|end_char=238
+
+# text = Он дешев и прост в использовании.
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=239|end_char=241
+2	дешев	дешевый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=242|end_char=247
+3	и	и	CCONJ	_	_	4	cc	_	start_char=248|end_char=249
+4	прост	простой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=250|end_char=255
+5	в	в	ADP	_	_	6	case	_	start_char=256|end_char=257
+6	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=258|end_char=271
+7	.	.	PUNCT	_	_	2	punct	_	start_char=271|end_char=272
+
+# text = Он справится с работой, но мне он не нравится.
+# sent_id = 3
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=273|end_char=275
+2	справится	справиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=276|end_char=285
+3	с	с	ADP	_	_	4	case	_	start_char=286|end_char=287
+4	работой	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=288|end_char=295
+5	,	,	PUNCT	_	_	10	punct	_	start_char=295|end_char=296
+6	но	но	CCONJ	_	_	10	cc	_	start_char=297|end_char=299
+7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	start_char=300|end_char=303
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=304|end_char=306
+9	не	не	PART	_	_	10	advmod	_	start_char=307|end_char=309
+10	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=310|end_char=318
+11	.	.	PUNCT	_	_	2	punct	_	start_char=318|end_char=319
+

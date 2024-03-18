@@ -1,0 +1,71 @@
+# text = Невеста в поиске помощи!
+# sent_id = 0
+1	Невеста	невеста	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=7
+2	в	в	ADP	_	_	3	case	_	start_char=8|end_char=9
+3	поиске	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=16
+4	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=17|end_char=23
+5	!	!	PUNCT	_	_	1	punct	_	start_char=23|end_char=24
+
+# text = Эта книга очень вдохновляющая, если вы ищете торт, который уникален, или если вы просто не знаете, какой стиль вам подходит.
+# sent_id = 1
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=25|end_char=28
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=29|end_char=34
+3	очень	очень	ADV	_	Degree=Pos	4	obl	_	start_char=35|end_char=40
+4	вдохновляющая	вдохновлять	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=41|end_char=54
+5	,	,	PUNCT	_	_	8	punct	_	start_char=54|end_char=55
+6	если	если	SCONJ	_	_	8	mark	_	start_char=56|end_char=60
+7	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	start_char=61|end_char=63
+8	ищете	искать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=64|end_char=69
+9	торт	торт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=70|end_char=74
+10	,	,	PUNCT	_	_	12	punct	_	start_char=74|end_char=75
+11	который	который	PRON	_	Case=Nom|PronType=Int,Rel	12	nsubj	_	start_char=76|end_char=83
+12	уникален	уникальный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	acl:relcl	_	start_char=84|end_char=92
+13	,	,	PUNCT	_	_	19	punct	_	start_char=92|end_char=93
+14	или	или	CCONJ	_	_	19	cc	_	start_char=94|end_char=97
+15	если	если	SCONJ	_	_	19	mark	_	start_char=98|end_char=102
+16	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	19	nsubj	_	start_char=103|end_char=105
+17	просто	просто	PART	_	_	19	advmod	_	start_char=106|end_char=112
+18	не	не	PART	_	_	19	advmod	_	start_char=113|end_char=115
+19	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=116|end_char=122
+20	,	,	PUNCT	_	_	24	punct	_	start_char=122|end_char=123
+21	какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	22	det	_	start_char=124|end_char=129
+22	стиль	стиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	start_char=130|end_char=135
+23	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	24	iobj	_	start_char=136|end_char=139
+24	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	_	start_char=140|end_char=148
+25	.	.	PUNCT	_	_	4	punct	_	start_char=148|end_char=149
+
+# text = Передняя часть книги помогает вам выбрать свой стиль, а задняя половина содержит характеристики представленных тортов.
+# sent_id = 2
+1	Передняя	передний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=150|end_char=158
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=159|end_char=164
+3	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=165|end_char=170
+4	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=171|end_char=179
+5	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	iobj	_	start_char=180|end_char=183
+6	выбрать	выбрать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=184|end_char=191
+7	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=192|end_char=196
+8	стиль	стиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=197|end_char=202
+9	,	,	PUNCT	_	_	13	punct	_	start_char=202|end_char=203
+10	а	а	CCONJ	_	_	13	cc	_	start_char=204|end_char=205
+11	задняя	задний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=206|end_char=212
+12	половина	половина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=213|end_char=221
+13	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=222|end_char=230
+14	характеристики	характеристика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=231|end_char=245
+15	представленных	представить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	start_char=246|end_char=260
+16	тортов	торт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=261|end_char=267
+17	.	.	PUNCT	_	_	4	punct	_	start_char=267|end_char=268
+
+# text = Например, сколько человек они обслуживают, рецепты и так далее.
+# sent_id = 3
+1	Например	например	ADV	_	Degree=Pos	6	parataxis	_	start_char=269|end_char=277
+2	,	,	PUNCT	_	_	1	punct	_	start_char=277|end_char=278
+3	сколько	сколько	NUM	_	Case=Acc|NumType=Card	4	nummod:gov	_	start_char=280|end_char=287
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obj	_	start_char=288|end_char=295
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=296|end_char=299
+6	обслуживают	обслуживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=300|end_char=311
+7	,	,	PUNCT	_	_	8	punct	_	start_char=311|end_char=312
+8	рецепты	рецепт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=313|end_char=320
+9	и	и	CCONJ	_	_	6	conj	_	start_char=321|end_char=322
+10	так	так	ADV	_	Degree=Pos	9	fixed	_	start_char=323|end_char=326
+11	далее	далее	ADV	_	Degree=Pos	9	fixed	_	start_char=327|end_char=332
+12	.	.	PUNCT	_	_	6	punct	_	start_char=332|end_char=333
+

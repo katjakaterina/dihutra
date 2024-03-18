@@ -1,0 +1,65 @@
+# text = Täydellinen!
+# sent_id = 0
+1	Täydellinen	täydellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=0|end_char=11
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=11|end_char=12
+
+# text = Olin huolissani tästä tilauksesta, koska kuvaussivun kuva vaihtui jatkuvasti vähemmän toivottavaan vihreä/oranssiin kanteen.
+# sent_id = 1
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	start_char=13|end_char=17
+2	huolissani	huolissani	ADV	Adv	Number[psor]=Sing|Person[psor]=1	0	root	_	start_char=18|end_char=28
+3	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	4	det	_	start_char=29|end_char=34
+4	tilauksesta	tilaus	NOUN	N	Case=Ela|Number=Sing	2	nmod	_	start_char=35|end_char=46
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=46|end_char=47
+6	koska	koska	SCONJ	C	_	9	mark	_	start_char=48|end_char=53
+7	kuvaussivun	kuvaus#sivu	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=54|end_char=65
+8	kuva	kuva	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=66|end_char=70
+9	vaihtui	vaihtua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=71|end_char=78
+10	jatkuvasti	jatkuvasti	ADV	Adv	Derivation=Sti	9	advmod	_	start_char=79|end_char=89
+11	vähemmän	vähemmän	ADV	Adv	_	12	advmod	_	start_char=90|end_char=98
+12	toivottavaan	toivottava	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	16	amod	_	start_char=99|end_char=111
+13	vihreä	vihreä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	16	amod	_	start_char=112|end_char=118
+14	/	/	PUNCT	Punct	_	15	punct	_	start_char=118|end_char=119
+15	oranssiin	oranssi	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	13	conj	_	start_char=119|end_char=128
+16	kanteen	kansi	NOUN	N	Case=Ill|Number=Sing	9	obl	_	start_char=129|end_char=136
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=136|end_char=137
+
+# text = Mutta valitettavasti se tuli päivää odotettua aikaisemmin, ja kaunista vaaleanpunaista tuotetta odotettiin!
+# sent_id = 2
+1	Mutta	mutta	CCONJ	C	_	4	cc	_	start_char=138|end_char=143
+2	valitettavasti	valitettavasti	ADV	Adv	Derivation=Sti	4	advmod	_	start_char=144|end_char=158
+3	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	_	start_char=159|end_char=161
+4	tuli	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=162|end_char=166
+5	päivää	päivä	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=167|end_char=173
+6	odotettua	odottaa	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=174|end_char=183
+7	aikaisemmin	aikaisemmin	ADV	Adv	_	4	advmod	_	start_char=184|end_char=195
+8	,	,	PUNCT	Punct	_	13	punct	_	start_char=195|end_char=196
+9	ja	ja	CCONJ	C	_	13	cc	_	start_char=197|end_char=199
+10	kaunista	kaunis	ADJ	A	Case=Par|Degree=Pos|Number=Sing	12	amod	_	start_char=200|end_char=208
+11	vaaleanpunaista	vaalean#punainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	12	amod	_	start_char=209|end_char=224
+12	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	13	obj	_	start_char=225|end_char=233
+13	odotettiin	odottaa	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	start_char=234|end_char=244
+14	!	!	PUNCT	Punct	_	4	punct	_	start_char=244|end_char=245
+
+# text = Kumitettu kansi tuntuu hieman rasvaiselta (kuin se olisi panssarimainen), mutta muotoilu on upea ja hieman 3D-näköinen!
+# sent_id = 3
+1	Kumitettu	kumittaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	2	acl	_	start_char=246|end_char=255
+2	kansi	kansi	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=256|end_char=261
+3	tuntuu	tuntua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=262|end_char=268
+4	hieman	hieman	ADV	Adv	_	5	advmod	_	start_char=269|end_char=275
+5	rasvaiselta	rasvainen	ADJ	A	Case=Abl|Degree=Pos|Number=Sing	3	xcomp	_	start_char=276|end_char=287
+6	(	(	PUNCT	Punct	_	10	punct	_	start_char=288|end_char=289
+7	kuin	kuin	SCONJ	C	_	10	mark	_	start_char=289|end_char=293
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=294|end_char=296
+9	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	cop	_	start_char=297|end_char=302
+10	panssarimainen	panssa#rainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	5	advcl	_	start_char=303|end_char=317
+11	)	)	PUNCT	Punct	_	10	punct	_	start_char=317|end_char=318
+12	,	,	PUNCT	Punct	_	16	punct	_	start_char=318|end_char=319
+13	mutta	mutta	CCONJ	C	_	16	cc	_	start_char=320|end_char=325
+14	muotoilu	muotoilu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	16	nsubj:cop	_	start_char=326|end_char=334
+15	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	start_char=335|end_char=337
+16	upea	upea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=338|end_char=342
+17	ja	ja	CCONJ	C	_	19	cc	_	start_char=343|end_char=345
+18	hieman	hieman	ADV	Adv	_	19	advmod	_	start_char=346|end_char=352
+19	3D-näköinen	3D#näköinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	16	conj	_	start_char=353|end_char=364
+20	!	!	PUNCT	Punct	_	3	punct	_	start_char=364|end_char=365
+

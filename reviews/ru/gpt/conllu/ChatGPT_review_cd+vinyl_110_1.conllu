@@ -1,0 +1,78 @@
+# text = Получите 13-дисковый набор от Amazon UK! $117 на вторичном рынке за этот низкокачественный набор?
+# sent_id = 0
+1	Получите	получить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	13-дисковый	13-дисковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=9|end_char=20
+3	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=21|end_char=26
+4	от	от	ADP	_	_	3	case	_	start_char=27|end_char=29
+5	Amazon	Amazon	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=30|end_char=36
+6	UK	UK	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=37|end_char=39
+7	!	!	PUNCT	_	_	8	punct	_	start_char=39|end_char=40
+8	$	$	SYM	_	_	1	obl	_	start_char=41|end_char=42
+9	117	117	NUM	_	NumType=Card	8	nummod	_	start_char=42|end_char=45
+10	на	на	ADP	_	_	12	case	_	start_char=46|end_char=48
+11	вторичном	вторичный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=49|end_char=58
+12	рынке	рынок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	start_char=59|end_char=64
+13	за	за	ADP	_	_	16	case	_	start_char=65|end_char=67
+14	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=68|end_char=72
+15	низкокачественный	низкокачественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=73|end_char=90
+16	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	start_char=91|end_char=96
+17	?	?	PUNCT	_	_	1	punct	_	start_char=96|end_char=97
+
+# text = Ха!
+# sent_id = 1
+1	Ха	ха	INTJ	_	_	0	root	_	start_char=98|end_char=100
+2	!	!	PUNCT	_	_	1	punct	_	start_char=100|end_char=101
+
+# text = Перейдите на AMAZON UK и получите полный 13-дисковый набор в красивой коробке за примерно $84 с доставкой.
+# sent_id = 2
+1	Перейдите	перейдить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=102|end_char=111
+2	на	на	ADP	_	_	1	case	_	start_char=112|end_char=114
+3	AMAZON	AMAZON	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=115|end_char=121
+4	UK	UK	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=122|end_char=124
+5	и	и	CCONJ	_	_	6	cc	_	start_char=125|end_char=126
+6	получите	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	start_char=127|end_char=135
+7	полный	полный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=136|end_char=142
+8	13-дисковый	13-дисковый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=143|end_char=154
+9	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=155|end_char=160
+10	в	в	ADP	_	_	12	case	_	start_char=161|end_char=162
+11	красивой	красивый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=163|end_char=171
+12	коробке	коробка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	start_char=172|end_char=179
+13	за	за	ADP	_	_	15	case	_	start_char=180|end_char=182
+14	примерно	примерно	ADV	_	Degree=Pos	15	obl	_	start_char=183|end_char=191
+15	$	$	SYM	_	_	9	nmod	_	start_char=192|end_char=193
+16	84	84	NUM	_	NumType=Card	15	nummod	_	start_char=193|end_char=195
+17	с	с	ADP	_	_	18	case	_	start_char=196|end_char=197
+18	доставкой	доставка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	nmod	_	start_char=198|end_char=207
+19	.	.	PUNCT	_	_	1	punct	_	start_char=207|end_char=208
+
+# text = (Я только что получил свой!)
+# sent_id = 3
+1	(	(	PUNCT	_	_	5	punct	_	start_char=209|end_char=210
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=210|end_char=211
+3	только	только	PART	_	_	5	advmod	_	start_char=212|end_char=218
+4	что	что	SCONJ	_	_	3	fixed	_	start_char=219|end_char=222
+5	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=223|end_char=230
+6	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=231|end_char=235
+7	!	!	PUNCT	_	_	5	punct	_	start_char=235|end_char=236
+8	)	)	PUNCT	_	_	5	punct	_	start_char=236|end_char=237
+
+# text = Для того чтобы понять, какой лучше, не требуется ум Марвина, размером с планету.
+# sent_id = 4
+1	Для	для	ADP	_	_	2	case	_	start_char=238|end_char=241
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	start_char=242|end_char=246
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	4	mark	_	start_char=247|end_char=252
+4	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=253|end_char=259
+5	,	,	PUNCT	_	_	7	punct	_	start_char=259|end_char=260
+6	какой	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Int,Rel	7	det	_	start_char=261|end_char=266
+7	лучше	хороший	ADJ	_	Degree=Cmp	4	obl	_	start_char=267|end_char=272
+8	,	,	PUNCT	_	_	2	punct	_	start_char=272|end_char=273
+9	не	не	PART	_	_	10	advmod	_	start_char=274|end_char=276
+10	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=277|end_char=286
+11	ум	ум	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=287|end_char=289
+12	Марвина	Марвин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=290|end_char=297
+13	,	,	PUNCT	_	_	14	punct	_	start_char=297|end_char=298
+14	размером	размер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	start_char=299|end_char=307
+15	с	с	ADP	_	_	16	case	_	start_char=308|end_char=309
+16	планету	планета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	start_char=310|end_char=317
+17	.	.	PUNCT	_	_	10	punct	_	start_char=317|end_char=318
+

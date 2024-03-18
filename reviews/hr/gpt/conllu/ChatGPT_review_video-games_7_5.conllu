@@ -1,0 +1,65 @@
+# text = Najbolja utrkačka igra Obožavam ovu igru, najviše sam se zabavljao s njom.
+# sent_id = 0
+1	Najbolja	dobar	ADJ	Agsfsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	3	amod	_	start_char=0|end_char=8
+2	utrkačka	utrkački	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=9|end_char=17
+3	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=18|end_char=22
+4	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=23|end_char=31
+5	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=32|end_char=35
+6	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=36|end_char=40
+7	,	,	PUNCT	Z	_	11	punct	_	start_char=40|end_char=41
+8	najviše	mnogo	ADV	Rgs	Degree=Sup	11	advmod	_	start_char=42|end_char=49
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=50|end_char=53
+10	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	start_char=54|end_char=56
+11	zabavljao	zabavljati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=57|end_char=66
+12	s	sa	ADP	Si	Case=Ins	13	case	_	start_char=67|end_char=68
+13	njom	on	PRON	Pp3fsi	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obl	_	start_char=69|end_char=73
+14	.	.	PUNCT	Z	_	4	punct	_	start_char=73|end_char=74
+
+# text = Ako ne radi, pokušajte je pokrenuti na prijenosniku.
+# sent_id = 1
+1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=75|end_char=78
+2	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=79|end_char=81
+3	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=82|end_char=86
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=86|end_char=87
+5	pokušajte	pokušati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=88|end_char=97
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=98|end_char=100
+7	pokrenuti	pokrenuti	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=101|end_char=110
+8	na	na	ADP	Sl	Case=Loc	9	case	_	start_char=111|end_char=113
+9	prijenosniku	prijenosnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=114|end_char=126
+10	.	.	PUNCT	Z	_	5	punct	_	start_char=126|end_char=127
+
+# text = Ako volite utrkačke igre, mogli biste voljeti ovu.
+# sent_id = 2
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=128|end_char=131
+2	volite	voljeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=132|end_char=138
+3	utrkačke	utrkački	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=139|end_char=147
+4	igre	igra	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=148|end_char=152
+5	,	,	PUNCT	Z	_	2	punct	_	start_char=152|end_char=153
+6	mogli	moći	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=154|end_char=159
+7	biste	biti	AUX	Vaa2p	Mood=Cnd|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	6	aux	_	start_char=160|end_char=165
+8	voljeti	voljeti	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=166|end_char=173
+9	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	obj	_	start_char=174|end_char=177
+10	.	.	PUNCT	Z	_	6	punct	_	start_char=177|end_char=178
+
+# text = Pomalo je zastarjela, pa se pripremite na to, ali inače, osim grafike, odlična je.
+# sent_id = 3
+1	Pomalo	pomalo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=179|end_char=185
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=186|end_char=188
+3	zastarjela	zastarjeti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=189|end_char=199
+4	,	,	PUNCT	Z	_	7	punct	_	start_char=199|end_char=200
+5	pa	pa	CCONJ	Cc	_	7	cc	_	start_char=201|end_char=203
+6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	start_char=204|end_char=206
+7	pripremite	pripremiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	3	conj	_	start_char=207|end_char=217
+8	na	na	ADP	Sa	Case=Acc	9	case	_	start_char=218|end_char=220
+9	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	start_char=221|end_char=223
+10	,	,	PUNCT	Z	_	17	punct	_	start_char=223|end_char=224
+11	ali	ali	CCONJ	Cc	_	17	cc	_	start_char=225|end_char=228
+12	inače	inače	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=229|end_char=234
+13	,	,	PUNCT	Z	_	15	punct	_	start_char=234|end_char=235
+14	osim	osim	ADP	Sg	Case=Gen	15	case	_	start_char=236|end_char=240
+15	grafike	grafika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	start_char=241|end_char=248
+16	,	,	PUNCT	Z	_	15	punct	_	start_char=248|end_char=249
+17	odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	start_char=250|end_char=257
+18	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=258|end_char=260
+19	.	.	PUNCT	Z	_	3	punct	_	start_char=260|end_char=261
+

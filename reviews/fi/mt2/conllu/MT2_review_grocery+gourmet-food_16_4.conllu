@@ -1,0 +1,59 @@
+# text = Matcha-teen maku ei riitä minulle... (=_=) Kokeilin tätä ensimmäistä kertaa tänään ja se on herkullista, mutta en oikein maista Matcha-makua niin kuin toivoisi vaikkapa Green Tea -jäätelöä.
+# sent_id = 0
+1	Matcha-teen	Matcha#teen	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=0|end_char=11
+2	maku	maku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	4	nsubj	_	start_char=12|end_char=16
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=17|end_char=19
+4	riitä	riittää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=20|end_char=25
+5	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=26|end_char=33
+6	...	...	PUNCT	Punct	_	11	punct	_	start_char=33|end_char=36
+7	(	(	PUNCT	Punct	_	11	punct	_	start_char=37|end_char=38
+8	=	=	SYM	Symb	_	11	discourse	_	start_char=38|end_char=39
+9	_=	_=	SYM	Symb	_	11	discourse	_	start_char=39|end_char=41
+10	)	)	PUNCT	Punct	_	8	punct	_	start_char=41|end_char=42
+11	Kokeilin	kokeilla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=43|end_char=51
+12	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	11	obj	_	start_char=52|end_char=56
+13	ensimmäistä	ensimmäinen	ADJ	Num	Case=Par|Derivation=Inen|NumType=Ord|Number=Sing	14	amod	_	start_char=57|end_char=68
+14	kertaa	kerta	NOUN	N	Case=Par|Number=Sing	11	obl	_	start_char=69|end_char=75
+15	tänään	tänään	ADV	Adv	_	11	advmod	_	start_char=76|end_char=82
+16	ja	ja	CCONJ	C	_	19	cc	_	start_char=83|end_char=85
+17	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	19	nsubj:cop	_	start_char=86|end_char=88
+18	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	start_char=89|end_char=91
+19	herkullista	herkullinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	11	conj	_	start_char=92|end_char=103
+20	,	,	PUNCT	Punct	_	24	punct	_	start_char=103|end_char=104
+21	mutta	mutta	CCONJ	C	_	24	cc	_	start_char=105|end_char=110
+22	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	24	aux	_	start_char=111|end_char=113
+23	oikein	oikein	ADV	Adv	_	24	advmod	_	start_char=114|end_char=120
+24	maista	maa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=121|end_char=127
+25	Matcha-makua	Matcha#maku	NOUN	N	Case=Par|Derivation=U|Number=Sing	24	obj	_	start_char=128|end_char=140
+26	niin	niin	ADV	Adv	_	28	mark	_	start_char=141|end_char=145
+27	kuin	kuin	SCONJ	C	_	26	fixed	_	start_char=146|end_char=150
+28	toivoisi	toivoa	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	24	advcl	_	start_char=151|end_char=159
+29	vaikkapa	vaikkapa	ADV	Adv	_	32	advmod	_	start_char=160|end_char=168
+30	Green	Green	PROPN	N	Case=Nom|Number=Sing	32	compound:nn	_	start_char=169|end_char=174
+31	Tea	Tea	PROPN	N	Case=Nom|Number=Sing	30	flat:name	_	start_char=175|end_char=178
+32	-jäätelöä	jäätelö	NOUN	N	Case=Par|Number=Sing	28	obj	_	start_char=179|end_char=188
+33	.	.	PUNCT	Punct	_	4	punct	_	start_char=188|end_char=189
+
+# text = Minusta se maistui rakeiselta valkosuklaalta, joka on mielestäni Matcha-teejauhetta.
+# sent_id = 1
+1	Minusta	minä	PRON	Pron	Case=Ela|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=190|end_char=197
+2	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=198|end_char=200
+3	maistui	maistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=201|end_char=208
+4	rakeiselta	rakeinen	ADJ	A	Case=Abl|Degree=Pos|Number=Sing	5	amod	_	start_char=209|end_char=219
+5	valkosuklaalta	valko#suklaa	NOUN	N	Case=Abl|Number=Sing	3	obl	_	start_char=220|end_char=234
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=234|end_char=235
+7	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	10	nsubj:cop	_	start_char=236|end_char=240
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=241|end_char=243
+9	mielestäni	mieli	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	obl	_	start_char=244|end_char=254
+10	Matcha-teejauhetta	Matcha#teejauhe	NOUN	N	Case=Par|Number=Sing	5	acl:relcl	_	start_char=255|end_char=273
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=273|end_char=274
+
+# text = Mielestäni suosikki KitKat-makusekoitukseni on Mocha.
+# sent_id = 2
+1	Mielestäni	mieli	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obl	_	start_char=275|end_char=285
+2	suosikki	suosikki	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=286|end_char=294
+3	KitKat-makusekoitukseni	KitKat#maku#sekoitus	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj:cop	_	start_char=295|end_char=318
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=319|end_char=321
+5	Mocha	Mocha	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=322|end_char=327
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=327|end_char=328
+

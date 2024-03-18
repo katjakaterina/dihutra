@@ -1,0 +1,59 @@
+# text = Hankalaa ja aikaa vievää.
+# sent_id = 0
+1	Hankalaa	hankala	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=0|end_char=8
+2	ja	ja	CCONJ	C	_	3	cc	_	start_char=9|end_char=11
+3	aikaa	aika	NOUN	N	Case=Par|Number=Sing	1	conj	_	start_char=12|end_char=17
+4	vievää	viedä	VERB	V	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	0	root	_	start_char=18|end_char=24
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=24|end_char=25
+
+# text = Loistava mahdollisuus saada tai antaa (jos lahjaksi) tauko televisiosta!
+# sent_id = 1
+1	Loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=26|end_char=34
+2	mahdollisuus	mahdollisuus	NOUN	N	Case=Nom|Derivation=Llinen,Vs|Number=Sing	0	root	_	start_char=35|end_char=47
+3	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	acl	_	start_char=48|end_char=53
+4	tai	tai	CCONJ	C	_	5	cc	_	start_char=54|end_char=57
+5	antaa	antaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=58|end_char=63
+6	(	(	PUNCT	Punct	_	8	punct	_	start_char=64|end_char=65
+7	jos	jos	SCONJ	C	_	8	mark	_	start_char=65|end_char=68
+8	lahjaksi	lahja	NOUN	N	Case=Tra|Number=Sing	10	nmod	_	start_char=69|end_char=77
+9	)	)	PUNCT	Punct	_	8	punct	_	start_char=77|end_char=78
+10	tauko	tauko	NOUN	N	Case=Nom|Number=Sing	2	appos	_	start_char=79|end_char=84
+11	televisiosta	televisio	NOUN	N	Case=Ela|Number=Sing	10	nmod	_	start_char=85|end_char=97
+12	!	!	PUNCT	Punct	_	2	punct	_	start_char=97|end_char=98
+
+# text = Erittäin hyvä ajan hajauttamiseen.
+# sent_id = 2
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=99|end_char=107
+2	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=108|end_char=112
+3	ajan	aika	NOUN	N	Case=Gen|Number=Sing	4	nmod:gobj	_	start_char=113|end_char=117
+4	hajauttamiseen	hajauttaminen	NOUN	N	Case=Ill|Derivation=Minen|Number=Sing	2	nmod	_	start_char=118|end_char=132
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=132|end_char=133
+
+# text = Ostettu 14-vuotiaalle veljentytölleni.
+# sent_id = 3
+1	Ostettu	ostaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=134|end_char=141
+2	14-vuotiaalle	14#vuotias	ADJ	A	Case=All|Degree=Pos|Number=Sing	3	amod	_	start_char=142|end_char=155
+3	veljentytölleni	veljentyttö	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=156|end_char=171
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=171|end_char=172
+
+# text = Vaikka hän haluaisi mieluummin ohjaimen tai näppäimistön kädessään, annan hänelle toisinaan tämän "teknologiatauon" vuoksi!
+# sent_id = 4
+1	Vaikka	vaikka	SCONJ	C	_	3	mark	_	start_char=173|end_char=179
+2	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=180|end_char=183
+3	haluaisi	haluta	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=184|end_char=192
+4	mieluummin	mieluummin	ADV	Adv	_	3	advmod	_	start_char=193|end_char=203
+5	ohjaimen	ohjain	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=204|end_char=212
+6	tai	tai	CCONJ	C	_	7	cc	_	start_char=213|end_char=216
+7	näppäimistön	näppäimistö	NOUN	N	Case=Gen|Number=Sing	5	conj	_	start_char=217|end_char=229
+8	kädessään	käsi	NOUN	N	Case=Ine|Number=Sing|Person[psor]=3	3	obl	_	start_char=230|end_char=239
+9	,	,	PUNCT	Punct	_	3	punct	_	start_char=239|end_char=240
+10	annan	antaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=241|end_char=246
+11	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	10	obl	_	start_char=247|end_char=254
+12	toisinaan	toisinaan	ADV	Adv	_	10	advmod	_	start_char=255|end_char=264
+13	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	15	det	_	start_char=265|end_char=270
+14	"	"	PUNCT	Punct	_	15	punct	_	start_char=271|end_char=272
+15	teknologiatauon	teknologia#tauko	NOUN	N	Case=Gen|Number=Sing	10	obl	_	start_char=272|end_char=287
+16	"	"	PUNCT	Punct	_	15	punct	_	start_char=287|end_char=288
+17	vuoksi	vuoksi	ADP	Adp	AdpType=Post	15	case	_	start_char=289|end_char=295
+18	!	!	PUNCT	Punct	_	10	punct	_	start_char=295|end_char=296
+

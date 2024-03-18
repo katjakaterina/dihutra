@@ -1,0 +1,89 @@
+# text = Пробная версия для Kindle Я обожаю эту книгу и, должно быть, утерял её где-то.
+# sent_id = 0
+1	Пробная	пробный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=8|end_char=14
+3	для	для	ADP	_	_	2	case	_	start_char=15|end_char=18
+4	Kindle	Kindle	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=19|end_char=25
+5	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=26|end_char=27
+6	обожаю	обожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=28|end_char=34
+7	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=35|end_char=38
+8	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=39|end_char=44
+9	и	и	CCONJ	_	_	14	cc	_	start_char=45|end_char=46
+10	,	,	PUNCT	_	_	9	punct	_	start_char=46|end_char=47
+11	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	parataxis	_	start_char=48|end_char=54
+12	быть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=55|end_char=59
+13	,	,	PUNCT	_	_	11	punct	_	start_char=59|end_char=60
+14	утерял	утерять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=61|end_char=67
+15	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=68|end_char=70
+16	где-то	где-то	ADV	_	Degree=Pos	14	advmod	_	start_char=71|end_char=77
+17	.	.	PUNCT	_	_	6	punct	_	start_char=77|end_char=78
+
+# text = Меня интересовало, какова версия для Kindle, учитывая иногда возникающие проблемы с форматированием.
+# sent_id = 1
+1	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=79|end_char=83
+2	интересовало	интересовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=84|end_char=96
+3	,	,	PUNCT	_	_	4	punct	_	start_char=96|end_char=97
+4	какова	каков	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	obl	_	start_char=98|end_char=104
+5	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=105|end_char=111
+6	для	для	ADP	_	_	5	case	_	start_char=112|end_char=115
+7	Kindle	Kindle	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=116|end_char=122
+8	,	,	PUNCT	_	_	9	punct	_	start_char=122|end_char=123
+9	учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	start_char=124|end_char=132
+10	иногда	иногда	ADV	_	Degree=Pos	11	advmod	_	start_char=133|end_char=139
+11	возникающие	возникать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	_	start_char=140|end_char=151
+12	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=152|end_char=160
+13	с	с	ADP	_	_	14	case	_	start_char=161|end_char=162
+14	форматированием	форматирование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	start_char=163|end_char=178
+15	.	.	PUNCT	_	_	2	punct	_	start_char=178|end_char=179
+
+# text = К разочарованию, бесплатная пробная версия содержит только введение.
+# sent_id = 2
+1	К	к	ADP	_	_	2	case	_	start_char=180|end_char=181
+2	разочарованию	разочарование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	parataxis	_	start_char=182|end_char=195
+3	,	,	PUNCT	_	_	2	punct	_	start_char=195|end_char=196
+4	бесплатная	бесплатный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=197|end_char=207
+5	пробная	пробный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=208|end_char=215
+6	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=216|end_char=222
+7	содержит	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=223|end_char=231
+8	только	только	PART	_	_	9	advmod	_	start_char=232|end_char=238
+9	введение	введение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=239|end_char=247
+10	.	.	PUNCT	_	_	7	punct	_	start_char=247|end_char=248
+
+# text = Даже не одной страницы из книги.
+# sent_id = 3
+1	Даже	даже	PART	_	_	2	advmod	_	start_char=249|end_char=253
+2	не	не	PART	_	_	3	advmod	_	start_char=254|end_char=256
+3	одной	один	NUM	_	Case=Gen|Gender=Fem|NumType=Card	4	nummod	_	start_char=257|end_char=262
+4	страницы	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=263|end_char=271
+5	из	из	ADP	_	_	6	case	_	start_char=272|end_char=274
+6	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=275|end_char=280
+7	.	.	PUNCT	_	_	4	punct	_	start_char=280|end_char=281
+
+# text = Цена не так уж плоха по сравнению с некоторыми изданиями для Kindle, но пробная версия определенно не позволила мне взглянуть на книгу вообще.
+# sent_id = 4
+1	Цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=282|end_char=286
+2	не	не	PART	_	_	3	advmod	_	start_char=287|end_char=289
+3	так	так	ADV	_	Degree=Pos	5	obl	_	start_char=290|end_char=293
+4	уж	уж	PART	_	_	3	advmod	_	start_char=294|end_char=296
+5	плоха	плохой	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=297|end_char=302
+6	по	по	ADP	_	_	10	case	_	start_char=303|end_char=305
+7	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	fixed	_	start_char=306|end_char=315
+8	с	с	ADP	_	_	6	fixed	_	start_char=316|end_char=317
+9	некоторыми	некоторый	DET	_	Case=Ins|Number=Plur|PronType=Ind	10	det	_	start_char=318|end_char=328
+10	изданиями	издание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	obl	_	start_char=329|end_char=338
+11	для	для	ADP	_	_	10	case	_	start_char=339|end_char=342
+12	Kindle	Kindle	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=343|end_char=349
+13	,	,	PUNCT	_	_	19	punct	_	start_char=349|end_char=350
+14	но	но	CCONJ	_	_	19	cc	_	start_char=351|end_char=353
+15	пробная	пробный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=354|end_char=361
+16	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=362|end_char=368
+17	определенно	определенно	ADV	_	Degree=Pos	19	advmod	_	start_char=369|end_char=380
+18	не	не	PART	_	_	19	advmod	_	start_char=381|end_char=383
+19	позволила	позволить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=384|end_char=393
+20	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	19	iobj	_	start_char=394|end_char=397
+21	взглянуть	взглянуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=398|end_char=407
+22	на	на	ADP	_	_	23	case	_	start_char=408|end_char=410
+23	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl	_	start_char=411|end_char=416
+24	вообще	вообще	ADV	_	Degree=Pos	21	advmod	_	start_char=417|end_char=423
+25	.	.	PUNCT	_	_	5	punct	_	start_char=423|end_char=424
+

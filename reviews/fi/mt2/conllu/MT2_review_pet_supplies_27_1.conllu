@@ -1,0 +1,107 @@
+# text = Rahan tuhlausta
+# sent_id = 0
+1	Rahan	raha	NOUN	N	Case=Gen|Number=Sing	2	nmod:gobj	_	start_char=0|end_char=5
+2	tuhlausta	tuhlaus	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=6|end_char=15
+
+# text = Tämä on suurinta rahanhukkaa - älä osta sitä - se ei toimi!
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=16|end_char=20
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=21|end_char=23
+3	suurinta	suuri	ADJ	A	Case=Par|Degree=Sup|Number=Sing	4	amod	_	start_char=24|end_char=32
+4	rahanhukkaa	raha#hukka	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=33|end_char=44
+5	-	-	PUNCT	Punct	_	7	punct	_	start_char=45|end_char=46
+6	älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=47|end_char=50
+7	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=51|end_char=55
+8	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	7	obj	_	start_char=56|end_char=60
+9	-	-	PUNCT	Punct	_	12	punct	_	start_char=61|end_char=62
+10	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	start_char=63|end_char=65
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=66|end_char=68
+12	toimi	toimia	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=69|end_char=74
+13	!	!	PUNCT	Punct	_	4	punct	_	start_char=74|end_char=75
+
+# text = Ihmiset sanovat vain tietyn sanan, sitten 10 sekunnin tauko...
+# sent_id = 2
+1	Ihmiset	ihminen	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	start_char=76|end_char=83
+2	sanovat	sanoa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=84|end_char=91
+3	vain	vain	ADV	Adv	_	5	advmod	_	start_char=92|end_char=96
+4	tietyn	tietty	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	5	amod	_	start_char=97|end_char=103
+5	sanan	sana	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=104|end_char=109
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=109|end_char=110
+7	sitten	sitten	ADV	Adv	_	10	advmod	_	start_char=111|end_char=117
+8	10	10	NUM	Num	NumType=Card	9	nummod	_	start_char=118|end_char=120
+9	sekunnin	sekunti	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=121|end_char=129
+10	tauko	tauko	NOUN	N	Case=Nom|Number=Sing	5	appos	_	start_char=130|end_char=135
+11	...	...	PUNCT	Punct	_	2	punct	_	start_char=135|end_char=138
+
+# text = sitten eri sana ja toinen 10 sekunnin tauko.
+# sent_id = 3
+1	sitten	sitten	ADV	Adv	_	3	advmod	_	start_char=139|end_char=145
+2	eri	eri	ADJ	A	_	3	amod	_	start_char=146|end_char=149
+3	sana	sana	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=150|end_char=154
+4	ja	ja	CCONJ	C	_	8	cc	_	start_char=155|end_char=157
+5	toinen	toinen	PRON	Pron	Case=Nom|Number=Sing|PronType=Rcp	8	det	_	start_char=158|end_char=164
+6	10	10	NUM	Num	NumType=Card	7	nummod	_	start_char=165|end_char=167
+7	sekunnin	sekunti	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=168|end_char=176
+8	tauko	tauko	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=177|end_char=182
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=182|end_char=183
+
+# text = Voit luoda oman, jos todella haluat kokeilla tätä.
+# sent_id = 4
+1	Voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=184|end_char=188
+2	luoda	luoda	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=189|end_char=194
+3	oman	oma	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	2	obj	_	start_char=195|end_char=199
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=199|end_char=200
+5	jos	jos	SCONJ	C	_	7	mark	_	start_char=201|end_char=204
+6	todella	todella	ADV	Adv	_	7	advmod	_	start_char=205|end_char=212
+7	haluat	haluta	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=213|end_char=219
+8	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=220|end_char=228
+9	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	obj	_	start_char=229|end_char=233
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=233|end_char=234
+
+# text = Mutta sinun ei todellakaan pidä jättää tätä lintullesi koko päiväksi - se tulisi tehdä vain 10 minuutin välein tai se voi ärsyttää lintuasi (tiedän, että olen ärsyyntynyt sen jälkeen vain 2 sanaa).
+# sent_id = 5
+1	Mutta	mutta	CCONJ	C	_	6	cc	_	start_char=235|end_char=240
+2	sinun	sinä	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	start_char=241|end_char=246
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=247|end_char=249
+4	todellakaan	todella	ADV	Adv	Clitic=Kaan	6	advmod	_	start_char=250|end_char=261
+5	pidä	pitää	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=262|end_char=266
+6	jättää	jättää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=267|end_char=273
+7	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	6	obj	_	start_char=274|end_char=278
+8	lintullesi	lintu	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obl	_	start_char=279|end_char=289
+9	koko	koko	ADJ	A	_	10	amod	_	start_char=290|end_char=294
+10	päiväksi	päivä	NOUN	N	Case=Tra|Number=Sing	6	obl	_	start_char=295|end_char=303
+11	-	-	PUNCT	Punct	_	13	punct	_	start_char=304|end_char=305
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	obj	_	start_char=306|end_char=308
+13	tulisi	tulla	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=309|end_char=315
+14	tehdä	tehdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=316|end_char=321
+15	vain	vain	ADV	Adv	_	18	advmod	_	start_char=322|end_char=326
+16	10	10	NUM	Num	NumType=Card	17	nummod	_	start_char=327|end_char=329
+17	minuutin	minuutti	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	start_char=330|end_char=338
+18	välein	väli	NOUN	N	Case=Ins|Number=Plur	14	obl	_	start_char=339|end_char=345
+19	tai	tai	CCONJ	C	_	22	cc	_	start_char=346|end_char=349
+20	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	22	nsubj	_	start_char=350|end_char=352
+21	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	start_char=353|end_char=356
+22	ärsyttää	ärsyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	conj	_	start_char=357|end_char=365
+23	lintuasi	lintu	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	22	obj	_	start_char=366|end_char=374
+24	(	(	PUNCT	Punct	_	25	punct	_	start_char=375|end_char=376
+25	tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	parataxis	_	start_char=376|end_char=382
+26	,	,	PUNCT	Punct	_	29	punct	_	start_char=382|end_char=383
+27	että	että	SCONJ	C	_	29	mark	_	start_char=384|end_char=388
+28	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	29	aux	_	start_char=389|end_char=393
+29	ärsyyntynyt	ärsyyntyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	25	ccomp	_	start_char=394|end_char=405
+30	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	29	obl	_	start_char=406|end_char=409
+31	jälkeen	jälkeen	ADP	Adp	AdpType=Post	30	case	_	start_char=410|end_char=417
+32	vain	vain	ADV	Adv	_	33	advmod	_	start_char=418|end_char=422
+33	2	2	NUM	Num	NumType=Card	34	nummod	_	start_char=423|end_char=424
+34	sanaa	sana	NOUN	N	Case=Par|Number=Sing	29	obj	_	start_char=425|end_char=430
+35	)	)	PUNCT	Punct	_	25	punct	_	start_char=430|end_char=431
+36	.	.	PUNCT	Punct	_	6	punct	_	start_char=431|end_char=432
+
+# text = Älä tuhlaa rahojasi tähän.
+# sent_id = 6
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=433|end_char=436
+2	tuhlaa	tuhlata	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=437|end_char=443
+3	rahojasi	raha	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	start_char=444|end_char=452
+4	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	2	obl	_	start_char=453|end_char=458
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=458|end_char=459
+

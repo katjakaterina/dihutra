@@ -1,0 +1,62 @@
+# text = Ole varovainen
+# sent_id = 0
+1	Ole	olla	AUX	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	cop	_	start_char=0|end_char=3
+2	varovainen	varovainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=4|end_char=14
+
+# text = Ostin 2 näitä ja päätin testata ensin... muutaman minuutin lataamisen jälkeen se tuntui kuumalta.
+# sent_id = 1
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=15|end_char=20
+2	2	2	NUM	Num	NumType=Card	3	nummod	_	start_char=21|end_char=22
+3	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	1	obj	_	start_char=23|end_char=28
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=29|end_char=31
+5	päätin	päättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=32|end_char=38
+6	testata	testata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=39|end_char=46
+7	ensin	ensin	ADV	Adv	_	6	advmod	_	start_char=47|end_char=52
+8	...	...	PUNCT	Punct	_	14	punct	_	start_char=52|end_char=55
+9	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	10	det	_	start_char=56|end_char=64
+10	minuutin	minuutti	NOUN	N	Case=Gen|Number=Sing	11	nmod:gobj	_	start_char=65|end_char=73
+11	lataamisen	lataaminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	14	obl	_	start_char=74|end_char=84
+12	jälkeen	jälkeen	ADP	Adp	AdpType=Post	11	case	_	start_char=85|end_char=92
+13	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	_	start_char=93|end_char=95
+14	tuntui	tuntua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=96|end_char=102
+15	kuumalta	kuuma	ADJ	A	Case=Abl|Degree=Pos|Number=Sing	14	xcomp	_	start_char=103|end_char=111
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=111|end_char=112
+
+# text = Vedettyäni sen pois, tuote haisi palaneelta.
+# sent_id = 2
+1	Vedettyäni	vetää	VERB	V	Case=Par|Number=Sing|Number[psor]=Sing|PartForm=Past|Person[psor]=1|VerbForm=Part|Voice=Act	6	advcl	_	start_char=113|end_char=123
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=124|end_char=127
+3	pois	pois	ADV	Adv	_	1	advmod	_	start_char=128|end_char=132
+4	,	,	PUNCT	Punct	_	1	punct	_	start_char=132|end_char=133
+5	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=134|end_char=139
+6	haisi	haista	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=140|end_char=145
+7	palaneelta	palanut	ADJ	A	Case=Abl|Degree=Pos|Number=Sing	6	xcomp	_	start_char=146|end_char=156
+8	.	.	PUNCT	Punct	_	6	punct	_	start_char=156|end_char=157
+
+# text = Kokeilin myös toista, ja sama juttu.
+# sent_id = 3
+1	Kokeilin	kokeilla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=158|end_char=166
+2	myös	myös	ADV	Adv	_	3	advmod	_	start_char=167|end_char=171
+3	toista	toinen	PRON	Pron	Case=Par|Number=Sing|PronType=Rcp	1	obj	_	start_char=172|end_char=178
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=178|end_char=179
+5	ja	ja	CCONJ	C	_	7	cc	_	start_char=180|end_char=182
+6	sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	7	det	_	start_char=183|end_char=187
+7	juttu	juttu	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=188|end_char=193
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=193|end_char=194
+
+# text = Ole varovainen... tämä voi olla palovaara tai saattaa mahdollisesti vahingoittaa sähköjärjestelmää.
+# sent_id = 4
+1	Ole	olla	AUX	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	cop	_	start_char=195|end_char=198
+2	varovainen	varovainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=199|end_char=209
+3	...	...	PUNCT	Punct	_	7	punct	_	start_char=209|end_char=212
+4	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	_	start_char=213|end_char=217
+5	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=218|end_char=221
+6	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	cop	_	start_char=222|end_char=226
+7	palovaara	palo#vaara	NOUN	N	Case=Nom|Number=Sing	2	parataxis	_	start_char=227|end_char=236
+8	tai	tai	CCONJ	C	_	11	cc	_	start_char=237|end_char=240
+9	saattaa	saattaa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=241|end_char=248
+10	mahdollisesti	mahdollisesti	ADV	Adv	Derivation=Sti	11	advmod	_	start_char=249|end_char=262
+11	vahingoittaa	vahingoittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	conj	_	start_char=263|end_char=275
+12	sähköjärjestelmää	sähkö#järjestelmä	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=276|end_char=293
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=293|end_char=294
+

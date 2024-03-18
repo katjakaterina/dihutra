@@ -1,0 +1,85 @@
+# text = Вкусно!
+# sent_id = 0
+1	Вкусно	вкусный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=6
+2	!	!	PUNCT	_	_	1	punct	_	start_char=6|end_char=7
+
+# text = Я начал новую диету, и в ней ограничил употребление добавленного сахара.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=8|end_char=9
+2	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=10|end_char=15
+3	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=16|end_char=21
+4	диету	диета	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=22|end_char=27
+5	,	,	PUNCT	_	_	9	punct	_	start_char=27|end_char=28
+6	и	и	CCONJ	_	_	9	cc	_	start_char=29|end_char=30
+7	в	в	ADP	_	_	8	case	_	start_char=31|end_char=32
+8	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	start_char=33|end_char=36
+9	ограничил	ограничить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=37|end_char=46
+10	употребление	употребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=47|end_char=59
+11	добавленного	добавить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	start_char=60|end_char=72
+12	сахара	сахар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=73|end_char=79
+13	.	.	PUNCT	_	_	2	punct	_	start_char=79|end_char=80
+
+# text = Это был один из немногих брендов, который я смог найти, в котором не было добавленного сахара в составе.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=81|end_char=84
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=85|end_char=88
+3	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	0	root	_	start_char=89|end_char=93
+4	из	из	ADP	_	_	6	case	_	start_char=94|end_char=96
+5	немногих	немногие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=97|end_char=105
+6	брендов	бренд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=106|end_char=113
+7	,	,	PUNCT	_	_	10	punct	_	start_char=113|end_char=114
+8	который	который	PRON	_	Case=Acc|PronType=Int,Rel	11	obj	_	start_char=115|end_char=122
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=123|end_char=124
+10	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=125|end_char=129
+11	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=130|end_char=135
+12	,	,	PUNCT	_	_	16	punct	_	start_char=135|end_char=136
+13	в	в	ADP	_	_	14	case	_	start_char=137|end_char=138
+14	котором	который	PRON	_	Case=Loc|PronType=Int,Rel	16	obl	_	start_char=139|end_char=146
+15	не	не	PART	_	_	16	advmod	_	start_char=147|end_char=149
+16	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	start_char=150|end_char=154
+17	добавленного	добавить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	start_char=155|end_char=167
+18	сахара	сахар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nsubj	_	start_char=168|end_char=174
+19	в	в	ADP	_	_	20	case	_	start_char=175|end_char=176
+20	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	start_char=177|end_char=184
+21	.	.	PUNCT	_	_	3	punct	_	start_char=184|end_char=185
+
+# text = И вкусно к тому же!
+# sent_id = 3
+1	И	и	CCONJ	_	_	2	cc	_	start_char=186|end_char=187
+2	вкусно	вкусный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=188|end_char=194
+3	к	к	ADP	_	_	4	case	_	start_char=195|end_char=196
+4	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	start_char=197|end_char=201
+5	же	же	PART	_	_	4	advmod	_	start_char=202|end_char=204
+6	!	!	PUNCT	_	_	2	punct	_	start_char=204|end_char=205
+
+# text = Но, честно говоря, я не уверен, что смогу съесть всю эту банку до истечения срока годности.
+# sent_id = 4
+1	Но	но	CCONJ	_	_	8	cc	_	start_char=206|end_char=208
+2	,	,	PUNCT	_	_	1	punct	_	start_char=208|end_char=209
+3	честно	честно	ADV	_	Degree=Pos	4	advmod	_	start_char=210|end_char=216
+4	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	parataxis	_	start_char=217|end_char=223
+5	,	,	PUNCT	_	_	4	punct	_	start_char=223|end_char=224
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=225|end_char=226
+7	не	не	PART	_	_	8	advmod	_	start_char=227|end_char=229
+8	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=230|end_char=236
+9	,	,	PUNCT	_	_	11	punct	_	start_char=236|end_char=237
+10	что	что	SCONJ	_	_	11	mark	_	start_char=238|end_char=241
+11	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=242|end_char=247
+12	съесть	съесть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=248|end_char=254
+13	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	15	det	_	start_char=255|end_char=258
+14	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	start_char=259|end_char=262
+15	банку	банк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=263|end_char=268
+16	до	до	ADP	_	_	17	case	_	start_char=269|end_char=271
+17	истечения	истечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	start_char=272|end_char=281
+18	срока	срок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=282|end_char=287
+19	годности	годность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=288|end_char=296
+20	.	.	PUNCT	_	_	8	punct	_	start_char=296|end_char=297
+
+# text = Сколько она может храниться?
+# sent_id = 5
+1	Сколько	сколько	NUM	_	Case=Nom|NumType=Card	3	advmod	_	start_char=298|end_char=305
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=306|end_char=309
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=310|end_char=315
+4	храниться	храниться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	start_char=316|end_char=325
+5	?	?	PUNCT	_	_	3	punct	_	start_char=325|end_char=326
+

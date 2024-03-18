@@ -1,0 +1,104 @@
+# text = Отличный набор!!
+# sent_id = 0
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	набор	набор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=9|end_char=14
+3	!	!	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+4	!	!	PUNCT	_	_	2	punct	_	start_char=15|end_char=16
+
+# text = Я хотел завершить свою коллекцию NFS, и в этом наборе была только одна игра, которой у меня еще не было...
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=17|end_char=18
+2	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=24
+3	завершить	завершить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=25|end_char=34
+4	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=35|end_char=39
+5	коллекцию	коллекция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=40|end_char=49
+6	NFS	NFS	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=50|end_char=53
+7	,	,	PUNCT	_	_	11	punct	_	start_char=53|end_char=54
+8	и	и	CCONJ	_	_	11	cc	_	start_char=55|end_char=56
+9	в	в	ADP	_	_	11	case	_	start_char=57|end_char=58
+10	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=59|end_char=63
+11	наборе	набор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	conj	_	start_char=64|end_char=70
+12	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=71|end_char=75
+13	только	только	PART	_	_	14	advmod	_	start_char=76|end_char=82
+14	одна	один	NUM	_	Case=Nom|Gender=Fem|NumType=Card	15	nummod	_	start_char=83|end_char=87
+15	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=88|end_char=92
+16	,	,	PUNCT	_	_	22	punct	_	start_char=92|end_char=93
+17	которой	который	PRON	_	Case=Ins|PronType=Int,Rel	22	nsubj	_	start_char=94|end_char=101
+18	у	у	ADP	_	_	19	case	_	start_char=102|end_char=103
+19	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	22	obl	_	start_char=104|end_char=108
+20	еще	еще	ADV	_	Degree=Pos	22	advmod	_	start_char=109|end_char=112
+21	не	не	PART	_	_	22	advmod	_	start_char=113|end_char=115
+22	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=116|end_char=120
+23	.	.	PUNCT	_	_	22	punct	_	start_char=120|end_char=121
+24	.	.	PUNCT	_	_	22	punct	_	start_char=121|end_char=122
+25	.	.	PUNCT	_	_	2	punct	_	start_char=122|end_char=123
+
+# text = Стоит отметить, что по той цене, по которой вы её продали, было невозможно не купить, несмотря на то, что у меня уже были две из трех игр.
+# sent_id = 2
+1	Стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=124|end_char=129
+2	отметить	отметить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=130|end_char=138
+3	,	,	PUNCT	_	_	16	punct	_	start_char=138|end_char=139
+4	что	что	SCONJ	_	_	16	mark	_	start_char=140|end_char=143
+5	по	по	ADP	_	_	7	case	_	start_char=144|end_char=146
+6	той	тот	DET	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=147|end_char=150
+7	цене	цена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=151|end_char=155
+8	,	,	PUNCT	_	_	13	punct	_	start_char=155|end_char=156
+9	по	по	ADP	_	_	10	case	_	start_char=157|end_char=159
+10	которой	который	PRON	_	Case=Dat|PronType=Int,Rel	13	obl	_	start_char=160|end_char=167
+11	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	start_char=168|end_char=170
+12	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=171|end_char=173
+13	продали	продать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=174|end_char=181
+14	,	,	PUNCT	_	_	7	punct	_	start_char=181|end_char=182
+15	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	start_char=183|end_char=187
+16	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	ccomp	_	start_char=188|end_char=198
+17	не	не	PART	_	_	18	advmod	_	start_char=199|end_char=201
+18	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	csubj	_	start_char=202|end_char=208
+19	,	,	PUNCT	_	_	22	punct	_	start_char=208|end_char=209
+20	несмотря	несмотря	ADV	_	Polarity=Neg	22	case	_	start_char=210|end_char=218
+21	на	на	ADP	_	_	20	fixed	_	start_char=219|end_char=221
+22	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	18	obl	_	start_char=222|end_char=224
+23	,	,	PUNCT	_	_	26	punct	_	start_char=224|end_char=225
+24	что	что	SCONJ	_	_	26	mark	_	start_char=226|end_char=229
+25	у	у	ADP	_	_	26	case	_	start_char=230|end_char=231
+26	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	22	acl	_	start_char=232|end_char=236
+27	уже	уже	ADV	_	Degree=Pos	28	advmod	_	start_char=237|end_char=240
+28	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	acl	_	start_char=241|end_char=245
+29	две	два	NUM	_	Case=Nom|Gender=Fem|NumType=Card	28	nsubj	_	start_char=246|end_char=249
+30	из	из	ADP	_	_	32	case	_	start_char=250|end_char=252
+31	трех	три	NUM	_	Case=Gen|NumType=Card	32	nummod	_	start_char=253|end_char=257
+32	игр	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	29	nmod	_	start_char=258|end_char=261
+33	.	.	PUNCT	_	_	1	punct	_	start_char=261|end_char=262
+
+# text = Жаль, что доставка только в США, но доставка быстро приходит!
+# sent_id = 3
+1	Жаль	жаль	ADV	_	Degree=Pos	0	root	_	start_char=263|end_char=267
+2	,	,	PUNCT	_	_	7	punct	_	start_char=267|end_char=268
+3	что	что	SCONJ	_	_	7	mark	_	start_char=269|end_char=272
+4	доставка	доставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=273|end_char=281
+5	только	только	PART	_	_	7	advmod	_	start_char=282|end_char=288
+6	в	в	ADP	_	_	7	case	_	start_char=289|end_char=290
+7	США	США	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	1	ccomp	_	start_char=291|end_char=294
+8	,	,	PUNCT	_	_	12	punct	_	start_char=294|end_char=295
+9	но	но	CCONJ	_	_	12	cc	_	start_char=296|end_char=298
+10	доставка	доставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=299|end_char=307
+11	быстро	быстро	ADV	_	Degree=Pos	12	advmod	_	start_char=308|end_char=314
+12	приходит	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=315|end_char=323
+13	!	!	PUNCT	_	_	1	punct	_	start_char=323|end_char=324
+
+# text = С такими предложениями, как у вас, я всегда покупаю на Amazon.
+# sent_id = 4
+1	С	с	ADP	_	_	3	case	_	start_char=325|end_char=326
+2	такими	такой	DET	_	Case=Ins|Number=Plur|PronType=Dem	3	det	_	start_char=327|end_char=333
+3	предложениями	предложение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	11	obl	_	start_char=334|end_char=347
+4	,	,	PUNCT	_	_	7	punct	_	start_char=347|end_char=348
+5	как	как	SCONJ	_	_	7	mark	_	start_char=349|end_char=352
+6	у	у	ADP	_	_	7	case	_	start_char=353|end_char=354
+7	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	obl	_	start_char=355|end_char=358
+8	,	,	PUNCT	_	_	3	punct	_	start_char=358|end_char=359
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=360|end_char=361
+10	всегда	всегда	ADV	_	Degree=Pos	11	advmod	_	start_char=362|end_char=368
+11	покупаю	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=369|end_char=376
+12	на	на	ADP	_	_	13	case	_	start_char=377|end_char=379
+13	Amazon	Amazon	PROPN	_	_	11	obl	_	start_char=380|end_char=386
+14	.	.	PUNCT	_	_	11	punct	_	start_char=386|end_char=387
+

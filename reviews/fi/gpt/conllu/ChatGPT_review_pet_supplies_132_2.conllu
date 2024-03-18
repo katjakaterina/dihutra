@@ -1,0 +1,85 @@
+# text = Rahanhukkaa.
+# sent_id = 0
+1	Rahanhukkaa	raha#hukka	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=0|end_char=11
+2	.	.	PUNCT	Punct	_	1	punct	_	start_char=11|end_char=12
+
+# text = Tämä on sama DVD-sarja, jonka joku antoi minulle vuonna 2007, eikä se ole hyvä.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=13|end_char=17
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=18|end_char=20
+3	sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	4	det	_	start_char=21|end_char=25
+4	DVD-sarja	DVD#sarja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=26|end_char=35
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=35|end_char=36
+6	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	8	obj	_	start_char=37|end_char=42
+7	joku	joku	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	start_char=43|end_char=47
+8	antoi	antaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=48|end_char=53
+9	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	8	obl	_	start_char=54|end_char=61
+10	vuonna	vuosi	NOUN	N	Case=Ess|Number=Sing	8	obl	_	start_char=62|end_char=68
+11	2007	2007	NUM	Num	NumType=Card	10	nummod	_	start_char=69|end_char=73
+12	,	,	PUNCT	Punct	_	16	punct	_	start_char=73|end_char=74
+13	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=75|end_char=79
+14	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	16	nsubj:cop	_	start_char=80|end_char=82
+15	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=83|end_char=86
+16	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	conj	_	start_char=87|end_char=91
+17	.	.	PUNCT	Punct	_	4	punct	_	start_char=91|end_char=92
+
+# text = Kamera liikkuu liikaa, nykii ympäriinsä, ja olisin voinut tehdä paremman videon käyttäen kännykkääni.
+# sent_id = 2
+1	Kamera	kamera	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=93|end_char=99
+2	liikkuu	liikkua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=100|end_char=107
+3	liikaa	liikaa	ADV	Adv	_	2	advmod	_	start_char=108|end_char=114
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=114|end_char=115
+5	nykii	nykiä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=116|end_char=121
+6	ympäriinsä	ympäriinsä	ADV	Adv	Person[psor]=3	5	advmod	_	start_char=122|end_char=132
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=132|end_char=133
+8	ja	ja	CCONJ	C	_	11	cc	_	start_char=134|end_char=136
+9	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	11	aux	_	start_char=137|end_char=143
+10	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	aux	_	start_char=144|end_char=150
+11	tehdä	tehdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	conj	_	start_char=151|end_char=156
+12	paremman	hyvä	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	13	amod	_	start_char=157|end_char=165
+13	videon	video	NOUN	N	Case=Gen|Number=Sing	11	obj	_	start_char=166|end_char=172
+14	käyttäen	käyttää	VERB	V	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	11	advcl	_	start_char=173|end_char=181
+15	kännykkääni	kännykkä	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	obj	_	start_char=182|end_char=193
+16	.	.	PUNCT	Punct	_	2	punct	_	start_char=193|end_char=194
+
+# text = Vain yksi kolmesta videosta on etäisesti kiinnostava kissalleni, sama video, joka miellytti häntä vuonna 2007, mutta 10 minuutin jälkeen hänkin kyllästyy.
+# sent_id = 3
+1	Vain	vain	ADV	Adv	_	2	advmod	_	start_char=195|end_char=199
+2	yksi	yksi	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	7	nsubj:cop	_	start_char=200|end_char=204
+3	kolmesta	kolme	NUM	Num	Case=Ela|NumType=Card|Number=Sing	4	nummod	_	start_char=205|end_char=213
+4	videosta	video	NOUN	N	Case=Ela|Number=Sing	2	nmod	_	start_char=214|end_char=222
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=223|end_char=225
+6	etäisesti	etäisesti	ADV	Adv	Derivation=Sti	7	advmod	_	start_char=226|end_char=235
+7	kiinnostava	kiinnostava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=236|end_char=247
+8	kissalleni	kissa	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	nmod	_	start_char=248|end_char=258
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=258|end_char=259
+10	sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	11	det	_	start_char=260|end_char=264
+11	video	video	NOUN	N	Case=Nom|Number=Sing	7	appos	_	start_char=265|end_char=270
+12	,	,	PUNCT	Punct	_	14	punct	_	start_char=270|end_char=271
+13	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	14	nsubj	_	start_char=272|end_char=276
+14	miellytti	miellyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=277|end_char=286
+15	häntä	hän	PRON	Pron	Case=Par|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=287|end_char=292
+16	vuonna	vuosi	NOUN	N	Case=Ess|Number=Sing	14	obl	_	start_char=293|end_char=299
+17	2007	2007	NUM	Num	NumType=Card	16	nummod	_	start_char=300|end_char=304
+18	,	,	PUNCT	Punct	_	24	punct	_	start_char=304|end_char=305
+19	mutta	mutta	CCONJ	C	_	24	cc	_	start_char=306|end_char=311
+20	10	10	NUM	Num	NumType=Card	21	nummod	_	start_char=312|end_char=314
+21	minuutin	minuutti	NOUN	N	Case=Gen|Number=Sing	24	obl	_	start_char=315|end_char=323
+22	jälkeen	jälkeen	ADP	Adp	AdpType=Post	21	case	_	start_char=324|end_char=331
+23	hänkin	hän	PRON	Pron	Case=Nom|Clitic=Kin|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=332|end_char=338
+24	kyllästyy	kyllästyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	start_char=339|end_char=348
+25	.	.	PUNCT	Punct	_	7	punct	_	start_char=348|end_char=349
+
+# text = En voi katsoa sitä, se saa minut huimaamaan.
+# sent_id = 4
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=350|end_char=352
+2	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=353|end_char=356
+3	katsoa	katsoa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=357|end_char=363
+4	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=364|end_char=368
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=368|end_char=369
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj	_	start_char=370|end_char=372
+7	saa	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=373|end_char=376
+8	minut	minä	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=377|end_char=382
+9	huimaamaan	huimata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp:ds	_	start_char=383|end_char=393
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=393|end_char=394
+

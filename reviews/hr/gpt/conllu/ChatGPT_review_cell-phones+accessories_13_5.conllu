@@ -1,0 +1,74 @@
+# text = Apsolutno obožavam ovaj slučaj!!
+# sent_id = 0
+1	Apsolutno	apsolutno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=9
+2	obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10|end_char=18
+3	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=19|end_char=23
+4	slučaj	slučaj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=24|end_char=30
+5	!	!	PUNCT	Z	_	2	punct	_	start_char=30|end_char=31
+6	!	!	PUNCT	Z	_	2	punct	_	start_char=31|end_char=32
+
+# text = Radi točno kako je oglašeno.
+# sent_id = 1
+1	Radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=33|end_char=37
+2	točno	točno	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=38|end_char=43
+3	kako	kako	SCONJ	Cs	_	5	mark	_	start_char=44|end_char=48
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=49|end_char=51
+5	oglašeno	oglašen	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	1	ccomp	_	start_char=52|end_char=60
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=60|end_char=61
+
+# text = Izuzetno je čvrsto izrađen i pruža puno pojačanja.
+# sent_id = 2
+1	Izuzetno	izuzetno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=62|end_char=70
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=71|end_char=73
+3	čvrsto	čvrsto	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=74|end_char=80
+4	izrađen	izraditi	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=81|end_char=88
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=89|end_char=90
+6	pruža	pružati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=91|end_char=96
+7	puno	puno	DET	Rgp	Degree=Pos	8	det:numgov	_	start_char=97|end_char=101
+8	pojačanja	pojačanje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	6	obj	_	start_char=102|end_char=111
+9	.	.	PUNCT	Z	_	4	punct	_	start_char=111|end_char=112
+
+# text = Radi upravo ono što treba.
+# sent_id = 3
+1	Radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=113|end_char=117
+2	upravo	upravo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=118|end_char=124
+3	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	start_char=125|end_char=128
+4	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	5	nsubj	_	start_char=129|end_char=132
+5	treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=133|end_char=138
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=138|end_char=139
+
+# text = Jednostavno je umetnuti telefon i izvaditi ga.
+# sent_id = 4
+1	Jednostavno	jednostavno	ADV	Rgp	Degree=Pos	0	root	_	start_char=140|end_char=151
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=152|end_char=154
+3	umetnuti	umetnuti	VERB	Vmn	VerbForm=Inf	1	csubj	_	start_char=155|end_char=163
+4	telefon	telefon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=164|end_char=171
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=172|end_char=173
+6	izvaditi	izvaditi	VERB	Vmn	VerbForm=Inf	3	conj	_	start_char=174|end_char=182
+7	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=183|end_char=185
+8	.	.	PUNCT	Z	_	1	punct	_	start_char=185|end_char=186
+
+# text = Svakako iskustvo s pet zvjezdica.
+# sent_id = 5
+1	Svakako	svakako	ADV	Rgp	Degree=Pos|PronType=Tot	2	advmod	_	start_char=187|end_char=194
+2	iskustvo	iskustvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=195|end_char=203
+3	s	sa	ADP	Si	Case=Ins	5	case	_	start_char=204|end_char=205
+4	pet	pet	NUM	Mlc	NumType=Card	5	nummod:gov	_	start_char=206|end_char=209
+5	zvjezdica	zvjezdica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=210|end_char=219
+6	.	.	PUNCT	Z	_	2	punct	_	start_char=219|end_char=220
+
+# text = Ne znam što bih radio bez ovog slučaja, OBOŽAVAM ga.
+# sent_id = 6
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=221|end_char=223
+2	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=224|end_char=228
+3	što	što	SCONJ	Cs	_	5	nsubj	_	start_char=229|end_char=232
+4	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	start_char=233|end_char=236
+5	radio	raditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	start_char=237|end_char=242
+6	bez	bez	ADP	Sg	Case=Gen	8	case	_	start_char=243|end_char=246
+7	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=247|end_char=251
+8	slučaja	slučaj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=252|end_char=259
+9	,	,	PUNCT	Z	_	10	punct	_	start_char=259|end_char=260
+10	OBOŽAVAM	obojavati	VERB	Vmr2s	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	start_char=261|end_char=269
+11	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=270|end_char=272
+12	.	.	PUNCT	Z	_	2	punct	_	start_char=272|end_char=273
+

@@ -1,0 +1,91 @@
+# text = Kvalitetan kabel!
+# sent_id = 0
+1	Kvalitetan	kvalitetan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	kabel	kabel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=16
+3	!	!	PUNCT	Z	_	2	punct	_	start_char=16|end_char=17
+
+# text = Nabavio/la sam ovaj kabel kako bih spojio kontroler tipkovnice za rock bend s M-audio profire 2626 kako bih kontrolirao MIDI u Pro Tools.
+# sent_id = 1
+1	Nabavio/la	Nabavio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=18|end_char=28
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=29|end_char=32
+3	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=33|end_char=37
+4	kabel	kabel	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=38|end_char=43
+5	kako	kako	SCONJ	Cs	_	7	mark	_	start_char=44|end_char=48
+6	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	start_char=49|end_char=52
+7	spojio	spojiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=53|end_char=59
+8	kontroler	kontroler	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=60|end_char=69
+9	tipkovnice	tipkovnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=70|end_char=80
+10	za	za	ADP	Sa	Case=Acc	12	case	_	start_char=81|end_char=83
+11	rock	rock	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	amod	_	start_char=84|end_char=88
+12	bend	bend	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	start_char=89|end_char=93
+13	s	sa	ADP	Si	Case=Ins	14	case	_	start_char=94|end_char=95
+14	M-audio	M-audio	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=96|end_char=103
+15	profire	profir	NOUN	Ncmsi	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=104|end_char=111
+16	2626	2626	NUM	Mdc	NumType=Card	15	nummod	_	start_char=112|end_char=116
+17	kako	kako	SCONJ	Cs	_	19	mark	_	start_char=117|end_char=121
+18	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	19	aux	_	start_char=122|end_char=125
+19	kontrolirao	kontrolirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=126|end_char=137
+20	MIDI	Midi	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=138|end_char=142
+21	u	u	ADP	Sl	Case=Loc	22	case	_	start_char=143|end_char=144
+22	Pro	Pro	X	Xf	Foreign=Yes	19	obl	_	start_char=145|end_char=148
+23	Tools	Tools	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	flat	_	start_char=149|end_char=154
+24	.	.	PUNCT	Z	_	1	punct	_	start_char=154|end_char=155
+
+# text = Savršeno funkcionira!
+# sent_id = 2
+1	Savršeno	savršeno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=156|end_char=164
+2	funkcionira	funkcionirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=165|end_char=176
+3	!	!	PUNCT	Z	_	2	punct	_	start_char=176|end_char=177
+
+# text = Čvrsto prianja, čvrsto izrađeni konektori, renomirani brend kabela.
+# sent_id = 3
+1	Čvrsto	čvrsto	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=178|end_char=184
+2	prianja	prianjati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=185|end_char=192
+3	,	,	PUNCT	Z	_	6	punct	_	start_char=192|end_char=193
+4	čvrsto	čvrsto	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=194|end_char=200
+5	izrađeni	izraditi	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	amod	_	start_char=201|end_char=209
+6	konektori	konektor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=210|end_char=219
+7	,	,	PUNCT	Z	_	9	punct	_	start_char=219|end_char=220
+8	renomirani	renomirati	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=221|end_char=231
+9	brend	brend	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	start_char=232|end_char=237
+10	kabela	kabel	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=238|end_char=244
+11	.	.	PUNCT	Z	_	2	punct	_	start_char=244|end_char=245
+
+# text = (Malo je tanji, ali nisam primijetio nikakve probleme zbog toga.
+# sent_id = 4
+1	(	(	PUNCT	Z	_	4	punct	_	start_char=246|end_char=247
+2	Malo	malo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=247|end_char=251
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=252|end_char=254
+4	tanji	tanji	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	start_char=255|end_char=260
+5	,	,	PUNCT	Z	_	8	punct	_	start_char=260|end_char=261
+6	ali	ali	CCONJ	Cc	_	8	cc	_	start_char=262|end_char=265
+7	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=266|end_char=271
+8	primijetio	primijetiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=272|end_char=282
+9	nikakve	nikakav	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	start_char=283|end_char=290
+10	probleme	problem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=291|end_char=299
+11	zbog	zbog	ADP	Sg	Case=Gen	12	case	_	start_char=300|end_char=304
+12	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	start_char=305|end_char=309
+13	.	.	PUNCT	Z	_	4	punct	_	start_char=309|end_char=310
+
+# text = Nisam mogao pogriješiti za 5 dolara u vrijeme moje kupnje i s mogućnošću besplatne dostave putem Prime usluge.
+# sent_id = 5
+1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=311|end_char=316
+2	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=317|end_char=322
+3	pogriješiti	pogriješiti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=323|end_char=334
+4	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=335|end_char=337
+5	5	5	NUM	Mdc	NumType=Card	6	nummod:gov	_	start_char=338|end_char=339
+6	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=340|end_char=346
+7	u	u	ADP	Sa	Case=Acc	8	case	_	start_char=347|end_char=348
+8	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	start_char=349|end_char=356
+9	moje	moj	DET	Ps1fsg	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	start_char=357|end_char=361
+10	kupnje	kupnja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=362|end_char=368
+11	i	i	CCONJ	Cc	_	13	cc	_	start_char=369|end_char=370
+12	s	sa	ADP	Si	Case=Ins	13	case	_	start_char=371|end_char=372
+13	mogućnošću	mogućnost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	8	conj	_	start_char=373|end_char=383
+14	besplatne	besplatan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=384|end_char=393
+15	dostave	dostava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=394|end_char=401
+16	putem	putem	ADP	Sg	Case=Gen	18	case	_	start_char=402|end_char=407
+17	Prime	Prime	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=408|end_char=413
+18	usluge	usluga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=414|end_char=420
+19	.	.	PUNCT	Z	_	2	punct	_	start_char=420|end_char=421
+

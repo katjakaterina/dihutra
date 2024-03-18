@@ -1,0 +1,74 @@
+# text = Хорошо, инструмент делает то же самое, что и обычный штамп.
+# sent_id = 0
+1	Хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	parataxis	_	start_char=0|end_char=6
+2	,	,	PUNCT	_	_	1	punct	_	start_char=6|end_char=7
+3	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=8|end_char=18
+4	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=25
+5	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=26|end_char=28
+6	же	же	PART	_	_	5	advmod	_	start_char=29|end_char=31
+7	самое	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=32|end_char=37
+8	,	,	PUNCT	_	_	12	punct	_	start_char=37|end_char=38
+9	что	что	SCONJ	_	_	12	mark	_	start_char=39|end_char=42
+10	и	и	PART	_	_	12	advmod	_	start_char=43|end_char=44
+11	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=45|end_char=52
+12	штамп	штамп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	acl	_	start_char=53|end_char=58
+13	.	.	PUNCT	_	_	4	punct	_	start_char=58|end_char=59
+
+# text = Я приобрел это, думая, возможно, мне нужен специальный инструмент, чтобы легко снимать крышки с моих магазинов, но он делает то же самое, что и обычный штамп.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=60|end_char=61
+2	приобрел	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=62|end_char=70
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=71|end_char=74
+4	,	,	PUNCT	_	_	5	punct	_	start_char=74|end_char=75
+5	думая	думать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	_	start_char=76|end_char=81
+6	,	,	PUNCT	_	_	5	punct	_	start_char=81|end_char=82
+7	возможно	возможно	ADV	_	Degree=Pos	10	parataxis	_	start_char=83|end_char=91
+8	,	,	PUNCT	_	_	7	punct	_	start_char=91|end_char=92
+9	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	start_char=93|end_char=96
+10	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=97|end_char=102
+11	специальный	специальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=103|end_char=114
+12	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=115|end_char=125
+13	,	,	PUNCT	_	_	15	punct	_	start_char=125|end_char=126
+14	чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	start_char=127|end_char=132
+15	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	advcl	_	start_char=133|end_char=138
+16	снимать	снимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	csubj	_	start_char=139|end_char=146
+17	крышки	крышка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=147|end_char=153
+18	с	с	ADP	_	_	20	case	_	start_char=154|end_char=155
+19	моих	мой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	20	det	_	start_char=156|end_char=160
+20	магазинов	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	start_char=161|end_char=170
+21	,	,	PUNCT	_	_	24	punct	_	start_char=170|end_char=171
+22	но	но	CCONJ	_	_	24	cc	_	start_char=172|end_char=174
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=175|end_char=177
+24	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=178|end_char=184
+25	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	obj	_	start_char=185|end_char=187
+26	же	же	PART	_	_	25	advmod	_	start_char=188|end_char=190
+27	самое	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	start_char=191|end_char=196
+28	,	,	PUNCT	_	_	32	punct	_	start_char=196|end_char=197
+29	что	что	SCONJ	_	_	32	mark	_	start_char=198|end_char=201
+30	и	и	PART	_	_	32	advmod	_	start_char=202|end_char=203
+31	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=204|end_char=211
+32	штамп	штамп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	start_char=212|end_char=217
+33	.	.	PUNCT	_	_	2	punct	_	start_char=217|end_char=218
+
+# text = Крышки магазинов Glock снимать довольно сложно.
+# sent_id = 2
+1	Крышки	крышка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=219|end_char=225
+2	магазинов	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=226|end_char=235
+3	Glock	Glock	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=236|end_char=241
+4	снимать	снимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	start_char=242|end_char=249
+5	довольно	довольно	ADV	_	Degree=Pos	6	obl	_	start_char=250|end_char=258
+6	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=259|end_char=265
+7	.	.	PUNCT	_	_	6	punct	_	start_char=265|end_char=266
+
+# text = Инструмент на самом деле не делает никакой разницы.
+# sent_id = 3
+1	Инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=267|end_char=277
+2	на	на	ADP	_	_	4	case	_	start_char=278|end_char=280
+3	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=281|end_char=286
+4	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=287|end_char=291
+5	не	не	PART	_	_	6	advmod	_	start_char=292|end_char=294
+6	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=295|end_char=301
+7	никакой	никакой	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Neg	8	det	_	start_char=302|end_char=309
+8	разницы	разница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=310|end_char=317
+9	.	.	PUNCT	_	_	6	punct	_	start_char=317|end_char=318
+

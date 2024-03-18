@@ -1,0 +1,75 @@
+# text = Прекрасный дизайн и функциональность Мы купили его для поездок на дорогу, чтобы понимать карты, не напрягая глаза.
+# sent_id = 0
+1	Прекрасный	прекрасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=11|end_char=17
+3	и	и	CCONJ	_	_	4	cc	_	start_char=18|end_char=19
+4	функциональность	функциональность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=20|end_char=36
+5	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	start_char=37|end_char=39
+6	купили	купить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=40|end_char=46
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=47|end_char=50
+8	для	для	ADP	_	_	9	case	_	start_char=51|end_char=54
+9	поездок	поездка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=55|end_char=62
+10	на	на	ADP	_	_	11	case	_	start_char=63|end_char=65
+11	дорогу	дорога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=66|end_char=72
+12	,	,	PUNCT	_	_	14	punct	_	start_char=72|end_char=73
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	start_char=74|end_char=79
+14	понимать	понимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=80|end_char=88
+15	карты	карта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=89|end_char=94
+16	,	,	PUNCT	_	_	18	punct	_	start_char=94|end_char=95
+17	не	не	PART	_	_	18	advmod	_	start_char=96|end_char=98
+18	напрягая	напрягать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	14	advcl	_	start_char=99|end_char=107
+19	глаза	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	start_char=108|end_char=113
+20	.	.	PUNCT	_	_	6	punct	_	start_char=113|end_char=114
+
+# text = Действительно хороший дизайн, ощущение на ощупь приятное.
+# sent_id = 1
+1	Действительно	действительно	ADV	_	Degree=Pos	3	obl	_	start_char=115|end_char=128
+2	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=129|end_char=136
+3	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=137|end_char=143
+4	,	,	PUNCT	_	_	8	punct	_	start_char=143|end_char=144
+5	ощущение	ощущение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=145|end_char=153
+6	на	на	ADP	_	_	7	case	_	start_char=154|end_char=156
+7	ощупь	ощупь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=157|end_char=162
+8	приятное	приятный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	start_char=163|end_char=171
+9	.	.	PUNCT	_	_	3	punct	_	start_char=171|end_char=172
+
+# text = Я не мог разобраться, где находятся батарейки, отправил письмо в службу поддержки клиентов Lightwedge и получил ответ в течение 24 часов.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=173|end_char=174
+2	не	не	PART	_	_	3	advmod	_	start_char=175|end_char=177
+3	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=178|end_char=181
+4	разобраться	разобраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	start_char=182|end_char=193
+5	,	,	PUNCT	_	_	7	punct	_	start_char=193|end_char=194
+6	где	где	ADV	_	Degree=Pos	7	advmod	_	start_char=195|end_char=198
+7	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	ccomp	_	start_char=199|end_char=208
+8	батарейки	батарейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=209|end_char=218
+9	,	,	PUNCT	_	_	10	punct	_	start_char=218|end_char=219
+10	отправил	отправить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=220|end_char=228
+11	письмо	письмо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=229|end_char=235
+12	в	в	ADP	_	_	13	case	_	start_char=236|end_char=237
+13	службу	служба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=238|end_char=244
+14	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=245|end_char=254
+15	клиентов	клиент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=255|end_char=263
+16	Lightwedge	Lightwedge	PROPN	_	Foreign=Yes	15	flat:foreign	_	start_char=264|end_char=274
+17	и	и	CCONJ	_	_	18	cc	_	start_char=275|end_char=276
+18	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=277|end_char=284
+19	ответ	ответ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=285|end_char=290
+20	в	в	ADP	_	_	23	case	_	start_char=291|end_char=292
+21	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	start_char=293|end_char=300
+22	24	24	NUM	_	NumType=Card	23	nummod	_	start_char=301|end_char=303
+23	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	start_char=304|end_char=309
+24	.	.	PUNCT	_	_	3	punct	_	start_char=309|end_char=310
+
+# text = Если вам нужен такой, я бы порекомендовал этот.
+# sent_id = 3
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=311|end_char=315
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=316|end_char=319
+3	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	advcl	_	start_char=320|end_char=325
+4	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=326|end_char=331
+5	,	,	PUNCT	_	_	3	punct	_	start_char=331|end_char=332
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=333|end_char=334
+7	бы	бы	AUX	_	_	8	aux	_	start_char=335|end_char=337
+8	порекомендовал	рекомендовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=338|end_char=352
+9	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=353|end_char=357
+10	.	.	PUNCT	_	_	8	punct	_	start_char=357|end_char=358
+

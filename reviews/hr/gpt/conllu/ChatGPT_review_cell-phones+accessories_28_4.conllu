@@ -1,0 +1,106 @@
+# text = Solidan punjač, ali emitira radiofrekvencijsku buku
+# sent_id = 0
+1	Solidan	solidan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	punjač	punjač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8|end_char=14
+3	,	,	PUNCT	Z	_	5	punct	_	start_char=14|end_char=15
+4	ali	ali	CCONJ	Cc	_	5	cc	_	start_char=16|end_char=19
+5	emitira	emitirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=20|end_char=27
+6	radiofrekvencijsku	radiofrekvencijski	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=28|end_char=46
+7	buku	buka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=47|end_char=51
+
+# text = Ovo je dobar punjač, ali primijetno je da je jeftino proizveden u Kini.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=52|end_char=55
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=56|end_char=58
+3	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=59|end_char=64
+4	punjač	punjač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=65|end_char=71
+5	,	,	PUNCT	Z	_	7	punct	_	start_char=71|end_char=72
+6	ali	ali	CCONJ	Cc	_	7	cc	_	start_char=73|end_char=76
+7	primijetno	primijetan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	start_char=77|end_char=87
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=88|end_char=90
+9	da	da	SCONJ	Cs	_	12	mark	_	start_char=91|end_char=93
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=94|end_char=96
+11	jeftino	jeftin	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=97|end_char=104
+12	proizveden	proizvesti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	csubj	_	start_char=105|end_char=115
+13	u	u	ADP	Sl	Case=Loc	14	case	_	start_char=116|end_char=117
+14	Kini	Kini	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	start_char=118|end_char=122
+15	.	.	PUNCT	Z	_	4	punct	_	start_char=122|end_char=123
+
+# text = Kad puni telefon, automobilski radio dobiva PUNO statičkog šuma.
+# sent_id = 2
+1	Kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	6	advmod	_	start_char=124|end_char=127
+2	puni	pun	ADJ	Agpmsnyn	Animacy=Inan|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=128|end_char=132
+3	telefon	telefon	NOUN	Ncmsan	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=133|end_char=140
+4	,	,	PUNCT	Z	_	6	punct	_	start_char=140|end_char=141
+5	automobilski	automobilski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	nsubj	_	start_char=142|end_char=154
+6	radio	raditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=155|end_char=160
+7	dobiva	dobivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=161|end_char=167
+8	PUNO	puno	DET	Rgp	Degree=Pos	10	det:numgov	_	start_char=168|end_char=172
+9	statičkog	statički	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=173|end_char=182
+10	šuma	šuma	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obj	_	start_char=183|end_char=187
+11	.	.	PUNCT	Z	_	7	punct	_	start_char=187|end_char=188
+
+# text = Nije toliko da moram prestati s punjenjem, ali slično je kao kad ste blizu dalekovoda i radijska postaja je daleko.
+# sent_id = 3
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=189|end_char=193
+2	toliko	toliko	ADV	Rgp	Degree=Pos|PronType=Dem	0	root	_	start_char=194|end_char=200
+3	da	da	SCONJ	Cs	_	4	mark	_	start_char=201|end_char=203
+4	moram	morati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	csubj	_	start_char=204|end_char=209
+5	prestati	prestati	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=210|end_char=218
+6	s	sa	ADP	Si	Case=Ins	7	case	_	start_char=219|end_char=220
+7	punjenjem	punjenje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	5	obl	_	start_char=221|end_char=230
+8	,	,	PUNCT	Z	_	10	punct	_	start_char=230|end_char=231
+9	ali	ali	CCONJ	Cc	_	10	cc	_	start_char=232|end_char=235
+10	slično	sličan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	start_char=236|end_char=242
+11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=243|end_char=245
+12	kao	kao	SCONJ	Cs	_	14	mark	_	start_char=246|end_char=249
+13	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	12	fixed	_	start_char=250|end_char=253
+14	ste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=254|end_char=257
+15	blizu	blizu	ADV	Rgp	Degree=Pos	16	case	_	start_char=258|end_char=263
+16	dalekovoda	dalekovod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	obl	_	start_char=264|end_char=274
+17	i	i	CCONJ	Cc	_	19	cc	_	start_char=275|end_char=276
+18	radijska	radijski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=277|end_char=285
+19	postaja	postaja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	conj	_	start_char=286|end_char=293
+20	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=294|end_char=296
+21	daleko	daleko	ADV	Rgp	Degree=Pos	10	conj	_	start_char=297|end_char=303
+22	.	.	PUNCT	Z	_	2	punct	_	start_char=303|end_char=304
+
+# text = Dakle, nema zaštite od radiofrekvencijskih smetnji.
+# sent_id = 4
+1	Dakle	dakle	CCONJ	Cc	_	3	cc	_	start_char=305|end_char=310
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=310|end_char=311
+3	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=312|end_char=316
+4	zaštite	zaštita	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	start_char=317|end_char=324
+5	od	od	ADP	Sg	Case=Gen	7	case	_	start_char=325|end_char=327
+6	radiofrekvencijskih	radiofrekvencijski	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=328|end_char=347
+7	smetnji	smetnja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=348|end_char=355
+8	.	.	PUNCT	Z	_	3	punct	_	start_char=355|end_char=356
+
+# text = Dajem mu 4 zvjezdice jer za mene dobro funkcionira, ali ako slušate radio, možda biste ga ocijenili s 2 ili 3 zvjezdice.
+# sent_id = 5
+1	Dajem	davati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=357|end_char=362
+2	mu	on	PRON	Pp3msd	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	start_char=363|end_char=365
+3	4	4	NUM	Mdc	NumType=Card	4	nummod	_	start_char=366|end_char=367
+4	zvjezdice	zvjezdica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	obj	_	start_char=368|end_char=377
+5	jer	jer	SCONJ	Cs	_	9	mark	_	start_char=378|end_char=381
+6	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=382|end_char=384
+7	mene	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	start_char=385|end_char=389
+8	dobro	dobro	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=390|end_char=395
+9	funkcionira	funkcionirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=396|end_char=407
+10	,	,	PUNCT	Z	_	19	punct	_	start_char=407|end_char=408
+11	ali	ali	CCONJ	Cc	_	19	cc	_	start_char=409|end_char=412
+12	ako	ako	SCONJ	Cs	_	13	mark	_	start_char=413|end_char=416
+13	slušate	slušati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	_	start_char=417|end_char=424
+14	radio	raditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	conj	_	start_char=425|end_char=430
+15	,	,	PUNCT	Z	_	13	punct	_	start_char=430|end_char=431
+16	možda	možda	ADV	Rgp	Degree=Pos	19	advmod	_	start_char=432|end_char=437
+17	biste	biti	AUX	Vaa2p	Mood=Cnd|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	19	aux	_	start_char=438|end_char=443
+18	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	start_char=444|end_char=446
+19	ocijenili	ocijeniti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=447|end_char=456
+20	s	sa	ADP	Si	Case=Ins	24	case	_	start_char=457|end_char=458
+21	2	2	NUM	Mdc	NumType=Card	24	nummod:gov	_	start_char=459|end_char=460
+22	ili	ili	CCONJ	Cc	_	23	cc	_	start_char=461|end_char=464
+23	3	3	NUM	Mdc	NumType=Card	21	conj	_	start_char=465|end_char=466
+24	zvjezdice	zvjezdica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	start_char=467|end_char=476
+25	.	.	PUNCT	Z	_	1	punct	_	start_char=476|end_char=477
+

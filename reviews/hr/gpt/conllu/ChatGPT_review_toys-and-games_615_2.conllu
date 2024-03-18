@@ -1,0 +1,79 @@
+# text = Mrzim što su ovi tako skupi.
+# sent_id = 0
+1	Mrzim	mrzati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
+2	što	što	SCONJ	Cs	_	6	nsubj	_	start_char=6|end_char=9
+3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=10|end_char=12
+4	ovi	ovaj	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	6	nsubj	_	start_char=13|end_char=16
+5	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	6	advmod	_	start_char=17|end_char=21
+6	skupi	skup	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	ccomp	_	start_char=22|end_char=27
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=27|end_char=28
+
+# text = Moj unuk je dobio ovog, a zbog filma je dobio ovog, ali svi moji praunuci dobili su jeftinijeg i po mom mišljenju boljeg jer su ruke i noge bile od žice i iznimno prilagodljive.
+# sent_id = 1
+1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=29|end_char=32
+2	unuk	unuk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=33|end_char=37
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=38|end_char=40
+4	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=41|end_char=46
+5	ovog	ovaj	DET	Pd-msay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	start_char=47|end_char=51
+6	,	,	PUNCT	Z	_	11	punct	_	start_char=51|end_char=52
+7	a	a	CCONJ	Cc	_	11	cc	_	start_char=53|end_char=54
+8	zbog	zbog	ADP	Sg	Case=Gen	9	case	_	start_char=55|end_char=59
+9	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	start_char=60|end_char=65
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=66|end_char=68
+11	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=69|end_char=74
+12	ovog	ovaj	DET	Pd-msg	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	obj	_	start_char=75|end_char=79
+13	,	,	PUNCT	Z	_	18	punct	_	start_char=79|end_char=80
+14	ali	ali	CCONJ	Cc	_	18	cc	_	start_char=81|end_char=84
+15	svi	sav	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=85|end_char=88
+16	moji	moj	DET	Ps1mpn	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	_	start_char=89|end_char=93
+17	praunuci	praunuka	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	start_char=94|end_char=102
+18	dobili	dobiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=103|end_char=109
+19	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=110|end_char=112
+20	jeftinijeg	jeftin	ADJ	Agcmsgy	Case=Gen|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	18	xcomp	_	start_char=113|end_char=123
+21	i	i	CCONJ	Cc	_	24	discourse	_	start_char=124|end_char=125
+22	po	po	ADP	Sl	Case=Loc	24	case	_	start_char=126|end_char=128
+23	mom	moj	DET	Ps1nsl	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	24	det	_	start_char=129|end_char=132
+24	mišljenju	mišljenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	18	obl	_	start_char=133|end_char=142
+25	boljeg	dobar	ADJ	Agcmsgy	Case=Gen|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	24	amod	_	start_char=143|end_char=149
+26	jer	jer	SCONJ	Cs	_	33	mark	_	start_char=150|end_char=153
+27	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	start_char=154|end_char=156
+28	ruke	ruka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	33	nsubj	_	start_char=157|end_char=161
+29	i	i	CCONJ	Cc	_	30	cc	_	start_char=162|end_char=163
+30	noge	nog	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	28	conj	_	start_char=164|end_char=168
+31	bile	biti	AUX	Vap-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	33	cop	_	start_char=169|end_char=173
+32	od	od	ADP	Sg	Case=Gen	33	case	_	start_char=174|end_char=176
+33	žice	Žica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	advcl	_	start_char=177|end_char=181
+34	i	i	CCONJ	Cc	_	36	cc	_	start_char=182|end_char=183
+35	iznimno	iznimno	ADV	Rgp	Degree=Pos	36	advmod	_	start_char=184|end_char=191
+36	prilagodljive	prilagodljiv	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	33	conj	_	start_char=192|end_char=205
+37	.	.	PUNCT	Z	_	4	punct	_	start_char=205|end_char=206
+
+# text = Međutim, moj unuk (9 godina) volio je ovog vilenjaka, a njegovi roditelji su se zabavljali koristeći ovu koncepciju za vrijeme blagdana.
+# sent_id = 2
+1	Međutim	međutim	ADV	Rgp	Degree=Pos	9	discourse	_	start_char=207|end_char=214
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=214|end_char=215
+3	moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=216|end_char=219
+4	unuk	unuk	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=220|end_char=224
+5	(	(	PUNCT	Z	_	7	punct	_	start_char=225|end_char=226
+6	9	9	NUM	Mdc	NumType=Card	7	nummod:gov	_	start_char=226|end_char=227
+7	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	parataxis	_	start_char=228|end_char=234
+8	)	)	PUNCT	Z	_	7	punct	_	start_char=234|end_char=235
+9	volio	voliti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=236|end_char=241
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=242|end_char=244
+11	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=245|end_char=249
+12	vilenjaka	vilenjak	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=250|end_char=259
+13	,	,	PUNCT	Z	_	19	punct	_	start_char=259|end_char=260
+14	a	a	CCONJ	Cc	_	19	cc	_	start_char=261|end_char=262
+15	njegovi	njegov	DET	Ps3mpn	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	start_char=263|end_char=270
+16	roditelji	roditelj	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	start_char=271|end_char=280
+17	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=281|end_char=283
+18	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	19	expl	_	start_char=284|end_char=286
+19	zabavljali	zabavljati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	start_char=287|end_char=297
+20	koristeći	koristiti	ADV	Rr	Tense=Pres|VerbForm=Conv	19	xcomp	_	start_char=298|end_char=307
+21	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=308|end_char=311
+22	koncepciju	koncepcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	start_char=312|end_char=322
+23	za	za	ADP	Sa	Case=Acc	24	case	_	start_char=323|end_char=325
+24	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	start_char=326|end_char=333
+25	blagdana	blagdan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	start_char=334|end_char=342
+26	.	.	PUNCT	Z	_	9	punct	_	start_char=342|end_char=343
+

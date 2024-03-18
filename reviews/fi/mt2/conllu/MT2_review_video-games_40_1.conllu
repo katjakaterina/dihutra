@@ -1,0 +1,65 @@
+# text = pettynyt äiti
+# sent_id = 0
+1	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	acl	_	start_char=0|end_char=8
+2	äiti	äiti	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=13
+
+# text = Tilasin tämän pojalleni ja olin erittäin pettynyt, kun se ei toiminut upouudessa CPU:ssamme.
+# sent_id = 1
+1	Tilasin	tilata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=14|end_char=21
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=22|end_char=27
+3	pojalleni	poika	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=28|end_char=37
+4	ja	ja	CCONJ	C	_	7	cc	_	start_char=38|end_char=40
+5	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=41|end_char=45
+6	erittäin	erittäin	ADV	Adv	Derivation=Ttain	7	advmod	_	start_char=46|end_char=54
+7	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=55|end_char=63
+8	,	,	PUNCT	Punct	_	12	punct	_	start_char=63|end_char=64
+9	kun	kun	SCONJ	C	_	12	mark	_	start_char=65|end_char=68
+10	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	start_char=69|end_char=71
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=72|end_char=74
+12	toiminut	toimia	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=75|end_char=83
+13	upouudessa	upouu	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	14	amod	_	start_char=84|end_char=94
+14	CPU:ssamme	CPU	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=1	12	obl	_	start_char=95|end_char=105
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=105|end_char=106
+
+# text = Näyttää siltä, että se ei ollut yhteensopiva järjestelmäohjelmistomme kanssa.
+# sent_id = 2
+1	Näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=107|end_char=114
+2	siltä	se	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	1	obl	_	start_char=115|end_char=120
+3	,	,	PUNCT	Punct	_	8	punct	_	start_char=120|end_char=121
+4	että	että	SCONJ	C	_	8	mark	_	start_char=122|end_char=126
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	_	start_char=127|end_char=129
+6	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=130|end_char=132
+7	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	cop	_	start_char=133|end_char=138
+8	yhteensopiva	yhteen#sopiva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	ccomp	_	start_char=139|end_char=151
+9	järjestelmäohjelmistomme	järjestelmä#ohjelmisto	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	8	obl	_	start_char=152|end_char=176
+10	kanssa	kanssa	ADP	Adp	AdpType=Post	9	case	_	start_char=177|end_char=183
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=183|end_char=184
+
+# text = Poikani kokeili sitä kahdella sukulaisen CPU:lla, eikä se toiminut heidän omalla.
+# sent_id = 3
+1	Poikani	poika	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	start_char=185|end_char=192
+2	kokeili	kokeilla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=193|end_char=200
+3	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=201|end_char=205
+4	kahdella	kaksi	NUM	Num	Case=Ade|NumType=Card|Number=Sing	6	nummod	_	start_char=206|end_char=214
+5	sukulaisen	sukulainen	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=215|end_char=225
+6	CPU:lla	CPU	NOUN	N	Case=Ade|Number=Sing	2	obl	_	start_char=226|end_char=233
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=233|end_char=234
+8	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=235|end_char=239
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	start_char=240|end_char=242
+10	toiminut	toimia	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	conj	_	start_char=243|end_char=251
+11	heidän	hän	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	nmod:poss	_	start_char=252|end_char=258
+12	omalla	oma	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	10	obl	_	start_char=259|end_char=265
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=265|end_char=266
+
+# text = Hyvä asia, että maksoin vain 4 dollaria.
+# sent_id = 4
+1	Hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=267|end_char=271
+2	asia	asia	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=272|end_char=276
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=276|end_char=277
+4	että	että	SCONJ	C	_	5	mark	_	start_char=278|end_char=282
+5	maksoin	maksaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	csubj:cop	_	start_char=283|end_char=290
+6	vain	vain	ADV	Adv	_	7	advmod	_	start_char=291|end_char=295
+7	4	4	NUM	Num	NumType=Card	8	nummod	_	start_char=296|end_char=297
+8	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=298|end_char=306
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=306|end_char=307
+

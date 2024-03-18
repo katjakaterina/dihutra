@@ -1,0 +1,60 @@
+# text = Odlična igra!
+# sent_id = 0
+1	Odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8|end_char=12
+3	!	!	PUNCT	Z	_	2	punct	_	start_char=12|end_char=13
+
+# text = Moj sedmogodišnjak se jako zabavljao s ovom igrom dok je istovremeno učio matematiku!
+# sent_id = 1
+1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=14|end_char=17
+2	sedmogodišnjak	sedmogodišnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=18|end_char=32
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=33|end_char=35
+4	jako	jako	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=36|end_char=40
+5	zabavljao	zabavljati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=41|end_char=50
+6	s	sa	ADP	Si	Case=Ins	8	case	_	start_char=51|end_char=52
+7	ovom	ovaj	DET	Pd-fsi	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=53|end_char=57
+8	igrom	igra	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	start_char=58|end_char=63
+9	dok	dok	SCONJ	Cs	_	12	mark	_	start_char=64|end_char=67
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=68|end_char=70
+11	istovremeno	istovremeno	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=71|end_char=82
+12	učio	učiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	start_char=83|end_char=87
+13	matematiku	matematika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=88|end_char=98
+14	!	!	PUNCT	Z	_	5	punct	_	start_char=98|end_char=99
+
+# text = Kupio sam mu je dok je bio u vrtiću i još uvijek voli igrati.
+# sent_id = 2
+1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=100|end_char=105
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=106|end_char=109
+3	mu	on	PRON	Pp3msd	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	iobj	_	start_char=110|end_char=112
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=113|end_char=115
+5	dok	dok	SCONJ	Cs	_	7	mark	_	start_char=116|end_char=119
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=120|end_char=122
+7	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=123|end_char=126
+8	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=127|end_char=128
+9	vrtiću	vrtić	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=129|end_char=135
+10	i	i	CCONJ	Cc	_	13	cc	_	start_char=136|end_char=137
+11	još	još	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=138|end_char=141
+12	uvijek	uvijek	ADV	Rgp	Degree=Pos|PronType=Tot	13	advmod	_	start_char=142|end_char=148
+13	voli	voljeti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=149|end_char=153
+14	igrati	igrati	VERB	Vmn	VerbForm=Inf	13	xcomp	_	start_char=154|end_char=160
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=160|end_char=161
+
+# text = Nema problema s bukom ove igre - nije glasnija od bilo koje druge računalne igre.
+# sent_id = 3
+1	Nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=162|end_char=166
+2	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	obj	_	start_char=167|end_char=175
+3	s	sa	ADP	Si	Case=Ins	4	case	_	start_char=176|end_char=177
+4	bukom	buka	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	start_char=178|end_char=183
+5	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=184|end_char=187
+6	igre	igra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=188|end_char=192
+7	-	-	PUNCT	Z	_	9	punct	_	start_char=193|end_char=194
+8	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=195|end_char=199
+9	glasnija	glasan	ADJ	Agcfsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	1	parataxis	_	start_char=200|end_char=208
+10	od	od	ADP	Sg	Case=Gen	15	case	_	start_char=209|end_char=211
+11	bilo	bilo	PART	Qo	_	12	discourse	_	start_char=212|end_char=216
+12	koje	koji	DET	Pi-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Int,Rel	15	det	_	start_char=217|end_char=221
+13	druge	drugi	ADJ	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=222|end_char=227
+14	računalne	računalni	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=228|end_char=237
+15	igre	igra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	start_char=238|end_char=242
+16	.	.	PUNCT	Z	_	1	punct	_	start_char=242|end_char=243
+

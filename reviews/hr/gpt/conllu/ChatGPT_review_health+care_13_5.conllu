@@ -1,0 +1,86 @@
+# text = Baš ono što sam tražio Ovaj povećalo je upravo ono što sam tražio.
+# sent_id = 0
+1	Baš	baš	PART	Qo	_	2	advmod	_	start_char=0|end_char=3
+2	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=4|end_char=7
+3	što	što	PRON	Pi3n-n	Case=Acc|Gender=Neut|PronType=Int,Rel	5	obj	_	start_char=8|end_char=11
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=12|end_char=15
+5	tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	start_char=16|end_char=22
+6	Ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	obj	_	start_char=23|end_char=27
+7	povećalo	povećalo	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=28|end_char=36
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=37|end_char=39
+9	upravo	upravo	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=40|end_char=46
+10	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=47|end_char=50
+11	što	što	PRON	Pi3n-n	Case=Acc|Gender=Neut|PronType=Int,Rel	13	obj	_	start_char=51|end_char=54
+12	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=55|end_char=58
+13	tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=59|end_char=65
+14	.	.	PUNCT	Z	_	7	punct	_	start_char=65|end_char=66
+
+# text = Malo je i lako za držati.
+# sent_id = 1
+1	Malo	malo	ADV	Rgp	Degree=Pos	0	root	_	start_char=67|end_char=71
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=72|end_char=74
+3	i	i	CCONJ	Cc	_	4	cc	_	start_char=75|end_char=76
+4	lako	lako	ADV	Rgp	Degree=Pos	1	conj	_	start_char=77|end_char=81
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=82|end_char=84
+6	držati	držati	VERB	Vmn	VerbForm=Inf	4	nsubj	_	start_char=85|end_char=91
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=91|end_char=92
+
+# text = Tražio sam nešto za čitanje malih brojeva/znakova na elektroničkim uređajima poput računala, elektronike itd.
+# sent_id = 2
+1	Tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=93|end_char=99
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=100|end_char=103
+3	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	1	obj	_	start_char=104|end_char=109
+4	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=110|end_char=112
+5	čitanje	čitanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	start_char=113|end_char=120
+6	malih	mali	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=121|end_char=126
+7	brojeva/znakova	brojeva/znakov	ADJ	Aspmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Poss=Yes	5	nmod	_	start_char=127|end_char=142
+8	na	na	ADP	Sl	Case=Loc	10	case	_	start_char=143|end_char=145
+9	elektroničkim	elektronički	ADJ	Agpmply	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=146|end_char=159
+10	uređajima	uređaj	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	start_char=160|end_char=169
+11	poput	poput	ADP	Sg	Case=Gen	12	case	_	start_char=170|end_char=175
+12	računala	računalo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	start_char=176|end_char=184
+13	,	,	PUNCT	Z	_	14	punct	_	start_char=184|end_char=185
+14	elektronike	elektronika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	conj	_	start_char=186|end_char=197
+15	itd	itd	PUNCT	Z	_	12	punct	_	start_char=198|end_char=201
+16	.	.	PUNCT	Z	_	1	punct	_	start_char=201|end_char=202
+
+# text = Također radim na unutarnjim dijelovima računala i ovo je odlično za pregled malih stvari.
+# sent_id = 3
+1	Također	također	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=203|end_char=210
+2	radim	raditi	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=211|end_char=216
+3	na	na	ADP	Sl	Case=Loc	5	case	_	start_char=217|end_char=219
+4	unutarnjim	unutarnji	ADJ	Agpmply	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=220|end_char=230
+5	dijelovima	dio	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	2	obl	_	start_char=231|end_char=241
+6	računala	računalo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=242|end_char=250
+7	i	i	CCONJ	Cc	_	10	cc	_	start_char=251|end_char=252
+8	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=253|end_char=256
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=257|end_char=259
+10	odlično	odličan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	start_char=260|end_char=267
+11	za	za	ADP	Sa	Case=Acc	12	case	_	start_char=268|end_char=270
+12	pregled	pregled	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	start_char=271|end_char=278
+13	malih	mali	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	start_char=279|end_char=284
+14	stvari	stvar	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=285|end_char=291
+15	.	.	PUNCT	Z	_	2	punct	_	start_char=291|end_char=292
+
+# text = Ne želim povećavati knjige ili časopise.
+# sent_id = 4
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=293|end_char=295
+2	želim	željeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=296|end_char=301
+3	povećavati	povećavati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=302|end_char=312
+4	knjige	knjiga	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=313|end_char=319
+5	ili	ili	CCONJ	Cc	_	6	cc	_	start_char=320|end_char=323
+6	časopise	časopis	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	start_char=324|end_char=332
+7	.	.	PUNCT	Z	_	2	punct	_	start_char=332|end_char=333
+
+# text = Svjetlo dobro funkcionira i olakšava čitanje sitnih stvari.
+# sent_id = 5
+1	Svjetlo	svjetlo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=334|end_char=341
+2	dobro	dobro	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=342|end_char=347
+3	funkcionira	funkcionirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=348|end_char=359
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=360|end_char=361
+5	olakšava	olakšavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=362|end_char=370
+6	čitanje	čitanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=371|end_char=378
+7	sitnih	sitan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=379|end_char=385
+8	stvari	stvar	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=386|end_char=392
+9	.	.	PUNCT	Z	_	3	punct	_	start_char=392|end_char=393
+

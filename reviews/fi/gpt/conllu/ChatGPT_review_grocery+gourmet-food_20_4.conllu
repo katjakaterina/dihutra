@@ -1,0 +1,71 @@
+# text = Maistuu erinomaiselta!
+# sent_id = 0
+1	Maistuu	maistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=7
+2	erinomaiselta	erinomainen	ADJ	A	Case=Abl|Degree=Pos|Derivation=Inen|Number=Sing	1	xcomp	_	start_char=8|end_char=21
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=21|end_char=22
+
+# text = Aloin noudattaa uutta ruokavaliota, joka rajoittaa kaikkia lisättyjä sokeria.
+# sent_id = 1
+1	Aloin	alkaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=23|end_char=28
+2	noudattaa	noudattaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=29|end_char=38
+3	uutta	uusi	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=39|end_char=44
+4	ruokavaliota	ruoka#valio	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=45|end_char=57
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=57|end_char=58
+6	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	7	nsubj	_	start_char=59|end_char=63
+7	rajoittaa	rajoittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=64|end_char=73
+8	kaikkia	kaikki	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	10	det	_	start_char=74|end_char=81
+9	lisättyjä	lisätä	VERB	V	Case=Par|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	10	acl	_	start_char=82|end_char=91
+10	sokeria	sokeri	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=92|end_char=99
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=99|end_char=100
+
+# text = Tämä oli yksi harvoista merkeistä, joissa ei ollut sokeria lisättynä ainesosiin.
+# sent_id = 2
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=101|end_char=105
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=106|end_char=109
+3	yksi	yksi	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	0	root	_	start_char=110|end_char=114
+4	harvoista	harva	PRON	Pron	Case=Ela|Number=Plur|PronType=Ind	5	det	_	start_char=115|end_char=124
+5	merkeistä	merkki	NOUN	N	Case=Ela|Number=Plur	3	nmod	_	start_char=125|end_char=134
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=134|end_char=135
+7	joissa	joka	PRON	Pron	Case=Ine|Number=Plur|PronType=Rel	5	acl:relcl	_	start_char=136|end_char=142
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=143|end_char=145
+9	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	cop	_	start_char=146|end_char=151
+10	sokeria	sokeri	NOUN	N	Case=Par|Number=Sing	7	nsubj:cop	_	start_char=152|end_char=159
+11	lisättynä	lisätä	VERB	V	Case=Ess|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=160|end_char=169
+12	ainesosiin	aines#osa	NOUN	N	Case=Ill|Number=Plur	11	obl	_	start_char=170|end_char=180
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=180|end_char=181
+
+# text = Ja se maistuu vieläpä erinomaiselta!
+# sent_id = 3
+1	Ja	ja	CCONJ	C	_	3	cc	_	start_char=182|end_char=184
+2	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=185|end_char=187
+3	maistuu	maistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=188|end_char=195
+4	vieläpä	vieläpä	ADV	Adv	_	5	advmod	_	start_char=196|end_char=203
+5	erinomaiselta	erinomainen	ADJ	A	Case=Abl|Degree=Pos|Derivation=Inen|Number=Sing	3	xcomp	_	start_char=204|end_char=217
+6	!	!	PUNCT	Punct	_	3	punct	_	start_char=217|end_char=218
+
+# text = En ole varma, pystynkö syömään koko tämän purkillisen ennen kuin se menee vanhaksi.
+# sent_id = 4
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=219|end_char=221
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=222|end_char=225
+3	varma	varma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=226|end_char=231
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=231|end_char=232
+5	pystynkö	pystyä	VERB	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=233|end_char=241
+6	syömään	syödä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=242|end_char=249
+7	koko	koko	ADJ	A	_	9	amod	_	start_char=250|end_char=254
+8	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	det	_	start_char=255|end_char=260
+9	purkillisen	purkillinen	NOUN	N	Case=Gen|Number=Sing	6	obj	_	start_char=261|end_char=272
+10	ennen	ennen	ADV	Adv	_	11	advmod	_	start_char=273|end_char=278
+11	kuin	kuin	SCONJ	C	_	13	mark	_	start_char=279|end_char=283
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj	_	start_char=284|end_char=286
+13	menee	mennä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=287|end_char=292
+14	vanhaksi	vanha	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	13	xcomp	_	start_char=293|end_char=301
+15	.	.	PUNCT	Punct	_	3	punct	_	start_char=301|end_char=302
+
+# text = Kuinka kauan se säilyy?
+# sent_id = 5
+1	Kuinka	kuinka	ADV	Adv	_	2	advmod	_	start_char=303|end_char=309
+2	kauan	kauan	ADV	Adv	_	4	advmod	_	start_char=310|end_char=315
+3	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	_	start_char=316|end_char=318
+4	säilyy	säilyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=319|end_char=325
+5	?	?	PUNCT	Punct	_	4	punct	_	start_char=325|end_char=326
+

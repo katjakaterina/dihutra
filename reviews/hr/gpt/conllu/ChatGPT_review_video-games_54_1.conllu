@@ -1,0 +1,81 @@
+# text = Igra Građanski rat
+# sent_id = 0
+1	Igra	igrati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+2	Građanski	građanski	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=5|end_char=14
+3	rat	rat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=15|end_char=18
+
+# text = Ne znam ništa o igri jer je ne mogu igrati.
+# sent_id = 1
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=19|end_char=21
+2	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=22|end_char=26
+3	ništa	ništa	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Neg	2	obj	_	start_char=27|end_char=32
+4	o	o	ADP	Sl	Case=Loc	5	case	_	start_char=33|end_char=34
+5	igri	igra	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	start_char=35|end_char=39
+6	jer	jer	SCONJ	Cs	_	9	mark	_	start_char=40|end_char=43
+7	je	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=44|end_char=46
+8	ne	ne	PART	Qz	Polarity=Neg	9	advmod	_	start_char=47|end_char=49
+9	mogu	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=50|end_char=54
+10	igrati	igrati	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=55|end_char=61
+11	.	.	PUNCT	Z	_	2	punct	_	start_char=61|end_char=62
+
+# text = Imam Windows Vistu i mogu preuzeti upute, ali se pojavi greška kad pokušam igrati igru.
+# sent_id = 2
+1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=63|end_char=67
+2	Windows	Windows	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=68|end_char=75
+3	Vistu	Vista	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	2	flat	_	start_char=76|end_char=81
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=82|end_char=83
+5	mogu	moći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=84|end_char=88
+6	preuzeti	preuzeti	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=89|end_char=97
+7	upute	uputa	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=98|end_char=103
+8	,	,	PUNCT	Z	_	11	punct	_	start_char=103|end_char=104
+9	ali	ali	CCONJ	Cc	_	11	cc	_	start_char=105|end_char=108
+10	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	start_char=109|end_char=111
+11	pojavi	pojaviti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=112|end_char=118
+12	greška	greška	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=119|end_char=125
+13	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	14	advmod	_	start_char=126|end_char=129
+14	pokušam	pokušati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=130|end_char=137
+15	igrati	igrati	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=138|end_char=144
+16	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=145|end_char=149
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=149|end_char=150
+
+# text = Kontaktirao/la sam Ageod i rekli su mi da sam jedini koji ima problema.
+# sent_id = 3
+1	Kontaktirao/la	kontaktirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=151|end_char=165
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=166|end_char=169
+3	Ageod	Ageod	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=170|end_char=175
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=176|end_char=177
+5	rekli	reći	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=178|end_char=183
+6	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=184|end_char=186
+7	mi	ja	PRON	Pp1-sd	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	iobj	_	start_char=187|end_char=189
+8	da	da	SCONJ	Cs	_	10	mark	_	start_char=190|end_char=192
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=193|end_char=196
+10	jedini	jedini	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	ccomp	_	start_char=197|end_char=203
+11	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=204|end_char=208
+12	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=209|end_char=212
+13	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	obj	_	start_char=213|end_char=221
+14	.	.	PUNCT	Z	_	1	punct	_	start_char=221|end_char=222
+
+# text = Internet kaže da Vista ima puno problema s igrama.
+# sent_id = 4
+1	Internet	internet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=223|end_char=231
+2	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=232|end_char=236
+3	da	da	SCONJ	Cs	_	5	mark	_	start_char=237|end_char=239
+4	Vista	Vista	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=240|end_char=245
+5	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=246|end_char=249
+6	puno	puno	DET	Rgp	Degree=Pos	7	det:numgov	_	start_char=250|end_char=254
+7	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obj	_	start_char=255|end_char=263
+8	s	sa	ADP	Si	Case=Ins	9	case	_	start_char=264|end_char=265
+9	igrama	igra	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	start_char=266|end_char=272
+10	.	.	PUNCT	Z	_	2	punct	_	start_char=272|end_char=273
+
+# text = Samo sam bacila novac na ovu igru.
+# sent_id = 5
+1	Samo	samo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=274|end_char=278
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=279|end_char=282
+3	bacila	baciti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=283|end_char=289
+4	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=290|end_char=295
+5	na	na	ADP	Sa	Case=Acc	7	case	_	start_char=296|end_char=298
+6	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=299|end_char=302
+7	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=303|end_char=307
+8	.	.	PUNCT	Z	_	3	punct	_	start_char=307|end_char=308
+

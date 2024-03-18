@@ -1,0 +1,77 @@
+# text = Martha Stewartin hääkakut
+# sent_id = 0
+1	Martha	Martha	PROPN	N	Case=Nom|Number=Sing	3	nmod:poss	_	start_char=0|end_char=6
+2	Stewartin	Stewartti	PROPN	N	Case=Gen|Number=Sing	1	flat:name	_	start_char=7|end_char=16
+3	hääkakut	hää#kakku	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=17|end_char=25
+
+# text = Olen ostanut paljon kakun koristelukirjoja, mutta jos etsit opasta kakun koristeluun, suosittelen lämpimästi hankkimaan Collette Peteresin tai Peggy Porschenin kirjan.
+# sent_id = 1
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=26|end_char=30
+2	ostanut	ostaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=31|end_char=38
+3	paljon	paljon	ADV	Adv	_	5	advmod	_	start_char=39|end_char=45
+4	kakun	kakku	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=46|end_char=51
+5	koristelukirjoja	koristelu#kirja	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=52|end_char=68
+6	,	,	PUNCT	Punct	_	14	punct	_	start_char=68|end_char=69
+7	mutta	mutta	CCONJ	C	_	14	cc	_	start_char=70|end_char=75
+8	jos	jos	SCONJ	C	_	9	mark	_	start_char=76|end_char=79
+9	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	start_char=80|end_char=85
+10	opasta	oppa	NOUN	N	Case=Par|Number=Sing	9	obj	_	start_char=86|end_char=92
+11	kakun	kakku	NOUN	N	Case=Gen|Number=Sing	12	nmod:gobj	_	start_char=93|end_char=98
+12	koristeluun	koristelu	NOUN	N	Case=Ill|Derivation=U|Number=Sing	9	obl	_	start_char=99|end_char=110
+13	,	,	PUNCT	Punct	_	9	punct	_	start_char=110|end_char=111
+14	suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=112|end_char=123
+15	lämpimästi	lämpimästi	ADV	Adv	Derivation=Sti	14	advmod	_	start_char=124|end_char=134
+16	hankkimaan	hankkia	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	14	xcomp:ds	_	start_char=135|end_char=145
+17	Collette	Collette	PROPN	N	Case=Nom|Number=Sing	22	nmod:poss	_	start_char=146|end_char=154
+18	Peteresin	Peteres	PROPN	N	Case=Gen|Number=Sing	17	flat:name	_	start_char=155|end_char=164
+19	tai	tai	CCONJ	C	_	20	cc	_	start_char=165|end_char=168
+20	Peggy	Peggy	PROPN	N	Case=Nom|Number=Sing	17	conj	_	start_char=169|end_char=174
+21	Porschenin	Porschen	PROPN	N	Case=Gen|Number=Sing	20	flat:name	_	start_char=175|end_char=185
+22	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	16	obj	_	start_char=186|end_char=192
+23	.	.	PUNCT	Punct	_	2	punct	_	start_char=192|end_char=193
+
+# text = Vaikka tässä kirjassa on paljon valokuvia, se tarjoaa jonkin verran tietoa, ei kovin paljon, ja rehellisesti sanottuna hinnan vuoksi mieluummin ostaisin hääkakkuaiheisen aikakauslehden.
+# sent_id = 2
+1	Vaikka	vaikka	SCONJ	C	_	3	mark	_	start_char=194|end_char=200
+2	tässä	tämä	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	3	det	_	start_char=201|end_char=206
+3	kirjassa	kirja	NOUN	N	Case=Ine|Number=Sing	9	advcl	_	start_char=207|end_char=215
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=216|end_char=218
+5	paljon	paljon	ADV	Adv	_	6	advmod	_	start_char=219|end_char=225
+6	valokuvia	valo#kuva	NOUN	N	Case=Par|Number=Plur	3	nsubj:cop	_	start_char=226|end_char=235
+7	,	,	PUNCT	Punct	_	3	punct	_	start_char=235|end_char=236
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=237|end_char=239
+9	tarjoaa	tarjota	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=240|end_char=247
+10	jonkin	jokin	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	11	nmod:poss	_	start_char=248|end_char=254
+11	verran	verran	ADV	Adv	_	12	advmod	_	start_char=255|end_char=261
+12	tietoa	tieto	NOUN	N	Case=Par|Number=Sing	9	obj	_	start_char=262|end_char=268
+13	,	,	PUNCT	Punct	_	16	punct	_	start_char=268|end_char=269
+14	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=270|end_char=272
+15	kovin	kovin	ADV	Adv	_	16	advmod	_	start_char=273|end_char=278
+16	paljon	paljon	ADV	Adv	_	12	conj	_	start_char=279|end_char=285
+17	,	,	PUNCT	Punct	_	24	punct	_	start_char=285|end_char=286
+18	ja	ja	CCONJ	C	_	24	cc	_	start_char=287|end_char=289
+19	rehellisesti	rehellisesti	ADV	Adv	Derivation=Sti	20	advmod	_	start_char=290|end_char=302
+20	sanottuna	sanoa	VERB	V	Case=Ess|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	21	acl	_	start_char=303|end_char=312
+21	hinnan	hinta	NOUN	N	Case=Gen|Number=Sing	24	obl	_	start_char=313|end_char=319
+22	vuoksi	vuoksi	ADP	Adp	AdpType=Post	21	case	_	start_char=320|end_char=326
+23	mieluummin	mieluummin	ADV	Adv	_	24	advmod	_	start_char=327|end_char=337
+24	ostaisin	ostaa	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	9	conj	_	start_char=338|end_char=346
+25	hääkakkuaiheisen	hääkakkuaiheinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	26	amod	_	start_char=347|end_char=363
+26	aikakauslehden	aika#kausle	NOUN	N	Case=Gen|Number=Sing	24	obj	_	start_char=364|end_char=378
+27	.	.	PUNCT	Punct	_	9	punct	_	start_char=378|end_char=379
+
+# text = Tämä kirja oli pettymys, ei kovin hyödyllinen tai käytännöllinen oikeastaan.
+# sent_id = 3
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=380|end_char=384
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=385|end_char=390
+3	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=391|end_char=394
+4	pettymys	pettymys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=395|end_char=403
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=403|end_char=404
+6	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=405|end_char=407
+7	kovin	kovin	ADV	Adv	_	8	advmod	_	start_char=408|end_char=413
+8	hyödyllinen	hyödyllinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	4	conj	_	start_char=414|end_char=425
+9	tai	tai	CCONJ	C	_	10	cc	_	start_char=426|end_char=429
+10	käytännöllinen	käytännöllinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	8	conj	_	start_char=430|end_char=444
+11	oikeastaan	oikeastaan	ADV	Adv	_	8	advmod	_	start_char=445|end_char=455
+12	.	.	PUNCT	Punct	_	4	punct	_	start_char=455|end_char=456
+

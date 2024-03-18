@@ -1,0 +1,78 @@
+# text = Erinomainen konsepti ja esitykset Elora, pieni historiallinen kanadalainen kaupunki monine vuosisatoja vanhoine rakennuksineen, on täydellinen ympäristö tälle tarinalle, joka sijoittuu varhaisen 1900-luvun aikaan.
+# sent_id = 0
+1	Erinomainen	erinomainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	2	amod	_	start_char=0|end_char=11
+2	konsepti	konsepti	NOUN	N	Case=Nom|Number=Sing	18	nsubj:cop	_	start_char=12|end_char=20
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=21|end_char=23
+4	esitykset	esitys	NOUN	N	Case=Nom|Number=Plur	2	conj	_	start_char=24|end_char=33
+5	Elora	Elora	PROPN	N	Case=Nom|Number=Sing	2	appos	_	start_char=34|end_char=39
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=39|end_char=40
+7	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	start_char=41|end_char=46
+8	historiallinen	historiallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	10	amod	_	start_char=47|end_char=61
+9	kanadalainen	kanadalainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	10	amod	_	start_char=62|end_char=74
+10	kaupunki	kaupunki	NOUN	N	Case=Nom|Number=Sing	5	appos	_	start_char=75|end_char=83
+11	monine	moni	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	12	det	_	start_char=84|end_char=90
+12	vuosisatoja	vuosi#sata	NOUN	N	Case=Par|Number=Plur	10	nmod	_	start_char=91|end_char=102
+13	vanhoine	vanhoinen	ADJ	A	Case=Com|Degree=Pos|Derivation=Inen|Number=Plur	14	amod	_	start_char=103|end_char=111
+14	rakennuksineen	rakennus	NOUN	N	Case=Com|Person[psor]=3	12	nmod	_	start_char=112|end_char=126
+15	,	,	PUNCT	Punct	_	10	punct	_	start_char=126|end_char=127
+16	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	start_char=128|end_char=130
+17	täydellinen	täydellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	18	amod	_	start_char=131|end_char=142
+18	ympäristö	ympäristö	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=143|end_char=152
+19	tälle	tämä	PRON	Pron	Case=All|Number=Sing|PronType=Dem	20	det	_	start_char=153|end_char=158
+20	tarinalle	tarina	NOUN	N	Case=All|Number=Sing	18	nmod	_	start_char=159|end_char=168
+21	,	,	PUNCT	Punct	_	23	punct	_	start_char=168|end_char=169
+22	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	23	nsubj	_	start_char=170|end_char=174
+23	sijoittuu	sijoittua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	start_char=175|end_char=184
+24	varhaisen	varhainen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	25	amod	_	start_char=185|end_char=194
+25	1900-luvun	1900#luku	NOUN	N	Case=Gen|Number=Sing	26	nmod:poss	_	start_char=195|end_char=205
+26	aikaan	aika	NOUN	N	Case=Ill|Number=Sing	23	obl	_	start_char=206|end_char=212
+27	.	.	PUNCT	Punct	_	18	punct	_	start_char=212|end_char=213
+
+# text = Tarinan tuominen 1900-luvun Amerikkaan mahdollistaa tilanteiden sisällyttämisen, joiden kanssa amerikkalaiset voivat helpommin samastua.
+# sent_id = 1
+1	Tarinan	tarina	NOUN	N	Case=Gen|Number=Sing	2	nmod:gobj	_	start_char=214|end_char=221
+2	tuominen	tuominen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	5	nsubj	_	start_char=222|end_char=230
+3	1900-luvun	1900#luku	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=231|end_char=241
+4	Amerikkaan	Amerikka	PROPN	N	Case=Ill|Number=Sing	2	nmod	_	start_char=242|end_char=252
+5	mahdollistaa	mahdollistaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=253|end_char=265
+6	tilanteiden	tilanne	NOUN	N	Case=Gen|Number=Plur	7	nmod:gobj	_	start_char=266|end_char=277
+7	sisällyttämisen	sisällyttäminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	5	obj	_	start_char=278|end_char=293
+8	,	,	PUNCT	Punct	_	14	punct	_	start_char=293|end_char=294
+9	joiden	joka	PRON	Pron	Case=Gen|Number=Plur|PronType=Rel	14	obl	_	start_char=295|end_char=301
+10	kanssa	kanssa	ADP	Adp	AdpType=Post	9	case	_	start_char=302|end_char=308
+11	amerikkalaiset	amerikkalainen	NOUN	N	Case=Nom|Derivation=Lainen|Number=Plur	14	nsubj	_	start_char=309|end_char=323
+12	voivat	voida	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	start_char=324|end_char=330
+13	helpommin	helposti	ADV	Adv	Degree=Cmp|Derivation=Sti	14	advmod	_	start_char=331|end_char=340
+14	samastua	samastua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	acl:relcl	_	start_char=341|end_char=349
+15	.	.	PUNCT	Punct	_	5	punct	_	start_char=349|end_char=350
+
+# text = Henry Winkler tekee loistavaa työtä Scrooge-hahmon uudelleen luomisessa, eikä sivuosanäyttelijöitäkään voi vähätellä.
+# sent_id = 2
+1	Henry	Henry	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=351|end_char=356
+2	Winkler	Winkler	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	start_char=357|end_char=364
+3	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=365|end_char=370
+4	loistavaa	loistava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	start_char=371|end_char=380
+5	työtä	työ	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=381|end_char=386
+6	Scrooge-hahmon	Scrooge#hahmo	NOUN	N	Case=Gen|Number=Sing	8	nmod:gobj	_	start_char=387|end_char=401
+7	uudelleen	uudelleen	ADV	Adv	_	8	advmod	_	start_char=402|end_char=411
+8	luomisessa	luominen	NOUN	N	Case=Ine|Derivation=Minen|Number=Sing	3	obl	_	start_char=412|end_char=422
+9	,	,	PUNCT	Punct	_	13	punct	_	start_char=422|end_char=423
+10	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=424|end_char=428
+11	sivuosanäyttelijöitäkään	sivuos#anäyttelijä	NOUN	N	Case=Par|Clitic=Kaan|Number=Plur	13	obj	_	start_char=429|end_char=453
+12	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=454|end_char=457
+13	vähätellä	vähätellä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=458|end_char=467
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=467|end_char=468
+
+# text = Tämä on minulle vuosittainen "pakko katsoa" tarina.
+# sent_id = 3
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	start_char=469|end_char=473
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=474|end_char=476
+3	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	6	obl	_	start_char=477|end_char=484
+4	vuosittainen	vuosittainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	6	amod	_	start_char=485|end_char=497
+5	"	"	PUNCT	Punct	_	6	punct	_	start_char=498|end_char=499
+6	pakko	pakko	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=499|end_char=504
+7	katsoa	katsoa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp:ds	_	start_char=505|end_char=511
+8	"	"	PUNCT	Punct	_	6	punct	_	start_char=511|end_char=512
+9	tarina	tarina	NOUN	N	Case=Nom|Number=Sing	7	obj	_	start_char=513|end_char=519
+10	.	.	PUNCT	Punct	_	6	punct	_	start_char=519|end_char=520
+

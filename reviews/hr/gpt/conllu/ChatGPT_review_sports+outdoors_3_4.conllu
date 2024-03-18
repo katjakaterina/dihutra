@@ -1,0 +1,75 @@
+# text = """To je čekić, to je sve."
+# sent_id = 0
+1	"	"	PUNCT	Z	_	6	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	6	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	6	punct	_	start_char=2|end_char=3
+4	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=3|end_char=5
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=6|end_char=8
+6	čekić	čekić	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=9|end_char=14
+7	,	,	PUNCT	Z	_	10	punct	_	start_char=14|end_char=15
+8	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=16|end_char=18
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=19|end_char=21
+10	sve	sve	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	conj	_	start_char=22|end_char=25
+11	.	.	PUNCT	Z	_	6	punct	_	start_char=25|end_char=26
+12	"	"	PUNCT	Z	_	6	punct	_	start_char=26|end_char=27
+
+# text = Ako nemate čekić od 3/32 ili želite imati jedan u svojoj torbi za Glock, ovaj je u redu.
+# sent_id = 1
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=28|end_char=31
+2	nemate	nemati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	_	start_char=32|end_char=38
+3	čekić	čekić	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=39|end_char=44
+4	od	od	ADP	Sg	Case=Gen	5	case	_	start_char=45|end_char=47
+5	3/32	3/32	NUM	Mdc	NumType=Card	3	nummod	_	start_char=48|end_char=52
+6	ili	ili	CCONJ	Cc	_	7	cc	_	start_char=53|end_char=56
+7	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=57|end_char=63
+8	imati	imati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=64|end_char=69
+9	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	8	obj	_	start_char=70|end_char=75
+10	u	u	ADP	Sl	Case=Loc	12	case	_	start_char=76|end_char=77
+11	svojoj	svoj	DET	Px-fsl	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	start_char=78|end_char=84
+12	torbi	torba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	start_char=85|end_char=90
+13	za	za	ADP	Sa	Case=Acc	14	case	_	start_char=91|end_char=93
+14	Glock	Glock	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	start_char=94|end_char=99
+15	,	,	PUNCT	Z	_	2	punct	_	start_char=99|end_char=100
+16	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	19	nsubj	_	start_char=101|end_char=105
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=106|end_char=108
+18	u	u	ADP	Sl	Case=Loc	19	case	_	start_char=109|end_char=110
+19	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=111|end_char=115
+20	.	.	PUNCT	Z	_	19	punct	_	start_char=115|end_char=116
+
+# text = Stražnji dio je koristan za guranje čivija natrag na mjesto.
+# sent_id = 2
+1	Stražnji	stražnji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=117|end_char=125
+2	dio	dio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=126|end_char=129
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=130|end_char=132
+4	koristan	koristan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=133|end_char=141
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=142|end_char=144
+6	guranje	guranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=145|end_char=152
+7	čivija	čivij	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=153|end_char=159
+8	natrag	natrag	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=160|end_char=166
+9	na	na	ADP	Sa	Case=Acc	10	case	_	start_char=167|end_char=169
+10	mjesto	mjesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=170|end_char=176
+11	.	.	PUNCT	Z	_	4	punct	_	start_char=176|end_char=177
+
+# text = Ako već imate čekić od 3/32 i ne trebate još jedan, onda se ne opterećujte s ovim."
+# sent_id = 3
+1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=178|end_char=181
+2	već	već	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=182|end_char=185
+3	imate	imati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=186|end_char=191
+4	čekić	čekić	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=192|end_char=197
+5	od	od	ADP	Sg	Case=Gen	6	case	_	start_char=198|end_char=200
+6	3/32	3/32	NUM	Mdc	NumType=Card	4	nmod	_	start_char=201|end_char=205
+7	i	i	CCONJ	Cc	_	9	cc	_	start_char=206|end_char=207
+8	ne	ne	PART	Qz	Polarity=Neg	9	advmod	_	start_char=208|end_char=210
+9	trebate	trebati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=211|end_char=218
+10	još	još	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=219|end_char=222
+11	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	9	obj	_	start_char=223|end_char=228
+12	,	,	PUNCT	Z	_	3	punct	_	start_char=228|end_char=229
+13	onda	onda	ADV	Rgp	Degree=Pos|PronType=Dem	16	advmod	_	start_char=230|end_char=234
+14	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	16	expl	_	start_char=235|end_char=237
+15	ne	ne	PART	Qz	Polarity=Neg	16	advmod	_	start_char=238|end_char=240
+16	opterećujte	opterećivati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=241|end_char=252
+17	s	sa	ADP	Si	Case=Ins	18	case	_	start_char=253|end_char=254
+18	ovim	ovaj	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	start_char=255|end_char=259
+19	.	.	PUNCT	Z	_	16	punct	_	start_char=259|end_char=260
+20	"	"	PUNCT	Z	_	16	punct	_	start_char=260|end_char=261
+

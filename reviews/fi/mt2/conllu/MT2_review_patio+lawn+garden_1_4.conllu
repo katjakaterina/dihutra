@@ -1,0 +1,109 @@
+# text = Hienoja letkuja
+# sent_id = 0
+1	Hienoja	hieno	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=7
+2	letkuja	letku	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=8|end_char=15
+
+# text = Hyvä yhdysvaltalainen yritys, joka seisoo tuotteidensa takana.
+# sent_id = 1
+1	Hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=16|end_char=20
+2	yhdysvaltalainen	yhdysvaltalainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	3	amod	_	start_char=21|end_char=37
+3	yritys	yritys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=38|end_char=44
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=44|end_char=45
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=46|end_char=50
+6	seisoo	seisoa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=51|end_char=57
+7	tuotteidensa	tuote	NOUN	N	Case=Gen|Number=Plur|Person[psor]=3	6	obl	_	start_char=58|end_char=70
+8	takana	takana	ADP	Adp	AdpType=Post	7	case	_	start_char=71|end_char=77
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=77|end_char=78
+
+# text = Olen joutunut antamaan takuun kahdelle letkulle, ja he lähettävät vaihdot suoraan sinulle.
+# sent_id = 2
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=79|end_char=83
+2	joutunut	joutua	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=84|end_char=92
+3	antamaan	antaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=93|end_char=101
+4	takuun	takuu	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=102|end_char=108
+5	kahdelle	kaksi	NUM	Num	Case=All|NumType=Card|Number=Sing	6	nummod	_	start_char=109|end_char=117
+6	letkulle	letku	NOUN	N	Case=All|Number=Sing	4	nmod	_	start_char=118|end_char=126
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=126|end_char=127
+8	ja	ja	CCONJ	C	_	10	cc	_	start_char=128|end_char=130
+9	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=131|end_char=133
+10	lähettävät	lähettää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=134|end_char=144
+11	vaihdot	vaihto	NOUN	N	Case=Nom|Number=Plur	10	obj	_	start_char=145|end_char=152
+12	suoraan	suoraan	ADV	Adv	_	13	advmod	_	start_char=153|end_char=160
+13	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	10	obl	_	start_char=161|end_char=168
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=168|end_char=169
+
+# text = Minulla oli yksi räjähdys hetken kuluttua, sen saattoi nähdä pullistuvan viikkoja ennen kuin se meni, joten ei yllätyksiä.
+# sent_id = 3
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=170|end_char=177
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=178|end_char=181
+3	yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	4	nummod	_	start_char=182|end_char=186
+4	räjähdys	räjähdys	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=187|end_char=195
+5	hetken	hetki	NOUN	N	Case=Gen|Number=Sing	6	nsubj	_	start_char=196|end_char=202
+6	kuluttua	kulua	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	1	advcl	_	start_char=203|end_char=211
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=211|end_char=212
+8	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	nsubj	_	start_char=213|end_char=216
+9	saattoi	saattaa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	start_char=217|end_char=224
+10	nähdä	nähdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	conj	_	start_char=225|end_char=230
+11	pullistuvan	pullistua	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	10	xcomp:ds	_	start_char=231|end_char=242
+12	viikkoja	viikko	NOUN	N	Case=Par|Number=Plur	11	obj	_	start_char=243|end_char=251
+13	ennen	ennen	ADV	Adv	_	14	advmod	_	start_char=252|end_char=257
+14	kuin	kuin	SCONJ	C	_	16	mark	_	start_char=258|end_char=262
+15	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	16	nsubj	_	start_char=263|end_char=265
+16	meni	mennä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=266|end_char=270
+17	,	,	PUNCT	Punct	_	19	punct	_	start_char=270|end_char=271
+18	joten	joten	ADV	Adv	_	19	advmod	_	start_char=272|end_char=277
+19	ei	ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=278|end_char=280
+20	yllätyksiä	yllätys	NOUN	N	Case=Par|Number=Plur	19	nsubj	_	start_char=281|end_char=291
+21	.	.	PUNCT	Punct	_	1	punct	_	start_char=291|end_char=292
+
+# text = Toinen oli talveen liittyvä, koska olen huono ja jätän ne pois suurimman osan ajasta.
+# sent_id = 4
+1	Toinen	toinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	4	nsubj:cop	_	start_char=293|end_char=299
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=300|end_char=303
+3	talveen	talve	NOUN	N	Case=Ill|Number=Sing	4	obl	_	start_char=304|end_char=311
+4	liittyvä	liittyä	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	0	root	_	start_char=312|end_char=320
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=320|end_char=321
+6	koska	koska	SCONJ	C	_	8	mark	_	start_char=322|end_char=327
+7	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=328|end_char=332
+8	huono	huono	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	advcl	_	start_char=333|end_char=338
+9	ja	ja	CCONJ	C	_	10	cc	_	start_char=339|end_char=341
+10	jätän	jättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=342|end_char=347
+11	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	10	obj	_	start_char=348|end_char=350
+12	pois	pois	ADV	Adv	_	10	advmod	_	start_char=351|end_char=355
+13	suurimman	suuri	ADJ	A	Case=Gen|Degree=Sup|Number=Sing	14	amod	_	start_char=356|end_char=365
+14	osan	osa	NOUN	N	Case=Gen|Number=Sing	10	obj	_	start_char=366|end_char=370
+15	ajasta	aika	NOUN	N	Case=Ela|Number=Sing	14	nmod	_	start_char=371|end_char=377
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=377|end_char=378
+
+# text = Erittäin suositeltavaa.
+# sent_id = 5
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=379|end_char=387
+2	suositeltavaa	suositeltava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=388|end_char=401
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=401|end_char=402
+
+# text = Huomaa, että satajalkainen on raskas ja kuin anakondan vääntäminen, kun on aika laittaa pois, mutta sillä on pitkä ulottuvuus.
+# sent_id = 6
+1	Huomaa	huomata	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=403|end_char=409
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=409|end_char=410
+3	että	että	SCONJ	C	_	6	mark	_	start_char=411|end_char=415
+4	satajalkainen	sata#jalkainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	6	nsubj:cop	_	start_char=416|end_char=429
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=430|end_char=432
+6	raskas	raskas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	ccomp	_	start_char=433|end_char=439
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=440|end_char=442
+8	kuin	kuin	SCONJ	C	_	10	mark	_	start_char=443|end_char=447
+9	anakondan	anakonta	NOUN	N	Case=Gen|Number=Sing	10	nmod:gobj	_	start_char=448|end_char=457
+10	vääntäminen	vääntäminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	6	advcl	_	start_char=458|end_char=469
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=469|end_char=470
+12	kun	kun	SCONJ	C	_	14	mark	_	start_char=471|end_char=474
+13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	start_char=475|end_char=477
+14	aika	aika	NOUN	N	Case=Nom|Number=Sing	6	advcl	_	start_char=478|end_char=482
+15	laittaa	laittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	14	xcomp:ds	_	start_char=483|end_char=490
+16	pois	pois	ADV	Adv	_	15	advmod	_	start_char=491|end_char=495
+17	,	,	PUNCT	Punct	_	19	punct	_	start_char=495|end_char=496
+18	mutta	mutta	CCONJ	C	_	19	cc	_	start_char=497|end_char=502
+19	sillä	se	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	14	conj	_	start_char=503|end_char=508
+20	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop:own	_	start_char=509|end_char=511
+21	pitkä	pitkä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	22	amod	_	start_char=512|end_char=517
+22	ulottuvuus	ulottuvuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	19	nsubj:cop	_	start_char=518|end_char=528
+23	.	.	PUNCT	Punct	_	1	punct	_	start_char=528|end_char=529
+

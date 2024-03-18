@@ -1,0 +1,93 @@
+# text = Odličan set.
+# sent_id = 0
+1	Odličan	odličan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	set	set	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8|end_char=11
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=11|end_char=12
+
+# text = Sviđa mi se, ali moram reći da bih volio/la da su uključili način da se traka 'zakvači' na nešto kako biste mogli raditi vježbe povlačenja ili leđa.
+# sent_id = 1
+1	Sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=13|end_char=18
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=19|end_char=21
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=22|end_char=24
+4	,	,	PUNCT	Z	_	6	punct	_	start_char=24|end_char=25
+5	ali	ali	CCONJ	Cc	_	6	cc	_	start_char=26|end_char=29
+6	moram	morati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=30|end_char=35
+7	reći	reći	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=36|end_char=40
+8	da	da	SCONJ	Cs	_	10	mark	_	start_char=41|end_char=43
+9	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	start_char=44|end_char=47
+10	volio/la	volio/lati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=48|end_char=56
+11	da	da	SCONJ	Cs	_	13	mark	_	start_char=57|end_char=59
+12	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=60|end_char=62
+13	uključili	uključiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	ccomp	_	start_char=63|end_char=72
+14	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=73|end_char=78
+15	da	da	SCONJ	Cs	_	19	mark	_	start_char=79|end_char=81
+16	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	19	expl	_	start_char=82|end_char=84
+17	traka	traka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=85|end_char=90
+18	'	'	PUNCT	Z	_	19	punct	_	start_char=91|end_char=92
+19	zakvači	zakvačiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	start_char=92|end_char=99
+20	'	'	PUNCT	Z	_	19	punct	_	start_char=99|end_char=100
+21	na	na	ADP	Sa	Case=Acc	22	case	_	start_char=101|end_char=103
+22	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	19	obl	_	start_char=104|end_char=109
+23	kako	kako	SCONJ	Cs	_	25	mark	_	start_char=110|end_char=114
+24	biste	biti	AUX	Vaa2p	Mood=Cnd|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	25	aux	_	start_char=115|end_char=120
+25	mogli	moći	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	19	advcl	_	start_char=121|end_char=126
+26	raditi	raditi	VERB	Vmn	VerbForm=Inf	25	xcomp	_	start_char=127|end_char=133
+27	vježbe	vježba	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	start_char=134|end_char=140
+28	povlačenja	povlačenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	start_char=141|end_char=151
+29	ili	ili	CCONJ	Cc	_	30	cc	_	start_char=152|end_char=155
+30	leđa	leđa	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	28	conj	_	start_char=156|end_char=160
+31	.	.	PUNCT	Z	_	1	punct	_	start_char=160|end_char=161
+
+# text = Završio/la sam koristeći 'nogu' prilagodnik za to i za mene radi.
+# sent_id = 2
+1	Završio/la	završio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=162|end_char=172
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=173|end_char=176
+3	koristeći	koristiti	ADV	Rr	Tense=Pres|VerbForm=Conv	1	xcomp	_	start_char=177|end_char=186
+4	'	'	PUNCT	Z	_	5	punct	_	start_char=187|end_char=188
+5	nogu	noga	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=188|end_char=192
+6	'	'	PUNCT	Z	_	5	punct	_	start_char=192|end_char=193
+7	prilagodnik	prilagodnik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=194|end_char=205
+8	za	za	ADP	Sa	Case=Acc	9	case	_	start_char=206|end_char=208
+9	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	nmod	_	start_char=209|end_char=211
+10	i	i	CCONJ	Cc	_	13	cc	_	start_char=212|end_char=213
+11	za	za	ADP	Sa	Case=Acc	12	case	_	start_char=214|end_char=216
+12	mene	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	start_char=217|end_char=221
+13	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=222|end_char=226
+14	.	.	PUNCT	Z	_	1	punct	_	start_char=226|end_char=227
+
+# text = Kvaliteta je izvrsna i definitivno očekujem da će mi dugo trajati.
+# sent_id = 3
+1	Kvaliteta	kvaliteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=228|end_char=237
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=238|end_char=240
+3	izvrsna	izvrstan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=241|end_char=248
+4	i	i	CCONJ	Cc	_	6	cc	_	start_char=249|end_char=250
+5	definitivno	definitivno	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=251|end_char=262
+6	očekujem	očekivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=263|end_char=271
+7	da	da	SCONJ	Cs	_	11	mark	_	start_char=272|end_char=274
+8	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=275|end_char=277
+9	mi	ja	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=278|end_char=280
+10	dugo	dugo	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=281|end_char=285
+11	trajati	trajati	VERB	Vmn	VerbForm=Inf	6	ccomp	_	start_char=286|end_char=293
+12	.	.	PUNCT	Z	_	3	punct	_	start_char=293|end_char=294
+
+# text = Sviđa mi se karabinjer jer možete koristiti 2 ili više istovremeno s ručkama kako postajete jači/jača."
+# sent_id = 4
+1	Sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=295|end_char=300
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=301|end_char=303
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=304|end_char=306
+4	karabinjer	karabinjer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=307|end_char=317
+5	jer	jer	SCONJ	Cs	_	6	mark	_	start_char=318|end_char=321
+6	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=322|end_char=328
+7	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=329|end_char=338
+8	2	2	NUM	Mdc	NumType=Card	7	obj	_	start_char=339|end_char=340
+9	ili	ili	CCONJ	Cc	_	10	cc	_	start_char=341|end_char=344
+10	više	mnogo	ADV	Rgc	Degree=Cmp	8	conj	_	start_char=345|end_char=349
+11	istovremeno	istovremeno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=350|end_char=361
+12	s	sa	ADP	Si	Case=Ins	13	case	_	start_char=362|end_char=363
+13	ručkama	ručak	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	11	obl	_	start_char=364|end_char=371
+14	kako	kako	SCONJ	Cs	_	15	mark	_	start_char=372|end_char=376
+15	postajete	postajati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=377|end_char=386
+16	jači/jača	jači/jač	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=387|end_char=396
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=396|end_char=397
+18	"	"	PUNCT	Z	_	1	punct	_	start_char=397|end_char=398
+

@@ -1,0 +1,86 @@
+# text = Mahtava setti.
+# sent_id = 0
+1	Mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	setti	setti	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=8|end_char=13
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=13|end_char=14
+
+# text = Pidän siitä, mutta minun täytyy sanoa, että toivoisin heidän sisällyttävän tavan "silmukoida" nauha johonkin, jotta voisin tehdä vedontai selkäliikkeitä.
+# sent_id = 1
+1	Pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=15|end_char=20
+2	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	1	obl	_	start_char=21|end_char=26
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=26|end_char=27
+4	mutta	mutta	CCONJ	C	_	7	cc	_	start_char=28|end_char=33
+5	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=34|end_char=39
+6	täytyy	täytyä	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=40|end_char=46
+7	sanoa	sanoa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	conj	_	start_char=47|end_char=52
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=52|end_char=53
+9	että	että	SCONJ	C	_	10	mark	_	start_char=54|end_char=58
+10	toivoisin	toivoa	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=59|end_char=68
+11	heidän	hän	PRON	Pron	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=69|end_char=75
+12	sisällyttävän	sisällyttää	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	10	xcomp:ds	_	start_char=76|end_char=89
+13	tavan	tapa	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=90|end_char=95
+14	"	"	PUNCT	Punct	_	15	punct	_	start_char=96|end_char=97
+15	silmukoida	silmukoida	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	acl	_	start_char=97|end_char=107
+16	"	"	PUNCT	Punct	_	15	punct	_	start_char=107|end_char=108
+17	nauha	nauha	NOUN	N	Case=Nom|Number=Sing	12	obj	_	start_char=109|end_char=114
+18	johonkin	jokin	PRON	Pron	Case=Ill|Number=Sing|PronType=Ind	12	obl	_	start_char=115|end_char=123
+19	,	,	PUNCT	Punct	_	22	punct	_	start_char=123|end_char=124
+20	jotta	jotta	SCONJ	C	_	22	mark	_	start_char=125|end_char=130
+21	voisin	voida	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	22	aux	_	start_char=131|end_char=137
+22	tehdä	tehdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=138|end_char=143
+23	vedontai	vedontai	NOUN	N	Case=Gen|Number=Sing	24	nmod:poss	_	start_char=144|end_char=152
+24	selkäliikkeitä	selkä#liike	NOUN	N	Case=Par|Number=Plur	22	obj	_	start_char=153|end_char=167
+25	.	.	PUNCT	Punct	_	1	punct	_	start_char=167|end_char=168
+
+# text = Päädyin käyttämään "nilkka"-liitintä tehdäkseni sen, ja se toimii minulle.
+# sent_id = 2
+1	Päädyin	päätyä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=169|end_char=176
+2	käyttämään	käyttää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=177|end_char=187
+3	"	"	PUNCT	Punct	_	4	punct	_	start_char=188|end_char=189
+4	nilkka	nilkka	NOUN	N	Case=Nom|Number=Sing	6	compound:nn	_	start_char=189|end_char=195
+5	"	"	PUNCT	Punct	_	4	punct	_	start_char=195|end_char=196
+6	-liitintä	liitintä	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=196|end_char=205
+7	tehdäkseni	tehdä	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=206|end_char=216
+8	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	7	obj	_	start_char=217|end_char=220
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=220|end_char=221
+10	ja	ja	CCONJ	C	_	12	cc	_	start_char=222|end_char=224
+11	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	start_char=225|end_char=227
+12	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=228|end_char=234
+13	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	12	obl	_	start_char=235|end_char=242
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=242|end_char=243
+
+# text = Laatu on loistava, ja näen varmasti tämän kestävän minulla pitkään.
+# sent_id = 3
+1	Laatu	laatu	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=244|end_char=249
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=250|end_char=252
+3	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=253|end_char=261
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=261|end_char=262
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=263|end_char=265
+6	näen	nähdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=266|end_char=270
+7	varmasti	varmasti	ADV	Adv	Derivation=Sti	6	advmod	_	start_char=271|end_char=279
+8	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	nsubj	_	start_char=280|end_char=285
+9	kestävän	kestää	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	6	xcomp:ds	_	start_char=286|end_char=294
+10	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	9	obl	_	start_char=295|end_char=302
+11	pitkään	pitkään	ADV	Adv	_	9	advmod	_	start_char=303|end_char=310
+12	.	.	PUNCT	Punct	_	3	punct	_	start_char=310|end_char=311
+
+# text = Pidän karabiinista, koska voit käyttää kahta tai useampaa samanaikaisesti kahvojen kanssa, kun tulet vahvemmaksi.
+# sent_id = 4
+1	Pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=312|end_char=317
+2	karabiinista	karabiini	NOUN	N	Case=Ela|Number=Sing	1	obl	_	start_char=318|end_char=330
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=330|end_char=331
+4	koska	koska	SCONJ	C	_	6	mark	_	start_char=332|end_char=337
+5	voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=338|end_char=342
+6	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=343|end_char=350
+7	kahta	kaksi	NUM	Num	Case=Par|NumType=Card|Number=Sing	6	obj	_	start_char=351|end_char=356
+8	tai	tai	CCONJ	C	_	9	cc	_	start_char=357|end_char=360
+9	useampaa	usea	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	7	conj	_	start_char=361|end_char=369
+10	samanaikaisesti	samanaikaisesti	ADV	Adv	Derivation=Sti	6	advmod	_	start_char=370|end_char=385
+11	kahvojen	kahvot	NOUN	N	Case=Gen|Number=Plur	6	obl	_	start_char=386|end_char=394
+12	kanssa	kanssa	ADP	Adp	AdpType=Post	11	case	_	start_char=395|end_char=401
+13	,	,	PUNCT	Punct	_	15	punct	_	start_char=401|end_char=402
+14	kun	kun	SCONJ	C	_	15	mark	_	start_char=403|end_char=406
+15	tulet	tulla	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=407|end_char=412
+16	vahvemmaksi	vahva	ADJ	A	Case=Tra|Degree=Cmp|Number=Sing	15	xcomp	_	start_char=413|end_char=424
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=424|end_char=425
+

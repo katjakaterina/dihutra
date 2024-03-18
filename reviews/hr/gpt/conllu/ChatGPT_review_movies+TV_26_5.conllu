@@ -1,0 +1,74 @@
+# text = Fonzie kao Scrooge Henry Winkler je izvrstan glumac i ova verzija poznate priče to jasno dokazuje.
+# sent_id = 0
+1	Fonzie	Fonzie	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=0|end_char=6
+2	kao	kao	SCONJ	Cs	_	3	case	_	start_char=7|end_char=10
+3	Scrooge	Scrooge	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=18
+4	Henry	Henry	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=19|end_char=24
+5	Winkler	Winkler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	start_char=25|end_char=32
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=33|end_char=35
+7	izvrstan	izvrstan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=36|end_char=44
+8	glumac	glumac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=45|end_char=51
+9	i	i	CCONJ	Cc	_	16	cc	_	start_char=52|end_char=53
+10	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	start_char=54|end_char=57
+11	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	start_char=58|end_char=65
+12	poznate	poznat	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=66|end_char=73
+13	priče	priča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=74|end_char=79
+14	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	obj	_	start_char=80|end_char=82
+15	jasno	jasno	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=83|end_char=88
+16	dokazuje	dokazivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=89|end_char=97
+17	.	.	PUNCT	Z	_	8	punct	_	start_char=97|end_char=98
+
+# text = Izvrsno obavlja ulogu Ebenezera Scroogea.
+# sent_id = 1
+1	Izvrsno	izvrsno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=99|end_char=106
+2	obavlja	obavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=107|end_char=114
+3	ulogu	uloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=115|end_char=120
+4	Ebenezera	Ebenezer	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=121|end_char=130
+5	Scroogea	Scrooge	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	flat	_	start_char=131|end_char=139
+6	.	.	PUNCT	Z	_	2	punct	_	start_char=139|end_char=140
+
+# text = Priča, naravno, ostaje ista kao u drugim verzijama, ali svaki remake donosi različito tumačenje od strane glumaca i pisaca.
+# sent_id = 2
+1	Priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=141|end_char=146
+2	,	,	PUNCT	Z	_	3	punct	_	start_char=146|end_char=147
+3	naravno	naravno	ADV	Rgp	Degree=Pos	5	discourse	_	start_char=148|end_char=155
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=155|end_char=156
+5	ostaje	ostajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=157|end_char=163
+6	ista	isti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	xcomp	_	start_char=164|end_char=168
+7	kao	kao	SCONJ	Cs	_	10	case	_	start_char=169|end_char=172
+8	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=173|end_char=174
+9	drugim	drugi	ADJ	Mlofpl	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=175|end_char=181
+10	verzijama	verzija	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	6	obl	_	start_char=182|end_char=191
+11	,	,	PUNCT	Z	_	15	punct	_	start_char=191|end_char=192
+12	ali	ali	CCONJ	Cc	_	15	cc	_	start_char=193|end_char=196
+13	svaki	svaki	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	14	det	_	start_char=197|end_char=202
+14	remake	remak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=203|end_char=209
+15	donosi	donositi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=210|end_char=216
+16	različito	različit	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=217|end_char=226
+17	tumačenje	tumačenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	start_char=227|end_char=236
+18	od	od	ADP	Sg	Case=Gen	19	case	_	start_char=237|end_char=239
+19	strane	strana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=240|end_char=246
+20	glumaca	glumac	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	start_char=247|end_char=254
+21	i	i	CCONJ	Cc	_	22	cc	_	start_char=255|end_char=256
+22	pisaca	pisac	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	conj	_	start_char=257|end_char=263
+23	.	.	PUNCT	Z	_	5	punct	_	start_char=263|end_char=264
+
+# text = Ova je verzija zabavna i laka za gledanje.
+# sent_id = 3
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=265|end_char=268
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=269|end_char=271
+3	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=272|end_char=279
+4	zabavna	zabavan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=280|end_char=287
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=288|end_char=289
+6	laka	lak	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	start_char=290|end_char=294
+7	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=295|end_char=297
+8	gledanje	gledanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=298|end_char=306
+9	.	.	PUNCT	Z	_	4	punct	_	start_char=306|end_char=307
+
+# text = Izvrstan obiteljski film.
+# sent_id = 4
+1	Izvrstan	izvrstan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=308|end_char=316
+2	obiteljski	obiteljski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=317|end_char=327
+3	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=328|end_char=332
+4	.	.	PUNCT	Z	_	3	punct	_	start_char=332|end_char=333
+

@@ -1,0 +1,98 @@
+# text = Obožavam ovo!
+# sent_id = 0
+1	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=8
+2	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=9|end_char=12
+3	!	!	PUNCT	Z	_	1	punct	_	start_char=12|end_char=13
+
+# text = Obje strane su magnetske.
+# sent_id = 1
+1	Obje	oba	NUM	Mlsf-n	Case=Nom|Gender=Fem|NumType=Mult	2	nummod	_	start_char=14|end_char=18
+2	strane	strana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	start_char=19|end_char=25
+3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=26|end_char=28
+4	magnetske	magnetski	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=29|end_char=38
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=38|end_char=39
+
+# text = Stvarno je prednost kad zabavljate više djece istovremeno.
+# sent_id = 2
+1	Stvarno	stvarno	ADV	Rgp	Degree=Pos	0	root	_	start_char=40|end_char=47
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=48|end_char=50
+3	prednost	prednost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=51|end_char=59
+4	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	5	advmod	_	start_char=60|end_char=63
+5	zabavljate	zabavljati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	csubj	_	start_char=64|end_char=74
+6	više	mnogo	DET	Rgc	Degree=Cmp	7	det:numgov	_	start_char=75|end_char=79
+7	djece	dijete	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	5	obj	_	start_char=80|end_char=85
+8	istovremeno	istovremeno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=86|end_char=97
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=97|end_char=98
+
+# text = Četverogodišnjak može pronaći slova za riječi, dok dvogodišnjak može pronaći slike koje riječi stvaraju.
+# sent_id = 3
+1	Četverogodišnjak	četverogodišnjak	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	start_char=99|end_char=115
+2	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=116|end_char=120
+3	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=121|end_char=128
+4	slova	slovo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=129|end_char=134
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=135|end_char=137
+6	riječi	riječ	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=138|end_char=144
+7	,	,	PUNCT	Z	_	10	punct	_	start_char=144|end_char=145
+8	dok	dok	SCONJ	Cs	_	10	cc	_	start_char=146|end_char=149
+9	dvogodišnjak	dvogodišnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=150|end_char=162
+10	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=163|end_char=167
+11	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	10	xcomp	_	start_char=168|end_char=175
+12	slike	slika	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=176|end_char=181
+13	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	15	obj	_	start_char=182|end_char=186
+14	riječi	riječ	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	start_char=187|end_char=193
+15	stvaraju	stvarati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=194|end_char=202
+16	.	.	PUNCT	Z	_	2	punct	_	start_char=202|end_char=203
+
+# text = (Kupio/la sam slova i magnetske slike koje idu uz ovu ploču).
+# sent_id = 4
+1	(	(	PUNCT	Z	_	2	punct	_	start_char=204|end_char=205
+2	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=205|end_char=213
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=214|end_char=217
+4	slova	slovo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	2	nmod	_	start_char=218|end_char=223
+5	i	i	CCONJ	Cc	_	7	cc	_	start_char=224|end_char=225
+6	magnetske	magnetski	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=226|end_char=235
+7	slike	slika	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	start_char=236|end_char=241
+8	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	9	nsubj	_	start_char=242|end_char=246
+9	idu	ići	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=247|end_char=250
+10	uz	uz	ADP	Sa	Case=Acc	12	case	_	start_char=251|end_char=253
+11	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=254|end_char=257
+12	ploču	ploča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	start_char=258|end_char=263
+13	)	)	PUNCT	Z	_	2	punct	_	start_char=263|end_char=264
+14	.	.	PUNCT	Z	_	2	punct	_	start_char=264|end_char=265
+
+# text = Oboma unucima se jako svidjelo, što znači da se i meni jako sviđa.
+# sent_id = 5
+1	Oboma	obaj	DET	Pd-mpd	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	5	obj	_	start_char=266|end_char=271
+2	unucima	unug	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	5	obj	_	start_char=272|end_char=279
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=280|end_char=282
+4	jako	jako	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=283|end_char=287
+5	svidjelo	svidjeti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=288|end_char=296
+6	,	,	PUNCT	Z	_	8	punct	_	start_char=296|end_char=297
+7	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	8	nsubj	_	start_char=298|end_char=301
+8	znači	značiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=302|end_char=307
+9	da	da	SCONJ	Cs	_	14	mark	_	start_char=308|end_char=310
+10	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	start_char=311|end_char=313
+11	i	i	CCONJ	Cc	_	14	discourse	_	start_char=314|end_char=315
+12	meni	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	obj	_	start_char=316|end_char=320
+13	jako	jako	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=321|end_char=325
+14	sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	start_char=326|end_char=331
+15	.	.	PUNCT	Z	_	5	punct	_	start_char=331|end_char=332
+
+# text = Još nisam uveo markere, jer će se ovo koristiti isključivo kao magnetska ploča.
+# sent_id = 6
+1	Još	još	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=333|end_char=336
+2	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=337|end_char=342
+3	uveo	uvesti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=343|end_char=347
+4	markere	markera	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=348|end_char=355
+5	,	,	PUNCT	Z	_	10	punct	_	start_char=355|end_char=356
+6	jer	jer	SCONJ	Cs	_	10	mark	_	start_char=357|end_char=360
+7	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=361|end_char=363
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	start_char=364|end_char=366
+9	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=367|end_char=370
+10	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	3	advcl	_	start_char=371|end_char=380
+11	isključivo	isključivo	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=381|end_char=391
+12	kao	kao	SCONJ	Cs	_	14	case	_	start_char=392|end_char=395
+13	magnetska	magnetski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=396|end_char=405
+14	ploča	ploča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	start_char=406|end_char=411
+15	.	.	PUNCT	Z	_	3	punct	_	start_char=411|end_char=412
+

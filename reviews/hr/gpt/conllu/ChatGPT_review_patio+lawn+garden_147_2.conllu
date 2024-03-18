@@ -1,0 +1,101 @@
+# text = Morao sam ga vratiti...
+# sent_id = 0
+1	Morao	morati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=5
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=6|end_char=9
+3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=10|end_char=12
+4	vratiti	vratiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=13|end_char=20
+5	...	...	PUNCT	Z	_	1	punct	_	start_char=20|end_char=23
+
+# text = Ovaj rezač čak ni približno ne reže grane debljine 1 inč, bilo da su mokre ili suhe.
+# sent_id = 1
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=24|end_char=28
+2	rezač	rezač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=29|end_char=34
+3	čak	čak	PART	Qo	_	5	advmod	_	start_char=35|end_char=38
+4	ni	ni	PART	Qo	_	5	advmod	_	start_char=39|end_char=41
+5	približno	približno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=42|end_char=51
+6	ne	ne	PART	Qz	Polarity=Neg	7	advmod	_	start_char=52|end_char=54
+7	reže	režati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=55|end_char=59
+8	grane	grana	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=60|end_char=65
+9	debljine	debljina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=66|end_char=74
+10	1	1	NUM	Mdc	NumType=Card	11	nummod	_	start_char=75|end_char=76
+11	inč	inč	NOUN	Y	_	9	nmod	_	start_char=77|end_char=80
+12	,	,	PUNCT	Z	_	13	punct	_	start_char=80|end_char=81
+13	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	start_char=82|end_char=86
+14	da	da	SCONJ	Cs	_	15	mark	_	start_char=87|end_char=89
+15	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	start_char=90|end_char=92
+16	mokre	mokar	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	start_char=93|end_char=98
+17	ili	ili	CCONJ	Cc	_	18	cc	_	start_char=99|end_char=102
+18	suhe	suha	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	16	conj	_	start_char=103|end_char=107
+19	.	.	PUNCT	Z	_	7	punct	_	start_char=107|end_char=108
+
+# text = Ne reže grane debljine 3/4 inča.
+# sent_id = 2
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=109|end_char=111
+2	reže	režati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=112|end_char=116
+3	grane	grana	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=117|end_char=122
+4	debljine	debljina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=123|end_char=131
+5	3/4	3/4	NUM	Mdc	NumType=Card	6	nummod:gov	_	start_char=132|end_char=135
+6	inča	inč	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=136|end_char=140
+7	.	.	PUNCT	Z	_	2	punct	_	start_char=140|end_char=141
+
+# text = Možda će neke suhe grane debljine 1/2 inča moći rezati, ali barem onaj koji sam dobio nije bio naoštren i bio sam prisiljen ga vratiti.
+# sent_id = 3
+1	Možda	možda	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=142|end_char=147
+2	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=148|end_char=150
+3	neke	neki	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=151|end_char=155
+4	suhe	suh	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=156|end_char=160
+5	grane	grana	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=161|end_char=166
+6	debljine	debljina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=167|end_char=175
+7	1/2	1/2	NUM	Mdc	NumType=Card	8	nummod:gov	_	start_char=176|end_char=179
+8	inča	inč	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=180|end_char=184
+9	moći	moći	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=185|end_char=189
+10	rezati	rezati	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=190|end_char=196
+11	,	,	PUNCT	Z	_	20	punct	_	start_char=196|end_char=197
+12	ali	ali	CCONJ	Cc	_	20	cc	_	start_char=198|end_char=201
+13	barem	barem	PART	Qo	_	14	advmod	_	start_char=202|end_char=207
+14	onaj	onaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	nsubj	_	start_char=208|end_char=212
+15	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	nsubj	_	start_char=213|end_char=217
+16	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=218|end_char=221
+17	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	acl	_	start_char=222|end_char=227
+18	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=228|end_char=232
+19	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	cop	_	start_char=233|end_char=236
+20	naoštren	naoštren	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	start_char=237|end_char=245
+21	i	i	CCONJ	Cc	_	24	cc	_	start_char=246|end_char=247
+22	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	24	cop	_	start_char=248|end_char=251
+23	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	start_char=252|end_char=255
+24	prisiljen	prisiliti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	start_char=256|end_char=265
+25	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	start_char=266|end_char=268
+26	vratiti	vratiti	VERB	Vmn	VerbForm=Inf	24	xcomp	_	start_char=269|end_char=276
+27	.	.	PUNCT	Z	_	9	punct	_	start_char=276|end_char=277
+
+# text = Još nisam odlučio koji ću novi kupiti, budući da sam bio toliko razočaran nakon što sam pročitao sve te pozitivne povratne informacije i pronašao nešto drugačije.
+# sent_id = 4
+1	Još	još	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=278|end_char=281
+2	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=282|end_char=287
+3	odlučio	odlučiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=288|end_char=295
+4	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=296|end_char=300
+5	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=301|end_char=303
+6	novi	nov	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	start_char=304|end_char=308
+7	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	3	ccomp	_	start_char=309|end_char=315
+8	,	,	PUNCT	Z	_	14	punct	_	start_char=315|end_char=316
+9	budući	budući	SCONJ	Cs	_	14	mark	_	start_char=317|end_char=323
+10	da	da	SCONJ	Cs	_	9	fixed	_	start_char=324|end_char=326
+11	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=327|end_char=330
+12	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	cop	_	start_char=331|end_char=334
+13	toliko	toliko	ADV	Rgp	Degree=Pos|PronType=Dem	14	advmod	_	start_char=335|end_char=341
+14	razočaran	razočaran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	advcl	_	start_char=342|end_char=351
+15	nakon	nakon	SCONJ	Cs	_	18	mark	_	start_char=352|end_char=357
+16	što	što	SCONJ	Cs	_	15	fixed	_	start_char=358|end_char=361
+17	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=362|end_char=365
+18	pročitao	pročitati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	advcl	_	start_char=366|end_char=374
+19	sve	sav	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=375|end_char=378
+20	te	taj	DET	Pd-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	23	det	_	start_char=379|end_char=381
+21	pozitivne	pozitivan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=382|end_char=391
+22	povratne	povratan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	start_char=392|end_char=400
+23	informacije	informacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	start_char=401|end_char=412
+24	i	i	CCONJ	Cc	_	25	cc	_	start_char=413|end_char=414
+25	pronašao	pronaći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	18	conj	_	start_char=415|end_char=423
+26	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	25	obj	_	start_char=424|end_char=429
+27	drugačije	drugačije	ADV	Rgp	Degree=Pos	25	advmod	_	start_char=430|end_char=439
+28	.	.	PUNCT	Z	_	3	punct	_	start_char=439|end_char=440
+

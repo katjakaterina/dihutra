@@ -1,0 +1,72 @@
+# text = dobro Nema puno toga za napisati ovdje, ali radi upravo ono što bi trebalo.
+# sent_id = 0
+1	dobro	dobro	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=5
+2	Nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=6|end_char=10
+3	puno	puno	DET	Rgp	Degree=Pos	4	det:numgov	_	start_char=11|end_char=15
+4	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=16|end_char=20
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=21|end_char=23
+6	napisati	napisati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=24|end_char=32
+7	ovdje	ovdje	ADV	Rgp	Degree=Pos|PronType=Dem	6	advmod	_	start_char=33|end_char=38
+8	,	,	PUNCT	Z	_	10	punct	_	start_char=38|end_char=39
+9	ali	ali	CCONJ	Cc	_	10	cc	_	start_char=40|end_char=43
+10	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=44|end_char=48
+11	upravo	upravo	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=49|end_char=55
+12	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=56|end_char=59
+13	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	15	nsubj	_	start_char=60|end_char=63
+14	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	start_char=64|end_char=66
+15	trebalo	trebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	start_char=67|end_char=74
+16	.	.	PUNCT	Z	_	2	punct	_	start_char=74|end_char=75
+
+# text = filtrira zvukove "pop".
+# sent_id = 1
+1	filtrira	filtrirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=76|end_char=84
+2	zvukove	zvuk	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=85|end_char=92
+3	"	"	PUNCT	Z	_	4	punct	_	start_char=93|end_char=94
+4	pop	rock	X	Xf	Foreign=Yes	2	appos	_	start_char=94|end_char=97
+5	"	"	PUNCT	Z	_	4	punct	_	start_char=97|end_char=98
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=98|end_char=99
+
+# text = sada su moji snimci mnogo čišći.
+# sent_id = 2
+1	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	6	advmod	_	start_char=100|end_char=104
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=105|end_char=107
+3	moji	moj	DET	Ps1mpn	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=108|end_char=112
+4	snimci	snimka	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=113|end_char=119
+5	mnogo	mnogo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=120|end_char=125
+6	čišći	čišti	ADJ	Agcmpny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Plur	0	root	_	start_char=126|end_char=131
+7	.	.	PUNCT	Z	_	6	punct	_	start_char=131|end_char=132
+
+# text = to je jedan od najnižih cijena za filtere za "pop" na Amazonu, pa bi bilo dobro da ga kupite, iskreno rade isto bez obzira na cijenu.
+# sent_id = 3
+1	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=133|end_char=135
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=136|end_char=138
+3	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	6	nummod:gov	_	start_char=139|end_char=144
+4	od	od	ADP	Sg	Case=Gen	6	case	_	start_char=145|end_char=147
+5	najnižih	nizak	ADJ	Agsfpgy	Case=Gen|Definite=Def|Degree=Sup|Gender=Fem|Number=Plur	6	amod	_	start_char=148|end_char=156
+6	cijena	cijena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	0	root	_	start_char=157|end_char=163
+7	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=164|end_char=166
+8	filtere	filter	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=167|end_char=174
+9	za	za	ADP	Sa	Case=Acc	11	case	_	start_char=175|end_char=177
+10	"	"	PUNCT	Z	_	11	punct	_	start_char=178|end_char=179
+11	pop	rock	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	start_char=179|end_char=182
+12	"	"	PUNCT	Z	_	11	punct	_	start_char=182|end_char=183
+13	na	na	ADP	Sl	Case=Loc	14	case	_	start_char=184|end_char=186
+14	Amazonu	Amazon	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	start_char=187|end_char=194
+15	,	,	PUNCT	Z	_	19	punct	_	start_char=194|end_char=195
+16	pa	pa	CCONJ	Cc	_	19	cc	_	start_char=196|end_char=198
+17	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	start_char=199|end_char=201
+18	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	cop	_	start_char=202|end_char=206
+19	dobro	dobar	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	start_char=207|end_char=212
+20	da	da	SCONJ	Cs	_	22	mark	_	start_char=213|end_char=215
+21	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	start_char=216|end_char=218
+22	kupite	kupiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	csubj	_	start_char=219|end_char=225
+23	,	,	PUNCT	Z	_	25	punct	_	start_char=225|end_char=226
+24	iskreno	iskreno	ADV	Rgp	Degree=Pos	25	advmod	_	start_char=227|end_char=234
+25	rade	raditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	csubj	_	start_char=235|end_char=239
+26	isto	isto	ADV	Rgp	Degree=Pos	27	advmod	_	start_char=240|end_char=244
+27	bez	bez	ADP	Sg	Case=Gen	28	case	_	start_char=245|end_char=248
+28	obzira	obzir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	25	obl	_	start_char=249|end_char=255
+29	na	na	ADP	Sa	Case=Acc	30	case	_	start_char=256|end_char=258
+30	cijenu	cijena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	start_char=259|end_char=265
+31	.	.	PUNCT	Z	_	6	punct	_	start_char=265|end_char=266
+

@@ -1,0 +1,89 @@
+# text = Beskorisna zamka, užasno loš dizajn Kune slobodno kradu mamac iz ove zamke.
+# sent_id = 0
+1	Beskorisna	beskoristan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	zamka	zamka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=11|end_char=16
+3	,	,	PUNCT	Z	_	2	punct	_	start_char=16|end_char=17
+4	užasno	užasno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=18|end_char=24
+5	loš	loš	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=25|end_char=28
+6	dizajn	dizajn	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=29|end_char=35
+7	Kune	Kuna	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=36|end_char=40
+8	slobodno	slobodno	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=41|end_char=49
+9	kradu	kraditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=50|end_char=55
+10	mamac	mamac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=56|end_char=61
+11	iz	iz	ADP	Sg	Case=Gen	13	case	_	start_char=62|end_char=64
+12	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=65|end_char=68
+13	zamke	zamka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=69|end_char=74
+14	.	.	PUNCT	Z	_	9	punct	_	start_char=74|end_char=75
+
+# text = Morao sam prepraviti okidač da bi uopće mogao aktivirati, jer kugla za bowling ne bi pritisnula okidač na početku.
+# sent_id = 1
+1	Morao	morati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=76|end_char=81
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=82|end_char=85
+3	prepraviti	prepraviti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=86|end_char=96
+4	okidač	okidač	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=97|end_char=103
+5	da	da	SCONJ	Cs	_	8	mark	_	start_char=104|end_char=106
+6	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=107|end_char=109
+7	uopće	uopće	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=110|end_char=115
+8	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	start_char=116|end_char=121
+9	aktivirati	aktivirati	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=122|end_char=132
+10	,	,	PUNCT	Z	_	17	punct	_	start_char=132|end_char=133
+11	jer	jer	SCONJ	Cs	_	17	mark	_	start_char=134|end_char=137
+12	kugla	kugal	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=138|end_char=143
+13	za	za	ADP	Sa	Case=Acc	14	case	_	start_char=144|end_char=146
+14	bowling	bowling	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	start_char=147|end_char=154
+15	ne	ne	PART	Qz	Polarity=Neg	17	advmod	_	start_char=155|end_char=157
+16	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	start_char=158|end_char=160
+17	pritisnula	pritisnuti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	_	start_char=161|end_char=171
+18	okidač	okidač	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=172|end_char=178
+19	na	na	ADP	Sl	Case=Loc	20	case	_	start_char=179|end_char=181
+20	početku	početak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	start_char=182|end_char=189
+21	.	.	PUNCT	Z	_	1	punct	_	start_char=189|end_char=190
+
+# text = Preporučuju da stavite mamac iza okidača, ali kune jednostavno dosegnu kroz mrežu i uzmu mamac, još jedan ozbiljan nedostatak dizajna.
+# sent_id = 2
+1	Preporučuju	preporučivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=191|end_char=202
+2	da	da	SCONJ	Cs	_	3	mark	_	start_char=203|end_char=205
+3	stavite	staviti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=206|end_char=213
+4	mamac	mamac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=214|end_char=219
+5	iza	iza	ADP	Sg	Case=Gen	6	case	_	start_char=220|end_char=223
+6	okidača	okidač	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=224|end_char=231
+7	,	,	PUNCT	Z	_	11	punct	_	start_char=231|end_char=232
+8	ali	ali	CCONJ	Cc	_	11	cc	_	start_char=233|end_char=236
+9	kune	kuna	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	start_char=237|end_char=241
+10	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=242|end_char=253
+11	dosegnu	doseći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=254|end_char=261
+12	kroz	kroz	ADP	Sa	Case=Acc	13	case	_	start_char=262|end_char=266
+13	mrežu	mreža	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=267|end_char=272
+14	i	i	CCONJ	Cc	_	15	cc	_	start_char=273|end_char=274
+15	uzmu	uzmti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=275|end_char=279
+16	mamac	mamac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=280|end_char=285
+17	,	,	PUNCT	Z	_	21	punct	_	start_char=285|end_char=286
+18	još	još	ADV	Rgp	Degree=Pos	19	advmod	_	start_char=287|end_char=290
+19	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	21	nummod	_	start_char=291|end_char=296
+20	ozbiljan	ozbiljan	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=297|end_char=305
+21	nedostatak	nedostatak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	conj	_	start_char=306|end_char=316
+22	dizajna	dizajn	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=317|end_char=324
+23	.	.	PUNCT	Z	_	1	punct	_	start_char=324|end_char=325
+
+# text = Postoje zamke koje funkcioniraju, ova definitivno nije jedna od njih.
+# sent_id = 3
+1	Postoje	postojati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=326|end_char=333
+2	zamke	zamka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=334|end_char=339
+3	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	4	nsubj	_	start_char=340|end_char=344
+4	funkcioniraju	funkcionirati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=345|end_char=358
+5	,	,	PUNCT	Z	_	9	punct	_	start_char=358|end_char=359
+6	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	nsubj	_	start_char=360|end_char=363
+7	definitivno	definitivno	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=364|end_char=375
+8	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=376|end_char=380
+9	jedna	jedan	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	1	conj	_	start_char=381|end_char=386
+10	od	od	ADP	Sg	Case=Gen	11	case	_	start_char=387|end_char=389
+11	njih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	nmod	_	start_char=390|end_char=394
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=394|end_char=395
+
+# text = Štedite svoj novac!
+# sent_id = 4
+1	Štedite	štediti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=396|end_char=403
+2	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	start_char=404|end_char=408
+3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=409|end_char=414
+4	!	!	PUNCT	Z	_	1	punct	_	start_char=414|end_char=415
+

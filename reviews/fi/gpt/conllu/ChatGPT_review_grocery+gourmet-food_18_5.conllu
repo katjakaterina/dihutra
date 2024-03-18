@@ -1,0 +1,68 @@
+# text = Mahtava maku
+# sent_id = 0
+1	Mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	maku	maku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	0	root	_	start_char=8|end_char=12
+
+# text = Olen ostanut erilaisia currytavaroita ruokakaupasta enkä ole koskaan ollut täysin tyytyväinen makuun.
+# sent_id = 1
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=13|end_char=17
+2	ostanut	ostaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=18|end_char=25
+3	erilaisia	erilainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Plur	4	amod	_	start_char=26|end_char=35
+4	currytavaroita	curry#tavara	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=36|end_char=50
+5	ruokakaupasta	ruoka#kauppa	NOUN	N	Case=Ela|Number=Sing	4	nmod	_	start_char=51|end_char=64
+6	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=65|end_char=69
+7	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=70|end_char=73
+8	koskaan	koskaan	ADV	Adv	_	11	advmod	_	start_char=74|end_char=81
+9	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	cop	_	start_char=82|end_char=87
+10	täysin	täysin	ADV	Adv	_	11	advmod	_	start_char=88|end_char=94
+11	tyytyväinen	tyytyväinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	conj	_	start_char=95|end_char=106
+12	makuun	maku	NOUN	N	Case=Ill|Derivation=U|Number=Sing	11	nmod	_	start_char=107|end_char=113
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=113|end_char=114
+
+# text = Luin reseptin, joka suositteli tätä merkkiä, ja käytettyäni sitä näen, miksi he suosittelevat juuri tätä merkkiä.
+# sent_id = 2
+1	Luin	lukea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=115|end_char=119
+2	reseptin	resepti	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=120|end_char=128
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=128|end_char=129
+4	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	5	nsubj	_	start_char=130|end_char=134
+5	suositteli	suositella	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=135|end_char=145
+6	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	7	det	_	start_char=146|end_char=150
+7	merkkiä	merkki	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=151|end_char=158
+8	,	,	PUNCT	Punct	_	12	punct	_	start_char=158|end_char=159
+9	ja	ja	CCONJ	C	_	12	cc	_	start_char=160|end_char=162
+10	käytettyäni	käyttää	VERB	V	Case=Par|Number=Sing|Number[psor]=Sing|PartForm=Past|Person[psor]=1|VerbForm=Part|Voice=Act	12	advcl	_	start_char=163|end_char=174
+11	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	10	obj	_	start_char=175|end_char=179
+12	näen	nähdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=180|end_char=184
+13	,	,	PUNCT	Punct	_	16	punct	_	start_char=184|end_char=185
+14	miksi	miksi	ADV	Adv	_	16	advmod	_	start_char=186|end_char=191
+15	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=192|end_char=194
+16	suosittelevat	suositella	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	start_char=195|end_char=208
+17	juuri	juuri	ADV	Adv	_	18	advmod	_	start_char=209|end_char=214
+18	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	19	det	_	start_char=215|end_char=219
+19	merkkiä	merkki	NOUN	N	Case=Par|Number=Sing	16	obj	_	start_char=220|end_char=227
+20	.	.	PUNCT	Punct	_	1	punct	_	start_char=227|end_char=228
+
+# text = Mahtava maku - ostin kaikki kolme - vihreää, punaista ja keltaista currytahnaa, ja olen nauttinut kaikista kolmesta tyypistä.
+# sent_id = 3
+1	Mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=229|end_char=236
+2	maku	maku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	4	vocative	_	start_char=237|end_char=241
+3	-	-	PUNCT	Punct	_	4	punct	_	start_char=242|end_char=243
+4	ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=244|end_char=249
+5	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	det	_	start_char=250|end_char=256
+6	kolme	kolme	NUM	Num	Case=Nom|NumType=Card|Number=Sing	13	nummod	_	start_char=257|end_char=262
+7	-	-	PUNCT	Punct	_	8	punct	_	start_char=263|end_char=264
+8	vihreää	vihreä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	6	conj	_	start_char=265|end_char=272
+9	,	,	PUNCT	Punct	_	10	punct	_	start_char=272|end_char=273
+10	punaista	punainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	6	conj	_	start_char=274|end_char=282
+11	ja	ja	CCONJ	C	_	12	cc	_	start_char=283|end_char=285
+12	keltaista	keltainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	6	conj	_	start_char=286|end_char=295
+13	currytahnaa	curry#tahna	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=296|end_char=307
+14	,	,	PUNCT	Punct	_	17	punct	_	start_char=307|end_char=308
+15	ja	ja	CCONJ	C	_	17	cc	_	start_char=309|end_char=311
+16	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	start_char=312|end_char=316
+17	nauttinut	nauttia	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=317|end_char=326
+18	kaikista	kaikki	PRON	Pron	Case=Ela|Number=Plur|PronType=Ind	20	det	_	start_char=327|end_char=335
+19	kolmesta	kolme	NUM	Num	Case=Ela|NumType=Card|Number=Sing	20	nummod	_	start_char=336|end_char=344
+20	tyypistä	tyyppi	NOUN	N	Case=Ela|Number=Sing	17	obl	_	start_char=345|end_char=353
+21	.	.	PUNCT	Punct	_	4	punct	_	start_char=353|end_char=354
+

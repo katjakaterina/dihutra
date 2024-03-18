@@ -1,0 +1,111 @@
+# text = Obožavam igru Želim početi tako da kažem da nikada nisam igrao Call of Duty igre.
+# sent_id = 0
+1	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=0|end_char=8
+2	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=9|end_char=13
+3	Želim	željeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=14|end_char=19
+4	početi	početi	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=20|end_char=26
+5	tako	tako	SCONJ	Cs	_	7	mark	_	start_char=27|end_char=31
+6	da	da	SCONJ	Cs	_	5	fixed	_	start_char=32|end_char=34
+7	kažem	kazati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=35|end_char=40
+8	da	da	SCONJ	Cs	_	11	mark	_	start_char=41|end_char=43
+9	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	11	advmod	_	start_char=44|end_char=50
+10	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=51|end_char=56
+11	igrao	igrati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	ccomp	_	start_char=57|end_char=62
+12	Call	call	X	Xf	Foreign=Yes	11	obj	_	start_char=63|end_char=67
+13	of	of	X	Xf	Foreign=Yes	12	flat	_	start_char=68|end_char=70
+14	Duty	duty	X	Xf	Foreign=Yes	12	flat	_	start_char=71|end_char=75
+15	igre	igra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	flat	_	start_char=76|end_char=80
+16	.	.	PUNCT	Z	_	3	punct	_	start_char=80|end_char=81
+
+# text = Ovo je tek druga pucačina iz prvog lica koju posjedujem.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=82|end_char=85
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=86|end_char=88
+3	tek	tek	PART	Qo	_	5	advmod	_	start_char=89|end_char=92
+4	druga	drugi	ADJ	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=93|end_char=98
+5	pucačina	pucačina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=99|end_char=107
+6	iz	iz	ADP	Sg	Case=Gen	8	case	_	start_char=108|end_char=110
+7	prvog	prvi	ADJ	Mlonsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=111|end_char=116
+8	lica	lice	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=117|end_char=121
+9	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	10	obj	_	start_char=122|end_char=126
+10	posjedujem	posjedovati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=127|end_char=137
+11	.	.	PUNCT	Z	_	5	punct	_	start_char=137|end_char=138
+
+# text = Mislim da je vrlo zabavna.
+# sent_id = 2
+1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=139|end_char=145
+2	da	da	SCONJ	Cs	_	5	mark	_	start_char=146|end_char=148
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=149|end_char=151
+4	vrlo	vrlo	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=152|end_char=156
+5	zabavna	zabavan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	1	ccomp	_	start_char=157|end_char=164
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=164|end_char=165
+
+# text = Ima dobru grafiku i lijepu priču.
+# sent_id = 3
+1	Ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=166|end_char=169
+2	dobru	dobar	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=170|end_char=175
+3	grafiku	grafika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=176|end_char=183
+4	i	i	CCONJ	Cc	_	6	cc	_	start_char=184|end_char=185
+5	lijepu	lijep	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=186|end_char=192
+6	priču	priča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	start_char=193|end_char=198
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=198|end_char=199
+
+# text = Potrebna je određena vještina da se prođu razini.
+# sent_id = 4
+1	Potrebna	potreban	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=200|end_char=208
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=209|end_char=211
+3	određena	određen	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=212|end_char=220
+4	vještina	vještina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=221|end_char=229
+5	da	da	SCONJ	Cs	_	7	mark	_	start_char=230|end_char=232
+6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	start_char=233|end_char=235
+7	prođu	proći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=236|end_char=241
+8	razini	razina	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	7	obj	_	start_char=242|end_char=248
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=248|end_char=249
+
+# text = Mislim da će svi igrači moći uživati u ovoj igri.
+# sent_id = 5
+1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=250|end_char=256
+2	da	da	SCONJ	Cs	_	6	mark	_	start_char=257|end_char=259
+3	će	htjeti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=260|end_char=262
+4	svi	sav	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=263|end_char=266
+5	igrači	igrač	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	start_char=267|end_char=273
+6	moći	moći	VERB	Vmn	VerbForm=Inf	1	ccomp	_	start_char=274|end_char=278
+7	uživati	uživati	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=279|end_char=286
+8	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=287|end_char=288
+9	ovoj	ovaj	DET	Pd-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=289|end_char=293
+10	igri	igra	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=294|end_char=298
+11	.	.	PUNCT	Z	_	1	punct	_	start_char=298|end_char=299
+
+# text = Postoje tri razine koje možete odabrati prema svojoj razini vještine.
+# sent_id = 6
+1	Postoje	postojati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=300|end_char=307
+2	tri	tri	NUM	Mlc	NumType=Card	3	nummod	_	start_char=308|end_char=311
+3	razine	razina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=312|end_char=318
+4	koje	koji	DET	Pi-fpn	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	5	obj	_	start_char=319|end_char=323
+5	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=324|end_char=330
+6	odabrati	odabrati	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=331|end_char=339
+7	prema	prema	ADP	Sl	Case=Loc	9	case	_	start_char=340|end_char=345
+8	svojoj	svoj	DET	Px-fsl	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	start_char=346|end_char=352
+9	razini	razina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=353|end_char=359
+10	vještine	vještina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=360|end_char=368
+11	.	.	PUNCT	Z	_	1	punct	_	start_char=368|end_char=369
+
+# text = Ako tražite pucačinu iz prvog lica s aktualnim vojnim temama, ovo je dobar izbor.
+# sent_id = 7
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=370|end_char=373
+2	tražite	tražiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=374|end_char=381
+3	pucačinu	pucačin	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=382|end_char=390
+4	iz	iz	ADP	Sg	Case=Gen	6	case	_	start_char=391|end_char=393
+5	prvog	prvi	ADJ	Mlonsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=394|end_char=399
+6	lica	lice	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=400|end_char=404
+7	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=405|end_char=406
+8	aktualnim	aktualan	ADJ	Agpfpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=407|end_char=416
+9	vojnim	vojni	ADJ	Agpfpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	start_char=417|end_char=423
+10	temama	tema	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	6	nmod	_	start_char=424|end_char=430
+11	,	,	PUNCT	Z	_	2	punct	_	start_char=430|end_char=431
+12	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=432|end_char=435
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=436|end_char=438
+14	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=439|end_char=444
+15	izbor	izbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=445|end_char=450
+16	.	.	PUNCT	Z	_	15	punct	_	start_char=450|end_char=451
+

@@ -1,0 +1,80 @@
+# text = Pazite, početnici Evo kako stvari stoje s ovom pedalom.
+# sent_id = 0
+1	Pazite	pazati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	Z	_	3	punct	_	start_char=6|end_char=7
+3	početnici	početnik	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	start_char=8|end_char=17
+4	Evo	evo	PART	Qo	_	3	nmod	_	start_char=18|end_char=21
+5	kako	kako	SCONJ	Cs	_	7	mark	_	start_char=22|end_char=26
+6	stvari	stvar	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=27|end_char=33
+7	stoje	stajati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=34|end_char=39
+8	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=40|end_char=41
+9	ovom	ovaj	DET	Pd-fsi	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=42|end_char=46
+10	pedalom	pedal	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	7	obl	_	start_char=47|end_char=54
+11	.	.	PUNCT	Z	_	1	punct	_	start_char=54|end_char=55
+
+# text = Jeftina je, i možete dobiti bolju pedalu s tek malo više novca, ponekad i s manje novca.
+# sent_id = 1
+1	Jeftina	jeftin	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=56|end_char=63
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=64|end_char=66
+3	,	,	PUNCT	Z	_	5	punct	_	start_char=66|end_char=67
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=68|end_char=69
+5	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=70|end_char=76
+6	dobiti	dobiti	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=77|end_char=83
+7	bolju	dobar	ADJ	Agcfsay	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	start_char=84|end_char=89
+8	pedalu	pedala	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=90|end_char=96
+9	s	sa	ADP	Si	Case=Ins	13	case	_	start_char=97|end_char=98
+10	tek	tek	PART	Qo	_	11	advmod	_	start_char=99|end_char=102
+11	malo	malo	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=103|end_char=107
+12	više	mnogo	DET	Rgc	Degree=Cmp	13	det:numgov	_	start_char=108|end_char=112
+13	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=113|end_char=118
+14	,	,	PUNCT	Z	_	19	punct	_	start_char=118|end_char=119
+15	ponekad	ponekad	ADV	Rgp	Degree=Pos|PronType=Ind	19	advmod	_	start_char=120|end_char=127
+16	i	i	CCONJ	Cc	_	19	discourse	_	start_char=128|end_char=129
+17	s	sa	ADP	Si	Case=Ins	19	case	_	start_char=130|end_char=131
+18	manje	malo	DET	Rgc	Degree=Cmp	19	det:numgov	_	start_char=132|end_char=137
+19	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	conj	_	start_char=138|end_char=143
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=143|end_char=144
+
+# text = Prema mom mišljenju, za manje od 100 dolara za pedalu za distorziju, bilo da je to vaša prva pedala ili 700. pedala, s još nekoliko dolara možete dobiti MXR Badass distorziju koja ima mnogo čišći ton.
+# sent_id = 2
+1	Prema	prema	ADP	Sl	Case=Loc	3	case	_	start_char=145|end_char=150
+2	mom	moj	DET	Ps1nsl	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	start_char=151|end_char=154
+3	mišljenju	mišljenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	30	obl	_	start_char=155|end_char=164
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=164|end_char=165
+5	za	za	ADP	Sa	Case=Acc	9	case	_	start_char=166|end_char=168
+6	manje	malo	ADV	Rgc	Degree=Cmp	9	advmod	_	start_char=169|end_char=174
+7	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=175|end_char=177
+8	100	100	NUM	Mdc	NumType=Card	9	nummod:gov	_	start_char=178|end_char=181
+9	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	30	obl	_	start_char=182|end_char=188
+10	za	za	ADP	Sa	Case=Acc	11	case	_	start_char=189|end_char=191
+11	pedalu	pedala	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=192|end_char=198
+12	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=199|end_char=201
+13	distorziju	distorzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	start_char=202|end_char=212
+14	,	,	PUNCT	Z	_	9	punct	_	start_char=212|end_char=213
+15	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	30	aux	_	start_char=214|end_char=218
+16	da	da	SCONJ	Cs	_	21	mark	_	start_char=219|end_char=221
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=222|end_char=224
+18	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	nsubj	_	start_char=225|end_char=227
+19	vaša	vaš	DET	Ps1fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	21	det	_	start_char=228|end_char=232
+20	prva	prvi	ADJ	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=233|end_char=237
+21	pedala	pedllo	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	ccomp	_	start_char=238|end_char=244
+22	ili	ili	CCONJ	Cc	_	24	cc	_	start_char=245|end_char=248
+23	700.	700.	ADJ	Mdo	NumType=Ord	24	amod	_	start_char=249|end_char=253
+24	pedala	pedllo	NOUN	Ncfsg	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	start_char=254|end_char=260
+25	,	,	PUNCT	Z	_	30	punct	_	start_char=260|end_char=261
+26	s	sa	ADP	Si	Case=Ins	29	case	_	start_char=262|end_char=263
+27	još	još	ADV	Rgp	Degree=Pos	28	advmod	_	start_char=264|end_char=267
+28	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	29	det:numgov	_	start_char=268|end_char=276
+29	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	30	obl	_	start_char=277|end_char=283
+30	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=284|end_char=290
+31	dobiti	dobiti	VERB	Vmn	VerbForm=Inf	30	xcomp	_	start_char=291|end_char=297
+32	MXR	MXR	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=298|end_char=301
+33	Badass	badass	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	start_char=302|end_char=308
+34	distorziju	distorzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	start_char=309|end_char=319
+35	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	36	nsubj	_	start_char=320|end_char=324
+36	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl	_	start_char=325|end_char=328
+37	mnogo	mnogo	ADV	Rgp	Degree=Pos	38	advmod	_	start_char=329|end_char=334
+38	čišći	čišti	ADJ	Agcmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	39	amod	_	start_char=335|end_char=340
+39	ton	ton	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obj	_	start_char=341|end_char=344
+40	.	.	PUNCT	Z	_	30	punct	_	start_char=344|end_char=345
+

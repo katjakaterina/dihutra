@@ -1,0 +1,85 @@
+# text = Замечательное справочное руководство для любого грумера Это, возможно, лучшая и наиболее полная книга для грумеров собак.
+# sent_id = 0
+1	Замечательное	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=0|end_char=13
+2	справочное	справочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=14|end_char=24
+3	руководство	руководство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=25|end_char=36
+4	для	для	ADP	_	_	6	case	_	start_char=37|end_char=40
+5	любого	любой	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	start_char=41|end_char=47
+6	грумера	грумер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=48|end_char=55
+7	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	expl	_	start_char=56|end_char=59
+8	,	,	PUNCT	_	_	7	punct	_	start_char=59|end_char=60
+9	возможно	возможно	ADV	_	Degree=Pos	15	parataxis	_	start_char=61|end_char=69
+10	,	,	PUNCT	_	_	9	punct	_	start_char=69|end_char=70
+11	лучшая	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=71|end_char=77
+12	и	и	CCONJ	_	_	14	cc	_	start_char=78|end_char=79
+13	наиболее	наиболее	ADV	_	Degree=Pos	14	obl	_	start_char=80|end_char=88
+14	полная	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	start_char=89|end_char=95
+15	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=96|end_char=101
+16	для	для	ADP	_	_	17	case	_	start_char=102|end_char=105
+17	грумеров	грумер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=106|end_char=114
+18	собак	собака	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	start_char=115|end_char=120
+19	.	.	PUNCT	_	_	15	punct	_	start_char=120|end_char=121
+
+# text = Как профессиональный грумер, я часто обращаюсь к ней!
+# sent_id = 1
+1	Как	как	SCONJ	_	_	3	mark	_	start_char=122|end_char=125
+2	профессиональный	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=126|end_char=142
+3	грумер	грумер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	start_char=143|end_char=149
+4	,	,	PUNCT	_	_	3	punct	_	start_char=149|end_char=150
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=151|end_char=152
+6	часто	часто	ADV	_	Degree=Pos	7	advmod	_	start_char=153|end_char=158
+7	обращаюсь	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=159|end_char=168
+8	к	к	ADP	_	_	9	case	_	start_char=169|end_char=170
+9	ней	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	start_char=171|end_char=174
+10	!	!	PUNCT	_	_	7	punct	_	start_char=174|end_char=175
+
+# text = Моя единственная жалоба - это спиральное переплетение.
+# sent_id = 2
+1	Моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=176|end_char=179
+2	единственная	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=180|end_char=192
+3	жалоба	жалоба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=193|end_char=199
+4	-	-	PUNCT	_	_	3	punct	_	start_char=200|end_char=201
+5	это	это	PRON	_	PronType=Dem	7	expl	_	start_char=202|end_char=205
+6	спиральное	спиральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=206|end_char=216
+7	переплетение	переплетение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=217|end_char=229
+8	.	.	PUNCT	_	_	7	punct	_	start_char=229|end_char=230
+
+# text = Возможно, потому что я так часто пользуюсь этой книгой, оно разошлось, и страницы начали выпадать.
+# sent_id = 3
+1	Возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=231|end_char=239
+2	,	,	PUNCT	_	_	8	punct	_	start_char=239|end_char=240
+3	потому	потому	ADV	_	Degree=Pos	8	mark	_	start_char=241|end_char=247
+4	что	что	SCONJ	_	_	3	fixed	_	start_char=248|end_char=251
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=252|end_char=253
+6	так	так	ADV	_	Degree=Pos	7	advmod	_	start_char=254|end_char=257
+7	часто	часто	ADV	_	Degree=Pos	8	advmod	_	start_char=258|end_char=263
+8	пользуюсь	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	1	advcl	_	start_char=264|end_char=273
+9	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=274|end_char=278
+10	книгой	книга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	start_char=279|end_char=285
+11	,	,	PUNCT	_	_	13	punct	_	start_char=285|end_char=286
+12	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=287|end_char=290
+13	разошлось	разойтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	conj	_	start_char=291|end_char=300
+14	,	,	PUNCT	_	_	17	punct	_	start_char=300|end_char=301
+15	и	и	CCONJ	_	_	17	cc	_	start_char=302|end_char=303
+16	страницы	страница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	start_char=304|end_char=312
+17	начали	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=313|end_char=319
+18	выпадать	выпадать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	start_char=320|end_char=328
+19	.	.	PUNCT	_	_	1	punct	_	start_char=328|end_char=329
+
+# text = Это может быть подтверждением того, насколько хороша на самом деле эта книга!
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=330|end_char=333
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=334|end_char=339
+3	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	cop	_	start_char=340|end_char=344
+4	подтверждением	подтверждение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	start_char=345|end_char=359
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	start_char=360|end_char=364
+6	,	,	PUNCT	_	_	8	punct	_	start_char=364|end_char=365
+7	насколько	насколько	ADV	_	Degree=Pos	8	obl	_	start_char=366|end_char=375
+8	хороша	хороший	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	acl	_	start_char=376|end_char=382
+9	на	на	ADP	_	_	11	case	_	start_char=383|end_char=385
+10	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=386|end_char=391
+11	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	start_char=392|end_char=396
+12	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=397|end_char=400
+13	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=401|end_char=406
+14	!	!	PUNCT	_	_	2	punct	_	start_char=406|end_char=407
+

@@ -1,0 +1,77 @@
+# text = Jedna u milijun Već deset godina tragam za savršenim receptom za svadbenu tortu.
+# sent_id = 0
+1	Jedna	jedan	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	3	nummod:gov	_	start_char=0|end_char=5
+2	u	u	ADP	Sa	Case=Acc	3	case	_	start_char=6|end_char=7
+3	milijun	milijun	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=8|end_char=15
+4	Već	već	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=16|end_char=19
+5	deset	deset	NUM	Mlc	NumType=Card	6	nummod:gov	_	start_char=20|end_char=25
+6	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	start_char=26|end_char=32
+7	tragam	tragati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=33|end_char=39
+8	za	za	ADP	Si	Case=Ins	10	case	_	start_char=40|end_char=42
+9	savršenim	savršen	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=43|end_char=52
+10	receptom	recept	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	start_char=53|end_char=61
+11	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=62|end_char=64
+12	svadbenu	svadben	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=65|end_char=73
+13	tortu	torta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	start_char=74|end_char=79
+14	.	.	PUNCT	Z	_	7	punct	_	start_char=79|end_char=80
+
+# text = To se može nazvati opsesijom, jer osobno volim okus svadbene torte, iako nisam čak ni udata!
+# sent_id = 1
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=81|end_char=83
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=84|end_char=86
+3	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=87|end_char=91
+4	nazvati	nazvati	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=92|end_char=99
+5	opsesijom	opsesija	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	4	obl	_	start_char=100|end_char=109
+6	,	,	PUNCT	Z	_	9	punct	_	start_char=109|end_char=110
+7	jer	jer	SCONJ	Cs	_	9	mark	_	start_char=111|end_char=114
+8	osobno	osobno	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=115|end_char=121
+9	volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=122|end_char=127
+10	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=128|end_char=132
+11	svadbene	svadbeni	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=133|end_char=141
+12	torte	torta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=142|end_char=147
+13	,	,	PUNCT	Z	_	18	punct	_	start_char=147|end_char=148
+14	iako	iako	SCONJ	Cs	_	18	mark	_	start_char=149|end_char=153
+15	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=154|end_char=159
+16	čak	čak	PART	Qo	_	18	advmod	_	start_char=160|end_char=163
+17	ni	ni	PART	Qo	_	18	discourse	_	start_char=164|end_char=166
+18	udata	udat	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	advcl	_	start_char=167|end_char=172
+19	!	!	PUNCT	Z	_	3	punct	_	start_char=172|end_char=173
+
+# text = Kupila sam ovu knjigu čim je objavljena i recepti su nevjerojatni - kao i fotografije.
+# sent_id = 2
+1	Kupila	kupiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=174|end_char=180
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=181|end_char=184
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=185|end_char=188
+4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=189|end_char=195
+5	čim	čim	SCONJ	Cs	_	7	mark	_	start_char=196|end_char=199
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=200|end_char=202
+7	objavljena	objaviti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	advcl	_	start_char=203|end_char=213
+8	i	i	CCONJ	Cc	_	9	discourse	_	start_char=214|end_char=215
+9	recepti	recept	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=216|end_char=223
+10	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=224|end_char=226
+11	nevjerojatni	nevjerojatan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	conj	_	start_char=227|end_char=239
+12	-	-	PUNCT	Z	_	15	punct	_	start_char=240|end_char=241
+13	kao	kao	SCONJ	Cs	_	15	case	_	start_char=242|end_char=245
+14	i	i	CCONJ	Cc	_	13	fixed	_	start_char=246|end_char=247
+15	fotografije	fotografija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	start_char=248|end_char=259
+16	.	.	PUNCT	Z	_	1	punct	_	start_char=259|end_char=260
+
+# text = Za sve one koji peku svadbene torte, ova je knjiga s receptima vrijedna investicije.
+# sent_id = 3
+1	Za	za	ADP	Sa	Case=Acc	3	case	_	start_char=261|end_char=263
+2	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=264|end_char=267
+3	one	onaj	DET	Pd-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	14	obl	_	start_char=268|end_char=271
+4	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	5	nsubj	_	start_char=272|end_char=276
+5	peku	peći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=277|end_char=281
+6	svadbene	svadbeni	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=282|end_char=290
+7	torte	torta	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=291|end_char=296
+8	,	,	PUNCT	Z	_	3	punct	_	start_char=296|end_char=297
+9	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	11	det	_	start_char=298|end_char=301
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=302|end_char=304
+11	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=305|end_char=311
+12	s	sa	ADP	Si	Case=Ins	13	case	_	start_char=312|end_char=313
+13	receptima	recept	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	start_char=314|end_char=323
+14	vrijedna	vrijedan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=324|end_char=332
+15	investicije	investicija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	start_char=333|end_char=344
+16	.	.	PUNCT	Z	_	14	punct	_	start_char=344|end_char=345
+

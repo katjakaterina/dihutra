@@ -1,0 +1,60 @@
+# text = Bändin värjäytyminen
+# sent_id = 0
+1	Bändin	bändi	NOUN	N	Case=Gen|Number=Sing	2	nmod:gsubj	_	start_char=0|end_char=6
+2	värjäytyminen	värjäytyminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	0	root	_	start_char=7|end_char=20
+
+# text = Kuten useimmat liikuntatuotteet, näitäkin käytettiin muutaman kerran ja säilytettiin pussissa muutaman kuukauden.
+# sent_id = 1
+1	Kuten	kuten	SCONJ	C	_	3	mark	_	start_char=21|end_char=26
+2	useimmat	usea	ADJ	A	Case=Nom|Degree=Sup|Number=Plur	3	amod	_	start_char=27|end_char=35
+3	liikuntatuotteet	liikunta#tuote	NOUN	N	Case=Nom|Number=Plur	6	vocative	_	start_char=36|end_char=52
+4	,	,	PUNCT	Punct	_	3	punct	_	start_char=52|end_char=53
+5	näitäkin	tämä	PRON	Pron	Case=Par|Clitic=Kin|Number=Plur|PronType=Dem	6	obj	_	start_char=54|end_char=62
+6	käytettiin	käyttää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=63|end_char=73
+7	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	8	det	_	start_char=74|end_char=82
+8	kerran	kerran	ADV	Adv	_	6	obl	_	start_char=83|end_char=89
+9	ja	ja	CCONJ	C	_	10	cc	_	start_char=90|end_char=92
+10	säilytettiin	säilyttää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	start_char=93|end_char=105
+11	pussissa	pussi	NOUN	N	Case=Ine|Number=Sing	10	obl	_	start_char=106|end_char=114
+12	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	13	det	_	start_char=115|end_char=123
+13	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	10	obl	_	start_char=124|end_char=133
+14	.	.	PUNCT	Punct	_	6	punct	_	start_char=133|end_char=134
+
+# text = Otin ne ulos aloittaakseni niiden käytön uudelleen, kun auto-onnettomuus on pitänyt minut poissa vapaista painoista ja nauhat ovat alkaneet värjäytyä ja haalistua.
+# sent_id = 2
+1	Otin	ottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=135|end_char=139
+2	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	1	obj	_	start_char=140|end_char=142
+3	ulos	ulos	ADV	Adv	_	1	advmod	_	start_char=143|end_char=147
+4	aloittaakseni	aloittaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=148|end_char=161
+5	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	6	nmod:gobj	_	start_char=162|end_char=168
+6	käytön	käyttö	NOUN	N	Case=Gen|Number=Sing	4	obj	_	start_char=169|end_char=175
+7	uudelleen	uudelleen	ADV	Adv	_	4	advmod	_	start_char=176|end_char=185
+8	,	,	PUNCT	Punct	_	12	punct	_	start_char=185|end_char=186
+9	kun	kun	SCONJ	C	_	12	mark	_	start_char=187|end_char=190
+10	auto-onnettomuus	auto#onnettomuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	12	nsubj	_	start_char=191|end_char=207
+11	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=208|end_char=210
+12	pitänyt	pitää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	advcl	_	start_char=211|end_char=218
+13	minut	minä	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	start_char=219|end_char=224
+14	poissa	poissa	ADV	Adv	_	12	advmod	_	start_char=225|end_char=231
+15	vapaista	vapainen	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	16	amod	_	start_char=232|end_char=240
+16	painoista	paina	NOUN	N	Case=Ela|Number=Plur	14	nmod	_	start_char=241|end_char=250
+17	ja	ja	CCONJ	C	_	20	cc	_	start_char=251|end_char=253
+18	nauhat	nauha	NOUN	N	Case=Nom|Number=Plur	20	nsubj	_	start_char=254|end_char=260
+19	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	start_char=261|end_char=265
+20	alkaneet	alkaa	VERB	V	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	12	conj	_	start_char=266|end_char=274
+21	värjäytyä	värjäytyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	20	xcomp	_	start_char=275|end_char=284
+22	ja	ja	CCONJ	C	_	23	cc	_	start_char=285|end_char=287
+23	haalistua	haalistua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	21	conj	_	start_char=288|end_char=297
+24	.	.	PUNCT	Punct	_	1	punct	_	start_char=297|end_char=298
+
+# text = Minua jännittää, että kumin eheys heikkenee...
+# sent_id = 3
+1	Minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=299|end_char=304
+2	jännittää	jännittää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=305|end_char=314
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=314|end_char=315
+4	että	että	SCONJ	C	_	7	mark	_	start_char=316|end_char=320
+5	kumin	kuma	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=321|end_char=326
+6	eheys	eheys	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=327|end_char=332
+7	heikkenee	heiketeä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	start_char=333|end_char=342
+8	...	...	PUNCT	Punct	_	2	punct	_	start_char=342|end_char=345
+

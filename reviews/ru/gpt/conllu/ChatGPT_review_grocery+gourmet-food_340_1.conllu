@@ -1,0 +1,71 @@
+# text = И это то, как вкусен французский кофе?
+# sent_id = 0
+1	И	и	CCONJ	_	_	3	cc	_	start_char=0|end_char=1
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=2|end_char=5
+3	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=6|end_char=8
+4	,	,	PUNCT	_	_	6	punct	_	start_char=8|end_char=9
+5	как	как	ADV	_	Degree=Pos	6	advmod	_	start_char=10|end_char=13
+6	вкусен	вкустин	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	acl	_	start_char=14|end_char=20
+7	французский	французский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=21|end_char=32
+8	кофе	кофе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=33|end_char=37
+9	?	?	PUNCT	_	_	3	punct	_	start_char=37|end_char=38
+
+# text = Не верьте этому!
+# sent_id = 1
+1	Не	не	PART	_	_	2	advmod	_	start_char=39|end_char=41
+2	верьте	верить	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=42|end_char=48
+3	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	2	iobj	_	start_char=49|end_char=54
+4	!	!	PUNCT	_	_	2	punct	_	start_char=54|end_char=55
+
+# text = Возможно, лучший кофе в США, если это какой-то пример.
+# sent_id = 2
+1	Возможно	возможно	ADV	_	Degree=Pos	6	parataxis	_	start_char=56|end_char=64
+2	,	,	PUNCT	_	_	1	punct	_	start_char=64|end_char=65
+3	лучший	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=66|end_char=72
+4	кофе	кофе	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=73|end_char=77
+5	в	в	ADP	_	_	6	case	_	start_char=78|end_char=79
+6	США	США	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	0	root	_	start_char=80|end_char=83
+7	,	,	PUNCT	_	_	11	punct	_	start_char=83|end_char=84
+8	если	если	SCONJ	_	_	11	mark	_	start_char=85|end_char=89
+9	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	start_char=90|end_char=93
+10	какой-то	какой-то	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	11	det	_	start_char=94|end_char=102
+11	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	advcl	_	start_char=103|end_char=109
+12	.	.	PUNCT	_	_	6	punct	_	start_char=109|end_char=110
+
+# text = Я не очень люблю цикорий, но решил попробовать.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=111|end_char=112
+2	не	не	PART	_	_	3	advmod	_	start_char=113|end_char=115
+3	очень	очень	ADV	_	Degree=Pos	4	advmod	_	start_char=116|end_char=121
+4	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=122|end_char=127
+5	цикорий	цикория	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=128|end_char=135
+6	,	,	PUNCT	_	_	8	punct	_	start_char=135|end_char=136
+7	но	но	CCONJ	_	_	8	cc	_	start_char=137|end_char=139
+8	решил	решить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=140|end_char=145
+9	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=146|end_char=157
+10	.	.	PUNCT	_	_	4	punct	_	start_char=157|end_char=158
+
+# text = Для меня это не похоже на кофе, возможно, его следует называть по-другому, что-то слабое и не ароматное.
+# sent_id = 4
+1	Для	для	ADP	_	_	2	case	_	start_char=159|end_char=162
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obl	_	start_char=163|end_char=167
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=168|end_char=171
+4	не	не	PART	_	_	5	advmod	_	start_char=172|end_char=174
+5	похоже	похожий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=175|end_char=181
+6	на	на	ADP	_	_	7	case	_	start_char=182|end_char=184
+7	кофе	кофе	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=185|end_char=189
+8	,	,	PUNCT	_	_	12	punct	_	start_char=189|end_char=190
+9	возможно	возможно	ADV	_	Degree=Pos	12	parataxis	_	start_char=191|end_char=199
+10	,	,	PUNCT	_	_	9	punct	_	start_char=199|end_char=200
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=201|end_char=204
+12	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=205|end_char=212
+13	называть	называть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	csubj	_	start_char=213|end_char=221
+14	по-другому	по-другому	ADV	_	Degree=Pos	13	advmod	_	start_char=222|end_char=232
+15	,	,	PUNCT	_	_	16	punct	_	start_char=232|end_char=233
+16	что-то	что-то	PRON	_	Case=Nom|PronType=Ind	5	conj	_	start_char=234|end_char=240
+17	слабое	слабый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=241|end_char=247
+18	и	и	CCONJ	_	_	20	cc	_	start_char=248|end_char=249
+19	не	не	PART	_	_	20	advmod	_	start_char=250|end_char=252
+20	ароматное	ароматный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	conj	_	start_char=253|end_char=262
+21	.	.	PUNCT	_	_	5	punct	_	start_char=262|end_char=263
+

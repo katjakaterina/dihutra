@@ -1,0 +1,73 @@
+# text = Razočarana mama
+# sent_id = 0
+1	Razočarana	razočarati	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=10
+2	mama	mam	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=11|end_char=15
+
+# text = Naručila sam ovo za svog sina i bila sam vrlo razočarana kad nije radilo na našem potpuno novom računalu.
+# sent_id = 1
+1	Naručila	naručiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=16|end_char=24
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=25|end_char=28
+3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=29|end_char=32
+4	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=33|end_char=35
+5	svog	svoj	DET	Px-msay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=36|end_char=40
+6	sina	sin	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=41|end_char=45
+7	i	i	CCONJ	Cc	_	11	cc	_	start_char=46|end_char=47
+8	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	start_char=48|end_char=52
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=53|end_char=56
+10	vrlo	vrlo	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=57|end_char=61
+11	razočarana	razočaran	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	start_char=62|end_char=72
+12	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	14	advmod	_	start_char=73|end_char=76
+13	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=77|end_char=81
+14	radilo	raditi	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	advcl	_	start_char=82|end_char=88
+15	na	na	ADP	Sl	Case=Loc	19	case	_	start_char=89|end_char=91
+16	našem	naš	DET	Ps1nsl	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	start_char=92|end_char=97
+17	potpuno	potpuno	ADV	Rgp	Degree=Pos	18	advmod	_	start_char=98|end_char=105
+18	novom	nov	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=106|end_char=111
+19	računalu	računalo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	start_char=112|end_char=120
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=120|end_char=121
+
+# text = Čini se da nije bilo kompatibilno s našim sistemskim softverom.
+# sent_id = 2
+1	Čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=122|end_char=126
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=127|end_char=129
+3	da	da	SCONJ	Cs	_	6	mark	_	start_char=130|end_char=132
+4	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=133|end_char=137
+5	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	csubj	_	start_char=138|end_char=142
+6	kompatibilno	kompatibilan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	csubj	_	start_char=143|end_char=155
+7	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=156|end_char=157
+8	našim	naš	DET	Ps1msi	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	start_char=158|end_char=163
+9	sistemskim	sistemski	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=164|end_char=174
+10	softverom	softver	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=175|end_char=184
+11	.	.	PUNCT	Z	_	1	punct	_	start_char=184|end_char=185
+
+# text = Moj sin je probao na dva računala rodbine i nije radilo ni na njihovima.
+# sent_id = 3
+1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=186|end_char=189
+2	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=190|end_char=193
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=194|end_char=196
+4	probao	probati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=197|end_char=203
+5	na	na	ADP	Sa	Case=Acc	7	case	_	start_char=204|end_char=206
+6	dva	dva	NUM	Mlc	NumType=Card	7	nummod	_	start_char=207|end_char=210
+7	računala	računalo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	start_char=211|end_char=219
+8	rodbine	rodbina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=220|end_char=227
+9	i	i	CCONJ	Cc	_	11	cc	_	start_char=228|end_char=229
+10	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=230|end_char=234
+11	radilo	raditi	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=235|end_char=241
+12	ni	ni	PART	Qo	_	14	advmod	_	start_char=242|end_char=244
+13	na	na	ADP	Sl	Case=Loc	14	case	_	start_char=245|end_char=247
+14	njihovima	njihov	DET	Ps3fpl	Case=Loc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	11	obl	_	start_char=248|end_char=257
+15	.	.	PUNCT	Z	_	4	punct	_	start_char=257|end_char=258
+
+# text = Dobra stvar je da sam platila samo 4 dolara.
+# sent_id = 4
+1	Dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=259|end_char=264
+2	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=265|end_char=270
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=271|end_char=273
+4	da	da	SCONJ	Cs	_	6	mark	_	start_char=274|end_char=276
+5	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=277|end_char=280
+6	platila	platiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	csubj	_	start_char=281|end_char=288
+7	samo	samo	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=289|end_char=293
+8	4	4	NUM	Mdc	NumType=Card	9	nummod	_	start_char=294|end_char=295
+9	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=296|end_char=302
+10	.	.	PUNCT	Z	_	2	punct	_	start_char=302|end_char=303
+

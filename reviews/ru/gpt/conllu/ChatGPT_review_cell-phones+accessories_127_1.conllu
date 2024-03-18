@@ -1,0 +1,56 @@
+# text = Неудачный товар.
+# sent_id = 0
+1	Неудачный	неудачный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=9
+2	товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=15
+3	.	.	PUNCT	_	_	2	punct	_	start_char=15|end_char=16
+
+# text = Я получил этот продукт очень оперативно, что было приятным, однако я подарил его, и был огорчен, узнав, что это дефектный товар.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=17|end_char=18
+2	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=26
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=27|end_char=31
+4	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=32|end_char=39
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	start_char=40|end_char=45
+6	оперативно	оперативно	ADV	_	Degree=Pos	2	advmod	_	start_char=46|end_char=56
+7	,	,	PUNCT	_	_	10	punct	_	start_char=56|end_char=57
+8	что	что	PRON	_	Case=Nom|PronType=Int,Rel	10	nsubj	_	start_char=58|end_char=61
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=62|end_char=66
+10	приятным	приятный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	parataxis	_	start_char=67|end_char=75
+11	,	,	PUNCT	_	_	14	punct	_	start_char=75|end_char=76
+12	однако	однако	ADV	_	Degree=Pos	14	advmod	_	start_char=77|end_char=83
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=84|end_char=85
+14	подарил	подарить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=86|end_char=93
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=94|end_char=97
+16	,	,	PUNCT	_	_	19	punct	_	start_char=97|end_char=98
+17	и	и	CCONJ	_	_	19	cc	_	start_char=99|end_char=100
+18	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	start_char=101|end_char=104
+19	огорчен	огорченный	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	start_char=105|end_char=112
+20	,	,	PUNCT	_	_	21	punct	_	start_char=112|end_char=113
+21	узнав	узнать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	19	advcl	_	start_char=114|end_char=119
+22	,	,	PUNCT	_	_	26	punct	_	start_char=119|end_char=120
+23	что	что	SCONJ	_	_	26	mark	_	start_char=121|end_char=124
+24	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	nsubj	_	start_char=125|end_char=128
+25	дефектный	дефектный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=129|end_char=138
+26	товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	ccomp	_	start_char=139|end_char=144
+27	.	.	PUNCT	_	_	2	punct	_	start_char=144|end_char=145
+
+# text = Мне вернули деньги за продукт, но я предпочел бы, чтобы продукт сразу же работал.
+# sent_id = 2
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=146|end_char=149
+2	вернули	вернуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=150|end_char=157
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=158|end_char=164
+4	за	за	ADP	_	_	5	case	_	start_char=165|end_char=167
+5	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=168|end_char=175
+6	,	,	PUNCT	_	_	9	punct	_	start_char=175|end_char=176
+7	но	но	CCONJ	_	_	9	cc	_	start_char=177|end_char=179
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=180|end_char=181
+9	предпочел	предпочесть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=182|end_char=191
+10	бы	бы	AUX	_	_	9	aux	_	start_char=192|end_char=194
+11	,	,	PUNCT	_	_	16	punct	_	start_char=194|end_char=195
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	start_char=196|end_char=201
+13	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=202|end_char=209
+14	сразу	сразу	ADV	_	Degree=Pos	16	advmod	_	start_char=210|end_char=215
+15	же	же	PART	_	_	14	advmod	_	start_char=216|end_char=218
+16	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	start_char=219|end_char=226
+17	.	.	PUNCT	_	_	2	punct	_	start_char=226|end_char=227
+

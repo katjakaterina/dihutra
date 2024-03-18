@@ -1,0 +1,109 @@
+# text = Так вкусно!!
+# sent_id = 0
+1	Так	так	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=3
+2	вкусно	вкусный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=4|end_char=10
+3	!	!	PUNCT	_	_	2	punct	_	start_char=10|end_char=11
+4	!	!	PUNCT	_	_	2	punct	_	start_char=11|end_char=12
+
+# text = Кремовый белый шоколад, насыщенный вкусом зеленого чая матча, окружен слоями вафель.
+# sent_id = 1
+1	Кремовый	кремовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=13|end_char=21
+2	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=22|end_char=27
+3	шоколад	шоколад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	start_char=28|end_char=35
+4	,	,	PUNCT	_	_	5	punct	_	start_char=35|end_char=36
+5	насыщенный	насыщенный	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=37|end_char=47
+6	вкусом	вкус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	start_char=48|end_char=54
+7	зеленого	зеленый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=55|end_char=63
+8	чая	чай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=64|end_char=67
+9	матча	матч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=68|end_char=73
+10	,	,	PUNCT	_	_	5	punct	_	start_char=73|end_char=74
+11	окружен	окружить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=75|end_char=82
+12	слоями	слой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	start_char=83|end_char=89
+13	вафель	вафель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=90|end_char=96
+14	.	.	PUNCT	_	_	11	punct	_	start_char=96|end_char=97
+
+# text = Гораздо менее сладкий, чем традиционные KitKat.
+# sent_id = 2
+1	Гораздо	гораздо	ADV	_	Degree=Pos	2	advmod	_	start_char=98|end_char=105
+2	менее	менее	ADV	_	Degree=Cmp	3	obl	_	start_char=106|end_char=111
+3	сладкий	сладкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=112|end_char=119
+4	,	,	PUNCT	_	_	7	punct	_	start_char=119|end_char=120
+5	чем	чем	SCONJ	_	_	7	mark	_	start_char=121|end_char=124
+6	традиционные	традиционный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	start_char=125|end_char=137
+7	KitKat	Kitkat	PROPN	_	Foreign=Yes	2	obl	_	start_char=138|end_char=144
+8	.	.	PUNCT	_	_	3	punct	_	start_char=144|end_char=145
+
+# text = Маленький размер идеально удовлетворяет желание к шоколаду без чувства вины.
+# sent_id = 3
+1	Маленький	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=146|end_char=155
+2	размер	размер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=156|end_char=162
+3	идеально	идеально	ADV	_	Degree=Pos	4	advmod	_	start_char=163|end_char=171
+4	удовлетворяет	удовлетворять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=172|end_char=185
+5	желание	желание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=186|end_char=193
+6	к	к	ADP	_	_	7	case	_	start_char=194|end_char=195
+7	шоколаду	шоколад	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	start_char=196|end_char=204
+8	без	без	ADP	_	_	9	case	_	start_char=205|end_char=208
+9	чувства	чувство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=209|end_char=216
+10	вины	вина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=217|end_char=221
+11	.	.	PUNCT	_	_	4	punct	_	start_char=221|end_char=222
+
+# text = На прошлой неделе я был в Лос-Анджелесе и на вспомогательном вдохновении купил пакет в японском магазине в Литл Токио.
+# sent_id = 4
+1	На	на	ADP	_	_	3	case	_	start_char=223|end_char=225
+2	прошлой	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=226|end_char=233
+3	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	start_char=234|end_char=240
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=241|end_char=242
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=243|end_char=246
+6	в	в	ADP	_	_	7	case	_	start_char=247|end_char=248
+7	Лос-Анджелесе	Лос-Анджелес	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=249|end_char=262
+8	и	и	CCONJ	_	_	12	cc	_	start_char=263|end_char=264
+9	на	на	ADP	_	_	11	case	_	start_char=265|end_char=267
+10	вспомогательном	вспомогательный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=268|end_char=283
+11	вдохновении	вдохновение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	start_char=284|end_char=295
+12	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=296|end_char=301
+13	пакет	пакет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=302|end_char=307
+14	в	в	ADP	_	_	16	case	_	start_char=308|end_char=309
+15	японском	японский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=310|end_char=318
+16	магазине	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	start_char=319|end_char=327
+17	в	в	ADP	_	_	18	case	_	start_char=328|end_char=329
+18	Литл	Литл	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	start_char=330|end_char=334
+19	Токио	Токио	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	start_char=335|end_char=340
+20	.	.	PUNCT	_	_	7	punct	_	start_char=340|end_char=341
+
+# text = Теперь, вернувшись в Висконсин, жалею, что не взял еще несколько пакетов.
+# sent_id = 5
+1	Теперь	теперь	ADV	_	Degree=Pos	7	advmod	_	start_char=342|end_char=348
+2	,	,	PUNCT	_	_	1	punct	_	start_char=348|end_char=349
+3	вернувшись	вернуться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	7	advcl	_	start_char=350|end_char=360
+4	в	в	ADP	_	_	5	case	_	start_char=361|end_char=362
+5	Висконсин	Висконсин	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=363|end_char=372
+6	,	,	PUNCT	_	_	3	punct	_	start_char=372|end_char=373
+7	жалею	жалеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=374|end_char=379
+8	,	,	PUNCT	_	_	11	punct	_	start_char=379|end_char=380
+9	что	что	SCONJ	_	_	11	mark	_	start_char=381|end_char=384
+10	не	не	PART	_	_	11	advmod	_	start_char=385|end_char=387
+11	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=388|end_char=392
+12	еще	еще	ADV	_	Degree=Pos	13	advmod	_	start_char=393|end_char=396
+13	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	14	nummod	_	start_char=397|end_char=406
+14	пакетов	пакет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	start_char=407|end_char=414
+15	.	.	PUNCT	_	_	7	punct	_	start_char=414|end_char=415
+
+# text = Эти KitKat были не только вкусными, но и всего по 5 долларов за пакет!
+# sent_id = 6
+1	Эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=416|end_char=419
+2	KitKat	Kitkat	PROPN	_	Foreign=Yes	6	nsubj	_	start_char=420|end_char=426
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=427|end_char=431
+4	не	не	PART	_	_	5	advmod	_	start_char=432|end_char=434
+5	только	только	PART	_	_	6	advmod	_	start_char=435|end_char=441
+6	вкусными	вкусный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	start_char=442|end_char=450
+7	,	,	PUNCT	_	_	13	punct	_	start_char=450|end_char=451
+8	но	но	CCONJ	_	_	13	cc	_	start_char=452|end_char=454
+9	и	и	PART	_	_	8	fixed	_	start_char=455|end_char=456
+10	всего	всего	PART	_	_	13	advmod	_	start_char=457|end_char=462
+11	по	по	ADP	_	_	13	case	_	start_char=463|end_char=465
+12	5	5	NUM	_	NumType=Card	13	nummod	_	start_char=466|end_char=467
+13	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	start_char=468|end_char=476
+14	за	за	ADP	_	_	15	case	_	start_char=477|end_char=479
+15	пакет	пакет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	start_char=480|end_char=485
+16	!	!	PUNCT	_	_	6	punct	_	start_char=485|end_char=486
+

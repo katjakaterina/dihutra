@@ -1,0 +1,66 @@
+# text = Кит Грин — актуальность на протяжении веков Хотя прошло более трех десятилетий с тех пор, как Кит ушел из этой жизни, его музыка по-прежнему звучит правдиво.
+# sent_id = 0
+1	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	start_char=0|end_char=3
+2	Грин	Грин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=4|end_char=8
+3	—	—	PUNCT	_	_	4	punct	_	start_char=9|end_char=10
+4	актуальность	актуальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=11|end_char=23
+5	на	на	ADP	_	_	6	case	_	start_char=24|end_char=26
+6	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	start_char=27|end_char=37
+7	веков	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=38|end_char=43
+8	Хотя	хотя	SCONJ	_	_	9	mark	_	start_char=44|end_char=48
+9	прошло	пройти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=49|end_char=55
+10	более	более	ADV	_	Degree=Cmp	9	nsubj	_	start_char=56|end_char=61
+11	трех	три	NUM	_	Case=Gen|NumType=Card	12	nummod	_	start_char=62|end_char=66
+12	десятилетий	десятилетие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	obl	_	start_char=67|end_char=78
+13	с	с	ADP	_	_	19	mark	_	start_char=79|end_char=80
+14	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	13	fixed	_	start_char=81|end_char=84
+15	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	fixed	_	start_char=85|end_char=88
+16	,	,	PUNCT	_	_	13	punct	_	start_char=88|end_char=89
+17	как	как	SCONJ	_	_	13	fixed	_	start_char=90|end_char=93
+18	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=94|end_char=97
+19	ушел	уйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=98|end_char=102
+20	из	из	ADP	_	_	22	case	_	start_char=103|end_char=105
+21	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=106|end_char=110
+22	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	start_char=111|end_char=116
+23	,	,	PUNCT	_	_	19	punct	_	start_char=116|end_char=117
+24	его	его	DET	_	Poss=Yes|PronType=Prs	25	det	_	start_char=118|end_char=121
+25	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	start_char=122|end_char=128
+26	по-прежнему	по-прежнему	ADV	_	Degree=Pos	27	advmod	_	start_char=129|end_char=140
+27	звучит	звучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=141|end_char=147
+28	правдиво	правдиво	ADV	_	Degree=Pos	27	advmod	_	start_char=148|end_char=156
+29	.	.	PUNCT	_	_	27	punct	_	start_char=156|end_char=157
+
+# text = Этот альбом был одним из первых, который я приобрел Кита "в те дни".
+# sent_id = 1
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=158|end_char=162
+2	альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=163|end_char=169
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=170|end_char=173
+4	одним	один	NUM	_	Case=Ins|Gender=Masc|NumType=Card	0	root	_	start_char=174|end_char=179
+5	из	из	ADP	_	_	6	case	_	start_char=180|end_char=182
+6	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	nmod	_	start_char=183|end_char=189
+7	,	,	PUNCT	_	_	10	punct	_	start_char=189|end_char=190
+8	который	который	PRON	_	Case=Acc|PronType=Int,Rel	10	obj	_	start_char=191|end_char=198
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=199|end_char=200
+10	приобрел	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=201|end_char=209
+11	Кита	Кита	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=210|end_char=214
+12	"	"	PUNCT	_	_	15	punct	_	start_char=215|end_char=216
+13	в	в	ADP	_	_	15	case	_	start_char=216|end_char=217
+14	те	тот	DET	_	Case=Acc|Number=Plur|PronType=Dem	15	det	_	start_char=218|end_char=220
+15	дни	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	start_char=221|end_char=224
+16	"	"	PUNCT	_	_	15	punct	_	start_char=224|end_char=225
+17	.	.	PUNCT	_	_	4	punct	_	start_char=225|end_char=226
+
+# text = Какой чудесный альбом восхваления, когда он переходит через Псалмы!
+# sent_id = 2
+1	Какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	3	det	_	start_char=227|end_char=232
+2	чудесный	чудесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=233|end_char=241
+3	альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=242|end_char=248
+4	восхваления	восхваление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=249|end_char=260
+5	,	,	PUNCT	_	_	8	punct	_	start_char=260|end_char=261
+6	когда	когда	SCONJ	_	_	8	mark	_	start_char=262|end_char=267
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=268|end_char=270
+8	переходит	переходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=271|end_char=280
+9	через	через	ADP	_	_	10	case	_	start_char=281|end_char=286
+10	Псалмы	Псалм	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obl	_	start_char=287|end_char=293
+11	!	!	PUNCT	_	_	3	punct	_	start_char=293|end_char=294
+

@@ -1,0 +1,74 @@
+# text = ANNO 2070 Nisam uspio/la igrati ovu igru.
+# sent_id = 0
+1	ANNO	ANNO	PROPN	Npmsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=4
+2	2070	2070	NUM	Mdc	NumType=Card	1	nummod	_	start_char=5|end_char=9
+3	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=10|end_char=15
+4	uspio/la	uspio/iti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=16|end_char=24
+5	igrati	igrati	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=25|end_char=31
+6	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=32|end_char=35
+7	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=36|end_char=40
+8	.	.	PUNCT	Z	_	4	punct	_	start_char=40|end_char=41
+
+# text = Ubisoft je učinio nemogućim igranje ako niste stručnjak za tehniku.
+# sent_id = 1
+1	Ubisoft	Ubisoft	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=42|end_char=49
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=50|end_char=52
+3	učinio	učiniti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=53|end_char=59
+4	nemogućim	nemoguć	ADJ	Agpnsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=60|end_char=69
+5	igranje	igranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=70|end_char=77
+6	ako	ako	SCONJ	Cs	_	8	mark	_	start_char=78|end_char=81
+7	niste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=82|end_char=87
+8	stručnjak	stručnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	start_char=88|end_char=97
+9	za	za	ADP	Sa	Case=Acc	10	case	_	start_char=98|end_char=100
+10	tehniku	tehnika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=101|end_char=108
+11	.	.	PUNCT	Z	_	3	punct	_	start_char=108|end_char=109
+
+# text = (Probao/la sam nekoliko puta da je pokrenem.)
+# sent_id = 2
+1	(	(	PUNCT	Z	_	2	punct	_	start_char=110|end_char=111
+2	Probao/la	Probao/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=111|end_char=120
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=121|end_char=124
+4	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	5	det:numgov	_	start_char=125|end_char=133
+5	puta	put	ADV	Rgp	Degree=Pos	3	obl	_	start_char=134|end_char=138
+6	da	da	SCONJ	Cs	_	8	mark	_	start_char=139|end_char=141
+7	je	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=142|end_char=144
+8	pokrenem	pokrenuti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=145|end_char=153
+9	.	.	PUNCT	Z	_	3	punct	_	start_char=153|end_char=154
+10	)	)	PUNCT	Z	_	2	punct	_	start_char=154|end_char=155
+
+# text = Samo želim igrati kod kuće, ne na internetu, i iz nekog razloga se neće učitati na računalu.
+# sent_id = 3
+1	Samo	samo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=156|end_char=160
+2	želim	željeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=161|end_char=166
+3	igrati	igrati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=167|end_char=173
+4	kod	kod	ADP	Sg	Case=Gen	5	case	_	start_char=174|end_char=177
+5	kuće	kuća	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=178|end_char=182
+6	,	,	PUNCT	Z	_	9	punct	_	start_char=182|end_char=183
+7	ne	ne	PART	Qz	Polarity=Neg	9	advmod	_	start_char=184|end_char=186
+8	na	na	ADP	Sl	Case=Loc	9	case	_	start_char=187|end_char=189
+9	internetu	internet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=190|end_char=199
+10	,	,	PUNCT	Z	_	17	punct	_	start_char=199|end_char=200
+11	i	i	CCONJ	Cc	_	17	cc	_	start_char=201|end_char=202
+12	iz	iz	ADP	Sg	Case=Gen	14	case	_	start_char=203|end_char=205
+13	nekog	neki	DET	Pi-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	start_char=206|end_char=211
+14	razloga	razlog	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	obl	_	start_char=212|end_char=219
+15	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	17	expl	_	start_char=220|end_char=222
+16	neće	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=223|end_char=227
+17	učitati	učitati	VERB	Vmn	VerbForm=Inf	2	conj	_	start_char=228|end_char=235
+18	na	na	ADP	Sl	Case=Loc	19	case	_	start_char=236|end_char=238
+19	računalu	računalo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	start_char=239|end_char=247
+20	.	.	PUNCT	Z	_	2	punct	_	start_char=247|end_char=248
+
+# text = Vjerojatno nikada više neću kupiti Ubisoftovu igru ili proizvod.
+# sent_id = 4
+1	Vjerojatno	vjerojatno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=249|end_char=259
+2	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	4	advmod	_	start_char=260|end_char=266
+3	više	mnogo	ADV	Rgc	Degree=Cmp	4	advmod	_	start_char=267|end_char=271
+4	neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	start_char=272|end_char=276
+5	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=277|end_char=283
+6	Ubisoftovu	Ubisoftov	ADJ	Aspfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	7	amod	_	start_char=284|end_char=294
+7	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=295|end_char=299
+8	ili	ili	CCONJ	Cc	_	9	cc	_	start_char=300|end_char=303
+9	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	conj	_	start_char=304|end_char=312
+10	.	.	PUNCT	Z	_	4	punct	_	start_char=312|end_char=313
+

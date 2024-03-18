@@ -1,0 +1,74 @@
+# text = Složeno i zahtijeva puno vremena.
+# sent_id = 0
+1	Složeno	složen	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=7
+2	i	i	CCONJ	Cc	_	3	cc	_	start_char=8|end_char=9
+3	zahtijeva	zahtijevati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=10|end_char=19
+4	puno	puno	DET	Rgp	Degree=Pos	5	det:numgov	_	start_char=20|end_char=24
+5	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	obj	_	start_char=25|end_char=32
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=32|end_char=33
+
+# text = Odlična prilika da se odmaknete od televizije ili da je darujete (ako je u pitanju poklon)!
+# sent_id = 1
+1	Odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=34|end_char=41
+2	prilika	prilika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=42|end_char=49
+3	da	da	SCONJ	Cs	_	5	mark	_	start_char=50|end_char=52
+4	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=53|end_char=55
+5	odmaknete	odmaknuti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=56|end_char=65
+6	od	od	ADP	Sg	Case=Gen	7	case	_	start_char=66|end_char=68
+7	televizije	televizija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	start_char=69|end_char=79
+8	ili	ili	CCONJ	Cc	_	11	cc	_	start_char=80|end_char=83
+9	da	da	SCONJ	Cs	_	11	mark	_	start_char=84|end_char=86
+10	je	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=87|end_char=89
+11	darujete	darovati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=90|end_char=98
+12	(	(	PUNCT	Z	_	16	punct	_	start_char=99|end_char=100
+13	ako	ako	SCONJ	Cs	_	16	mark	_	start_char=100|end_char=103
+14	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	start_char=104|end_char=106
+15	u	u	ADP	Sl	Case=Loc	16	case	_	start_char=107|end_char=108
+16	pitanju	pitanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	parataxis	_	start_char=109|end_char=116
+17	poklon	poklon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=117|end_char=123
+18	)	)	PUNCT	Z	_	16	punct	_	start_char=123|end_char=124
+19	!	!	PUNCT	Z	_	2	punct	_	start_char=124|end_char=125
+
+# text = Vrlo korisno za razbibrigu.
+# sent_id = 2
+1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=126|end_char=130
+2	korisno	korisno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=131|end_char=138
+3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=139|end_char=141
+4	razbibrigu	razbibari	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=142|end_char=152
+5	.	.	PUNCT	Z	_	2	punct	_	start_char=152|end_char=153
+
+# text = Kupio/la sam to za svoju 14-godišnju nećakinju.
+# sent_id = 3
+1	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=154|end_char=162
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=163|end_char=166
+3	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=167|end_char=169
+4	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=170|end_char=172
+5	svoju	svoj	DET	Px-fsa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	start_char=173|end_char=178
+6	14-godišnju	14-godišnji	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=179|end_char=190
+7	nećakinju	nećakinja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=191|end_char=200
+8	.	.	PUNCT	Z	_	1	punct	_	start_char=200|end_char=201
+
+# text = Iako bi radije imala kontroler ili tipkovnicu u ruci, povremeno joj dajem ovo kao "pauzu od tehnologije"!
+# sent_id = 4
+1	Iako	iako	SCONJ	Cs	_	4	mark	_	start_char=202|end_char=206
+2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=207|end_char=209
+3	radije	rado	ADV	Rgc	Degree=Cmp	4	advmod	_	start_char=210|end_char=216
+4	imala	imati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	start_char=217|end_char=222
+5	kontroler	kontroler	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=223|end_char=232
+6	ili	ili	CCONJ	Cc	_	7	cc	_	start_char=233|end_char=236
+7	tipkovnicu	tipkovnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=237|end_char=247
+8	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=248|end_char=249
+9	ruci	ruka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=250|end_char=254
+10	,	,	PUNCT	Z	_	4	punct	_	start_char=254|end_char=255
+11	povremeno	povremeno	ADV	Rgp	Degree=Pos	13	advmod	_	start_char=256|end_char=265
+12	joj	on	PRON	Pp3fsd	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	iobj	_	start_char=266|end_char=269
+13	dajem	davati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=270|end_char=275
+14	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obj	_	start_char=276|end_char=279
+15	kao	kao	SCONJ	Cs	_	17	case	_	start_char=280|end_char=283
+16	"	"	PUNCT	Z	_	17	punct	_	start_char=284|end_char=285
+17	pauzu	pauz	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	start_char=285|end_char=290
+18	od	od	ADP	Sg	Case=Gen	19	case	_	start_char=291|end_char=293
+19	tehnologije	tehnologija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=294|end_char=305
+20	"	"	PUNCT	Z	_	17	punct	_	start_char=305|end_char=306
+21	!	!	PUNCT	Z	_	13	punct	_	start_char=306|end_char=307
+

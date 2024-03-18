@@ -1,0 +1,82 @@
+# text = Отлично работали примерно 5 раз зарядки.
+# sent_id = 0
+1	Отлично	отличный	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=7
+2	работали	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=16
+3	примерно	примерно	ADV	_	Degree=Pos	4	advmod	_	start_char=17|end_char=25
+4	5	5	NUM	_	NumType=Card	5	nummod	_	start_char=26|end_char=27
+5	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	start_char=28|end_char=31
+6	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=32|end_char=39
+7	.	.	PUNCT	_	_	2	punct	_	start_char=39|end_char=40
+
+# text = Долгое время назад я использовал аккумуляторы NiCD, но от них отказался.
+# sent_id = 1
+1	Долгое	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=41|end_char=47
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	start_char=48|end_char=53
+3	назад	назад	ADV	_	Degree=Pos	2	advmod	_	start_char=54|end_char=59
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=60|end_char=61
+5	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=62|end_char=73
+6	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=74|end_char=86
+7	NiCD	NiCD	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=87|end_char=91
+8	,	,	PUNCT	_	_	12	punct	_	start_char=91|end_char=92
+9	но	но	CCONJ	_	_	12	cc	_	start_char=93|end_char=95
+10	от	от	ADP	_	_	11	case	_	start_char=96|end_char=98
+11	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	12	obl	_	start_char=99|end_char=102
+12	отказался	отказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	start_char=103|end_char=112
+13	.	.	PUNCT	_	_	5	punct	_	start_char=112|end_char=113
+
+# text = Когда я попробовал аккумуляторы NiMH, я начал с этими, и был очень разочарован этой технологией.
+# sent_id = 2
+1	Когда	когда	SCONJ	_	_	3	mark	_	start_char=114|end_char=119
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=120|end_char=121
+3	попробовал	попробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=122|end_char=132
+4	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=133|end_char=145
+5	NiMH	NiMH	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=146|end_char=150
+6	,	,	PUNCT	_	_	3	punct	_	start_char=150|end_char=151
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=152|end_char=153
+8	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=154|end_char=159
+9	с	с	ADP	_	_	10	case	_	start_char=160|end_char=161
+10	этими	этот	DET	_	Case=Ins|Number=Plur|PronType=Dem	8	det	_	start_char=162|end_char=167
+11	,	,	PUNCT	_	_	15	punct	_	start_char=167|end_char=168
+12	и	и	CCONJ	_	_	15	cc	_	start_char=169|end_char=170
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	start_char=171|end_char=174
+14	очень	очень	ADV	_	Degree=Pos	15	advmod	_	start_char=175|end_char=180
+15	разочарован	разочаровать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	start_char=181|end_char=192
+16	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	start_char=193|end_char=197
+17	технологией	технология	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	start_char=198|end_char=209
+18	.	.	PUNCT	_	_	8	punct	_	start_char=209|end_char=210
+
+# text = Мы использовали их в мыши, которые требовали замены батарей примерно два раза в неделю.
+# sent_id = 3
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=211|end_char=213
+2	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=214|end_char=226
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=227|end_char=229
+4	в	в	ADP	_	_	5	case	_	start_char=230|end_char=231
+5	мыши	мышь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=232|end_char=236
+6	,	,	PUNCT	_	_	8	punct	_	start_char=236|end_char=237
+7	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=238|end_char=245
+8	требовали	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=246|end_char=255
+9	замены	замена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	start_char=256|end_char=262
+10	батарей	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	start_char=263|end_char=270
+11	примерно	примерно	ADV	_	Degree=Pos	12	advmod	_	start_char=271|end_char=279
+12	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	13	nummod	_	start_char=280|end_char=283
+13	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	start_char=284|end_char=288
+14	в	в	ADP	_	_	15	case	_	start_char=289|end_char=290
+15	неделю	неделя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=291|end_char=297
+16	.	.	PUNCT	_	_	2	punct	_	start_char=297|end_char=298
+
+# text = Позже я перешел на Sanyo eneloop, и я очень доволен ими.
+# sent_id = 4
+1	Позже	поздно	ADV	_	Degree=Cmp	3	advmod	_	start_char=299|end_char=304
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=305|end_char=306
+3	перешел	перейти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=307|end_char=314
+4	на	на	ADP	_	_	3	case	_	start_char=315|end_char=317
+5	Sanyo	Sanyo	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=318|end_char=323
+6	eneloop	eneloop	X	_	Foreign=Yes	3	flat:foreign	_	start_char=324|end_char=331
+7	,	,	PUNCT	_	_	11	punct	_	start_char=331|end_char=332
+8	и	и	CCONJ	_	_	11	cc	_	start_char=333|end_char=334
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=335|end_char=336
+10	очень	очень	ADV	_	Degree=Pos	11	obl	_	start_char=337|end_char=342
+11	доволен	довольный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	start_char=343|end_char=350
+12	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	11	obl	_	start_char=351|end_char=354
+13	.	.	PUNCT	_	_	3	punct	_	start_char=354|end_char=355
+

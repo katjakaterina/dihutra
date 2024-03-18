@@ -1,0 +1,66 @@
+# text = Älä osta, jos nurmikkosi on suurempi kuin 10 neliömetriä
+# sent_id = 0
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=3
+2	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=8|end_char=9
+4	jos	jos	SCONJ	C	_	7	mark	_	start_char=10|end_char=13
+5	nurmikkosi	nurmikko	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	nsubj:cop	_	start_char=14|end_char=24
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=25|end_char=27
+7	suurempi	suuri	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	2	advcl	_	start_char=28|end_char=36
+8	kuin	kuin	SCONJ	C	_	10	mark	_	start_char=37|end_char=41
+9	10	10	NUM	Num	NumType=Card	10	nummod	_	start_char=42|end_char=44
+10	neliömetriä	neliö#metri	NOUN	N	Case=Par|Number=Sing	7	advcl	_	start_char=45|end_char=56
+
+# text = En voinut leikata ruohoani kovin hyvin.
+# sent_id = 1
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=57|end_char=59
+2	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=60|end_char=66
+3	leikata	leikata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=67|end_char=74
+4	ruohoani	ruoho	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	start_char=75|end_char=83
+5	kovin	kovin	ADV	Adv	_	6	advmod	_	start_char=84|end_char=89
+6	hyvin	hyvin	ADV	Adv	_	3	advmod	_	start_char=90|end_char=95
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=95|end_char=96
+
+# text = Kaipaa joitakin kohtia, koska se ei vain leikannut sitä.
+# sent_id = 2
+1	Kaipaa	kaivata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=97|end_char=103
+2	joitakin	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	3	det	_	start_char=104|end_char=112
+3	kohtia	kohta	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=113|end_char=119
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=119|end_char=120
+5	koska	koska	SCONJ	C	_	9	mark	_	start_char=121|end_char=126
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=127|end_char=129
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=130|end_char=132
+8	vain	vain	ADV	Adv	_	9	advmod	_	start_char=133|end_char=137
+9	leikannut	leikata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=138|end_char=147
+10	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	obj	_	start_char=148|end_char=152
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=152|end_char=153
+
+# text = Jos ruoho on yli 2 tuumaa korkeampi, tämä ruohonleikkuri ei ole sinua varten.
+# sent_id = 3
+1	Jos	jos	SCONJ	C	_	7	mark	_	start_char=154|end_char=157
+2	ruoho	ruoho	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=158|end_char=163
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=164|end_char=166
+4	yli	yli	ADV	Adv	_	5	advmod	_	start_char=167|end_char=170
+5	2	2	NUM	Num	NumType=Card	6	nummod	_	start_char=171|end_char=172
+6	tuumaa	tuuma	NOUN	N	Case=Par|Number=Sing	7	advcl	_	start_char=173|end_char=179
+7	korkeampi	korkea	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	13	advcl	_	start_char=180|end_char=189
+8	,	,	PUNCT	Punct	_	7	punct	_	start_char=189|end_char=190
+9	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	start_char=191|end_char=195
+10	ruohonleikkuri	ruohon#leikkuri	NOUN	N	Case=Nom|Number=Sing	13	nsubj:cop	_	start_char=196|end_char=210
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=211|end_char=213
+12	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=214|end_char=217
+13	sinua	sinä	PRON	Pron	Case=Par|Number=Sing|Person=2|PronType=Prs	0	root	_	start_char=218|end_char=223
+14	varten	varten	ADP	Adp	AdpType=Post	13	case	_	start_char=224|end_char=230
+15	.	.	PUNCT	Punct	_	13	punct	_	start_char=230|end_char=231
+
+# text = Pitää käyttää rahat ja hankkia jotain toimivaa.
+# sent_id = 4
+1	Pitää	pitää	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=232|end_char=237
+2	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=238|end_char=245
+3	rahat	raha	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=246|end_char=251
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=252|end_char=254
+5	hankkia	hankkia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	conj	_	start_char=255|end_char=262
+6	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	7	det	_	start_char=263|end_char=269
+7	toimivaa	toimia	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	obj	_	start_char=270|end_char=278
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=278|end_char=279
+

@@ -1,0 +1,84 @@
+# text = Эта книга не о круглых стежках, а о прикреплении круглых элементов на одеяло с помощью апликации.
+# sent_id = 0
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=4|end_char=9
+3	не	не	PART	_	_	6	advmod	_	start_char=10|end_char=12
+4	о	о	ADP	_	_	6	case	_	start_char=13|end_char=14
+5	круглых	круглый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	6	amod	_	start_char=15|end_char=22
+6	стежках	стежка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	0	root	_	start_char=23|end_char=30
+7	,	,	PUNCT	_	_	10	punct	_	start_char=30|end_char=31
+8	а	а	CCONJ	_	_	10	cc	_	start_char=32|end_char=33
+9	о	о	ADP	_	_	10	case	_	start_char=34|end_char=35
+10	прикреплении	прикрепление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	conj	_	start_char=36|end_char=48
+11	круглых	круглый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=49|end_char=56
+12	элементов	элемент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=57|end_char=66
+13	на	на	ADP	_	_	14	case	_	start_char=67|end_char=69
+14	одеяло	одеяло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	start_char=70|end_char=76
+15	с	с	ADP	_	_	17	case	_	start_char=77|end_char=78
+16	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	fixed	_	start_char=79|end_char=86
+17	апликации	апликация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=87|end_char=96
+18	.	.	PUNCT	_	_	6	punct	_	start_char=96|end_char=97
+
+# text = Я надеялся на советы по шитью кругов.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=98|end_char=99
+2	надеялся	надеяться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=100|end_char=108
+3	на	на	ADP	_	_	4	case	_	start_char=109|end_char=111
+4	советы	совет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	start_char=112|end_char=118
+5	по	по	ADP	_	_	6	case	_	start_char=119|end_char=121
+6	шитью	шить	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	start_char=122|end_char=127
+7	кругов	круг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=128|end_char=134
+8	.	.	PUNCT	_	_	2	punct	_	start_char=134|end_char=135
+
+# text = В этой книге рассматривается только крепление кругов к одеялу с использованием фузионного клея и использование апликации с сырым краем.
+# sent_id = 2
+1	В	в	ADP	_	_	3	case	_	start_char=136|end_char=137
+2	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=138|end_char=142
+3	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=143|end_char=148
+4	рассматривается	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=149|end_char=164
+5	только	только	PART	_	_	6	advmod	_	start_char=165|end_char=171
+6	крепление	крепление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	start_char=172|end_char=181
+7	кругов	круг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=182|end_char=188
+8	к	к	ADP	_	_	9	case	_	start_char=189|end_char=190
+9	одеялу	одеяло	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	start_char=191|end_char=197
+10	с	с	ADP	_	_	11	case	_	start_char=198|end_char=199
+11	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	start_char=200|end_char=214
+12	фузионного	фузионный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=215|end_char=225
+13	клея	клей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=226|end_char=230
+14	и	и	CCONJ	_	_	15	cc	_	start_char=231|end_char=232
+15	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	start_char=233|end_char=246
+16	апликации	апликация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=247|end_char=256
+17	с	с	ADP	_	_	19	case	_	start_char=257|end_char=258
+18	сырым	сырой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=259|end_char=264
+19	краем	край	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	start_char=265|end_char=270
+20	.	.	PUNCT	_	_	4	punct	_	start_char=270|end_char=271
+
+# text = Даже советов по апликации нет.
+# sent_id = 3
+1	Даже	даже	PART	_	_	2	advmod	_	start_char=272|end_char=276
+2	советов	совет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	start_char=277|end_char=284
+3	по	по	ADP	_	_	4	case	_	start_char=285|end_char=287
+4	апликации	апликация	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	start_char=288|end_char=297
+5	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=298|end_char=301
+6	.	.	PUNCT	_	_	5	punct	_	start_char=301|end_char=302
+
+# text = Хорошая новость заключается в том, что книга всего 35 страниц и не забрала много времени.
+# sent_id = 4
+1	Хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=303|end_char=310
+2	новость	новость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=311|end_char=318
+3	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=319|end_char=330
+4	в	в	ADP	_	_	5	case	_	start_char=331|end_char=332
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	start_char=333|end_char=336
+6	,	,	PUNCT	_	_	11	punct	_	start_char=336|end_char=337
+7	что	что	SCONJ	_	_	11	mark	_	start_char=338|end_char=341
+8	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=342|end_char=347
+9	всего	всего	PART	_	_	10	advmod	_	start_char=348|end_char=353
+10	35	35	NUM	_	NumType=Card	11	nummod	_	start_char=354|end_char=356
+11	страниц	страница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	acl	_	start_char=357|end_char=364
+12	и	и	CCONJ	_	_	14	cc	_	start_char=365|end_char=366
+13	не	не	PART	_	_	14	advmod	_	start_char=367|end_char=369
+14	забрала	забрать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	start_char=370|end_char=377
+15	много	много	ADV	_	Degree=Pos	16	advmod	_	start_char=378|end_char=383
+16	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	start_char=384|end_char=391
+17	.	.	PUNCT	_	_	3	punct	_	start_char=391|end_char=392
+

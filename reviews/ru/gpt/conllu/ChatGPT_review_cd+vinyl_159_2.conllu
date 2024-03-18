@@ -1,0 +1,124 @@
+# text = Не тратьте свои деньги.
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	тратьте	тратить	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=10
+3	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	start_char=11|end_char=15
+4	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=16|end_char=22
+5	.	.	PUNCT	_	_	2	punct	_	start_char=22|end_char=23
+
+# text = Это не стоит ваших денег.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=24|end_char=27
+2	не	не	PART	_	_	3	advmod	_	start_char=28|end_char=30
+3	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=31|end_char=36
+4	ваших	ваш	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	5	det	_	start_char=37|end_char=42
+5	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	start_char=43|end_char=48
+6	.	.	PUNCT	_	_	3	punct	_	start_char=48|end_char=49
+
+# text = Дуг проходит через каждую песню примерно за три или четыре минуты, он не дает вам времени на её изучение.
+# sent_id = 2
+1	Дуг	дуг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=50|end_char=53
+2	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=62
+3	через	через	ADP	_	_	5	case	_	start_char=63|end_char=68
+4	каждую	каждый	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	5	det	_	start_char=69|end_char=75
+5	песню	песня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=76|end_char=81
+6	примерно	примерно	ADV	_	Degree=Pos	11	obl	_	start_char=82|end_char=90
+7	за	за	ADP	_	_	11	case	_	start_char=91|end_char=93
+8	три	три	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	11	nummod	_	start_char=94|end_char=97
+9	или	или	CCONJ	_	_	10	cc	_	start_char=98|end_char=101
+10	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	8	conj	_	start_char=102|end_char=108
+11	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	start_char=109|end_char=115
+12	,	,	PUNCT	_	_	15	punct	_	start_char=115|end_char=116
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=117|end_char=119
+14	не	не	PART	_	_	15	advmod	_	start_char=120|end_char=122
+15	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=123|end_char=127
+16	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	15	iobj	_	start_char=128|end_char=131
+17	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	start_char=132|end_char=139
+18	на	на	ADP	_	_	20	case	_	start_char=140|end_char=142
+19	её	ее	DET	_	Poss=Yes|PronType=Prs	20	det	_	start_char=143|end_char=145
+20	изучение	изучение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	start_char=146|end_char=154
+21	.	.	PUNCT	_	_	2	punct	_	start_char=154|end_char=155
+
+# text = Если вы еще не освоили нотопись (и в таком случае зачем покупать этот DVD?), вам придется постоянно перематывать видео многократно, чтобы найти правильные ноты.
+# sent_id = 3
+1	Если	если	SCONJ	_	_	5	mark	_	start_char=156|end_char=160
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	start_char=161|end_char=163
+3	еще	еще	ADV	_	Degree=Pos	5	advmod	_	start_char=164|end_char=167
+4	не	не	PART	_	_	5	advmod	_	start_char=168|end_char=170
+5	освоили	освоить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	start_char=171|end_char=178
+6	нотопись	нотопись	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=179|end_char=187
+7	(	(	PUNCT	_	_	13	punct	_	start_char=188|end_char=189
+8	и	и	CCONJ	_	_	13	cc	_	start_char=189|end_char=190
+9	в	в	ADP	_	_	11	case	_	start_char=191|end_char=192
+10	таком	такой	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=193|end_char=198
+11	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	start_char=199|end_char=205
+12	зачем	зачем	ADV	_	Degree=Pos	13	advmod	_	start_char=206|end_char=211
+13	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	parataxis	_	start_char=212|end_char=220
+14	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	start_char=221|end_char=225
+15	DVD	DVD	PROPN	_	_	13	obj	_	start_char=226|end_char=229
+16	?	?	PUNCT	_	_	15	punct	_	start_char=229|end_char=230
+17	)	)	PUNCT	_	_	13	punct	_	start_char=230|end_char=231
+18	,	,	PUNCT	_	_	5	punct	_	start_char=231|end_char=232
+19	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	20	iobj	_	start_char=234|end_char=237
+20	придется	прийтись	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=238|end_char=246
+21	постоянно	постоянно	ADV	_	Degree=Pos	22	advmod	_	start_char=247|end_char=256
+22	перематывать	перематывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	csubj	_	start_char=257|end_char=269
+23	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	start_char=270|end_char=275
+24	многократно	многократно	ADV	_	Degree=Pos	22	advmod	_	start_char=276|end_char=287
+25	,	,	PUNCT	_	_	27	punct	_	start_char=287|end_char=288
+26	чтобы	чтобы	SCONJ	_	Mood=Cnd	27	mark	_	start_char=289|end_char=294
+27	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	advcl	_	start_char=295|end_char=300
+28	правильные	правильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	start_char=301|end_char=311
+29	ноты	нота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	27	obj	_	start_char=312|end_char=316
+30	.	.	PUNCT	_	_	20	punct	_	start_char=316|end_char=317
+
+# text = Это ничем не лучше, чем видео на YouTube, где кто-то играет множество песен Клэптона.
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=318|end_char=321
+2	ничем	ничто	PRON	_	Case=Ins|PronType=Neg	4	obl	_	start_char=322|end_char=327
+3	не	не	PART	_	_	4	advmod	_	start_char=328|end_char=330
+4	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	start_char=331|end_char=336
+5	,	,	PUNCT	_	_	7	punct	_	start_char=336|end_char=337
+6	чем	чем	SCONJ	_	_	7	mark	_	start_char=338|end_char=341
+7	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	obl	_	start_char=342|end_char=347
+8	на	на	ADP	_	_	9	case	_	start_char=348|end_char=350
+9	YouTube	ютьюб	PROPN	_	_	7	nmod	_	start_char=351|end_char=358
+10	,	,	PUNCT	_	_	13	punct	_	start_char=358|end_char=359
+11	где	где	ADV	_	Degree=Pos	13	advmod	_	start_char=360|end_char=363
+12	кто-то	кто-то	PRON	_	Case=Nom|PronType=Ind	13	nsubj	_	start_char=364|end_char=370
+13	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=371|end_char=377
+14	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=378|end_char=387
+15	песен	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	start_char=388|end_char=393
+16	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=394|end_char=402
+17	.	.	PUNCT	_	_	4	punct	_	start_char=402|end_char=403
+
+# text = Дуг даже не показывает вам ритм или другие гитарные партии!
+# sent_id = 5
+1	Дуг	дуг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=404|end_char=407
+2	даже	даже	PART	_	_	3	advmod	_	start_char=408|end_char=412
+3	не	не	PART	_	_	4	advmod	_	start_char=413|end_char=415
+4	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=416|end_char=426
+5	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	iobj	_	start_char=427|end_char=430
+6	ритм	ритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=431|end_char=435
+7	или	или	CCONJ	_	_	10	cc	_	start_char=436|end_char=439
+8	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=440|end_char=446
+9	гитарные	гитарный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=447|end_char=455
+10	партии	партия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	conj	_	start_char=456|end_char=462
+11	!	!	PUNCT	_	_	4	punct	_	start_char=462|end_char=463
+
+# text = Вы узнаете только соло!
+# sent_id = 6
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=464|end_char=466
+2	узнаете	узнавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=467|end_char=474
+3	только	только	PART	_	_	4	advmod	_	start_char=475|end_char=481
+4	соло	соло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=482|end_char=486
+5	!	!	PUNCT	_	_	2	punct	_	start_char=486|end_char=487
+
+# text = В чем тут логика?
+# sent_id = 7
+1	В	в	ADP	_	_	2	case	_	start_char=488|end_char=489
+2	чем	что	PRON	_	Case=Loc|PronType=Int,Rel	0	root	_	start_char=490|end_char=493
+3	тут	тут	ADV	_	Degree=Pos	2	advmod	_	start_char=494|end_char=497
+4	логика	логика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=498|end_char=504
+5	?	?	PUNCT	_	_	2	punct	_	start_char=504|end_char=505
+

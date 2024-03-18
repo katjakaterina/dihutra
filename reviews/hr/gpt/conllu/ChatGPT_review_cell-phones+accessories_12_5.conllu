@@ -1,0 +1,99 @@
+# text = Pobjednik Ovo je prvi slučaj za bateriju koji sam imao za svoj Galaxy S4.
+# sent_id = 0
+1	Pobjednik	pobjednik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=9
+2	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=10|end_char=13
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=14|end_char=16
+4	prvi	prvi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=17|end_char=21
+5	slučaj	slučaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=28
+6	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=29|end_char=31
+7	bateriju	baterija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=32|end_char=40
+8	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	10	nsubj	_	start_char=41|end_char=45
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=46|end_char=49
+10	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	start_char=50|end_char=54
+11	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=55|end_char=57
+12	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	start_char=58|end_char=62
+13	Galaxy	Galaxy	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	start_char=63|end_char=69
+14	S4	S4	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	flat	_	start_char=70|end_char=72
+15	.	.	PUNCT	Z	_	5	punct	_	start_char=72|end_char=73
+
+# text = S4 se vrlo dobro uklapa, tanki je i ne dodaje puno težine Galaxyju S4.
+# sent_id = 1
+1	S4	s4	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=74|end_char=76
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=77|end_char=79
+3	vrlo	vrlo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=80|end_char=84
+4	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=85|end_char=90
+5	uklapa	uklapati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=91|end_char=97
+6	,	,	PUNCT	Z	_	7	punct	_	start_char=97|end_char=98
+7	tanki	tanak	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	conj	_	start_char=99|end_char=104
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=105|end_char=107
+9	i	i	CCONJ	Cc	_	11	cc	_	start_char=108|end_char=109
+10	ne	ne	PART	Qz	Polarity=Neg	11	advmod	_	start_char=110|end_char=112
+11	dodaje	dodavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=113|end_char=119
+12	puno	puno	DET	Rgp	Degree=Pos	13	det:numgov	_	start_char=120|end_char=124
+13	težine	težina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	obj	_	start_char=125|end_char=131
+14	Galaxyju	Galaxyju	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	13	flat	_	start_char=132|end_char=140
+15	S4	S4	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	start_char=141|end_char=143
+16	.	.	PUNCT	Z	_	5	punct	_	start_char=143|end_char=144
+
+# text = Dvostruko produžuje vijek trajanja baterije.
+# sent_id = 2
+1	Dvostruko	dvostruko	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=145|end_char=154
+2	produžuje	produživati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=155|end_char=164
+3	vijek	vijek	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=165|end_char=170
+4	trajanja	trajanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=171|end_char=179
+5	baterije	baterija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=180|end_char=188
+6	.	.	PUNCT	Z	_	2	punct	_	start_char=188|end_char=189
+
+# text = Možete puniti ili bateriju, telefon ili oboje.
+# sent_id = 3
+1	Možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=190|end_char=196
+2	puniti	puniti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=197|end_char=203
+3	ili	ili	CCONJ	Cc	_	4	cc	_	start_char=204|end_char=207
+4	bateriju	baterija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=208|end_char=216
+5	,	,	PUNCT	Z	_	6	punct	_	start_char=216|end_char=217
+6	telefon	telefon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	start_char=218|end_char=225
+7	ili	ili	CCONJ	Cc	_	8	cc	_	start_char=226|end_char=229
+8	oboje	oboje	ADV	Rgp	Degree=Pos	4	conj	_	start_char=230|end_char=235
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=235|end_char=236
+
+# text = Tu je korisno prekidač za uključivanje/isključivanje s LED svjetlima koja pokazuju razinu punjenja.
+# sent_id = 4
+1	Tu	tu	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	start_char=237|end_char=239
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=240|end_char=242
+3	korisno	korisno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=243|end_char=250
+4	prekidač	prekidač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=251|end_char=259
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=260|end_char=262
+6	uključivanje/isključivanje	uključivanje/isključivanje	NOUN	Ncfsi	Case=Ins|Gender=Neut|Number=Sing	4	nmod	_	start_char=263|end_char=289
+7	s	sa	ADP	Si	Case=Ins	9	case	_	start_char=290|end_char=291
+8	LED	led	ADJ	Agpnpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	start_char=292|end_char=295
+9	svjetlima	svjetlo	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	6	nmod	_	start_char=296|end_char=305
+10	koja	koji	DET	Pi-npn	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	11	nsubj	_	start_char=306|end_char=310
+11	pokazuju	pokazivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	start_char=311|end_char=319
+12	razinu	razina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=320|end_char=326
+13	punjenja	punjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=327|end_char=335
+14	.	.	PUNCT	Z	_	3	punct	_	start_char=335|end_char=336
+
+# text = Slučaj za bateriju došao je na vrijeme i bio je dobro upakiran.
+# sent_id = 5
+1	Slučaj	slučaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=337|end_char=343
+2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=344|end_char=346
+3	bateriju	baterija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	start_char=347|end_char=355
+4	došao	doći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=356|end_char=361
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=362|end_char=364
+6	na	na	ADP	Sa	Case=Acc	7	case	_	start_char=365|end_char=367
+7	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=368|end_char=375
+8	i	i	CCONJ	Cc	_	12	cc	_	start_char=376|end_char=377
+9	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	cop	_	start_char=378|end_char=381
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=382|end_char=384
+11	dobro	dobro	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=385|end_char=390
+12	upakiran	upakiran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	start_char=391|end_char=399
+13	.	.	PUNCT	Z	_	4	punct	_	start_char=399|end_char=400
+
+# text = Svaka kuna vrijedna cijene.
+# sent_id = 6
+1	Svaka	svaki	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	2	det	_	start_char=401|end_char=406
+2	kuna	kuna	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=407|end_char=411
+3	vrijedna	vrijedan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=412|end_char=420
+4	cijene	cijena	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=421|end_char=427
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=427|end_char=428
+

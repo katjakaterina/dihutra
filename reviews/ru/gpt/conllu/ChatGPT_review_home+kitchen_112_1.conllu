@@ -1,0 +1,112 @@
+# text = Не предназначено для использования с посудой из серебра Мы получили эти салатные тарелки и миски с нашего свадебного списка подарков.
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	предназначено	предназначить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=3|end_char=16
+3	для	для	ADP	_	_	4	case	_	start_char=17|end_char=20
+4	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=21|end_char=34
+5	с	с	ADP	_	_	6	case	_	start_char=35|end_char=36
+6	посудой	посуда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	start_char=37|end_char=44
+7	из	из	ADP	_	_	8	case	_	start_char=45|end_char=47
+8	серебра	серебро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=48|end_char=55
+9	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=56|end_char=58
+10	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=59|end_char=67
+11	эти	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	13	det	_	start_char=68|end_char=71
+12	салатные	салатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	start_char=72|end_char=80
+13	тарелки	тарелка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=81|end_char=88
+14	и	и	CCONJ	_	_	15	cc	_	start_char=89|end_char=90
+15	миски	миска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	conj	_	start_char=91|end_char=96
+16	с	с	ADP	_	_	19	case	_	start_char=97|end_char=98
+17	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	start_char=99|end_char=105
+18	свадебного	свадебный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=106|end_char=116
+19	списка	список	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	start_char=117|end_char=123
+20	подарков	подарок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	start_char=124|end_char=132
+21	.	.	PUNCT	_	_	2	punct	_	start_char=132|end_char=133
+
+# text = Они абсолютно красивы, НО НЕ ФУНКЦИОНАЛЬНЫ.
+# sent_id = 1
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=134|end_char=137
+2	абсолютно	абсолютно	ADV	_	Degree=Pos	3	obl	_	start_char=138|end_char=147
+3	красивы	красивый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=148|end_char=155
+4	,	,	PUNCT	_	_	7	punct	_	start_char=155|end_char=156
+5	НО	но	CCONJ	_	_	7	cc	_	start_char=157|end_char=159
+6	НЕ	не	PART	_	_	7	advmod	_	start_char=160|end_char=162
+7	ФУНКЦИОНАЛЬНЫ	функциональный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	start_char=163|end_char=176
+8	.	.	PUNCT	_	_	3	punct	_	start_char=176|end_char=177
+
+# text = Похоже, что их следует использовать только с деревянными приборами или палочками для еды, потому что использование металлических приборов на поверхности оставляет серую метку и издает ужасный звук, который совершенно невыносим!
+# sent_id = 2
+1	Похоже	похожий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=178|end_char=184
+2	,	,	PUNCT	_	_	5	punct	_	start_char=184|end_char=185
+3	что	что	SCONJ	_	_	5	mark	_	start_char=186|end_char=189
+4	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	start_char=190|end_char=192
+5	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=193|end_char=200
+6	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	csubj	_	start_char=201|end_char=213
+7	только	только	PART	_	_	10	advmod	_	start_char=214|end_char=220
+8	с	с	ADP	_	_	10	case	_	start_char=221|end_char=222
+9	деревянными	деревянный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	start_char=223|end_char=234
+10	приборами	прибор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	start_char=235|end_char=244
+11	или	или	CCONJ	_	_	12	cc	_	start_char=245|end_char=248
+12	палочками	палочка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	conj	_	start_char=249|end_char=258
+13	для	для	ADP	_	_	14	case	_	start_char=259|end_char=262
+14	еды	еда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=263|end_char=266
+15	,	,	PUNCT	_	_	23	punct	_	start_char=266|end_char=267
+16	потому	потому	ADV	_	Degree=Pos	23	mark	_	start_char=268|end_char=274
+17	что	что	SCONJ	_	_	16	fixed	_	start_char=275|end_char=278
+18	использование	использование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	start_char=279|end_char=292
+19	металлических	металлический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	start_char=293|end_char=306
+20	приборов	прибор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=307|end_char=315
+21	на	на	ADP	_	_	22	case	_	start_char=316|end_char=318
+22	поверхности	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	start_char=319|end_char=330
+23	оставляет	оставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=331|end_char=340
+24	серую	серый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=341|end_char=346
+25	метку	метка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=347|end_char=352
+26	и	и	CCONJ	_	_	27	cc	_	start_char=353|end_char=354
+27	издает	издавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	start_char=355|end_char=361
+28	ужасный	ужасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=362|end_char=369
+29	звук	звук	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	start_char=370|end_char=374
+30	,	,	PUNCT	_	_	33	punct	_	start_char=374|end_char=375
+31	который	который	PRON	_	Case=Nom|PronType=Int,Rel	33	nsubj	_	start_char=376|end_char=383
+32	совершенно	совершенно	ADV	_	Degree=Pos	33	obl	_	start_char=384|end_char=394
+33	невыносим	невыносий	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	29	acl:relcl	_	start_char=395|end_char=404
+34	!	!	PUNCT	_	_	1	punct	_	start_char=404|end_char=405
+
+# text = Этого хватило, чтобы нам пришлось приобрести новую посуду.
+# sent_id = 3
+1	Этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=406|end_char=411
+2	хватило	хватить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=412|end_char=419
+3	,	,	PUNCT	_	_	6	punct	_	start_char=419|end_char=420
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=421|end_char=426
+5	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	iobj	_	start_char=427|end_char=430
+6	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	advcl	_	start_char=431|end_char=439
+7	приобрести	приобрести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	csubj	_	start_char=440|end_char=450
+8	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=451|end_char=456
+9	посуду	посуда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=457|end_char=463
+10	.	.	PUNCT	_	_	2	punct	_	start_char=463|end_char=464
+
+# text = Мне действительно жаль, что так произошло, потому что мне нравится дизайн.
+# sent_id = 4
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=465|end_char=468
+2	действительно	действительно	ADV	_	Degree=Pos	3	advmod	_	start_char=469|end_char=482
+3	жаль	жаль	ADV	_	Degree=Pos	0	root	_	start_char=483|end_char=487
+4	,	,	PUNCT	_	_	7	punct	_	start_char=487|end_char=488
+5	что	что	SCONJ	_	_	7	mark	_	start_char=489|end_char=492
+6	так	так	ADV	_	Degree=Pos	7	advmod	_	start_char=493|end_char=496
+7	произошло	произойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=497|end_char=506
+8	,	,	PUNCT	_	_	12	punct	_	start_char=506|end_char=507
+9	потому	потому	ADV	_	Degree=Pos	12	mark	_	start_char=508|end_char=514
+10	что	что	SCONJ	_	_	9	fixed	_	start_char=515|end_char=518
+11	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	iobj	_	start_char=519|end_char=522
+12	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	start_char=523|end_char=531
+13	дизайн	дизайн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=532|end_char=538
+14	.	.	PUNCT	_	_	3	punct	_	start_char=538|end_char=539
+
+# text = Просто будьте в курсе перед покупкой!
+# sent_id = 5
+1	Просто	просто	PART	_	_	2	advmod	_	start_char=540|end_char=546
+2	будьте	быть	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	4	cop	_	start_char=547|end_char=553
+3	в	в	ADP	_	_	4	case	_	start_char=554|end_char=555
+4	курсе	курс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=556|end_char=561
+5	перед	перед	ADP	_	_	6	case	_	start_char=562|end_char=567
+6	покупкой	покупка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	start_char=568|end_char=576
+7	!	!	PUNCT	_	_	4	punct	_	start_char=576|end_char=577
+

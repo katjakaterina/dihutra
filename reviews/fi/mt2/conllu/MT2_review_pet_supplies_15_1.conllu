@@ -1,0 +1,99 @@
+# text = $ tuhlausta
+# sent_id = 0
+1	$	$	NOUN	N	Case=Nom|Number=Sing	2	nsubj:cop	_	start_char=0|end_char=1
+2	tuhlausta	tuhlaus	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=2|end_char=11
+
+# text = Jos haluat linnusi olevan vuorovaikutuksessa kanssasi, ole vuorovaikutuksessa linnusi kanssa.
+# sent_id = 1
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=12|end_char=15
+2	haluat	haluta	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=16|end_char=22
+3	linnusi	linnu	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nsubj:cop	_	start_char=23|end_char=30
+4	olevan	olla	AUX	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	5	cop	_	start_char=31|end_char=37
+5	vuorovaikutuksessa	vuoro#vaikutus	NOUN	N	Case=Ine|Number=Sing	2	ccomp	_	start_char=38|end_char=56
+6	kanssasi	kanssa	ADV	Adv	Number[psor]=Sing|Person[psor]=2	5	advmod	_	start_char=57|end_char=65
+7	,	,	PUNCT	Punct	_	2	punct	_	start_char=65|end_char=66
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=67|end_char=70
+9	vuorovaikutuksessa	vuoro#vaikutus	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=71|end_char=89
+10	linnusi	linnu	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	obl	_	start_char=90|end_char=97
+11	kanssa	kanssa	ADP	Adp	AdpType=Post	10	case	_	start_char=98|end_char=104
+12	.	.	PUNCT	Punct	_	9	punct	_	start_char=104|end_char=105
+
+# text = Papukaijat ovat 3-5-vuotiaan lapsen henkisiä kykyjä.
+# sent_id = 2
+1	Papukaijat	papu#kaija	NOUN	N	Case=Nom|Number=Plur	6	nsubj:cop	_	start_char=106|end_char=116
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=117|end_char=121
+3	3-5-vuotiaan	3#5#vuotias	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=122|end_char=134
+4	lapsen	lapsi	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=135|end_char=141
+5	henkisiä	henkinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	6	amod	_	start_char=142|end_char=150
+6	kykyjä	kykyjä	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=151|end_char=157
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=157|end_char=158
+
+# text = Tämä on kuin heittäisit lapsesi television eteen ja kutsuisit sitä laatuajalle.
+# sent_id = 3
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	_	start_char=159|end_char=163
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=164|end_char=166
+3	kuin	kuin	SCONJ	C	_	4	mark	_	start_char=167|end_char=171
+4	heittäisit	heittää	VERB	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=172|end_char=182
+5	lapsesi	lapsi	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obj	_	start_char=183|end_char=190
+6	television	televisio	NOUN	N	Case=Gen|Number=Sing	4	obl	_	start_char=191|end_char=201
+7	eteen	eteen	ADP	Adp	AdpType=Post	6	case	_	start_char=202|end_char=207
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=208|end_char=210
+9	kutsuisit	kutsua	VERB	V	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	conj	_	start_char=211|end_char=220
+10	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	obj	_	start_char=221|end_char=225
+11	laatuajalle	laatu#aika	NOUN	N	Case=All|Number=Sing	9	obl	_	start_char=226|end_char=237
+12	.	.	PUNCT	Punct	_	4	punct	_	start_char=237|end_char=238
+
+# text = Papukaijat oppivat kommunikoimaan dynaamisesti, eivät mielihyvin.
+# sent_id = 4
+1	Papukaijat	papu#kaija	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	start_char=239|end_char=249
+2	oppivat	oppia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=250|end_char=257
+3	kommunikoimaan	kommunikoida	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=258|end_char=272
+4	dynaamisesti	dynaamisesti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=273|end_char=285
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=285|end_char=286
+6	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=287|end_char=292
+7	mielihyvin	mielihyvin	ADV	Adv	_	2	advmod	_	start_char=293|end_char=303
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=303|end_char=304
+
+# text = Minulla on 5 papukaijaa ja kaikki ovat juttelevia, koska juttelemme siivoamisen, ruoanlaiton, pyykinpesun aikana.
+# sent_id = 5
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=305|end_char=312
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=313|end_char=315
+3	5	5	NUM	Num	NumType=Card	4	nummod	_	start_char=316|end_char=317
+4	papukaijaa	papu#kaija	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=318|end_char=328
+5	ja	ja	CCONJ	C	_	8	cc	_	start_char=329|end_char=331
+6	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	8	nsubj:cop	_	start_char=332|end_char=338
+7	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=339|end_char=343
+8	juttelevia	jutteleva	ADJ	A	Case=Par|Degree=Pos|Number=Plur	1	conj	_	start_char=344|end_char=354
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=354|end_char=355
+10	koska	koska	SCONJ	C	_	11	mark	_	start_char=356|end_char=361
+11	juttelemme	jutella	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=362|end_char=372
+12	siivoamisen	siivoaminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	17	nmod:poss	_	start_char=373|end_char=384
+13	,	,	PUNCT	Punct	_	14	punct	_	start_char=384|end_char=385
+14	ruoanlaiton	ruoan#laitto	NOUN	N	Case=Gen|Number=Sing	12	conj	_	start_char=386|end_char=397
+15	,	,	PUNCT	Punct	_	16	punct	_	start_char=397|end_char=398
+16	pyykinpesun	pyy#kinpesu	NOUN	N	Case=Gen|Derivation=U|Number=Sing	12	conj	_	start_char=399|end_char=410
+17	aikana	aika	NOUN	N	Case=Ess|Number=Sing	11	obl	_	start_char=411|end_char=417
+18	.	.	PUNCT	Punct	_	1	punct	_	start_char=417|end_char=418
+
+# text = Sammuta televisio ja lue ääneen, puhu, laula, tanssi...
+# sent_id = 6
+1	Sammuta	sammuttaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=419|end_char=426
+2	televisio	televisio	NOUN	N	Case=Nom|Number=Sing	1	obj	_	start_char=427|end_char=436
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=437|end_char=439
+4	lue	lukea	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=440|end_char=443
+5	ääneen	ääni	NOUN	N	Case=Ill|Number=Sing	4	obl	_	start_char=444|end_char=450
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=450|end_char=451
+7	puhu	puhua	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=452|end_char=456
+8	,	,	PUNCT	Punct	_	9	punct	_	start_char=456|end_char=457
+9	laula	laulaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=458|end_char=463
+10	,	,	PUNCT	Punct	_	11	punct	_	start_char=463|end_char=464
+11	tanssi	tanssi	NOUN	N	Case=Nom|Number=Sing	1	conj	_	start_char=465|end_char=471
+12	...	...	PUNCT	Punct	_	1	punct	_	start_char=471|end_char=474
+
+# text = ole yksi laumasta.
+# sent_id = 7
+1	ole	olla	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=475|end_char=478
+2	yksi	yksi	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	0	root	_	start_char=479|end_char=483
+3	laumasta	lauma	NOUN	N	Case=Ela|Number=Sing	2	nmod	_	start_char=484|end_char=492
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=492|end_char=493
+

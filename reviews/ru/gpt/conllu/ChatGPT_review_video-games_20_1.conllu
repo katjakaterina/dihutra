@@ -1,0 +1,87 @@
+# text = Ваши ответы.
+# sent_id = 0
+1	Ваши	ваш	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	2	det	_	start_char=0|end_char=4
+2	ответы	ответ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=5|end_char=11
+3	.	.	PUNCT	_	_	2	punct	_	start_char=11|end_char=12
+
+# text = Случайно наткнулся на это и взял его домой поиграть — думал, что это могло бы быть хорошим подарком для семилетнего ребенка, которого я знаю.
+# sent_id = 1
+1	Случайно	случайно	ADV	_	Degree=Pos	2	advmod	_	start_char=13|end_char=21
+2	наткнулся	наткнуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=22|end_char=31
+3	на	на	ADP	_	_	4	case	_	start_char=32|end_char=34
+4	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	start_char=35|end_char=38
+5	и	и	CCONJ	_	_	6	cc	_	start_char=39|end_char=40
+6	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=41|end_char=45
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=46|end_char=49
+8	домой	домой	ADV	_	Degree=Pos	9	advmod	_	start_char=50|end_char=55
+9	поиграть	поиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=56|end_char=64
+10	—	—	PUNCT	_	_	11	punct	_	start_char=65|end_char=66
+11	думал	думать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=67|end_char=72
+12	,	,	PUNCT	_	_	15	punct	_	start_char=72|end_char=73
+13	что	что	SCONJ	_	_	15	mark	_	start_char=74|end_char=77
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=78|end_char=81
+15	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	start_char=82|end_char=87
+16	бы	бы	AUX	_	_	15	aux	_	start_char=88|end_char=90
+17	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	cop	_	start_char=91|end_char=95
+18	хорошим	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=96|end_char=103
+19	подарком	подарок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	start_char=104|end_char=112
+20	для	для	ADP	_	_	22	case	_	start_char=113|end_char=116
+21	семилетнего	семилетний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=117|end_char=128
+22	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=129|end_char=136
+23	,	,	PUNCT	_	_	26	punct	_	start_char=136|end_char=137
+24	которого	который	PRON	_	Case=Acc|PronType=Int,Rel	26	obj	_	start_char=138|end_char=146
+25	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=147|end_char=148
+26	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl:relcl	_	start_char=149|end_char=153
+27	.	.	PUNCT	_	_	2	punct	_	start_char=153|end_char=154
+
+# text = Игры веселые, насколько я мог вынести децибельный уровень.
+# sent_id = 2
+1	Игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=155|end_char=159
+2	веселые	веселый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=160|end_char=167
+3	,	,	PUNCT	_	_	6	punct	_	start_char=167|end_char=168
+4	насколько	насколько	ADV	_	Degree=Pos	6	advmod	_	start_char=169|end_char=178
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=179|end_char=180
+6	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=181|end_char=184
+7	вынести	вынести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=185|end_char=192
+8	децибельный	децибельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=193|end_char=204
+9	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=205|end_char=212
+10	.	.	PUNCT	_	_	2	punct	_	start_char=212|end_char=213
+
+# text = Чтобы услышать голоса, музыка была настолько громкой, что общий звук болел моим ушам.
+# sent_id = 3
+1	Чтобы	чтобы	SCONJ	_	Mood=Cnd	2	mark	_	start_char=214|end_char=219
+2	услышать	слышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	advcl	_	start_char=220|end_char=228
+3	голоса	голос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=229|end_char=235
+4	,	,	PUNCT	_	_	2	punct	_	start_char=235|end_char=236
+5	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=237|end_char=243
+6	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=244|end_char=248
+7	настолько	настолько	ADV	_	Degree=Pos	8	obl	_	start_char=249|end_char=258
+8	громкой	громкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=259|end_char=266
+9	,	,	PUNCT	_	_	13	punct	_	start_char=266|end_char=267
+10	что	что	SCONJ	_	_	13	mark	_	start_char=268|end_char=271
+11	общий	общий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=272|end_char=277
+12	звук	звук	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=278|end_char=282
+13	болел	болеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=283|end_char=288
+14	моим	мой	DET	_	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	start_char=289|end_char=293
+15	ушам	ухо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	iobj	_	start_char=294|end_char=298
+16	.	.	PUNCT	_	_	8	punct	_	start_char=298|end_char=299
+
+# text = Если бы относительная громкость музыки и голосов была обратной, это был бы лучший продукт.
+# sent_id = 4
+1	Если	если	SCONJ	_	_	9	mark	_	start_char=300|end_char=304
+2	бы	бы	AUX	_	_	9	aux	_	start_char=305|end_char=307
+3	относительная	относительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=308|end_char=321
+4	громкость	громкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=322|end_char=331
+5	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=332|end_char=338
+6	и	и	CCONJ	_	_	7	cc	_	start_char=339|end_char=340
+7	голосов	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	start_char=341|end_char=348
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=349|end_char=353
+9	обратной	обратный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	advcl	_	start_char=354|end_char=362
+10	,	,	PUNCT	_	_	9	punct	_	start_char=362|end_char=363
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=364|end_char=367
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	start_char=368|end_char=371
+13	бы	бы	AUX	_	_	15	aux	_	start_char=372|end_char=374
+14	лучший	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=375|end_char=381
+15	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=382|end_char=389
+16	.	.	PUNCT	_	_	15	punct	_	start_char=389|end_char=390
+

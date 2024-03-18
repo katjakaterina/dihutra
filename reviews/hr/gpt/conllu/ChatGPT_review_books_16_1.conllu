@@ -1,0 +1,75 @@
+# text = Nije vrijedno novca
+# sent_id = 0
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=0|end_char=4
+2	vrijedno	vrijedan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=5|end_char=13
+3	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	start_char=14|end_char=19
+
+# text = Ovo je vrlo jeftino izrađen proizvod.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=20|end_char=23
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=24|end_char=26
+3	vrlo	vrlo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=27|end_char=31
+4	jeftino	jeftin	ADV	Rgp	Degree=Pos	6	amod	_	start_char=32|end_char=39
+5	izrađen	izraditi	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	amod	_	start_char=40|end_char=47
+6	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=48|end_char=56
+7	.	.	PUNCT	Z	_	6	punct	_	start_char=56|end_char=57
+
+# text = Ne bih platio ni 1$ za ovo.
+# sent_id = 2
+1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=58|end_char=60
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=61|end_char=64
+3	platio	platiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=65|end_char=71
+4	ni	ni	PART	Qo	_	5	discourse	_	start_char=72|end_char=74
+5	1$	1$	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=75|end_char=77
+6	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=78|end_char=80
+7	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	nmod	_	start_char=81|end_char=84
+8	.	.	PUNCT	Z	_	3	punct	_	start_char=84|end_char=85
+
+# text = Papir je jeftin i tanki - knjiga se čak neće ni održati otvorenom (iz straha da će se pokidati uvez) tako da je mogu otvoriti i postaviti na stalak za klavir kako bih svirao/svirala.
+# sent_id = 3
+1	Papir	papir	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=86|end_char=91
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=92|end_char=94
+3	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=95|end_char=101
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=102|end_char=103
+5	tanki	tanak	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=104|end_char=109
+6	-	-	PUNCT	Z	_	12	punct	_	start_char=110|end_char=111
+7	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=112|end_char=118
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	start_char=119|end_char=121
+9	čak	čak	PART	Qo	_	12	advmod	_	start_char=122|end_char=125
+10	neće	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=126|end_char=130
+11	ni	ni	PART	Qo	_	12	discourse	_	start_char=131|end_char=133
+12	održati	održati	VERB	Vmn	VerbForm=Inf	3	parataxis	_	start_char=134|end_char=141
+13	otvorenom	otvoren	ADJ	Agpmsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	obj	_	start_char=142|end_char=151
+14	(	(	PUNCT	Z	_	16	punct	_	start_char=152|end_char=153
+15	iz	iz	ADP	Sg	Case=Gen	16	case	_	start_char=153|end_char=155
+16	straha	strah	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	start_char=156|end_char=162
+17	da	da	SCONJ	Cs	_	20	mark	_	start_char=163|end_char=165
+18	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=166|end_char=168
+19	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	20	expl	_	start_char=169|end_char=171
+20	pokidati	pokidati	VERB	Vmn	VerbForm=Inf	16	acl	_	start_char=172|end_char=180
+21	uvez	uvez	NOUN	Ncm	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=181|end_char=185
+22	)	)	PUNCT	Z	_	16	punct	_	start_char=185|end_char=186
+23	tako	tako	SCONJ	Cs	_	26	mark	_	start_char=187|end_char=191
+24	da	da	SCONJ	Cs	_	23	fixed	_	start_char=192|end_char=194
+25	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	start_char=195|end_char=197
+26	mogu	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=198|end_char=202
+27	otvoriti	otvoriti	VERB	Vmn	VerbForm=Inf	26	xcomp	_	start_char=203|end_char=211
+28	i	i	CCONJ	Cc	_	29	cc	_	start_char=212|end_char=213
+29	postaviti	postaviti	VERB	Vmn	VerbForm=Inf	27	conj	_	start_char=214|end_char=223
+30	na	na	ADP	Sa	Case=Acc	31	case	_	start_char=224|end_char=226
+31	stalak	stalak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	start_char=227|end_char=233
+32	za	za	ADP	Sa	Case=Acc	33	case	_	start_char=234|end_char=236
+33	klavir	klavir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	nmod	_	start_char=237|end_char=243
+34	kako	kako	SCONJ	Cs	_	36	mark	_	start_char=244|end_char=248
+35	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	36	aux	_	start_char=249|end_char=252
+36	svirao/svirala	svirao/svirati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	26	advcl	_	start_char=253|end_char=267
+37	.	.	PUNCT	Z	_	3	punct	_	start_char=267|end_char=268
+
+# text = Nemojte kupiti ovu verziju.
+# sent_id = 4
+1	Nemojte	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=269|end_char=276
+2	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=277|end_char=283
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=284|end_char=287
+4	verziju	verzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=288|end_char=295
+5	.	.	PUNCT	Z	_	1	punct	_	start_char=295|end_char=296
+

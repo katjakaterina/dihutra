@@ -1,0 +1,120 @@
+# text = Klasik iz 1960-ih doživljava ovo?
+# sent_id = 0
+1	Klasik	klasik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=6
+2	iz	iz	ADP	Sg	Case=Gen	3	case	_	start_char=7|end_char=9
+3	1960-ih	1960-ih	NUM	Mdc	NumType=Card	1	nmod	_	start_char=10|end_char=17
+4	doživljava	doživljavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=18|end_char=28
+5	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=29|end_char=32
+6	?	?	PUNCT	Z	_	4	punct	_	start_char=32|end_char=33
+
+# text = Pripovijedanje je u redu, ali priča je slaba i pjesme su briljantno neupadljive.
+# sent_id = 1
+1	Pripovijedanje	pripovijedanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=34|end_char=48
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=49|end_char=51
+3	u	u	ADP	Sl	Case=Loc	4	case	_	start_char=52|end_char=53
+4	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=54|end_char=58
+5	,	,	PUNCT	Z	_	9	punct	_	start_char=58|end_char=59
+6	ali	ali	CCONJ	Cc	_	9	cc	_	start_char=60|end_char=63
+7	priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=64|end_char=69
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=70|end_char=72
+9	slaba	slab	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	start_char=73|end_char=78
+10	i	i	CCONJ	Cc	_	14	cc	_	start_char=79|end_char=80
+11	pjesme	pjesma	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=81|end_char=87
+12	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=88|end_char=90
+13	briljantno	briljantno	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=91|end_char=101
+14	neupadljive	neupadljiv	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	conj	_	start_char=102|end_char=113
+15	.	.	PUNCT	Z	_	4	punct	_	start_char=113|end_char=114
+
+# text = Stresao sam se kad sam gledao ovo sa svojim sinom.
+# sent_id = 2
+1	Stresao	stresati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=115|end_char=122
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=123|end_char=126
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=127|end_char=129
+4	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	6	advmod	_	start_char=130|end_char=133
+5	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=134|end_char=137
+6	gledao	gledati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=138|end_char=144
+7	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	start_char=145|end_char=148
+8	sa	sa	ADP	Si	Case=Ins	10	case	_	start_char=149|end_char=151
+9	svojim	svoj	DET	Px-msi	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	start_char=152|end_char=158
+10	sinom	sin	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=159|end_char=164
+11	.	.	PUNCT	Z	_	1	punct	_	start_char=164|end_char=165
+
+# text = Priznajem da sam odrastao uz originalnu emisiju s Jimmyjem Duranteom kao naratorom i naslovnom pjesmom koja je dobro napisani klasik, umjesto osrednje himne politički korektnim temama iz 1990-ih.
+# sent_id = 3
+1	Priznajem	priznavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=166|end_char=175
+2	da	da	SCONJ	Cs	_	4	mark	_	start_char=176|end_char=178
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=179|end_char=182
+4	odrastao	odrastati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	start_char=183|end_char=191
+5	uz	uz	ADP	Sa	Case=Acc	7	case	_	start_char=192|end_char=194
+6	originalnu	originalan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=195|end_char=205
+7	emisiju	emisija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=206|end_char=213
+8	s	sa	ADP	Si	Case=Ins	9	case	_	start_char=214|end_char=215
+9	Jimmyjem	Jimmyje	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	start_char=216|end_char=224
+10	Duranteom	Durante	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	9	flat	_	start_char=225|end_char=234
+11	kao	kao	SCONJ	Cs	_	12	case	_	start_char=235|end_char=238
+12	naratorom	narator	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	start_char=239|end_char=248
+13	i	i	CCONJ	Cc	_	15	cc	_	start_char=249|end_char=250
+14	naslovnom	naslovan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=251|end_char=260
+15	pjesmom	pjesma	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	9	conj	_	start_char=261|end_char=268
+16	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	19	nsubj	_	start_char=269|end_char=273
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=274|end_char=276
+18	dobro	dobro	ADV	Rgp	Degree=Pos	19	advmod	_	start_char=277|end_char=282
+19	napisani	napisati	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	start_char=283|end_char=291
+20	klasik	klasik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=292|end_char=298
+21	,	,	PUNCT	Z	_	24	punct	_	start_char=298|end_char=299
+22	umjesto	umjesto	ADP	Sg	Case=Gen	24	case	_	start_char=300|end_char=307
+23	osrednje	osrednji	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=308|end_char=316
+24	himne	himna	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	start_char=317|end_char=322
+25	politički	politički	ADV	Rgp	Degree=Pos	26	advmod	_	start_char=323|end_char=332
+26	korektnim	korektni	ADJ	Agpfpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	27	amod	_	start_char=333|end_char=342
+27	temama	tema	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	24	nmod	_	start_char=343|end_char=349
+28	iz	iz	ADP	Sg	Case=Gen	29	case	_	start_char=350|end_char=352
+29	1990-ih	1990-ih	ADJ	Mdo	NumType=Ord	27	amod	_	start_char=353|end_char=360
+30	.	.	PUNCT	Z	_	1	punct	_	start_char=360|end_char=361
+
+# text = To je vjerojatno neizbježno jer nažalost ne možete ponovno napraviti nešto iz tog razdoblja s istom nevinosti i osjećajem: ne u doba kada je Božić postao bezdušan.
+# sent_id = 4
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=362|end_char=364
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=365|end_char=367
+3	vjerojatno	vjerojatno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=368|end_char=378
+4	neizbježno	neizbježan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=379|end_char=389
+5	jer	jer	SCONJ	Cs	_	8	mark	_	start_char=390|end_char=393
+6	nažalost	nažalost	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=394|end_char=402
+7	ne	ne	PART	Qz	Polarity=Neg	8	advmod	_	start_char=403|end_char=405
+8	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=406|end_char=412
+9	ponovno	ponovno	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=413|end_char=420
+10	napraviti	napraviti	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=421|end_char=430
+11	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	10	obj	_	start_char=431|end_char=436
+12	iz	iz	ADP	Sg	Case=Gen	14	case	_	start_char=437|end_char=439
+13	tog	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	start_char=440|end_char=443
+14	razdoblja	razdoblje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	obl	_	start_char=444|end_char=453
+15	s	sa	ADP	Si	Case=Ins	17	case	_	start_char=454|end_char=455
+16	istom	isti	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=456|end_char=461
+17	nevinosti	nevinost	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	start_char=462|end_char=471
+18	i	i	CCONJ	Cc	_	19	cc	_	start_char=472|end_char=473
+19	osjećajem	osjećaj	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	17	conj	_	start_char=474|end_char=483
+20	:	:	PUNCT	Z	_	23	punct	_	start_char=483|end_char=484
+21	ne	ne	PART	Qz	Polarity=Neg	23	advmod	_	start_char=485|end_char=487
+22	u	u	ADP	Sa	Case=Acc	23	case	_	start_char=488|end_char=489
+23	doba	doba	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	parataxis	_	start_char=490|end_char=494
+24	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	27	advmod	_	start_char=495|end_char=499
+25	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=500|end_char=502
+26	Božić	Božić	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	start_char=503|end_char=508
+27	postao	postati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	acl	_	start_char=509|end_char=515
+28	bezdušan	bezdušan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	27	xcomp	_	start_char=516|end_char=524
+29	.	.	PUNCT	Z	_	4	punct	_	start_char=524|end_char=525
+
+# text = Ups! Rekao sam Božić, mislio sam Sretne praznike!
+# sent_id = 5
+1	Ups	ups	INTJ	I	_	7	discourse	_	start_char=526|end_char=529
+2	!	!	PUNCT	Z	_	1	punct	_	start_char=529|end_char=530
+3	Rekao	reći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	parataxis	_	start_char=531|end_char=536
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=537|end_char=540
+5	Božić	Božić	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=541|end_char=546
+6	,	,	PUNCT	Z	_	3	punct	_	start_char=546|end_char=547
+7	mislio	misliti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=548|end_char=554
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=555|end_char=558
+9	Sretne	sretan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=559|end_char=565
+10	praznike	praznik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=566|end_char=574
+11	!	!	PUNCT	Z	_	7	punct	_	start_char=574|end_char=575
+

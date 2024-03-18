@@ -1,0 +1,72 @@
+# text = Его последний альбом посвящен хвале Кит Грин / Песни для Пастыря:
+# sent_id = 0
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	3	det	_	start_char=0|end_char=3
+2	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=4|end_char=13
+3	альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=14|end_char=20
+4	посвящен	посвятить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=21|end_char=29
+5	хвале	хвал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	start_char=30|end_char=35
+6	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=36|end_char=39
+7	Грин	Грин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	start_char=40|end_char=44
+8	/	/	PUNCT	_	_	9	punct	_	start_char=45|end_char=46
+9	Песни	песня	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	appos	_	start_char=47|end_char=52
+10	для	для	ADP	_	_	11	case	_	start_char=53|end_char=56
+11	Пастыря	Пастырь	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=57|end_char=64
+12	:	:	PUNCT	_	_	4	punct	_	start_char=64|end_char=65
+
+# text = Его предыдущие альбомы были более ориентированы на вдохновение и исправление в отношении Церкви.
+# sent_id = 1
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	3	det	_	start_char=66|end_char=69
+2	предыдущие	предыдущий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=70|end_char=80
+3	альбомы	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj:pass	_	start_char=81|end_char=88
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	start_char=89|end_char=93
+5	более	более	ADV	_	Degree=Cmp	6	advmod	_	start_char=94|end_char=99
+6	ориентированы	ориентировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=100|end_char=113
+7	на	на	ADP	_	_	8	case	_	start_char=114|end_char=116
+8	вдохновение	вдохновение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	start_char=117|end_char=128
+9	и	и	CCONJ	_	_	10	cc	_	start_char=129|end_char=130
+10	исправление	исправление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	conj	_	start_char=131|end_char=142
+11	в	в	ADP	_	_	13	case	_	start_char=143|end_char=144
+12	отношении	отношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	fixed	_	start_char=145|end_char=154
+13	Церкви	Церковь	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=155|end_char=161
+14	.	.	PUNCT	_	_	6	punct	_	start_char=161|end_char=162
+
+# text = Этот, его последний альбом, сосредоточен на хвале.
+# sent_id = 2
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	start_char=163|end_char=167
+2	,	,	PUNCT	_	_	5	punct	_	start_char=167|end_char=168
+3	его	его	DET	_	Poss=Yes|PronType=Prs	5	det	_	start_char=169|end_char=172
+4	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=173|end_char=182
+5	альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=183|end_char=189
+6	,	,	PUNCT	_	_	5	punct	_	start_char=189|end_char=190
+7	сосредоточен	сосредоточный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=191|end_char=203
+8	на	на	ADP	_	_	9	case	_	start_char=204|end_char=206
+9	хвале	хвал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=207|end_char=212
+10	.	.	PUNCT	_	_	7	punct	_	start_char=212|end_char=213
+
+# text = Он все равно не настолько велик, как его первый альбом, но это достаточно мощный альбом хвалы, чтобы заслужить пять звезд.
+# sent_id = 3
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=214|end_char=216
+2	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	advmod	_	start_char=217|end_char=220
+3	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	fixed	_	start_char=221|end_char=226
+4	не	не	PART	_	_	5	advmod	_	start_char=227|end_char=229
+5	настолько	настолько	ADV	_	Degree=Pos	6	obl	_	start_char=230|end_char=239
+6	велик	большой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=240|end_char=245
+7	,	,	PUNCT	_	_	11	punct	_	start_char=245|end_char=246
+8	как	как	SCONJ	_	_	11	mark	_	start_char=247|end_char=250
+9	его	его	DET	_	Poss=Yes|PronType=Prs	11	det	_	start_char=251|end_char=254
+10	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=255|end_char=261
+11	альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	start_char=262|end_char=268
+12	,	,	PUNCT	_	_	17	punct	_	start_char=268|end_char=269
+13	но	но	CCONJ	_	_	17	cc	_	start_char=270|end_char=272
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	start_char=273|end_char=276
+15	достаточно	достаточно	ADV	_	Degree=Pos	16	obl	_	start_char=277|end_char=287
+16	мощный	мощный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=288|end_char=294
+17	альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	start_char=295|end_char=301
+18	хвалы	хвала	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=302|end_char=307
+19	,	,	PUNCT	_	_	21	punct	_	start_char=307|end_char=308
+20	чтобы	чтобы	SCONJ	_	Mood=Cnd	21	mark	_	start_char=309|end_char=314
+21	заслужить	заслужить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	start_char=315|end_char=324
+22	пять	пять	NUM	_	Case=Acc|NumType=Card	23	nummod:gov	_	start_char=325|end_char=329
+23	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	obl	_	start_char=330|end_char=335
+24	.	.	PUNCT	_	_	6	punct	_	start_char=335|end_char=336
+

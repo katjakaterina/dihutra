@@ -1,0 +1,82 @@
+# text = Самый плохой набор из всех Я купил это в Walmart по той же цене, что и на Amazon.
+# sent_id = 0
+1	Самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	плохой	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=6|end_char=12
+3	набор	набор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=13|end_char=18
+4	из	из	ADP	_	_	5	case	_	start_char=19|end_char=21
+5	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur|PronType=Tot	3	nmod	_	start_char=22|end_char=26
+6	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=27|end_char=28
+7	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=29|end_char=34
+8	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	start_char=35|end_char=38
+9	в	в	ADP	_	_	8	case	_	start_char=39|end_char=40
+10	Walmart	Walmart	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=41|end_char=48
+11	по	по	ADP	_	_	14	case	_	start_char=49|end_char=51
+12	той	тот	DET	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=52|end_char=55
+13	же	же	PART	_	_	12	advmod	_	start_char=56|end_char=58
+14	цене	цена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=59|end_char=63
+15	,	,	PUNCT	_	_	19	punct	_	start_char=63|end_char=64
+16	что	что	SCONJ	_	_	19	mark	_	start_char=65|end_char=68
+17	и	и	PART	_	_	19	advmod	_	start_char=69|end_char=70
+18	на	на	ADP	_	_	19	case	_	start_char=71|end_char=73
+19	Amazon	Amazon	PROPN	_	Foreign=Yes	14	acl	_	start_char=74|end_char=80
+20	.	.	PUNCT	_	_	7	punct	_	start_char=80|end_char=81
+
+# text = При первом использовании стержень для чистки сломался в месте разъема, а на другом сломалась пластиковая ручка.
+# sent_id = 1
+1	При	при	ADP	_	_	3	case	_	start_char=82|end_char=85
+2	первом	первый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=86|end_char=92
+3	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	start_char=93|end_char=106
+4	стержень	стержень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=107|end_char=115
+5	для	для	ADP	_	_	6	case	_	start_char=116|end_char=119
+6	чистки	чистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=120|end_char=126
+7	сломался	ломаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=127|end_char=135
+8	в	в	ADP	_	_	9	case	_	start_char=136|end_char=137
+9	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	start_char=138|end_char=143
+10	разъема	разъем	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=144|end_char=151
+11	,	,	PUNCT	_	_	15	punct	_	start_char=151|end_char=152
+12	а	а	CCONJ	_	_	15	cc	_	start_char=153|end_char=154
+13	на	на	ADP	_	_	14	case	_	start_char=155|end_char=157
+14	другом	другой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	start_char=158|end_char=164
+15	сломалась	ломаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	start_char=165|end_char=174
+16	пластиковая	пластиковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=175|end_char=186
+17	ручка	ручка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=187|end_char=192
+18	.	.	PUNCT	_	_	7	punct	_	start_char=192|end_char=193
+
+# text = Я больше никогда не буду покупать что-либо с надписью "Outers".
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=194|end_char=195
+2	больше	больше	ADV	_	Degree=Cmp	3	advmod	_	start_char=196|end_char=202
+3	никогда	никогда	ADV	_	Degree=Pos	6	advmod	_	start_char=203|end_char=210
+4	не	не	PART	_	_	6	advmod	_	start_char=211|end_char=213
+5	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=214|end_char=218
+6	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=219|end_char=227
+7	что-либо	что-либо	PRON	_	Case=Acc|PronType=Ind	6	obj	_	start_char=228|end_char=236
+8	с	с	ADP	_	_	9	case	_	start_char=237|end_char=238
+9	надписью	надпись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	start_char=239|end_char=247
+10	"	"	PUNCT	_	_	11	punct	_	start_char=248|end_char=249
+11	Outers	Outers	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=249|end_char=255
+12	"	"	PUNCT	_	_	11	punct	_	start_char=255|end_char=256
+13	.	.	PUNCT	_	_	6	punct	_	start_char=256|end_char=257
+
+# text = Я покупаю отдельные детали у Tipton и других известных производителей, чтобы собрать свой собственный набор для чистки.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=258|end_char=259
+2	покупаю	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=260|end_char=267
+3	отдельные	отдельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	start_char=268|end_char=277
+4	детали	деталь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=278|end_char=284
+5	у	у	ADP	_	_	4	case	_	start_char=285|end_char=286
+6	Tipton	Tipton	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=287|end_char=293
+7	и	и	CCONJ	_	_	10	cc	_	start_char=294|end_char=295
+8	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=296|end_char=302
+9	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	start_char=303|end_char=312
+10	производителей	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	start_char=313|end_char=327
+11	,	,	PUNCT	_	_	13	punct	_	start_char=327|end_char=328
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	start_char=329|end_char=334
+13	собрать	собрать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=335|end_char=342
+14	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	start_char=343|end_char=347
+15	собственный	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=348|end_char=359
+16	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=360|end_char=365
+17	для	для	ADP	_	_	18	case	_	start_char=366|end_char=369
+18	чистки	чистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=370|end_char=376
+19	.	.	PUNCT	_	_	2	punct	_	start_char=376|end_char=377
+

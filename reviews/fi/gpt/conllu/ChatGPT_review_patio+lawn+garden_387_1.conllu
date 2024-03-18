@@ -1,0 +1,95 @@
+# text = Kaksi erilaista meni rikki
+# sent_id = 0
+1	Kaksi	kaksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	2	nummod	_	start_char=0|end_char=5
+2	erilaista	erilainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	3	nsubj	_	start_char=6|end_char=15
+3	meni	mennä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=20
+4	rikki	rikki	ADV	Adv	_	3	advmod	_	start_char=21|end_char=26
+
+# text = Oksasakset eivät vapaudu helposti, jos tartut vähän liian paksuun oksaan, ja viiden jalan päässä ei aina ole helpointa huomata, onko oksa 1/8 tuumaa liian paksu.
+# sent_id = 1
+1	Oksasakset	oksasa	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	start_char=27|end_char=37
+2	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=38|end_char=43
+3	vapaudu	vapautua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=44|end_char=51
+4	helposti	helposti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=52|end_char=60
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=60|end_char=61
+6	jos	jos	SCONJ	C	_	7	mark	_	start_char=62|end_char=65
+7	tartut	tarttua	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=66|end_char=72
+8	vähän	vähän	ADV	Adv	_	7	advmod	_	start_char=73|end_char=78
+9	liian	liian	ADV	Adv	_	10	advmod	_	start_char=79|end_char=84
+10	paksuun	paksu	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	11	amod	_	start_char=85|end_char=92
+11	oksaan	oksa	NOUN	N	Case=Ill|Number=Sing	7	obl	_	start_char=93|end_char=99
+12	,	,	PUNCT	Punct	_	20	punct	_	start_char=99|end_char=100
+13	ja	ja	CCONJ	C	_	20	cc	_	start_char=101|end_char=103
+14	viiden	viisi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	15	nummod	_	start_char=104|end_char=110
+15	jalan	jalka	NOUN	N	Case=Gen|Number=Sing	16	nmod:poss	_	start_char=111|end_char=116
+16	päässä	pää	NOUN	N	Case=Ine|Number=Sing	20	obl	_	start_char=117|end_char=123
+17	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	20	aux	_	start_char=124|end_char=126
+18	aina	aina	ADV	Adv	_	20	advmod	_	start_char=127|end_char=131
+19	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=132|end_char=135
+20	helpointa	helppoinen	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	conj	_	start_char=136|end_char=145
+21	huomata	huomata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	20	csubj:cop	_	start_char=146|end_char=153
+22	,	,	PUNCT	Punct	_	28	punct	_	start_char=153|end_char=154
+23	onko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	cop	_	start_char=155|end_char=159
+24	oksa	oksa	NOUN	N	Case=Nom|Number=Sing	28	nsubj:cop	_	start_char=160|end_char=164
+25	1/8	1/8	NUM	Num	NumType=Card	26	nummod	_	start_char=165|end_char=168
+26	tuumaa	tuuma	NOUN	N	Case=Par|Number=Sing	28	nsubj:cop	_	start_char=169|end_char=175
+27	liian	liian	ADV	Adv	_	28	advmod	_	start_char=176|end_char=181
+28	paksu	paksu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	21	ccomp	_	start_char=182|end_char=187
+29	.	.	PUNCT	Punct	_	3	punct	_	start_char=187|end_char=188
+
+# text = Tämän seurauksena se meni rikki toisena päivänä.
+# sent_id = 2
+1	Tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	nmod:poss	_	start_char=189|end_char=194
+2	seurauksena	seuraus	NOUN	N	Case=Ess|Number=Sing	4	obl	_	start_char=195|end_char=206
+3	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	_	start_char=207|end_char=209
+4	meni	mennä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=210|end_char=214
+5	rikki	rikki	ADV	Adv	_	4	advmod	_	start_char=215|end_char=220
+6	toisena	toinen	ADJ	Num	Case=Ess|Derivation=Inen|NumType=Ord|Number=Sing	7	amod	_	start_char=221|end_char=228
+7	päivänä	päivä	NOUN	N	Case=Ess|Number=Sing	4	obl	_	start_char=229|end_char=236
+8	.	.	PUNCT	Punct	_	4	punct	_	start_char=236|end_char=237
+
+# text = Amazon vaihtoi sen toiseen, joka meni rikki samasta syystä, mutta tällä kertaa oli liian myöhäistä palauttaa.
+# sent_id = 3
+1	Amazon	Amazo	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=238|end_char=244
+2	vaihtoi	vaihtaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=245|end_char=252
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=253|end_char=256
+4	toiseen	toinen	PRON	Pron	Case=Ill|Number=Sing|PronType=Rcp	2	obl	_	start_char=257|end_char=264
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=264|end_char=265
+6	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	7	nsubj	_	start_char=266|end_char=270
+7	meni	mennä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=271|end_char=275
+8	rikki	rikki	ADV	Adv	_	7	advmod	_	start_char=276|end_char=281
+9	samasta	sama	PRON	Pron	Case=Ela|Number=Sing|PronType=Ind	10	det	_	start_char=282|end_char=289
+10	syystä	syy	NOUN	N	Case=Ela|Number=Sing	7	obl	_	start_char=290|end_char=296
+11	,	,	PUNCT	Punct	_	17	punct	_	start_char=296|end_char=297
+12	mutta	mutta	CCONJ	C	_	17	cc	_	start_char=298|end_char=303
+13	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	14	det	_	start_char=304|end_char=309
+14	kertaa	kerta	NOUN	N	Case=Par|Number=Sing	17	obl	_	start_char=310|end_char=316
+15	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	start_char=317|end_char=320
+16	liian	liian	ADV	Adv	_	17	advmod	_	start_char=321|end_char=326
+17	myöhäistä	myöhäinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	7	conj	_	start_char=327|end_char=336
+18	palauttaa	palauttaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	xcomp:ds	_	start_char=337|end_char=346
+19	.	.	PUNCT	Punct	_	2	punct	_	start_char=346|end_char=347
+
+# text = Ostin toisen, kalliimman, josta olen tyytyväinen, ja suosittelisin sitä kenelle tahansa: ARS LA-180ZR203 4-7 jalan pitkäoksa.
+# sent_id = 4
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=348|end_char=353
+2	toisen	toinen	PRON	Pron	Case=Gen|Number=Sing|PronType=Rcp	4	det	_	start_char=354|end_char=360
+3	,	,	PUNCT	Punct	_	4	punct	_	start_char=360|end_char=361
+4	kalliimman	kallis	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	1	obj	_	start_char=362|end_char=372
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=372|end_char=373
+6	josta	joka	PRON	Pron	Case=Ela|Number=Sing|PronType=Rel	8	nmod	_	start_char=374|end_char=379
+7	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=380|end_char=384
+8	tyytyväinen	tyytyväinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	4	acl:relcl	_	start_char=385|end_char=396
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=396|end_char=397
+10	ja	ja	CCONJ	C	_	11	cc	_	start_char=398|end_char=400
+11	suosittelisin	suositella	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	conj	_	start_char=401|end_char=414
+12	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	11	obj	_	start_char=415|end_char=419
+13	kenelle	kuka	PRON	Pron	Case=All|Number=Sing|PronType=Int	11	obl	_	start_char=420|end_char=427
+14	tahansa	tahansa	ADV	Adv	_	13	fixed	_	start_char=428|end_char=435
+15	:	:	PUNCT	Punct	_	19	punct	_	start_char=435|end_char=436
+16	ARS	ARS	PROPN	N	Case=Nom|Number=Sing	19	nmod:poss	_	start_char=437|end_char=440
+17	LA-180ZR203 4-7	lA#180ZR203 4-7	NUM	Num	NumType=Card	16	flat:name	_	start_char=441|end_char=456
+18	jalan	jalka	NOUN	N	Case=Gen|Number=Sing	19	nmod:poss	_	start_char=457|end_char=462
+19	pitkäoksa	pitkä#oksa	NOUN	N	Case=Nom|Number=Sing	13	appos	_	start_char=463|end_char=472
+20	.	.	PUNCT	Punct	_	1	punct	_	start_char=472|end_char=473
+

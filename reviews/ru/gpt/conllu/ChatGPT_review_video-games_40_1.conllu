@@ -1,0 +1,70 @@
+# text = Расстроенная мама Заказала это для моего сына и была очень разочарована, когда оно не работало на нашем абсолютно новом компьютере.
+# sent_id = 0
+1	Расстроенная	расстроить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	start_char=0|end_char=12
+2	мама	мама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=13|end_char=17
+3	Заказала	заказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=26
+4	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	start_char=27|end_char=30
+5	для	для	ADP	_	_	7	case	_	start_char=31|end_char=34
+6	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=35|end_char=40
+7	сына	сын	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=41|end_char=45
+8	и	и	CCONJ	_	_	11	cc	_	start_char=46|end_char=47
+9	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=48|end_char=52
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	start_char=53|end_char=58
+11	разочарована	разочаровать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=59|end_char=71
+12	,	,	PUNCT	_	_	16	punct	_	start_char=71|end_char=72
+13	когда	когда	SCONJ	_	_	16	mark	_	start_char=73|end_char=78
+14	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=79|end_char=82
+15	не	не	PART	_	_	16	advmod	_	start_char=83|end_char=85
+16	работало	работать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=86|end_char=94
+17	на	на	ADP	_	_	21	case	_	start_char=95|end_char=97
+18	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	start_char=98|end_char=103
+19	абсолютно	абсолютно	ADV	_	Degree=Pos	20	obl	_	start_char=104|end_char=113
+20	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=114|end_char=119
+21	компьютере	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	start_char=120|end_char=130
+22	.	.	PUNCT	_	_	3	punct	_	start_char=130|end_char=131
+
+# text = Похоже, оно не совместимо с нашим программным обеспечением системы.
+# sent_id = 1
+1	Похоже	похоже	ADV	_	Degree=Pos	5	parataxis	_	start_char=132|end_char=138
+2	,	,	PUNCT	_	_	1	punct	_	start_char=138|end_char=139
+3	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=140|end_char=143
+4	не	не	PART	_	_	5	advmod	_	start_char=144|end_char=146
+5	совместимо	совместимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=147|end_char=157
+6	с	с	ADP	_	_	9	case	_	start_char=158|end_char=159
+7	нашим	наш	DET	_	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	start_char=160|end_char=165
+8	программным	программный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=166|end_char=177
+9	обеспечением	обеспечение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	start_char=178|end_char=190
+10	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=191|end_char=198
+11	.	.	PUNCT	_	_	5	punct	_	start_char=198|end_char=199
+
+# text = Мой сын попробовал на двух компьютерах родственников, и оно не работало и на них.
+# sent_id = 2
+1	Мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	start_char=200|end_char=203
+2	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=204|end_char=207
+3	попробовал	попробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=208|end_char=218
+4	на	на	ADP	_	_	6	case	_	start_char=219|end_char=221
+5	двух	два	NUM	_	Case=Loc|NumType=Card	6	nummod	_	start_char=222|end_char=226
+6	компьютерах	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	start_char=227|end_char=238
+7	родственников	родственник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=239|end_char=252
+8	,	,	PUNCT	_	_	12	punct	_	start_char=252|end_char=253
+9	и	и	CCONJ	_	_	12	cc	_	start_char=254|end_char=255
+10	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=256|end_char=259
+11	не	не	PART	_	_	12	advmod	_	start_char=260|end_char=262
+12	работало	работать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=263|end_char=271
+13	и	и	PART	_	_	15	advmod	_	start_char=272|end_char=273
+14	на	на	ADP	_	_	15	case	_	start_char=274|end_char=276
+15	них	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obl	_	start_char=277|end_char=280
+16	.	.	PUNCT	_	_	3	punct	_	start_char=280|end_char=281
+
+# text = Хорошо, что я заплатила всего $4.
+# sent_id = 3
+1	Хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=282|end_char=288
+2	,	,	PUNCT	_	_	5	punct	_	start_char=288|end_char=289
+3	что	что	SCONJ	_	_	5	mark	_	start_char=290|end_char=293
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=294|end_char=295
+5	заплатила	платить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=296|end_char=305
+6	всего	всего	PART	_	_	7	advmod	_	start_char=306|end_char=311
+7	$	$	SYM	_	_	5	obl	_	start_char=312|end_char=313
+8	4	4	NUM	_	NumType=Card	7	nummod	_	start_char=313|end_char=314
+9	.	.	PUNCT	_	_	1	punct	_	start_char=314|end_char=315
+

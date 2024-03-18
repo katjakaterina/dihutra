@@ -1,0 +1,77 @@
+# text = Predivno...
+# sent_id = 0
+1	Predivno	predivan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=8
+2	...	...	PUNCT	Z	_	1	punct	_	start_char=8|end_char=11
+
+# text = Predivno na svaki način, dobro napisano, izvrsna fotografija i fantastične upute... čine ovu knjigu "obaveznom"......
+# sent_id = 1
+1	Predivno	predivan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	xcomp	_	start_char=12|end_char=20
+2	na	na	ADP	Sa	Case=Acc	4	case	_	start_char=21|end_char=23
+3	svaki	svaki	DET	Pi-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	start_char=24|end_char=29
+4	način	način	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=30|end_char=35
+5	,	,	PUNCT	Z	_	7	punct	_	start_char=35|end_char=36
+6	dobro	dobro	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=37|end_char=42
+7	napisano	napisati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	10	amod	_	start_char=43|end_char=51
+8	,	,	PUNCT	Z	_	7	punct	_	start_char=51|end_char=52
+9	izvrsna	izvrstan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=53|end_char=60
+10	fotografija	fotografija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=61|end_char=72
+11	i	i	CCONJ	Cc	_	13	cc	_	start_char=73|end_char=74
+12	fantastične	fantastičan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=75|end_char=86
+13	upute	uputa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	10	conj	_	start_char=87|end_char=92
+14	...	...	PUNCT	Z	_	7	punct	_	start_char=92|end_char=95
+15	čine	činiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=96|end_char=100
+16	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	start_char=101|end_char=104
+17	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=105|end_char=111
+18	"	"	PUNCT	Z	_	19	punct	_	start_char=112|end_char=113
+19	obaveznom	obavezan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	acl	_	start_char=113|end_char=122
+20	"	"	PUNCT	Z	_	19	punct	_	start_char=122|end_char=123
+21	.....	.....	NOUN	Y	_	17	nmod	_	start_char=123|end_char=128
+22	.	.	PUNCT	Z	_	15	punct	_	start_char=128|end_char=129
+
+# text = Bez obzira koristite li ovu knjigu kao stolić za kavu ili kao referentnu knjigu, definitivno je na "gornjoj polici"..........
+# sent_id = 2
+1	Bez	bez	ADP	Sg	Case=Gen	2	case	_	start_char=130|end_char=133
+2	obzira	obzir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=134|end_char=140
+3	koristite	koristiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	2	acl	_	start_char=141|end_char=150
+4	li	li	PART	Qq	_	3	mark	_	start_char=151|end_char=153
+5	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=154|end_char=157
+6	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=158|end_char=164
+7	kao	kao	SCONJ	Cs	_	8	case	_	start_char=165|end_char=168
+8	stolić	stolić	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=169|end_char=175
+9	za	za	ADP	Sa	Case=Acc	10	case	_	start_char=176|end_char=178
+10	kavu	kava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=179|end_char=183
+11	ili	ili	CCONJ	Cc	_	14	cc	_	start_char=184|end_char=187
+12	kao	kao	SCONJ	Cs	_	14	case	_	start_char=188|end_char=191
+13	referentnu	referentan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=192|end_char=202
+14	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	start_char=203|end_char=209
+15	,	,	PUNCT	Z	_	2	punct	_	start_char=209|end_char=210
+16	definitivno	definitivno	ADV	Rgp	Degree=Pos	21	advmod	_	start_char=211|end_char=222
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=223|end_char=225
+18	na	na	ADP	Sl	Case=Loc	21	case	_	start_char=226|end_char=228
+19	"	"	PUNCT	Z	_	21	punct	_	start_char=229|end_char=230
+20	gornjoj	gornji	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	start_char=230|end_char=237
+21	polici	polica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=238|end_char=244
+22	"	"	PUNCT	Z	_	21	punct	_	start_char=244|end_char=245
+23	...	...	PUNCT	Z	_	21	punct	_	start_char=245|end_char=248
+24	.	.	PUNCT	Z	_	21	punct	_	start_char=248|end_char=249
+25	...	...	PUNCT	Z	_	26	punct	_	start_char=249|end_char=252
+26	..	..	NOUN	Y	_	21	nmod	_	start_char=252|end_char=254
+27	.	.	PUNCT	Z	_	21	punct	_	start_char=254|end_char=255
+
+# text = Također sam jednu dala kao poklon...... primatelj je bio impresioniran....
+# sent_id = 3
+1	Također	također	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=256|end_char=263
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=264|end_char=267
+3	jednu	jedan	NUM	Mlcfsa	Case=Acc|Gender=Fem|NumType=Card|Number=Sing	4	obj	_	start_char=268|end_char=273
+4	dala	dati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=274|end_char=278
+5	kao	kao	SCONJ	Cs	_	6	case	_	start_char=279|end_char=282
+6	poklon	poklon	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	start_char=283|end_char=289
+7	...	...	PUNCT	Z	_	12	punct	_	start_char=289|end_char=292
+8	...	...	PUNCT	Z	_	12	punct	_	start_char=292|end_char=295
+9	primatelj	primatelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=296|end_char=305
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=306|end_char=308
+11	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	cop	_	start_char=309|end_char=312
+12	impresioniran	impresionirati	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	parataxis	_	start_char=313|end_char=326
+13	...	...	PUNCT	Z	_	4	punct	_	start_char=326|end_char=329
+14	.	.	PUNCT	Z	_	4	punct	_	start_char=329|end_char=330
+

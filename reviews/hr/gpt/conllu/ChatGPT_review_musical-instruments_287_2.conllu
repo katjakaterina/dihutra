@@ -1,0 +1,69 @@
+# text = U redu je, ali požalio/la sam što nisam kupio/la nešto drugo.
+# sent_id = 0
+1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=0|end_char=1
+2	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=2|end_char=6
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=7|end_char=9
+4	,	,	PUNCT	Z	_	6	punct	_	start_char=9|end_char=10
+5	ali	ali	CCONJ	Cc	_	6	cc	_	start_char=11|end_char=14
+6	požalio/la	požalio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	start_char=15|end_char=25
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=26|end_char=29
+8	što	što	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Int,Rel	10	obj	_	start_char=30|end_char=33
+9	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=34|end_char=39
+10	kupio/la	kupio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	ccomp	_	start_char=40|end_char=48
+11	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	10	obj	_	start_char=49|end_char=54
+12	drugo	drugi	ADJ	Mlonsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=55|end_char=60
+13	.	.	PUNCT	Z	_	2	punct	_	start_char=60|end_char=61
+
+# text = Ručka i jačina opruge čine ga neugodnim za postavljanje na gitaru, i osjećam se prisiljen/na brzo stegnuti kapodaster jer je neugodno koristiti ga - boli prste.
+# sent_id = 1
+1	Ručka	ručki	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	nsubj	_	start_char=62|end_char=67
+2	i	i	CCONJ	Cc	_	3	cc	_	start_char=68|end_char=69
+3	jačina	jačina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=70|end_char=76
+4	opruge	opruga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=77|end_char=83
+5	čine	činiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=84|end_char=88
+6	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=89|end_char=91
+7	neugodnim	neugodan	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	xcomp	_	start_char=92|end_char=101
+8	za	za	ADP	Sa	Case=Acc	9	case	_	start_char=102|end_char=104
+9	postavljanje	postavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=105|end_char=117
+10	na	na	ADP	Sa	Case=Acc	11	case	_	start_char=118|end_char=120
+11	gitaru	gitara	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=121|end_char=127
+12	,	,	PUNCT	Z	_	14	punct	_	start_char=127|end_char=128
+13	i	i	CCONJ	Cc	_	14	cc	_	start_char=129|end_char=130
+14	osjećam	osjećati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=131|end_char=138
+15	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	start_char=139|end_char=141
+16	prisiljen/na	prisiljen/an	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	xcomp	_	start_char=142|end_char=154
+17	brzo	brzo	ADV	Rgp	Degree=Pos	18	advmod	_	start_char=155|end_char=159
+18	stegnuti	stegnuti	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=160|end_char=168
+19	kapodaster	kapodaster	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=169|end_char=179
+20	jer	jer	SCONJ	Cs	_	22	mark	_	start_char=180|end_char=183
+21	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=184|end_char=186
+22	neugodno	neugodno	ADV	Rgp	Degree=Pos	14	advcl	_	start_char=187|end_char=195
+23	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	22	xcomp	_	start_char=196|end_char=205
+24	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=206|end_char=208
+25	-	-	PUNCT	Z	_	26	punct	_	start_char=209|end_char=210
+26	boli	bol	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	obj	_	start_char=211|end_char=215
+27	prste	prst	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	start_char=216|end_char=221
+28	.	.	PUNCT	Z	_	5	punct	_	start_char=221|end_char=222
+
+# text = Jeftin je i jednostavan za upotrebu.
+# sent_id = 2
+1	Jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=223|end_char=229
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=230|end_char=232
+3	i	i	CCONJ	Cc	_	4	cc	_	start_char=233|end_char=234
+4	jednostavan	jednostavan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	start_char=235|end_char=246
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=247|end_char=249
+6	upotrebu	upotreba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=250|end_char=258
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=258|end_char=259
+
+# text = Obavit će posao, ali nije mi drag.
+# sent_id = 3
+1	Obavit	obaviti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=260|end_char=266
+2	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=267|end_char=269
+3	posao	posao	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=270|end_char=275
+4	,	,	PUNCT	Z	_	8	punct	_	start_char=275|end_char=276
+5	ali	ali	CCONJ	Cc	_	8	cc	_	start_char=277|end_char=280
+6	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=281|end_char=285
+7	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obj	_	start_char=286|end_char=288
+8	drag	drag	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	start_char=289|end_char=293
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=293|end_char=294
+

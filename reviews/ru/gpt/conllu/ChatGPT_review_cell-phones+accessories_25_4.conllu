@@ -1,0 +1,86 @@
+# text = Отлично работает У меня есть несколько зарядных устройств.
+# sent_id = 0
+1	Отлично	отличный	ADV	_	Degree=Pos	2	advmod	_	start_char=0|end_char=7
+2	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=16
+3	У	у	ADP	_	_	4	case	_	start_char=17|end_char=18
+4	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	obl	_	start_char=19|end_char=23
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=24|end_char=28
+6	несколько	несколько	NUM	_	Case=Nom|NumType=Card	8	nummod:gov	_	start_char=29|end_char=38
+7	зарядных	зарядный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=39|end_char=47
+8	устройств	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nsubj	_	start_char=48|end_char=57
+9	.	.	PUNCT	_	_	2	punct	_	start_char=57|end_char=58
+
+# text = У меня несколько автомобилей, поэтому я держу по одному из них в каждом из них.
+# sent_id = 1
+1	У	у	ADP	_	_	2	case	_	start_char=59|end_char=60
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=61|end_char=65
+3	несколько	несколько	NUM	_	Case=Nom|NumType=Card	4	nummod:gov	_	start_char=66|end_char=75
+4	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	start_char=76|end_char=87
+5	,	,	PUNCT	_	_	8	punct	_	start_char=87|end_char=88
+6	поэтому	поэтому	ADV	_	Degree=Pos	8	advmod	_	start_char=89|end_char=96
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=97|end_char=98
+8	держу	держать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=99|end_char=104
+9	по	по	ADP	_	_	10	case	_	start_char=105|end_char=107
+10	одному	один	NUM	_	Case=Dat|Gender=Masc|NumType=Card	8	obl	_	start_char=108|end_char=114
+11	из	из	ADP	_	_	12	case	_	start_char=115|end_char=117
+12	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	nmod	_	start_char=118|end_char=121
+13	в	в	ADP	_	_	14	case	_	start_char=122|end_char=123
+14	каждом	каждый	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	8	det	_	start_char=124|end_char=130
+15	из	из	ADP	_	_	16	case	_	start_char=131|end_char=133
+16	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	14	nmod	_	start_char=134|end_char=137
+17	.	.	PUNCT	_	_	2	punct	_	start_char=137|end_char=138
+
+# text = Нет ничего более раздражающего, чем внезапно обнаружить, что одно из них перестало работать, и у вас нет возможности зарядить свой телефон.
+# sent_id = 2
+1	Нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=139|end_char=142
+2	ничего	ничто	PRON	_	Case=Gen|PronType=Neg	1	nsubj	_	start_char=143|end_char=149
+3	более	более	ADV	_	Degree=Cmp	4	obl	_	start_char=150|end_char=155
+4	раздражающего	раздражать	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=156|end_char=169
+5	,	,	PUNCT	_	_	8	punct	_	start_char=169|end_char=170
+6	чем	чем	SCONJ	_	_	8	mark	_	start_char=171|end_char=174
+7	внезапно	внезапно	ADV	_	Degree=Pos	8	advmod	_	start_char=175|end_char=183
+8	обнаружить	обнаружить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=184|end_char=194
+9	,	,	PUNCT	_	_	14	punct	_	start_char=194|end_char=195
+10	что	что	SCONJ	_	_	14	mark	_	start_char=196|end_char=199
+11	одно	один	NUM	_	Case=Nom|Gender=Neut|NumType=Card	14	nsubj	_	start_char=200|end_char=204
+12	из	из	ADP	_	_	13	case	_	start_char=205|end_char=207
+13	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	11	nmod	_	start_char=208|end_char=211
+14	перестало	перестать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=212|end_char=221
+15	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=222|end_char=230
+16	,	,	PUNCT	_	_	20	punct	_	start_char=230|end_char=231
+17	и	и	CCONJ	_	_	20	cc	_	start_char=232|end_char=233
+18	у	у	ADP	_	_	19	case	_	start_char=234|end_char=235
+19	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	20	obl	_	start_char=236|end_char=239
+20	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	start_char=240|end_char=243
+21	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nsubj	_	start_char=244|end_char=255
+22	зарядить	зарядить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	obl	_	start_char=256|end_char=264
+23	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	start_char=265|end_char=269
+24	телефон	телефон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	start_char=270|end_char=277
+25	.	.	PUNCT	_	_	1	punct	_	start_char=277|end_char=278
+
+# text = Всегда бывает так, когда вам это наиболее нужно.
+# sent_id = 3
+1	Всегда	всегда	ADV	_	Degree=Pos	2	advmod	_	start_char=279|end_char=285
+2	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=286|end_char=292
+3	так	так	ADV	_	Degree=Pos	2	advmod	_	start_char=293|end_char=296
+4	,	,	PUNCT	_	_	9	punct	_	start_char=296|end_char=297
+5	когда	когда	SCONJ	_	_	9	mark	_	start_char=298|end_char=303
+6	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	iobj	_	start_char=304|end_char=307
+7	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=308|end_char=311
+8	наиболее	наиболее	ADV	_	Degree=Pos	9	obl	_	start_char=312|end_char=320
+9	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	advcl	_	start_char=321|end_char=326
+10	.	.	PUNCT	_	_	2	punct	_	start_char=326|end_char=327
+
+# text = Это зарядное устройство хорошо работает с любыми моими устройствами.
+# sent_id = 4
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=328|end_char=331
+2	зарядное	зарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=332|end_char=340
+3	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=341|end_char=351
+4	хорошо	хорошо	ADV	_	Degree=Pos	5	advmod	_	start_char=352|end_char=358
+5	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=359|end_char=367
+6	с	с	ADP	_	_	9	case	_	start_char=368|end_char=369
+7	любыми	любой	DET	_	Case=Ins|Number=Plur|PronType=Ind	9	det	_	start_char=370|end_char=376
+8	моими	мой	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	start_char=377|end_char=382
+9	устройствами	устройство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	obl	_	start_char=383|end_char=395
+10	.	.	PUNCT	_	_	5	punct	_	start_char=395|end_char=396
+

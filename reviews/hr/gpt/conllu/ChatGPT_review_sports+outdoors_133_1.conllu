@@ -1,0 +1,80 @@
+# text = """Najgori set koji postoji" Kupio/la sam ovo u Walmartu po istoj cijeni kao i na Amazonu.
+# sent_id = 0
+1	"	"	PUNCT	Z	_	13	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	5	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	5	punct	_	start_char=2|end_char=3
+4	Najgori	dobar	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	start_char=3|end_char=10
+5	set	set	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=11|end_char=14
+6	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=15|end_char=19
+7	postoji	postojati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=20|end_char=27
+8	"	"	PUNCT	Z	_	9	punct	_	start_char=27|end_char=28
+9	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=29|end_char=37
+10	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=38|end_char=41
+11	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=42|end_char=45
+12	u	u	ADP	Sl	Case=Loc	13	case	_	start_char=46|end_char=47
+13	Walmartu	Walmart	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=48|end_char=56
+14	po	po	ADP	Sl	Case=Loc	16	case	_	start_char=57|end_char=59
+15	istoj	isti	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=60|end_char=65
+16	cijeni	cijena	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	start_char=66|end_char=72
+17	kao	kao	SCONJ	Cs	_	20	case	_	start_char=73|end_char=76
+18	i	i	CCONJ	Cc	_	17	fixed	_	start_char=77|end_char=78
+19	na	na	ADP	Sl	Case=Loc	20	case	_	start_char=79|end_char=81
+20	Amazonu	Amazon	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	16	conj	_	start_char=82|end_char=89
+21	.	.	PUNCT	Z	_	11	punct	_	start_char=89|end_char=90
+
+# text = Prilikom prvog korištenja, čistačka šipka se slomila na spojnoj točki i plastična ručka otpala na drugoj.
+# sent_id = 1
+1	Prilikom	prilikom	ADP	Sg	Case=Gen	3	case	_	start_char=91|end_char=99
+2	prvog	prvi	ADJ	Mlonsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=100|end_char=105
+3	korištenja	korištenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=106|end_char=116
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=116|end_char=117
+5	čistačka	čistački	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=118|end_char=126
+6	šipka	šipak	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=127|end_char=132
+7	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	start_char=133|end_char=135
+8	slomila	slomiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=136|end_char=143
+9	na	na	ADP	Sl	Case=Loc	11	case	_	start_char=144|end_char=146
+10	spojnoj	spojan	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=147|end_char=154
+11	točki	točka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	start_char=155|end_char=160
+12	i	i	CCONJ	Cc	_	15	cc	_	start_char=161|end_char=162
+13	plastična	plastičan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=163|end_char=172
+14	ručka	ručak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=173|end_char=178
+15	otpala	otpati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	start_char=179|end_char=185
+16	na	na	ADP	Sl	Case=Loc	17	case	_	start_char=186|end_char=188
+17	drugoj	drugi	ADJ	Mlofsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	obl	_	start_char=189|end_char=195
+18	.	.	PUNCT	Z	_	8	punct	_	start_char=195|end_char=196
+
+# text = Nikada više neću kupiti ništa s natpisom 'Outers'.
+# sent_id = 2
+1	Nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	3	advmod	_	start_char=197|end_char=203
+2	više	mnogo	ADV	Rgc	Degree=Cmp	3	advmod	_	start_char=204|end_char=208
+3	neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	start_char=209|end_char=213
+4	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=214|end_char=220
+5	ništa	ništa	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Neg	4	obj	_	start_char=221|end_char=226
+6	s	sa	ADP	Si	Case=Ins	7	case	_	start_char=227|end_char=228
+7	natpisom	natpis	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	start_char=229|end_char=237
+8	'	'	PUNCT	Z	_	9	punct	_	start_char=238|end_char=239
+9	Outers	Outers	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	start_char=239|end_char=245
+10	'	'	PUNCT	Z	_	9	punct	_	start_char=245|end_char=246
+11	.	.	PUNCT	Z	_	3	punct	_	start_char=246|end_char=247
+
+# text = Kupujem pojedinačne dijelove od Tiptona i drugih uglednih proizvođača kako bih napravio/la vlastiti set za čišćenje."
+# sent_id = 3
+1	Kupujem	kupovati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=248|end_char=255
+2	pojedinačne	pojedinačan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=256|end_char=267
+3	dijelove	dio	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=268|end_char=276
+4	od	od	ADP	Sg	Case=Gen	5	case	_	start_char=277|end_char=279
+5	Tiptona	Tipton	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=280|end_char=287
+6	i	i	CCONJ	Cc	_	9	cc	_	start_char=288|end_char=289
+7	drugih	drugi	ADJ	Mlompg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=290|end_char=296
+8	uglednih	ugledan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=297|end_char=305
+9	proizvođača	proizvođač	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	start_char=306|end_char=317
+10	kako	kako	SCONJ	Cs	_	12	mark	_	start_char=318|end_char=322
+11	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	aux	_	start_char=323|end_char=326
+12	napravio/la	napraviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=327|end_char=338
+13	vlastiti	vlastit	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=339|end_char=347
+14	set	set	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=348|end_char=351
+15	za	za	ADP	Sa	Case=Acc	16	case	_	start_char=352|end_char=354
+16	čišćenje	čišćenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	start_char=355|end_char=363
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=363|end_char=364
+18	"	"	PUNCT	Z	_	1	punct	_	start_char=364|end_char=365
+

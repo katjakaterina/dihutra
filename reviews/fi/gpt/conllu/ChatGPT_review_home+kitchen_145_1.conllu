@@ -1,0 +1,73 @@
+# text = Eri kirja.
+# sent_id = 0
+1	Eri	eri	ADJ	A	_	2	amod	_	start_char=0|end_char=3
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=4|end_char=9
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=9|end_char=10
+
+# text = Ei odotettua alkuperäistä.
+# sent_id = 1
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=11|end_char=13
+2	odotettua	odottaa	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=14|end_char=23
+3	alkuperäistä	alku#peräinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=24|end_char=36
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=36|end_char=37
+
+# text = Osia puuttuu.
+# sent_id = 2
+1	Osia	osa	NOUN	N	Case=Par|Number=Plur	2	nsubj	_	start_char=38|end_char=42
+2	puuttuu	puuttua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=43|end_char=50
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=50|end_char=51
+
+# text = Odotin "hyvää yötä rakkaat perhoset" -kirjaa, joka minulla oli suuremmassa koossa.
+# sent_id = 3
+1	Odotin	odottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=52|end_char=58
+2	"	"	PUNCT	Punct	_	6	punct	_	start_char=59|end_char=60
+3	hyvää	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=60|end_char=65
+4	yötä	yö	NOUN	N	Case=Par|Number=Sing	6	compound:nn	_	start_char=66|end_char=70
+5	rakkaat	rakas	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=71|end_char=78
+6	perhoset	perhonen	NOUN	N	Case=Nom|Number=Plur	8	compound:nn	_	start_char=79|end_char=87
+7	"	"	PUNCT	Punct	_	6	punct	_	start_char=87|end_char=88
+8	-kirjaa	kirja	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=89|end_char=96
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=96|end_char=97
+10	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	11	nsubj:cop	_	start_char=98|end_char=102
+11	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	8	acl:relcl	_	start_char=103|end_char=110
+12	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop:own	_	start_char=111|end_char=114
+13	suuremmassa	suuri	ADJ	A	Case=Ine|Degree=Cmp|Number=Sing	14	amod	_	start_char=115|end_char=126
+14	koossa	koossa	NOUN	N	Case=Ine|Number=Sing	11	obl	_	start_char=127|end_char=133
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=133|end_char=134
+
+# text = Koska kirja on pieni, joitakin sivuja on jätetty pois, ja teksti on täysin erilainen ja paljon huonompi kuin suuren kirjan teksti.
+# sent_id = 4
+1	Koska	koska	SCONJ	C	_	4	mark	_	start_char=135|end_char=140
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=141|end_char=146
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=147|end_char=149
+4	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	advcl	_	start_char=150|end_char=155
+5	,	,	PUNCT	Punct	_	4	punct	_	start_char=155|end_char=156
+6	joitakin	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	7	det	_	start_char=157|end_char=165
+7	sivuja	sivu	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=166|end_char=172
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=173|end_char=175
+9	jätetty	jättää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=176|end_char=183
+10	pois	pois	ADV	Adv	_	9	advmod	_	start_char=184|end_char=188
+11	,	,	PUNCT	Punct	_	16	punct	_	start_char=188|end_char=189
+12	ja	ja	CCONJ	C	_	16	cc	_	start_char=190|end_char=192
+13	teksti	teksti	NOUN	N	Case=Nom|Number=Sing	16	nsubj:cop	_	start_char=193|end_char=199
+14	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	start_char=200|end_char=202
+15	täysin	täysin	ADV	Adv	_	16	advmod	_	start_char=203|end_char=209
+16	erilainen	erilainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	9	conj	_	start_char=210|end_char=219
+17	ja	ja	CCONJ	C	_	19	cc	_	start_char=220|end_char=222
+18	paljon	paljon	ADV	Adv	_	19	advmod	_	start_char=223|end_char=229
+19	huonompi	huono	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	16	conj	_	start_char=230|end_char=238
+20	kuin	kuin	SCONJ	C	_	23	mark	_	start_char=239|end_char=243
+21	suuren	suuri	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	22	amod	_	start_char=244|end_char=250
+22	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	23	nmod:poss	_	start_char=251|end_char=257
+23	teksti	teksti	NOUN	N	Case=Nom|Number=Sing	19	advcl	_	start_char=258|end_char=264
+24	.	.	PUNCT	Punct	_	9	punct	_	start_char=264|end_char=265
+
+# text = Olen erittäin pettynyt tähän ostokseen.
+# sent_id = 5
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=266|end_char=270
+2	erittäin	erittäin	ADV	Adv	Derivation=Ttain	3	advmod	_	start_char=271|end_char=279
+3	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=280|end_char=288
+4	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	5	det	_	start_char=289|end_char=294
+5	ostokseen	ostos	NOUN	N	Case=Ill|Number=Sing	3	obl	_	start_char=295|end_char=304
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=304|end_char=305
+

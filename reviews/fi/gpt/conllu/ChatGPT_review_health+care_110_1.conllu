@@ -1,0 +1,106 @@
+# text = Buuh!
+# sent_id = 0
+1	Buuh	Buuh	INTJ	Interj	_	0	root	_	start_char=0|end_char=4
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=4|end_char=5
+
+# text = Tyhjät paristot!
+# sent_id = 1
+1	Tyhjät	tyhjä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=6|end_char=12
+2	paristot	paristo	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=13|end_char=21
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=21|end_char=22
+
+# text = Luovutin juuri ja heitin nämä paristot pois, vain muutaman kuukauden käytön jälkeen.
+# sent_id = 2
+1	Luovutin	luoputtaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=23|end_char=31
+2	juuri	juuri	ADV	Adv	_	1	advmod	_	start_char=32|end_char=37
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=38|end_char=40
+4	heitin	heittää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=41|end_char=47
+5	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	6	det	_	start_char=48|end_char=52
+6	paristot	paristo	NOUN	N	Case=Nom|Number=Plur	4	obj	_	start_char=53|end_char=61
+7	pois	pois	ADV	Adv	_	4	advmod	_	start_char=62|end_char=66
+8	,	,	PUNCT	Punct	_	12	punct	_	start_char=66|end_char=67
+9	vain	vain	ADV	Adv	_	12	advmod	_	start_char=68|end_char=72
+10	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	11	det	_	start_char=73|end_char=81
+11	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	12	nmod:gsubj	_	start_char=82|end_char=91
+12	käytön	käyttö	NOUN	N	Case=Gen|Number=Sing	4	obl	_	start_char=92|end_char=98
+13	jälkeen	jälkeen	ADP	Adp	AdpType=Post	12	case	_	start_char=99|end_char=106
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=106|end_char=107
+
+# text = Pidin niitä kierrätyksessä (kahden muun ladattavan paristosarjan - Duracellin ja Sanyon - kanssa) digikamerassani.
+# sent_id = 3
+1	Pidin	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=108|end_char=113
+2	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	1	obj	_	start_char=114|end_char=119
+3	kierrätyksessä	kierrätys	NOUN	N	Case=Ine|Number=Sing	1	obl	_	start_char=120|end_char=134
+4	(	(	PUNCT	Punct	_	8	punct	_	start_char=135|end_char=136
+5	kahden	kaksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	8	nummod	_	start_char=136|end_char=142
+6	muun	muu	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	8	det	_	start_char=143|end_char=147
+7	ladattavan	ladata	VERB	V	Case=Gen|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=148|end_char=158
+8	paristosarjan	paristo#sarja	NOUN	N	Case=Gen|Number=Sing	3	appos	_	start_char=159|end_char=172
+9	-	-	PUNCT	Punct	_	10	punct	_	start_char=173|end_char=174
+10	Duracellin	Duracell	PROPN	N	Case=Gen|Number=Sing	8	conj	_	start_char=175|end_char=185
+11	ja	ja	CCONJ	C	_	12	cc	_	start_char=186|end_char=188
+12	Sanyon	Sany	PROPN	N	Case=Gen|Number=Sing	10	conj	_	start_char=189|end_char=195
+13	-	-	PUNCT	Punct	_	8	punct	_	start_char=196|end_char=197
+14	kanssa	kanssa	ADP	Adp	AdpType=Post	8	case	_	start_char=198|end_char=204
+15	)	)	PUNCT	Punct	_	8	punct	_	start_char=204|end_char=205
+16	digikamerassani	digi#kamera	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=206|end_char=221
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=221|end_char=222
+
+# text = Alussa ne olivat hyviä ja vertailukelpoisia muiden merkkien kanssa.
+# sent_id = 4
+1	Alussa	alku	NOUN	N	Case=Ine|Derivation=U|Number=Sing	4	obl	_	start_char=223|end_char=229
+2	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	_	start_char=230|end_char=232
+3	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=233|end_char=239
+4	hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=240|end_char=245
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=246|end_char=248
+6	vertailukelpoisia	vertailu#kelpoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	4	conj	_	start_char=249|end_char=266
+7	muiden	muu	PRON	Pron	Case=Gen|Number=Plur|PronType=Ind	8	det	_	start_char=267|end_char=273
+8	merkkien	merkki	NOUN	N	Case=Gen|Number=Plur	4	obl	_	start_char=274|end_char=282
+9	kanssa	kanssa	ADP	Adp	AdpType=Post	8	case	_	start_char=283|end_char=289
+10	.	.	PUNCT	Punct	_	4	punct	_	start_char=289|end_char=290
+
+# text = Nyt ne eivät kestä edes yhtä päivää kamerassani.
+# sent_id = 5
+1	Nyt	nyt	ADV	Adv	_	4	advmod	_	start_char=291|end_char=294
+2	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	nsubj	_	start_char=295|end_char=297
+3	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=298|end_char=303
+4	kestä	kestää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=304|end_char=309
+5	edes	edes	ADV	Adv	_	6	advmod	_	start_char=310|end_char=314
+6	yhtä	yksi	NUM	Num	Case=Par|NumType=Card|Number=Sing	7	nummod	_	start_char=315|end_char=319
+7	päivää	päivä	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=320|end_char=326
+8	kamerassani	kamera	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obl	_	start_char=327|end_char=338
+9	.	.	PUNCT	Punct	_	4	punct	_	start_char=338|end_char=339
+
+# text = Joskus saan otettua vain kourallisen kuvia ennen kuin ne loppuvat.
+# sent_id = 6
+1	Joskus	joskus	ADV	Adv	_	2	advmod	_	start_char=340|end_char=346
+2	saan	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=347|end_char=351
+3	otettua	ottaa	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	start_char=352|end_char=359
+4	vain	vain	ADV	Adv	_	5	advmod	_	start_char=360|end_char=364
+5	kourallisen	kourallinen	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=365|end_char=376
+6	kuvia	kuva	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=377|end_char=382
+7	ennen	ennen	ADV	Adv	_	8	advmod	_	start_char=383|end_char=388
+8	kuin	kuin	SCONJ	C	_	10	mark	_	start_char=389|end_char=393
+9	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	10	nsubj	_	start_char=394|end_char=396
+10	loppuvat	loppua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=397|end_char=405
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=405|end_char=406
+
+# text = Minulla ei ole sellaista kärsivällisyyttä...
+# sent_id = 7
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=407|end_char=414
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	1	aux	_	start_char=415|end_char=417
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop:own	_	start_char=418|end_char=421
+4	sellaista	sellainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	5	amod	_	start_char=422|end_char=431
+5	kärsivällisyyttä	kärsivällisyys	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=432|end_char=448
+6	...	...	PUNCT	Punct	_	1	punct	_	start_char=448|end_char=451
+
+# text = En osta enää Energizerin ladattavia paristoja.
+# sent_id = 8
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=452|end_char=454
+2	osta	ostaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=455|end_char=459
+3	enää	enää	ADV	Adv	_	2	advmod	_	start_char=460|end_char=464
+4	Energizerin	Energizer	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=465|end_char=476
+5	ladattavia	ladata	VERB	V	Case=Par|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	6	acl	_	start_char=477|end_char=487
+6	paristoja	paristo	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=488|end_char=497
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=497|end_char=498
+

@@ -1,0 +1,91 @@
+# text = Hyödytön ansa, kauhea suunnittelu
+# sent_id = 0
+1	Hyödytön	hyödytön	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	ansa	ansa	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=13
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=13|end_char=14
+4	kauhea	kauhea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=15|end_char=21
+5	suunnittelu	suunnittelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	2	conj	_	start_char=22|end_char=33
+
+# text = Pesukarhut varastavat houkuttimen tästä ansasta mielensä mukaan.
+# sent_id = 1
+1	Pesukarhut	pesu#karhu	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	start_char=34|end_char=44
+2	varastavat	varastaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=45|end_char=55
+3	houkuttimen	houkutin	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=56|end_char=67
+4	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	5	det	_	start_char=68|end_char=73
+5	ansasta	ansa	NOUN	N	Case=Ela|Number=Sing	2	obl	_	start_char=74|end_char=81
+6	mielensä	mieli	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	2	obl	_	start_char=82|end_char=90
+7	mukaan	mukaan	ADP	Adp	AdpType=Post	6	case	_	start_char=91|end_char=97
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=97|end_char=98
+
+# text = Minun piti suunnitella uudelleen liipaisin, jotta se edes laukeaisi, koska keila, joka vierii siihen, ei ensin saanut sitä laukeamaan.
+# sent_id = 2
+1	Minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=99|end_char=104
+2	piti	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	start_char=105|end_char=109
+3	suunnitella	suunnitella	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=110|end_char=121
+4	uudelleen	uudelleen	ADV	Adv	_	3	advmod	_	start_char=122|end_char=131
+5	liipaisin	liipaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	xcomp	_	start_char=132|end_char=141
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=141|end_char=142
+7	jotta	jotta	SCONJ	C	_	10	mark	_	start_char=143|end_char=148
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	start_char=149|end_char=151
+9	edes	edes	ADV	Adv	_	10	advmod	_	start_char=152|end_char=156
+10	laukeaisi	lauketa	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=157|end_char=166
+11	,	,	PUNCT	Punct	_	21	punct	_	start_char=166|end_char=167
+12	koska	koska	SCONJ	C	_	21	mark	_	start_char=168|end_char=173
+13	keila	keila	NOUN	N	Case=Nom|Number=Sing	21	nsubj	_	start_char=174|end_char=179
+14	,	,	PUNCT	Punct	_	16	punct	_	start_char=179|end_char=180
+15	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	16	nsubj	_	start_char=181|end_char=185
+16	vierii	vieriä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=186|end_char=192
+17	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	16	obl	_	start_char=193|end_char=199
+18	,	,	PUNCT	Punct	_	16	punct	_	start_char=199|end_char=200
+19	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	21	aux	_	start_char=201|end_char=203
+20	ensin	ensin	ADV	Adv	_	21	advmod	_	start_char=204|end_char=209
+21	saanut	saada	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	10	advcl	_	start_char=210|end_char=216
+22	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	23	nsubj	_	start_char=217|end_char=221
+23	laukeamaan	lauketa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	21	xcomp:ds	_	start_char=222|end_char=232
+24	.	.	PUNCT	Punct	_	3	punct	_	start_char=232|end_char=233
+
+# text = He neuvovat asettamaan houkuttimen liipaisinlevyn taakse, mutta pesukarhut yksinkertaisesti yltävät verkoston läpi ja saavat houkuttimen, toinen vakava suunnitteluvirhe.
+# sent_id = 3
+1	He	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=234|end_char=236
+2	neuvovat	neuvoa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=237|end_char=245
+3	asettamaan	asettaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=246|end_char=256
+4	houkuttimen	houkutin	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=257|end_char=268
+5	liipaisinlevyn	liipais#inlevy	NOUN	N	Case=Gen|Number=Sing	3	obl	_	start_char=269|end_char=283
+6	taakse	taakse	ADP	Adp	AdpType=Post	5	case	_	start_char=284|end_char=290
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=290|end_char=291
+8	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=292|end_char=297
+9	pesukarhut	pesu#karhu	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	start_char=298|end_char=308
+10	yksinkertaisesti	yksinkertaisesti	ADV	Adv	Derivation=Sti	11	advmod	_	start_char=309|end_char=325
+11	yltävät	yltää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=326|end_char=333
+12	verkoston	verkosto	NOUN	N	Case=Gen|Number=Sing	11	obl	_	start_char=334|end_char=343
+13	läpi	läpi	ADP	Adp	AdpType=Post	12	case	_	start_char=344|end_char=348
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=349|end_char=351
+15	saavat	saada	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	start_char=352|end_char=358
+16	houkuttimen	houkutin	NOUN	N	Case=Gen|Number=Sing	15	obj	_	start_char=359|end_char=370
+17	,	,	PUNCT	Punct	_	20	punct	_	start_char=370|end_char=371
+18	toinen	toinen	PRON	Pron	Case=Nom|Number=Sing|PronType=Rcp	20	det	_	start_char=372|end_char=378
+19	vakava	vakava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	20	amod	_	start_char=379|end_char=385
+20	suunnitteluvirhe	suunnittelu#virhe	NOUN	N	Case=Nom|Number=Sing	16	appos	_	start_char=386|end_char=402
+21	.	.	PUNCT	Punct	_	2	punct	_	start_char=402|end_char=403
+
+# text = On ansoja, jotka toimivat, tämä ei ole yksi niistä.
+# sent_id = 4
+1	On	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=404|end_char=406
+2	ansoja	ansoja	NOUN	N	Case=Par|Number=Plur	1	nsubj	_	start_char=407|end_char=413
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=413|end_char=414
+4	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	5	nsubj	_	start_char=415|end_char=420
+5	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=421|end_char=429
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=429|end_char=430
+7	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=431|end_char=435
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=436|end_char=438
+9	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=439|end_char=442
+10	yksi	yksi	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	5	conj	_	start_char=443|end_char=447
+11	niistä	se	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	10	nmod	_	start_char=448|end_char=454
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=454|end_char=455
+
+# text = Säästä rahasi!
+# sent_id = 5
+1	Säästä	säästä	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=456|end_char=462
+2	rahasi	raha	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obj	_	start_char=463|end_char=469
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=469|end_char=470
+

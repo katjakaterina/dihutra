@@ -1,0 +1,74 @@
+# text = Mahtava paketti!!
+# sent_id = 0
+1	Mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	paketti	paketti	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=8|end_char=15
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=15|end_char=16
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=16|end_char=17
+
+# text = Olin halunnut täydentää NFS-kokoelmaani, ja tällä paketilla oli vain otsikko, jota ei vielä ollut...
+# sent_id = 1
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=18|end_char=22
+2	halunnut	haluta	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=23|end_char=31
+3	täydentää	täydentää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=32|end_char=41
+4	NFS-kokoelmaani	NFS#kokoelma	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	start_char=42|end_char=57
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=57|end_char=58
+6	ja	ja	CCONJ	C	_	8	cc	_	start_char=59|end_char=61
+7	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	8	det	_	start_char=62|end_char=67
+8	paketilla	paketti	NOUN	N	Case=Ade|Number=Sing	2	conj	_	start_char=68|end_char=77
+9	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=78|end_char=81
+10	vain	vain	ADV	Adv	_	11	advmod	_	start_char=82|end_char=86
+11	otsikko	otsikko	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=87|end_char=94
+12	,	,	PUNCT	Punct	_	16	punct	_	start_char=94|end_char=95
+13	jota	joka	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	16	nsubj	_	start_char=96|end_char=100
+14	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=101|end_char=103
+15	vielä	vielä	ADV	Adv	_	16	advmod	_	start_char=104|end_char=109
+16	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	acl:relcl	_	start_char=110|end_char=115
+17	...	...	PUNCT	Punct	_	2	punct	_	start_char=115|end_char=118
+
+# text = Mainitsemisen arvoista, että myymälläsi hinnalla oli mahdotonta olla ostamatta sitä, vaikka minulla olisi jo kaksi kolme peliä.
+# sent_id = 2
+1	Mainitsemisen	mainitseminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	2	nmod:poss	_	start_char=119|end_char=132
+2	arvoista	arvoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=133|end_char=141
+3	,	,	PUNCT	Punct	_	8	punct	_	start_char=141|end_char=142
+4	että	että	SCONJ	C	_	8	mark	_	start_char=143|end_char=147
+5	myymälläsi	myydä	VERB	V	Case=Tra|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Inf|Voice=Act	8	advcl	_	start_char=148|end_char=158
+6	hinnalla	hinta	NOUN	N	Case=Ade|Number=Sing	5	obl	_	start_char=159|end_char=167
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=168|end_char=171
+8	mahdotonta	mahdoton	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	2	ccomp	_	start_char=172|end_char=182
+9	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	aux	_	start_char=183|end_char=187
+10	ostamatta	ostaa	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp:ds	_	start_char=188|end_char=197
+11	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	10	obj	_	start_char=198|end_char=202
+12	,	,	PUNCT	Punct	_	14	punct	_	start_char=202|end_char=203
+13	vaikka	vaikka	SCONJ	C	_	14	mark	_	start_char=204|end_char=210
+14	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	8	advcl	_	start_char=211|end_char=218
+15	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	cop:own	_	start_char=219|end_char=224
+16	jo	jo	ADV	Adv	_	14	advmod	_	start_char=225|end_char=227
+17	kaksi	kaksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	19	nummod	_	start_char=228|end_char=233
+18	kolme	kolme	NUM	Num	Case=Nom|NumType=Card|Number=Sing	19	nummod	_	start_char=234|end_char=239
+19	peliä	peli	NOUN	N	Case=Par|Number=Sing	14	nsubj:cop	_	start_char=240|end_char=245
+20	.	.	PUNCT	Punct	_	2	punct	_	start_char=245|end_char=246
+
+# text = Pahoittelee, että toimitetaan vain Yhdysvalloissa, mutta toimitus on nopea!.
+# sent_id = 3
+1	Pahoittelee	pahoitella	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=246|end_char=257
+2	,	,	PUNCT	Punct	_	4	punct	_	start_char=257|end_char=258
+3	että	että	SCONJ	C	_	4	mark	_	start_char=259|end_char=263
+4	toimitetaan	toimittaa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	start_char=264|end_char=275
+5	vain	vain	ADV	Adv	_	6	advmod	_	start_char=276|end_char=280
+6	Yhdysvalloissa	Yhdysvallat	PROPN	N	Case=Ine|Number=Plur	4	obl	_	start_char=281|end_char=295
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=295|end_char=296
+8	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=297|end_char=302
+9	toimitus	toimitus	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=303|end_char=311
+10	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=312|end_char=314
+11	nopea	nopea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	start_char=315|end_char=320
+12	!	!	PUNCT	Punct	_	1	punct	_	start_char=320|end_char=321
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=321|end_char=322
+
+# text = Ostan aina Amazonista tarjouksilla.
+# sent_id = 4
+1	Ostan	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=323|end_char=328
+2	aina	aina	ADV	Adv	_	1	advmod	_	start_char=329|end_char=333
+3	Amazonista	Amazon	PROPN	N	Case=Ela|Number=Sing	1	obl	_	start_char=334|end_char=344
+4	tarjouksilla	tarjous	NOUN	N	Case=Ade|Number=Plur	1	obl	_	start_char=345|end_char=357
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=357|end_char=358
+

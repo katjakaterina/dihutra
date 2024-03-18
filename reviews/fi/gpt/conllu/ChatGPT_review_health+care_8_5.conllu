@@ -1,0 +1,69 @@
+# text = Erinomainen suunnittelu ja toiminnallisuus
+# sent_id = 0
+1	Erinomainen	erinomainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	2	amod	_	start_char=0|end_char=11
+2	suunnittelu	suunnittelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	0	root	_	start_char=12|end_char=23
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=24|end_char=26
+4	toiminnallisuus	toiminnallisuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	2	conj	_	start_char=27|end_char=42
+
+# text = Ostimme yhden tienpäälle tehtyjä matkoja varten yrittäessämme tulkita karttoja ilman, että meidän tarvitsisi rasittaa silmiämme.
+# sent_id = 1
+1	Ostimme	ostaa	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=43|end_char=50
+2	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	5	nummod	_	start_char=51|end_char=56
+3	tienpäälle	tienpätä	NOUN	N	Case=All|Number=Sing	4	obl	_	start_char=57|end_char=67
+4	tehtyjä	tehdä	VERB	V	Case=Par|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=68|end_char=75
+5	matkoja	matka	NOUN	N	Case=Par|Number=Plur	1	obl	_	start_char=76|end_char=83
+6	varten	varten	ADP	Adp	AdpType=Post	5	case	_	start_char=84|end_char=90
+7	yrittäessämme	yrittää	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Plur|Person[psor]=1|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=91|end_char=104
+8	tulkita	tulkita	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=105|end_char=112
+9	karttoja	kartta	NOUN	N	Case=Par|Number=Plur	8	obj	_	start_char=113|end_char=121
+10	ilman	ilman	ADV	Adv	_	8	advmod	_	start_char=122|end_char=127
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=127|end_char=128
+12	että	että	SCONJ	C	_	15	mark	_	start_char=129|end_char=133
+13	meidän	minä	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	start_char=134|end_char=140
+14	tarvitsisi	tarvita	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	aux	_	start_char=141|end_char=151
+15	rasittaa	rasittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	ccomp	_	start_char=152|end_char=160
+16	silmiämme	silmä	NOUN	N	Case=Par|Number=Plur|Number[psor]=Plur|Person[psor]=1	15	obj	_	start_char=161|end_char=170
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=170|end_char=171
+
+# text = Todella hieno suunnittelu, hyvä tuntuma.
+# sent_id = 2
+1	Todella	todella	ADV	Adv	_	2	advmod	_	start_char=172|end_char=179
+2	hieno	hieno	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=180|end_char=185
+3	suunnittelu	suunnittelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	0	root	_	start_char=186|end_char=197
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=197|end_char=198
+5	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	start_char=199|end_char=203
+6	tuntuma	tuntuma	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=204|end_char=211
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=211|end_char=212
+
+# text = En voinut selvittää, missä paristot olivat, lähetin sähköpostin Lightwedge asiakaspalveluun ja sain vastauksen 24 tunnin sisällä.
+# sent_id = 3
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=213|end_char=215
+2	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=216|end_char=222
+3	selvittää	selvittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=223|end_char=232
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=232|end_char=233
+5	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	3	ccomp	_	start_char=234|end_char=239
+6	paristot	paristo	NOUN	N	Case=Nom|Number=Plur	5	nsubj:cop	_	start_char=240|end_char=248
+7	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=249|end_char=255
+8	,	,	PUNCT	Punct	_	9	punct	_	start_char=255|end_char=256
+9	lähetin	lähettää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=257|end_char=264
+10	sähköpostin	sähkö#posti	NOUN	N	Case=Gen|Number=Sing	9	obj	_	start_char=265|end_char=276
+11	Lightwedge	Lightwedge	PROPN	N	Case=Nom|Number=Sing	12	compound:nn	_	start_char=277|end_char=287
+12	asiakaspalveluun	asiakas#palvelu	NOUN	N	Case=Ill|Number=Sing	9	obl	_	start_char=288|end_char=304
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=305|end_char=307
+14	sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=308|end_char=312
+15	vastauksen	vastaus	NOUN	N	Case=Gen|Number=Sing	14	obj	_	start_char=313|end_char=323
+16	24	24	NUM	Num	NumType=Card	17	nummod	_	start_char=324|end_char=326
+17	tunnin	tunti	NOUN	N	Case=Gen|Number=Sing	14	obl	_	start_char=327|end_char=333
+18	sisällä	sisällä	ADP	Adp	AdpType=Post	17	case	_	start_char=334|end_char=341
+19	.	.	PUNCT	Punct	_	3	punct	_	start_char=341|end_char=342
+
+# text = Jos tarvitset sellaista, suosittelisin tätä.
+# sent_id = 4
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=343|end_char=346
+2	tarvitset	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=347|end_char=356
+3	sellaista	sellainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	2	obj	_	start_char=357|end_char=366
+4	,	,	PUNCT	Punct	_	2	punct	_	start_char=366|end_char=367
+5	suosittelisin	suositella	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	start_char=368|end_char=381
+6	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	obj	_	start_char=382|end_char=386
+7	.	.	PUNCT	Punct	_	5	punct	_	start_char=386|end_char=387
+

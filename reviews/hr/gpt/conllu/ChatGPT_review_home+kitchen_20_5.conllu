@@ -1,0 +1,68 @@
+# text = Apsolutno blago
+# sent_id = 0
+1	Apsolutno	apsolutno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=9
+2	blago	blago	ADV	Rgp	Degree=Pos	0	root	_	start_char=10|end_char=15
+
+# text = Svako tko sanja o dizajniranju predivnih torti, trebao bi imati ovu knjigu na noćnom ormariću.
+# sent_id = 1
+1	Svako	svaki	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	9	nsubj	_	start_char=16|end_char=21
+2	tko	tko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Int,Rel	3	nsubj	_	start_char=22|end_char=25
+3	sanja	sanjati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=26|end_char=31
+4	o	o	ADP	Sl	Case=Loc	5	case	_	start_char=32|end_char=33
+5	dizajniranju	dizajniranje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	start_char=34|end_char=46
+6	predivnih	predivan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=47|end_char=56
+7	torti	torta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=57|end_char=62
+8	,	,	PUNCT	Z	_	3	punct	_	start_char=62|end_char=63
+9	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=64|end_char=70
+10	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=71|end_char=73
+11	imati	imati	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=74|end_char=79
+12	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	start_char=80|end_char=83
+13	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=84|end_char=90
+14	na	na	ADP	Sl	Case=Loc	16	case	_	start_char=91|end_char=93
+15	noćnom	noćni	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=94|end_char=100
+16	ormariću	ormarić	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	start_char=101|end_char=109
+17	.	.	PUNCT	Z	_	9	punct	_	start_char=109|end_char=110
+
+# text = Ne znam koliko sam noći proučavala njene stranice prije odlaska na spavanje, ovo je zaista pravo blago od knjige.
+# sent_id = 2
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=111|end_char=113
+2	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=114|end_char=118
+3	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	6	advmod	_	start_char=119|end_char=125
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=126|end_char=129
+5	noći	noć	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=130|end_char=134
+6	proučavala	proučavati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	start_char=135|end_char=145
+7	njene	njen	DET	Ps3fpa	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	start_char=146|end_char=151
+8	stranice	stranica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=152|end_char=160
+9	prije	prije	ADP	Sg	Case=Gen	10	case	_	start_char=161|end_char=166
+10	odlaska	odlazak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=167|end_char=174
+11	na	na	ADP	Sa	Case=Acc	12	case	_	start_char=175|end_char=177
+12	spavanje	spavanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	start_char=178|end_char=186
+13	,	,	PUNCT	Z	_	18	punct	_	start_char=186|end_char=187
+14	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	start_char=188|end_char=191
+15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=192|end_char=194
+16	zaista	zaista	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=195|end_char=201
+17	pravo	prav	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=202|end_char=207
+18	blago	blag	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	parataxis	_	start_char=208|end_char=213
+19	od	od	ADP	Sg	Case=Gen	20	case	_	start_char=214|end_char=216
+20	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	start_char=217|end_char=223
+21	.	.	PUNCT	Z	_	2	punct	_	start_char=223|end_char=224
+
+# text = To je kao Sveti Gral među knjigama o tortama.
+# sent_id = 3
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=225|end_char=227
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=228|end_char=230
+3	kao	kao	SCONJ	Cs	_	5	case	_	start_char=231|end_char=234
+4	Sveti	svet	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=235|end_char=240
+5	Gral	gral	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=241|end_char=245
+6	među	među	ADP	Si	Case=Ins	7	case	_	start_char=246|end_char=250
+7	knjigama	knjiga	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	start_char=251|end_char=259
+8	o	o	ADP	Sl	Case=Loc	9	case	_	start_char=260|end_char=261
+9	tortama	torta	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	start_char=262|end_char=269
+10	.	.	PUNCT	Z	_	5	punct	_	start_char=269|end_char=270
+
+# text = Nećete zažaliti.
+# sent_id = 4
+1	Nećete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=271|end_char=277
+2	zažaliti	zažaliti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=278|end_char=286
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=286|end_char=287
+

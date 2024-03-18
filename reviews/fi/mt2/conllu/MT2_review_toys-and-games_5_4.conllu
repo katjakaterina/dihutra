@@ -1,0 +1,61 @@
+# text = Hienoa, että hän voi leikkiä aakkosillaan...
+# sent_id = 0
+1	Hienoa	hieno	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=6|end_char=7
+3	että	että	SCONJ	C	_	6	mark	_	start_char=8|end_char=12
+4	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=13|end_char=16
+5	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=17|end_char=20
+6	leikkiä	leikkiä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	csubj:cop	_	start_char=21|end_char=28
+7	aakkosillaan	aakkonen	NOUN	N	Case=Ade|Number=Plur|Person[psor]=3	6	obl	_	start_char=29|end_char=41
+8	...	...	PUNCT	Punct	_	1	punct	_	start_char=41|end_char=44
+
+# text = Minulla on ruostumattomasta teräksestä valmistettu jääkaappi, joten pojallani ei ole paljon tilaa leikkiä magneetilla.
+# sent_id = 1
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=45|end_char=52
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=53|end_char=55
+3	ruostumattomasta	ruostumaton	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	4	amod	_	start_char=56|end_char=72
+4	teräksestä	teräs	NOUN	N	Case=Ela|Number=Sing	5	obl	_	start_char=73|end_char=83
+5	valmistettu	valmistaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=84|end_char=95
+6	jääkaappi	jää#kaappi	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=96|end_char=105
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=105|end_char=106
+8	joten	joten	ADV	Adv	_	9	advmod	_	start_char=107|end_char=112
+9	pojallani	poika	NOUN	N	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	acl:relcl	_	start_char=113|end_char=122
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=123|end_char=125
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop:own	_	start_char=126|end_char=129
+12	paljon	paljon	ADV	Adv	_	13	advmod	_	start_char=130|end_char=136
+13	tilaa	tila	NOUN	N	Case=Par|Number=Sing	9	nsubj:cop	_	start_char=137|end_char=142
+14	leikkiä	leikkiä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	13	acl	_	start_char=143|end_char=150
+15	magneetilla	magneetti	NOUN	N	Case=Ade|Number=Sing	14	obl	_	start_char=151|end_char=162
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=162|end_char=163
+
+# text = Toi tämän hänelle laittaakseen magneettinsa päälle.
+# sent_id = 2
+1	Toi	tuo	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem|Style=Coll	2	det	_	start_char=164|end_char=167
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obj	_	start_char=168|end_char=173
+3	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=174|end_char=181
+4	laittaakseen	laittaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	0	root	_	start_char=182|end_char=194
+5	magneettinsa	magneetti	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	4	obl	_	start_char=195|end_char=207
+6	päälle	päälle	ADP	Adp	AdpType=Post	5	case	_	start_char=208|end_char=214
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=214|end_char=215
+
+# text = Hän nauttii magneettinsa kiinnittämisestä siihen.
+# sent_id = 3
+1	Hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=216|end_char=219
+2	nauttii	nauttia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=220|end_char=227
+3	magneettinsa	magneetti	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	4	nmod:gobj	_	start_char=228|end_char=240
+4	kiinnittämisestä	kiinnittäminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	2	obl	_	start_char=241|end_char=257
+5	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	4	nmod	_	start_char=258|end_char=264
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=264|end_char=265
+
+# text = Hienoa, että hän voi leikkiä aakkosten magneeteilla.
+# sent_id = 4
+1	Hienoa	hieno	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=266|end_char=272
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=272|end_char=273
+3	että	että	SCONJ	C	_	6	mark	_	start_char=274|end_char=278
+4	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=279|end_char=282
+5	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=283|end_char=286
+6	leikkiä	leikkiä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	csubj:cop	_	start_char=287|end_char=294
+7	aakkosten	aakkonen	NOUN	N	Case=Gen|Number=Plur	8	nmod:poss	_	start_char=295|end_char=304
+8	magneeteilla	magneetti	NOUN	N	Case=Ade|Number=Plur	6	obl	_	start_char=305|end_char=317
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=317|end_char=318
+

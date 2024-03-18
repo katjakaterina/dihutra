@@ -1,0 +1,83 @@
+# text = Замечательно иметь, чтобы он мог играть со своим алфавитом...
+# sent_id = 0
+1	Замечательно	замечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=12
+2	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=13|end_char=18
+3	,	,	PUNCT	_	_	6	punct	_	start_char=18|end_char=19
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=20|end_char=25
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=26|end_char=28
+6	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=29|end_char=32
+7	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=33|end_char=39
+8	со	с	ADP	_	_	10	case	_	start_char=40|end_char=42
+9	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	start_char=43|end_char=48
+10	алфавитом	алфавит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	start_char=49|end_char=58
+11	.	.	PUNCT	_	_	10	punct	_	start_char=58|end_char=59
+12	.	.	PUNCT	_	_	10	punct	_	start_char=59|end_char=60
+13	.	.	PUNCT	_	_	1	punct	_	start_char=60|end_char=61
+
+# text = У меня есть холодильник из нержавеющей стали, поэтому у сына нет много места, чтобы играть со своими магнитами.
+# sent_id = 1
+1	У	у	ADP	_	_	2	case	_	start_char=62|end_char=63
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=64|end_char=68
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=69|end_char=73
+4	холодильник	холодильник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=74|end_char=85
+5	из	из	ADP	_	_	7	case	_	start_char=86|end_char=88
+6	нержавеющей	нержавеющий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=89|end_char=100
+7	стали	сталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=101|end_char=106
+8	,	,	PUNCT	_	_	12	punct	_	start_char=106|end_char=107
+9	поэтому	поэтому	ADV	_	Degree=Pos	12	advmod	_	start_char=108|end_char=115
+10	у	у	ADP	_	_	11	case	_	start_char=116|end_char=117
+11	сына	сын	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	start_char=118|end_char=122
+12	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=123|end_char=126
+13	много	много	NUM	_	_	12	nsubj	_	start_char=127|end_char=132
+14	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	start_char=133|end_char=138
+15	,	,	PUNCT	_	_	17	punct	_	start_char=138|end_char=139
+16	чтобы	чтобы	SCONJ	_	Mood=Cnd	17	mark	_	start_char=140|end_char=145
+17	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	advcl	_	start_char=146|end_char=152
+18	со	с	ADP	_	_	20	case	_	start_char=153|end_char=155
+19	своими	свой	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	20	det	_	start_char=156|end_char=162
+20	магнитами	магнит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	start_char=163|end_char=172
+21	.	.	PUNCT	_	_	3	punct	_	start_char=172|end_char=173
+
+# text = Купил это для него, чтобы он мог размещать свои магниты на нем.
+# sent_id = 2
+1	Купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=174|end_char=179
+2	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=180|end_char=183
+3	для	для	ADP	_	_	4	case	_	start_char=184|end_char=187
+4	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	start_char=188|end_char=192
+5	,	,	PUNCT	_	_	8	punct	_	start_char=192|end_char=193
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	start_char=194|end_char=199
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=200|end_char=202
+8	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=203|end_char=206
+9	размещать	размещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=207|end_char=216
+10	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	start_char=217|end_char=221
+11	магниты	магнит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=222|end_char=229
+12	на	на	ADP	_	_	13	case	_	start_char=230|end_char=232
+13	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	start_char=233|end_char=236
+14	.	.	PUNCT	_	_	1	punct	_	start_char=236|end_char=237
+
+# text = Ему нравится приклеивать свои магниты к нему.
+# sent_id = 3
+1	Ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	start_char=238|end_char=241
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=242|end_char=250
+3	приклеивать	приклеивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=251|end_char=262
+4	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=263|end_char=267
+5	магниты	магнит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=268|end_char=275
+6	к	к	ADP	_	_	7	case	_	start_char=276|end_char=277
+7	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=278|end_char=282
+8	.	.	PUNCT	_	_	2	punct	_	start_char=282|end_char=283
+
+# text = Замечательно иметь, чтобы он мог играть со своими алфавитными магнитами.
+# sent_id = 4
+1	Замечательно	замечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=284|end_char=296
+2	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=297|end_char=302
+3	,	,	PUNCT	_	_	6	punct	_	start_char=302|end_char=303
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=304|end_char=309
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=310|end_char=312
+6	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=313|end_char=316
+7	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=317|end_char=323
+8	со	с	ADP	_	_	11	case	_	start_char=324|end_char=326
+9	своими	свой	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	start_char=327|end_char=333
+10	алфавитными	алфавитный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	amod	_	start_char=334|end_char=345
+11	магнитами	магнит	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl	_	start_char=346|end_char=355
+12	.	.	PUNCT	_	_	1	punct	_	start_char=355|end_char=356
+

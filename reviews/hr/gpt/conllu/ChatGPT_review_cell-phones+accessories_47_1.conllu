@@ -1,0 +1,72 @@
+# text = Budite oprezni
+# sent_id = 0
+1	Budite	biti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=0|end_char=6
+2	oprezni	oprezan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	xcomp	_	start_char=7|end_char=14
+
+# text = Kupio sam 2 ovakva proizvoda i pokušao testirati prvi... nakon nekoliko minuta punjenja, postao je vruć.
+# sent_id = 1
+1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=15|end_char=20
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=21|end_char=24
+3	2	2	NUM	Mdc	NumType=Card	5	nummod:gov	_	start_char=25|end_char=26
+4	ovakva	ovakav	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=27|end_char=33
+5	proizvoda	proizvod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	obj	_	start_char=34|end_char=43
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=44|end_char=45
+7	pokušao	pokušati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=46|end_char=53
+8	testirati	testirati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=54|end_char=63
+9	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	obj	_	start_char=64|end_char=68
+10	...	...	PUNCT	Z	_	13	punct	_	start_char=68|end_char=71
+11	nakon	nakon	ADP	Sg	Case=Gen	13	case	_	start_char=72|end_char=77
+12	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	13	det:numgov	_	start_char=78|end_char=86
+13	minuta	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	start_char=87|end_char=93
+14	punjenja	punjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=94|end_char=102
+15	,	,	PUNCT	Z	_	13	punct	_	start_char=102|end_char=103
+16	postao	postati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=104|end_char=110
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=111|end_char=113
+18	vruć	vruć	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	xcomp	_	start_char=114|end_char=118
+19	.	.	PUNCT	Z	_	1	punct	_	start_char=118|end_char=119
+
+# text = Izvukao sam ga i proizvod je mirisao na izgaranje.
+# sent_id = 2
+1	Izvukao	izvući	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=120|end_char=127
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=128|end_char=131
+3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=132|end_char=134
+4	i	i	CCONJ	Cc	_	5	discourse	_	start_char=135|end_char=136
+5	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=137|end_char=145
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=146|end_char=148
+7	mirisao	mirisati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=149|end_char=156
+8	na	na	ADP	Sa	Case=Acc	9	case	_	start_char=157|end_char=159
+9	izgaranje	izgaranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	start_char=160|end_char=169
+10	.	.	PUNCT	Z	_	1	punct	_	start_char=169|end_char=170
+
+# text = Pokušao sam i drugi isto i ista stvar.
+# sent_id = 3
+1	Pokušao	pokušati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=171|end_char=178
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=179|end_char=182
+3	i	i	CCONJ	Cc	_	4	discourse	_	start_char=183|end_char=184
+4	drugi	drugi	ADJ	Mlomsa	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=185|end_char=190
+5	isto	isto	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=191|end_char=195
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=196|end_char=197
+7	ista	isti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=198|end_char=202
+8	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=203|end_char=208
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=208|end_char=209
+
+# text = Budite oprezni... ovaj proizvod mogao bi predstavljati opasnost od požara ili potencijalno oštetiti električni sustav.
+# sent_id = 4
+1	Budite	biti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=210|end_char=216
+2	oprezni	oprezan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	xcomp	_	start_char=217|end_char=224
+3	...	...	PUNCT	Z	_	1	punct	_	start_char=224|end_char=227
+4	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=228|end_char=232
+5	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=233|end_char=241
+6	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	parataxis	_	start_char=242|end_char=247
+7	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	start_char=248|end_char=250
+8	predstavljati	predstavljati	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=251|end_char=264
+9	opasnost	opasnost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=265|end_char=273
+10	od	od	ADP	Sg	Case=Gen	11	case	_	start_char=274|end_char=276
+11	požara	požar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=277|end_char=283
+12	ili	ili	CCONJ	Cc	_	14	cc	_	start_char=284|end_char=287
+13	potencijalno	potencijalno	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=288|end_char=300
+14	oštetiti	oštetiti	VERB	Vmn	VerbForm=Inf	8	conj	_	start_char=301|end_char=309
+15	električni	električan	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=310|end_char=320
+16	sustav	sustav	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=321|end_char=327
+17	.	.	PUNCT	Z	_	6	punct	_	start_char=327|end_char=328
+

@@ -1,0 +1,106 @@
+# text = Ovo su moji omiljeni slatkiši ikad!
+# sent_id = 0
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=0|end_char=3
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4|end_char=6
+3	moji	moj	DET	Ps1mpn	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	start_char=7|end_char=11
+4	omiljeni	omiljen	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=12|end_char=20
+5	slatkiši	slatkiš	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=21|end_char=29
+6	ikad	ikad	ADV	Rgp	Degree=Pos|PronType=Ind	5	advmod	_	start_char=30|end_char=34
+7	!	!	PUNCT	Z	_	5	punct	_	start_char=34|end_char=35
+
+# text = Nakon što sam čuo/la različita mišljenja o ovim Kit Kat čokoladicama, odlučio/la sam ih isprobati.
+# sent_id = 1
+1	Nakon	nakon	SCONJ	Cs	_	4	mark	_	start_char=36|end_char=41
+2	što	što	SCONJ	Cs	_	1	fixed	_	start_char=42|end_char=45
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=46|end_char=49
+4	čuo/la	čuo/iti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	start_char=50|end_char=56
+5	različita	različit	ADJ	Agpnpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=57|end_char=66
+6	mišljenja	mišljenje	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=67|end_char=76
+7	o	o	ADP	Sl	Case=Loc	11	case	_	start_char=77|end_char=78
+8	ovim	ovaj	DET	Pd-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	11	det	_	start_char=79|end_char=83
+9	Kit	Kit	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	11	amod	_	start_char=84|end_char=87
+10	Kat	kat	NOUN	Ncmsl	Case=Acc|Gender=Masc|Number=Sing	9	flat	_	start_char=88|end_char=91
+11	čokoladicama	čokoladica	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	start_char=92|end_char=104
+12	,	,	PUNCT	Z	_	4	punct	_	start_char=104|end_char=105
+13	odlučio/la	odlučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=106|end_char=116
+14	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=117|end_char=120
+15	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	start_char=121|end_char=123
+16	isprobati	isprobati	VERB	Vmn	VerbForm=Inf	13	xcomp	_	start_char=124|end_char=133
+17	.	.	PUNCT	Z	_	13	punct	_	start_char=133|end_char=134
+
+# text = Izvrsne su, i apsolutno se ne kajem što sam ih kupio/la.
+# sent_id = 2
+1	Izvrsne	izvrstan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=135|end_char=142
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=143|end_char=145
+3	,	,	PUNCT	Z	_	8	punct	_	start_char=145|end_char=146
+4	i	i	CCONJ	Cc	_	8	cc	_	start_char=147|end_char=148
+5	apsolutno	apsolutno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=149|end_char=158
+6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	start_char=159|end_char=161
+7	ne	ne	PART	Qz	Polarity=Neg	8	advmod	_	start_char=162|end_char=164
+8	kajem	kavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=165|end_char=170
+9	što	što	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Int,Rel	12	obj	_	start_char=171|end_char=174
+10	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=175|end_char=178
+11	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	start_char=179|end_char=181
+12	kupio/la	kupio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	ccomp	_	start_char=182|end_char=190
+13	.	.	PUNCT	Z	_	1	punct	_	start_char=190|end_char=191
+
+# text = Imaju okus po matcha čaju s dodatkom vanilije i mliječnog okusa.
+# sent_id = 3
+1	Imaju	imati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=192|end_char=197
+2	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=198|end_char=202
+3	po	po	ADP	Sl	Case=Loc	4	case	_	start_char=203|end_char=205
+4	matcha	matac	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	start_char=206|end_char=212
+5	čaju	čaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	start_char=213|end_char=217
+6	s	sa	ADP	Si	Case=Ins	7	case	_	start_char=218|end_char=219
+7	dodatkom	dodatak	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	start_char=220|end_char=228
+8	vanilije	vanilija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=229|end_char=237
+9	i	i	CCONJ	Cc	_	11	cc	_	start_char=238|end_char=239
+10	mliječnog	mliječan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=240|end_char=249
+11	okusa	okus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	conj	_	start_char=250|end_char=255
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=255|end_char=256
+
+# text = Nisu preslatke ni presuhe.
+# sent_id = 4
+1	Nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=257|end_char=261
+2	preslatke	preslatak	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=262|end_char=271
+3	ni	ni	PART	Qo	_	4	cc	_	start_char=272|end_char=274
+4	presuhe	presuha	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=275|end_char=282
+5	.	.	PUNCT	Z	_	2	punct	_	start_char=282|end_char=283
+
+# text = Ovo su najbolje Kit Kat čokoladice koje sam ikad probao/la, i preporučio/la bih ih svima koji vole slatkiše s okusom matcha čaja ili bilo koga tko želi probati neobičnu vrstu Kit Kata.
+# sent_id = 5
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=284|end_char=287
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=288|end_char=290
+3	najbolje	dobro	ADV	Rgs	Degree=Sup	5	advmod	_	start_char=291|end_char=299
+4	Kit	kit	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=300|end_char=303
+5	Kat	kat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=304|end_char=307
+6	čokoladice	čokoladica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=308|end_char=318
+7	koje	koji	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	10	obj	_	start_char=319|end_char=323
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=324|end_char=327
+9	ikad	ikad	ADV	Rgp	Degree=Pos|PronType=Ind	10	advmod	_	start_char=328|end_char=332
+10	probao/la	probao/iti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl	_	start_char=333|end_char=342
+11	,	,	PUNCT	Z	_	13	punct	_	start_char=342|end_char=343
+12	i	i	CCONJ	Cc	_	13	cc	_	start_char=344|end_char=345
+13	preporučio/la	preporučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	start_char=346|end_char=359
+14	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	start_char=360|end_char=363
+15	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	start_char=364|end_char=366
+16	svima	sav	ADJ	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	13	iobj	_	start_char=367|end_char=372
+17	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	18	nsubj	_	start_char=373|end_char=377
+18	vole	voljeti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	start_char=378|end_char=382
+19	slatkiše	slatkiš	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=383|end_char=391
+20	s	sa	ADP	Si	Case=Ins	21	case	_	start_char=392|end_char=393
+21	okusom	okus	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	start_char=394|end_char=400
+22	matcha	matac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=401|end_char=407
+23	čaja	čaj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=408|end_char=412
+24	ili	ili	CCONJ	Cc	_	26	cc	_	start_char=413|end_char=416
+25	bilo	bilo	PART	Qo	_	26	discourse	_	start_char=417|end_char=421
+26	koga	tko	PRON	Pi3m-g	Case=Gen|Gender=Masc|PronType=Int,Rel	28	obl	_	start_char=422|end_char=426
+27	tko	tko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Int,Rel	28	nsubj	_	start_char=427|end_char=430
+28	želi	željeti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	start_char=431|end_char=435
+29	probati	probati	VERB	Vmn	VerbForm=Inf	28	xcomp	_	start_char=436|end_char=443
+30	neobičnu	neobičan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	start_char=444|end_char=452
+31	vrstu	vrsta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	start_char=453|end_char=458
+32	Kit	Kit	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	31	flat	_	start_char=459|end_char=462
+33	Kata	Kata	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	32	flat	_	start_char=463|end_char=467
+34	.	.	PUNCT	Z	_	5	punct	_	start_char=467|end_char=468
+

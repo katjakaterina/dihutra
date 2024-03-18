@@ -1,0 +1,61 @@
+# text = Paras "Joululaulu"-tarina Näyttää siltä, ​​että melkein kaikki ovat tehneet joululaulu-elokuvan.
+# sent_id = 0
+1	Paras	hyvä	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	5	amod	_	start_char=0|end_char=5
+2	"	"	PUNCT	Punct	_	3	punct	_	start_char=6|end_char=7
+3	Joululaulu	joulu#laulu	NOUN	N	Case=Nom|Number=Sing	5	compound:nn	_	start_char=7|end_char=17
+4	"	"	PUNCT	Punct	_	3	punct	_	start_char=17|end_char=18
+5	-tarina	tarina	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=18|end_char=25
+6	Näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=26|end_char=33
+7	siltä	se	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	6	obl	_	start_char=34|end_char=39
+8	,	,	PUNCT	Punct	_	13	punct	_	start_char=39|end_char=40
+9	​​että	​​että	INTJ	Interj	_	13	discourse	_	start_char=41|end_char=47
+10	melkein	melkein	ADV	Adv	_	11	advmod	_	start_char=48|end_char=55
+11	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	start_char=56|end_char=62
+12	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=63|end_char=67
+13	tehneet	tehdä	VERB	V	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	7	ccomp	_	start_char=68|end_char=75
+14	joululaulu-elokuvan	joulu#laulu#elo#kuva	NOUN	N	Case=Gen|Number=Sing	13	obj	_	start_char=76|end_char=95
+15	.	.	PUNCT	Punct	_	6	punct	_	start_char=95|end_char=96
+
+# text = Tämä on tähän mennessä paras!
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=97|end_char=101
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=102|end_char=104
+3	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	5	obl	_	start_char=105|end_char=110
+4	mennessä	mennessä	ADP	Adp	AdpType=Post	3	case	_	start_char=111|end_char=119
+5	paras	hyvä	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	0	root	_	start_char=120|end_char=125
+6	!	!	PUNCT	Punct	_	5	punct	_	start_char=125|end_char=126
+
+# text = Se näyttää realistisemmalta kuin kaikki muut ja ajanjakso näyttää olevan täydellinen.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=127|end_char=129
+2	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=130|end_char=137
+3	realistisemmalta	realistinen	ADJ	A	Case=Abl|Degree=Pos|Derivation=Inen|Number=Sing	2	xcomp	_	start_char=138|end_char=154
+4	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=155|end_char=159
+5	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	6	det	_	start_char=160|end_char=166
+6	muut	muu	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	3	advcl	_	start_char=167|end_char=171
+7	ja	ja	CCONJ	C	_	9	cc	_	start_char=172|end_char=174
+8	ajanjakso	ajan#jakso	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=175|end_char=184
+9	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=185|end_char=192
+10	olevan	olla	AUX	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	11	cop	_	start_char=193|end_char=199
+11	täydellinen	täydellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	9	xcomp	_	start_char=200|end_char=211
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=211|end_char=212
+
+# text = Näyttelijätyö on myös paljon parempi kuin mikään muu, jonka olen nähnyt; minun mielipiteeni.
+# sent_id = 3
+1	Näyttelijätyö	näyttelijä#työ	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=213|end_char=226
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=227|end_char=229
+3	myös	myös	ADV	Adv	_	5	advmod	_	start_char=230|end_char=234
+4	paljon	paljon	ADV	Adv	_	5	advmod	_	start_char=235|end_char=241
+5	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	start_char=242|end_char=249
+6	kuin	kuin	SCONJ	C	_	8	mark	_	start_char=250|end_char=254
+7	mikään	mikään	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	8	det	_	start_char=255|end_char=261
+8	muu	muu	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	5	advcl	_	start_char=262|end_char=265
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=265|end_char=266
+10	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	12	obj	_	start_char=267|end_char=272
+11	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=273|end_char=277
+12	nähnyt	nähdä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	acl:relcl	_	start_char=278|end_char=284
+13	;	;	PUNCT	Punct	_	15	punct	_	start_char=284|end_char=285
+14	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	nmod:poss	_	start_char=286|end_char=291
+15	mielipiteeni	mieli#pide	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	parataxis	_	start_char=292|end_char=304
+16	.	.	PUNCT	Punct	_	5	punct	_	start_char=304|end_char=305
+

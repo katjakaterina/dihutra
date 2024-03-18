@@ -1,0 +1,117 @@
+# text = Glock čekić alat - potreban za vaš Glock i druge primjene
+# sent_id = 0
+1	Glock	Glock	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5
+2	čekić	čekić	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=11
+3	alat	alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=12|end_char=16
+4	-	-	PUNCT	Z	_	5	punct	_	start_char=17|end_char=18
+5	potreban	potreban	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	parataxis	_	start_char=19|end_char=27
+6	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=28|end_char=30
+7	vaš	vaš	DET	Ps1msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	start_char=31|end_char=34
+8	Glock	Glock	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=35|end_char=40
+9	i	i	CCONJ	Cc	_	11	cc	_	start_char=41|end_char=42
+10	druge	drugi	ADJ	Mlofpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=43|end_char=48
+11	primjene	primjena	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=49|end_char=57
+
+# text = Ovaj alat mi je bio potreban da zaista rastavim svoj G22, i savršeno je funkcionirao za to.
+# sent_id = 1
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=58|end_char=62
+2	alat	alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=63|end_char=67
+3	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obj	_	start_char=68|end_char=70
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=71|end_char=73
+5	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	start_char=74|end_char=77
+6	potreban	potreban	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=78|end_char=86
+7	da	da	SCONJ	Cs	_	9	mark	_	start_char=87|end_char=89
+8	zaista	zaista	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=90|end_char=96
+9	rastavim	rastaviti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	start_char=97|end_char=105
+10	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	start_char=106|end_char=110
+11	G22	G22	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=111|end_char=114
+12	,	,	PUNCT	Z	_	16	punct	_	start_char=114|end_char=115
+13	i	i	CCONJ	Cc	_	16	cc	_	start_char=116|end_char=117
+14	savršeno	savršeno	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=118|end_char=126
+15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=127|end_char=129
+16	funkcionirao	funkcionirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	start_char=130|end_char=142
+17	za	za	ADP	Sa	Case=Acc	18	case	_	start_char=143|end_char=145
+18	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	start_char=146|end_char=148
+19	.	.	PUNCT	Z	_	6	punct	_	start_char=148|end_char=149
+
+# text = Ne primjećujem razliku u odnosu na tvornički alat.
+# sent_id = 2
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=150|end_char=152
+2	primjećujem	primjećivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=153|end_char=164
+3	razliku	razlika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=165|end_char=172
+4	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=173|end_char=174
+5	odnosu	odnos	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=175|end_char=181
+6	na	na	ADP	Sa	Case=Acc	4	fixed	_	start_char=182|end_char=184
+7	tvornički	tvornički	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=185|end_char=194
+8	alat	alat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	start_char=195|end_char=199
+9	.	.	PUNCT	Z	_	2	punct	_	start_char=199|end_char=200
+
+# text = Međutim, došao je kao dodatni bonus kada sam shvatio da mi treba čekić za pravilno rastavljanje nosača zatvarača na mom AR za temeljito čišćenje, i ovaj alat je savršeno funkcionirao za guranje čuvara čavla izvana i zatim vraćanje na mjesto nakon završetka posla.
+# sent_id = 3
+1	Međutim	međutim	ADV	Rgp	Degree=Pos	3	discourse	_	start_char=201|end_char=208
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=208|end_char=209
+3	došao	doći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=210|end_char=215
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=216|end_char=218
+5	kao	kao	SCONJ	Cs	_	7	case	_	start_char=219|end_char=222
+6	dodatni	dodatan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=223|end_char=230
+7	bonus	bonus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	start_char=231|end_char=236
+8	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	10	advmod	_	start_char=237|end_char=241
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=242|end_char=245
+10	shvatio	shvatiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	start_char=246|end_char=253
+11	da	da	SCONJ	Cs	_	13	mark	_	start_char=254|end_char=256
+12	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	_	start_char=257|end_char=259
+13	treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=260|end_char=265
+14	čekić	čekić	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=266|end_char=271
+15	za	za	ADP	Sa	Case=Acc	17	case	_	start_char=272|end_char=274
+16	pravilno	pravilan	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=275|end_char=283
+17	rastavljanje	rastavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	start_char=284|end_char=296
+18	nosača	nosač	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=297|end_char=303
+19	zatvarača	zatvarač	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=304|end_char=313
+20	na	na	ADP	Sl	Case=Loc	22	case	_	start_char=314|end_char=316
+21	mom	moj	DET	Ps1msl	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	22	det	_	start_char=317|end_char=320
+22	AR	AR	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	start_char=321|end_char=323
+23	za	za	ADP	Sa	Case=Acc	25	case	_	start_char=324|end_char=326
+24	temeljito	temeljiti	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	start_char=327|end_char=336
+25	čišćenje	čišćenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	start_char=337|end_char=345
+26	,	,	PUNCT	Z	_	32	punct	_	start_char=345|end_char=346
+27	i	i	CCONJ	Cc	_	32	cc	_	start_char=347|end_char=348
+28	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	start_char=349|end_char=353
+29	alat	alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	start_char=354|end_char=358
+30	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	start_char=359|end_char=361
+31	savršeno	savršeno	ADV	Rgp	Degree=Pos	32	advmod	_	start_char=362|end_char=370
+32	funkcionirao	funkcionirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=371|end_char=383
+33	za	za	ADP	Sa	Case=Acc	34	case	_	start_char=384|end_char=386
+34	guranje	guranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	32	obl	_	start_char=387|end_char=394
+35	čuvara	čuvar	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	start_char=395|end_char=401
+36	čavla	čavlo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	start_char=402|end_char=407
+37	izvana	izvana	ADV	Rgp	Degree=Pos	36	advmod	_	start_char=408|end_char=414
+38	i	i	CCONJ	Cc	_	40	cc	_	start_char=415|end_char=416
+39	zatim	zatim	ADV	Rgp	Degree=Pos	40	advmod	_	start_char=417|end_char=422
+40	vraćanje	vraćanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	34	conj	_	start_char=423|end_char=431
+41	na	na	ADP	Sa	Case=Acc	42	case	_	start_char=432|end_char=434
+42	mjesto	mjesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	40	nmod	_	start_char=435|end_char=441
+43	nakon	nakon	ADP	Sg	Case=Gen	44	case	_	start_char=442|end_char=447
+44	završetka	završetak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	start_char=448|end_char=457
+45	posla	posao	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	44	nmod	_	start_char=458|end_char=463
+46	.	.	PUNCT	Z	_	3	punct	_	start_char=463|end_char=464
+
+# text = Izvrsno!
+# sent_id = 4
+1	Izvrsno	izvrsno	ADV	Rgp	Degree=Pos	0	root	_	start_char=465|end_char=472
+2	!	!	PUNCT	Z	_	1	punct	_	start_char=472|end_char=473
+
+# text = Sada je u mojoj torbi za streljanje radi sigurnog čuvanja."
+# sent_id = 5
+1	Sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	start_char=474|end_char=478
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=479|end_char=481
+3	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=482|end_char=483
+4	mojoj	moj	DET	Ps1fsl	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	start_char=484|end_char=489
+5	torbi	torba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=490|end_char=495
+6	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=496|end_char=498
+7	streljanje	streljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	start_char=499|end_char=509
+8	radi	radi	ADP	Sg	Case=Gen	10	case	_	start_char=510|end_char=514
+9	sigurnog	siguran	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=515|end_char=523
+10	čuvanja	čuvanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=524|end_char=531
+11	.	.	PUNCT	Z	_	5	punct	_	start_char=531|end_char=532
+12	"	"	PUNCT	Z	_	5	punct	_	start_char=532|end_char=533
+

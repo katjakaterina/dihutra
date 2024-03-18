@@ -1,0 +1,66 @@
+# text = Tämä albumi on ehdottomasti siunattu!
+# sent_id = 0
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4
+2	albumi	albumi	NOUN	N	Case=Nom|Number=Sing	5	obj	_	start_char=5|end_char=11
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	start_char=12|end_char=14
+4	ehdottomasti	ehdottomasti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=15|end_char=27
+5	siunattu	siunata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=28|end_char=36
+6	!	!	PUNCT	Punct	_	5	punct	_	start_char=36|end_char=37
+
+# text = Hetki kun se saapui minulle, soitin ja kuuntelin sitä, ja minulle tuli välähdys menneisyyteen kahdeksankymmentäluvulle, kun kuulin sen ja kun näin hänet konsertissa juuri ennen hänen kuolemaansa.
+# sent_id = 1
+1	Hetki	hetki	NOUN	N	Case=Nom|Number=Sing	2	advmod	_	start_char=38|end_char=43
+2	kun	kun	SCONJ	C	_	4	mark	_	start_char=44|end_char=47
+3	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	_	start_char=48|end_char=50
+4	saapui	saapua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=51|end_char=57
+5	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=58|end_char=65
+6	,	,	PUNCT	Punct	_	4	punct	_	start_char=65|end_char=66
+7	soitin	soittaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=67|end_char=73
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=74|end_char=76
+9	kuuntelin	kuunnella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=77|end_char=86
+10	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	obj	_	start_char=87|end_char=91
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=91|end_char=92
+12	ja	ja	CCONJ	C	_	14	cc	_	start_char=93|end_char=95
+13	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	14	obl	_	start_char=96|end_char=103
+14	tuli	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=104|end_char=108
+15	välähdys	välähdys	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	start_char=109|end_char=117
+16	menneisyyteen	menneisyys	NOUN	N	Case=Ill|Number=Sing	15	nmod	_	start_char=118|end_char=131
+17	kahdeksankymmentäluvulle	kahdeksankymmenen#luku	NOUN	N	Case=All|Number=Sing	15	nmod	_	start_char=132|end_char=156
+18	,	,	PUNCT	Punct	_	20	punct	_	start_char=156|end_char=157
+19	kun	kun	SCONJ	C	_	20	mark	_	start_char=158|end_char=161
+20	kuulin	kuulla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	start_char=162|end_char=168
+21	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	20	obj	_	start_char=169|end_char=172
+22	ja	ja	CCONJ	C	_	24	cc	_	start_char=173|end_char=175
+23	kun	kun	SCONJ	C	_	24	mark	_	start_char=176|end_char=179
+24	näin	nähdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	start_char=180|end_char=184
+25	hänet	hän	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	obj	_	start_char=185|end_char=190
+26	konsertissa	konsertti	NOUN	N	Case=Ine|Number=Sing	24	obl	_	start_char=191|end_char=202
+27	juuri	juuri	ADV	Adv	_	30	advmod	_	start_char=203|end_char=208
+28	ennen	ennen	ADP	Adp	AdpType=Prep	30	case	_	start_char=209|end_char=214
+29	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	30	nmod:poss	_	start_char=215|end_char=220
+30	kuolemaansa	kuolema	NOUN	N	Case=Par|Number=Sing|Person[psor]=3	24	obl	_	start_char=221|end_char=232
+31	.	.	PUNCT	Punct	_	7	punct	_	start_char=232|end_char=233
+
+# text = Itkin mutta hymyilin, koska musiikki siunasi minua niin paljon, ja toivon, että sinäkin innostut hankkimaan tämän.
+# sent_id = 2
+1	Itkin	itkeä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=234|end_char=239
+2	mutta	mutta	CCONJ	C	_	3	cc	_	start_char=240|end_char=245
+3	hymyilin	hymyillä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=246|end_char=254
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=254|end_char=255
+5	koska	koska	SCONJ	C	_	7	mark	_	start_char=256|end_char=261
+6	musiikki	musiikki	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=262|end_char=270
+7	siunasi	siunata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=271|end_char=278
+8	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	7	obj	_	start_char=279|end_char=284
+9	niin	niin	ADV	Adv	_	10	advmod	_	start_char=285|end_char=289
+10	paljon	paljon	ADV	Adv	_	7	advmod	_	start_char=290|end_char=296
+11	,	,	PUNCT	Punct	_	13	punct	_	start_char=296|end_char=297
+12	ja	ja	CCONJ	C	_	13	cc	_	start_char=298|end_char=300
+13	toivon	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=301|end_char=307
+14	,	,	PUNCT	Punct	_	17	punct	_	start_char=307|end_char=308
+15	että	että	SCONJ	C	_	17	mark	_	start_char=309|end_char=313
+16	sinäkin	sinä	PRON	Pron	Case=Nom|Clitic=Kin|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	start_char=314|end_char=321
+17	innostut	innostua	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	start_char=322|end_char=330
+18	hankkimaan	hankkia	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	17	xcomp	_	start_char=331|end_char=341
+19	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	18	obj	_	start_char=342|end_char=347
+20	.	.	PUNCT	Punct	_	1	punct	_	start_char=347|end_char=348
+

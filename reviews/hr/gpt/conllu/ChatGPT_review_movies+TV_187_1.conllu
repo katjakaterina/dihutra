@@ -1,0 +1,84 @@
+# text = Golotinja nije bila potrebna!
+# sent_id = 0
+1	Golotinja	golotinja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=9
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=10|end_char=14
+3	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=15|end_char=19
+4	potrebna	potreban	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=20|end_char=28
+5	!	!	PUNCT	Z	_	4	punct	_	start_char=28|end_char=29
+
+# text = Gluma je bila dobra, priča točna, ali golih stražnjica nije bilo potrebno.
+# sent_id = 1
+1	Gluma	Glum	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=30|end_char=35
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=36|end_char=38
+3	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=39|end_char=43
+4	dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=44|end_char=49
+5	,	,	PUNCT	Z	_	6	punct	_	start_char=49|end_char=50
+6	priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=51|end_char=56
+7	točna	točan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	start_char=57|end_char=62
+8	,	,	PUNCT	Z	_	14	punct	_	start_char=62|end_char=63
+9	ali	ali	CCONJ	Cc	_	14	cc	_	start_char=64|end_char=67
+10	golih	gol	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=68|end_char=73
+11	stražnjica	stražnjica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	obl	_	start_char=74|end_char=84
+12	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=85|end_char=89
+13	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	cop	_	start_char=90|end_char=94
+14	potrebno	potreban	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	start_char=95|end_char=103
+15	.	.	PUNCT	Z	_	4	punct	_	start_char=103|end_char=104
+
+# text = Također, Potifareva žena nije morala biti toliko zavodljiva prema golom Josipu.
+# sent_id = 2
+1	Također	također	ADV	Rgp	Degree=Pos	6	discourse	_	start_char=105|end_char=112
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=112|end_char=113
+3	Potifareva	potifarev	ADJ	Aspfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	4	amod	_	start_char=114|end_char=124
+4	žena	žena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=125|end_char=129
+5	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=130|end_char=134
+6	morala	morati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=135|end_char=141
+7	biti	biti	AUX	Van	VerbForm=Inf	6	xcomp	_	start_char=142|end_char=146
+8	toliko	toliko	ADV	Rgp	Degree=Pos|PronType=Dem	9	advmod	_	start_char=147|end_char=153
+9	zavodljiva	zavodljiv	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	xcomp	_	start_char=154|end_char=164
+10	prema	prema	ADP	Sl	Case=Loc	12	case	_	start_char=165|end_char=170
+11	golom	gol	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=171|end_char=176
+12	Josipu	Josip	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=177|end_char=183
+13	.	.	PUNCT	Z	_	6	punct	_	start_char=183|end_char=184
+
+# text = Ovo nije kršćanski film.
+# sent_id = 3
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=185|end_char=188
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=189|end_char=193
+3	kršćanski	kršćanski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=194|end_char=203
+4	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=204|end_char=208
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=208|end_char=209
+
+# text = Imao sam osjećaj da, iako je vjerojatno prikazano istinito, kršćani ne trebaju vidjeti tako eksplicitnu scenu.
+# sent_id = 4
+1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=210|end_char=214
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=215|end_char=218
+3	osjećaj	osjećaj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=219|end_char=226
+4	da	da	SCONJ	Cs	_	14	mark	_	start_char=227|end_char=229
+5	,	,	PUNCT	Z	_	9	punct	_	start_char=229|end_char=230
+6	iako	iako	SCONJ	Cs	_	9	mark	_	start_char=231|end_char=235
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=236|end_char=238
+8	vjerojatno	vjerojatno	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=239|end_char=249
+9	prikazano	prikazati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	14	advcl	_	start_char=250|end_char=259
+10	istinito	istinit	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	9	xcomp	_	start_char=260|end_char=268
+11	,	,	PUNCT	Z	_	9	punct	_	start_char=268|end_char=269
+12	kršćani	kršćanin	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=270|end_char=277
+13	ne	ne	PART	Qz	Polarity=Neg	14	advmod	_	start_char=278|end_char=280
+14	trebaju	trebati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=281|end_char=288
+15	vidjeti	vidjeti	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=289|end_char=296
+16	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	17	advmod	_	start_char=297|end_char=301
+17	eksplicitnu	eksplicitan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=302|end_char=313
+18	scenu	scena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=314|end_char=319
+19	.	.	PUNCT	Z	_	1	punct	_	start_char=319|end_char=320
+
+# text = Ovo bi trebalo biti ocijenjeno barem kao PG 13.
+# sent_id = 5
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=321|end_char=324
+2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=325|end_char=327
+3	trebalo	trebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=328|end_char=335
+4	biti	biti	AUX	Van	VerbForm=Inf	3	xcomp	_	start_char=336|end_char=340
+5	ocijenjeno	ocijeniti	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	4	xcomp	_	start_char=341|end_char=351
+6	barem	barem	PART	Qo	_	8	advmod	_	start_char=352|end_char=357
+7	kao	kao	SCONJ	Cs	_	8	case	_	start_char=358|end_char=361
+8	PG	PG	NOUN	Yc	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	start_char=362|end_char=364
+9	13.	13.	ADJ	Mdo	NumType=Ord	8	amod	_	start_char=365|end_char=368
+

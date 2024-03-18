@@ -1,0 +1,63 @@
+# text = Naslovljeno!
+# sent_id = 0
+1	Naslovljeno	nasloviti	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=0|end_char=11
+2	!	!	PUNCT	Z	_	1	punct	_	start_char=11|end_char=12
+
+# text = Volim pjesme na ovom albumu i kako se Keith još jednom usmjerava prema Dobrom Pastiru, našem Gospodinu Isusu.
+# sent_id = 1
+1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=13|end_char=18
+2	pjesme	pjesma	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=19|end_char=25
+3	na	na	ADP	Sl	Case=Loc	5	case	_	start_char=26|end_char=28
+4	ovom	ovaj	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=29|end_char=33
+5	albumu	album	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=34|end_char=40
+6	i	i	CCONJ	Cc	_	12	cc	_	start_char=41|end_char=42
+7	kako	kako	SCONJ	Cs	_	12	mark	_	start_char=43|end_char=47
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	12	expl	_	start_char=48|end_char=50
+9	Keith	Keith	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=51|end_char=56
+10	još	još	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=57|end_char=60
+11	jednom	jednom	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=61|end_char=67
+12	usmjerava	usmjeravati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=68|end_char=77
+13	prema	prema	ADP	Sl	Case=Loc	15	case	_	start_char=78|end_char=83
+14	Dobrom	dobar	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=84|end_char=90
+15	Pastiru	Pastir	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=91|end_char=98
+16	,	,	PUNCT	Z	_	18	punct	_	start_char=98|end_char=99
+17	našem	naš	DET	Ps1msd	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	18	det	_	start_char=100|end_char=105
+18	Gospodinu	Gospodin	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	15	conj	_	start_char=106|end_char=115
+19	Isusu	Isus	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	18	flat	_	start_char=116|end_char=121
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=121|end_char=122
+
+# text = Pjesme su bezvremenske, pomazanje je svježe čak i nakon svih godina otkako su napisane.
+# sent_id = 2
+1	Pjesme	pjesma	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=123|end_char=129
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=130|end_char=132
+3	bezvremenske	bezvremenski	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=133|end_char=145
+4	,	,	PUNCT	Z	_	7	punct	_	start_char=145|end_char=146
+5	pomazanje	pomazanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	start_char=147|end_char=156
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=157|end_char=159
+7	svježe	svjež	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	start_char=160|end_char=166
+8	čak	čak	PART	Qo	_	12	advmod	_	start_char=167|end_char=170
+9	i	i	CCONJ	Cc	_	12	discourse	_	start_char=171|end_char=172
+10	nakon	nakon	ADP	Sg	Case=Gen	12	case	_	start_char=173|end_char=178
+11	svih	sav	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=179|end_char=183
+12	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	start_char=184|end_char=190
+13	otkako	otkako	ADV	Rgp	Degree=Pos	15	advmod	_	start_char=191|end_char=197
+14	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=198|end_char=200
+15	napisane	napisati	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=201|end_char=209
+16	.	.	PUNCT	Z	_	3	punct	_	start_char=209|end_char=210
+
+# text = Mislim da je to siguran znak pomazanja - vidjeti plod koji ostaje.
+# sent_id = 3
+1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=211|end_char=217
+2	da	da	SCONJ	Cs	_	6	mark	_	start_char=218|end_char=220
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=221|end_char=223
+4	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=224|end_char=226
+5	siguran	siguran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=227|end_char=234
+6	znak	znak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	start_char=235|end_char=239
+7	pomazanja	pomazanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=240|end_char=249
+8	-	-	PUNCT	Z	_	9	punct	_	start_char=250|end_char=251
+9	vidjeti	vidjeti	VERB	Vmn	VerbForm=Inf	6	parataxis	_	start_char=252|end_char=259
+10	plod	plod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=260|end_char=264
+11	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=265|end_char=269
+12	ostaje	ostajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	start_char=270|end_char=276
+13	.	.	PUNCT	Z	_	1	punct	_	start_char=276|end_char=277
+

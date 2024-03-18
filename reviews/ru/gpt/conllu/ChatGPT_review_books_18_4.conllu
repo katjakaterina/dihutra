@@ -1,0 +1,99 @@
+# text = Устаревшая, но ценная литература Удивительно, что эта книга почти 15 лет, и еще более удивительно, что Билл Гейтс так точно предсказал текущие технологии, которые мы видим сегодня.
+# sent_id = 0
+1	Устаревшая	устаревший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=0|end_char=10
+2	,	,	PUNCT	_	_	4	punct	_	start_char=10|end_char=11
+3	но	но	CCONJ	_	_	4	cc	_	start_char=12|end_char=14
+4	ценная	ценный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	start_char=15|end_char=21
+5	литература	литература	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=22|end_char=32
+6	Удивительно	удивительный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=33|end_char=44
+7	,	,	PUNCT	_	_	13	punct	_	start_char=44|end_char=45
+8	что	что	SCONJ	_	_	13	mark	_	start_char=46|end_char=49
+9	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=50|end_char=53
+10	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=54|end_char=59
+11	почти	почти	ADV	_	Degree=Pos	12	advmod	_	start_char=60|end_char=65
+12	15	15	NUM	_	NumType=Card	13	nummod	_	start_char=66|end_char=68
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	ccomp	_	start_char=69|end_char=72
+14	,	,	PUNCT	_	_	18	punct	_	start_char=72|end_char=73
+15	и	и	CCONJ	_	_	18	cc	_	start_char=74|end_char=75
+16	еще	еще	ADV	_	Degree=Pos	17	advmod	_	start_char=76|end_char=79
+17	более	более	ADV	_	Degree=Cmp	18	obl	_	start_char=80|end_char=85
+18	удивительно	удивительный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	conj	_	start_char=86|end_char=97
+19	,	,	PUNCT	_	_	25	punct	_	start_char=97|end_char=98
+20	что	что	SCONJ	_	_	25	mark	_	start_char=99|end_char=102
+21	Билл	Билл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	start_char=103|end_char=107
+22	Гейтс	Гейтс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	start_char=108|end_char=113
+23	так	так	ADV	_	Degree=Pos	24	advmod	_	start_char=114|end_char=117
+24	точно	точно	ADV	_	Degree=Pos	25	advmod	_	start_char=118|end_char=123
+25	предсказал	предсказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	start_char=124|end_char=134
+26	текущие	текущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	start_char=135|end_char=142
+27	технологии	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	start_char=143|end_char=153
+28	,	,	PUNCT	_	_	31	punct	_	start_char=153|end_char=154
+29	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	31	obj	_	start_char=155|end_char=162
+30	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	start_char=163|end_char=165
+31	видим	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	start_char=166|end_char=171
+32	сегодня	сегодня	ADV	_	Degree=Pos	31	advmod	_	start_char=172|end_char=179
+33	.	.	PUNCT	_	_	6	punct	_	start_char=179|end_char=180
+
+# text = Это хорошее чтение, чтобы увидеть и видение этого действительно удивительного предпринимателя, а также, чтобы получить представление о том, как думать о том, как технологии обеспечивают повседневную жизнь.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=181|end_char=184
+2	хорошее	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=185|end_char=192
+3	чтение	чтение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=193|end_char=199
+4	,	,	PUNCT	_	_	6	punct	_	start_char=199|end_char=200
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=201|end_char=206
+6	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=207|end_char=214
+7	и	и	CCONJ	_	_	8	cc	_	start_char=215|end_char=216
+8	видение	видение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=217|end_char=224
+9	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=225|end_char=230
+10	действительно	действительно	ADV	_	Degree=Pos	11	obl	_	start_char=231|end_char=244
+11	удивительного	удивительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=245|end_char=258
+12	предпринимателя	предприниматель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=259|end_char=274
+13	,	,	PUNCT	_	_	18	punct	_	start_char=274|end_char=275
+14	а	а	CCONJ	_	_	18	cc	_	start_char=276|end_char=277
+15	также	также	PART	_	_	14	fixed	_	start_char=278|end_char=283
+16	,	,	PUNCT	_	_	14	punct	_	start_char=283|end_char=284
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	start_char=285|end_char=290
+18	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	start_char=291|end_char=299
+19	представление	представление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	start_char=300|end_char=313
+20	о	о	ADP	_	_	21	case	_	start_char=314|end_char=315
+21	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	19	nmod	_	start_char=316|end_char=319
+22	,	,	PUNCT	_	_	24	punct	_	start_char=319|end_char=320
+23	как	как	ADV	_	Degree=Pos	24	advmod	_	start_char=321|end_char=324
+24	думать	думать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	acl	_	start_char=325|end_char=331
+25	о	о	ADP	_	_	26	case	_	start_char=332|end_char=333
+26	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	24	obl	_	start_char=334|end_char=337
+27	,	,	PUNCT	_	_	30	punct	_	start_char=337|end_char=338
+28	как	как	ADV	_	Degree=Pos	30	advmod	_	start_char=339|end_char=342
+29	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	start_char=343|end_char=353
+30	обеспечивают	обеспечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl	_	start_char=354|end_char=366
+31	повседневную	повседневный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=367|end_char=379
+32	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	start_char=380|end_char=385
+33	.	.	PUNCT	_	_	3	punct	_	start_char=385|end_char=386
+
+# text = Послушайте, что Билл Гейтс говорит о будущем технологий в вашей жизни - прошлое показывает, что он знает, о чем говорит.
+# sent_id = 2
+1	Послушайте	послушать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=387|end_char=397
+2	,	,	PUNCT	_	_	6	punct	_	start_char=397|end_char=398
+3	что	что	SCONJ	_	_	6	mark	_	start_char=399|end_char=402
+4	Билл	Билл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=403|end_char=407
+5	Гейтс	Гейтс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	start_char=408|end_char=413
+6	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=414|end_char=421
+7	о	о	ADP	_	_	8	case	_	start_char=422|end_char=423
+8	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=424|end_char=431
+9	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=432|end_char=442
+10	в	в	ADP	_	_	12	case	_	start_char=443|end_char=444
+11	вашей	ваш	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	start_char=445|end_char=450
+12	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	start_char=451|end_char=456
+13	-	-	PUNCT	_	_	15	punct	_	start_char=457|end_char=458
+14	прошлое	прошлое	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=459|end_char=466
+15	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=467|end_char=477
+16	,	,	PUNCT	_	_	19	punct	_	start_char=477|end_char=478
+17	что	что	SCONJ	_	_	19	mark	_	start_char=479|end_char=482
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=483|end_char=485
+19	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	start_char=486|end_char=491
+20	,	,	PUNCT	_	_	23	punct	_	start_char=491|end_char=492
+21	о	о	ADP	_	_	22	case	_	start_char=493|end_char=494
+22	чем	что	PRON	_	Case=Loc|PronType=Int,Rel	23	obl	_	start_char=495|end_char=498
+23	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	_	start_char=499|end_char=506
+24	.	.	PUNCT	_	_	1	punct	_	start_char=506|end_char=507
+

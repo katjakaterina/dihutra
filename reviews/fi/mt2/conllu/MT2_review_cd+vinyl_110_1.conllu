@@ -1,0 +1,64 @@
+# text = Hanki 13 levyn laatikkosarja AmazonUK:sta! 117 dollaria jälkimarkkinoilla tästä huonommasta sarjasta?
+# sent_id = 0
+1	Hanki	hankkia	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	13	13	NUM	Num	NumType=Card	3	nummod	_	start_char=6|end_char=8
+3	levyn	levy	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=9|end_char=14
+4	laatikkosarja	laatikko#sarja	NOUN	N	Case=Nom|Number=Sing	1	obj	_	start_char=15|end_char=28
+5	AmazonUK:sta	AmazonUK	PROPN	N	Case=Ela|Number=Sing	4	nmod	_	start_char=29|end_char=41
+6	!	!	PUNCT	Punct	_	8	punct	_	start_char=41|end_char=42
+7	117	117	NUM	Num	NumType=Card	8	nummod	_	start_char=43|end_char=46
+8	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	1	obl	_	start_char=47|end_char=55
+9	jälkimarkkinoilla	jälki#markkinat	NOUN	N	Case=Ade|Number=Plur	8	nmod	_	start_char=56|end_char=73
+10	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	12	det	_	start_char=74|end_char=79
+11	huonommasta	huono	ADJ	A	Case=Ela|Degree=Cmp|Number=Sing	12	amod	_	start_char=80|end_char=91
+12	sarjasta	sarja	NOUN	N	Case=Ela|Number=Sing	8	nmod	_	start_char=92|end_char=100
+13	?	?	PUNCT	Punct	_	1	punct	_	start_char=100|end_char=101
+
+# text = HA! Mene AMAZON UK -sivustolle ja hanki täydellinen 13 levyn setti kauniissa laatikossa noin 84 dollarilla.
+# sent_id = 1
+1	HA	ha	INTJ	Interj	_	3	discourse	_	start_char=102|end_char=104
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=104|end_char=105
+3	Mene	mennä	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=106|end_char=110
+4	AMAZON	AMAZON	PROPN	N	Case=Nom|Number=Sing	6	compound:nn	_	start_char=111|end_char=117
+5	UK	UK	PROPN	N	Case=Nom|Number=Sing	4	flat:name	_	start_char=118|end_char=120
+6	-sivustolle	sivusto	NOUN	N	Case=All|Number=Sing	3	obl	_	start_char=121|end_char=132
+7	ja	ja	CCONJ	C	_	8	cc	_	start_char=133|end_char=135
+8	hanki	hankkia	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	start_char=136|end_char=141
+9	täydellinen	täydellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	12	amod	_	start_char=142|end_char=153
+10	13	13	NUM	Num	NumType=Card	11	nummod	_	start_char=154|end_char=156
+11	levyn	levy	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	start_char=157|end_char=162
+12	setti	setti	NOUN	N	Case=Nom|Number=Sing	8	obj	_	start_char=163|end_char=168
+13	kauniissa	kaunis	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	14	amod	_	start_char=169|end_char=178
+14	laatikossa	laatikko	NOUN	N	Case=Ine|Number=Sing	8	obl	_	start_char=179|end_char=189
+15	noin	noin	ADV	Adv	_	16	advmod	_	start_char=190|end_char=194
+16	84	84	NUM	Num	NumType=Card	17	nummod	_	start_char=195|end_char=197
+17	dollarilla	dollari	NOUN	N	Case=Ade|Number=Sing	8	obl	_	start_char=198|end_char=208
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=208|end_char=209
+
+# text = (Sain juuri omani!
+# sent_id = 2
+1	(	(	PUNCT	Punct	_	2	punct	_	start_char=210|end_char=211
+2	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=211|end_char=215
+3	juuri	juuri	ADV	Adv	_	4	advmod	_	start_char=216|end_char=221
+4	omani	oma	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	start_char=222|end_char=227
+5	!	!	PUNCT	Punct	_	2	punct	_	start_char=227|end_char=228
+
+# text = )Ei tarvitse Marvinia, jolla on planeetan kokoiset aivot, nähdäkseen kumpi on parempi.
+# sent_id = 3
+1	)	)	PUNCT	Punct	_	3	punct	_	start_char=229|end_char=230
+2	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=230|end_char=232
+3	tarvitse	tarvita	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=233|end_char=241
+4	Marvinia	Marvinia	PROPN	N	Case=Par|Number=Sing	3	obj	_	start_char=242|end_char=250
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=250|end_char=251
+6	jolla	joka	PRON	Pron	Case=Ade|Number=Sing|PronType=Rel	4	acl:relcl	_	start_char=252|end_char=257
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop:own	_	start_char=258|end_char=260
+8	planeetan	planeetta	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	start_char=261|end_char=270
+9	kokoiset	kokoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	10	amod	_	start_char=271|end_char=279
+10	aivot	aivot	NOUN	N	Case=Nom|Number=Plur	6	nsubj:cop	_	start_char=280|end_char=285
+11	,	,	PUNCT	Punct	_	12	punct	_	start_char=285|end_char=286
+12	nähdäkseen	nähdä	VERB	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=287|end_char=297
+13	kumpi	kumpi	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	15	nsubj:cop	_	start_char=298|end_char=303
+14	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	start_char=304|end_char=306
+15	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	12	ccomp	_	start_char=307|end_char=314
+16	.	.	PUNCT	Punct	_	3	punct	_	start_char=314|end_char=315
+

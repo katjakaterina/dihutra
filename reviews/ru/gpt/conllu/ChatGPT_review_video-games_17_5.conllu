@@ -1,0 +1,72 @@
+# text = Замечательная игра!
+# sent_id = 0
+1	Замечательная	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=13
+2	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=14|end_char=18
+3	!	!	PUNCT	_	_	2	punct	_	start_char=18|end_char=19
+
+# text = Моему семилетнему сыну очень понравилась эта игра, и в то же время он учил математику!
+# sent_id = 1
+1	Моему	мой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=20|end_char=25
+2	семилетнему	семилетний	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=26|end_char=37
+3	сыну	сын	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	start_char=38|end_char=42
+4	очень	очень	ADV	_	Degree=Pos	5	advmod	_	start_char=43|end_char=48
+5	понравилась	понравиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=49|end_char=60
+6	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=61|end_char=64
+7	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=65|end_char=69
+8	,	,	PUNCT	_	_	15	punct	_	start_char=69|end_char=70
+9	и	и	CCONJ	_	_	15	cc	_	start_char=71|end_char=72
+10	в	в	ADP	_	_	13	case	_	start_char=73|end_char=74
+11	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	start_char=75|end_char=77
+12	же	же	PART	_	_	11	advmod	_	start_char=78|end_char=80
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	start_char=81|end_char=86
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=87|end_char=89
+15	учил	учить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=90|end_char=94
+16	математику	математика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=95|end_char=105
+17	!	!	PUNCT	_	_	5	punct	_	start_char=105|end_char=106
+
+# text = Купили её для него, когда он был в детском саду, и до сих пор он с удовольствием играет в неё.
+# sent_id = 2
+1	Купили	купить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=107|end_char=113
+2	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=114|end_char=116
+3	для	для	ADP	_	_	4	case	_	start_char=117|end_char=120
+4	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obl	_	start_char=121|end_char=125
+5	,	,	PUNCT	_	_	11	punct	_	start_char=125|end_char=126
+6	когда	когда	SCONJ	_	_	11	mark	_	start_char=127|end_char=132
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=133|end_char=135
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=136|end_char=139
+9	в	в	ADP	_	_	11	case	_	start_char=140|end_char=141
+10	детском	детский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=142|end_char=149
+11	саду	сад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	advcl	_	start_char=150|end_char=154
+12	,	,	PUNCT	_	_	20	punct	_	start_char=154|end_char=155
+13	и	и	CCONJ	_	_	20	cc	_	start_char=156|end_char=157
+14	до	до	ADP	_	_	20	advmod	_	start_char=158|end_char=160
+15	сих	сей	DET	_	Case=Gen|Number=Plur|PronType=Dem	14	fixed	_	start_char=161|end_char=164
+16	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	fixed	_	start_char=165|end_char=168
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=169|end_char=171
+18	с	с	ADP	_	_	19	case	_	start_char=172|end_char=173
+19	удовольствием	удовольствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl	_	start_char=174|end_char=187
+20	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=188|end_char=194
+21	в	в	ADP	_	_	22	case	_	start_char=195|end_char=196
+22	неё	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obl	_	start_char=197|end_char=200
+23	.	.	PUNCT	_	_	1	punct	_	start_char=200|end_char=201
+
+# text = Проблем с шумом от этой игры нет — не громче, чем у других компьютерных игр.
+# sent_id = 3
+1	Проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	start_char=202|end_char=209
+2	с	с	ADP	_	_	3	case	_	start_char=210|end_char=211
+3	шумом	шум	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	start_char=212|end_char=217
+4	от	от	ADP	_	_	6	case	_	start_char=218|end_char=220
+5	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=221|end_char=225
+6	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=226|end_char=230
+7	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=231|end_char=234
+8	—	—	PUNCT	_	_	10	punct	_	start_char=235|end_char=236
+9	не	не	PART	_	_	10	advmod	_	start_char=237|end_char=239
+10	громче	громкий	ADJ	_	Degree=Cmp	7	parataxis	_	start_char=240|end_char=246
+11	,	,	PUNCT	_	_	16	punct	_	start_char=246|end_char=247
+12	чем	чем	SCONJ	_	_	16	mark	_	start_char=248|end_char=251
+13	у	у	ADP	_	_	16	case	_	start_char=252|end_char=253
+14	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	start_char=254|end_char=260
+15	компьютерных	компьютерный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	start_char=261|end_char=273
+16	игр	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	start_char=274|end_char=277
+17	.	.	PUNCT	_	_	7	punct	_	start_char=277|end_char=278
+

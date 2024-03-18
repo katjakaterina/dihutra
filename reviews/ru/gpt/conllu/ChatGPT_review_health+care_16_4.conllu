@@ -1,0 +1,88 @@
+# text = Очень удобный, хорошо работает Я поставил этому изделию 4 звезды вместо 5 из-за упаковки, в которой оно поставляется.
+# sent_id = 0
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=0|end_char=5
+2	удобный	удобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=6|end_char=13
+3	,	,	PUNCT	_	_	2	punct	_	start_char=13|end_char=14
+4	хорошо	хорошо	ADV	_	Degree=Pos	5	advmod	_	start_char=15|end_char=21
+5	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=22|end_char=30
+6	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=31|end_char=32
+7	поставил	ставить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=33|end_char=41
+8	этому	этот	DET	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	start_char=42|end_char=47
+9	изделию	изделие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	iobj	_	start_char=48|end_char=55
+10	4	4	NUM	_	NumType=Card	11	nummod	_	start_char=56|end_char=57
+11	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=58|end_char=64
+12	вместо	вместо	ADP	_	_	13	case	_	start_char=65|end_char=71
+13	5	5	NUM	_	NumType=Card	11	nmod	_	start_char=72|end_char=73
+14	из-за	из-за	ADP	_	_	15	case	_	start_char=74|end_char=79
+15	упаковки	упаковка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=80|end_char=88
+16	,	,	PUNCT	_	_	20	punct	_	start_char=88|end_char=89
+17	в	в	ADP	_	_	18	case	_	start_char=90|end_char=91
+18	которой	который	PRON	_	Case=Loc|PronType=Int,Rel	20	obl	_	start_char=92|end_char=99
+19	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	start_char=100|end_char=103
+20	поставляется	поставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	start_char=104|end_char=116
+21	.	.	PUNCT	_	_	5	punct	_	start_char=116|end_char=117
+
+# text = Пластик острый и не так просто носить его в сумке, не уколоться им, но без пластиковой коробки увеличительное стекло могло бы поцарапаться.
+# sent_id = 1
+1	Пластик	пластик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=118|end_char=125
+2	острый	острый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=126|end_char=132
+3	и	и	CCONJ	_	_	7	cc	_	start_char=133|end_char=134
+4	не	не	PART	_	_	5	advmod	_	start_char=135|end_char=137
+5	так	так	ADV	_	Degree=Pos	6	advmod	_	start_char=138|end_char=141
+6	просто	просто	PART	_	_	7	advmod	_	start_char=142|end_char=148
+7	носить	носить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	start_char=149|end_char=155
+8	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=156|end_char=159
+9	в	в	ADP	_	_	10	case	_	start_char=160|end_char=161
+10	сумке	сумка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=162|end_char=167
+11	,	,	PUNCT	_	_	13	punct	_	start_char=167|end_char=168
+12	не	не	PART	_	_	13	advmod	_	start_char=169|end_char=171
+13	уколоться	уколоться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	conj	_	start_char=172|end_char=181
+14	им	они	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	start_char=182|end_char=184
+15	,	,	PUNCT	_	_	22	punct	_	start_char=184|end_char=185
+16	но	но	CCONJ	_	_	22	cc	_	start_char=186|end_char=188
+17	без	без	ADP	_	_	19	case	_	start_char=189|end_char=192
+18	пластиковой	пластиковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=193|end_char=204
+19	коробки	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	start_char=205|end_char=212
+20	увеличительное	увеличительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	start_char=213|end_char=227
+21	стекло	стекло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	start_char=228|end_char=234
+22	могло	мочь	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=235|end_char=240
+23	бы	бы	AUX	_	_	22	aux	_	start_char=241|end_char=243
+24	поцарапаться	поцарапаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	22	xcomp	_	start_char=244|end_char=256
+25	.	.	PUNCT	_	_	2	punct	_	start_char=256|end_char=257
+
+# text = Возможно, я избавлюсь от пластиковой коробки, но буду хранить увеличительное стекло в какой-нибудь мягкой обертке, например, в носке.
+# sent_id = 2
+1	Возможно	возможно	ADV	_	Degree=Pos	4	parataxis	_	start_char=258|end_char=266
+2	,	,	PUNCT	_	_	1	punct	_	start_char=266|end_char=267
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=268|end_char=269
+4	избавлюсь	избавиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=270|end_char=279
+5	от	от	ADP	_	_	7	case	_	start_char=280|end_char=282
+6	пластиковой	пластиковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=283|end_char=294
+7	коробки	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=295|end_char=302
+8	,	,	PUNCT	_	_	11	punct	_	start_char=302|end_char=303
+9	но	но	CCONJ	_	_	11	cc	_	start_char=304|end_char=306
+10	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=307|end_char=311
+11	хранить	хранить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	start_char=312|end_char=319
+12	увеличительное	увеличительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=320|end_char=334
+13	стекло	стекло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=335|end_char=341
+14	в	в	ADP	_	_	17	case	_	start_char=342|end_char=343
+15	какой-нибудь	какой-нибудь	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind	17	det	_	start_char=344|end_char=356
+16	мягкой	мягкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=357|end_char=363
+17	обертке	обертка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=364|end_char=371
+18	,	,	PUNCT	_	_	22	punct	_	start_char=371|end_char=372
+19	например	например	ADV	_	Degree=Pos	22	parataxis	_	start_char=373|end_char=381
+20	,	,	PUNCT	_	_	19	punct	_	start_char=381|end_char=382
+21	в	в	ADP	_	_	22	case	_	start_char=383|end_char=384
+22	носке	носок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	parataxis	_	start_char=385|end_char=390
+23	.	.	PUNCT	_	_	4	punct	_	start_char=390|end_char=391
+
+# text = В остальном увеличительное стекло работает прекрасно.
+# sent_id = 3
+1	В	в	ADP	_	_	2	case	_	start_char=392|end_char=393
+2	остальном	остальной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	obl	_	start_char=394|end_char=403
+3	увеличительное	увеличительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=404|end_char=418
+4	стекло	стекло	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=419|end_char=425
+5	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=426|end_char=434
+6	прекрасно	прекрасно	ADV	_	Degree=Pos	5	advmod	_	start_char=435|end_char=444
+7	.	.	PUNCT	_	_	5	punct	_	start_char=444|end_char=445
+

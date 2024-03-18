@@ -1,0 +1,79 @@
+# text = Uznemirujuće Mogu iskreno reći da je ovo moj najmanje omiljeni blagdanski film.
+# sent_id = 0
+1	Uznemirujuće	uznemirujuće	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=12
+2	Mogu	moći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=13|end_char=17
+3	iskreno	iskreno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=18|end_char=25
+4	reći	reći	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=26|end_char=30
+5	da	da	SCONJ	Cs	_	12	mark	_	start_char=31|end_char=33
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=34|end_char=36
+7	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	start_char=37|end_char=40
+8	moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	start_char=41|end_char=44
+9	najmanje	malo	ADV	Rgs	Degree=Sup	10	advmod	_	start_char=45|end_char=53
+10	omiljeni	omiljen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=54|end_char=62
+11	blagdanski	blagdanski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=63|end_char=73
+12	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	ccomp	_	start_char=74|end_char=78
+13	.	.	PUNCT	Z	_	2	punct	_	start_char=78|end_char=79
+
+# text = Kao dijete, sjećam se da su me jako potresle slike Aarona koji gubi svoje roditelje, biva otet i skoro gubi svoju ovcu BaaBaa.
+# sent_id = 1
+1	Kao	kao	SCONJ	Cs	_	2	case	_	start_char=80|end_char=83
+2	dijete	dijete	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	obl	_	start_char=84|end_char=90
+3	,	,	PUNCT	Z	_	2	punct	_	start_char=90|end_char=91
+4	sjećam	sjećati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=92|end_char=98
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=99|end_char=101
+6	da	da	SCONJ	Cs	_	10	mark	_	start_char=102|end_char=104
+7	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=105|end_char=107
+8	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	start_char=108|end_char=110
+9	jako	jako	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=111|end_char=115
+10	potresle	potresti	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	ccomp	_	start_char=116|end_char=124
+11	slike	slika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=125|end_char=130
+12	Aarona	Aaron	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=131|end_char=137
+13	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	14	nsubj	_	start_char=138|end_char=142
+14	gubi	gubiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	start_char=143|end_char=147
+15	svoje	svoj	DET	Px-mpa	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	start_char=148|end_char=153
+16	roditelje	roditelj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	14	obj	_	start_char=154|end_char=163
+17	,	,	PUNCT	Z	_	19	punct	_	start_char=163|end_char=164
+18	biva	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=165|end_char=169
+19	otet	otet	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	start_char=170|end_char=174
+20	i	i	CCONJ	Cc	_	22	cc	_	start_char=175|end_char=176
+21	skoro	skoro	ADV	Rgp	Degree=Pos	22	advmod	_	start_char=177|end_char=182
+22	gubi	gubiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	start_char=183|end_char=187
+23	svoju	svoj	DET	Px-fsa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	24	det	_	start_char=188|end_char=193
+24	ovcu	ovac	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=194|end_char=198
+25	BaaBaa	BaaBa	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	24	flat	_	start_char=199|end_char=205
+26	.	.	PUNCT	Z	_	4	punct	_	start_char=205|end_char=206
+
+# text = Najbolji dio ovog filma je kada Aaron svira za malog Isusa i ponovno povjerava ljudima, inače, budite sigurni da imate kutiju maramica pri ruci kad gledate ovaj film.
+# sent_id = 2
+1	Najbolji	dobar	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	start_char=207|end_char=215
+2	dio	dio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=216|end_char=219
+3	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=220|end_char=224
+4	filma	film	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=225|end_char=230
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=231|end_char=233
+6	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	8	advmod	_	start_char=234|end_char=238
+7	Aaron	Aaron	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=239|end_char=244
+8	svira	svirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	start_char=245|end_char=250
+9	za	za	ADP	Sa	Case=Acc	11	case	_	start_char=251|end_char=253
+10	malog	mali	ADJ	Agpmsayy	Animacy=Anim|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=254|end_char=259
+11	Isusa	Isus	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	start_char=260|end_char=265
+12	i	i	CCONJ	Cc	_	14	cc	_	start_char=266|end_char=267
+13	ponovno	ponovno	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=268|end_char=275
+14	povjerava	povjeravati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=276|end_char=285
+15	ljudima	čovjek	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	14	obj	_	start_char=286|end_char=293
+16	,	,	PUNCT	Z	_	19	punct	_	start_char=293|end_char=294
+17	inače	inače	ADV	Rgp	Degree=Pos	19	discourse	_	start_char=295|end_char=300
+18	,	,	PUNCT	Z	_	17	punct	_	start_char=300|end_char=301
+19	budite	buditi	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	parataxis	_	start_char=302|end_char=308
+20	sigurni	siguran	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	19	xcomp	_	start_char=309|end_char=316
+21	da	da	SCONJ	Cs	_	22	mark	_	start_char=317|end_char=319
+22	imate	imati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	ccomp	_	start_char=320|end_char=325
+23	kutiju	kutija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	start_char=326|end_char=332
+24	maramica	maramica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=333|end_char=341
+25	pri	pri	ADP	Sl	Case=Loc	26	case	_	start_char=342|end_char=345
+26	ruci	ruka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	22	obl	_	start_char=346|end_char=350
+27	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	28	advmod	_	start_char=351|end_char=354
+28	gledate	gledati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	_	start_char=355|end_char=362
+29	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	30	det	_	start_char=363|end_char=367
+30	film	film	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	start_char=368|end_char=372
+31	.	.	PUNCT	Z	_	2	punct	_	start_char=372|end_char=373
+

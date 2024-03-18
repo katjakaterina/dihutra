@@ -1,0 +1,77 @@
+# text = """Suosittelen kokeilemaan, kaverit.
+# sent_id = 0
+1	"	"	PUNCT	Punct	_	4	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Punct	_	4	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Punct	_	4	punct	_	start_char=2|end_char=3
+4	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=14
+5	kokeilemaan	kokeilla	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp:ds	_	start_char=15|end_char=26
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=26|end_char=27
+7	kaverit	kaveri	NOUN	N	Case=Nom|Number=Plur	4	vocative	_	start_char=28|end_char=35
+8	.	.	PUNCT	Punct	_	4	punct	_	start_char=35|end_char=36
+
+# text = Rakastan kaikkia Macelyn tuotteita."
+# sent_id = 1
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=37|end_char=45
+2	kaikkia	kaikki	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	4	det	_	start_char=46|end_char=53
+3	Macelyn	Macely	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=54|end_char=61
+4	tuotteita	tuote	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=62|end_char=71
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=71|end_char=72
+6	"	"	PUNCT	Punct	_	1	punct	_	start_char=72|end_char=73
+
+# text = En yleensä vaivaudu kirjoittamaan arvosteluja tuotteista, mutta tätä en yksinkertaisesti voinut ohittaa.
+# sent_id = 2
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=74|end_char=76
+2	yleensä	yleensä	ADV	Adv	_	3	advmod	_	start_char=77|end_char=84
+3	vaivaudu	vaivautua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=85|end_char=93
+4	kirjoittamaan	kirjoittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=94|end_char=107
+5	arvosteluja	arvostelu	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=108|end_char=119
+6	tuotteista	tuote	NOUN	N	Case=Ela|Number=Plur	5	nmod	_	start_char=120|end_char=130
+7	,	,	PUNCT	Punct	_	13	punct	_	start_char=130|end_char=131
+8	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=132|end_char=137
+9	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	13	obj	_	start_char=138|end_char=142
+10	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=143|end_char=145
+11	yksinkertaisesti	yksinkertaisesti	ADV	Adv	Derivation=Sti	13	advmod	_	start_char=146|end_char=162
+12	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	13	aux	_	start_char=163|end_char=169
+13	ohittaa	ohittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=170|end_char=177
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=177|end_char=178
+
+# text = Minulla on sekaiho, joka kuivuu todella paljon ja rasvoittuu joissakin osissa.
+# sent_id = 3
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=179|end_char=186
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=187|end_char=189
+3	sekaiho	sekaiho	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=190|end_char=197
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=197|end_char=198
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=199|end_char=203
+6	kuivuu	kuivua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=204|end_char=210
+7	todella	todella	ADV	Adv	_	8	advmod	_	start_char=211|end_char=218
+8	paljon	paljon	ADV	Adv	_	6	advmod	_	start_char=219|end_char=225
+9	ja	ja	CCONJ	C	_	10	cc	_	start_char=226|end_char=228
+10	rasvoittuu	rasvoittua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=229|end_char=239
+11	joissakin	jokin	PRON	Pron	Case=Ine|Number=Plur|PronType=Ind	12	det	_	start_char=240|end_char=249
+12	osissa	osa	NOUN	N	Case=Ine|Number=Plur	10	obl	_	start_char=250|end_char=256
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=256|end_char=257
+
+# text = Rakastan tätä tuotetta.
+# sent_id = 4
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=258|end_char=266
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	det	_	start_char=267|end_char=271
+3	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=272|end_char=280
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=280|end_char=281
+
+# text = Suosittelen kokeilemaan, kaverit.
+# sent_id = 5
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=282|end_char=293
+2	kokeilemaan	kokeilla	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=294|end_char=305
+3	,	,	PUNCT	Punct	_	4	punct	_	start_char=305|end_char=306
+4	kaverit	kaveri	NOUN	N	Case=Nom|Number=Plur	1	vocative	_	start_char=307|end_char=314
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=314|end_char=315
+
+# text = Rakastan kaikkia Macelyn tuotteita."
+# sent_id = 6
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=316|end_char=324
+2	kaikkia	kaikki	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	4	det	_	start_char=325|end_char=332
+3	Macelyn	Macely	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=333|end_char=340
+4	tuotteita	tuote	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=341|end_char=350
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=350|end_char=351
+6	"	"	PUNCT	Punct	_	1	punct	_	start_char=351|end_char=352
+

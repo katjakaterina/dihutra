@@ -1,0 +1,67 @@
+# text = Pronašao sam svoj sveti gral kozmetike za kožu.
+# sent_id = 0
+1	Pronašao	pronaći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=8
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=9|end_char=12
+3	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=13|end_char=17
+4	sveti	svet	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=18|end_char=23
+5	gral	gral	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=24|end_char=28
+6	kozmetike	kozmetika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=29|end_char=38
+7	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=39|end_char=41
+8	kožu	koža	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=42|end_char=46
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=46|end_char=47
+
+# text = Priznajem da sam ovisnik o proizvodima za ljepotu.
+# sent_id = 1
+1	Priznajem	priznavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=48|end_char=57
+2	da	da	SCONJ	Cs	_	4	mark	_	start_char=58|end_char=60
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=61|end_char=64
+4	ovisnik	ovisnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	start_char=65|end_char=72
+5	o	o	ADP	Sl	Case=Loc	6	case	_	start_char=73|end_char=74
+6	proizvodima	proizvod	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	start_char=75|end_char=86
+7	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=87|end_char=89
+8	ljepotu	ljepota	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=90|end_char=97
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=97|end_char=98
+
+# text = Isprobavajući desetke, ako ne i stotine podloga, toniranih hidratantnih krema, korektora itd. tijekom godina, napokon, sa 30 godina, mogu prestati s pretragom jer sam pronašao svoj sveti gral kozmetike za kožu u Macelyju.
+# sent_id = 2
+1	Isprobavajući	isprobavati	ADV	Rr	Tense=Pres|VerbForm=Conv	25	xcomp	_	start_char=99|end_char=112
+2	desetke	desetak	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=113|end_char=120
+3	,	,	PUNCT	Z	_	1	punct	_	start_char=120|end_char=121
+4	ako	ako	SCONJ	Cs	_	7	mark	_	start_char=122|end_char=125
+5	ne	ne	PART	Qz	Polarity=Neg	7	advmod	_	start_char=126|end_char=128
+6	i	i	CCONJ	Cc	_	7	discourse	_	start_char=129|end_char=130
+7	stotine	stotina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	obl	_	start_char=131|end_char=138
+8	podloga	podlog	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=139|end_char=146
+9	,	,	PUNCT	Z	_	12	punct	_	start_char=146|end_char=147
+10	toniranih	tonirati	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=148|end_char=157
+11	hidratantnih	hidratantan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=158|end_char=170
+12	krema	krema	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	conj	_	start_char=171|end_char=176
+13	,	,	PUNCT	Z	_	14	punct	_	start_char=176|end_char=177
+14	korektora	korektor	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	start_char=178|end_char=187
+15	itd.	itd.	NOUN	Y	_	14	advmod	_	start_char=188|end_char=192
+16	tijekom	tijekom	ADP	Sg	Case=Gen	17	case	_	start_char=193|end_char=200
+17	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	start_char=201|end_char=207
+18	,	,	PUNCT	Z	_	1	punct	_	start_char=207|end_char=208
+19	napokon	napokon	ADV	Rgp	Degree=Pos	25	advmod	_	start_char=209|end_char=216
+20	,	,	PUNCT	Z	_	23	punct	_	start_char=216|end_char=217
+21	sa	sa	ADP	Si	Case=Ins	23	case	_	start_char=218|end_char=220
+22	30	30	NUM	Mdc	NumType=Card	23	nummod:gov	_	start_char=221|end_char=223
+23	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	25	obl	_	start_char=224|end_char=230
+24	,	,	PUNCT	Z	_	23	punct	_	start_char=230|end_char=231
+25	mogu	moći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=232|end_char=236
+26	prestati	prestati	VERB	Vmn	VerbForm=Inf	25	xcomp	_	start_char=237|end_char=245
+27	s	sa	ADP	Si	Case=Ins	28	case	_	start_char=246|end_char=247
+28	pretragom	pretraga	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	26	obl	_	start_char=248|end_char=257
+29	jer	jer	SCONJ	Cs	_	31	mark	_	start_char=258|end_char=261
+30	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	start_char=262|end_char=265
+31	pronašao	pronaći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	25	advcl	_	start_char=266|end_char=274
+32	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	34	det	_	start_char=275|end_char=279
+33	sveti	svet	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=280|end_char=285
+34	gral	gral	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	start_char=286|end_char=290
+35	kozmetike	kozmetika	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	start_char=291|end_char=300
+36	za	za	ADP	Sa	Case=Acc	37	case	_	start_char=301|end_char=303
+37	kožu	koža	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	start_char=304|end_char=308
+38	u	u	ADP	Sl	Case=Loc	39	case	_	start_char=309|end_char=310
+39	Macelyju	Macely	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	37	nmod	_	start_char=311|end_char=319
+40	.	.	PUNCT	Z	_	25	punct	_	start_char=319|end_char=320
+

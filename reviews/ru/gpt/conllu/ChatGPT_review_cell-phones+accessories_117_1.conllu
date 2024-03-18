@@ -1,0 +1,81 @@
+# text = Перестал работать через 1,5 месяца...
+# sent_id = 0
+1	Перестал	перестать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=9|end_char=17
+3	через	через	ADP	_	_	5	case	_	start_char=18|end_char=23
+4	1,5	1,5	NUM	_	NumType=Card	5	nummod	_	start_char=24|end_char=27
+5	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=28|end_char=34
+6	.	.	PUNCT	_	_	5	punct	_	start_char=34|end_char=35
+7	.	.	PUNCT	_	_	5	punct	_	start_char=35|end_char=36
+8	.	.	PUNCT	_	_	1	punct	_	start_char=36|end_char=37
+
+# text = Эта вещь хорошо работала, когда она действительно функционировала, но сегодня она перестала работать, и прошло уже более 30 дней с момента покупки, плюс-минус 10 дней.
+# sent_id = 1
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=38|end_char=41
+2	вещь	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=42|end_char=46
+3	хорошо	хорошо	ADV	_	Degree=Pos	4	advmod	_	start_char=47|end_char=53
+4	работала	работать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=62
+5	,	,	PUNCT	_	_	9	punct	_	start_char=62|end_char=63
+6	когда	когда	SCONJ	_	_	9	mark	_	start_char=64|end_char=69
+7	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=70|end_char=73
+8	действительно	действительно	ADV	_	Degree=Pos	9	advmod	_	start_char=74|end_char=87
+9	функционировала	функционировать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=88|end_char=103
+10	,	,	PUNCT	_	_	14	punct	_	start_char=103|end_char=104
+11	но	но	CCONJ	_	_	14	cc	_	start_char=105|end_char=107
+12	сегодня	сегодня	ADV	_	Degree=Pos	14	advmod	_	start_char=108|end_char=115
+13	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=116|end_char=119
+14	перестала	перестать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=120|end_char=129
+15	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=130|end_char=138
+16	,	,	PUNCT	_	_	18	punct	_	start_char=138|end_char=139
+17	и	и	CCONJ	_	_	18	cc	_	start_char=140|end_char=141
+18	прошло	пройти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=142|end_char=148
+19	уже	уже	ADV	_	Degree=Pos	20	advmod	_	start_char=149|end_char=152
+20	более	более	ADV	_	Degree=Cmp	18	nsubj	_	start_char=153|end_char=158
+21	30	30	NUM	_	NumType=Card	22	nummod	_	start_char=159|end_char=161
+22	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	start_char=162|end_char=166
+23	с	с	ADP	_	_	24	case	_	start_char=167|end_char=168
+24	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	start_char=169|end_char=176
+25	покупки	покупка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=177|end_char=184
+26	,	,	PUNCT	_	_	29	punct	_	start_char=184|end_char=185
+27	плюс-минус	плюс-минус	ADV	_	Degree=Pos	29	advmod	_	start_char=186|end_char=196
+28	10	10	NUM	_	NumType=Card	29	nummod	_	start_char=197|end_char=199
+29	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	conj	_	start_char=200|end_char=204
+30	.	.	PUNCT	_	_	4	punct	_	start_char=204|end_char=205
+
+# text = Я предполагаю, что, возможно, это связано с низким качеством, вот почему она перестала работать.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=206|end_char=207
+2	предполагаю	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=208|end_char=219
+3	,	,	PUNCT	_	_	9	punct	_	start_char=219|end_char=220
+4	что	что	SCONJ	_	_	9	mark	_	start_char=221|end_char=224
+5	,	,	PUNCT	_	_	4	punct	_	start_char=224|end_char=225
+6	возможно	возможно	ADV	_	Degree=Pos	9	parataxis	_	start_char=226|end_char=234
+7	,	,	PUNCT	_	_	6	punct	_	start_char=234|end_char=235
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj:pass	_	start_char=236|end_char=239
+9	связано	связать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=240|end_char=247
+10	с	с	ADP	_	_	12	case	_	start_char=248|end_char=249
+11	низким	низкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=250|end_char=256
+12	качеством	качество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=257|end_char=266
+13	,	,	PUNCT	_	_	17	punct	_	start_char=266|end_char=267
+14	вот	вот	PART	_	_	15	advmod	_	start_char=268|end_char=271
+15	почему	почему	ADV	_	Degree=Pos	17	advmod	_	start_char=272|end_char=278
+16	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=279|end_char=282
+17	перестала	перестать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=283|end_char=292
+18	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	start_char=293|end_char=301
+19	.	.	PUNCT	_	_	2	punct	_	start_char=301|end_char=302
+
+# text = Кто знает...
+# sent_id = 3
+1	Кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	2	nsubj	_	start_char=303|end_char=306
+2	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=307|end_char=312
+3	.	.	PUNCT	_	_	2	punct	_	start_char=312|end_char=313
+4	.	.	PUNCT	_	_	2	punct	_	start_char=313|end_char=314
+5	.	.	PUNCT	_	_	2	punct	_	start_char=314|end_char=315
+
+# text = Какая потеря денег.
+# sent_id = 4
+1	Какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	2	det	_	start_char=316|end_char=321
+2	потеря	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=322|end_char=328
+3	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=329|end_char=334
+4	.	.	PUNCT	_	_	2	punct	_	start_char=334|end_char=335
+

@@ -1,0 +1,83 @@
+# text = Kaksinkertainen USB-portin autolaturi Ostin tuotteen noin monta kuukautta sitten.
+# sent_id = 0
+1	Kaksinkertainen	kaksinkertainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	3	amod	_	start_char=0|end_char=15
+2	USB-portin	USB#portti	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=16|end_char=26
+3	autolaturi	auto#laturi	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=27|end_char=37
+4	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=38|end_char=43
+5	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	4	obj	_	start_char=44|end_char=52
+6	noin	noin	ADV	Adv	_	7	advmod	_	start_char=53|end_char=57
+7	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	8	det	_	start_char=58|end_char=63
+8	kuukautta	kuukausi	NOUN	N	Case=Par|Number=Sing	4	obl	_	start_char=64|end_char=73
+9	sitten	sitten	ADP	Adp	AdpType=Post	8	case	_	start_char=74|end_char=80
+10	.	.	PUNCT	Punct	_	4	punct	_	start_char=80|end_char=81
+
+# text = Plussat: Rakastin sitä, toimii ihan hyvin!!
+# sent_id = 1
+1	Plussat	plussa	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=82|end_char=89
+2	:	:	PUNCT	Punct	_	3	punct	_	start_char=89|end_char=90
+3	Rakastin	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=91|end_char=99
+4	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=100|end_char=104
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=104|end_char=105
+6	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=106|end_char=112
+7	ihan	ihan	ADV	Adv	_	8	advmod	_	start_char=113|end_char=117
+8	hyvin	hyvin	ADV	Adv	_	6	advmod	_	start_char=118|end_char=123
+9	!	!	PUNCT	Punct	_	1	punct	_	start_char=123|end_char=124
+10	!	!	PUNCT	Punct	_	1	punct	_	start_char=124|end_char=125
+
+# text = Hieno sininen valo-ominaisuus, kun kytket sen tupakansytyttimeen!!
+# sent_id = 2
+1	Hieno	hieno	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=126|end_char=131
+2	sininen	sininen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	3	amod	_	start_char=132|end_char=139
+3	valo-ominaisuus	valo#ominaisuus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=140|end_char=155
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=155|end_char=156
+5	kun	kun	SCONJ	C	_	6	mark	_	start_char=157|end_char=160
+6	kytket	kytkeä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=161|end_char=167
+7	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	obj	_	start_char=168|end_char=171
+8	tupakansytyttimeen	tupakan#sytyttinen	NOUN	N	Case=Ill|Number=Sing	6	obl	_	start_char=172|end_char=190
+9	!	!	PUNCT	Punct	_	3	punct	_	start_char=190|end_char=191
+10	!	!	PUNCT	Punct	_	3	punct	_	start_char=191|end_char=192
+
+# text = Voit liittää kaksi laitetta samanaikaisesti...
+# sent_id = 3
+1	Voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=193|end_char=197
+2	liittää	liittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=198|end_char=205
+3	kaksi	kaksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	4	nummod	_	start_char=206|end_char=211
+4	laitetta	laite	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=212|end_char=220
+5	samanaikaisesti	samanaikaisesti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=221|end_char=236
+6	...	...	PUNCT	Punct	_	2	punct	_	start_char=236|end_char=239
+
+# text = Miinukset: Yläosan läpinäkyvä osa irtoaa helposti ajan myötä (laitoin vain läpinäkyvää teippiä ympärille)
+# sent_id = 4
+1	Miinukset	miinus	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=240|end_char=249
+2	:	:	PUNCT	Punct	_	6	punct	_	start_char=249|end_char=250
+3	Yläosan	ylä#osa	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=251|end_char=258
+4	läpinäkyvä	läpinäkyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=259|end_char=269
+5	osa	osa	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=270|end_char=273
+6	irtoaa	irtota	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=274|end_char=280
+7	helposti	helposti	ADV	Adv	Derivation=Sti	6	advmod	_	start_char=281|end_char=289
+8	ajan	aika	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=290|end_char=294
+9	myötä	myötä	ADP	Adp	AdpType=Post	8	case	_	start_char=295|end_char=300
+10	(	(	PUNCT	Punct	_	11	punct	_	start_char=301|end_char=302
+11	laitoin	laittaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=302|end_char=309
+12	vain	vain	ADV	Adv	_	11	advmod	_	start_char=310|end_char=314
+13	läpinäkyvää	läpinä#kyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	14	amod	_	start_char=315|end_char=326
+14	teippiä	teippi	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=327|end_char=334
+15	ympärille	ympärille	ADV	Adv	_	11	advmod	_	start_char=335|end_char=344
+16	)	)	PUNCT	Punct	_	11	punct	_	start_char=344|end_char=345
+
+# text = YHTEENSÄ: PLUSSAT: 95% MIINUKSET: 5
+# sent_id = 5
+1	YHTEENSÄ	yhteensä	ADV	Adv	_	3	advmod	_	start_char=346|end_char=354
+2	:	:	PUNCT	Punct	_	3	punct	_	start_char=354|end_char=355
+3	PLUSSAT	pluosat	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=356|end_char=363
+4	:	:	PUNCT	Punct	_	6	punct	_	start_char=363|end_char=364
+5	95	95	NUM	Num	NumType=Card	6	nummod	_	start_char=365|end_char=367
+6	%	%	SYM	Punct	_	3	appos	_	start_char=367|end_char=368
+7	MIINUKSET	miinukko	NOUN	N	Case=Nom|Number=Plur	6	nmod	_	start_char=369|end_char=378
+8	:	:	PUNCT	Punct	_	9	punct	_	start_char=378|end_char=379
+9	5	5	NUM	Num	NumType=Card	3	nummod	_	start_char=380|end_char=381
+
+# text = %
+# sent_id = 6
+1	%	%	SYM	Punct	_	0	root	_	start_char=381|end_char=382
+

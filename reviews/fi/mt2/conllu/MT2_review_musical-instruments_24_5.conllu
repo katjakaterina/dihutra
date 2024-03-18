@@ -1,0 +1,74 @@
+# text = Laadukas kaapeli!
+# sent_id = 0
+1	Laadukas	laadukas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	kaapeli	kaapeli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=16
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=16|end_char=17
+
+# text = Sain tämän kaapelin ohjaamaan rockband-näppäimistöohjainta M-audio profire 2626:een midi-ohjaukseen Pro Toolsissa.
+# sent_id = 1
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=22
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=23|end_char=28
+3	kaapelin	kaapeli	NOUN	N	Case=Gen|Number=Sing	4	nsubj	_	start_char=29|end_char=37
+4	ohjaamaan	ohjata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=38|end_char=47
+5	rockband-näppäimistöohjainta	rockband#näppäimistö#ohjainen	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=48|end_char=76
+6	M-audio	M-audio	X	Foreign	Foreign=Yes	9	compound:nn	_	start_char=77|end_char=84
+7	profire	profire	X	Foreign	Foreign=Yes	6	flat:name	_	start_char=85|end_char=92
+8	2626:een	2626	NUM	Num	Case=Ill|NumType=Card|Number=Sing	6	flat:name	_	start_char=93|end_char=101
+9	midi-ohjaukseen	midi#ohjaus	NOUN	N	Case=Ill|Number=Sing	4	obl	_	start_char=102|end_char=117
+10	Pro	Pro	PROPN	N	Case=Nom|Number=Sing	9	nmod	_	start_char=118|end_char=121
+11	Toolsissa	Tools	PROPN	N	Case=Ine|Number=Sing	10	flat:name	_	start_char=122|end_char=131
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=131|end_char=132
+
+# text = Toimii hyvin!
+# sent_id = 2
+1	Toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=133|end_char=139
+2	hyvin	hyvin	ADV	Adv	_	1	advmod	_	start_char=140|end_char=145
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=145|end_char=146
+
+# text = Tukeva istuvuus, kiinteästi muotoillut päät, hyvämaineinen merkkikaapeli.
+# sent_id = 3
+1	Tukeva	tukeva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=147|end_char=153
+2	istuvuus	istuvuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	0	root	_	start_char=154|end_char=162
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=162|end_char=163
+4	kiinteästi	kiinteästi	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=164|end_char=174
+5	muotoillut	muotoilla	VERB	V	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=175|end_char=185
+6	päät	pää	NOUN	N	Case=Nom|Number=Plur	2	conj	_	start_char=186|end_char=190
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=190|end_char=191
+8	hyvämaineinen	hyvä#maineinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	9	amod	_	start_char=192|end_char=205
+9	merkkikaapeli	merkki#kaapeli	NOUN	N	Case=Nom|Number=Sing	2	conj	_	start_char=206|end_char=219
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=219|end_char=220
+
+# text = (hieman ohuella puolella, mutta en ole nähnyt mitään ongelmaa tästä tai mistään syystä.
+# sent_id = 4
+1	(	(	PUNCT	Punct	_	4	punct	_	start_char=221|end_char=222
+2	hieman	hieman	ADV	Adv	_	3	advmod	_	start_char=222|end_char=228
+3	ohuella	ohut	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	4	amod	_	start_char=229|end_char=236
+4	puolella	puoli	NOUN	N	Case=Ade|Number=Sing	0	root	_	start_char=237|end_char=245
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=245|end_char=246
+6	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=247|end_char=252
+7	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=253|end_char=255
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=256|end_char=259
+9	nähnyt	nähdä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=260|end_char=266
+10	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	11	det	_	start_char=267|end_char=273
+11	ongelmaa	ongelma	NOUN	N	Case=Par|Number=Sing	9	obj	_	start_char=274|end_char=282
+12	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	11	nmod	_	start_char=283|end_char=288
+13	tai	tai	CCONJ	C	_	15	cc	_	start_char=289|end_char=292
+14	mistään	mikään	PRON	Pron	Case=Ela|Number=Sing|PronType=Ind	15	det	_	start_char=293|end_char=300
+15	syystä	syy	NOUN	N	Case=Ela|Number=Sing	12	conj	_	start_char=301|end_char=307
+16	.	.	PUNCT	Punct	_	4	punct	_	start_char=307|end_char=308
+
+# text = Ei voinut mennä pieleen 5 dollarilla ostohetkelläni ja ensiluokkaisen kelpoisuuden vuoksi.
+# sent_id = 5
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=309|end_char=311
+2	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=312|end_char=318
+3	mennä	mennä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=319|end_char=324
+4	pieleen	pieleen	ADV	Adv	_	3	advmod	_	start_char=325|end_char=332
+5	5	5	NUM	Num	NumType=Card	6	nummod	_	start_char=333|end_char=334
+6	dollarilla	dollari	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=335|end_char=345
+7	ostohetkelläni	osto#hetki	NOUN	N	Case=Ade|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obl	_	start_char=346|end_char=360
+8	ja	ja	CCONJ	C	_	10	cc	_	start_char=361|end_char=363
+9	ensiluokkaisen	ensi#luokkainen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	10	amod	_	start_char=364|end_char=378
+10	kelpoisuuden	kelpoisuus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	7	conj	_	start_char=379|end_char=391
+11	vuoksi	vuoksi	ADP	Adp	AdpType=Post	10	case	_	start_char=392|end_char=398
+12	.	.	PUNCT	Punct	_	3	punct	_	start_char=398|end_char=399
+

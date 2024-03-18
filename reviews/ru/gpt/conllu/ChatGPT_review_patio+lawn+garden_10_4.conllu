@@ -1,0 +1,81 @@
+# text = Гибкий шланг, как рекламируется...
+# sent_id = 0
+1	Гибкий	гибкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7|end_char=12
+3	,	,	PUNCT	_	_	5	punct	_	start_char=12|end_char=13
+4	как	как	SCONJ	_	_	5	mark	_	start_char=14|end_char=17
+5	рекламируется	рекламировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	start_char=18|end_char=31
+6	.	.	PUNCT	_	_	5	punct	_	start_char=31|end_char=32
+7	.	.	PUNCT	_	_	5	punct	_	start_char=32|end_char=33
+8	.	.	PUNCT	_	_	2	punct	_	start_char=33|end_char=34
+
+# text = надеюсь, что он соответствует ожиданиям!
+# sent_id = 1
+1	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=35|end_char=42
+2	,	,	PUNCT	_	_	5	punct	_	start_char=42|end_char=43
+3	что	что	SCONJ	_	_	5	mark	_	start_char=44|end_char=47
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=48|end_char=50
+5	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=51|end_char=64
+6	ожиданиям	ожидание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	5	iobj	_	start_char=65|end_char=74
+7	!	!	PUNCT	_	_	1	punct	_	start_char=74|end_char=75
+
+# text = Пока всё идет хорошо!
+# sent_id = 2
+1	Пока	пока	SCONJ	_	_	3	advmod	_	start_char=76|end_char=80
+2	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	nsubj	_	start_char=81|end_char=84
+3	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=85|end_char=89
+4	хорошо	хорошо	ADV	_	Degree=Pos	3	advmod	_	start_char=90|end_char=96
+5	!	!	PUNCT	_	_	3	punct	_	start_char=96|end_char=97
+
+# text = У меня действительно не было времени испытать шланг, так как сейчас холодное время года.
+# sent_id = 3
+1	У	у	ADP	_	_	2	case	_	start_char=98|end_char=99
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obl	_	start_char=100|end_char=104
+3	действительно	действительно	ADV	_	Degree=Pos	5	advmod	_	start_char=105|end_char=118
+4	не	не	PART	_	_	5	advmod	_	start_char=119|end_char=121
+5	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=122|end_char=126
+6	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nsubj	_	start_char=127|end_char=134
+7	испытать	испытать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	obl	_	start_char=135|end_char=143
+8	шланг	шланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=144|end_char=149
+9	,	,	PUNCT	_	_	14	punct	_	start_char=149|end_char=150
+10	так	так	ADV	_	Degree=Pos	14	mark	_	start_char=151|end_char=154
+11	как	как	SCONJ	_	_	10	fixed	_	start_char=155|end_char=158
+12	сейчас	сейчас	ADV	_	Degree=Pos	14	advmod	_	start_char=159|end_char=165
+13	холодное	холодный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=166|end_char=174
+14	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	advcl	_	start_char=175|end_char=180
+15	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=181|end_char=185
+16	.	.	PUNCT	_	_	5	punct	_	start_char=185|end_char=186
+
+# text = Я купил этот шланг Gilmour, исходя из всех рекомендаций.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=187|end_char=188
+2	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=189|end_char=194
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=195|end_char=199
+4	шланг	шланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=200|end_char=205
+5	Gilmour	Gilmour	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=206|end_char=213
+6	,	,	PUNCT	_	_	7	punct	_	start_char=213|end_char=214
+7	исходя	исходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	_	start_char=215|end_char=221
+8	из	из	ADP	_	_	10	case	_	start_char=222|end_char=224
+9	всех	весь	DET	_	Case=Gen|Number=Plur|PronType=Tot	10	det	_	start_char=225|end_char=229
+10	рекомендаций	рекомендация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	start_char=230|end_char=242
+11	.	.	PUNCT	_	_	2	punct	_	start_char=242|end_char=243
+
+# text = Я с нетерпением жду того, чтобы не бороться с шлангом, чтобы использовать его.
+# sent_id = 5
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=244|end_char=245
+2	с	с	ADP	_	_	3	case	_	start_char=246|end_char=247
+3	нетерпением	нетерпение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	start_char=248|end_char=259
+4	жду	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=260|end_char=263
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	start_char=264|end_char=268
+6	,	,	PUNCT	_	_	9	punct	_	start_char=268|end_char=269
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	start_char=270|end_char=275
+8	не	не	PART	_	_	9	advmod	_	start_char=276|end_char=278
+9	бороться	бороться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	advcl	_	start_char=279|end_char=287
+10	с	с	ADP	_	_	11	case	_	start_char=288|end_char=289
+11	шлангом	шланг	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=290|end_char=297
+12	,	,	PUNCT	_	_	14	punct	_	start_char=297|end_char=298
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	start_char=299|end_char=304
+14	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	advcl	_	start_char=305|end_char=317
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=318|end_char=321
+16	.	.	PUNCT	_	_	4	punct	_	start_char=321|end_char=322
+

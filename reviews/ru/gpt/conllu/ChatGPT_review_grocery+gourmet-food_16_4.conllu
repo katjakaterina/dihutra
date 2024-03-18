@@ -1,0 +1,90 @@
+# text = Для меня не хватает вкуса чая матча ... (=_=)
+# sent_id = 0
+1	Для	для	ADP	_	_	2	case	_	start_char=0|end_char=3
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=4|end_char=8
+3	не	не	PART	_	_	4	advmod	_	start_char=9|end_char=11
+4	хватает	хватать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=19
+5	вкуса	вкус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	start_char=20|end_char=25
+6	чая	чай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=26|end_char=29
+7	матча	матч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=30|end_char=35
+8	.	.	PUNCT	_	_	7	punct	_	start_char=36|end_char=37
+9	.	.	PUNCT	_	_	7	punct	_	start_char=37|end_char=38
+10	.	.	PUNCT	_	_	7	punct	_	start_char=38|end_char=39
+11	(	(	PUNCT	_	_	12	punct	_	start_char=40|end_char=41
+12	=_	=_	SYM	_	_	7	parataxis	_	start_char=41|end_char=43
+13	=	=	SYM	_	_	12	punct	_	start_char=43|end_char=44
+14	)	)	PUNCT	_	_	12	punct	_	start_char=44|end_char=45
+
+# text = Сегодня я попробовал это впервые, и оно вкусное, но я не чувствую вкуса чая матча так, как это бывает, например, в мороженом с зеленым чаем.
+# sent_id = 1
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=46|end_char=53
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=54|end_char=55
+3	попробовал	попробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=56|end_char=66
+4	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	start_char=67|end_char=70
+5	впервые	впервые	ADV	_	Degree=Pos	3	advmod	_	start_char=71|end_char=78
+6	,	,	PUNCT	_	_	9	punct	_	start_char=78|end_char=79
+7	и	и	CCONJ	_	_	9	cc	_	start_char=80|end_char=81
+8	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=82|end_char=85
+9	вкусное	вкусный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	start_char=86|end_char=93
+10	,	,	PUNCT	_	_	14	punct	_	start_char=93|end_char=94
+11	но	но	CCONJ	_	_	14	cc	_	start_char=95|end_char=97
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=98|end_char=99
+13	не	не	PART	_	_	14	advmod	_	start_char=100|end_char=102
+14	чувствую	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=103|end_char=111
+15	вкуса	вкус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=112|end_char=117
+16	чая	чай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=118|end_char=121
+17	матча	матч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=122|end_char=127
+18	так	так	ADV	_	Degree=Pos	14	advmod	_	start_char=128|end_char=131
+19	,	,	PUNCT	_	_	22	punct	_	start_char=131|end_char=132
+20	как	как	SCONJ	_	_	22	mark	_	start_char=133|end_char=136
+21	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	22	nsubj	_	start_char=137|end_char=140
+22	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	start_char=141|end_char=147
+23	,	,	PUNCT	_	_	27	punct	_	start_char=147|end_char=148
+24	например	например	ADV	_	Degree=Pos	27	parataxis	_	start_char=149|end_char=157
+25	,	,	PUNCT	_	_	24	punct	_	start_char=157|end_char=158
+26	в	в	ADP	_	_	27	case	_	start_char=159|end_char=160
+27	мороженом	мороженный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	obl	_	start_char=161|end_char=170
+28	с	с	ADP	_	_	30	case	_	start_char=171|end_char=172
+29	зеленым	зеленый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=173|end_char=180
+30	чаем	чай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	start_char=181|end_char=185
+31	.	.	PUNCT	_	_	3	punct	_	start_char=185|end_char=186
+
+# text = Мне показалось, что это вкус белого шоколада с зернистой текстурой, которая, наверное, вызвана порошком чая матча.
+# sent_id = 2
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=187|end_char=190
+2	показалось	казаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=191|end_char=201
+3	,	,	PUNCT	_	_	6	punct	_	start_char=201|end_char=202
+4	что	что	SCONJ	_	_	6	mark	_	start_char=203|end_char=206
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=207|end_char=210
+6	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	start_char=211|end_char=215
+7	белого	белый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=216|end_char=222
+8	шоколада	шоколад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=223|end_char=231
+9	с	с	ADP	_	_	11	case	_	start_char=232|end_char=233
+10	зернистой	зернистый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=234|end_char=243
+11	текстурой	текстура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	start_char=244|end_char=253
+12	,	,	PUNCT	_	_	17	punct	_	start_char=253|end_char=254
+13	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	17	nsubj:pass	_	start_char=255|end_char=262
+14	,	,	PUNCT	_	_	13	punct	_	start_char=262|end_char=263
+15	наверное	наверное	ADV	_	Degree=Pos	17	parataxis	_	start_char=264|end_char=272
+16	,	,	PUNCT	_	_	15	punct	_	start_char=272|end_char=273
+17	вызвана	вызвать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	acl:relcl	_	start_char=274|end_char=281
+18	порошком	порошок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	start_char=282|end_char=290
+19	чая	чай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=291|end_char=294
+20	матча	матч	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=295|end_char=300
+21	.	.	PUNCT	_	_	2	punct	_	start_char=300|end_char=301
+
+# text = Мне кажется, что мой любимый вкус KitKat - это мокко.
+# sent_id = 3
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=302|end_char=305
+2	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=306|end_char=313
+3	,	,	PUNCT	_	_	11	punct	_	start_char=313|end_char=314
+4	что	что	SCONJ	_	_	11	mark	_	start_char=315|end_char=318
+5	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=319|end_char=322
+6	любимый	любимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=323|end_char=330
+7	вкус	вкус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=331|end_char=335
+8	KitKat	Kitkat	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=336|end_char=342
+9	-	-	PUNCT	_	_	7	punct	_	start_char=343|end_char=344
+10	это	это	PRON	_	PronType=Dem	11	expl	_	start_char=345|end_char=348
+11	мокко	мокко	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	start_char=349|end_char=354
+12	.	.	PUNCT	_	_	2	punct	_	start_char=354|end_char=355
+

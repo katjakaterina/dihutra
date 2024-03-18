@@ -1,0 +1,75 @@
+# text = VÄRIKÄINEN, valaistu taskusuurennuslasi - helppo löytää mustasta kukkarosta!
+# sent_id = 0
+1	VÄRIKÄINEN	virikkä	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=10
+2	,	,	PUNCT	Punct	_	4	punct	_	start_char=10|end_char=11
+3	valaistu	valaistu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=12|end_char=20
+4	taskusuurennuslasi	tasku#suurennus	NOUN	N	Case=Nom|Number=Sing	1	appos	_	start_char=21|end_char=39
+5	-	-	PUNCT	Punct	_	6	punct	_	start_char=40|end_char=41
+6	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	parataxis	_	start_char=42|end_char=48
+7	löytää	löytää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp:ds	_	start_char=49|end_char=55
+8	mustasta	musta	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	9	amod	_	start_char=56|end_char=64
+9	kukkarosta	kukkaro	NOUN	N	Case=Ela|Number=Sing	7	obl	_	start_char=65|end_char=75
+10	!	!	PUNCT	Punct	_	1	punct	_	start_char=75|end_char=76
+
+# text = Useimmissa omistamissani kukkaroissa on musta vuori.
+# sent_id = 1
+1	Useimmissa	usea	ADJ	A	Case=Ine|Degree=Sup|Number=Plur	2	obl	_	start_char=77|end_char=87
+2	omistamissani	omistaa	VERB	V	Case=Ine|Number=Plur|Number[psor]=Plur|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	3	acl	_	start_char=88|end_char=101
+3	kukkaroissa	kukkaro	NOUN	N	Case=Ine|Number=Plur	0	root	_	start_char=102|end_char=113
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=114|end_char=116
+5	musta	musta	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	start_char=117|end_char=122
+6	vuori	vuori	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=123|end_char=128
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=128|end_char=129
+
+# text = Onnea löytää jotain mustaa mustasta kukkarosta!
+# sent_id = 2
+1	Onnea	onni	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=130|end_char=135
+2	löytää	löytää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	acl	_	start_char=136|end_char=142
+3	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	4	det	_	start_char=143|end_char=149
+4	mustaa	musta	ADJ	A	Case=Par|Degree=Pos|Number=Sing	2	obj	_	start_char=150|end_char=156
+5	mustasta	musta	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	6	amod	_	start_char=157|end_char=165
+6	kukkarosta	kukkaro	NOUN	N	Case=Ela|Number=Sing	2	obl	_	start_char=166|end_char=176
+7	!	!	PUNCT	Punct	_	1	punct	_	start_char=176|end_char=177
+
+# text = Valitsin tämän värin, koska voin todella löytää sen!!!
+# sent_id = 3
+1	Valitsin	valita	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=178|end_char=186
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=187|end_char=192
+3	värin	väri	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=193|end_char=198
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=198|end_char=199
+5	koska	koska	SCONJ	C	_	8	mark	_	start_char=200|end_char=205
+6	voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=206|end_char=210
+7	todella	todella	ADV	Adv	_	8	advmod	_	start_char=211|end_char=218
+8	löytää	löytää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=219|end_char=225
+9	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	obj	_	start_char=226|end_char=229
+10	!	!	PUNCT	Punct	_	1	punct	_	start_char=229|end_char=230
+11	!	!	PUNCT	Punct	_	1	punct	_	start_char=230|end_char=231
+12	!	!	PUNCT	Punct	_	1	punct	_	start_char=231|end_char=232
+
+# text = Toimii loistavasti hämärässä ravintolassa, kun painatus on todella pieni, kun tarvitsen valoa ja suurennuslasia löytääkseni sirpaleen.
+# sent_id = 4
+1	Toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=233|end_char=239
+2	loistavasti	loistavasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=240|end_char=251
+3	hämärässä	hämärä	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	4	amod	_	start_char=252|end_char=261
+4	ravintolassa	ravintola	NOUN	N	Case=Ine|Number=Sing	1	obl	_	start_char=262|end_char=274
+5	,	,	PUNCT	Punct	_	10	punct	_	start_char=274|end_char=275
+6	kun	kun	SCONJ	C	_	10	mark	_	start_char=276|end_char=279
+7	painatus	painatus	NOUN	N	Case=Nom|Number=Sing	10	nsubj:cop	_	start_char=280|end_char=288
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=289|end_char=291
+9	todella	todella	ADV	Adv	_	10	advmod	_	start_char=292|end_char=299
+10	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	advcl	_	start_char=300|end_char=305
+11	,	,	PUNCT	Punct	_	13	punct	_	start_char=305|end_char=306
+12	kun	kun	SCONJ	C	_	13	mark	_	start_char=307|end_char=310
+13	tarvitsen	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=311|end_char=320
+14	valoa	valo	NOUN	N	Case=Par|Number=Sing	13	obj	_	start_char=321|end_char=326
+15	ja	ja	CCONJ	C	_	16	cc	_	start_char=327|end_char=329
+16	suurennuslasia	suurennus#lasi	NOUN	N	Case=Par|Number=Sing	14	conj	_	start_char=330|end_char=344
+17	löytääkseni	löytää	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	13	advcl	_	start_char=345|end_char=356
+18	sirpaleen	sirpale	NOUN	N	Case=Gen|Number=Sing	17	obj	_	start_char=357|end_char=366
+19	.	.	PUNCT	Punct	_	1	punct	_	start_char=366|end_char=367
+
+# text = IHANA.
+# sent_id = 5
+1	IHANA	ihana	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=368|end_char=373
+2	.	.	PUNCT	Punct	_	1	punct	_	start_char=373|end_char=374
+

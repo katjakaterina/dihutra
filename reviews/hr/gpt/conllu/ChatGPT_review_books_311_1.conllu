@@ -1,0 +1,106 @@
+# text = Knjiga u lošem stanju prilikom primitka NE KUPUJTE OVU KNJIGU OD Amazon.com LLC.
+# sent_id = 0
+1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=6
+2	u	u	ADP	Sl	Case=Loc	4	case	_	start_char=7|end_char=8
+3	lošem	loš	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=9|end_char=14
+4	stanju	stanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	0	root	_	start_char=15|end_char=21
+5	prilikom	prilikom	ADP	Sg	Case=Gen	6	case	_	start_char=22|end_char=30
+6	primitka	primitak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=31|end_char=39
+7	NE	ne	PART	Qz	Polarity=Neg	8	advmod	_	start_char=40|end_char=42
+8	KUPUJTE	kuputiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=43|end_char=50
+9	OVU	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=51|end_char=54
+10	KNJIGU	knjio	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=55|end_char=61
+11	OD	od	ADP	Sg	Case=Gen	12	case	_	start_char=62|end_char=64
+12	Amazon.com	Amazon.acm	X	Xf	Foreign=Yes	10	nmod	_	start_char=65|end_char=75
+13	LLC	LLC	X	Xf	Foreign=Yes	12	flat	_	start_char=76|end_char=79
+14	.	.	PUNCT	Z	_	8	punct	_	start_char=79|end_char=80
+
+# text = Naručio/la sam ovu knjigu ranije ove sedmice s Amazon Primeom kao dar za odlazak.
+# sent_id = 1
+1	Naručio/la	naručio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=81|end_char=91
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=92|end_char=95
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=96|end_char=99
+4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=100|end_char=106
+5	ranije	rano	ADV	Rgc	Degree=Cmp	1	advmod	_	start_char=107|end_char=113
+6	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=114|end_char=117
+7	sedmice	sedmica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	start_char=118|end_char=125
+8	s	sa	ADP	Si	Case=Ins	9	case	_	start_char=126|end_char=127
+9	Amazon	Amazon	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	1	obl	_	start_char=128|end_char=134
+10	Primeom	Primeom	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	9	flat	_	start_char=135|end_char=142
+11	kao	kao	SCONJ	Cs	_	12	case	_	start_char=143|end_char=146
+12	dar	dar	NOUN	Ncmsnn	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	start_char=147|end_char=150
+13	za	za	ADP	Sa	Case=Acc	14	case	_	start_char=151|end_char=153
+14	odlazak	odlazak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	start_char=154|end_char=161
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=161|end_char=162
+
+# text = Danas sam primio/la knjigu.
+# sent_id = 2
+1	Danas	danas	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=163|end_char=168
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=169|end_char=172
+3	primio/la	primio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=173|end_char=182
+4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=183|end_char=189
+5	.	.	PUNCT	Z	_	3	punct	_	start_char=189|end_char=190
+
+# text = Proslava je sutra.
+# sent_id = 3
+1	Proslava	proslava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=191|end_char=199
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=200|end_char=202
+3	sutra	sutra	ADV	Rgp	Degree=Pos	0	root	_	start_char=203|end_char=208
+4	.	.	PUNCT	Z	_	3	punct	_	start_char=208|end_char=209
+
+# text = Pola omota knjige izgleda kao da je odrezano skalpelom, ostavljajući tako i posjekotine na korici knjige.
+# sent_id = 4
+1	Pola	pola	DET	Rgp	Degree=Pos	2	det:numgov	_	start_char=210|end_char=214
+2	omota	omot	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	start_char=215|end_char=220
+3	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=221|end_char=227
+4	izgleda	izgledati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=228|end_char=235
+5	kao	kao	SCONJ	Cs	_	7	mark	_	start_char=236|end_char=239
+6	da	da	SCONJ	Cs	_	5	fixed	_	start_char=240|end_char=242
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=243|end_char=245
+8	odrezano	odrezano	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=246|end_char=254
+9	skalpelom	skalpel	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	start_char=255|end_char=264
+10	,	,	PUNCT	Z	_	11	punct	_	start_char=264|end_char=265
+11	ostavljajući	ostavljati	ADV	Rr	Tense=Pres|VerbForm=Conv	4	xcomp	_	start_char=266|end_char=278
+12	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	11	advmod	_	start_char=279|end_char=283
+13	i	i	CCONJ	Cc	_	14	cc	_	start_char=284|end_char=285
+14	posjekotine	posjekotina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=286|end_char=297
+15	na	na	ADP	Sl	Case=Loc	16	case	_	start_char=298|end_char=300
+16	korici	korik	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=301|end_char=307
+17	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=308|end_char=314
+18	.	.	PUNCT	Z	_	4	punct	_	start_char=314|end_char=315
+
+# text = Pakiranje je bilo u redu.
+# sent_id = 5
+1	Pakiranje	pakiranje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=316|end_char=325
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=326|end_char=328
+3	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=329|end_char=333
+4	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=334|end_char=335
+5	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=336|end_char=340
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=340|end_char=341
+
+# text = Mogao/mogla bih je vratiti, ali se ne bi vratila prije sutra.
+# sent_id = 6
+1	Mogao/mogla	Mogao/mogl	PROPN	Npmsa	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=342|end_char=353
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	start_char=354|end_char=357
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=358|end_char=360
+4	vratiti	vratiti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=361|end_char=368
+5	,	,	PUNCT	Z	_	10	punct	_	start_char=368|end_char=369
+6	ali	ali	CCONJ	Cc	_	10	cc	_	start_char=370|end_char=373
+7	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	start_char=374|end_char=376
+8	ne	ne	PART	Qz	Polarity=Neg	10	advmod	_	start_char=377|end_char=379
+9	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=380|end_char=382
+10	vratila	vratiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=383|end_char=390
+11	prije	prije	ADP	Sg	Case=Gen	12	case	_	start_char=391|end_char=396
+12	sutra	sutra	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=397|end_char=402
+13	.	.	PUNCT	Z	_	4	punct	_	start_char=402|end_char=403
+
+# text = Potrošite više i koristite drugog prodavatelja.
+# sent_id = 7
+1	Potrošite	potrositi	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=404|end_char=413
+2	više	mnogo	ADV	Rgc	Degree=Cmp	1	advmod	_	start_char=414|end_char=418
+3	i	i	CCONJ	Cc	_	4	cc	_	start_char=419|end_char=420
+4	koristite	koristiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	conj	_	start_char=421|end_char=430
+5	drugog	drugi	ADJ	Mlomsa	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=431|end_char=437
+6	prodavatelja	prodavatelj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	start_char=438|end_char=450
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=450|end_char=451
+

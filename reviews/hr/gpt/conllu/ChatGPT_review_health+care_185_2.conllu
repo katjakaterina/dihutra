@@ -1,0 +1,79 @@
+# text = Samo 3 godine, umjesto 5 kako je obećano Opisano je da su ove baterije jamčene 5 godina, no imaju datum isteka od samo 3 godine (ožujak 2016.).
+# sent_id = 0
+1	Samo	samo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=4
+2	3	3	NUM	Mdc	NumType=Card	3	nummod	_	start_char=5|end_char=6
+3	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	start_char=7|end_char=13
+4	,	,	PUNCT	Z	_	6	punct	_	start_char=13|end_char=14
+5	umjesto	umjesto	ADP	Sg	Case=Gen	6	case	_	start_char=15|end_char=22
+6	5	5	NUM	Mdc	NumType=Card	10	obl	_	start_char=23|end_char=24
+7	kako	kako	SCONJ	Cs	_	9	mark	_	start_char=25|end_char=29
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=30|end_char=32
+9	obećano	obećati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	start_char=33|end_char=40
+10	Opisano	opisati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=41|end_char=48
+11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=49|end_char=51
+12	da	da	SCONJ	Cs	_	16	mark	_	start_char=52|end_char=54
+13	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=55|end_char=57
+14	ove	ovaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	15	det	_	start_char=58|end_char=61
+15	baterije	baterija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	start_char=62|end_char=70
+16	jamčene	jamčen	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	10	csubj	_	start_char=71|end_char=78
+17	5	5	NUM	Mdc	NumType=Card	18	nummod:gov	_	start_char=79|end_char=80
+18	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	start_char=81|end_char=87
+19	,	,	PUNCT	Z	_	21	punct	_	start_char=87|end_char=88
+20	no	no	CCONJ	Cc	_	21	cc	_	start_char=89|end_char=91
+21	imaju	imati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	start_char=92|end_char=97
+22	datum	datum	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	start_char=98|end_char=103
+23	isteka	istek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=104|end_char=110
+24	od	od	ADP	Sg	Case=Gen	27	case	_	start_char=111|end_char=113
+25	samo	samo	ADV	Rgp	Degree=Pos	26	advmod	_	start_char=114|end_char=118
+26	3	3	NUM	Mdc	NumType=Card	27	nummod	_	start_char=119|end_char=120
+27	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	start_char=121|end_char=127
+28	(	(	PUNCT	Z	_	29	punct	_	start_char=128|end_char=129
+29	ožujak	ožujak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	27	appos	_	start_char=129|end_char=135
+30	2016.	2016.	ADJ	Mdo	NumType=Ord	29	amod	_	start_char=136|end_char=141
+31	)	)	PUNCT	Z	_	29	punct	_	start_char=141|end_char=142
+32	.	.	PUNCT	Z	_	10	punct	_	start_char=142|end_char=143
+
+# text = Budući da ih koristim za rezervno napajanje u satovima, ovo je prava neugodnost.
+# sent_id = 1
+1	Budući	budući	SCONJ	Cs	_	4	mark	_	start_char=144|end_char=150
+2	da	da	SCONJ	Cs	_	1	fixed	_	start_char=151|end_char=153
+3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=154|end_char=156
+4	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=157|end_char=165
+5	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=166|end_char=168
+6	rezervno	rezervan	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=169|end_char=177
+7	napajanje	napajanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=178|end_char=187
+8	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=188|end_char=189
+9	satovima	sat	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	start_char=190|end_char=198
+10	,	,	PUNCT	Z	_	4	punct	_	start_char=198|end_char=199
+11	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=200|end_char=203
+12	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=204|end_char=206
+13	prava	prav	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=207|end_char=212
+14	neugodnost	neugodnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=213|end_char=223
+15	.	.	PUNCT	Z	_	14	punct	_	start_char=223|end_char=224
+
+# text = Nije ono što očekujem od Amazona.
+# sent_id = 2
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=225|end_char=229
+2	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=230|end_char=233
+3	što	što	PRON	Pi3n-n	Case=Acc|Gender=Neut|PronType=Int,Rel	4	obj	_	start_char=234|end_char=237
+4	očekujem	očekivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=238|end_char=246
+5	od	od	ADP	Sg	Case=Gen	6	case	_	start_char=247|end_char=249
+6	Amazona	Amazon	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	start_char=250|end_char=257
+7	.	.	PUNCT	Z	_	2	punct	_	start_char=257|end_char=258
+
+# text = Vjerojatno ću se pomiriti s time umjesto da se bakćem s povratom.
+# sent_id = 3
+1	Vjerojatno	vjerojatno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=259|end_char=269
+2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=270|end_char=272
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=273|end_char=275
+4	pomiriti	pomiriti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=276|end_char=284
+5	s	sa	ADP	Si	Case=Ins	10	mark	_	start_char=285|end_char=286
+6	time	taj	DET	Pd-nsi	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	fixed	_	start_char=287|end_char=291
+7	umjesto	umjesto	ADP	Sg	Case=Gen	10	mark	_	start_char=292|end_char=299
+8	da	da	SCONJ	Cs	_	7	fixed	_	start_char=300|end_char=302
+9	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	start_char=303|end_char=305
+10	bakćem	baćiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=306|end_char=312
+11	s	sa	ADP	Si	Case=Ins	12	case	_	start_char=313|end_char=314
+12	povratom	povrat	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	obl	_	start_char=315|end_char=323
+13	.	.	PUNCT	Z	_	4	punct	_	start_char=323|end_char=324
+

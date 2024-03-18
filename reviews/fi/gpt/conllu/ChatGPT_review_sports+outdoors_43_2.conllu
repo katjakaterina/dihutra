@@ -1,0 +1,62 @@
+# text = Nauhan värinmuutos
+# sent_id = 0
+1	Nauhan	nauhan	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=0|end_char=6
+2	värinmuutos	värin#muutos	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=7|end_char=18
+
+# text = Kuten useimmat liikuntatuotteet, näitä käytettiin muutaman kerran ja ne säilytettiin pussissa muutaman kuukauden ajan.
+# sent_id = 1
+1	Kuten	kuten	SCONJ	C	_	3	mark	_	start_char=19|end_char=24
+2	useimmat	usea	ADJ	A	Case=Nom|Degree=Sup|Number=Plur	3	amod	_	start_char=25|end_char=33
+3	liikuntatuotteet	liikunta#tuote	NOUN	N	Case=Nom|Number=Plur	6	vocative	_	start_char=34|end_char=50
+4	,	,	PUNCT	Punct	_	3	punct	_	start_char=50|end_char=51
+5	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	6	obj	_	start_char=52|end_char=57
+6	käytettiin	käyttää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=58|end_char=68
+7	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	8	det	_	start_char=69|end_char=77
+8	kerran	kerran	ADV	Adv	_	6	obl	_	start_char=78|end_char=84
+9	ja	ja	CCONJ	C	_	11	cc	_	start_char=85|end_char=87
+10	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	11	obj	_	start_char=88|end_char=90
+11	säilytettiin	säilyttää	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	start_char=91|end_char=103
+12	pussissa	pussi	NOUN	N	Case=Ine|Number=Sing	11	obl	_	start_char=104|end_char=112
+13	muutaman	muutama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	14	det	_	start_char=113|end_char=121
+14	kuukauden	kuukausi	NOUN	N	Case=Gen|Number=Sing	15	nmod:poss	_	start_char=122|end_char=131
+15	ajan	aika	NOUN	N	Case=Gen|Number=Sing	11	obl	_	start_char=132|end_char=136
+16	.	.	PUNCT	Punct	_	6	punct	_	start_char=136|end_char=137
+
+# text = Otettuani ne esiin aloittaakseni niiden käytön uudelleen auto-onnettomuuden jälkeen, joka esti minut käyttämästä vapaita painoja, nauhat alkavat värjäytyä ja haalistua.
+# sent_id = 2
+1	Otettuani	ottaa	VERB	V	Case=Par|Number=Sing|Number[psor]=Sing|PartForm=Past|Person[psor]=1|VerbForm=Part|Voice=Pass	19	advcl	_	start_char=138|end_char=147
+2	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	1	obj	_	start_char=148|end_char=150
+3	esiin	esiin	ADV	Adv	_	1	advmod	_	start_char=151|end_char=156
+4	aloittaakseni	aloittaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=157|end_char=170
+5	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	6	nmod:gobj	_	start_char=171|end_char=177
+6	käytön	käyttö	NOUN	N	Case=Gen|Number=Sing	4	obj	_	start_char=178|end_char=184
+7	uudelleen	uudelleen	ADV	Adv	_	4	advmod	_	start_char=185|end_char=194
+8	auto-onnettomuuden	auto#onnettomuus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	4	obl	_	start_char=195|end_char=213
+9	jälkeen	jälkeen	ADP	Adp	AdpType=Post	8	case	_	start_char=214|end_char=221
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=221|end_char=222
+11	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	start_char=223|end_char=227
+12	esti	estää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=228|end_char=232
+13	minut	minä	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	start_char=233|end_char=238
+14	käyttämästä	käyttää	VERB	V	Case=Ela|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	12	xcomp:ds	_	start_char=239|end_char=250
+15	vapaita	vapaa	ADJ	A	Case=Par|Degree=Pos|Number=Plur	16	amod	_	start_char=251|end_char=258
+16	painoja	paina	NOUN	N	Case=Par|Number=Plur	14	obj	_	start_char=259|end_char=266
+17	,	,	PUNCT	Punct	_	12	punct	_	start_char=266|end_char=267
+18	nauhat	nauha	NOUN	N	Case=Nom|Number=Plur	19	nsubj	_	start_char=268|end_char=274
+19	alkavat	alkaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=275|end_char=282
+20	värjäytyä	värjäytyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=283|end_char=292
+21	ja	ja	CCONJ	C	_	22	cc	_	start_char=293|end_char=295
+22	haalistua	haalistua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	20	conj	_	start_char=296|end_char=305
+23	.	.	PUNCT	Punct	_	19	punct	_	start_char=305|end_char=306
+
+# text = Tekee minut hermostuneeksi, että kumin eheys heikkenee...
+# sent_id = 3
+1	Tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=307|end_char=312
+2	minut	minä	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=313|end_char=318
+3	hermostuneeksi	hermostua	VERB	V	Case=Tra|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	1	advcl	_	start_char=319|end_char=333
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=333|end_char=334
+5	että	että	SCONJ	C	_	8	mark	_	start_char=335|end_char=339
+6	kumin	kuma	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=340|end_char=345
+7	eheys	eheys	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	start_char=346|end_char=351
+8	heikkenee	heiketeä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=352|end_char=361
+9	...	...	PUNCT	Punct	_	1	punct	_	start_char=361|end_char=364
+

@@ -1,0 +1,87 @@
+# text = Vrijedna verzija Božićne priče
+# sent_id = 0
+1	Vrijedna	vrijedan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=16
+3	Božićne	božićni	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=17|end_char=24
+4	priče	priča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=25|end_char=30
+
+# text = Ovo je klasik Charlesa Dickensa Božićna priča s američkim dodatkom.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=31|end_char=34
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=35|end_char=37
+3	klasik	klasik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=38|end_char=44
+4	Charlesa	Charles	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=45|end_char=53
+5	Dickensa	Dickens	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	flat	_	start_char=54|end_char=62
+6	Božićna	božićni	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=63|end_char=70
+7	priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=71|end_char=76
+8	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=77|end_char=78
+9	američkim	američki	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=79|end_char=88
+10	dodatkom	dodatak	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	start_char=89|end_char=97
+11	.	.	PUNCT	Z	_	3	punct	_	start_char=97|end_char=98
+
+# text = Ova verzija uspješno hvata posljedice povijesti i osobnu ulogu u njoj.
+# sent_id = 2
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=99|end_char=102
+2	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=103|end_char=110
+3	uspješno	uspješno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=111|end_char=119
+4	hvata	hvatati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=120|end_char=125
+5	posljedice	posljedica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=126|end_char=136
+6	povijesti	povijest	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=137|end_char=146
+7	i	i	CCONJ	Cc	_	9	cc	_	start_char=147|end_char=148
+8	osobnu	osoban	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=149|end_char=155
+9	ulogu	uloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=156|end_char=161
+10	u	u	ADP	Sl	Case=Loc	11	case	_	start_char=162|end_char=163
+11	njoj	on	PRON	Pp3fsl	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod	_	start_char=164|end_char=168
+12	.	.	PUNCT	Z	_	4	punct	_	start_char=168|end_char=169
+
+# text = Daje ozbiljan uvid u izbore glavnog lika, baš kao i originalna "Božićna priča", ali ova verzija također pokazuje kako izbori jednog čovjeka utječu na one oko njega.
+# sent_id = 3
+1	Daje	davati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=170|end_char=174
+2	ozbiljan	ozbiljan	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=175|end_char=183
+3	uvid	uvid	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=184|end_char=188
+4	u	u	ADP	Sa	Case=Acc	5	case	_	start_char=189|end_char=190
+5	izbore	izbor	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	start_char=191|end_char=197
+6	glavnog	glavni	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=198|end_char=205
+7	lika	lika	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=206|end_char=210
+8	,	,	PUNCT	Z	_	15	punct	_	start_char=210|end_char=211
+9	baš	baš	PART	Qo	_	10	advmod	_	start_char=212|end_char=215
+10	kao	kao	SCONJ	Cs	_	15	case	_	start_char=216|end_char=219
+11	i	i	CCONJ	Cc	_	10	fixed	_	start_char=220|end_char=221
+12	originalna	originalan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=222|end_char=232
+13	"	"	PUNCT	Z	_	15	punct	_	start_char=233|end_char=234
+14	Božićna	božićni	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=234|end_char=241
+15	priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=242|end_char=247
+16	"	"	PUNCT	Z	_	15	punct	_	start_char=247|end_char=248
+17	,	,	PUNCT	Z	_	22	punct	_	start_char=248|end_char=249
+18	ali	ali	CCONJ	Cc	_	22	cc	_	start_char=250|end_char=253
+19	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	start_char=254|end_char=257
+20	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	start_char=258|end_char=265
+21	također	također	ADV	Rgp	Degree=Pos	22	advmod	_	start_char=266|end_char=273
+22	pokazuje	pokazivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=274|end_char=282
+23	kako	kako	SCONJ	Cs	_	27	mark	_	start_char=283|end_char=287
+24	izbori	izbor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	start_char=288|end_char=294
+25	jednog	jedan	NUM	Mlcmsg	Case=Gen|Gender=Masc|NumType=Card|Number=Sing	26	nummod	_	start_char=295|end_char=301
+26	čovjeka	čovjek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	start_char=302|end_char=309
+27	utječu	utjecati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	start_char=310|end_char=316
+28	na	na	ADP	Sa	Case=Acc	29	case	_	start_char=317|end_char=319
+29	one	onaj	DET	Pd-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	27	obl	_	start_char=320|end_char=323
+30	oko	oko	ADP	Sg	Case=Gen	31	case	_	start_char=324|end_char=327
+31	njega	on	PRON	Pp3msg	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nmod	_	start_char=328|end_char=333
+32	.	.	PUNCT	Z	_	1	punct	_	start_char=333|end_char=334
+
+# text = Preporučujem ovaj film svima koji prikupljaju različite verzije "Božićne priče".
+# sent_id = 4
+1	Preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=335|end_char=347
+2	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=348|end_char=352
+3	film	film	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=353|end_char=357
+4	svima	sav	ADJ	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	iobj	_	start_char=358|end_char=363
+5	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	6	nsubj	_	start_char=364|end_char=368
+6	prikupljaju	prikupljati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=369|end_char=380
+7	različite	različit	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=381|end_char=390
+8	verzije	verzija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=391|end_char=398
+9	"	"	PUNCT	Z	_	11	punct	_	start_char=399|end_char=400
+10	Božićne	božićni	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=400|end_char=407
+11	priče	priča	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	8	appos	_	start_char=408|end_char=413
+12	"	"	PUNCT	Z	_	11	punct	_	start_char=413|end_char=414
+13	.	.	PUNCT	Z	_	1	punct	_	start_char=414|end_char=415
+

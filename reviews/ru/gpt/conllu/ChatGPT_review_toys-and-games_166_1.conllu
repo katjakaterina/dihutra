@@ -1,0 +1,90 @@
+# text = Много ВЕСЕЛИЯ!!
+# sent_id = 0
+1	Много	много	ADV	_	Degree=Pos	2	nummod:gov	_	start_char=0|end_char=5
+2	ВЕСЕЛИЯ	веселия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=13
+3	!	!	PUNCT	_	_	2	punct	_	start_char=13|end_char=14
+4	!	!	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+
+# text = Очень ДЕШЕВО сделано!!!
+# sent_id = 1
+1	Очень	очень	ADV	_	Degree=Pos	3	advmod	_	start_char=16|end_char=21
+2	ДЕШЕВО	дешево	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	start_char=22|end_char=28
+3	сделано	делать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=29|end_char=36
+4	!	!	PUNCT	_	_	3	punct	_	start_char=36|end_char=37
+5	!	!	PUNCT	_	_	3	punct	_	start_char=37|end_char=38
+6	!	!	PUNCT	_	_	3	punct	_	start_char=38|end_char=39
+
+# text = У нас есть такая же игра, но она была сделана в 1967 году, мы просто подумали, что новая версия будет более соответствовать современным временам, но нам гораздо больше нравится старая!
+# sent_id = 2
+1	У	у	ADP	_	_	2	case	_	start_char=40|end_char=41
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	obl	_	start_char=42|end_char=45
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=46|end_char=50
+4	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=51|end_char=56
+5	же	же	PART	_	_	4	advmod	_	start_char=57|end_char=59
+6	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=60|end_char=64
+7	,	,	PUNCT	_	_	11	punct	_	start_char=64|end_char=65
+8	но	но	CCONJ	_	_	11	cc	_	start_char=66|end_char=68
+9	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	start_char=69|end_char=72
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=73|end_char=77
+11	сделана	делать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=78|end_char=85
+12	в	в	ADP	_	_	14	case	_	start_char=86|end_char=87
+13	1967	1967	ADJ	_	Degree=Pos	14	amod	_	start_char=88|end_char=92
+14	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=93|end_char=97
+15	,	,	PUNCT	_	_	18	punct	_	start_char=97|end_char=98
+16	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=99|end_char=101
+17	просто	просто	PART	_	_	18	advmod	_	start_char=102|end_char=108
+18	подумали	подумать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=109|end_char=117
+19	,	,	PUNCT	_	_	25	punct	_	start_char=117|end_char=118
+20	что	что	SCONJ	_	_	25	mark	_	start_char=119|end_char=122
+21	новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=123|end_char=128
+22	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	start_char=129|end_char=135
+23	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	start_char=136|end_char=141
+24	более	более	ADV	_	Degree=Cmp	25	advmod	_	start_char=142|end_char=147
+25	соответствовать	соответствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	ccomp	_	start_char=148|end_char=163
+26	современным	современный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	27	amod	_	start_char=164|end_char=175
+27	временам	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	25	iobj	_	start_char=176|end_char=184
+28	,	,	PUNCT	_	_	33	punct	_	start_char=184|end_char=185
+29	но	но	CCONJ	_	_	33	cc	_	start_char=186|end_char=188
+30	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	33	iobj	_	start_char=189|end_char=192
+31	гораздо	гораздо	ADV	_	Degree=Pos	32	advmod	_	start_char=193|end_char=200
+32	больше	больше	ADV	_	Degree=Cmp	33	advmod	_	start_char=201|end_char=207
+33	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	25	conj	_	start_char=208|end_char=216
+34	старая	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	nsubj	_	start_char=217|end_char=223
+35	!	!	PUNCT	_	_	3	punct	_	start_char=223|end_char=224
+
+# text = В этой версии плитки сделаны из картона, и подставка для фишек тоже сделана из очень дешевого картона!!
+# sent_id = 3
+1	В	в	ADP	_	_	3	case	_	start_char=225|end_char=226
+2	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=227|end_char=231
+3	версии	версия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=232|end_char=238
+4	плитки	плиток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	start_char=239|end_char=245
+5	сделаны	делать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=246|end_char=253
+6	из	из	ADP	_	_	7	case	_	start_char=254|end_char=256
+7	картона	картон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=257|end_char=264
+8	,	,	PUNCT	_	_	14	punct	_	start_char=264|end_char=265
+9	и	и	CCONJ	_	_	14	cc	_	start_char=266|end_char=267
+10	подставка	подставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	start_char=268|end_char=277
+11	для	для	ADP	_	_	12	case	_	start_char=278|end_char=281
+12	фишек	фишка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	start_char=282|end_char=287
+13	тоже	тоже	PART	_	_	14	advmod	_	start_char=288|end_char=292
+14	сделана	делать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	start_char=293|end_char=300
+15	из	из	ADP	_	_	18	case	_	start_char=301|end_char=303
+16	очень	очень	ADV	_	Degree=Pos	17	obl	_	start_char=304|end_char=309
+17	дешевого	дешевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=310|end_char=318
+18	картона	картон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=319|end_char=326
+19	!	!	PUNCT	_	_	18	punct	_	start_char=326|end_char=327
+20	!	!	PUNCT	_	_	5	punct	_	start_char=327|end_char=328
+
+# text = Мы просто подарили эту игру и сохранили нашу старую!
+# sent_id = 4
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=329|end_char=331
+2	просто	просто	PART	_	_	3	advmod	_	start_char=332|end_char=338
+3	подарили	дарить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=339|end_char=347
+4	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=348|end_char=351
+5	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=352|end_char=356
+6	и	и	CCONJ	_	_	7	cc	_	start_char=357|end_char=358
+7	сохранили	сохранить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=359|end_char=368
+8	нашу	наш	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	start_char=369|end_char=373
+9	старую	старый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	obj	_	start_char=374|end_char=380
+10	!	!	PUNCT	_	_	3	punct	_	start_char=380|end_char=381
+

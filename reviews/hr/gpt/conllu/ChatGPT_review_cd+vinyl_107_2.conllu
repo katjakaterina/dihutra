@@ -1,0 +1,74 @@
+# text = Nije vrijedno novca CD je stigao u izvrsnom stanju i brzo.
+# sent_id = 0
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=0|end_char=4
+2	vrijedno	vrijedan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=5|end_char=13
+3	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	obj	_	start_char=14|end_char=19
+4	CD	CD	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=20|end_char=22
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=23|end_char=25
+6	stigao	stići	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	csubj	_	start_char=26|end_char=32
+7	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=33|end_char=34
+8	izvrsnom	izvrstan	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=35|end_char=43
+9	stanju	stanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	start_char=44|end_char=50
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=51|end_char=52
+11	brzo	brzo	ADV	Rgp	Degree=Pos	9	conj	_	start_char=53|end_char=57
+12	.	.	PUNCT	Z	_	2	punct	_	start_char=57|end_char=58
+
+# text = Ova roba nije vrijedna novca.
+# sent_id = 1
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=59|end_char=62
+2	roba	roba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=63|end_char=67
+3	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=68|end_char=72
+4	vrijedna	vrijedan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=73|end_char=81
+5	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	start_char=82|end_char=87
+6	.	.	PUNCT	Z	_	4	punct	_	start_char=87|end_char=88
+
+# text = Previše originalne priče nedostaje s ciljem da se stisne na jednom CD-u.
+# sent_id = 2
+1	Previše	previše	DET	Rgp	Degree=Pos	3	det:numgov	_	start_char=89|end_char=96
+2	originalne	originalan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=97|end_char=107
+3	priče	priča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	start_char=108|end_char=113
+4	nedostaje	nedostajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=114|end_char=123
+5	s	sa	ADP	Si	Case=Ins	6	case	_	start_char=124|end_char=125
+6	ciljem	cilj	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	obl	_	start_char=126|end_char=132
+7	da	da	SCONJ	Cs	_	9	mark	_	start_char=133|end_char=135
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=136|end_char=138
+9	stisne	stisati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=139|end_char=145
+10	na	na	ADP	Sl	Case=Loc	12	case	_	start_char=146|end_char=148
+11	jednom	jedan	NUM	Mlcmsl	Case=Loc|Gender=Masc|NumType=Card|Number=Sing	12	nummod	_	start_char=149|end_char=155
+12	CD-u	CD	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=156|end_char=160
+13	.	.	PUNCT	Z	_	4	punct	_	start_char=160|end_char=161
+
+# text = Ostavit će vas s mnogo pitanja o tome kako je Sherlock Holmes došao do svojih rezultata.
+# sent_id = 3
+1	Ostavit	ostaviti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=162|end_char=169
+2	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=170|end_char=172
+3	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obj	_	start_char=173|end_char=176
+4	s	sa	ADP	Si	Case=Ins	6	case	_	start_char=177|end_char=178
+5	mnogo	mnogo	DET	Rgp	Degree=Pos	6	det:numgov	_	start_char=179|end_char=184
+6	pitanja	pitanje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	1	obl	_	start_char=185|end_char=192
+7	o	o	ADP	Sl	Case=Loc	8	case	_	start_char=193|end_char=194
+8	tome	taj	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	nmod	_	start_char=195|end_char=199
+9	kako	kako	SCONJ	Cs	_	13	mark	_	start_char=200|end_char=204
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=205|end_char=207
+11	Sherlock	Sherlock	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=208|end_char=216
+12	Holmes	Holmes	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	start_char=217|end_char=223
+13	došao	doći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	start_char=224|end_char=229
+14	do	do	ADP	Sg	Case=Gen	16	case	_	start_char=230|end_char=232
+15	svojih	svoj	DET	Px-mpg	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	start_char=233|end_char=239
+16	rezultata	rezultat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	start_char=240|end_char=249
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=249|end_char=250
+
+# text = Vaša maštovitost neće biti dovoljna da popuni praznine u naraciji.
+# sent_id = 4
+1	Vaša	vaš	DET	Ps1fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=251|end_char=255
+2	maštovitost	maštovitost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=256|end_char=267
+3	neće	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=268|end_char=272
+4	biti	biti	AUX	Van	VerbForm=Inf	5	cop	_	start_char=273|end_char=277
+5	dovoljna	dovoljan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=278|end_char=286
+6	da	da	SCONJ	Cs	_	7	mark	_	start_char=287|end_char=289
+7	popuni	popuniti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=290|end_char=296
+8	praznine	praznina	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	start_char=297|end_char=305
+9	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=306|end_char=307
+10	naraciji	naracija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	start_char=308|end_char=316
+11	.	.	PUNCT	Z	_	5	punct	_	start_char=316|end_char=317
+

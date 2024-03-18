@@ -1,0 +1,114 @@
+# text = Скучно.
+# sent_id = 0
+1	Скучно	скучный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=6
+2	.	.	PUNCT	_	_	1	punct	_	start_char=6|end_char=7
+
+# text = Ненавижу этот продукт.
+# sent_id = 1
+1	Ненавижу	ненавидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=16
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=17|end_char=21
+3	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=22|end_char=29
+4	.	.	PUNCT	_	_	1	punct	_	start_char=29|end_char=30
+
+# text = Предсказуемо.
+# sent_id = 2
+1	Предсказуемо	предсказуемый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=31|end_char=43
+2	.	.	PUNCT	_	_	1	punct	_	start_char=43|end_char=44
+
+# text = Не интересно.
+# sent_id = 3
+1	Не	не	PART	_	_	2	advmod	_	start_char=45|end_char=47
+2	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=48|end_char=57
+3	.	.	PUNCT	_	_	2	punct	_	start_char=57|end_char=58
+
+# text = Похоже, что это попытка создать быструю настройку настольной игры, но она больше похожа на какую-то навороченную кучу бессмыслицы.
+# sent_id = 4
+1	Похоже	похожий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=59|end_char=65
+2	,	,	PUNCT	_	_	5	punct	_	start_char=65|end_char=66
+3	что	что	SCONJ	_	_	5	mark	_	start_char=67|end_char=70
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=71|end_char=74
+5	попытка	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	start_char=75|end_char=82
+6	создать	создать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	obl	_	start_char=83|end_char=90
+7	быструю	быстрый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=91|end_char=98
+8	настройку	настройка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=99|end_char=108
+9	настольной	настольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=109|end_char=119
+10	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=120|end_char=124
+11	,	,	PUNCT	_	_	15	punct	_	start_char=124|end_char=125
+12	но	но	CCONJ	_	_	15	cc	_	start_char=126|end_char=128
+13	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=129|end_char=132
+14	больше	больше	ADV	_	Degree=Cmp	15	obl	_	start_char=133|end_char=139
+15	похожа	похожий	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	5	conj	_	start_char=140|end_char=146
+16	на	на	ADP	_	_	19	case	_	start_char=147|end_char=149
+17	какую-то	какой-то	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	19	det	_	start_char=150|end_char=158
+18	навороченную	наворотить	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	start_char=159|end_char=171
+19	кучу	куча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=172|end_char=176
+20	бессмыслицы	бессмыслица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=177|end_char=188
+21	.	.	PUNCT	_	_	1	punct	_	start_char=188|end_char=189
+
+# text = Часто я думал: "Это похоже на бой в D&D.
+# sent_id = 5
+1	Часто	часто	ADV	_	Degree=Pos	3	advmod	_	start_char=190|end_char=195
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=196|end_char=197
+3	думал	думать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=198|end_char=203
+4	:	:	PUNCT	_	_	7	punct	_	start_char=203|end_char=204
+5	"	"	PUNCT	_	_	7	punct	_	start_char=205|end_char=206
+6	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=206|end_char=209
+7	похоже	похожий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	parataxis	_	start_char=210|end_char=216
+8	на	на	ADP	_	_	9	case	_	start_char=217|end_char=219
+9	бой	бой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=220|end_char=223
+10	в	в	ADP	_	_	9	case	_	start_char=224|end_char=225
+11	D&D	D&D	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=226|end_char=229
+12	.	.	PUNCT	_	_	3	punct	_	start_char=229|end_char=230
+
+# text = Просто шучу".
+# sent_id = 6
+1	Просто	просто	PART	_	_	2	advmod	_	start_char=231|end_char=237
+2	шучу	шучить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=238|end_char=242
+3	"	"	PUNCT	_	_	2	punct	_	start_char=242|end_char=243
+4	.	.	PUNCT	_	_	2	punct	_	start_char=243|end_char=244
+
+# text = Мы больше не играли в нее после первой партии.
+# sent_id = 7
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	start_char=245|end_char=247
+2	больше	больше	ADV	_	Degree=Cmp	3	advmod	_	start_char=248|end_char=254
+3	не	не	PART	_	_	4	advmod	_	start_char=255|end_char=257
+4	играли	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=258|end_char=264
+5	в	в	ADP	_	_	6	case	_	start_char=265|end_char=266
+6	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=267|end_char=270
+7	после	после	ADP	_	_	9	case	_	start_char=271|end_char=276
+8	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=277|end_char=283
+9	партии	партия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=284|end_char=290
+10	.	.	PUNCT	_	_	4	punct	_	start_char=290|end_char=291
+
+# text = Не рекомендую для старших групп игроков, которые предпочитают настольные и карточные игры, такие как "Талисман" и "7 чудес" и "Вознесение".
+# sent_id = 8
+1	Не	не	PART	_	_	2	advmod	_	start_char=292|end_char=294
+2	рекомендую	рекоменуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=295|end_char=305
+3	для	для	ADP	_	_	5	case	_	start_char=306|end_char=309
+4	старших	старший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=310|end_char=317
+5	групп	группа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	start_char=318|end_char=323
+6	игроков	игрок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=324|end_char=331
+7	,	,	PUNCT	_	_	9	punct	_	start_char=331|end_char=332
+8	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	9	nsubj	_	start_char=333|end_char=340
+9	предпочитают	предпочитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=341|end_char=353
+10	настольные	настольный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	start_char=354|end_char=364
+11	и	и	CCONJ	_	_	12	cc	_	start_char=365|end_char=366
+12	карточные	карточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	conj	_	start_char=367|end_char=376
+13	игры	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	start_char=377|end_char=381
+14	,	,	PUNCT	_	_	15	punct	_	start_char=381|end_char=382
+15	такие	такой	DET	_	Case=Acc|Number=Plur|PronType=Dem	13	det	_	start_char=383|end_char=388
+16	как	как	SCONJ	_	_	18	mark	_	start_char=389|end_char=392
+17	"	"	PUNCT	_	_	18	punct	_	start_char=393|end_char=394
+18	Талисман	талисман	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	obl	_	start_char=394|end_char=402
+19	"	"	PUNCT	_	_	18	punct	_	start_char=402|end_char=403
+20	и	и	CCONJ	_	_	23	cc	_	start_char=404|end_char=405
+21	"	"	PUNCT	_	_	23	punct	_	start_char=406|end_char=407
+22	7	7	NUM	_	NumType=Card	23	nummod	_	start_char=407|end_char=408
+23	чудес	чудо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	conj	_	start_char=409|end_char=414
+24	"	"	PUNCT	_	_	23	punct	_	start_char=414|end_char=415
+25	и	и	CCONJ	_	_	27	cc	_	start_char=416|end_char=417
+26	"	"	PUNCT	_	_	27	punct	_	start_char=418|end_char=419
+27	Вознесение	вознесение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	conj	_	start_char=419|end_char=429
+28	"	"	PUNCT	_	_	27	punct	_	start_char=429|end_char=430
+29	.	.	PUNCT	_	_	2	punct	_	start_char=430|end_char=431
+

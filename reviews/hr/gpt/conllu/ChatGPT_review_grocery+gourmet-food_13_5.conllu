@@ -1,0 +1,83 @@
+# text = Hvala Bogu što su skupi.
+# sent_id = 0
+1	Hvala	hvala	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=5
+2	Bogu	Bog	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	start_char=6|end_char=10
+3	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	5	nsubj	_	start_char=11|end_char=14
+4	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=15|end_char=17
+5	skupi	skup	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	ccomp	_	start_char=18|end_char=23
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=23|end_char=24
+
+# text = Da, ovo je jedna od najskupljih slatkiša, jer dolazi samo kao uvoz.
+# sent_id = 1
+1	Da	da	PART	Qr	Polarity=Pos	8	discourse	_	start_char=25|end_char=27
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=27|end_char=28
+3	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=29|end_char=32
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=33|end_char=35
+5	jedna	jedan	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	8	nummod:gov	_	start_char=36|end_char=41
+6	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=42|end_char=44
+7	najskupljih	dka	ADJ	Agsmpgy	Case=Gen|Definite=Def|Degree=Sup|Gender=Masc|Number=Plur	8	amod	_	start_char=45|end_char=56
+8	slatkiša	slatkiš	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	start_char=57|end_char=65
+9	,	,	PUNCT	Z	_	11	punct	_	start_char=65|end_char=66
+10	jer	jer	SCONJ	Cs	_	11	mark	_	start_char=67|end_char=70
+11	dolazi	dolaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=71|end_char=77
+12	samo	samo	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=78|end_char=82
+13	kao	kao	SCONJ	Cs	_	14	case	_	start_char=83|end_char=86
+14	uvoz	uvoz	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	start_char=87|end_char=91
+15	.	.	PUNCT	Z	_	8	punct	_	start_char=91|end_char=92
+
+# text = Ali, dragi Bože, koliko su ovi dobri.
+# sent_id = 2
+1	Ali	ali	CCONJ	Cc	_	9	cc	_	start_char=93|end_char=96
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=96|end_char=97
+3	dragi	drag	ADJ	Agpmsvy	Case=Voc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=98|end_char=103
+4	Bože	Bog	PROPN	Npmsv	Case=Voc|Gender=Masc|Number=Sing	9	nsubj	_	start_char=104|end_char=108
+5	,	,	PUNCT	Z	_	4	punct	_	start_char=108|end_char=109
+6	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	9	advmod	_	start_char=110|end_char=116
+7	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=117|end_char=119
+8	ovi	ovaj	DET	Pd-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	9	nsubj	_	start_char=120|end_char=123
+9	dobri	dobar	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=124|end_char=129
+10	.	.	PUNCT	Z	_	9	punct	_	start_char=129|end_char=130
+
+# text = Ljudi iz KitKat tvrtke stvarno bi mogli dobro zaraditi ako bi počeli prodavati ovo u SAD-u.
+# sent_id = 3
+1	Ljudi	čovjek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=131|end_char=136
+2	iz	iz	ADP	Sg	Case=Gen	4	case	_	start_char=137|end_char=139
+3	KitKat	KitKat	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=140|end_char=146
+4	tvrtke	tvrtka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=147|end_char=153
+5	stvarno	stvarno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=154|end_char=161
+6	bi	biti	AUX	Vaa3p	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=162|end_char=164
+7	mogli	moći	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=165|end_char=170
+8	dobro	dobro	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=171|end_char=176
+9	zaraditi	zaraditi	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=177|end_char=185
+10	ako	ako	SCONJ	Cs	_	12	mark	_	start_char=186|end_char=189
+11	bi	biti	AUX	Vaa3p	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	start_char=190|end_char=192
+12	počeli	početi	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=193|end_char=199
+13	prodavati	prodavati	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=200|end_char=209
+14	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obj	_	start_char=210|end_char=213
+15	u	u	ADP	Sl	Case=Loc	16	case	_	start_char=214|end_char=215
+16	SAD-u	SAD	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	start_char=216|end_char=221
+17	.	.	PUNCT	Z	_	7	punct	_	start_char=221|end_char=222
+
+# text = Jednom kad ih probate, jedva čekate nove.
+# sent_id = 4
+1	Jednom	jednom	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=223|end_char=229
+2	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	advmod	_	start_char=230|end_char=233
+3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=234|end_char=236
+4	probate	probati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=237|end_char=244
+5	,	,	PUNCT	Z	_	4	punct	_	start_char=244|end_char=245
+6	jedva	jedva	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=246|end_char=251
+7	čekate	čekati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=252|end_char=258
+8	nove	nov	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	7	obj	_	start_char=259|end_char=263
+9	.	.	PUNCT	Z	_	7	punct	_	start_char=263|end_char=264
+
+# text = Tako ukusni i brza dostava te svježina.
+# sent_id = 5
+1	Tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	2	advmod	_	start_char=265|end_char=269
+2	ukusni	ukusan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=270|end_char=276
+3	i	i	CCONJ	Cc	_	4	cc	_	start_char=277|end_char=278
+4	brza	brz	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=279|end_char=283
+5	dostava	dostava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=284|end_char=291
+6	te	te	CCONJ	Cc	_	7	cc	_	start_char=292|end_char=294
+7	svježina	svježina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	start_char=295|end_char=303
+8	.	.	PUNCT	Z	_	5	punct	_	start_char=303|end_char=304
+

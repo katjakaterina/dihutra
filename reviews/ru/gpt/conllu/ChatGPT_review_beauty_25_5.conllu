@@ -1,0 +1,72 @@
+# text = "Единственное тональное средство, которое я использую!"
+# sent_id = 0
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1
+2	Единственное	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=1|end_char=13
+3	тональное	тональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=14|end_char=23
+4	средство	средство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=24|end_char=32
+5	,	,	PUNCT	_	_	8	punct	_	start_char=32|end_char=33
+6	которое	который	PRON	_	Case=Acc|PronType=Int,Rel	8	obj	_	start_char=34|end_char=41
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=42|end_char=43
+8	использую	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=44|end_char=53
+9	!	!	PUNCT	_	_	4	punct	_	start_char=53|end_char=54
+10	"	"	PUNCT	_	_	4	punct	_	start_char=54|end_char=55
+
+# text = Больше нельзя купить его в местных магазинах, и оно действительно долго держится и выполняет свою функцию.
+# sent_id = 1
+1	Больше	больше	ADV	_	Degree=Cmp	2	advmod	_	start_char=56|end_char=62
+2	нельзя	нельзя	ADV	_	Degree=Pos	0	root	_	start_char=63|end_char=69
+3	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=70|end_char=76
+4	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=77|end_char=80
+5	в	в	ADP	_	_	7	case	_	start_char=81|end_char=82
+6	местных	местный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	start_char=83|end_char=90
+7	магазинах	магазин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	start_char=91|end_char=100
+8	,	,	PUNCT	_	_	13	punct	_	start_char=100|end_char=101
+9	и	и	CCONJ	_	_	13	cc	_	start_char=102|end_char=103
+10	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=104|end_char=107
+11	действительно	действительно	ADV	_	Degree=Pos	12	advmod	_	start_char=108|end_char=121
+12	долго	долго	ADV	_	Degree=Pos	13	advmod	_	start_char=122|end_char=127
+13	держится	держаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=128|end_char=136
+14	и	и	CCONJ	_	_	15	cc	_	start_char=137|end_char=138
+15	выполняет	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=139|end_char=148
+16	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	start_char=149|end_char=153
+17	функцию	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=154|end_char=161
+18	.	.	PUNCT	_	_	2	punct	_	start_char=161|end_char=162
+
+# text = Оно не растекается под жарким солнцем Флориды и достаточно легкое, чтобы выглядеть естественно, но при этом обеспечивать достаточное покрытие.
+# sent_id = 2
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=163|end_char=166
+2	не	не	PART	_	_	3	advmod	_	start_char=167|end_char=169
+3	растекается	растекаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=170|end_char=181
+4	под	под	ADP	_	_	6	case	_	start_char=182|end_char=185
+5	жарким	жаркий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=186|end_char=192
+6	солнцем	солнце	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	start_char=193|end_char=200
+7	Флориды	Флорида	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=201|end_char=208
+8	и	и	CCONJ	_	_	10	cc	_	start_char=209|end_char=210
+9	достаточно	достаточно	ADV	_	Degree=Pos	10	obl	_	start_char=211|end_char=221
+10	легкое	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	start_char=222|end_char=228
+11	,	,	PUNCT	_	_	13	punct	_	start_char=228|end_char=229
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	13	mark	_	start_char=230|end_char=235
+13	выглядеть	выглядеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	advcl	_	start_char=236|end_char=245
+14	естественно	естественно	ADV	_	Degree=Pos	13	advmod	_	start_char=246|end_char=257
+15	,	,	PUNCT	_	_	19	punct	_	start_char=257|end_char=258
+16	но	но	CCONJ	_	_	19	cc	_	start_char=259|end_char=261
+17	при	при	ADP	_	_	18	case	_	start_char=262|end_char=265
+18	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	start_char=266|end_char=270
+19	обеспечивать	обеспечивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	conj	_	start_char=271|end_char=283
+20	достаточное	достаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	start_char=284|end_char=295
+21	покрытие	покрытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	start_char=296|end_char=304
+22	.	.	PUNCT	_	_	3	punct	_	start_char=304|end_char=305
+
+# text = Я использую это уже около 5-6 лет.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=306|end_char=307
+2	использую	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=308|end_char=317
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=318|end_char=321
+4	уже	уже	ADV	_	Degree=Pos	9	obl	_	start_char=322|end_char=325
+5	около	около	ADP	_	_	9	case	_	start_char=326|end_char=331
+6	5	5	NUM	_	NumType=Card	9	nummod	_	start_char=332|end_char=333
+7	-	-	PUNCT	_	_	8	punct	_	start_char=333|end_char=334
+8	6	6	NUM	_	NumType=Card	6	nmod	_	start_char=334|end_char=335
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=336|end_char=339
+10	.	.	PUNCT	_	_	2	punct	_	start_char=339|end_char=340
+

@@ -1,0 +1,103 @@
+# text = Не для холмов Не уверен, как я упустил этот важный момент, но упустил.
+# sent_id = 0
+1	Не	не	PART	_	_	3	advmod	_	start_char=0|end_char=2
+2	для	для	ADP	_	_	3	case	_	start_char=3|end_char=6
+3	холмов	холм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	start_char=7|end_char=13
+4	Не	не	PART	_	_	5	advmod	_	start_char=14|end_char=16
+5	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=17|end_char=23
+6	,	,	PUNCT	_	_	9	punct	_	start_char=23|end_char=24
+7	как	как	SCONJ	_	_	9	mark	_	start_char=25|end_char=28
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=29|end_char=30
+9	упустил	упустить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=31|end_char=38
+10	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=39|end_char=43
+11	важный	важный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=44|end_char=50
+12	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=51|end_char=57
+13	,	,	PUNCT	_	_	15	punct	_	start_char=57|end_char=58
+14	но	но	CCONJ	_	_	15	cc	_	start_char=59|end_char=61
+15	упустил	упустить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=62|end_char=69
+16	.	.	PUNCT	_	_	5	punct	_	start_char=69|end_char=70
+
+# text = Также я не вижу, чтобы Scott's четко об этом говорил.
+# sent_id = 1
+1	Также	также	ADV	_	Degree=Pos	4	advmod	_	start_char=71|end_char=76
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=77|end_char=78
+3	не	не	PART	_	_	4	advmod	_	start_char=79|end_char=81
+4	вижу	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=82|end_char=86
+5	,	,	PUNCT	_	_	11	punct	_	start_char=86|end_char=87
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	11	mark	_	start_char=88|end_char=93
+7	Scott's	Scott's	PROPN	_	Foreign=Yes	11	nsubj	_	start_char=94|end_char=101
+8	четко	четко	ADV	_	Degree=Pos	11	advmod	_	start_char=102|end_char=107
+9	об	о	ADP	_	_	10	case	_	start_char=108|end_char=110
+10	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	11	obl	_	start_char=111|end_char=115
+11	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=116|end_char=123
+12	.	.	PUNCT	_	_	4	punct	_	start_char=123|end_char=124
+
+# text = Эта конкретная модель с четырьмя колесами делает её почти непригодной для использования на холмах.
+# sent_id = 2
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=125|end_char=128
+2	конкретная	конкретный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=129|end_char=139
+3	модель	модель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=140|end_char=146
+4	с	с	ADP	_	_	6	case	_	start_char=147|end_char=148
+5	четырьмя	четыре	NUM	_	Case=Ins|NumType=Card	6	nummod	_	start_char=149|end_char=157
+6	колесами	колесо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	start_char=158|end_char=166
+7	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=167|end_char=173
+8	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=174|end_char=176
+9	почти	почти	ADV	_	Degree=Pos	10	obl	_	start_char=177|end_char=182
+10	непригодной	непригодный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	start_char=183|end_char=194
+11	для	для	ADP	_	_	12	case	_	start_char=195|end_char=198
+12	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	start_char=199|end_char=212
+13	на	на	ADP	_	_	14	case	_	start_char=213|end_char=215
+14	холмах	холм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	start_char=216|end_char=222
+15	.	.	PUNCT	_	_	7	punct	_	start_char=222|end_char=223
+
+# text = У неё просто нет необходимого момента для кошения травы.
+# sent_id = 3
+1	У	у	ADP	_	_	2	case	_	start_char=224|end_char=225
+2	неё	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl	_	start_char=226|end_char=229
+3	просто	просто	PART	_	_	4	advmod	_	start_char=230|end_char=236
+4	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=237|end_char=240
+5	необходимого	необходимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=241|end_char=253
+6	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	start_char=254|end_char=261
+7	для	для	ADP	_	_	8	case	_	start_char=262|end_char=265
+8	кошения	кошение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=266|end_char=273
+9	травы	трава	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=274|end_char=279
+10	.	.	PUNCT	_	_	4	punct	_	start_char=279|end_char=280
+
+# text = Так что я возвращаюсь к газонокосилке.
+# sent_id = 4
+1	Так	так	ADV	_	Degree=Pos	4	mark	_	start_char=281|end_char=284
+2	что	что	SCONJ	_	_	1	fixed	_	start_char=285|end_char=288
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=289|end_char=290
+4	возвращаюсь	возвращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=291|end_char=302
+5	к	к	ADP	_	_	6	case	_	start_char=303|end_char=304
+6	газонокосилке	газонокосилка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	start_char=305|end_char=318
+7	.	.	PUNCT	_	_	4	punct	_	start_char=318|end_char=319
+
+# text = Однако скажу, что она хорошо справляется с кошением на плоских поверхностях, но для толчка требуется немного больше усилий, чем я думал.
+# sent_id = 5
+1	Однако	однако	ADV	_	Degree=Pos	2	advmod	_	start_char=320|end_char=326
+2	скажу	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=327|end_char=332
+3	,	,	PUNCT	_	_	7	punct	_	start_char=332|end_char=333
+4	что	что	SCONJ	_	_	7	mark	_	start_char=334|end_char=337
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=338|end_char=341
+6	хорошо	хорошо	ADV	_	Degree=Pos	7	advmod	_	start_char=342|end_char=348
+7	справляется	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	ccomp	_	start_char=349|end_char=360
+8	с	с	ADP	_	_	9	case	_	start_char=361|end_char=362
+9	кошением	кошение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	obl	_	start_char=363|end_char=371
+10	на	на	ADP	_	_	12	case	_	start_char=372|end_char=374
+11	плоских	плоский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	start_char=375|end_char=382
+12	поверхностях	поверхность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	start_char=383|end_char=395
+13	,	,	PUNCT	_	_	17	punct	_	start_char=395|end_char=396
+14	но	но	CCONJ	_	_	17	cc	_	start_char=397|end_char=399
+15	для	для	ADP	_	_	16	case	_	start_char=400|end_char=403
+16	толчка	толчка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	start_char=404|end_char=410
+17	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	start_char=411|end_char=420
+18	немного	немного	ADV	_	Degree=Pos	19	advmod	_	start_char=421|end_char=428
+19	больше	больше	ADV	_	Degree=Cmp	17	nsubj	_	start_char=429|end_char=435
+20	усилий	усилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	obl	_	start_char=436|end_char=442
+21	,	,	PUNCT	_	_	24	punct	_	start_char=442|end_char=443
+22	чем	чем	SCONJ	_	_	24	mark	_	start_char=444|end_char=447
+23	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	start_char=448|end_char=449
+24	думал	думать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	start_char=450|end_char=455
+25	.	.	PUNCT	_	_	2	punct	_	start_char=455|end_char=456
+

@@ -1,0 +1,68 @@
+# text = Suosittelen kokeilemaan kaverit.
+# sent_id = 0
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=11
+2	kokeilemaan	kokeilla	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=12|end_char=23
+3	kaverit	kaveri	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=24|end_char=31
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=31|end_char=32
+
+# text = Rakastan kaikkea Macely-linjaa.
+# sent_id = 1
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=33|end_char=41
+2	kaikkea	kaikki	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	3	det	_	start_char=42|end_char=49
+3	Macely-linjaa	Macely#linja	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=50|end_char=63
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=63|end_char=64
+
+# text = En yleensä vaivaudu kirjoittamaan arvosteluja tuotteista, mutta tätä en yksinkertaisesti voinut jättää väliin.
+# sent_id = 2
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=65|end_char=67
+2	yleensä	yleensä	ADV	Adv	_	3	advmod	_	start_char=68|end_char=75
+3	vaivaudu	vaivautua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=76|end_char=84
+4	kirjoittamaan	kirjoittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=85|end_char=98
+5	arvosteluja	arvostelu	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=99|end_char=110
+6	tuotteista	tuote	NOUN	N	Case=Ela|Number=Plur	5	nmod	_	start_char=111|end_char=121
+7	,	,	PUNCT	Punct	_	13	punct	_	start_char=121|end_char=122
+8	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=123|end_char=128
+9	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	13	obj	_	start_char=129|end_char=133
+10	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	start_char=134|end_char=136
+11	yksinkertaisesti	yksinkertaisesti	ADV	Adv	Derivation=Sti	13	advmod	_	start_char=137|end_char=153
+12	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	13	aux	_	start_char=154|end_char=160
+13	jättää	jättää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=161|end_char=167
+14	väliin	väliin	ADV	Adv	_	13	compound:prt	_	start_char=168|end_char=174
+15	.	.	PUNCT	Punct	_	3	punct	_	start_char=174|end_char=175
+
+# text = Minulla on sekaiho, joka kuivuu ja joissain osissa todella rasvoittuu.
+# sent_id = 3
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=176|end_char=183
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=184|end_char=186
+3	sekaiho	sekaiho	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=187|end_char=194
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=194|end_char=195
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=196|end_char=200
+6	kuivuu	kuivua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=201|end_char=207
+7	ja	ja	CCONJ	C	_	11	cc	_	start_char=208|end_char=210
+8	joissain	jokin	PRON	Pron	Case=Ine|Number=Plur|PronType=Ind	9	det	_	start_char=211|end_char=219
+9	osissa	osa	NOUN	N	Case=Ine|Number=Plur	11	obl	_	start_char=220|end_char=226
+10	todella	todella	ADV	Adv	_	11	advmod	_	start_char=227|end_char=234
+11	rasvoittuu	rasvoittua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=235|end_char=245
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=245|end_char=246
+
+# text = Rakastan tätä tuotetta.
+# sent_id = 4
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=247|end_char=255
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	det	_	start_char=256|end_char=260
+3	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=261|end_char=269
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=269|end_char=270
+
+# text = Suosittelen kokeilemaan kaverit.
+# sent_id = 5
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=271|end_char=282
+2	kokeilemaan	kokeilla	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=283|end_char=294
+3	kaverit	kaveri	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=295|end_char=302
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=302|end_char=303
+
+# text = Rakastan kaikkea Macely-linjaa.
+# sent_id = 6
+1	Rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=304|end_char=312
+2	kaikkea	kaikki	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	3	det	_	start_char=313|end_char=320
+3	Macely-linjaa	Macely#linja	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=321|end_char=334
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=334|end_char=335
+

@@ -1,0 +1,111 @@
+# text = Älä tuhlaa rahojasi.
+# sent_id = 0
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=3
+2	tuhlaa	tuhlata	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=10
+3	rahojasi	raha	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	start_char=11|end_char=19
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=19|end_char=20
+
+# text = Tämä ei ole rahasi arvoista.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=21|end_char=25
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=26|end_char=28
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=29|end_char=32
+4	rahasi	raha	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nmod:poss	_	start_char=33|end_char=39
+5	arvoista	arvoinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=40|end_char=48
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=48|end_char=49
+
+# text = Doug käy läpi jokaisen kappaleen noin kolmessa tai neljässä minuutissa, mutta hän ei anna sinulle aikaa oppia sitä.
+# sent_id = 2
+1	Doug	Doug	PROPN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=50|end_char=54
+2	käy	käydä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=55|end_char=58
+3	läpi	läpi	ADV	Adv	_	2	compound:prt	_	start_char=59|end_char=63
+4	jokaisen	jokainen	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	5	det	_	start_char=64|end_char=72
+5	kappaleen	kappale	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=73|end_char=82
+6	noin	noin	ADV	Adv	_	7	advmod	_	start_char=83|end_char=87
+7	kolmessa	kolme	NUM	Num	Case=Ine|NumType=Card|Number=Sing	10	nummod	_	start_char=88|end_char=96
+8	tai	tai	CCONJ	C	_	9	cc	_	start_char=97|end_char=100
+9	neljässä	neljä	NUM	Num	Case=Ine|NumType=Card|Number=Sing	7	conj	_	start_char=101|end_char=109
+10	minuutissa	minuutti	NOUN	N	Case=Ine|Number=Sing	2	obl	_	start_char=110|end_char=120
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=120|end_char=121
+12	mutta	mutta	CCONJ	C	_	15	cc	_	start_char=122|end_char=127
+13	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=128|end_char=131
+14	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=132|end_char=134
+15	anna	antaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=135|end_char=139
+16	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	15	obl	_	start_char=140|end_char=147
+17	aikaa	aika	NOUN	N	Case=Par|Number=Sing	15	obj	_	start_char=148|end_char=153
+18	oppia	oppia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	acl	_	start_char=154|end_char=159
+19	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	18	obj	_	start_char=160|end_char=164
+20	.	.	PUNCT	Punct	_	2	punct	_	start_char=164|end_char=165
+
+# text = Ellet ole jo oppinut litteroimaan (ja miksi sitten ostaa tämä DVD? ), joudut kelaamaan miljoona kertaa taaksepäin saadaksesi oikeat nuotit.
+# sent_id = 3
+1	Ellet	ellä	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=166|end_char=171
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=172|end_char=175
+3	jo	jo	ADV	Adv	_	4	advmod	_	start_char=176|end_char=178
+4	oppinut	oppia	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=179|end_char=186
+5	litteroimaan	litteroida	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=187|end_char=199
+6	(	(	PUNCT	Punct	_	10	punct	_	start_char=200|end_char=201
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=201|end_char=203
+8	miksi	miksi	ADV	Adv	_	10	advmod	_	start_char=204|end_char=209
+9	sitten	sitten	ADV	Adv	_	10	advmod	_	start_char=210|end_char=216
+10	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	conj	_	start_char=217|end_char=222
+11	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	det	_	start_char=223|end_char=227
+12	DVD?	DVD?	SYM	Symb	_	10	obj	_	start_char=228|end_char=232
+13	)	)	PUNCT	Punct	_	10	punct	_	start_char=233|end_char=234
+14	,	,	PUNCT	Punct	_	15	punct	_	start_char=234|end_char=235
+15	joudut	joutua	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=236|end_char=242
+16	kelaamaan	kelata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=243|end_char=252
+17	miljoona	miljoona	NUM	Num	Case=Nom|NumType=Card|Number=Sing	18	nummod	_	start_char=253|end_char=261
+18	kertaa	kerta	NOUN	N	Case=Par|Number=Sing	16	obl	_	start_char=262|end_char=268
+19	taaksepäin	taaksepäin	ADV	Adv	_	16	advmod	_	start_char=269|end_char=279
+20	saadaksesi	saada	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	16	advcl	_	start_char=280|end_char=290
+21	oikeat	oikea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	start_char=291|end_char=297
+22	nuotit	nuotti	NOUN	N	Case=Nom|Number=Plur	20	obj	_	start_char=298|end_char=304
+23	.	.	PUNCT	Punct	_	4	punct	_	start_char=304|end_char=305
+
+# text = Tämä ei ole sen parempi kuin youtube-video, jossa joku soittaa clapton-kappaleita.
+# sent_id = 4
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=305|end_char=309
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=310|end_char=312
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=313|end_char=316
+4	sen	sen	ADV	Adv	_	5	advmod	_	start_char=317|end_char=320
+5	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	start_char=321|end_char=328
+6	kuin	kuin	SCONJ	C	_	7	mark	_	start_char=329|end_char=333
+7	youtube-video	youtube#video	NOUN	N	Case=Nom|Number=Sing	5	advcl	_	start_char=334|end_char=347
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=347|end_char=348
+9	jossa	joka	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	11	obl	_	start_char=349|end_char=354
+10	joku	joku	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=355|end_char=359
+11	soittaa	soittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=360|end_char=367
+12	clapton-kappaleita	clapton#kappale	NOUN	N	Case=Par|Number=Plur	11	obj	_	start_char=368|end_char=386
+13	.	.	PUNCT	Punct	_	5	punct	_	start_char=386|end_char=387
+
+# text = Doug ei edes näytä sinulle rytmiä tai muita kitaran osia. !
+# sent_id = 5
+1	Doug	Doug	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=387|end_char=391
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=392|end_char=394
+3	edes	edes	ADV	Adv	_	4	advmod	_	start_char=395|end_char=399
+4	näytä	näyttää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=400|end_char=405
+5	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	4	obl	_	start_char=406|end_char=413
+6	rytmiä	rytmi	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=414|end_char=420
+7	tai	tai	CCONJ	C	_	10	cc	_	start_char=421|end_char=424
+8	muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	10	det	_	start_char=425|end_char=430
+9	kitaran	kitara	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=431|end_char=438
+10	osia	osa	NOUN	N	Case=Par|Number=Plur	6	conj	_	start_char=439|end_char=443
+11	.	.	PUNCT	Punct	_	4	punct	_	start_char=443|end_char=444
+12	!	!	PUNCT	Punct	_	4	punct	_	start_char=445|end_char=446
+
+# text = Tiedät vain johdon!
+# sent_id = 6
+1	Tiedät	tietää	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=447|end_char=453
+2	vain	vain	ADV	Adv	_	1	advmod	_	start_char=454|end_char=458
+3	johdon	johto	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=459|end_char=465
+4	!	!	PUNCT	Punct	_	1	punct	_	start_char=465|end_char=466
+
+# text = Mitä järkeä siinä on?
+# sent_id = 7
+1	Mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	2	det	_	start_char=467|end_char=471
+2	järkeä	järki	NOUN	N	Case=Par|Number=Sing	3	nsubj:cop	_	start_char=472|end_char=478
+3	siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=479|end_char=484
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=485|end_char=487
+5	?	?	PUNCT	Punct	_	3	punct	_	start_char=487|end_char=488
+

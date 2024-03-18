@@ -1,0 +1,101 @@
+# text = Мы все знаем текст, но эта книга - маленькая версия оригинала.
+# sent_id = 0
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
+2	все	все	PRON	_	Animacy=Inan|Case=Nom|Number=Plur|PronType=Tot	3	advmod	_	start_char=3|end_char=6
+3	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=12
+4	текст	текст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=13|end_char=18
+5	,	,	PUNCT	_	_	11	punct	_	start_char=18|end_char=19
+6	но	но	CCONJ	_	_	11	cc	_	start_char=20|end_char=22
+7	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=23|end_char=26
+8	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=27|end_char=32
+9	-	-	PUNCT	_	_	8	punct	_	start_char=33|end_char=34
+10	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=35|end_char=44
+11	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=45|end_char=51
+12	оригинала	оригинал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=52|end_char=61
+13	.	.	PUNCT	_	_	3	punct	_	start_char=61|end_char=62
+
+# text = Я заказал ее, и когда открыл, был очень разочарован, увидев, что это не тот стандарт, который я ожидал.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=63|end_char=64
+2	заказал	заказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=65|end_char=72
+3	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=73|end_char=75
+4	,	,	PUNCT	_	_	11	punct	_	start_char=75|end_char=76
+5	и	и	CCONJ	_	_	11	cc	_	start_char=77|end_char=78
+6	когда	когда	SCONJ	_	_	7	mark	_	start_char=79|end_char=84
+7	открыл	открыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=85|end_char=91
+8	,	,	PUNCT	_	_	7	punct	_	start_char=91|end_char=92
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=93|end_char=96
+10	очень	очень	ADV	_	Degree=Pos	11	obl	_	start_char=97|end_char=102
+11	разочарован	разочарованный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=103|end_char=114
+12	,	,	PUNCT	_	_	13	punct	_	start_char=114|end_char=115
+13	увидев	видеть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	start_char=116|end_char=122
+14	,	,	PUNCT	_	_	19	punct	_	start_char=122|end_char=123
+15	что	что	SCONJ	_	_	19	mark	_	start_char=124|end_char=127
+16	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	_	start_char=128|end_char=131
+17	не	не	PART	_	_	18	advmod	_	start_char=132|end_char=134
+18	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	start_char=135|end_char=138
+19	стандарт	стандарт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	ccomp	_	start_char=139|end_char=147
+20	,	,	PUNCT	_	_	23	punct	_	start_char=147|end_char=148
+21	который	который	PRON	_	Case=Acc|PronType=Int,Rel	23	obj	_	start_char=149|end_char=156
+22	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	start_char=157|end_char=158
+23	ожидал	ожидать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	start_char=159|end_char=165
+24	.	.	PUNCT	_	_	2	punct	_	start_char=165|end_char=166
+
+# text = Затем я вернулся, чтобы убедиться, не упустил ли что-то в описании по размерам, но не нашел никаких упоминаний об этом.
+# sent_id = 2
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	start_char=167|end_char=172
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=173|end_char=174
+3	вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=175|end_char=183
+4	,	,	PUNCT	_	_	6	punct	_	start_char=183|end_char=184
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=185|end_char=190
+6	убедиться	убедиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	advcl	_	start_char=191|end_char=200
+7	,	,	PUNCT	_	_	9	punct	_	start_char=200|end_char=201
+8	не	не	PART	_	_	9	advmod	_	start_char=202|end_char=204
+9	упустил	упустить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=205|end_char=212
+10	ли	ли	PART	_	_	9	advmod	_	start_char=213|end_char=215
+11	что-то	что-то	PRON	_	Case=Nom|PronType=Ind	9	nsubj	_	start_char=216|end_char=222
+12	в	в	ADP	_	_	13	case	_	start_char=223|end_char=224
+13	описании	описание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	obl	_	start_char=225|end_char=233
+14	по	по	ADP	_	_	15	case	_	start_char=234|end_char=236
+15	размерам	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	start_char=237|end_char=245
+16	,	,	PUNCT	_	_	19	punct	_	start_char=245|end_char=246
+17	но	но	CCONJ	_	_	19	cc	_	start_char=247|end_char=249
+18	не	не	PART	_	_	19	advmod	_	start_char=250|end_char=252
+19	нашел	найти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=253|end_char=258
+20	никаких	никакой	DET	_	Case=Gen|Number=Plur|PronType=Neg	21	det	_	start_char=259|end_char=266
+21	упоминаний	упоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	obl	_	start_char=267|end_char=277
+22	об	о	ADP	_	_	23	case	_	start_char=278|end_char=280
+23	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	21	nmod	_	start_char=281|end_char=285
+24	.	.	PUNCT	_	_	3	punct	_	start_char=285|end_char=286
+
+# text = На позитивной ноте, политика возврата Amazon - потрясающая.
+# sent_id = 3
+1	На	на	ADP	_	_	3	case	_	start_char=287|end_char=289
+2	позитивной	позитивный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=290|end_char=300
+3	ноте	нота	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	parataxis	_	start_char=301|end_char=305
+4	,	,	PUNCT	_	_	3	punct	_	start_char=305|end_char=306
+5	политика	политика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=307|end_char=315
+6	возврата	возврат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=316|end_char=324
+7	Amazon	Amazon	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=325|end_char=331
+8	-	-	PUNCT	_	_	5	punct	_	start_char=332|end_char=333
+9	потрясающая	потрясающий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=334|end_char=345
+10	.	.	PUNCT	_	_	9	punct	_	start_char=345|end_char=346
+
+# text = Немедленное возвращение средств при уведомлении о проблеме, и возврат товара был очень прост.
+# sent_id = 4
+1	Немедленное	немедленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=347|end_char=358
+2	возвращение	возвращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=359|end_char=370
+3	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	start_char=371|end_char=378
+4	при	при	ADP	_	_	5	case	_	start_char=379|end_char=382
+5	уведомлении	уведомление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	start_char=383|end_char=394
+6	о	о	ADP	_	_	7	case	_	start_char=395|end_char=396
+7	проблеме	проблема	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	start_char=397|end_char=405
+8	,	,	PUNCT	_	_	14	punct	_	start_char=405|end_char=406
+9	и	и	CCONJ	_	_	14	cc	_	start_char=407|end_char=408
+10	возврат	возврат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=409|end_char=416
+11	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=417|end_char=423
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	start_char=424|end_char=427
+13	очень	очень	ADV	_	Degree=Pos	14	obl	_	start_char=428|end_char=433
+14	прост	простой	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=434|end_char=439
+15	.	.	PUNCT	_	_	2	punct	_	start_char=439|end_char=440
+

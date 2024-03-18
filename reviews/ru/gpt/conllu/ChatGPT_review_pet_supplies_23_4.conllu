@@ -1,0 +1,62 @@
+# text = Feathered Phonics, том 1 Этот компакт-диск - хорошая идея для обучения птицы разговаривать, но на нем есть слова, которые никогда не произносятся у нас в доме, так зачем их учить птицу.
+# sent_id = 0
+1	Feathered	Feathered	PROPN	_	Foreign=Yes	12	nsubj	_	start_char=0|end_char=9
+2	Phonics	Phonics	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=10|end_char=17
+3	,	,	PUNCT	_	_	4	punct	_	start_char=17|end_char=18
+4	том	то	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	conj	_	start_char=19|end_char=22
+5	1	1	NUM	_	NumType=Card	4	nummod:entity	_	start_char=23|end_char=24
+6	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=25|end_char=29
+7	компакт	компакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	compound	_	start_char=30|end_char=37
+8	-	-	PUNCT	_	_	7	punct	_	start_char=37|end_char=38
+9	диск	диск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=38|end_char=42
+10	-	-	PUNCT	_	_	1	punct	_	start_char=43|end_char=44
+11	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=45|end_char=52
+12	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=53|end_char=57
+13	для	для	ADP	_	_	14	case	_	start_char=58|end_char=61
+14	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=62|end_char=70
+15	птицы	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=71|end_char=76
+16	разговаривать	разговаривать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	obl	_	start_char=77|end_char=90
+17	,	,	PUNCT	_	_	20	punct	_	start_char=90|end_char=91
+18	но	но	CCONJ	_	_	20	cc	_	start_char=92|end_char=94
+19	на	на	ADP	_	_	20	case	_	start_char=95|end_char=97
+20	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	conj	_	start_char=98|end_char=101
+21	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	start_char=102|end_char=106
+22	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	20	nsubj	_	start_char=107|end_char=112
+23	,	,	PUNCT	_	_	27	punct	_	start_char=112|end_char=113
+24	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	27	nsubj:pass	_	start_char=114|end_char=121
+25	никогда	никогда	ADV	_	Degree=Pos	27	advmod	_	start_char=122|end_char=129
+26	не	не	PART	_	_	27	advmod	_	start_char=130|end_char=132
+27	произносятся	произносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	acl:relcl	_	start_char=133|end_char=145
+28	у	у	ADP	_	_	29	case	_	start_char=146|end_char=147
+29	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	27	obl	_	start_char=148|end_char=151
+30	в	в	ADP	_	_	31	case	_	start_char=152|end_char=153
+31	доме	дом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	start_char=154|end_char=158
+32	,	,	PUNCT	_	_	36	punct	_	start_char=158|end_char=159
+33	так	так	ADV	_	Degree=Pos	36	advmod	_	start_char=160|end_char=163
+34	зачем	зачем	ADV	_	Degree=Pos	33	fixed	_	start_char=164|end_char=169
+35	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	36	obj	_	start_char=170|end_char=172
+36	учить	учить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	advcl	_	start_char=173|end_char=178
+37	птицу	птица	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	36	obj	_	start_char=179|end_char=184
+38	.	.	PUNCT	_	_	12	punct	_	start_char=184|end_char=185
+
+# text = Я поищу другие варианты компакт-дисков и попробую найти тот, в котором будут другие слова.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=186|end_char=187
+2	поищу	поитить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=188|end_char=193
+3	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	start_char=194|end_char=200
+4	варианты	вариант	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=201|end_char=209
+5	компакт	компакт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	compound	_	start_char=210|end_char=217
+6	-	-	PUNCT	_	_	5	punct	_	start_char=217|end_char=218
+7	дисков	диск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=218|end_char=224
+8	и	и	CCONJ	_	_	9	cc	_	start_char=225|end_char=226
+9	попробую	пробовать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	start_char=227|end_char=235
+10	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=236|end_char=241
+11	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=242|end_char=245
+12	,	,	PUNCT	_	_	14	punct	_	start_char=245|end_char=246
+13	в	в	ADP	_	_	14	case	_	start_char=247|end_char=248
+14	котором	который	PRON	_	Case=Loc|PronType=Int,Rel	11	acl:relcl	_	start_char=249|end_char=256
+15	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=257|end_char=262
+16	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	start_char=263|end_char=269
+17	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	start_char=270|end_char=275
+18	.	.	PUNCT	_	_	2	punct	_	start_char=275|end_char=276
+

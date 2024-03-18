@@ -1,0 +1,55 @@
+# text = Ok, työkalu tekee saman kuin tavallinen lyöntityökalu.
+# sent_id = 0
+1	Ok	ok	INTJ	Interj	_	4	discourse	_	start_char=0|end_char=2
+2	,	,	PUNCT	Punct	_	1	punct	_	start_char=2|end_char=3
+3	työkalu	työ#kalu	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=4|end_char=11
+4	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=17
+5	saman	sama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	4	obj	_	start_char=18|end_char=23
+6	kuin	kuin	SCONJ	C	_	8	mark	_	start_char=24|end_char=28
+7	tavallinen	tavallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	8	amod	_	start_char=29|end_char=39
+8	lyöntityökalu	lyönti#työ#kalu	NOUN	N	Case=Nom|Number=Sing	5	advcl	_	start_char=40|end_char=53
+9	.	.	PUNCT	Punct	_	4	punct	_	start_char=53|end_char=54
+
+# text = Ostin tämän ajatellen, että ehkä tarvitsen erikoistyökalun helpottaakseni lippaani pohjalevyjen irrottamista, mutta se tekee saman kuin tavallinen lyöntityökalu.
+# sent_id = 1
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=55|end_char=60
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=61|end_char=66
+3	ajatellen	ajatella	VERB	V	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=67|end_char=76
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=76|end_char=77
+5	että	että	SCONJ	C	_	7	mark	_	start_char=78|end_char=82
+6	ehkä	ehkä	ADV	Adv	_	7	advmod	_	start_char=83|end_char=87
+7	tarvitsen	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=88|end_char=97
+8	erikoistyökalun	erikois#työ#kalu	NOUN	N	Case=Gen|Number=Sing	7	obj	_	start_char=98|end_char=113
+9	helpottaakseni	helpottaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=114|end_char=128
+10	lippaani	lippaa	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	obj	_	start_char=129|end_char=137
+11	pohjalevyjen	pohja#levy	NOUN	N	Case=Gen|Number=Plur	12	nmod:gobj	_	start_char=138|end_char=150
+12	irrottamista	irrottaminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	9	obj	_	start_char=151|end_char=163
+13	,	,	PUNCT	Punct	_	16	punct	_	start_char=163|end_char=164
+14	mutta	mutta	CCONJ	C	_	16	cc	_	start_char=165|end_char=170
+15	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	16	nsubj	_	start_char=171|end_char=173
+16	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=174|end_char=179
+17	saman	sama	PRON	Pron	Case=Gen|Number=Sing|PronType=Ind	16	obj	_	start_char=180|end_char=185
+18	kuin	kuin	SCONJ	C	_	20	mark	_	start_char=186|end_char=190
+19	tavallinen	tavallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	20	amod	_	start_char=191|end_char=201
+20	lyöntityökalu	lyönti#työ#kalu	NOUN	N	Case=Nom|Number=Sing	17	advcl	_	start_char=202|end_char=215
+21	.	.	PUNCT	Punct	_	1	punct	_	start_char=215|end_char=216
+
+# text = Glock-lippojen pohjalevyjen irrottaminen on hankalaa.
+# sent_id = 2
+1	Glock-lippojen	Gloc#lippa	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	start_char=217|end_char=231
+2	pohjalevyjen	pohja#levy	NOUN	N	Case=Gen|Number=Plur	3	nmod:gobj	_	start_char=232|end_char=244
+3	irrottaminen	irrottaminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	5	nsubj:cop	_	start_char=245|end_char=257
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=258|end_char=260
+5	hankalaa	hankala	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=261|end_char=269
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=269|end_char=270
+
+# text = Työkalu ei oikeastaan tee mitään eroa.
+# sent_id = 3
+1	Työkalu	työkalu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	4	nsubj	_	start_char=271|end_char=278
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=279|end_char=281
+3	oikeastaan	oikeastaan	ADV	Adv	_	4	advmod	_	start_char=282|end_char=292
+4	tee	tehdä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=293|end_char=296
+5	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	6	det	_	start_char=297|end_char=303
+6	eroa	ero	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=304|end_char=308
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=308|end_char=309
+

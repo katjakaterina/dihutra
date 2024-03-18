@@ -1,0 +1,63 @@
+# text = Morsian avuksi!
+# sent_id = 0
+1	Morsian	morsia	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=7
+2	avuksi	apu	NOUN	N	Case=Tra|Derivation=U|Number=Sing	1	nmod	_	start_char=8|end_char=14
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=14|end_char=15
+
+# text = Tämä kirja on erittäin inspiraatioa tarjoava, jos etsit kakkua, joka on ainutlaatuinen tai jos et vain tiedä, mikä on tyylisi.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=16|end_char=20
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=21|end_char=26
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=27|end_char=29
+4	erittäin	erittäin	ADV	Adv	Derivation=Ttain	5	advmod	_	start_char=30|end_char=38
+5	inspiraatioa	inspiraatio	NOUN	N	Case=Par|Number=Sing	6	advcl	_	start_char=39|end_char=51
+6	tarjoava	tarjota	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	0	root	_	start_char=52|end_char=60
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=60|end_char=61
+8	jos	jos	SCONJ	C	_	9	mark	_	start_char=62|end_char=65
+9	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=66|end_char=71
+10	kakkua	kakku	NOUN	N	Case=Par|Number=Sing	9	obj	_	start_char=72|end_char=78
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=78|end_char=79
+12	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	14	nsubj:cop	_	start_char=80|end_char=84
+13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	start_char=85|end_char=87
+14	ainutlaatuinen	ainutlaatuinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	10	acl:relcl	_	start_char=88|end_char=102
+15	tai	tai	CCONJ	C	_	19	cc	_	start_char=103|end_char=106
+16	jos	jos	SCONJ	C	_	19	mark	_	start_char=107|end_char=110
+17	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	19	aux	_	start_char=111|end_char=113
+18	vain	vain	ADV	Adv	_	19	advmod	_	start_char=114|end_char=118
+19	tiedä	tietää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	start_char=119|end_char=124
+20	,	,	PUNCT	Punct	_	21	punct	_	start_char=124|end_char=125
+21	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	19	ccomp	_	start_char=126|end_char=130
+22	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	start_char=131|end_char=133
+23	tyylisi	tyyli	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	21	nsubj:cop	_	start_char=134|end_char=141
+24	.	.	PUNCT	Punct	_	6	punct	_	start_char=141|end_char=142
+
+# text = Kirjan etuosa auttaa sinua valitsemaan tyylisi, ja takaosa esittelee tietoja näytetyistä kakuista.
+# sent_id = 2
+1	Kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=143|end_char=149
+2	etuosa	etu#osa	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=150|end_char=156
+3	auttaa	auttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=157|end_char=163
+4	sinua	sinä	PRON	Pron	Case=Par|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	start_char=164|end_char=169
+5	valitsemaan	valita	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp:ds	_	start_char=170|end_char=181
+6	tyylisi	tyyli	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obj	_	start_char=182|end_char=189
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=189|end_char=190
+8	ja	ja	CCONJ	C	_	10	cc	_	start_char=191|end_char=193
+9	takaosa	taka#osa	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	start_char=194|end_char=201
+10	esittelee	esitellä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=202|end_char=211
+11	tietoja	tieto	NOUN	N	Case=Par|Number=Plur	10	obj	_	start_char=212|end_char=219
+12	näytetyistä	näyttää	VERB	V	Case=Ela|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	13	acl	_	start_char=220|end_char=231
+13	kakuista	kaku	NOUN	N	Case=Ela|Number=Plur	11	nmod	_	start_char=232|end_char=240
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=240|end_char=241
+
+# text = Esim. montako ihmistä ne palvelevat, reseptit, jne.
+# sent_id = 3
+1	Esim.	esim.	ADV	Adv	Abbr=Yes	3	advmod	_	start_char=242|end_char=247
+2	montako	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Int	3	det	_	start_char=248|end_char=255
+3	ihmistä	ihminen	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=256|end_char=263
+4	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	5	nsubj	_	start_char=264|end_char=266
+5	palvelevat	palvella	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=267|end_char=277
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=277|end_char=278
+7	reseptit	resepti	NOUN	N	Case=Nom|Number=Plur	5	conj	_	start_char=279|end_char=287
+8	,	,	PUNCT	Punct	_	9	punct	_	start_char=287|end_char=288
+9	jne	jne.	ADV	Adv	Abbr=Yes	5	advmod	_	start_char=289|end_char=292
+10	.	.	PUNCT	Punct	_	5	punct	_	start_char=292|end_char=293
+

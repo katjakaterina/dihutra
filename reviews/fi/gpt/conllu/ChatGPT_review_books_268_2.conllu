@@ -1,0 +1,89 @@
+# text = Kaikki tunnemme tekstin, mutta tämä kirja on pieni versio alkuperäisestä.
+# sent_id = 0
+1	Kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=0|end_char=6
+2	tunnemme	tuntea	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=15
+3	tekstin	teksti	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=16|end_char=23
+4	,	,	PUNCT	Punct	_	10	punct	_	start_char=23|end_char=24
+5	mutta	mutta	CCONJ	C	_	10	cc	_	start_char=25|end_char=30
+6	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	det	_	start_char=31|end_char=35
+7	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	10	nsubj:cop	_	start_char=36|end_char=41
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=42|end_char=44
+9	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	start_char=45|end_char=50
+10	versio	versio	NOUN	N	Case=Nom|Number=Sing	2	conj	_	start_char=51|end_char=57
+11	alkuperäisestä	alku#peräinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Inen|Number=Sing	10	nmod	_	start_char=58|end_char=72
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=72|end_char=73
+
+# text = Tilasin sen, ja kun avasin sen, olin erittäin pettynyt huomatessani, ettei se ole se teollisuusstandardi, jonka tiesin.
+# sent_id = 1
+1	Tilasin	tilata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=74|end_char=81
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=82|end_char=85
+3	,	,	PUNCT	Punct	_	11	punct	_	start_char=85|end_char=86
+4	ja	ja	CCONJ	C	_	11	cc	_	start_char=87|end_char=89
+5	kun	kun	SCONJ	C	_	6	mark	_	start_char=90|end_char=93
+6	avasin	avata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=94|end_char=100
+7	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	obj	_	start_char=101|end_char=104
+8	,	,	PUNCT	Punct	_	6	punct	_	start_char=104|end_char=105
+9	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=106|end_char=110
+10	erittäin	erittäin	ADV	Adv	Derivation=Ttain	11	advmod	_	start_char=111|end_char=119
+11	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=120|end_char=128
+12	huomatessani	huomata	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	11	advcl	_	start_char=129|end_char=141
+13	,	,	PUNCT	Punct	_	19	punct	_	start_char=141|end_char=142
+14-15	ettei	_	_	_	_	_	_	_	start_char=143|end_char=148
+14	että	että	SCONJ	C	_	19	mark	_	_
+15	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	aux	_	_
+16	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	19	nsubj:cop	_	start_char=149|end_char=151
+17	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=152|end_char=155
+18	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	19	det	_	start_char=156|end_char=158
+19	teollisuusstandardi	teollisuus#tandardi	NOUN	N	Case=Nom|Number=Sing	12	ccomp	_	start_char=159|end_char=178
+20	,	,	PUNCT	Punct	_	22	punct	_	start_char=178|end_char=179
+21	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	22	obj	_	start_char=180|end_char=185
+22	tiesin	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	start_char=186|end_char=192
+23	.	.	PUNCT	Punct	_	1	punct	_	start_char=192|end_char=193
+
+# text = Sitten palasin tarkistamaan, olinko jättänyt jotain koon suhteen huomaamatta kuvauksessa, mutta en löytänyt viittausta siihen.
+# sent_id = 2
+1	Sitten	sitten	ADV	Adv	_	2	advmod	_	start_char=194|end_char=200
+2	palasin	palata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=201|end_char=208
+3	tarkistamaan	tarkistaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=209|end_char=221
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=221|end_char=222
+5	olinko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	start_char=223|end_char=229
+6	jättänyt	jättää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	ccomp	_	start_char=230|end_char=238
+7	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	6	obj	_	start_char=239|end_char=245
+8	koon	koko	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=246|end_char=250
+9	suhteen	suhteen	ADP	Adp	AdpType=Post	8	case	_	start_char=251|end_char=258
+10	huomaamatta	huomata	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=259|end_char=270
+11	kuvauksessa	kuvaus	NOUN	N	Case=Ine|Number=Sing	10	obl	_	start_char=271|end_char=282
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=282|end_char=283
+13	mutta	mutta	CCONJ	C	_	15	cc	_	start_char=284|end_char=289
+14	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=290|end_char=292
+15	löytänyt	löytää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	conj	_	start_char=293|end_char=301
+16	viittausta	viittaus	NOUN	N	Case=Par|Number=Sing	15	obj	_	start_char=302|end_char=312
+17	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	16	nmod	_	start_char=313|end_char=319
+18	.	.	PUNCT	Punct	_	2	punct	_	start_char=319|end_char=320
+
+# text = Positiivisena asiana Amazonin palautuskäytäntö on hämmästyttävä.
+# sent_id = 3
+1	Positiivisena	positiivinen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=321|end_char=334
+2	asiana	asia	NOUN	N	Case=Ess|Number=Sing	6	obl	_	start_char=335|end_char=341
+3	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=342|end_char=350
+4	palautuskäytäntö	palautus#käytäntö	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=351|end_char=367
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=368|end_char=370
+6	hämmästyttävä	hämmästyttävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=371|end_char=384
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=384|end_char=385
+
+# text = Välitön hyvitys, kun ilmoitin ongelmasta, ja palautuslähetys oli erittäin helppoa.
+# sent_id = 4
+1	Välitön	välitön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	2	amod	_	start_char=386|end_char=393
+2	hyvitys	hyvitys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=394|end_char=401
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=401|end_char=402
+4	kun	kun	SCONJ	C	_	5	mark	_	start_char=403|end_char=406
+5	ilmoitin	ilmoittaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=407|end_char=415
+6	ongelmasta	ongelma	NOUN	N	Case=Ela|Number=Sing	5	obl	_	start_char=416|end_char=426
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=426|end_char=427
+8	ja	ja	CCONJ	C	_	12	cc	_	start_char=428|end_char=430
+9	palautuslähetys	palautus#lähetys	NOUN	N	Case=Nom|Number=Sing	12	nsubj:cop	_	start_char=431|end_char=446
+10	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=447|end_char=450
+11	erittäin	erittäin	ADV	Adv	Derivation=Ttain	12	advmod	_	start_char=451|end_char=459
+12	helppoa	helppo	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	conj	_	start_char=460|end_char=467
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=467|end_char=468
+

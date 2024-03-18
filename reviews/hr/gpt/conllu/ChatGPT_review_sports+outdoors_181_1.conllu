@@ -1,0 +1,73 @@
+# text = """Vrlo jeftin proizvod loše izrade."
+# sent_id = 0
+1	"	"	PUNCT	Z	_	6	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	6	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	6	punct	_	start_char=2|end_char=3
+4	Vrlo	vrlo	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=3|end_char=7
+5	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=8|end_char=14
+6	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=15|end_char=23
+7	loše	loš	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=24|end_char=28
+8	izrade	izrada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=29|end_char=35
+9	.	.	PUNCT	Z	_	6	punct	_	start_char=35|end_char=36
+10	"	"	PUNCT	Z	_	6	punct	_	start_char=36|end_char=37
+
+# text = Dok pišem ovu recenziju, ovaj proizvod se raspada, većina izrade je zalijepljena i zalijepljena dvostranom trakom koja se ne lijepi, a ovaj predmet još nije niti korišten.
+# sent_id = 1
+1	Dok	dok	SCONJ	Cs	_	2	mark	_	start_char=38|end_char=41
+2	pišem	pisati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=42|end_char=47
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=48|end_char=51
+4	recenziju	recenzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=52|end_char=61
+5	,	,	PUNCT	Z	_	2	punct	_	start_char=61|end_char=62
+6	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=63|end_char=67
+7	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=68|end_char=76
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=77|end_char=79
+9	raspada	raspadati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=80|end_char=87
+10	,	,	PUNCT	Z	_	14	punct	_	start_char=87|end_char=88
+11	većina	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=89|end_char=95
+12	izrade	izrada	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=96|end_char=102
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=103|end_char=105
+14	zalijepljena	zalijepiti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	conj	_	start_char=106|end_char=118
+15	i	i	CCONJ	Cc	_	16	cc	_	start_char=119|end_char=120
+16	zalijepljena	zalijepiti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	start_char=121|end_char=133
+17	dvostranom	dvostran	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=134|end_char=144
+18	trakom	traka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	14	obl	_	start_char=145|end_char=151
+19	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	22	nsubj	_	start_char=152|end_char=156
+20	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	22	expl	_	start_char=157|end_char=159
+21	ne	ne	PART	Qz	Polarity=Neg	22	advmod	_	start_char=160|end_char=162
+22	lijepi	lijep	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	18	acl	_	start_char=163|end_char=169
+23	,	,	PUNCT	Z	_	30	punct	_	start_char=169|end_char=170
+24	a	a	CCONJ	Cc	_	30	cc	_	start_char=171|end_char=172
+25	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	26	det	_	start_char=173|end_char=177
+26	predmet	predmet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	start_char=178|end_char=185
+27	još	još	ADV	Rgp	Degree=Pos	30	advmod	_	start_char=186|end_char=189
+28	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	30	cop	_	start_char=190|end_char=194
+29	niti	niti	PART	Qz	Polarity=Neg	30	discourse	_	start_char=195|end_char=199
+30	korišten	korišten	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	start_char=200|end_char=208
+31	.	.	PUNCT	Z	_	9	punct	_	start_char=208|end_char=209
+
+# text = Nisam čak imao/la priliku koristiti ovaj proizvod kako bih mogao nastaviti s popravcima.
+# sent_id = 2
+1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=210|end_char=215
+2	čak	čak	PART	Qo	_	3	discourse	_	start_char=216|end_char=219
+3	imao/la	imao/ti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=220|end_char=227
+4	priliku	prilika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=228|end_char=235
+5	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	4	acl	_	start_char=236|end_char=245
+6	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=246|end_char=250
+7	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=251|end_char=259
+8	kako	kako	SCONJ	Cs	_	10	mark	_	start_char=260|end_char=264
+9	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	start_char=265|end_char=268
+10	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=269|end_char=274
+11	nastaviti	nastaviti	VERB	Vmn	VerbForm=Inf	10	xcomp	_	start_char=275|end_char=284
+12	s	sa	ADP	Si	Case=Ins	13	case	_	start_char=285|end_char=286
+13	popravcima	popravac	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	11	obl	_	start_char=287|end_char=297
+14	.	.	PUNCT	Z	_	3	punct	_	start_char=297|end_char=298
+
+# text = Vrlo nezadovoljan/na ovim proizvodom."
+# sent_id = 3
+1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=299|end_char=303
+2	nezadovoljan/na	nezadovoljan/an	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=304|end_char=319
+3	ovim	ovaj	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=320|end_char=324
+4	proizvodom	proizvod	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	obl	_	start_char=325|end_char=335
+5	.	.	PUNCT	Z	_	2	punct	_	start_char=335|end_char=336
+6	"	"	PUNCT	Z	_	2	punct	_	start_char=336|end_char=337
+

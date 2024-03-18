@@ -1,0 +1,98 @@
+# text = Groomer koulutuksessa Harjoittelen tällä hetkellä trimmaajaksi/lemmikkistylistiksi, ja tämä on kirja, jota yritykseni käyttää trimmausakatemiassaan kouluttaakseen kaikkia trimmaajia.
+# sent_id = 0
+1	Groomer	Groomer	PROPN	N	Case=Nom|Number=Sing	3	obj	_	start_char=0|end_char=7
+2	koulutuksessa	koulutus	NOUN	N	Case=Ine|Number=Sing	3	obl	_	start_char=8|end_char=21
+3	Harjoittelen	harjoitella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=22|end_char=34
+4	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	5	det	_	start_char=35|end_char=40
+5	hetkellä	hetki	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=41|end_char=49
+6	trimmaajaksi	trimmaaja	NOUN	N	Case=Tra|Number=Sing	3	xcomp:ds	_	start_char=50|end_char=62
+7	/	/	PUNCT	Punct	_	8	punct	_	start_char=62|end_char=63
+8	lemmikkistylistiksi	lemmikkistylisti	NOUN	N	Case=Tra|Number=Sing	6	conj	_	start_char=63|end_char=82
+9	,	,	PUNCT	Punct	_	13	punct	_	start_char=82|end_char=83
+10	ja	ja	CCONJ	C	_	13	cc	_	start_char=84|end_char=86
+11	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	start_char=87|end_char=91
+12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=92|end_char=94
+13	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=95|end_char=100
+14	,	,	PUNCT	Punct	_	17	punct	_	start_char=100|end_char=101
+15	jota	joka	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	17	obj	_	start_char=102|end_char=106
+16	yritykseni	yritys	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	17	nsubj	_	start_char=107|end_char=117
+17	käyttää	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=118|end_char=125
+18	trimmausakatemiassaan	trimmaus#akatemia	NOUN	N	Case=Ine|Number=Sing|Person[psor]=3	17	obl	_	start_char=126|end_char=147
+19	kouluttaakseen	kouluttaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	17	advcl	_	start_char=148|end_char=162
+20	kaikkia	kaikki	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	21	det	_	start_char=163|end_char=170
+21	trimmaajia	trimmaajaja	NOUN	N	Case=Par|Number=Plur	19	obj	_	start_char=171|end_char=181
+22	.	.	PUNCT	Punct	_	3	punct	_	start_char=181|end_char=182
+
+# text = Se on ihanaa.
+# sent_id = 1
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=183|end_char=185
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=186|end_char=188
+3	ihanaa	ihana	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=189|end_char=195
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=195|end_char=196
+
+# text = On erittäin hyödyllistä tietää, että voit kääntää tämän kirjan mitä tahansa sivua ja löytää etsimäsi koirarodun.
+# sent_id = 2
+1	On	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=197|end_char=199
+2	erittäin	erittäin	ADV	Adv	Derivation=Ttain	3	advmod	_	start_char=200|end_char=208
+3	hyödyllistä	hyödyllinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=209|end_char=220
+4	tietää	tietää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	csubj:cop	_	start_char=221|end_char=227
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=227|end_char=228
+6	että	että	SCONJ	C	_	8	mark	_	start_char=229|end_char=233
+7	voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=234|end_char=238
+8	kääntää	kääntää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	ccomp	_	start_char=239|end_char=246
+9	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	det	_	start_char=247|end_char=252
+10	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	8	obj	_	start_char=253|end_char=259
+11	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	13	det	_	start_char=260|end_char=264
+12	tahansa	tahansa	ADV	Adv	_	11	fixed	_	start_char=265|end_char=272
+13	sivua	sivu	NOUN	N	Case=Par|Number=Sing	8	obj	_	start_char=273|end_char=278
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=279|end_char=281
+15	löytää	löytää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	conj	_	start_char=282|end_char=288
+16	etsimäsi	etsiä	VERB	V	Case=Gen|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	17	acl	_	start_char=289|end_char=297
+17	koirarodun	koira#rotu	NOUN	N	Case=Gen|Number=Sing	15	obj	_	start_char=298|end_char=308
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=308|end_char=309
+
+# text = On myös yleisiä ohjeita, jotka koskevat monia rotuja (esim. nallekarhujen päät jne.).
+# sent_id = 3
+1	On	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=310|end_char=312
+2	myös	myös	ADV	Adv	_	4	advmod	_	start_char=313|end_char=317
+3	yleisiä	yleinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	4	amod	_	start_char=318|end_char=325
+4	ohjeita	ohje	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=326|end_char=333
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=333|end_char=334
+6	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	7	nsubj	_	start_char=335|end_char=340
+7	koskevat	koskea	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=341|end_char=349
+8	monia	moni	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	9	det	_	start_char=350|end_char=355
+9	rotuja	rotu	NOUN	N	Case=Par|Number=Plur	7	obj	_	start_char=356|end_char=362
+10	(	(	PUNCT	Punct	_	13	punct	_	start_char=363|end_char=364
+11	esim.	esim.	ADV	Adv	Abbr=Yes	13	advmod	_	start_char=364|end_char=369
+12	nallekarhujen	nalle#karhut	NOUN	N	Case=Gen|Number=Plur	13	nmod:poss	_	start_char=370|end_char=383
+13	päät	pää	NOUN	N	Case=Nom|Number=Plur	9	appos	_	start_char=384|end_char=388
+14	jne	jne.	ADV	Adv	Abbr=Yes	13	advmod	_	start_char=389|end_char=392
+15	.	.	PUNCT	Punct	_	13	punct	_	start_char=392|end_char=393
+16	)	)	PUNCT	Punct	_	13	punct	_	start_char=393|end_char=394
+17	.	.	PUNCT	Punct	_	4	punct	_	start_char=394|end_char=395
+
+# text = Ohjeet ovat yksinkertaiset, mutta riittävän yksityiskohtaiset, jotta kuka tahansa voi ymmärtää.
+# sent_id = 4
+1	Ohjeet	ohje	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=396|end_char=402
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=403|end_char=407
+3	yksinkertaiset	yksinkertainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	0	root	_	start_char=408|end_char=422
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=422|end_char=423
+5	mutta	mutta	CCONJ	C	_	7	cc	_	start_char=424|end_char=429
+6	riittävän	riittävä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	_	start_char=430|end_char=439
+7	yksityiskohtaiset	yksityis#kohtainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	3	conj	_	start_char=440|end_char=457
+8	,	,	PUNCT	Punct	_	13	punct	_	start_char=457|end_char=458
+9	jotta	jotta	SCONJ	C	_	13	mark	_	start_char=459|end_char=464
+10	kuka	kuka	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	13	nsubj	_	start_char=465|end_char=469
+11	tahansa	tahansa	ADV	Adv	_	10	fixed	_	start_char=470|end_char=477
+12	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=478|end_char=481
+13	ymmärtää	ymmärtää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=482|end_char=490
+14	.	.	PUNCT	Punct	_	7	punct	_	start_char=490|end_char=491
+
+# text = Pakollinen trimmajille ja lemmikkistylisteille!
+# sent_id = 5
+1	Pakollinen	pakollinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=492|end_char=502
+2	trimmajille	trimmaja	NOUN	N	Case=All|Number=Sing	1	nmod	_	start_char=503|end_char=514
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=515|end_char=517
+4	lemmikkistylisteille	lemmikkistyliste	NOUN	N	Case=All|Number=Plur	2	conj	_	start_char=518|end_char=538
+5	!	!	PUNCT	Punct	_	1	punct	_	start_char=538|end_char=539
+

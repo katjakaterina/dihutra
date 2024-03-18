@@ -1,0 +1,97 @@
+# text = Небесные песни Хайвэя Я заказал этот гимналь, потому что в юности научился читать музыку с фигурными нотами.
+# sent_id = 0
+1	Небесные	небесный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=8
+2	песни	песня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=9|end_char=14
+3	Хайвэя	Хайвья	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=15|end_char=21
+4	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=22|end_char=23
+5	заказал	заказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=24|end_char=31
+6	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=32|end_char=36
+7	гимналь	гимналь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=37|end_char=44
+8	,	,	PUNCT	_	_	13	punct	_	start_char=44|end_char=45
+9	потому	потому	ADV	_	Degree=Pos	13	mark	_	start_char=46|end_char=52
+10	что	что	SCONJ	_	_	9	fixed	_	start_char=53|end_char=56
+11	в	в	ADP	_	_	12	case	_	start_char=57|end_char=58
+12	юности	юность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	start_char=59|end_char=65
+13	научился	научиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	start_char=66|end_char=74
+14	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=75|end_char=81
+15	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=82|end_char=88
+16	с	с	ADP	_	_	18	case	_	start_char=89|end_char=90
+17	фигурными	фигурный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	start_char=91|end_char=100
+18	нотами	нота	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	nmod	_	start_char=101|end_char=107
+19	.	.	PUNCT	_	_	5	punct	_	start_char=107|end_char=108
+
+# text = Я играю на пианино, но не пою.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=109|end_char=110
+2	играю	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=111|end_char=116
+3	на	на	ADP	_	_	4	case	_	start_char=117|end_char=119
+4	пианино	пианино	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=120|end_char=127
+5	,	,	PUNCT	_	_	8	punct	_	start_char=127|end_char=128
+6	но	но	CCONJ	_	_	8	cc	_	start_char=129|end_char=131
+7	не	не	PART	_	_	8	advmod	_	start_char=132|end_char=134
+8	пою	пойти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=135|end_char=138
+9	.	.	PUNCT	_	_	2	punct	_	start_char=138|end_char=139
+
+# text = Мне 85 лет.
+# sent_id = 2
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=140|end_char=143
+2	85	85	NUM	_	NumType=Card	3	nummod	_	start_char=144|end_char=146
+3	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	start_char=147|end_char=150
+4	.	.	PUNCT	_	_	3	punct	_	start_char=150|end_char=151
+
+# text = В этом гимнале большинство песен, которые я выучил за годы.
+# sent_id = 3
+1	В	в	ADP	_	_	3	case	_	start_char=152|end_char=153
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=154|end_char=158
+3	гимнале	гимнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=159|end_char=166
+4	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=167|end_char=178
+5	песен	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=179|end_char=184
+6	,	,	PUNCT	_	_	9	punct	_	start_char=184|end_char=185
+7	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	9	obj	_	start_char=186|end_char=193
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=194|end_char=195
+9	выучил	выучить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=196|end_char=202
+10	за	за	ADP	_	_	11	case	_	start_char=203|end_char=205
+11	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	start_char=206|end_char=210
+12	.	.	PUNCT	_	_	3	punct	_	start_char=210|end_char=211
+
+# text = Это было именно то, что мне было нужно и чего я хотел.
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=212|end_char=215
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=216|end_char=220
+3	именно	именно	PART	_	_	4	advmod	_	start_char=221|end_char=227
+4	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=228|end_char=230
+5	,	,	PUNCT	_	_	9	punct	_	start_char=230|end_char=231
+6	что	что	PRON	_	Case=Nom|PronType=Int,Rel	9	nsubj	_	start_char=232|end_char=235
+7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	start_char=236|end_char=239
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=240|end_char=244
+9	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	acl	_	start_char=245|end_char=250
+10	и	и	CCONJ	_	_	13	cc	_	start_char=251|end_char=252
+11	чего	что	PRON	_	Case=Gen|PronType=Int,Rel	13	obj	_	start_char=253|end_char=257
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=258|end_char=259
+13	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=260|end_char=265
+14	.	.	PUNCT	_	_	4	punct	_	start_char=265|end_char=266
+
+# text = Он был в хорошем состоянии, и цена была приемлемой.
+# sent_id = 5
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=267|end_char=269
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=270|end_char=273
+3	в	в	ADP	_	_	5	case	_	start_char=274|end_char=275
+4	хорошем	хороший	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=276|end_char=283
+5	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	start_char=284|end_char=293
+6	,	,	PUNCT	_	_	10	punct	_	start_char=293|end_char=294
+7	и	и	CCONJ	_	_	10	cc	_	start_char=295|end_char=296
+8	цена	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=297|end_char=301
+9	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=302|end_char=306
+10	приемлемой	приемлемый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=307|end_char=317
+11	.	.	PUNCT	_	_	5	punct	_	start_char=317|end_char=318
+
+# text = Я приобрел эту книгу на Amazon.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=319|end_char=320
+2	приобрел	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=321|end_char=329
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=330|end_char=333
+4	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=334|end_char=339
+5	на	на	ADP	_	_	4	case	_	start_char=340|end_char=342
+6	Amazon	Amazon	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=343|end_char=349
+7	.	.	PUNCT	_	_	2	punct	_	start_char=349|end_char=350
+

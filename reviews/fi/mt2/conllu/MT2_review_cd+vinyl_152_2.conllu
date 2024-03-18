@@ -1,0 +1,69 @@
+# text = EI CLAPTION MUSIIKKIVIDEO!
+# sent_id = 0
+1	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=0|end_char=2
+2	CLAPTION	CLAPTION	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=3|end_char=11
+3	MUSIIKKIVIDEO	musiikki#video	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=12|end_char=25
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=25|end_char=26
+
+# text = Opi soittamaan kitaraa, KUIN Clapton Ostin tämän DVD:n ja palautan sen.
+# sent_id = 1
+1	Opi	oppia	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=27|end_char=30
+2	soittamaan	soittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=31|end_char=41
+3	kitaraa	kitara	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=42|end_char=49
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=49|end_char=50
+5	KUIN	kuin	ADV	Adv	_	7	advmod	_	start_char=51|end_char=55
+6	Clapton	Clapton	PROPN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=56|end_char=63
+7	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=64|end_char=69
+8	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	det	_	start_char=70|end_char=75
+9	DVD:n	DVD	NOUN	N	Abbr=Yes|Case=Gen|Number=Sing	7	obj	_	start_char=76|end_char=81
+10	ja	ja	CCONJ	C	_	11	cc	_	start_char=82|end_char=84
+11	palautan	palauttaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=85|end_char=93
+12	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	obj	_	start_char=94|end_char=97
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=97|end_char=98
+
+# text = Kuvaus ja toimituksellinen arvostelu ovat harhaanjohtavia.
+# sent_id = 2
+1	Kuvaus	kuvaus	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=99|end_char=105
+2	ja	ja	CCONJ	C	_	4	cc	_	start_char=106|end_char=108
+3	toimituksellinen	toimituksellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	4	amod	_	start_char=109|end_char=125
+4	arvostelu	arvostelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	1	conj	_	start_char=126|end_char=135
+5	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=136|end_char=140
+6	harhaanjohtavia	harhaan#johtava	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Plur	0	root	_	start_char=141|end_char=156
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=156|end_char=157
+
+# text = Tämä EI ole Claptonin video.
+# sent_id = 3
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=158|end_char=162
+2	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=163|end_char=165
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=166|end_char=169
+4	Claptonin	Clapton	PROPN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=170|end_char=179
+5	video	video	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=180|end_char=185
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=185|end_char=186
+
+# text = Varmasti joitain leikkeitä Claptonista, mutta yleensä tämä on "miten" -video.
+# sent_id = 4
+1	Varmasti	varmasti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=187|end_char=195
+2	joitain	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	3	det	_	start_char=196|end_char=203
+3	leikkeitä	leike	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=204|end_char=213
+4	Claptonista	Clapton	PROPN	N	Case=Ela|Number=Sing	3	nmod	_	start_char=214|end_char=225
+5	,	,	PUNCT	Punct	_	13	punct	_	start_char=225|end_char=226
+6	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=227|end_char=232
+7	yleensä	yleensä	ADV	Adv	_	13	advmod	_	start_char=233|end_char=240
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	start_char=241|end_char=245
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=246|end_char=248
+10	"	"	PUNCT	Punct	_	11	punct	_	start_char=249|end_char=250
+11	miten	miten	ADV	Adv	_	13	advmod	_	start_char=250|end_char=255
+12	"	"	PUNCT	Punct	_	11	punct	_	start_char=255|end_char=256
+13	-video	video	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=257|end_char=263
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=263|end_char=264
+
+# text = Sama koskee Clapton The Early Yearsia!
+# sent_id = 5
+1	Sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	start_char=265|end_char=269
+2	koskee	koskea	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=270|end_char=276
+3	Clapton	Clapton	PROPN	N	Case=Nom|Number=Sing	2	obj	_	start_char=277|end_char=284
+4	The	The	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=285|end_char=288
+5	Early	Early	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=289|end_char=294
+6	Yearsia	Years	PROPN	N	Case=Par|Number=Sing	3	flat:name	_	start_char=295|end_char=302
+7	!	!	PUNCT	Punct	_	2	punct	_	start_char=302|end_char=303
+

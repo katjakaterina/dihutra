@@ -1,0 +1,105 @@
+# text = DVD kissoille
+# sent_id = 0
+1	DVD	DVD	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=3
+2	kissoille	kisso	NOUN	N	Case=All|Number=Plur	1	nmod	_	start_char=4|end_char=13
+
+# text = Ostimme tämän kissa-DVD:n aktiiviselle kissallemme.
+# sent_id = 1
+1	Ostimme	ostaa	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=14|end_char=21
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=22|end_char=27
+3	kissa-DVD:n	kissa	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=28|end_char=39
+4	aktiiviselle	aktiivinen	ADJ	A	Case=All|Degree=Pos|Derivation=Inen|Number=Sing	5	amod	_	start_char=40|end_char=52
+5	kissallemme	kissa	NOUN	N	Case=All|Number=Sing|Number[psor]=Plur|Person[psor]=1	1	obl	_	start_char=53|end_char=64
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=64|end_char=65
+
+# text = Toivoen, että se säilyttäisi hänen huomionsa riittävän pitkään, jotta saan tauon leikkimisestä hänen kanssaan.
+# sent_id = 2
+1	Toivoen	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=66|end_char=73
+2	,	,	PUNCT	Punct	_	5	punct	_	start_char=73|end_char=74
+3	että	että	SCONJ	C	_	5	mark	_	start_char=75|end_char=79
+4	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj	_	start_char=80|end_char=82
+5	säilyttäisi	säilyttää	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=83|end_char=94
+6	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	start_char=95|end_char=100
+7	huomionsa	huomio	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	5	obj	_	start_char=101|end_char=110
+8	riittävän	riittävän	ADV	Adv	_	9	advmod	_	start_char=111|end_char=120
+9	pitkään	pitkään	ADV	Adv	_	5	advmod	_	start_char=121|end_char=128
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=128|end_char=129
+11	jotta	jotta	SCONJ	C	_	12	mark	_	start_char=130|end_char=135
+12	saan	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=136|end_char=140
+13	tauon	tauko	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=141|end_char=146
+14	leikkimisestä	leikkiminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	12	obl	_	start_char=147|end_char=160
+15	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	nmod	_	start_char=161|end_char=166
+16	kanssaan	kanssa	ADP	Adp	AdpType=Post|Person[psor]=3	15	case	_	start_char=167|end_char=175
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=175|end_char=176
+
+# text = Minun on sanottava, että ensimmäinen DVD on ainoa, joka vangitsee hänen huomionsa noin 10-20 minuutiksi.
+# sent_id = 3
+1	Minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=177|end_char=182
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=183|end_char=185
+3	sanottava	sanoa	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	start_char=186|end_char=195
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=195|end_char=196
+5	että	että	SCONJ	C	_	9	mark	_	start_char=197|end_char=201
+6	ensimmäinen	ensimmäinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	7	amod	_	start_char=202|end_char=213
+7	DVD	DVD	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	9	nsubj:cop	_	start_char=214|end_char=217
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	start_char=218|end_char=220
+9	ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	3	ccomp	_	start_char=221|end_char=226
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=226|end_char=227
+11	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	start_char=228|end_char=232
+12	vangitsee	vangita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=233|end_char=242
+13	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	14	nmod:poss	_	start_char=243|end_char=248
+14	huomionsa	huomio	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	12	obj	_	start_char=249|end_char=258
+15	noin	noin	ADV	Adv	_	16	advmod	_	start_char=259|end_char=263
+16	10-20	10-20	NUM	Num	NumType=Card	17	nummod	_	start_char=264|end_char=269
+17	minuutiksi	minuutti	NOUN	N	Case=Tra|Number=Sing	12	obl	_	start_char=270|end_char=280
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=280|end_char=281
+
+# text = Muita DVD-levyjä hän ei edes katso.
+# sent_id = 4
+1	Muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	2	det	_	start_char=282|end_char=287
+2	DVD-levyjä	DVD#levy	NOUN	N	Case=Par|Number=Plur	6	obj	_	start_char=288|end_char=298
+3	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=299|end_char=302
+4	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=303|end_char=305
+5	edes	edes	ADV	Adv	_	6	advmod	_	start_char=306|end_char=310
+6	katso	katsoa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=311|end_char=316
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=316|end_char=317
+
+# text = Ehkä minulla on vain kissa, joka on liian aktiivinen istuakseen paikallaan...en tiedä.
+# sent_id = 5
+1	Ehkä	ehkä	ADV	Adv	_	2	advmod	_	start_char=318|end_char=322
+2	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=323|end_char=330
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop:own	_	start_char=331|end_char=333
+4	vain	vain	ADV	Adv	_	5	advmod	_	start_char=334|end_char=338
+5	kissa	kissa	NOUN	N	Case=Nom|Number=Sing	2	nsubj:cop	_	start_char=339|end_char=344
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=344|end_char=345
+7	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	10	nsubj:cop	_	start_char=346|end_char=350
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=351|end_char=353
+9	liian	liian	ADV	Adv	_	10	advmod	_	start_char=354|end_char=359
+10	aktiivinen	aktiivinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	5	acl:relcl	_	start_char=360|end_char=370
+11	istuakseen	istua	VERB	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=371|end_char=381
+12	paikallaan	paikallaan	ADV	Adv	_	11	advmod	_	start_char=382|end_char=392
+13	...en	...e	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	start_char=392|end_char=397
+14	tiedä	tietää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=398|end_char=403
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=403|end_char=404
+
+# text = Suosittelen ensimmäistä DVD:tä vain, jos aiot kokeilla sitä.
+# sent_id = 6
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=405|end_char=416
+2	ensimmäistä	ensimmäinen	ADJ	Num	Case=Par|Derivation=Inen|NumType=Ord|Number=Sing	3	amod	_	start_char=417|end_char=428
+3	DVD:tä	DVD	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=429|end_char=435
+4	vain	vain	ADV	Adv	_	6	advmod	_	start_char=436|end_char=440
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=440|end_char=441
+6	jos	jos	SCONJ	C	_	8	mark	_	start_char=442|end_char=445
+7	aiot	aikoa	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=446|end_char=450
+8	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=451|end_char=459
+9	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	obj	_	start_char=460|end_char=464
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=464|end_char=465
+
+# text = Loistava hinta ja nopea toimitus.
+# sent_id = 7
+1	Loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=466|end_char=474
+2	hinta	hinta	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=475|end_char=480
+3	ja	ja	CCONJ	C	_	5	cc	_	start_char=481|end_char=483
+4	nopea	nopea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=484|end_char=489
+5	toimitus	toimitus	NOUN	N	Case=Nom|Number=Sing	2	conj	_	start_char=490|end_char=498
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=498|end_char=499
+

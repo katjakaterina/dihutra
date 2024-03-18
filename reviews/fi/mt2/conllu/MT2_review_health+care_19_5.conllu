@@ -1,0 +1,66 @@
+# text = erittäin kätevä - toivon, että se tulisi hihassa
+# sent_id = 0
+1	erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=0|end_char=8
+2	kätevä	kätevä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=9|end_char=15
+3	-	-	PUNCT	Punct	_	4	punct	_	start_char=16|end_char=17
+4	toivon	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=18|end_char=24
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=24|end_char=25
+6	että	että	SCONJ	C	_	8	mark	_	start_char=26|end_char=30
+7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	start_char=31|end_char=33
+8	tulisi	tulla	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=34|end_char=40
+9	hihassa	hiha	NOUN	N	Case=Ine|Number=Sing	8	obl	_	start_char=41|end_char=48
+
+# text = Kuljetan tätä laukussani (varmuuden vuoksi).
+# sent_id = 1
+1	Kuljetan	kulkettaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=57
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	1	obj	_	start_char=58|end_char=62
+3	laukussani	laukku	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=63|end_char=73
+4	(	(	PUNCT	Punct	_	5	punct	_	start_char=74|end_char=75
+5	varmuuden	varmuus	NOUN	N	Case=Gen|Derivation=Vs|Number=Sing	1	obl	_	start_char=75|end_char=84
+6	vuoksi	vuoksi	ADP	Adp	AdpType=Post	5	case	_	start_char=85|end_char=91
+7	)	)	PUNCT	Punct	_	5	punct	_	start_char=91|end_char=92
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=92|end_char=93
+
+# text = Minun täytyy tehdä sille pieni hiha, jotta voin leikata sen keräämiä nukkaa ja naarmuja.
+# sent_id = 2
+1	Minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=94|end_char=99
+2	täytyy	täytyä	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=100|end_char=106
+3	tehdä	tehdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=107|end_char=112
+4	sille	se	PRON	Pron	Case=All|Number=Sing|PronType=Dem	3	obl	_	start_char=113|end_char=118
+5	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	start_char=119|end_char=124
+6	hiha	hiha	NOUN	N	Case=Nom|Number=Sing	3	obj	_	start_char=125|end_char=129
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=129|end_char=130
+8	jotta	jotta	SCONJ	C	_	10	mark	_	start_char=131|end_char=136
+9	voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	start_char=137|end_char=141
+10	leikata	leikata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=142|end_char=149
+11	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	nsubj	_	start_char=150|end_char=153
+12	keräämiä	kerätä	VERB	V	Case=Par|Number=Plur|PartForm=Agt|VerbForm=Part|Voice=Act	13	acl	_	start_char=154|end_char=162
+13	nukkaa	nukka	NOUN	N	Case=Par|Number=Sing	10	obj	_	start_char=163|end_char=169
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=170|end_char=172
+15	naarmuja	naarmut	NOUN	N	Case=Par|Number=Plur	13	conj	_	start_char=173|end_char=181
+16	.	.	PUNCT	Punct	_	3	punct	_	start_char=181|end_char=182
+
+# text = Se toimii erittäin hyvin ja on täydellisen kokoinen - ei liian iso ollakseen kapea, ei liian pieni ollakseen tehoton.
+# sent_id = 3
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=183|end_char=185
+2	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=186|end_char=192
+3	erittäin	erittäin	ADV	Adv	Derivation=Ttain	4	advmod	_	start_char=193|end_char=201
+4	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=202|end_char=207
+5	ja	ja	CCONJ	C	_	8	cc	_	start_char=208|end_char=210
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=211|end_char=213
+7	täydellisen	täydellinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Sing	8	amod	_	start_char=214|end_char=225
+8	kokoinen	kokoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	conj	_	start_char=226|end_char=234
+9	-	-	PUNCT	Punct	_	12	punct	_	start_char=235|end_char=236
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=237|end_char=239
+11	liian	liian	ADV	Adv	_	12	advmod	_	start_char=240|end_char=245
+12	iso	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	conj	_	start_char=246|end_char=249
+13	ollakseen	olla	AUX	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	14	cop	_	start_char=250|end_char=259
+14	kapea	kapea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	advcl	_	start_char=260|end_char=265
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=265|end_char=266
+16	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	start_char=267|end_char=269
+17	liian	liian	ADV	Adv	_	18	advmod	_	start_char=270|end_char=275
+18	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	conj	_	start_char=276|end_char=281
+19	ollakseen	olla	AUX	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	20	cop	_	start_char=282|end_char=291
+20	tehoton	tehoton	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	18	advcl	_	start_char=292|end_char=299
+21	.	.	PUNCT	Punct	_	2	punct	_	start_char=299|end_char=300
+

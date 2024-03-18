@@ -1,0 +1,84 @@
+# text = Me kaikki tiedämme tekstin, mutta tämä kirja on pieni versio alkuperäisestä.
+# sent_id = 0
+1	Me	minä	PRON	Pron	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
+2	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	1	det	_	start_char=3|end_char=9
+3	tiedämme	tietää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=10|end_char=18
+4	tekstin	teksti	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=19|end_char=26
+5	,	,	PUNCT	Punct	_	11	punct	_	start_char=26|end_char=27
+6	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=28|end_char=33
+7	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	det	_	start_char=34|end_char=38
+8	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=39|end_char=44
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=45|end_char=47
+10	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	start_char=48|end_char=53
+11	versio	versio	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=54|end_char=60
+12	alkuperäisestä	alku#peräinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Inen|Number=Sing	11	nmod	_	start_char=61|end_char=75
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=75|end_char=76
+
+# text = Tilasin sen ja kun avasin sen, olin erittäin pettynyt huomatessani, että se ei ole alan standardi, jonka tiesin.
+# sent_id = 1
+1	Tilasin	tilata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=77|end_char=84
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=85|end_char=88
+3	ja	ja	CCONJ	C	_	10	cc	_	start_char=89|end_char=91
+4	kun	kun	SCONJ	C	_	5	mark	_	start_char=92|end_char=95
+5	avasin	avata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=96|end_char=102
+6	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	obj	_	start_char=103|end_char=106
+7	,	,	PUNCT	Punct	_	5	punct	_	start_char=106|end_char=107
+8	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=108|end_char=112
+9	erittäin	erittäin	ADV	Adv	Derivation=Ttain	10	advmod	_	start_char=113|end_char=121
+10	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=122|end_char=130
+11	huomatessani	huomata	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=131|end_char=143
+12	,	,	PUNCT	Punct	_	18	punct	_	start_char=143|end_char=144
+13	että	että	SCONJ	C	_	18	mark	_	start_char=145|end_char=149
+14	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	18	nsubj:cop	_	start_char=150|end_char=152
+15	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	start_char=153|end_char=155
+16	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=156|end_char=159
+17	alan	ala	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	start_char=160|end_char=164
+18	standardi	standardi	NOUN	N	Case=Nom|Number=Sing	11	ccomp	_	start_char=165|end_char=174
+19	,	,	PUNCT	Punct	_	21	punct	_	start_char=174|end_char=175
+20	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	21	obj	_	start_char=176|end_char=181
+21	tiesin	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	start_char=182|end_char=188
+22	.	.	PUNCT	Punct	_	1	punct	_	start_char=188|end_char=189
+
+# text = Sitten palasin katsomaan, jäikö kuvauksesta jotain kokoon, mutta en löytänyt viittausta siihen.
+# sent_id = 2
+1	Sitten	sitten	ADV	Adv	_	2	advmod	_	start_char=190|end_char=196
+2	palasin	palata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=197|end_char=204
+3	katsomaan	katsoa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=205|end_char=214
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=214|end_char=215
+5	jäikö	jäädä	VERB	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=216|end_char=221
+6	kuvauksesta	kuvaus	NOUN	N	Case=Ela|Number=Sing	5	obl	_	start_char=222|end_char=233
+7	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	5	nsubj	_	start_char=234|end_char=240
+8	kokoon	kokoon	NOUN	N	Case=Ill|Number=Sing	5	obl	_	start_char=241|end_char=247
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=247|end_char=248
+10	mutta	mutta	CCONJ	C	_	12	cc	_	start_char=249|end_char=254
+11	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=255|end_char=257
+12	löytänyt	löytää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	conj	_	start_char=258|end_char=266
+13	viittausta	viittaus	NOUN	N	Case=Par|Number=Sing	12	obj	_	start_char=267|end_char=277
+14	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	13	nmod	_	start_char=278|end_char=284
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=284|end_char=285
+
+# text = Positiivisena huomautuksena Amazonin palautuspolitiikka on hämmästyttävä.
+# sent_id = 3
+1	Positiivisena	positiivinen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=286|end_char=299
+2	huomautuksena	huomautus	NOUN	N	Case=Ess|Number=Sing	6	obl	_	start_char=300|end_char=313
+3	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=314|end_char=322
+4	palautuspolitiikka	palautus#politiikka	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=323|end_char=341
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=342|end_char=344
+6	hämmästyttävä	hämmästyttävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=345|end_char=358
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=358|end_char=359
+
+# text = Välitön luotto, kun ilmoitettiin ongelmasta ja palautustoimitus oli erittäin helppoa.
+# sent_id = 4
+1	Välitön	välitön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	2	amod	_	start_char=360|end_char=367
+2	luotto	luotto	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=368|end_char=374
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=374|end_char=375
+4	kun	kun	SCONJ	C	_	5	mark	_	start_char=376|end_char=379
+5	ilmoitettiin	ilmoittaa	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	advcl	_	start_char=380|end_char=392
+6	ongelmasta	ongelma	NOUN	N	Case=Ela|Number=Sing	5	obl	_	start_char=393|end_char=403
+7	ja	ja	CCONJ	C	_	11	cc	_	start_char=404|end_char=406
+8	palautustoimitus	palautus#toimitus	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=407|end_char=423
+9	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=424|end_char=427
+10	erittäin	erittäin	ADV	Adv	Derivation=Ttain	11	advmod	_	start_char=428|end_char=436
+11	helppoa	helppo	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	conj	_	start_char=437|end_char=444
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=444|end_char=445
+

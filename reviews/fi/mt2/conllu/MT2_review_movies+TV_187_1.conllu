@@ -1,0 +1,76 @@
+# text = Alastomuus ei ole välttämätöntä!
+# sent_id = 0
+1	Alastomuus	alastomuus	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=0|end_char=10
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=11|end_char=13
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=14|end_char=17
+4	välttämätöntä	välttämätön	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Sing	0	root	_	start_char=18|end_char=31
+5	!	!	PUNCT	Punct	_	4	punct	_	start_char=31|end_char=32
+
+# text = Näyttelijätyö oli hyvää, tarina oikea, mutta alastomia takapuolia ei tarvittu.
+# sent_id = 1
+1	Näyttelijätyö	näyttelijä#työ	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=33|end_char=46
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=47|end_char=50
+3	hyvää	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=51|end_char=56
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=56|end_char=57
+5	tarina	tarina	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=58|end_char=64
+6	oikea	oikea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=65|end_char=70
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=70|end_char=71
+8	mutta	mutta	CCONJ	C	_	12	cc	_	start_char=72|end_char=77
+9	alastomia	alaston	ADJ	A	Case=Par|Degree=Pos|Number=Plur	10	amod	_	start_char=78|end_char=87
+10	takapuolia	taka#puoli	NOUN	N	Case=Par|Number=Plur	12	obj	_	start_char=88|end_char=98
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=99|end_char=101
+12	tarvittu	tarvita	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=102|end_char=110
+13	.	.	PUNCT	Punct	_	3	punct	_	start_char=110|end_char=111
+
+# text = Myöskään Potipherin vaimon ei tarvinnut olla niin kovin alaston Joosefin viettelevä.
+# sent_id = 2
+1	Myöskään	myöskään	ADV	Adv	_	3	advmod	_	start_char=112|end_char=120
+2	Potipherin	Potipheri	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=121|end_char=131
+3	vaimon	vaimo	NOUN	N	Case=Gen|Number=Sing	11	nsubj:cop	_	start_char=132|end_char=138
+4	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=139|end_char=141
+5	tarvinnut	tarvita	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	aux	_	start_char=142|end_char=151
+6	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	cop	_	start_char=152|end_char=156
+7	niin	niin	ADV	Adv	_	8	advmod	_	start_char=157|end_char=161
+8	kovin	kovin	ADV	Adv	_	9	advmod	_	start_char=162|end_char=167
+9	alaston	alaston	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	start_char=168|end_char=175
+10	Joosefin	Joosefi	PROPN	N	Case=Gen|Number=Sing	11	nmod:poss	_	start_char=176|end_char=184
+11	viettelevä	viettelevä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=185|end_char=195
+12	.	.	PUNCT	Punct	_	11	punct	_	start_char=195|end_char=196
+
+# text = Ei kristillinen elokuva.
+# sent_id = 3
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=197|end_char=199
+2	kristillinen	kristillinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	3	amod	_	start_char=200|end_char=212
+3	elokuva	elo#kuva	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=213|end_char=220
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=220|end_char=221
+
+# text = Minusta tuntui, että vaikka se luultavasti kuvattiin totuudenmukaisesti, kristittyjen ei tarvitse nähdä niin selkeää kohtausta.
+# sent_id = 4
+1	Minusta	minä	PRON	Pron	Case=Ela|Number=Sing|Person=1|PronType=Prs	2	obl	_	start_char=222|end_char=229
+2	tuntui	tuntua	VERB	V	Mood=Ind|Number=Sing|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=230|end_char=236
+3	,	,	PUNCT	Punct	_	14	punct	_	start_char=236|end_char=237
+4	että	että	SCONJ	C	_	14	mark	_	start_char=238|end_char=242
+5	vaikka	vaikka	SCONJ	C	_	8	mark	_	start_char=243|end_char=249
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	obj	_	start_char=250|end_char=252
+7	luultavasti	luultavasti	ADV	Adv	Derivation=Sti	8	advmod	_	start_char=253|end_char=264
+8	kuvattiin	kuvata	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	14	advcl	_	start_char=265|end_char=274
+9	totuudenmukaisesti	totuuden#mukaisesti	ADV	Adv	Derivation=Sti	8	advmod	_	start_char=275|end_char=293
+10	,	,	PUNCT	Punct	_	8	punct	_	start_char=293|end_char=294
+11	kristittyjen	kristitty	NOUN	N	Case=Gen|Number=Plur	14	nsubj	_	start_char=295|end_char=307
+12	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	start_char=308|end_char=310
+13	tarvitse	tarvita	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=311|end_char=319
+14	nähdä	nähdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	ccomp	_	start_char=320|end_char=325
+15	niin	niin	ADV	Adv	_	16	advmod	_	start_char=326|end_char=330
+16	selkeää	selkeä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	17	amod	_	start_char=331|end_char=338
+17	kohtausta	kohtaus	NOUN	N	Case=Par|Number=Sing	14	obj	_	start_char=339|end_char=348
+18	.	.	PUNCT	Punct	_	2	punct	_	start_char=348|end_char=349
+
+# text = Tämän pitäisi olla vähintään PG 13.
+# sent_id = 5
+1	Tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=350|end_char=355
+2	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	aux	_	start_char=356|end_char=363
+3	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	cop	_	start_char=364|end_char=368
+4	vähintään	vähintään	ADV	Adv	_	5	advmod	_	start_char=369|end_char=378
+5	PG	PG	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=379|end_char=381
+6	13.	13.	ADJ	Num	NumType=Ord	5	amod	_	start_char=382|end_char=385
+

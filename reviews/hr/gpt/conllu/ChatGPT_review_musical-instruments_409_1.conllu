@@ -1,0 +1,117 @@
+# text = Izbija distorzija
+# sent_id = 0
+1	Izbija	izbijati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=6
+2	distorzija	distorzij	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=7|end_char=17
+
+# text = Ovo je jeftin otpad koji radi ono što tvrdi, izbija distorziju.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=18|end_char=21
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=22|end_char=24
+3	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=25|end_char=31
+4	otpad	otpad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=32|end_char=37
+5	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	6	nsubj	_	start_char=38|end_char=42
+6	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=43|end_char=47
+7	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=48|end_char=51
+8	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	9	nsubj	_	start_char=52|end_char=55
+9	tvrdi	tvrditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=56|end_char=61
+10	,	,	PUNCT	Z	_	11	punct	_	start_char=61|end_char=62
+11	izbija	izbijati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=63|end_char=69
+12	distorziju	distorzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=70|end_char=80
+13	.	.	PUNCT	Z	_	4	punct	_	start_char=80|end_char=81
+
+# text = Ako želite da vaša gitara zvuči kao smeće, ovo će to postići.
+# sent_id = 2
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=82|end_char=85
+2	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=86|end_char=92
+3	da	da	SCONJ	Cs	_	6	mark	_	start_char=93|end_char=95
+4	vaša	vaš	DET	Ps1fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	start_char=96|end_char=100
+5	gitara	gitara	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=101|end_char=107
+6	zvuči	zvučiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=108|end_char=113
+7	kao	kao	SCONJ	Cs	_	8	case	_	start_char=114|end_char=117
+8	smeće	smeće	NOUN	Ncnsa	Case=Nom|Gender=Neut|Number=Sing	6	obl	_	start_char=118|end_char=123
+9	,	,	PUNCT	Z	_	2	punct	_	start_char=123|end_char=124
+10	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=125|end_char=128
+11	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=129|end_char=131
+12	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	obj	_	start_char=132|end_char=134
+13	postići	postići	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=135|end_char=142
+14	.	.	PUNCT	Z	_	13	punct	_	start_char=142|end_char=143
+
+# text = Zašto su pedale koje čine da vaša gitara zvuči kao smeće najpopularnije, to mi je nepoznanica.
+# sent_id = 3
+1	Zašto	zašto	ADV	Rgp	Degree=Pos|PronType=Int,Rel	2	advmod	_	start_char=144|end_char=149
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=150|end_char=152
+3	pedale	pedala	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	start_char=153|end_char=159
+4	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	5	nsubj	_	start_char=160|end_char=164
+5	čine	činiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=165|end_char=169
+6	da	da	SCONJ	Cs	_	9	mark	_	start_char=170|end_char=172
+7	vaša	vaš	DET	Ps1fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	start_char=173|end_char=177
+8	gitara	gitara	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=178|end_char=184
+9	zvuči	zvučiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=185|end_char=190
+10	kao	kao	SCONJ	Cs	_	11	case	_	start_char=191|end_char=194
+11	smeće	smeće	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	9	obl	_	start_char=195|end_char=200
+12	najpopularnije	popularan	ADJ	Agsnsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Neut|Number=Sing	11	amod	_	start_char=201|end_char=215
+13	,	,	PUNCT	Z	_	2	punct	_	start_char=215|end_char=216
+14	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	17	nsubj	_	start_char=217|end_char=219
+15	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	obj	_	start_char=220|end_char=222
+16	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	start_char=223|end_char=225
+17	nepoznanica	nepoznanica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=226|end_char=237
+18	.	.	PUNCT	Z	_	17	punct	_	start_char=237|end_char=238
+
+# text = Ovo nije boutique pedala za distorziju kakvu bi koristio Hendrix.
+# sent_id = 4
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=239|end_char=242
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=243|end_char=247
+3	boutique	boutique	X	Xf	Foreign=Yes	4	amod	_	start_char=248|end_char=256
+4	pedala	pedllo	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=257|end_char=263
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=264|end_char=266
+6	distorziju	distorzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	start_char=267|end_char=277
+7	kakvu	kakav	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	9	obj	_	start_char=278|end_char=283
+8	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	start_char=284|end_char=286
+9	koristio	koristiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	acl	_	start_char=287|end_char=295
+10	Hendrix	Hendrix	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=296|end_char=303
+11	.	.	PUNCT	Z	_	4	punct	_	start_char=303|end_char=304
+
+# text = Boutique i distorzija su suprotnosti.
+# sent_id = 5
+1	Boutique	Boutique	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=305|end_char=313
+2	i	i	CCONJ	Cc	_	3	cc	_	start_char=314|end_char=315
+3	distorzija	distorzij	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=316|end_char=326
+4	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=327|end_char=329
+5	suprotnosti	suprotnost	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=330|end_char=341
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=341|end_char=342
+
+# text = Ove stvari su izgrađene kao od teškog metala, trebale bi trajati, nadam se (samo šalim se).
+# sent_id = 6
+1	Ove	ovaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=343|end_char=346
+2	stvari	stvar	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=347|end_char=353
+3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=354|end_char=356
+4	izgrađene	izgraditi	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	start_char=357|end_char=366
+5	kao	kao	SCONJ	Cs	_	8	case	_	start_char=367|end_char=370
+6	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=371|end_char=373
+7	teškog	težak	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=374|end_char=380
+8	metala	metal	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	start_char=381|end_char=387
+9	,	,	PUNCT	Z	_	10	punct	_	start_char=387|end_char=388
+10	trebale	trebati	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=389|end_char=396
+11	bi	biti	AUX	Vaa3p	Mood=Cnd|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=397|end_char=399
+12	trajati	trajati	VERB	Vmn	VerbForm=Inf	10	xcomp	_	start_char=400|end_char=407
+13	,	,	PUNCT	Z	_	14	punct	_	start_char=407|end_char=408
+14	nadam	nadati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=409|end_char=414
+15	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	start_char=415|end_char=417
+16	(	(	PUNCT	Z	_	18	punct	_	start_char=418|end_char=419
+17	samo	samo	ADV	Rgp	Degree=Pos	18	advmod	_	start_char=419|end_char=423
+18	šalim	šaliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	parataxis	_	start_char=424|end_char=429
+19	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	18	expl	_	start_char=430|end_char=432
+20	)	)	PUNCT	Z	_	18	punct	_	start_char=432|end_char=433
+21	.	.	PUNCT	Z	_	4	punct	_	start_char=433|end_char=434
+
+# text = Ako želite distorziju, dobit ćete distorziju.
+# sent_id = 7
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=435|end_char=438
+2	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=439|end_char=445
+3	distorziju	distorzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=446|end_char=456
+4	,	,	PUNCT	Z	_	2	punct	_	start_char=456|end_char=457
+5	dobit	dobiti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=458|end_char=463
+6	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=464|end_char=468
+7	distorziju	distorzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=469|end_char=479
+8	.	.	PUNCT	Z	_	5	punct	_	start_char=479|end_char=480
+

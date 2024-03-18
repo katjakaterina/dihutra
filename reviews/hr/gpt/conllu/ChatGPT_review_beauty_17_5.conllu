@@ -1,0 +1,81 @@
+# text = Preporučujem vam da probate, dečki.
+# sent_id = 0
+1	Preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=12
+2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	iobj	_	start_char=13|end_char=16
+3	da	da	SCONJ	Cs	_	4	mark	_	start_char=17|end_char=19
+4	probate	probati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=20|end_char=27
+5	,	,	PUNCT	Z	_	6	punct	_	start_char=27|end_char=28
+6	dečki	dečko	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=29|end_char=34
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=34|end_char=35
+
+# text = Volim sve proizvode iz Macely linije.
+# sent_id = 1
+1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=36|end_char=41
+2	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=42|end_char=45
+3	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=46|end_char=55
+4	iz	iz	ADP	Sg	Case=Gen	6	case	_	start_char=56|end_char=58
+5	Macely	macely	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=59|end_char=65
+6	linije	linija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=66|end_char=72
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=72|end_char=73
+
+# text = Obično se ne trudim pisati recenzije za proizvode, ali ovaj jednostavno nisam mogao zaobići.
+# sent_id = 2
+1	Obično	obično	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=74|end_char=80
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=81|end_char=83
+3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=84|end_char=86
+4	trudim	truditi	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=87|end_char=93
+5	pisati	pisati	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=94|end_char=100
+6	recenzije	recenzija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=101|end_char=110
+7	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=111|end_char=113
+8	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=114|end_char=123
+9	,	,	PUNCT	Z	_	14	punct	_	start_char=123|end_char=124
+10	ali	ali	CCONJ	Cc	_	14	cc	_	start_char=125|end_char=128
+11	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	start_char=129|end_char=133
+12	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=134|end_char=145
+13	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=146|end_char=151
+14	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=152|end_char=157
+15	zaobići	zaobići	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=158|end_char=165
+16	.	.	PUNCT	Z	_	4	punct	_	start_char=165|end_char=166
+
+# text = Imam mješovitu kožu koja postaje izrazito suha i masna u nekim dijelovima.
+# sent_id = 3
+1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=167|end_char=171
+2	mješovitu	mješovit	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=172|end_char=181
+3	kožu	koža	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=182|end_char=186
+4	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	5	nsubj	_	start_char=187|end_char=191
+5	postaje	postajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=192|end_char=199
+6	izrazito	izrazito	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=200|end_char=208
+7	suha	suh	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	xcomp	_	start_char=209|end_char=213
+8	i	i	CCONJ	Cc	_	9	cc	_	start_char=214|end_char=215
+9	masna	masan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	conj	_	start_char=216|end_char=221
+10	u	u	ADP	Sl	Case=Loc	12	case	_	start_char=222|end_char=223
+11	nekim	neki	DET	Pi-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	start_char=224|end_char=229
+12	dijelovima	dio	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	9	obl	_	start_char=230|end_char=240
+13	.	.	PUNCT	Z	_	1	punct	_	start_char=240|end_char=241
+
+# text = Obožavam ovaj proizvod.
+# sent_id = 4
+1	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=242|end_char=250
+2	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=251|end_char=255
+3	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=256|end_char=264
+4	.	.	PUNCT	Z	_	1	punct	_	start_char=264|end_char=265
+
+# text = Preporučujem vam da ga isprobate.
+# sent_id = 5
+1	Preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=266|end_char=278
+2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	iobj	_	start_char=279|end_char=282
+3	da	da	SCONJ	Cs	_	5	mark	_	start_char=283|end_char=285
+4	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=286|end_char=288
+5	isprobate	isprobati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=289|end_char=298
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=298|end_char=299
+
+# text = Volim sve proizvode iz Macely linije.
+# sent_id = 6
+1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=300|end_char=305
+2	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=306|end_char=309
+3	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=310|end_char=319
+4	iz	iz	ADP	Sg	Case=Gen	6	case	_	start_char=320|end_char=322
+5	Macely	macely	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=323|end_char=329
+6	linije	linija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=330|end_char=336
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=336|end_char=337
+

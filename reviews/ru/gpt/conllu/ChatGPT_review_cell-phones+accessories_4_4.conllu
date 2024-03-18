@@ -1,0 +1,80 @@
+# text = Миленько!
+# sent_id = 0
+1	Миленько	миленький	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=8
+2	!	!	PUNCT	_	_	1	punct	_	start_char=8|end_char=9
+
+# text = Товар прибыл вовремя и был в идеальном состоянии.
+# sent_id = 1
+1	Товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=10|end_char=15
+2	прибыл	прибыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=22
+3	вовремя	вовремя	ADV	_	Degree=Pos	2	advmod	_	start_char=23|end_char=30
+4	и	и	CCONJ	_	_	8	cc	_	start_char=31|end_char=32
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=33|end_char=36
+6	в	в	ADP	_	_	8	case	_	start_char=37|end_char=38
+7	идеальном	идеальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=39|end_char=48
+8	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	conj	_	start_char=49|end_char=58
+9	.	.	PUNCT	_	_	2	punct	_	start_char=58|end_char=59
+
+# text = Тем не менее, я заказал эти кнопки, потому что они были отличной сделкой и включали БЕСПЛАТНУЮ защитную пленку для экрана.
+# sent_id = 2
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	6	discourse	_	start_char=60|end_char=63
+2	не	не	PART	_	_	1	fixed	_	start_char=64|end_char=66
+3	менее	менее	ADV	_	Degree=Cmp	1	fixed	_	start_char=67|end_char=72
+4	,	,	PUNCT	_	_	1	punct	_	start_char=72|end_char=73
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=74|end_char=75
+6	заказал	заказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=76|end_char=83
+7	эти	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	8	det	_	start_char=84|end_char=87
+8	кнопки	кнопка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=88|end_char=94
+9	,	,	PUNCT	_	_	15	punct	_	start_char=94|end_char=95
+10	потому	потому	ADV	_	Degree=Pos	15	mark	_	start_char=96|end_char=102
+11	что	что	SCONJ	_	_	10	fixed	_	start_char=103|end_char=106
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=107|end_char=110
+13	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	start_char=111|end_char=115
+14	отличной	отличный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=116|end_char=124
+15	сделкой	сделка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	advcl	_	start_char=125|end_char=132
+16	и	и	CCONJ	_	_	17	cc	_	start_char=133|end_char=134
+17	включали	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	start_char=135|end_char=143
+18	БЕСПЛАТНУЮ	бесплатный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=144|end_char=154
+19	защитную	защитный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=155|end_char=163
+20	пленку	пленка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=164|end_char=170
+21	для	для	ADP	_	_	22	case	_	start_char=171|end_char=174
+22	экрана	экран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=175|end_char=181
+23	.	.	PUNCT	_	_	6	punct	_	start_char=181|end_char=182
+
+# text = Я так и не получил ее.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=183|end_char=184
+2	так	так	ADV	_	Degree=Pos	5	advmod	_	start_char=185|end_char=188
+3	и	и	PART	_	_	2	fixed	_	start_char=189|end_char=190
+4	не	не	PART	_	_	5	advmod	_	start_char=191|end_char=193
+5	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=194|end_char=201
+6	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=202|end_char=204
+7	.	.	PUNCT	_	_	5	punct	_	start_char=204|end_char=205
+
+# text = Хотя это и не так важно, было бы приятно получить ее, так как они утверждают, что она идет в комплекте.
+# sent_id = 4
+1	Хотя	хотя	SCONJ	_	_	6	mark	_	start_char=206|end_char=210
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=211|end_char=214
+3	и	и	PART	_	_	5	advmod	_	start_char=215|end_char=216
+4	не	не	PART	_	_	5	advmod	_	start_char=217|end_char=219
+5	так	так	ADV	_	Degree=Pos	6	obl	_	start_char=221|end_char=224
+6	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	advcl	_	start_char=225|end_char=230
+7	,	,	PUNCT	_	_	6	punct	_	start_char=230|end_char=231
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=232|end_char=236
+9	бы	бы	AUX	_	_	10	aux	_	start_char=237|end_char=239
+10	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=240|end_char=247
+11	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	csubj	_	start_char=248|end_char=256
+12	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=257|end_char=259
+13	,	,	PUNCT	_	_	17	punct	_	start_char=259|end_char=260
+14	так	так	ADV	_	Degree=Pos	17	mark	_	start_char=261|end_char=264
+15	как	как	SCONJ	_	_	14	fixed	_	start_char=265|end_char=268
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	start_char=269|end_char=272
+17	утверждают	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=273|end_char=283
+18	,	,	PUNCT	_	_	21	punct	_	start_char=283|end_char=284
+19	что	что	SCONJ	_	_	21	mark	_	start_char=285|end_char=288
+20	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=289|end_char=292
+21	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	start_char=293|end_char=297
+22	в	в	ADP	_	_	23	case	_	start_char=298|end_char=299
+23	комплекте	комплект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	start_char=300|end_char=309
+24	.	.	PUNCT	_	_	10	punct	_	start_char=309|end_char=310
+

@@ -1,0 +1,66 @@
+# text = Taipuisa letku kuten markkinoidaan... toivottavasti vastaa odotuksia!
+# sent_id = 0
+1	Taipuisa	taipuisa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	letku	letku	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=14
+3	kuten	kuten	SCONJ	C	_	4	mark	_	start_char=15|end_char=20
+4	markkinoidaan	markkinoida	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	_	start_char=21|end_char=34
+5	...	...	PUNCT	Punct	_	7	punct	_	start_char=34|end_char=37
+6	toivottavasti	toivottavasti	ADV	Adv	Derivation=Sti	7	advmod	_	start_char=38|end_char=51
+7	vastaa	vastata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=52|end_char=58
+8	odotuksia	odotus	NOUN	N	Case=Par|Number=Plur	7	obj	_	start_char=59|end_char=68
+9	!	!	PUNCT	Punct	_	2	punct	_	start_char=68|end_char=69
+
+# text = Tähän asti kaikki hyvin!
+# sent_id = 1
+1	Tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	3	nmod	_	start_char=70|end_char=75
+2	asti	asti	ADP	Adp	AdpType=Post	1	case	_	start_char=76|end_char=80
+3	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	0	root	_	start_char=81|end_char=87
+4	hyvin	hyvin	ADV	Adv	_	3	orphan	_	start_char=88|end_char=93
+5	!	!	PUNCT	Punct	_	3	punct	_	start_char=93|end_char=94
+
+# text = Minulla ei ole ollut oikeastaan aikaa testata letkua, koska nyt on kylmä sää.
+# sent_id = 2
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=95|end_char=102
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	1	aux	_	start_char=103|end_char=105
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=106|end_char=109
+4	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	cop:own	_	start_char=110|end_char=115
+5	oikeastaan	oikeastaan	ADV	Adv	_	1	advmod	_	start_char=116|end_char=126
+6	aikaa	aika	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=127|end_char=132
+7	testata	testata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	acl	_	start_char=133|end_char=140
+8	letkua	letku	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=141|end_char=147
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=147|end_char=148
+10	koska	koska	SCONJ	C	_	11	mark	_	start_char=149|end_char=154
+11	nyt	nyt	ADV	Adv	_	1	advcl	_	start_char=155|end_char=158
+12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=159|end_char=161
+13	kylmä	kylmä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	start_char=162|end_char=167
+14	sää	sää	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=168|end_char=171
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=171|end_char=172
+
+# text = Ostin tämän Gilmourin letkun kaikkien suositusten perusteella.
+# sent_id = 3
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=173|end_char=178
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=179|end_char=184
+3	Gilmourin	Gilmouri	PROPN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=185|end_char=194
+4	letkun	letku	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=195|end_char=201
+5	kaikkien	kaikki	PRON	Pron	Case=Gen|Number=Plur|PronType=Ind	6	det	_	start_char=202|end_char=210
+6	suositusten	suositus	NOUN	N	Case=Gen|Number=Plur	7	nmod:poss	_	start_char=211|end_char=222
+7	perusteella	peruste	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=223|end_char=234
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=234|end_char=235
+
+# text = Odotan innolla, etten enää joudu kamppailemaan letkun kanssa sen käyttämiseksi.
+# sent_id = 4
+1	Odotan	odottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=236|end_char=242
+2	innolla	into	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=243|end_char=250
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=250|end_char=251
+4-5	etten	_	_	_	_	_	_	_	start_char=252|end_char=257
+4	että	että	SCONJ	C	_	7	mark	_	_
+5	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	enää	enää	ADV	Adv	_	7	advmod	_	start_char=258|end_char=262
+7	joudu	joutua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=263|end_char=268
+8	kamppailemaan	kamppailla	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=269|end_char=282
+9	letkun	letku	NOUN	N	Case=Gen|Number=Sing	8	obl	_	start_char=283|end_char=289
+10	kanssa	kanssa	ADP	Adp	AdpType=Post	9	case	_	start_char=290|end_char=296
+11	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	nmod:gobj	_	start_char=297|end_char=300
+12	käyttämiseksi	käyttäminen	NOUN	N	Case=Tra|Derivation=Minen|Number=Sing	8	obl	_	start_char=301|end_char=314
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=314|end_char=315
+

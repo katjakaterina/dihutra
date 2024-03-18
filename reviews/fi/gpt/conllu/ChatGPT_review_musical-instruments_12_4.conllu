@@ -1,0 +1,68 @@
+# text = Se toimii loistavasti, mutta käytän sitä tuskin lainkaan.
+# sent_id = 0
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2
+2	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=9
+3	loistavasti	loistavasti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=10|end_char=21
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=21|end_char=22
+5	mutta	mutta	CCONJ	C	_	6	cc	_	start_char=23|end_char=28
+6	käytän	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=29|end_char=35
+7	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	6	obj	_	start_char=36|end_char=40
+8	tuskin	tuskin	ADV	Adv	_	6	advmod	_	start_char=41|end_char=47
+9	lainkaan	lainkaan	ADV	Adv	_	6	advmod	_	start_char=48|end_char=56
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=56|end_char=57
+
+# text = Otin sen, jotta minulla olisi se tarvittaessa.
+# sent_id = 1
+1	Otin	ottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=58|end_char=62
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=63|end_char=66
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=66|end_char=67
+4	jotta	jotta	SCONJ	C	_	5	mark	_	start_char=68|end_char=73
+5	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	1	advcl	_	start_char=74|end_char=81
+6	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	cop:own	_	start_char=82|end_char=87
+7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=88|end_char=90
+8	tarvittaessa	tarvita	VERB	V	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Pass	5	advcl	_	start_char=91|end_char=103
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=103|end_char=104
+
+# text = Olen huomannut, etten todella tarvitse sitä kovin usein enkä käytä sitä juuri koskaan.
+# sent_id = 2
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=105|end_char=109
+2	huomannut	huomata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=110|end_char=119
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=119|end_char=120
+4-5	etten	_	_	_	_	_	_	_	start_char=121|end_char=126
+4	että	että	SCONJ	C	_	7	mark	_	_
+5	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
+6	todella	todella	ADV	Adv	_	7	advmod	_	start_char=127|end_char=134
+7	tarvitse	tarvita	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=135|end_char=143
+8	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	7	obj	_	start_char=144|end_char=148
+9	kovin	kovin	ADV	Adv	_	10	advmod	_	start_char=149|end_char=154
+10	usein	usein	ADV	Adv	_	7	advmod	_	start_char=155|end_char=160
+11	enkä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=161|end_char=165
+12	käytä	käyttää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=166|end_char=171
+13	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	12	obj	_	start_char=172|end_char=176
+14	juuri	juuri	ADV	Adv	_	15	advmod	_	start_char=177|end_char=182
+15	koskaan	koskaan	ADV	Adv	_	12	advmod	_	start_char=183|end_char=190
+16	.	.	PUNCT	Punct	_	2	punct	_	start_char=190|end_char=191
+
+# text = Jos olisin todella hyvä, voisin nähdä tarpeen.
+# sent_id = 3
+1	Jos	jos	SCONJ	C	_	4	mark	_	start_char=192|end_char=195
+2	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	cop	_	start_char=196|end_char=202
+3	todella	todella	ADV	Adv	_	4	advmod	_	start_char=203|end_char=210
+4	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	advcl	_	start_char=211|end_char=215
+5	,	,	PUNCT	Punct	_	4	punct	_	start_char=215|end_char=216
+6	voisin	voida	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	7	aux	_	start_char=217|end_char=223
+7	nähdä	nähdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=224|end_char=229
+8	tarpeen	tarpeen	ADV	Adv	_	7	compound:prt	_	start_char=230|end_char=237
+9	.	.	PUNCT	Punct	_	7	punct	_	start_char=237|end_char=238
+
+# text = Mutta tämä on näppäimistö, ei urut.
+# sent_id = 4
+1	Mutta	mutta	CCONJ	C	_	4	cc	_	start_char=239|end_char=244
+2	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=245|end_char=249
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=250|end_char=252
+4	näppäimistö	näppäimistö	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=253|end_char=264
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=264|end_char=265
+6	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=266|end_char=268
+7	urut	uru	NOUN	N	Case=Nom|Number=Plur	4	conj	_	start_char=269|end_char=273
+8	.	.	PUNCT	Punct	_	4	punct	_	start_char=273|end_char=274
+

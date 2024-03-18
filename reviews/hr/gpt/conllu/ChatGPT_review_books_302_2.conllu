@@ -1,0 +1,97 @@
+# text = U zemlji slijepih...
+# sent_id = 0
+1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=0|end_char=1
+2	zemlji	zemlja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=2|end_char=8
+3	slijepih	slijep	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	nmod	_	start_char=9|end_char=17
+4	...	...	PUNCT	Z	_	2	punct	_	start_char=17|end_char=20
+
+# text = Ovo književno djelo obećava prosvjetljenje, ali ne ispunjava to obećanje.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=21|end_char=24
+2	književno	književan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=25|end_char=34
+3	djelo	djelo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=35|end_char=40
+4	obećava	obećavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=41|end_char=48
+5	prosvjetljenje	prosvjetljenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=49|end_char=63
+6	,	,	PUNCT	Z	_	9	punct	_	start_char=63|end_char=64
+7	ali	ali	CCONJ	Cc	_	9	cc	_	start_char=65|end_char=68
+8	ne	ne	PART	Qz	Polarity=Neg	9	advmod	_	start_char=69|end_char=71
+9	ispunjava	ispunjavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=72|end_char=81
+10	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	start_char=82|end_char=84
+11	obećanje	obećanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=85|end_char=93
+12	.	.	PUNCT	Z	_	4	punct	_	start_char=93|end_char=94
+
+# text = Iako prolazni prorok doista govori elokventno i njegove riječi potiču duboko promišljanje, ne uspijevaju prenijeti pravo razumijevanje.
+# sent_id = 2
+1	Iako	iako	SCONJ	Cs	_	5	mark	_	start_char=95|end_char=99
+2	prolazni	prolazan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=100|end_char=108
+3	prorok	prorok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=109|end_char=115
+4	doista	doista	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=116|end_char=122
+5	govori	govoriti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=123|end_char=129
+6	elokventno	elokventno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=130|end_char=140
+7	i	i	CCONJ	Cc	_	9	cc	_	start_char=141|end_char=142
+8	njegove	njegov	DET	Ps3fpa	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	start_char=143|end_char=150
+9	riječi	riječ	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=151|end_char=157
+10	potiču	poticati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=158|end_char=164
+11	duboko	dubok	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=165|end_char=171
+12	promišljanje	promišljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	start_char=172|end_char=184
+13	,	,	PUNCT	Z	_	5	punct	_	start_char=184|end_char=185
+14	ne	ne	PART	Qz	Polarity=Neg	15	advmod	_	start_char=186|end_char=188
+15	uspijevaju	uspijevati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=189|end_char=199
+16	prenijeti	prenijeti	VERB	Vmn	VerbForm=Inf	15	xcomp	_	start_char=200|end_char=209
+17	pravo	prav	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=210|end_char=215
+18	razumijevanje	razumijevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=216|end_char=229
+19	.	.	PUNCT	Z	_	15	punct	_	start_char=229|end_char=230
+
+# text = Početni razgovor o ljubavi je uzbudljiv, ali ono što slijedi brzo klizi u prazne retoričke razgovore koji traju sve do gorke kraja.
+# sent_id = 3
+1	Početni	početan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=231|end_char=238
+2	razgovor	razgovor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=239|end_char=247
+3	o	o	ADP	Sl	Case=Loc	4	case	_	start_char=248|end_char=249
+4	ljubavi	ljubav	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	start_char=250|end_char=257
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=258|end_char=260
+6	uzbudljiv	uzbudljiv	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=261|end_char=270
+7	,	,	PUNCT	Z	_	13	punct	_	start_char=270|end_char=271
+8	ali	ali	CCONJ	Cc	_	13	cc	_	start_char=272|end_char=275
+9	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=276|end_char=279
+10	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	nsubj	_	start_char=280|end_char=283
+11	slijedi	slijediti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	start_char=284|end_char=291
+12	brzo	brzo	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=292|end_char=296
+13	klizi	kliziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=297|end_char=302
+14	u	u	ADP	Sa	Case=Acc	17	case	_	start_char=303|end_char=304
+15	prazne	prazan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=305|end_char=311
+16	retoričke	retorički	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	start_char=312|end_char=321
+17	razgovore	razgovor	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	13	obl	_	start_char=322|end_char=331
+18	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	19	nsubj	_	start_char=332|end_char=336
+19	traju	trajati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	start_char=337|end_char=342
+20	sve	sve	PART	Qo	_	23	discourse	_	start_char=343|end_char=346
+21	do	do	ADP	Sg	Case=Gen	23	case	_	start_char=347|end_char=349
+22	gorke	gorak	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=350|end_char=355
+23	kraja	kraj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	obl	_	start_char=356|end_char=361
+24	.	.	PUNCT	Z	_	6	punct	_	start_char=361|end_char=362
+
+# text = Najzabavniji aspekt ove knjige je vješto korištenje jezika, koje gotovo prikriva činjenicu da prorok doista govori, ali ne govori ništa.
+# sent_id = 4
+1	Najzabavniji	zabavan	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	2	amod	_	start_char=363|end_char=375
+2	aspekt	aspekt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=376|end_char=382
+3	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=383|end_char=386
+4	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=387|end_char=393
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=394|end_char=396
+6	vješto	vješto	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=397|end_char=403
+7	korištenje	korištenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=404|end_char=414
+8	jezika	jezik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=415|end_char=421
+9	,	,	PUNCT	Z	_	12	punct	_	start_char=421|end_char=422
+10	koje	koji	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=423|end_char=427
+11	gotovo	gotovo	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=428|end_char=434
+12	prikriva	prikrivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=435|end_char=443
+13	činjenicu	činjenica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=444|end_char=453
+14	da	da	SCONJ	Cs	_	17	mark	_	start_char=454|end_char=456
+15	prorok	prorok	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=457|end_char=463
+16	doista	doista	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=464|end_char=470
+17	govori	govoriti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	start_char=471|end_char=477
+18	,	,	PUNCT	Z	_	21	punct	_	start_char=477|end_char=478
+19	ali	ali	CCONJ	Cc	_	21	cc	_	start_char=479|end_char=482
+20	ne	ne	PART	Qz	Polarity=Neg	21	advmod	_	start_char=483|end_char=485
+21	govori	govoriti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	start_char=486|end_char=492
+22	ništa	ništa	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Neg	21	obj	_	start_char=493|end_char=498
+23	.	.	PUNCT	Z	_	7	punct	_	start_char=498|end_char=499
+

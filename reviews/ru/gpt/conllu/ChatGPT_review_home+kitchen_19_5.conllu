@@ -1,0 +1,89 @@
+# text = Замечательная книга!
+# sent_id = 0
+1	Замечательная	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=13
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=14|end_char=19
+3	!	!	PUNCT	_	_	2	punct	_	start_char=19|end_char=20
+
+# text = Книга Марфы Стюарт "Свадебные торты" именно то, что я искал(а).
+# sent_id = 1
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=21|end_char=26
+2	Марфы	Марф	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=27|end_char=32
+3	Стюарт	Стюарт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	flat:name	_	start_char=33|end_char=39
+4	"	"	PUNCT	_	_	6	punct	_	start_char=40|end_char=41
+5	Свадебные	свадебный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=41|end_char=50
+6	торты	торт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	appos	_	start_char=51|end_char=56
+7	"	"	PUNCT	_	_	6	punct	_	start_char=56|end_char=57
+8	именно	именно	PART	_	_	9	advmod	_	start_char=58|end_char=64
+9	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=65|end_char=67
+10	,	,	PUNCT	_	_	13	punct	_	start_char=67|end_char=68
+11	что	что	SCONJ	_	_	13	mark	_	start_char=69|end_char=72
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=73|end_char=74
+13	искал(	искать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl	_	start_char=75|end_char=81
+14	а	а	INTJ	_	_	13	obj	_	start_char=81|end_char=82
+15	)	)	PUNCT	_	_	13	punct	_	start_char=82|end_char=83
+16	.	.	PUNCT	_	_	9	punct	_	start_char=83|end_char=84
+
+# text = Ясные инструкции и великолепные фотографии - идеальны.
+# sent_id = 2
+1	Ясные	ясный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=85|end_char=90
+2	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=91|end_char=101
+3	и	и	CCONJ	_	_	5	cc	_	start_char=102|end_char=103
+4	великолепные	великолепный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=104|end_char=116
+5	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=117|end_char=127
+6	-	-	PUNCT	_	_	2	punct	_	start_char=128|end_char=129
+7	идеальны	идеальный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=130|end_char=138
+8	.	.	PUNCT	_	_	7	punct	_	start_char=138|end_char=139
+
+# text = Любимица настоящего кондитера.
+# sent_id = 3
+1	Любимица	любимица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=140|end_char=148
+2	настоящего	настоящий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=149|end_char=159
+3	кондитера	кондитер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=160|end_char=169
+4	.	.	PUNCT	_	_	1	punct	_	start_char=169|end_char=170
+
+# text = Это первая книга, к которой я буду обращаться за идеями.
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=171|end_char=174
+2	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=175|end_char=181
+3	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=182|end_char=187
+4	,	,	PUNCT	_	_	9	punct	_	start_char=187|end_char=188
+5	к	к	ADP	_	_	6	case	_	start_char=189|end_char=190
+6	которой	который	PRON	_	Case=Dat|PronType=Int,Rel	9	obl	_	start_char=191|end_char=198
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=199|end_char=200
+8	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=201|end_char=205
+9	обращаться	обращаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	acl:relcl	_	start_char=206|end_char=216
+10	за	за	ADP	_	_	11	case	_	start_char=217|end_char=219
+11	идеями	идея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	9	obl	_	start_char=220|end_char=226
+12	.	.	PUNCT	_	_	3	punct	_	start_char=226|end_char=227
+
+# text = И у меня в библиотеке более 50 книг о тортах.
+# sent_id = 5
+1	И	и	CCONJ	_	_	5	cc	_	start_char=228|end_char=229
+2	у	у	ADP	_	_	3	case	_	start_char=230|end_char=231
+3	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obl	_	start_char=232|end_char=236
+4	в	в	ADP	_	_	5	case	_	start_char=237|end_char=238
+5	библиотеке	библиотека	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	start_char=239|end_char=249
+6	более	более	ADV	_	Degree=Cmp	5	nsubj	_	start_char=250|end_char=255
+7	50	50	NUM	_	NumType=Card	8	nummod	_	start_char=256|end_char=258
+8	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=259|end_char=263
+9	о	о	ADP	_	_	10	case	_	start_char=264|end_char=265
+10	тортах	торт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	nmod	_	start_char=266|end_char=272
+11	.	.	PUNCT	_	_	5	punct	_	start_char=272|end_char=273
+
+# text = Я не мог(ла) быть счастливее.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=274|end_char=275
+2	не	не	PART	_	_	3	advmod	_	start_char=276|end_char=278
+3	мог(	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=279|end_char=283
+4	ла	ла	INTJ	_	_	3	obj	_	start_char=283|end_char=285
+5	)	)	PUNCT	_	_	3	punct	_	start_char=285|end_char=286
+6	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	cop	_	start_char=287|end_char=291
+7	счастливее	счастливый	ADJ	_	Degree=Cmp	3	obl	_	start_char=292|end_char=302
+8	.	.	PUNCT	_	_	3	punct	_	start_char=302|end_char=303
+
+# text = :o)
+# sent_id = 7
+1	:	:	PUNCT	_	_	2	punct	_	start_char=304|end_char=305
+2	o	o	X	_	Foreign=Yes	0	root	_	start_char=305|end_char=306
+3	)	)	PUNCT	_	_	2	punct	_	start_char=306|end_char=307
+

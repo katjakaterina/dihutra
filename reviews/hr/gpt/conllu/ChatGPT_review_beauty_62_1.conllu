@@ -1,0 +1,79 @@
+# text = Lažni MAC, nije vrijedno kupovine lažne šminke!
+# sent_id = 0
+1	Lažni	lažni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=6|end_char=9
+3	,	,	PUNCT	Z	_	2	punct	_	start_char=9|end_char=10
+4	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=11|end_char=15
+5	vrijedno	vrijedan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=16|end_char=24
+6	kupovine	kupovina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	start_char=25|end_char=33
+7	lažne	lažan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=34|end_char=39
+8	šminke	šminka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=40|end_char=46
+9	!	!	PUNCT	Z	_	5	punct	_	start_char=46|end_char=47
+
+# text = Lažni Mac.
+# sent_id = 1
+1	Lažni	lažni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=48|end_char=53
+2	Mac	Mac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=54|end_char=57
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=57|end_char=58
+
+# text = Mac ne proizvodi ove palete, samo ih nazovite i pitajte.
+# sent_id = 2
+1	Mac	Mac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=59|end_char=62
+2	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=63|end_char=65
+3	proizvodi	proizvoditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=66|end_char=75
+4	ove	ovaj	DET	Pd-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	start_char=76|end_char=79
+5	palete	palet	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=80|end_char=86
+6	,	,	PUNCT	Z	_	9	punct	_	start_char=86|end_char=87
+7	samo	samo	ADV	Rgp	Degree=Pos	9	cc	_	start_char=88|end_char=92
+8	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	start_char=93|end_char=95
+9	nazovite	nazvati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=96|end_char=104
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=105|end_char=106
+11	pitajte	pitati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	9	conj	_	start_char=107|end_char=114
+12	.	.	PUNCT	Z	_	3	punct	_	start_char=114|end_char=115
+
+# text = Pitajte bilo koji MAC dućan u lokalnom trgovačkom centru.
+# sent_id = 3
+1	Pitajte	pitati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=116|end_char=123
+2	bilo	bilo	PART	Qo	_	3	discourse	_	start_char=124|end_char=128
+3	koji	koji	DET	Pi-msa	Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	5	det	_	start_char=129|end_char=133
+4	MAC	MAC	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	amod	_	start_char=134|end_char=137
+5	dućan	dućan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=138|end_char=143
+6	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=144|end_char=145
+7	lokalnom	lokalan	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=146|end_char=154
+8	trgovačkom	trgovački	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=155|end_char=165
+9	centru	centar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=166|end_char=172
+10	.	.	PUNCT	Z	_	1	punct	_	start_char=172|end_char=173
+
+# text = Samo jedan pogled na ovu sliku i znat će da nije pravi MAC proizvod.
+# sent_id = 4
+1	Samo	samo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=174|end_char=178
+2	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	3	nummod	_	start_char=179|end_char=184
+3	pogled	pogled	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=185|end_char=191
+4	na	na	ADP	Sa	Case=Acc	6	case	_	start_char=192|end_char=194
+5	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=195|end_char=198
+6	sliku	slika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=199|end_char=204
+7	i	i	CCONJ	Cc	_	8	cc	_	start_char=205|end_char=206
+8	znat	znati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=207|end_char=211
+9	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=212|end_char=214
+10	da	da	SCONJ	Cs	_	14	mark	_	start_char=215|end_char=217
+11	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=218|end_char=222
+12	pravi	prav	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=223|end_char=228
+13	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	start_char=229|end_char=232
+14	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	ccomp	_	start_char=233|end_char=241
+15	.	.	PUNCT	Z	_	8	punct	_	start_char=241|end_char=242
+
+# text = Molim vas, držite se podalje od stvari koje nisu autentične.
+# sent_id = 5
+1	Molim	moliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=243|end_char=248
+2	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	1	obj	_	start_char=249|end_char=252
+3	,	,	PUNCT	Z	_	4	punct	_	start_char=252|end_char=253
+4	držite	držati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	conj	_	start_char=254|end_char=260
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=261|end_char=263
+6	podalje	podalje	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=264|end_char=271
+7	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=272|end_char=274
+8	stvari	stvar	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	start_char=275|end_char=281
+9	koje	koji	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Int,Rel	11	nsubj	_	start_char=282|end_char=286
+10	nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=287|end_char=291
+11	autentične	autentičan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	acl	_	start_char=292|end_char=302
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=302|end_char=303
+

@@ -1,0 +1,108 @@
+# text = Отличный набор.
+# sent_id = 0
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	набор	набор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=9|end_char=14
+3	.	.	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+
+# text = Мне он нравится, но я должен сказать, что я хотел бы, чтобы в наборе был способ "завести" ленту через что-то, чтобы можно было выполнять тяговые или спинные упражнения.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=16|end_char=19
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=20|end_char=22
+3	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=23|end_char=31
+4	,	,	PUNCT	_	_	7	punct	_	start_char=31|end_char=32
+5	но	но	CCONJ	_	_	7	cc	_	start_char=33|end_char=35
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=36|end_char=37
+7	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	start_char=38|end_char=44
+8	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=45|end_char=52
+9	,	,	PUNCT	_	_	12	punct	_	start_char=52|end_char=53
+10	что	что	SCONJ	_	_	12	mark	_	start_char=54|end_char=57
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=58|end_char=59
+12	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=60|end_char=65
+13	бы	бы	AUX	_	_	12	aux	_	start_char=66|end_char=68
+14	,	,	PUNCT	_	_	18	punct	_	start_char=68|end_char=69
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	start_char=70|end_char=75
+16	в	в	ADP	_	_	17	case	_	start_char=76|end_char=77
+17	наборе	набор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	start_char=78|end_char=84
+18	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	ccomp	_	start_char=85|end_char=88
+19	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=89|end_char=95
+20	"	"	PUNCT	_	_	21	punct	_	start_char=96|end_char=97
+21	завести	завести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	obl	_	start_char=97|end_char=104
+22	"	"	PUNCT	_	_	21	punct	_	start_char=104|end_char=105
+23	ленту	лента	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	start_char=106|end_char=111
+24	через	через	ADP	_	_	25	case	_	start_char=112|end_char=117
+25	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	21	obl	_	start_char=118|end_char=124
+26	,	,	PUNCT	_	_	28	punct	_	start_char=124|end_char=125
+27	чтобы	чтобы	SCONJ	_	Mood=Cnd	28	mark	_	start_char=126|end_char=131
+28	можно	можно	ADV	_	Degree=Pos	21	advcl	_	start_char=132|end_char=137
+29	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	start_char=138|end_char=142
+30	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	csubj	_	start_char=143|end_char=152
+31	тяговые	тяговой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	34	amod	_	start_char=153|end_char=160
+32	или	или	CCONJ	_	_	33	cc	_	start_char=161|end_char=164
+33	спинные	спинной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	31	conj	_	start_char=165|end_char=172
+34	упражнения	упражнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	30	obj	_	start_char=173|end_char=183
+35	.	.	PUNCT	_	_	3	punct	_	start_char=183|end_char=184
+
+# text = Я в конечном итоге использовал "крепление для голеней", и это сработало для меня.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=185|end_char=186
+2	в	в	ADP	_	_	4	case	_	start_char=187|end_char=188
+3	конечном	конечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=189|end_char=197
+4	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=198|end_char=203
+5	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=204|end_char=215
+6	"	"	PUNCT	_	_	7	punct	_	start_char=216|end_char=217
+7	крепление	крепление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=217|end_char=226
+8	для	для	ADP	_	_	9	case	_	start_char=227|end_char=230
+9	голеней	голень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=231|end_char=238
+10	"	"	PUNCT	_	_	7	punct	_	start_char=238|end_char=239
+11	,	,	PUNCT	_	_	14	punct	_	start_char=239|end_char=240
+12	и	и	CCONJ	_	_	14	cc	_	start_char=241|end_char=242
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=243|end_char=246
+14	сработало	сработать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=247|end_char=256
+15	для	для	ADP	_	_	16	case	_	start_char=257|end_char=260
+16	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	14	obl	_	start_char=261|end_char=265
+17	.	.	PUNCT	_	_	5	punct	_	start_char=265|end_char=266
+
+# text = Качество отличное, и я уверен, что это продлит мне жизнь на долгое время.
+# sent_id = 3
+1	Качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=267|end_char=275
+2	отличное	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=276|end_char=284
+3	,	,	PUNCT	_	_	6	punct	_	start_char=284|end_char=285
+4	и	и	CCONJ	_	_	6	cc	_	start_char=286|end_char=287
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=288|end_char=289
+6	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=290|end_char=296
+7	,	,	PUNCT	_	_	10	punct	_	start_char=296|end_char=297
+8	что	что	SCONJ	_	_	10	mark	_	start_char=298|end_char=301
+9	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=302|end_char=305
+10	продлит	продлить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=306|end_char=313
+11	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	start_char=314|end_char=317
+12	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=318|end_char=323
+13	на	на	ADP	_	_	15	case	_	start_char=324|end_char=326
+14	долгое	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=327|end_char=333
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=334|end_char=339
+16	.	.	PUNCT	_	_	2	punct	_	start_char=339|end_char=340
+
+# text = Мне нравится карабин, потому что, когда вы становитесь сильнее, вы можете использовать 2 или более одновременно с ручками.
+# sent_id = 4
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=341|end_char=344
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=345|end_char=353
+3	карабин	карабин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=354|end_char=361
+4	,	,	PUNCT	_	_	14	punct	_	start_char=361|end_char=362
+5	потому	потому	ADV	_	Degree=Pos	14	mark	_	start_char=363|end_char=369
+6	что	что	SCONJ	_	_	5	fixed	_	start_char=370|end_char=373
+7	,	,	PUNCT	_	_	5	punct	_	start_char=373|end_char=374
+8	когда	когда	SCONJ	_	_	10	mark	_	start_char=375|end_char=380
+9	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	start_char=381|end_char=383
+10	становитесь	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	14	advcl	_	start_char=384|end_char=395
+11	сильнее	сильный	ADJ	_	Degree=Cmp	10	obl	_	start_char=396|end_char=403
+12	,	,	PUNCT	_	_	10	punct	_	start_char=403|end_char=404
+13	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	start_char=405|end_char=407
+14	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=408|end_char=414
+15	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=415|end_char=427
+16	2	2	NUM	_	NumType=Card	15	obl	_	start_char=428|end_char=429
+17	или	или	CCONJ	_	_	18	cc	_	start_char=430|end_char=433
+18	более	более	ADV	_	Degree=Cmp	16	conj	_	start_char=434|end_char=439
+19	одновременно	одновременно	ADV	_	Degree=Pos	15	advmod	_	start_char=440|end_char=452
+20	с	с	ADP	_	_	21	case	_	start_char=453|end_char=454
+21	ручками	ручка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	obl	_	start_char=455|end_char=462
+22	.	.	PUNCT	_	_	2	punct	_	start_char=462|end_char=463
+

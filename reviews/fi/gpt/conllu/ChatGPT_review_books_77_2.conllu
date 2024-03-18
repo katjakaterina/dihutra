@@ -1,0 +1,80 @@
+# text = Jos etsit pientä painettua uutuutta, rakastut tähän.
+# sent_id = 0
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=0|end_char=3
+2	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=4|end_char=9
+3	pientä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	start_char=10|end_char=16
+4	painettua	painaa	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=17|end_char=26
+5	uutuutta	uutuus	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=27|end_char=35
+6	,	,	PUNCT	Punct	_	2	punct	_	start_char=35|end_char=36
+7	rakastut	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=37|end_char=45
+8	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	7	obl	_	start_char=46|end_char=51
+9	.	.	PUNCT	Punct	_	7	punct	_	start_char=51|end_char=52
+
+# text = Olen aina rakastanut Profeettaa ja lukenut sen monta kertaa.
+# sent_id = 1
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=53|end_char=57
+2	aina	aina	ADV	Adv	_	3	advmod	_	start_char=58|end_char=62
+3	rakastanut	rakastaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=63|end_char=73
+4	Profeettaa	Profeetta	PROPN	N	Case=Par|Number=Sing	3	obj	_	start_char=74|end_char=84
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=85|end_char=87
+6	lukenut	lukea	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=88|end_char=95
+7	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	obj	_	start_char=96|end_char=99
+8	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	9	det	_	start_char=100|end_char=105
+9	kertaa	kerta	NOUN	N	Case=Par|Number=Sing	6	obl	_	start_char=106|end_char=112
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=112|end_char=113
+
+# text = Lahjoitin viimeisen kappaleeni ja etsin korvaavaa.
+# sent_id = 2
+1	Lahjoitin	lahjoittaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=114|end_char=123
+2	viimeisen	viimeinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	3	amod	_	start_char=124|end_char=133
+3	kappaleeni	kappaleeni	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obj	_	start_char=134|end_char=144
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=145|end_char=147
+5	etsin	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=148|end_char=153
+6	korvaavaa	korvaava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	obj	_	start_char=154|end_char=163
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=163|end_char=164
+
+# text = Ostin tämän kappaleen vain huomatakseni, että se oli pienen kokoinen uutuusversio kirjasta.
+# sent_id = 3
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=165|end_char=170
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=171|end_char=176
+3	kappaleen	kappale	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=177|end_char=186
+4	vain	vain	ADV	Adv	_	5	advmod	_	start_char=187|end_char=191
+5	huomatakseni	huomata	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=192|end_char=204
+6	,	,	PUNCT	Punct	_	12	punct	_	start_char=204|end_char=205
+7	että	että	SCONJ	C	_	12	mark	_	start_char=206|end_char=210
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	_	start_char=211|end_char=213
+9	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=214|end_char=217
+10	pienen	pieni	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	11	amod	_	start_char=218|end_char=224
+11	kokoinen	kokoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	12	amod	_	start_char=225|end_char=233
+12	uutuusversio	uutu#usversio	NOUN	N	Case=Nom|Number=Sing	5	ccomp	_	start_char=234|end_char=246
+13	kirjasta	kirja	NOUN	N	Case=Ela|Number=Sing	12	nmod	_	start_char=247|end_char=255
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=255|end_char=256
+
+# text = Jos etsit jotain pientä pidettäväksi laukussasi, tämä on sinulle.
+# sent_id = 4
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=257|end_char=260
+2	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=261|end_char=266
+3	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	4	det	_	start_char=267|end_char=273
+4	pientä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Sing	2	obj	_	start_char=274|end_char=280
+5	pidettäväksi	pitää	VERB	V	Case=Tra|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	xcomp:ds	_	start_char=281|end_char=293
+6	laukussasi	laukku	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obl	_	start_char=294|end_char=304
+7	,	,	PUNCT	Punct	_	2	punct	_	start_char=304|end_char=305
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=306|end_char=310
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=311|end_char=313
+10	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	0	root	_	start_char=314|end_char=321
+11	.	.	PUNCT	Punct	_	10	punct	_	start_char=321|end_char=322
+
+# text = Jos etsit "oikeaa kirjaa", tämä on vitsi.
+# sent_id = 5
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=323|end_char=326
+2	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=327|end_char=332
+3	"	"	PUNCT	Punct	_	5	punct	_	start_char=333|end_char=334
+4	oikeaa	oikea	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	start_char=334|end_char=340
+5	kirjaa	kirja	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=341|end_char=347
+6	"	"	PUNCT	Punct	_	5	punct	_	start_char=347|end_char=348
+7	,	,	PUNCT	Punct	_	2	punct	_	start_char=348|end_char=349
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=350|end_char=354
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=355|end_char=357
+10	vitsi	vitsi	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=358|end_char=363
+11	.	.	PUNCT	Punct	_	10	punct	_	start_char=363|end_char=364
+

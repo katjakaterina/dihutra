@@ -1,0 +1,58 @@
+# text = Näytä minulle rahat!
+# sent_id = 0
+1	Näytä	näyttää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	1	obl	_	start_char=6|end_char=13
+3	rahat	raha	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=14|end_char=19
+4	!	!	PUNCT	Punct	_	1	punct	_	start_char=19|end_char=20
+
+# text = Mielenkiintoinen Grishamin kertomus lakimiehestä, joka ottaa miljoonia dollareita asianajotoimistostaan lavastamalla oman kuolemansa.
+# sent_id = 1
+1	Mielenkiintoinen	mielenkiintoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	3	amod	_	start_char=21|end_char=37
+2	Grishamin	Grisham	PROPN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=38|end_char=47
+3	kertomus	kertomus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=48|end_char=56
+4	lakimiehestä	laki#mies	NOUN	N	Case=Ela|Number=Sing	3	nmod	_	start_char=57|end_char=69
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=69|end_char=70
+6	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	7	nsubj	_	start_char=71|end_char=75
+7	ottaa	ottaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=76|end_char=81
+8	miljoonia	miljoona	NUM	Num	Case=Par|NumType=Card|Number=Plur	9	nummod	_	start_char=82|end_char=91
+9	dollareita	dollari	NOUN	N	Case=Par|Number=Plur	7	obj	_	start_char=92|end_char=102
+10	asianajotoimistostaan	asian#ajo#toimisto	NOUN	N	Case=Ela|Number=Sing|Person[psor]=3	9	nmod	_	start_char=103|end_char=124
+11	lavastamalla	lavastaa	VERB	V	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=125|end_char=137
+12	oman	oma	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	13	amod	_	start_char=138|end_char=142
+13	kuolemansa	kuolema	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	11	obj	_	start_char=143|end_char=153
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=153|end_char=154
+
+# text = Grisham on yleensä taitava koukuttamaan lukijansa varhain, eikä tässä tapauksessa paljasta korttejaan liian aikaisin.
+# sent_id = 2
+1	Grisham	Grisham	PROPN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=155|end_char=162
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=163|end_char=165
+3	yleensä	yleensä	ADV	Adv	_	4	advmod	_	start_char=166|end_char=173
+4	taitava	taitava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=174|end_char=181
+5	koukuttamaan	koukuttaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=182|end_char=194
+6	lukijansa	lukija	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	5	obj	_	start_char=195|end_char=204
+7	varhain	varhain	ADV	Adv	_	5	advmod	_	start_char=205|end_char=212
+8	,	,	PUNCT	Punct	_	12	punct	_	start_char=212|end_char=213
+9	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=214|end_char=218
+10	tässä	tämä	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	11	det	_	start_char=219|end_char=224
+11	tapauksessa	tapaus	NOUN	N	Case=Ine|Number=Sing	12	obl	_	start_char=225|end_char=236
+12	paljasta	paljastaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=237|end_char=245
+13	korttejaan	kortti	NOUN	N	Case=Par|Number=Plur|Person[psor]=3	12	obj	_	start_char=246|end_char=256
+14	liian	liian	ADV	Adv	_	15	advmod	_	start_char=257|end_char=262
+15	aikaisin	aikaisin	ADV	Adv	_	12	advmod	_	start_char=263|end_char=271
+16	.	.	PUNCT	Punct	_	4	punct	_	start_char=271|end_char=272
+
+# text = Yleensä luotettava Frank Mueller tekee tästä tarinasta vielä paremman vedon äänikirjana.
+# sent_id = 3
+1	Yleensä	yleensä	ADV	Adv	_	5	advmod	_	start_char=273|end_char=280
+2	luotettava	luotettava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=281|end_char=291
+3	Frank	Frank	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=292|end_char=297
+4	Mueller	Mueller	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=298|end_char=305
+5	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=306|end_char=311
+6	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	7	det	_	start_char=312|end_char=317
+7	tarinasta	tarina	NOUN	N	Case=Ela|Number=Sing	5	obl	_	start_char=318|end_char=327
+8	vielä	vielä	ADV	Adv	_	9	advmod	_	start_char=328|end_char=333
+9	paremman	hyvä	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	10	amod	_	start_char=334|end_char=342
+10	vedon	veto	NOUN	N	Case=Gen|Number=Sing	5	obj	_	start_char=343|end_char=348
+11	äänikirjana	ääni#kirja	NOUN	N	Case=Ess|Number=Sing	5	obl	_	start_char=349|end_char=360
+12	.	.	PUNCT	Punct	_	5	punct	_	start_char=360|end_char=361
+

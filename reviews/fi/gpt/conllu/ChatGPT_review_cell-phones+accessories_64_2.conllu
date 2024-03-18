@@ -1,0 +1,63 @@
+# text = Aluksi rakastin sitä Rakastin koteloa ensimmäisenä saadessani sen, mutta pian sen jälkeen kuori alkoi irrota.
+# sent_id = 0
+1	Aluksi	aluksi	ADV	Adv	_	2	advmod	_	start_char=0|end_char=6
+2	rakastin	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=15
+3	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	4	obj	_	start_char=16|end_char=20
+4	Rakastin	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=21|end_char=29
+5	koteloa	kotelo	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=30|end_char=37
+6	ensimmäisenä	ensimmäinen	ADJ	Num	Case=Ess|Derivation=Inen|NumType=Ord|Number=Sing	4	obl	_	start_char=38|end_char=50
+7	saadessani	saada	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=51|end_char=61
+8	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	7	obj	_	start_char=62|end_char=65
+9	,	,	PUNCT	Punct	_	15	punct	_	start_char=65|end_char=66
+10	mutta	mutta	CCONJ	C	_	15	cc	_	start_char=67|end_char=72
+11	pian	pian	ADV	Adv	_	15	advmod	_	start_char=73|end_char=77
+12	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	15	obl	_	start_char=78|end_char=81
+13	jälkeen	jälkeen	ADP	Adp	AdpType=Post	12	case	_	start_char=82|end_char=89
+14	kuori	kuori	NOUN	N	Case=Nom|Number=Sing	15	nsubj	_	start_char=90|end_char=95
+15	alkoi	alkaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=96|end_char=101
+16	irrota	irrota	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=102|end_char=108
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=108|end_char=109
+
+# text = Aluksi en tiennyt, mikä se oli, kunnes katsoin kotelon takaosaa, ja siitä puuttui paikkoja.
+# sent_id = 1
+1	Aluksi	aluksi	ADV	Adv	_	3	advmod	_	start_char=110|end_char=116
+2	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=117|end_char=119
+3	tiennyt	tietää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=120|end_char=127
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=127|end_char=128
+5	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	3	ccomp	_	start_char=129|end_char=133
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=134|end_char=136
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=137|end_char=140
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=140|end_char=141
+9	kunnes	kunnes	SCONJ	C	_	10	mark	_	start_char=142|end_char=148
+10	katsoin	katsoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=149|end_char=156
+11	kotelon	kotelo	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	start_char=157|end_char=164
+12	takaosaa	taka#osa	NOUN	N	Case=Par|Number=Sing	10	obj	_	start_char=165|end_char=173
+13	,	,	PUNCT	Punct	_	16	punct	_	start_char=173|end_char=174
+14	ja	ja	CCONJ	C	_	16	cc	_	start_char=175|end_char=177
+15	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	16	obl	_	start_char=178|end_char=183
+16	puuttui	puuttua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=184|end_char=191
+17	paikkoja	paikka	NOUN	N	Case=Par|Number=Plur	16	nsubj	_	start_char=192|end_char=200
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=200|end_char=201
+
+# text = Arvaan, että joskus hyvä diili ei olekaan oikeastaan hyvä diili.
+# sent_id = 2
+1	Arvaan	arvata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=203|end_char=209
+2	,	,	PUNCT	Punct	_	11	punct	_	start_char=209|end_char=210
+3	että	että	SCONJ	C	_	11	mark	_	start_char=211|end_char=215
+4	joskus	joskus	ADV	Adv	_	5	advmod	_	start_char=216|end_char=222
+5	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	start_char=223|end_char=227
+6	diili	diili	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=228|end_char=233
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=234|end_char=236
+8	olekaan	olla	AUX	V	Clitic=Kaan|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=237|end_char=244
+9	oikeastaan	oikeastaan	ADV	Adv	_	11	advmod	_	start_char=245|end_char=255
+10	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	start_char=256|end_char=260
+11	diili	diili	NOUN	N	Case=Nom|Number=Sing	1	ccomp	_	start_char=261|end_char=266
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=266|end_char=267
+
+# text = En ostaisi uudelleen.
+# sent_id = 3
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=268|end_char=270
+2	ostaisi	ostaa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	0	root	_	start_char=271|end_char=278
+3	uudelleen	uudelleen	ADV	Adv	_	2	advmod	_	start_char=279|end_char=288
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=288|end_char=289
+

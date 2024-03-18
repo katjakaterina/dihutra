@@ -1,0 +1,107 @@
+# text = Dosaaadno Mrzio/la sam ovaj proizvod.
+# sent_id = 0
+1	Dosaaadno	dosaaadno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=0|end_char=9
+2	Mrzio/la	Mrzio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=10|end_char=18
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=19|end_char=22
+4	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=23|end_char=27
+5	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=28|end_char=36
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=36|end_char=37
+
+# text = Predvidljiv.
+# sent_id = 1
+1	Predvidljiv	predvidljiv	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=38|end_char=49
+2	.	.	PUNCT	Z	_	1	punct	_	start_char=49|end_char=50
+
+# text = Nije zabavno.
+# sent_id = 2
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=51|end_char=55
+2	zabavno	zabavan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=56|end_char=63
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=63|end_char=64
+
+# text = Pokušava biti brza igra za stolom, ali osjeća se kao nespretno složen nered od smeća.
+# sent_id = 3
+1	Pokušava	pokušavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=65|end_char=73
+2	biti	biti	AUX	Van	VerbForm=Inf	1	xcomp	_	start_char=74|end_char=78
+3	brza	brz	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=79|end_char=83
+4	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	xcomp	_	start_char=84|end_char=88
+5	za	za	ADP	Si	Case=Ins	6	case	_	start_char=89|end_char=91
+6	stolom	stol	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	start_char=92|end_char=98
+7	,	,	PUNCT	Z	_	9	punct	_	start_char=98|end_char=99
+8	ali	ali	CCONJ	Cc	_	9	cc	_	start_char=100|end_char=103
+9	osjeća	osjećati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=104|end_char=110
+10	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=111|end_char=113
+11	kao	kao	SCONJ	Cs	_	14	case	_	start_char=114|end_char=117
+12	nespretno	nespretno	ADV	Rgp	Degree=Pos	13	advmod	_	start_char=118|end_char=127
+13	složen	složen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=128|end_char=134
+14	nered	nered	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	obl	_	start_char=135|end_char=140
+15	od	od	ADP	Sg	Case=Gen	16	case	_	start_char=141|end_char=143
+16	smeća	smeće	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=144|end_char=149
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=149|end_char=150
+
+# text = Često sam mislio/la
+# sent_id = 4
+1	Često	često	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=151|end_char=156
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=157|end_char=160
+3	mislio/la	mislio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=161|end_char=170
+
+# text = "Ovo mi izgleda kao borba u D&D-u...
+# sent_id = 5
+1	"	"	PUNCT	Z	_	4	punct	_	start_char=171|end_char=172
+2	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=172|end_char=175
+3	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=176|end_char=178
+4	izgleda	izgledati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=179|end_char=186
+5	kao	kao	SCONJ	Cs	_	6	case	_	start_char=187|end_char=190
+6	borba	borba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	start_char=191|end_char=196
+7	u	u	ADP	Sl	Case=Loc	8	case	_	start_char=197|end_char=198
+8	D&D-u	D&D	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=199|end_char=204
+9	...	...	PUNCT	Z	_	4	punct	_	start_char=204|end_char=207
+
+# text = Samo šalim se".
+# sent_id = 6
+1	Samo	samo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=208|end_char=212
+2	šalim	šaliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=213|end_char=218
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	_	start_char=219|end_char=221
+4	"	"	PUNCT	Z	_	2	punct	_	start_char=221|end_char=222
+5	.	.	PUNCT	Z	_	2	punct	_	start_char=222|end_char=223
+
+# text = Nikad je nismo igrali ponovno nakon jednog odigravanja.
+# sent_id = 7
+1	Nikad	nikad	ADV	Rgp	Degree=Pos|PronType=Neg	4	advmod	_	start_char=224|end_char=229
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=230|end_char=232
+3	nismo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=233|end_char=238
+4	igrali	igrati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=239|end_char=245
+5	ponovno	ponovno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=246|end_char=253
+6	nakon	nakon	ADP	Sg	Case=Gen	8	case	_	start_char=254|end_char=259
+7	jednog	jedan	NUM	Mlcmsg	Case=Gen|Gender=Neut|NumType=Card|Number=Sing	8	nummod	_	start_char=260|end_char=266
+8	odigravanja	odigravanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	start_char=267|end_char=278
+9	.	.	PUNCT	Z	_	4	punct	_	start_char=278|end_char=279
+
+# text = Ne bih preporučio/la ovo za stariju grupu igrača koja voli društvene/kartonske igre poput "Talismana", "7 čuda" i "Uzlaza".
+# sent_id = 8
+1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=280|end_char=282
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=283|end_char=286
+3	preporučio/la	preporučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=287|end_char=300
+4	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	start_char=301|end_char=304
+5	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=305|end_char=307
+6	stariju	star	ADJ	Agcfsay	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	7	amod	_	start_char=308|end_char=315
+7	grupu	grupa	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	start_char=316|end_char=321
+8	igrača	igrač	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=322|end_char=328
+9	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	10	nsubj	_	start_char=329|end_char=333
+10	voli	voljeti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=334|end_char=338
+11	društvene/kartonske	društvene/kartonski	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	start_char=339|end_char=358
+12	igre	igra	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	start_char=359|end_char=363
+13	poput	poput	ADP	Sg	Case=Gen	15	case	_	start_char=364|end_char=369
+14	"	"	PUNCT	Z	_	15	punct	_	start_char=370|end_char=371
+15	Talismana	Talisman	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=371|end_char=380
+16	"	"	PUNCT	Z	_	15	punct	_	start_char=380|end_char=381
+17	,	,	PUNCT	Z	_	20	punct	_	start_char=381|end_char=382
+18	"	"	PUNCT	Z	_	20	punct	_	start_char=383|end_char=384
+19	7	7	NUM	Mdc	NumType=Card	20	nummod:gov	_	start_char=384|end_char=385
+20	čuda	čud	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	15	conj	_	start_char=386|end_char=390
+21	"	"	PUNCT	Z	_	20	punct	_	start_char=390|end_char=391
+22	i	i	CCONJ	Cc	_	24	cc	_	start_char=392|end_char=393
+23	"	"	PUNCT	Z	_	24	punct	_	start_char=394|end_char=395
+24	Uzlaza	Uzlaz	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	15	conj	_	start_char=395|end_char=401
+25	"	"	PUNCT	Z	_	15	punct	_	start_char=401|end_char=402
+26	.	.	PUNCT	Z	_	3	punct	_	start_char=402|end_char=403
+

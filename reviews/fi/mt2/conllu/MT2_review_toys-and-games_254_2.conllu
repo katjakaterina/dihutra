@@ -1,0 +1,55 @@
+# text = Tämä peli on tylsä.
+# sent_id = 0
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4
+2	peli	peli	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=5|end_char=9
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=10|end_char=12
+4	tylsä	tylsä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=13|end_char=18
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=18|end_char=19
+
+# text = Kappaleiden laatu on todella mukavaa.
+# sent_id = 1
+1	Kappaleiden	kappale	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	start_char=20|end_char=31
+2	laatu	laatu	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=32|end_char=37
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=38|end_char=40
+4	todella	todella	ADV	Adv	_	5	advmod	_	start_char=41|end_char=48
+5	mukavaa	mukava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=49|end_char=56
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=56|end_char=57
+
+# text = Mutta pelaajien välillä on vähän vuorovaikutusta, eikä hirviöiden vaikeuksiin ole riimiä tai syytä eikä mitään keinoa parantaa hahmojasi.
+# sent_id = 2
+1	Mutta	mutta	CCONJ	C	_	2	cc	_	start_char=58|end_char=63
+2	pelaajien	pelaaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Plur	0	root	_	start_char=64|end_char=73
+3	välillä	välillä	ADP	Adp	AdpType=Post	2	case	_	start_char=74|end_char=81
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=82|end_char=84
+5	vähän	vähän	ADV	Adv	_	6	advmod	_	start_char=85|end_char=90
+6	vuorovaikutusta	vuoro#vaikutus	NOUN	N	Case=Par|Number=Sing	2	nsubj:cop	_	start_char=91|end_char=106
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=106|end_char=107
+8	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=108|end_char=112
+9	hirviöiden	hirviö	NOUN	N	Case=Gen|Number=Plur	10	nmod:poss	_	start_char=113|end_char=123
+10	vaikeuksiin	vaikeus	NOUN	N	Case=Ill|Number=Plur	2	conj	_	start_char=124|end_char=135
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=136|end_char=139
+12	riimiä	riimi	NOUN	N	Case=Par|Number=Sing	10	nsubj:cop	_	start_char=140|end_char=146
+13	tai	tai	CCONJ	C	_	14	cc	_	start_char=147|end_char=150
+14	syytä	syy	NOUN	N	Case=Par|Number=Sing	12	conj	_	start_char=151|end_char=156
+15	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	17	aux	_	start_char=157|end_char=161
+16	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	17	det	_	start_char=162|end_char=168
+17	keinoa	keino	NOUN	N	Case=Par|Number=Sing	12	conj	_	start_char=169|end_char=175
+18	parantaa	parantaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	acl	_	start_char=176|end_char=184
+19	hahmojasi	hahmo#jasi	NOUN	N	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=1	18	obj	_	start_char=185|end_char=194
+20	.	.	PUNCT	Punct	_	2	punct	_	start_char=194|end_char=195
+
+# text = Joten jos olet vain kiinnostunut onnenjuhlista, tämä peli on sinulle.
+# sent_id = 3
+1	Joten	joten	ADV	Adv	_	2	advmod	_	start_char=196|end_char=201
+2	jos	jos	SCONJ	C	_	5	mark	_	start_char=202|end_char=205
+3	olet	olla	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=206|end_char=210
+4	vain	vain	ADV	Adv	_	5	advmod	_	start_char=211|end_char=215
+5	kiinnostunut	kiinnostua	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	advcl	_	start_char=216|end_char=228
+6	onnenjuhlista	onni#juhli	NOUN	N	Case=Ela|Number=Plur	5	obl	_	start_char=229|end_char=242
+7	,	,	PUNCT	Punct	_	5	punct	_	start_char=242|end_char=243
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	det	_	start_char=244|end_char=248
+9	peli	peli	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=249|end_char=253
+10	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=254|end_char=256
+11	sinulle	sinä	PRON	Pron	Case=All|Number=Sing|Person=2|PronType=Prs	0	root	_	start_char=257|end_char=264
+12	.	.	PUNCT	Punct	_	11	punct	_	start_char=264|end_char=265
+

@@ -1,0 +1,58 @@
+# text = Sada se ne moram odrasli.
+# sent_id = 0
+1	Sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	4	advmod	_	start_char=0|end_char=4
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=5|end_char=7
+3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=8|end_char=10
+4	moram	morati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=11|end_char=16
+5	odrasli	odrastao	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	xcomp	_	start_char=17|end_char=24
+6	.	.	PUNCT	Z	_	4	punct	_	start_char=24|end_char=25
+
+# text = Mogu bojati zajedno s mojim unucima, ne osjećajući se intelektualno ograničenima na projektu.
+# sent_id = 1
+1	Mogu	moći	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=26|end_char=30
+2	bojati	bojati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=31|end_char=37
+3	zajedno	zajedno	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=38|end_char=45
+4	s	sa	ADP	Si	Case=Ins	6	case	_	start_char=46|end_char=47
+5	mojim	moj	DET	Ps1mpi	Case=Ins|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	start_char=48|end_char=53
+6	unucima	unug	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	2	obl	_	start_char=54|end_char=61
+7	,	,	PUNCT	Z	_	9	punct	_	start_char=61|end_char=62
+8	ne	ne	PART	Qz	Polarity=Neg	9	advmod	_	start_char=63|end_char=65
+9	osjećajući	osjećati	ADV	Rr	Tense=Pres|VerbForm=Conv	1	xcomp	_	start_char=66|end_char=76
+10	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=77|end_char=79
+11	intelektualno	intelektualno	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=80|end_char=93
+12	ograničenima	ograničen	ADJ	Agpmpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	xcomp	_	start_char=94|end_char=106
+13	na	na	ADP	Sl	Case=Loc	14	case	_	start_char=107|end_char=109
+14	projektu	projekt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=110|end_char=118
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=118|end_char=119
+
+# text = Ova knjiga je toliko nevjerojatna da sam neke od uzoraka koristio za vitraže.
+# sent_id = 2
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=120|end_char=123
+2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=124|end_char=130
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=131|end_char=133
+4	toliko	toliko	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	start_char=134|end_char=140
+5	nevjerojatna	nevjerojatan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=141|end_char=153
+6	da	da	SCONJ	Cs	_	11	mark	_	start_char=154|end_char=156
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=157|end_char=160
+8	neke	neki	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	start_char=161|end_char=165
+9	od	od	ADP	Sg	Case=Gen	10	case	_	start_char=166|end_char=168
+10	uzoraka	uzorak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nsubj	_	start_char=169|end_char=176
+11	koristio	koristiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	ccomp	_	start_char=177|end_char=185
+12	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=186|end_char=188
+13	vitraže	vitraža	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	start_char=189|end_char=196
+14	.	.	PUNCT	Z	_	5	punct	_	start_char=196|end_char=197
+
+# text = Toplo preporučujem ovo svima koji ne žele prerasti omiljeni hobi.
+# sent_id = 3
+1	Toplo	toplo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=198|end_char=203
+2	preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=204|end_char=216
+3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	start_char=217|end_char=220
+4	svima	sav	ADJ	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	iobj	_	start_char=221|end_char=226
+5	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	7	nsubj	_	start_char=227|end_char=231
+6	ne	ne	PART	Qz	Polarity=Neg	7	advmod	_	start_char=232|end_char=234
+7	žele	željeti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=235|end_char=239
+8	prerasti	prerasti	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=240|end_char=248
+9	omiljeni	omiljen	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=249|end_char=257
+10	hobi	hob	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=258|end_char=262
+11	.	.	PUNCT	Z	_	2	punct	_	start_char=262|end_char=263
+

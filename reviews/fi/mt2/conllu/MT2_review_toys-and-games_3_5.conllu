@@ -1,0 +1,90 @@
+# text = rakasta tätä!
+# sent_id = 0
+1	rakasta	rakasta	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=7
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	1	obj	_	start_char=8|end_char=12
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=12|end_char=13
+
+# text = Molemmat puolet ovat magneettisia.
+# sent_id = 1
+1	Molemmat	molemmat	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	2	det	_	start_char=14|end_char=22
+2	puolet	puoli	NOUN	N	Case=Nom|Number=Plur	4	nsubj:cop	_	start_char=23|end_char=29
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=30|end_char=34
+4	magneettisia	magneettinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	0	root	_	start_char=35|end_char=47
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=47|end_char=48
+
+# text = Todellinen plussa, kun viihdyt useamman kuin yhden lapsen kanssa.
+# sent_id = 2
+1	Todellinen	todellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	2	amod	_	start_char=49|end_char=59
+2	plussa	plu	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=60|end_char=66
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=66|end_char=67
+4	kun	kun	SCONJ	C	_	5	mark	_	start_char=68|end_char=71
+5	viihdyt	viihtyä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=72|end_char=79
+6	useamman	usea	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	5	xcomp	_	start_char=80|end_char=88
+7	kuin	kuin	SCONJ	C	_	9	mark	_	start_char=89|end_char=93
+8	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	9	nummod	_	start_char=94|end_char=99
+9	lapsen	lapsi	NOUN	N	Case=Gen|Number=Sing	6	advcl	_	start_char=100|end_char=106
+10	kanssa	kanssa	ADP	Adp	AdpType=Post	9	case	_	start_char=107|end_char=113
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=113|end_char=114
+
+# text = Nelivuotias löytää sanojen kirjaimet, kun taas kaksivuotias löytää kuvista sanojen loitsuja.
+# sent_id = 3
+1	Nelivuotias	neli#vuotias	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=115|end_char=126
+2	löytää	löytää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=127|end_char=133
+3	sanojen	sana	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	start_char=134|end_char=141
+4	kirjaimet	kirjain	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=142|end_char=151
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=151|end_char=152
+6	kun	kun	SCONJ	C	_	9	mark	_	start_char=153|end_char=156
+7	taas	taas	SCONJ	C	_	6	fixed	_	start_char=157|end_char=161
+8	kaksivuotias	kaksi#vuotias	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=162|end_char=174
+9	löytää	löytää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=175|end_char=181
+10	kuvista	kuva	NOUN	N	Case=Ela|Number=Plur	9	obl	_	start_char=182|end_char=189
+11	sanojen	sana	NOUN	N	Case=Gen|Number=Plur	12	nmod:poss	_	start_char=190|end_char=197
+12	loitsuja	loitsuja	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=198|end_char=206
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=206|end_char=207
+
+# text = (Ostin kirjaimia ja magneettikuvia tämän taulun mukana).
+# sent_id = 4
+1	(	(	PUNCT	Punct	_	2	punct	_	start_char=208|end_char=209
+2	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=209|end_char=214
+3	kirjaimia	kirjain	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=215|end_char=224
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=225|end_char=227
+5	magneettikuvia	magneetti#kuva	NOUN	N	Case=Par|Number=Plur	3	conj	_	start_char=228|end_char=242
+6	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	7	det	_	start_char=243|end_char=248
+7	taulun	taulu	NOUN	N	Case=Gen|Number=Sing	2	obl	_	start_char=249|end_char=255
+8	mukana	mukana	ADP	Adp	AdpType=Post	7	case	_	start_char=256|end_char=262
+9	)	)	PUNCT	Punct	_	7	punct	_	start_char=262|end_char=263
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=263|end_char=264
+
+# text = Molemmat lapsenlapset pitivät siitä paljon, mikä tarkoittaa, että pidän siitä paljon.
+# sent_id = 5
+1	Molemmat	molemmat	PRON	Pron	Case=Nom|Number=Plur|PronType=Ind	2	det	_	start_char=265|end_char=273
+2	lapsenlapset	lapsi#lapsi	NOUN	N	Case=Nom|Number=Plur	3	nsubj	_	start_char=274|end_char=286
+3	pitivät	pitää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=287|end_char=294
+4	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	3	obl	_	start_char=295|end_char=300
+5	paljon	paljon	ADV	Adv	_	3	advmod	_	start_char=301|end_char=307
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=307|end_char=308
+7	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	start_char=309|end_char=313
+8	tarkoittaa	tarkoittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=314|end_char=324
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=324|end_char=325
+10	että	että	SCONJ	C	_	11	mark	_	start_char=326|end_char=330
+11	pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=331|end_char=336
+12	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	11	obl	_	start_char=337|end_char=342
+13	paljon	paljon	ADV	Adv	_	11	advmod	_	start_char=343|end_char=349
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=349|end_char=350
+
+# text = En ole edes ottanut käyttöön merkkejä, koska tätä käytetään tiukasti magneettitauluna.
+# sent_id = 6
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=351|end_char=353
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=354|end_char=357
+3	edes	edes	ADV	Adv	_	4	advmod	_	start_char=358|end_char=362
+4	ottanut	ottaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=363|end_char=370
+5	käyttöön	käyttö	NOUN	N	Case=Ill|Number=Sing	4	obl	_	start_char=371|end_char=379
+6	merkkejä	merkki	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=380|end_char=388
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=388|end_char=389
+8	koska	koska	SCONJ	C	_	10	mark	_	start_char=390|end_char=395
+9	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	10	obj	_	start_char=396|end_char=400
+10	käytetään	käyttää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	start_char=401|end_char=410
+11	tiukasti	tiukasti	ADV	Adv	Derivation=Sti	10	advmod	_	start_char=411|end_char=419
+12	magneettitauluna	magneetti#taulu	NOUN	N	Case=Ess|Number=Sing	10	obl	_	start_char=420|end_char=436
+13	.	.	PUNCT	Punct	_	4	punct	_	start_char=436|end_char=437
+

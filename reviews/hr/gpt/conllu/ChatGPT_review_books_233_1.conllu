@@ -1,0 +1,64 @@
+# text = Izvrsno One koje sam gledao/preporučio sam i drugima.
+# sent_id = 0
+1	Izvrsno	izvrsno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=7
+2	One	onaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	0	root	_	start_char=8|end_char=11
+3	koje	koji	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	5	obj	_	start_char=12|end_char=16
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=17|end_char=20
+5	gledao/preporučio	gledao/preporučiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	start_char=21|end_char=38
+6	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=39|end_char=42
+7	i	i	CCONJ	Cc	_	8	cc	_	start_char=43|end_char=44
+8	drugima	drugi	ADJ	Mlompd	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	5	obj	_	start_char=45|end_char=52
+9	.	.	PUNCT	Z	_	2	punct	_	start_char=52|end_char=53
+
+# text = Payne je odlično opisao tržište za one koji nemaju financijsko znanje.
+# sent_id = 1
+1	Payne	Payna	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=54|end_char=59
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=60|end_char=62
+3	odlično	odlično	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=63|end_char=70
+4	opisao	opisati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=71|end_char=77
+5	tržište	tržište	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=78|end_char=85
+6	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=86|end_char=88
+7	one	onaj	DET	Pd-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	5	nmod	_	start_char=89|end_char=92
+8	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	9	nsubj	_	start_char=93|end_char=97
+9	nemaju	nemati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	start_char=98|end_char=104
+10	financijsko	financijski	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=105|end_char=116
+11	znanje	znanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=117|end_char=123
+12	.	.	PUNCT	Z	_	4	punct	_	start_char=123|end_char=124
+
+# text = Godinama sam uživao u Proroku (knjizi) i Harrisovom snimku istog.
+# sent_id = 2
+1	Godinama	godina	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	3	obl	_	start_char=125|end_char=133
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=134|end_char=137
+3	uživao	uživati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=138|end_char=144
+4	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=145|end_char=146
+5	Proroku	Prorok	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=147|end_char=154
+6	(	(	PUNCT	Z	_	7	punct	_	start_char=155|end_char=156
+7	knjizi	knjiga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	parataxis	_	start_char=156|end_char=162
+8	)	)	PUNCT	Z	_	7	punct	_	start_char=162|end_char=163
+9	i	i	CCONJ	Cc	_	11	cc	_	start_char=164|end_char=165
+10	Harrisovom	harrisov	ADJ	Aspfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	11	amod	_	start_char=166|end_char=176
+11	snimku	snimka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=177|end_char=183
+12	istog	isti	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	11	nmod	_	start_char=184|end_char=189
+13	.	.	PUNCT	Z	_	3	punct	_	start_char=189|end_char=190
+
+# text = Vinilnu ploču od 33 rpm iz fakulteta sam potrošio i zamijenio je CD-om kad je postao dostupan.
+# sent_id = 3
+1	Vinilnu	vinilan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=191|end_char=198
+2	ploču	ploča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=199|end_char=204
+3	od	od	ADP	Sg	Case=Gen	5	case	_	start_char=205|end_char=207
+4	33	33	NUM	Mdc	NumType=Card	5	nummod:gov	_	start_char=208|end_char=210
+5	rpm	rpm	NOUN	Y	_	2	nmod	_	start_char=211|end_char=214
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	start_char=215|end_char=217
+7	fakulteta	fakultet	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=218|end_char=227
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=228|end_char=231
+9	potrošio	potrošiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=232|end_char=240
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=241|end_char=242
+11	zamijenio	zamijeniti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	start_char=243|end_char=252
+12	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=253|end_char=255
+13	CD-om	CD	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	11	obl	_	start_char=256|end_char=261
+14	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	16	advmod	_	start_char=262|end_char=265
+15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=266|end_char=268
+16	postao	postati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	advcl	_	start_char=269|end_char=275
+17	dostupan	dostupan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	16	xcomp	_	start_char=276|end_char=284
+18	.	.	PUNCT	Z	_	9	punct	_	start_char=284|end_char=285
+

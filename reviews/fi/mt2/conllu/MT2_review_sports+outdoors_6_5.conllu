@@ -1,0 +1,91 @@
+# text = Glock-lävistystyökalu - tarvitaan myös Glockiin ja muihin sovelluksiin Tarvitsin tämän työkalun todella hajottaakseni G22:ni, ja se toimii täydellisesti siihen.
+# sent_id = 0
+1	Glock-lävistystyökalu	Glock#lävistyö#kyökalu	NOUN	N	Case=Nom|Number=Sing	9	obj	_	start_char=0|end_char=21
+2	-	-	PUNCT	Punct	_	3	punct	_	start_char=22|end_char=23
+3	tarvitaan	tarvita	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	1	parataxis	_	start_char=24|end_char=33
+4	myös	myös	ADV	Adv	_	5	advmod	_	start_char=34|end_char=38
+5	Glockiin	Glock	PROPN	N	Case=Ill|Number=Sing	3	obl	_	start_char=39|end_char=47
+6	ja	ja	CCONJ	C	_	8	cc	_	start_char=48|end_char=50
+7	muihin	muu	PRON	Pron	Case=Ill|Number=Plur|PronType=Ind	8	det	_	start_char=51|end_char=57
+8	sovelluksiin	sovellus	NOUN	N	Case=Ill|Number=Plur	5	conj	_	start_char=58|end_char=70
+9	Tarvitsin	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=71|end_char=80
+10	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	det	_	start_char=81|end_char=86
+11	työkalun	työ#kalu	NOUN	N	Case=Gen|Number=Sing	9	obj	_	start_char=87|end_char=95
+12	todella	todella	ADV	Adv	_	13	advmod	_	start_char=96|end_char=103
+13	hajottaakseni	hajottaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	9	advcl	_	start_char=104|end_char=117
+14	G22:ni	G22:ni	SYM	Symb	_	13	obj	_	start_char=118|end_char=124
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=124|end_char=125
+16	ja	ja	CCONJ	C	_	18	cc	_	start_char=126|end_char=128
+17	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	18	nsubj	_	start_char=129|end_char=131
+18	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	start_char=132|end_char=138
+19	täydellisesti	täydellisesti	ADV	Adv	Derivation=Sti	18	advmod	_	start_char=139|end_char=152
+20	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	18	obl	_	start_char=153|end_char=159
+21	.	.	PUNCT	Punct	_	9	punct	_	start_char=159|end_char=160
+
+# text = Epäilen, ettei se eroa OEM-valmistajista.
+# sent_id = 1
+1	Epäilen	epäillä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=161|end_char=168
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=168|end_char=169
+3-4	ettei	_	_	_	_	_	_	_	start_char=170|end_char=175
+3	että	että	SCONJ	C	_	6	mark	_	_
+4	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	start_char=176|end_char=178
+6	eroa	erota	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=179|end_char=183
+7	OEM-valmistajista	OEM#valmistaja	NOUN	N	Case=Ela|Number=Plur	6	obl	_	start_char=184|end_char=201
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=201|end_char=202
+
+# text = Siinä oli kuitenkin lisäetua, kun tajusin, että tarvitsin stanssauksen purkaakseni pulttipidikkeen kunnolla AR:ssani perusteellista puhdistusta varten, ja tämä työkalu työskenteli täydellisesti telineen kiinnitystapin työntämiseen ulos ja sitten takaisin paikkaan työn valmistumisen jälkeen.
+# sent_id = 2
+1	Siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=203|end_char=208
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	start_char=209|end_char=212
+3	kuitenkin	kuitenkin	ADV	Adv	_	1	advmod	_	start_char=213|end_char=222
+4	lisäetua	lisä#etu	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=223|end_char=231
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=231|end_char=232
+6	kun	kun	SCONJ	C	_	7	mark	_	start_char=233|end_char=236
+7	tajusin	tajuta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=237|end_char=244
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=244|end_char=245
+9	että	että	SCONJ	C	_	10	mark	_	start_char=246|end_char=250
+10	tarvitsin	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=251|end_char=260
+11	stanssauksen	stanssaus	NOUN	N	Case=Gen|Number=Sing	10	obj	_	start_char=261|end_char=273
+12	purkaakseni	purkata	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=274|end_char=285
+13	pulttipidikkeen	pultti#pidike	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=286|end_char=301
+14	kunnolla	kunnolla	ADV	Adv	_	12	advmod	_	start_char=302|end_char=310
+15	AR:ssani	AR	PROPN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	12	obl	_	start_char=311|end_char=319
+16	perusteellista	perusteellinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	17	amod	_	start_char=320|end_char=334
+17	puhdistusta	puhdistus	NOUN	N	Case=Par|Number=Sing	12	obl	_	start_char=335|end_char=346
+18	varten	varten	ADP	Adp	AdpType=Post	17	case	_	start_char=347|end_char=353
+19	,	,	PUNCT	Punct	_	23	punct	_	start_char=353|end_char=354
+20	ja	ja	CCONJ	C	_	23	cc	_	start_char=355|end_char=357
+21	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	22	det	_	start_char=358|end_char=362
+22	työkalu	työ#kalu	NOUN	N	Case=Nom|Number=Sing	23	nsubj	_	start_char=363|end_char=370
+23	työskenteli	työskennellä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=371|end_char=382
+24	täydellisesti	täydellisesti	ADV	Adv	Derivation=Sti	23	advmod	_	start_char=383|end_char=396
+25	telineen	teline	NOUN	N	Case=Gen|Number=Sing	26	nmod:poss	_	start_char=397|end_char=405
+26	kiinnitystapin	kiinnitys#tappi	NOUN	N	Case=Gen|Number=Sing	27	nmod:gobj	_	start_char=406|end_char=420
+27	työntämiseen	työntäminen	NOUN	N	Case=Ill|Derivation=Minen|Number=Sing	23	obl	_	start_char=421|end_char=433
+28	ulos	ulos	ADV	Adv	_	27	advmod	_	start_char=434|end_char=438
+29	ja	ja	CCONJ	C	_	31	cc	_	start_char=439|end_char=441
+30	sitten	sitten	ADV	Adv	_	31	advmod	_	start_char=442|end_char=448
+31	takaisin	takaisin	ADV	Adv	_	27	conj	_	start_char=449|end_char=457
+32	paikkaan	paikka	NOUN	N	Case=Ill|Number=Sing	31	nmod	_	start_char=458|end_char=466
+33	työn	työ	NOUN	N	Case=Gen|Number=Sing	34	nmod:gobj	_	start_char=467|end_char=471
+34	valmistumisen	valmistuminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	31	nmod	_	start_char=472|end_char=485
+35	jälkeen	jälkeen	ADP	Adp	AdpType=Post	34	case	_	start_char=486|end_char=493
+36	.	.	PUNCT	Punct	_	1	punct	_	start_char=493|end_char=494
+
+# text = Erinomainen!
+# sent_id = 3
+1	Erinomainen	erinomainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=495|end_char=506
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=506|end_char=507
+
+# text = Se on nyt valikoimassani turvallista säilytystä varten.
+# sent_id = 4
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	start_char=508|end_char=510
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=511|end_char=513
+3	nyt	nyt	ADV	Adv	_	6	advmod	_	start_char=514|end_char=517
+4	valikoimassani	valikoimat	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obl	_	start_char=518|end_char=532
+5	turvallista	turvallinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	6	amod	_	start_char=533|end_char=544
+6	säilytystä	säilytys	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=545|end_char=555
+7	varten	varten	ADP	Adp	AdpType=Post	6	case	_	start_char=556|end_char=562
+8	.	.	PUNCT	Punct	_	6	punct	_	start_char=562|end_char=563
+

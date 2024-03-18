@@ -1,0 +1,81 @@
+# text = Это продукт, который я искал.
+# sent_id = 0
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=3
+2	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=4|end_char=11
+3	,	,	PUNCT	_	_	6	punct	_	start_char=11|end_char=12
+4	который	который	PRON	_	Case=Acc|PronType=Int,Rel	6	obj	_	start_char=13|end_char=20
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=21|end_char=22
+6	искал	искать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=23|end_char=28
+7	.	.	PUNCT	_	_	2	punct	_	start_char=28|end_char=29
+
+# text = Это продукт, который я искал.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=32|end_char=35
+2	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=36|end_char=43
+3	,	,	PUNCT	_	_	6	punct	_	start_char=43|end_char=44
+4	который	который	PRON	_	Case=Acc|PronType=Int,Rel	6	obj	_	start_char=45|end_char=52
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=53|end_char=54
+6	искал	искать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=55|end_char=60
+7	.	.	PUNCT	_	_	2	punct	_	start_char=60|end_char=61
+
+# text = Через 3 недели пигментные пятна исчезли.
+# sent_id = 2
+1	Через	через	ADP	_	_	3	case	_	start_char=63|end_char=68
+2	3	3	NUM	_	NumType=Card	3	nummod	_	start_char=69|end_char=70
+3	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=71|end_char=77
+4	пигментные	пигментный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=78|end_char=88
+5	пятна	пятно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=89|end_char=94
+6	исчезли	исчезнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=95|end_char=102
+7	.	.	PUNCT	_	_	6	punct	_	start_char=102|end_char=103
+
+# text = Больше нет необходимости в плотных корректирующих кремах; обычное жидкое тональное средство подходит для меня, и моя кожа стала красиво чистой.
+# sent_id = 3
+1	Больше	больше	ADV	_	Degree=Cmp	2	advmod	_	start_char=105|end_char=111
+2	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=112|end_char=115
+3	необходимости	необходимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	start_char=116|end_char=129
+4	в	в	ADP	_	_	7	case	_	start_char=130|end_char=131
+5	плотных	плотный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	start_char=132|end_char=139
+6	корректирующих	корректировать	VERB	_	Aspect=Imp|Case=Loc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	amod	_	start_char=140|end_char=154
+7	кремах	крем	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	nmod	_	start_char=155|end_char=161
+8	;	;	PUNCT	_	_	13	punct	_	start_char=161|end_char=162
+9	обычное	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=163|end_char=170
+10	жидкое	жидкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=171|end_char=177
+11	тональное	тональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=178|end_char=187
+12	средство	средство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=188|end_char=196
+13	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=197|end_char=205
+14	для	для	ADP	_	_	15	case	_	start_char=206|end_char=209
+15	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	obl	_	start_char=210|end_char=214
+16	,	,	PUNCT	_	_	20	punct	_	start_char=214|end_char=215
+17	и	и	CCONJ	_	_	20	cc	_	start_char=216|end_char=217
+18	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	start_char=218|end_char=221
+19	кожа	кожа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=222|end_char=226
+20	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=227|end_char=232
+21	красиво	красиво	ADV	_	Degree=Pos	22	obl	_	start_char=233|end_char=240
+22	чистой	чистый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	obl	_	start_char=241|end_char=247
+23	.	.	PUNCT	_	_	2	punct	_	start_char=247|end_char=248
+
+# text = Это хороший продукт.
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=249|end_char=252
+2	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=253|end_char=260
+3	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=261|end_char=268
+4	.	.	PUNCT	_	_	3	punct	_	start_char=268|end_char=269
+
+# text = При регулярном использовании он устраняет несовершенства на моем лице и темные пятна на локтях.
+# sent_id = 5
+1	При	при	ADP	_	_	3	case	_	start_char=270|end_char=273
+2	регулярном	регулярный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=274|end_char=284
+3	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	start_char=285|end_char=298
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=299|end_char=301
+5	устраняет	устранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=302|end_char=311
+6	несовершенства	несовершенство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=312|end_char=326
+7	на	на	ADP	_	_	9	case	_	start_char=327|end_char=329
+8	моем	мой	DET	_	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	start_char=330|end_char=334
+9	лице	лицо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	start_char=335|end_char=339
+10	и	и	CCONJ	_	_	12	cc	_	start_char=340|end_char=341
+11	темные	темный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	start_char=342|end_char=348
+12	пятна	пятно	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	conj	_	start_char=349|end_char=354
+13	на	на	ADP	_	_	14	case	_	start_char=355|end_char=357
+14	локтях	локоть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	start_char=358|end_char=364
+15	.	.	PUNCT	_	_	5	punct	_	start_char=364|end_char=365
+

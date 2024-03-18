@@ -1,0 +1,66 @@
+# text = Joustava letku sellaisena kuin se on markkinoitu....toivottavasti kestää lantiota!
+# sent_id = 0
+1	Joustava	joustava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	letku	letku	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=9|end_char=14
+3	sellaisena	sellainen	ADJ	A	Case=Ess|Derivation=Lainen|Number=Sing	0	root	_	start_char=15|end_char=25
+4	kuin	kuin	SCONJ	C	_	7	mark	_	start_char=26|end_char=30
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	obj	_	start_char=31|end_char=33
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	start_char=34|end_char=36
+7	markkinoitu	markkinoida	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	advcl	_	start_char=37|end_char=48
+8	...	...	PUNCT	Punct	_	3	punct	_	start_char=48|end_char=51
+9	.	.	PUNCT	Punct	_	11	punct	_	start_char=51|end_char=52
+10	toivottavasti	toivottavasti	ADV	Adv	Derivation=Sti	11	advmod	_	start_char=52|end_char=65
+11	kestää	kestää	VERB	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=66|end_char=72
+12	lantiota	lantio	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=73|end_char=81
+13	!	!	PUNCT	Punct	_	3	punct	_	start_char=81|end_char=82
+
+# text = Toistaiseksi hyvin!
+# sent_id = 1
+1	Toistaiseksi	toistaiseksi	ADV	Adv	_	2	advmod	_	start_char=83|end_char=95
+2	hyvin	hyvin	ADV	Adv	_	0	root	_	start_char=96|end_char=101
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=101|end_char=102
+
+# text = Minulla ei ole oikeastaan ollut aikaa testata letkua, koska nyt on kylmä sää.
+# sent_id = 2
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=103|end_char=110
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	1	aux	_	start_char=111|end_char=113
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=114|end_char=117
+4	oikeastaan	oikeastaan	ADV	Adv	_	1	advmod	_	start_char=118|end_char=128
+5	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	cop:own	_	start_char=129|end_char=134
+6	aikaa	aika	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=135|end_char=140
+7	testata	testata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	6	acl	_	start_char=141|end_char=148
+8	letkua	letku	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=149|end_char=155
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=155|end_char=156
+10	koska	koska	SCONJ	C	_	11	mark	_	start_char=157|end_char=162
+11	nyt	nyt	ADV	Adv	_	1	advcl	_	start_char=163|end_char=166
+12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=167|end_char=169
+13	kylmä	kylmä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	start_char=170|end_char=175
+14	sää	sää	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=176|end_char=179
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=179|end_char=180
+
+# text = Ostin tämän Gilmour-letkun kaikkien suositusten perusteella.
+# sent_id = 3
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=181|end_char=186
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=187|end_char=192
+3	Gilmour-letkun	Gilmour#letku	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=193|end_char=207
+4	kaikkien	kaikki	PRON	Pron	Case=Gen|Number=Plur|PronType=Ind	5	det	_	start_char=208|end_char=216
+5	suositusten	suositus	NOUN	N	Case=Gen|Number=Plur	6	nmod:poss	_	start_char=217|end_char=228
+6	perusteella	peruste	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=229|end_char=240
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=240|end_char=241
+
+# text = Odotan innolla, etten joudu painimaan letkun kanssa käyttääkseni sitä.
+# sent_id = 4
+1	Odotan	odottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=242|end_char=248
+2	innolla	into	NOUN	N	Case=Ade|Number=Sing	1	obl	_	start_char=249|end_char=256
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=256|end_char=257
+4-5	etten	_	_	_	_	_	_	_	start_char=258|end_char=263
+4	että	että	SCONJ	C	_	6	mark	_	_
+5	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	joudu	joutua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=264|end_char=269
+7	painimaan	painia	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=270|end_char=279
+8	letkun	letku	NOUN	N	Case=Gen|Number=Sing	7	obl	_	start_char=280|end_char=286
+9	kanssa	kanssa	ADP	Adp	AdpType=Post	8	case	_	start_char=287|end_char=293
+10	käyttääkseni	käyttää	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	7	advcl	_	start_char=294|end_char=306
+11	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	10	obj	_	start_char=307|end_char=311
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=311|end_char=312
+

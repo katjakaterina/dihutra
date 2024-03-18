@@ -1,0 +1,56 @@
+# text = Ok, työkalu tekee sen, mitä tavallinen lyönti tekee.
+# sent_id = 0
+1	Ok	ok	INTJ	Interj	_	4	discourse	_	start_char=0|end_char=2
+2	,	,	PUNCT	Punct	_	1	punct	_	start_char=2|end_char=3
+3	työkalu	työ#kalu	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=4|end_char=11
+4	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=17
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obj	_	start_char=18|end_char=21
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=21|end_char=22
+7	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	10	obj	_	start_char=23|end_char=27
+8	tavallinen	tavallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	9	amod	_	start_char=28|end_char=38
+9	lyönti	lyönti	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	start_char=39|end_char=45
+10	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=46|end_char=51
+11	.	.	PUNCT	Punct	_	4	punct	_	start_char=51|end_char=52
+
+# text = Ostin tämän ajatellen, että ehkä tarvitsen erikoistyökalun lehdeni pohjalevyjen irrottamiseen, mutta se tekee samoin kuin tavallinen rei'itystyökalu.
+# sent_id = 1
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=53|end_char=58
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=59|end_char=64
+3	ajatellen	ajatella	VERB	V	Case=Ins|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=65|end_char=74
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=74|end_char=75
+5	että	että	SCONJ	C	_	7	mark	_	start_char=76|end_char=80
+6	ehkä	ehkä	ADV	Adv	_	7	advmod	_	start_char=81|end_char=85
+7	tarvitsen	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=86|end_char=95
+8	erikoistyökalun	erikois#työ#kalu	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	start_char=96|end_char=111
+9	lehdeni	lehti	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	7	obj	_	start_char=112|end_char=119
+10	pohjalevyjen	pohja#levy	NOUN	N	Case=Gen|Number=Plur	11	nmod:gobj	_	start_char=120|end_char=132
+11	irrottamiseen	irrottaminen	NOUN	N	Case=Ill|Derivation=Minen|Number=Sing	7	obl	_	start_char=133|end_char=146
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=146|end_char=147
+13	mutta	mutta	CCONJ	C	_	15	cc	_	start_char=148|end_char=153
+14	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	_	start_char=154|end_char=156
+15	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=157|end_char=162
+16	samoin	samoin	ADV	Adv	_	15	advmod	_	start_char=163|end_char=169
+17	kuin	kuin	SCONJ	C	_	19	mark	_	start_char=170|end_char=174
+18	tavallinen	tavallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	19	amod	_	start_char=175|end_char=185
+19	rei'itystyökalu	rei'itys#työ#kalu	NOUN	N	Case=Nom|Number=Sing	16	advcl	_	start_char=186|end_char=201
+20	.	.	PUNCT	Punct	_	1	punct	_	start_char=201|end_char=202
+
+# text = Glock-maat ovat tuskaa saada pohjalevyt irti.
+# sent_id = 2
+1	Glock-maat	Glock#maat	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=203|end_char=213
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=214|end_char=218
+3	tuskaa	tuska	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=219|end_char=225
+4	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	acl	_	start_char=226|end_char=231
+5	pohjalevyt	pohja#levy	NOUN	N	Case=Nom|Number=Plur	4	obj	_	start_char=232|end_char=242
+6	irti	irti	ADV	Adv	_	4	compound:prt	_	start_char=243|end_char=247
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=247|end_char=248
+
+# text = Työkalulla ei oikeastaan ole merkitystä.
+# sent_id = 3
+1	Työkalulla	työ#kalu	NOUN	N	Case=Ade|Number=Sing	0	root	_	start_char=249|end_char=259
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	1	aux	_	start_char=260|end_char=262
+3	oikeastaan	oikeastaan	ADV	Adv	_	1	advmod	_	start_char=263|end_char=273
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=274|end_char=277
+5	merkitystä	merkitys	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=278|end_char=288
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=288|end_char=289
+

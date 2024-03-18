@@ -1,0 +1,78 @@
+# text = Sattuu korviini.
+# sent_id = 0
+1	Sattuu	sattua	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	korviini	korvi	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=7|end_char=15
+3	.	.	PUNCT	Punct	_	1	punct	_	start_char=15|end_char=16
+
+# text = Törmäsin tähän vahingossa ja vein sen kotiin leikkimään – ajattelin, että se voisi olla hyvä lahja seitsemänvuotiaalle, jonka tiedän.
+# sent_id = 1
+1	Törmäsin	törmätä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=25
+2	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	1	obl	_	start_char=26|end_char=31
+3	vahingossa	vahinko	NOUN	N	Case=Ine|Number=Sing	1	obl	_	start_char=32|end_char=42
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=43|end_char=45
+5	vein	viedä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=46|end_char=50
+6	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	nsubj	_	start_char=51|end_char=54
+7	kotiin	koti	NOUN	N	Case=Ill|Number=Sing	8	obl	_	start_char=55|end_char=61
+8	leikkimään	leikkiä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	start_char=62|end_char=72
+9	–	–	PUNCT	Punct	_	10	punct	_	start_char=73|end_char=74
+10	ajattelin	ajatella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=75|end_char=84
+11	,	,	PUNCT	Punct	_	17	punct	_	start_char=84|end_char=85
+12	että	että	SCONJ	C	_	17	mark	_	start_char=86|end_char=90
+13	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	17	nsubj:cop	_	start_char=91|end_char=93
+14	voisi	voida	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	17	aux	_	start_char=94|end_char=99
+15	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	17	cop	_	start_char=100|end_char=104
+16	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	start_char=105|end_char=109
+17	lahja	lahja	NOUN	N	Case=Nom|Number=Sing	10	ccomp	_	start_char=110|end_char=115
+18	seitsemänvuotiaalle	seitsemän#vuotias	ADJ	A	Case=All|Degree=Pos|Number=Sing	17	nmod	_	start_char=116|end_char=135
+19	,	,	PUNCT	Punct	_	21	punct	_	start_char=135|end_char=136
+20	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	21	obj	_	start_char=137|end_char=142
+21	tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	start_char=143|end_char=149
+22	.	.	PUNCT	Punct	_	1	punct	_	start_char=149|end_char=150
+
+# text = Pelit ovat hauskoja, niin pitkälle kuin kestän desibelin.
+# sent_id = 2
+1	Pelit	peli	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=151|end_char=156
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=157|end_char=161
+3	hauskoja	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=162|end_char=170
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=170|end_char=171
+5	niin	niin	ADV	Adv	_	6	advmod	_	start_char=172|end_char=176
+6	pitkälle	pitkälle	ADV	Adv	_	3	advmod	_	start_char=177|end_char=185
+7	kuin	kuin	SCONJ	C	_	8	mark	_	start_char=186|end_char=190
+8	kestän	kestää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=191|end_char=197
+9	desibelin	desibeli	NOUN	N	Case=Gen|Number=Sing	8	obj	_	start_char=198|end_char=207
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=207|end_char=208
+
+# text = Jotta kuulisin ääniä, musiikki oli niin kovaa, että koko ääni sattui korviini.
+# sent_id = 3
+1	Jotta	jotta	SCONJ	C	_	2	mark	_	start_char=209|end_char=214
+2	kuulisin	kuulla	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=215|end_char=223
+3	ääniä	ääni	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=224|end_char=229
+4	,	,	PUNCT	Punct	_	2	punct	_	start_char=229|end_char=230
+5	musiikki	musiikki	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=231|end_char=239
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=240|end_char=243
+7	niin	niin	ADV	Adv	_	8	advmod	_	start_char=244|end_char=248
+8	kovaa	kova	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=249|end_char=254
+9	,	,	PUNCT	Punct	_	13	punct	_	start_char=254|end_char=255
+10	että	että	SCONJ	C	_	13	mark	_	start_char=256|end_char=260
+11	koko	koko	ADJ	A	_	12	amod	_	start_char=261|end_char=265
+12	ääni	ääni	NOUN	N	Case=Nom|Number=Sing	13	nsubj	_	start_char=266|end_char=270
+13	sattui	sattua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=271|end_char=277
+14	korviini	korvi	NOUN	N	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=1	13	obl	_	start_char=278|end_char=286
+15	.	.	PUNCT	Punct	_	8	punct	_	start_char=286|end_char=287
+
+# text = Jos musiikin ja äänien suhteellinen voimakkuus kääntettäisiin, tämä olisi parempi tuote.
+# sent_id = 4
+1	Jos	jos	SCONJ	C	_	7	mark	_	start_char=288|end_char=291
+2	musiikin	musiikki	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=292|end_char=300
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=301|end_char=303
+4	äänien	ääni	NOUN	N	Case=Gen|Number=Plur	2	conj	_	start_char=304|end_char=310
+5	suhteellinen	suhteellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	6	amod	_	start_char=311|end_char=323
+6	voimakkuus	voimakkuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	7	obj	_	start_char=324|end_char=334
+7	kääntettäisiin	kääntää	VERB	V	Mood=Cnd|VerbForm=Fin|Voice=Pass	12	advcl	_	start_char=335|end_char=349
+8	,	,	PUNCT	Punct	_	7	punct	_	start_char=349|end_char=350
+9	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	_	start_char=351|end_char=355
+10	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	cop	_	start_char=356|end_char=361
+11	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	12	amod	_	start_char=362|end_char=369
+12	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=370|end_char=375
+13	.	.	PUNCT	Punct	_	12	punct	_	start_char=375|end_char=376
+

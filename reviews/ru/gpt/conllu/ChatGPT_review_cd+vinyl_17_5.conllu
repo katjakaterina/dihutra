@@ -1,0 +1,64 @@
+# text = Насыщен духом!
+# sent_id = 0
+1	Насыщен	насыть	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=0|end_char=7
+2	духом	дух	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	start_char=8|end_char=13
+3	!	!	PUNCT	_	_	1	punct	_	start_char=13|end_char=14
+
+# text = Мне нравятся песни на этом альбоме и как Кит снова сосредотачивается на Добром Пастыре, нашем Господе Иисусе.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=15|end_char=18
+2	нравятся	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=19|end_char=27
+3	песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=28|end_char=33
+4	на	на	ADP	_	_	6	case	_	start_char=34|end_char=36
+5	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=37|end_char=41
+6	альбоме	альбом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	start_char=42|end_char=49
+7	и	и	CCONJ	_	_	11	cc	_	start_char=50|end_char=51
+8	как	как	SCONJ	_	_	11	mark	_	start_char=52|end_char=55
+9	Кит	Кит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=56|end_char=59
+10	снова	снова	ADV	_	Degree=Pos	11	advmod	_	start_char=60|end_char=65
+11	сосредотачивается	сосредоточиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=66|end_char=83
+12	на	на	ADP	_	_	14	case	_	start_char=84|end_char=86
+13	Добром	добрый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=87|end_char=93
+14	Пастыре	Пастыр	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=94|end_char=101
+15	,	,	PUNCT	_	_	17	punct	_	start_char=101|end_char=102
+16	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	start_char=103|end_char=108
+17	Господе	Господь	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	14	appos	_	start_char=109|end_char=116
+18	Иисусе	Иисус	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	17	flat:name	_	start_char=117|end_char=123
+19	.	.	PUNCT	_	_	2	punct	_	start_char=123|end_char=124
+
+# text = Песни вечны, и дарование остается свежим даже спустя все годы с момента их написания.
+# sent_id = 2
+1	Песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=125|end_char=130
+2	вечны	вечный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=131|end_char=136
+3	,	,	PUNCT	_	_	6	punct	_	start_char=136|end_char=137
+4	и	и	CCONJ	_	_	6	cc	_	start_char=138|end_char=139
+5	дарование	дарование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=140|end_char=149
+6	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=150|end_char=158
+7	свежим	свежий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	obl	_	start_char=159|end_char=165
+8	даже	даже	PART	_	_	11	advmod	_	start_char=166|end_char=170
+9	спустя	спустя	ADP	_	_	11	case	_	start_char=171|end_char=177
+10	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	11	det	_	start_char=178|end_char=181
+11	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obl	_	start_char=182|end_char=186
+12	с	с	ADP	_	_	13	case	_	start_char=187|end_char=188
+13	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=189|end_char=196
+14	их	их	DET	_	Poss=Yes|PronType=Prs	15	det	_	start_char=197|end_char=199
+15	написания	написание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=200|end_char=209
+16	.	.	PUNCT	_	_	2	punct	_	start_char=209|end_char=210
+
+# text = Я думаю, что надежным знаком насыщения является видеть, как плоды сохраняются.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=211|end_char=212
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=213|end_char=218
+3	,	,	PUNCT	_	_	8	punct	_	start_char=218|end_char=219
+4	что	что	SCONJ	_	_	8	mark	_	start_char=220|end_char=223
+5	надежным	надежный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=224|end_char=232
+6	знаком	знак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=233|end_char=239
+7	насыщения	насыщение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=240|end_char=249
+8	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	ccomp	_	start_char=250|end_char=258
+9	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=259|end_char=265
+10	,	,	PUNCT	_	_	13	punct	_	start_char=265|end_char=266
+11	как	как	SCONJ	_	_	13	mark	_	start_char=267|end_char=270
+12	плоды	плод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=271|end_char=276
+13	сохраняются	сохраняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	ccomp	_	start_char=277|end_char=288
+14	.	.	PUNCT	_	_	2	punct	_	start_char=288|end_char=289
+

@@ -1,0 +1,84 @@
+# text = Воспоминания Моя свекровь купила это видео для моей дочери, когда она была маленькой.
+# sent_id = 0
+1	Воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=0|end_char=12
+2	Моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=13|end_char=16
+3	свекровь	свекровь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=17|end_char=25
+4	купила	купить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=26|end_char=32
+5	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	start_char=33|end_char=36
+6	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=37|end_char=42
+7	для	для	ADP	_	_	9	case	_	start_char=43|end_char=46
+8	моей	мой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	start_char=47|end_char=51
+9	дочери	дочь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	start_char=52|end_char=58
+10	,	,	PUNCT	_	_	14	punct	_	start_char=58|end_char=59
+11	когда	когда	SCONJ	_	_	14	mark	_	start_char=60|end_char=65
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=66|end_char=69
+13	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	start_char=70|end_char=74
+14	маленькой	маленький	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	advcl	_	start_char=75|end_char=84
+15	.	.	PUNCT	_	_	4	punct	_	start_char=84|end_char=85
+
+# text = Недавно я искал видео для своей трехлетней внучки и наткнулся на это.
+# sent_id = 1
+1	Недавно	недавно	ADV	_	Degree=Pos	3	advmod	_	start_char=86|end_char=93
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=94|end_char=95
+3	искал	искать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=96|end_char=101
+4	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=102|end_char=107
+5	для	для	ADP	_	_	8	case	_	start_char=108|end_char=111
+6	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=112|end_char=117
+7	трехлетней	трехлетний	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=118|end_char=128
+8	внучки	внучка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=129|end_char=135
+9	и	и	CCONJ	_	_	10	cc	_	start_char=136|end_char=137
+10	наткнулся	наткнуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=138|end_char=147
+11	на	на	ADP	_	_	12	case	_	start_char=148|end_char=150
+12	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	start_char=151|end_char=154
+13	.	.	PUNCT	_	_	3	punct	_	start_char=154|end_char=155
+
+# text = Моя внучка обожает это видео.
+# sent_id = 2
+1	Моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	start_char=156|end_char=159
+2	внучка	внучка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=160|end_char=166
+3	обожает	обожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=167|end_char=174
+4	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	start_char=175|end_char=178
+5	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=179|end_char=184
+6	.	.	PUNCT	_	_	3	punct	_	start_char=184|end_char=185
+
+# text = Она смотрит его СНОВА и СНОВА и СНОВА.
+# sent_id = 3
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=186|end_char=189
+2	смотрит	смотреть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=190|end_char=197
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=198|end_char=201
+4	СНОВА	снова	ADV	_	Degree=Pos	2	advmod	_	start_char=202|end_char=207
+5	и	и	CCONJ	_	_	6	cc	_	start_char=208|end_char=209
+6	СНОВА	снова	ADV	_	Degree=Pos	4	conj	_	start_char=210|end_char=215
+7	и	и	CCONJ	_	_	8	cc	_	start_char=216|end_char=217
+8	СНОВА	снова	ADV	_	Degree=Pos	4	conj	_	start_char=218|end_char=223
+9	.	.	PUNCT	_	_	2	punct	_	start_char=223|end_char=224
+
+# text = Оно старое, датированное и немного сентиментальное, но ей нравится!
+# sent_id = 4
+1	Оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=225|end_char=228
+2	старое	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=229|end_char=235
+3	,	,	PUNCT	_	_	4	punct	_	start_char=235|end_char=236
+4	датированное	датировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	start_char=237|end_char=249
+5	и	и	CCONJ	_	_	7	cc	_	start_char=250|end_char=251
+6	немного	немного	ADV	_	Degree=Pos	7	advmod	_	start_char=252|end_char=259
+7	сентиментальное	сентиментальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	start_char=260|end_char=275
+8	,	,	PUNCT	_	_	11	punct	_	start_char=275|end_char=276
+9	но	но	CCONJ	_	_	11	cc	_	start_char=277|end_char=279
+10	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	iobj	_	start_char=280|end_char=282
+11	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=283|end_char=291
+12	!	!	PUNCT	_	_	2	punct	_	start_char=291|end_char=292
+
+# text = Иногда даже мы сами начинаем петь песни с этого видео!
+# sent_id = 5
+1	Иногда	иногда	ADV	_	Degree=Pos	5	advmod	_	start_char=293|end_char=299
+2	даже	даже	PART	_	_	3	advmod	_	start_char=300|end_char=304
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	start_char=305|end_char=307
+4	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	obl	_	start_char=308|end_char=312
+5	начинаем	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=313|end_char=321
+6	петь	петь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=322|end_char=326
+7	песни	песня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=327|end_char=332
+8	с	с	ADP	_	_	10	case	_	start_char=333|end_char=334
+9	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	start_char=335|end_char=340
+10	видео	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	start_char=341|end_char=346
+11	!	!	PUNCT	_	_	5	punct	_	start_char=346|end_char=347
+

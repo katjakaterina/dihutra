@@ -1,0 +1,67 @@
+# text = UGHHHH!!!
+# sent_id = 0
+1	UGHHHH	ughhen	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=0|end_char=6
+2	!	!	PUNCT	Z	_	1	punct	_	start_char=6|end_char=7
+3	!	!	PUNCT	Z	_	1	punct	_	start_char=7|end_char=8
+4	!	!	PUNCT	Z	_	1	punct	_	start_char=8|end_char=9
+
+# text = Igra uopće ne sprema, što je stvarno iritantno jer ne možete isključiti računalo bez potpunog brisanja vašeg napretka.
+# sent_id = 1
+1	Igra	igrati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=10|end_char=14
+2	uopće	uopće	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=15|end_char=20
+3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=21|end_char=23
+4	sprema	spremati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=24|end_char=30
+5	,	,	PUNCT	Z	_	9	punct	_	start_char=30|end_char=31
+6	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	9	nsubj	_	start_char=32|end_char=35
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=36|end_char=38
+8	stvarno	stvarno	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=39|end_char=46
+9	iritantno	iritantan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	advcl	_	start_char=47|end_char=56
+10	jer	jer	SCONJ	Cs	_	12	mark	_	start_char=57|end_char=60
+11	ne	ne	PART	Qz	Polarity=Neg	12	advmod	_	start_char=61|end_char=63
+12	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=64|end_char=70
+13	isključiti	isključiti	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=71|end_char=81
+14	računalo	računalo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=82|end_char=90
+15	bez	bez	ADP	Sg	Case=Gen	17	case	_	start_char=91|end_char=94
+16	potpunog	potpun	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=95|end_char=103
+17	brisanja	brisanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	obl	_	start_char=104|end_char=112
+18	vašeg	vaš	DET	Ps1msg	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	start_char=113|end_char=118
+19	napretka	napredak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=119|end_char=127
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=127|end_char=128
+
+# text = Također se nasumično uključuje i isključuje, pa kada izađete iz igre, iznenada se ponovno pojavljuje.
+# sent_id = 2
+1	Također	također	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=129|end_char=136
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=137|end_char=139
+3	nasumično	nasumično	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=140|end_char=149
+4	uključuje	uključivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=150|end_char=159
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=160|end_char=161
+6	isključuje	isključivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=162|end_char=172
+7	,	,	PUNCT	Z	_	17	punct	_	start_char=172|end_char=173
+8	pa	pa	CCONJ	Cc	_	17	cc	_	start_char=174|end_char=176
+9	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	10	advmod	_	start_char=177|end_char=181
+10	izađete	izaći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=182|end_char=189
+11	iz	iz	ADP	Sg	Case=Gen	12	case	_	start_char=190|end_char=192
+12	igre	igra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	start_char=193|end_char=197
+13	,	,	PUNCT	Z	_	10	punct	_	start_char=197|end_char=198
+14	iznenada	iznenada	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=199|end_char=207
+15	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	17	expl	_	start_char=208|end_char=210
+16	ponovno	ponovno	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=211|end_char=218
+17	pojavljuje	pojavljivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=219|end_char=229
+18	.	.	PUNCT	Z	_	4	punct	_	start_char=229|end_char=230
+
+# text = Moj šestogodišnjak misli da je zabavno, ali frustrira se zbog toga.
+# sent_id = 3
+1	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=231|end_char=234
+2	šestogodišnjak	šestogodišnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=235|end_char=249
+3	misli	misliti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=250|end_char=255
+4	da	da	SCONJ	Cs	_	6	mark	_	start_char=256|end_char=258
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=259|end_char=261
+6	zabavno	zabavan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	ccomp	_	start_char=262|end_char=269
+7	,	,	PUNCT	Z	_	9	punct	_	start_char=269|end_char=270
+8	ali	ali	CCONJ	Cc	_	9	cc	_	start_char=271|end_char=274
+9	frustrira	frustrirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=275|end_char=284
+10	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=285|end_char=287
+11	zbog	zbog	ADP	Sg	Case=Gen	12	case	_	start_char=288|end_char=292
+12	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	start_char=293|end_char=297
+13	.	.	PUNCT	Z	_	3	punct	_	start_char=297|end_char=298
+

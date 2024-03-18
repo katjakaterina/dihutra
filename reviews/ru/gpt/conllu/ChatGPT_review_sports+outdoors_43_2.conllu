@@ -1,0 +1,75 @@
+# text = Изменение цвета лент Как и большинство продуктов для тренировок, эти использовались несколько раз и затем хранились в сумке несколько месяцев.
+# sent_id = 0
+1	Изменение	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	start_char=0|end_char=9
+2	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=10|end_char=15
+3	лент	лента	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=16|end_char=20
+4	Как	как	SCONJ	_	_	6	mark	_	start_char=21|end_char=24
+5	и	и	PART	_	_	6	advmod	_	start_char=25|end_char=26
+6	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	acl	_	start_char=27|end_char=38
+7	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=39|end_char=48
+8	для	для	ADP	_	_	9	case	_	start_char=49|end_char=52
+9	тренировок	тренировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=53|end_char=63
+10	,	,	PUNCT	_	_	1	punct	_	start_char=63|end_char=64
+11	эти	этот	DET	_	Case=Nom|Number=Plur|PronType=Dem	12	det	_	start_char=65|end_char=68
+12	использовались	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=69|end_char=83
+13	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	14	nummod	_	start_char=84|end_char=93
+14	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	start_char=94|end_char=97
+15	и	и	CCONJ	_	_	17	cc	_	start_char=98|end_char=99
+16	затем	затем	ADV	_	Degree=Pos	17	advmod	_	start_char=100|end_char=105
+17	хранились	храниться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	start_char=106|end_char=115
+18	в	в	ADP	_	_	19	case	_	start_char=116|end_char=117
+19	сумке	сумка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	start_char=118|end_char=123
+20	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	21	nummod	_	start_char=124|end_char=133
+21	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	start_char=134|end_char=141
+22	.	.	PUNCT	_	_	12	punct	_	start_char=141|end_char=142
+
+# text = Я достал их, чтобы начать использовать снова после автомобильной аварии, которая вынудила меня отказаться от гантелей, и ленты начинают менять цвет и выцветать.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=143|end_char=144
+2	достал	достать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=145|end_char=151
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	start_char=152|end_char=154
+4	,	,	PUNCT	_	_	6	punct	_	start_char=154|end_char=155
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=156|end_char=161
+6	начать	начать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	start_char=162|end_char=168
+7	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=169|end_char=181
+8	снова	снова	ADV	_	Degree=Pos	7	advmod	_	start_char=182|end_char=187
+9	после	после	ADP	_	_	11	case	_	start_char=188|end_char=193
+10	автомобильной	автомобильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=194|end_char=207
+11	аварии	авария	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=208|end_char=214
+12	,	,	PUNCT	_	_	14	punct	_	start_char=214|end_char=215
+13	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	14	nsubj	_	start_char=216|end_char=223
+14	вынудила	вынудить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=224|end_char=232
+15	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	start_char=233|end_char=237
+16	отказаться	отказаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	xcomp	_	start_char=238|end_char=248
+17	от	от	ADP	_	_	18	case	_	start_char=249|end_char=251
+18	гантелей	гантель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	start_char=252|end_char=260
+19	,	,	PUNCT	_	_	22	punct	_	start_char=260|end_char=261
+20	и	и	CCONJ	_	_	22	cc	_	start_char=262|end_char=263
+21	ленты	лента	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	start_char=264|end_char=269
+22	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	start_char=270|end_char=278
+23	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	start_char=279|end_char=285
+24	цвет	цвет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	start_char=286|end_char=290
+25	и	и	CCONJ	_	_	26	cc	_	start_char=291|end_char=292
+26	выцветать	выцветать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	conj	_	start_char=293|end_char=302
+27	.	.	PUNCT	_	_	2	punct	_	start_char=302|end_char=303
+
+# text = Это делает меня нервным, потому что я беспокоюсь, что целостность резины ослабевает...
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=304|end_char=307
+2	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=308|end_char=314
+3	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=315|end_char=319
+4	нервным	нервный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	start_char=320|end_char=327
+5	,	,	PUNCT	_	_	9	punct	_	start_char=327|end_char=328
+6	потому	потому	ADV	_	Degree=Pos	9	mark	_	start_char=329|end_char=335
+7	что	что	SCONJ	_	_	6	fixed	_	start_char=336|end_char=339
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=340|end_char=341
+9	беспокоюсь	беспокоиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	2	advcl	_	start_char=342|end_char=352
+10	,	,	PUNCT	_	_	14	punct	_	start_char=352|end_char=353
+11	что	что	SCONJ	_	_	14	mark	_	start_char=354|end_char=357
+12	целостность	целостность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=358|end_char=369
+13	резины	резина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=370|end_char=376
+14	ослабевает	ослабевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	start_char=377|end_char=387
+15	.	.	PUNCT	_	_	14	punct	_	start_char=387|end_char=388
+16	.	.	PUNCT	_	_	14	punct	_	start_char=388|end_char=389
+17	.	.	PUNCT	_	_	2	punct	_	start_char=389|end_char=390
+

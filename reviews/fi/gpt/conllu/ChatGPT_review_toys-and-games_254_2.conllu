@@ -1,0 +1,56 @@
+# text = Tämä peli on tylsä.
+# sent_id = 0
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4
+2	peli	peli	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=5|end_char=9
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=10|end_char=12
+4	tylsä	tylsä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=13|end_char=18
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=18|end_char=19
+
+# text = Nappuloiden laatu on todella hyvä.
+# sent_id = 1
+1	Nappuloiden	nappula	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	start_char=20|end_char=31
+2	laatu	laatu	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=32|end_char=37
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=38|end_char=40
+4	todella	todella	ADV	Adv	_	5	advmod	_	start_char=41|end_char=48
+5	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=49|end_char=53
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=53|end_char=54
+
+# text = Mutta pelaajien välillä on vähän vuorovaikutusta, eikä hirviöiden vaikeusasteissa ole järkeä tai perustetta, eikä ole tapaa parantaa hahmojasi.
+# sent_id = 2
+1	Mutta	mutta	CCONJ	C	_	2	cc	_	start_char=55|end_char=60
+2	pelaajien	pelaaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Plur	0	root	_	start_char=61|end_char=70
+3	välillä	välillä	ADP	Adp	AdpType=Post	2	case	_	start_char=71|end_char=78
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=79|end_char=81
+5	vähän	vähän	ADV	Adv	_	6	advmod	_	start_char=82|end_char=87
+6	vuorovaikutusta	vuoro#vaikutus	NOUN	N	Case=Par|Number=Sing	2	nsubj:cop	_	start_char=88|end_char=103
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=103|end_char=104
+8	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=105|end_char=109
+9	hirviöiden	hirviö	NOUN	N	Case=Gen|Number=Plur	10	nmod:poss	_	start_char=110|end_char=120
+10	vaikeusasteissa	vaikeus#aste	NOUN	N	Case=Ine|Number=Plur	2	conj	_	start_char=121|end_char=136
+11	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=137|end_char=140
+12	järkeä	järki	NOUN	N	Case=Par|Number=Sing	10	nsubj:cop	_	start_char=141|end_char=147
+13	tai	tai	CCONJ	C	_	14	cc	_	start_char=148|end_char=151
+14	perustetta	peruste	NOUN	N	Case=Par|Number=Sing	12	conj	_	start_char=152|end_char=162
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=162|end_char=163
+16	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	start_char=164|end_char=168
+17	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	start_char=169|end_char=172
+18	tapaa	tapa	NOUN	N	Case=Par|Number=Sing	10	conj	_	start_char=173|end_char=178
+19	parantaa	parantaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	18	acl	_	start_char=179|end_char=187
+20	hahmojasi	hahmo#jasi	NOUN	N	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=1	19	obj	_	start_char=188|end_char=197
+21	.	.	PUNCT	Punct	_	2	punct	_	start_char=197|end_char=198
+
+# text = Joten jos olet vain kiinnostunut onnenpelistä, tämä on sinun pelisi.
+# sent_id = 3
+1	Joten	joten	ADV	Adv	_	2	advmod	_	start_char=199|end_char=204
+2	jos	jos	SCONJ	C	_	5	mark	_	start_char=205|end_char=208
+3	olet	olla	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=209|end_char=213
+4	vain	vain	ADV	Adv	_	5	advmod	_	start_char=214|end_char=218
+5	kiinnostunut	kiinnostua	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	advcl	_	start_char=219|end_char=231
+6	onnenpelistä	onni#peli	NOUN	N	Case=Ela|Number=Sing	5	obl	_	start_char=232|end_char=244
+7	,	,	PUNCT	Punct	_	5	punct	_	start_char=244|end_char=245
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	_	start_char=246|end_char=250
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=251|end_char=253
+10	sinun	sinä	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	11	nmod:poss	_	start_char=254|end_char=259
+11	pelisi	pelisi	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	start_char=260|end_char=266
+12	.	.	PUNCT	Punct	_	11	punct	_	start_char=266|end_char=267
+

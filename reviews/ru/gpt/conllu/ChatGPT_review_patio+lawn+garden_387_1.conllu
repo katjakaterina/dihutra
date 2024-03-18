@@ -1,0 +1,109 @@
+# text = Два разных сломались Секатор не отпускает легко, если вы схватили ветку немного толще, и на пяти футах это не всегда легко заметить, если ветка чуть более 1/8 дюйма в диаметре.
+# sent_id = 0
+1	Два	два	NUM	_	Case=Nom|Gender=Masc|NumType=Card	2	nummod:gov	_	start_char=0|end_char=3
+2	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	nsubj	_	start_char=4|end_char=10
+3	сломались	сломаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=11|end_char=20
+4	Секатор	Секатор	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=21|end_char=28
+5	не	не	PART	_	_	6	advmod	_	start_char=29|end_char=31
+6	отпускает	отпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=32|end_char=41
+7	легко	легко	ADV	_	Degree=Pos	6	advmod	_	start_char=42|end_char=47
+8	,	,	PUNCT	_	_	11	punct	_	start_char=47|end_char=48
+9	если	если	SCONJ	_	_	11	mark	_	start_char=49|end_char=53
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	start_char=54|end_char=56
+11	схватили	схватить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=57|end_char=65
+12	ветку	ветка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=66|end_char=71
+13	немного	немного	ADV	_	Degree=Pos	14	advmod	_	start_char=72|end_char=79
+14	толще	толща	ADV	_	Degree=Cmp	11	advmod	_	start_char=80|end_char=85
+15	,	,	PUNCT	_	_	23	punct	_	start_char=85|end_char=86
+16	и	и	CCONJ	_	_	23	cc	_	start_char=87|end_char=88
+17	на	на	ADP	_	_	19	case	_	start_char=89|end_char=91
+18	пяти	пять	NUM	_	Case=Loc|NumType=Card	19	nummod	_	start_char=92|end_char=96
+19	футах	фута	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	23	obl	_	start_char=97|end_char=102
+20	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	obj	_	start_char=103|end_char=106
+21	не	не	PART	_	_	22	advmod	_	start_char=107|end_char=109
+22	всегда	всегда	ADV	_	Degree=Pos	23	advmod	_	start_char=110|end_char=116
+23	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	conj	_	start_char=117|end_char=122
+24	заметить	заметить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	csubj	_	start_char=123|end_char=131
+25	,	,	PUNCT	_	_	32	punct	_	start_char=131|end_char=132
+26	если	если	SCONJ	_	_	32	mark	_	start_char=133|end_char=137
+27	ветка	ветка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	start_char=138|end_char=143
+28	чуть	чуть	ADV	_	Degree=Pos	29	advmod	_	start_char=144|end_char=148
+29	более	более	ADV	_	Degree=Cmp	32	advmod	_	start_char=149|end_char=154
+30	1/	1/	SYM	_	_	32	nummod	_	start_char=155|end_char=157
+31	8	8	NUM	_	NumType=Card	32	nummod	_	start_char=157|end_char=158
+32	дюйма	дюйм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	advcl	_	start_char=159|end_char=164
+33	в	в	ADP	_	_	34	case	_	start_char=165|end_char=166
+34	диаметре	диаметр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	nmod	_	start_char=167|end_char=175
+35	.	.	PUNCT	_	_	3	punct	_	start_char=175|end_char=176
+
+# text = В результате он сломался на второй день.
+# sent_id = 1
+1	В	в	ADP	_	_	2	case	_	start_char=177|end_char=178
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=179|end_char=189
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=190|end_char=192
+4	сломался	ломаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=193|end_char=201
+5	на	на	ADP	_	_	7	case	_	start_char=202|end_char=204
+6	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=205|end_char=211
+7	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=212|end_char=216
+8	.	.	PUNCT	_	_	4	punct	_	start_char=216|end_char=217
+
+# text = Amazon заменил его другим, который тоже сломался из-за той же проблемы, но в этот раз уже было поздно для возврата.
+# sent_id = 2
+1	Amazon	Amazon	PROPN	_	Foreign=Yes	2	nsubj	_	start_char=218|end_char=224
+2	заменил	заменить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=225|end_char=232
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=233|end_char=236
+4	другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	start_char=237|end_char=243
+5	,	,	PUNCT	_	_	8	punct	_	start_char=243|end_char=244
+6	который	который	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=245|end_char=252
+7	тоже	тоже	PART	_	_	8	advmod	_	start_char=253|end_char=257
+8	сломался	ломаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	start_char=258|end_char=266
+9	из-за	из-за	ADP	_	_	12	case	_	start_char=267|end_char=272
+10	той	тот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=273|end_char=276
+11	же	же	PART	_	_	10	advmod	_	start_char=277|end_char=279
+12	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	start_char=280|end_char=288
+13	,	,	PUNCT	_	_	20	punct	_	start_char=288|end_char=289
+14	но	но	CCONJ	_	_	20	cc	_	start_char=290|end_char=292
+15	в	в	ADP	_	_	17	case	_	start_char=293|end_char=294
+16	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=295|end_char=299
+17	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	start_char=300|end_char=303
+18	уже	уже	ADV	_	Degree=Pos	20	advmod	_	start_char=304|end_char=307
+19	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	start_char=308|end_char=312
+20	поздно	поздно	ADV	_	Degree=Pos	8	conj	_	start_char=313|end_char=319
+21	для	для	ADP	_	_	22	case	_	start_char=320|end_char=323
+22	возврата	возврат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	start_char=324|end_char=332
+23	.	.	PUNCT	_	_	2	punct	_	start_char=332|end_char=333
+
+# text = Я купил другой, более дорогой, с которым я доволен, и рекомендовал бы его всем: ARS LA-180ZR203 Секатор с длинным вылетом 4-7 футов.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=334|end_char=335
+2	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=336|end_char=341
+3	другой	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	obj	_	start_char=342|end_char=348
+4	,	,	PUNCT	_	_	6	punct	_	start_char=348|end_char=349
+5	более	более	ADV	_	Degree=Cmp	6	obl	_	start_char=350|end_char=355
+6	дорогой	дорогой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=356|end_char=363
+7	,	,	PUNCT	_	_	11	punct	_	start_char=363|end_char=364
+8	с	с	ADP	_	_	9	case	_	start_char=365|end_char=366
+9	которым	который	PRON	_	Case=Ins|PronType=Int,Rel	11	obl	_	start_char=367|end_char=374
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=375|end_char=376
+11	доволен	довольный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	acl:relcl	_	start_char=377|end_char=384
+12	,	,	PUNCT	_	_	14	punct	_	start_char=384|end_char=385
+13	и	и	CCONJ	_	_	14	cc	_	start_char=386|end_char=387
+14	рекомендовал	рекомендовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=388|end_char=400
+15	бы	бы	AUX	_	_	14	aux	_	start_char=401|end_char=403
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=404|end_char=407
+17	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur|PronType=Tot	14	iobj	_	start_char=408|end_char=412
+18	:	:	PUNCT	_	_	19	punct	_	start_char=412|end_char=413
+19	ARS	ARS	PROPN	_	Foreign=Yes	17	flat:foreign	_	start_char=414|end_char=417
+20	LA	LA	PROPN	_	Foreign=Yes	19	flat:foreign	_	start_char=418|end_char=420
+21	-	-	PUNCT	_	_	22	punct	_	start_char=420|end_char=421
+22	180ZR203	180ZR203	NUM	_	NumType=Card	19	appos	_	start_char=421|end_char=429
+23	Секатор	Секатор	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	flat:foreign	_	start_char=430|end_char=437
+24	с	с	ADP	_	_	26	case	_	start_char=438|end_char=439
+25	длинным	длинный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=440|end_char=447
+26	вылетом	вылет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	start_char=448|end_char=455
+27	4	4	NUM	_	NumType=Card	30	nummod	_	start_char=456|end_char=457
+28	-	-	PUNCT	_	_	29	punct	_	start_char=457|end_char=458
+29	7	7	NUM	_	NumType=Card	27	nmod	_	start_char=458|end_char=459
+30	футов	фут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	start_char=460|end_char=465
+31	.	.	PUNCT	_	_	2	punct	_	start_char=465|end_char=466
+

@@ -1,0 +1,84 @@
+# text = Starije baterije dolaze u plastičnom kućištu.
+# sent_id = 0
+1	Starije	star	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=0|end_char=7
+2	baterije	baterija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=8|end_char=16
+3	dolaze	dolaziti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=17|end_char=23
+4	u	u	ADP	Sl	Case=Loc	6	case	_	start_char=24|end_char=25
+5	plastičnom	plastičan	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=26|end_char=36
+6	kućištu	kućište	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	start_char=37|end_char=44
+7	.	.	PUNCT	Z	_	3	punct	_	start_char=44|end_char=45
+
+# text = Proizvod nije stigao na kartonskoj kartici, stigao je u jednostavnom za otvaranje plastičnom kućištu i s datumom isteka od samo 3 godine.
+# sent_id = 1
+1	Proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=46|end_char=54
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=55|end_char=59
+3	stigao	stići	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=60|end_char=66
+4	na	na	ADP	Sl	Case=Loc	6	case	_	start_char=67|end_char=69
+5	kartonskoj	kartonski	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=70|end_char=80
+6	kartici	kartika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	start_char=81|end_char=88
+7	,	,	PUNCT	Z	_	8	punct	_	start_char=88|end_char=89
+8	stigao	stići	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=90|end_char=96
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=97|end_char=99
+10	u	u	ADP	Sl	Case=Loc	11	case	_	start_char=100|end_char=101
+11	jednostavnom	jednostavan	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	start_char=102|end_char=114
+12	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=115|end_char=117
+13	otvaranje	otvaranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	start_char=118|end_char=127
+14	plastičnom	plastičan	ADJ	Agpnsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	start_char=128|end_char=138
+15	kućištu	kućište	NOUN	Ncnsd	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	start_char=139|end_char=146
+16	i	i	CCONJ	Cc	_	18	cc	_	start_char=147|end_char=148
+17	s	sa	ADP	Si	Case=Ins	18	case	_	start_char=149|end_char=150
+18	datumom	datum	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	13	conj	_	start_char=151|end_char=158
+19	isteka	istek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=159|end_char=165
+20	od	od	ADP	Sg	Case=Gen	23	case	_	start_char=166|end_char=168
+21	samo	samo	ADV	Rgp	Degree=Pos	22	advmod	_	start_char=169|end_char=173
+22	3	3	NUM	Mdc	NumType=Card	23	nummod	_	start_char=174|end_char=175
+23	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=176|end_char=182
+24	.	.	PUNCT	Z	_	3	punct	_	start_char=182|end_char=183
+
+# text = Svježe baterije imaju datum isteka od 5 godina.
+# sent_id = 2
+1	Svježe	svjež	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=184|end_char=190
+2	baterije	baterija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=191|end_char=199
+3	imaju	imati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=200|end_char=205
+4	datum	datum	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=206|end_char=211
+5	isteka	istek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=212|end_char=218
+6	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=219|end_char=221
+7	5	5	NUM	Mdc	NumType=Card	8	nummod:gov	_	start_char=222|end_char=223
+8	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=224|end_char=230
+9	.	.	PUNCT	Z	_	3	punct	_	start_char=230|end_char=231
+
+# text = Opis i slika ovog proizvoda moraju se promijeniti ako namjeravaju prodavati Amazonovim korisnicima drugačiji i stariji proizvod.
+# sent_id = 3
+1	Opis	opis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=232|end_char=236
+2	i	i	CCONJ	Cc	_	3	cc	_	start_char=237|end_char=238
+3	slika	slika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=239|end_char=244
+4	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=245|end_char=249
+5	proizvoda	proizvod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=250|end_char=259
+6	moraju	morati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=260|end_char=266
+7	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	start_char=267|end_char=269
+8	promijeniti	promijeniti	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=270|end_char=281
+9	ako	ako	SCONJ	Cs	_	10	mark	_	start_char=282|end_char=285
+10	namjeravaju	namjeravati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=286|end_char=297
+11	prodavati	prodavati	VERB	Vmn	VerbForm=Inf	10	xcomp	_	start_char=298|end_char=307
+12	Amazonovim	amazonov	ADJ	Aspmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Poss=Yes	13	amod	_	start_char=308|end_char=318
+13	korisnicima	korisnik	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	11	iobj	_	start_char=319|end_char=330
+14	drugačiji	drugačiji	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=331|end_char=340
+15	i	i	CCONJ	Cc	_	16	cc	_	start_char=341|end_char=342
+16	stariji	star	ADJ	Agcmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	14	conj	_	start_char=343|end_char=350
+17	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=351|end_char=359
+18	.	.	PUNCT	Z	_	6	punct	_	start_char=359|end_char=360
+
+# text = Bili su ljubazni i poslali mi besplatnu naljepnicu za povrat.
+# sent_id = 4
+1	Bili	biti	AUX	Vap-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	start_char=361|end_char=365
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=366|end_char=368
+3	ljubazni	ljubazni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=369|end_char=377
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=378|end_char=379
+5	poslali	poslati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=380|end_char=387
+6	mi	ja	PRON	Pp1-sd	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	iobj	_	start_char=388|end_char=390
+7	besplatnu	besplatan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=391|end_char=400
+8	naljepnicu	naljepnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=401|end_char=411
+9	za	za	ADP	Sa	Case=Acc	10	case	_	start_char=412|end_char=414
+10	povrat	povrat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	start_char=415|end_char=421
+11	.	.	PUNCT	Z	_	3	punct	_	start_char=421|end_char=422
+

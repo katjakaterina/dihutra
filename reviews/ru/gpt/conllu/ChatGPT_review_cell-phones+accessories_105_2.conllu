@@ -1,0 +1,111 @@
+# text = СБОЙ ЛЕГКОЙ НАГРУЗКИ КАКАЯ ЗАМЕЧАТЕЛЬНАЯ ЦЕНА!
+# sent_id = 0
+1	СБОЙ	сбой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=0|end_char=4
+2	ЛЕГКОЙ	легкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=5|end_char=11
+3	НАГРУЗКИ	нагрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=20
+4	КАКАЯ	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	det	_	start_char=21|end_char=26
+5	ЗАМЕЧАТЕЛЬНАЯ	замещательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=27|end_char=40
+6	ЦЕНА	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=41|end_char=45
+7	!	!	PUNCT	_	_	1	punct	_	start_char=45|end_char=46
+
+# text = СРАЗУ ПОСЛЕ ВЫНИМАНИЯ ИЗ КОРОБКИ, ВОТКНУЛ И ЗАРЯДИЛ...
+# sent_id = 1
+1	СРАЗУ	сразу	ADV	_	Degree=Pos	3	obl	_	start_char=47|end_char=52
+2	ПОСЛЕ	после	ADP	_	_	3	case	_	start_char=53|end_char=58
+3	ВЫНИМАНИЯ	вынимания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	start_char=59|end_char=68
+4	ИЗ	из	ADP	_	_	5	case	_	start_char=69|end_char=71
+5	КОРОБКИ	коробка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=72|end_char=79
+6	,	,	PUNCT	_	_	7	punct	_	start_char=79|end_char=80
+7	ВОТКНУЛ	воткить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=81|end_char=88
+8	И	и	CCONJ	_	_	9	cc	_	start_char=89|end_char=90
+9	ЗАРЯДИЛ	зарддить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=91|end_char=98
+10	.	.	PUNCT	_	_	9	punct	_	start_char=98|end_char=99
+11	.	.	PUNCT	_	_	9	punct	_	start_char=99|end_char=100
+12	.	.	PUNCT	_	_	3	punct	_	start_char=100|end_char=101
+
+# text = НЕ ЗНАЮ, БЬЕТСЯ ЛИ ЭТО ПРИ ПАДЕНИЯХ НА ПОЛ ВАШЕЙ МАШИНЫ ИЛИ ЖЕ ОТ ТОГО, ЧТО ВРЕМЕНАМИ ЗАСОВЫВАЛИ ЕГО В ПОДСИДЕЛЬНЫЙ ЯЩИК, ЧТОБЫ СПРЯТАТЬ — ВСЁ РАВНО, ОН ОТКАЗАЛСЯ РАБОТАТЬ.
+# sent_id = 2
+1	НЕ	не	PART	_	_	2	advmod	_	start_char=102|end_char=104
+2	ЗНАЮ	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=105|end_char=109
+3	,	,	PUNCT	_	_	4	punct	_	start_char=109|end_char=110
+4	БЬЕТСЯ	биться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=111|end_char=117
+5	ЛИ	ли	PART	_	_	4	advmod	_	start_char=118|end_char=120
+6	ЭТО	это	PRON	_	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=121|end_char=124
+7	ПРИ	при	ADP	_	_	8	case	_	start_char=125|end_char=128
+8	ПАДЕНИЯХ	падениен	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	start_char=129|end_char=137
+9	НА	на	ADP	_	_	10	case	_	start_char=138|end_char=140
+10	ПОЛ	пол	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	start_char=141|end_char=144
+11	ВАШЕЙ	ваш	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Prs	12	det	_	start_char=145|end_char=150
+12	МАШИНЫ	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=151|end_char=157
+13	ИЛИ	или	CCONJ	_	_	16	cc	_	start_char=158|end_char=161
+14	ЖЕ	же	PART	_	_	16	advmod	_	start_char=162|end_char=164
+15	ОТ	от	ADP	_	_	16	case	_	start_char=165|end_char=167
+16	ТОГО	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	conj	_	start_char=168|end_char=172
+17	,	,	PUNCT	_	_	20	punct	_	start_char=172|end_char=173
+18	ЧТО	что	SCONJ	_	_	20	mark	_	start_char=174|end_char=177
+19	ВРЕМЕНАМИ	временами	ADV	_	Degree=Pos	20	advmod	_	start_char=178|end_char=187
+20	ЗАСОВЫВАЛИ	засовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	acl	_	start_char=188|end_char=198
+21	ЕГО	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=199|end_char=202
+22	В	в	ADP	_	_	24	case	_	start_char=203|end_char=204
+23	ПОДСИДЕЛЬНЫЙ	подсидельный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=205|end_char=217
+24	ЯЩИК	ящик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	start_char=218|end_char=222
+25	,	,	PUNCT	_	_	27	punct	_	start_char=222|end_char=223
+26	ЧТОБЫ	чтобы	SCONJ	_	_	27	mark	_	start_char=224|end_char=229
+27	СПРЯТАТЬ	спрятать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	advcl	_	start_char=230|end_char=238
+28	—	—	PUNCT	_	_	29	punct	_	start_char=239|end_char=240
+29	ВСЁ	всё	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	obj	_	start_char=241|end_char=244
+30	РАВНО	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	29	fixed	_	start_char=245|end_char=250
+31	,	,	PUNCT	_	_	33	punct	_	start_char=250|end_char=251
+32	ОН	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	start_char=252|end_char=254
+33	ОТКАЗАЛСЯ	отказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	acl:relcl	_	start_char=255|end_char=264
+34	РАБОТАТЬ	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	33	xcomp	_	start_char=265|end_char=273
+35	.	.	PUNCT	_	_	2	punct	_	start_char=273|end_char=274
+
+# text = СКОРО ЗЕЛЕНАЯ ИНДИКАЦИЯ ПЕРЕСТАЛА ГОРЕТЬ, И ТЕЛЕФОН ПОКАЗЫВАЛ, ЧТО ЗАРЯДКА НЕ ИДЕТ.
+# sent_id = 3
+1	СКОРО	скоро	ADV	_	Degree=Pos	4	advmod	_	start_char=275|end_char=280
+2	ЗЕЛЕНАЯ	зеленая	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=281|end_char=288
+3	ИНДИКАЦИЯ	индикация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	start_char=289|end_char=298
+4	ПЕРЕСТАЛА	перестать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=299|end_char=308
+5	ГОРЕТЬ	гореть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=309|end_char=315
+6	,	,	PUNCT	_	_	9	punct	_	start_char=315|end_char=316
+7	И	и	CCONJ	_	_	9	cc	_	start_char=317|end_char=318
+8	ТЕЛЕФОН	телефон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=319|end_char=326
+9	ПОКАЗЫВАЛ	показать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=327|end_char=336
+10	,	,	PUNCT	_	_	14	punct	_	start_char=336|end_char=337
+11	ЧТО	что	SCONJ	_	_	14	mark	_	start_char=338|end_char=341
+12	ЗАРЯДКА	зарядка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=342|end_char=349
+13	НЕ	не	PART	_	_	14	advmod	_	start_char=350|end_char=352
+14	ИДЕТ	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=353|end_char=357
+15	.	.	PUNCT	_	_	4	punct	_	start_char=357|end_char=358
+
+# text = ТАК ЧТО ЛИБО ПОТРАТИТЕ НЕСКОЛЬКО ДОПОЛНИТЕЛЬНЫХ ДОЛЛАРОВ НА ТОТ, У КОТОРОГО ТОЛЩЕ ШНУР И КРЕПКАЯ ОБОЛОЧКА, ИЛИ ОБРАЩАЙТЕСЬ С НИМ КАК С ДЕЛИКАТНЫМ ЦВЕТОК.
+# sent_id = 4
+1	ТАК	так	ADV	_	Degree=Pos	2	advmod	_	start_char=359|end_char=362
+2	ЧТО	что	PRON	_	Case=Nom|PronType=Int,Rel	4	nsubj	_	start_char=363|end_char=366
+3	ЛИБО	либо	CCONJ	_	_	4	cc	_	start_char=367|end_char=371
+4	ПОТРАТИТЕ	потратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=372|end_char=381
+5	НЕСКОЛЬКО	несколько	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=382|end_char=391
+6	ДОПОЛНИТЕЛЬНЫХ	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=392|end_char=406
+7	ДОЛЛАРОВ	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=407|end_char=415
+8	НА	на	ADP	_	_	9	case	_	start_char=416|end_char=418
+9	ТОТ	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=419|end_char=422
+10	,	,	PUNCT	_	_	12	punct	_	start_char=422|end_char=423
+11	У	у	ADP	_	_	12	case	_	start_char=424|end_char=425
+12	КОТОРОГО	которого	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=426|end_char=434
+13	ТОЛЩЕ	толь	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=435|end_char=440
+14	ШНУР	шнур	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	start_char=441|end_char=445
+15	И	и	CCONJ	_	_	17	cc	_	start_char=446|end_char=447
+16	КРЕПКАЯ	крепкая	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=448|end_char=455
+17	ОБОЛОЧКА	оболочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	conj	_	start_char=456|end_char=464
+18	,	,	PUNCT	_	_	20	punct	_	start_char=464|end_char=465
+19	ИЛИ	или	CCONJ	_	_	20	cc	_	start_char=466|end_char=469
+20	ОБРАЩАЙТЕСЬ	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=470|end_char=481
+21	С	с	ADP	_	_	22	case	_	start_char=482|end_char=483
+22	НИМ	ни	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	20	obl	_	start_char=484|end_char=487
+23	КАК	как	ADV	_	Degree=Pos	26	advmod	_	start_char=488|end_char=491
+24	С	с	ADP	_	_	26	case	_	start_char=492|end_char=493
+25	ДЕЛИКАТНЫМ	деликатный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=494|end_char=504
+26	ЦВЕТОК	цветок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	obl	_	start_char=505|end_char=511
+27	.	.	PUNCT	_	_	4	punct	_	start_char=511|end_char=512
+

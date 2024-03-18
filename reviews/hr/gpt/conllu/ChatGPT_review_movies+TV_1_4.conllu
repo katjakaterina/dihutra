@@ -1,0 +1,74 @@
+# text = Dobra verzija klasičnog djela
+# sent_id = 0
+1	Dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=6|end_char=13
+3	klasičnog	klasičan	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=14|end_char=23
+4	djela	djelo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=24|end_char=29
+
+# text = Ovo je šarmantna verzija Dickensove klasične priče.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=30|end_char=33
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=34|end_char=36
+3	šarmantna	šarmantan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=37|end_char=46
+4	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=47|end_char=54
+5	Dickensove	Dickensov	ADJ	Aspfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	7	amod	_	start_char=55|end_char=65
+6	klasične	klasičan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=66|end_char=74
+7	priče	priča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=75|end_char=80
+8	.	.	PUNCT	Z	_	4	punct	_	start_char=80|end_char=81
+
+# text = Henry Winkler se dobro pokazao kao lik "Scrooge".
+# sent_id = 2
+1	Henry	Henry	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=82|end_char=87
+2	Winkler	Winkler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=88|end_char=95
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=96|end_char=98
+4	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=99|end_char=104
+5	pokazao	pokazati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=105|end_char=112
+6	kao	kao	SCONJ	Cs	_	7	case	_	start_char=113|end_char=116
+7	lik	lik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	start_char=117|end_char=120
+8	"	"	PUNCT	Z	_	9	punct	_	start_char=121|end_char=122
+9	Scrooge	Scrooge	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	start_char=122|end_char=129
+10	"	"	PUNCT	Z	_	9	punct	_	start_char=129|end_char=130
+11	.	.	PUNCT	Z	_	5	punct	_	start_char=130|end_char=131
+
+# text = Iako znate što će se dogoditi, ova verzija donosi dovoljno promjena da je čini boljom od prosjeka.
+# sent_id = 3
+1	Iako	iako	SCONJ	Cs	_	2	mark	_	start_char=132|end_char=136
+2	znate	znati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=137|end_char=142
+3	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	6	nsubj	_	start_char=143|end_char=146
+4	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=147|end_char=149
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	start_char=150|end_char=152
+6	dogoditi	dogoditi	VERB	Vmn	VerbForm=Inf	2	ccomp	_	start_char=153|end_char=161
+7	,	,	PUNCT	Z	_	2	punct	_	start_char=161|end_char=162
+8	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=163|end_char=166
+9	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=167|end_char=174
+10	donosi	donositi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=175|end_char=181
+11	dovoljno	dovoljno	DET	Rgp	Degree=Pos	12	det:numgov	_	start_char=182|end_char=190
+12	promjena	promjena	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	obj	_	start_char=191|end_char=199
+13	da	da	SCONJ	Cs	_	15	mark	_	start_char=200|end_char=202
+14	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=203|end_char=205
+15	čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=206|end_char=210
+16	boljom	dobar	ADJ	Agcfsiy	Case=Ins|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	15	xcomp	_	start_char=211|end_char=217
+17	od	od	ADP	Sg	Case=Gen	18	case	_	start_char=218|end_char=220
+18	prosjeka	prosjek	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	start_char=221|end_char=229
+19	.	.	PUNCT	Z	_	10	punct	_	start_char=229|end_char=230
+
+# text = Ako volite "Božićnu priču" u bilo kojoj verziji, onda ćete voljeti i ovu.
+# sent_id = 4
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=231|end_char=234
+2	volite	voljeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=235|end_char=241
+3	"	"	PUNCT	Z	_	5	punct	_	start_char=242|end_char=243
+4	Božićnu	božićni	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=243|end_char=250
+5	priču	priča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=251|end_char=256
+6	"	"	PUNCT	Z	_	5	punct	_	start_char=256|end_char=257
+7	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=258|end_char=259
+8	bilo	bilo	PART	Qo	_	9	discourse	_	start_char=260|end_char=264
+9	kojoj	koji	DET	Pi-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	10	det	_	start_char=265|end_char=270
+10	verziji	verzija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=271|end_char=278
+11	,	,	PUNCT	Z	_	2	punct	_	start_char=278|end_char=279
+12	onda	onda	ADV	Rgp	Degree=Pos|PronType=Dem	14	advmod	_	start_char=280|end_char=284
+13	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=285|end_char=289
+14	voljeti	voljeti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=290|end_char=297
+15	i	i	CCONJ	Cc	_	16	discourse	_	start_char=298|end_char=299
+16	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	14	obj	_	start_char=300|end_char=303
+17	.	.	PUNCT	Z	_	14	punct	_	start_char=303|end_char=304
+

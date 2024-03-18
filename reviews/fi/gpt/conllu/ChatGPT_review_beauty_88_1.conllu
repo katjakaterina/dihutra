@@ -1,0 +1,95 @@
+# text = """Tämä ei ole aito MAC.
+# sent_id = 0
+1	"	"	PUNCT	Punct	_	8	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Punct	_	8	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Punct	_	8	punct	_	start_char=2|end_char=3
+4	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	_	start_char=3|end_char=7
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=8|end_char=10
+6	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=11|end_char=14
+7	aito	aito	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	start_char=15|end_char=19
+8	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=20|end_char=23
+9	.	.	PUNCT	Punct	_	8	punct	_	start_char=23|end_char=24
+
+# text = Se on feikki.
+# sent_id = 1
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=25|end_char=27
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=28|end_char=30
+3	feikki	feikki	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=31|end_char=37
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=37|end_char=38
+
+# text = Myyjä myy pelkästään väärennettyjä MAC-tuotteita!"
+# sent_id = 2
+1	Myyjä	myyjä	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	2	nsubj	_	start_char=39|end_char=44
+2	myy	myydä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=45|end_char=48
+3	pelkästään	pelkästään	ADV	Adv	_	5	advmod	_	start_char=49|end_char=59
+4	väärennettyjä	väärentää	VERB	V	Case=Par|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	start_char=60|end_char=73
+5	MAC-tuotteita	MAC#tuote	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=74|end_char=87
+6	!	!	PUNCT	Punct	_	2	punct	_	start_char=87|end_char=88
+7	"	"	PUNCT	Punct	_	2	punct	_	start_char=88|end_char=89
+
+# text = Tämä on feikki MAC, sain omani juuri ja olen todella pettynyt huomatessani, ettei se ole oikea MAC.
+# sent_id = 3
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=90|end_char=94
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=95|end_char=97
+3	feikki	feikki	NOUN	N	Case=Nom|Number=Sing	4	compound:nn	_	start_char=98|end_char=104
+4	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=105|end_char=108
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=108|end_char=109
+6	sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=110|end_char=114
+7	omani	oma	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obj	_	start_char=115|end_char=120
+8	juuri	juuri	ADV	Adv	_	6	advmod	_	start_char=121|end_char=126
+9	ja	ja	CCONJ	C	_	12	cc	_	start_char=127|end_char=129
+10	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=130|end_char=134
+11	todella	todella	ADV	Adv	_	12	advmod	_	start_char=135|end_char=142
+12	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=143|end_char=151
+13	huomatessani	huomata	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	12	advcl	_	start_char=152|end_char=164
+14	,	,	PUNCT	Punct	_	20	punct	_	start_char=164|end_char=165
+15-16	ettei	_	_	_	_	_	_	_	start_char=166|end_char=171
+15	että	että	SCONJ	C	_	20	mark	_	_
+16	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	20	aux	_	_
+17	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	20	nsubj:cop	_	start_char=172|end_char=174
+18	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	start_char=175|end_char=178
+19	oikea	oikea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	20	amod	_	start_char=179|end_char=184
+20	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	13	ccomp	_	start_char=185|end_char=188
+21	.	.	PUNCT	Punct	_	4	punct	_	start_char=188|end_char=189
+
+# text = Amazonin tulisi valvoa paremmin väärennettyjen meikkien myyntiä.
+# sent_id = 4
+1	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	3	nsubj	_	start_char=190|end_char=198
+2	tulisi	tulla	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	start_char=199|end_char=205
+3	valvoa	valvoa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=206|end_char=212
+4	paremmin	hyvin	ADV	Adv	Degree=Cmp	5	advmod	_	start_char=213|end_char=221
+5	väärennettyjen	väärentää	VERB	V	Case=Gen|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=222|end_char=236
+6	meikkien	meikki	NOUN	N	Case=Gen|Number=Plur	7	nmod:gobj	_	start_char=237|end_char=245
+7	myyntiä	myynti	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=246|end_char=253
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=253|end_char=254
+
+# text = MAC ei ole halpaa, kun näet näin alhaisen hinnan, se olisi pitänyt olla varoitusmerkki.
+# sent_id = 5
+1	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=255|end_char=258
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=259|end_char=261
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=262|end_char=265
+4	halpaa	halpaa	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=266|end_char=272
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=272|end_char=273
+6	kun	kun	SCONJ	C	_	7	mark	_	start_char=274|end_char=277
+7	näet	näet	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=278|end_char=282
+8	näin	näin	ADV	Adv	_	9	advmod	_	start_char=283|end_char=287
+9	alhaisen	alhainen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	10	amod	_	start_char=288|end_char=296
+10	hinnan	hinta	NOUN	N	Case=Gen|Number=Sing	7	obj	_	start_char=297|end_char=303
+11	,	,	PUNCT	Punct	_	16	punct	_	start_char=303|end_char=304
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	16	nsubj:cop	_	start_char=305|end_char=307
+13	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	16	aux	_	start_char=308|end_char=313
+14	pitänyt	pitää	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	16	aux	_	start_char=314|end_char=321
+15	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	16	cop	_	start_char=322|end_char=326
+16	varoitusmerkki	varoitus#merkki	NOUN	N	Case=Nom|Number=Sing	7	conj	_	start_char=327|end_char=341
+17	.	.	PUNCT	Punct	_	4	punct	_	start_char=341|end_char=342
+
+# text = Älä tue väärennettyjen meikkien myyntiä."
+# sent_id = 6
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=343|end_char=346
+2	tue	tukea	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=347|end_char=350
+3	väärennettyjen	väärentää	VERB	V	Case=Gen|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=351|end_char=365
+4	meikkien	meikki	NOUN	N	Case=Gen|Number=Plur	5	nmod:gobj	_	start_char=366|end_char=374
+5	myyntiä	myynti	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=375|end_char=382
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=382|end_char=383
+7	"	"	PUNCT	Punct	_	2	punct	_	start_char=383|end_char=384
+

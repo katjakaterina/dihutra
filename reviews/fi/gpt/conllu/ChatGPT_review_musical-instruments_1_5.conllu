@@ -1,0 +1,63 @@
+# text = hyvä
+# sent_id = 0
+1	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=4
+
+# text = Ei paljon kirjoitettavaa tästä, mutta se tekee juuri sen, mitä sen pitääkin.
+# sent_id = 1
+1	Ei	ei	VERB	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	_	start_char=5|end_char=7
+2	paljon	paljon	ADV	Adv	_	3	advmod	_	start_char=8|end_char=14
+3	kirjoitettavaa	kirjoitettava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	1	nsubj	_	start_char=15|end_char=29
+4	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	3	nmod	_	start_char=30|end_char=35
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=35|end_char=36
+6	mutta	mutta	CCONJ	C	_	8	cc	_	start_char=37|end_char=42
+7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj	_	start_char=43|end_char=45
+8	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=46|end_char=51
+9	juuri	juuri	ADV	Adv	_	10	advmod	_	start_char=52|end_char=57
+10	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	obj	_	start_char=58|end_char=61
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=61|end_char=62
+12	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	14	obj	_	start_char=63|end_char=67
+13	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	14	obj	_	start_char=68|end_char=71
+14	pitääkin	pitää	VERB	V	Clitic=Kin|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=72|end_char=80
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=80|end_char=81
+
+# text = suodattaa pois pop-äänet.
+# sent_id = 2
+1	suodattaa	suodattaa	VERB	V	Mood=Ind|Number=Sing|Person=0|VerbForm=Fin|Voice=Act	0	root	_	start_char=82|end_char=91
+2	pois	pois	ADV	Adv	_	1	advmod	_	start_char=92|end_char=96
+3	pop-äänet	pop#äänet	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=97|end_char=106
+4	.	.	PUNCT	Punct	_	1	punct	_	start_char=106|end_char=107
+
+# text = nyt äänitykseni ovat paljon selkeämpiä.
+# sent_id = 3
+1	nyt	nyt	ADV	Adv	_	5	advmod	_	start_char=108|end_char=111
+2	äänitykseni	äänitys	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	5	nsubj:cop	_	start_char=112|end_char=123
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=124|end_char=128
+4	paljon	paljon	ADV	Adv	_	5	advmod	_	start_char=129|end_char=135
+5	selkeämpiä	selkeä	ADJ	A	Case=Par|Degree=Cmp|Number=Plur	0	root	_	start_char=136|end_char=146
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=146|end_char=147
+
+# text = se on yksi Amazonin edullisimmista pop-suodattimista, joten voit yhtä hyvin ostaa sen, ne toimivat rehellisesti samalla tavalla huolimatta hinnastaan.
+# sent_id = 4
+1	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=148|end_char=150
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=151|end_char=153
+3	yksi	yksi	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	0	root	_	start_char=154|end_char=158
+4	Amazonin	Amazon	PROPN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=159|end_char=167
+5	edullisimmista	edullinen	ADJ	A	Case=Ela|Degree=Sup|Number=Plur	6	amod	_	start_char=168|end_char=182
+6	pop-suodattimista	pop#suodattiminen	NOUN	N	Case=Ela|Number=Plur	3	nmod	_	start_char=183|end_char=200
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=200|end_char=201
+8	joten	joten	ADV	Adv	_	12	advmod	_	start_char=202|end_char=207
+9	voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=208|end_char=212
+10	yhtä	yhtä	ADV	Adv	_	11	advmod	_	start_char=213|end_char=217
+11	hyvin	hyvin	ADV	Adv	_	12	advmod	_	start_char=218|end_char=223
+12	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	acl:relcl	_	start_char=224|end_char=229
+13	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	obj	_	start_char=230|end_char=233
+14	,	,	PUNCT	Punct	_	16	punct	_	start_char=233|end_char=234
+15	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	16	nsubj	_	start_char=235|end_char=237
+16	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	start_char=238|end_char=246
+17	rehellisesti	rehellisesti	ADV	Adv	Derivation=Sti	16	advmod	_	start_char=247|end_char=259
+18	samalla	sama	PRON	Pron	Case=Ade|Number=Sing|PronType=Ind	19	det	_	start_char=260|end_char=267
+19	tavalla	tapa	NOUN	N	Case=Ade|Number=Sing	16	obl	_	start_char=268|end_char=275
+20	huolimatta	huolimatta	ADP	Adp	AdpType=Prep	21	case	_	start_char=276|end_char=286
+21	hinnastaan	hinta	NOUN	N	Case=Ela|Number=Sing|Person[psor]=3	16	obl	_	start_char=287|end_char=297
+22	.	.	PUNCT	Punct	_	3	punct	_	start_char=297|end_char=298
+

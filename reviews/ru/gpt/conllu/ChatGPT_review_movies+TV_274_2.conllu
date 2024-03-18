@@ -1,0 +1,141 @@
+# text = НЕ РЕМАСТЕРИНГ!
+# sent_id = 0
+1	НЕ	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	РЕМАСТЕРИНГ	ремастеринг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3|end_char=14
+3	!	!	PUNCT	_	_	2	punct	_	start_char=14|end_char=15
+
+# text = Как они вообще могли это утверждать?
+# sent_id = 1
+1	Как	как	ADV	_	Degree=Pos	4	advmod	_	start_char=16|end_char=19
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=20|end_char=23
+3	вообще	вообще	ADV	_	Degree=Pos	4	advmod	_	start_char=24|end_char=30
+4	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=31|end_char=36
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	start_char=37|end_char=40
+6	утверждать	утверждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=41|end_char=51
+7	?	?	PUNCT	_	_	4	punct	_	start_char=51|end_char=52
+
+# text = Замечательная программа, трогательная история и ХУДШАЯ ПРЕЗЕНТАЦИЯ вот так...
+# sent_id = 2
+1	Замечательная	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=53|end_char=66
+2	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=67|end_char=76
+3	,	,	PUNCT	_	_	5	punct	_	start_char=76|end_char=77
+4	трогательная	трогательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=78|end_char=90
+5	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=91|end_char=98
+6	и	и	CCONJ	_	_	8	cc	_	start_char=99|end_char=100
+7	ХУДШАЯ	худший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=101|end_char=107
+8	ПРЕЗЕНТАЦИЯ	презентация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=108|end_char=119
+9	вот	вот	PART	_	_	10	advmod	_	start_char=120|end_char=123
+10	так	так	ADV	_	Degree=Pos	2	conj	_	start_char=124|end_char=127
+11	.	.	PUNCT	_	_	10	punct	_	start_char=127|end_char=128
+12	.	.	PUNCT	_	_	10	punct	_	start_char=128|end_char=129
+13	.	.	PUNCT	_	_	2	punct	_	start_char=129|end_char=130
+
+# text = Этот DVD не восстановлен... ни одного бита.
+# sent_id = 3
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=131|end_char=135
+2	DVD	DVD	PROPN	_	_	4	nsubj:pass	_	start_char=136|end_char=139
+3	не	не	PART	_	_	4	advmod	_	start_char=140|end_char=142
+4	восстановлен	восстановить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=143|end_char=155
+5	.	.	PUNCT	_	_	4	punct	_	start_char=155|end_char=156
+6	.	.	PUNCT	_	_	4	punct	_	start_char=156|end_char=157
+7	.	.	PUNCT	_	_	4	punct	_	start_char=157|end_char=158
+8	ни	ни	PART	_	_	9	advmod	_	start_char=159|end_char=161
+9	одного	один	NUM	_	Case=Gen|Gender=Masc|NumType=Card	10	nummod	_	start_char=162|end_char=168
+10	бита	бита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	start_char=169|end_char=173
+11	.	.	PUNCT	_	_	4	punct	_	start_char=173|end_char=174
+
+# text = Это та же самая темная, мутная, грязная, испещренная и урезанная копия, которую мы видели по телевизору, на видеокассетах и DVD, а сколько лет?
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=175|end_char=178
+2	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=179|end_char=181
+3	же	же	PART	_	_	2	advmod	_	start_char=182|end_char=184
+4	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=185|end_char=190
+5	темная	темный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	acl	_	start_char=191|end_char=197
+6	,	,	PUNCT	_	_	7	punct	_	start_char=197|end_char=198
+7	мутная	мутный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=199|end_char=205
+8	,	,	PUNCT	_	_	9	punct	_	start_char=205|end_char=206
+9	грязная	грязный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=207|end_char=214
+10	,	,	PUNCT	_	_	11	punct	_	start_char=214|end_char=215
+11	испещренная	испещрить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	start_char=216|end_char=227
+12	и	и	CCONJ	_	_	13	cc	_	start_char=228|end_char=229
+13	урезанная	урезать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	start_char=230|end_char=239
+14	копия	копия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=240|end_char=245
+15	,	,	PUNCT	_	_	18	punct	_	start_char=245|end_char=246
+16	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	18	obj	_	start_char=247|end_char=254
+17	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	start_char=255|end_char=257
+18	видели	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	start_char=258|end_char=264
+19	по	по	ADP	_	_	20	case	_	start_char=265|end_char=267
+20	телевизору	телевизор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	obl	_	start_char=268|end_char=278
+21	,	,	PUNCT	_	_	23	punct	_	start_char=278|end_char=279
+22	на	на	ADP	_	_	23	case	_	start_char=280|end_char=282
+23	видеокассетах	видеокассет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	conj	_	start_char=283|end_char=296
+24	и	и	CCONJ	_	_	25	cc	_	start_char=297|end_char=298
+25	DVD	DVD	PROPN	_	Foreign=Yes	20	flat:foreign	_	start_char=299|end_char=302
+26	,	,	PUNCT	_	_	29	punct	_	start_char=302|end_char=303
+27	а	а	CCONJ	_	_	29	cc	_	start_char=305|end_char=306
+28	сколько	сколько	NUM	_	NumType=Card	29	nummod:gov	_	start_char=307|end_char=314
+29	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	conj	_	start_char=315|end_char=318
+30	?	?	PUNCT	_	_	14	punct	_	start_char=318|end_char=319
+
+# text = С меня взяли, я был поражен и в восторге от того, что мой любимый праздничный спецвыпуск наконец-то будет выглядеть так, как ему полагается.
+# sent_id = 5
+1	С	с	ADP	_	_	2	case	_	start_char=320|end_char=321
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=322|end_char=326
+3	взяли	брать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=327|end_char=332
+4	,	,	PUNCT	_	_	7	punct	_	start_char=332|end_char=333
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	start_char=334|end_char=335
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	start_char=336|end_char=339
+7	поражен	поразить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=340|end_char=347
+8	и	и	CCONJ	_	_	10	cc	_	start_char=348|end_char=349
+9	в	в	ADP	_	_	10	case	_	start_char=350|end_char=351
+10	восторге	восторг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=352|end_char=360
+11	от	от	ADP	_	_	12	case	_	start_char=361|end_char=363
+12	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	nmod	_	start_char=364|end_char=368
+13	,	,	PUNCT	_	_	23	punct	_	start_char=368|end_char=369
+14	что	что	SCONJ	_	_	23	mark	_	start_char=370|end_char=373
+15	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	start_char=374|end_char=377
+16	любимый	любимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=378|end_char=385
+17	праздничный	праздничный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=386|end_char=397
+18	спецвыпуск	спецвыпуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	start_char=398|end_char=408
+19	наконец	наконец	ADV	_	Degree=Pos	23	advmod	_	start_char=409|end_char=416
+20	-	-	PUNCT	_	_	21	punct	_	start_char=416|end_char=417
+21	то	то	PART	_	_	19	discourse	_	start_char=417|end_char=419
+22	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	start_char=420|end_char=425
+23	выглядеть	выглядеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	acl	_	start_char=426|end_char=435
+24	так	так	ADV	_	Degree=Pos	23	advmod	_	start_char=436|end_char=439
+25	,	,	PUNCT	_	_	28	punct	_	start_char=439|end_char=440
+26	как	как	SCONJ	_	_	28	mark	_	start_char=441|end_char=444
+27	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	iobj	_	start_char=445|end_char=448
+28	полагается	полагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	advcl	_	start_char=449|end_char=459
+29	.	.	PUNCT	_	_	3	punct	_	start_char=459|end_char=460
+
+# text = Мне даже хочется вернуть его, но по крайней мере это отдельный DVD, а не приложение к какому-то сборнику более "известных" спецвыпусков Rankin-Bass.
+# sent_id = 6
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=461|end_char=464
+2	даже	даже	PART	_	_	3	advmod	_	start_char=465|end_char=469
+3	хочется	хотеться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=470|end_char=477
+4	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=478|end_char=485
+5	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=486|end_char=489
+6	,	,	PUNCT	_	_	13	punct	_	start_char=489|end_char=490
+7	но	но	CCONJ	_	_	13	cc	_	start_char=491|end_char=493
+8	по	по	ADP	_	_	13	advmod	_	start_char=494|end_char=496
+9	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	8	fixed	_	start_char=497|end_char=504
+10	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	fixed	_	start_char=505|end_char=509
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=510|end_char=513
+12	отдельный	отдельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=514|end_char=523
+13	DVD	DVD	PROPN	_	_	3	conj	_	start_char=524|end_char=527
+14	,	,	PUNCT	_	_	17	punct	_	start_char=527|end_char=528
+15	а	а	CCONJ	_	_	17	cc	_	start_char=529|end_char=530
+16	не	не	PART	_	_	17	advmod	_	start_char=531|end_char=533
+17	приложение	приложение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	conj	_	start_char=534|end_char=544
+18	к	к	ADP	_	_	20	case	_	start_char=545|end_char=546
+19	какому-то	какой-то	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	20	det	_	start_char=547|end_char=556
+20	сборнику	сборник	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	start_char=557|end_char=565
+21	более	более	ADV	_	Degree=Cmp	23	obl	_	start_char=566|end_char=571
+22	"	"	PUNCT	_	_	23	punct	_	start_char=572|end_char=573
+23	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	start_char=573|end_char=582
+24	"	"	PUNCT	_	_	23	punct	_	start_char=582|end_char=583
+25	спецвыпусков	спецвыпуск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	start_char=584|end_char=596
+26	Rankin-Bass	Rankin-Bass	PROPN	_	Foreign=Yes	25	flat:foreign	_	start_char=597|end_char=608
+27	.	.	PUNCT	_	_	3	punct	_	start_char=608|end_char=609
+

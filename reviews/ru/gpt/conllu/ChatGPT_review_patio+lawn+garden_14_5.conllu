@@ -1,0 +1,97 @@
+# text = Как и надеялся Я беспокоился, что получу короткий шланг, но этот отлично подходит для моих нужд, так как у меня уже есть более длинный и более неудобный.
+# sent_id = 0
+1	Как	как	SCONJ	_	_	3	mark	_	start_char=0|end_char=3
+2	и	и	PART	_	_	3	advmod	_	start_char=4|end_char=5
+3	надеялся	надеяться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	parataxis	_	start_char=6|end_char=14
+4	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=15|end_char=16
+5	беспокоился	беспокоиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=17|end_char=28
+6	,	,	PUNCT	_	_	8	punct	_	start_char=28|end_char=29
+7	что	что	SCONJ	_	_	8	mark	_	start_char=30|end_char=33
+8	получу	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=34|end_char=40
+9	короткий	короткий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=41|end_char=49
+10	шланг	шланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=50|end_char=55
+11	,	,	PUNCT	_	_	15	punct	_	start_char=55|end_char=56
+12	но	но	CCONJ	_	_	15	cc	_	start_char=57|end_char=59
+13	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	start_char=60|end_char=64
+14	отлично	отлично	ADV	_	Degree=Pos	15	advmod	_	start_char=65|end_char=72
+15	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=73|end_char=81
+16	для	для	ADP	_	_	18	case	_	start_char=82|end_char=85
+17	моих	мой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs	18	det	_	start_char=86|end_char=90
+18	нужд	нужда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	start_char=91|end_char=95
+19	,	,	PUNCT	_	_	25	punct	_	start_char=95|end_char=96
+20	так	так	ADV	_	Degree=Pos	25	mark	_	start_char=97|end_char=100
+21	как	как	SCONJ	_	_	20	fixed	_	start_char=101|end_char=104
+22	у	у	ADP	_	_	23	case	_	start_char=105|end_char=106
+23	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	advcl	_	start_char=107|end_char=111
+24	уже	уже	ADV	_	Degree=Pos	25	advmod	_	start_char=112|end_char=115
+25	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	start_char=116|end_char=120
+26	более	более	ADV	_	Degree=Cmp	27	obl	_	start_char=121|end_char=126
+27	длинный	длинный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	nsubj	_	start_char=127|end_char=134
+28	и	и	CCONJ	_	_	30	cc	_	start_char=135|end_char=136
+29	более	более	ADV	_	Degree=Cmp	30	obl	_	start_char=137|end_char=142
+30	неудобный	неудобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	conj	_	start_char=143|end_char=152
+31	.	.	PUNCT	_	_	5	punct	_	start_char=152|end_char=153
+
+# text = Я оставляю на нем распылитель, вместо того чтобы менять насадку - так гораздо проще.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=154|end_char=155
+2	оставляю	оставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=156|end_char=164
+3	на	на	ADP	_	_	4	case	_	start_char=165|end_char=167
+4	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=168|end_char=171
+5	распылитель	распылитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=172|end_char=183
+6	,	,	PUNCT	_	_	8	punct	_	start_char=183|end_char=184
+7	вместо	вместо	ADP	_	_	8	case	_	start_char=185|end_char=191
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	start_char=192|end_char=196
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	start_char=197|end_char=202
+10	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	advcl	_	start_char=203|end_char=209
+11	насадку	насадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	start_char=210|end_char=217
+12	-	-	PUNCT	_	_	15	punct	_	start_char=218|end_char=219
+13	так	так	ADV	_	Degree=Pos	15	advmod	_	start_char=220|end_char=223
+14	гораздо	гораздо	ADV	_	Degree=Pos	15	advmod	_	start_char=224|end_char=231
+15	проще	простой	ADJ	_	Degree=Cmp	2	parataxis	_	start_char=232|end_char=237
+16	.	.	PUNCT	_	_	2	punct	_	start_char=237|end_char=238
+
+# text = Немного жесткий при разворачивании, но я уверен, что если бы он был мягким, то быстро бы складывался.
+# sent_id = 2
+1	Немного	немного	ADV	_	Degree=Pos	2	advmod	_	start_char=239|end_char=246
+2	жесткий	жесткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=247|end_char=254
+3	при	при	ADP	_	_	4	case	_	start_char=255|end_char=258
+4	разворачивании	разворачивание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	start_char=259|end_char=273
+5	,	,	PUNCT	_	_	8	punct	_	start_char=273|end_char=274
+6	но	но	CCONJ	_	_	8	cc	_	start_char=275|end_char=277
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	start_char=278|end_char=279
+8	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	conj	_	start_char=280|end_char=286
+9	,	,	PUNCT	_	_	20	punct	_	start_char=286|end_char=287
+10	что	что	SCONJ	_	_	20	mark	_	start_char=288|end_char=291
+11	если	если	SCONJ	_	_	15	mark	_	start_char=292|end_char=296
+12	бы	бы	AUX	_	_	15	aux	_	start_char=297|end_char=299
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=300|end_char=302
+14	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	start_char=303|end_char=306
+15	мягким	мягкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	20	advcl	_	start_char=307|end_char=313
+16	,	,	PUNCT	_	_	15	punct	_	start_char=313|end_char=314
+17	то	то	SCONJ	_	_	20	mark	_	start_char=315|end_char=317
+18	быстро	быстро	ADV	_	Degree=Pos	20	advmod	_	start_char=318|end_char=324
+19	бы	бы	AUX	_	_	20	aux	_	start_char=325|end_char=327
+20	складывался	складывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	8	ccomp	_	start_char=328|end_char=339
+21	.	.	PUNCT	_	_	2	punct	_	start_char=339|end_char=340
+
+# text = Я купил его вместе с двухпутевым латунным соединителем для шланга Gilmore - отличное сочетание для меня.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=341|end_char=342
+2	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=343|end_char=348
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=349|end_char=352
+4	вместе	вместе	ADV	_	Degree=Pos	2	advmod	_	start_char=353|end_char=359
+5	с	с	ADP	_	_	8	case	_	start_char=360|end_char=361
+6	двухпутевым	двухпутевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=362|end_char=373
+7	латунным	латунный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=374|end_char=382
+8	соединителем	соединитель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	start_char=383|end_char=395
+9	для	для	ADP	_	_	10	case	_	start_char=396|end_char=399
+10	шланга	шланг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=400|end_char=406
+11	Gilmore	Gilmore	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=407|end_char=414
+12	-	-	PUNCT	_	_	14	punct	_	start_char=415|end_char=416
+13	отличное	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=417|end_char=425
+14	сочетание	сочетание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	parataxis	_	start_char=426|end_char=435
+15	для	для	ADP	_	_	16	case	_	start_char=436|end_char=439
+16	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	14	nmod	_	start_char=440|end_char=444
+17	.	.	PUNCT	_	_	2	punct	_	start_char=444|end_char=445
+

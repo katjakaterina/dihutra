@@ -1,0 +1,103 @@
+# text = Замечательно!!!
+# sent_id = 0
+1	Замечательно	замечательный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=12
+2	!	!	PUNCT	_	_	1	punct	_	start_char=12|end_char=13
+3	!	!	PUNCT	_	_	1	punct	_	start_char=13|end_char=14
+4	!	!	PUNCT	_	_	1	punct	_	start_char=14|end_char=15
+
+# text = У меня была кассета с этой записью, и я знал, что она мне нравится.
+# sent_id = 1
+1	У	у	ADP	_	_	2	case	_	start_char=16|end_char=17
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=18|end_char=22
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=23|end_char=27
+4	кассета	кассет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=28|end_char=35
+5	с	с	ADP	_	_	7	case	_	start_char=36|end_char=37
+6	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=38|end_char=42
+7	записью	запись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	start_char=43|end_char=50
+8	,	,	PUNCT	_	_	11	punct	_	start_char=50|end_char=51
+9	и	и	CCONJ	_	_	11	cc	_	start_char=52|end_char=53
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=54|end_char=55
+11	знал	знать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=56|end_char=60
+12	,	,	PUNCT	_	_	16	punct	_	start_char=60|end_char=61
+13	что	что	SCONJ	_	_	16	mark	_	start_char=62|end_char=65
+14	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=66|end_char=69
+15	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	start_char=70|end_char=73
+16	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	ccomp	_	start_char=74|end_char=82
+17	.	.	PUNCT	_	_	3	punct	_	start_char=82|end_char=83
+
+# text = Купил несколько этих CD, чтобы поделиться с племянниками, друзьями и оставить один для себя.
+# sent_id = 2
+1	Купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=84|end_char=89
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	4	nummod	_	start_char=90|end_char=99
+3	этих	этот	DET	_	Case=Gen|Number=Plur|PronType=Dem	4	det	_	start_char=100|end_char=104
+4	CD	CD	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=105|end_char=107
+5	,	,	PUNCT	_	_	7	punct	_	start_char=107|end_char=108
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	start_char=109|end_char=114
+7	поделиться	делиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	1	advcl	_	start_char=115|end_char=125
+8	с	с	ADP	_	_	9	case	_	start_char=126|end_char=127
+9	племянниками	племянник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	start_char=128|end_char=140
+10	,	,	PUNCT	_	_	11	punct	_	start_char=140|end_char=141
+11	друзьями	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	9	conj	_	start_char=142|end_char=150
+12	и	и	CCONJ	_	_	13	cc	_	start_char=151|end_char=152
+13	оставить	оставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	conj	_	start_char=153|end_char=161
+14	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	13	obl	_	start_char=162|end_char=166
+15	для	для	ADP	_	_	16	case	_	start_char=167|end_char=170
+16	себя	себя	PRON	_	Case=Gen|PronType=Prs|Reflex=Yes	14	nmod	_	start_char=171|end_char=175
+17	.	.	PUNCT	_	_	1	punct	_	start_char=175|end_char=176
+
+# text = Очень нежная и легкая музыка для засыпания.
+# sent_id = 3
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=177|end_char=182
+2	нежная	нежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=183|end_char=189
+3	и	и	CCONJ	_	_	4	cc	_	start_char=190|end_char=191
+4	легкая	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=192|end_char=198
+5	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=199|end_char=205
+6	для	для	ADP	_	_	7	case	_	start_char=206|end_char=209
+7	засыпания	засыпание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=210|end_char=219
+8	.	.	PUNCT	_	_	5	punct	_	start_char=219|end_char=220
+
+# text = Слова четко исполняются и понятны.
+# sent_id = 4
+1	Слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	start_char=221|end_char=226
+2	четко	четко	ADV	_	Degree=Pos	3	advmod	_	start_char=227|end_char=232
+3	исполняются	исполняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=233|end_char=244
+4	и	и	CCONJ	_	_	5	cc	_	start_char=245|end_char=246
+5	понятны	понятный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	start_char=247|end_char=254
+6	.	.	PUNCT	_	_	3	punct	_	start_char=254|end_char=255
+
+# text = Это было для меня благословением, которое я жаждал найти и передать другим.
+# sent_id = 5
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=256|end_char=259
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=260|end_char=264
+3	для	для	ADP	_	_	4	case	_	start_char=265|end_char=268
+4	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod	_	start_char=269|end_char=273
+5	благословением	благословение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	root	_	start_char=274|end_char=288
+6	,	,	PUNCT	_	_	9	punct	_	start_char=288|end_char=289
+7	которое	который	PRON	_	Case=Acc|PronType=Int,Rel	10	obj	_	start_char=290|end_char=297
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=298|end_char=299
+9	жаждал	жаждать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=300|end_char=306
+10	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=307|end_char=312
+11	и	и	CCONJ	_	_	12	cc	_	start_char=313|end_char=314
+12	передать	передать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	start_char=315|end_char=323
+13	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	iobj	_	start_char=324|end_char=330
+14	.	.	PUNCT	_	_	5	punct	_	start_char=330|end_char=331
+
+# text = Отлично подходит для детей — я сам был ребенком, когда бабушка подарила мне кассету.
+# sent_id = 6
+1	Отлично	отличный	ADV	_	Degree=Pos	2	advmod	_	start_char=332|end_char=339
+2	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=340|end_char=348
+3	для	для	ADP	_	_	4	case	_	start_char=349|end_char=352
+4	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=353|end_char=358
+5	—	—	PUNCT	_	_	9	punct	_	start_char=359|end_char=360
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=361|end_char=362
+7	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=363|end_char=366
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=367|end_char=370
+9	ребенком	ребенок	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	parataxis	_	start_char=371|end_char=379
+10	,	,	PUNCT	_	_	13	punct	_	start_char=379|end_char=380
+11	когда	когда	SCONJ	_	_	13	mark	_	start_char=381|end_char=386
+12	бабушка	бабушка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=387|end_char=394
+13	подарила	дарить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=395|end_char=403
+14	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	_	start_char=404|end_char=407
+15	кассету	кассет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=408|end_char=415
+16	.	.	PUNCT	_	_	2	punct	_	start_char=415|end_char=416
+

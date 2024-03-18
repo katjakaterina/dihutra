@@ -1,0 +1,78 @@
+# text = Super je imati ovo kako bi mogao igrati s abecedom...
+# sent_id = 0
+1	Super	super	ADV	Rgp	Degree=Pos	0	root	_	start_char=0|end_char=5
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=6|end_char=8
+3	imati	imati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=9|end_char=14
+4	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	start_char=15|end_char=18
+5	kako	kako	SCONJ	Cs	_	7	mark	_	start_char=19|end_char=23
+6	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=24|end_char=26
+7	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=27|end_char=32
+8	igrati	igrati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=33|end_char=39
+9	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=40|end_char=41
+10	abecedom	abeced	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=42|end_char=50
+11	...	...	PUNCT	Z	_	1	punct	_	start_char=50|end_char=53
+
+# text = Imam hladnjak od nehrđajućeg čelika, stoga nema puno prostora za mog sina da igra s magnetima.
+# sent_id = 1
+1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=54|end_char=58
+2	hladnjak	hladnjak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=59|end_char=67
+3	od	od	ADP	Sg	Case=Gen	5	case	_	start_char=68|end_char=70
+4	nehrđajućeg	nehrđajući	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=71|end_char=82
+5	čelika	čelik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=83|end_char=89
+6	,	,	PUNCT	Z	_	8	punct	_	start_char=89|end_char=90
+7	stoga	stoga	ADV	Rgp	Degree=Pos|PronType=Dem	8	advmod	_	start_char=91|end_char=96
+8	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=97|end_char=101
+9	puno	puno	DET	Rgp	Degree=Pos	10	det:numgov	_	start_char=102|end_char=106
+10	prostora	prostor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	obj	_	start_char=107|end_char=115
+11	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=116|end_char=118
+12	mog	moj	DET	Ps1msay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	_	start_char=119|end_char=122
+13	sina	sin	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	start_char=123|end_char=127
+14	da	da	SCONJ	Cs	_	15	mark	_	start_char=128|end_char=130
+15	igra	igrati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	start_char=131|end_char=135
+16	s	sa	ADP	Si	Case=Ins	17	case	_	start_char=136|end_char=137
+17	magnetima	magnet	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	15	obl	_	start_char=138|end_char=147
+18	.	.	PUNCT	Z	_	1	punct	_	start_char=147|end_char=148
+
+# text = Kupio/la sam ovo za njega kako bi mogao stavljati svoje magnete na njega.
+# sent_id = 2
+1	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=149|end_char=157
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=158|end_char=161
+3	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=162|end_char=165
+4	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=166|end_char=168
+5	njega	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	start_char=169|end_char=174
+6	kako	kako	SCONJ	Cs	_	8	mark	_	start_char=175|end_char=179
+7	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	start_char=180|end_char=182
+8	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=183|end_char=188
+9	stavljati	stavljati	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=189|end_char=198
+10	svoje	svoj	DET	Px-mpa	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	start_char=199|end_char=204
+11	magnete	magneta	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=205|end_char=212
+12	na	na	ADP	Sa	Case=Acc	13	case	_	start_char=213|end_char=215
+13	njega	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	start_char=216|end_char=221
+14	.	.	PUNCT	Z	_	3	punct	_	start_char=221|end_char=222
+
+# text = Uživa u lijepljenju svojih magneta na njega.
+# sent_id = 3
+1	Uživa	uživati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=223|end_char=228
+2	u	u	ADP	Sl	Case=Loc	3	case	_	start_char=229|end_char=230
+3	lijepljenju	lijepljenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	1	obl	_	start_char=231|end_char=242
+4	svojih	svoj	DET	Px-mpg	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=243|end_char=249
+5	magneta	magneta	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=250|end_char=257
+6	na	na	ADP	Sa	Case=Acc	7	case	_	start_char=258|end_char=260
+7	njega	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nmod	_	start_char=261|end_char=266
+8	.	.	PUNCT	Z	_	1	punct	_	start_char=266|end_char=267
+
+# text = Super je imati ovo kako bi mogao igrati s magnetima abecede.
+# sent_id = 4
+1	Super	super	ADV	Rgp	Degree=Pos	0	root	_	start_char=268|end_char=273
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=274|end_char=276
+3	imati	imati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=277|end_char=282
+4	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	start_char=283|end_char=286
+5	kako	kako	SCONJ	Cs	_	7	mark	_	start_char=287|end_char=291
+6	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	start_char=292|end_char=294
+7	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=295|end_char=300
+8	igrati	igrati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=301|end_char=307
+9	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=308|end_char=309
+10	magnetima	magnet	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	8	obl	_	start_char=310|end_char=319
+11	abecede	abeceda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=320|end_char=327
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=327|end_char=328
+

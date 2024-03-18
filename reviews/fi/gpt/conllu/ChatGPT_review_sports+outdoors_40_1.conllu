@@ -1,0 +1,91 @@
+# text = Rikkoutui erittäin nopeasti, epäkäytännöllinen.
+# sent_id = 0
+1	Rikkoutui	rikkoutua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=9
+2	erittäin	erittäin	ADV	Adv	Derivation=Ttain	3	advmod	_	start_char=10|end_char=18
+3	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=19|end_char=27
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=27|end_char=28
+5	epäkäytännöllinen	epä#käytännöllinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	1	conj	_	start_char=29|end_char=46
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=46|end_char=47
+
+# text = Punainen nauha (raskain vastus) alkoi repeytyä ensimmäisellä käyttökerralla, joten ilmeisestä syystä lopetin ja kokeilin mustaa.
+# sent_id = 1
+1	Punainen	punainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=48|end_char=56
+2	nauha	nauha	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=57|end_char=62
+3	(	(	PUNCT	Punct	_	5	punct	_	start_char=63|end_char=64
+4	raskain	raskas	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	5	amod	_	start_char=64|end_char=71
+5	vastus	vastus	NOUN	N	Case=Nom|Number=Sing	2	appos	_	start_char=72|end_char=78
+6	)	)	PUNCT	Punct	_	5	punct	_	start_char=78|end_char=79
+7	alkoi	alkaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=80|end_char=85
+8	repeytyä	repeytyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=86|end_char=94
+9	ensimmäisellä	ensimmäinen	ADJ	Num	Case=Ade|Derivation=Inen|NumType=Ord|Number=Sing	10	amod	_	start_char=95|end_char=108
+10	käyttökerralla	käyttö#kerta	NOUN	N	Case=Ade|Number=Sing	8	obl	_	start_char=109|end_char=123
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=123|end_char=124
+12	joten	joten	ADV	Adv	_	15	advmod	_	start_char=125|end_char=130
+13	ilmeisestä	ilmeinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Inen|Number=Sing	14	amod	_	start_char=131|end_char=141
+14	syystä	syy	NOUN	N	Case=Ela|Number=Sing	15	obl	_	start_char=142|end_char=148
+15	lopetin	lopettaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=149|end_char=156
+16	ja	ja	CCONJ	C	_	17	cc	_	start_char=157|end_char=159
+17	kokeilin	kokeilla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	start_char=160|end_char=168
+18	mustaa	musta	ADJ	A	Case=Par|Degree=Pos|Number=Sing	17	obj	_	start_char=169|end_char=175
+19	.	.	PUNCT	Punct	_	7	punct	_	start_char=175|end_char=176
+
+# text = Musta kesti harjoituksessa hyvin, mutta seuraavana päivänä se alkoi repeytyä samasta kohdasta kuin punainen.
+# sent_id = 2
+1	Musta	musta	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=177|end_char=182
+2	kesti	kestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=183|end_char=188
+3	harjoituksessa	harjoitus	NOUN	N	Case=Ine|Number=Sing	2	obl	_	start_char=189|end_char=203
+4	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=204|end_char=209
+5	,	,	PUNCT	Punct	_	10	punct	_	start_char=209|end_char=210
+6	mutta	mutta	CCONJ	C	_	10	cc	_	start_char=211|end_char=216
+7	seuraavana	seuraava	ADJ	A	Case=Ess|Degree=Pos|Number=Sing	8	amod	_	start_char=217|end_char=227
+8	päivänä	päivä	NOUN	N	Case=Ess|Number=Sing	10	obl	_	start_char=228|end_char=235
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	start_char=236|end_char=238
+10	alkoi	alkaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=239|end_char=244
+11	repeytyä	repeytyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=245|end_char=253
+12	samasta	sama	PRON	Pron	Case=Ela|Number=Sing|PronType=Ind	13	det	_	start_char=254|end_char=261
+13	kohdasta	kohta	NOUN	N	Case=Ela|Number=Sing	11	obl	_	start_char=262|end_char=270
+14	kuin	kuin	SCONJ	C	_	15	mark	_	start_char=271|end_char=275
+15	punainen	punainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	12	advcl	_	start_char=276|end_char=284
+16	.	.	PUNCT	Punct	_	2	punct	_	start_char=284|end_char=285
+
+# text = En käytä muita värejä, koska niillä yksinkertaisesti ei ole tarpeeksi vastusta.
+# sent_id = 3
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=286|end_char=288
+2	käytä	käyttää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=289|end_char=294
+3	muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	4	det	_	start_char=295|end_char=300
+4	värejä	väri	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=301|end_char=307
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=307|end_char=308
+6	koska	koska	SCONJ	C	_	7	mark	_	start_char=309|end_char=314
+7	niillä	se	PRON	Pron	Case=Ade|Number=Plur|PronType=Dem	2	advcl	_	start_char=315|end_char=321
+8	yksinkertaisesti	yksinkertaisesti	ADV	Adv	Derivation=Sti	7	advmod	_	start_char=322|end_char=338
+9	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=339|end_char=341
+10	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop:own	_	start_char=342|end_char=345
+11	tarpeeksi	tarpeeksi	ADV	Adv	_	12	advmod	_	start_char=346|end_char=355
+12	vastusta	vastustaa	NOUN	N	Case=Par|Number=Sing	7	nsubj:cop	_	start_char=356|end_char=364
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=364|end_char=365
+
+# text = Suuri miinus on, että tässä sarjassa on vain yhdet kahvat, ja vaihtaminen toiseen kahvaan on suuri hankaluus ja ajanhukkaa.
+# sent_id = 4
+1	Suuri	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=366|end_char=371
+2	miinus	miinus	NOUN	N	Case=Nom|Number=Sing	7	nsubj:outer	_	start_char=372|end_char=378
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=379|end_char=381
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=381|end_char=382
+5	että	että	SCONJ	C	_	7	mark	_	start_char=383|end_char=387
+6	tässä	tämä	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	7	det	_	start_char=388|end_char=393
+7	sarjassa	sarja	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=394|end_char=402
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=403|end_char=405
+9	vain	vain	ADV	Adv	_	10	advmod	_	start_char=406|end_char=410
+10	yhdet	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Plur	11	nummod	_	start_char=411|end_char=416
+11	kahvat	kahva	NOUN	N	Case=Nom|Number=Plur	7	nsubj:cop	_	start_char=417|end_char=423
+12	,	,	PUNCT	Punct	_	19	punct	_	start_char=423|end_char=424
+13	ja	ja	CCONJ	C	_	19	cc	_	start_char=425|end_char=427
+14	vaihtaminen	vaihtaminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	19	nsubj:cop	_	start_char=428|end_char=439
+15	toiseen	toinen	PRON	Pron	Case=Ill|Number=Sing|PronType=Rcp	16	det	_	start_char=440|end_char=447
+16	kahvaan	kahva	NOUN	N	Case=Ill|Number=Sing	14	nmod	_	start_char=448|end_char=455
+17	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	start_char=456|end_char=458
+18	suuri	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	amod	_	start_char=459|end_char=464
+19	hankaluus	hankaluus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	7	conj	_	start_char=465|end_char=474
+20	ja	ja	CCONJ	C	_	21	cc	_	start_char=475|end_char=477
+21	ajanhukkaa	ajan#hukka	NOUN	N	Case=Par|Number=Sing	19	conj	_	start_char=478|end_char=488
+22	.	.	PUNCT	Punct	_	7	punct	_	start_char=488|end_char=489
+

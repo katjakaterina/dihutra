@@ -1,0 +1,79 @@
+# text = Pljeskanjem ruku i tapkanjem prstima na nožnim prstima uz staru glazbu Koristimo ovu knjigu s himnama na misiji.
+# sent_id = 0
+1	Pljeskanjem	pljeskanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	12	obl	_	start_char=0|end_char=11
+2	ruku	ruka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=12|end_char=16
+3	i	i	CCONJ	Cc	_	4	cc	_	start_char=17|end_char=18
+4	tapkanjem	tapkanje	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	1	conj	_	start_char=19|end_char=28
+5	prstima	prst	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	12	obl	_	start_char=29|end_char=36
+6	na	na	ADP	Sl	Case=Loc	8	case	_	start_char=37|end_char=39
+7	nožnim	nožan	ADJ	Agpmply	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=40|end_char=46
+8	prstima	prst	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	start_char=47|end_char=54
+9	uz	uz	ADP	Sa	Case=Acc	11	case	_	start_char=55|end_char=57
+10	staru	star	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=58|end_char=63
+11	glazbu	glazba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	start_char=64|end_char=70
+12	Koristimo	koristiti	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=71|end_char=80
+13	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	start_char=81|end_char=84
+14	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=85|end_char=91
+15	s	sa	ADP	Si	Case=Ins	16	case	_	start_char=92|end_char=93
+16	himnama	himna	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	14	nmod	_	start_char=94|end_char=101
+17	na	na	ADP	Sl	Case=Loc	18	case	_	start_char=102|end_char=104
+18	misiji	misija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	start_char=105|end_char=111
+19	.	.	PUNCT	Z	_	12	punct	_	start_char=111|end_char=112
+
+# text = Sadrži većinu omiljenih starih pjesama iz prošlih vremena.
+# sent_id = 1
+1	Sadrži	sadržati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=113|end_char=119
+2	većinu	većina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=120|end_char=126
+3	omiljenih	omiljen	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=127|end_char=136
+4	starih	star	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=137|end_char=143
+5	pjesama	pjesma	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=144|end_char=151
+6	iz	iz	ADP	Sg	Case=Gen	8	case	_	start_char=152|end_char=154
+7	prošlih	prošli	ADJ	Agpnpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	8	amod	_	start_char=155|end_char=162
+8	vremena	vrijeme	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	start_char=163|end_char=170
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=170|end_char=171
+
+# text = Pjesme poput "I'll Fly Away" i "Closer Walk With Thee".
+# sent_id = 2
+1	Pjesme	pjesma	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=172|end_char=178
+2	poput	poput	ADP	Sg	Case=Gen	4	case	_	start_char=179|end_char=184
+3	"	"	PUNCT	Z	_	4	punct	_	start_char=185|end_char=186
+4	I'll	I'll	X	Xf	Foreign=Yes	1	nmod	_	start_char=186|end_char=190
+5	Fly	Fly	X	Xf	Foreign=Yes	4	flat	_	start_char=191|end_char=194
+6	Away	Away	X	Xf	Foreign=Yes	4	flat:foreign	_	start_char=195|end_char=199
+7	"	"	PUNCT	Z	_	4	punct	_	start_char=199|end_char=200
+8	i	i	CCONJ	Cc	_	10	cc	_	start_char=201|end_char=202
+9	"	"	PUNCT	Z	_	10	punct	_	start_char=203|end_char=204
+10	Closer	Closer	X	Xf	Foreign=Yes	4	conj	_	start_char=204|end_char=210
+11	Walk	Walk	X	Xf	Foreign=Yes	10	flat	_	start_char=211|end_char=215
+12	With	with	X	Xf	Foreign=Yes	10	flat	_	start_char=216|end_char=220
+13	Thee	Thee	X	Xf	Foreign=Yes	10	flat	_	start_char=221|end_char=225
+14	"	"	PUNCT	Z	_	10	punct	_	start_char=225|end_char=226
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=226|end_char=227
+
+# text = Ako volite pjevati s drugima, zaista ćete uživati u knjizi "Heavenly Hiway Hymns."
+# sent_id = 3
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=228|end_char=231
+2	volite	voljeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=232|end_char=238
+3	pjevati	pjevati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=239|end_char=246
+4	s	sa	ADP	Si	Case=Ins	5	case	_	start_char=247|end_char=248
+5	drugima	drugi	ADJ	Mlompi	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	3	obl	_	start_char=249|end_char=256
+6	,	,	PUNCT	Z	_	2	punct	_	start_char=256|end_char=257
+7	zaista	zaista	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=258|end_char=264
+8	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=265|end_char=269
+9	uživati	uživati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=270|end_char=277
+10	u	u	ADP	Sl	Case=Loc	11	case	_	start_char=278|end_char=279
+11	knjizi	knjiga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=280|end_char=286
+12	"	"	PUNCT	Z	_	13	punct	_	start_char=287|end_char=288
+13	Heavenly	heavenly	X	Xf	Foreign=Yes	11	flat	_	start_char=288|end_char=296
+14	Hiway	Hiway	X	Xf	Foreign=Yes	13	flat:foreign	_	start_char=297|end_char=302
+15	Hymns	Hymns	X	Xf	Foreign=Yes	13	flat:foreign	_	start_char=303|end_char=308
+16	.	.	PUNCT	Z	_	9	punct	_	start_char=308|end_char=309
+17	"	"	PUNCT	Z	_	9	punct	_	start_char=309|end_char=310
+
+# text = Neka vas blagoslovi.
+# sent_id = 4
+1	Neka	neka	PART	Qo	_	3	discourse	_	start_char=311|end_char=315
+2	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	obj	_	start_char=316|end_char=319
+3	blagoslovi	blagosloviti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=320|end_char=330
+4	.	.	PUNCT	Z	_	3	punct	_	start_char=330|end_char=331
+

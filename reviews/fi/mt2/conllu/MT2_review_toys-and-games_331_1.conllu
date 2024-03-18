@@ -1,0 +1,70 @@
+# text = tuli sotku
+# sent_id = 0
+1	tuli	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=4
+2	sotku	sotku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	1	nsubj	_	start_char=5|end_char=10
+
+# text = Alkoi mahtavalta road trip -toiminnalta 5-vuotiaalleni, mutta kun 2-vuotias käytti sitä, siitä tuli sotkua.
+# sent_id = 1
+1	Alkoi	alkaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=16
+2	mahtavalta	mahtava	ADJ	A	Case=Abl|Degree=Pos|Number=Sing	5	amod	_	start_char=17|end_char=27
+3	road	road	X	Foreign	Foreign=Yes	5	compound:nn	_	start_char=28|end_char=32
+4	trip	trip	X	Foreign	Foreign=Yes	3	flat:foreign	_	start_char=33|end_char=37
+5	-toiminnalta	toiminta	NOUN	N	Case=Abl|Number=Sing	1	obl	_	start_char=38|end_char=50
+6	5-vuotiaalleni	5#vuotias	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=51|end_char=65
+7	,	,	PUNCT	Punct	_	15	punct	_	start_char=65|end_char=66
+8	mutta	mutta	CCONJ	C	_	15	cc	_	start_char=67|end_char=72
+9	kun	kun	SCONJ	C	_	11	mark	_	start_char=73|end_char=76
+10	2-vuotias	2#vuotias	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	start_char=77|end_char=86
+11	käytti	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	start_char=87|end_char=93
+12	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	11	obj	_	start_char=94|end_char=98
+13	,	,	PUNCT	Punct	_	11	punct	_	start_char=98|end_char=99
+14	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	15	obl	_	start_char=100|end_char=105
+15	tuli	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=106|end_char=110
+16	sotkua	sotku	NOUN	N	Case=Par|Derivation=U|Number=Sing	15	nsubj	_	start_char=111|end_char=117
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=117|end_char=118
+
+# text = Stixit takertuivat yhteen tai niihin oli tarttunut karvoja.
+# sent_id = 2
+1	Stixit	stixi	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	start_char=119|end_char=125
+2	takertuivat	takertua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=126|end_char=137
+3	yhteen	yhteen	ADV	Adv	_	2	advmod	_	start_char=138|end_char=144
+4	tai	tai	CCONJ	C	_	7	cc	_	start_char=145|end_char=148
+5	niihin	se	PRON	Pron	Case=Ill|Number=Plur|PronType=Dem	7	obl	_	start_char=149|end_char=155
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	start_char=156|end_char=159
+7	tarttunut	tarttua	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	conj	_	start_char=160|end_char=169
+8	karvoja	karva	NOUN	N	Case=Par|Number=Plur	7	nsubj	_	start_char=170|end_char=177
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=177|end_char=178
+
+# text = Sen mukana ei tule uudelleenkäytettävää laukkua tai mitään, joten ne ovat kaikki juuttuneet isoon palloon kirjan kärkeen juuri nyt - emme lapseni emmekä minä halua huolehtia niiden järjestämisestä.
+# sent_id = 3
+1	Sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obl	_	start_char=179|end_char=182
+2	mukana	mukana	ADP	Adp	AdpType=Post	1	case	_	start_char=183|end_char=189
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=190|end_char=192
+4	tule	tulla	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=193|end_char=197
+5	uudelleenkäytettävää	uudelleen#käytettävä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	6	amod	_	start_char=198|end_char=218
+6	laukkua	laukku	NOUN	N	Case=Par|Number=Sing	4	nsubj	_	start_char=219|end_char=226
+7	tai	tai	CCONJ	C	_	8	cc	_	start_char=227|end_char=230
+8	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	6	conj	_	start_char=231|end_char=237
+9	,	,	PUNCT	Punct	_	14	punct	_	start_char=237|end_char=238
+10	joten	joten	ADV	Adv	_	14	advmod	_	start_char=239|end_char=244
+11	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	14	nsubj	_	start_char=245|end_char=247
+12	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	start_char=248|end_char=252
+13	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	start_char=253|end_char=259
+14	juuttuneet	juuttua	VERB	V	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	4	acl:relcl	_	start_char=260|end_char=270
+15	isoon	iso	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	16	amod	_	start_char=271|end_char=276
+16	palloon	pallo	NOUN	N	Case=Ill|Number=Sing	14	obl	_	start_char=277|end_char=284
+17	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	start_char=285|end_char=291
+18	kärkeen	kärki	NOUN	N	Case=Ill|Number=Sing	14	obl	_	start_char=292|end_char=299
+19	juuri	juuri	ADV	Adv	_	20	advmod	_	start_char=300|end_char=305
+20	nyt	nyt	ADV	Adv	_	14	advmod	_	start_char=306|end_char=309
+21	-	-	PUNCT	Punct	_	23	punct	_	start_char=310|end_char=311
+22	emme	ei	AUX	V	Number=Plur|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	23	aux	_	start_char=312|end_char=316
+23	lapseni	lapsi	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	parataxis	_	start_char=317|end_char=324
+24	emmekä	ei	AUX	V	Clitic=Ka|Number=Plur|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	26	aux	_	start_char=325|end_char=331
+25	minä	minä	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=332|end_char=336
+26	halua	haluta	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	start_char=337|end_char=342
+27	huolehtia	huolehtia	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	26	xcomp	_	start_char=343|end_char=352
+28	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	29	nmod:gobj	_	start_char=353|end_char=359
+29	järjestämisestä	järjestäminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	27	obl	_	start_char=360|end_char=375
+30	.	.	PUNCT	Punct	_	4	punct	_	start_char=375|end_char=376
+

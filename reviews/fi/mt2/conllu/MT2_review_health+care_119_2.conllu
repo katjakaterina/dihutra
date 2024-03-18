@@ -1,0 +1,82 @@
+# text = pitkäikäisyys on erittäin huono
+# sent_id = 0
+1	pitkäikäisyys	pitkäikäisyys	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=0|end_char=13
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=14|end_char=16
+3	erittäin	erittäin	ADV	Adv	Derivation=Ttain	4	advmod	_	start_char=17|end_char=25
+4	huono	huono	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=26|end_char=31
+
+# text = Aluksi nämä ovat fantastisia.
+# sent_id = 1
+1	Aluksi	aluksi	ADV	Adv	_	4	advmod	_	start_char=32|end_char=38
+2	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	_	start_char=39|end_char=43
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=44|end_char=48
+4	fantastisia	fantastinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	0	root	_	start_char=49|end_char=60
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=60|end_char=61
+
+# text = Vahva, hyvä lataus.
+# sent_id = 2
+1	Vahva	vahva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=62|end_char=67
+2	,	,	PUNCT	Punct	_	4	punct	_	start_char=67|end_char=68
+3	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=69|end_char=73
+4	lataus	lataus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=74|end_char=80
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=80|end_char=81
+
+# text = Mutta noin 20 - ehkä 30 jälkeen, jos se latautuu, osa akuistani on vain tyhjä.
+# sent_id = 3
+1	Mutta	mutta	CCONJ	C	_	17	cc	_	start_char=82|end_char=87
+2	noin	noin	ADV	Adv	_	3	advmod	_	start_char=88|end_char=92
+3	20	20	NUM	Num	NumType=Card	6	nummod	_	start_char=93|end_char=95
+4	-	-	PUNCT	Punct	_	6	punct	_	start_char=96|end_char=97
+5	ehkä	ehkä	ADV	Adv	_	6	advmod	_	start_char=98|end_char=102
+6	30	30	NUM	Num	NumType=Card	17	obl	_	start_char=103|end_char=105
+7	jälkeen	jälkeen	ADP	Adp	AdpType=Post	6	case	_	start_char=106|end_char=113
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=113|end_char=114
+9	jos	jos	SCONJ	C	_	11	mark	_	start_char=115|end_char=118
+10	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=119|end_char=121
+11	latautuu	latautua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	start_char=122|end_char=130
+12	,	,	PUNCT	Punct	_	11	punct	_	start_char=130|end_char=131
+13	osa	osa	NOUN	N	Case=Nom|Number=Sing	17	nsubj:cop	_	start_char=132|end_char=135
+14	akuistani	akuinen	NOUN	N	Case=Ela|Number=Plur|Number[psor]=Sing|Person[psor]=1	13	nmod	_	start_char=136|end_char=145
+15	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	start_char=146|end_char=148
+16	vain	vain	ADV	Adv	_	17	advmod	_	start_char=149|end_char=153
+17	tyhjä	tyhjä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=154|end_char=159
+18	.	.	PUNCT	Punct	_	17	punct	_	start_char=159|end_char=160
+
+# text = Tai älä pidä latausta yli yön.
+# sent_id = 4
+1	Tai	tai	CCONJ	C	_	3	cc	_	start_char=161|end_char=164
+2	älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=165|end_char=168
+3	pidä	pitää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=169|end_char=173
+4	latausta	lataus	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=174|end_char=182
+5	yli	yli	ADP	Adp	AdpType=Prep	6	case	_	start_char=183|end_char=186
+6	yön	yö	NOUN	N	Case=Gen|Number=Sing	3	obl	_	start_char=187|end_char=190
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=190|end_char=191
+
+# text = Se on todella huono.
+# sent_id = 5
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=192|end_char=194
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=195|end_char=197
+3	todella	todella	ADV	Adv	_	4	advmod	_	start_char=198|end_char=205
+4	huono	huono	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=206|end_char=211
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=211|end_char=212
+
+# text = Ostin näitä noin 5 tai 6 (4 pakkausta), yli puolet niistä on käyttämättömiä.
+# sent_id = 6
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=213|end_char=218
+2	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	1	obj	_	start_char=219|end_char=224
+3	noin	noin	ADV	Adv	_	4	advmod	_	start_char=225|end_char=229
+4	5	5	NUM	Num	NumType=Card	9	nummod	_	start_char=230|end_char=231
+5	tai	tai	CCONJ	C	_	6	cc	_	start_char=232|end_char=235
+6	6	6	NUM	Num	NumType=Card	4	conj	_	start_char=236|end_char=237
+7	(	(	PUNCT	Punct	_	9	punct	_	start_char=238|end_char=239
+8	4	4	NUM	Num	NumType=Card	9	nummod	_	start_char=239|end_char=240
+9	pakkausta	pakkaus	NOUN	N	Case=Par|Number=Sing	1	obl	_	start_char=241|end_char=250
+10	)	)	PUNCT	Punct	_	9	punct	_	start_char=250|end_char=251
+11	,	,	PUNCT	Punct	_	16	punct	_	start_char=251|end_char=252
+12	yli	yli	ADV	Adv	_	13	advmod	_	start_char=253|end_char=256
+13	puolet	puoli	NOUN	N	Case=Nom|Number=Plur	16	nsubj:cop	_	start_char=257|end_char=263
+14	niistä	se	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	13	nmod	_	start_char=264|end_char=270
+15	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	start_char=271|end_char=273
+16	käyttämättömiä	käyttämätön	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	1	conj	_	start_char=274|end_char=288
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=288|end_char=289
+

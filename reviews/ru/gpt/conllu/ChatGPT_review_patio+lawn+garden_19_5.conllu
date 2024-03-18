@@ -1,0 +1,64 @@
+# text = Шланг Gilmour 8-слойный Flexogen, 25 футов Этот небольшой шланг был куплен, чтобы добавить его к моему другому 50-футовому шлангу из-за очень влажной и душной погоды в последний месяц на северо-востоке.
+# sent_id = 0
+1	Шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	start_char=0|end_char=5
+2	Gilmour	Gilmour	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=6|end_char=13
+3	8-слойный	8-слойный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=14|end_char=23
+4	Flexogen	Flexogen	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=24|end_char=32
+5	,	,	PUNCT	_	_	7	punct	_	start_char=32|end_char=33
+6	25	25	NUM	_	NumType=Card	7	nummod	_	start_char=34|end_char=36
+7	футов	фут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	conj	_	start_char=37|end_char=42
+8	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=43|end_char=47
+9	небольшой	небольшой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=48|end_char=57
+10	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	start_char=58|end_char=63
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=64|end_char=67
+12	куплен	купить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=68|end_char=74
+13	,	,	PUNCT	_	_	15	punct	_	start_char=74|end_char=75
+14	чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	start_char=76|end_char=81
+15	добавить	добавить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	advcl	_	start_char=82|end_char=90
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=91|end_char=94
+17	к	к	ADP	_	_	21	case	_	start_char=95|end_char=96
+18	моему	мой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	start_char=97|end_char=102
+19	другому	другой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=103|end_char=110
+20	50-футовому	50-футовый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=111|end_char=122
+21	шлангу	шланг	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	obl	_	start_char=123|end_char=129
+22	из-за	из-за	ADP	_	_	27	case	_	start_char=130|end_char=135
+23	очень	очень	ADV	_	Degree=Pos	24	obl	_	start_char=136|end_char=141
+24	влажной	влажный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=142|end_char=149
+25	и	и	CCONJ	_	_	26	cc	_	start_char=150|end_char=151
+26	душной	душный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	conj	_	start_char=152|end_char=158
+27	погоды	погода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	obl	_	start_char=159|end_char=165
+28	в	в	ADP	_	_	30	case	_	start_char=166|end_char=167
+29	последний	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=168|end_char=177
+30	месяц	месяц	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	start_char=178|end_char=183
+31	на	на	ADP	_	_	32	case	_	start_char=184|end_char=186
+32	северо-востоке	северо-восток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	nmod	_	start_char=187|end_char=201
+33	.	.	PUNCT	_	_	12	punct	_	start_char=201|end_char=202
+
+# text = Он очень гибкий и легкий в управлении и позволяет мне полностью достичь задний цветочный сад.
+# sent_id = 1
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=203|end_char=205
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=206|end_char=211
+3	гибкий	гибкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=212|end_char=218
+4	и	и	CCONJ	_	_	5	cc	_	start_char=219|end_char=220
+5	легкий	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=221|end_char=227
+6	в	в	ADP	_	_	7	case	_	start_char=228|end_char=229
+7	управлении	управление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	start_char=230|end_char=240
+8	и	и	CCONJ	_	_	9	cc	_	start_char=241|end_char=242
+9	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=243|end_char=252
+10	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	start_char=253|end_char=256
+11	полностью	полностью	ADV	_	Degree=Pos	12	advmod	_	start_char=257|end_char=266
+12	достичь	достичь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=267|end_char=274
+13	задний	задний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=275|end_char=281
+14	цветочный	цветочный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=282|end_char=291
+15	сад	сад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=292|end_char=295
+16	.	.	PUNCT	_	_	3	punct	_	start_char=295|end_char=296
+
+# text = Я бы порекомендовал этот шланг.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=297|end_char=298
+2	бы	бы	AUX	_	_	3	aux	_	start_char=299|end_char=301
+3	порекомендовал	рекомендовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=302|end_char=316
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=317|end_char=321
+5	шланг	шланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=322|end_char=327
+6	.	.	PUNCT	_	_	3	punct	_	start_char=327|end_char=328
+

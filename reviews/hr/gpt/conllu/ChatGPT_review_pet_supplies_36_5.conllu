@@ -1,0 +1,113 @@
+# text = Osnovni tekst za frizera pasa
+# sent_id = 0
+1	Osnovni	osnovan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	tekst	tekst	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8|end_char=13
+3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=14|end_char=16
+4	frizera	frizer	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	start_char=17|end_char=24
+5	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=25|end_char=29
+
+# text = Jeste li profesionalni frizer pasa?
+# sent_id = 1
+1	Jeste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=30|end_char=35
+2	li	li	PART	Qq	_	1	mark	_	start_char=36|end_char=38
+3	profesionalni	profesionalan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=39|end_char=52
+4	frizer	frizer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=53|end_char=59
+5	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=60|end_char=64
+6	?	?	PUNCT	Z	_	1	punct	_	start_char=64|end_char=65
+
+# text = Želite postati jedan?
+# sent_id = 2
+1	Želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=66|end_char=72
+2	postati	postati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=73|end_char=80
+3	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	2	obj	_	start_char=81|end_char=86
+4	?	?	PUNCT	Z	_	1	punct	_	start_char=86|end_char=87
+
+# text = Onda nabavite ovu knjigu!
+# sent_id = 3
+1	Onda	onda	ADV	Rgp	Degree=Pos|PronType=Dem	2	advmod	_	start_char=88|end_char=92
+2	nabavite	nabaviti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=93|end_char=101
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=102|end_char=105
+4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=106|end_char=112
+5	!	!	PUNCT	Z	_	2	punct	_	start_char=112|end_char=113
+
+# text = Ova knjiga, zajedno s suputnom knjigom "Teorija pet", ključna su literatura u zbirci frizera pasa.
+# sent_id = 4
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=114|end_char=117
+2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	start_char=118|end_char=124
+3	,	,	PUNCT	Z	_	7	punct	_	start_char=124|end_char=125
+4	zajedno	zajedno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=126|end_char=133
+5	s	sa	ADP	Si	Case=Ins	7	case	_	start_char=134|end_char=135
+6	suputnom	suputan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=136|end_char=144
+7	knjigom	knjiga	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	start_char=145|end_char=152
+8	"	"	PUNCT	Z	_	9	punct	_	start_char=153|end_char=154
+9	Teorija	teorija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	start_char=154|end_char=161
+10	pet	pet	NUM	Mlc	NumType=Card	9	nummod	_	start_char=162|end_char=165
+11	"	"	PUNCT	Z	_	9	punct	_	start_char=165|end_char=166
+12	,	,	PUNCT	Z	_	7	punct	_	start_char=166|end_char=167
+13	ključna	ključan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=168|end_char=175
+14	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=176|end_char=178
+15	literatura	literatura	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=179|end_char=189
+16	u	u	ADP	Sl	Case=Loc	17	case	_	start_char=190|end_char=191
+17	zbirci	zbirka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	start_char=192|end_char=198
+18	frizera	frizer	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	start_char=199|end_char=206
+19	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=207|end_char=211
+20	.	.	PUNCT	Z	_	15	punct	_	start_char=211|end_char=212
+
+# text = Obuhvaćajući veliki broj pasmina pasa, prikazuje standardne obrasce i frizure tih pasmina, a u nekim slučajevima, kao što su pudle, škotski terijeri i oni s nešto složenijim frizurama, ulazi u mnogo dubinu s detaljima i savjetima.
+# sent_id = 5
+1	Obuhvaćajući	obuhvaćati	ADV	Rr	Tense=Pres|VerbForm=Conv	7	xcomp	_	start_char=213|end_char=225
+2	veliki	velik	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=226|end_char=232
+3	broj	broj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=233|end_char=237
+4	pasmina	pasmina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	start_char=238|end_char=245
+5	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=246|end_char=250
+6	,	,	PUNCT	Z	_	1	punct	_	start_char=250|end_char=251
+7	prikazuje	prikazivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=252|end_char=261
+8	standardne	standardan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=262|end_char=272
+9	obrasce	obrasac	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=273|end_char=280
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=281|end_char=282
+11	frizure	frizura	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	start_char=283|end_char=290
+12	tih	taj	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	start_char=291|end_char=294
+13	pasmina	pasmina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=295|end_char=302
+14	,	,	PUNCT	Z	_	34	punct	_	start_char=302|end_char=303
+15	a	a	CCONJ	Cc	_	34	cc	_	start_char=304|end_char=305
+16	u	u	ADP	Sl	Case=Loc	18	case	_	start_char=306|end_char=307
+17	nekim	neki	DET	Pi-mpl	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	18	det	_	start_char=308|end_char=313
+18	slučajevima	slučaj	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	34	obl	_	start_char=314|end_char=325
+19	,	,	PUNCT	Z	_	22	punct	_	start_char=325|end_char=326
+20	kao	kao	SCONJ	Cs	_	22	mark	_	start_char=327|end_char=330
+21	što	što	SCONJ	Cs	_	20	fixed	_	start_char=331|end_char=334
+22	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	start_char=335|end_char=337
+23	pudle	pudlo	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	start_char=338|end_char=343
+24	,	,	PUNCT	Z	_	26	punct	_	start_char=343|end_char=344
+25	škotski	škotski	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	start_char=345|end_char=352
+26	terijeri	terijer	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	23	conj	_	start_char=353|end_char=361
+27	i	i	CCONJ	Cc	_	28	cc	_	start_char=362|end_char=363
+28	oni	oni	PRON	Pp3mpn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	conj	_	start_char=364|end_char=367
+29	s	sa	ADP	Si	Case=Ins	32	case	_	start_char=368|end_char=369
+30	nešto	nešto	ADV	Rgp	Degree=Pos	31	advmod	_	start_char=370|end_char=375
+31	složenijim	složen	ADJ	Agcfpiy	Case=Ins|Definite=Def|Degree=Cmp|Gender=Fem|Number=Plur	32	amod	_	start_char=376|end_char=386
+32	frizurama	frizura	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	28	nmod	_	start_char=387|end_char=396
+33	,	,	PUNCT	Z	_	22	punct	_	start_char=396|end_char=397
+34	ulazi	ulaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=398|end_char=403
+35	u	u	ADP	Sa	Case=Acc	37	case	_	start_char=404|end_char=405
+36	mnogo	mnogo	DET	Rgp	Degree=Pos	37	det:numgov	_	start_char=406|end_char=411
+37	dubinu	dubina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	34	obl	_	start_char=412|end_char=418
+38	s	sa	ADP	Si	Case=Ins	39	case	_	start_char=419|end_char=420
+39	detaljima	detalj	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	37	nmod	_	start_char=421|end_char=430
+40	i	i	CCONJ	Cc	_	41	cc	_	start_char=431|end_char=432
+41	savjetima	savjet	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	39	conj	_	start_char=433|end_char=442
+42	.	.	PUNCT	Z	_	7	punct	_	start_char=442|end_char=443
+
+# text = Sjajna knjiga!
+# sent_id = 6
+1	Sjajna	sjajan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=444|end_char=450
+2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=451|end_char=457
+3	!	!	PUNCT	Z	_	2	punct	_	start_char=457|end_char=458
+
+# text = Mora se imati.
+# sent_id = 7
+1	Mora	morati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=459|end_char=463
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=464|end_char=466
+3	imati	imati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=467|end_char=472
+4	.	.	PUNCT	Z	_	1	punct	_	start_char=472|end_char=473
+

@@ -1,0 +1,67 @@
+# text = UGHHHH!!!
+# sent_id = 0
+1	UGHHHH	ughhhh	INTJ	Interj	_	0	root	_	start_char=0|end_char=6
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=6|end_char=7
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=7|end_char=8
+4	!	!	PUNCT	Punct	_	1	punct	_	start_char=8|end_char=9
+
+# text = Peli ei tallenna ollenkaan ja se on todella ärsyttävää, koska et voi sammuttaa tietokonettasi ilman, että se poistaa edistymisesi kokonaan.
+# sent_id = 1
+1	Peli	peli	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=10|end_char=14
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=15|end_char=17
+3	tallenna	tallentaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=18|end_char=26
+4	ollenkaan	ollenkaan	ADV	Adv	_	3	advmod	_	start_char=27|end_char=36
+5	ja	ja	CCONJ	C	_	9	cc	_	start_char=37|end_char=39
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	start_char=40|end_char=42
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	start_char=43|end_char=45
+8	todella	todella	ADV	Adv	_	9	advmod	_	start_char=46|end_char=53
+9	ärsyttävää	ärsyttävä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	conj	_	start_char=54|end_char=64
+10	,	,	PUNCT	Punct	_	14	punct	_	start_char=64|end_char=65
+11	koska	koska	SCONJ	C	_	14	mark	_	start_char=66|end_char=71
+12	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	start_char=72|end_char=74
+13	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=75|end_char=78
+14	sammuttaa	sammuttaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	advcl	_	start_char=79|end_char=88
+15	tietokonettasi	tieto#kone	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	14	obj	_	start_char=89|end_char=103
+16	ilman	ilman	ADV	Adv	_	14	advmod	_	start_char=104|end_char=109
+17	,	,	PUNCT	Punct	_	20	punct	_	start_char=109|end_char=110
+18	että	että	SCONJ	C	_	20	mark	_	start_char=111|end_char=115
+19	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	20	nsubj	_	start_char=116|end_char=118
+20	poistaa	poistaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	start_char=119|end_char=126
+21	edistymisesi	edistyminen	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	20	obj	_	start_char=127|end_char=139
+22	kokonaan	kokonaan	ADV	Adv	_	20	advmod	_	start_char=140|end_char=148
+23	.	.	PUNCT	Punct	_	3	punct	_	start_char=148|end_char=149
+
+# text = Se myös käynnistyy ja sammuu satunnaisesti, joten kun poistut pelistä yhtäkkiä, se ponnahtaa takaisin ylös.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=150|end_char=152
+2	myös	myös	ADV	Adv	_	3	advmod	_	start_char=153|end_char=157
+3	käynnistyy	käynnistyä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=158|end_char=168
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=169|end_char=171
+5	sammuu	sammua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=172|end_char=178
+6	satunnaisesti	satunnaisesti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=179|end_char=192
+7	,	,	PUNCT	Punct	_	15	punct	_	start_char=192|end_char=193
+8	joten	joten	ADV	Adv	_	15	advmod	_	start_char=194|end_char=199
+9	kun	kun	SCONJ	C	_	10	mark	_	start_char=200|end_char=203
+10	poistut	poistua	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	start_char=204|end_char=211
+11	pelistä	peli	NOUN	N	Case=Ela|Number=Sing	10	obl	_	start_char=212|end_char=219
+12	yhtäkkiä	yhtäkkiä	ADV	Adv	_	10	advmod	_	start_char=220|end_char=228
+13	,	,	PUNCT	Punct	_	10	punct	_	start_char=228|end_char=229
+14	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	15	nsubj	_	start_char=230|end_char=232
+15	ponnahtaa	ponnahtaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=233|end_char=242
+16	takaisin	takaisin	ADV	Adv	_	15	advmod	_	start_char=243|end_char=251
+17	ylös	ylös	ADV	Adv	_	15	advmod	_	start_char=252|end_char=256
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=256|end_char=257
+
+# text = Kuusivuotias pitää sitä hauskana, mutta hän turhautuu siihen.
+# sent_id = 3
+1	Kuusivuotias	kuusi#vuotias	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=258|end_char=270
+2	pitää	pitää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=271|end_char=276
+3	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=277|end_char=281
+4	hauskana	hauska	ADJ	A	Case=Ess|Degree=Pos|Number=Sing	2	xcomp	_	start_char=282|end_char=290
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=290|end_char=291
+6	mutta	mutta	CCONJ	C	_	8	cc	_	start_char=292|end_char=297
+7	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=298|end_char=301
+8	turhautuu	turhautua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=302|end_char=311
+9	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	8	obl	_	start_char=312|end_char=318
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=318|end_char=319
+

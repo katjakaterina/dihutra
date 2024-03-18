@@ -1,0 +1,62 @@
+# text = Ne kupujte ako vam je travnjak veći od 10 četvornih jardi Nije mogao dobro pokositi moju travu.
+# sent_id = 0
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=0|end_char=2
+2	kupujte	kupovati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=3|end_char=10
+3	ako	ako	SCONJ	Cs	_	13	mark	_	start_char=11|end_char=14
+4	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	7	obj	_	start_char=15|end_char=18
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=19|end_char=21
+6	travnjak	travnjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=22|end_char=30
+7	veći	velik	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	2	ccomp	_	start_char=31|end_char=35
+8	od	od	ADP	Sg	Case=Gen	11	case	_	start_char=36|end_char=38
+9	10	10	NUM	Mdc	NumType=Card	11	nummod:gov	_	start_char=39|end_char=41
+10	četvornih	četvoran	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=42|end_char=51
+11	jardi	jarda	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	start_char=52|end_char=57
+12	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=58|end_char=62
+13	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	ccomp	_	start_char=63|end_char=68
+14	dobro	dobro	ADV	Rgp	Degree=Pos	15	advmod	_	start_char=69|end_char=74
+15	pokositi	pokositi	VERB	Vmn	VerbForm=Inf	13	xcomp	_	start_char=75|end_char=83
+16	moju	moj	DET	Ps1fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	17	det	_	start_char=84|end_char=88
+17	travu	trava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=89|end_char=94
+18	.	.	PUNCT	Z	_	2	punct	_	start_char=94|end_char=95
+
+# text = Preskače neka mjesta jer jednostavno nije dovoljno snažan.
+# sent_id = 1
+1	Preskače	preskacati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=96|end_char=104
+2	neka	neki	DET	Pi-npa	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	3	det	_	start_char=105|end_char=109
+3	mjesta	mjesto	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	start_char=110|end_char=116
+4	jer	jer	SCONJ	Cs	_	8	mark	_	start_char=117|end_char=120
+5	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=121|end_char=132
+6	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=133|end_char=137
+7	dovoljno	dovoljno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=138|end_char=146
+8	snažan	snažan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	advcl	_	start_char=147|end_char=153
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=153|end_char=154
+
+# text = Ako je trava viša od 2 inča, ovo nije kosilica za vas.
+# sent_id = 2
+1	Ako	ako	SCONJ	Cs	_	4	mark	_	start_char=155|end_char=158
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=159|end_char=161
+3	trava	trav	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=162|end_char=167
+4	viša	visok	ADJ	Agcfsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	11	advcl	_	start_char=168|end_char=172
+5	od	od	ADP	Sg	Case=Gen	7	case	_	start_char=173|end_char=175
+6	2	2	NUM	Mdc	NumType=Card	7	nummod:gov	_	start_char=176|end_char=177
+7	inča	inč	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=178|end_char=182
+8	,	,	PUNCT	Z	_	4	punct	_	start_char=182|end_char=183
+9	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	start_char=184|end_char=187
+10	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=188|end_char=192
+11	kosilica	kosilica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=193|end_char=201
+12	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=202|end_char=204
+13	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	11	nmod	_	start_char=205|end_char=208
+14	.	.	PUNCT	Z	_	11	punct	_	start_char=208|end_char=209
+
+# text = Trebate potrošiti novac i nabaviti nešto što radi.
+# sent_id = 3
+1	Trebate	trebati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=210|end_char=217
+2	potrošiti	potrošiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=218|end_char=227
+3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=228|end_char=233
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=234|end_char=235
+5	nabaviti	nabaviti	VERB	Vmn	VerbForm=Inf	2	conj	_	start_char=236|end_char=244
+6	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	5	obj	_	start_char=245|end_char=250
+7	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	8	obj	_	start_char=251|end_char=254
+8	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	start_char=255|end_char=259
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=259|end_char=260
+

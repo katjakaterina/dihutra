@@ -1,0 +1,77 @@
+# text = Radilo je odlično oko 5 punjenja.
+# sent_id = 0
+1	Radilo	raditi	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=6
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=7|end_char=9
+3	odlično	odlično	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=10|end_char=17
+4	oko	oko	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=18|end_char=21
+5	5	5	NUM	Mdc	NumType=Card	6	nummod:gov	_	start_char=22|end_char=23
+6	punjenja	punjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Plur	1	nsubj	_	start_char=24|end_char=32
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=32|end_char=33
+
+# text = Koristio sam NiCD baterije prije nekoliko godina i odustao od njih.
+# sent_id = 1
+1	Koristio	koristiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=34|end_char=42
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=43|end_char=46
+3	NiCD	NiCD	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	start_char=47|end_char=51
+4	baterije	baterija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=52|end_char=60
+5	prije	prije	ADP	Sg	Case=Gen	7	case	_	start_char=61|end_char=66
+6	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	7	det:numgov	_	start_char=67|end_char=75
+7	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=76|end_char=82
+8	i	i	CCONJ	Cc	_	9	cc	_	start_char=83|end_char=84
+9	odustao	odustati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=85|end_char=92
+10	od	od	ADP	Sg	Case=Gen	11	case	_	start_char=93|end_char=95
+11	njih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	obl	_	start_char=96|end_char=100
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=100|end_char=101
+
+# text = Kad sam isprobao NiMH baterije, počeo sam s ovima i bio sam vrlo razočaran tom tehnologijom.
+# sent_id = 2
+1	Kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=102|end_char=105
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=106|end_char=109
+3	isprobao	isprobati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=110|end_char=118
+4	NiMH	NiMH	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=119|end_char=123
+5	baterije	baterija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=124|end_char=132
+6	,	,	PUNCT	Z	_	3	punct	_	start_char=132|end_char=133
+7	počeo	početi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=134|end_char=139
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=140|end_char=143
+9	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=144|end_char=145
+10	ovima	ovaj	DET	Pd-mpi	Case=Ins|Gender=Masc|Number=Plur|PronType=Dem	7	obl	_	start_char=146|end_char=151
+11	i	i	CCONJ	Cc	_	15	cc	_	start_char=152|end_char=153
+12	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	cop	_	start_char=154|end_char=157
+13	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=158|end_char=161
+14	vrlo	vrlo	ADV	Rgp	Degree=Pos	15	advmod	_	start_char=162|end_char=166
+15	razočaran	razočaran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	start_char=167|end_char=176
+16	tom	taj	DET	Pd-fsi	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	start_char=177|end_char=180
+17	tehnologijom	tehnologija	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	15	obl	_	start_char=181|end_char=193
+18	.	.	PUNCT	Z	_	7	punct	_	start_char=193|end_char=194
+
+# text = Koristili smo ih u mišu koji je zahtijevao zamjenu otprilike dva puta tjedno.
+# sent_id = 3
+1	Koristili	koristiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=195|end_char=204
+2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=205|end_char=208
+3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=209|end_char=211
+4	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=212|end_char=213
+5	mišu	miš	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=214|end_char=218
+6	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=219|end_char=223
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=224|end_char=226
+8	zahtijevao	zahtijevati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=227|end_char=237
+9	zamjenu	zamjena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=238|end_char=245
+10	otprilike	otprilike	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=246|end_char=255
+11	dva	dva	NUM	Mlc	NumType=Card	12	nummod	_	start_char=256|end_char=259
+12	puta	put	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=260|end_char=264
+13	tjedno	tjedno	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=265|end_char=271
+14	.	.	PUNCT	Z	_	1	punct	_	start_char=271|end_char=272
+
+# text = Kasnije sam prešao na Sanyo eneloop i vrlo sam zadovoljan.
+# sent_id = 4
+1	Kasnije	kasno	ADV	Rgc	Degree=Cmp	3	advmod	_	start_char=273|end_char=280
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=281|end_char=284
+3	prešao	prešati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=285|end_char=291
+4	na	na	ADP	Sa	Case=Acc	6	case	_	start_char=292|end_char=294
+5	Sanyo	Sanyo	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	amod	_	start_char=295|end_char=300
+6	eneloop	eneloop	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=301|end_char=308
+7	i	i	CCONJ	Cc	_	10	cc	_	start_char=309|end_char=310
+8	vrlo	vrlo	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=311|end_char=315
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=316|end_char=319
+10	zadovoljan	zadovoljan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	start_char=320|end_char=330
+11	.	.	PUNCT	Z	_	3	punct	_	start_char=330|end_char=331
+

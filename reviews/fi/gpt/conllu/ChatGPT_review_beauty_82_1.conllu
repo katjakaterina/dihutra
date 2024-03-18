@@ -1,0 +1,73 @@
+# text = """Kaikkein noloin lahja"
+# sent_id = 0
+1	"	"	PUNCT	Punct	_	6	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Punct	_	6	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Punct	_	6	punct	_	start_char=2|end_char=3
+4	Kaikkein	kaikkein	ADV	Adv	_	5	advmod	_	start_char=3|end_char=11
+5	noloin	noloinen	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	6	amod	_	start_char=12|end_char=18
+6	lahja	lahja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=19|end_char=24
+7	"	"	PUNCT	Punct	_	6	punct	_	start_char=24|end_char=25
+
+# text = Koska kun lahjan saanut henkilö avasi sen, sieltä ei löytynyt sivellintä rajauskynän kanssa, ja minua katsottiin kuin olisin antanut halvan lahjan!
+# sent_id = 1
+1	Koska	koska	SCONJ	C	_	6	mark	_	start_char=26|end_char=31
+2	kun	kun	SCONJ	C	_	6	mark	_	start_char=32|end_char=35
+3	lahjan	lahja	NOUN	N	Case=Gen|Number=Sing	4	obj	_	start_char=36|end_char=42
+4	saanut	saada	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=43|end_char=49
+5	henkilö	henkilö	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=50|end_char=57
+6	avasi	avata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=58|end_char=63
+7	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	obj	_	start_char=64|end_char=67
+8	,	,	PUNCT	Punct	_	6	punct	_	start_char=67|end_char=68
+9	sieltä	sieltä	ADV	Adv	_	11	advmod	_	start_char=69|end_char=75
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=76|end_char=78
+11	löytynyt	löytyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=79|end_char=87
+12	sivellintä	sivellin	NOUN	N	Case=Par|Number=Sing	11	nsubj	_	start_char=88|end_char=98
+13	rajauskynän	rajaus#kynä	NOUN	N	Case=Gen|Number=Sing	11	obl	_	start_char=99|end_char=110
+14	kanssa	kanssa	ADP	Adp	AdpType=Post	13	case	_	start_char=111|end_char=117
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=117|end_char=118
+16	ja	ja	CCONJ	C	_	18	cc	_	start_char=119|end_char=121
+17	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	18	obj	_	start_char=122|end_char=127
+18	katsottiin	katsoa	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	11	conj	_	start_char=128|end_char=138
+19	kuin	kuin	SCONJ	C	_	21	mark	_	start_char=139|end_char=143
+20	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	21	aux	_	start_char=144|end_char=150
+21	antanut	antaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	18	advcl	_	start_char=151|end_char=158
+22	halvan	halva	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	amod	_	start_char=159|end_char=165
+23	lahjan	lahja	NOUN	N	Case=Gen|Number=Sing	21	obj	_	start_char=166|end_char=172
+24	!	!	PUNCT	Punct	_	11	punct	_	start_char=172|end_char=173
+
+# text = Ja minulta kysyttiin, oliko se jäljitelmä, ja sitten luettiin ainoa jätetty arvostelu.
+# sent_id = 2
+1	Ja	ja	CCONJ	C	_	3	cc	_	start_char=174|end_char=176
+2	minulta	minä	PRON	Pron	Case=Abl|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=177|end_char=184
+3	kysyttiin	kysyä	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=185|end_char=194
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=194|end_char=195
+5	oliko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=196|end_char=201
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	_	start_char=202|end_char=204
+7	jäljitelmä	jäljitelmä	NOUN	N	Case=Nom|Number=Sing	3	ccomp	_	start_char=205|end_char=215
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=215|end_char=216
+9	ja	ja	CCONJ	C	_	11	cc	_	start_char=217|end_char=219
+10	sitten	sitten	ADV	Adv	_	11	advmod	_	start_char=220|end_char=226
+11	luettiin	lukea	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	conj	_	start_char=227|end_char=235
+12	ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	14	det	_	start_char=236|end_char=241
+13	jätetty	jättää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	14	acl	_	start_char=242|end_char=249
+14	arvostelu	arvostelu	NOUN	N	Case=Nom|Derivation=U|Number=Sing	11	obj	_	start_char=250|end_char=259
+15	.	.	PUNCT	Punct	_	3	punct	_	start_char=259|end_char=260
+
+# text = Toivon saavani sen korvattua tai hyvitettyä.
+# sent_id = 3
+1	Toivon	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=261|end_char=267
+2	saavani	saada	VERB	V	Case=Gen|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	1	xcomp	_	start_char=268|end_char=275
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obj	_	start_char=276|end_char=279
+4	korvattua	korvata	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	start_char=280|end_char=289
+5	tai	tai	CCONJ	C	_	6	cc	_	start_char=290|end_char=293
+6	hyvitettyä	hyvittää	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	conj	_	start_char=294|end_char=304
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=304|end_char=305
+
+# text = Erittäin tyytymätön asiakas."
+# sent_id = 4
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=306|end_char=314
+2	tyytymätön	tyytymätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	3	amod	_	start_char=315|end_char=325
+3	asiakas	asiakas	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=326|end_char=333
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=333|end_char=334
+5	"	"	PUNCT	Punct	_	3	punct	_	start_char=334|end_char=335
+

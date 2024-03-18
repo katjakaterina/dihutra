@@ -1,0 +1,77 @@
+# text = Внимание, новички Вот какова ситуация с этой педалью.
+# sent_id = 0
+1	Внимание	внимание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=0|end_char=8
+2	,	,	PUNCT	_	_	3	punct	_	start_char=8|end_char=9
+3	новички	новичок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	start_char=10|end_char=17
+4	Вот	вот	PART	_	_	5	advmod	_	start_char=18|end_char=21
+5	какова	каков	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=22|end_char=28
+6	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=29|end_char=37
+7	с	с	ADP	_	_	9	case	_	start_char=38|end_char=39
+8	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	start_char=40|end_char=44
+9	педалью	педаль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	start_char=45|end_char=52
+10	.	.	PUNCT	_	_	5	punct	_	start_char=52|end_char=53
+
+# text = Она дешевая, и за немного больше или даже за меньшие деньги вы можете получить гораздо лучшую педаль.
+# sent_id = 1
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=54|end_char=57
+2	дешевая	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=58|end_char=65
+3	,	,	PUNCT	_	_	14	punct	_	start_char=65|end_char=66
+4	и	и	CCONJ	_	_	14	cc	_	start_char=67|end_char=68
+5	за	за	ADP	_	_	7	case	_	start_char=69|end_char=71
+6	немного	немного	ADV	_	Degree=Pos	7	advmod	_	start_char=72|end_char=79
+7	больше	больше	ADV	_	Degree=Cmp	14	advmod	_	start_char=80|end_char=86
+8	или	или	CCONJ	_	_	12	cc	_	start_char=87|end_char=90
+9	даже	даже	PART	_	_	12	advmod	_	start_char=91|end_char=95
+10	за	за	ADP	_	_	12	case	_	start_char=96|end_char=98
+11	меньшие	меньший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	start_char=99|end_char=106
+12	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	conj	_	start_char=107|end_char=113
+13	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	start_char=114|end_char=116
+14	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=117|end_char=123
+15	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=124|end_char=132
+16	гораздо	гораздо	ADV	_	Degree=Pos	17	obl	_	start_char=133|end_char=140
+17	лучшую	лучший	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=141|end_char=147
+18	педаль	педаль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=148|end_char=154
+19	.	.	PUNCT	_	_	2	punct	_	start_char=154|end_char=155
+
+# text = По моему мнению, если вы тратите менее 100 долларов на искажающую педаль, будь то ваша первая педаль или семисотая, немного больше денег позволит вам приобрести MXR Badass искажение, у которой гораздо четче звучит тон.
+# sent_id = 2
+1	По	по	ADP	_	_	3	case	_	start_char=156|end_char=158
+2	моему	мой	DET	_	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=159|end_char=164
+3	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	parataxis	_	start_char=165|end_char=171
+4	,	,	PUNCT	_	_	3	punct	_	start_char=171|end_char=172
+5	если	если	SCONJ	_	_	7	mark	_	start_char=173|end_char=177
+6	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=178|end_char=180
+7	тратите	тратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	26	advcl	_	start_char=181|end_char=188
+8	менее	менее	ADV	_	Degree=Cmp	10	advmod	_	start_char=189|end_char=194
+9	100	100	NUM	_	NumType=Card	10	nummod	_	start_char=195|end_char=198
+10	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=199|end_char=207
+11	на	на	ADP	_	_	13	case	_	start_char=208|end_char=210
+12	искажающую	искажать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	start_char=211|end_char=221
+13	педаль	педаль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=222|end_char=228
+14	,	,	PUNCT	_	_	19	punct	_	start_char=228|end_char=229
+15	будь	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	19	cop	_	start_char=230|end_char=234
+16	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	19	nsubj	_	start_char=235|end_char=237
+17	ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	start_char=238|end_char=242
+18	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=243|end_char=249
+19	педаль	педаль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	parataxis	_	start_char=250|end_char=256
+20	или	или	CCONJ	_	_	21	cc	_	start_char=257|end_char=260
+21	семисотая	семисотая	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	start_char=261|end_char=270
+22	,	,	PUNCT	_	_	7	punct	_	start_char=270|end_char=271
+23	немного	немного	ADV	_	Degree=Pos	24	advmod	_	start_char=272|end_char=279
+24	больше	больше	ADV	_	Degree=Cmp	26	nsubj	_	start_char=280|end_char=286
+25	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nsubj	_	start_char=287|end_char=292
+26	позволит	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=293|end_char=301
+27	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	26	iobj	_	start_char=302|end_char=305
+28	приобрести	приобрести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	start_char=306|end_char=316
+29	MXR	MXR	PROPN	_	Foreign=Yes	28	flat:foreign	_	start_char=317|end_char=320
+30	Badass	Badass	PROPN	_	Foreign=Yes	31	flat:foreign	_	start_char=321|end_char=327
+31	искажение	искажение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	28	obj	_	start_char=328|end_char=337
+32	,	,	PUNCT	_	_	37	punct	_	start_char=337|end_char=338
+33	у	у	ADP	_	_	34	case	_	start_char=339|end_char=340
+34	которой	который	PRON	_	Case=Gen|PronType=Int,Rel	37	obl	_	start_char=341|end_char=348
+35	гораздо	гораздо	ADV	_	Degree=Pos	36	advmod	_	start_char=349|end_char=356
+36	четче	четко	ADV	_	Degree=Cmp	37	advmod	_	start_char=357|end_char=362
+37	звучит	звучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	start_char=363|end_char=369
+38	тон	тон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	start_char=370|end_char=373
+39	.	.	PUNCT	_	_	26	punct	_	start_char=373|end_char=374
+

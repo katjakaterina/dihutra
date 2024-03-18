@@ -1,0 +1,67 @@
+# text = Заметки по грумингу Как самостоятельно обучившийся грумер, это была лучшая покупка, которую я сделал за долгое время.
+# sent_id = 0
+1	Заметки	заметка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=0|end_char=7
+2	по	по	ADP	_	_	3	case	_	start_char=8|end_char=10
+3	грумингу	груминга	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	start_char=11|end_char=19
+4	Как	как	SCONJ	_	_	7	mark	_	start_char=20|end_char=23
+5	самостоятельно	самостоятельно	ADV	_	Degree=Pos	6	advmod	_	start_char=24|end_char=38
+6	обучившийся	обучиться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	7	acl	_	start_char=39|end_char=50
+7	грумер	грумер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	acl	_	start_char=51|end_char=57
+8	,	,	PUNCT	_	_	1	punct	_	start_char=57|end_char=58
+9	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	expl	_	start_char=59|end_char=62
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=63|end_char=67
+11	лучшая	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=68|end_char=74
+12	покупка	покупка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=75|end_char=82
+13	,	,	PUNCT	_	_	16	punct	_	start_char=82|end_char=83
+14	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	16	obj	_	start_char=84|end_char=91
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=92|end_char=93
+16	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	start_char=94|end_char=100
+17	за	за	ADP	_	_	19	case	_	start_char=101|end_char=103
+18	долгое	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=104|end_char=110
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	start_char=111|end_char=116
+20	.	.	PUNCT	_	_	12	punct	_	start_char=116|end_char=117
+
+# text = Это замечательное справочное руководство, и оно сильно облегчает мою работу.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=118|end_char=121
+2	замечательное	замечательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=122|end_char=135
+3	справочное	справочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=136|end_char=146
+4	руководство	руководство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=147|end_char=158
+5	,	,	PUNCT	_	_	9	punct	_	start_char=158|end_char=159
+6	и	и	CCONJ	_	_	9	cc	_	start_char=160|end_char=161
+7	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=162|end_char=165
+8	сильно	сильно	ADV	_	Degree=Pos	9	advmod	_	start_char=166|end_char=172
+9	облегчает	облегчать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=173|end_char=182
+10	мою	мой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=183|end_char=186
+11	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=187|end_char=193
+12	.	.	PUNCT	_	_	4	punct	_	start_char=193|end_char=194
+
+# text = Я могу найти все, что мне нужно, если у меня есть вопросы по поводу породы или стандартов Американского клуба кеннел-клуба для этой породы.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=195|end_char=196
+2	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=197|end_char=201
+3	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=202|end_char=207
+4	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obj	_	start_char=208|end_char=211
+5	,	,	PUNCT	_	_	8	punct	_	start_char=211|end_char=212
+6	что	что	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=213|end_char=216
+7	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	start_char=217|end_char=220
+8	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	acl:relcl	_	start_char=221|end_char=226
+9	,	,	PUNCT	_	_	13	punct	_	start_char=226|end_char=227
+10	если	если	SCONJ	_	_	13	mark	_	start_char=228|end_char=232
+11	у	у	ADP	_	_	12	case	_	start_char=233|end_char=234
+12	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	obl	_	start_char=235|end_char=239
+13	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=240|end_char=244
+14	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=245|end_char=252
+15	по	по	ADP	_	_	17	case	_	start_char=253|end_char=255
+16	поводу	повод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	fixed	_	start_char=256|end_char=262
+17	породы	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=263|end_char=269
+18	или	или	CCONJ	_	_	19	cc	_	start_char=270|end_char=273
+19	стандартов	стандарт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	conj	_	start_char=274|end_char=284
+20	Американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=285|end_char=298
+21	клуба	клуб	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=299|end_char=304
+22	кеннел-клуба	кеннел-клуба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	start_char=305|end_char=317
+23	для	для	ADP	_	_	25	case	_	start_char=318|end_char=321
+24	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	start_char=322|end_char=326
+25	породы	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=327|end_char=333
+26	.	.	PUNCT	_	_	2	punct	_	start_char=333|end_char=334
+

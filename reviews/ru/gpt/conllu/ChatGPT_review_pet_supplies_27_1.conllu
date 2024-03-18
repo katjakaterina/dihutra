@@ -1,0 +1,114 @@
+# text = Потеря денег Это самая большая потеря денег - не покупайте это - это не сработает!
+# sent_id = 0
+1	Потеря	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=0|end_char=6
+2	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	start_char=7|end_char=12
+3	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	expl	_	start_char=13|end_char=16
+4	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=17|end_char=22
+5	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=23|end_char=30
+6	потеря	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=31|end_char=37
+7	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=38|end_char=43
+8	-	-	PUNCT	_	_	10	punct	_	start_char=44|end_char=45
+9	не	не	PART	_	_	10	advmod	_	start_char=46|end_char=48
+10	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=49|end_char=58
+11	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	10	obj	_	start_char=59|end_char=62
+12	-	-	PUNCT	_	_	15	punct	_	start_char=63|end_char=64
+13	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=65|end_char=68
+14	не	не	PART	_	_	15	advmod	_	start_char=69|end_char=71
+15	сработает	сработать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	parataxis	_	start_char=72|end_char=81
+16	!	!	PUNCT	_	_	6	punct	_	start_char=81|end_char=82
+
+# text = Просто люди произносят определенное слово, затем 10-секундная пауза...
+# sent_id = 1
+1	Просто	просто	PART	_	_	3	advmod	_	start_char=83|end_char=89
+2	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=90|end_char=94
+3	произносят	произносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=95|end_char=105
+4	определенное	определенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=106|end_char=118
+5	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=119|end_char=124
+6	,	,	PUNCT	_	_	9	punct	_	start_char=124|end_char=125
+7	затем	затем	ADV	_	Degree=Pos	9	advmod	_	start_char=126|end_char=131
+8	10-секундная	10-секундный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=132|end_char=144
+9	пауза	пауза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=145|end_char=150
+10	.	.	PUNCT	_	_	9	punct	_	start_char=150|end_char=151
+11	.	.	PUNCT	_	_	9	punct	_	start_char=151|end_char=152
+12	.	.	PUNCT	_	_	3	punct	_	start_char=152|end_char=153
+
+# text = затем другое слово и еще 10-секундная пауза.
+# sent_id = 2
+1	затем	затем	ADV	_	Degree=Pos	3	advmod	_	start_char=154|end_char=159
+2	другое	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=160|end_char=166
+3	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=167|end_char=172
+4	и	и	CCONJ	_	_	7	cc	_	start_char=173|end_char=174
+5	еще	еще	ADV	_	Degree=Pos	6	obl	_	start_char=175|end_char=178
+6	10-секундная	10-секундный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=179|end_char=191
+7	пауза	пауза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=192|end_char=197
+8	.	.	PUNCT	_	_	3	punct	_	start_char=197|end_char=198
+
+# text = Вы можете создать свое собственное, если действительно хотите попробовать.
+# sent_id = 3
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=199|end_char=201
+2	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=202|end_char=208
+3	создать	создать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=209|end_char=216
+4	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=217|end_char=221
+5	собственное	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	obj	_	start_char=222|end_char=233
+6	,	,	PUNCT	_	_	9	punct	_	start_char=233|end_char=234
+7	если	если	SCONJ	_	_	9	mark	_	start_char=235|end_char=239
+8	действительно	действительно	ADV	_	Degree=Pos	9	advmod	_	start_char=240|end_char=253
+9	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=254|end_char=260
+10	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=261|end_char=272
+11	.	.	PUNCT	_	_	2	punct	_	start_char=272|end_char=273
+
+# text = Но вы действительно не должны оставлять это на целый день для вашей птицы - это должно быть сделано только в течение 10-минутных интервалов, иначе ваша птица может раздражиться (я знаю, что я раздражаюсь этим уже после двух слов).
+# sent_id = 4
+1	Но	но	CCONJ	_	_	5	cc	_	start_char=274|end_char=276
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	start_char=277|end_char=279
+3	действительно	действительно	ADV	_	Degree=Pos	5	advmod	_	start_char=280|end_char=293
+4	не	не	PART	_	_	5	advmod	_	start_char=294|end_char=296
+5	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=297|end_char=303
+6	оставлять	оставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=304|end_char=313
+7	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	start_char=314|end_char=317
+8	на	на	ADP	_	_	10	case	_	start_char=318|end_char=320
+9	целый	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=321|end_char=326
+10	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	start_char=327|end_char=331
+11	для	для	ADP	_	_	13	case	_	start_char=332|end_char=335
+12	вашей	ваш	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	start_char=336|end_char=341
+13	птицы	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=342|end_char=347
+14	-	-	PUNCT	_	_	16	punct	_	start_char=348|end_char=349
+15	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj:pass	_	start_char=350|end_char=353
+16	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	parataxis	_	start_char=354|end_char=360
+17	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	aux:pass	_	start_char=361|end_char=365
+18	сделано	делать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	xcomp	_	start_char=366|end_char=373
+19	только	только	PART	_	_	23	advmod	_	start_char=374|end_char=380
+20	в	в	ADP	_	_	23	case	_	start_char=381|end_char=382
+21	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	fixed	_	start_char=383|end_char=390
+22	10-минутных	10-минутный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	start_char=391|end_char=402
+23	интервалов	интервал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	start_char=403|end_char=413
+24	,	,	PUNCT	_	_	28	punct	_	start_char=413|end_char=414
+25	иначе	иначе	CCONJ	_	_	28	cc	_	start_char=415|end_char=420
+26	ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det	_	start_char=421|end_char=425
+27	птица	птица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	start_char=426|end_char=431
+28	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	start_char=432|end_char=437
+29	раздражиться	раздражиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	28	xcomp	_	start_char=438|end_char=450
+30	(	(	PUNCT	_	_	32	punct	_	start_char=451|end_char=452
+31	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	start_char=452|end_char=453
+32	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	29	parataxis	_	start_char=454|end_char=458
+33	,	,	PUNCT	_	_	36	punct	_	start_char=458|end_char=459
+34	что	что	SCONJ	_	_	36	mark	_	start_char=460|end_char=463
+35	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	start_char=464|end_char=465
+36	раздражаюсь	раздражаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	32	ccomp	_	start_char=466|end_char=477
+37	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	36	obl	_	start_char=478|end_char=482
+38	уже	уже	ADV	_	Degree=Pos	41	obl	_	start_char=483|end_char=486
+39	после	после	ADP	_	_	41	case	_	start_char=487|end_char=492
+40	двух	два	NUM	_	Case=Gen|NumType=Card	41	nummod	_	start_char=493|end_char=497
+41	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	36	obl	_	start_char=498|end_char=502
+42	)	)	PUNCT	_	_	32	punct	_	start_char=502|end_char=503
+43	.	.	PUNCT	_	_	5	punct	_	start_char=503|end_char=504
+
+# text = Не тратьте деньги на это.
+# sent_id = 5
+1	Не	не	PART	_	_	2	advmod	_	start_char=505|end_char=507
+2	тратьте	тратить	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=508|end_char=515
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=516|end_char=522
+4	на	на	ADP	_	_	5	case	_	start_char=523|end_char=525
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	start_char=526|end_char=529
+6	.	.	PUNCT	_	_	2	punct	_	start_char=529|end_char=530
+

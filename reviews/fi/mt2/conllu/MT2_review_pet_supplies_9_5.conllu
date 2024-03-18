@@ -1,0 +1,64 @@
+# text = Jokaisella kissan omistajalla on oltava käsikirja
+# sent_id = 0
+1	Jokaisella	jokainen	PRON	Pron	Case=Ade|Number=Sing|PronType=Ind	3	det	_	start_char=0|end_char=10
+2	kissan	kissa	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=11|end_char=17
+3	omistajalla	omistaja	NOUN	N	Case=Ade|Derivation=Ja|Number=Sing	0	root	_	start_char=18|end_char=29
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=30|end_char=32
+5	oltava	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	3	cop:own	_	start_char=33|end_char=39
+6	käsikirja	käsi#kirja	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=40|end_char=49
+
+# text = Jos olet kissanomistaja tai etsit lahjaa kissan rakastajalle, tämä on kirjasi!
+# sent_id = 1
+1	Jos	jos	SCONJ	C	_	3	mark	_	start_char=50|end_char=53
+2	olet	olla	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=54|end_char=58
+3	kissanomistaja	kissan#omistaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	12	advcl	_	start_char=59|end_char=73
+4	tai	tai	CCONJ	C	_	5	cc	_	start_char=74|end_char=77
+5	etsit	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=78|end_char=83
+6	lahjaa	lahja	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=84|end_char=90
+7	kissan	kissa	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=91|end_char=97
+8	rakastajalle	rakastaja	NOUN	N	Case=All|Number=Sing	5	obl	_	start_char=98|end_char=110
+9	,	,	PUNCT	Punct	_	3	punct	_	start_char=110|end_char=111
+10	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj:cop	_	start_char=112|end_char=116
+11	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=117|end_char=119
+12	kirjasi	kirja	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	start_char=120|end_char=127
+13	!	!	PUNCT	Punct	_	12	punct	_	start_char=127|end_char=128
+
+# text = Sen tilaisuus dokumentoida kissan elämän kaikki tärkeät hetket, ja samalla kuvitukset ja kertomus tekevät siitä hauskaa!
+# sent_id = 2
+1	Sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	nmod:poss	_	start_char=129|end_char=132
+2	tilaisuus	tilaisuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	0	root	_	start_char=133|end_char=142
+3	dokumentoida	dokumentoida	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	acl	_	start_char=143|end_char=155
+4	kissan	kissa	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=156|end_char=162
+5	elämän	elämä	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=163|end_char=169
+6	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	8	det	_	start_char=170|end_char=176
+7	tärkeät	tärkeä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	start_char=177|end_char=184
+8	hetket	hetki	NOUN	N	Case=Nom|Number=Plur	3	obj	_	start_char=185|end_char=191
+9	,	,	PUNCT	Punct	_	15	punct	_	start_char=191|end_char=192
+10	ja	ja	CCONJ	C	_	15	cc	_	start_char=193|end_char=195
+11	samalla	samalla	ADV	Adv	_	15	advmod	_	start_char=196|end_char=203
+12	kuvitukset	kuvitus	NOUN	N	Case=Nom|Number=Plur	15	nsubj	_	start_char=204|end_char=214
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=215|end_char=217
+14	kertomus	kertomus	NOUN	N	Case=Nom|Number=Sing	12	conj	_	start_char=218|end_char=226
+15	tekevät	tehdä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=227|end_char=234
+16	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	15	obl	_	start_char=235|end_char=240
+17	hauskaa	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Sing	15	obj	_	start_char=241|end_char=248
+18	!	!	PUNCT	Punct	_	2	punct	_	start_char=248|end_char=249
+
+# text = Joten jos sinulla on kissa?
+# sent_id = 3
+1	Joten	joten	ADV	Adv	_	3	advmod	_	start_char=250|end_char=255
+2	jos	jos	SCONJ	C	_	3	mark	_	start_char=256|end_char=259
+3	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	0	root	_	start_char=260|end_char=267
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop:own	_	start_char=268|end_char=270
+5	kissa	kissa	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=271|end_char=276
+6	?	?	PUNCT	Punct	_	3	punct	_	start_char=276|end_char=277
+
+# text = Sinulla täytyy olla tämä kirja!
+# sent_id = 4
+1	Sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	0	root	_	start_char=278|end_char=285
+2	täytyy	täytyä	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	start_char=286|end_char=292
+3	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	cop:own	_	start_char=293|end_char=297
+4	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	start_char=298|end_char=302
+5	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=303|end_char=308
+6	!	!	PUNCT	Punct	_	1	punct	_	start_char=308|end_char=309
+

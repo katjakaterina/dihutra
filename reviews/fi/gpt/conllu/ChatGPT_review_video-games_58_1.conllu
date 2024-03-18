@@ -1,0 +1,69 @@
+# text = Harhaanjohtava
+# sent_id = 0
+1	Harhaanjohtava	harhaanjohtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=14
+
+# text = Missään kuvauksessa ei kerrota, ettei se toimi millään ohjelmalla uudempi kuin Windows 98.
+# sent_id = 1
+1	Missään	mikään	PRON	Pron	Case=Ine|Number=Sing|PronType=Ind	2	det	_	start_char=15|end_char=22
+2	kuvauksessa	kuvaus	NOUN	N	Case=Ine|Number=Sing	4	obl	_	start_char=23|end_char=34
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=35|end_char=37
+4	kerrota	kerrota	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=38|end_char=45
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=45|end_char=46
+6-7	ettei	_	_	_	_	_	_	_	start_char=47|end_char=52
+6	että	että	SCONJ	C	_	9	mark	_	_
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	_
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj	_	start_char=53|end_char=55
+9	toimi	toimia	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=56|end_char=61
+10	millään	mikään	PRON	Pron	Case=Ade|Number=Sing|PronType=Ind	11	det	_	start_char=62|end_char=69
+11	ohjelmalla	ohjelma	NOUN	N	Case=Ade|Number=Sing	12	nmod	_	start_char=70|end_char=80
+12	uudempi	uusi	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	9	xcomp	_	start_char=81|end_char=88
+13	kuin	kuin	SCONJ	C	_	14	mark	_	start_char=89|end_char=93
+14	Windows	Windows	PROPN	N	Case=Nom|Number=Sing	12	advcl	_	start_char=94|end_char=101
+15	98	98	NUM	Num	NumType=Card	14	nummod	_	start_char=102|end_char=104
+16	.	.	PUNCT	Punct	_	4	punct	_	start_char=104|end_char=105
+
+# text = Rakensin pelitietokoneen, jonka hinta olisi ollut yli 3000 dollaria, jos vastaavaa olisi voinut ostaa vähittäiskaupasta, joten tiedän, ettei ongelma ole tietokoneessani.
+# sent_id = 2
+1	Rakensin	rakentaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=106|end_char=114
+2	pelitietokoneen	peli#tieto#kone	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=115|end_char=130
+3	,	,	PUNCT	Punct	_	10	punct	_	start_char=130|end_char=131
+4	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	5	nmod:poss	_	start_char=132|end_char=137
+5	hinta	hinta	NOUN	N	Case=Nom|Number=Sing	10	nsubj:cop	_	start_char=138|end_char=143
+6	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	aux	_	start_char=144|end_char=149
+7	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	10	cop	_	start_char=150|end_char=155
+8	yli	yli	ADV	Adv	_	9	advmod	_	start_char=156|end_char=159
+9	3000	3000	NUM	Num	NumType=Card	10	nummod	_	start_char=160|end_char=164
+10	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	2	acl:relcl	_	start_char=165|end_char=173
+11	,	,	PUNCT	Punct	_	16	punct	_	start_char=173|end_char=174
+12	jos	jos	SCONJ	C	_	16	mark	_	start_char=175|end_char=178
+13	vastaavaa	vastaava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	16	obj	_	start_char=179|end_char=188
+14	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=0|VerbForm=Fin|Voice=Act	16	aux	_	start_char=189|end_char=194
+15	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	16	aux	_	start_char=195|end_char=201
+16	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=202|end_char=207
+17	vähittäiskaupasta	vähittäis#kauppa	NOUN	N	Case=Ela|Number=Sing	16	obl	_	start_char=208|end_char=225
+18	,	,	PUNCT	Punct	_	20	punct	_	start_char=225|end_char=226
+19	joten	joten	ADV	Adv	_	20	advmod	_	start_char=227|end_char=232
+20	tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	start_char=233|end_char=239
+21	,	,	PUNCT	Punct	_	26	punct	_	start_char=239|end_char=240
+22-23	ettei	_	_	_	_	_	_	_	start_char=241|end_char=246
+22	että	että	SCONJ	C	_	26	mark	_	_
+23	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	26	aux	_	_
+24	ongelma	ongelma	NOUN	N	Case=Nom|Number=Sing	26	nsubj:cop	_	start_char=247|end_char=254
+25	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	26	cop	_	start_char=255|end_char=258
+26	tietokoneessani	tieto#kone	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	20	ccomp	_	start_char=259|end_char=274
+27	.	.	PUNCT	Punct	_	1	punct	_	start_char=274|end_char=275
+
+# text = Olen Erittäin pettynyt, koska olen suuri Douglas Adamsin fani.
+# sent_id = 3
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=276|end_char=280
+2	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	3	advmod	_	start_char=281|end_char=289
+3	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=290|end_char=298
+4	,	,	PUNCT	Punct	_	10	punct	_	start_char=298|end_char=299
+5	koska	koska	SCONJ	C	_	10	mark	_	start_char=300|end_char=305
+6	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=306|end_char=310
+7	suuri	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	start_char=311|end_char=316
+8	Douglas	Douglas	PROPN	N	Case=Nom|Number=Sing	10	nmod:poss	_	start_char=317|end_char=324
+9	Adamsin	Adams	PROPN	N	Case=Gen|Number=Sing	8	flat:name	_	start_char=325|end_char=332
+10	fani	fani	NOUN	N	Case=Nom|Number=Sing	3	advcl	_	start_char=333|end_char=337
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=337|end_char=338
+

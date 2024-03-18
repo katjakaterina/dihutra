@@ -1,0 +1,86 @@
+# text = KEVYT VIKATILA MIKÄ MAHTAVA HINTA!
+# sent_id = 0
+1	KEVYT	KEVYT	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=0|end_char=5
+2	VIKATILA	vikas	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	_	start_char=6|end_char=14
+3	MIKÄ	mikä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=15|end_char=19
+4	MAHTAVA	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=20|end_char=27
+5	HINTA	hinta	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=28|end_char=33
+6	!	!	PUNCT	Punct	_	5	punct	_	start_char=33|end_char=34
+
+# text = SUORAAN PAKETISTA,
+# sent_id = 1
+1	SUORAAN	suoraan	ADV	Adv	_	2	advmod	_	start_char=35|end_char=42
+2	PAKETISTA	paketti	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=43|end_char=52
+3	,	,	PUNCT	Punct	_	2	punct	_	start_char=52|end_char=53
+
+# text = PISTÄ SE KIINNI JA LATAA VÄHÄN VIRTAA...
+# sent_id = 2
+1	PISTÄ	pitää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=59
+2	SE	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	_	start_char=60|end_char=62
+3	KIINNI	kiino	NOUN	N	Case=Nom|Number=Sing	1	obj	_	start_char=63|end_char=69
+4	JA	ja	CCONJ	C	_	5	cc	_	start_char=70|end_char=72
+5	LATAA	lataa	NOUN	N	Case=Par|Number=Sing	3	conj	_	start_char=73|end_char=78
+6	VÄHÄN	vähän	ADV	Adv	_	7	advmod	_	start_char=79|end_char=84
+7	VIRTAA	virta	NOUN	N	Case=Par|Number=Sing	3	conj	_	start_char=85|end_char=91
+8	...	...	PUNCT	Punct	_	1	punct	_	start_char=91|end_char=94
+
+# text = EN TIEDÄ, ONKO SEN PUDOTTAMINEN TOISTUVASTI AUTON LATTIALLE TAI SATUNNAISESTI TÖKKIMINEN KONSEPTIIN SEN PEITTÄMISEKSI AIHEUTTANUT VIKAANTUMISEN...
+# sent_id = 3
+1	EN	EN	NOUN	N	Case=Nom|Number=Sing	2	nmod	_	start_char=95|end_char=97
+2	TIEDÄ	tiedä	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=98|end_char=103
+3	,	,	PUNCT	Punct	_	17	punct	_	start_char=103|end_char=104
+4	ONKO	ONKO	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=105|end_char=109
+5	SEN	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	nmod:poss	_	start_char=110|end_char=113
+6	PUDOTTAMINEN	pudottamanen	NOUN	N	Case=Gen|Number=Sing	2	conj	_	start_char=114|end_char=126
+7	TOISTUVASTI	toistuvasti	CCONJ	C	_	13	cc	_	start_char=127|end_char=138
+8	AUTON	anto	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=139|end_char=144
+9	LATTIALLE	lahtiava	ADJ	A	Case=All|Degree=Pos|Number=Sing	13	amod	_	start_char=145|end_char=154
+10	TAI	TAI	CCONJ	C	_	13	cc	_	start_char=155|end_char=158
+11	SATUNNAISESTI	satunnaisesti	CCONJ	C	_	13	cc	_	start_char=159|end_char=172
+12	TÖKKIMINEN	tökkiminen	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	13	amod	_	start_char=173|end_char=183
+13	KONSEPTIIN	kone	NOUN	N	Case=Ill|Number=Sing	2	conj	_	start_char=184|end_char=194
+14	SEN	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	15	det	_	start_char=195|end_char=198
+15	PEITTÄMISEKSI	peittäminen	NOUN	N	Case=All|Number=Sing	16	obl	_	start_char=199|end_char=212
+16	AIHEUTTANUT	aieettaa	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	17	acl	_	start_char=213|end_char=224
+17	VIKAANTUMISEN	vikaattuminen	NOUN	N	Case=Gen|Number=Plur	2	conj	_	start_char=225|end_char=238
+18	...	...	PUNCT	Punct	_	2	punct	_	start_char=238|end_char=241
+
+# text = MUTTA PIAN VIHREÄ VALO LAKKASI PALAMASTA, JA PUHELIN NÄYTTI, ETTEI SE OLLUT LATAUTUMASSA.
+# sent_id = 4
+1	MUTTA	mutta	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=242|end_char=247
+2	PIAN	pian	ADV	Adv	_	3	advmod	_	start_char=248|end_char=252
+3	VIHREÄ	vihreä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=253|end_char=259
+4	VALO	valo	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=260|end_char=264
+5	LAKKASI	lakkasi	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=265|end_char=272
+6	PALAMASTA	pala#masta	NOUN	N	Case=Par|Number=Sing	4	nmod	_	start_char=273|end_char=282
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=282|end_char=283
+8	JA	ja	CCONJ	C	_	9	cc	_	start_char=284|end_char=286
+9	PUHELIN	puhelin	NOUN	N	Case=All|Number=Sing	6	conj	_	start_char=287|end_char=294
+10	NÄYTTI	näytti	NOUN	N	Case=All|Number=Sing	9	nmod	_	start_char=295|end_char=301
+11	,	,	PUNCT	Punct	_	12	punct	_	start_char=301|end_char=302
+12	ETTEI	ettei	ADJ	A	Case=All|Degree=Pos|Number=Sing	15	amod	_	start_char=303|end_char=308
+13	SE	se	CCONJ	C	_	14	cc	_	start_char=309|end_char=311
+14	OLLUT	ollu	NOUN	N	Case=Gen|Number=Sing	15	nmod:poss	_	start_char=312|end_char=317
+15	LATAUTUMASSA	lahtiutus#apa	NOUN	N	Case=All|Number=Sing	6	conj	_	start_char=318|end_char=330
+16	.	.	PUNCT	Punct	_	4	punct	_	start_char=330|end_char=331
+
+# text = JOKO KÄYTÄ SEENNAKKO-OTTAMAAN KIINTEISTÖJÄ VARTEN, JOISSA ON PAKSUMPI JOHTO/VANKEMPI KUORI TAI KÄSITTELE SITÄ HELLÄVARAISENA KUKKANA.
+# sent_id = 5
+1	JOKO	joko	CCONJ	C	_	4	cc:preconj	_	start_char=332|end_char=336
+2	KÄYTÄ	käytä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=337|end_char=342
+3	SEENNAKKO-OTTAMAAN	seen#äkko#ottama	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=343|end_char=361
+4	KIINTEISTÖJÄ	kiinteisto	NOUN	N	Case=Gen|Number=Sing	11	nmod	_	start_char=362|end_char=374
+5	VARTEN	varten	ADP	Adp	AdpType=Post	4	case	_	start_char=375|end_char=381
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=381|end_char=382
+7	JOISSA	joissa	ADJ	A	Case=Par|Degree=Pos|Number=Plur	11	amod	_	start_char=383|end_char=389
+8	ON	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=390|end_char=392
+9	PAKSUMPI	pakauva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	start_char=393|end_char=401
+10	JOHTO/VANKEMPI	johtova	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	11	amod	_	start_char=402|end_char=416
+11	KUORI	kuori	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=417|end_char=422
+12	TAI	TAI	CCONJ	C	_	15	cc	_	start_char=423|end_char=426
+13	KÄSITTELE	käsittää	VERB	V	Case=Ill|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	15	acl	_	start_char=427|end_char=436
+14	SITÄ	sitä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	15	amod	_	start_char=437|end_char=441
+15	HELLÄVARAISENA	hellä#vapaisen	NOUN	N	Case=Par|Number=Sing	11	conj	_	start_char=442|end_char=456
+16	KUKKANA	kukkana	NOUN	N	Case=All|Number=Sing	15	nmod	_	start_char=457|end_char=464
+17	.	.	PUNCT	Punct	_	11	punct	_	start_char=464|end_char=465
+

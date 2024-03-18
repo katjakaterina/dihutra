@@ -1,0 +1,101 @@
+# text = Gilmour proizvodi odlične proizvode
+# sent_id = 0
+1	Gilmour	Gilmour	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7
+2	proizvodi	proizvoditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8|end_char=17
+3	odlične	odličan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=18|end_char=25
+4	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=26|end_char=35
+
+# text = Za sve što mi treba za rad u vrtu i na travnjaku, trudim se pronaći Gilmour proizvod.
+# sent_id = 1
+1	Za	za	ADP	Sa	Case=Acc	2	case	_	start_char=36|end_char=38
+2	sve	sve	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	obl	_	start_char=39|end_char=42
+3	što	što	PRON	Pi3n-n	Case=Acc|Gender=Neut|PronType=Int,Rel	5	obj	_	start_char=43|end_char=46
+4	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	start_char=47|end_char=49
+5	treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=50|end_char=55
+6	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=56|end_char=58
+7	rad	rad	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=59|end_char=62
+8	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=63|end_char=64
+9	vrtu	vrt	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	start_char=65|end_char=69
+10	i	i	CCONJ	Cc	_	12	cc	_	start_char=70|end_char=71
+11	na	na	ADP	Sl	Case=Loc	12	case	_	start_char=72|end_char=74
+12	travnjaku	travnjak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	conj	_	start_char=75|end_char=84
+13	,	,	PUNCT	Z	_	2	punct	_	start_char=84|end_char=85
+14	trudim	truditi	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=86|end_char=92
+15	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	start_char=93|end_char=95
+16	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=96|end_char=103
+17	Gilmour	Gilmour	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	start_char=104|end_char=111
+18	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=112|end_char=120
+19	.	.	PUNCT	Z	_	14	punct	_	start_char=120|end_char=121
+
+# text = Jednostavno ih ne može nadmašiti ni po cijeni ni po jamstvu.
+# sent_id = 2
+1	Jednostavno	jednostavno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=122|end_char=133
+2	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=134|end_char=136
+3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=137|end_char=139
+4	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=140|end_char=144
+5	nadmašiti	nadmašiti	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=145|end_char=154
+6	ni	ni	PART	Qo	_	8	discourse	_	start_char=155|end_char=157
+7	po	po	ADP	Sl	Case=Loc	8	case	_	start_char=158|end_char=160
+8	cijeni	cijena	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=161|end_char=167
+9	ni	ni	CCONJ	Cc	_	11	cc	_	start_char=168|end_char=170
+10	po	po	ADP	Sl	Case=Loc	11	case	_	start_char=171|end_char=173
+11	jamstvu	jamstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	8	conj	_	start_char=174|end_char=181
+12	.	.	PUNCT	Z	_	4	punct	_	start_char=181|end_char=182
+
+# text = Ova cijev je tipična za Gilmour proizvod.
+# sent_id = 3
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=183|end_char=186
+2	cijev	cijev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=187|end_char=192
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=193|end_char=195
+4	tipična	tipičan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=196|end_char=203
+5	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=204|end_char=206
+6	Gilmour	Gilmour	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	amod	_	start_char=207|end_char=214
+7	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=215|end_char=223
+8	.	.	PUNCT	Z	_	4	punct	_	start_char=223|end_char=224
+
+# text = To je snažna i savitljiva cijev, i kao i većina drugih Gilmour proizvoda, dolazi s doživotnim jamstvom.
+# sent_id = 4
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=225|end_char=227
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=228|end_char=230
+3	snažna	snažan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=231|end_char=237
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=238|end_char=239
+5	savitljiva	savitljiv	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	start_char=240|end_char=250
+6	cijev	cijev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=251|end_char=256
+7	,	,	PUNCT	Z	_	16	punct	_	start_char=256|end_char=257
+8	i	i	CCONJ	Cc	_	16	cc	_	start_char=258|end_char=259
+9	kao	kao	SCONJ	Cs	_	11	case	_	start_char=260|end_char=263
+10	i	i	CCONJ	Cc	_	9	fixed	_	start_char=264|end_char=265
+11	većina	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	16	obl	_	start_char=266|end_char=272
+12	drugih	drugi	ADJ	Mlompg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=273|end_char=279
+13	Gilmour	Gilmour	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	start_char=280|end_char=287
+14	proizvoda	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=288|end_char=297
+15	,	,	PUNCT	Z	_	11	punct	_	start_char=297|end_char=298
+16	dolazi	dolaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	start_char=299|end_char=305
+17	s	sa	ADP	Si	Case=Ins	19	case	_	start_char=306|end_char=307
+18	doživotnim	doživotan	ADJ	Agpnsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=308|end_char=318
+19	jamstvom	jamstvo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	16	obl	_	start_char=319|end_char=327
+20	.	.	PUNCT	Z	_	6	punct	_	start_char=327|end_char=328
+
+# text = Rezao sam cijevi sa svojim kosilicom i oni ih i dalje zamjenjuju.
+# sent_id = 5
+1	Rezao	reći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=329|end_char=334
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=335|end_char=338
+3	cijevi	cijev	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=339|end_char=345
+4	sa	sa	ADP	Si	Case=Ins	6	case	_	start_char=346|end_char=348
+5	svojim	svoj	DET	Px-fsi	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=349|end_char=355
+6	kosilicom	kosilica	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	1	obl	_	start_char=356|end_char=365
+7	i	i	CCONJ	Cc	_	12	cc	_	start_char=366|end_char=367
+8	oni	oni	PRON	Pp3mpn	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=368|end_char=371
+9	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	start_char=372|end_char=374
+10	i	i	CCONJ	Cc	_	11	discourse	_	start_char=375|end_char=376
+11	dalje	daleko	ADV	Rgc	Degree=Cmp	12	advmod	_	start_char=377|end_char=382
+12	zamjenjuju	zamjenjivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=383|end_char=393
+13	.	.	PUNCT	Z	_	1	punct	_	start_char=393|end_char=394
+
+# text = Zbilja izvanredna tvrtka!
+# sent_id = 6
+1	Zbilja	zbilja	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=395|end_char=401
+2	izvanredna	izvanredan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=402|end_char=412
+3	tvrtka	tvrtka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=413|end_char=419
+4	!	!	PUNCT	Z	_	3	punct	_	start_char=419|end_char=420
+

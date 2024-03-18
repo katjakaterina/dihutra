@@ -1,0 +1,66 @@
+# text = Лучшая гоночная игра Мне нравится эта игра, с ней я отлично провожу время.
+# sent_id = 0
+1	Лучшая	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=0|end_char=6
+2	гоночная	гоночный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=7|end_char=15
+3	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=16|end_char=20
+4	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	start_char=21|end_char=24
+5	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=25|end_char=33
+6	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=34|end_char=37
+7	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=38|end_char=42
+8	,	,	PUNCT	_	_	13	punct	_	start_char=42|end_char=43
+9	с	с	ADP	_	_	10	case	_	start_char=44|end_char=45
+10	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	start_char=46|end_char=49
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=50|end_char=51
+12	отлично	отлично	ADV	_	Degree=Pos	13	advmod	_	start_char=52|end_char=59
+13	провожу	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=60|end_char=67
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=68|end_char=73
+15	.	.	PUNCT	_	_	5	punct	_	start_char=73|end_char=74
+
+# text = Если она не работает, попробуйте её на ноутбуке.
+# sent_id = 1
+1	Если	если	SCONJ	_	_	4	mark	_	start_char=75|end_char=79
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=80|end_char=83
+3	не	не	PART	_	_	4	advmod	_	start_char=84|end_char=86
+4	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=87|end_char=95
+5	,	,	PUNCT	_	_	4	punct	_	start_char=95|end_char=96
+6	попробуйте	пробовать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=97|end_char=107
+7	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=108|end_char=110
+8	на	на	ADP	_	_	9	case	_	start_char=111|end_char=113
+9	ноутбуке	ноутбук	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=114|end_char=122
+10	.	.	PUNCT	_	_	6	punct	_	start_char=122|end_char=123
+
+# text = Если вы любите гоночные игры, вам может понравиться эта.
+# sent_id = 2
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=124|end_char=128
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=129|end_char=131
+3	любите	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=132|end_char=138
+4	гоночные	гоночный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=139|end_char=147
+5	игры	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=148|end_char=152
+6	,	,	PUNCT	_	_	3	punct	_	start_char=152|end_char=153
+7	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	iobj	_	start_char=154|end_char=157
+8	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=158|end_char=163
+9	понравиться	понравиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	xcomp	_	start_char=164|end_char=175
+10	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	start_char=176|end_char=179
+11	.	.	PUNCT	_	_	8	punct	_	start_char=179|end_char=180
+
+# text = Она довольно старая, так что будьте к этому готовы, но кроме графики, всё отлично.
+# sent_id = 3
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=181|end_char=184
+2	довольно	довольно	ADV	_	Degree=Pos	3	obl	_	start_char=185|end_char=193
+3	старая	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=194|end_char=200
+4	,	,	PUNCT	_	_	10	punct	_	start_char=200|end_char=201
+5	так	так	ADV	_	Degree=Pos	10	mark	_	start_char=202|end_char=205
+6	что	что	SCONJ	_	_	5	fixed	_	start_char=206|end_char=209
+7	будьте	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	10	cop	_	start_char=210|end_char=216
+8	к	к	ADP	_	_	9	case	_	start_char=217|end_char=218
+9	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	start_char=219|end_char=224
+10	готовы	готовый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	advcl	_	start_char=225|end_char=231
+11	,	,	PUNCT	_	_	14	punct	_	start_char=231|end_char=232
+12	но	но	CCONJ	_	_	14	cc	_	start_char=233|end_char=235
+13	кроме	кроме	ADP	_	_	14	case	_	start_char=236|end_char=241
+14	графики	график	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	start_char=242|end_char=249
+15	,	,	PUNCT	_	_	14	punct	_	start_char=249|end_char=250
+16	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	17	nsubj	_	start_char=251|end_char=254
+17	отлично	отличный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	conj	_	start_char=255|end_char=262
+18	.	.	PUNCT	_	_	3	punct	_	start_char=262|end_char=263
+

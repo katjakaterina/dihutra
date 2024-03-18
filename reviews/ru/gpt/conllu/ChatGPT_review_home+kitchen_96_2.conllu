@@ -1,0 +1,129 @@
+# text = Ладно, но вы можете разобраться сами, даже без книги Я приобрел(а) эту книгу, когда купил(а) аппарат для приготовления замороженных десертов.
+# sent_id = 0
+1	Ладно	ладно	PART	_	_	5	parataxis	_	start_char=0|end_char=5
+2	,	,	PUNCT	_	_	1	punct	_	start_char=5|end_char=6
+3	но	но	CCONJ	_	_	5	cc	_	start_char=7|end_char=9
+4	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	start_char=10|end_char=12
+5	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=13|end_char=19
+6	разобраться	разобраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	xcomp	_	start_char=20|end_char=31
+7	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	obl	_	start_char=32|end_char=36
+8	,	,	PUNCT	_	_	13	punct	_	start_char=36|end_char=37
+9	даже	даже	PART	_	_	11	advmod	_	start_char=38|end_char=42
+10	без	без	ADP	_	_	11	case	_	start_char=43|end_char=46
+11	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	start_char=47|end_char=52
+12	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=53|end_char=54
+13	приобрел(	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=55|end_char=64
+14	а	а	INTJ	_	_	13	discourse	_	start_char=64|end_char=65
+15	)	)	PUNCT	_	_	14	punct	_	start_char=65|end_char=66
+16	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	start_char=67|end_char=70
+17	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=71|end_char=76
+18	,	,	PUNCT	_	_	20	punct	_	start_char=76|end_char=77
+19	когда	когда	SCONJ	_	_	20	mark	_	start_char=78|end_char=83
+20	купил(	купить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl	_	start_char=84|end_char=90
+21	а	а	INTJ	_	_	20	nsubj	_	start_char=90|end_char=91
+22	)	)	PUNCT	_	_	21	punct	_	start_char=91|end_char=92
+23	аппарат	аппарат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=93|end_char=100
+24	для	для	ADP	_	_	25	case	_	start_char=101|end_char=104
+25	приготовления	приготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	start_char=105|end_char=118
+26	замороженных	заморозить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	27	amod	_	start_char=119|end_char=131
+27	десертов	десерт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	start_char=132|end_char=140
+28	.	.	PUNCT	_	_	5	punct	_	start_char=140|end_char=141
+
+# text = Я считаю, что рецепты в порядке, но в книге действительно нет такого, что бы я не смог(ла) выяснить самостоятельно.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=142|end_char=143
+2	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=144|end_char=150
+3	,	,	PUNCT	_	_	7	punct	_	start_char=150|end_char=151
+4	что	что	SCONJ	_	_	7	mark	_	start_char=152|end_char=155
+5	рецепты	рецепт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=156|end_char=163
+6	в	в	ADP	_	_	7	case	_	start_char=164|end_char=165
+7	порядке	порядок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	ccomp	_	start_char=166|end_char=173
+8	,	,	PUNCT	_	_	13	punct	_	start_char=173|end_char=174
+9	но	но	CCONJ	_	_	13	cc	_	start_char=175|end_char=177
+10	в	в	ADP	_	_	11	case	_	start_char=178|end_char=179
+11	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	start_char=180|end_char=185
+12	действительно	действительно	ADV	_	Degree=Pos	13	advmod	_	start_char=186|end_char=199
+13	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=200|end_char=203
+14	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	start_char=204|end_char=210
+15	,	,	PUNCT	_	_	20	punct	_	start_char=210|end_char=211
+16	что	что	PRON	_	Case=Acc|PronType=Int,Rel	20	obj	_	start_char=212|end_char=215
+17	бы	бы	AUX	_	_	20	aux	_	start_char=216|end_char=218
+18	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=219|end_char=220
+19	не	не	PART	_	_	20	advmod	_	start_char=221|end_char=223
+20	смог(	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	start_char=224|end_char=229
+21	ла	ла	INTJ	_	_	20	obl	_	start_char=229|end_char=231
+22	)	)	PUNCT	_	_	20	punct	_	start_char=231|end_char=232
+23	выяснить	выяснить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	csubj	_	start_char=233|end_char=241
+24	самостоятельно	самостоятельно	ADV	_	Degree=Pos	23	advmod	_	start_char=242|end_char=256
+25	.	.	PUNCT	_	_	2	punct	_	start_char=256|end_char=257
+
+# text = Есть пара хороших кремовых рецептов, которые теперь доступны бесплатно на рецептурных веб-сайтах.
+# sent_id = 2
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=258|end_char=262
+2	пара	пара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=263|end_char=267
+3	хороших	хороший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=268|end_char=275
+4	кремовых	кремовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=276|end_char=284
+5	рецептов	рецепт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=285|end_char=293
+6	,	,	PUNCT	_	_	9	punct	_	start_char=293|end_char=294
+7	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	9	nsubj	_	start_char=295|end_char=302
+8	теперь	теперь	ADV	_	Degree=Pos	9	advmod	_	start_char=303|end_char=309
+9	доступны	доступный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl:relcl	_	start_char=310|end_char=318
+10	бесплатно	бесплатно	ADV	_	Degree=Pos	9	advmod	_	start_char=319|end_char=328
+11	на	на	ADP	_	_	13	case	_	start_char=329|end_char=331
+12	рецептурных	рецептурный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	start_char=332|end_char=343
+13	веб-сайтах	веб-сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	start_char=344|end_char=354
+14	.	.	PUNCT	_	_	1	punct	_	start_char=354|end_char=355
+
+# text = Что касается "украшения десертов", ну, и это не так сложно понять самостоятельно.
+# sent_id = 3
+1	Что	что	PRON	_	Case=Nom|PronType=Int,Rel	2	nsubj	_	start_char=356|end_char=359
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	advcl	_	start_char=360|end_char=368
+3	"	"	PUNCT	_	_	4	punct	_	start_char=369|end_char=370
+4	украшения	украшение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	start_char=370|end_char=379
+5	десертов	десерт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=380|end_char=388
+6	"	"	PUNCT	_	_	4	punct	_	start_char=388|end_char=389
+7	,	,	PUNCT	_	_	2	punct	_	start_char=389|end_char=390
+8	ну	ну	PART	_	_	14	parataxis	_	start_char=391|end_char=393
+9	,	,	PUNCT	_	_	8	punct	_	start_char=393|end_char=394
+10	и	и	CCONJ	_	_	14	cc	_	start_char=395|end_char=396
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=397|end_char=400
+12	не	не	PART	_	_	13	advmod	_	start_char=401|end_char=403
+13	так	так	ADV	_	Degree=Pos	14	obl	_	start_char=404|end_char=407
+14	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=408|end_char=414
+15	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	csubj	_	start_char=415|end_char=421
+16	самостоятельно	самостоятельно	ADV	_	Degree=Pos	15	advmod	_	start_char=422|end_char=436
+17	.	.	PUNCT	_	_	14	punct	_	start_char=436|end_char=437
+
+# text = Я бы предложил(а) сохранить деньги и потратить их вместо этого на дополнительные палочки для замороженных десертов, которые кажутся исчезающими так же, как носки...
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=438|end_char=439
+2	бы	бы	AUX	_	_	3	aux	_	start_char=440|end_char=442
+3	предложил(	предложить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=443|end_char=453
+4	а	а	CCONJ	_	_	3	cc	_	start_char=453|end_char=454
+5	)	)	PUNCT	_	_	3	punct	_	start_char=454|end_char=455
+6	сохранить	сохранить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=456|end_char=465
+7	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=466|end_char=472
+8	и	и	CCONJ	_	_	9	cc	_	start_char=473|end_char=474
+9	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	start_char=475|end_char=484
+10	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	start_char=485|end_char=487
+11	вместо	вместо	ADP	_	_	12	case	_	start_char=488|end_char=494
+12	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	start_char=495|end_char=500
+13	на	на	ADP	_	_	15	case	_	start_char=501|end_char=503
+14	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=504|end_char=518
+15	палочки	палочка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	start_char=519|end_char=526
+16	для	для	ADP	_	_	18	case	_	start_char=527|end_char=530
+17	замороженных	заморозить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	start_char=531|end_char=543
+18	десертов	десерт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=544|end_char=552
+19	,	,	PUNCT	_	_	21	punct	_	start_char=552|end_char=553
+20	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	21	nsubj	_	start_char=554|end_char=561
+21	кажутся	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	acl:relcl	_	start_char=562|end_char=569
+22	исчезающими	исчезать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	xcomp	_	start_char=570|end_char=581
+23	так	так	ADV	_	Degree=Pos	21	advmod	_	start_char=582|end_char=585
+24	же	же	PART	_	_	23	advmod	_	start_char=586|end_char=588
+25	,	,	PUNCT	_	_	27	punct	_	start_char=588|end_char=589
+26	как	как	SCONJ	_	_	27	mark	_	start_char=590|end_char=593
+27	носки	носок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	advcl	_	start_char=594|end_char=599
+28	.	.	PUNCT	_	_	27	punct	_	start_char=599|end_char=600
+29	.	.	PUNCT	_	_	27	punct	_	start_char=600|end_char=601
+30	.	.	PUNCT	_	_	3	punct	_	start_char=601|end_char=602
+

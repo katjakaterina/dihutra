@@ -1,0 +1,111 @@
+# text = Rahanhukkaa
+# sent_id = 0
+1	Rahanhukkaa	raha#hukka	NOUN	N	Case=Par|Derivation=U|Number=Sing	0	root	_	start_char=0|end_char=11
+
+# text = Tämä on suurin rahanhukka - älä osta tätä - se ei toimi!
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=12|end_char=16
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=17|end_char=19
+3	suurin	suuri	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	4	amod	_	start_char=20|end_char=26
+4	rahanhukka	rahan#hukka	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=27|end_char=37
+5	-	-	PUNCT	Punct	_	7	punct	_	start_char=38|end_char=39
+6	älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=40|end_char=43
+7	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=44|end_char=48
+8	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	7	obj	_	start_char=49|end_char=53
+9	-	-	PUNCT	Punct	_	12	punct	_	start_char=54|end_char=55
+10	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	start_char=56|end_char=58
+11	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=59|end_char=61
+12	toimi	toimia	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	start_char=62|end_char=67
+13	!	!	PUNCT	Punct	_	4	punct	_	start_char=67|end_char=68
+
+# text = Siinä on vain ihmisiä sanomassa tiettyä sanaa, sitten 10 sekunnin tauko...
+# sent_id = 2
+1	Siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=69|end_char=74
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=75|end_char=77
+3	vain	vain	ADV	Adv	_	4	advmod	_	start_char=78|end_char=82
+4	ihmisiä	ihminen	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=83|end_char=90
+5	sanomassa	sanoa	VERB	V	Case=Ine|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	4	acl	_	start_char=91|end_char=100
+6	tiettyä	tietty	ADJ	A	Case=Par|Degree=Pos|Number=Sing	7	amod	_	start_char=101|end_char=108
+7	sanaa	sana	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=109|end_char=114
+8	,	,	PUNCT	Punct	_	12	punct	_	start_char=114|end_char=115
+9	sitten	sitten	ADV	Adv	_	12	advmod	_	start_char=116|end_char=122
+10	10	10	NUM	Num	NumType=Card	11	nummod	_	start_char=123|end_char=125
+11	sekunnin	sekunti	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	start_char=126|end_char=134
+12	tauko	tauko	NOUN	N	Case=Nom|Number=Sing	4	appos	_	start_char=135|end_char=140
+13	...	...	PUNCT	Punct	_	1	punct	_	start_char=140|end_char=143
+
+# text = sitten eri sana ja taas 10 sekunnin tauko.
+# sent_id = 3
+1	sitten	sitten	ADV	Adv	_	3	advmod	_	start_char=144|end_char=150
+2	eri	eri	ADJ	A	_	3	amod	_	start_char=151|end_char=154
+3	sana	sana	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=155|end_char=159
+4	ja	ja	CCONJ	C	_	8	cc	_	start_char=160|end_char=162
+5	taas	taas	ADV	Adv	_	8	advmod	_	start_char=163|end_char=167
+6	10	10	NUM	Num	NumType=Card	7	nummod	_	start_char=168|end_char=170
+7	sekunnin	sekunti	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=171|end_char=179
+8	tauko	tauko	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=180|end_char=185
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=185|end_char=186
+
+# text = Voit tehdä oman version, jos todella haluat kokeilla tätä.
+# sent_id = 4
+1	Voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=187|end_char=191
+2	tehdä	tehdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=192|end_char=197
+3	oman	oma	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=198|end_char=202
+4	version	versio	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=203|end_char=210
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=210|end_char=211
+6	jos	jos	SCONJ	C	_	8	mark	_	start_char=212|end_char=215
+7	todella	todella	ADV	Adv	_	8	advmod	_	start_char=216|end_char=223
+8	haluat	haluta	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=224|end_char=230
+9	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=231|end_char=239
+10	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	obj	_	start_char=240|end_char=244
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=244|end_char=245
+
+# text = Mutta et todellakaan saa jättää tätä päälle koko päiväksi lintusi vuoksi - sen pitäisi tapahtua vain 10 minuutin jaksoissa, muuten lintusi voi ärsyyntyä siitä (tiedän, että minäkin ärsyynnyn siitä jo kahden sanan jälkeen).
+# sent_id = 5
+1	Mutta	mutta	CCONJ	C	_	4	cc	_	start_char=246|end_char=251
+2	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=252|end_char=254
+3	todellakaan	todella	ADV	Adv	Clitic=Kaan	4	advmod	_	start_char=255|end_char=266
+4	saa	saada	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=267|end_char=270
+5	jättää	jättää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=271|end_char=277
+6	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	obj	_	start_char=278|end_char=282
+7	päälle	päälle	ADV	Adv	_	5	advmod	_	start_char=283|end_char=289
+8	koko	koko	ADJ	A	_	9	amod	_	start_char=290|end_char=294
+9	päiväksi	päivä	NOUN	N	Case=Tra|Number=Sing	5	obl	_	start_char=295|end_char=303
+10	lintusi	lintu	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	obl	_	start_char=304|end_char=311
+11	vuoksi	vuoksi	ADP	Adp	AdpType=Post	10	case	_	start_char=312|end_char=318
+12	-	-	PUNCT	Punct	_	15	punct	_	start_char=319|end_char=320
+13	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	15	nsubj	_	start_char=321|end_char=324
+14	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	aux	_	start_char=325|end_char=332
+15	tapahtua	tapahtua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	parataxis	_	start_char=333|end_char=341
+16	vain	vain	ADV	Adv	_	19	advmod	_	start_char=342|end_char=346
+17	10	10	NUM	Num	NumType=Card	18	nummod	_	start_char=347|end_char=349
+18	minuutin	minuutti	NOUN	N	Case=Gen|Number=Sing	19	nmod:poss	_	start_char=350|end_char=358
+19	jaksoissa	jakso	NOUN	N	Case=Ine|Number=Plur	15	obl	_	start_char=359|end_char=368
+20	,	,	PUNCT	Punct	_	24	punct	_	start_char=368|end_char=369
+21	muuten	muuten	ADV	Adv	_	24	advmod	_	start_char=370|end_char=376
+22	lintusi	lintu	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	24	nsubj	_	start_char=377|end_char=384
+23	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	start_char=385|end_char=388
+24	ärsyyntyä	ärsyyntyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	15	conj	_	start_char=389|end_char=398
+25	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	24	obl	_	start_char=399|end_char=404
+26	(	(	PUNCT	Punct	_	27	punct	_	start_char=405|end_char=406
+27	tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	start_char=406|end_char=412
+28	,	,	PUNCT	Punct	_	31	punct	_	start_char=412|end_char=413
+29	että	että	SCONJ	C	_	31	mark	_	start_char=414|end_char=418
+30	minäkin	minä	PRON	Pron	Case=Nom|Clitic=Kin|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	start_char=419|end_char=426
+31	ärsyynnyn	ärsyyntyä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	27	ccomp	_	start_char=427|end_char=436
+32	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	31	obl	_	start_char=437|end_char=442
+33	jo	jo	ADV	Adv	_	35	advmod	_	start_char=443|end_char=445
+34	kahden	kaksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	35	nummod	_	start_char=446|end_char=452
+35	sanan	sana	NOUN	N	Case=Gen|Number=Sing	31	obl	_	start_char=453|end_char=458
+36	jälkeen	jälkeen	ADP	Adp	AdpType=Post	35	case	_	start_char=459|end_char=466
+37	)	)	PUNCT	Punct	_	27	punct	_	start_char=466|end_char=467
+38	.	.	PUNCT	Punct	_	4	punct	_	start_char=467|end_char=468
+
+# text = Älä tuhlaa rahojasi tähän.
+# sent_id = 6
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=469|end_char=472
+2	tuhlaa	tuhlata	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=473|end_char=479
+3	rahojasi	raha	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	start_char=480|end_char=488
+4	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	2	obl	_	start_char=489|end_char=494
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=494|end_char=495
+

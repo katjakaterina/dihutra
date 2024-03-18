@@ -1,0 +1,83 @@
+# text = Ненавижу, что они такие дорогие.
+# sent_id = 0
+1	Ненавижу	ненавидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	,	,	PUNCT	_	_	6	punct	_	start_char=8|end_char=9
+3	что	что	SCONJ	_	_	6	mark	_	start_char=10|end_char=13
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=14|end_char=17
+5	такие	такой	DET	_	Case=Nom|Number=Plur|PronType=Dem	6	det	_	start_char=18|end_char=23
+6	дорогие	дорогой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	ccomp	_	start_char=24|end_char=31
+7	.	.	PUNCT	_	_	1	punct	_	start_char=31|end_char=32
+
+# text = Мой внук получил это, и из-за фильма он получил этот, но все мои правнуки получили более дешевый и, по моему мнению, лучший, потому что руки и ноги были проволочные и чрезвычайно подвижные.
+# sent_id = 1
+1	Мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	start_char=33|end_char=36
+2	внук	внук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=37|end_char=41
+3	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=42|end_char=49
+4	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	start_char=50|end_char=53
+5	,	,	PUNCT	_	_	10	punct	_	start_char=53|end_char=54
+6	и	и	CCONJ	_	_	10	cc	_	start_char=55|end_char=56
+7	из-за	из-за	ADP	_	_	8	case	_	start_char=57|end_char=62
+8	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	start_char=63|end_char=69
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=70|end_char=72
+10	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=73|end_char=80
+11	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=81|end_char=85
+12	,	,	PUNCT	_	_	17	punct	_	start_char=85|end_char=86
+13	но	но	CCONJ	_	_	17	cc	_	start_char=87|end_char=89
+14	все	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	16	det	_	start_char=90|end_char=93
+15	мои	мой	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	16	det	_	start_char=94|end_char=97
+16	правнуки	правнук	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=98|end_char=106
+17	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=107|end_char=115
+18	более	более	ADV	_	Degree=Cmp	19	obl	_	start_char=116|end_char=121
+19	дешевый	дешевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	obj	_	start_char=122|end_char=129
+20	и	и	CCONJ	_	_	26	cc	_	start_char=130|end_char=131
+21	,	,	PUNCT	_	_	20	punct	_	start_char=131|end_char=132
+22	по	по	ADP	_	_	24	case	_	start_char=133|end_char=135
+23	моему	мой	DET	_	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	start_char=136|end_char=141
+24	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	parataxis	_	start_char=142|end_char=148
+25	,	,	PUNCT	_	_	24	punct	_	start_char=148|end_char=149
+26	лучший	лучший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	start_char=150|end_char=156
+27	,	,	PUNCT	_	_	34	punct	_	start_char=156|end_char=157
+28	потому	потому	ADV	_	Degree=Pos	34	mark	_	start_char=158|end_char=164
+29	что	что	SCONJ	_	_	28	fixed	_	start_char=165|end_char=168
+30	руки	рука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	34	nsubj	_	start_char=169|end_char=173
+31	и	и	CCONJ	_	_	32	cc	_	start_char=174|end_char=175
+32	ноги	нога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	30	conj	_	start_char=176|end_char=180
+33	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	_	start_char=181|end_char=185
+34	проволочные	проволочный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	advcl	_	start_char=186|end_char=197
+35	и	и	CCONJ	_	_	37	cc	_	start_char=198|end_char=199
+36	чрезвычайно	чрезвычайно	ADV	_	Degree=Pos	37	obl	_	start_char=200|end_char=211
+37	подвижные	подвижной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	conj	_	start_char=212|end_char=221
+38	.	.	PUNCT	_	_	3	punct	_	start_char=221|end_char=222
+
+# text = Тем не менее, моему внуку (9 лет) очень понравился этот эльф, и его мама с папой с удовольствием использовали эту идею во время праздников.
+# sent_id = 2
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	12	discourse	_	start_char=223|end_char=226
+2	не	не	PART	_	_	1	fixed	_	start_char=227|end_char=229
+3	менее	менее	ADV	_	Degree=Cmp	1	fixed	_	start_char=230|end_char=235
+4	,	,	PUNCT	_	_	1	punct	_	start_char=235|end_char=236
+5	моему	мой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	start_char=237|end_char=242
+6	внуку	внук	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	start_char=243|end_char=248
+7	(	(	PUNCT	_	_	9	punct	_	start_char=249|end_char=250
+8	9	9	NUM	_	NumType=Card	9	nummod	_	start_char=250|end_char=251
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	parataxis	_	start_char=252|end_char=255
+10	)	)	PUNCT	_	_	9	punct	_	start_char=255|end_char=256
+11	очень	очень	ADV	_	Degree=Pos	12	advmod	_	start_char=257|end_char=262
+12	понравился	понравиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=263|end_char=273
+13	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	start_char=274|end_char=278
+14	эльф	эльф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=279|end_char=283
+15	,	,	PUNCT	_	_	23	punct	_	start_char=283|end_char=284
+16	и	и	CCONJ	_	_	23	cc	_	start_char=285|end_char=286
+17	его	его	DET	_	Poss=Yes|PronType=Prs	18	det	_	start_char=287|end_char=290
+18	мама	мама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	start_char=291|end_char=295
+19	с	с	ADP	_	_	20	case	_	start_char=296|end_char=297
+20	папой	папа	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	nmod	_	start_char=298|end_char=303
+21	с	с	ADP	_	_	22	case	_	start_char=304|end_char=305
+22	удовольствием	удовольствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	obl	_	start_char=306|end_char=319
+23	использовали	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	start_char=320|end_char=332
+24	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	start_char=333|end_char=336
+25	идею	идея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=337|end_char=341
+26	во	в	ADP	_	_	28	case	_	start_char=342|end_char=344
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	fixed	_	start_char=345|end_char=350
+28	праздников	праздник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	start_char=351|end_char=361
+29	.	.	PUNCT	_	_	12	punct	_	start_char=361|end_char=362
+

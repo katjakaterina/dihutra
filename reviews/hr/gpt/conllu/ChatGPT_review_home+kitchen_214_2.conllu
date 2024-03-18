@@ -1,0 +1,129 @@
+# text = Izvrsna umjetnost - problem s okvirom
+# sent_id = 0
+1	Izvrsna	izvrstan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	umjetnost	umjetnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=8|end_char=17
+3	-	-	PUNCT	Z	_	4	punct	_	start_char=18|end_char=19
+4	problem	problem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=20|end_char=27
+5	s	sa	ADP	Si	Case=Ins	6	case	_	start_char=28|end_char=29
+6	okvirom	okvir	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	start_char=30|end_char=37
+
+# text = Dodatno sam platio kako bih dobio umjetničko djelo s okvirom za sobu svog sina.
+# sent_id = 1
+1	Dodatno	dodatno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=38|end_char=45
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=46|end_char=49
+3	platio	platiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=50|end_char=56
+4	kako	kako	SCONJ	Cs	_	6	mark	_	start_char=57|end_char=61
+5	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	start_char=62|end_char=65
+6	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=66|end_char=71
+7	umjetničko	umjetnički	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=72|end_char=82
+8	djelo	djelo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	start_char=83|end_char=88
+9	s	sa	ADP	Si	Case=Ins	10	case	_	start_char=89|end_char=90
+10	okvirom	okvir	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	8	nmod	_	start_char=91|end_char=98
+11	za	za	ADP	Sa	Case=Acc	12	case	_	start_char=99|end_char=101
+12	sobu	soba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	start_char=102|end_char=106
+13	svog	svoj	DET	Px-msg	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	start_char=107|end_char=111
+14	sina	sin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=112|end_char=116
+15	.	.	PUNCT	Z	_	3	punct	_	start_char=116|end_char=117
+
+# text = Volim samu karikaturu.
+# sent_id = 2
+1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=118|end_char=123
+2	samu	sam	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=124|end_char=128
+3	karikaturu	karikatura	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=129|end_char=139
+4	.	.	PUNCT	Z	_	1	punct	_	start_char=139|end_char=140
+
+# text = No, razočarao me taj što je passepartout okvira bio drugačije boje nego što je prikazano na slici proizvoda.
+# sent_id = 3
+1	No	no	CCONJ	Cc	_	3	cc	_	start_char=141|end_char=143
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=143|end_char=144
+3	razočarao	razočarati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=145|end_char=154
+4	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=155|end_char=157
+5	taj	taj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=158|end_char=161
+6	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	12	nsubj	_	start_char=162|end_char=165
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=166|end_char=168
+8	passepartout	passepartout	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=169|end_char=181
+9	okvira	okvir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=182|end_char=188
+10	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	cop	_	start_char=189|end_char=192
+11	drugačije	drugačije	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=193|end_char=202
+12	boje	boja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	acl	_	start_char=203|end_char=207
+13	nego	nego	CCONJ	Cc	_	16	cc	_	start_char=208|end_char=212
+14	što	što	SCONJ	Cs	_	13	fixed	_	start_char=213|end_char=216
+15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=217|end_char=219
+16	prikazano	prikazati	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	12	conj	_	start_char=220|end_char=229
+17	na	na	ADP	Sl	Case=Loc	18	case	_	start_char=230|end_char=232
+18	slici	slika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	obl	_	start_char=233|end_char=238
+19	proizvoda	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=239|end_char=248
+20	.	.	PUNCT	Z	_	3	punct	_	start_char=248|end_char=249
+
+# text = Prije otprilike tjedan dana poslao sam e-poštu tvrtki (Andrews McMeel Art), ali do sada nisu odgovorili.
+# sent_id = 4
+1	Prije	prije	ADP	Sg	Case=Gen	3	case	_	start_char=250|end_char=255
+2	otprilike	otprilike	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=256|end_char=265
+3	tjedan	tjedan	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	obl	_	start_char=266|end_char=272
+4	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=273|end_char=277
+5	poslao	poslati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=278|end_char=284
+6	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=285|end_char=288
+7	e-poštu	e-pošta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=289|end_char=296
+8	tvrtki	tvrtka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=297|end_char=303
+9	(	(	PUNCT	Z	_	10	punct	_	start_char=304|end_char=305
+10	Andrews	andrews	X	Xf	Foreign=Yes	8	appos	_	start_char=305|end_char=312
+11	McMeel	McMeel	X	Xf	Foreign=Yes	10	flat:foreign	_	start_char=313|end_char=319
+12	Art	Art	X	Xf	Foreign=Yes	10	flat:foreign	_	start_char=320|end_char=323
+13	)	)	PUNCT	Z	_	10	punct	_	start_char=323|end_char=324
+14	,	,	PUNCT	Z	_	19	punct	_	start_char=324|end_char=325
+15	ali	ali	CCONJ	Cc	_	19	cc	_	start_char=326|end_char=329
+16	do	do	ADP	Sg	Case=Gen	17	case	_	start_char=330|end_char=332
+17	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	19	advmod	_	start_char=333|end_char=337
+18	nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=338|end_char=342
+19	odgovorili	odgovoriti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	start_char=343|end_char=353
+20	.	.	PUNCT	Z	_	5	punct	_	start_char=353|end_char=354
+
+# text = Ažuriranje - tvrtka je odgovorila na moju e-poštu s vrlo ljubaznom porukom koja ukazuje da će ispraviti stvar.
+# sent_id = 5
+1	Ažuriranje	ažuriranje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	start_char=355|end_char=365
+2	-	-	PUNCT	Z	_	1	punct	_	start_char=366|end_char=367
+3	tvrtka	tvrtka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=368|end_char=374
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=375|end_char=377
+5	odgovorila	odgovoriti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=378|end_char=388
+6	na	na	ADP	Sa	Case=Acc	8	case	_	start_char=389|end_char=391
+7	moju	moj	DET	Ps1fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	start_char=392|end_char=396
+8	e-poštu	e-pošta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=397|end_char=404
+9	s	sa	ADP	Si	Case=Ins	12	case	_	start_char=405|end_char=406
+10	vrlo	vrlo	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=407|end_char=411
+11	ljubaznom	ljubazni	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=412|end_char=421
+12	porukom	poruka	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	start_char=422|end_char=429
+13	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	14	nsubj	_	start_char=430|end_char=434
+14	ukazuje	ukazivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=435|end_char=442
+15	da	da	SCONJ	Cs	_	17	mark	_	start_char=443|end_char=445
+16	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=446|end_char=448
+17	ispraviti	ispraviti	VERB	Vmn	VerbForm=Inf	14	ccomp	_	start_char=449|end_char=458
+18	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=459|end_char=464
+19	.	.	PUNCT	Z	_	5	punct	_	start_char=464|end_char=465
+
+# text = Možda ću na kraju biti potpuno zadovoljan kupac nakon što to učine.
+# sent_id = 6
+1	Možda	možda	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=466|end_char=471
+2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=472|end_char=474
+3	na	na	ADP	Sl	Case=Loc	4	case	_	start_char=475|end_char=477
+4	kraju	kraj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=478|end_char=483
+5	biti	biti	AUX	Van	VerbForm=Inf	7	cop	_	start_char=484|end_char=488
+6	potpuno	potpuno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=489|end_char=496
+7	zadovoljan	zadovoljan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=497|end_char=507
+8	kupac	kupac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=508|end_char=513
+9	nakon	nakon	SCONJ	Cs	_	12	mark	_	start_char=514|end_char=519
+10	što	što	SCONJ	Cs	_	9	fixed	_	start_char=520|end_char=523
+11	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	start_char=524|end_char=526
+12	učine	učiniti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=527|end_char=532
+13	.	.	PUNCT	Z	_	7	punct	_	start_char=532|end_char=533
+
+# text = Ako je tako, ažurirat ću ponovno.
+# sent_id = 7
+1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=534|end_char=537
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=538|end_char=540
+3	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	5	advcl	_	start_char=541|end_char=545
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=545|end_char=546
+5	ažurirat	ažurirati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=547|end_char=555
+6	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=556|end_char=558
+7	ponovno	ponovno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=559|end_char=566
+8	.	.	PUNCT	Z	_	5	punct	_	start_char=566|end_char=567
+

@@ -1,0 +1,62 @@
+# text = Ei kovin hyvä!
+# sent_id = 0
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=0|end_char=2
+2	kovin	kovin	ADV	Adv	_	3	advmod	_	start_char=3|end_char=8
+3	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=9|end_char=13
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=13|end_char=14
+
+# text = Kaikki laillisen samsung-tuotteen merkinnät olivat, mutta johto lakkasi toimimasta 3 päivän kuluttua.
+# sent_id = 1
+1	Kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	4	det	_	start_char=15|end_char=21
+2	laillisen	laillinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Llinen|Number=Sing	3	amod	_	start_char=22|end_char=31
+3	samsung-tuotteen	samsung#tuote	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=32|end_char=48
+4	merkinnät	merkintä	NOUN	N	Case=Nom|Number=Plur	5	nsubj	_	start_char=49|end_char=58
+5	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=59|end_char=65
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=65|end_char=66
+7	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=67|end_char=72
+8	johto	johto	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=73|end_char=78
+9	lakkasi	lakata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=79|end_char=86
+10	toimimasta	toimia	VERB	V	Case=Ela|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=87|end_char=97
+11	3	3	NUM	Num	NumType=Card	12	nummod	_	start_char=98|end_char=99
+12	päivän	päivä	NOUN	N	Case=Gen|Number=Sing	13	nsubj	_	start_char=100|end_char=106
+13	kuluttua	kulua	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	10	advcl	_	start_char=107|end_char=115
+14	.	.	PUNCT	Punct	_	5	punct	_	start_char=115|end_char=116
+
+# text = En ole järkyttynyt, koska se oli erittäin halpa, mutta ehkä sinun pitäisi kuluttaa hieman enemmän ja ostaa parempi tuote Amazonista.
+# sent_id = 2
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=117|end_char=119
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=120|end_char=123
+3	järkyttynyt	järkyttyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=124|end_char=135
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=135|end_char=136
+5	koska	koska	SCONJ	C	_	9	mark	_	start_char=137|end_char=142
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	start_char=143|end_char=145
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=146|end_char=149
+8	erittäin	erittäin	ADV	Adv	Derivation=Ttain	9	advmod	_	start_char=150|end_char=158
+9	halpa	halpa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	advcl	_	start_char=159|end_char=164
+10	,	,	PUNCT	Punct	_	15	punct	_	start_char=164|end_char=165
+11	mutta	mutta	CCONJ	C	_	15	cc	_	start_char=166|end_char=171
+12	ehkä	ehkä	ADV	Adv	_	15	advmod	_	start_char=172|end_char=176
+13	sinun	sinä	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	start_char=177|end_char=182
+14	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	15	aux	_	start_char=183|end_char=190
+15	kuluttaa	kuluttaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=191|end_char=199
+16	hieman	hieman	ADV	Adv	_	17	advmod	_	start_char=200|end_char=206
+17	enemmän	enemmän	ADV	Adv	_	15	advmod	_	start_char=207|end_char=214
+18	ja	ja	CCONJ	C	_	19	cc	_	start_char=215|end_char=217
+19	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	15	conj	_	start_char=218|end_char=223
+20	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	21	amod	_	start_char=224|end_char=231
+21	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	19	obj	_	start_char=232|end_char=237
+22	Amazonista	Amazon	PROPN	N	Case=Ela|Number=Sing	19	obl	_	start_char=238|end_char=248
+23	.	.	PUNCT	Punct	_	3	punct	_	start_char=248|end_char=249
+
+# text = Kun se toimi, se toimi erittäin hyvin.
+# sent_id = 3
+1	Kun	kun	SCONJ	C	_	3	mark	_	start_char=250|end_char=253
+2	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=254|end_char=256
+3	toimi	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=257|end_char=262
+4	,	,	PUNCT	Punct	_	3	punct	_	start_char=262|end_char=263
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj	_	start_char=264|end_char=266
+6	toimi	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=267|end_char=272
+7	erittäin	erittäin	ADV	Adv	Derivation=Ttain	8	advmod	_	start_char=273|end_char=281
+8	hyvin	hyvin	ADV	Adv	_	6	advmod	_	start_char=282|end_char=287
+9	.	.	PUNCT	Punct	_	6	punct	_	start_char=287|end_char=288
+

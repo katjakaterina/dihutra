@@ -1,0 +1,114 @@
+# text = Još jedan lažni MAC ovdje, nemojte kupovati!
+# sent_id = 0
+1	Još	još	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=3
+2	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	4	nummod	_	start_char=4|end_char=9
+3	lažni	lažni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=10|end_char=15
+4	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=16|end_char=19
+5	ovdje	ovdje	ADV	Rgp	Degree=Pos|PronType=Dem	7	advmod	_	start_char=20|end_char=25
+6	,	,	PUNCT	Z	_	4	punct	_	start_char=25|end_char=26
+7	nemojte	moći	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=27|end_char=34
+8	kupovati	kupovati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=35|end_char=43
+9	!	!	PUNCT	Z	_	7	punct	_	start_char=43|end_char=44
+
+# text = Zašto biste trebali brinuti?
+# sent_id = 1
+1	Zašto	zašto	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=45|end_char=50
+2	biste	biti	AUX	Vaa2p	Mood=Cnd|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	3	aux	_	start_char=51|end_char=56
+3	trebali	trebati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=57|end_char=64
+4	brinuti	brinuti	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=65|end_char=72
+5	?	?	PUNCT	Z	_	3	punct	_	start_char=72|end_char=73
+
+# text = Prodaja lažnih MAC pigmenta široko je rasprostranjena na internetu, pa ljudi često pretpostavljaju da moraju biti sigurni ili čak identični pravim MAC proizvodima.
+# sent_id = 2
+1	Prodaja	prodaja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=74|end_char=81
+2	lažnih	lažan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=82|end_char=88
+3	MAC	MAC	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=89|end_char=92
+4	pigmenta	pigment	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=93|end_char=101
+5	široko	široko	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=102|end_char=108
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=109|end_char=111
+7	rasprostranjena	rasprostraniti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=112|end_char=127
+8	na	na	ADP	Sl	Case=Loc	9	case	_	start_char=128|end_char=130
+9	internetu	internet	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=131|end_char=140
+10	,	,	PUNCT	Z	_	14	punct	_	start_char=140|end_char=141
+11	pa	pa	CCONJ	Cc	_	14	cc	_	start_char=142|end_char=144
+12	ljudi	čovjek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	start_char=145|end_char=150
+13	često	često	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=151|end_char=156
+14	pretpostavljaju	pretpostavljati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=157|end_char=172
+15	da	da	SCONJ	Cs	_	16	mark	_	start_char=173|end_char=175
+16	moraju	morati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	start_char=176|end_char=182
+17	biti	biti	AUX	Van	VerbForm=Inf	16	xcomp	_	start_char=183|end_char=187
+18	sigurni	siguran	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	17	xcomp	_	start_char=188|end_char=195
+19	ili	ili	CCONJ	Cc	_	21	cc	_	start_char=196|end_char=199
+20	čak	čak	PART	Qo	_	21	advmod	_	start_char=200|end_char=203
+21	identični	identičan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	18	conj	_	start_char=204|end_char=213
+22	pravim	prav	ADJ	Agpmpdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	start_char=214|end_char=220
+23	MAC	MAC	ADJ	Agpmpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	start_char=221|end_char=224
+24	proizvodima	proizvod	NOUN	Ncmpd	Case=Dat|Gender=Masc|Number=Plur	21	obj	_	start_char=225|end_char=236
+25	.	.	PUNCT	Z	_	7	punct	_	start_char=236|end_char=237
+
+# text = Nažalost, to nije slučaj.
+# sent_id = 3
+1	Nažalost	nažalost	ADV	Rgp	Degree=Pos	5	discourse	_	start_char=238|end_char=246
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=246|end_char=247
+3	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=248|end_char=250
+4	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=251|end_char=255
+5	slučaj	slučaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=256|end_char=262
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=262|end_char=263
+
+# text = Lažni MAC pigmenti su analizirani i utvrđeno je da sadrže kemijske iritante, bakterijsku kontaminaciju (uključujući barem u jednom slučaju E. coli) ili čak toksine kao što je olovo i karcinogeni.
+# sent_id = 4
+1	Lažni	lažni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=264|end_char=269
+2	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	start_char=270|end_char=273
+3	pigmenti	pigment	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=274|end_char=282
+4	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=283|end_char=285
+5	analizirani	analizirati	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	start_char=286|end_char=297
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=298|end_char=299
+7	utvrđeno	utvrditi	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	5	conj	_	start_char=300|end_char=308
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=309|end_char=311
+9	da	da	SCONJ	Cs	_	10	mark	_	start_char=312|end_char=314
+10	sadrže	sadržati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=315|end_char=321
+11	kemijske	kemijski	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	start_char=322|end_char=330
+12	iritante	iritant	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	start_char=331|end_char=339
+13	,	,	PUNCT	Z	_	15	punct	_	start_char=339|end_char=340
+14	bakterijsku	bakterijski	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=341|end_char=352
+15	kontaminaciju	kontaminacija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	conj	_	start_char=353|end_char=366
+16	(	(	PUNCT	Z	_	17	punct	_	start_char=367|end_char=368
+17	uključujući	uključivati	ADV	Rr	Tense=Pres|VerbForm=Conv	15	acl	_	start_char=368|end_char=379
+18	barem	barem	PART	Qo	_	21	advmod	_	start_char=380|end_char=385
+19	u	u	ADP	Sl	Case=Loc	21	case	_	start_char=386|end_char=387
+20	jednom	jedan	NUM	Mlcmsl	Case=Loc|Gender=Masc|NumType=Card|Number=Sing	21	nummod	_	start_char=388|end_char=394
+21	slučaju	slučaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	17	obl	_	start_char=395|end_char=402
+22	E.	E.	NOUN	Y	_	21	nmod	_	start_char=403|end_char=405
+23	coli	coli	X	Xf	Foreign=Yes	22	flat	_	start_char=406|end_char=410
+24	)	)	PUNCT	Z	_	17	punct	_	start_char=410|end_char=411
+25	ili	ili	CCONJ	Cc	_	27	cc	_	start_char=412|end_char=415
+26	čak	čak	PART	Qo	_	27	advmod	_	start_char=416|end_char=419
+27	toksine	toksina	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	21	conj	_	start_char=420|end_char=427
+28	kao	kao	SCONJ	Cs	_	30	mark	_	start_char=428|end_char=431
+29	što	što	SCONJ	Cs	_	28	fixed	_	start_char=432|end_char=435
+30	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	start_char=436|end_char=438
+31	olovo	olovo	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	start_char=439|end_char=444
+32	i	i	CCONJ	Cc	_	33	cc	_	start_char=445|end_char=446
+33	karcinogeni	karcinogiti	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	31	conj	_	start_char=447|end_char=458
+34	.	.	PUNCT	Z	_	5	punct	_	start_char=458|end_char=459
+
+# text = Zar stvarno želite riskirati slijepoću ili trajne ožiljke na licu samo da biste dobili povoljnu ponudu?
+# sent_id = 5
+1	Zar	zar	SCONJ	Cs	_	3	mark	_	start_char=460|end_char=463
+2	stvarno	stvarno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=464|end_char=471
+3	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=472|end_char=478
+4	riskirati	riskirati	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=479|end_char=488
+5	slijepoću	slijepoća	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=489|end_char=498
+6	ili	ili	CCONJ	Cc	_	8	cc	_	start_char=499|end_char=502
+7	trajne	trajan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=503|end_char=509
+8	ožiljke	ožiljka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	start_char=510|end_char=517
+9	na	na	ADP	Sl	Case=Loc	10	case	_	start_char=518|end_char=520
+10	licu	lice	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=521|end_char=525
+11	samo	samo	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=526|end_char=530
+12	da	da	SCONJ	Cs	_	14	mark	_	start_char=531|end_char=533
+13	biste	biti	AUX	Vaa2p	Mood=Cnd|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	14	aux	_	start_char=534|end_char=539
+14	dobili	dobiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=540|end_char=546
+15	povoljnu	povoljan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=547|end_char=555
+16	ponudu	ponuda	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=556|end_char=562
+17	?	?	PUNCT	Z	_	3	punct	_	start_char=562|end_char=563
+

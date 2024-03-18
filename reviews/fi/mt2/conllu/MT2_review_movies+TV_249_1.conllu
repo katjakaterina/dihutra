@@ -1,0 +1,72 @@
+# text = Huonoin jouluerikois ikinä!
+# sent_id = 0
+1	Huonoin	huono	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	jouluerikois	joulu#erikois	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=8|end_char=20
+3	ikinä	ikinä	ADV	Adv	_	2	advmod	_	start_char=21|end_char=26
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=26|end_char=27
+
+# text = Tämä on niin tylsää!
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=28|end_char=32
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=33|end_char=35
+3	niin	niin	ADV	Adv	_	4	advmod	_	start_char=36|end_char=40
+4	tylsää	tylsä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=41|end_char=47
+5	!	!	PUNCT	Punct	_	4	punct	_	start_char=47|end_char=48
+
+# text = Kappaleet ovat kauheita!
+# sent_id = 2
+1	Kappaleet	kappale	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=49|end_char=58
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=59|end_char=63
+3	kauheita	kauhea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=64|end_char=72
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=72|end_char=73
+
+# text = Huvila on Simpsonien herra Burnsin huijaus, kun taas lapset näyttävät siltä kuin he olisivat lainassa Charlie Brownin esityksestä.
+# sent_id = 3
+1	Huvila	huvila	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=74|end_char=80
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=81|end_char=83
+3	Simpsonien	Simpson	PROPN	N	Case=Gen|Number=Plur	4	nmod:poss	_	start_char=84|end_char=94
+4	herra	herra	NOUN	N	Case=Nom|Number=Sing	5	compound:nn	_	start_char=95|end_char=100
+5	Burnsin	Burns	PROPN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=101|end_char=108
+6	huijaus	huijaus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=109|end_char=116
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=116|end_char=117
+8	kun	kun	ADV	Adv	_	11	mark	_	start_char=118|end_char=121
+9	taas	taas	SCONJ	C	_	8	fixed	_	start_char=122|end_char=126
+10	lapset	lapsi	NOUN	N	Case=Nom|Number=Plur	11	nsubj	_	start_char=127|end_char=133
+11	näyttävät	näyttää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=134|end_char=143
+12	siltä	se	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	11	obl	_	start_char=144|end_char=149
+13	kuin	kuin	SCONJ	C	_	16	mark	_	start_char=150|end_char=154
+14	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj:cop	_	start_char=155|end_char=157
+15	olisivat	olla	AUX	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	16	cop	_	start_char=158|end_char=166
+16	lainassa	laina	NOUN	N	Case=Ine|Number=Sing	12	advcl	_	start_char=167|end_char=175
+17	Charlie	Charlie	PROPN	N	Case=Nom|Number=Sing	19	nmod:poss	_	start_char=176|end_char=183
+18	Brownin	Brown	PROPN	N	Case=Gen|Number=Sing	17	flat:name	_	start_char=184|end_char=191
+19	esityksestä	esitys	NOUN	N	Case=Ela|Number=Sing	16	nmod	_	start_char=192|end_char=203
+20	.	.	PUNCT	Punct	_	6	punct	_	start_char=203|end_char=204
+
+# text = Mutta suurin alakohta on poliittisesti korrektien hölmöily!
+# sent_id = 4
+1	Mutta	mutta	CCONJ	C	_	7	cc	_	start_char=205|end_char=210
+2	suurin	suuri	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	3	amod	_	start_char=211|end_char=217
+3	alakohta	ala#kohta	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=218|end_char=226
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=227|end_char=229
+5	poliittisesti	poliittisesti	ADV	Adv	Derivation=Sti	6	advmod	_	start_char=230|end_char=243
+6	korrektien	korrekti	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=244|end_char=254
+7	hölmöily	hölmöily	NOUN	N	Case=Nom|Derivation=U|Number=Sing	0	root	_	start_char=255|end_char=263
+8	!	!	PUNCT	Punct	_	7	punct	_	start_char=263|end_char=264
+
+# text = Harmi, että CBS vaatii ajamaan tätä peräkkäin vuoden 1969 klassikon kanssa.
+# sent_id = 5
+1	Harmi	harmi	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=265|end_char=270
+2	,	,	PUNCT	Punct	_	5	punct	_	start_char=270|end_char=271
+3	että	että	SCONJ	C	_	5	mark	_	start_char=272|end_char=276
+4	CBS	CBS	PROPN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=277|end_char=280
+5	vaatii	vaatia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:cop	_	start_char=281|end_char=287
+6	ajamaan	ajaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=288|end_char=295
+7	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	6	obj	_	start_char=296|end_char=300
+8	peräkkäin	peräkkäin	ADV	Adv	_	6	advmod	_	start_char=301|end_char=310
+9	vuoden	vuosi	NOUN	N	Case=Gen|Number=Sing	11	nmod:poss	_	start_char=311|end_char=317
+10	1969	1969	NUM	Num	NumType=Card	9	nummod	_	start_char=318|end_char=322
+11	klassikon	klassikko	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=323|end_char=332
+12	kanssa	kanssa	ADP	Adp	AdpType=Post	11	case	_	start_char=333|end_char=339
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=339|end_char=340
+

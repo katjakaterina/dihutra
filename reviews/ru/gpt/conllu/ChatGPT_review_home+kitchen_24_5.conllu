@@ -1,0 +1,94 @@
+# text = Прекрасно...
+# sent_id = 0
+1	Прекрасно	прекрасно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=0|end_char=9
+2	.	.	PUNCT	_	_	1	punct	_	start_char=9|end_char=10
+3	.	.	PUNCT	_	_	1	punct	_	start_char=10|end_char=11
+4	.	.	PUNCT	_	_	1	punct	_	start_char=11|end_char=12
+
+# text = Прекрасно во всех отношениях, хорошо написано, великолепные фотографии и отличные инструкции.
+# sent_id = 1
+1	Прекрасно	прекрасно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	advmod	_	start_char=13|end_char=22
+2	во	в	ADP	_	_	4	case	_	start_char=23|end_char=25
+3	всех	весь	DET	_	Case=Loc|Number=Plur|PronType=Tot	4	det	_	start_char=26|end_char=30
+4	отношениях	отношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	0	root	_	start_char=31|end_char=41
+5	,	,	PUNCT	_	_	7	punct	_	start_char=41|end_char=42
+6	хорошо	хорошо	ADV	_	Degree=Pos	7	advmod	_	start_char=43|end_char=49
+7	написано	писать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	parataxis	_	start_char=50|end_char=58
+8	,	,	PUNCT	_	_	7	punct	_	start_char=58|end_char=59
+9	великолепные	великолепный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=60|end_char=72
+10	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=73|end_char=83
+11	и	и	CCONJ	_	_	13	cc	_	start_char=84|end_char=85
+12	отличные	отличный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	start_char=86|end_char=94
+13	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	conj	_	start_char=95|end_char=105
+14	.	.	PUNCT	_	_	4	punct	_	start_char=105|end_char=106
+
+# text = .. это книга, которую "непременно следует иметь"....
+# sent_id = 2
+1	.	.	PUNCT	_	_	4	punct	_	start_char=106|end_char=107
+2	.	.	PUNCT	_	_	4	punct	_	start_char=107|end_char=108
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=109|end_char=112
+4	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=113|end_char=118
+5	,	,	PUNCT	_	_	9	punct	_	start_char=118|end_char=119
+6	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	10	obj	_	start_char=120|end_char=127
+7	"	"	PUNCT	_	_	9	punct	_	start_char=128|end_char=129
+8	непременно	непременно	ADV	_	Degree=Pos	9	advmod	_	start_char=129|end_char=139
+9	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=140|end_char=147
+10	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	csubj	_	start_char=148|end_char=153
+11	"	"	PUNCT	_	_	9	punct	_	start_char=153|end_char=154
+12	.	.	PUNCT	_	_	9	punct	_	start_char=154|end_char=155
+13	.	.	PUNCT	_	_	9	punct	_	start_char=155|end_char=156
+14	.	.	PUNCT	_	_	9	punct	_	start_char=156|end_char=157
+15	.	.	PUNCT	_	_	4	punct	_	start_char=157|end_char=158
+
+# text = независимо от того, используете ли вы ее в качестве журнального столика или справочной книги, она определенно "первый на полке"...
+# sent_id = 3
+1	независимо	независимо	ADV	_	Degree=Pos	20	advmod	_	start_char=159|end_char=169
+2	от	от	ADP	_	_	3	case	_	start_char=170|end_char=172
+3	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	obl	_	start_char=173|end_char=177
+4	,	,	PUNCT	_	_	5	punct	_	start_char=177|end_char=178
+5	используете	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	start_char=179|end_char=190
+6	ли	ли	PART	_	_	5	advmod	_	start_char=191|end_char=193
+7	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	5	nsubj	_	start_char=194|end_char=196
+8	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=197|end_char=199
+9	в	в	ADP	_	_	12	case	_	start_char=200|end_char=201
+10	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	fixed	_	start_char=202|end_char=210
+11	журнального	журнальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=211|end_char=222
+12	столика	столик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=223|end_char=230
+13	или	или	CCONJ	_	_	15	cc	_	start_char=231|end_char=234
+14	справочной	справочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=235|end_char=245
+15	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	start_char=246|end_char=251
+16	,	,	PUNCT	_	_	1	punct	_	start_char=251|end_char=252
+17	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	start_char=253|end_char=256
+18	определенно	определенно	ADV	_	Degree=Pos	20	advmod	_	start_char=257|end_char=268
+19	"	"	PUNCT	_	_	20	punct	_	start_char=269|end_char=270
+20	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=270|end_char=276
+21	на	на	ADP	_	_	22	case	_	start_char=277|end_char=279
+22	полке	полка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	start_char=280|end_char=285
+23	"	"	PUNCT	_	_	20	punct	_	start_char=285|end_char=286
+24	.	.	PUNCT	_	_	22	punct	_	start_char=286|end_char=287
+25	.	.	PUNCT	_	_	20	punct	_	start_char=287|end_char=288
+26	.	.	PUNCT	_	_	20	punct	_	start_char=288|end_char=289
+
+# text = Я также подарил(а) одну в подарок...
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=290|end_char=291
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	start_char=292|end_char=297
+3	подарил(	подарить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=298|end_char=306
+4	а	а	INTJ	_	_	3	discourse	_	start_char=306|end_char=307
+5	)	)	PUNCT	_	_	4	punct	_	start_char=307|end_char=308
+6	одну	один	NUM	_	Case=Acc|Gender=Fem|NumType=Card	3	obl	_	start_char=309|end_char=313
+7	в	в	ADP	_	_	8	case	_	start_char=314|end_char=315
+8	подарок	подарок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=316|end_char=323
+9	.	.	PUNCT	_	_	8	punct	_	start_char=323|end_char=324
+10	.	.	PUNCT	_	_	8	punct	_	start_char=324|end_char=325
+11	.	.	PUNCT	_	_	3	punct	_	start_char=325|end_char=326
+
+# text = получатель был поражен...
+# sent_id = 5
+1	получатель	получатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=327|end_char=337
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=338|end_char=341
+3	поражен	поразить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=342|end_char=349
+4	.	.	PUNCT	_	_	3	punct	_	start_char=349|end_char=350
+5	.	.	PUNCT	_	_	3	punct	_	start_char=350|end_char=351
+6	.	.	PUNCT	_	_	3	punct	_	start_char=351|end_char=352
+

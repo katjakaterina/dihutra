@@ -1,0 +1,88 @@
+# text = Vaatii herkkyyttä!
+# sent_id = 0
+1	Vaatii	vaatia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	herkkyyttä	herkkyys	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=7|end_char=17
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=17|end_char=18
+
+# text = Valmistaudu lumoutumaan kuvien kauneudesta, jonka värivalintasi luovat.
+# sent_id = 1
+1	Valmistaudu	valmistautua	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=30
+2	lumoutumaan	lumoutua	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=31|end_char=42
+3	kuvien	kuva	NOUN	N	Case=Gen|Number=Plur	4	nmod:poss	_	start_char=43|end_char=49
+4	kauneudesta	kauneus	NOUN	N	Case=Ela|Derivation=Vs|Number=Sing	2	obl	_	start_char=50|end_char=61
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=61|end_char=62
+6	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	8	obj	_	start_char=63|end_char=68
+7	värivalintasi	väri#valinta	NOUN	N	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	8	nsubj	_	start_char=69|end_char=82
+8	luovat	luoda	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=83|end_char=89
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=89|end_char=90
+
+# text = Väritettävät tilat ovat joskus hyvin pieniä ja vaativat tarkkaa työtä sekä vakaata kättä.
+# sent_id = 2
+1	Väritettävät	väritettävä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=91|end_char=103
+2	tilat	tila	NOUN	N	Case=Nom|Number=Plur	6	nsubj:cop	_	start_char=104|end_char=109
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=110|end_char=114
+4	joskus	joskus	ADV	Adv	_	6	advmod	_	start_char=115|end_char=121
+5	hyvin	hyvin	ADV	Adv	_	6	advmod	_	start_char=122|end_char=127
+6	pieniä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=128|end_char=134
+7	ja	ja	CCONJ	C	_	8	cc	_	start_char=135|end_char=137
+8	vaativat	vaatia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=138|end_char=146
+9	tarkkaa	tarkka	ADJ	A	Case=Par|Degree=Pos|Number=Sing	10	amod	_	start_char=147|end_char=154
+10	työtä	työ	NOUN	N	Case=Par|Number=Sing	8	obj	_	start_char=155|end_char=160
+11	sekä	sekä	CCONJ	C	_	13	cc	_	start_char=161|end_char=165
+12	vakaata	vakaa	ADJ	A	Case=Par|Degree=Pos|Number=Sing	13	amod	_	start_char=166|end_char=173
+13	kättä	käsi	NOUN	N	Case=Par|Number=Sing	10	conj	_	start_char=174|end_char=179
+14	.	.	PUNCT	Punct	_	6	punct	_	start_char=179|end_char=180
+
+# text = Kuitenkin palkinto on valtava.
+# sent_id = 3
+1	Kuitenkin	kuitenkin	ADV	Adv	_	4	advmod	_	start_char=181|end_char=190
+2	palkinto	palkinto	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=191|end_char=199
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=200|end_char=202
+4	valtava	valtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=203|end_char=210
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=210|end_char=211
+
+# text = Nämä kuvat ovat kauniisti tehtyjä, ja niiden parissa työskenteleminen inspiroi sinua.
+# sent_id = 4
+1	Nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=212|end_char=216
+2	kuvat	kuva	NOUN	N	Case=Nom|Number=Plur	5	nsubj:cop	_	start_char=217|end_char=222
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=223|end_char=227
+4	kauniisti	kauniisti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=228|end_char=237
+5	tehtyjä	tehdä	VERB	V	Case=Par|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=238|end_char=245
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=245|end_char=246
+7	ja	ja	CCONJ	C	_	11	cc	_	start_char=247|end_char=249
+8	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	10	nmod	_	start_char=250|end_char=256
+9	parissa	parissa	ADP	Adp	AdpType=Post	8	case	_	start_char=257|end_char=264
+10	työskenteleminen	työskenteleminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	11	nsubj	_	start_char=265|end_char=281
+11	inspiroi	inspiroida	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=282|end_char=290
+12	sinua	sinä	PRON	Pron	Case=Par|Number=Sing|Person=2|PronType=Prs	11	obj	_	start_char=291|end_char=296
+13	.	.	PUNCT	Punct	_	5	punct	_	start_char=296|end_char=297
+
+# text = Saatat haluta valokopioida sivut, jos haluat näyttää tai käyttää jokaista niistä, koska ne on painettu kaksipuolisesti.
+# sent_id = 5
+1	Saatat	saada	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=298|end_char=304
+2	haluta	haluta	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=305|end_char=311
+3	valokopioida	valokopioida	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=312|end_char=324
+4	sivut	sivu	NOUN	N	Case=Nom|Number=Plur	3	obj	_	start_char=325|end_char=330
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=330|end_char=331
+6	jos	jos	SCONJ	C	_	7	mark	_	start_char=332|end_char=335
+7	haluat	haluta	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=336|end_char=342
+8	näyttää	näyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=343|end_char=350
+9	tai	tai	CCONJ	C	_	10	cc	_	start_char=351|end_char=354
+10	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	conj	_	start_char=355|end_char=362
+11	jokaista	jokainen	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	8	obj	_	start_char=363|end_char=371
+12	niistä	se	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	8	obl	_	start_char=372|end_char=378
+13	,	,	PUNCT	Punct	_	17	punct	_	start_char=378|end_char=379
+14	koska	koska	SCONJ	C	_	17	mark	_	start_char=380|end_char=385
+15	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	17	obj	_	start_char=386|end_char=388
+16	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux:pass	_	start_char=389|end_char=391
+17	painettu	painaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=392|end_char=400
+18	kaksipuolisesti	kaksipuolisesti	ADV	Adv	Derivation=Sti	17	advmod	_	start_char=401|end_char=416
+19	.	.	PUNCT	Punct	_	2	punct	_	start_char=416|end_char=417
+
+# text = Todella kauniisti tehty!
+# sent_id = 6
+1	Todella	todella	ADV	Adv	_	2	advmod	_	start_char=418|end_char=425
+2	kauniisti	kauniisti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=426|end_char=435
+3	tehty	tehdä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=436|end_char=441
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=441|end_char=442
+

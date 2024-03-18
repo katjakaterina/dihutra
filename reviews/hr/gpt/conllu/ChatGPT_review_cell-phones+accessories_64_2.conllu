@@ -1,0 +1,76 @@
+# text = Sviđalo mi se na početku
+# sent_id = 0
+1	Sviđalo	sviđati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=7
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=8|end_char=10
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=11|end_char=13
+4	na	na	ADP	Sl	Case=Loc	5	case	_	start_char=14|end_char=16
+5	početku	početak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=17|end_char=24
+
+# text = Sviđao mi se ovaj slučaj kad sam ga prvi put primio, ali uskoro nakon toga, slučaj je počeo guliti.
+# sent_id = 1
+1	Sviđao	svići	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=25|end_char=31
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=32|end_char=34
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=35|end_char=37
+4	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=38|end_char=42
+5	slučaj	slučaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=43|end_char=49
+6	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	11	advmod	_	start_char=50|end_char=53
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=54|end_char=57
+8	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=58|end_char=60
+9	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=61|end_char=65
+10	put	put	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=66|end_char=69
+11	primio	primiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=70|end_char=76
+12	,	,	PUNCT	Z	_	20	punct	_	start_char=76|end_char=77
+13	ali	ali	CCONJ	Cc	_	20	cc	_	start_char=78|end_char=81
+14	uskoro	uskoro	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=82|end_char=88
+15	nakon	nakon	ADP	Sg	Case=Gen	16	case	_	start_char=89|end_char=94
+16	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	start_char=95|end_char=99
+17	,	,	PUNCT	Z	_	16	punct	_	start_char=99|end_char=100
+18	slučaj	slučaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=101|end_char=107
+19	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=108|end_char=110
+20	počeo	početi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=111|end_char=116
+21	guliti	guliti	VERB	Vmn	VerbForm=Inf	20	xcomp	_	start_char=117|end_char=123
+22	.	.	PUNCT	Z	_	1	punct	_	start_char=123|end_char=124
+
+# text = Prvo nisam znao što se događa dok nisam pogledao stražnju stranu slučaja i primijetio da nedostaju dijelovi.
+# sent_id = 2
+1	Prvo	prvo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=125|end_char=129
+2	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=130|end_char=135
+3	znao	znati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=136|end_char=140
+4	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	6	nsubj	_	start_char=141|end_char=144
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	start_char=145|end_char=147
+6	događa	događati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=148|end_char=154
+7	dok	dok	SCONJ	Cs	_	9	mark	_	start_char=155|end_char=158
+8	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=159|end_char=164
+9	pogledao	pogledati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	advcl	_	start_char=165|end_char=173
+10	stražnju	stražnji	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=174|end_char=182
+11	stranu	strana	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=183|end_char=189
+12	slučaja	slučaj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=190|end_char=197
+13	i	i	CCONJ	Cc	_	14	cc	_	start_char=198|end_char=199
+14	primijetio	primijetiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	start_char=200|end_char=210
+15	da	da	SCONJ	Cs	_	16	mark	_	start_char=211|end_char=213
+16	nedostaju	nedostajati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	start_char=214|end_char=223
+17	dijelovi	dio	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=224|end_char=232
+18	.	.	PUNCT	Z	_	3	punct	_	start_char=232|end_char=233
+
+# text = Izgleda da ponekad dobra ponuda zapravo nije dobra ponuda.
+# sent_id = 3
+1	Izgleda	izgledati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=234|end_char=241
+2	da	da	SCONJ	Cs	_	9	mark	_	start_char=242|end_char=244
+3	ponekad	ponekad	ADV	Rgp	Degree=Pos|PronType=Ind	9	advmod	_	start_char=245|end_char=252
+4	dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=253|end_char=258
+5	ponuda	ponuda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=259|end_char=265
+6	zapravo	zapravo	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=266|end_char=273
+7	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=274|end_char=278
+8	dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=279|end_char=284
+9	ponuda	ponuda	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	start_char=285|end_char=291
+10	.	.	PUNCT	Z	_	1	punct	_	start_char=291|end_char=292
+
+# text = Ne bih ga ponovno kupio.
+# sent_id = 4
+1	Ne	ne	PART	Qz	Polarity=Neg	5	advmod	_	start_char=293|end_char=295
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	start_char=296|end_char=299
+3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	start_char=300|end_char=302
+4	ponovno	ponovno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=303|end_char=310
+5	kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=311|end_char=316
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=316|end_char=317
+

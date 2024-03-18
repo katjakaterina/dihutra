@@ -1,0 +1,123 @@
+# text = Люблю эту игру.
+# sent_id = 0
+1	Люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=6|end_char=9
+3	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=10|end_char=14
+4	.	.	PUNCT	_	_	1	punct	_	start_char=14|end_char=15
+
+# text = Хочу начать с того, что я никогда не играл в игры серии Call of Duty.
+# sent_id = 1
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=20
+2	начать	начать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=21|end_char=27
+3	с	с	ADP	_	_	4	case	_	start_char=28|end_char=29
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	obl	_	start_char=30|end_char=34
+5	,	,	PUNCT	_	_	10	punct	_	start_char=34|end_char=35
+6	что	что	SCONJ	_	_	10	mark	_	start_char=36|end_char=39
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=40|end_char=41
+8	никогда	никогда	ADV	_	Degree=Pos	10	advmod	_	start_char=42|end_char=49
+9	не	не	PART	_	_	10	advmod	_	start_char=50|end_char=52
+10	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	start_char=53|end_char=58
+11	в	в	ADP	_	_	12	case	_	start_char=59|end_char=60
+12	игры	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obl	_	start_char=61|end_char=65
+13	серии	серия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=66|end_char=71
+14	Call	Call	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=72|end_char=76
+15	of	of	X	_	Foreign=Yes	13	flat:foreign	_	start_char=77|end_char=79
+16	Duty	Duty	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=80|end_char=84
+17	.	.	PUNCT	_	_	1	punct	_	start_char=84|end_char=85
+
+# text = Это всего лишь вторая игра от первого лица, которая у меня есть.
+# sent_id = 2
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=86|end_char=89
+2	всего	всего	PART	_	_	3	advmod	_	start_char=90|end_char=95
+3	лишь	лишь	PART	_	_	4	advmod	_	start_char=96|end_char=100
+4	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=101|end_char=107
+5	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=108|end_char=112
+6	от	от	ADP	_	_	8	case	_	start_char=113|end_char=115
+7	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=116|end_char=123
+8	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=124|end_char=128
+9	,	,	PUNCT	_	_	12	punct	_	start_char=128|end_char=129
+10	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	12	nsubj	_	start_char=130|end_char=137
+11	у	у	ADP	_	_	12	case	_	start_char=138|end_char=139
+12	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	acl:relcl	_	start_char=140|end_char=144
+13	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=145|end_char=149
+14	.	.	PUNCT	_	_	5	punct	_	start_char=149|end_char=150
+
+# text = Мне кажется, что она очень веселая.
+# sent_id = 3
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=151|end_char=154
+2	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=155|end_char=162
+3	,	,	PUNCT	_	_	7	punct	_	start_char=162|end_char=163
+4	что	что	SCONJ	_	_	7	mark	_	start_char=164|end_char=167
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=168|end_char=171
+6	очень	очень	ADV	_	Degree=Pos	7	obl	_	start_char=172|end_char=177
+7	веселая	веселый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	ccomp	_	start_char=178|end_char=185
+8	.	.	PUNCT	_	_	2	punct	_	start_char=185|end_char=186
+
+# text = У игры хорорафика и хороший сюжет.
+# sent_id = 4
+1	У	у	ADP	_	_	2	case	_	start_char=187|end_char=188
+2	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=189|end_char=193
+3	хорорафика	хорорафика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=194|end_char=204
+4	и	и	CCONJ	_	_	6	cc	_	start_char=205|end_char=206
+5	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=207|end_char=214
+6	сюжет	сюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	start_char=215|end_char=220
+7	.	.	PUNCT	_	_	2	punct	_	start_char=220|end_char=221
+
+# text = Прохождение уровней требует навыка.
+# sent_id = 5
+1	Прохождение	прохождение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=222|end_char=233
+2	уровней	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=234|end_char=241
+3	требует	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=242|end_char=249
+4	навыка	навык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=250|end_char=256
+5	.	.	PUNCT	_	_	3	punct	_	start_char=256|end_char=257
+
+# text = Я считаю, что все игроки могут насладиться этой игрой.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=258|end_char=259
+2	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=260|end_char=266
+3	,	,	PUNCT	_	_	7	punct	_	start_char=266|end_char=267
+4	что	что	SCONJ	_	_	7	mark	_	start_char=268|end_char=271
+5	все	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	6	det	_	start_char=272|end_char=275
+6	игроки	игрок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=276|end_char=282
+7	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=283|end_char=288
+8	насладиться	насладиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	7	xcomp	_	start_char=289|end_char=300
+9	этой	этот	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=301|end_char=305
+10	игрой	игра	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	start_char=306|end_char=311
+11	.	.	PUNCT	_	_	2	punct	_	start_char=311|end_char=312
+
+# text = Есть три уровня сложности на выбор в зависимости от вашего уровня навыков.
+# sent_id = 7
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=313|end_char=317
+2	три	три	NUM	_	Case=Nom|NumType=Card	3	nummod:gov	_	start_char=318|end_char=321
+3	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nsubj	_	start_char=322|end_char=328
+4	сложности	сложность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=329|end_char=338
+5	на	на	ADP	_	_	6	case	_	start_char=339|end_char=341
+6	выбор	выбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	start_char=342|end_char=347
+7	в	в	ADP	_	_	8	case	_	start_char=348|end_char=349
+8	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	start_char=350|end_char=361
+9	от	от	ADP	_	_	11	case	_	start_char=362|end_char=364
+10	вашего	ваш	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=365|end_char=371
+11	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=372|end_char=378
+12	навыков	навык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=379|end_char=386
+13	.	.	PUNCT	_	_	1	punct	_	start_char=386|end_char=387
+
+# text = Если вы ищете игру от первого лица с современной военной тематикой, то это хороший выбор.
+# sent_id = 8
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=388|end_char=392
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=393|end_char=395
+3	ищете	искать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	16	advcl	_	start_char=396|end_char=401
+4	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=402|end_char=406
+5	от	от	ADP	_	_	7	case	_	start_char=407|end_char=409
+6	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=410|end_char=417
+7	лица	лицо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=418|end_char=422
+8	с	с	ADP	_	_	11	case	_	start_char=423|end_char=424
+9	современной	современный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=425|end_char=436
+10	военной	военный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=437|end_char=444
+11	тематикой	тематика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	nmod	_	start_char=445|end_char=454
+12	,	,	PUNCT	_	_	3	punct	_	start_char=454|end_char=455
+13	то	то	SCONJ	_	_	16	mark	_	start_char=456|end_char=458
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	start_char=459|end_char=462
+15	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=463|end_char=470
+16	выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=471|end_char=476
+17	.	.	PUNCT	_	_	16	punct	_	start_char=476|end_char=477
+

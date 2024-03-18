@@ -1,0 +1,99 @@
+# text = Nije za brda
+# sent_id = 0
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=5|end_char=7
+3	brda	brd	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	start_char=8|end_char=12
+
+# text = Nisam siguran kako sam propustio tu važnu napomenu, ali jesam.
+# sent_id = 1
+1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=13|end_char=18
+2	siguran	siguran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=19|end_char=26
+3	kako	kako	SCONJ	Cs	_	5	mark	_	start_char=27|end_char=31
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=32|end_char=35
+5	propustio	propustiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	csubj	_	start_char=36|end_char=45
+6	tu	taj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=46|end_char=48
+7	važnu	važan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=49|end_char=54
+8	napomenu	napomen	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	obj	_	start_char=55|end_char=63
+9	,	,	PUNCT	Z	_	11	punct	_	start_char=63|end_char=64
+10	ali	ali	CCONJ	Cc	_	11	cc	_	start_char=65|end_char=68
+11	jesam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=69|end_char=74
+12	.	.	PUNCT	Z	_	2	punct	_	start_char=74|end_char=75
+
+# text = Ne vidim da je to jasno navedeno ni na Scottovoj strani.
+# sent_id = 2
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=76|end_char=78
+2	vidim	vidjeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=79|end_char=84
+3	da	da	SCONJ	Cs	_	7	mark	_	start_char=85|end_char=87
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=88|end_char=90
+5	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=91|end_char=93
+6	jasno	jasno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=94|end_char=99
+7	navedeno	navesti	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	2	ccomp	_	start_char=100|end_char=108
+8	ni	ni	CCONJ	Cc	_	11	discourse	_	start_char=109|end_char=111
+9	na	na	ADP	Sl	Case=Loc	11	case	_	start_char=112|end_char=114
+10	Scottovoj	scottov	ADJ	Aspfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	11	amod	_	start_char=115|end_char=124
+11	strani	strana	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=125|end_char=131
+12	.	.	PUNCT	Z	_	2	punct	_	start_char=131|end_char=132
+
+# text = Ovaj određeni model s četiri kotača gotovo je nemoguće koristiti na brdima.
+# sent_id = 3
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=133|end_char=137
+2	određeni	određen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=138|end_char=146
+3	model	model	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=147|end_char=152
+4	s	sa	ADP	Si	Case=Ins	6	case	_	start_char=153|end_char=154
+5	četiri	četiri	NUM	Mlc	NumType=Card	6	nummod	_	start_char=155|end_char=161
+6	kotača	kotač	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=162|end_char=168
+7	gotovo	gotovo	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=169|end_char=175
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=176|end_char=178
+9	nemoguće	nemoguće	ADV	Rgp	Degree=Pos	0	root	_	start_char=179|end_char=187
+10	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=188|end_char=197
+11	na	na	ADP	Sl	Case=Loc	12	case	_	start_char=198|end_char=200
+12	brdima	brdo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	10	obl	_	start_char=201|end_char=207
+13	.	.	PUNCT	Z	_	9	punct	_	start_char=207|end_char=208
+
+# text = Jednostavno nema dovoljno poluge za košenje trave.
+# sent_id = 4
+1	Jednostavno	jednostavno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=209|end_char=220
+2	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=221|end_char=225
+3	dovoljno	dovoljno	DET	Rgp	Degree=Pos	4	det:numgov	_	start_char=226|end_char=234
+4	poluge	poluga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	start_char=235|end_char=241
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=242|end_char=244
+6	košenje	košenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=245|end_char=252
+7	trave	trava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=253|end_char=258
+8	.	.	PUNCT	Z	_	2	punct	_	start_char=258|end_char=259
+
+# text = Tako da se vraćam kosilici.
+# sent_id = 5
+1	Tako	tako	SCONJ	Cs	_	4	mark	_	start_char=260|end_char=264
+2	da	da	SCONJ	Cs	_	1	fixed	_	start_char=265|end_char=267
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=268|end_char=270
+4	vraćam	vraćati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=271|end_char=277
+5	kosilici	kosilica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	4	obj	_	start_char=278|end_char=286
+6	.	.	PUNCT	Z	_	4	punct	_	start_char=286|end_char=287
+
+# text = Ono što ću reći je da dobro reže na ravnim površinama, ali zahtijeva malo više napora nego što sam mislio za guranje.
+# sent_id = 6
+1	Ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=288|end_char=291
+2	što	što	PRON	Pi3n-n	Case=Acc|Gender=Neut|PronType=Int,Rel	4	obj	_	start_char=292|end_char=295
+3	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=296|end_char=298
+4	reći	reći	VERB	Vmn	VerbForm=Inf	1	acl	_	start_char=299|end_char=303
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=304|end_char=306
+6	da	da	SCONJ	Cs	_	8	mark	_	start_char=307|end_char=309
+7	dobro	dobro	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=310|end_char=315
+8	reže	režati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=316|end_char=320
+9	na	na	ADP	Sl	Case=Loc	11	case	_	start_char=321|end_char=323
+10	ravnim	ravni	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=324|end_char=330
+11	površinama	površina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	obl	_	start_char=331|end_char=341
+12	,	,	PUNCT	Z	_	14	punct	_	start_char=341|end_char=342
+13	ali	ali	CCONJ	Cc	_	14	cc	_	start_char=343|end_char=346
+14	zahtijeva	zahtijevati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=347|end_char=356
+15	malo	malo	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=357|end_char=361
+16	više	mnogo	DET	Rgc	Degree=Cmp	17	det:numgov	_	start_char=362|end_char=366
+17	napora	napor	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	obj	_	start_char=367|end_char=373
+18	nego	nego	CCONJ	Cc	_	21	mark	_	start_char=374|end_char=378
+19	što	što	SCONJ	Cs	_	18	fixed	_	start_char=379|end_char=382
+20	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=383|end_char=386
+21	mislio	misliti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	advcl	_	start_char=387|end_char=393
+22	za	za	ADP	Sa	Case=Acc	23	case	_	start_char=394|end_char=396
+23	guranje	guranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	21	obl	_	start_char=397|end_char=404
+24	.	.	PUNCT	Z	_	5	punct	_	start_char=404|end_char=405
+

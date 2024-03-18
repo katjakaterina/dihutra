@@ -1,0 +1,97 @@
+# text = Divno!!!
+# sent_id = 0
+1	Divno	divan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=5
+2	!	!	PUNCT	Z	_	1	punct	_	start_char=5|end_char=6
+3	!!	!!	PUNCT	Z	_	1	punct	_	start_char=6|end_char=8
+
+# text = Imao sam kasetu ovog snimka i znao sam da ga volim.
+# sent_id = 1
+1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=9|end_char=13
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=14|end_char=17
+3	kasetu	kaset	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=18|end_char=24
+4	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=25|end_char=29
+5	snimka	snimka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=30|end_char=36
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=37|end_char=38
+7	znao	znati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=39|end_char=43
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=44|end_char=47
+9	da	da	SCONJ	Cs	_	11	mark	_	start_char=48|end_char=50
+10	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	start_char=51|end_char=53
+11	volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=54|end_char=59
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=59|end_char=60
+
+# text = Kupio sam nekoliko ovih CD-ova kako bih ih mogao podijeliti s nećacima, prijateljima i zadržati jedan za sebe.
+# sent_id = 2
+1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=61|end_char=66
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=67|end_char=70
+3	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	5	det:numgov	_	start_char=71|end_char=79
+4	ovih	ovaj	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	start_char=80|end_char=84
+5	CD-ova	CD-ov	ADJ	Aspmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|Poss=Yes	1	obj	_	start_char=85|end_char=91
+6	kako	kako	SCONJ	Cs	_	9	mark	_	start_char=92|end_char=96
+7	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	start_char=97|end_char=100
+8	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	start_char=101|end_char=103
+9	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=104|end_char=109
+10	podijeliti	podijeliti	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=110|end_char=120
+11	s	sa	ADP	Si	Case=Ins	12	case	_	start_char=121|end_char=122
+12	nećacima	nećak	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	10	obl	_	start_char=123|end_char=131
+13	,	,	PUNCT	Z	_	14	punct	_	start_char=131|end_char=132
+14	prijateljima	prijatelj	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	12	conj	_	start_char=133|end_char=145
+15	i	i	CCONJ	Cc	_	16	cc	_	start_char=146|end_char=147
+16	zadržati	zadržati	VERB	Vmn	VerbForm=Inf	10	conj	_	start_char=148|end_char=156
+17	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	16	obj	_	start_char=157|end_char=162
+18	za	za	ADP	Sa	Case=Acc	19	case	_	start_char=163|end_char=165
+19	sebe	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	16	obl	_	start_char=166|end_char=170
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=170|end_char=171
+
+# text = Vrlo nježan i jednostavan za usnivanje.
+# sent_id = 3
+1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=172|end_char=176
+2	nježan	nježan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=177|end_char=183
+3	i	i	CCONJ	Cc	_	4	cc	_	start_char=184|end_char=185
+4	jednostavan	jednostavan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	start_char=186|end_char=197
+5	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=198|end_char=200
+6	usnivanje	usnivanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=201|end_char=210
+7	.	.	PUNCT	Z	_	2	punct	_	start_char=210|end_char=211
+
+# text = Riječi se jasno pjevaju i razumljive su.
+# sent_id = 4
+1	Riječi	riječ	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=212|end_char=218
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=219|end_char=221
+3	jasno	jasno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=222|end_char=227
+4	pjevaju	pjevati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=228|end_char=235
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=236|end_char=237
+6	razumljive	razumljiv	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	start_char=238|end_char=248
+7	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=249|end_char=251
+8	.	.	PUNCT	Z	_	4	punct	_	start_char=251|end_char=252
+
+# text = To mi je bila blagoslov koji sam želio pronaći i prenijeti drugima.
+# sent_id = 5
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=253|end_char=255
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obj	_	start_char=256|end_char=258
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=259|end_char=261
+4	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=262|end_char=266
+5	blagoslov	blagoslov	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=267|end_char=276
+6	koji	koji	DET	Pi-msn	Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	8	obj	_	start_char=277|end_char=281
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=282|end_char=285
+8	želio	željeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=286|end_char=291
+9	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=292|end_char=299
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=300|end_char=301
+11	prenijeti	prenijeti	VERB	Vmn	VerbForm=Inf	9	conj	_	start_char=302|end_char=311
+12	drugima	drugi	ADJ	Mlompd	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	11	obj	_	start_char=312|end_char=319
+13	.	.	PUNCT	Z	_	5	punct	_	start_char=319|end_char=320
+
+# text = Izvrsno za djecu - bio sam dijete kad me baka darovala kasetom.
+# sent_id = 6
+1	Izvrsno	izvrsno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=321|end_char=328
+2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=329|end_char=331
+3	djecu	dijete	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	start_char=332|end_char=337
+4	-	-	PUNCT	Z	_	1	punct	_	start_char=338|end_char=339
+5	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	start_char=340|end_char=343
+6	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=344|end_char=347
+7	dijete	dijete	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=348|end_char=354
+8	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	11	advmod	_	start_char=355|end_char=358
+9	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	start_char=359|end_char=361
+10	baka	baka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=362|end_char=366
+11	darovala	darovati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=367|end_char=375
+12	kasetom	kaset	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	start_char=376|end_char=383
+13	.	.	PUNCT	Z	_	7	punct	_	start_char=383|end_char=384
+

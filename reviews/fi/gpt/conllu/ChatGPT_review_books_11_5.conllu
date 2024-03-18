@@ -1,0 +1,70 @@
+# text = Käsiä taputtavaa, varpaita naputtavaa vanhaa musiikkia
+# sent_id = 0
+1	Käsiä	käsi	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=0|end_char=5
+2	taputtavaa	taputtaa	VERB	V	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	7	acl	_	start_char=6|end_char=16
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=16|end_char=17
+4	varpaita	varvas	NOUN	N	Case=Par|Number=Plur	5	obj	_	start_char=18|end_char=26
+5	naputtavaa	naputtaa	VERB	V	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	7	acl	_	start_char=27|end_char=37
+6	vanhaa	vanha	ADJ	A	Case=Par|Degree=Pos|Number=Sing	7	amod	_	start_char=38|end_char=44
+7	musiikkia	musiikki	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=45|end_char=54
+
+# text = Käytämme tätä virsikirjaa lähetystyössämme.
+# sent_id = 1
+1	Käytämme	käyttää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=55|end_char=63
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	det	_	start_char=64|end_char=68
+3	virsikirjaa	virsi#kirja	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=69|end_char=80
+4	lähetystyössämme	lähetys#työ	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=1	1	obl	_	start_char=81|end_char=97
+5	.	.	PUNCT	Punct	_	1	punct	_	start_char=97|end_char=98
+
+# text = Siinä on suurin osa ajan patinoimista rakastetuista vanhoista kappaleista.
+# sent_id = 2
+1	Siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=99|end_char=104
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=105|end_char=107
+3	suurin	suuri	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	4	amod	_	start_char=108|end_char=114
+4	osa	osa	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=115|end_char=118
+5	ajan	aika	NOUN	N	Case=Gen|Number=Sing	6	nsubj	_	start_char=119|end_char=123
+6	patinoimista	patinoida	VERB	V	Case=Ela|Number=Plur|PartForm=Agt|VerbForm=Part|Voice=Act	9	acl	_	start_char=124|end_char=136
+7	rakastetuista	rakastaa	VERB	V	Case=Ela|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	9	acl	_	start_char=137|end_char=150
+8	vanhoista	vanha	ADJ	A	Case=Ela|Degree=Pos|Number=Plur	9	amod	_	start_char=151|end_char=160
+9	kappaleista	kappale	NOUN	N	Case=Ela|Number=Plur	4	nmod	_	start_char=161|end_char=172
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=172|end_char=173
+
+# text = Lauluja kuten: "Lennän pois" ja "Lähempänä Käy Kanssasi".
+# sent_id = 3
+1	Lauluja	laulu	NOUN	N	Case=Par|Number=Plur	5	obj	_	start_char=174|end_char=181
+2	kuten	kuten	ADV	Adv	_	5	advmod	_	start_char=182|end_char=187
+3	:	:	PUNCT	Punct	_	5	punct	_	start_char=187|end_char=188
+4	"	"	PUNCT	Punct	_	5	punct	_	start_char=189|end_char=190
+5	Lennän	lentää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=190|end_char=196
+6	pois	pois	ADV	Adv	_	5	advmod	_	start_char=197|end_char=201
+7	"	"	PUNCT	Punct	_	11	punct	_	start_char=201|end_char=202
+8	ja	ja	CCONJ	C	_	11	cc	_	start_char=203|end_char=205
+9	"	"	PUNCT	Punct	_	11	punct	_	start_char=206|end_char=207
+10	Lähempänä	lähempänä	ADV	Adv	_	11	advmod	_	start_char=207|end_char=216
+11	Käy	käydä	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	5	conj	_	start_char=217|end_char=220
+12	Kanssasi	kanssa	ADV	Adv	Number[psor]=Sing|Person[psor]=2	11	advmod	_	start_char=221|end_char=229
+13	"	"	PUNCT	Punct	_	11	punct	_	start_char=229|end_char=230
+14	.	.	PUNCT	Punct	_	5	punct	_	start_char=230|end_char=231
+
+# text = Jos pidät yhteislauluista, tulet todella nauttimaan "Taivaallisten valtateiden virsistä".
+# sent_id = 4
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=232|end_char=235
+2	pidät	pitää	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=236|end_char=241
+3	yhteislauluista	yhteis#laulu	NOUN	N	Case=Ela|Number=Plur	2	obl	_	start_char=242|end_char=257
+4	,	,	PUNCT	Punct	_	2	punct	_	start_char=257|end_char=258
+5	tulet	tulla	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=259|end_char=264
+6	todella	todella	ADV	Adv	_	5	advmod	_	start_char=265|end_char=272
+7	nauttimaan	nauttia	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=273|end_char=283
+8	"	"	PUNCT	Punct	_	11	punct	_	start_char=284|end_char=285
+9	Taivaallisten	taivaallinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Plur	10	amod	_	start_char=285|end_char=298
+10	valtateiden	valta#tie	NOUN	N	Case=Gen|Number=Plur	11	nmod:poss	_	start_char=299|end_char=310
+11	virsistä	virsi	NOUN	N	Case=Ela|Number=Sing	7	obl	_	start_char=311|end_char=319
+12	"	"	PUNCT	Punct	_	11	punct	_	start_char=319|end_char=320
+13	.	.	PUNCT	Punct	_	5	punct	_	start_char=320|end_char=321
+
+# text = Ole siunattu.
+# sent_id = 5
+1	Ole	olla	AUX	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	aux:pass	_	start_char=322|end_char=325
+2	siunattu	siunata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=326|end_char=334
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=334|end_char=335
+

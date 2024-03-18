@@ -1,0 +1,58 @@
+# text = Akku kuoli heti.
+# sent_id = 0
+1	Akku	akku	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=0|end_char=4
+2	kuoli	kuolla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=5|end_char=10
+3	heti	heti	ADV	Adv	_	2	advmod	_	start_char=11|end_char=15
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=15|end_char=16
+
+# text = Haluaisin antaa tälle korkeamman arvion.
+# sent_id = 1
+1	Haluaisin	haluta	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=26
+2	antaa	antaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=27|end_char=32
+3	tälle	tämä	PRON	Pron	Case=All|Number=Sing|PronType=Dem	2	obl	_	start_char=33|end_char=38
+4	korkeamman	korkea	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	5	amod	_	start_char=39|end_char=49
+5	arvion	arvio	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=50|end_char=56
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=56|end_char=57
+
+# text = Se vaikuttaa niin upealta konseptilta, ja olin niin innoissani saadessani sen pojalleni.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=58|end_char=60
+2	vaikuttaa	vaikuttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=61|end_char=70
+3	niin	niin	ADV	Adv	_	4	advmod	_	start_char=71|end_char=75
+4	upealta	upea	ADJ	A	Case=Abl|Degree=Pos|Number=Sing	5	amod	_	start_char=76|end_char=83
+5	konseptilta	konsepti	NOUN	N	Case=Abl|Number=Sing	2	obl	_	start_char=84|end_char=95
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=95|end_char=96
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=97|end_char=99
+8	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=100|end_char=104
+9	niin	niin	ADV	Adv	_	10	advmod	_	start_char=105|end_char=109
+10	innoissani	innoissann	ADV	Adv	Number[psor]=Sing|Person[psor]=1	2	conj	_	start_char=110|end_char=120
+11	saadessani	saada	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=121|end_char=131
+12	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	obj	_	start_char=132|end_char=135
+13	pojalleni	poika	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	11	obl	_	start_char=136|end_char=145
+14	.	.	PUNCT	Punct	_	2	punct	_	start_char=145|end_char=146
+
+# text = Mutta akku kuoli 2 päivää sen saamisen jälkeen ja tietysti se vaatii pienen kalliin erikoisakun.
+# sent_id = 3
+1	Mutta	mutta	CCONJ	C	_	3	cc	_	start_char=147|end_char=152
+2	akku	akku	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=153|end_char=157
+3	kuoli	kuolla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=158|end_char=163
+4	2	2	NUM	Num	NumType=Card	5	nummod	_	start_char=164|end_char=165
+5	päivää	päivä	NOUN	N	Case=Par|Number=Sing	3	obl	_	start_char=166|end_char=172
+6	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	7	nmod:gobj	_	start_char=173|end_char=176
+7	saamisen	saaminen	NOUN	N	Case=Gen|Derivation=Minen|Number=Sing	3	obl	_	start_char=177|end_char=185
+8	jälkeen	jälkeen	ADP	Adp	AdpType=Post	7	case	_	start_char=186|end_char=193
+9	ja	ja	CCONJ	C	_	12	cc	_	start_char=194|end_char=196
+10	tietysti	tietysti	ADV	Adv	Derivation=Sti	12	advmod	_	start_char=197|end_char=205
+11	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	start_char=206|end_char=208
+12	vaatii	vaatia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=209|end_char=215
+13	pienen	pieni	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	15	amod	_	start_char=216|end_char=222
+14	kalliin	kallis	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	15	amod	_	start_char=223|end_char=230
+15	erikoisakun	erikois#akku	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=231|end_char=242
+16	.	.	PUNCT	Punct	_	3	punct	_	start_char=242|end_char=243
+
+# text = Ei vakuuttunut.
+# sent_id = 4
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=244|end_char=246
+2	vakuuttunut	vakuuttua	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=247|end_char=258
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=258|end_char=259
+

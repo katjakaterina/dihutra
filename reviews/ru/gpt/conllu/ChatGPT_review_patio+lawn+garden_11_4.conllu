@@ -1,0 +1,87 @@
+# text = Вы изменили формулу резины ???
+# sent_id = 0
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=0|end_char=2
+2	изменили	изменить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=11
+3	формулу	формула	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=12|end_char=19
+4	резины	резина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=20|end_char=26
+5	?	?	PUNCT	_	_	4	punct	_	start_char=27|end_char=28
+6	?	?	PUNCT	_	_	4	punct	_	start_char=28|end_char=29
+7	?	?	PUNCT	_	_	2	punct	_	start_char=29|end_char=30
+
+# text = Эй, Gilmore, я покупаю ваши шланги уже много лет, и только ваши шланги.
+# sent_id = 1
+1	Эй	эй	INTJ	_	_	6	parataxis	_	start_char=31|end_char=33
+2	,	,	PUNCT	_	_	1	punct	_	start_char=33|end_char=34
+3	Gilmore	Gilmore	PROPN	_	Foreign=Yes	6	parataxis	_	start_char=35|end_char=42
+4	,	,	PUNCT	_	_	3	punct	_	start_char=42|end_char=43
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=44|end_char=45
+6	покупаю	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=46|end_char=53
+7	ваши	ваш	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs	8	det	_	start_char=54|end_char=58
+8	шланги	шланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	start_char=59|end_char=65
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	start_char=66|end_char=69
+10	много	много	NUM	_	NumType=Card	11	nummod:gov	_	start_char=70|end_char=75
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	start_char=76|end_char=79
+12	,	,	PUNCT	_	_	16	punct	_	start_char=79|end_char=80
+13	и	и	CCONJ	_	_	16	cc	_	start_char=81|end_char=82
+14	только	только	PART	_	_	15	advmod	_	start_char=83|end_char=89
+15	ваши	ваш	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	16	det	_	start_char=90|end_char=94
+16	шланги	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	start_char=95|end_char=101
+17	.	.	PUNCT	_	_	6	punct	_	start_char=101|end_char=102
+
+# text = Вы поддерживаете свой продукт и предоставляете отличную клиентскую поддержку.
+# sent_id = 2
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=103|end_char=105
+2	поддерживаете	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=106|end_char=119
+3	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	start_char=120|end_char=124
+4	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=125|end_char=132
+5	и	и	CCONJ	_	_	6	cc	_	start_char=133|end_char=134
+6	предоставляете	предоставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=135|end_char=149
+7	отличную	отличный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=150|end_char=158
+8	клиентскую	клиентский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=159|end_char=169
+9	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=170|end_char=179
+10	.	.	PUNCT	_	_	2	punct	_	start_char=179|end_char=180
+
+# text = Но я дам вам всего 4 звезды, потому что этот шланг и 100-футовый шланг, который я купил несколько месяцев назад, кажется, больше складываются, чем мои старые Flexogen.
+# sent_id = 3
+1	Но	но	CCONJ	_	_	3	cc	_	start_char=181|end_char=183
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=184|end_char=185
+3	дам	дать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=186|end_char=189
+4	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=190|end_char=193
+5	всего	всего	ADV	_	Degree=Pos	6	advmod	_	start_char=194|end_char=199
+6	4	4	NUM	_	NumType=Card	7	nummod	_	start_char=200|end_char=201
+7	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obj	_	start_char=202|end_char=208
+8	,	,	PUNCT	_	_	27	punct	_	start_char=208|end_char=209
+9	потому	потому	ADV	_	Degree=Pos	27	mark	_	start_char=210|end_char=216
+10	что	что	SCONJ	_	_	9	fixed	_	start_char=217|end_char=220
+11	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=221|end_char=225
+12	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	start_char=226|end_char=231
+13	и	и	CCONJ	_	_	15	cc	_	start_char=232|end_char=233
+14	100-футовый	100-футовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=234|end_char=245
+15	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	start_char=246|end_char=251
+16	,	,	PUNCT	_	_	19	punct	_	start_char=251|end_char=252
+17	который	который	PRON	_	Case=Acc|PronType=Int,Rel	19	obj	_	start_char=253|end_char=260
+18	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	start_char=261|end_char=262
+19	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=263|end_char=268
+20	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	21	nummod	_	start_char=269|end_char=278
+21	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	start_char=279|end_char=286
+22	назад	назад	ADV	_	Degree=Pos	21	advmod	_	start_char=287|end_char=292
+23	,	,	PUNCT	_	_	12	punct	_	start_char=292|end_char=293
+24	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	27	parataxis	_	start_char=294|end_char=301
+25	,	,	PUNCT	_	_	24	punct	_	start_char=301|end_char=302
+26	больше	больше	ADV	_	Degree=Cmp	27	advmod	_	start_char=303|end_char=309
+27	складываются	складываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	start_char=310|end_char=322
+28	,	,	PUNCT	_	_	32	punct	_	start_char=322|end_char=323
+29	чем	чем	SCONJ	_	_	32	mark	_	start_char=324|end_char=327
+30	мои	мой	DET	_	Case=Nom|Number=Plur|Poss=Yes|PronType=Prs	32	det	_	start_char=328|end_char=331
+31	старые	старый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	start_char=332|end_char=338
+32	Flexogen	Flexogen	PROPN	_	Foreign=Yes	26	advcl	_	start_char=339|end_char=347
+33	.	.	PUNCT	_	_	3	punct	_	start_char=347|end_char=348
+
+# text = Не уверен, почему?
+# sent_id = 4
+1	Не	не	PART	_	_	2	advmod	_	start_char=349|end_char=351
+2	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=352|end_char=358
+3	,	,	PUNCT	_	_	4	punct	_	start_char=358|end_char=359
+4	почему	почему	ADV	_	Degree=Pos	2	advmod	_	start_char=360|end_char=366
+5	?	?	PUNCT	_	_	2	punct	_	start_char=366|end_char=367
+

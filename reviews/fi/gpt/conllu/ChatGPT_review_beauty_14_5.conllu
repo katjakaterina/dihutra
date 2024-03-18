@@ -1,0 +1,73 @@
+# text = """Erinomainen tuote."
+# sent_id = 0
+1	"	"	PUNCT	Punct	_	5	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Punct	_	5	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Punct	_	5	punct	_	start_char=2|end_char=3
+4	Erinomainen	erinomainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	5	amod	_	start_char=3|end_char=14
+5	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=15|end_char=20
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=20|end_char=21
+7	"	"	PUNCT	Punct	_	5	punct	_	start_char=21|end_char=22
+
+# text = Tämä juttu on uskomaton.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=23|end_char=27
+2	juttu	juttu	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=28|end_char=33
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=34|end_char=36
+4	uskomaton	uskomaton	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	0	root	_	start_char=37|end_char=46
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=46|end_char=47
+
+# text = Erinomainen tuote.
+# sent_id = 2
+1	Erinomainen	erinomainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	2	amod	_	start_char=48|end_char=59
+2	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=60|end_char=65
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=65|end_char=66
+
+# text = Pitää silmänrajaus- ja ripsivärit paikoillaan koko päivän ja yön... ja jos juhlit liian kovaa ja nukahdat meikkisi päällä, voit olla varma, että se on edelleen paikoillaan aamulla!
+# sent_id = 3
+1	Pitää	pitää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=67|end_char=72
+2	silmänrajaus-	silmän#rajaus	NOUN	N	Case=Nom|Number=Sing	1	obj	_	start_char=73|end_char=86
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=87|end_char=89
+4	ripsivärit	ripsi#väri	NOUN	N	Case=Nom|Number=Plur	2	conj	_	start_char=90|end_char=100
+5	paikoillaan	paikoillaan	ADV	Adv	_	1	advmod	_	start_char=101|end_char=112
+6	koko	koko	ADJ	A	_	7	amod	_	start_char=113|end_char=117
+7	päivän	päivä	NOUN	N	Case=Gen|Number=Sing	1	obl	_	start_char=118|end_char=124
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=125|end_char=127
+9	yön	yö	NOUN	N	Case=Gen|Number=Sing	7	conj	_	start_char=128|end_char=131
+10	...	...	PUNCT	Punct	_	23	punct	_	start_char=131|end_char=134
+11	ja	ja	CCONJ	C	_	23	cc	_	start_char=135|end_char=137
+12	jos	jos	SCONJ	C	_	13	mark	_	start_char=138|end_char=141
+13	juhlit	juhlia	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	23	advcl	_	start_char=142|end_char=148
+14	liian	liian	ADV	Adv	_	15	advmod	_	start_char=149|end_char=154
+15	kovaa	kovaa	ADV	Adv	_	13	advmod	_	start_char=155|end_char=160
+16	ja	ja	CCONJ	C	_	17	cc	_	start_char=161|end_char=163
+17	nukahdat	nukkahtaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	start_char=164|end_char=172
+18	meikkisi	meikki	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	17	obl	_	start_char=173|end_char=181
+19	päällä	päällä	ADP	Adp	AdpType=Post	18	case	_	start_char=182|end_char=188
+20	,	,	PUNCT	Punct	_	13	punct	_	start_char=188|end_char=189
+21	voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	_	start_char=190|end_char=194
+22	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	23	cop	_	start_char=195|end_char=199
+23	varma	varma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=200|end_char=205
+24	,	,	PUNCT	Punct	_	29	punct	_	start_char=205|end_char=206
+25	että	että	SCONJ	C	_	29	mark	_	start_char=207|end_char=211
+26	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	29	nsubj:cop	_	start_char=212|end_char=214
+27	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	cop	_	start_char=215|end_char=217
+28	edelleen	edelleen	ADV	Adv	_	29	advmod	_	start_char=218|end_char=226
+29	paikoillaan	paikoillaan	ADV	Adv	_	23	ccomp	_	start_char=227|end_char=238
+30	aamulla	aamu	NOUN	N	Case=Ade|Number=Sing	29	obl	_	start_char=239|end_char=246
+31	!	!	PUNCT	Punct	_	1	punct	_	start_char=246|end_char=247
+
+# text = Ihanteellinen pisteiden tekemiseen silmiin ja melko tehokas pitämään huulipunan paikoillaan."
+# sent_id = 4
+1	Ihanteellinen	ihanteellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=248|end_char=261
+2	pisteiden	piste	NOUN	N	Case=Gen|Number=Plur	3	nmod:gobj	_	start_char=262|end_char=271
+3	tekemiseen	tekeminen	NOUN	N	Case=Ill|Derivation=Minen|Number=Sing	1	nmod	_	start_char=272|end_char=282
+4	silmiin	silmä	NOUN	N	Case=Ill|Number=Plur	3	nmod	_	start_char=283|end_char=290
+5	ja	ja	CCONJ	C	_	7	cc	_	start_char=291|end_char=293
+6	melko	melko	ADV	Adv	_	7	advmod	_	start_char=294|end_char=299
+7	tehokas	tehokas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=300|end_char=307
+8	pitämään	pitää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	acl	_	start_char=308|end_char=316
+9	huulipunan	huuli#puna	NOUN	N	Case=Gen|Number=Sing	8	obj	_	start_char=317|end_char=327
+10	paikoillaan	paikka	NOUN	N	Case=Ade|Number=Plur|Person[psor]=3	8	obl	_	start_char=328|end_char=339
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=339|end_char=340
+12	"	"	PUNCT	Punct	_	1	punct	_	start_char=340|end_char=341
+

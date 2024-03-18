@@ -1,0 +1,76 @@
+# text = Izuzetno informativno
+# sent_id = 0
+1	Izuzetno	izuzetno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=8
+2	informativno	informativno	ADV	Rgp	Degree=Pos	0	root	_	start_char=9|end_char=21
+
+# text = Ovo je stvarno sjajna knjiga!
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=22|end_char=25
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=26|end_char=28
+3	stvarno	stvarno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=29|end_char=36
+4	sjajna	sjajan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=37|end_char=43
+5	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=44|end_char=50
+6	!	!	PUNCT	Z	_	5	punct	_	start_char=50|end_char=51
+
+# text = Dobio/la sam ovu knjigu kao referentni vodič dok sam se obučavao/la kao profesionalni frizer pasa i pronašao/la je izuzetno korisnom i informativnom!
+# sent_id = 2
+1	Dobio/la	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=52|end_char=60
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=61|end_char=64
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=65|end_char=68
+4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=69|end_char=75
+5	kao	kao	SCONJ	Cs	_	7	case	_	start_char=76|end_char=79
+6	referentni	referentan	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=80|end_char=90
+7	vodič	vodič	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=91|end_char=96
+8	dok	dok	SCONJ	Cs	_	11	mark	_	start_char=97|end_char=100
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=101|end_char=104
+10	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	start_char=105|end_char=107
+11	obučavao/la	obučavaoći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=108|end_char=119
+12	kao	kao	SCONJ	Cs	_	14	case	_	start_char=120|end_char=123
+13	profesionalni	profesionalan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=124|end_char=137
+14	frizer	frizer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	obl	_	start_char=138|end_char=144
+15	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=145|end_char=149
+16	i	i	CCONJ	Cc	_	17	cc	_	start_char=150|end_char=151
+17	pronašao/la	pronašaoći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	conj	_	start_char=152|end_char=163
+18	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=164|end_char=166
+19	izuzetno	izuzetno	ADV	Rgp	Degree=Pos	20	advmod	_	start_char=167|end_char=175
+20	korisnom	koristan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	xcomp	_	start_char=176|end_char=184
+21	i	i	CCONJ	Cc	_	22	cc	_	start_char=185|end_char=186
+22	informativnom	informativan	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	conj	_	start_char=187|end_char=200
+23	!	!	PUNCT	Z	_	1	punct	_	start_char=200|end_char=201
+
+# text = Upute su dovoljno detaljne da nikada nećete ostati zbunjeni s bezbroj pitanja, ali dovoljno jednostavne da ih svatko može razumjeti.
+# sent_id = 3
+1	Upute	uputa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=202|end_char=207
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=208|end_char=210
+3	dovoljno	dovoljno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=211|end_char=219
+4	detaljne	detaljan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=220|end_char=228
+5	da	da	SCONJ	Cs	_	7	mark	_	start_char=229|end_char=231
+6	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	7	advmod	_	start_char=232|end_char=238
+7	nećete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=239|end_char=245
+8	ostati	ostati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=246|end_char=252
+9	zbunjeni	zbunjen	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	8	xcomp	_	start_char=253|end_char=261
+10	s	sa	ADP	Si	Case=Ins	12	case	_	start_char=262|end_char=263
+11	bezbroj	bezbroj	NUM	Mls	NumType=Mult	12	nummod:gov	_	start_char=264|end_char=271
+12	pitanja	pitanje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	9	obl	_	start_char=272|end_char=279
+13	,	,	PUNCT	Z	_	16	punct	_	start_char=279|end_char=280
+14	ali	ali	CCONJ	Cc	_	16	cc	_	start_char=281|end_char=284
+15	dovoljno	dovoljno	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=285|end_char=293
+16	jednostavne	jednostavan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	start_char=294|end_char=305
+17	da	da	SCONJ	Cs	_	20	mark	_	start_char=306|end_char=308
+18	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obj	_	start_char=309|end_char=311
+19	svatko	svatko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Ind	20	nsubj	_	start_char=312|end_char=318
+20	može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	start_char=319|end_char=323
+21	razumjeti	razumjeti	VERB	Vmn	VerbForm=Inf	20	xcomp	_	start_char=324|end_char=333
+22	.	.	PUNCT	Z	_	4	punct	_	start_char=333|end_char=334
+
+# text = Ovo je knjiga koju svakako trebate imati.
+# sent_id = 4
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=335|end_char=338
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=339|end_char=341
+3	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=342|end_char=348
+4	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	6	obj	_	start_char=349|end_char=353
+5	svakako	svakako	ADV	Rgp	Degree=Pos|PronType=Tot	6	advmod	_	start_char=354|end_char=361
+6	trebate	trebati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=362|end_char=369
+7	imati	imati	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=370|end_char=375
+8	.	.	PUNCT	Z	_	3	punct	_	start_char=375|end_char=376
+

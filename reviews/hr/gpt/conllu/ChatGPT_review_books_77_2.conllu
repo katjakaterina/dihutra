@@ -1,0 +1,89 @@
+# text = Ako tražite malu tiskanu novost, oduševit ćete se ovim Oduvijek sam volio/la Proroka i pročitao/la sam ga mnogo puta.
+# sent_id = 0
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=0|end_char=3
+2	tražite	tražiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=4|end_char=11
+3	malu	mali	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=12|end_char=16
+4	tiskanu	tiskati	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=17|end_char=24
+5	novost	novost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=25|end_char=31
+6	,	,	PUNCT	Z	_	2	punct	_	start_char=31|end_char=32
+7	oduševit	oduševiti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=33|end_char=41
+8	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=42|end_char=46
+9	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	start_char=47|end_char=49
+10	ovim	ovaj	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	start_char=50|end_char=54
+11	Oduvijek	oduvijek	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=55|end_char=63
+12	sam	sam	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	xcomp	_	start_char=64|end_char=67
+13	volio/la	volio/lati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	ccomp	_	start_char=68|end_char=76
+14	Proroka	Prorok	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=77|end_char=84
+15	i	i	CCONJ	Cc	_	16	cc	_	start_char=85|end_char=86
+16	pročitao/la	pročitao/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	start_char=87|end_char=98
+17	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=99|end_char=102
+18	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	start_char=103|end_char=105
+19	mnogo	mnogo	DET	Rgp	Degree=Pos	20	det:numgov	_	start_char=106|end_char=111
+20	puta	put	ADV	Rgp	Degree=Pos	16	obl	_	start_char=112|end_char=116
+21	.	.	PUNCT	Z	_	7	punct	_	start_char=116|end_char=117
+
+# text = Poklonio/la sam svoj zadnji primjerak i tražio/la zamjenu.
+# sent_id = 1
+1	Poklonio/la	poklonio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=118|end_char=129
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=130|end_char=133
+3	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=134|end_char=138
+4	zadnji	zadnji	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=139|end_char=145
+5	primjerak	primjerak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=146|end_char=155
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=156|end_char=157
+7	tražio/la	tražio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=158|end_char=167
+8	zamjenu	zamjena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=168|end_char=175
+9	.	.	PUNCT	Z	_	1	punct	_	start_char=175|end_char=176
+
+# text = Kupio/la sam ovu kopiju samo da bih otkrio/la da je mala novotarija od knjige.
+# sent_id = 2
+1	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=177|end_char=185
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=186|end_char=189
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=190|end_char=193
+4	kopiju	kopija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	start_char=194|end_char=200
+5	samo	samo	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=201|end_char=205
+6	da	da	SCONJ	Cs	_	8	mark	_	start_char=206|end_char=208
+7	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	start_char=209|end_char=212
+8	otkrio/la	otkrio/ati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	start_char=213|end_char=222
+9	da	da	SCONJ	Cs	_	12	mark	_	start_char=223|end_char=225
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=226|end_char=228
+11	mala	mali	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=229|end_char=233
+12	novotarija	novotarija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	ccomp	_	start_char=234|end_char=244
+13	od	od	ADP	Sg	Case=Gen	14	case	_	start_char=245|end_char=247
+14	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=248|end_char=254
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=254|end_char=255
+
+# text = Ako tražite nešto malo što ćete držati u svojoj torbici, tada je ovo za vas.
+# sent_id = 3
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=256|end_char=259
+2	tražite	tražiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=260|end_char=267
+3	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	2	obj	_	start_char=268|end_char=273
+4	malo	malo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=274|end_char=278
+5	što	što	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Int,Rel	7	obj	_	start_char=279|end_char=282
+6	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=283|end_char=287
+7	držati	držati	VERB	Vmn	VerbForm=Inf	4	acl	_	start_char=288|end_char=294
+8	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=295|end_char=296
+9	svojoj	svoj	DET	Px-fsl	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	start_char=297|end_char=303
+10	torbici	torbik	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=304|end_char=311
+11	,	,	PUNCT	Z	_	2	punct	_	start_char=311|end_char=312
+12	tada	tada	ADV	Rgp	Degree=Pos|PronType=Dem	14	advmod	_	start_char=313|end_char=317
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=318|end_char=320
+14	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=321|end_char=324
+15	za	za	ADP	Sa	Case=Acc	16	case	_	start_char=325|end_char=327
+16	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	14	nmod	_	start_char=328|end_char=331
+17	.	.	PUNCT	Z	_	13	punct	_	start_char=331|end_char=332
+
+# text = Ako tražite "pravu knjigu", onda je ovo šala.
+# sent_id = 4
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=333|end_char=336
+2	tražite	tražiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=337|end_char=344
+3	"	"	PUNCT	Z	_	5	punct	_	start_char=345|end_char=346
+4	pravu	prav	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=346|end_char=351
+5	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=352|end_char=358
+6	"	"	PUNCT	Z	_	5	punct	_	start_char=358|end_char=359
+7	,	,	PUNCT	Z	_	2	punct	_	start_char=359|end_char=360
+8	onda	onda	ADV	Rgp	Degree=Pos|PronType=Dem	11	advmod	_	start_char=361|end_char=365
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=366|end_char=368
+10	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	start_char=369|end_char=372
+11	šala	šalo	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=373|end_char=377
+12	.	.	PUNCT	Z	_	11	punct	_	start_char=377|end_char=378
+

@@ -1,0 +1,66 @@
+# text = Pokaži mi novac!
+# sent_id = 0
+1	Pokaži	pokazati	VERB	Vmm2s	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	start_char=0|end_char=6
+2	mi	ja	PRON	Pp1-sd	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=7|end_char=9
+3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=10|end_char=15
+4	!	!	PUNCT	Z	_	1	punct	_	start_char=15|end_char=16
+
+# text = Zanimljiva Grishamova priča o odvjetniku koji uzima milijune dolara od svoje tvrtke nakon što je lažirao svoju smrt.
+# sent_id = 1
+1	Zanimljiva	zanimljiv	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=17|end_char=27
+2	Grishamova	Grishamov	ADJ	Aspfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	3	amod	_	start_char=28|end_char=38
+3	priča	priča	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=39|end_char=44
+4	o	o	ADP	Sl	Case=Loc	5	case	_	start_char=45|end_char=46
+5	odvjetniku	odvjetnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	start_char=47|end_char=57
+6	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=58|end_char=62
+7	uzima	uzimati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=63|end_char=68
+8	milijune	milijun	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=69|end_char=77
+9	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=78|end_char=84
+10	od	od	ADP	Sg	Case=Gen	12	case	_	start_char=85|end_char=87
+11	svoje	svoj	DET	Px-fsg	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det	_	start_char=88|end_char=93
+12	tvrtke	tvrtka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=94|end_char=100
+13	nakon	nakon	SCONJ	Cs	_	16	mark	_	start_char=101|end_char=106
+14	što	što	SCONJ	Cs	_	13	fixed	_	start_char=107|end_char=110
+15	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=111|end_char=113
+16	lažirao	lažirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=114|end_char=121
+17	svoju	svoj	DET	Px-fsa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	start_char=122|end_char=127
+18	smrt	smrt	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=128|end_char=132
+19	.	.	PUNCT	Z	_	3	punct	_	start_char=132|end_char=133
+
+# text = Grisham obično uspijeva zainteresirati svoje čitatelje odmah, a u ovom slučaju ne otkriva svoje karte prebrzo.
+# sent_id = 2
+1	Grisham	Grisham	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=134|end_char=141
+2	obično	obično	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=142|end_char=148
+3	uspijeva	uspijevati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=149|end_char=157
+4	zainteresirati	zainteresirati	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=158|end_char=172
+5	svoje	svoj	DET	Px-mpa	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=173|end_char=178
+6	čitatelje	čitatelj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=179|end_char=188
+7	odmah	odmah	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=189|end_char=194
+8	,	,	PUNCT	Z	_	14	punct	_	start_char=194|end_char=195
+9	a	a	CCONJ	Cc	_	14	cc	_	start_char=196|end_char=197
+10	u	u	ADP	Sl	Case=Loc	12	case	_	start_char=198|end_char=199
+11	ovom	ovaj	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	start_char=200|end_char=204
+12	slučaju	slučaj	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	14	obl	_	start_char=205|end_char=212
+13	ne	ne	PART	Qz	Polarity=Neg	14	advmod	_	start_char=213|end_char=215
+14	otkriva	otkrivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=216|end_char=223
+15	svoje	svoj	DET	Px-fpa	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	16	det	_	start_char=224|end_char=229
+16	karte	karta	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=230|end_char=235
+17	prebrzo	prebrzo	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=236|end_char=243
+18	.	.	PUNCT	Z	_	3	punct	_	start_char=243|end_char=244
+
+# text = Obično pouzdani Frank Mueller čini ovu priču još boljim izborom za audioknjigu.
+# sent_id = 3
+1	Obično	obično	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=245|end_char=251
+2	pouzdani	pouzdati	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=252|end_char=260
+3	Frank	Frank	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=261|end_char=266
+4	Mueller	Mueller	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=267|end_char=274
+5	čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=275|end_char=279
+6	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=280|end_char=283
+7	priču	priča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=284|end_char=289
+8	još	još	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=290|end_char=293
+9	boljim	dobar	ADJ	Agcmsiy	Case=Ins|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	10	amod	_	start_char=294|end_char=300
+10	izborom	izbor	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	xcomp	_	start_char=301|end_char=308
+11	za	za	ADP	Sa	Case=Acc	12	case	_	start_char=309|end_char=311
+12	audioknjigu	audioknjiga	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	start_char=312|end_char=323
+13	.	.	PUNCT	Z	_	5	punct	_	start_char=323|end_char=324
+

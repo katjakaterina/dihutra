@@ -1,0 +1,108 @@
+# text = Boo! Ispražnjene baterije!
+# sent_id = 0
+1	Boo	boo	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=3
+2	!	!	PUNCT	Z	_	4	punct	_	start_char=3|end_char=4
+3	Ispražnjene	ispražni	ADJ	Agpfsny	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=5|end_char=16
+4	baterije	baterija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=17|end_char=25
+5	!	!	PUNCT	Z	_	1	punct	_	start_char=25|end_char=26
+
+# text = Jednostavno sam odustao i bacio ove baterije, nakon samo nekoliko mjeseci.
+# sent_id = 1
+1	Jednostavno	jednostavno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=27|end_char=38
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=39|end_char=42
+3	odustao	odustati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=43|end_char=50
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=51|end_char=52
+5	bacio	baciti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=53|end_char=58
+6	ove	ovaj	DET	Pd-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	start_char=59|end_char=62
+7	baterije	baterija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=63|end_char=71
+8	,	,	PUNCT	Z	_	12	punct	_	start_char=71|end_char=72
+9	nakon	nakon	ADP	Sg	Case=Gen	12	case	_	start_char=73|end_char=78
+10	samo	samo	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=79|end_char=83
+11	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	12	det:numgov	_	start_char=84|end_char=92
+12	mjeseci	mjesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	start_char=93|end_char=100
+13	.	.	PUNCT	Z	_	3	punct	_	start_char=100|end_char=101
+
+# text = Imao sam ih u rotaciji (s još dvije druge skupine punjivih baterija - Duracell i Sanyo) u svom digitalnom fotoaparatu.
+# sent_id = 2
+1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=102|end_char=106
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=107|end_char=110
+3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=111|end_char=113
+4	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=114|end_char=115
+5	rotaciji	rotacija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	start_char=116|end_char=124
+6	(	(	PUNCT	Z	_	11	punct	_	start_char=125|end_char=126
+7	s	sa	ADP	Si	Case=Ins	11	case	_	start_char=126|end_char=127
+8	još	još	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=128|end_char=131
+9	dvije	dva	NUM	Mlcf-n	Case=Nom|Gender=Fem|NumType=Card|Number=Plur	11	nummod	_	start_char=132|end_char=137
+10	druge	drugi	ADJ	Mlofpn	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=138|end_char=143
+11	skupine	skupina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	appos	_	start_char=144|end_char=151
+12	punjivih	punjiv	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=152|end_char=160
+13	baterija	baterija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=161|end_char=169
+14	-	-	PUNCT	Z	_	15	punct	_	start_char=170|end_char=171
+15	Duracell	Duracell	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	start_char=172|end_char=180
+16	i	i	CCONJ	Cc	_	17	cc	_	start_char=181|end_char=182
+17	Sanyo	Sanyo	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	start_char=183|end_char=188
+18	)	)	PUNCT	Z	_	15	punct	_	start_char=188|end_char=189
+19	u	u	ADP	Sl	Case=Loc	22	case	_	start_char=190|end_char=191
+20	svom	svoj	DET	Px-msl	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	start_char=192|end_char=196
+21	digitalnom	digitalan	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=197|end_char=207
+22	fotoaparatu	fotoaparat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=208|end_char=219
+23	.	.	PUNCT	Z	_	1	punct	_	start_char=219|end_char=220
+
+# text = Na početku su bile u redu i usporediva s drugim markama.
+# sent_id = 3
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	start_char=221|end_char=223
+2	početku	početak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=224|end_char=231
+3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=232|end_char=234
+4	bile	biti	AUX	Vap-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	cop	_	start_char=235|end_char=239
+5	u	u	ADP	Sl	Case=Loc	6	case	_	start_char=240|end_char=241
+6	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=242|end_char=246
+7	i	i	CCONJ	Cc	_	8	cc	_	start_char=247|end_char=248
+8	usporediva	usporediv	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	start_char=249|end_char=259
+9	s	sa	ADP	Si	Case=Ins	11	case	_	start_char=260|end_char=261
+10	drugim	drugi	ADJ	Agpfpiy	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	start_char=262|end_char=268
+11	markama	marka	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	8	obl	_	start_char=269|end_char=276
+12	.	.	PUNCT	Z	_	6	punct	_	start_char=276|end_char=277
+
+# text = Sada ne traju ni jedan dan u mom fotoaparatu.
+# sent_id = 4
+1	Sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	start_char=278|end_char=282
+2	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=283|end_char=285
+3	traju	trajati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=286|end_char=291
+4	ni	ni	PART	Qz	_	5	advmod	_	start_char=292|end_char=294
+5	jedan	jedan	NUM	Mlcmsnn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	6	nummod	_	start_char=295|end_char=300
+6	dan	dan	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=301|end_char=304
+7	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=305|end_char=306
+8	mom	moj	DET	Ps1msl	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	start_char=307|end_char=310
+9	fotoaparatu	fotoaparat	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=311|end_char=322
+10	.	.	PUNCT	Z	_	3	punct	_	start_char=322|end_char=323
+
+# text = Ponekad napravim samo nekoliko slika prije nego se isprazne.
+# sent_id = 5
+1	Ponekad	ponekad	ADV	Rgp	Degree=Pos|PronType=Ind	2	advmod	_	start_char=324|end_char=331
+2	napravim	napraviti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=332|end_char=340
+3	samo	samo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=341|end_char=345
+4	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	5	det:numgov	_	start_char=346|end_char=354
+5	slika	slika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	obj	_	start_char=355|end_char=360
+6	prije	prije	SCONJ	Cs	_	9	mark	_	start_char=361|end_char=366
+7	nego	nego	SCONJ	Cs	_	6	fixed	_	start_char=367|end_char=371
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=372|end_char=374
+9	isprazne	isprazan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	advcl	_	start_char=375|end_char=383
+10	.	.	PUNCT	Z	_	2	punct	_	start_char=383|end_char=384
+
+# text = Nemam takvog strpljenja...
+# sent_id = 6
+1	Nemam	nemati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=385|end_char=390
+2	takvog	takav	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=391|end_char=397
+3	strpljenja	strpljenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	obj	_	start_char=398|end_char=408
+4	...	...	PUNCT	Z	_	1	punct	_	start_char=408|end_char=411
+
+# text = Neću više kupiti Energizer punjive baterije.
+# sent_id = 7
+1	Neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=412|end_char=416
+2	više	mnogo	ADV	Rgc	Degree=Cmp	3	advmod	_	start_char=417|end_char=421
+3	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=422|end_char=428
+4	Energizer	energizer	NOUN	Ncmsan	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	start_char=429|end_char=438
+5	punjive	punjiv	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=439|end_char=446
+6	baterije	baterija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=447|end_char=455
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=455|end_char=456
+

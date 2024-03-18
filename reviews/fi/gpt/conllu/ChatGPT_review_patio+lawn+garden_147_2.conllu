@@ -1,0 +1,81 @@
+# text = Jouduin palauttamaan...
+# sent_id = 0
+1	Jouduin	joutua	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=7
+2	palauttamaan	palauttaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=8|end_char=20
+3	...	...	PUNCT	Punct	_	1	punct	_	start_char=20|end_char=23
+
+# text = Tämä oksasakset ei leikkaa edes etäisesti 1 tuuman oksia, kosteita tai kuivia.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=24|end_char=28
+2	oksasakset	oksa#saksi	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=29|end_char=39
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=40|end_char=42
+4	leikkaa	leikata	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=43|end_char=50
+5	edes	edes	ADV	Adv	_	9	advmod	_	start_char=51|end_char=55
+6	etäisesti	etäisesti	ADV	Adv	Derivation=Sti	4	advmod	_	start_char=56|end_char=65
+7	1	1	NUM	Num	NumType=Card	8	nummod	_	start_char=66|end_char=67
+8	tuuman	tuuma	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	start_char=68|end_char=74
+9	oksia	oksa	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=75|end_char=80
+10	,	,	PUNCT	Punct	_	11	punct	_	start_char=80|end_char=81
+11	kosteita	kostea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	9	conj	_	start_char=82|end_char=90
+12	tai	tai	CCONJ	C	_	13	cc	_	start_char=91|end_char=94
+13	kuivia	kuiva	ADJ	A	Case=Par|Degree=Pos|Number=Plur	9	conj	_	start_char=95|end_char=101
+14	.	.	PUNCT	Punct	_	4	punct	_	start_char=101|end_char=102
+
+# text = Ei leikkaa 3/4 tuuman oksia.
+# sent_id = 2
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=103|end_char=105
+2	leikkaa	leikata	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=106|end_char=113
+3	3/4	3/4	NUM	Num	NumType=Card	4	nummod	_	start_char=114|end_char=117
+4	tuuman	tuuma	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=118|end_char=124
+5	oksia	oksa	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=125|end_char=130
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=130|end_char=131
+
+# text = Se voi leikata JOITAIN 1/2 tuuman kuivia oksia, mutta ainakin minun saamani ei ollut teroitettu, ja minun oli pakko palauttaa se.
+# sent_id = 3
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=132|end_char=134
+2	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=135|end_char=138
+3	leikata	leikata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=139|end_char=146
+4	JOITAIN	joitain	ADV	Adv	_	3	advmod	_	start_char=147|end_char=154
+5	1/2	1/2	NUM	Num	NumType=Card	6	nummod	_	start_char=155|end_char=158
+6	tuuman	tuuma	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=159|end_char=165
+7	kuivia	kuiva	ADJ	A	Case=Par|Degree=Pos|Number=Plur	8	amod	_	start_char=166|end_char=172
+8	oksia	oksa	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=173|end_char=178
+9	,	,	PUNCT	Punct	_	16	punct	_	start_char=178|end_char=179
+10	mutta	mutta	CCONJ	C	_	16	cc	_	start_char=180|end_char=185
+11	ainakin	ainakin	ADV	Adv	_	13	advmod	_	start_char=186|end_char=193
+12	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=194|end_char=199
+13	saamani	saada	VERB	V	Case=Nom|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	16	obj	_	start_char=200|end_char=207
+14	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=208|end_char=210
+15	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	16	aux:pass	_	start_char=211|end_char=216
+16	teroitettu	terottaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=217|end_char=227
+17	,	,	PUNCT	Punct	_	21	punct	_	start_char=227|end_char=228
+18	ja	ja	CCONJ	C	_	21	cc	_	start_char=229|end_char=231
+19	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=232|end_char=237
+20	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	start_char=238|end_char=241
+21	pakko	pakko	NOUN	N	Case=Nom|Number=Sing	16	conj	_	start_char=242|end_char=247
+22	palauttaa	palauttaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	21	xcomp:ds	_	start_char=248|end_char=257
+23	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	22	obj	_	start_char=258|end_char=260
+24	.	.	PUNCT	Punct	_	3	punct	_	start_char=260|end_char=261
+
+# text = En ole vielä päättänyt uudesta, koska olin niin pettynyt lukiessani kaikki hienot palautteet ja koettuani erilaisia ongelmia.
+# sent_id = 4
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=262|end_char=264
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=265|end_char=268
+3	vielä	vielä	ADV	Adv	_	4	advmod	_	start_char=269|end_char=274
+4	päättänyt	päättää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=275|end_char=284
+5	uudesta	uusi	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	4	obl	_	start_char=285|end_char=292
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=292|end_char=293
+7	koska	koska	SCONJ	C	_	10	mark	_	start_char=294|end_char=299
+8	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=300|end_char=304
+9	niin	niin	ADV	Adv	_	10	advmod	_	start_char=305|end_char=309
+10	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	advcl	_	start_char=310|end_char=318
+11	lukiessani	lukea	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=319|end_char=329
+12	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	14	det	_	start_char=330|end_char=336
+13	hienot	hieno	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=337|end_char=343
+14	palautteet	palaute	NOUN	N	Case=Nom|Number=Plur	11	obj	_	start_char=344|end_char=354
+15	ja	ja	CCONJ	C	_	16	cc	_	start_char=355|end_char=357
+16	koettuani	kokea	VERB	V	Case=Par|Number=Sing|Number[psor]=Sing|PartForm=Past|Person[psor]=1|VerbForm=Part|Voice=Act	11	conj	_	start_char=358|end_char=367
+17	erilaisia	erilainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Plur	18	amod	_	start_char=368|end_char=377
+18	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	16	obj	_	start_char=378|end_char=386
+19	.	.	PUNCT	Punct	_	4	punct	_	start_char=386|end_char=387
+

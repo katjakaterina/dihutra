@@ -1,0 +1,79 @@
+# text = Auto punjač s dvojnim USB priključkom Kupio proizvod prije mnogo mjeseci.
+# sent_id = 0
+1	Auto	Auto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=4
+2	punjač	punjač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=5|end_char=11
+3	s	sa	ADP	Si	Case=Ins	6	case	_	start_char=12|end_char=13
+4	dvojnim	dvojni	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=14|end_char=21
+5	USB	USB	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	6	amod	_	start_char=22|end_char=25
+6	priključkom	priključak	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	start_char=26|end_char=37
+7	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=38|end_char=43
+8	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=44|end_char=52
+9	prije	prije	ADP	Sg	Case=Gen	11	case	_	start_char=53|end_char=58
+10	mnogo	mnogo	DET	Rgp	Degree=Pos	11	det:numgov	_	start_char=59|end_char=64
+11	mjeseci	mjesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=65|end_char=72
+12	.	.	PUNCT	Z	_	7	punct	_	start_char=72|end_char=73
+
+# text = Prednosti: Obožavao sam ga, dobro radi!
+# sent_id = 1
+1	Prednosti	prednost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	start_char=74|end_char=83
+2	:	:	PUNCT	Z	_	1	punct	_	start_char=83|end_char=84
+3	Obožavao	obožavati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=85|end_char=93
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=94|end_char=97
+5	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=98|end_char=100
+6	,	,	PUNCT	Z	_	8	punct	_	start_char=100|end_char=101
+7	dobro	dobro	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=102|end_char=107
+8	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=108|end_char=112
+9	!	!	PUNCT	Z	_	3	punct	_	start_char=112|end_char=113
+
+# text = Cool Blue svjetlosna značajka kada ga priključite u upaljač!
+# sent_id = 2
+1	Cool	Cool	X	Xf	Foreign=Yes	4	amod	_	start_char=114|end_char=118
+2	Blue	blue	X	Xf	Foreign=Yes	1	flat	_	start_char=119|end_char=123
+3	svjetlosna	svjetlosni	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=124|end_char=134
+4	značajka	značajka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=135|end_char=143
+5	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	7	advmod	_	start_char=144|end_char=148
+6	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	start_char=149|end_char=151
+7	priključite	priključiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=152|end_char=163
+8	u	u	ADP	Sa	Case=Acc	9	case	_	start_char=164|end_char=165
+9	upaljač	upaljač	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=166|end_char=173
+10	!	!	PUNCT	Z	_	4	punct	_	start_char=173|end_char=174
+
+# text = Možete istovremeno priključiti dvije stvari...
+# sent_id = 3
+1	Možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=175|end_char=181
+2	istovremeno	istovremeno	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=182|end_char=193
+3	priključiti	priključiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=194|end_char=205
+4	dvije	dva	NUM	Mlcf-a	Case=Acc|Gender=Fem|NumType=Card|Number=Plur	5	nummod	_	start_char=206|end_char=211
+5	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=212|end_char=218
+6	...	...	PUNCT	Z	_	1	punct	_	start_char=218|end_char=221
+
+# text = Kontra: Gornji prozirni dio lako je otpao tijekom vremena (jednostavno sam stavio prozirnu traku oko vrha) UKUPNO: PROS: 95% CONS: 5%
+# sent_id = 4
+1	Kontra	Kontar	PROPN	Npmsn	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	start_char=222|end_char=228
+2	:	:	PUNCT	Z	_	1	punct	_	start_char=228|end_char=229
+3	Gornji	gornji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=230|end_char=236
+4	prozirni	proziran	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=237|end_char=245
+5	dio	dio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=246|end_char=249
+6	lako	lako	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=250|end_char=254
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=255|end_char=257
+8	otpao	otpasti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=258|end_char=263
+9	tijekom	tijekom	ADP	Sg	Case=Gen	10	case	_	start_char=264|end_char=271
+10	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	start_char=272|end_char=279
+11	(	(	PUNCT	Z	_	14	punct	_	start_char=280|end_char=281
+12	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=281|end_char=292
+13	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=293|end_char=296
+14	stavio	staviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	parataxis	_	start_char=297|end_char=303
+15	prozirnu	proziran	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=304|end_char=312
+16	traku	traka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=313|end_char=318
+17	oko	oko	ADP	Sg	Case=Gen	18	case	_	start_char=319|end_char=322
+18	vrha	vrha	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	start_char=323|end_char=327
+19	)	)	PUNCT	Z	_	14	punct	_	start_char=327|end_char=328
+20	UKUPNO	ukupno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=329|end_char=335
+21	:	:	PUNCT	Z	_	22	punct	_	start_char=335|end_char=336
+22	PROS	PROS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	start_char=337|end_char=341
+23	:	:	PUNCT	Z	_	22	punct	_	start_char=341|end_char=342
+24	95%	95%	SYM	Mds	NumType=Mult	22	nummod	_	start_char=343|end_char=346
+25	CONS	CONS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	22	flat	_	start_char=347|end_char=351
+26	:	:	PUNCT	Z	_	27	punct	_	start_char=351|end_char=352
+27	5%	5%	NOUN	Y	_	24	flat	_	start_char=353|end_char=355
+

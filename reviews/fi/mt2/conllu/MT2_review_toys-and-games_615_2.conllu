@@ -1,0 +1,64 @@
+# text = Vihaan, että nämä ovat niin kalliita
+# sent_id = 0
+1	Vihaan	vihata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	Punct	_	7	punct	_	start_char=6|end_char=7
+3	että	että	SCONJ	C	_	7	mark	_	start_char=8|end_char=12
+4	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	7	nsubj:cop	_	start_char=13|end_char=17
+5	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=18|end_char=22
+6	niin	niin	ADV	Adv	_	7	advmod	_	start_char=23|end_char=27
+7	kalliita	kallis	ADJ	A	Case=Par|Degree=Pos|Number=Plur	1	ccomp	_	start_char=28|end_char=36
+
+# text = Pojanpoikani sai tämän ja elokuvan ansiosta hän sai tämän, mutta kaikki suuret grandit saivat yhden halvemman ja IMHO paremman, koska kädet ja jalat olivat lankoja ja erittäin liikuteltavia.
+# sent_id = 1
+1	Pojanpoikani	pojan#poika	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	start_char=37|end_char=49
+2	sai	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=50|end_char=53
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	nmod:poss	_	start_char=54|end_char=59
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=60|end_char=62
+5	elokuvan	elo#kuva	NOUN	N	Case=Gen|Number=Sing	3	conj	_	start_char=63|end_char=71
+6	ansiosta	ansio	NOUN	N	Case=Ela|Number=Sing	2	obl	_	start_char=72|end_char=80
+7	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=81|end_char=84
+8	sai	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=85|end_char=88
+9	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	obj	_	start_char=89|end_char=94
+10	,	,	PUNCT	Punct	_	15	punct	_	start_char=94|end_char=95
+11	mutta	mutta	CCONJ	C	_	15	cc	_	start_char=96|end_char=101
+12	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	14	det	_	start_char=102|end_char=108
+13	suuret	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	start_char=109|end_char=115
+14	grandit	grandi	NOUN	N	Case=Nom|Number=Plur	15	nsubj	_	start_char=116|end_char=123
+15	saivat	saada	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=124|end_char=130
+16	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	20	nummod	_	start_char=131|end_char=136
+17	halvemman	halva	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	20	amod	_	start_char=137|end_char=146
+18	ja	ja	CCONJ	C	_	19	cc	_	start_char=147|end_char=149
+19	IMHO	IMHO	PROPN	N	Case=Nom|Number=Sing	17	conj	_	start_char=150|end_char=154
+20	paremman	hyvä	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	15	obj	_	start_char=155|end_char=163
+21	,	,	PUNCT	Punct	_	27	punct	_	start_char=163|end_char=164
+22	koska	koska	SCONJ	C	_	27	mark	_	start_char=165|end_char=170
+23	kädet	käsi	NOUN	N	Case=Nom|Number=Plur	27	nsubj:cop	_	start_char=171|end_char=176
+24	ja	ja	CCONJ	C	_	25	cc	_	start_char=177|end_char=179
+25	jalat	jalka	NOUN	N	Case=Nom|Number=Plur	23	conj	_	start_char=180|end_char=185
+26	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	_	start_char=186|end_char=192
+27	lankoja	lanka	NOUN	N	Case=Par|Number=Plur	15	advcl	_	start_char=193|end_char=200
+28	ja	ja	CCONJ	C	_	30	cc	_	start_char=201|end_char=203
+29	erittäin	erittäin	ADV	Adv	Derivation=Ttain	30	advmod	_	start_char=204|end_char=212
+30	liikuteltavia	liikuteltava	ADJ	A	Case=Par|Degree=Pos|Number=Plur	27	conj	_	start_char=213|end_char=226
+31	.	.	PUNCT	Punct	_	2	punct	_	start_char=226|end_char=227
+
+# text = Pojanpoikani (9-vuotias) kuitenkin rakasti tätä tonttua ja hänen Momand-isänsä nautti konseptin käyttämisestä lomien aikana.
+# sent_id = 2
+1	Pojanpoikani	pojan#poika	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	start_char=228|end_char=240
+2	(	(	PUNCT	Punct	_	3	punct	_	start_char=241|end_char=242
+3	9-vuotias	9#vuotias	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	appos	_	start_char=242|end_char=251
+4	)	)	PUNCT	Punct	_	3	punct	_	start_char=251|end_char=252
+5	kuitenkin	kuitenkin	ADV	Adv	_	6	advmod	_	start_char=253|end_char=262
+6	rakasti	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=263|end_char=270
+7	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	det	_	start_char=271|end_char=275
+8	tonttua	tonttu	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=276|end_char=283
+9	ja	ja	CCONJ	C	_	12	cc	_	start_char=284|end_char=286
+10	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	start_char=287|end_char=292
+11	Momand-isänsä	momand#isä	NOUN	N	Case=Nom|Number=Sing|Person[psor]=3	12	nsubj	_	start_char=293|end_char=306
+12	nautti	nauttia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=307|end_char=313
+13	konseptin	konsepti	NOUN	N	Case=Gen|Number=Sing	14	nmod:gobj	_	start_char=314|end_char=323
+14	käyttämisestä	käyttäminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	12	obl	_	start_char=324|end_char=337
+15	lomien	lomi	NOUN	N	Case=Gen|Number=Plur	16	nmod:poss	_	start_char=338|end_char=344
+16	aikana	aika	NOUN	N	Case=Ess|Number=Sing	14	nmod	_	start_char=345|end_char=351
+17	.	.	PUNCT	Punct	_	6	punct	_	start_char=351|end_char=352
+

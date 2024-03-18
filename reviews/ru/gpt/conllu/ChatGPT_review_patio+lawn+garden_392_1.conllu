@@ -1,0 +1,123 @@
+# text = Не подходит для кустов У меня есть большой участок в Аризоне, где время от времени требуется удалять кусты, и я подумал, что это выглядит как идеальный инструмент для обрезки главного ствола и ветвей пустынных кустарников; НЕТ!!!!
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=11
+3	для	для	ADP	_	_	4	case	_	start_char=12|end_char=15
+4	кустов	куст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=16|end_char=22
+5	У	у	ADP	_	_	6	case	_	start_char=23|end_char=24
+6	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	obl	_	start_char=25|end_char=29
+7	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=30|end_char=34
+8	большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=35|end_char=42
+9	участок	участок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=43|end_char=50
+10	в	в	ADP	_	_	11	case	_	start_char=51|end_char=52
+11	Аризоне	Аризона	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	start_char=53|end_char=60
+12	,	,	PUNCT	_	_	17	punct	_	start_char=60|end_char=61
+13	где	где	ADV	_	Degree=Pos	17	advmod	_	start_char=62|end_char=65
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obl	_	start_char=66|end_char=71
+15	от	от	ADP	_	_	16	case	_	start_char=72|end_char=74
+16	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=75|end_char=82
+17	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	start_char=83|end_char=92
+18	удалять	удалять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	csubj	_	start_char=93|end_char=100
+19	кусты	куст	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=101|end_char=106
+20	,	,	PUNCT	_	_	23	punct	_	start_char=106|end_char=107
+21	и	и	CCONJ	_	_	23	cc	_	start_char=108|end_char=109
+22	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	start_char=110|end_char=111
+23	подумал	подумать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=112|end_char=119
+24	,	,	PUNCT	_	_	27	punct	_	start_char=119|end_char=120
+25	что	что	SCONJ	_	_	27	mark	_	start_char=121|end_char=124
+26	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nsubj	_	start_char=125|end_char=128
+27	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	start_char=129|end_char=137
+28	как	как	SCONJ	_	_	30	mark	_	start_char=138|end_char=141
+29	идеальный	идеальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=142|end_char=151
+30	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	advcl	_	start_char=152|end_char=162
+31	для	для	ADP	_	_	32	case	_	start_char=163|end_char=166
+32	обрезки	обрезка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	start_char=167|end_char=174
+33	главного	главный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=175|end_char=183
+34	ствола	ствол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	start_char=184|end_char=190
+35	и	и	CCONJ	_	_	36	cc	_	start_char=191|end_char=192
+36	ветвей	ветвь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	conj	_	start_char=193|end_char=199
+37	пустынных	пустынный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	start_char=200|end_char=209
+38	кустарников	кустарник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	nmod	_	start_char=210|end_char=221
+39	;	;	PUNCT	_	_	40	punct	_	start_char=221|end_char=222
+40	НЕТ	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	conj	_	start_char=223|end_char=226
+41	!	!	PUNCT	_	_	40	punct	_	start_char=226|end_char=227
+42	!	!	PUNCT	_	_	40	punct	_	start_char=227|end_char=228
+43	!	!	PUNCT	_	_	40	punct	_	start_char=228|end_char=229
+44	!	!	PUNCT	_	_	2	punct	_	start_char=229|end_char=230
+
+# text = Это стоило попробовать, но он громоздкий и не может справиться с большинством волокнистых побегов типичного пустынного кустарника.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=231|end_char=234
+2	стоило	стоить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=235|end_char=241
+3	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	start_char=242|end_char=253
+4	,	,	PUNCT	_	_	7	punct	_	start_char=253|end_char=254
+5	но	но	CCONJ	_	_	7	cc	_	start_char=255|end_char=257
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=258|end_char=260
+7	громоздкий	громоздкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	start_char=261|end_char=271
+8	и	и	CCONJ	_	_	10	cc	_	start_char=272|end_char=273
+9	не	не	PART	_	_	10	advmod	_	start_char=274|end_char=276
+10	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=277|end_char=282
+11	справиться	справиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	start_char=283|end_char=293
+12	с	с	ADP	_	_	13	case	_	start_char=294|end_char=295
+13	большинством	большинство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	start_char=296|end_char=308
+14	волокнистых	волокнистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=309|end_char=320
+15	побегов	побег	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=321|end_char=328
+16	типичного	типичный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=329|end_char=338
+17	пустынного	пустынный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=339|end_char=349
+18	кустарника	кустарник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=350|end_char=360
+19	.	.	PUNCT	_	_	2	punct	_	start_char=360|end_char=361
+
+# text = Я вернулся к лопате и кирке.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=362|end_char=363
+2	вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=364|end_char=372
+3	к	к	ADP	_	_	4	case	_	start_char=373|end_char=374
+4	лопате	лопата	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	start_char=375|end_char=381
+5	и	и	CCONJ	_	_	6	cc	_	start_char=382|end_char=383
+6	кирке	кирка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	conj	_	start_char=384|end_char=389
+7	.	.	PUNCT	_	_	2	punct	_	start_char=389|end_char=390
+
+# text = У меня есть много инструментов для обрезки деревьев, которые справляются с этим намного лучше.
+# sent_id = 3
+1	У	у	ADP	_	_	2	case	_	start_char=391|end_char=392
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=393|end_char=397
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=398|end_char=402
+4	много	много	NUM	_	_	3	nsubj	_	start_char=403|end_char=408
+5	инструментов	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=409|end_char=421
+6	для	для	ADP	_	_	7	case	_	start_char=422|end_char=425
+7	обрезки	обрезка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=426|end_char=433
+8	деревьев	дерево	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	start_char=434|end_char=442
+9	,	,	PUNCT	_	_	11	punct	_	start_char=442|end_char=443
+10	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	11	nsubj	_	start_char=444|end_char=451
+11	справляются	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	start_char=452|end_char=463
+12	с	с	ADP	_	_	13	case	_	start_char=464|end_char=465
+13	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	11	obl	_	start_char=466|end_char=470
+14	намного	намного	ADV	_	Degree=Pos	15	obl	_	start_char=471|end_char=478
+15	лучше	хороший	ADJ	_	Degree=Cmp	11	obl	_	start_char=479|end_char=484
+16	.	.	PUNCT	_	_	2	punct	_	start_char=484|end_char=485
+
+# text = Я подарю его своему брату.
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=486|end_char=487
+2	подарю	подарить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=488|end_char=494
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	start_char=495|end_char=498
+4	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=499|end_char=505
+5	брату	брат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	start_char=506|end_char=511
+6	.	.	PUNCT	_	_	2	punct	_	start_char=511|end_char=512
+
+# text = :>) Примечание: Моя оценка относится исключительно к описанному применению.
+# sent_id = 5
+1	:	:	PUNCT	_	_	4	punct	_	start_char=513|end_char=514
+2	>	>	PUNCT	_	_	4	punct	_	start_char=514|end_char=515
+3	)	)	PUNCT	_	_	2	punct	_	start_char=515|end_char=516
+4	Примечание	примечание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=517|end_char=527
+5	:	:	PUNCT	_	_	8	punct	_	start_char=527|end_char=528
+6	Моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=529|end_char=532
+7	оценка	оценка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=533|end_char=539
+8	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	start_char=540|end_char=549
+9	исключительно	исключительно	ADV	_	Degree=Pos	12	obl	_	start_char=550|end_char=563
+10	к	к	ADP	_	_	12	case	_	start_char=564|end_char=565
+11	описанному	описать	VERB	_	Aspect=Perf|Case=Dat|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	start_char=566|end_char=576
+12	применению	применение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	start_char=577|end_char=587
+13	.	.	PUNCT	_	_	4	punct	_	start_char=587|end_char=588
+

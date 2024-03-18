@@ -1,0 +1,105 @@
+# text = Nopea, helppo ja taloudellinen
+# sent_id = 0
+1	Nopea	nopea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=5
+2	,	,	PUNCT	Punct	_	3	punct	_	start_char=5|end_char=6
+3	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=7|end_char=13
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=14|end_char=16
+5	taloudellinen	taloudellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	1	conj	_	start_char=17|end_char=30
+
+# text = Tämä oli suuri yllätys rahan arvoinen.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=31|end_char=35
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=36|end_char=39
+3	suuri	suuri	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=40|end_char=45
+4	yllätys	yllätys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=46|end_char=53
+5	rahan	raha	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=54|end_char=59
+6	arvoinen	arvoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	4	obl	_	start_char=60|end_char=68
+7	.	.	PUNCT	Punct	_	4	punct	_	start_char=68|end_char=69
+
+# text = Katsoin vastuskuminauhaharjoituksia YouTubessa ja päätin kokeilla.
+# sent_id = 2
+1	Katsoin	katsoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=70|end_char=77
+2	vastuskuminauhaharjoituksia	vastuskuminauha#harjoitus	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=78|end_char=105
+3	YouTubessa	YouTube	PROPN	N	Case=Ine|Number=Sing	1	obl	_	start_char=106|end_char=116
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=117|end_char=119
+5	päätin	päättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=120|end_char=126
+6	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=127|end_char=135
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=135|end_char=136
+
+# text = Tähän hintaan, miksi ei?
+# sent_id = 3
+1	Tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	2	det	_	start_char=137|end_char=142
+2	hintaan	hinta	NOUN	N	Case=Ill|Number=Sing	0	root	_	start_char=143|end_char=150
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=150|end_char=151
+4	miksi	miksi	ADV	Adv	_	5	advmod	_	start_char=152|end_char=157
+5	ei	ei	VERB	V	Number=Sing|Person=0|Polarity=Neg|VerbForm=Fin|Voice=Act	2	conj	_	start_char=158|end_char=160
+6	?	?	PUNCT	Punct	_	2	punct	_	start_char=160|end_char=161
+
+# text = Tunsin todella saaneeni hyvän treenin ensimmäisen kerran jälkeen.
+# sent_id = 4
+1	Tunsin	tuntea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=162|end_char=168
+2	todella	todella	ADV	Adv	_	3	advmod	_	start_char=169|end_char=176
+3	saaneeni	saada	VERB	V	Case=Gen|Number=Sing|Number[psor]=Sing|PartForm=Past|Person[psor]=1|VerbForm=Part|Voice=Act	1	xcomp	_	start_char=177|end_char=185
+4	hyvän	hyvä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	5	amod	_	start_char=186|end_char=191
+5	treenin	treeni	NOUN	N	Case=Gen|Number=Sing	3	obj	_	start_char=192|end_char=199
+6	ensimmäisen	ensimmäinen	ADJ	Num	Case=Gen|Derivation=Inen|NumType=Ord|Number=Sing	7	amod	_	start_char=200|end_char=211
+7	kerran	kerran	ADV	Adv	_	3	obl	_	start_char=212|end_char=218
+8	jälkeen	jälkeen	ADP	Adp	AdpType=Post	7	case	_	start_char=219|end_char=226
+9	.	.	PUNCT	Punct	_	1	punct	_	start_char=226|end_char=227
+
+# text = Oven ankkuri toimi loistavasti.
+# sent_id = 5
+1	Oven	ovi	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=228|end_char=232
+2	ankkuri	ankkuri	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=233|end_char=240
+3	toimi	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=241|end_char=246
+4	loistavasti	loistavasti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=247|end_char=258
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=258|end_char=259
+
+# text = Olen 71-vuotias, ja suurten laitteiden pitäminen talossa ei ole mahdollista.
+# sent_id = 6
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=260|end_char=264
+2	71-vuotias	71#vuotias	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=265|end_char=275
+3	,	,	PUNCT	Punct	_	11	punct	_	start_char=275|end_char=276
+4	ja	ja	CCONJ	C	_	11	cc	_	start_char=277|end_char=279
+5	suurten	suuri	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=280|end_char=287
+6	laitteiden	laite	NOUN	N	Case=Gen|Number=Plur	7	nmod:gobj	_	start_char=288|end_char=298
+7	pitäminen	pitäminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	11	nsubj:cop	_	start_char=299|end_char=308
+8	talossa	talo	NOUN	N	Case=Ine|Number=Sing	7	nmod	_	start_char=309|end_char=316
+9	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=317|end_char=319
+10	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=320|end_char=323
+11	mahdollista	mahdollinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	2	conj	_	start_char=324|end_char=335
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=335|end_char=336
+
+# text = Tämän pidän yöpöydässäni, ja aina kun minulla on ylimääräistä aikaa, teen pienen treenin.
+# sent_id = 7
+1	Tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=337|end_char=342
+2	pidän	pitää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=343|end_char=348
+3	yöpöydässäni	yö#pöytä	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=349|end_char=361
+4	,	,	PUNCT	Punct	_	13	punct	_	start_char=361|end_char=362
+5	ja	ja	CCONJ	C	_	13	cc	_	start_char=363|end_char=365
+6	aina	aina	ADV	Adv	_	7	advmod	_	start_char=366|end_char=370
+7	kun	kun	SCONJ	C	_	8	mark	_	start_char=371|end_char=374
+8	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	13	advcl	_	start_char=375|end_char=382
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop:own	_	start_char=383|end_char=385
+10	ylimääräistä	yli#määräinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	11	amod	_	start_char=386|end_char=398
+11	aikaa	aika	NOUN	N	Case=Par|Number=Sing	8	nsubj:cop	_	start_char=399|end_char=404
+12	,	,	PUNCT	Punct	_	8	punct	_	start_char=404|end_char=405
+13	teen	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=406|end_char=410
+14	pienen	pieni	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	15	amod	_	start_char=411|end_char=417
+15	treenin	treeni	NOUN	N	Case=Gen|Number=Sing	13	obj	_	start_char=418|end_char=425
+16	.	.	PUNCT	Punct	_	2	punct	_	start_char=425|end_char=426
+
+# text = Miellyttävän yllättynyt ja tyytyväinen.
+# sent_id = 8
+1	Miellyttävän	miellyttävä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	2	amod	_	start_char=427|end_char=439
+2	yllättynyt	yllättynyt	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=440|end_char=450
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=451|end_char=453
+4	tyytyväinen	tyytyväinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	conj	_	start_char=454|end_char=465
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=465|end_char=466
+
+# text = Suosittelen lämpimästi.
+# sent_id = 9
+1	Suosittelen	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=467|end_char=478
+2	lämpimästi	lämpimästi	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=479|end_char=489
+3	.	.	PUNCT	Punct	_	1	punct	_	start_char=489|end_char=490
+

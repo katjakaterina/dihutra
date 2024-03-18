@@ -1,0 +1,125 @@
+# text = Каждому ребенку следует иметь это!
+# sent_id = 0
+1	Каждому	каждый	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	start_char=0|end_char=7
+2	ребенку	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	start_char=8|end_char=15
+3	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=23
+4	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=24|end_char=29
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=30|end_char=33
+6	!	!	PUNCT	_	_	3	punct	_	start_char=33|end_char=34
+
+# text = Мы приобрели магниты Melissa & Doug и даже сделали свои, затем пошли искать доску.
+# sent_id = 1
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	start_char=35|end_char=37
+2	приобрели	приобрести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=38|end_char=47
+3	магниты	магнит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=48|end_char=55
+4	Melissa	Melissa	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=56|end_char=63
+5	&	&	SYM	_	_	3	flat:foreign	_	start_char=64|end_char=65
+6	Doug	Doug	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=66|end_char=70
+7	и	и	CCONJ	_	_	9	cc	_	start_char=71|end_char=72
+8	даже	даже	PART	_	_	9	advmod	_	start_char=73|end_char=77
+9	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=78|end_char=85
+10	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	start_char=86|end_char=90
+11	,	,	PUNCT	_	_	13	punct	_	start_char=90|end_char=91
+12	затем	затем	ADV	_	Degree=Pos	13	advmod	_	start_char=92|end_char=97
+13	пошли	пойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=98|end_char=103
+14	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=104|end_char=110
+15	доску	доска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=111|end_char=116
+16	.	.	PUNCT	_	_	2	punct	_	start_char=116|end_char=117
+
+# text = ВОТ ОНА!
+# sent_id = 2
+1	ВОТ	вот	PART	_	_	0	root	_	start_char=118|end_char=121
+2	ОНА	ОНА	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=122|end_char=125
+3	!	!	PUNCT	_	_	1	punct	_	start_char=125|end_char=126
+
+# text = Она такая доступная и используется с момента получения.
+# sent_id = 3
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=127|end_char=130
+2	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=131|end_char=136
+3	доступная	доступный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=137|end_char=146
+4	и	и	CCONJ	_	_	5	cc	_	start_char=147|end_char=148
+5	используется	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	start_char=149|end_char=161
+6	с	с	ADP	_	_	7	case	_	start_char=162|end_char=163
+7	момента	момент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	start_char=164|end_char=171
+8	получения	получение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=172|end_char=181
+9	.	.	PUNCT	_	_	3	punct	_	start_char=181|end_char=182
+
+# text = Вы можете составлять слова, ставить на нее базу Leap Frog, чтобы вставлять буквы/животных, числа и так далее.
+# sent_id = 4
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=183|end_char=185
+2	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=186|end_char=192
+3	составлять	составлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=193|end_char=203
+4	слова	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=204|end_char=209
+5	,	,	PUNCT	_	_	6	punct	_	start_char=209|end_char=210
+6	ставить	ставить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	start_char=211|end_char=218
+7	на	на	ADP	_	_	8	case	_	start_char=219|end_char=221
+8	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	start_char=222|end_char=225
+9	базу	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=226|end_char=230
+10	Leap	Leap	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=231|end_char=235
+11	Frog	Frog	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=236|end_char=240
+12	,	,	PUNCT	_	_	14	punct	_	start_char=240|end_char=241
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	start_char=242|end_char=247
+14	вставлять	вставлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=248|end_char=257
+15	буквы	буква	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=258|end_char=263
+16	/животных	/животное	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=263|end_char=272
+17	,	,	PUNCT	_	_	18	punct	_	start_char=272|end_char=273
+18	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	conj	_	start_char=274|end_char=279
+19	и	и	CCONJ	_	_	16	conj	_	start_char=280|end_char=281
+20	так	так	ADV	_	Degree=Pos	19	fixed	_	start_char=282|end_char=285
+21	далее	далее	ADV	_	Degree=Pos	19	fixed	_	start_char=286|end_char=291
+22	.	.	PUNCT	_	_	2	punct	_	start_char=291|end_char=292
+
+# text = Она также двусторонняя.
+# sent_id = 5
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=293|end_char=296
+2	также	также	ADV	_	Degree=Pos	3	obl	_	start_char=297|end_char=302
+3	двусторонняя	двусторонний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=303|end_char=315
+4	.	.	PUNCT	_	_	3	punct	_	start_char=315|end_char=316
+
+# text = Несмотря на то, что это не предусмотрено, им также нравится что-то поддевать/прятать под доской.
+# sent_id = 6
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	start_char=317|end_char=325
+2	на	на	ADP	_	_	1	fixed	_	start_char=326|end_char=328
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obl	_	start_char=329|end_char=331
+4	,	,	PUNCT	_	_	8	punct	_	start_char=331|end_char=332
+5	что	что	SCONJ	_	_	8	mark	_	start_char=333|end_char=336
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj:pass	_	start_char=337|end_char=340
+7	не	не	PART	_	_	8	advmod	_	start_char=341|end_char=343
+8	предусмотрено	предусмотреть	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	acl	_	start_char=344|end_char=357
+9	,	,	PUNCT	_	_	3	punct	_	start_char=357|end_char=358
+10	им	они	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	12	iobj	_	start_char=359|end_char=361
+11	также	также	ADV	_	Degree=Pos	12	advmod	_	start_char=362|end_char=367
+12	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=368|end_char=376
+13	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	14	obj	_	start_char=377|end_char=383
+14	поддевать	поддевать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	csubj	_	start_char=384|end_char=393
+15	/прятать	/прятать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=393|end_char=401
+16	под	под	ADP	_	_	17	case	_	start_char=402|end_char=405
+17	доской	доска	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	start_char=406|end_char=412
+18	.	.	PUNCT	_	_	12	punct	_	start_char=412|end_char=413
+
+# text = Они могут прокатывать вещи через нее.
+# sent_id = 7
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=414|end_char=417
+2	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=418|end_char=423
+3	прокатывать	прокатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=424|end_char=435
+4	вещи	вещь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=436|end_char=440
+5	через	через	ADP	_	_	6	case	_	start_char=441|end_char=446
+6	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=447|end_char=450
+7	.	.	PUNCT	_	_	2	punct	_	start_char=450|end_char=451
+
+# text = Очень рекомендуем, и каждому ребенку следует иметь такую доску для магнитов.
+# sent_id = 8
+1	Очень	очень	ADV	_	Degree=Pos	2	advmod	_	start_char=452|end_char=457
+2	рекомендуем	рекомендовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=458|end_char=469
+3	,	,	PUNCT	_	_	7	punct	_	start_char=469|end_char=470
+4	и	и	CCONJ	_	_	7	cc	_	start_char=471|end_char=472
+5	каждому	каждый	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	start_char=473|end_char=480
+6	ребенку	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	start_char=481|end_char=488
+7	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=489|end_char=496
+8	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	csubj	_	start_char=497|end_char=502
+9	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=503|end_char=508
+10	доску	доска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=509|end_char=514
+11	для	для	ADP	_	_	12	case	_	start_char=515|end_char=518
+12	магнитов	магнит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	start_char=519|end_char=527
+13	.	.	PUNCT	_	_	2	punct	_	start_char=527|end_char=528
+

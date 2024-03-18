@@ -1,0 +1,103 @@
+# text = Sain erinomaisen hinnan, mutta silti todella hyvä tuote
+# sent_id = 0
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=4
+2	erinomaisen	erinomainen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	3	amod	_	start_char=5|end_char=16
+3	hinnan	hinta	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=17|end_char=23
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=23|end_char=24
+5	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=25|end_char=30
+6	silti	silti	ADV	Adv	_	9	orphan	_	start_char=31|end_char=36
+7	todella	todella	ADV	Adv	_	8	advmod	_	start_char=37|end_char=44
+8	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	start_char=45|end_char=49
+9	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=50|end_char=55
+
+# text = Kun etsin MIDI-kaapeleita ART X-15 -jalkiohjaimelleni, törmäsin näihin Hosa-kaapeleihin, ja ne olivat 2 dollaria kappale!
+# sent_id = 1
+1	Kun	kun	SCONJ	C	_	2	mark	_	start_char=56|end_char=59
+2	etsin	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=60|end_char=65
+3	MIDI-kaapeleita	MIDI#kaapeli	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=66|end_char=81
+4	ART	ART	PROPN	N	Case=Nom|Number=Sing	6	compound:nn	_	start_char=82|end_char=85
+5	X-15	X-15	SYM	Symb	_	4	flat:name	_	start_char=86|end_char=90
+6	-jalkiohjaimelleni	jalkio#hjain	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=91|end_char=109
+7	,	,	PUNCT	Punct	_	2	punct	_	start_char=109|end_char=110
+8	törmäsin	törmätä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=111|end_char=119
+9	näihin	tämä	PRON	Pron	Case=Ill|Number=Plur|PronType=Dem	10	det	_	start_char=120|end_char=126
+10	Hosa-kaapeleihin	Hosa#kaapeli	NOUN	N	Case=Ill|Number=Plur	8	obl	_	start_char=127|end_char=143
+11	,	,	PUNCT	Punct	_	16	punct	_	start_char=143|end_char=144
+12	ja	ja	CCONJ	C	_	16	cc	_	start_char=145|end_char=147
+13	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	16	nsubj:cop	_	start_char=148|end_char=150
+14	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	start_char=151|end_char=157
+15	2	2	NUM	Num	NumType=Card	16	nummod	_	start_char=158|end_char=159
+16	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	8	conj	_	start_char=160|end_char=168
+17	kappale	kappale	NOUN	N	Case=Nom|Number=Sing	8	conj	_	start_char=169|end_char=176
+18	!	!	PUNCT	Punct	_	8	punct	_	start_char=176|end_char=177
+
+# text = Koska ne ovat nyt 6 dollaria, tajusin, että olisin silti tyytyväinen siihen hintaan, koska ne ovat laadukasta muovia ja metalliliittimiä ja toimivat moitteettomasti.
+# sent_id = 2
+1	Koska	koska	SCONJ	C	_	6	mark	_	start_char=178|end_char=183
+2	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	6	nsubj:cop	_	start_char=184|end_char=186
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=187|end_char=191
+4	nyt	nyt	ADV	Adv	_	6	advmod	_	start_char=192|end_char=195
+5	6	6	NUM	Num	NumType=Card	6	nummod	_	start_char=196|end_char=197
+6	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	8	advcl	_	start_char=198|end_char=206
+7	,	,	PUNCT	Punct	_	6	punct	_	start_char=206|end_char=207
+8	tajusin	tajuta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=208|end_char=215
+9	,	,	PUNCT	Punct	_	13	punct	_	start_char=215|end_char=216
+10	että	että	SCONJ	C	_	13	mark	_	start_char=217|end_char=221
+11	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	13	cop	_	start_char=222|end_char=228
+12	silti	silti	ADV	Adv	_	13	advmod	_	start_char=229|end_char=234
+13	tyytyväinen	tyytyväinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	8	ccomp	_	start_char=235|end_char=246
+14	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	15	det	_	start_char=247|end_char=253
+15	hintaan	hinta	NOUN	N	Case=Ill|Number=Sing	13	nmod	_	start_char=254|end_char=261
+16	,	,	PUNCT	Punct	_	21	punct	_	start_char=261|end_char=262
+17	koska	koska	SCONJ	C	_	21	mark	_	start_char=263|end_char=268
+18	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	21	nsubj:cop	_	start_char=269|end_char=271
+19	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	start_char=272|end_char=276
+20	laadukasta	laadukas	ADJ	A	Case=Par|Degree=Pos|Number=Sing	21	amod	_	start_char=277|end_char=287
+21	muovia	muovi	NOUN	N	Case=Par|Number=Sing	13	advcl	_	start_char=288|end_char=294
+22	ja	ja	CCONJ	C	_	23	cc	_	start_char=295|end_char=297
+23	metalliliittimiä	metalli#liitimi	NOUN	N	Case=Par|Number=Plur	21	conj	_	start_char=298|end_char=314
+24	ja	ja	CCONJ	C	_	25	cc	_	start_char=315|end_char=317
+25	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	start_char=318|end_char=326
+26	moitteettomasti	moitteettomasti	ADV	Adv	Derivation=Sti	25	advmod	_	start_char=327|end_char=342
+27	.	.	PUNCT	Punct	_	8	punct	_	start_char=342|end_char=343
+
+# text = Sinun on kuitenkin ymmärrettävä, että ne ovat vain 5 jalkaa pitkiä, koska yliarvioin sen ja toivoisin nyt, että ne olisivat pidemmät.
+# sent_id = 3
+1	Sinun	sinä	PRON	Pron	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	start_char=344|end_char=349
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=350|end_char=352
+3	kuitenkin	kuitenkin	ADV	Adv	_	4	advmod	_	start_char=353|end_char=362
+4	ymmärrettävä	ymmärtää	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	start_char=363|end_char=375
+5	,	,	PUNCT	Punct	_	12	punct	_	start_char=375|end_char=376
+6	että	että	SCONJ	C	_	12	mark	_	start_char=377|end_char=381
+7	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	12	nsubj:cop	_	start_char=382|end_char=384
+8	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=385|end_char=389
+9	vain	vain	ADV	Adv	_	10	advmod	_	start_char=390|end_char=394
+10	5	5	NUM	Num	NumType=Card	11	nummod	_	start_char=395|end_char=396
+11	jalkaa	jalka	NOUN	N	Case=Par|Number=Sing	12	nmod	_	start_char=397|end_char=403
+12	pitkiä	pitkä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	ccomp	_	start_char=404|end_char=410
+13	,	,	PUNCT	Punct	_	15	punct	_	start_char=410|end_char=411
+14	koska	koska	SCONJ	C	_	15	mark	_	start_char=412|end_char=417
+15	yliarvioin	yli#arvioida	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	start_char=418|end_char=428
+16	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	15	obj	_	start_char=429|end_char=432
+17	ja	ja	CCONJ	C	_	18	cc	_	start_char=433|end_char=435
+18	toivoisin	toivoa	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	15	conj	_	start_char=436|end_char=445
+19	nyt	nyt	ADV	Adv	_	18	advmod	_	start_char=446|end_char=449
+20	,	,	PUNCT	Punct	_	24	punct	_	start_char=449|end_char=450
+21	että	että	SCONJ	C	_	24	mark	_	start_char=451|end_char=455
+22	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	24	nsubj:cop	_	start_char=456|end_char=458
+23	olisivat	olla	AUX	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	24	cop	_	start_char=459|end_char=467
+24	pidemmät	pitkä	ADJ	A	Case=Nom|Degree=Cmp|Number=Plur	18	ccomp	_	start_char=468|end_char=476
+25	.	.	PUNCT	Punct	_	4	punct	_	start_char=476|end_char=477
+
+# text = Kaikkiin liittymiin hyllyllä olevista äänimoduuleista tämä on täydellinen.
+# sent_id = 4
+1	Kaikkiin	kaikki	PRON	Pron	Case=Ill|Number=Plur|PronType=Ind	5	det	_	start_char=478|end_char=486
+2	liittymiin	liittymä	NOUN	N	Case=Ill|Number=Plur	4	obl	_	start_char=487|end_char=497
+3	hyllyllä	hylly	NOUN	N	Case=Ade|Number=Sing	4	obl	_	start_char=498|end_char=506
+4	olevista	olla	VERB	V	Case=Ela|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	5	acl	_	start_char=507|end_char=515
+5	äänimoduuleista	ääni#moduuli	NOUN	N	Case=Ela|Number=Plur	8	obl	_	start_char=516|end_char=531
+6	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	8	nsubj:cop	_	start_char=532|end_char=536
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=537|end_char=539
+8	täydellinen	täydellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=540|end_char=551
+9	.	.	PUNCT	Punct	_	8	punct	_	start_char=551|end_char=552
+

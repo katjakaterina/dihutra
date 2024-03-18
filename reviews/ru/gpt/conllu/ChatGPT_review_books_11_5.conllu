@@ -1,0 +1,75 @@
+# text = Аплодисменты рук и постукивание пальцами под старые мелодии Мы используем эту песенник на миссии.
+# sent_id = 0
+1	Аплодисменты	аплодисменты	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=0|end_char=12
+2	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	start_char=13|end_char=16
+3	и	и	CCONJ	_	_	4	cc	_	start_char=17|end_char=18
+4	постукивание	постукивание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	conj	_	start_char=19|end_char=31
+5	пальцами	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	nmod	_	start_char=32|end_char=40
+6	под	под	ADP	_	_	8	case	_	start_char=41|end_char=44
+7	старые	старый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	start_char=45|end_char=51
+8	мелодии	мелодия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=52|end_char=59
+9	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	start_char=60|end_char=62
+10	используем	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=63|end_char=73
+11	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	start_char=74|end_char=77
+12	песенник	песенник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=78|end_char=86
+13	на	на	ADP	_	_	14	case	_	start_char=87|end_char=89
+14	миссии	миссия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	start_char=90|end_char=96
+15	.	.	PUNCT	_	_	10	punct	_	start_char=96|end_char=97
+
+# text = В нем содержится большинство любимых песен тех давно ушедших времен.
+# sent_id = 1
+1	В	в	ADP	_	_	2	case	_	start_char=98|end_char=99
+2	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=100|end_char=103
+3	содержится	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=104|end_char=114
+4	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=115|end_char=126
+5	любимых	любимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=127|end_char=134
+6	песен	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=135|end_char=140
+7	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	10	det	_	start_char=141|end_char=144
+8	давно	давно	ADV	_	Degree=Pos	9	advmod	_	start_char=145|end_char=150
+9	ушедших	уйти	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=151|end_char=158
+10	времен	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	start_char=159|end_char=165
+11	.	.	PUNCT	_	_	3	punct	_	start_char=165|end_char=166
+
+# text = Песни вроде "I'll Fly Away" и "Closer Walk With Thee".
+# sent_id = 2
+1	Песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=167|end_char=172
+2	вроде	вроде	ADP	_	_	4	case	_	start_char=173|end_char=178
+3	"	"	PUNCT	_	_	4	punct	_	start_char=179|end_char=180
+4	I'll	I'll	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=180|end_char=184
+5	Fly	Fly	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=185|end_char=188
+6	Away	Away	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=189|end_char=193
+7	"	"	PUNCT	_	_	4	punct	_	start_char=193|end_char=194
+8	и	и	CCONJ	_	_	4	cc	_	start_char=195|end_char=196
+9	"	"	PUNCT	_	_	10	punct	_	start_char=197|end_char=198
+10	Closer	Closer	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=198|end_char=204
+11	Walk	Walk	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=205|end_char=209
+12	With	With	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=210|end_char=214
+13	Thee	Thee	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=215|end_char=219
+14	"	"	PUNCT	_	_	13	punct	_	start_char=219|end_char=220
+15	.	.	PUNCT	_	_	1	punct	_	start_char=220|end_char=221
+
+# text = Если вам нравится петь вместе, вам действительно понравятся "Небесные песни для дороги".
+# sent_id = 3
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=222|end_char=226
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=227|end_char=230
+3	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	advcl	_	start_char=231|end_char=239
+4	петь	петь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=240|end_char=244
+5	вместе	вместе	ADV	_	Degree=Pos	4	advmod	_	start_char=245|end_char=251
+6	,	,	PUNCT	_	_	3	punct	_	start_char=251|end_char=252
+7	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	9	iobj	_	start_char=253|end_char=256
+8	действительно	действительно	ADV	_	Degree=Pos	9	advmod	_	start_char=257|end_char=270
+9	понравятся	понравиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=271|end_char=281
+10	"	"	PUNCT	_	_	12	punct	_	start_char=282|end_char=283
+11	Небесные	небесный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	start_char=283|end_char=291
+12	песни	песня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	start_char=292|end_char=297
+13	для	для	ADP	_	_	14	case	_	start_char=298|end_char=301
+14	дороги	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=302|end_char=308
+15	"	"	PUNCT	_	_	12	punct	_	start_char=308|end_char=309
+16	.	.	PUNCT	_	_	9	punct	_	start_char=309|end_char=310
+
+# text = Будьте благословлены.
+# sent_id = 4
+1	Будьте	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	cop	_	start_char=311|end_char=317
+2	благословлены	благословленный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=318|end_char=331
+3	.	.	PUNCT	_	_	2	punct	_	start_char=331|end_char=332
+

@@ -1,0 +1,74 @@
+# text = Olen ostanut monia kaapeleita, ja tämä on ainoa, joka aiheuttaa minulle ongelmia.
+# sent_id = 0
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=4
+2	ostanut	ostaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=5|end_char=12
+3	monia	moni	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	4	det	_	start_char=13|end_char=18
+4	kaapeleita	kaapeli	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=19|end_char=29
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=29|end_char=30
+6	ja	ja	CCONJ	C	_	9	cc	_	start_char=31|end_char=33
+7	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	start_char=34|end_char=38
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	start_char=39|end_char=41
+9	ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	2	conj	_	start_char=42|end_char=47
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=47|end_char=48
+11	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	start_char=49|end_char=53
+12	aiheuttaa	aiheuttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=54|end_char=63
+13	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	12	obl	_	start_char=64|end_char=71
+14	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	12	obj	_	start_char=72|end_char=80
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=80|end_char=81
+
+# text = Siinä on huminaa, rahinaa, ja luulen, että minulla on ongelmia laitteistoni kanssa.
+# sent_id = 1
+1	Siinä	se	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	0	root	_	start_char=82|end_char=87
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=88|end_char=90
+3	huminaa	humina	NOUN	N	Case=Par|Number=Sing	1	nsubj:cop	_	start_char=91|end_char=98
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=98|end_char=99
+5	rahinaa	rahina	NOUN	N	Case=Par|Number=Sing	3	appos	_	start_char=100|end_char=107
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=107|end_char=108
+7	ja	ja	CCONJ	C	_	8	cc	_	start_char=109|end_char=111
+8	luulen	luulla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=112|end_char=118
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=118|end_char=119
+10	että	että	SCONJ	C	_	11	mark	_	start_char=120|end_char=124
+11	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	8	ccomp	_	start_char=125|end_char=132
+12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop:own	_	start_char=133|end_char=135
+13	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	11	nsubj:cop	_	start_char=136|end_char=144
+14	laitteistoni	laitteisto	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	13	nmod	_	start_char=145|end_char=157
+15	kanssa	kanssa	ADP	Adp	AdpType=Post	14	case	_	start_char=158|end_char=164
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=164|end_char=165
+
+# text = Hetimiten kun käytän mitä tahansa muuta johtoa, ongelma häviää.
+# sent_id = 2
+1	Hetimiten	hetimiten	ADV	Adv	_	2	advmod	_	start_char=166|end_char=175
+2	kun	kun	SCONJ	C	_	3	mark	_	start_char=176|end_char=179
+3	käytän	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=180|end_char=186
+4	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	7	det	_	start_char=187|end_char=191
+5	tahansa	tahansa	ADV	Adv	_	4	fixed	_	start_char=192|end_char=199
+6	muuta	muu	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	7	det	_	start_char=200|end_char=205
+7	johtoa	johto	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=206|end_char=212
+8	,	,	PUNCT	Punct	_	3	punct	_	start_char=212|end_char=213
+9	ongelma	ongelma	NOUN	N	Case=Nom|Number=Sing	10	nsubj	_	start_char=214|end_char=221
+10	häviää	hävitä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=222|end_char=228
+11	.	.	PUNCT	Punct	_	10	punct	_	start_char=228|end_char=229
+
+# text = Hosalla on muita tuotteita, joilla on hyvä hinta-laatusuhde.
+# sent_id = 3
+1	Hosalla	Hosa	PROPN	N	Case=Ade|Number=Sing	0	root	_	start_char=230|end_char=237
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=238|end_char=240
+3	muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	4	det	_	start_char=241|end_char=246
+4	tuotteita	tuote	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=247|end_char=256
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=256|end_char=257
+6	joilla	joka	PRON	Pron	Case=Ade|Number=Plur|PronType=Rel	4	acl:relcl	_	start_char=258|end_char=264
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop:own	_	start_char=265|end_char=267
+8	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	start_char=268|end_char=272
+9	hinta-laatusuhde	hinta#laatu#suhde	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=273|end_char=289
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=289|end_char=290
+
+# text = Mutta kokemukseni perusteella en suosittele tätä.
+# sent_id = 4
+1	Mutta	mutta	CCONJ	C	_	5	cc	_	start_char=291|end_char=296
+2	kokemukseni	kokemus	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod:poss	_	start_char=297|end_char=308
+3	perusteella	peruste	NOUN	N	Case=Ade|Number=Sing	5	obl	_	start_char=309|end_char=320
+4	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=321|end_char=323
+5	suosittele	suositella	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=324|end_char=334
+6	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	obj	_	start_char=335|end_char=339
+7	.	.	PUNCT	Punct	_	5	punct	_	start_char=339|end_char=340
+

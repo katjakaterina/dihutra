@@ -1,0 +1,59 @@
+# text = Claptonin klassikot Erittäin pettymys.
+# sent_id = 0
+1	Claptonin	Clapton	PROPN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=0|end_char=9
+2	klassikot	klassikko	NOUN	N	Case=Nom|Number=Plur	4	nsubj:cop	_	start_char=10|end_char=19
+3	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	4	advmod	_	start_char=20|end_char=28
+4	pettymys	pettymys	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=29|end_char=37
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=37|end_char=38
+
+# text = Tätä mainostettiin "note-for-note" -oppitunniksi valituille Clapton-kappaleille, eikä se ollut edes lähellä.
+# sent_id = 1
+1	Tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=39|end_char=43
+2	mainostettiin	mainostaa	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=44|end_char=57
+3	"	"	PUNCT	Punct	_	4	punct	_	start_char=58|end_char=59
+4	note-for-note	note-for-note	X	Foreign	Foreign=Yes	6	compound:nn	_	start_char=59|end_char=72
+5	"	"	PUNCT	Punct	_	4	punct	_	start_char=72|end_char=73
+6	-oppitunniksi	oppi#tunti	NOUN	N	Case=Tra|Number=Sing	7	obl	_	start_char=74|end_char=87
+7	valituille	valita	VERB	V	Case=All|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=88|end_char=98
+8	Clapton-kappaleille	Clapton#kappale	NOUN	N	Case=All|Number=Plur	2	obl	_	start_char=99|end_char=118
+9	,	,	PUNCT	Punct	_	14	punct	_	start_char=118|end_char=119
+10	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	start_char=120|end_char=124
+11	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj:cop	_	start_char=125|end_char=127
+12	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	14	cop	_	start_char=128|end_char=133
+13	edes	edes	ADV	Adv	_	14	advmod	_	start_char=134|end_char=138
+14	lähellä	lähellä	ADV	Adv	_	2	conj	_	start_char=139|end_char=146
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=146|end_char=147
+
+# text = Ei ollut välilehteä, joka tukisi luetteloitujen kappaleiden pieniä (ja joskus epätarkkoja) osia.
+# sent_id = 2
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=148|end_char=150
+2	ollut	olla	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=151|end_char=156
+3	välilehteä	väli#lehti	NOUN	N	Case=Par|Number=Sing	2	nsubj	_	start_char=157|end_char=167
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=167|end_char=168
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=169|end_char=173
+6	tukisi	tukea	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=174|end_char=180
+7	luetteloitujen	lueteloida	VERB	V	Case=Gen|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=181|end_char=195
+8	kappaleiden	kappale	NOUN	N	Case=Gen|Number=Plur	15	nmod:poss	_	start_char=196|end_char=207
+9	pieniä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Plur	15	amod	_	start_char=208|end_char=214
+10	(	(	PUNCT	Punct	_	11	punct	_	start_char=215|end_char=216
+11	ja	ja	CCONJ	C	_	13	cc	_	start_char=216|end_char=218
+12	joskus	joskus	ADV	Adv	_	13	advmod	_	start_char=219|end_char=225
+13	epätarkkoja	epä#tarkka	ADJ	A	Case=Par|Degree=Pos|Number=Plur	9	conj	_	start_char=226|end_char=237
+14	)	)	PUNCT	Punct	_	13	punct	_	start_char=237|end_char=238
+15	osia	osa	NOUN	N	Case=Par|Number=Plur	6	obj	_	start_char=239|end_char=243
+16	.	.	PUNCT	Punct	_	2	punct	_	start_char=243|end_char=244
+
+# text = Lähetin valituksen suoraan Hal Leonardille, mutta en saanut vastausta.
+# sent_id = 3
+1	Lähetin	lähettää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=245|end_char=252
+2	valituksen	valitus	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=253|end_char=263
+3	suoraan	suoraan	ADV	Adv	_	4	advmod	_	start_char=264|end_char=271
+4	Hal	Hal	PROPN	N	Case=Nom|Number=Sing	1	obl	_	start_char=272|end_char=275
+5	Leonardille	Leonarti	PROPN	N	Case=All|Number=Sing	4	flat:name	_	start_char=276|end_char=287
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=287|end_char=288
+7	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=289|end_char=294
+8	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=295|end_char=297
+9	saanut	saada	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=298|end_char=304
+10	vastausta	vastaus	NOUN	N	Case=Par|Number=Sing	9	obj	_	start_char=305|end_char=314
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=314|end_char=315
+

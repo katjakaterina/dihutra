@@ -1,0 +1,109 @@
+# text = Epäonnistuminen ROSKA!! !......
+# sent_id = 0
+1	Epäonnistuminen	epäonnistuminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	2	nsubj:cop	_	start_char=0|end_char=15
+2	ROSKA	roska	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=16|end_char=21
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=21|end_char=22
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=22|end_char=23
+5	!......	!......	PUNCT	Punct	_	2	punct	_	start_char=24|end_char=31
+
+# text = Tämä tuote on varmaankin merkitty väärin.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=31|end_char=35
+2	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	5	obj	_	start_char=36|end_char=41
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	start_char=42|end_char=44
+4	varmaankin	varmaan	ADV	Adv	Clitic=Kin	5	advmod	_	start_char=45|end_char=55
+5	merkitty	merkitä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=56|end_char=64
+6	väärin	väärin	ADV	Adv	_	5	advmod	_	start_char=65|end_char=71
+7	.	.	PUNCT	Punct	_	5	punct	_	start_char=71|end_char=72
+
+# text = En saa Samsung S2 -puhelintani latautumaan tällä alkuperäisellä laturilla.
+# sent_id = 2
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=73|end_char=75
+2	saa	saada	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=76|end_char=79
+3	Samsung	Samsung	PROPN	N	Case=Nom|Number=Sing	5	compound:nn	_	start_char=80|end_char=87
+4	S2	S2	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=88|end_char=90
+5	-puhelintani	puhelin	NOUN	N	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nsubj	_	start_char=91|end_char=103
+6	latautumaan	latautua	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp:ds	_	start_char=104|end_char=115
+7	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	9	det	_	start_char=116|end_char=121
+8	alkuperäisellä	alku#peräinen	ADJ	A	Case=Ade|Degree=Pos|Derivation=Inen|Number=Sing	9	amod	_	start_char=122|end_char=136
+9	laturilla	laturi	NOUN	N	Case=Ade|Number=Sing	6	obl	_	start_char=137|end_char=146
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=146|end_char=147
+
+# text = Valot palavat, puhelin näyttää latautuvan, mutta mikään ei tapahdu.
+# sent_id = 3
+1	Valot	valo	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	start_char=148|end_char=153
+2	palavat	palaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=154|end_char=161
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=161|end_char=162
+4	puhelin	puhelin	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=163|end_char=170
+5	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=171|end_char=178
+6	latautuvan	latautua	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	5	xcomp	_	start_char=179|end_char=189
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=189|end_char=190
+8	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=191|end_char=196
+9	mikään	mikään	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	start_char=197|end_char=203
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=204|end_char=206
+11	tapahdu	tapahtua	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=207|end_char=214
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=214|end_char=215
+
+# text = En ole varma, onko minulle sattunut viallinen tuote, mutta on erittäin turhauttavaa istua autossasi tuntikausia eikä nähdä puhelimesi latautuvan.
+# sent_id = 4
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=216|end_char=218
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=219|end_char=222
+3	varma	varma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=223|end_char=228
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=228|end_char=229
+5	onko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=230|end_char=234
+6	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	7	obl	_	start_char=235|end_char=242
+7	sattunut	sattua	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	ccomp	_	start_char=243|end_char=251
+8	viallinen	viallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	9	amod	_	start_char=252|end_char=261
+9	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=262|end_char=267
+10	,	,	PUNCT	Punct	_	14	punct	_	start_char=267|end_char=268
+11	mutta	mutta	CCONJ	C	_	14	cc	_	start_char=269|end_char=274
+12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	start_char=275|end_char=277
+13	erittäin	erittäin	ADV	Adv	Derivation=Ttain	14	advmod	_	start_char=278|end_char=286
+14	turhauttavaa	turhauttava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	conj	_	start_char=287|end_char=299
+15	istua	istua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	14	csubj:cop	_	start_char=300|end_char=305
+16	autossasi	auto	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	15	obl	_	start_char=306|end_char=315
+17	tuntikausia	tunti#kausi	NOUN	N	Case=Par|Number=Plur	15	obl	_	start_char=316|end_char=327
+18	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	aux	_	start_char=328|end_char=332
+19	nähdä	nähdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	15	conj	_	start_char=333|end_char=338
+20	puhelimesi	puhelin	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	21	nsubj	_	start_char=339|end_char=349
+21	latautuvan	latautua	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	19	xcomp:ds	_	start_char=350|end_char=360
+22	.	.	PUNCT	Punct	_	3	punct	_	start_char=360|end_char=361
+
+# text = Jos tarvitset luotettavan laturin, ÄLÄ osta tätä tuotetta.
+# sent_id = 5
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=362|end_char=365
+2	tarvitset	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=366|end_char=375
+3	luotettavan	luotettava	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	_	start_char=376|end_char=387
+4	laturin	laturi	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=388|end_char=395
+5	,	,	PUNCT	Punct	_	2	punct	_	start_char=395|end_char=396
+6	ÄLÄ	älää	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=397|end_char=400
+7	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=401|end_char=405
+8	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	det	_	start_char=406|end_char=410
+9	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=411|end_char=419
+10	.	.	PUNCT	Punct	_	7	punct	_	start_char=419|end_char=420
+
+# text = Jos tarvitset auton laturin Samsung S2:lle, suosittelisin Motorolan ajoneuvon virtalähdettä.
+# sent_id = 6
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=421|end_char=424
+2	tarvitset	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	start_char=425|end_char=434
+3	auton	auto	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=435|end_char=440
+4	laturin	laturi	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=441|end_char=448
+5	Samsung	Samsung	PROPN	N	Case=Nom|Number=Sing	2	obl	_	start_char=449|end_char=456
+6	S2:lle	S2	PROPN	N	Case=All|Number=Sing	5	flat:name	_	start_char=457|end_char=463
+7	,	,	PUNCT	Punct	_	2	punct	_	start_char=463|end_char=464
+8	suosittelisin	suositella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=465|end_char=478
+9	Motorolan	Motorola	PROPN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=479|end_char=488
+10	ajoneuvon	ajo#neuvo	NOUN	N	Case=Gen|Number=Sing	11	nmod:poss	_	start_char=489|end_char=498
+11	virtalähdettä	virta#lähde	NOUN	N	Case=Par|Number=Sing	8	obj	_	start_char=499|end_char=512
+12	.	.	PUNCT	Punct	_	8	punct	_	start_char=512|end_char=513
+
+# text = Se latautuu nopeasti ja on luotettava.
+# sent_id = 7
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=514|end_char=516
+2	latautuu	latautua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=517|end_char=525
+3	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=526|end_char=534
+4	ja	ja	CCONJ	C	_	6	cc	_	start_char=535|end_char=537
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=538|end_char=540
+6	luotettava	luotettava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	conj	_	start_char=541|end_char=551
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=551|end_char=552
+

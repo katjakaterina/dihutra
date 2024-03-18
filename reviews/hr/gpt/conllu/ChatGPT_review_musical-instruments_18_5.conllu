@@ -1,0 +1,89 @@
+# text = Fender 18 ft. Cali clear...
+# sent_id = 0
+1	Fender	Fender	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=6
+2	18	18	NUM	Mdc	NumType=Card	1	flat	_	start_char=7|end_char=9
+3	ft.	ft.	NOUN	Y	_	1	flat	_	start_char=10|end_char=13
+4	Cali	cali	X	Xf	Foreign=Yes	3	flat:foreign	_	start_char=14|end_char=18
+5	clear	clear	X	Xf	Foreign=Yes	4	flat	_	start_char=19|end_char=24
+6	...	...	PUNCT	Z	_	1	punct	_	start_char=24|end_char=27
+
+# text = Želio/željela sam ga samo zbog izgleda...
+# sent_id = 1
+1	Želio/željela	želio/željeti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=28|end_char=41
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=42|end_char=45
+3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=46|end_char=48
+4	samo	samo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=49|end_char=53
+5	zbog	zbog	ADP	Sg	Case=Gen	6	case	_	start_char=54|end_char=58
+6	izgleda	izgled	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	obl	_	start_char=59|end_char=66
+7	...	...	PUNCT	Z	_	1	punct	_	start_char=66|end_char=69
+
+# text = To je lijep izgledajući kabel...
+# sent_id = 2
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=70|end_char=72
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=73|end_char=75
+3	lijep	lijep	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=76|end_char=81
+4	izgledajući	izgledati	ADV	Rr	Tense=Pres|VerbForm=Conv	3	xcomp	_	start_char=82|end_char=93
+5	kabel	kabel	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=94|end_char=99
+6	...	...	PUNCT	Z	_	3	punct	_	start_char=99|end_char=102
+
+# text = Znam da će obavljati svoju funkciju...
+# sent_id = 3
+1	Znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=103|end_char=107
+2	da	da	SCONJ	Cs	_	4	mark	_	start_char=108|end_char=110
+3	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=111|end_char=113
+4	obavljati	obavljati	VERB	Vmn	VerbForm=Inf	1	ccomp	_	start_char=114|end_char=123
+5	svoju	svoj	DET	Px-fsa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=124|end_char=129
+6	funkciju	funkcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=130|end_char=138
+7	...	...	PUNCT	Z	_	1	punct	_	start_char=138|end_char=141
+
+# text = Što se tiče Sam Asha... ovaj kabel bio je upakiran u omotač koji se nalazio unutar druge kutije s mojim Roc n Soc stolicom... njihov tim za dostavu obavlja odličan posao... nikada nisam imao/la pritužbi...
+# sent_id = 4
+1	Što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	3	nsubj	_	start_char=142|end_char=145
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=146|end_char=148
+3	tiče	ticati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=149|end_char=153
+4	Sam	sam	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=154|end_char=157
+5	Asha	Asha	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=158|end_char=162
+6	...	...	PUNCT	Z	_	3	punct	_	start_char=162|end_char=165
+7	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=166|end_char=170
+8	kabel	kabel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=171|end_char=176
+9	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	start_char=177|end_char=180
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=181|end_char=183
+11	upakiran	upakiran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=184|end_char=192
+12	u	u	ADP	Sa	Case=Acc	13	case	_	start_char=193|end_char=194
+13	omotač	omotač	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=195|end_char=201
+14	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	16	nsubj	_	start_char=202|end_char=206
+15	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	16	expl	_	start_char=207|end_char=209
+16	nalazio	nalaziti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	start_char=210|end_char=217
+17	unutar	unutar	ADP	Sg	Case=Gen	19	case	_	start_char=218|end_char=224
+18	druge	drugi	ADJ	Mlofsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=225|end_char=230
+19	kutije	kutija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	start_char=231|end_char=237
+20	s	sa	ADP	Si	Case=Ins	25	case	_	start_char=238|end_char=239
+21	mojim	moj	DET	Ps1msi	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	25	det	_	start_char=240|end_char=245
+22	Roc	Roc	X	Xf	Foreign=Yes	25	amod	_	start_char=246|end_char=249
+23	n	n	X	Xf	Foreign=Yes	24	nmod	_	start_char=250|end_char=251
+24	Soc	soc	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	22	flat	_	start_char=252|end_char=255
+25	stolicom	stolica	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	start_char=256|end_char=264
+26	...	...	PUNCT	Z	_	31	punct	_	start_char=264|end_char=267
+27	njihov	njihov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	28	det	_	start_char=268|end_char=274
+28	tim	tim	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	start_char=275|end_char=278
+29	za	za	ADP	Sa	Case=Acc	30	case	_	start_char=279|end_char=281
+30	dostavu	dostava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	start_char=282|end_char=289
+31	obavlja	obavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=290|end_char=297
+32	odličan	odličan	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	start_char=298|end_char=305
+33	posao	posao	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	start_char=306|end_char=311
+34	...	...	PUNCT	Z	_	37	punct	_	start_char=311|end_char=314
+35	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	37	advmod	_	start_char=315|end_char=321
+36	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	37	aux	_	start_char=322|end_char=327
+37	imao/la	imao/ti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	31	conj	_	start_char=328|end_char=335
+38	pritužbi	pritužba	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	37	obj	_	start_char=336|end_char=344
+39	...	...	PUNCT	Z	_	11	punct	_	start_char=344|end_char=347
+
+# text = Volim Sam Ash... hvala Amazonu.
+# sent_id = 5
+1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=348|end_char=353
+2	Sam	sam	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	obj	_	start_char=354|end_char=357
+3	Ash...	Ash...	NUM	Mdm	NumType=Mult	1	obj	_	start_char=358|end_char=364
+4	hvala	hvala	INTJ	I	_	5	discourse	_	start_char=365|end_char=370
+5	Amazonu	Amazon	PROPN	Npmsd	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	start_char=371|end_char=378
+6	.	.	PUNCT	Z	_	1	punct	_	start_char=378|end_char=379
+

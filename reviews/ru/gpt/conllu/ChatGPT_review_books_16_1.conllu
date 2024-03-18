@@ -1,0 +1,68 @@
+# text = Не стоит деньги Это очень дешево изготовленный продукт.
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=8
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=9|end_char=15
+4	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=16|end_char=19
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	start_char=20|end_char=25
+6	дешево	дешево	ADV	_	Degree=Pos	7	advmod	_	start_char=26|end_char=32
+7	изготовленный	изготовить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	start_char=33|end_char=46
+8	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=47|end_char=54
+9	.	.	PUNCT	_	_	2	punct	_	start_char=54|end_char=55
+
+# text = Я бы даже не заплатил 1 доллар за это.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=56|end_char=57
+2	бы	бы	AUX	_	_	5	aux	_	start_char=58|end_char=60
+3	даже	даже	PART	_	_	4	advmod	_	start_char=61|end_char=65
+4	не	не	PART	_	_	5	advmod	_	start_char=66|end_char=68
+5	заплатил	платить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=69|end_char=77
+6	1	1	NUM	_	NumType=Card	7	nummod	_	start_char=78|end_char=79
+7	доллар	доллар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=80|end_char=86
+8	за	за	ADP	_	_	9	case	_	start_char=87|end_char=89
+9	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	start_char=90|end_char=93
+10	.	.	PUNCT	_	_	5	punct	_	start_char=93|end_char=94
+
+# text = Бумага дешевая и хлипкая, книга даже не остается открытой (с опасением порвать переплет), чтобы я мог развернуть ее и поставить на стойку для фортепиано, чтобы играть.
+# sent_id = 2
+1	Бумага	бумага	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=95|end_char=101
+2	дешевая	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=102|end_char=109
+3	и	и	CCONJ	_	_	4	cc	_	start_char=110|end_char=111
+4	хлипкая	хлипкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=112|end_char=119
+5	,	,	PUNCT	_	_	9	punct	_	start_char=119|end_char=120
+6	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=121|end_char=126
+7	даже	даже	PART	_	_	9	advmod	_	start_char=127|end_char=131
+8	не	не	PART	_	_	9	advmod	_	start_char=132|end_char=134
+9	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=135|end_char=143
+10	открытой	открытый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	obl	_	start_char=144|end_char=152
+11	(	(	PUNCT	_	_	13	punct	_	start_char=153|end_char=154
+12	с	с	ADP	_	_	13	case	_	start_char=154|end_char=155
+13	опасением	опасение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	parataxis	_	start_char=156|end_char=165
+14	порвать	рвать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	obl	_	start_char=166|end_char=173
+15	переплет	переплет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=174|end_char=182
+16	)	)	PUNCT	_	_	13	punct	_	start_char=182|end_char=183
+17	,	,	PUNCT	_	_	20	punct	_	start_char=183|end_char=184
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	20	mark	_	start_char=185|end_char=190
+19	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	start_char=191|end_char=192
+20	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=193|end_char=196
+21	развернуть	развернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	start_char=197|end_char=207
+22	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=208|end_char=210
+23	и	и	CCONJ	_	_	24	cc	_	start_char=211|end_char=212
+24	поставить	ставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	conj	_	start_char=213|end_char=222
+25	на	на	ADP	_	_	26	case	_	start_char=223|end_char=225
+26	стойку	стойка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	start_char=226|end_char=232
+27	для	для	ADP	_	_	28	case	_	start_char=233|end_char=236
+28	фортепиано	фортепиано	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	start_char=237|end_char=247
+29	,	,	PUNCT	_	_	31	punct	_	start_char=247|end_char=248
+30	чтобы	чтобы	SCONJ	_	Mood=Cnd	31	mark	_	start_char=249|end_char=254
+31	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	advcl	_	start_char=255|end_char=261
+32	.	.	PUNCT	_	_	2	punct	_	start_char=261|end_char=262
+
+# text = Не покупайте эту версию.
+# sent_id = 3
+1	Не	не	PART	_	_	2	advmod	_	start_char=263|end_char=265
+2	покупайте	покупать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=266|end_char=275
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=276|end_char=279
+4	версию	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=280|end_char=286
+5	.	.	PUNCT	_	_	2	punct	_	start_char=286|end_char=287
+

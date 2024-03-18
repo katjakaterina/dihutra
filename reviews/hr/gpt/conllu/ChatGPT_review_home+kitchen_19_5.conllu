@@ -1,0 +1,85 @@
+# text = Spektakularna knjiga!
+# sent_id = 0
+1	Spektakularna	spektakularan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=13
+2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=14|end_char=20
+3	!	!	PUNCT	Z	_	2	punct	_	start_char=20|end_char=21
+
+# text = Knjiga Marthe Stewart o svadbenim tortama upravo je ono što sam tražila.
+# sent_id = 1
+1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=22|end_char=28
+2	Marthe	Marthe	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=29|end_char=35
+3	Stewart	Stewart	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	flat	_	start_char=36|end_char=43
+4	o	o	ADP	Sl	Case=Loc	6	case	_	start_char=44|end_char=45
+5	svadbenim	svadbeni	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=46|end_char=55
+6	tortama	torta	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	start_char=56|end_char=63
+7	upravo	upravo	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=64|end_char=70
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=71|end_char=73
+9	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=74|end_char=77
+10	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	12	nsubj	_	start_char=78|end_char=81
+11	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=82|end_char=85
+12	tražila	tražiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	acl	_	start_char=86|end_char=93
+13	.	.	PUNCT	Z	_	9	punct	_	start_char=93|end_char=94
+
+# text = Jasne upute i predivne fotografije su jednostavno savršene.
+# sent_id = 2
+1	Jasne	Jasna	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=95|end_char=100
+2	upute	uputa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=101|end_char=106
+3	i	i	CCONJ	Cc	_	5	cc	_	start_char=107|end_char=108
+4	predivne	predivan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=109|end_char=117
+5	fotografije	fotografija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	2	conj	_	start_char=118|end_char=129
+6	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=130|end_char=132
+7	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=133|end_char=144
+8	savršene	savršen	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=145|end_char=153
+9	.	.	PUNCT	Z	_	8	punct	_	start_char=153|end_char=154
+
+# text = Pravi favorit svakog dizajnera torti.
+# sent_id = 3
+1	Pravi	prav	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=155|end_char=160
+2	favorit	favorit	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=161|end_char=168
+3	svakog	svaki	DET	Pi-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	start_char=169|end_char=175
+4	dizajnera	dizajner	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=176|end_char=185
+5	torti	torta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=186|end_char=191
+6	.	.	PUNCT	Z	_	2	punct	_	start_char=191|end_char=192
+
+# text = Ovo je prva knjiga kojoj ću se obratiti za ideje.
+# sent_id = 4
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=193|end_char=196
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=197|end_char=199
+3	prva	prvi	ADJ	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=200|end_char=204
+4	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=205|end_char=211
+5	kojoj	koji	DET	Pi-fsd	Case=Dat|Gender=Fem|Number=Sing|PronType=Int,Rel	8	obj	_	start_char=212|end_char=217
+6	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=218|end_char=220
+7	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	start_char=221|end_char=223
+8	obratiti	obratiti	VERB	Vmn	VerbForm=Inf	4	acl	_	start_char=224|end_char=232
+9	za	za	ADP	Sa	Case=Acc	10	case	_	start_char=233|end_char=235
+10	ideje	ideja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	start_char=236|end_char=241
+11	.	.	PUNCT	Z	_	4	punct	_	start_char=241|end_char=242
+
+# text = A imam preko 50 knjiga o tortama u svojoj biblioteci.
+# sent_id = 5
+1	A	a	CCONJ	Cc	_	2	cc	_	start_char=243|end_char=244
+2	imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=245|end_char=249
+3	preko	preko	ADP	Sg	Case=Gen	5	case	_	start_char=250|end_char=255
+4	50	50	NUM	Mdc	NumType=Card	5	nummod:gov	_	start_char=256|end_char=258
+5	knjiga	knjiga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	obj	_	start_char=259|end_char=265
+6	o	o	ADP	Sl	Case=Loc	7	case	_	start_char=266|end_char=267
+7	tortama	torta	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	start_char=268|end_char=275
+8	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=276|end_char=277
+9	svojoj	svoj	DET	Px-fsl	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	start_char=278|end_char=284
+10	biblioteci	biblioteka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	start_char=285|end_char=295
+11	.	.	PUNCT	Z	_	2	punct	_	start_char=295|end_char=296
+
+# text = Ne mogu biti sretnija.
+# sent_id = 6
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=297|end_char=299
+2	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=300|end_char=304
+3	biti	biti	AUX	Van	VerbForm=Inf	2	xcomp	_	start_char=305|end_char=309
+4	sretnija	sretan	ADJ	Agcfpny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Plur	3	xcomp	_	start_char=310|end_char=318
+5	.	.	PUNCT	Z	_	2	punct	_	start_char=318|end_char=319
+
+# text = :o)
+# sent_id = 7
+1	:	:	PUNCT	Z	_	2	punct	_	start_char=320|end_char=321
+2	o	o	INTJ	I	_	0	root	_	start_char=321|end_char=322
+3	)	)	PUNCT	Z	_	2	punct	_	start_char=322|end_char=323
+

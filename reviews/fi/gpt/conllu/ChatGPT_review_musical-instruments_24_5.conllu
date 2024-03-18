@@ -1,0 +1,76 @@
+# text = Laadukas kaapeli!
+# sent_id = 0
+1	Laadukas	laadukas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	kaapeli	kaapeli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=16
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=16|end_char=17
+
+# text = Hankin tämän kaapelin ajamaan rockbändin näppäimistöohjainta M-audio profire 2626:een ohjatakseni miditä Pro Toolsissa.
+# sent_id = 1
+1	Hankin	hankkia	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=24
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=25|end_char=30
+3	kaapelin	kaapeli	NOUN	N	Case=Gen|Number=Sing	4	nsubj	_	start_char=31|end_char=39
+4	ajamaan	ajaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=40|end_char=47
+5	rockbändin	rockbändi	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=48|end_char=58
+6	näppäimistöohjainta	näppäimistö#ohjainen	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=59|end_char=78
+7	M-audio	M-audio	PROPN	N	Case=Nom|Number=Sing	4	obl	_	start_char=79|end_char=86
+8	profire	profire	X	Foreign	Foreign=Yes	7	flat:name	_	start_char=87|end_char=94
+9	2626:een	2626	NUM	Num	Case=Ill|NumType=Card|Number=Sing	7	flat:name	_	start_char=95|end_char=103
+10	ohjatakseni	ohjata	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=104|end_char=115
+11	miditä	midi	NOUN	N	Case=Par|Number=Sing	10	obj	_	start_char=116|end_char=122
+12	Pro	Pro	PROPN	N	Case=Nom|Number=Sing	10	obl	_	start_char=123|end_char=126
+13	Toolsissa	Tools	PROPN	N	Case=Ine|Number=Sing	12	flat:name	_	start_char=127|end_char=136
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=136|end_char=137
+
+# text = Toimii hienosti!
+# sent_id = 2
+1	Toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=138|end_char=144
+2	hienosti	hienosti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=145|end_char=153
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=153|end_char=154
+
+# text = Tukeva istuvuus, tiiviisti muotoillut päät, arvostetun merkin kaapeli.
+# sent_id = 3
+1	Tukeva	tukeva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=155|end_char=161
+2	istuvuus	istuvuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	0	root	_	start_char=162|end_char=170
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=170|end_char=171
+4	tiiviisti	tiiviisti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=172|end_char=181
+5	muotoillut	muotoilla	VERB	V	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=182|end_char=192
+6	päät	pää	NOUN	N	Case=Nom|Number=Plur	2	conj	_	start_char=193|end_char=197
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=197|end_char=198
+8	arvostetun	arvostettu	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	start_char=199|end_char=209
+9	merkin	merkki	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=210|end_char=216
+10	kaapeli	kaapeli	NOUN	N	Case=Nom|Number=Sing	2	conj	_	start_char=217|end_char=224
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=224|end_char=225
+
+# text = (vähän ohut, mutta minulla ei ole havaittu mitään ongelmia sen vuoksi tai mistään muustakaan.
+# sent_id = 4
+1	(	(	PUNCT	Punct	_	3	punct	_	start_char=226|end_char=227
+2	vähän	vähän	ADV	Adv	_	3	advmod	_	start_char=227|end_char=232
+3	ohut	ohut	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=233|end_char=237
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=237|end_char=238
+5	mutta	mutta	CCONJ	C	_	6	cc	_	start_char=239|end_char=244
+6	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	3	conj	_	start_char=245|end_char=252
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=253|end_char=255
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop:own	_	start_char=256|end_char=259
+9	havaittu	havaita	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	conj	_	start_char=260|end_char=268
+10	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	11	det	_	start_char=269|end_char=275
+11	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=276|end_char=284
+12	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	obl	_	start_char=285|end_char=288
+13	vuoksi	vuoksi	ADP	Adp	AdpType=Post	12	case	_	start_char=289|end_char=295
+14	tai	tai	CCONJ	C	_	16	cc	_	start_char=296|end_char=299
+15	mistään	mikään	PRON	Pron	Case=Ela|Number=Sing|PronType=Ind	16	det	_	start_char=300|end_char=307
+16	muustakaan	muu	PRON	Pron	Case=Ela|Clitic=Kin|Number=Sing|PronType=Ind	12	conj	_	start_char=308|end_char=318
+17	.	.	PUNCT	Punct	_	3	punct	_	start_char=318|end_char=319
+
+# text = Ei voinut mennä vikaan 5 dollarilla ostohetkellä ja Prime-oikeutuksella.
+# sent_id = 5
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=320|end_char=322
+2	voinut	voida	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=323|end_char=329
+3	mennä	mennä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=330|end_char=335
+4	vikaan	vika	NOUN	N	Case=Ill|Number=Sing	3	obl	_	start_char=336|end_char=342
+5	5	5	NUM	Num	NumType=Card	6	nummod	_	start_char=343|end_char=344
+6	dollarilla	dollari	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=345|end_char=355
+7	ostohetkellä	osto#hetki	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=356|end_char=368
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=369|end_char=371
+9	Prime-oikeutuksella	Prime#oikeutus	NOUN	N	Case=Ade|Number=Sing	7	conj	_	start_char=372|end_char=391
+10	.	.	PUNCT	Punct	_	3	punct	_	start_char=391|end_char=392
+

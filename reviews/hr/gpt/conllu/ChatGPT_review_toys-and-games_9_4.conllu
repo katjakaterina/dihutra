@@ -1,0 +1,74 @@
+# text = Neizostavno za svaku kućnu školu!
+# sent_id = 0
+1	Neizostavno	neizostavno	ADV	Rgp	Degree=Pos	0	root	_	start_char=0|end_char=11
+2	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=12|end_char=14
+3	svaku	svaki	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	5	det	_	start_char=15|end_char=20
+4	kućnu	kućni	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=21|end_char=26
+5	školu	škola	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=27|end_char=32
+6	!	!	PUNCT	Z	_	1	punct	_	start_char=32|end_char=33
+
+# text = Ovo je dobar proizvod s neograničenim mogućnostima.
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=34|end_char=37
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=38|end_char=40
+3	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=41|end_char=46
+4	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=47|end_char=55
+5	s	sa	ADP	Si	Case=Ins	7	case	_	start_char=56|end_char=57
+6	neograničenim	neograničen	ADJ	Agpfpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	start_char=58|end_char=71
+7	mogućnostima	mogućnost	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	4	nmod	_	start_char=72|end_char=84
+8	.	.	PUNCT	Z	_	4	punct	_	start_char=84|end_char=85
+
+# text = Također sam naručio/la magnetska slova i brojeve tvrtke Melissa & Doug.
+# sent_id = 2
+1	Također	također	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=86|end_char=93
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=94|end_char=97
+3	naručio/la	naručio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=98|end_char=108
+4	magnetska	magnetski	ADJ	Agpnpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	start_char=109|end_char=118
+5	slova	slovo	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=119|end_char=124
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=125|end_char=126
+7	brojeve	broj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	start_char=127|end_char=134
+8	tvrtke	tvrtka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=135|end_char=141
+9	Melissa	Melissa	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	start_char=142|end_char=149
+10	&	&	PUNCT	Z	_	9	punct	_	start_char=150|end_char=151
+11	Doug	Doug	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	start_char=152|end_char=156
+12	.	.	PUNCT	Z	_	3	punct	_	start_char=156|end_char=157
+
+# text = Materijal za suho brisanje mora se brzo obrisati, inače ostavlja tragove.
+# sent_id = 3
+1	Materijal	materijal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=158|end_char=167
+2	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=168|end_char=170
+3	suho	suho	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=171|end_char=175
+4	brisanje	brisanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	start_char=176|end_char=184
+5	mora	morati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=185|end_char=189
+6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=190|end_char=192
+7	brzo	brzo	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=193|end_char=197
+8	obrisati	obrisati	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=198|end_char=206
+9	,	,	PUNCT	Z	_	11	punct	_	start_char=206|end_char=207
+10	inače	inače	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=208|end_char=213
+11	ostavlja	ostavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=214|end_char=222
+12	tragove	trag	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	start_char=223|end_char=230
+13	.	.	PUNCT	Z	_	5	punct	_	start_char=230|end_char=231
+
+# text = Također, magnet nije vrlo jak.
+# sent_id = 4
+1	Također	također	ADV	Rgp	Degree=Pos	6	discourse	_	start_char=232|end_char=239
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=239|end_char=240
+3	magnet	magnet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=241|end_char=247
+4	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=248|end_char=252
+5	vrlo	vrlo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=253|end_char=257
+6	jak	jak	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=258|end_char=261
+7	.	.	PUNCT	Z	_	6	punct	_	start_char=261|end_char=262
+
+# text = Lijepih je dimenzija i vrlo dobro odgovara našim potrebama.
+# sent_id = 5
+1	Lijepih	lijep	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=263|end_char=270
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=271|end_char=273
+3	dimenzija	dimenzija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	start_char=274|end_char=283
+4	i	i	CCONJ	Cc	_	6	cc	_	start_char=284|end_char=285
+5	vrlo	vrlo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=286|end_char=290
+6	dobro	dobro	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=291|end_char=296
+7	odgovara	odgovarati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=297|end_char=305
+8	našim	naš	DET	Ps1fpd	Case=Dat|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	start_char=306|end_char=311
+9	potrebama	potreba	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	7	obj	_	start_char=312|end_char=321
+10	.	.	PUNCT	Z	_	7	punct	_	start_char=321|end_char=322
+

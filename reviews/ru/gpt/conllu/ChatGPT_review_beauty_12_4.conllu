@@ -1,0 +1,73 @@
+# text = Запах и цвет разные.
+# sent_id = 0
+1	Запах	запах	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=0|end_char=5
+2	и	и	CCONJ	_	_	3	cc	_	start_char=6|end_char=7
+3	цвет	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=8|end_char=12
+4	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=13|end_char=19
+5	.	.	PUNCT	_	_	4	punct	_	start_char=19|end_char=20
+
+# text = Есть ли разница между тем, что набрано с помощью A22, и тем, что с помощью A82?
+# sent_id = 1
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=23|end_char=27
+2	ли	ли	PART	_	_	1	advmod	_	start_char=28|end_char=30
+3	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=31|end_char=38
+4	между	между	ADP	_	_	5	case	_	start_char=39|end_char=44
+5	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	3	nmod	_	start_char=45|end_char=48
+6	,	,	PUNCT	_	_	8	punct	_	start_char=48|end_char=49
+7	что	что	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj:pass	_	start_char=50|end_char=53
+8	набрано	набрать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl	_	start_char=54|end_char=61
+9	с	с	ADP	_	_	8	case	_	start_char=62|end_char=63
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	start_char=64|end_char=71
+11	A22	A22	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=72|end_char=75
+12	,	,	PUNCT	_	_	14	punct	_	start_char=75|end_char=76
+13	и	и	CCONJ	_	_	14	cc	_	start_char=77|end_char=78
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	conj	_	start_char=79|end_char=82
+15	,	,	PUNCT	_	_	19	punct	_	start_char=82|end_char=83
+16	что	что	PRON	_	Case=Nom|PronType=Int,Rel	19	mark	_	start_char=84|end_char=87
+17	с	с	ADP	_	_	19	case	_	start_char=88|end_char=89
+18	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	fixed	_	start_char=90|end_char=97
+19	A82	A82	PROPN	_	Foreign=Yes	14	acl	_	start_char=98|end_char=101
+20	?	?	PUNCT	_	_	1	punct	_	start_char=101|end_char=102
+
+# text = Я не знаю, почему, но тот, что я купил здесь, сильно отличается по запаху и цвету от того, что я купил в Гонконге.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=103|end_char=104
+2	не	не	PART	_	_	3	advmod	_	start_char=105|end_char=107
+3	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=108|end_char=112
+4	,	,	PUNCT	_	_	5	punct	_	start_char=112|end_char=113
+5	почему	почему	ADV	_	Degree=Pos	3	advmod	_	start_char=114|end_char=120
+6	,	,	PUNCT	_	_	16	punct	_	start_char=120|end_char=121
+7	но	но	CCONJ	_	_	16	cc	_	start_char=122|end_char=124
+8	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	start_char=125|end_char=128
+9	,	,	PUNCT	_	_	12	punct	_	start_char=128|end_char=129
+10	что	что	PRON	_	Case=Acc|PronType=Int,Rel	12	obj	_	start_char=130|end_char=133
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=134|end_char=135
+12	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=136|end_char=141
+13	здесь	здесь	ADV	_	Degree=Pos	12	advmod	_	start_char=142|end_char=147
+14	,	,	PUNCT	_	_	8	punct	_	start_char=147|end_char=148
+15	сильно	сильно	ADV	_	Degree=Pos	16	advmod	_	start_char=149|end_char=155
+16	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	ccomp	_	start_char=156|end_char=166
+17	по	по	ADP	_	_	18	case	_	start_char=167|end_char=169
+18	запаху	запах	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	obl	_	start_char=170|end_char=176
+19	и	и	CCONJ	_	_	20	cc	_	start_char=177|end_char=178
+20	цвету	цвет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	conj	_	start_char=179|end_char=184
+21	от	от	ADP	_	_	22	case	_	start_char=185|end_char=187
+22	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	start_char=188|end_char=192
+23	,	,	PUNCT	_	_	26	punct	_	start_char=192|end_char=193
+24	что	что	PRON	_	Case=Acc|PronType=Int,Rel	26	obj	_	start_char=194|end_char=197
+25	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=198|end_char=199
+26	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	acl	_	start_char=200|end_char=205
+27	в	в	ADP	_	_	28	case	_	start_char=206|end_char=207
+28	Гонконге	Гонконг	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	start_char=208|end_char=216
+29	.	.	PUNCT	_	_	3	punct	_	start_char=216|end_char=217
+
+# text = Не уверен, правда ли это.
+# sent_id = 3
+1	Не	не	PART	_	_	2	advmod	_	start_char=218|end_char=220
+2	уверен	уверенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=221|end_char=227
+3	,	,	PUNCT	_	_	4	punct	_	start_char=227|end_char=228
+4	правда	правда	ADV	_	Degree=Pos	2	parataxis	_	start_char=229|end_char=235
+5	ли	ли	PART	_	_	4	advmod	_	start_char=236|end_char=238
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=239|end_char=242
+7	.	.	PUNCT	_	_	2	punct	_	start_char=242|end_char=243
+

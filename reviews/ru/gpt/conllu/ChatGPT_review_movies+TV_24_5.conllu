@@ -1,0 +1,100 @@
+# text = Заслуживающая внимания версия "Рождественской песни в прозе"
+# sent_id = 0
+1	Заслуживающая	заслуживать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	start_char=0|end_char=13
+2	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=14|end_char=22
+3	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=23|end_char=29
+4	"	"	PUNCT	_	_	6	punct	_	start_char=30|end_char=31
+5	Рождественской	рождественский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=31|end_char=45
+6	песни	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=46|end_char=51
+7	в	в	ADP	_	_	8	case	_	start_char=52|end_char=53
+8	прозе	проза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	start_char=54|end_char=59
+9	"	"	PUNCT	_	_	6	punct	_	start_char=59|end_char=60
+
+# text = Это классическая "Рождественская песнь в прозе" Чарльза Диккенса с американским оттенком.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=61|end_char=64
+2	классическая	классический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=65|end_char=77
+3	"	"	PUNCT	_	_	5	punct	_	start_char=78|end_char=79
+4	Рождественская	рождественский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=79|end_char=93
+5	песнь	песнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=94|end_char=99
+6	в	в	ADP	_	_	7	case	_	start_char=100|end_char=101
+7	прозе	проза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	start_char=102|end_char=107
+8	"	"	PUNCT	_	_	5	punct	_	start_char=107|end_char=108
+9	Чарльза	Чарльз	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=109|end_char=116
+10	Диккенса	Диккенс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	start_char=117|end_char=125
+11	с	с	ADP	_	_	13	case	_	start_char=126|end_char=127
+12	американским	американский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=128|end_char=140
+13	оттенком	оттенок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	nmod	_	start_char=141|end_char=149
+14	.	.	PUNCT	_	_	5	punct	_	start_char=149|end_char=150
+
+# text = Эта версия хорошо передает последствия истории и личную роль в ней.
+# sent_id = 2
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=151|end_char=154
+2	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=155|end_char=161
+3	хорошо	хорошо	ADV	_	Degree=Pos	4	advmod	_	start_char=162|end_char=168
+4	передает	передавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=169|end_char=177
+5	последствия	последствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=178|end_char=189
+6	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=190|end_char=197
+7	и	и	CCONJ	_	_	9	cc	_	start_char=198|end_char=199
+8	личную	личный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=200|end_char=206
+9	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	conj	_	start_char=207|end_char=211
+10	в	в	ADP	_	_	11	case	_	start_char=212|end_char=213
+11	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod	_	start_char=214|end_char=217
+12	.	.	PUNCT	_	_	4	punct	_	start_char=217|end_char=218
+
+# text = Она предоставляет мрачное представление о выборах главного персонажа, как и оригинал "Рождественская песнь в прозе", но эта версия также показывает, как выборы одного человека влияют на окружающих.
+# sent_id = 3
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=219|end_char=222
+2	предоставляет	предоставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=223|end_char=236
+3	мрачное	мрачный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=237|end_char=244
+4	представление	представление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	start_char=245|end_char=258
+5	о	о	ADP	_	_	6	case	_	start_char=259|end_char=260
+6	выборах	выборы	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	nmod	_	start_char=261|end_char=268
+7	главного	главный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=269|end_char=277
+8	персонажа	персонаж	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=278|end_char=287
+9	,	,	PUNCT	_	_	12	punct	_	start_char=287|end_char=288
+10	как	как	SCONJ	_	_	12	mark	_	start_char=289|end_char=292
+11	и	и	PART	_	_	12	advmod	_	start_char=293|end_char=294
+12	оригинал	оригинал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obl	_	start_char=295|end_char=303
+13	"	"	PUNCT	_	_	15	punct	_	start_char=304|end_char=305
+14	Рождественская	рождественский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=305|end_char=319
+15	песнь	песнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	start_char=320|end_char=325
+16	в	в	ADP	_	_	17	case	_	start_char=326|end_char=327
+17	прозе	проза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	start_char=328|end_char=333
+18	"	"	PUNCT	_	_	15	punct	_	start_char=333|end_char=334
+19	,	,	PUNCT	_	_	24	punct	_	start_char=334|end_char=335
+20	но	но	CCONJ	_	_	24	cc	_	start_char=336|end_char=338
+21	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=339|end_char=342
+22	версия	версия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	start_char=343|end_char=349
+23	также	также	ADV	_	Degree=Pos	24	advmod	_	start_char=350|end_char=355
+24	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=356|end_char=366
+25	,	,	PUNCT	_	_	30	punct	_	start_char=366|end_char=367
+26	как	как	SCONJ	_	_	30	mark	_	start_char=368|end_char=371
+27	выборы	выборы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	start_char=372|end_char=378
+28	одного	один	NUM	_	Case=Gen|Gender=Masc|NumType=Card	29	nummod	_	start_char=379|end_char=385
+29	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	start_char=386|end_char=394
+30	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	start_char=395|end_char=401
+31	на	на	ADP	_	_	32	case	_	start_char=402|end_char=404
+32	окружающих	окружающие	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	30	obl	_	start_char=405|end_char=415
+33	.	.	PUNCT	_	_	2	punct	_	start_char=415|end_char=416
+
+# text = Я рекомендую этот фильм всем, кто собирает разные версии "Рождественской песни в прозе".
+# sent_id = 4
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=417|end_char=418
+2	рекомендую	рекоменуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=419|end_char=429
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=430|end_char=434
+4	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=435|end_char=440
+5	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur|PronType=Tot	2	iobj	_	start_char=441|end_char=445
+6	,	,	PUNCT	_	_	8	punct	_	start_char=445|end_char=446
+7	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	8	nsubj	_	start_char=447|end_char=450
+8	собирает	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=451|end_char=459
+9	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=460|end_char=466
+10	версии	версия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=467|end_char=473
+11	"	"	PUNCT	_	_	13	punct	_	start_char=474|end_char=475
+12	Рождественской	рождественский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=475|end_char=489
+13	песни	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=490|end_char=495
+14	в	в	ADP	_	_	15	case	_	start_char=496|end_char=497
+15	прозе	проза	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	start_char=498|end_char=503
+16	"	"	PUNCT	_	_	13	punct	_	start_char=503|end_char=504
+17	.	.	PUNCT	_	_	2	punct	_	start_char=504|end_char=505
+

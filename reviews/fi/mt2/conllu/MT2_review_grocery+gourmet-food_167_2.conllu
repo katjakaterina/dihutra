@@ -1,0 +1,73 @@
+# text = Kipeät kouristukset tämän kanssa......
+# sent_id = 0
+1	Kipeät	kipeä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=0|end_char=6
+2	kouristukset	kouristus	NOUN	N	Case=Nom|Number=Plur	0	root	_	start_char=7|end_char=19
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	nmod	_	start_char=20|end_char=25
+4	kanssa	kanssa	ADP	Adp	AdpType=Post	3	case	_	start_char=26|end_char=32
+5	.....	.....	PUNCT	Punct	_	2	punct	_	start_char=32|end_char=37
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=37|end_char=38
+
+# text = Äiti ja minä aloimme juoda tätä jo 1980-luvulla.
+# sent_id = 1
+1	Äiti	äiti	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=39|end_char=43
+2	ja	ja	CCONJ	C	_	3	cc	_	start_char=44|end_char=46
+3	minä	minä	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	conj	_	start_char=47|end_char=51
+4	aloimme	alkaa	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=52|end_char=59
+5	juoda	juoda	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=60|end_char=65
+6	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	obj	_	start_char=66|end_char=70
+7	jo	jo	ADV	Adv	_	8	advmod	_	start_char=71|end_char=73
+8	1980-luvulla	1980#luku	NOUN	N	Case=Ade|Number=Sing	5	obl	_	start_char=74|end_char=86
+9	.	.	PUNCT	Punct	_	4	punct	_	start_char=86|end_char=87
+
+# text = Lopetin, koska se aiheutti minulle liikaa kipua, hieman pahempaa kuin kuukautiskipuja.
+# sent_id = 2
+1	Lopetin	lopettaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=88|end_char=95
+2	,	,	PUNCT	Punct	_	5	punct	_	start_char=95|end_char=96
+3	koska	koska	SCONJ	C	_	5	mark	_	start_char=97|end_char=102
+4	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj	_	start_char=103|end_char=105
+5	aiheutti	aiheuttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=106|end_char=114
+6	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	5	obl	_	start_char=115|end_char=122
+7	liikaa	liikaa	ADV	Adv	_	8	advmod	_	start_char=123|end_char=129
+8	kipua	kipu	NOUN	N	Case=Par|Derivation=U|Number=Sing	5	obj	_	start_char=130|end_char=135
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=135|end_char=136
+10	hieman	hieman	ADV	Adv	_	11	advmod	_	start_char=137|end_char=143
+11	pahempaa	paha	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	8	appos	_	start_char=144|end_char=152
+12	kuin	kuin	SCONJ	C	_	13	mark	_	start_char=153|end_char=157
+13	kuukautiskipuja	kuukautis#kipu	NOUN	N	Case=Par|Number=Plur	11	advcl	_	start_char=158|end_char=173
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=173|end_char=174
+
+# text = Tämän teen yrtit ovat vahvoja.
+# sent_id = 3
+1	Tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=175|end_char=180
+2	teen	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=181|end_char=185
+3	yrtit	yrtti	NOUN	N	Case=Nom|Number=Plur	5	nsubj:cop	_	start_char=186|end_char=191
+4	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=192|end_char=196
+5	vahvoja	vahva	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=197|end_char=204
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=204|end_char=205
+
+# text = Luulen lukeneeni jostain, missä Senna stimuloi suolia supistamaan.
+# sent_id = 4
+1	Luulen	luulla	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=206|end_char=212
+2	lukeneeni	lukea	VERB	V	Case=Gen|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	1	xcomp	_	start_char=213|end_char=222
+3	jostain	jokin	PRON	Pron	Case=Ela|Number=Sing|PronType=Ind	2	obl	_	start_char=223|end_char=230
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=230|end_char=231
+5	missä	mikä	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	9	obl	_	start_char=232|end_char=237
+6	Senna	Senna	PROPN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=238|end_char=243
+7	stimuloi	stimuloida	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=244|end_char=252
+8	suolia	suoli	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=253|end_char=259
+9	supistamaan	supistaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp:ds	_	start_char=260|end_char=271
+10	.	.	PUNCT	Punct	_	1	punct	_	start_char=271|end_char=272
+
+# text = Tämä ei todellakaan ole painonpudotustuote, vaan enemmän laksatiivinen.
+# sent_id = 5
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=273|end_char=277
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=278|end_char=280
+3	todellakaan	todella	ADV	Adv	Clitic=Kaan	5	advmod	_	start_char=281|end_char=292
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=293|end_char=296
+5	painonpudotustuote	painon#pudotus#tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=297|end_char=315
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=315|end_char=316
+7	vaan	vaan	CCONJ	C	_	9	cc	_	start_char=317|end_char=321
+8	enemmän	enemmän	ADV	Adv	_	9	advmod	_	start_char=322|end_char=329
+9	laksatiivinen	laksatiivinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	5	conj	_	start_char=330|end_char=343
+10	.	.	PUNCT	Punct	_	5	punct	_	start_char=343|end_char=344
+

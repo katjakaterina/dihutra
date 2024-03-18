@@ -1,0 +1,134 @@
+# text = Potpuno gubljenje vremena i novca......
+# sent_id = 0
+1	Potpuno	potpuno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	gubljenje	gubljenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=8|end_char=17
+3	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=18|end_char=25
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=26|end_char=27
+5	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	start_char=28|end_char=33
+6	...	...	PUNCT	Z	_	2	punct	_	start_char=33|end_char=36
+7	...	...	PUNCT	Z	_	2	punct	_	start_char=36|end_char=39
+
+# text = Ova igra se nije mogla instalirati ni na jednom od mojih sedam računala.
+# sent_id = 1
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=40|end_char=43
+2	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=44|end_char=48
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=49|end_char=51
+4	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=52|end_char=56
+5	mogla	moći	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=57|end_char=62
+6	instalirati	instalirati	VERB	Vmn	VerbForm=Inf	5	xcomp	_	start_char=63|end_char=74
+7	ni	ni	PART	Qo	_	9	discourse	_	start_char=75|end_char=77
+8	na	na	ADP	Sl	Case=Loc	9	case	_	start_char=78|end_char=80
+9	jednom	jedan	NUM	Mlcmsl	Case=Loc|Gender=Masc|NumType=Card|Number=Sing	13	nummod:gov	_	start_char=81|end_char=87
+10	od	od	ADP	Sg	Case=Gen	13	case	_	start_char=88|end_char=90
+11	mojih	moj	DET	Ps1fpg	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det	_	start_char=91|end_char=96
+12	sedam	sedam	NUM	Mlc	NumType=Card	13	nummod:gov	_	start_char=97|end_char=102
+13	računala	računalo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	6	obl	_	start_char=103|end_char=111
+14	.	.	PUNCT	Z	_	5	punct	_	start_char=111|end_char=112
+
+# text = Instalacijski program je toliko zastario da ako otkrije bilo koju hardversku komponentu koju ne prepoznaje (npr. suvremenu hardversku opremu), prekida postupak instalacije.
+# sent_id = 2
+1	Instalacijski	instalacijski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=113|end_char=126
+2	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=127|end_char=134
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=135|end_char=137
+4	toliko	toliko	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	start_char=138|end_char=144
+5	zastario	zastariti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=145|end_char=153
+6	da	da	SCONJ	Cs	_	8	mark	_	start_char=154|end_char=156
+7	ako	ako	SCONJ	Cs	_	8	mark	_	start_char=157|end_char=160
+8	otkrije	otkriti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=161|end_char=168
+9	bilo	bilo	PART	Qo	_	10	discourse	_	start_char=169|end_char=173
+10	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	12	det	_	start_char=174|end_char=178
+11	hardversku	hardverski	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=179|end_char=189
+12	komponentu	komponent	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=190|end_char=200
+13	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	15	obj	_	start_char=201|end_char=205
+14	ne	ne	PART	Qz	Polarity=Neg	15	advmod	_	start_char=206|end_char=208
+15	prepoznaje	prepoznavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	start_char=209|end_char=219
+16	(	(	PUNCT	Z	_	20	punct	_	start_char=220|end_char=221
+17	npr.	npr.	PART	Y	_	20	advmod	_	start_char=221|end_char=225
+18	suvremenu	suvremen	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=226|end_char=235
+19	hardversku	hardverski	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=236|end_char=246
+20	opremu	oprema	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	parataxis	_	start_char=247|end_char=253
+21	)	)	PUNCT	Z	_	20	punct	_	start_char=253|end_char=254
+22	,	,	PUNCT	Z	_	23	punct	_	start_char=254|end_char=255
+23	prekida	prekid	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=256|end_char=263
+24	postupak	postupak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	start_char=264|end_char=272
+25	instalacije	instalacija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=273|end_char=284
+26	.	.	PUNCT	Z	_	5	punct	_	start_char=284|end_char=285
+
+# text = Isprobao sam sve trikove s korisničkih foruma koje sam mogao pronaći.
+# sent_id = 3
+1	Isprobao	isprobati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=286|end_char=294
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=295|end_char=298
+3	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=299|end_char=302
+4	trikove	trik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=303|end_char=310
+5	s	sa	ADP	Sg	Case=Gen	7	case	_	start_char=311|end_char=312
+6	korisničkih	korisnički	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=313|end_char=324
+7	foruma	forum	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=325|end_char=331
+8	koje	koji	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obj	_	start_char=332|end_char=336
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=337|end_char=340
+10	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	start_char=341|end_char=346
+11	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	10	xcomp	_	start_char=347|end_char=354
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=354|end_char=355
+
+# text = Nijedan nije pomogao.
+# sent_id = 4
+1	Nijedan	nijedan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	start_char=356|end_char=363
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=364|end_char=368
+3	pomogao	pomoći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=369|end_char=376
+4	.	.	PUNCT	Z	_	3	punct	_	start_char=376|end_char=377
+
+# text = Čak ni izdavač više ne podržava ovu igru i napustio ju je.
+# sent_id = 5
+1	Čak	čak	PART	Qo	_	3	advmod	_	start_char=378|end_char=381
+2	ni	ni	PART	Qo	_	3	discourse	_	start_char=382|end_char=384
+3	izdavač	izdavač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=385|end_char=392
+4	više	mnogo	ADV	Rgc	Degree=Cmp	6	advmod	_	start_char=393|end_char=397
+5	ne	ne	PART	Qz	Polarity=Neg	6	advmod	_	start_char=398|end_char=400
+6	podržava	podržavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=401|end_char=409
+7	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=410|end_char=413
+8	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=414|end_char=418
+9	i	i	CCONJ	Cc	_	10	cc	_	start_char=419|end_char=420
+10	napustio	napustiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	start_char=421|end_char=429
+11	ju	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=430|end_char=432
+12	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=433|end_char=435
+13	.	.	PUNCT	Z	_	6	punct	_	start_char=435|end_char=436
+
+# text = Potpuno beskorisno.
+# sent_id = 6
+1	Potpuno	potpuno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=437|end_char=444
+2	beskorisno	beskorisno	ADV	Rgp	Degree=Pos	0	root	_	start_char=445|end_char=455
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=455|end_char=456
+
+# text = Naravno, moj sin je bio vrlo razočaran.
+# sent_id = 7
+1	Naravno	naravno	ADV	Rgp	Degree=Pos	8	discourse	_	start_char=457|end_char=464
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=464|end_char=465
+3	moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=466|end_char=469
+4	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=470|end_char=473
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=474|end_char=476
+6	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	cop	_	start_char=477|end_char=480
+7	vrlo	vrlo	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=481|end_char=485
+8	razočaran	razočaran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=486|end_char=495
+9	.	.	PUNCT	Z	_	8	punct	_	start_char=495|end_char=496
+
+# text = Nema potrebe trošiti vrijeme na ovo.
+# sent_id = 8
+1	Nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=497|end_char=501
+2	potrebe	potreba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	obj	_	start_char=502|end_char=509
+3	trošiti	trošiti	VERB	Vmn	VerbForm=Inf	2	acl	_	start_char=510|end_char=517
+4	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=518|end_char=525
+5	na	na	ADP	Sa	Case=Acc	6	case	_	start_char=526|end_char=528
+6	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	start_char=529|end_char=532
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=532|end_char=533
+
+# text = Ovo je zastarjeli softver namijenjen zastarjeloj hardverskoj opremi.
+# sent_id = 9
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=534|end_char=537
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=538|end_char=540
+3	zastarjeli	zastarjeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	amod	_	start_char=541|end_char=551
+4	softver	softver	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=552|end_char=559
+5	namijenjen	namijeniti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	acl	_	start_char=560|end_char=570
+6	zastarjeloj	zastario	ADJ	Agpfsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=571|end_char=582
+7	hardverskoj	hardverski	ADJ	Agpfsdy	Case=Dat|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=583|end_char=594
+8	opremi	oprema	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	5	obj	_	start_char=595|end_char=601
+9	.	.	PUNCT	Z	_	3	punct	_	start_char=601|end_char=602
+

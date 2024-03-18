@@ -1,0 +1,84 @@
+# text = Отличная математическая игра для вашего маленького поклонника Звёздных войн Мой сын, который не любит математику, с удовольствием играет в эту игру.
+# sent_id = 0
+1	Отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=0|end_char=8
+2	математическая	математический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=9|end_char=23
+3	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=24|end_char=28
+4	для	для	ADP	_	_	7	case	_	start_char=29|end_char=32
+5	вашего	ваш	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=33|end_char=39
+6	маленького	маленький	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=40|end_char=50
+7	поклонника	поклонник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=51|end_char=61
+8	Звёздных	звездный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	start_char=62|end_char=70
+9	войн	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	start_char=71|end_char=75
+10	Мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=76|end_char=79
+11	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	start_char=80|end_char=83
+12	,	,	PUNCT	_	_	15	punct	_	start_char=83|end_char=84
+13	который	который	PRON	_	Case=Nom|PronType=Int,Rel	15	nsubj	_	start_char=85|end_char=92
+14	не	не	PART	_	_	15	advmod	_	start_char=93|end_char=95
+15	любит	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=96|end_char=101
+16	математику	математика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=102|end_char=112
+17	,	,	PUNCT	_	_	3	punct	_	start_char=112|end_char=113
+18	с	с	ADP	_	_	19	case	_	start_char=114|end_char=115
+19	удовольствием	удовольствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	20	obl	_	start_char=116|end_char=129
+20	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=130|end_char=136
+21	в	в	ADP	_	_	23	case	_	start_char=137|end_char=138
+22	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	start_char=139|end_char=142
+23	игру	игра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	start_char=143|end_char=147
+24	.	.	PUNCT	_	_	20	punct	_	start_char=147|end_char=148
+
+# text = Мне нравится то, что можно играть вдвоем, так что я могу соревноваться с ним, чтобы видеть его прогресс.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=149|end_char=152
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=153|end_char=161
+3	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=162|end_char=164
+4	,	,	PUNCT	_	_	6	punct	_	start_char=164|end_char=165
+5	что	что	SCONJ	_	_	6	mark	_	start_char=166|end_char=169
+6	можно	можно	ADV	_	Degree=Pos	3	acl	_	start_char=170|end_char=175
+7	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	start_char=176|end_char=182
+8	вдвоем	вдвоем	ADV	_	Degree=Pos	7	advmod	_	start_char=183|end_char=189
+9	,	,	PUNCT	_	_	13	punct	_	start_char=189|end_char=190
+10	так	так	ADV	_	Degree=Pos	13	mark	_	start_char=191|end_char=194
+11	что	что	SCONJ	_	_	10	fixed	_	start_char=195|end_char=198
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=199|end_char=200
+13	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=201|end_char=205
+14	соревноваться	соревноваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	xcomp	_	start_char=206|end_char=219
+15	с	с	ADP	_	_	16	case	_	start_char=220|end_char=221
+16	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl	_	start_char=222|end_char=225
+17	,	,	PUNCT	_	_	19	punct	_	start_char=225|end_char=226
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	19	mark	_	start_char=227|end_char=232
+19	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	advcl	_	start_char=233|end_char=239
+20	его	его	DET	_	Poss=Yes|PronType=Prs	21	det	_	start_char=240|end_char=243
+21	прогресс	прогресс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=244|end_char=252
+22	.	.	PUNCT	_	_	2	punct	_	start_char=252|end_char=253
+
+# text = Вы можете отрегулировать громкость голоса и музыки по отдельности, и игра работает на моей системе Windows XP, о чем, как я знаю, некоторые жаловались.
+# sent_id = 2
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=254|end_char=256
+2	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=257|end_char=263
+3	отрегулировать	регулировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=264|end_char=278
+4	громкость	громкость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=279|end_char=288
+5	голоса	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=289|end_char=295
+6	и	и	CCONJ	_	_	7	cc	_	start_char=296|end_char=297
+7	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	start_char=298|end_char=304
+8	по	по	ADP	_	_	9	case	_	start_char=305|end_char=307
+9	отдельности	отдельность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	start_char=308|end_char=319
+10	,	,	PUNCT	_	_	13	punct	_	start_char=319|end_char=320
+11	и	и	CCONJ	_	_	13	cc	_	start_char=321|end_char=322
+12	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=323|end_char=327
+13	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=328|end_char=336
+14	на	на	ADP	_	_	16	case	_	start_char=337|end_char=339
+15	моей	мой	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	start_char=340|end_char=344
+16	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	start_char=345|end_char=352
+17	Windows	Windows	PROPN	_	Foreign=Yes	16	flat:foreign	_	start_char=353|end_char=360
+18	XP	XP	PROPN	_	Foreign=Yes	16	flat:foreign	_	start_char=361|end_char=363
+19	,	,	PUNCT	_	_	28	punct	_	start_char=363|end_char=364
+20	о	о	ADP	_	_	21	case	_	start_char=365|end_char=366
+21	чем	что	PRON	_	Case=Loc|PronType=Int,Rel	28	obl	_	start_char=367|end_char=370
+22	,	,	PUNCT	_	_	21	punct	_	start_char=370|end_char=371
+23	как	как	SCONJ	_	_	25	mark	_	start_char=372|end_char=375
+24	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	start_char=376|end_char=377
+25	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	28	parataxis	_	start_char=378|end_char=382
+26	,	,	PUNCT	_	_	25	punct	_	start_char=382|end_char=383
+27	некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	28	nsubj	_	start_char=384|end_char=393
+28	жаловались	жаловаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	13	parataxis	_	start_char=394|end_char=404
+29	.	.	PUNCT	_	_	2	punct	_	start_char=404|end_char=405
+

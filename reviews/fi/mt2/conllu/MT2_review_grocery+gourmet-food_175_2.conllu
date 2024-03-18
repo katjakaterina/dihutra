@@ -1,0 +1,66 @@
+# text = Mauton eikä niin vahva
+# sent_id = 0
+1	Mauton	mauton	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=6
+2	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=7|end_char=11
+3	niin	niin	ADV	Adv	_	4	advmod	_	start_char=12|end_char=16
+4	vahva	vahva	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=17|end_char=22
+
+# text = Tämä teemerkki tuntui aiemmin vahvemmalta.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=23|end_char=27
+2	teemerkki	teemerkki	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=28|end_char=37
+3	tuntui	tuntua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=38|end_char=44
+4	aiemmin	aiemmin	ADV	Adv	_	5	advmod	_	start_char=45|end_char=52
+5	vahvemmalta	vahva	ADJ	A	Case=Abl|Degree=Cmp|Number=Sing	3	xcomp	_	start_char=53|end_char=64
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=64|end_char=65
+
+# text = Nyt se tuntuu tavallisemmalta.
+# sent_id = 2
+1	Nyt	nyt	ADV	Adv	_	3	advmod	_	start_char=66|end_char=69
+2	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=70|end_char=72
+3	tuntuu	tuntua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=73|end_char=79
+4	tavallisemmalta	tavallinen	ADJ	A	Case=Abl|Degree=Cmp|Number=Sing	3	xcomp	_	start_char=80|end_char=95
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=95|end_char=96
+
+# text = Muihin käyttämiini teesiin verrattuna tällä ei ole mitään makua.
+# sent_id = 3
+1	Muihin	muu	PRON	Pron	Case=Ill|Number=Plur|PronType=Ind	3	det	_	start_char=97|end_char=103
+2	käyttämiini	käyttää	VERB	V	Case=Ill|Number=Plur|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	3	acl	_	start_char=104|end_char=115
+3	teesiin	teesi	NOUN	N	Case=Ill|Number=Plur	4	obl	_	start_char=116|end_char=123
+4	verrattuna	verrata	VERB	V	Case=Ess|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	advcl	_	start_char=124|end_char=134
+5	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	0	root	_	start_char=135|end_char=140
+6	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=141|end_char=143
+7	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=144|end_char=147
+8	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	9	det	_	start_char=148|end_char=154
+9	makua	maku	NOUN	N	Case=Par|Derivation=U|Number=Sing	5	nsubj:cop	_	start_char=155|end_char=160
+10	.	.	PUNCT	Punct	_	5	punct	_	start_char=160|end_char=161
+
+# text = Se ei ole edes luonnonmukainen, mutta se on okei, koska sitä ei koskaan mainostettu sellaisena.
+# sent_id = 4
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=162|end_char=164
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=165|end_char=167
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=168|end_char=171
+4	edes	edes	ADV	Adv	_	5	advmod	_	start_char=172|end_char=176
+5	luonnonmukainen	luonnon#mukainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=177|end_char=192
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=192|end_char=193
+7	mutta	mutta	CCONJ	C	_	10	cc	_	start_char=194|end_char=199
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=200|end_char=202
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=203|end_char=205
+10	okei	okei	INTJ	Interj	_	5	conj	_	start_char=206|end_char=210
+11	,	,	PUNCT	Punct	_	16	punct	_	start_char=210|end_char=211
+12	koska	koska	SCONJ	C	_	16	mark	_	start_char=212|end_char=217
+13	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	16	obj	_	start_char=218|end_char=222
+14	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=223|end_char=225
+15	koskaan	koskaan	ADV	Adv	_	16	advmod	_	start_char=226|end_char=233
+16	mainostettu	mainostaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	10	advcl	_	start_char=234|end_char=245
+17	sellaisena	sellainen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Lainen|Number=Sing	16	xcomp	_	start_char=246|end_char=256
+18	.	.	PUNCT	Punct	_	5	punct	_	start_char=256|end_char=257
+
+# text = En osta sitä uudelleen.
+# sent_id = 5
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=258|end_char=260
+2	osta	ostaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=261|end_char=265
+3	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=266|end_char=270
+4	uudelleen	uudelleen	ADV	Adv	_	2	advmod	_	start_char=271|end_char=280
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=280|end_char=281
+

@@ -1,0 +1,78 @@
+# text = Ovaj album je apsolutno Blagoslovljen!
+# sent_id = 0
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4
+2	album	album	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=5|end_char=10
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=11|end_char=13
+4	apsolutno	apsolutno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=14|end_char=23
+5	Blagoslovljen	blagosloviti	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=24|end_char=37
+6	!	!	PUNCT	Z	_	5	punct	_	start_char=37|end_char=38
+
+# text = Čim mi je stigao, odmah sam ga pustio i poslušao, te sam doživio trenutak prisjećanja na osamdesete kada sam ga prvi put čuo i kada sam ga vidio u koncertu neposredno prije njegove smrti.
+# sent_id = 1
+1	Čim	čim	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	advmod	_	start_char=39|end_char=42
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=43|end_char=45
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=46|end_char=48
+4	stigao	stići	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	_	start_char=49|end_char=55
+5	,	,	PUNCT	Z	_	4	punct	_	start_char=55|end_char=56
+6	odmah	odmah	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=57|end_char=62
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=63|end_char=66
+8	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=67|end_char=69
+9	pustio	pustiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=70|end_char=76
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=77|end_char=78
+11	poslušao	poslušati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	start_char=79|end_char=87
+12	,	,	PUNCT	Z	_	15	punct	_	start_char=87|end_char=88
+13	te	te	CCONJ	Cc	_	15	cc	_	start_char=89|end_char=91
+14	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=92|end_char=95
+15	doživio	doživiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	conj	_	start_char=96|end_char=103
+16	trenutak	trenutak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=104|end_char=112
+17	prisjećanja	prisjećanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	start_char=113|end_char=124
+18	na	na	ADP	Sa	Case=Acc	19	case	_	start_char=125|end_char=127
+19	osamdesete	osamdeseta	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	17	nmod	_	start_char=128|end_char=138
+20	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	25	advmod	_	start_char=139|end_char=143
+21	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	start_char=144|end_char=147
+22	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	start_char=148|end_char=150
+23	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=151|end_char=155
+24	put	put	ADV	Rgp	Degree=Pos	25	advmod	_	start_char=156|end_char=159
+25	čuo	čuti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	advcl	_	start_char=160|end_char=163
+26	i	i	CCONJ	Cc	_	30	cc	_	start_char=164|end_char=165
+27	kada	kada	ADV	Rgp	Degree=Pos|PronType=Int,Rel	30	advmod	_	start_char=166|end_char=170
+28	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	start_char=171|end_char=174
+29	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	start_char=175|end_char=177
+30	vidio	vidjeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	25	conj	_	start_char=178|end_char=183
+31	u	u	ADP	Sl	Case=Loc	32	case	_	start_char=184|end_char=185
+32	koncertu	koncert	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	30	obl	_	start_char=186|end_char=194
+33	neposredno	neposredno	ADV	Rgp	Degree=Pos	36	advmod	_	start_char=195|end_char=205
+34	prije	prije	ADP	Sg	Case=Gen	36	case	_	start_char=206|end_char=211
+35	njegove	njegov	DET	Ps3fsg	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	36	det	_	start_char=212|end_char=219
+36	smrti	smrt	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	30	obl	_	start_char=220|end_char=225
+37	.	.	PUNCT	Z	_	9	punct	_	start_char=225|end_char=226
+
+# text = Plakao sam, ali se smiješkao jer sam bio toliko blagoslovljen glazbom, i nadam se da ćete i vi biti potaknuti da ga nabavite.
+# sent_id = 2
+1	Plakao	plakati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=227|end_char=233
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=234|end_char=237
+3	,	,	PUNCT	Z	_	6	punct	_	start_char=237|end_char=238
+4	ali	ali	CCONJ	Cc	_	6	cc	_	start_char=239|end_char=242
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	start_char=243|end_char=245
+6	smiješkao	smiješkati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=246|end_char=255
+7	jer	jer	SCONJ	Cs	_	11	mark	_	start_char=256|end_char=259
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=260|end_char=263
+9	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	start_char=264|end_char=267
+10	toliko	toliko	ADV	Rgp	Degree=Pos|PronType=Dem	11	advmod	_	start_char=268|end_char=274
+11	blagoslovljen	blagosloviti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl	_	start_char=275|end_char=288
+12	glazbom	glazba	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	11	obl	_	start_char=289|end_char=296
+13	,	,	PUNCT	Z	_	15	punct	_	start_char=296|end_char=297
+14	i	i	CCONJ	Cc	_	15	cc	_	start_char=298|end_char=299
+15	nadam	nadati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=300|end_char=305
+16	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	15	expl	_	start_char=306|end_char=308
+17	da	da	SCONJ	Cs	_	22	mark	_	start_char=309|end_char=311
+18	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=312|end_char=316
+19	i	i	CCONJ	Cc	_	20	discourse	_	start_char=317|end_char=318
+20	vi	vi	PRON	Pp2-pn	Case=Nom|Number=Plur|Person=2|PronType=Prs	22	nsubj	_	start_char=319|end_char=321
+21	biti	biti	AUX	Van	VerbForm=Inf	22	aux	_	start_char=322|end_char=326
+22	potaknuti	potaknuti	VERB	Vmn	VerbForm=Inf	15	csubj	_	start_char=327|end_char=336
+23	da	da	SCONJ	Cs	_	25	mark	_	start_char=337|end_char=339
+24	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	start_char=340|end_char=342
+25	nabavite	nabaviti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	ccomp	_	start_char=343|end_char=351
+26	.	.	PUNCT	Z	_	1	punct	_	start_char=351|end_char=352
+

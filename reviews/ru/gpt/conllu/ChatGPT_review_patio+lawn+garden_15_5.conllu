@@ -1,0 +1,102 @@
+# text = Gilmour производит отличные продукты.
+# sent_id = 0
+1	Gilmour	Gilmour	PROPN	_	Foreign=Yes	2	nsubj	_	start_char=0|end_char=7
+2	производит	производить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=18
+3	отличные	отличный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	start_char=19|end_char=27
+4	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=28|end_char=36
+5	.	.	PUNCT	_	_	2	punct	_	start_char=36|end_char=37
+
+# text = Для всего, что мне нужно для работы на моем газоне и в саду, я стараюсь найти продукт Gilmour.
+# sent_id = 1
+1	Для	для	ADP	_	_	2	case	_	start_char=38|end_char=41
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	17	obl	_	start_char=42|end_char=47
+3	,	,	PUNCT	_	_	6	punct	_	start_char=47|end_char=48
+4	что	что	PRON	_	Case=Nom|PronType=Int,Rel	6	nsubj	_	start_char=49|end_char=52
+5	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	start_char=53|end_char=56
+6	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	acl:relcl	_	start_char=57|end_char=62
+7	для	для	ADP	_	_	8	case	_	start_char=63|end_char=66
+8	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=67|end_char=73
+9	на	на	ADP	_	_	11	case	_	start_char=74|end_char=76
+10	моем	мой	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=77|end_char=81
+11	газоне	газон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	start_char=82|end_char=88
+12	и	и	CCONJ	_	_	14	cc	_	start_char=89|end_char=90
+13	в	в	ADP	_	_	14	case	_	start_char=91|end_char=92
+14	саду	сад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	start_char=93|end_char=97
+15	,	,	PUNCT	_	_	2	punct	_	start_char=97|end_char=98
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=99|end_char=100
+17	стараюсь	стараться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=101|end_char=109
+18	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	start_char=110|end_char=115
+19	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=116|end_char=123
+20	Gilmour	Gilmour	PROPN	_	Foreign=Yes	19	flat:foreign	_	start_char=124|end_char=131
+21	.	.	PUNCT	_	_	17	punct	_	start_char=131|end_char=132
+
+# text = Их продукты просто не могут быть побиты по цене и/или гарантии.
+# sent_id = 2
+1	Их	их	DET	_	Poss=Yes|PronType=Prs	2	det	_	start_char=133|end_char=135
+2	продукты	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	start_char=136|end_char=144
+3	просто	просто	PART	_	_	4	advmod	_	start_char=145|end_char=151
+4	не	не	PART	_	_	5	advmod	_	start_char=152|end_char=154
+5	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=155|end_char=160
+6	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	aux:pass	_	start_char=161|end_char=165
+7	побиты	побить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	xcomp	_	start_char=166|end_char=172
+8	по	по	ADP	_	_	9	case	_	start_char=173|end_char=175
+9	цене	цена	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	start_char=176|end_char=180
+10	и/или	и/или	CCONJ	_	_	11	cc	_	start_char=181|end_char=186
+11	гарантии	гарантия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	start_char=187|end_char=195
+12	.	.	PUNCT	_	_	5	punct	_	start_char=195|end_char=196
+
+# text = Этот шланг типичен для продукции Gilmour.
+# sent_id = 3
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=197|end_char=201
+2	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=202|end_char=207
+3	типичен	типичный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=208|end_char=215
+4	для	для	ADP	_	_	5	case	_	start_char=216|end_char=219
+5	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=220|end_char=229
+6	Gilmour	Gilmour	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=230|end_char=237
+7	.	.	PUNCT	_	_	3	punct	_	start_char=237|end_char=238
+
+# text = Это крепкий и гибкий шланг, и, как и большинство других продуктов Gilmour, он поставляется с пожизненной гарантией.
+# sent_id = 4
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=239|end_char=242
+2	крепкий	крепкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=243|end_char=250
+3	и	и	CCONJ	_	_	4	cc	_	start_char=251|end_char=252
+4	гибкий	гибкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	conj	_	start_char=253|end_char=259
+5	шланг	шланг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=260|end_char=265
+6	,	,	PUNCT	_	_	17	punct	_	start_char=265|end_char=266
+7	и	и	CCONJ	_	_	17	cc	_	start_char=267|end_char=268
+8	,	,	PUNCT	_	_	7	punct	_	start_char=268|end_char=269
+9	как	как	SCONJ	_	_	11	mark	_	start_char=270|end_char=273
+10	и	и	PART	_	_	11	advmod	_	start_char=274|end_char=275
+11	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	advcl	_	start_char=276|end_char=287
+12	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=288|end_char=294
+13	продуктов	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=295|end_char=304
+14	Gilmour	Gilmour	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=305|end_char=312
+15	,	,	PUNCT	_	_	11	punct	_	start_char=312|end_char=313
+16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	start_char=314|end_char=316
+17	поставляется	поставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	start_char=317|end_char=329
+18	с	с	ADP	_	_	20	case	_	start_char=330|end_char=331
+19	пожизненной	пожизненный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=332|end_char=343
+20	гарантией	гарантия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	start_char=344|end_char=353
+21	.	.	PUNCT	_	_	5	punct	_	start_char=353|end_char=354
+
+# text = Я режу шланги газонокосилкой, и они всё равно заменяют их.
+# sent_id = 5
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=355|end_char=356
+2	режу	резать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=357|end_char=361
+3	шланги	шланг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=362|end_char=368
+4	газонокосилкой	газонокосилка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	start_char=369|end_char=383
+5	,	,	PUNCT	_	_	10	punct	_	start_char=383|end_char=384
+6	и	и	CCONJ	_	_	10	cc	_	start_char=385|end_char=386
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	start_char=387|end_char=390
+8	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	10	advmod	_	start_char=391|end_char=394
+9	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	fixed	_	start_char=395|end_char=400
+10	заменяют	заменять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=401|end_char=409
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	start_char=410|end_char=412
+12	.	.	PUNCT	_	_	2	punct	_	start_char=412|end_char=413
+
+# text = Довольно компания!
+# sent_id = 6
+1	Довольно	довольно	ADV	_	Degree=Pos	2	advmod	_	start_char=414|end_char=422
+2	компания	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=423|end_char=431
+3	!	!	PUNCT	_	_	2	punct	_	start_char=431|end_char=432
+

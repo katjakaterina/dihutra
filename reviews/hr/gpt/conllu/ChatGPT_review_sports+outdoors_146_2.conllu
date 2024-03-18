@@ -1,0 +1,109 @@
+# text = """Potrošite dodatni novac na bolji set"
+# sent_id = 0
+1	"	"	PUNCT	Z	_	4	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	4	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	4	punct	_	start_char=2|end_char=3
+4	Potrošite	potrositi	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=3|end_char=12
+5	dodatni	dodatan	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=13|end_char=20
+6	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=21|end_char=26
+7	na	na	ADP	Sa	Case=Acc	9	case	_	start_char=27|end_char=29
+8	bolji	dobar	ADJ	Agcmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	9	amod	_	start_char=30|end_char=35
+9	set	set	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=36|end_char=39
+10	"	"	PUNCT	Z	_	4	punct	_	start_char=39|end_char=40
+
+# text = Koristio/la sam ga godinu ili tako nešto i definitivno sam morao/morala kupiti bolju opremu.
+# sent_id = 1
+1	Koristio/la	koristioćti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=41|end_char=52
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=53|end_char=56
+3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=57|end_char=59
+4	godinu	godina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=60|end_char=66
+5	ili	ili	CCONJ	Cc	_	7	cc	_	start_char=67|end_char=70
+6	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	7	advmod	_	start_char=71|end_char=75
+7	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	4	conj	_	start_char=76|end_char=81
+8	i	i	CCONJ	Cc	_	11	cc	_	start_char=82|end_char=83
+9	definitivno	definitivno	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=84|end_char=95
+10	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=96|end_char=99
+11	morao/morala	morao/morati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=100|end_char=112
+12	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	11	xcomp	_	start_char=113|end_char=119
+13	bolju	dobar	ADJ	Agcfsay	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	14	amod	_	start_char=120|end_char=125
+14	opremu	oprema	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=126|end_char=132
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=132|end_char=133
+
+# text = Tanja čistačka šipka - pukla je... deblja čistačka šipka - također se slomila.
+# sent_id = 2
+1	Tanja	Tanja	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=134|end_char=139
+2	čistačka	čistački	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=140|end_char=148
+3	šipka	šipak	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=149|end_char=154
+4	-	-	PUNCT	Z	_	5	punct	_	start_char=155|end_char=156
+5	pukla	pući	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=157|end_char=162
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=163|end_char=165
+7	...	...	PUNCT	Z	_	10	punct	_	start_char=165|end_char=168
+8	deblja	debeo	ADJ	Agcfsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	10	amod	_	start_char=169|end_char=175
+9	čistačka	čistački	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=176|end_char=184
+10	šipka	šipak	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=185|end_char=190
+11	-	-	PUNCT	Z	_	10	punct	_	start_char=191|end_char=192
+12	također	također	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=193|end_char=200
+13	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	14	expl	_	start_char=201|end_char=203
+14	slomila	slomiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	parataxis	_	start_char=204|end_char=211
+15	.	.	PUNCT	Z	_	14	punct	_	start_char=211|end_char=212
+
+# text = Nisam osoba koja primjenjuje veliku silu na ove stvari, jednostavno su vrlo mekane/jeftine.
+# sent_id = 3
+1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=213|end_char=218
+2	osoba	osoba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=219|end_char=224
+3	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	4	nsubj	_	start_char=225|end_char=229
+4	primjenjuje	primjenjivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=230|end_char=241
+5	veliku	velik	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=242|end_char=248
+6	silu	sila	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=249|end_char=253
+7	na	na	ADP	Sa	Case=Acc	9	case	_	start_char=254|end_char=256
+8	ove	ovaj	DET	Pd-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	9	det	_	start_char=257|end_char=260
+9	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obl	_	start_char=261|end_char=267
+10	,	,	PUNCT	Z	_	14	punct	_	start_char=267|end_char=268
+11	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=269|end_char=280
+12	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=281|end_char=283
+13	vrlo	vrlo	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=284|end_char=288
+14	mekane/jeftine	mekane/jeftin	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	conj	_	start_char=289|end_char=303
+15	.	.	PUNCT	Z	_	2	punct	_	start_char=303|end_char=304
+
+# text = Četke su dovoljno pristojne.
+# sent_id = 4
+1	Četke	četka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=305|end_char=310
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=311|end_char=313
+3	dovoljno	dovoljno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=314|end_char=322
+4	pristojne	pristojan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=323|end_char=332
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=332|end_char=333
+
+# text = Nakon što sam potrošio/la novac na bolji set, pretpostavljam da sam naučio/la svoju lekciju.
+# sent_id = 5
+1	Nakon	nakon	SCONJ	Cs	_	4	mark	_	start_char=334|end_char=339
+2	što	što	SCONJ	Cs	_	1	fixed	_	start_char=340|end_char=343
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=344|end_char=347
+4	potrošio/la	potrošiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	start_char=348|end_char=359
+5	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=360|end_char=365
+6	na	na	ADP	Sa	Case=Acc	8	case	_	start_char=366|end_char=368
+7	bolji	dobar	ADJ	Agcmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	8	amod	_	start_char=369|end_char=374
+8	set	set	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=375|end_char=378
+9	,	,	PUNCT	Z	_	4	punct	_	start_char=378|end_char=379
+10	pretpostavljam	pretpostavljati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=380|end_char=394
+11	da	da	SCONJ	Cs	_	13	mark	_	start_char=395|end_char=397
+12	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=398|end_char=401
+13	naučio/la	naučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	ccomp	_	start_char=402|end_char=411
+14	svoju	svoj	DET	Px-fsa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	start_char=412|end_char=417
+15	lekciju	lekcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=418|end_char=425
+16	.	.	PUNCT	Z	_	10	punct	_	start_char=425|end_char=426
+
+# text = Ako imate sredstava, preskočite i kupite nešto malo bolje."
+# sent_id = 6
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=427|end_char=430
+2	imate	imati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=431|end_char=436
+3	sredstava	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	2	obj	_	start_char=437|end_char=446
+4	,	,	PUNCT	Z	_	2	punct	_	start_char=446|end_char=447
+5	preskočite	preskočiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=448|end_char=458
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=459|end_char=460
+7	kupite	kupiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	5	conj	_	start_char=461|end_char=467
+8	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	7	obj	_	start_char=468|end_char=473
+9	malo	malo	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=474|end_char=478
+10	bolje	dobro	ADV	Rgc	Degree=Cmp	7	advmod	_	start_char=479|end_char=484
+11	.	.	PUNCT	Z	_	5	punct	_	start_char=484|end_char=485
+12	"	"	PUNCT	Z	_	5	punct	_	start_char=485|end_char=486
+

@@ -1,0 +1,76 @@
+# text = Bez okusa i nije tako snažan
+# sent_id = 0
+1	Bez	bez	ADP	Sg	Case=Gen	2	case	_	start_char=0|end_char=3
+2	okusa	okus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=4|end_char=9
+3	i	i	CCONJ	Cc	_	6	cc	_	start_char=10|end_char=11
+4	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=12|end_char=16
+5	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	6	advmod	_	start_char=17|end_char=21
+6	snažan	snažan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=22|end_char=28
+
+# text = Ovaj brend čaja nekada je imao jači okus.
+# sent_id = 1
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=29|end_char=33
+2	brend	brend	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=34|end_char=39
+3	čaja	čaj	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=40|end_char=44
+4	nekada	nekada	ADV	Rgp	Degree=Pos|PronType=Ind	6	advmod	_	start_char=45|end_char=51
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=52|end_char=54
+6	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=55|end_char=59
+7	jači	jak	ADJ	Agcmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	8	amod	_	start_char=60|end_char=64
+8	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=65|end_char=69
+9	.	.	PUNCT	Z	_	6	punct	_	start_char=69|end_char=70
+
+# text = Sada se čini običnijim.
+# sent_id = 2
+1	Sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	start_char=71|end_char=75
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=76|end_char=78
+3	čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=79|end_char=83
+4	običnijim	običan	ADJ	Agcmsiy	Case=Ins|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	3	xcomp	_	start_char=84|end_char=93
+5	.	.	PUNCT	Z	_	3	punct	_	start_char=93|end_char=94
+
+# text = U usporedbi s drugim čajevima koje sam konzumirao/la, ovaj nema apsolutno nikakav okus.
+# sent_id = 3
+1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=95|end_char=96
+2	usporedbi	usporedba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=97|end_char=106
+3	s	sa	ADP	Si	Case=Ins	5	case	_	start_char=107|end_char=108
+4	drugim	drugi	ADJ	Agpmpiy	Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=109|end_char=115
+5	čajevima	čav	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	2	nmod	_	start_char=116|end_char=124
+6	koje	koji	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	8	obj	_	start_char=125|end_char=129
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=130|end_char=133
+8	konzumirao/la	konzumirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=134|end_char=147
+9	,	,	PUNCT	Z	_	2	punct	_	start_char=147|end_char=148
+10	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	start_char=149|end_char=153
+11	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=154|end_char=158
+12	apsolutno	apsolutno	ADV	Rgp	Degree=Pos	13	advmod	_	start_char=159|end_char=168
+13	nikakav	nikakav	DET	Pi-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	14	det	_	start_char=169|end_char=176
+14	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=177|end_char=181
+15	.	.	PUNCT	Z	_	11	punct	_	start_char=181|end_char=182
+
+# text = Nije čak niti organski, ali to je u redu jer nikada nije bio oglašavan kao takav.
+# sent_id = 4
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=183|end_char=187
+2	čak	čak	PART	Qo	_	4	advmod	_	start_char=188|end_char=191
+3	niti	niti	PART	Qz	Polarity=Neg	4	discourse	_	start_char=192|end_char=196
+4	organski	organski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=197|end_char=205
+5	,	,	PUNCT	Z	_	10	punct	_	start_char=205|end_char=206
+6	ali	ali	CCONJ	Cc	_	10	cc	_	start_char=207|end_char=210
+7	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=211|end_char=213
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=214|end_char=216
+9	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=217|end_char=218
+10	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	4	conj	_	start_char=219|end_char=223
+11	jer	jer	SCONJ	Cs	_	15	mark	_	start_char=224|end_char=227
+12	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	15	advmod	_	start_char=228|end_char=234
+13	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=235|end_char=239
+14	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	cop	_	start_char=240|end_char=243
+15	oglašavan	oglašavati	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	10	advcl	_	start_char=244|end_char=253
+16	kao	kao	SCONJ	Cs	_	17	case	_	start_char=254|end_char=257
+17	takav	takav	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	start_char=258|end_char=263
+18	.	.	PUNCT	Z	_	4	punct	_	start_char=263|end_char=264
+
+# text = Neću ga ponovno kupiti.
+# sent_id = 5
+1	Neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=265|end_char=269
+2	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=270|end_char=272
+3	ponovno	ponovno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=273|end_char=280
+4	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=281|end_char=287
+5	.	.	PUNCT	Z	_	1	punct	_	start_char=287|end_char=288
+

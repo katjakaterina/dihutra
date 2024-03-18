@@ -1,0 +1,113 @@
+# text = Логичное продолжение "Песни Хвоста-Охотника"
+# sent_id = 0
+1	Логичное	логичный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	продолжение	продолжение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=9|end_char=20
+3	"	"	PUNCT	_	_	4	punct	_	start_char=21|end_char=22
+4	Песни	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=22|end_char=27
+5	Хвоста-Охотника	Хвоста-охотник	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=28|end_char=43
+6	"	"	PUNCT	_	_	4	punct	_	start_char=43|end_char=44
+
+# text = Это произведение имеет глубокие связи с темами, которые впервые были исследованы в оригинальной книге Тэда Уильямса о храбром молодом коте, который отправляется в подземный мир, чтобы столкнуться с древним злом.
+# sent_id = 1
+1	Это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=45|end_char=48
+2	произведение	произведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=49|end_char=61
+3	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=62|end_char=67
+4	глубокие	глубокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	start_char=68|end_char=76
+5	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=77|end_char=82
+6	с	с	ADP	_	_	7	case	_	start_char=83|end_char=84
+7	темами	тема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	5	nmod	_	start_char=85|end_char=91
+8	,	,	PUNCT	_	_	12	punct	_	start_char=91|end_char=92
+9	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	12	nsubj:pass	_	start_char=93|end_char=100
+10	впервые	впервые	ADV	_	Degree=Pos	12	advmod	_	start_char=101|end_char=108
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=109|end_char=113
+12	исследованы	исследовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	_	start_char=114|end_char=125
+13	в	в	ADP	_	_	15	case	_	start_char=126|end_char=127
+14	оригинальной	оригинальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=128|end_char=140
+15	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	start_char=141|end_char=146
+16	Тэда	Тэда	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=147|end_char=151
+17	Уильямса	Уильямс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	start_char=152|end_char=160
+18	о	о	ADP	_	_	21	case	_	start_char=161|end_char=162
+19	храбром	храбрый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=163|end_char=170
+20	молодом	молодой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=171|end_char=178
+21	коте	коте	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	start_char=179|end_char=183
+22	,	,	PUNCT	_	_	24	punct	_	start_char=183|end_char=184
+23	который	который	PRON	_	Case=Nom|PronType=Int,Rel	24	nsubj	_	start_char=185|end_char=192
+24	отправляется	отправляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	acl:relcl	_	start_char=193|end_char=205
+25	в	в	ADP	_	_	27	case	_	start_char=206|end_char=207
+26	подземный	подземный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=208|end_char=217
+27	мир	мир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	start_char=218|end_char=221
+28	,	,	PUNCT	_	_	30	punct	_	start_char=221|end_char=222
+29	чтобы	чтобы	SCONJ	_	Mood=Cnd	30	mark	_	start_char=223|end_char=228
+30	столкнуться	столкнуться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	24	advcl	_	start_char=229|end_char=240
+31	с	с	ADP	_	_	33	case	_	start_char=241|end_char=242
+32	древним	древний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	start_char=243|end_char=250
+33	злом	зло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	obl	_	start_char=251|end_char=255
+34	.	.	PUNCT	_	_	3	punct	_	start_char=255|end_char=256
+
+# text = Как владелец двух кошек, после второго прочтения я осознал, что в этой новелле есть многое, чему можно научиться о критической важности борьбы с шерстью и пылью.
+# sent_id = 2
+1	Как	как	SCONJ	_	_	2	mark	_	start_char=257|end_char=260
+2	владелец	владелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	advcl	_	start_char=261|end_char=269
+3	двух	два	NUM	_	Case=Gen|NumType=Card	4	nummod	_	start_char=270|end_char=274
+4	кошек	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=275|end_char=280
+5	,	,	PUNCT	_	_	2	punct	_	start_char=280|end_char=281
+6	после	после	ADP	_	_	8	case	_	start_char=282|end_char=287
+7	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=288|end_char=295
+8	прочтения	прочтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	start_char=296|end_char=305
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=306|end_char=307
+10	осознал	осознать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=308|end_char=315
+11	,	,	PUNCT	_	_	16	punct	_	start_char=315|end_char=316
+12	что	что	SCONJ	_	_	16	mark	_	start_char=317|end_char=320
+13	в	в	ADP	_	_	15	case	_	start_char=321|end_char=322
+14	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	start_char=323|end_char=327
+15	новелле	новелло	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	ccomp	_	start_char=328|end_char=335
+16	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	start_char=336|end_char=340
+17	многое	многое	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=341|end_char=347
+18	,	,	PUNCT	_	_	20	punct	_	start_char=347|end_char=348
+19	чему	что	PRON	_	Case=Dat|PronType=Int,Rel	21	iobj	_	start_char=349|end_char=353
+20	можно	можно	ADV	_	Degree=Pos	17	acl:relcl	_	start_char=354|end_char=359
+21	научиться	научиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	20	csubj	_	start_char=360|end_char=369
+22	о	о	ADP	_	_	24	case	_	start_char=370|end_char=371
+23	критической	критический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=372|end_char=383
+24	важности	важность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	start_char=384|end_char=392
+25	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=393|end_char=399
+26	с	с	ADP	_	_	27	case	_	start_char=400|end_char=401
+27	шерстью	шерсть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	nmod	_	start_char=402|end_char=409
+28	и	и	CCONJ	_	_	29	cc	_	start_char=410|end_char=411
+29	пылью	пыль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	conj	_	start_char=412|end_char=417
+30	.	.	PUNCT	_	_	10	punct	_	start_char=417|end_char=418
+
+# text = Однако я дал всего четыре звезды, потому что кошки с этим не согласны и, на самом деле, они бы предпочли, чтобы я не совершал эту покупку.
+# sent_id = 3
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	start_char=419|end_char=425
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=426|end_char=427
+3	дал	дать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=428|end_char=431
+4	всего	всего	PART	_	_	5	advmod	_	start_char=432|end_char=437
+5	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	6	nummod	_	start_char=438|end_char=444
+6	звезды	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=445|end_char=451
+7	,	,	PUNCT	_	_	14	punct	_	start_char=451|end_char=452
+8	потому	потому	ADV	_	Degree=Pos	14	mark	_	start_char=453|end_char=459
+9	что	что	SCONJ	_	_	8	fixed	_	start_char=460|end_char=463
+10	кошки	кошка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	start_char=464|end_char=469
+11	с	с	ADP	_	_	12	case	_	start_char=470|end_char=471
+12	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	start_char=472|end_char=476
+13	не	не	PART	_	_	14	advmod	_	start_char=477|end_char=479
+14	согласны	согласный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	advcl	_	start_char=480|end_char=488
+15	и	и	CCONJ	_	_	23	cc	_	start_char=489|end_char=490
+16	,	,	PUNCT	_	_	15	punct	_	start_char=490|end_char=491
+17	на	на	ADP	_	_	19	case	_	start_char=492|end_char=494
+18	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	start_char=495|end_char=500
+19	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	parataxis	_	start_char=501|end_char=505
+20	,	,	PUNCT	_	_	19	punct	_	start_char=505|end_char=506
+21	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	start_char=507|end_char=510
+22	бы	бы	AUX	_	_	23	aux	_	start_char=511|end_char=513
+23	предпочли	предпочесть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	start_char=514|end_char=523
+24	,	,	PUNCT	_	_	28	punct	_	start_char=523|end_char=524
+25	чтобы	чтобы	SCONJ	_	Mood=Cnd	28	mark	_	start_char=525|end_char=530
+26	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=531|end_char=532
+27	не	не	PART	_	_	28	advmod	_	start_char=533|end_char=535
+28	совершал	совершать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	ccomp	_	start_char=536|end_char=544
+29	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	start_char=545|end_char=548
+30	покупку	покупка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	start_char=549|end_char=556
+31	.	.	PUNCT	_	_	3	punct	_	start_char=556|end_char=557
+

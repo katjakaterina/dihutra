@@ -1,0 +1,74 @@
+# text = Odlična matematička igra za vašeg malog obožavatelja Ratova zvijezda Moj sin koji ne voli matematiku voli igrati ovu igru.
+# sent_id = 0
+1	Odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=7
+2	matematička	matematički	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	start_char=8|end_char=19
+3	igra	igrati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=20|end_char=24
+4	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=25|end_char=27
+5	vašeg	vaš	DET	Ps1msay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	start_char=28|end_char=33
+6	malog	mali	ADJ	Agpmsayy	Animacy=Anim|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=34|end_char=39
+7	obožavatelja	obožavatelj	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=40|end_char=52
+8	Ratova	Ratovo	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=53|end_char=59
+9	zvijezda	zvijezda	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	flat	_	start_char=60|end_char=68
+10	Moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	start_char=69|end_char=72
+11	sin	sin	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	start_char=73|end_char=76
+12	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	14	nsubj	_	start_char=77|end_char=81
+13	ne	ne	PART	Qz	Polarity=Neg	14	advmod	_	start_char=82|end_char=84
+14	voli	voljeti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	start_char=85|end_char=89
+15	matematiku	matematika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=90|end_char=100
+16	voli	voljeti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=101|end_char=105
+17	igrati	igrati	VERB	Vmn	VerbForm=Inf	16	xcomp	_	start_char=106|end_char=112
+18	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	start_char=113|end_char=116
+19	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=117|end_char=121
+20	.	.	PUNCT	Z	_	3	punct	_	start_char=121|end_char=122
+
+# text = Sviđa mi se činjenica da možete imati i dva igrača, tako da mogu igrati protiv njega kako bih vidio njegov napredak.
+# sent_id = 1
+1	Sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=123|end_char=128
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=129|end_char=131
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=132|end_char=134
+4	činjenica	činjenica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=135|end_char=144
+5	da	da	SCONJ	Cs	_	6	mark	_	start_char=145|end_char=147
+6	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl	_	start_char=148|end_char=154
+7	imati	imati	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=155|end_char=160
+8	i	i	CCONJ	Cc	_	10	discourse	_	start_char=161|end_char=162
+9	dva	dva	NUM	Mlc	NumType=Card	10	nummod	_	start_char=163|end_char=166
+10	igrača	igrač	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obj	_	start_char=167|end_char=173
+11	,	,	PUNCT	Z	_	14	punct	_	start_char=173|end_char=174
+12	tako	tako	SCONJ	Cs	_	14	mark	_	start_char=175|end_char=179
+13	da	da	SCONJ	Cs	_	12	fixed	_	start_char=180|end_char=182
+14	mogu	moći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=183|end_char=187
+15	igrati	igrati	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=188|end_char=194
+16	protiv	protiv	ADP	Sg	Case=Gen	17	case	_	start_char=195|end_char=201
+17	njega	on	PRON	Pp3msg	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	start_char=202|end_char=207
+18	kako	kako	SCONJ	Cs	_	20	mark	_	start_char=208|end_char=212
+19	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	aux	_	start_char=213|end_char=216
+20	vidio	vidjeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	advcl	_	start_char=217|end_char=222
+21	njegov	njegov	DET	Ps3msan	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	22	det	_	start_char=223|end_char=229
+22	napredak	napredak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=230|end_char=238
+23	.	.	PUNCT	Z	_	1	punct	_	start_char=238|end_char=239
+
+# text = Možete prilagoditi glasnoću glasa i glazbe zasebno i igra na mom Windows XP-u, što znam da je nekima stvaralo probleme.
+# sent_id = 2
+1	Možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=240|end_char=246
+2	prilagoditi	prilagoditi	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=247|end_char=258
+3	glasnoću	glasnos	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=259|end_char=267
+4	glasa	glas	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=268|end_char=273
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=274|end_char=275
+6	glazbe	glazba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	conj	_	start_char=276|end_char=282
+7	zasebno	zasebno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=283|end_char=290
+8	i	i	CCONJ	Cc	_	9	cc	_	start_char=291|end_char=292
+9	igra	igrati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=293|end_char=297
+10	na	na	ADP	Sl	Case=Loc	12	case	_	start_char=298|end_char=300
+11	mom	moj	DET	Ps1msl	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det	_	start_char=301|end_char=304
+12	Windows	Windows	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=305|end_char=312
+13	XP-u	XP	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	12	flat	_	start_char=313|end_char=317
+14	,	,	PUNCT	Z	_	16	punct	_	start_char=317|end_char=318
+15	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	16	nsubj	_	start_char=319|end_char=322
+16	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=323|end_char=327
+17	da	da	SCONJ	Cs	_	20	mark	_	start_char=328|end_char=330
+18	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=331|end_char=333
+19	nekima	neki	DET	Pi-mpd	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	20	iobj	_	start_char=334|end_char=340
+20	stvaralo	stvarati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	ccomp	_	start_char=341|end_char=349
+21	probleme	problem	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	start_char=350|end_char=358
+22	.	.	PUNCT	Z	_	1	punct	_	start_char=358|end_char=359
+

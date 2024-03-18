@@ -1,0 +1,65 @@
+# text = Ei ole rahan arvoinen
+# sent_id = 0
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=0|end_char=2
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=3|end_char=6
+3	rahan	raha	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=7|end_char=12
+4	arvoinen	arvoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=13|end_char=21
+
+# text = Tämä on erittäin halvasti valmistettu tuote.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	start_char=22|end_char=26
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=27|end_char=29
+3	erittäin	erittäin	ADV	Adv	Derivation=Ttain	4	advmod	_	start_char=30|end_char=38
+4	halvasti	halvasti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=39|end_char=47
+5	valmistettu	valmistaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=48|end_char=59
+6	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=60|end_char=65
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=65|end_char=66
+
+# text = En maksaisi tästä edes 1 dollaria.
+# sent_id = 2
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=67|end_char=69
+2	maksaisi	maksaa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	0	root	_	start_char=70|end_char=78
+3	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	2	obl	_	start_char=79|end_char=84
+4	edes	edes	ADV	Adv	_	5	advmod	_	start_char=85|end_char=89
+5	1	1	NUM	Num	NumType=Card	6	nummod	_	start_char=90|end_char=91
+6	dollaria	dollari	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=92|end_char=100
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=100|end_char=101
+
+# text = Paperi on halpaa ja haurasta – kirja ei pysy edes auki (pelkoa sidoksen repeämisestä), jotta voisin avata sen ja asettaa pianotelineelle soittoa varten.
+# sent_id = 3
+1	Paperi	paperi	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=102|end_char=108
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=109|end_char=111
+3	halpaa	halpaa	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=112|end_char=118
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=119|end_char=121
+5	haurasta	haura	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	conj	_	start_char=122|end_char=130
+6	–	–	PUNCT	Punct	_	9	punct	_	start_char=131|end_char=132
+7	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=133|end_char=138
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=139|end_char=141
+9	pysy	pysyä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=142|end_char=146
+10	edes	edes	ADV	Adv	_	11	advmod	_	start_char=147|end_char=151
+11	auki	auki	ADV	Adv	_	9	advmod	_	start_char=152|end_char=156
+12	(	(	PUNCT	Punct	_	13	punct	_	start_char=157|end_char=158
+13	pelkoa	pelko	NOUN	N	Case=Par|Number=Sing	11	appos	_	start_char=158|end_char=164
+14	sidoksen	sidos	NOUN	N	Case=Gen|Number=Sing	15	nmod:gobj	_	start_char=165|end_char=173
+15	repeämisestä	repeäminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	13	nmod	_	start_char=174|end_char=186
+16	)	)	PUNCT	Punct	_	13	punct	_	start_char=186|end_char=187
+17	,	,	PUNCT	Punct	_	20	punct	_	start_char=187|end_char=188
+18	jotta	jotta	SCONJ	C	_	20	mark	_	start_char=189|end_char=194
+19	voisin	voida	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	20	aux	_	start_char=195|end_char=201
+20	avata	avata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	advcl	_	start_char=202|end_char=207
+21	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	20	obj	_	start_char=208|end_char=211
+22	ja	ja	CCONJ	C	_	23	cc	_	start_char=212|end_char=214
+23	asettaa	asettaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	20	conj	_	start_char=215|end_char=222
+24	pianotelineelle	pianotelinen	NOUN	N	Case=All|Number=Sing	23	obl	_	start_char=223|end_char=238
+25	soittoa	soitto	NOUN	N	Case=Par|Number=Sing	23	obl	_	start_char=239|end_char=246
+26	varten	varten	ADP	Adp	AdpType=Post	25	case	_	start_char=247|end_char=253
+27	.	.	PUNCT	Punct	_	3	punct	_	start_char=253|end_char=254
+
+# text = Älä osta tätä versiota.
+# sent_id = 4
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=255|end_char=258
+2	osta	ostaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=259|end_char=263
+3	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	4	det	_	start_char=264|end_char=268
+4	versiota	versio	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=269|end_char=277
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=277|end_char=278
+

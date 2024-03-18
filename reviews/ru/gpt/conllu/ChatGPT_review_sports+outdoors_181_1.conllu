@@ -1,0 +1,79 @@
+# text = Очень дешевый по качеству продукт.
+# sent_id = 0
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=0|end_char=5
+2	дешевый	дешевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=6|end_char=13
+3	по	по	ADP	_	_	4	case	_	start_char=14|end_char=16
+4	качеству	качество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	start_char=17|end_char=25
+5	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=26|end_char=33
+6	.	.	PUNCT	_	_	5	punct	_	start_char=33|end_char=34
+
+# text = Когда я пишу этот отзыв, этот продукт разваливается.
+# sent_id = 1
+1	Когда	когда	SCONJ	_	_	3	mark	_	start_char=35|end_char=40
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=41|end_char=42
+3	пишу	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=43|end_char=47
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=48|end_char=52
+5	отзыв	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=53|end_char=58
+6	,	,	PUNCT	_	_	3	punct	_	start_char=58|end_char=59
+7	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	start_char=60|end_char=64
+8	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=65|end_char=72
+9	разваливается	разваливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=73|end_char=86
+10	.	.	PUNCT	_	_	9	punct	_	start_char=86|end_char=87
+
+# text = Большая часть изготовления была сделана с использованием клея и закреплена двухсторонней лентой, которая не приклеивается, и этот товар даже еще не был использован.
+# sent_id = 2
+1	Большая	больший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=88|end_char=95
+2	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	start_char=96|end_char=101
+3	изготовления	изготовление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=102|end_char=114
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	start_char=115|end_char=119
+5	сделана	делать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=120|end_char=127
+6	с	с	ADP	_	_	7	case	_	start_char=128|end_char=129
+7	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	start_char=130|end_char=144
+8	клея	клей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=145|end_char=149
+9	и	и	CCONJ	_	_	10	cc	_	start_char=150|end_char=151
+10	закреплена	закрепить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	start_char=152|end_char=162
+11	двухсторонней	двухсторонний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=163|end_char=176
+12	лентой	лента	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	start_char=177|end_char=183
+13	,	,	PUNCT	_	_	16	punct	_	start_char=183|end_char=184
+14	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	16	nsubj	_	start_char=185|end_char=192
+15	не	не	PART	_	_	16	advmod	_	start_char=193|end_char=195
+16	приклеивается	приклеиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	start_char=196|end_char=209
+17	,	,	PUNCT	_	_	25	punct	_	start_char=209|end_char=210
+18	и	и	CCONJ	_	_	25	cc	_	start_char=211|end_char=212
+19	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	start_char=213|end_char=217
+20	товар	товар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	start_char=218|end_char=223
+21	даже	даже	PART	_	_	22	advmod	_	start_char=224|end_char=228
+22	еще	еще	ADV	_	Degree=Pos	25	advmod	_	start_char=229|end_char=232
+23	не	не	PART	_	_	25	advmod	_	start_char=233|end_char=235
+24	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	start_char=236|end_char=239
+25	использован	использовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	conj	_	start_char=240|end_char=251
+26	.	.	PUNCT	_	_	5	punct	_	start_char=251|end_char=252
+
+# text = У меня даже не было возможности использовать этот продукт, так как пришлось продолжать делать ремонты.
+# sent_id = 3
+1	У	у	ADP	_	_	2	case	_	start_char=253|end_char=254
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	obl	_	start_char=255|end_char=259
+3	даже	даже	PART	_	_	4	advmod	_	start_char=260|end_char=264
+4	не	не	PART	_	_	5	advmod	_	start_char=265|end_char=267
+5	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=268|end_char=272
+6	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nsubj	_	start_char=273|end_char=284
+7	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	obl	_	start_char=285|end_char=297
+8	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	start_char=298|end_char=302
+9	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=303|end_char=310
+10	,	,	PUNCT	_	_	13	punct	_	start_char=310|end_char=311
+11	так	так	ADV	_	Degree=Pos	13	mark	_	start_char=312|end_char=315
+12	как	как	SCONJ	_	_	11	fixed	_	start_char=316|end_char=319
+13	пришлось	прийтись	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	advcl	_	start_char=320|end_char=328
+14	продолжать	продолжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	csubj	_	start_char=329|end_char=339
+15	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=340|end_char=346
+16	ремонты	ремонт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	start_char=347|end_char=354
+17	.	.	PUNCT	_	_	5	punct	_	start_char=354|end_char=355
+
+# text = Очень неудовлетворен этим товаром.
+# sent_id = 4
+1	Очень	очень	ADV	_	Degree=Pos	2	obl	_	start_char=356|end_char=361
+2	неудовлетворен	неудовлетворный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=362|end_char=376
+3	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=377|end_char=381
+4	товаром	товар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	start_char=382|end_char=389
+5	.	.	PUNCT	_	_	2	punct	_	start_char=389|end_char=390
+

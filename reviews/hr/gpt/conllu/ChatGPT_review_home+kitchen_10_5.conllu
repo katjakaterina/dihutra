@@ -1,0 +1,86 @@
+# text = Predivne svadbene torte Obožavam ovu knjigu!!
+# sent_id = 0
+1	Predivne	predivan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=0|end_char=8
+2	svadbene	svadbeni	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=9|end_char=17
+3	torte	torta	NOUN	Ncfpn	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=18|end_char=23
+4	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=24|end_char=32
+5	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=33|end_char=36
+6	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=37|end_char=43
+7	!	!	PUNCT	Z	_	4	punct	_	start_char=43|end_char=44
+8	!	!	PUNCT	Z	_	4	punct	_	start_char=44|end_char=45
+
+# text = Dobila sam neke sjajne ideje iz nje.
+# sent_id = 1
+1	Dobila	dobiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=46|end_char=52
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=53|end_char=56
+3	neke	neki	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	start_char=57|end_char=61
+4	sjajne	sjajan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	start_char=62|end_char=68
+5	ideje	ideja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=69|end_char=74
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	start_char=75|end_char=77
+7	nje	on	PRON	Pp3fsg	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod	_	start_char=78|end_char=81
+8	.	.	PUNCT	Z	_	1	punct	_	start_char=81|end_char=82
+
+# text = Izvrsno je napisana, recepti su jednostavni za slijediti.
+# sent_id = 2
+1	Izvrsno	izvrsno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=83|end_char=90
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=91|end_char=93
+3	napisana	napisati	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=94|end_char=102
+4	,	,	PUNCT	Z	_	7	punct	_	start_char=102|end_char=103
+5	recepti	recept	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=104|end_char=111
+6	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=112|end_char=114
+7	jednostavni	jednostavni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	conj	_	start_char=115|end_char=126
+8	za	za	ADP	Sa	Case=Acc	9	case	_	start_char=127|end_char=129
+9	slijediti	slijediti	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=130|end_char=139
+10	.	.	PUNCT	Z	_	3	punct	_	start_char=139|end_char=140
+
+# text = Pitala sam se hoće li ovo biti još jedna knjiga o svadbenim tortama kad sam je prvi put vidjela.
+# sent_id = 3
+1	Pitala	pitati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=141|end_char=147
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=148|end_char=151
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=152|end_char=154
+4	hoće	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=155|end_char=159
+5	li	li	PART	Qq	_	10	mark	_	start_char=160|end_char=162
+6	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=163|end_char=166
+7	biti	biti	AUX	Van	VerbForm=Inf	10	cop	_	start_char=167|end_char=171
+8	još	još	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=172|end_char=175
+9	jedna	jedan	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	10	nummod	_	start_char=176|end_char=181
+10	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	start_char=182|end_char=188
+11	o	o	ADP	Sl	Case=Loc	13	case	_	start_char=189|end_char=190
+12	svadbenim	svadbeni	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=191|end_char=200
+13	tortama	torta	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	nmod	_	start_char=201|end_char=208
+14	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	19	advmod	_	start_char=209|end_char=212
+15	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=213|end_char=216
+16	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	start_char=217|end_char=219
+17	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=220|end_char=224
+18	put	put	ADV	Rgp	Degree=Pos	19	advmod	_	start_char=225|end_char=228
+19	vidjela	vidjeti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	start_char=229|end_char=236
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=236|end_char=237
+
+# text = Drago mi je što sam slijedila svoj osjećaj i kupila je.
+# sent_id = 4
+1	Drago	Drago	ADV	Rgp	Degree=Pos	0	root	_	start_char=238|end_char=243
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=244|end_char=246
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=247|end_char=249
+4	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	6	nsubj	_	start_char=250|end_char=253
+5	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=254|end_char=257
+6	slijedila	slijediti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	csubj	_	start_char=258|end_char=267
+7	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=268|end_char=272
+8	osjećaj	osjećaj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=273|end_char=280
+9	i	i	CCONJ	Cc	_	10	cc	_	start_char=281|end_char=282
+10	kupila	kupiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	start_char=283|end_char=289
+11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=290|end_char=292
+12	.	.	PUNCT	Z	_	1	punct	_	start_char=292|end_char=293
+
+# text = Volim stvari Marthe Stewart, ovo je bilo izvrsno.
+# sent_id = 5
+1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=294|end_char=299
+2	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=300|end_char=306
+3	Marthe	Marthe	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=307|end_char=313
+4	Stewart	Stewart	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	start_char=314|end_char=321
+5	,	,	PUNCT	Z	_	9	punct	_	start_char=321|end_char=322
+6	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=323|end_char=326
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=327|end_char=329
+8	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	cop	_	start_char=330|end_char=334
+9	izvrsno	izvrstan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	start_char=335|end_char=342
+10	.	.	PUNCT	Z	_	1	punct	_	start_char=342|end_char=343
+

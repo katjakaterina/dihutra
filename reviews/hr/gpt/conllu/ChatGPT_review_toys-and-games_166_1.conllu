@@ -1,0 +1,91 @@
+# text = Puno ZABAVE!!
+# sent_id = 0
+1	Puno	puno	DET	Rgp	Degree=Pos	2	det:numgov	_	start_char=0|end_char=4
+2	ZABAVE	zabava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=5|end_char=11
+3	!	!	PUNCT	Z	_	2	punct	_	start_char=11|end_char=12
+4	!	!	PUNCT	Z	_	1	punct	_	start_char=12|end_char=13
+
+# text = Vrlo JEFTINO napravljeno!!!
+# sent_id = 1
+1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=14|end_char=18
+2	JEFTINO	jeftino	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=19|end_char=26
+3	napravljeno	napraviti	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=27|end_char=38
+4	!	!	PUNCT	Z	_	3	punct	_	start_char=38|end_char=39
+5	!!	!!	PUNCT	Z	_	3	punct	_	start_char=39|end_char=41
+
+# text = Imamo istu ovu igru, ali napravljenu je 1967. godine.
+# sent_id = 2
+1	Imamo	imati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=42|end_char=47
+2	istu	isti	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=48|end_char=52
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=53|end_char=56
+4	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=57|end_char=61
+5	,	,	PUNCT	Z	_	7	punct	_	start_char=61|end_char=62
+6	ali	ali	CCONJ	Cc	_	7	cc	_	start_char=63|end_char=66
+7	napravljenu	napravljen	ADJ	Appfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	1	conj	_	start_char=67|end_char=78
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=79|end_char=81
+9	1967.	1967.	ADJ	Mdo	NumType=Ord	10	amod	_	start_char=82|end_char=87
+10	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=88|end_char=94
+11	.	.	PUNCT	Z	_	1	punct	_	start_char=94|end_char=95
+
+# text = Pomislili smo da će novija verzija biti modernija, ali nam se stara verzija puno više sviđa!!
+# sent_id = 3
+1	Pomislili	pomisliti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=96|end_char=105
+2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=106|end_char=109
+3	da	da	SCONJ	Cs	_	8	mark	_	start_char=110|end_char=112
+4	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=113|end_char=115
+5	novija	nov	ADJ	Agcfsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	6	amod	_	start_char=116|end_char=122
+6	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=123|end_char=130
+7	biti	biti	AUX	Van	VerbForm=Inf	8	cop	_	start_char=131|end_char=135
+8	modernija	moderan	ADJ	Agcfsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Fem|Number=Sing	1	ccomp	_	start_char=136|end_char=145
+9	,	,	PUNCT	Z	_	17	punct	_	start_char=145|end_char=146
+10	ali	ali	CCONJ	Cc	_	17	cc	_	start_char=147|end_char=150
+11	nam	mi	PRON	Pp1-pd	Case=Dat|Number=Plur|Person=1|PronType=Prs	17	obj	_	start_char=151|end_char=154
+12	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	17	expl	_	start_char=155|end_char=157
+13	stara	star	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=158|end_char=163
+14	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=164|end_char=171
+15	puno	puno	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=172|end_char=176
+16	više	mnogo	ADV	Rgc	Degree=Cmp	17	advmod	_	start_char=177|end_char=181
+17	sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=182|end_char=187
+18	!	!	PUNCT	Z	_	17	punct	_	start_char=187|end_char=188
+19	!	!	PUNCT	Z	_	1	punct	_	start_char=188|end_char=189
+
+# text = Kod ove nove verzije pločice su od kartona, a mali stalak za postavljanje komada također je izrađen od vrlo jeftinog kartona!!
+# sent_id = 4
+1	Kod	kod	ADP	Sg	Case=Gen	4	case	_	start_char=190|end_char=193
+2	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=194|end_char=197
+3	nove	nov	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=198|end_char=202
+4	verzije	verzija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=203|end_char=210
+5	pločice	pločica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=211|end_char=218
+6	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=219|end_char=221
+7	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=222|end_char=224
+8	kartona	karton	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	start_char=225|end_char=232
+9	,	,	PUNCT	Z	_	18	punct	_	start_char=232|end_char=233
+10	a	a	CCONJ	Cc	_	18	cc	_	start_char=234|end_char=235
+11	mali	mali	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=236|end_char=240
+12	stalak	stalak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=241|end_char=247
+13	za	za	ADP	Sa	Case=Acc	14	case	_	start_char=248|end_char=250
+14	postavljanje	postavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	start_char=251|end_char=263
+15	komada	komad	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=264|end_char=270
+16	također	također	ADV	Rgp	Degree=Pos	18	advmod	_	start_char=271|end_char=278
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=279|end_char=281
+18	izrađen	izraditi	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	start_char=282|end_char=289
+19	od	od	ADP	Sg	Case=Gen	22	case	_	start_char=290|end_char=292
+20	vrlo	vrlo	ADV	Rgp	Degree=Pos	21	advmod	_	start_char=293|end_char=297
+21	jeftinog	jeftin	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=298|end_char=306
+22	kartona	karton	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	18	obl	_	start_char=307|end_char=314
+23	!	!	PUNCT	Z	_	22	punct	_	start_char=314|end_char=315
+24	!	!	PUNCT	Z	_	6	punct	_	start_char=315|end_char=316
+
+# text = Ovu novu igru smo samo poklonili i zadržali staru!
+# sent_id = 5
+1	Ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=317|end_char=320
+2	novu	nov	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=321|end_char=325
+3	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=326|end_char=330
+4	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=331|end_char=334
+5	samo	samo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=335|end_char=339
+6	poklonili	pokloniti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=340|end_char=349
+7	i	i	CCONJ	Cc	_	8	cc	_	start_char=350|end_char=351
+8	zadržali	zadržati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	start_char=352|end_char=360
+9	staru	star	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	obj	_	start_char=361|end_char=366
+10	!	!	PUNCT	Z	_	6	punct	_	start_char=366|end_char=367
+

@@ -1,0 +1,108 @@
+# text = """Brzo se slomilo, nepraktično."
+# sent_id = 0
+1	"	"	PUNCT	Z	_	6	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	6	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	6	punct	_	start_char=2|end_char=3
+4	Brzo	brzo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=3|end_char=7
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	start_char=8|end_char=10
+6	slomilo	slomiti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=11|end_char=18
+7	,	,	PUNCT	Z	_	8	punct	_	start_char=18|end_char=19
+8	nepraktično	nepraktičan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	start_char=20|end_char=31
+9	.	.	PUNCT	Z	_	6	punct	_	start_char=31|end_char=32
+10	"	"	PUNCT	Z	_	6	punct	_	start_char=32|end_char=33
+
+# text = Crvena traka (najveći otpor) počela se trgati prvi put kad sam je koristio, pa sam iz očitih razloga prestao/la i isprobao/la crnu.
+# sent_id = 1
+1	Crvena	crviti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=34|end_char=40
+2	traka	traka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=41|end_char=46
+3	(	(	PUNCT	Z	_	5	punct	_	start_char=47|end_char=48
+4	najveći	velik	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	start_char=48|end_char=55
+5	otpor	otpor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	start_char=56|end_char=61
+6	)	)	PUNCT	Z	_	5	punct	_	start_char=61|end_char=62
+7	počela	početi	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=63|end_char=69
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	start_char=70|end_char=72
+9	trgati	trgati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=73|end_char=79
+10	prvi	prvi	ADJ	Mlomsan	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=80|end_char=84
+11	put	put	ADV	Rgp	Degree=Pos	9	obl	_	start_char=85|end_char=88
+12	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	15	advmod	_	start_char=89|end_char=92
+13	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=93|end_char=96
+14	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=97|end_char=99
+15	koristio	koristiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=100|end_char=108
+16	,	,	PUNCT	Z	_	22	punct	_	start_char=108|end_char=109
+17	pa	pa	CCONJ	Cc	_	22	cc	_	start_char=110|end_char=112
+18	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	start_char=113|end_char=116
+19	iz	iz	ADP	Sg	Case=Gen	21	case	_	start_char=117|end_char=119
+20	očitih	očit	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	start_char=120|end_char=126
+21	razloga	razlog	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	start_char=127|end_char=134
+22	prestao/la	prestao/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	start_char=135|end_char=145
+23	i	i	CCONJ	Cc	_	24	cc	_	start_char=146|end_char=147
+24	isprobao/la	isprobao/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	conj	_	start_char=148|end_char=159
+25	crnu	crn	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	obj	_	start_char=160|end_char=164
+26	.	.	PUNCT	Z	_	7	punct	_	start_char=164|end_char=165
+
+# text = Crna je trajala dobro tijekom vježbe, ali sljedećeg dana počela se trgati na istom mjestu kao i crvena.
+# sent_id = 2
+1	Crna	Crna	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=166|end_char=170
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=171|end_char=173
+3	trajala	trajati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=174|end_char=181
+4	dobro	dobro	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=182|end_char=187
+5	tijekom	tijekom	ADP	Sg	Case=Gen	6	case	_	start_char=188|end_char=195
+6	vježbe	vježba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=196|end_char=202
+7	,	,	PUNCT	Z	_	11	punct	_	start_char=202|end_char=203
+8	ali	ali	CCONJ	Cc	_	11	cc	_	start_char=204|end_char=207
+9	sljedećeg	sljedeći	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=208|end_char=217
+10	dana	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	11	obl	_	start_char=218|end_char=222
+11	počela	početi	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=223|end_char=229
+12	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	start_char=230|end_char=232
+13	trgati	trgati	VERB	Vmn	VerbForm=Inf	11	xcomp	_	start_char=233|end_char=239
+14	na	na	ADP	Sl	Case=Loc	16	case	_	start_char=240|end_char=242
+15	istom	isti	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=243|end_char=248
+16	mjestu	mjesto	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	start_char=249|end_char=255
+17	kao	kao	SCONJ	Cs	_	19	case	_	start_char=256|end_char=259
+18	i	i	CCONJ	Cc	_	19	discourse	_	start_char=260|end_char=261
+19	crvena	crviti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	start_char=262|end_char=268
+20	.	.	PUNCT	Z	_	3	punct	_	start_char=268|end_char=269
+
+# text = Neću koristiti ostale boje jer jednostavno nemaju dovoljno otpora.
+# sent_id = 3
+1	Neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=270|end_char=274
+2	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=275|end_char=284
+3	ostale	ostali	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=285|end_char=291
+4	boje	boja	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=292|end_char=296
+5	jer	jer	SCONJ	Cs	_	7	mark	_	start_char=297|end_char=300
+6	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=301|end_char=312
+7	nemaju	nemati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	start_char=313|end_char=319
+8	dovoljno	dovoljno	DET	Rgp	Degree=Pos	9	det:numgov	_	start_char=320|end_char=328
+9	otpora	otpor	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obj	_	start_char=329|end_char=335
+10	.	.	PUNCT	Z	_	1	punct	_	start_char=335|end_char=336
+
+# text = Veliki minus je što ovaj set ima samo jedan par ručki, a prebacivanje s jedne ručke na drugu je velika nepraktičnost i gubitak vremena."
+# sent_id = 4
+1	Veliki	velik	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=337|end_char=343
+2	minus	minus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=344|end_char=349
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=350|end_char=352
+4	što	što	SCONJ	Cs	_	7	mark	_	start_char=353|end_char=356
+5	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=357|end_char=361
+6	set	set	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=362|end_char=365
+7	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	start_char=366|end_char=369
+8	samo	samo	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=370|end_char=374
+9	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	11	nummod	_	start_char=375|end_char=380
+10	par	par	ADV	Rgp	Degree=Pos	9	flat	_	start_char=381|end_char=384
+11	ručki	ručko	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	7	obj	_	start_char=385|end_char=390
+12	,	,	PUNCT	Z	_	22	punct	_	start_char=390|end_char=391
+13	a	a	CCONJ	Cc	_	22	cc	_	start_char=392|end_char=393
+14	prebacivanje	prebacivanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	start_char=394|end_char=406
+15	s	sa	ADP	Sg	Case=Gen	17	case	_	start_char=407|end_char=408
+16	jedne	jedan	NUM	Mlcfsg	Case=Gen|Gender=Fem|NumType=Card|Number=Sing	17	nummod	_	start_char=409|end_char=414
+17	ručke	ručak	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=415|end_char=420
+18	na	na	ADP	Sa	Case=Acc	19	case	_	start_char=421|end_char=423
+19	drugu	drugi	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=424|end_char=429
+20	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	start_char=430|end_char=432
+21	velika	velik	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=433|end_char=439
+22	nepraktičnost	nepraktičnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	start_char=440|end_char=453
+23	i	i	CCONJ	Cc	_	24	cc	_	start_char=454|end_char=455
+24	gubitak	gubitak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	22	conj	_	start_char=456|end_char=463
+25	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	start_char=464|end_char=471
+26	.	.	PUNCT	Z	_	2	punct	_	start_char=471|end_char=472
+27	"	"	PUNCT	Z	_	2	punct	_	start_char=472|end_char=473
+

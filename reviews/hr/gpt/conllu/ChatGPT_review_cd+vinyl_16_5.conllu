@@ -1,0 +1,113 @@
+# text = Obožavam!
+# sent_id = 0
+1	Obožavam	obožavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=8
+2	!	!	PUNCT	Z	_	1	punct	_	start_char=8|end_char=9
+
+# text = Kupio sam ovo u obliku LP-a kad je bilo potpuno novo, snimio ga na kasetu kako bih ga mogao slušati u autu, slušao, i slušao, i slušao.
+# sent_id = 1
+1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=10|end_char=15
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=16|end_char=19
+3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=20|end_char=23
+4	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=24|end_char=25
+5	obliku	oblik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=26|end_char=32
+6	LP-a	LP	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=33|end_char=37
+7	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	9	advmod	_	start_char=38|end_char=41
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=42|end_char=44
+9	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=45|end_char=49
+10	potpuno	potpun	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=50|end_char=57
+11	novo	nov	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	9	xcomp	_	start_char=58|end_char=62
+12	,	,	PUNCT	Z	_	13	punct	_	start_char=62|end_char=63
+13	snimio	snimiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=64|end_char=70
+14	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=71|end_char=73
+15	na	na	ADP	Sa	Case=Acc	16	case	_	start_char=74|end_char=76
+16	kasetu	kaset	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	start_char=77|end_char=83
+17	kako	kako	SCONJ	Cs	_	20	mark	_	start_char=84|end_char=88
+18	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	aux	_	start_char=89|end_char=92
+19	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	start_char=93|end_char=95
+20	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	start_char=96|end_char=101
+21	slušati	slušati	VERB	Vmn	VerbForm=Inf	20	xcomp	_	start_char=102|end_char=109
+22	u	u	ADP	Sl	Case=Loc	23	case	_	start_char=110|end_char=111
+23	autu	auto	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	21	obl	_	start_char=112|end_char=116
+24	,	,	PUNCT	Z	_	25	punct	_	start_char=116|end_char=117
+25	slušao	slušati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	conj	_	start_char=118|end_char=124
+26	,	,	PUNCT	Z	_	28	punct	_	start_char=124|end_char=125
+27	i	i	CCONJ	Cc	_	28	cc	_	start_char=126|end_char=127
+28	slušao	slušati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	25	conj	_	start_char=128|end_char=134
+29	,	,	PUNCT	Z	_	31	punct	_	start_char=134|end_char=135
+30	i	i	CCONJ	Cc	_	31	cc	_	start_char=136|end_char=137
+31	slušao	slušati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	28	conj	_	start_char=138|end_char=144
+32	.	.	PUNCT	Z	_	1	punct	_	start_char=144|end_char=145
+
+# text = Tako mi je nedostajalo slušati ovo (više nemam gramofon) da sam ga napokon ponovno naručio na CD-u.
+# sent_id = 2
+1	Tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	4	advmod	_	start_char=146|end_char=150
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	start_char=151|end_char=153
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=154|end_char=156
+4	nedostajalo	nedostajati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=157|end_char=168
+5	slušati	slušati	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=169|end_char=176
+6	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	start_char=177|end_char=180
+7	(	(	PUNCT	Z	_	9	punct	_	start_char=181|end_char=182
+8	više	mnogo	ADV	Rgc	Degree=Cmp	9	advmod	_	start_char=182|end_char=186
+9	nemam	nemati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	start_char=187|end_char=192
+10	gramofon	gramofon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=193|end_char=201
+11	)	)	PUNCT	Z	_	9	punct	_	start_char=201|end_char=202
+12	da	da	SCONJ	Cs	_	17	mark	_	start_char=203|end_char=205
+13	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=206|end_char=209
+14	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	start_char=210|end_char=212
+15	napokon	napokon	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=213|end_char=220
+16	ponovno	ponovno	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=221|end_char=228
+17	naručio	naručiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	start_char=229|end_char=236
+18	na	na	ADP	Sl	Case=Loc	19	case	_	start_char=237|end_char=239
+19	CD-u	CD	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	17	obl	_	start_char=240|end_char=244
+20	.	.	PUNCT	Z	_	4	punct	_	start_char=244|end_char=245
+
+# text = UH! Ne mogu dočekati da ga sviram, i sviram, i sviram.
+# sent_id = 3
+1	UH	uh	INTJ	I	_	4	discourse	_	start_char=246|end_char=248
+2	!	!	INTJ	I	_	4	discourse	_	start_char=248|end_char=249
+3	Ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=250|end_char=252
+4	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=253|end_char=257
+5	dočekati	dočekati	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=258|end_char=266
+6	da	da	SCONJ	Cs	_	8	mark	_	start_char=267|end_char=269
+7	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	start_char=270|end_char=272
+8	sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	start_char=273|end_char=279
+9	,	,	PUNCT	Z	_	11	punct	_	start_char=279|end_char=280
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=281|end_char=282
+11	sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	start_char=283|end_char=289
+12	,	,	PUNCT	Z	_	14	punct	_	start_char=289|end_char=290
+13	i	i	CCONJ	Cc	_	14	cc	_	start_char=291|end_char=292
+14	sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	start_char=293|end_char=299
+15	.	.	PUNCT	Z	_	4	punct	_	start_char=299|end_char=300
+
+# text = Nitko, apsolutno nitko, ne nosi svoje srce za Boga na rukavu kao Keith Green!
+# sent_id = 4
+1	Nitko	nitko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Neg	7	nsubj	_	start_char=301|end_char=306
+2	,	,	PUNCT	Z	_	4	punct	_	start_char=306|end_char=307
+3	apsolutno	apsolutno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=308|end_char=317
+4	nitko	nitko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Neg	1	appos	_	start_char=318|end_char=323
+5	,	,	PUNCT	Z	_	4	punct	_	start_char=323|end_char=324
+6	ne	ne	PART	Qz	Polarity=Neg	7	advmod	_	start_char=325|end_char=327
+7	nosi	nositi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=328|end_char=332
+8	svoje	svoj	DET	Px-nsa	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	start_char=333|end_char=338
+9	srce	srce	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=339|end_char=343
+10	za	za	ADP	Sa	Case=Acc	11	case	_	start_char=344|end_char=346
+11	Boga	Bog	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	start_char=347|end_char=351
+12	na	na	ADP	Sl	Case=Loc	13	case	_	start_char=352|end_char=354
+13	rukavu	rukav	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=355|end_char=361
+14	kao	kao	SCONJ	Cs	_	15	case	_	start_char=362|end_char=365
+15	Keith	Keith	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	start_char=366|end_char=371
+16	Green	Green	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	start_char=372|end_char=377
+17	!	!	PUNCT	Z	_	7	punct	_	start_char=377|end_char=378
+
+# text = Ne mogu dočekati da ga upoznam na nebu.
+# sent_id = 5
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=379|end_char=381
+2	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=382|end_char=386
+3	dočekati	dočekati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=387|end_char=395
+4	da	da	SCONJ	Cs	_	6	mark	_	start_char=396|end_char=398
+5	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=399|end_char=401
+6	upoznam	upoznati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=402|end_char=409
+7	na	na	ADP	Sl	Case=Loc	8	case	_	start_char=410|end_char=412
+8	nebu	nebo	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=413|end_char=417
+9	.	.	PUNCT	Z	_	2	punct	_	start_char=417|end_char=418
+

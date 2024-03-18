@@ -1,0 +1,97 @@
+# text = SJJJJJJJJAJNO
+# sent_id = 0
+1	SJJJJJJJJAJNO	SeejeleevajaN	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=13
+
+# text = Impresioniran sam cijenom i kvalitetom ovog proizvoda.
+# sent_id = 1
+1	Impresioniran	impresionirati	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=14|end_char=27
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=28|end_char=31
+3	cijenom	cijena	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	1	obl	_	start_char=32|end_char=39
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=40|end_char=41
+5	kvalitetom	kvalitet	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	3	conj	_	start_char=42|end_char=52
+6	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=53|end_char=57
+7	proizvoda	proizvod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=58|end_char=67
+8	.	.	PUNCT	Z	_	1	punct	_	start_char=67|end_char=68
+
+# text = Također sam impresioniran brzom dostavom od strane Amazona jer sam ga dobio u roku od 4 dana.
+# sent_id = 2
+1	Također	također	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=69|end_char=76
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=77|end_char=80
+3	impresioniran	impresionirati	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=81|end_char=94
+4	brzom	brz	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=95|end_char=100
+5	dostavom	dostava	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	3	obl	_	start_char=101|end_char=109
+6	od	od	ADP	Sg	Case=Gen	7	case	_	start_char=110|end_char=112
+7	strane	strana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=113|end_char=119
+8	Amazona	Amazon	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=120|end_char=127
+9	jer	jer	SCONJ	Cs	_	12	mark	_	start_char=128|end_char=131
+10	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=132|end_char=135
+11	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	start_char=136|end_char=138
+12	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=139|end_char=144
+13	u	u	ADP	Sl	Case=Loc	14	case	_	start_char=145|end_char=146
+14	roku	rok	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=147|end_char=151
+15	od	od	ADP	Sg	Case=Gen	17	case	_	start_char=152|end_char=154
+16	4	4	NUM	Mdc	NumType=Card	17	nummod	_	start_char=155|end_char=156
+17	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=157|end_char=161
+18	.	.	PUNCT	Z	_	3	punct	_	start_char=161|end_char=162
+
+# text = Nije se gužvao i odlična cijev, kao što sam imao jednu prije koju sam ostavio u dvorištu tijekom svih godišnjih doba i čak prešao preko nje na stazi.
+# sent_id = 3
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=163|end_char=167
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=168|end_char=170
+3	gužvao	gužvati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=171|end_char=177
+4	i	i	CCONJ	Cc	_	6	discourse	_	start_char=178|end_char=179
+5	odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=180|end_char=187
+6	cijev	cijev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=188|end_char=193
+7	,	,	PUNCT	Z	_	11	punct	_	start_char=193|end_char=194
+8	kao	kao	SCONJ	Cs	_	11	mark	_	start_char=195|end_char=198
+9	što	što	SCONJ	Cs	_	8	fixed	_	start_char=199|end_char=202
+10	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=203|end_char=206
+11	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=207|end_char=211
+12	jednu	jedan	NUM	Mlcfsa	Case=Acc|Gender=Fem|NumType=Card|Number=Sing	11	obj	_	start_char=212|end_char=217
+13	prije	prije	ADP	Sg	Case=Gen	14	case	_	start_char=218|end_char=223
+14	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	16	obj	_	start_char=224|end_char=228
+15	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=229|end_char=232
+16	ostavio	ostaviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	start_char=233|end_char=240
+17	u	u	ADP	Sl	Case=Loc	18	case	_	start_char=241|end_char=242
+18	dvorištu	dvorište	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	16	obl	_	start_char=243|end_char=251
+19	tijekom	tijekom	ADP	Sg	Case=Gen	22	case	_	start_char=252|end_char=259
+20	svih	sav	ADJ	Agpnpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	start_char=260|end_char=264
+21	godišnjih	godišnji	ADJ	Agpnpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	22	amod	_	start_char=265|end_char=274
+22	doba	doba	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	16	obl	_	start_char=275|end_char=279
+23	i	i	CCONJ	Cc	_	25	cc	_	start_char=280|end_char=281
+24	čak	čak	PART	Qo	_	25	advmod	_	start_char=282|end_char=285
+25	prešao	prešati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	conj	_	start_char=286|end_char=292
+26	preko	preko	ADP	Sg	Case=Gen	27	case	_	start_char=293|end_char=298
+27	nje	on	PRON	Pp3fsg	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	obl	_	start_char=299|end_char=302
+28	na	na	ADP	Sl	Case=Loc	29	case	_	start_char=303|end_char=305
+29	stazi	staz	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	25	obl	_	start_char=306|end_char=311
+30	.	.	PUNCT	Z	_	3	punct	_	start_char=311|end_char=312
+
+# text = No, trajala je 5 godina bez obzira na sve zlostavljanje.
+# sent_id = 4
+1	No	no	CCONJ	Cc	_	3	cc	_	start_char=313|end_char=315
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=315|end_char=316
+3	trajala	trajati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=317|end_char=324
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=325|end_char=327
+5	5	5	NUM	Mdc	NumType=Card	6	nummod:gov	_	start_char=328|end_char=329
+6	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	start_char=330|end_char=336
+7	bez	bez	ADP	Sg	Case=Gen	8	case	_	start_char=337|end_char=340
+8	obzira	obzir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=341|end_char=347
+9	na	na	ADP	Sa	Case=Acc	11	case	_	start_char=348|end_char=350
+10	sve	sve	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	11	det	_	start_char=351|end_char=354
+11	zlostavljanje	zlostavljanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	start_char=355|end_char=368
+12	.	.	PUNCT	Z	_	3	punct	_	start_char=368|end_char=369
+
+# text = Preporučio bih ovo svakome.
+# sent_id = 5
+1	Preporučio	preporučiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=370|end_char=380
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	start_char=381|end_char=384
+3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=385|end_char=388
+4	svakome	svaki	PRON	Pi3n-d	Case=Dat|Gender=Masc|PronType=Ind	1	iobj	_	start_char=389|end_char=396
+5	.	.	PUNCT	Z	_	1	punct	_	start_char=396|end_char=397
+
+# text = Hvala.
+# sent_id = 6
+1	Hvala	hvala	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=398|end_char=403
+2	.	.	PUNCT	Z	_	1	punct	_	start_char=403|end_char=404
+

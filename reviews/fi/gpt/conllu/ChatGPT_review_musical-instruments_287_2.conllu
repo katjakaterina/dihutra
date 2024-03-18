@@ -1,0 +1,66 @@
+# text = Se käy, mutta toivon, että olisin ostanut jotain muuta.
+# sent_id = 0
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=0|end_char=2
+2	käy	käydä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=6
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=6|end_char=7
+4	mutta	mutta	CCONJ	C	_	5	cc	_	start_char=8|end_char=13
+5	toivon	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=14|end_char=20
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=20|end_char=21
+7	että	että	SCONJ	C	_	9	mark	_	start_char=22|end_char=26
+8	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	9	aux	_	start_char=27|end_char=33
+9	ostanut	ostaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	ccomp	_	start_char=34|end_char=41
+10	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	11	det	_	start_char=42|end_char=48
+11	muuta	muu	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	9	obj	_	start_char=49|end_char=54
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=54|end_char=55
+
+# text = Kahva ja jousen voimakkuus tekevät tästä epämukavan asettaa kitaralle, ja tunnen olevani kiireinen kiinnittäessäni kapoa, koska se on epämiellyttävä käyttää - sattuu sormiin.
+# sent_id = 1
+1	Kahva	kahva	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=56|end_char=61
+2	ja	ja	CCONJ	C	_	4	cc	_	start_char=62|end_char=64
+3	jousen	jousen	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=65|end_char=71
+4	voimakkuus	voimakkuus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	1	conj	_	start_char=72|end_char=82
+5	tekevät	tehdä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=83|end_char=90
+6	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	5	obl	_	start_char=91|end_char=96
+7	epämukavan	epä#mukava	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	obj	_	start_char=97|end_char=107
+8	asettaa	asettaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=108|end_char=115
+9	kitaralle	kitara	NOUN	N	Case=All|Number=Sing	8	obl	_	start_char=116|end_char=125
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=125|end_char=126
+11	ja	ja	CCONJ	C	_	12	cc	_	start_char=127|end_char=129
+12	tunnen	tuntea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=130|end_char=136
+13	olevani	olla	AUX	V	Case=Nom|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	14	cop	_	start_char=137|end_char=144
+14	kiireinen	kiireinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	12	xcomp	_	start_char=145|end_char=154
+15	kiinnittäessäni	kiinnittää	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	12	advcl	_	start_char=155|end_char=170
+16	kapoa	kapo	NOUN	N	Case=Par|Number=Sing	15	obj	_	start_char=171|end_char=176
+17	,	,	PUNCT	Punct	_	21	punct	_	start_char=176|end_char=177
+18	koska	koska	SCONJ	C	_	21	mark	_	start_char=178|end_char=183
+19	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	22	obj	_	start_char=184|end_char=186
+20	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	start_char=187|end_char=189
+21	epämiellyttävä	epä#miellyttävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	advcl	_	start_char=190|end_char=204
+22	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	21	xcomp:ds	_	start_char=205|end_char=212
+23	-	-	PUNCT	Punct	_	24	punct	_	start_char=213|end_char=214
+24	sattuu	sattua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	parataxis	_	start_char=215|end_char=221
+25	sormiin	sormi	NOUN	N	Case=Ill|Number=Plur	24	obl	_	start_char=222|end_char=229
+26	.	.	PUNCT	Punct	_	5	punct	_	start_char=229|end_char=230
+
+# text = Se on halpa ja helppo käyttää.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	obj	_	start_char=231|end_char=233
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=234|end_char=236
+3	halpa	halpa	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=237|end_char=242
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=243|end_char=245
+5	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=246|end_char=252
+6	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp:ds	_	start_char=253|end_char=260
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=260|end_char=261
+
+# text = Se hoitaa homman, mutta en pidä siitä.
+# sent_id = 3
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=262|end_char=264
+2	hoitaa	hoitaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=265|end_char=271
+3	homman	homma	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=272|end_char=278
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=278|end_char=279
+5	mutta	mutta	CCONJ	C	_	7	cc	_	start_char=280|end_char=285
+6	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=286|end_char=288
+7	pidä	pitää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=289|end_char=293
+8	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	7	obl	_	start_char=294|end_char=299
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=299|end_char=300
+

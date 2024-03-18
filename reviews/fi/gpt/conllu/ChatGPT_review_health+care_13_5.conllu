@@ -1,0 +1,89 @@
+# text = Aivan mitä etsin
+# sent_id = 0
+1	Aivan	aivan	ADV	Adv	_	3	advmod	_	start_char=0|end_char=5
+2	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	3	obj	_	start_char=6|end_char=10
+3	etsin	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=16
+
+# text = Tämä suurennuslasi on juuri sitä, mitä etsin.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=17|end_char=21
+2	suurennuslasi	suurennus#lasi	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=22|end_char=35
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=36|end_char=38
+4	juuri	juuri	ADV	Adv	_	5	advmod	_	start_char=39|end_char=44
+5	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	0	root	_	start_char=45|end_char=49
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=49|end_char=50
+7	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	8	obj	_	start_char=51|end_char=55
+8	etsin	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=56|end_char=61
+9	.	.	PUNCT	Punct	_	5	punct	_	start_char=61|end_char=62
+
+# text = Se on pieni ja helppo pitää kädessä.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=63|end_char=65
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=66|end_char=68
+3	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=69|end_char=74
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=75|end_char=77
+5	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=78|end_char=84
+6	pitää	pitää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	xcomp:ds	_	start_char=85|end_char=90
+7	kädessä	käsi	NOUN	N	Case=Ine|Number=Sing	6	obl	_	start_char=91|end_char=98
+8	.	.	PUNCT	Punct	_	3	punct	_	start_char=98|end_char=99
+
+# text = Halusin jotain lukeakseni pieniä numeroita/merkkejä elektronisissa laitteissa, kuten tietokoneissa, elektroniikassa jne.
+# sent_id = 3
+1	Halusin	haluta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=100|end_char=107
+2	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	1	obj	_	start_char=108|end_char=114
+3	lukeakseni	lukea	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=115|end_char=125
+4	pieniä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Plur	5	amod	_	start_char=126|end_char=132
+5	numeroita	numero	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=133|end_char=142
+6	/	/	PUNCT	Punct	_	7	punct	_	start_char=142|end_char=143
+7	merkkejä	merkki	NOUN	N	Case=Par|Number=Plur	5	conj	_	start_char=143|end_char=151
+8	elektronisissa	elektroninen	ADJ	A	Case=Ine|Degree=Pos|Derivation=Inen|Number=Plur	9	amod	_	start_char=152|end_char=166
+9	laitteissa	laite	NOUN	N	Case=Ine|Number=Plur	3	obl	_	start_char=167|end_char=177
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=177|end_char=178
+11	kuten	kuten	ADV	Adv	_	12	advmod	_	start_char=179|end_char=184
+12	tietokoneissa	tieto#kone	NOUN	N	Case=Ine|Number=Plur	9	appos	_	start_char=185|end_char=198
+13	,	,	PUNCT	Punct	_	14	punct	_	start_char=198|end_char=199
+14	elektroniikassa	elektroniikka	NOUN	N	Case=Ine|Number=Plur	12	conj	_	start_char=200|end_char=215
+15	jne	jne.	ADV	Adv	Abbr=Yes	12	advmod	_	start_char=216|end_char=219
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=219|end_char=220
+
+# text = Teen myös työtä tietokoneiden sisällä, ja tämä on loistava näkemään pieniä asioita.
+# sent_id = 4
+1	Teen	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=221|end_char=225
+2	myös	myös	ADV	Adv	_	3	advmod	_	start_char=226|end_char=230
+3	työtä	työ	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=231|end_char=236
+4	tietokoneiden	tieto#kone	NOUN	N	Case=Gen|Number=Plur	1	obl	_	start_char=237|end_char=250
+5	sisällä	sisällä	ADP	Adp	AdpType=Post	4	case	_	start_char=251|end_char=258
+6	,	,	PUNCT	Punct	_	10	punct	_	start_char=258|end_char=259
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=260|end_char=262
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=263|end_char=267
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=268|end_char=270
+10	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=271|end_char=279
+11	näkemään	nähdä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=280|end_char=288
+12	pieniä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Plur	13	amod	_	start_char=289|end_char=295
+13	asioita	asia	NOUN	N	Case=Par|Number=Plur	11	obj	_	start_char=296|end_char=303
+14	.	.	PUNCT	Punct	_	1	punct	_	start_char=303|end_char=304
+
+# text = En halua suurentaa kirjoja tai lehtiä.
+# sent_id = 5
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=305|end_char=307
+2	halua	haluta	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=308|end_char=313
+3	suurentaa	suurentaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=314|end_char=323
+4	kirjoja	kirja	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=324|end_char=331
+5	tai	tai	CCONJ	C	_	6	cc	_	start_char=332|end_char=335
+6	lehtiä	lehti	NOUN	N	Case=Par|Number=Plur	4	conj	_	start_char=336|end_char=342
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=342|end_char=343
+
+# text = Valo toimii hyvin ja tekee pienten asioiden lukemisesta erittäin helppoa.
+# sent_id = 6
+1	Valo	valo	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=344|end_char=348
+2	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=349|end_char=355
+3	hyvin	hyvin	ADV	Adv	_	2	advmod	_	start_char=356|end_char=361
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=362|end_char=364
+5	tekee	tehdä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=365|end_char=370
+6	pienten	pieni	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=371|end_char=378
+7	asioiden	asia	NOUN	N	Case=Gen|Number=Plur	8	nmod:gobj	_	start_char=379|end_char=387
+8	lukemisesta	lukeminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	10	nmod	_	start_char=388|end_char=399
+9	erittäin	erittäin	ADV	Adv	Derivation=Ttain	10	advmod	_	start_char=400|end_char=408
+10	helppoa	helppo	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	xcomp	_	start_char=409|end_char=416
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=416|end_char=417
+

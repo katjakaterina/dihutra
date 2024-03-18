@@ -1,0 +1,108 @@
+# text = Ei tarkoitettu käytettäväksi hopea-aterimien kanssa.
+# sent_id = 0
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=2
+2	tarkoitettu	tarkoittaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=3|end_char=14
+3	käytettäväksi	käyttää	VERB	V	Case=Tra|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	advcl	_	start_char=15|end_char=28
+4	hopea-aterimien	hopea#aterimi	NOUN	N	Case=Gen|Number=Plur	3	obl	_	start_char=29|end_char=44
+5	kanssa	kanssa	ADP	Adp	AdpType=Post	4	case	_	start_char=45|end_char=51
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=51|end_char=52
+
+# text = Saimme nämä salaattilautaset ja kulhot häälahjaluettelostamme.
+# sent_id = 1
+1	Saimme	saada	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=53|end_char=59
+2	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	3	det	_	start_char=60|end_char=64
+3	salaattilautaset	salaatti#lautanen	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=65|end_char=81
+4	ja	ja	CCONJ	C	_	5	cc	_	start_char=82|end_char=84
+5	kulhot	kulho	NOUN	N	Case=Nom|Number=Plur	3	conj	_	start_char=85|end_char=91
+6	häälahjaluettelostamme	häälahja#luettelo	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Plur|Person[psor]=1	1	obl	_	start_char=92|end_char=114
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=114|end_char=115
+
+# text = Ne ovat ehdottoman kauniita, MUTTA EI KÄYTÄNNÖLLISIÄ.
+# sent_id = 2
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	nsubj:cop	_	start_char=116|end_char=118
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=119|end_char=123
+3	ehdottoman	ehdoton	ADJ	A	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	4	amod	_	start_char=124|end_char=134
+4	kauniita	kaunis	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=135|end_char=143
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=143|end_char=144
+6	MUTTA	mutta	ADJ	A	Case=Par|Degree=Pos|Number=Sing	8	nsubj:cop	_	start_char=145|end_char=150
+7	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=151|end_char=153
+8	KÄYTÄNNÖLLISIÄ	kosinnuvinen	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	conj	_	start_char=154|end_char=168
+9	.	.	PUNCT	Punct	_	4	punct	_	start_char=168|end_char=169
+
+# text = Näyttää siltä, että niitä on tarkoitus käyttää vain puuaterimien tai syömäpuikkojen kanssa, koska mikä tahansa metalliateria astian pinnalla jättää harmaan jäljen ja aiheuttaa kamalan äänen, joka on täysin sietämätön!
+# sent_id = 3
+1	Näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=170|end_char=177
+2	siltä	se	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	1	obl	_	start_char=178|end_char=183
+3	,	,	PUNCT	Punct	_	7	punct	_	start_char=183|end_char=184
+4	että	että	SCONJ	C	_	7	mark	_	start_char=185|end_char=189
+5	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	8	obj	_	start_char=190|end_char=195
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=196|end_char=198
+7	tarkoitus	tarkoitus	NOUN	N	Case=Nom|Number=Sing	2	ccomp	_	start_char=199|end_char=208
+8	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp:ds	_	start_char=209|end_char=216
+9	vain	vain	ADV	Adv	_	10	advmod	_	start_char=217|end_char=221
+10	puuaterimien	puu#aterinen	NOUN	N	Case=Gen|Number=Plur	8	obl	_	start_char=222|end_char=234
+11	tai	tai	CCONJ	C	_	12	cc	_	start_char=235|end_char=238
+12	syömäpuikkojen	syömä#puikka	NOUN	N	Case=Gen|Number=Plur	10	conj	_	start_char=239|end_char=253
+13	kanssa	kanssa	ADP	Adp	AdpType=Post	10	case	_	start_char=254|end_char=260
+14	,	,	PUNCT	Punct	_	21	punct	_	start_char=260|end_char=261
+15	koska	koska	SCONJ	C	_	21	mark	_	start_char=262|end_char=267
+16	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	18	det	_	start_char=268|end_char=272
+17	tahansa	tahansa	ADV	Adv	_	16	fixed	_	start_char=273|end_char=280
+18	metalliateria	metalli#ateria	NOUN	N	Case=Nom|Number=Sing	21	nsubj	_	start_char=281|end_char=294
+19	astian	astia	NOUN	N	Case=Gen|Number=Sing	20	nmod:poss	_	start_char=295|end_char=301
+20	pinnalla	pinta	NOUN	N	Case=Ade|Number=Sing	18	nmod	_	start_char=302|end_char=310
+21	jättää	jättää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	start_char=311|end_char=317
+22	harmaan	harmaa	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	amod	_	start_char=318|end_char=325
+23	jäljen	jälki	NOUN	N	Case=Gen|Number=Sing	21	obj	_	start_char=326|end_char=332
+24	ja	ja	CCONJ	C	_	25	cc	_	start_char=333|end_char=335
+25	aiheuttaa	aiheuttaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	start_char=336|end_char=345
+26	kamalan	kamala	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	27	amod	_	start_char=346|end_char=353
+27	äänen	ääni	NOUN	N	Case=Gen|Number=Sing	25	obj	_	start_char=354|end_char=359
+28	,	,	PUNCT	Punct	_	32	punct	_	start_char=359|end_char=360
+29	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	32	nsubj:cop	_	start_char=361|end_char=365
+30	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	cop	_	start_char=366|end_char=368
+31	täysin	täysin	ADV	Adv	_	32	advmod	_	start_char=369|end_char=375
+32	sietämätön	sietämätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	27	acl:relcl	_	start_char=376|end_char=386
+33	!	!	PUNCT	Punct	_	1	punct	_	start_char=386|end_char=387
+
+# text = Tämä on aiheuttanut sen, että meidän täytyy ostaa uusia astiastoja.
+# sent_id = 4
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=388|end_char=392
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=393|end_char=395
+3	aiheuttanut	aiheuttaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=396|end_char=407
+4	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	obj	_	start_char=408|end_char=411
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=411|end_char=412
+6	että	että	SCONJ	C	_	9	mark	_	start_char=413|end_char=417
+7	meidän	minä	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	start_char=418|end_char=424
+8	täytyy	täytyä	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=425|end_char=431
+9	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	ccomp	_	start_char=432|end_char=437
+10	uusia	uusi	ADJ	A	Case=Par|Degree=Pos|Number=Plur	11	amod	_	start_char=438|end_char=443
+11	astiastoja	asti#asta	NOUN	N	Case=Par|Number=Plur	9	obj	_	start_char=444|end_char=454
+12	.	.	PUNCT	Punct	_	3	punct	_	start_char=454|end_char=455
+
+# text = Toivon todella, ettei näin olisi, koska rakastan suunnittelua.
+# sent_id = 5
+1	Toivon	toivoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=456|end_char=462
+2	todella	todella	ADV	Adv	_	1	advmod	_	start_char=463|end_char=470
+3	,	,	PUNCT	Punct	_	6	punct	_	start_char=470|end_char=471
+4-5	ettei	_	_	_	_	_	_	_	start_char=472|end_char=477
+4	että	että	SCONJ	C	_	6	mark	_	_
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	näin	näin	ADV	Adv	_	1	ccomp	_	start_char=478|end_char=482
+7	olisi	olla	AUX	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	6	cop	_	start_char=483|end_char=488
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=488|end_char=489
+9	koska	koska	SCONJ	C	_	10	mark	_	start_char=490|end_char=495
+10	rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=496|end_char=504
+11	suunnittelua	suunnittelu	NOUN	N	Case=Par|Derivation=U|Number=Sing	10	obj	_	start_char=505|end_char=517
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=517|end_char=518
+
+# text = Ole siis tietoinen ennen kuin ostat!
+# sent_id = 6
+1	Ole	olla	AUX	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	cop	_	start_char=519|end_char=522
+2	siis	siis	ADV	Adv	_	3	advmod	_	start_char=523|end_char=527
+3	tietoinen	tietoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=528|end_char=537
+4	ennen	ennen	ADV	Adv	_	5	advmod	_	start_char=538|end_char=543
+5	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=544|end_char=548
+6	ostat	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=549|end_char=554
+7	!	!	PUNCT	Punct	_	3	punct	_	start_char=554|end_char=555
+

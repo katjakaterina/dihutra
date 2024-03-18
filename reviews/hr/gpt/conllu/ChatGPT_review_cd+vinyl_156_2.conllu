@@ -1,0 +1,77 @@
+# text = NIJE VIDEO KLAPA!
+# sent_id = 0
+1	NIJE	nijeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
+2	VIDEO	video	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=5|end_char=10
+3	KLAPA	Klap	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	start_char=11|end_char=16
+4	!	!	PUNCT	Z	_	1	punct	_	start_char=16|end_char=17
+
+# text = Naučite svirati gitaru KAO Clapton
+# sent_id = 1
+1	Naučite	naučiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=18|end_char=25
+2	svirati	svirati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=26|end_char=33
+3	gitaru	gitara	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=34|end_char=40
+4	KAO	kao	SCONJ	Cs	_	5	case	_	start_char=41|end_char=44
+5	Clapton	Clapton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	start_char=45|end_char=52
+
+# text = Kupio sam ovaj DVD i vraćam ga.
+# sent_id = 2
+1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=53|end_char=58
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=59|end_char=62
+3	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=63|end_char=67
+4	DVD	DVD	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=68|end_char=71
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=72|end_char=73
+6	vraćam	vraćati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=74|end_char=80
+7	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	start_char=81|end_char=83
+8	.	.	PUNCT	Z	_	1	punct	_	start_char=83|end_char=84
+
+# text = Opis i urednička recenzija su zavaravajući.
+# sent_id = 3
+1	Opis	opis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=85|end_char=89
+2	i	i	CCONJ	Cc	_	4	cc	_	start_char=90|end_char=91
+3	urednička	urednički	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=92|end_char=101
+4	recenzija	recenzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	start_char=102|end_char=111
+5	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=112|end_char=114
+6	zavaravajući	zavaravati	ADV	Rr	Tense=Pres|VerbForm=Conv	0	root	_	start_char=115|end_char=127
+7	.	.	PUNCT	Z	_	6	punct	_	start_char=127|end_char=128
+
+# text = Ovo NIJE Claptonov video.
+# sent_id = 4
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=129|end_char=132
+2	NIJE	nijeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=133|end_char=137
+3	Claptonov	Claptonov	ADJ	Aspmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	4	amod	_	start_char=138|end_char=147
+4	video	video	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=148|end_char=153
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=153|end_char=154
+
+# text = Iako ima nekih isječaka od Claptona, općenito se radi o video materijalu "kako svirati".
+# sent_id = 5
+1	Iako	iako	SCONJ	Cs	_	2	mark	_	start_char=155|end_char=159
+2	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	start_char=160|end_char=163
+3	nekih	neki	DET	Pi-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	4	det	_	start_char=164|end_char=169
+4	isječaka	isječak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	obj	_	start_char=170|end_char=178
+5	od	od	ADP	Sg	Case=Gen	6	case	_	start_char=179|end_char=181
+6	Claptona	Clapton	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=182|end_char=190
+7	,	,	PUNCT	Z	_	2	punct	_	start_char=190|end_char=191
+8	općenito	općenito	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=192|end_char=200
+9	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	start_char=201|end_char=203
+10	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=204|end_char=208
+11	o	o	ADP	Sl	Case=Loc	13	case	_	start_char=209|end_char=210
+12	video	video	ADJ	Agpmsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=211|end_char=216
+13	materijalu	materijal	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	start_char=217|end_char=227
+14	"	"	PUNCT	Z	_	16	punct	_	start_char=228|end_char=229
+15	kako	kako	SCONJ	Cs	_	16	mark	_	start_char=229|end_char=233
+16	svirati	svirati	VERB	Vmn	VerbForm=Inf	13	acl	_	start_char=234|end_char=241
+17	"	"	PUNCT	Z	_	16	punct	_	start_char=241|end_char=242
+18	.	.	PUNCT	Z	_	10	punct	_	start_char=242|end_char=243
+
+# text = Isto vrijedi i za Clapton: Godine soliranja.
+# sent_id = 6
+1	Isto	isto	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=244|end_char=248
+2	vrijedi	vrijediti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=249|end_char=256
+3	i	i	CCONJ	Cc	_	5	discourse	_	start_char=257|end_char=258
+4	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=259|end_char=261
+5	Clapton	Clapton	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=262|end_char=269
+6	:	:	PUNCT	Z	_	7	punct	_	start_char=269|end_char=270
+7	Godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	parataxis	_	start_char=271|end_char=277
+8	soliranja	soliranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=278|end_char=287
+9	.	.	PUNCT	Z	_	2	punct	_	start_char=287|end_char=288
+

@@ -1,0 +1,70 @@
+# text = Не очень хорошо!
+# sent_id = 0
+1	Не	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	start_char=3|end_char=8
+3	хорошо	хороший	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=9|end_char=15
+4	!	!	PUNCT	_	_	3	punct	_	start_char=15|end_char=16
+
+# text = У этого товара были все маркировки оригинального продукта Samsung, но кабель перестал работать через 3 дня.
+# sent_id = 1
+1	У	у	ADP	_	_	3	case	_	start_char=17|end_char=18
+2	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=19|end_char=24
+3	товара	товар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	start_char=25|end_char=31
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=32|end_char=36
+5	все	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	6	det	_	start_char=37|end_char=40
+6	маркировки	маркировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=41|end_char=51
+7	оригинального	оригинальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=52|end_char=65
+8	продукта	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=66|end_char=74
+9	Samsung	Samsung	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=75|end_char=82
+10	,	,	PUNCT	_	_	13	punct	_	start_char=82|end_char=83
+11	но	но	CCONJ	_	_	13	cc	_	start_char=84|end_char=86
+12	кабель	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	start_char=87|end_char=93
+13	перестал	перестать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=94|end_char=102
+14	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=103|end_char=111
+15	через	через	ADP	_	_	17	case	_	start_char=112|end_char=117
+16	3	3	NUM	_	NumType=Card	17	nummod	_	start_char=118|end_char=119
+17	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=120|end_char=123
+18	.	.	PUNCT	_	_	4	punct	_	start_char=123|end_char=124
+
+# text = Я не расстроен, потому что он был очень дешевым, но возможно, вам стоит потратить немного больше и купить более качественный товар на Amazon.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=125|end_char=126
+2	не	не	PART	_	_	3	advmod	_	start_char=127|end_char=129
+3	расстроен	расстроить	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=130|end_char=139
+4	,	,	PUNCT	_	_	10	punct	_	start_char=139|end_char=140
+5	потому	потому	ADV	_	Degree=Pos	10	mark	_	start_char=141|end_char=147
+6	что	что	SCONJ	_	_	5	fixed	_	start_char=148|end_char=151
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=152|end_char=154
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=155|end_char=158
+9	очень	очень	ADV	_	Degree=Pos	10	obl	_	start_char=159|end_char=164
+10	дешевым	дешевый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	advcl	_	start_char=165|end_char=172
+11	,	,	PUNCT	_	_	16	punct	_	start_char=172|end_char=173
+12	но	но	CCONJ	_	_	16	cc	_	start_char=174|end_char=176
+13	возможно	возможно	ADV	_	Degree=Pos	16	parataxis	_	start_char=177|end_char=185
+14	,	,	PUNCT	_	_	13	punct	_	start_char=185|end_char=186
+15	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	16	iobj	_	start_char=187|end_char=190
+16	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=191|end_char=196
+17	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	csubj	_	start_char=197|end_char=206
+18	немного	немного	ADV	_	Degree=Pos	19	advmod	_	start_char=207|end_char=214
+19	больше	больше	ADV	_	Degree=Cmp	17	advmod	_	start_char=215|end_char=221
+20	и	и	CCONJ	_	_	21	cc	_	start_char=222|end_char=223
+21	купить	купить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	conj	_	start_char=224|end_char=230
+22	более	более	ADV	_	Degree=Cmp	23	obl	_	start_char=231|end_char=236
+23	качественный	качественный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=237|end_char=249
+24	товар	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	start_char=250|end_char=255
+25	на	на	ADP	_	_	24	case	_	start_char=256|end_char=258
+26	Amazon	Amazon	PROPN	_	Foreign=Yes	24	flat:foreign	_	start_char=259|end_char=265
+27	.	.	PUNCT	_	_	3	punct	_	start_char=265|end_char=266
+
+# text = Когда он работал, он работал очень хорошо.
+# sent_id = 3
+1	Когда	когда	SCONJ	_	_	3	mark	_	start_char=267|end_char=272
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=273|end_char=275
+3	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	start_char=276|end_char=283
+4	,	,	PUNCT	_	_	3	punct	_	start_char=283|end_char=284
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=285|end_char=287
+6	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=288|end_char=295
+7	очень	очень	ADV	_	Degree=Pos	8	advmod	_	start_char=296|end_char=301
+8	хорошо	хорошо	ADV	_	Degree=Pos	6	advmod	_	start_char=302|end_char=308
+9	.	.	PUNCT	_	_	6	punct	_	start_char=308|end_char=309
+

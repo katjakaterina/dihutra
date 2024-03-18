@@ -1,0 +1,61 @@
+# text = Bilješke o friziranju
+# sent_id = 0
+1	Bilješke	bilješka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=8
+2	o	o	ADP	Sl	Case=Loc	3	case	_	start_char=9|end_char=10
+3	friziranju	friziranje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	start_char=11|end_char=21
+
+# text = Kao samostalni frizer za pse, ovo je bio najbolji kupovinu koju sam napravio u dugo vremena.
+# sent_id = 1
+1	Kao	kao	SCONJ	Cs	_	3	case	_	start_char=22|end_char=25
+2	samostalni	samostalan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=26|end_char=36
+3	frizer	frizer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	start_char=37|end_char=43
+4	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=44|end_char=46
+5	pse	pas	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	nmod	_	start_char=47|end_char=50
+6	,	,	PUNCT	Z	_	3	punct	_	start_char=50|end_char=51
+7	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	start_char=52|end_char=55
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=56|end_char=58
+9	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	start_char=59|end_char=62
+10	najbolji	dobar	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	11	amod	_	start_char=63|end_char=71
+11	kupovinu	kupovina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	0	root	_	start_char=72|end_char=80
+12	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	14	obj	_	start_char=81|end_char=85
+13	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=86|end_char=89
+14	napravio	napraviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	start_char=90|end_char=98
+15	u	u	ADP	Sa	Case=Acc	17	case	_	start_char=99|end_char=100
+16	dugo	dugo	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=101|end_char=105
+17	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	14	obl	_	start_char=106|end_char=113
+18	.	.	PUNCT	Z	_	11	punct	_	start_char=113|end_char=114
+
+# text = To je izvanredan referentni vodič i znatno olakšava moj posao.
+# sent_id = 2
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=115|end_char=117
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=118|end_char=120
+3	izvanredan	izvanredan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=121|end_char=131
+4	referentni	referentan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=132|end_char=142
+5	vodič	vodič	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=143|end_char=148
+6	i	i	CCONJ	Cc	_	8	cc	_	start_char=149|end_char=150
+7	znatno	znatno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=151|end_char=157
+8	olakšava	olakšavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=158|end_char=166
+9	moj	moj	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det	_	start_char=167|end_char=170
+10	posao	posao	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=171|end_char=176
+11	.	.	PUNCT	Z	_	5	punct	_	start_char=176|end_char=177
+
+# text = Mogu pronaći sve što trebam ako imam pitanja o pasmini ili AKC standardima za tu pasminu.
+# sent_id = 3
+1	Mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=178|end_char=182
+2	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=183|end_char=190
+3	sve	sve	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	2	obj	_	start_char=191|end_char=194
+4	što	što	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Int,Rel	5	obj	_	start_char=195|end_char=198
+5	trebam	trebati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=199|end_char=205
+6	ako	ako	SCONJ	Cs	_	7	mark	_	start_char=206|end_char=209
+7	imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=210|end_char=214
+8	pitanja	pitanje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	7	obj	_	start_char=215|end_char=222
+9	o	o	ADP	Sl	Case=Loc	10	case	_	start_char=223|end_char=224
+10	pasmini	pasmina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	start_char=225|end_char=232
+11	ili	ili	CCONJ	Cc	_	13	cc	_	start_char=233|end_char=236
+12	AKC	AKC	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	13	amod	_	start_char=237|end_char=240
+13	standardima	standard	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	10	conj	_	start_char=241|end_char=252
+14	za	za	ADP	Sa	Case=Acc	16	case	_	start_char=253|end_char=255
+15	tu	taj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	start_char=256|end_char=258
+16	pasminu	pasmina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=259|end_char=266
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=266|end_char=267
+

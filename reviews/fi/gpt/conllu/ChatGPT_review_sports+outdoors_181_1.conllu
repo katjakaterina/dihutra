@@ -1,0 +1,65 @@
+# text = Erittäin halvasti tehty tuote.
+# sent_id = 0
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=0|end_char=8
+2	halvasti	halvasti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=9|end_char=17
+3	tehty	tehdä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=18|end_char=23
+4	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=24|end_char=29
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=29|end_char=30
+
+# text = Kirjoittaessani tätä arvostelua tämä tuote hajoaa, suurin osa työstä oli liimattu yhteen ja teipattu kaksipuolisella teipillä, joka ei pysy kiinni, eikä tätä tuotetta ole edes käytetty vielä.
+# sent_id = 1
+1	Kirjoittaessani	kirjoittaa	VERB	V	Case=Ine|InfForm=2|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=31|end_char=46
+2	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	det	_	start_char=47|end_char=51
+3	arvostelua	arvostelu	NOUN	N	Case=Par|Derivation=U|Number=Sing	1	obj	_	start_char=52|end_char=62
+4	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	start_char=63|end_char=67
+5	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=68|end_char=73
+6	hajoaa	hajota	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=74|end_char=80
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=80|end_char=81
+8	suurin	suuri	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	9	amod	_	start_char=82|end_char=88
+9	osa	osa	NOUN	N	Case=Nom|Number=Sing	12	obj	_	start_char=89|end_char=92
+10	työstä	työ	NOUN	N	Case=Ela|Number=Sing	9	nmod	_	start_char=93|end_char=99
+11	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=100|end_char=103
+12	liimattu	liimata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	6	conj	_	start_char=104|end_char=112
+13	yhteen	yhteen	ADV	Adv	_	12	advmod	_	start_char=113|end_char=119
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=120|end_char=122
+15	teipattu	teipata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	12	conj	_	start_char=123|end_char=131
+16	kaksipuolisella	kaksipuolinen	ADJ	A	Case=Ade|Degree=Pos|Derivation=Inen|Number=Sing	17	amod	_	start_char=132|end_char=147
+17	teipillä	teippi	NOUN	N	Case=Ade|Number=Sing	15	obl	_	start_char=148|end_char=156
+18	,	,	PUNCT	Punct	_	21	punct	_	start_char=156|end_char=157
+19	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	21	nsubj	_	start_char=158|end_char=162
+20	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	21	aux	_	start_char=163|end_char=165
+21	pysy	pysyä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	start_char=166|end_char=170
+22	kiinni	kiinni	ADV	Adv	_	21	compound:prt	_	start_char=171|end_char=177
+23	,	,	PUNCT	Punct	_	29	punct	_	start_char=177|end_char=178
+24	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	29	aux	_	start_char=179|end_char=183
+25	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	26	det	_	start_char=184|end_char=188
+26	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	29	obj	_	start_char=189|end_char=197
+27	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux:pass	_	start_char=198|end_char=201
+28	edes	edes	ADV	Adv	_	29	advmod	_	start_char=202|end_char=206
+29	käytetty	käyttää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	21	conj	_	start_char=207|end_char=215
+30	vielä	vielä	ADV	Adv	_	29	advmod	_	start_char=216|end_char=221
+31	.	.	PUNCT	Punct	_	6	punct	_	start_char=221|end_char=222
+
+# text = En ole edes saanut mahdollisuutta käyttää tätä tuotetta jatkaakseni korjausten tekemistä.
+# sent_id = 2
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=223|end_char=225
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=226|end_char=229
+3	edes	edes	ADV	Adv	_	4	advmod	_	start_char=230|end_char=234
+4	saanut	saada	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=235|end_char=241
+5	mahdollisuutta	mahdollisuus	NOUN	N	Case=Par|Derivation=Llinen,Vs|Number=Sing	4	obj	_	start_char=242|end_char=256
+6	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	acl	_	start_char=257|end_char=264
+7	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	8	det	_	start_char=265|end_char=269
+8	tuotetta	tuote	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=270|end_char=278
+9	jatkaakseni	jatkaa	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	6	advcl	_	start_char=279|end_char=290
+10	korjausten	korjaus	NOUN	N	Case=Gen|Number=Plur	11	nmod:gobj	_	start_char=291|end_char=301
+11	tekemistä	tekeminen	NOUN	N	Case=Par|Derivation=Minen|Number=Sing	9	obj	_	start_char=302|end_char=311
+12	.	.	PUNCT	Punct	_	4	punct	_	start_char=311|end_char=312
+
+# text = Erittäin tyytymätön tähän tuotteeseen.
+# sent_id = 3
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=313|end_char=321
+2	tyytymätön	tyytymätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	0	root	_	start_char=322|end_char=332
+3	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	4	det	_	start_char=333|end_char=338
+4	tuotteeseen	tuote	NOUN	N	Case=Ill|Number=Sing	2	nmod	_	start_char=339|end_char=350
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=350|end_char=351
+

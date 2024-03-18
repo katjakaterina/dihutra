@@ -1,0 +1,73 @@
+# text = Я нашел свой священный грааль среди косметических средств для кожи.
+# sent_id = 0
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=0|end_char=1
+2	нашел	найти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2|end_char=7
+3	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=8|end_char=12
+4	священный	священный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=13|end_char=22
+5	грааль	грааль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=23|end_char=29
+6	среди	среди	ADP	_	_	8	case	_	start_char=30|end_char=35
+7	косметических	косметический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=36|end_char=49
+8	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	start_char=50|end_char=57
+9	для	для	ADP	_	_	10	case	_	start_char=58|end_char=61
+10	кожи	кожа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=62|end_char=66
+11	.	.	PUNCT	_	_	2	punct	_	start_char=66|end_char=67
+
+# text = Я откровенный наркоман по косметическим продуктам для красоты.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=69|end_char=70
+2	откровенный	откровенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=71|end_char=82
+3	наркоман	наркоман	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=83|end_char=91
+4	по	по	ADP	_	_	6	case	_	start_char=92|end_char=94
+5	косметическим	косметический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	start_char=95|end_char=108
+6	продуктам	продукт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	start_char=109|end_char=118
+7	для	для	ADP	_	_	8	case	_	start_char=119|end_char=122
+8	красоты	красота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=123|end_char=130
+9	.	.	PUNCT	_	_	3	punct	_	start_char=130|end_char=131
+
+# text = Попробовав десятки, если не сотни фондов, тонизирующих увлажнителей, консилеров и т. д. за все эти годы, я, наконец, на 30 лет могу закончить поиск, потому что я нашел свой священный грааль в мире косметики - Macely.
+# sent_id = 2
+1	Попробовав	попробовать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	28	advcl	_	start_char=133|end_char=143
+2	десятки	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=144|end_char=151
+3	,	,	PUNCT	_	_	6	punct	_	start_char=151|end_char=152
+4	если	если	SCONJ	_	_	6	mark	_	start_char=153|end_char=157
+5	не	не	PART	_	_	6	advmod	_	start_char=158|end_char=160
+6	сотни	сотня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	advcl	_	start_char=161|end_char=166
+7	фондов	фонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=167|end_char=173
+8	,	,	PUNCT	_	_	9	punct	_	start_char=173|end_char=174
+9	тонизирующих	тонизировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	start_char=175|end_char=187
+10	увлажнителей	увлажнитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	start_char=188|end_char=200
+11	,	,	PUNCT	_	_	12	punct	_	start_char=200|end_char=201
+12	консилеров	консилер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	start_char=202|end_char=212
+13	и	и	CCONJ	_	_	14	cc	_	start_char=213|end_char=214
+14	т.	так	ADV	_	Degree=Pos	10	conj	_	start_char=215|end_char=217
+15	д.	далее	ADV	_	Degree=Pos	14	fixed	_	start_char=218|end_char=220
+16	за	за	ADP	_	_	19	case	_	start_char=221|end_char=223
+17	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	19	det	_	start_char=224|end_char=227
+18	эти	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	19	det	_	start_char=228|end_char=231
+19	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	start_char=232|end_char=236
+20	,	,	PUNCT	_	_	1	punct	_	start_char=236|end_char=237
+21	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	start_char=238|end_char=239
+22	,	,	PUNCT	_	_	21	punct	_	start_char=239|end_char=240
+23	наконец	наконец	ADV	_	Degree=Pos	28	parataxis	_	start_char=241|end_char=248
+24	,	,	PUNCT	_	_	23	punct	_	start_char=248|end_char=249
+25	на	на	ADP	_	_	27	case	_	start_char=250|end_char=252
+26	30	30	NUM	_	NumType=Card	27	nummod	_	start_char=253|end_char=255
+27	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	obl	_	start_char=256|end_char=259
+28	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=260|end_char=264
+29	закончить	закончить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	start_char=265|end_char=274
+30	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obj	_	start_char=275|end_char=280
+31	,	,	PUNCT	_	_	35	punct	_	start_char=280|end_char=281
+32	потому	потому	ADV	_	Degree=Pos	35	mark	_	start_char=282|end_char=288
+33	что	что	SCONJ	_	_	32	fixed	_	start_char=289|end_char=292
+34	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	35	nsubj	_	start_char=293|end_char=294
+35	нашел	найти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	advcl	_	start_char=295|end_char=300
+36	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	38	det	_	start_char=301|end_char=305
+37	священный	священный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	start_char=306|end_char=315
+38	грааль	грааль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	obj	_	start_char=316|end_char=322
+39	в	в	ADP	_	_	40	case	_	start_char=323|end_char=324
+40	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	nmod	_	start_char=325|end_char=329
+41	косметики	косметика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	start_char=330|end_char=339
+42	-	-	PUNCT	_	_	43	punct	_	start_char=340|end_char=341
+43	Macely	Macely	PROPN	_	Foreign=Yes	41	flat:foreign	_	start_char=342|end_char=348
+44	.	.	PUNCT	_	_	28	punct	_	start_char=348|end_char=349
+

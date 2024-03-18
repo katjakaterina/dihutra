@@ -1,0 +1,78 @@
+# text = Этот альбом абсолютно благословлен!
+# sent_id = 0
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=4
+2	альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=5|end_char=11
+3	абсолютно	абсолютно	ADV	_	Degree=Pos	4	obl	_	start_char=12|end_char=21
+4	благословлен	благословленный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=22|end_char=34
+5	!	!	PUNCT	_	_	4	punct	_	start_char=34|end_char=35
+
+# text = Как только он доставился ко мне, я его включил и слушал, и у меня был момент воспоминаний о восьмидесятых годах, когда я слушал его и видел его на концерте, вскоре перед его смертью.
+# sent_id = 1
+1	Как	как	SCONJ	_	_	4	mark	_	start_char=36|end_char=39
+2	только	только	PART	_	_	1	fixed	_	start_char=40|end_char=46
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	start_char=47|end_char=49
+4	доставился	доставиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	advcl	_	start_char=50|end_char=60
+5	ко	к	ADP	_	_	6	case	_	start_char=61|end_char=63
+6	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obl	_	start_char=64|end_char=67
+7	,	,	PUNCT	_	_	4	punct	_	start_char=67|end_char=68
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	start_char=69|end_char=70
+9	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=71|end_char=74
+10	включил	включить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=75|end_char=82
+11	и	и	CCONJ	_	_	12	cc	_	start_char=83|end_char=84
+12	слушал	слушать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=85|end_char=91
+13	,	,	PUNCT	_	_	16	punct	_	start_char=91|end_char=92
+14	и	и	CCONJ	_	_	16	cc	_	start_char=93|end_char=94
+15	у	у	ADP	_	_	16	case	_	start_char=95|end_char=96
+16	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	conj	_	start_char=97|end_char=101
+17	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	start_char=102|end_char=105
+18	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=106|end_char=112
+19	воспоминаний	воспоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	18	nmod	_	start_char=113|end_char=125
+20	о	о	ADP	_	_	22	case	_	start_char=126|end_char=127
+21	восьмидесятых	восьмидесятый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	start_char=128|end_char=141
+22	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	nmod	_	start_char=142|end_char=147
+23	,	,	PUNCT	_	_	26	punct	_	start_char=147|end_char=148
+24	когда	когда	SCONJ	_	_	26	mark	_	start_char=149|end_char=154
+25	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	start_char=155|end_char=156
+26	слушал	слушать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	acl:relcl	_	start_char=157|end_char=163
+27	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	start_char=164|end_char=167
+28	и	и	CCONJ	_	_	29	cc	_	start_char=168|end_char=169
+29	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	start_char=170|end_char=175
+30	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	start_char=176|end_char=179
+31	на	на	ADP	_	_	32	case	_	start_char=180|end_char=182
+32	концерте	концерт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	29	obl	_	start_char=183|end_char=191
+33	,	,	PUNCT	_	_	34	punct	_	start_char=191|end_char=192
+34	вскоре	вскоре	ADV	_	Degree=Pos	29	advmod	_	start_char=193|end_char=199
+35	перед	перед	ADP	_	_	37	case	_	start_char=200|end_char=205
+36	его	его	DET	_	Poss=Yes|PronType=Prs	37	det	_	start_char=206|end_char=209
+37	смертью	смерть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	34	obl	_	start_char=210|end_char=217
+38	.	.	PUNCT	_	_	10	punct	_	start_char=217|end_char=218
+
+# text = Я плакал, но улыбался, потому что музыка благословила меня настолько, и я надеюсь, что и вас это вдохновит попробовать этот альбом.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=219|end_char=220
+2	плакал	плакать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=221|end_char=227
+3	,	,	PUNCT	_	_	5	punct	_	start_char=227|end_char=228
+4	но	но	CCONJ	_	_	5	cc	_	start_char=229|end_char=231
+5	улыбался	улыбаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=232|end_char=240
+6	,	,	PUNCT	_	_	10	punct	_	start_char=240|end_char=241
+7	потому	потому	ADV	_	Degree=Pos	10	mark	_	start_char=242|end_char=248
+8	что	что	SCONJ	_	_	7	fixed	_	start_char=249|end_char=252
+9	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	start_char=253|end_char=259
+10	благословила	благословить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=260|end_char=272
+11	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	start_char=273|end_char=277
+12	настолько	настолько	ADV	_	Degree=Pos	10	advmod	_	start_char=278|end_char=287
+13	,	,	PUNCT	_	_	16	punct	_	start_char=287|end_char=288
+14	и	и	CCONJ	_	_	16	cc	_	start_char=289|end_char=290
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=291|end_char=292
+16	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	10	conj	_	start_char=293|end_char=300
+17	,	,	PUNCT	_	_	22	punct	_	start_char=300|end_char=301
+18	что	что	SCONJ	_	_	22	mark	_	start_char=302|end_char=305
+19	и	и	PART	_	_	20	advmod	_	start_char=306|end_char=307
+20	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	23	obj	_	start_char=308|end_char=311
+21	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	22	nsubj	_	start_char=312|end_char=315
+22	вдохновит	вдохновить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	ccomp	_	start_char=316|end_char=325
+23	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	start_char=326|end_char=337
+24	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	start_char=338|end_char=342
+25	альбом	альбом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	start_char=343|end_char=349
+26	.	.	PUNCT	_	_	2	punct	_	start_char=349|end_char=350
+

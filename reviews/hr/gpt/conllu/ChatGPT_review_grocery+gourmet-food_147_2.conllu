@@ -1,0 +1,124 @@
+# text = Prapramo štapići s okusom cimeta
+# sent_id = 0
+1	Prapramo	prapra	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=0|end_char=8
+2	štapići	štapić	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=9|end_char=16
+3	s	sa	ADP	Si	Case=Ins	4	case	_	start_char=17|end_char=18
+4	okusom	okus	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	start_char=19|end_char=25
+5	cimeta	cimeta	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=26|end_char=32
+
+# text = Ova tvar nije dobar primjer pravog pet-začinskog praha, za koji sam lokalno platio 1,5 dolara za 113 grama, unatoč činjenici da su drugi Dynasty proizvodi korisni, kao što je njihov satay umak.
+# sent_id = 1
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=33|end_char=36
+2	tvar	tvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=37|end_char=41
+3	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=42|end_char=46
+4	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=47|end_char=52
+5	primjer	primjer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=53|end_char=60
+6	pravog	prav	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=61|end_char=67
+7	pet-začinskog	pet-začinski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=68|end_char=81
+8	praha	prah	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=82|end_char=87
+9	,	,	PUNCT	Z	_	14	punct	_	start_char=87|end_char=88
+10	za	za	ADP	Sa	Case=Acc	11	case	_	start_char=89|end_char=91
+11	koji	koji	DET	Pi-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	14	obj	_	start_char=92|end_char=96
+12	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=97|end_char=100
+13	lokalno	lokalan	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=101|end_char=108
+14	platio	platiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	start_char=109|end_char=115
+15	1,5	1,5	NUM	Mdc	NumType=Card	16	nummod:gov	_	start_char=116|end_char=119
+16	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	obl	_	start_char=120|end_char=126
+17	za	za	ADP	Sa	Case=Acc	19	case	_	start_char=127|end_char=129
+18	113	113	NUM	Mdc	NumType=Card	19	nummod:gov	_	start_char=130|end_char=133
+19	grama	gram	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	14	obl	_	start_char=134|end_char=139
+20	,	,	PUNCT	Z	_	22	punct	_	start_char=139|end_char=140
+21	unatoč	unatoč	ADP	Sd	Case=Dat	22	case	_	start_char=141|end_char=147
+22	činjenici	činjenica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	start_char=148|end_char=157
+23	da	da	SCONJ	Cs	_	28	mark	_	start_char=158|end_char=160
+24	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	start_char=161|end_char=163
+25	drugi	drugi	ADJ	Mlompn	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	27	amod	_	start_char=164|end_char=169
+26	Dynasty	dynasty	X	Xf	Foreign=Yes	27	amod	_	start_char=170|end_char=177
+27	proizvodi	proizvod	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	start_char=178|end_char=187
+28	korisni	koristan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	22	acl	_	start_char=188|end_char=195
+29	,	,	PUNCT	Z	_	32	punct	_	start_char=195|end_char=196
+30	kao	kao	SCONJ	Cs	_	32	mark	_	start_char=197|end_char=200
+31	što	što	SCONJ	Cs	_	30	fixed	_	start_char=201|end_char=204
+32	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	start_char=205|end_char=207
+33	njihov	njihov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	35	det	_	start_char=208|end_char=214
+34	satay	satay	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	start_char=215|end_char=220
+35	umak	umak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	start_char=221|end_char=225
+36	.	.	PUNCT	Z	_	5	punct	_	start_char=225|end_char=226
+
+# text = Živim u blizini Flushing Queen u kojem se prodaje autentična azijska hrana pa imam dobru predodžbu kako bi to trebalo okusiti.
+# sent_id = 2
+1	Živim	živjeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=227|end_char=232
+2	u	u	ADP	Sl	Case=Loc	3	case	_	start_char=233|end_char=234
+3	blizini	blizina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	start_char=235|end_char=242
+4	Flushing	Flushing	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	start_char=243|end_char=251
+5	Queen	Queen	X	Xf	Foreign=Yes	4	flat	_	start_char=252|end_char=257
+6	u	u	ADP	Sl	Case=Loc	7	case	_	start_char=258|end_char=259
+7	kojem	koji	DET	Pi-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Int,Rel	9	obl	_	start_char=260|end_char=265
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	9	expl	_	start_char=266|end_char=268
+9	prodaje	prodavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=269|end_char=276
+10	autentična	autentičan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=277|end_char=287
+11	azijska	azijski	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=288|end_char=295
+12	hrana	hrana	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=296|end_char=301
+13	pa	pa	CCONJ	Cc	_	14	cc	_	start_char=302|end_char=304
+14	imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=305|end_char=309
+15	dobru	dobar	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	start_char=310|end_char=315
+16	predodžbu	predodžba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=316|end_char=325
+17	kako	kako	SCONJ	Cs	_	20	mark	_	start_char=326|end_char=330
+18	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	start_char=331|end_char=333
+19	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	nsubj	_	start_char=334|end_char=336
+20	trebalo	trebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	14	advcl	_	start_char=337|end_char=344
+21	okusiti	okusiti	VERB	Vmn	VerbForm=Inf	20	xcomp	_	start_char=345|end_char=352
+22	.	.	PUNCT	Z	_	1	punct	_	start_char=352|end_char=353
+
+# text = Ako želite uštedjeti novac putem Amazona, bolje je odabrati Frontier prah pet začina, bočica od 54 grama.
+# sent_id = 3
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=354|end_char=357
+2	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=358|end_char=364
+3	uštedjeti	uštedjeti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=365|end_char=374
+4	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=375|end_char=380
+5	putem	putem	ADP	Sg	Case=Gen	6	case	_	start_char=381|end_char=386
+6	Amazona	Amazon	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=387|end_char=394
+7	,	,	PUNCT	Z	_	2	punct	_	start_char=394|end_char=395
+8	bolje	dobro	ADV	Rgc	Degree=Cmp	0	root	_	start_char=396|end_char=401
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=402|end_char=404
+10	odabrati	odabrati	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=405|end_char=413
+11	Frontier	Frontier	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=414|end_char=422
+12	prah	prah	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	flat	_	start_char=423|end_char=427
+13	pet	pet	NUM	Mlc	NumType=Card	14	nummod:gov	_	start_char=428|end_char=431
+14	začina	začin	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	start_char=432|end_char=438
+15	,	,	PUNCT	Z	_	16	punct	_	start_char=438|end_char=439
+16	bočica	bočica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	conj	_	start_char=440|end_char=446
+17	od	od	ADP	Sg	Case=Gen	19	case	_	start_char=447|end_char=449
+18	54	54	NUM	Mdc	NumType=Card	19	nummod:gov	_	start_char=450|end_char=452
+19	grama	gram	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=453|end_char=458
+20	.	.	PUNCT	Z	_	8	punct	_	start_char=458|end_char=459
+
+# text = Usput, "zvjezdasti anis" ili "anis" već ima okus sladića, tako da dodavati još više sladića ovoj bočici bilo je nepromišljeno
+# sent_id = 4
+1	Usput	usput	ADV	Rgp	Degree=Pos	12	discourse	_	start_char=460|end_char=465
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=465|end_char=466
+3	"	"	PUNCT	Z	_	5	punct	_	start_char=467|end_char=468
+4	zvjezdasti	zvjezdasti	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=468|end_char=478
+5	anis	anis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=479|end_char=483
+6	"	"	PUNCT	Z	_	9	punct	_	start_char=483|end_char=484
+7	ili	ili	CCONJ	Cc	_	9	cc	_	start_char=485|end_char=488
+8	"	"	PUNCT	Z	_	9	punct	_	start_char=489|end_char=490
+9	anis	anis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=490|end_char=494
+10	"	"	PUNCT	Z	_	9	punct	_	start_char=494|end_char=495
+11	već	već	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=496|end_char=499
+12	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=500|end_char=503
+13	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=504|end_char=508
+14	sladića	sladić	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=509|end_char=516
+15	,	,	PUNCT	Z	_	26	punct	_	start_char=516|end_char=517
+16	tako	tako	SCONJ	Cs	_	18	mark	_	start_char=518|end_char=522
+17	da	da	SCONJ	Cs	_	16	fixed	_	start_char=523|end_char=525
+18	dodavati	dodavati	VERB	Vmn	VerbForm=Inf	26	advcl	_	start_char=526|end_char=534
+19	još	još	ADV	Rgp	Degree=Pos	20	advmod	_	start_char=535|end_char=538
+20	više	mnogo	DET	Rgc	Degree=Cmp	21	det:numgov	_	start_char=539|end_char=543
+21	sladića	sladić	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	obj	_	start_char=544|end_char=551
+22	ovoj	ovaj	DET	Pd-fsd	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	start_char=552|end_char=556
+23	bočici	bočica	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	start_char=557|end_char=563
+24	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	26	cop	_	start_char=564|end_char=568
+25	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	start_char=569|end_char=571
+26	nepromišljeno	nepromišiten	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	start_char=572|end_char=585
+

@@ -1,0 +1,66 @@
+# text = Söpö!
+# sent_id = 0
+1	Söpö	söpö	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=4
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=4|end_char=5
+
+# text = Tuote saapui erittäin nopeasti ja oli täydellisessä kunnossa.
+# sent_id = 1
+1	Tuote	tuote	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=6|end_char=11
+2	saapui	saapua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=18
+3	erittäin	erittäin	ADV	Adv	Derivation=Ttain	4	advmod	_	start_char=19|end_char=27
+4	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=28|end_char=36
+5	ja	ja	CCONJ	C	_	8	cc	_	start_char=37|end_char=39
+6	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=40|end_char=43
+7	täydellisessä	täydellinen	ADJ	A	Case=Ine|Degree=Pos|Derivation=Llinen|Number=Sing	8	amod	_	start_char=44|end_char=57
+8	kunnossa	kunto	NOUN	N	Case=Ine|Number=Sing	2	conj	_	start_char=58|end_char=66
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=66|end_char=67
+
+# text = Kuitenkin tilasin nämä painikkeet, koska ne olivat hyvä diili ja sisälsivät ILMAISEN näytönsuojan.
+# sent_id = 2
+1	Kuitenkin	kuitenkin	ADV	Adv	_	2	advmod	_	start_char=68|end_char=77
+2	tilasin	tilata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=78|end_char=85
+3	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	4	det	_	start_char=86|end_char=90
+4	painikkeet	painike	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=91|end_char=101
+5	,	,	PUNCT	Punct	_	10	punct	_	start_char=101|end_char=102
+6	koska	koska	SCONJ	C	_	10	mark	_	start_char=103|end_char=108
+7	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	10	nsubj:cop	_	start_char=109|end_char=111
+8	olivat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=112|end_char=118
+9	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	start_char=119|end_char=123
+10	diili	diili	NOUN	N	Case=Nom|Number=Sing	2	advcl	_	start_char=124|end_char=129
+11	ja	ja	CCONJ	C	_	12	cc	_	start_char=130|end_char=132
+12	sisälsivät	sisältää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=133|end_char=143
+13	ILMAISEN	I#mausi	PROPN	N	Case=Gen|Number=Sing	14	nmod:poss	_	start_char=144|end_char=152
+14	näytönsuojan	näytön#suoja	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=153|end_char=165
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=165|end_char=166
+
+# text = En koskaan saanut sitä.
+# sent_id = 3
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=167|end_char=169
+2	koskaan	koskaan	ADV	Adv	_	3	advmod	_	start_char=170|end_char=177
+3	saanut	saada	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=178|end_char=184
+4	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=185|end_char=189
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=189|end_char=190
+
+# text = Vaikka se ei ole iso juttu, olisi ollut mukava saada se, koska he väittävät sen sisältyvän tilaukseen.
+# sent_id = 4
+1	Vaikka	vaikka	SCONJ	C	_	6	mark	_	start_char=191|end_char=197
+2	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	start_char=198|end_char=200
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=201|end_char=203
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=204|end_char=207
+5	iso	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	start_char=208|end_char=211
+6	juttu	juttu	NOUN	N	Case=Nom|Number=Sing	10	advcl	_	start_char=212|end_char=217
+7	,	,	PUNCT	Punct	_	6	punct	_	start_char=217|end_char=218
+8	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	aux	_	start_char=219|end_char=224
+9	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	10	cop	_	start_char=225|end_char=230
+10	mukava	mukava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=231|end_char=237
+11	saada	saada	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	10	csubj:cop	_	start_char=238|end_char=243
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	obj	_	start_char=244|end_char=246
+13	,	,	PUNCT	Punct	_	16	punct	_	start_char=246|end_char=247
+14	koska	koska	SCONJ	C	_	16	mark	_	start_char=248|end_char=253
+15	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	start_char=254|end_char=256
+16	väittävät	väittää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=257|end_char=266
+17	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	18	nsubj	_	start_char=267|end_char=270
+18	sisältyvän	sisältyä	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	16	xcomp:ds	_	start_char=271|end_char=281
+19	tilaukseen	tilaus	NOUN	N	Case=Ill|Number=Sing	18	obl	_	start_char=282|end_char=292
+20	.	.	PUNCT	Punct	_	10	punct	_	start_char=292|end_char=293
+

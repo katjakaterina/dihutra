@@ -1,0 +1,94 @@
+# text = Jezaan vilenjak - dodaci su kao ulaganje u Skylanders ili Disney Xfinity Evo jednog jezivog malog vilenjaka i knjige.
+# sent_id = 0
+1	Jezaan	jezaan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	vilenjak	vilenjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=7|end_char=15
+3	-	-	PUNCT	Z	_	2	punct	_	start_char=16|end_char=17
+4	dodaci	dodatak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=18|end_char=24
+5	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=25|end_char=27
+6	kao	kao	SCONJ	Cs	_	7	case	_	start_char=28|end_char=31
+7	ulaganje	ulaganje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	start_char=32|end_char=40
+8	u	u	ADP	Sa	Case=Acc	9	case	_	start_char=41|end_char=42
+9	Skylanders	Skylanders	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=43|end_char=53
+10	ili	ili	CCONJ	Cc	_	11	cc	_	start_char=54|end_char=57
+11	Disney	Disney	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	conj	_	start_char=58|end_char=64
+12	Xfinity	Xfinity	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	flat	_	start_char=65|end_char=72
+13	Evo	evo	PART	Qo	_	17	case	_	start_char=73|end_char=76
+14	jednog	jedan	NUM	Mlcmsg	Case=Gen|Gender=Masc|NumType=Card|Number=Sing	17	nummod	_	start_char=77|end_char=83
+15	jezivog	jeziv	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=84|end_char=91
+16	malog	mali	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=92|end_char=97
+17	vilenjaka	vilenjak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=98|end_char=107
+18	i	i	CCONJ	Cc	_	19	cc	_	start_char=108|end_char=109
+19	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	conj	_	start_char=110|end_char=116
+20	.	.	PUNCT	Z	_	4	punct	_	start_char=116|end_char=117
+
+# text = Ako želite da vilenjak kuha i kupite sve dodatke, to je kao da kupujete Skylanders ili Disney Xfinity.
+# sent_id = 1
+1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=118|end_char=121
+2	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=122|end_char=128
+3	da	da	SCONJ	Cs	_	5	mark	_	start_char=129|end_char=131
+4	vilenjak	vilenjak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=132|end_char=140
+5	kuha	kuhati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=141|end_char=145
+6	i	i	CCONJ	Cc	_	7	cc	_	start_char=146|end_char=147
+7	kupite	kupiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	5	conj	_	start_char=148|end_char=154
+8	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=155|end_char=158
+9	dodatke	dodatak	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=159|end_char=166
+10	,	,	PUNCT	Z	_	2	punct	_	start_char=166|end_char=167
+11	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	start_char=168|end_char=170
+12	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=171|end_char=173
+13	kao	kao	SCONJ	Cs	_	15	mark	_	start_char=174|end_char=177
+14	da	da	SCONJ	Cs	_	13	fixed	_	start_char=178|end_char=180
+15	kupujete	kupovati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	start_char=181|end_char=189
+16	Skylanders	Skylanders	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=190|end_char=200
+17	ili	ili	CCONJ	Cc	_	18	cc	_	start_char=201|end_char=204
+18	Disney	Disney	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	conj	_	start_char=205|end_char=211
+19	Xfinity	Xfinity	PROPN	Npmsa	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	flat	_	start_char=212|end_char=219
+20	.	.	PUNCT	Z	_	12	punct	_	start_char=219|end_char=220
+
+# text = Svaki mali dodatak košta barem 20,00 dolara.
+# sent_id = 2
+1	Svaki	svaki	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	start_char=221|end_char=226
+2	mali	mali	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=227|end_char=231
+3	dodatak	dodatak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=232|end_char=239
+4	košta	koštati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=240|end_char=245
+5	barem	barem	PART	Qo	_	6	advmod	_	start_char=246|end_char=251
+6	20,00	20,00	NUM	Mdc	NumType=Card	7	nummod:gov	_	start_char=252|end_char=257
+7	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=258|end_char=264
+8	.	.	PUNCT	Z	_	4	punct	_	start_char=264|end_char=265
+
+# text = Ovo je loše kvalitete također.
+# sent_id = 3
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=266|end_char=269
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=270|end_char=272
+3	loše	loš	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=273|end_char=277
+4	kvalitete	kvaliteta	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	0	root	_	start_char=278|end_char=287
+5	također	također	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=288|end_char=295
+6	.	.	PUNCT	Z	_	4	punct	_	start_char=295|end_char=296
+
+# text = Ne bih preporučio/la ovo nikome.
+# sent_id = 4
+1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=297|end_char=299
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=300|end_char=303
+3	preporučio/la	preporučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=304|end_char=317
+4	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	start_char=318|end_char=321
+5	nikome	nitko	PRON	Pi3m-d	Case=Dat|Gender=Masc|PronType=Neg	3	iobj	_	start_char=322|end_char=328
+6	.	.	PUNCT	Z	_	3	punct	_	start_char=328|end_char=329
+
+# text = Uštedite svoj novac i umjesto toga kupite lijepi adventski kalendar - predlažem LEGO adventski kalendar!
+# sent_id = 5
+1	Uštedite	uštestiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=330|end_char=338
+2	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	start_char=339|end_char=343
+3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=344|end_char=349
+4	i	i	CCONJ	Cc	_	7	cc	_	start_char=350|end_char=351
+5	umjesto	umjesto	ADP	Sg	Case=Gen	6	case	_	start_char=352|end_char=359
+6	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	start_char=360|end_char=364
+7	kupite	kupiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	conj	_	start_char=365|end_char=371
+8	lijepi	lijep	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=372|end_char=378
+9	adventski	adventski	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=379|end_char=388
+10	kalendar	kalendar	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=389|end_char=397
+11	-	-	PUNCT	Z	_	12	punct	_	start_char=398|end_char=399
+12	predlažem	predlagati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	start_char=400|end_char=409
+13	LEGO	lego	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=410|end_char=414
+14	adventski	adventski	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=415|end_char=424
+15	kalendar	kalendar	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=425|end_char=433
+16	!	!	PUNCT	Z	_	1	punct	_	start_char=433|end_char=434
+

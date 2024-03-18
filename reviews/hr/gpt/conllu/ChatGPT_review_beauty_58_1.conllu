@@ -1,0 +1,74 @@
+# text = Ovo je krivotvorina, oprez kupci Nemojte kupovati ovo, to je jeftina krivotvorina.
+# sent_id = 0
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=3
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=4|end_char=6
+3	krivotvorina	krivotvorina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=19
+4	,	,	PUNCT	Z	_	7	punct	_	start_char=19|end_char=20
+5	oprez	oprez	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=21|end_char=26
+6	kupci	kupac	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=27|end_char=32
+7	Nemojte	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=33|end_char=40
+8	kupovati	kupovati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=41|end_char=49
+9	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	start_char=50|end_char=53
+10	,	,	PUNCT	Z	_	14	punct	_	start_char=53|end_char=54
+11	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=55|end_char=57
+12	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=58|end_char=60
+13	jeftina	jeftin	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=61|end_char=68
+14	krivotvorina	krivotvorina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	start_char=69|end_char=81
+15	.	.	PUNCT	Z	_	3	punct	_	start_char=81|end_char=82
+
+# text = MAC kozmetika nikada nije napravila ovakvu paletu, i nemate pojma tko ju zapravo napravio i što su sastojci u šminki... nesigurno je koristiti je i gubljenje vašeg novca.
+# sent_id = 1
+1	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=83|end_char=86
+2	kozmetika	kozmetik	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=87|end_char=96
+3	nikada	nikada	ADV	Rgp	Degree=Pos|PronType=Neg	5	advmod	_	start_char=97|end_char=103
+4	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=104|end_char=108
+5	napravila	napraviti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=109|end_char=118
+6	ovakvu	ovakav	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	start_char=119|end_char=125
+7	paletu	palet	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=126|end_char=132
+8	,	,	PUNCT	Z	_	10	punct	_	start_char=132|end_char=133
+9	i	i	CCONJ	Cc	_	10	cc	_	start_char=134|end_char=135
+10	nemate	nemati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=136|end_char=142
+11	pojma	pojam	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=143|end_char=148
+12	tko	tko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Int,Rel	15	nsubj	_	start_char=149|end_char=152
+13	ju	on	PRON	Pp3fsa	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=153|end_char=155
+14	zapravo	zapravo	ADV	Rgp	Degree=Pos	15	advmod	_	start_char=156|end_char=163
+15	napravio	napraviti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	start_char=164|end_char=172
+16	i	i	CCONJ	Cc	_	19	cc	_	start_char=173|end_char=174
+17	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	19	nsubj	_	start_char=175|end_char=178
+18	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=179|end_char=181
+19	sastojci	sastojka	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	15	conj	_	start_char=182|end_char=190
+20	u	u	ADP	Sl	Case=Loc	21	case	_	start_char=191|end_char=192
+21	šminki	šminka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	start_char=193|end_char=199
+22	...	...	PUNCT	Z	_	23	punct	_	start_char=199|end_char=202
+23	nesigurno	nesigurno	ADV	Rgp	Degree=Pos	5	conj	_	start_char=203|end_char=212
+24	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=213|end_char=215
+25	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	23	xcomp	_	start_char=216|end_char=225
+26	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	obj	_	start_char=226|end_char=228
+27	i	i	CCONJ	Cc	_	28	discourse	_	start_char=229|end_char=230
+28	gubljenje	gubljenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	start_char=231|end_char=240
+29	vašeg	vaš	DET	Ps1msg	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	30	det	_	start_char=241|end_char=246
+30	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	start_char=247|end_char=252
+31	.	.	PUNCT	Z	_	5	punct	_	start_char=252|end_char=253
+
+# text = Uštedite svoje vrijeme i novac, ako želite pravu MAC šminku, ovo nije način kako je dobiti.
+# sent_id = 2
+1	Uštedite	uštestiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=254|end_char=262
+2	svoje	svoj	DET	Px-nsa	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	start_char=263|end_char=268
+3	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	start_char=269|end_char=276
+4	i	i	CCONJ	Cc	_	5	cc	_	start_char=277|end_char=278
+5	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	start_char=279|end_char=284
+6	,	,	PUNCT	Z	_	8	punct	_	start_char=284|end_char=285
+7	ako	ako	SCONJ	Cs	_	8	mark	_	start_char=286|end_char=289
+8	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=290|end_char=296
+9	pravu	prav	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=297|end_char=302
+10	MAC	MAC	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=303|end_char=306
+11	šminku	šminak	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=307|end_char=313
+12	,	,	PUNCT	Z	_	8	punct	_	start_char=313|end_char=314
+13	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=315|end_char=318
+14	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=319|end_char=323
+15	način	način	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=324|end_char=329
+16	kako	kako	SCONJ	Cs	_	18	mark	_	start_char=330|end_char=334
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=335|end_char=337
+18	dobiti	dobiti	VERB	Vmn	VerbForm=Inf	15	acl	_	start_char=338|end_char=344
+19	.	.	PUNCT	Z	_	1	punct	_	start_char=344|end_char=345
+

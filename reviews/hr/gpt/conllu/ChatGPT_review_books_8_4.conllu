@@ -1,0 +1,101 @@
+# text = Himne s Nebeskog Autocesta Himne s Nebeskog Autocesta
+# sent_id = 0
+1	Himne	himna	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=5
+2	s	sa	ADP	Sg	Case=Gen	3	case	_	start_char=6|end_char=7
+3	Nebeskog	nebeski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=16
+4	Autocesta	Autocesta	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	start_char=17|end_char=26
+5	Himne	himna	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	flat	_	start_char=27|end_char=32
+6	s	sa	ADP	Sg	Case=Gen	8	case	_	start_char=33|end_char=34
+7	Nebeskog	nebeski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	nmod	_	start_char=35|end_char=43
+8	Autocesta	Autocesta	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	start_char=44|end_char=53
+
+# text = Naručio/la sam ovaj himnal jer sam naučio/la čitati notne znakove u obliku nota kad sam bio/la tinejdžer.
+# sent_id = 1
+1	Naručio/la	naručio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=54|end_char=64
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=65|end_char=68
+3	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=69|end_char=73
+4	himnal	himnal	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=74|end_char=80
+5	jer	jer	SCONJ	Cs	_	7	mark	_	start_char=81|end_char=84
+6	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=85|end_char=88
+7	naučio/la	naučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=89|end_char=98
+8	čitati	čitati	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=99|end_char=105
+9	notne	notni	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	start_char=106|end_char=111
+10	znakove	znak	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=112|end_char=119
+11	u	u	ADP	Sl	Case=Loc	12	case	_	start_char=120|end_char=121
+12	obliku	oblik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	start_char=122|end_char=128
+13	nota	nota	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=129|end_char=133
+14	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	16	advmod	_	start_char=134|end_char=137
+15	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=138|end_char=141
+16	bio/la	bio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	start_char=142|end_char=148
+17	tinejdžer	tinejdžer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=149|end_char=158
+18	.	.	PUNCT	Z	_	1	punct	_	start_char=158|end_char=159
+
+# text = Sviram klavir, ali ne pjevam.
+# sent_id = 2
+1	Sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=160|end_char=166
+2	klavir	klavir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=167|end_char=173
+3	,	,	PUNCT	Z	_	6	punct	_	start_char=173|end_char=174
+4	ali	ali	CCONJ	Cc	_	6	cc	_	start_char=175|end_char=178
+5	ne	ne	PART	Qz	Polarity=Neg	6	advmod	_	start_char=179|end_char=181
+6	pjevam	pjevati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=182|end_char=188
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=188|end_char=189
+
+# text = Imam 85 godina.
+# sent_id = 3
+1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=190|end_char=194
+2	85	85	NUM	Mdc	NumType=Card	3	nummod:gov	_	start_char=195|end_char=197
+3	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=198|end_char=204
+4	.	.	PUNCT	Z	_	1	punct	_	start_char=204|end_char=205
+
+# text = Ovaj himnal sadrži većinu pjesama koje sam naučio/la tijekom godina.
+# sent_id = 4
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=206|end_char=210
+2	himnal	himnal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=211|end_char=217
+3	sadrži	sadržati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=218|end_char=224
+4	većinu	većina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=225|end_char=231
+5	pjesama	pjesma	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=232|end_char=239
+6	koje	koji	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	8	obj	_	start_char=240|end_char=244
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=245|end_char=248
+8	naučio/la	naučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=249|end_char=258
+9	tijekom	tijekom	ADP	Sg	Case=Gen	10	case	_	start_char=259|end_char=266
+10	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	obl	_	start_char=267|end_char=273
+11	.	.	PUNCT	Z	_	3	punct	_	start_char=273|end_char=274
+
+# text = Bio je upravo ono što sam želio/la i trebao/la.
+# sent_id = 5
+1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=275|end_char=278
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=279|end_char=281
+3	upravo	upravo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=282|end_char=288
+4	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=289|end_char=292
+5	što	što	PRON	Pi3n-n	Case=Acc|Gender=Neut|PronType=Int,Rel	7	obj	_	start_char=293|end_char=296
+6	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=297|end_char=300
+7	želio/la	želit/ijeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	start_char=301|end_char=309
+8	i	i	CCONJ	Cc	_	9	cc	_	start_char=310|end_char=311
+9	trebao/la	trebaoći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	conj	_	start_char=312|end_char=321
+10	.	.	PUNCT	Z	_	4	punct	_	start_char=321|end_char=322
+
+# text = Bio je u dobrom stanju, a cijena je bila prava.
+# sent_id = 6
+1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=323|end_char=326
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=327|end_char=329
+3	u	u	ADP	Sl	Case=Loc	5	case	_	start_char=330|end_char=331
+4	dobrom	dobar	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=332|end_char=338
+5	stanju	stanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	0	root	_	start_char=339|end_char=345
+6	,	,	PUNCT	Z	_	11	punct	_	start_char=345|end_char=346
+7	a	a	CCONJ	Cc	_	11	cc	_	start_char=347|end_char=348
+8	cijena	cijena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=349|end_char=355
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=356|end_char=358
+10	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	cop	_	start_char=359|end_char=363
+11	prava	prav	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=364|end_char=369
+12	.	.	PUNCT	Z	_	5	punct	_	start_char=369|end_char=370
+
+# text = Kupio/la sam ovu knjigu preko Amazona.
+# sent_id = 7
+1	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=371|end_char=379
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=380|end_char=383
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=384|end_char=387
+4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=388|end_char=394
+5	preko	preko	ADP	Sg	Case=Gen	6	case	_	start_char=395|end_char=400
+6	Amazona	Amazon	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=401|end_char=408
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=408|end_char=409
+

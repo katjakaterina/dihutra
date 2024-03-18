@@ -1,0 +1,66 @@
+# text = Miris i boja su različiti.
+# sent_id = 0
+1	Miris	miris	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=5
+2	i	i	CCONJ	Cc	_	3	cc	_	start_char=6|end_char=7
+3	boja	boja	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=8|end_char=12
+4	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=13|end_char=15
+5	različiti	različit	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=16|end_char=25
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=25|end_char=26
+
+# text = Postoji li razlika između onog napisanog s A22 i onog s A82?
+# sent_id = 1
+1	Postoji	postojati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=29|end_char=36
+2	li	li	PART	Qq	_	1	mark	_	start_char=37|end_char=39
+3	razlika	razlika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=40|end_char=47
+4	između	između	ADP	Sg	Case=Gen	5	case	_	start_char=48|end_char=54
+5	onog	onaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	3	nmod	_	start_char=55|end_char=59
+6	napisanog	napisati	ADJ	Appmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	start_char=60|end_char=69
+7	s	sa	ADP	Si	Case=Ins	8	case	_	start_char=70|end_char=71
+8	A22	A22	PROPN	Npmsg	Case=Ins|Gender=Masc|Number=Sing	6	obl	_	start_char=72|end_char=75
+9	i	i	CCONJ	Cc	_	10	cc	_	start_char=76|end_char=77
+10	onog	onaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	conj	_	start_char=78|end_char=82
+11	s	sa	ADP	Si	Case=Ins	12	case	_	start_char=83|end_char=84
+12	A82	A82	NUM	Mdc	NumType=Card	10	nmod	_	start_char=85|end_char=88
+13	?	?	PUNCT	Z	_	1	punct	_	start_char=88|end_char=89
+
+# text = Ne znam zašto, onaj koji sam kupio ovdje bio je potpuno drugačiji u mirisu i boji u odnosu na onaj koji sam kupio u Hong Kongu.
+# sent_id = 2
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=90|end_char=92
+2	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=93|end_char=97
+3	zašto	zašto	ADV	Rgp	Degree=Pos|PronType=Int,Rel	13	advmod	_	start_char=98|end_char=103
+4	,	,	PUNCT	Z	_	5	punct	_	start_char=103|end_char=104
+5	onaj	onaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	start_char=105|end_char=109
+6	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj	_	start_char=110|end_char=114
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=115|end_char=118
+8	kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=119|end_char=124
+9	ovdje	ovdje	ADV	Rgp	Degree=Pos|PronType=Dem	8	advmod	_	start_char=125|end_char=130
+10	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	cop	_	start_char=131|end_char=134
+11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=135|end_char=137
+12	potpuno	potpuno	ADV	Rgp	Degree=Pos	13	advmod	_	start_char=138|end_char=145
+13	drugačiji	drugačiji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	ccomp	_	start_char=146|end_char=155
+14	u	u	ADP	Sl	Case=Loc	15	case	_	start_char=156|end_char=157
+15	mirisu	miris	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	13	obl	_	start_char=158|end_char=164
+16	i	i	CCONJ	Cc	_	17	cc	_	start_char=165|end_char=166
+17	boji	boja	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	15	conj	_	start_char=167|end_char=171
+18	u	u	ADP	Sl	Case=Loc	21	case	_	start_char=172|end_char=173
+19	odnosu	odnos	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	18	fixed	_	start_char=174|end_char=180
+20	na	na	ADP	Sa	Case=Acc	18	fixed	_	start_char=181|end_char=183
+21	onaj	onaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	obl	_	start_char=184|end_char=188
+22	koji	koji	DET	Pi-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int,Rel	24	obj	_	start_char=189|end_char=193
+23	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	start_char=194|end_char=197
+24	kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	acl	_	start_char=198|end_char=203
+25	u	u	ADP	Sl	Case=Loc	26	case	_	start_char=204|end_char=205
+26	Hong	Hong	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	24	obl	_	start_char=206|end_char=210
+27	Kongu	Kongo	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	26	flat	_	start_char=211|end_char=216
+28	.	.	PUNCT	Z	_	2	punct	_	start_char=216|end_char=217
+
+# text = Nisam siguran je li ovo istina.
+# sent_id = 3
+1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=218|end_char=223
+2	siguran	siguran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=224|end_char=231
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=232|end_char=234
+4	li	li	PART	Qq	_	6	discourse	_	start_char=235|end_char=237
+5	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=238|end_char=241
+6	istina	istina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	start_char=242|end_char=248
+7	.	.	PUNCT	Z	_	2	punct	_	start_char=248|end_char=249
+

@@ -1,0 +1,88 @@
+# text = Paljon HUUMAA!!
+# sent_id = 0
+1	Paljon	paljon	ADV	Adv	_	2	advmod	_	start_char=0|end_char=6
+2	HUUMAA	huumaa	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=7|end_char=13
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=13|end_char=14
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=14|end_char=15
+
+# text = Erittäin HALVASTI tehty!!!
+# sent_id = 1
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=16|end_char=24
+2	HALVASTI	halvasti	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	xcomp	_	start_char=25|end_char=33
+3	tehty	tehdä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=34|end_char=39
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=39|end_char=40
+5	!	!	PUNCT	Punct	_	3	punct	_	start_char=40|end_char=41
+6	!	!	PUNCT	Punct	_	3	punct	_	start_char=41|end_char=42
+
+# text = Meillä on tämä sama peli, mutta se tehtiin vuonna 1967.
+# sent_id = 2
+1	Meillä	minä	PRON	Pron	Case=Ade|Number=Plur|Person=1|PronType=Prs	0	root	_	start_char=43|end_char=49
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=50|end_char=52
+3	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	start_char=53|end_char=57
+4	sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	5	det	_	start_char=58|end_char=62
+5	peli	peli	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=63|end_char=67
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=67|end_char=68
+7	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=69|end_char=74
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	obj	_	start_char=75|end_char=77
+9	tehtiin	tehdä	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	conj	_	start_char=78|end_char=85
+10	vuonna	vuosi	NOUN	N	Case=Ess|Number=Sing	9	obl	_	start_char=86|end_char=92
+11	1967	1967	NUM	Num	NumType=Card	10	nummod	_	start_char=93|end_char=97
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=97|end_char=98
+
+# text = Ajattelimme, että uudempi versio olisi enemmän ajanmukainen, mutta pidämme vanhasta versiosta paljon enemmän!!
+# sent_id = 3
+1	Ajattelimme	ajatella	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=99|end_char=110
+2	,	,	PUNCT	Punct	_	8	punct	_	start_char=110|end_char=111
+3	että	että	SCONJ	C	_	8	mark	_	start_char=112|end_char=116
+4	uudempi	uusi	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	5	amod	_	start_char=117|end_char=124
+5	versio	versio	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=125|end_char=131
+6	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	cop	_	start_char=132|end_char=137
+7	enemmän	enemmän	ADV	Adv	_	8	advmod	_	start_char=138|end_char=145
+8	ajanmukainen	ajan#mukainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	1	ccomp	_	start_char=146|end_char=158
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=158|end_char=159
+10	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=160|end_char=165
+11	pidämme	pitää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=166|end_char=173
+12	vanhasta	vanha	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	13	amod	_	start_char=174|end_char=182
+13	versiosta	versio	NOUN	N	Case=Ela|Number=Sing	11	obl	_	start_char=183|end_char=192
+14	paljon	paljon	ADV	Adv	_	15	advmod	_	start_char=193|end_char=199
+15	enemmän	enemmän	ADV	Adv	_	11	advmod	_	start_char=200|end_char=207
+16	!	!	PUNCT	Punct	_	1	punct	_	start_char=207|end_char=208
+17	!	!	PUNCT	Punct	_	1	punct	_	start_char=208|end_char=209
+
+# text = Tässä versiossa laatat ovat pahvia, ja pientä telineitä, joihin laitat pelinappulasi, on myös tehty erittäin halvasta pahvista!!
+# sent_id = 4
+1	Tässä	tämä	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	2	det	_	start_char=210|end_char=215
+2	versiossa	versio	NOUN	N	Case=Ine|Number=Sing	5	obl	_	start_char=216|end_char=225
+3	laatat	laatta	NOUN	N	Case=Nom|Number=Plur	5	nsubj:cop	_	start_char=226|end_char=232
+4	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=233|end_char=237
+5	pahvia	pahvi	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=238|end_char=244
+6	,	,	PUNCT	Punct	_	17	punct	_	start_char=244|end_char=245
+7	ja	ja	CCONJ	C	_	17	cc	_	start_char=246|end_char=248
+8	pientä	pieni	ADJ	A	Case=Par|Degree=Pos|Number=Sing	9	amod	_	start_char=249|end_char=255
+9	telineitä	teline	NOUN	N	Case=Par|Number=Plur	17	obj	_	start_char=256|end_char=265
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=265|end_char=266
+11	joihin	joka	PRON	Pron	Case=Ill|Number=Plur|PronType=Rel	12	obl	_	start_char=267|end_char=273
+12	laitat	laittaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=274|end_char=280
+13	pelinappulasi	peli#nappulasi	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	12	obj	_	start_char=281|end_char=294
+14	,	,	PUNCT	Punct	_	12	punct	_	start_char=294|end_char=295
+15	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux:pass	_	start_char=296|end_char=298
+16	myös	myös	ADV	Adv	_	17	advmod	_	start_char=299|end_char=303
+17	tehty	tehdä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	conj	_	start_char=304|end_char=309
+18	erittäin	erittäin	ADV	Adv	Derivation=Ttain	19	advmod	_	start_char=310|end_char=318
+19	halvasta	halva	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	20	amod	_	start_char=319|end_char=327
+20	pahvista	pahvi	NOUN	N	Case=Ela|Number=Sing	17	obl	_	start_char=328|end_char=336
+21	!	!	PUNCT	Punct	_	5	punct	_	start_char=336|end_char=337
+22	!	!	PUNCT	Punct	_	5	punct	_	start_char=337|end_char=338
+
+# text = Juuri annoimme tämän pelin pois ja pidimme vanhan!
+# sent_id = 5
+1	Juuri	juuri	ADV	Adv	_	2	advmod	_	start_char=339|end_char=344
+2	annoimme	antaa	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=345|end_char=353
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	det	_	start_char=354|end_char=359
+4	pelin	peli	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=360|end_char=365
+5	pois	pois	ADV	Adv	_	2	advmod	_	start_char=366|end_char=370
+6	ja	ja	CCONJ	C	_	7	cc	_	start_char=371|end_char=373
+7	pidimme	pitää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=374|end_char=381
+8	vanhan	vanha	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	obj	_	start_char=382|end_char=388
+9	!	!	PUNCT	Punct	_	2	punct	_	start_char=388|end_char=389
+

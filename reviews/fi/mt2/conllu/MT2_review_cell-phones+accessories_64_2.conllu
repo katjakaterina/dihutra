@@ -1,0 +1,53 @@
+# text = Rakasti sitä aluksi Rakastin koteloa, kun sain sen ensimmäisen kerran, mutta pian sen jälkeen kotelo alkoi irrota ensin, en tiennyt mikä se oli ennen kuin katsoin kotelon takaosaa ja siitä puuttui täpliä.
+# sent_id = 0
+1	Rakasti	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=7
+2	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	4	obj	_	start_char=8|end_char=12
+3	aluksi	aluksi	ADV	Adv	_	4	advmod	_	start_char=13|end_char=19
+4	Rakastin	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=20|end_char=28
+5	koteloa	kotelo	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=29|end_char=36
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=36|end_char=37
+7	kun	kun	SCONJ	C	_	8	mark	_	start_char=38|end_char=41
+8	sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=42|end_char=46
+9	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	8	obj	_	start_char=47|end_char=50
+10	ensimmäisen	ensimmäinen	ADJ	Num	Case=Gen|Derivation=Inen|NumType=Ord|Number=Sing	11	amod	_	start_char=51|end_char=62
+11	kerran	kerran	ADV	Adv	_	8	obl	_	start_char=63|end_char=69
+12	,	,	PUNCT	Punct	_	18	punct	_	start_char=69|end_char=70
+13	mutta	mutta	CCONJ	C	_	18	cc	_	start_char=71|end_char=76
+14	pian	pian	ADV	Adv	_	18	advmod	_	start_char=77|end_char=81
+15	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	18	obl	_	start_char=82|end_char=85
+16	jälkeen	jälkeen	ADP	Adp	AdpType=Post	15	case	_	start_char=86|end_char=93
+17	kotelo	kotelo	NOUN	N	Case=Nom|Number=Sing	18	nsubj	_	start_char=94|end_char=100
+18	alkoi	alkaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=101|end_char=106
+19	irrota	irrota	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	18	xcomp	_	start_char=107|end_char=113
+20	ensin	ensin	ADV	Adv	_	19	advmod	_	start_char=114|end_char=119
+21	,	,	PUNCT	Punct	_	23	punct	_	start_char=119|end_char=120
+22	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	23	aux	_	start_char=121|end_char=123
+23	tiennyt	tietää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	18	conj	_	start_char=124|end_char=131
+24	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	23	ccomp	_	start_char=132|end_char=136
+25	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	24	nsubj:cop	_	start_char=137|end_char=139
+26	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	start_char=140|end_char=143
+27	ennen	ennen	ADV	Adv	_	28	advmod	_	start_char=144|end_char=149
+28	kuin	kuin	SCONJ	C	_	29	mark	_	start_char=150|end_char=154
+29	katsoin	katsoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	24	advcl	_	start_char=155|end_char=162
+30	kotelon	kotelo	NOUN	N	Case=Gen|Number=Sing	31	nmod:poss	_	start_char=163|end_char=170
+31	takaosaa	taka#osa	NOUN	N	Case=Par|Number=Sing	29	obj	_	start_char=171|end_char=179
+32	ja	ja	CCONJ	C	_	34	cc	_	start_char=180|end_char=182
+33	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	34	obl	_	start_char=183|end_char=188
+34	puuttui	puuttua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	29	conj	_	start_char=189|end_char=196
+35	täpliä	täpli	NOUN	N	Case=Par|Number=Plur	34	nsubj	_	start_char=197|end_char=203
+36	.	.	PUNCT	Punct	_	1	punct	_	start_char=203|end_char=204
+
+# text = Arvaa joskus hyvä kauppa ei todellakaan ole hyvä.en ostaisi.
+# sent_id = 1
+1	Arvaa	arvata	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=205|end_char=210
+2	joskus	joskus	ADV	Adv	_	1	advmod	_	start_char=211|end_char=217
+3	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=218|end_char=222
+4	kauppa	kauppa	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=223|end_char=229
+5	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=230|end_char=232
+6	todellakaan	todella	ADV	Adv	Clitic=Kaan	8	advmod	_	start_char=233|end_char=244
+7	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=245|end_char=248
+8	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	ccomp	_	start_char=249|end_char=253
+9	.en	.e	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=253|end_char=256
+10	ostaisi	ostaa	VERB	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	8	conj	_	start_char=257|end_char=264
+11	.	.	PUNCT	Punct	_	1	punct	_	start_char=264|end_char=265
+

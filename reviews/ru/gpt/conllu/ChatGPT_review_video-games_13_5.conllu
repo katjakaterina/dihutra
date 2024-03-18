@@ -1,0 +1,87 @@
+# text = УДИВИТЕЛЬНАЯ КОМПАНИЯ Такая быстрая доставка, игры в отличном состоянии, она даже включила два бонуса, так мило с её стороны.
+# sent_id = 0
+1	УДИВИТЕЛЬНАЯ	удивительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=0|end_char=12
+2	КОМПАНИЯ	компаний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=13|end_char=21
+3	Такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=22|end_char=27
+4	быстрая	быстрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=28|end_char=35
+5	доставка	доставка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=36|end_char=44
+6	,	,	PUNCT	_	_	7	punct	_	start_char=44|end_char=45
+7	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	start_char=46|end_char=50
+8	в	в	ADP	_	_	10	case	_	start_char=51|end_char=52
+9	отличном	отличный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=53|end_char=61
+10	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	conj	_	start_char=62|end_char=71
+11	,	,	PUNCT	_	_	14	punct	_	start_char=71|end_char=72
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=73|end_char=76
+13	даже	даже	PART	_	_	14	advmod	_	start_char=77|end_char=81
+14	включила	включить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=82|end_char=90
+15	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	16	nummod	_	start_char=91|end_char=94
+16	бонуса	бонус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=95|end_char=101
+17	,	,	PUNCT	_	_	19	punct	_	start_char=101|end_char=102
+18	так	так	ADV	_	Degree=Pos	19	advmod	_	start_char=103|end_char=106
+19	мило	милый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	conj	_	start_char=107|end_char=111
+20	с	с	ADP	_	_	22	case	_	start_char=112|end_char=113
+21	её	ее	DET	_	Poss=Yes|PronType=Prs	22	det	_	start_char=114|end_char=116
+22	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	start_char=117|end_char=124
+23	.	.	PUNCT	_	_	5	punct	_	start_char=124|end_char=125
+
+# text = Теперь мне просто нужно запустить мой старый Windows 2000, чтобы поиграть, и я буду счастлив, как щенок с жевательной игрушкой :) Я рекомендую всем покупать у этой компании.
+# sent_id = 1
+1	Теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	start_char=126|end_char=132
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	start_char=133|end_char=136
+3	просто	просто	PART	_	_	4	advmod	_	start_char=137|end_char=143
+4	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=144|end_char=149
+5	запустить	запустить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	start_char=150|end_char=159
+6	мой	мой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	start_char=160|end_char=163
+7	старый	старый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=164|end_char=170
+8	Windows	Windows	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=171|end_char=178
+9	2000	2000	NUM	_	NumType=Card	8	appos	_	start_char=179|end_char=183
+10	,	,	PUNCT	_	_	12	punct	_	start_char=183|end_char=184
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	start_char=185|end_char=190
+12	поиграть	поиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=191|end_char=199
+13	,	,	PUNCT	_	_	17	punct	_	start_char=199|end_char=200
+14	и	и	CCONJ	_	_	17	cc	_	start_char=201|end_char=202
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	start_char=203|end_char=204
+16	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	start_char=205|end_char=209
+17	счастлив	счастливый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	start_char=210|end_char=218
+18	,	,	PUNCT	_	_	20	punct	_	start_char=218|end_char=219
+19	как	как	SCONJ	_	_	20	mark	_	start_char=220|end_char=223
+20	щенок	щенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	obl	_	start_char=224|end_char=229
+21	с	с	ADP	_	_	23	case	_	start_char=230|end_char=231
+22	жевательной	жевательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=232|end_char=243
+23	игрушкой	игрушка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	nmod	_	start_char=244|end_char=252
+24	:	:	PUNCT	_	_	23	punct	_	start_char=253|end_char=254
+25	)	)	PUNCT	_	_	27	punct	_	start_char=254|end_char=255
+26	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	start_char=256|end_char=257
+27	рекомендую	рекоменуть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=258|end_char=268
+28	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur|PronType=Tot	29	iobj	_	start_char=269|end_char=273
+29	покупать	покупать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	xcomp	_	start_char=274|end_char=282
+30	у	у	ADP	_	_	32	case	_	start_char=283|end_char=284
+31	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	32	det	_	start_char=285|end_char=289
+32	компании	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	obl	_	start_char=290|end_char=298
+33	.	.	PUNCT	_	_	4	punct	_	start_char=298|end_char=299
+
+# text = Они такие милые, прилагают маленькие послания и делают мой день намного лучше, показывая, насколько этот человек/компания замечательны.
+# sent_id = 2
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=300|end_char=303
+2	такие	такой	DET	_	Case=Nom|Number=Plur|PronType=Dem	3	det	_	start_char=304|end_char=309
+3	милые	милый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=310|end_char=315
+4	,	,	PUNCT	_	_	5	punct	_	start_char=315|end_char=316
+5	прилагают	прилагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=317|end_char=326
+6	маленькие	маленький	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	start_char=327|end_char=336
+7	послания	послание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	start_char=337|end_char=345
+8	и	и	CCONJ	_	_	9	cc	_	start_char=346|end_char=347
+9	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=348|end_char=354
+10	мой	мой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=355|end_char=358
+11	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=359|end_char=363
+12	намного	намного	ADV	_	Degree=Pos	13	advmod	_	start_char=364|end_char=371
+13	лучше	хорошо	ADV	_	Degree=Cmp	9	advmod	_	start_char=372|end_char=377
+14	,	,	PUNCT	_	_	15	punct	_	start_char=377|end_char=378
+15	показывая	показывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	start_char=379|end_char=388
+16	,	,	PUNCT	_	_	21	punct	_	start_char=388|end_char=389
+17	насколько	насколько	ADV	_	Degree=Pos	21	obl	_	start_char=390|end_char=399
+18	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	start_char=400|end_char=404
+19	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	start_char=405|end_char=412
+20	/компания	/компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	appos	_	start_char=412|end_char=421
+21	замечательны	замечательный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	15	obl	_	start_char=422|end_char=434
+22	.	.	PUNCT	_	_	3	punct	_	start_char=434|end_char=435
+

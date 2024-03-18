@@ -1,0 +1,72 @@
+# text = Obavezni priručnik za sve vlasnike mačaka
+# sent_id = 0
+1	Obavezni	obavezni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	priručnik	priručnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=9|end_char=18
+3	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=19|end_char=21
+4	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	start_char=22|end_char=25
+5	vlasnike	vlasnik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	start_char=26|end_char=34
+6	mačaka	mačak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	start_char=35|end_char=41
+
+# text = Ako ste vlasnik mačke ili tražite poklon za ljubitelja mačaka, ovo je knjiga za vas!
+# sent_id = 1
+1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=42|end_char=45
+2	ste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=46|end_char=49
+3	vlasnik	vlasnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	advcl	_	start_char=50|end_char=57
+4	mačke	mačka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=58|end_char=63
+5	ili	ili	CCONJ	Cc	_	6	cc	_	start_char=64|end_char=67
+6	tražite	tražiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	3	conj	_	start_char=68|end_char=75
+7	poklon	poklon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=76|end_char=82
+8	za	za	ADP	Sa	Case=Acc	9	case	_	start_char=83|end_char=85
+9	ljubitelja	ljubitelj	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	start_char=86|end_char=96
+10	mačaka	mačak	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=97|end_char=103
+11	,	,	PUNCT	Z	_	3	punct	_	start_char=103|end_char=104
+12	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=105|end_char=108
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=109|end_char=111
+14	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=112|end_char=118
+15	za	za	ADP	Sa	Case=Acc	16	case	_	start_char=119|end_char=121
+16	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	14	nmod	_	start_char=122|end_char=125
+17	!	!	PUNCT	Z	_	14	punct	_	start_char=125|end_char=126
+
+# text = Ovo je prilika da dokumentirate sve važne trenutke u životu mačke, a pri tome ilustracije i priča čine to izuzetno zabavnim!
+# sent_id = 2
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=127|end_char=130
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=131|end_char=133
+3	prilika	prilika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=134|end_char=141
+4	da	da	SCONJ	Cs	_	5	mark	_	start_char=142|end_char=144
+5	dokumentirate	dokumentirati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=145|end_char=158
+6	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=159|end_char=162
+7	važne	važan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	start_char=163|end_char=168
+8	trenutke	trenutak	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=169|end_char=177
+9	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=178|end_char=179
+10	životu	život	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=180|end_char=186
+11	mačke	mačka	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=187|end_char=192
+12	,	,	PUNCT	Z	_	19	punct	_	start_char=192|end_char=193
+13	a	a	CCONJ	Cc	_	19	cc	_	start_char=194|end_char=195
+14	pri	pri	ADP	Sl	Case=Loc	15	case	_	start_char=196|end_char=199
+15	tome	taj	DET	Pd-nsl	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	start_char=200|end_char=204
+16	ilustracije	ilustracija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	start_char=205|end_char=216
+17	i	i	CCONJ	Cc	_	18	cc	_	start_char=217|end_char=218
+18	priča	priča	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	16	conj	_	start_char=219|end_char=224
+19	čine	činiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=225|end_char=229
+20	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	19	obj	_	start_char=230|end_char=232
+21	izuzetno	izuzetno	ADV	Rgp	Degree=Pos	22	advmod	_	start_char=233|end_char=241
+22	zabavnim	zabavan	ADJ	Agpmsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	19	xcomp	_	start_char=242|end_char=250
+23	!	!	PUNCT	Z	_	3	punct	_	start_char=250|end_char=251
+
+# text = Dakle, ako imate mačku?
+# sent_id = 3
+1	Dakle	dakle	CCONJ	Cc	_	4	cc	_	start_char=252|end_char=257
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=257|end_char=258
+3	ako	ako	SCONJ	Cs	_	4	mark	_	start_char=259|end_char=262
+4	imate	imati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=263|end_char=268
+5	mačku	mačka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=269|end_char=274
+6	?	?	PUNCT	Z	_	4	punct	_	start_char=274|end_char=275
+
+# text = Morate imati ovu knjigu!
+# sent_id = 4
+1	Morate	morati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=276|end_char=282
+2	imati	imati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=283|end_char=288
+3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=289|end_char=292
+4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=293|end_char=299
+5	!	!	PUNCT	Z	_	1	punct	_	start_char=299|end_char=300
+

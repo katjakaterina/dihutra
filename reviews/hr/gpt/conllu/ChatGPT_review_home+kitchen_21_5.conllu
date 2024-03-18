@@ -1,0 +1,88 @@
+# text = Čokoladna maslaca torta Samo sam pomnožio recept za čokoladnu maslaca tortu sa pet kako bih dobio 30 porcija, i ispalo je SAVRŠENO!!
+# sent_id = 0
+1	Čokoladna	čokoladan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=9
+2	maslaca	maslaca	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	start_char=10|end_char=17
+3	torta	torta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=18|end_char=23
+4	Samo	samo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=24|end_char=28
+5	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=29|end_char=32
+6	pomnožio	pomnožiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=33|end_char=41
+7	recept	recept	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=42|end_char=48
+8	za	za	ADP	Sa	Case=Acc	10	case	_	start_char=49|end_char=51
+9	čokoladnu	čokoladan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=52|end_char=61
+10	maslaca	maslaca	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=62|end_char=69
+11	tortu	torta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	start_char=70|end_char=75
+12	sa	sa	ADP	Si	Case=Ins	13	case	_	start_char=76|end_char=78
+13	pet	pet	NUM	Mlc	NumType=Card	10	nmod	_	start_char=79|end_char=82
+14	kako	kako	SCONJ	Cs	_	16	mark	_	start_char=83|end_char=87
+15	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	aux	_	start_char=88|end_char=91
+16	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	advcl	_	start_char=92|end_char=97
+17	30	30	NUM	Mdc	NumType=Card	18	nummod:gov	_	start_char=98|end_char=100
+18	porcija	porcija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obj	_	start_char=101|end_char=108
+19	,	,	PUNCT	Z	_	21	punct	_	start_char=108|end_char=109
+20	i	i	CCONJ	Cc	_	21	cc	_	start_char=110|end_char=111
+21	ispalo	ispati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	start_char=112|end_char=118
+22	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	start_char=119|end_char=121
+23	SAVRŠENO	savrajan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	21	xcomp	_	start_char=122|end_char=130
+24	!	!	PUNCT	Z	_	6	punct	_	start_char=130|end_char=131
+25	!	!	PUNCT	Z	_	6	punct	_	start_char=131|end_char=132
+
+# text = U prošlosti sam previše vremena trošio bacajući smjesu ili torte jer su bile odvratnog okusa, ali ova je bila apsolutno najbolja torta koju sam ikad probao.
+# sent_id = 1
+1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=133|end_char=134
+2	prošlosti	prošlost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=135|end_char=144
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=145|end_char=148
+4	previše	previše	DET	Rgp	Degree=Pos	5	det:numgov	_	start_char=149|end_char=156
+5	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	6	nsubj	_	start_char=157|end_char=164
+6	trošio	trošiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=165|end_char=171
+7	bacajući	bacati	ADV	Rr	Tense=Pres|VerbForm=Conv	6	xcomp	_	start_char=172|end_char=180
+8	smjesu	smjes	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=181|end_char=187
+9	ili	ili	CCONJ	Cc	_	10	cc	_	start_char=188|end_char=191
+10	torte	torta	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	start_char=192|end_char=197
+11	jer	jer	SCONJ	Cs	_	13	mark	_	start_char=198|end_char=201
+12	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=202|end_char=204
+13	bile	biti	AUX	Vap-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	6	advcl	_	start_char=205|end_char=209
+14	odvratnog	odvratan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=210|end_char=219
+15	okusa	okus	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	obj	_	start_char=220|end_char=225
+16	,	,	PUNCT	Z	_	23	punct	_	start_char=225|end_char=226
+17	ali	ali	CCONJ	Cc	_	23	cc	_	start_char=227|end_char=230
+18	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	23	nsubj	_	start_char=231|end_char=234
+19	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	start_char=235|end_char=237
+20	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	cop	_	start_char=238|end_char=242
+21	apsolutno	apsolutno	ADV	Rgp	Degree=Pos	22	advmod	_	start_char=243|end_char=252
+22	najbolja	dobar	ADJ	Agsfsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	23	amod	_	start_char=253|end_char=261
+23	torta	torta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	start_char=262|end_char=267
+24	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	27	obj	_	start_char=268|end_char=272
+25	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	start_char=273|end_char=276
+26	ikad	ikad	ADV	Rgp	Degree=Pos|PronType=Ind	27	advmod	_	start_char=277|end_char=281
+27	probao	probati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	acl	_	start_char=282|end_char=288
+28	.	.	PUNCT	Z	_	6	punct	_	start_char=288|end_char=289
+
+# text = Smjesa ima okus čokoladnog pudinga, a torta se doslovno topi u ustima.
+# sent_id = 2
+1	Smjesa	smjes	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=290|end_char=296
+2	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=297|end_char=300
+3	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=301|end_char=305
+4	čokoladnog	čokoladan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=306|end_char=316
+5	pudinga	puding	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=317|end_char=324
+6	,	,	PUNCT	Z	_	11	punct	_	start_char=324|end_char=325
+7	a	a	CCONJ	Cc	_	11	cc	_	start_char=326|end_char=327
+8	torta	torta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=328|end_char=333
+9	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	11	expl	_	start_char=334|end_char=336
+10	doslovno	doslovno	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=337|end_char=345
+11	topi	topiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=346|end_char=350
+12	u	u	ADP	Sl	Case=Loc	13	case	_	start_char=351|end_char=352
+13	ustima	usti	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	11	obl	_	start_char=353|end_char=359
+14	.	.	PUNCT	Z	_	2	punct	_	start_char=359|end_char=360
+
+# text = Definitivno ću isprobati i sve druge recepte :)
+# sent_id = 3
+1	Definitivno	definitivno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=361|end_char=372
+2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=373|end_char=375
+3	isprobati	isprobati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=376|end_char=385
+4	i	i	CCONJ	Cc	_	7	discourse	_	start_char=386|end_char=387
+5	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=388|end_char=391
+6	druge	drugi	ADJ	Mlompa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=392|end_char=397
+7	recepte	recept	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=398|end_char=405
+8	:	:	PUNCT	Z	_	3	punct	_	start_char=406|end_char=407
+9	)	)	PUNCT	Z	_	7	punct	_	start_char=407|end_char=408
+

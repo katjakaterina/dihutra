@@ -1,0 +1,64 @@
+# text = Yksi suosikki jouluelokuvistani!
+# sent_id = 0
+1	Yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	2	nummod	_	start_char=0|end_char=4
+2	suosikki	suosikki	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=5|end_char=13
+3	jouluelokuvistani	joulu#elo#kuva	NOUN	N	Case=Ela|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	nmod	_	start_char=14|end_char=31
+4	!	!	PUNCT	Punct	_	2	punct	_	start_char=31|end_char=32
+
+# text = Jätä huomioimatta joitain negatiivisempia arvosteluja täällä.
+# sent_id = 1
+1	Jätä	jäättää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=33|end_char=37
+2	huomioimatta	huomioima	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=38|end_char=50
+3	joitain	jokin	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	5	det	_	start_char=51|end_char=58
+4	negatiivisempia	negatiivinen	ADJ	A	Case=Par|Degree=Cmp|Derivation=Inen|Number=Plur	5	amod	_	start_char=59|end_char=74
+5	arvosteluja	arvostelu	NOUN	N	Case=Par|Number=Plur	2	obj	_	start_char=75|end_char=86
+6	täällä	täällä	ADV	Adv	_	2	advmod	_	start_char=87|end_char=93
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=93|end_char=94
+
+# text = Tämä tv-elokuva koskettaa minua todella joka kerta, kun katson sen; joka on joka joulu.
+# sent_id = 2
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=95|end_char=99
+2	tv-elokuva	tv#elo#kuva	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=100|end_char=110
+3	koskettaa	koskettaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=111|end_char=120
+4	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=121|end_char=126
+5	todella	todella	ADV	Adv	_	6	advmod	_	start_char=127|end_char=134
+6	joka	joka	PRON	Pron	Case=Nom|Number=Sing	7	det	_	start_char=135|end_char=139
+7	kerta	kerta	NOUN	N	Case=Nom|Number=Sing	3	obl	_	start_char=140|end_char=145
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=145|end_char=146
+9	kun	kun	SCONJ	C	_	10	mark	_	start_char=147|end_char=150
+10	katson	katsoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=151|end_char=157
+11	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	obj	_	start_char=158|end_char=161
+12	;	;	PUNCT	Punct	_	16	punct	_	start_char=161|end_char=162
+13	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	16	nsubj:cop	_	start_char=163|end_char=167
+14	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	start_char=168|end_char=170
+15	joka	joka	PRON	Pron	Case=Nom|Number=Sing	16	det	_	start_char=171|end_char=175
+16	joulu	joulu	NOUN	N	Case=Nom|Number=Sing	11	acl:relcl	_	start_char=176|end_char=181
+17	.	.	PUNCT	Punct	_	3	punct	_	start_char=181|end_char=182
+
+# text = Näyttelijätyö on upeaa ja tarina on hyvin kirjoitettu.
+# sent_id = 3
+1	Näyttelijätyö	näyttelijä#työ	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=183|end_char=196
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=197|end_char=199
+3	upeaa	upea	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=200|end_char=205
+4	ja	ja	CCONJ	C	_	8	cc	_	start_char=206|end_char=208
+5	tarina	tarina	NOUN	N	Case=Nom|Number=Sing	8	obj	_	start_char=209|end_char=215
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux:pass	_	start_char=216|end_char=218
+7	hyvin	hyvin	ADV	Adv	_	8	advmod	_	start_char=219|end_char=224
+8	kirjoitettu	kirjoittaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	conj	_	start_char=225|end_char=236
+9	.	.	PUNCT	Punct	_	3	punct	_	start_char=236|end_char=237
+
+# text = Se sopii koko perheelle ja antaa hyvän kuvan maamme masennuksen aikakaudesta.
+# sent_id = 4
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	start_char=238|end_char=240
+2	sopii	sopia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=241|end_char=246
+3	koko	koko	ADJ	A	_	4	amod	_	start_char=247|end_char=251
+4	perheelle	perhe	NOUN	N	Case=All|Number=Sing	2	obl	_	start_char=252|end_char=261
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=262|end_char=264
+6	antaa	antaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=265|end_char=270
+7	hyvän	hyvä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	_	start_char=271|end_char=276
+8	kuvan	kuva	NOUN	N	Case=Gen|Number=Sing	6	obj	_	start_char=277|end_char=282
+9	maamme	maa	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	10	nmod:poss	_	start_char=283|end_char=289
+10	masennuksen	masennus	NOUN	N	Case=Gen|Number=Sing	11	nmod:poss	_	start_char=290|end_char=301
+11	aikakaudesta	aika#kausi	NOUN	N	Case=Ela|Number=Sing	8	nmod	_	start_char=302|end_char=314
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=314|end_char=315
+

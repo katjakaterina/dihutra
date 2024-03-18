@@ -1,0 +1,103 @@
+# text = Книга в ужасном состоянии при получении НЕ ПОКУПАЙТЕ ЭТУ КНИГУ НА Amazon.com LLC.
+# sent_id = 0
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=5
+2	в	в	ADP	_	_	4	case	_	start_char=6|end_char=7
+3	ужасном	ужасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=8|end_char=15
+4	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	start_char=16|end_char=25
+5	при	при	ADP	_	_	6	case	_	start_char=26|end_char=29
+6	получении	получение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	start_char=30|end_char=39
+7	НЕ	не	PART	_	_	8	advmod	_	start_char=40|end_char=42
+8	ПОКУПАЙТЕ	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=43|end_char=52
+9	ЭТУ	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	start_char=53|end_char=56
+10	КНИГУ	КНИГУ	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=57|end_char=62
+11	НА	на	ADP	_	_	10	case	_	start_char=63|end_char=65
+12	Amazon.com	Amazon.com	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=66|end_char=76
+13	LLC	LLC	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=77|end_char=80
+14	.	.	PUNCT	_	_	8	punct	_	start_char=80|end_char=81
+
+# text = Я заказал эту книгу ранее на этой неделе с помощью Amazon Prime в качестве подарка прощания.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=82|end_char=83
+2	заказал	заказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=84|end_char=91
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=92|end_char=95
+4	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=96|end_char=101
+5	ранее	ранее	ADV	_	Degree=Pos	2	advmod	_	start_char=102|end_char=107
+6	на	на	ADP	_	_	8	case	_	start_char=108|end_char=110
+7	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=111|end_char=115
+8	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=116|end_char=122
+9	с	с	ADP	_	_	11	case	_	start_char=123|end_char=124
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	fixed	_	start_char=125|end_char=132
+11	Amazon	Amazon	PROPN	_	Foreign=Yes	2	obl	_	start_char=133|end_char=139
+12	Prime	Prime	PROPN	_	Foreign=Yes	11	flat:foreign	_	start_char=140|end_char=145
+13	в	в	ADP	_	_	15	case	_	start_char=146|end_char=147
+14	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	fixed	_	start_char=148|end_char=156
+15	подарка	подарок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=157|end_char=164
+16	прощания	прощание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	start_char=165|end_char=173
+17	.	.	PUNCT	_	_	2	punct	_	start_char=173|end_char=174
+
+# text = Сегодня я получил книгу.
+# sent_id = 2
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	start_char=175|end_char=182
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=183|end_char=184
+3	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=185|end_char=192
+4	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=193|end_char=198
+5	.	.	PUNCT	_	_	3	punct	_	start_char=198|end_char=199
+
+# text = Вечеринка состоится завтра.
+# sent_id = 3
+1	Вечеринка	вечеринка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=200|end_char=209
+2	состоится	состояться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	start_char=210|end_char=219
+3	завтра	завтра	ADV	_	Degree=Pos	2	advmod	_	start_char=220|end_char=226
+4	.	.	PUNCT	_	_	2	punct	_	start_char=226|end_char=227
+
+# text = Половина обложки книги кажется обрезанной ножом Exacto, оставив на ней порезы.
+# sent_id = 4
+1	Половина	половина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=228|end_char=236
+2	обложки	обложка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=237|end_char=244
+3	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=245|end_char=250
+4	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=251|end_char=258
+5	обрезанной	обрезать	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	start_char=259|end_char=269
+6	ножом	нож	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	start_char=270|end_char=275
+7	Exacto	Exacto	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=276|end_char=282
+8	,	,	PUNCT	_	_	9	punct	_	start_char=282|end_char=283
+9	оставив	оставить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	4	advcl	_	start_char=284|end_char=291
+10	на	на	ADP	_	_	11	case	_	start_char=292|end_char=294
+11	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	start_char=295|end_char=298
+12	порезы	пореза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=299|end_char=305
+13	.	.	PUNCT	_	_	4	punct	_	start_char=305|end_char=306
+
+# text = Упаковка была в порядке.
+# sent_id = 5
+1	Упаковка	упаковка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=307|end_char=315
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=316|end_char=320
+3	в	в	ADP	_	_	4	case	_	start_char=321|end_char=322
+4	порядке	порядок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=323|end_char=330
+5	.	.	PUNCT	_	_	4	punct	_	start_char=330|end_char=331
+
+# text = Я мог бы вернуть ее, но она не вернется до завтра.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=332|end_char=333
+2	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=334|end_char=337
+3	бы	бы	AUX	_	_	2	aux	_	start_char=338|end_char=340
+4	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=341|end_char=348
+5	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=349|end_char=351
+6	,	,	PUNCT	_	_	10	punct	_	start_char=351|end_char=352
+7	но	но	CCONJ	_	_	10	cc	_	start_char=353|end_char=355
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	start_char=356|end_char=359
+9	не	не	PART	_	_	10	advmod	_	start_char=360|end_char=362
+10	вернется	вернуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=363|end_char=371
+11	до	до	ADP	_	_	12	case	_	start_char=372|end_char=374
+12	завтра	завтра	ADV	_	Degree=Pos	10	advmod	_	start_char=375|end_char=381
+13	.	.	PUNCT	_	_	2	punct	_	start_char=381|end_char=382
+
+# text = Потратьте дополнительные деньги и используйте другого продавца.
+# sent_id = 7
+1	Потратьте	тратить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=383|end_char=392
+2	дополнительные	дополнительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	start_char=393|end_char=407
+3	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=408|end_char=414
+4	и	и	CCONJ	_	_	5	cc	_	start_char=415|end_char=416
+5	используйте	использовать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	start_char=417|end_char=428
+6	другого	другой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=429|end_char=436
+7	продавца	продавец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=437|end_char=445
+8	.	.	PUNCT	_	_	1	punct	_	start_char=445|end_char=446
+

@@ -1,0 +1,74 @@
+# text = Najgori božićni specijal ikad!
+# sent_id = 0
+1	Najgori	dobar	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=7
+2	božićni	božićni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=8|end_char=15
+3	specijal	specijal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=16|end_char=24
+4	ikad	ikad	ADV	Rgp	Degree=Pos|PronType=Neg	3	advmod	_	start_char=25|end_char=29
+5	!	!	PUNCT	Z	_	3	punct	_	start_char=29|end_char=30
+
+# text = Ovo je tako dosadno!
+# sent_id = 1
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=31|end_char=34
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=35|end_char=37
+3	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	4	advmod	_	start_char=38|end_char=42
+4	dosadno	dosadan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=43|end_char=50
+5	!	!	PUNCT	Z	_	4	punct	_	start_char=50|end_char=51
+
+# text = Pjesme su užasne!
+# sent_id = 2
+1	Pjesme	pjesma	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=52|end_char=58
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=59|end_char=61
+3	užasne	užasan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=62|end_char=68
+4	!	!	PUNCT	Z	_	3	punct	_	start_char=68|end_char=69
+
+# text = Zlikovac je kopija gospodina Burnsa iz Simpsona, dok djeca izgledaju kao da su pozajmljena iz Charlie Browna.
+# sent_id = 3
+1	Zlikovac	zlikovac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=70|end_char=78
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=79|end_char=81
+3	kopija	kopija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=82|end_char=88
+4	gospodina	gospodin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	start_char=89|end_char=98
+5	Burnsa	Burna	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	flat	_	start_char=99|end_char=105
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	start_char=106|end_char=108
+7	Simpsona	Simpson	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=109|end_char=117
+8	,	,	PUNCT	Z	_	11	punct	_	start_char=117|end_char=118
+9	dok	dok	SCONJ	Cs	_	11	cc	_	start_char=119|end_char=122
+10	djeca	dijete	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	start_char=123|end_char=128
+11	izgledaju	izgledati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=129|end_char=138
+12	kao	kao	SCONJ	Cs	_	15	mark	_	start_char=139|end_char=142
+13	da	da	SCONJ	Cs	_	12	fixed	_	start_char=143|end_char=145
+14	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=146|end_char=148
+15	pozajmljena	pozajmljen	ADJ	Appnpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Pass	11	advcl	_	start_char=149|end_char=160
+16	iz	iz	ADP	Sg	Case=Gen	17	case	_	start_char=161|end_char=163
+17	Charlie	Charlie	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	start_char=164|end_char=171
+18	Browna	Brown	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	17	flat	_	start_char=172|end_char=178
+19	.	.	PUNCT	Z	_	3	punct	_	start_char=178|end_char=179
+
+# text = No, najveći minus je politički korektna tirada!
+# sent_id = 4
+1	No	no	CCONJ	Cc	_	8	cc	_	start_char=180|end_char=182
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=182|end_char=183
+3	najveći	velik	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	start_char=184|end_char=191
+4	minus	minus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=192|end_char=197
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=198|end_char=200
+6	politički	politički	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=201|end_char=210
+7	korektna	korektan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=211|end_char=219
+8	tirada	tirad	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=220|end_char=226
+9	!	!	PUNCT	Z	_	8	punct	_	start_char=226|end_char=227
+
+# text = Šteta što CBS inzistira na prikazivanju ovog neposredno nakon klasika iz 1969. godine.
+# sent_id = 5
+1	Šteta	šteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=228|end_char=233
+2	što	što	SCONJ	Cs	_	4	mark	_	start_char=234|end_char=237
+3	CBS	CBS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=238|end_char=241
+4	inzistira	inzistirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=242|end_char=251
+5	na	na	ADP	Sl	Case=Loc	6	case	_	start_char=252|end_char=254
+6	prikazivanju	prikazivanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=255|end_char=267
+7	ovog	ovaj	DET	Pd-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=268|end_char=272
+8	neposredno	neposredno	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=273|end_char=283
+9	nakon	nakon	ADP	Sg	Case=Gen	10	case	_	start_char=284|end_char=289
+10	klasika	klasika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	start_char=290|end_char=297
+11	iz	iz	ADP	Sg	Case=Gen	13	case	_	start_char=298|end_char=300
+12	1969.	1969.	ADJ	Mdo	NumType=Ord	13	amod	_	start_char=301|end_char=306
+13	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=307|end_char=313
+14	.	.	PUNCT	Z	_	1	punct	_	start_char=313|end_char=314
+

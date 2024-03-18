@@ -1,0 +1,58 @@
+# text = Mahtava peli!
+# sent_id = 0
+1	Mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	peli	peli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=8|end_char=12
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=12|end_char=13
+
+# text = Seitsenvuotiaani on pitänyt paljon hauskaa tämän pelin parissa samalla kun oppii matematiikkaa!
+# sent_id = 1
+1	Seitsenvuotiaani	seitsen#vuoti	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	start_char=14|end_char=30
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=31|end_char=33
+3	pitänyt	pitää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=34|end_char=41
+4	paljon	paljon	ADV	Adv	_	5	advmod	_	start_char=42|end_char=48
+5	hauskaa	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Sing	3	obj	_	start_char=49|end_char=56
+6	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	7	det	_	start_char=57|end_char=62
+7	pelin	peli	NOUN	N	Case=Gen|Number=Sing	3	obl	_	start_char=63|end_char=68
+8	parissa	parissa	ADP	Adp	AdpType=Post	7	case	_	start_char=69|end_char=76
+9	samalla	samalla	ADV	Adv	_	10	advmod	_	start_char=77|end_char=84
+10	kun	kun	SCONJ	C	_	11	mark	_	start_char=85|end_char=88
+11	oppii	oppia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=89|end_char=94
+12	matematiikkaa	matematiikka	NOUN	N	Case=Par|Number=Sing	11	obj	_	start_char=95|end_char=108
+13	!	!	PUNCT	Punct	_	3	punct	_	start_char=108|end_char=109
+
+# text = Ostin sen hänelle, kun hän oli päiväkodissa, ja hän rakastaa yhä pelata sitä.
+# sent_id = 2
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=110|end_char=115
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=116|end_char=119
+3	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	1	obl	_	start_char=120|end_char=127
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=127|end_char=128
+5	kun	kun	SCONJ	C	_	8	mark	_	start_char=129|end_char=132
+6	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj:cop	_	start_char=133|end_char=136
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	start_char=137|end_char=140
+8	päiväkodissa	päivä#koti	NOUN	N	Case=Ine|Number=Sing	1	advcl	_	start_char=141|end_char=153
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=153|end_char=154
+10	ja	ja	CCONJ	C	_	12	cc	_	start_char=155|end_char=157
+11	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	start_char=158|end_char=161
+12	rakastaa	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=162|end_char=170
+13	yhä	yhä	ADV	Adv	_	12	advmod	_	start_char=171|end_char=174
+14	pelata	pelata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=175|end_char=181
+15	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	14	obj	_	start_char=182|end_char=186
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=186|end_char=187
+
+# text = Ei ongelmia tämän pelin melun kanssa - ei meluisampi kuin mikään muu tietokonepeli.
+# sent_id = 3
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=188|end_char=190
+2	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	0	root	_	start_char=191|end_char=199
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	det	_	start_char=200|end_char=205
+4	pelin	peli	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=206|end_char=211
+5	melun	melu	NOUN	N	Case=Gen|Derivation=U|Number=Sing	2	nmod	_	start_char=212|end_char=217
+6	kanssa	kanssa	ADP	Adp	AdpType=Post	5	case	_	start_char=218|end_char=224
+7	-	-	PUNCT	Punct	_	9	punct	_	start_char=225|end_char=226
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=227|end_char=229
+9	meluisampi	meluisa	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	2	conj	_	start_char=230|end_char=240
+10	kuin	kuin	SCONJ	C	_	13	mark	_	start_char=241|end_char=245
+11	mikään	mikään	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	det	_	start_char=246|end_char=252
+12	muu	muu	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	det	_	start_char=253|end_char=256
+13	tietokonepeli	tieto#kone#peli	NOUN	N	Case=Nom|Number=Sing	9	advcl	_	start_char=257|end_char=270
+14	.	.	PUNCT	Punct	_	2	punct	_	start_char=270|end_char=271
+

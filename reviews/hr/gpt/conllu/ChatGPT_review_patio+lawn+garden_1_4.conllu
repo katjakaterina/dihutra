@@ -1,0 +1,108 @@
+# text = Odlične cijevi Dobra američka tvrtka koja stoji iza svojih proizvoda.
+# sent_id = 0
+1	Odlične	odličan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=0|end_char=7
+2	cijevi	cijev	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=8|end_char=14
+3	Dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=15|end_char=20
+4	američka	američki	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=21|end_char=29
+5	tvrtka	tvrtka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=30|end_char=36
+6	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	7	nsubj	_	start_char=37|end_char=41
+7	stoji	stajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	start_char=42|end_char=47
+8	iza	iza	ADP	Sg	Case=Gen	10	case	_	start_char=48|end_char=51
+9	svojih	svoj	DET	Px-mpg	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	start_char=52|end_char=58
+10	proizvoda	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	7	obl	_	start_char=59|end_char=68
+11	.	.	PUNCT	Z	_	5	punct	_	start_char=68|end_char=69
+
+# text = Morao sam iskoristiti jamstvo za dvije cijevi i odmah su mi poslali zamjene.
+# sent_id = 1
+1	Morao	morati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=70|end_char=75
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=76|end_char=79
+3	iskoristiti	iskoristiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=80|end_char=91
+4	jamstvo	jamstvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=92|end_char=99
+5	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=100|end_char=102
+6	dvije	dva	NUM	Mlcf-a	Case=Acc|Gender=Fem|NumType=Card|Number=Plur	7	nummod	_	start_char=103|end_char=108
+7	cijevi	cijev	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	nmod	_	start_char=109|end_char=115
+8	i	i	CCONJ	Cc	_	12	cc	_	start_char=116|end_char=117
+9	odmah	odmah	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=118|end_char=123
+10	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=124|end_char=126
+11	mi	ja	PRON	Pp1-pn	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	start_char=127|end_char=129
+12	poslali	poslati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=130|end_char=137
+13	zamjene	zamjena	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=138|end_char=145
+14	.	.	PUNCT	Z	_	1	punct	_	start_char=145|end_char=146
+
+# text = Jedna cijev je pukla nakon nekog vremena, i tjednima ste mogli vidjeti kako se nabubrila, pa nije bilo iznenađenja.
+# sent_id = 2
+1	Jedna	jedan	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	2	nummod	_	start_char=147|end_char=152
+2	cijev	cijev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=153|end_char=158
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=159|end_char=161
+4	pukla	pući	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=162|end_char=167
+5	nakon	nakon	ADP	Sg	Case=Gen	7	case	_	start_char=168|end_char=173
+6	nekog	neki	DET	Pi-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	7	det	_	start_char=174|end_char=179
+7	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	start_char=180|end_char=187
+8	,	,	PUNCT	Z	_	12	punct	_	start_char=187|end_char=188
+9	i	i	CCONJ	Cc	_	12	cc	_	start_char=189|end_char=190
+10	tjednima	tjedan	NOUN	Ncmpd	Case=Ins|Gender=Masc|Number=Plur	12	obl	_	start_char=191|end_char=199
+11	ste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=200|end_char=203
+12	mogli	moći	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=204|end_char=209
+13	vidjeti	vidjeti	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=210|end_char=217
+14	kako	kako	SCONJ	Cs	_	16	mark	_	start_char=218|end_char=222
+15	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	16	expl	_	start_char=223|end_char=225
+16	nabubrila	nabubriti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	ccomp	_	start_char=226|end_char=235
+17	,	,	PUNCT	Z	_	20	punct	_	start_char=235|end_char=236
+18	pa	pa	CCONJ	Cc	_	20	cc	_	start_char=237|end_char=239
+19	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	20	aux	_	start_char=240|end_char=244
+20	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	conj	_	start_char=245|end_char=249
+21	iznenađenja	iznenađenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	20	obj	_	start_char=250|end_char=261
+22	.	.	PUNCT	Z	_	4	punct	_	start_char=261|end_char=262
+
+# text = Druga je bila vezana uz zimu jer sam loš i ostavim ih većinu vremena vani.
+# sent_id = 3
+1	Druga	drugi	ADJ	Mlofsn	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	start_char=263|end_char=268
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=269|end_char=271
+3	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	aux	_	start_char=272|end_char=276
+4	vezana	vezan	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=277|end_char=283
+5	uz	uz	ADP	Sa	Case=Acc	6	case	_	start_char=284|end_char=286
+6	zimu	zim	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=287|end_char=291
+7	jer	jer	SCONJ	Cs	_	9	mark	_	start_char=292|end_char=295
+8	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=296|end_char=299
+9	loš	loš	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	advcl	_	start_char=300|end_char=303
+10	i	i	CCONJ	Cc	_	11	cc	_	start_char=304|end_char=305
+11	ostavim	ostaviti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	start_char=306|end_char=313
+12	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	start_char=314|end_char=316
+13	većinu	većina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=317|end_char=323
+14	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	start_char=324|end_char=331
+15	vani	vani	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=332|end_char=336
+16	.	.	PUNCT	Z	_	4	punct	_	start_char=336|end_char=337
+
+# text = Visoko preporučujem.
+# sent_id = 4
+1	Visoko	visoko	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=338|end_char=344
+2	preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=345|end_char=357
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=357|end_char=358
+
+# text = Napomena: Sto stopa duga cijev je teška i kao borba s anakondom kad dođe vrijeme za spremanje, ali ima dalek doseg.
+# sent_id = 5
+1	Napomena	Napomen	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	start_char=359|end_char=367
+2	:	:	PUNCT	Z	_	1	punct	_	start_char=367|end_char=368
+3	Sto	sto	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=369|end_char=372
+4	stopa	stopa	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=373|end_char=378
+5	duga	dug	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=379|end_char=383
+6	cijev	cijev	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=384|end_char=389
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=390|end_char=392
+8	teška	težak	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=393|end_char=398
+9	i	i	CCONJ	Cc	_	11	cc	_	start_char=399|end_char=400
+10	kao	kao	SCONJ	Cs	_	11	case	_	start_char=401|end_char=404
+11	borba	borba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	start_char=405|end_char=410
+12	s	sa	ADP	Si	Case=Ins	13	case	_	start_char=411|end_char=412
+13	anakondom	anakonda	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	start_char=413|end_char=422
+14	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	15	advmod	_	start_char=423|end_char=426
+15	dođe	doći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	start_char=427|end_char=431
+16	vrijeme	vrijeme	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=432|end_char=439
+17	za	za	ADP	Sa	Case=Acc	18	case	_	start_char=440|end_char=442
+18	spremanje	spremanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	start_char=443|end_char=452
+19	,	,	PUNCT	Z	_	21	punct	_	start_char=452|end_char=453
+20	ali	ali	CCONJ	Cc	_	21	cc	_	start_char=454|end_char=457
+21	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	start_char=458|end_char=461
+22	dalek	dalek	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=462|end_char=467
+23	doseg	doseg	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	start_char=468|end_char=473
+24	.	.	PUNCT	Z	_	8	punct	_	start_char=473|end_char=474
+

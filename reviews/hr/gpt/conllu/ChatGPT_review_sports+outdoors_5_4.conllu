@@ -1,0 +1,70 @@
+# text = """U redu, alat radi ono što radi i obični čekić."
+# sent_id = 0
+1	"	"	PUNCT	Z	_	8	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	5	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	5	punct	_	start_char=2|end_char=3
+4	U	u	ADP	Sl	Case=Loc	5	case	_	start_char=3|end_char=4
+5	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	start_char=5|end_char=9
+6	,	,	PUNCT	Z	_	5	punct	_	start_char=9|end_char=10
+7	alat	alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=11|end_char=15
+8	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=16|end_char=20
+9	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=21|end_char=24
+10	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	11	obj	_	start_char=25|end_char=28
+11	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	start_char=29|end_char=33
+12	i	i	CCONJ	Cc	_	14	discourse	_	start_char=34|end_char=35
+13	obični	običan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=36|end_char=42
+14	čekić	čekić	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=43|end_char=48
+15	.	.	PUNCT	Z	_	8	punct	_	start_char=48|end_char=49
+16	"	"	PUNCT	Z	_	8	punct	_	start_char=49|end_char=50
+
+# text = Kupio/la sam ovo misleći da možda trebam poseban alat za lako skidanje svojih osnovnih ploča s magazina, ali radi isto kao i običan čekić.
+# sent_id = 1
+1	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=51|end_char=59
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=60|end_char=63
+3	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=64|end_char=67
+4	misleći	misliti	ADV	Rr	Tense=Pres|VerbForm=Conv	0	root	_	start_char=68|end_char=75
+5	da	da	SCONJ	Cs	_	7	mark	_	start_char=76|end_char=78
+6	možda	možda	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=79|end_char=84
+7	trebam	trebati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=85|end_char=91
+8	poseban	poseban	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=92|end_char=99
+9	alat	alat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=100|end_char=104
+10	za	za	ADP	Sa	Case=Acc	12	case	_	start_char=105|end_char=107
+11	lako	lak	ADJ	Agpnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	start_char=108|end_char=112
+12	skidanje	skidanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	start_char=113|end_char=121
+13	svojih	svoj	DET	Px-fpg	Case=Gen|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	start_char=122|end_char=128
+14	osnovnih	osnovan	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	start_char=129|end_char=137
+15	ploča	ploča	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=138|end_char=143
+16	s	sa	ADP	Sg	Case=Gen	17	case	_	start_char=144|end_char=145
+17	magazina	magazin	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=146|end_char=154
+18	,	,	PUNCT	Z	_	20	punct	_	start_char=154|end_char=155
+19	ali	ali	CCONJ	Cc	_	20	cc	_	start_char=156|end_char=159
+20	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=160|end_char=164
+21	isto	isto	ADV	Rgp	Degree=Pos	25	advmod	_	start_char=165|end_char=169
+22	kao	kao	SCONJ	Cs	_	25	case	_	start_char=170|end_char=173
+23	i	i	CCONJ	Cc	_	24	discourse	_	start_char=174|end_char=175
+24	običan	običati	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=176|end_char=182
+25	čekić	čekić	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	obl	_	start_char=183|end_char=188
+26	.	.	PUNCT	Z	_	4	punct	_	start_char=188|end_char=189
+
+# text = S Glock magazinima je bolno skidati osnovne ploče.
+# sent_id = 2
+1	S	sa	ADP	Si	Case=Ins	3	case	_	start_char=190|end_char=191
+2	Glock	Glock	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	3	amod	_	start_char=192|end_char=197
+3	magazinima	magazin	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	5	obl	_	start_char=198|end_char=208
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=209|end_char=211
+5	bolno	bolan	ADV	Rgp	Degree=Pos	0	root	_	start_char=212|end_char=217
+6	skidati	skidati	VERB	Vmn	VerbForm=Inf	5	nsubj	_	start_char=218|end_char=225
+7	osnovne	osnovan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=226|end_char=233
+8	ploče	ploča	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	start_char=234|end_char=239
+9	.	.	PUNCT	Z	_	5	punct	_	start_char=239|end_char=240
+
+# text = Alat stvarno ne pravi razliku."
+# sent_id = 3
+1	Alat	Alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=241|end_char=245
+2	stvarno	stvarno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=246|end_char=253
+3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=254|end_char=256
+4	pravi	prav	ADJ	Agpmsny	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=257|end_char=262
+5	razliku	razlika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	0	root	_	start_char=263|end_char=270
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=270|end_char=271
+7	"	"	PUNCT	Z	_	5	punct	_	start_char=271|end_char=272
+

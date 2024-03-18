@@ -1,0 +1,69 @@
+# text = Vain 3 vuotta lupauksen 5 sijaan
+# sent_id = 0
+1	Vain	vain	ADV	Adv	_	2	advmod	_	start_char=0|end_char=4
+2	3	3	NUM	Num	NumType=Card	3	nummod	_	start_char=5|end_char=6
+3	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	4	nmod	_	start_char=7|end_char=13
+4	lupauksen	lupaus	NOUN	N	Case=Gen|Number=Sing	0	root	_	start_char=14|end_char=23
+5	5	5	NUM	Num	NumType=Card	4	nmod	_	start_char=24|end_char=25
+6	sijaan	sijaan	ADP	Adp	AdpType=Post	5	case	_	start_char=26|end_char=32
+
+# text = Näiden kuvattiin 5 vuoden takuuksi, mutta niiden viimeinen voimassaolopäivä on vain 3 vuotta (maaliskuu 2016).
+# sent_id = 1
+1	Näiden	tämä	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	2	obj	_	start_char=33|end_char=39
+2	kuvattiin	kuvata	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=40|end_char=49
+3	5	5	NUM	Num	NumType=Card	4	nummod	_	start_char=50|end_char=51
+4	vuoden	vuosi	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=52|end_char=58
+5	takuuksi	takuu	NOUN	N	Case=Tra|Number=Sing	2	xcomp:ds	_	start_char=59|end_char=67
+6	,	,	PUNCT	Punct	_	14	punct	_	start_char=67|end_char=68
+7	mutta	mutta	CCONJ	C	_	14	cc	_	start_char=69|end_char=74
+8	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	10	nmod:poss	_	start_char=75|end_char=81
+9	viimeinen	viimeinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	10	amod	_	start_char=82|end_char=91
+10	voimassaolopäivä	voimassaolo#päivä	NOUN	N	Case=Nom|Number=Sing	14	nsubj:cop	_	start_char=92|end_char=108
+11	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	start_char=109|end_char=111
+12	vain	vain	ADV	Adv	_	13	advmod	_	start_char=112|end_char=116
+13	3	3	NUM	Num	NumType=Card	14	nummod	_	start_char=117|end_char=118
+14	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	2	conj	_	start_char=119|end_char=125
+15	(	(	PUNCT	Punct	_	16	punct	_	start_char=126|end_char=127
+16	maaliskuu	maaliskuu	NOUN	N	Case=Nom|Number=Sing	14	obl	_	start_char=127|end_char=136
+17	2016	2016	NUM	Num	NumType=Card	16	nummod	_	start_char=137|end_char=141
+18	)	)	PUNCT	Punct	_	16	punct	_	start_char=141|end_char=142
+19	.	.	PUNCT	Punct	_	2	punct	_	start_char=142|end_char=143
+
+# text = Koska käytän niitä kellojen pariston varaan, tämä on todellinen pulma.
+# sent_id = 2
+1	Koska	koska	SCONJ	C	_	2	mark	_	start_char=144|end_char=149
+2	käytän	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=150|end_char=156
+3	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	2	obj	_	start_char=157|end_char=162
+4	kellojen	kello	NOUN	N	Case=Gen|Number=Plur	5	nmod:poss	_	start_char=163|end_char=171
+5	pariston	paristo	NOUN	N	Case=Gen|Number=Sing	2	obl	_	start_char=172|end_char=180
+6	varaan	varaan	ADP	Adp	AdpType=Post	5	case	_	start_char=181|end_char=187
+7	,	,	PUNCT	Punct	_	2	punct	_	start_char=187|end_char=188
+8	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	_	start_char=189|end_char=193
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=194|end_char=196
+10	todellinen	todellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	11	amod	_	start_char=197|end_char=207
+11	pulma	pulma	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=208|end_char=213
+12	.	.	PUNCT	Punct	_	11	punct	_	start_char=213|end_char=214
+
+# text = Ei sitä mitä odotan Amazonilta.
+# sent_id = 3
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=215|end_char=217
+2	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	0	root	_	start_char=218|end_char=222
+3	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	4	obj	_	start_char=223|end_char=227
+4	odotan	odottaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=228|end_char=234
+5	Amazonilta	Amazon	PROPN	N	Case=Abl|Number=Sing	4	obl	_	start_char=235|end_char=245
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=245|end_char=246
+
+# text = Todennäköisesti elää sen kanssa sen sijaan, että sekaisin paluuta.
+# sent_id = 4
+1	Todennäköisesti	toden#näköisesti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=247|end_char=262
+2	elää	elää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=263|end_char=267
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obl	_	start_char=268|end_char=271
+4	kanssa	kanssa	ADP	Adp	AdpType=Post	3	case	_	start_char=272|end_char=278
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obl	_	start_char=279|end_char=282
+6	sijaan	sijaan	ADP	Adp	AdpType=Post	5	case	_	start_char=283|end_char=289
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=289|end_char=290
+8	että	että	SCONJ	C	_	10	mark	_	start_char=291|end_char=295
+9	sekaisin	sekaisin	ADV	Adv	_	10	advmod	_	start_char=296|end_char=304
+10	paluuta	paluu	NOUN	N	Case=Par|Number=Sing	5	ccomp	_	start_char=305|end_char=312
+11	.	.	PUNCT	Punct	_	2	punct	_	start_char=312|end_char=313
+

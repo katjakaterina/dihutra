@@ -1,0 +1,106 @@
+# text = Hoitaja koulutuksessa
+# sent_id = 0
+1	Hoitaja	hoitaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	2	nsubj:cop	_	start_char=0|end_char=7
+2	koulutuksessa	koulutus	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=8|end_char=21
+
+# text = Olen tällä hetkellä koulutuksessa tullakseni hoitajaksi/lemmikin kampaajaksi, ja tämä on kirja, jonka yritys käyttää koulutusakatemiassaan kaikkien hoitajien kouluttamiseen.
+# sent_id = 1
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=22|end_char=26
+2	tällä	tämä	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	3	det	_	start_char=27|end_char=32
+3	hetkellä	hetki	NOUN	N	Case=Ade|Number=Sing	4	obl	_	start_char=33|end_char=41
+4	koulutuksessa	koulutus	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=42|end_char=55
+5	tullakseni	tulla	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=56|end_char=66
+6	hoitajaksi	hoitaja	NOUN	N	Case=Tra|Derivation=Ja|Number=Sing	5	xcomp	_	start_char=67|end_char=77
+7	/	/	PUNCT	Punct	_	8	punct	_	start_char=77|end_char=78
+8	lemmikin	lemmi	NOUN	N	Case=Gen|Number=Sing	6	conj	_	start_char=78|end_char=86
+9	kampaajaksi	kampaaja	NOUN	N	Case=Tra|Number=Sing	5	obl	_	start_char=87|end_char=98
+10	,	,	PUNCT	Punct	_	14	punct	_	start_char=98|end_char=99
+11	ja	ja	CCONJ	C	_	14	cc	_	start_char=100|end_char=102
+12	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj:cop	_	start_char=103|end_char=107
+13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	start_char=108|end_char=110
+14	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	4	conj	_	start_char=111|end_char=116
+15	,	,	PUNCT	Punct	_	18	punct	_	start_char=116|end_char=117
+16	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	18	obj	_	start_char=118|end_char=123
+17	yritys	yritys	NOUN	N	Case=Nom|Number=Sing	18	nsubj	_	start_char=124|end_char=130
+18	käyttää	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	start_char=131|end_char=138
+19	koulutusakatemiassaan	koulutus#akatemia	NOUN	N	Case=Ine|Number=Sing|Person[psor]=3	18	obl	_	start_char=139|end_char=160
+20	kaikkien	kaikki	PRON	Pron	Case=Gen|Number=Plur|PronType=Ind	21	det	_	start_char=161|end_char=169
+21	hoitajien	hoitaja	NOUN	N	Case=Gen|Derivation=Ja|Number=Plur	22	nmod:gobj	_	start_char=170|end_char=179
+22	kouluttamiseen	kouluttaminen	NOUN	N	Case=Ill|Derivation=Minen|Number=Sing	18	obl	_	start_char=180|end_char=194
+23	.	.	PUNCT	Punct	_	4	punct	_	start_char=194|end_char=195
+
+# text = Se on mahtava.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	start_char=196|end_char=198
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=199|end_char=201
+3	mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=202|end_char=209
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=209|end_char=210
+
+# text = On erittäin hyödyllistä tietää, että voit kääntyä mille tahansa sivulle tässä kirjassa ja löytää etsimäsi koirarodun.
+# sent_id = 3
+1	On	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=211|end_char=213
+2	erittäin	erittäin	ADV	Adv	Derivation=Ttain	3	advmod	_	start_char=214|end_char=222
+3	hyödyllistä	hyödyllinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	0	root	_	start_char=223|end_char=234
+4	tietää	tietää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	csubj:cop	_	start_char=235|end_char=241
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=241|end_char=242
+6	että	että	SCONJ	C	_	8	mark	_	start_char=243|end_char=247
+7	voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=248|end_char=252
+8	kääntyä	kääntyä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	ccomp	_	start_char=253|end_char=260
+9	mille	mikä	PRON	Pron	Case=All|Number=Sing|PronType=Int	11	det	_	start_char=261|end_char=266
+10	tahansa	tahansa	ADV	Adv	_	9	fixed	_	start_char=267|end_char=274
+11	sivulle	sivu	NOUN	N	Case=All|Number=Sing	8	obl	_	start_char=275|end_char=282
+12	tässä	tämä	PRON	Pron	Case=Ine|Number=Sing|PronType=Dem	13	det	_	start_char=283|end_char=288
+13	kirjassa	kirja	NOUN	N	Case=Ine|Number=Sing	8	obl	_	start_char=289|end_char=297
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=298|end_char=300
+15	löytää	löytää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	conj	_	start_char=301|end_char=307
+16	etsimäsi	etsiä	VERB	V	Case=Gen|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	17	acl	_	start_char=308|end_char=316
+17	koirarodun	koira#rotu	NOUN	N	Case=Gen|Number=Sing	15	obj	_	start_char=317|end_char=327
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=327|end_char=328
+
+# text = Siellä on myös yleisohjeita, jotka koskevat monia rotuja (esim. teddykarhu-päitä jne.).
+# sent_id = 4
+1	Siellä	siellä	ADV	Adv	_	0	root	_	start_char=329|end_char=335
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=336|end_char=338
+3	myös	myös	ADV	Adv	_	4	advmod	_	start_char=339|end_char=343
+4	yleisohjeita	yleis#ohje	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=344|end_char=356
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=356|end_char=357
+6	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	7	nsubj	_	start_char=358|end_char=363
+7	koskevat	koskea	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=364|end_char=372
+8	monia	moni	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	9	det	_	start_char=373|end_char=378
+9	rotuja	rotu	NOUN	N	Case=Par|Number=Plur	7	obj	_	start_char=379|end_char=385
+10	(	(	PUNCT	Punct	_	12	punct	_	start_char=386|end_char=387
+11	esim.	esim.	ADV	Adv	Abbr=Yes	12	advmod	_	start_char=387|end_char=392
+12	teddykarhu-päitä	teddykarhu#pää	NOUN	N	Case=Par|Number=Plur	9	appos	_	start_char=393|end_char=409
+13	jne	jne.	ADV	Adv	Abbr=Yes	12	advmod	_	start_char=410|end_char=413
+14	.	.	PUNCT	Punct	_	12	punct	_	start_char=413|end_char=414
+15	)	)	PUNCT	Punct	_	12	punct	_	start_char=414|end_char=415
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=415|end_char=416
+
+# text = Ohjeet ovat yksinkertaisia, mutta tarpeeksi yksityiskohtaisia, jotta kuka tahansa voi ymmärtää ne.
+# sent_id = 5
+1	Ohjeet	ohje	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=417|end_char=423
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=424|end_char=428
+3	yksinkertaisia	yksinkertainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	0	root	_	start_char=429|end_char=443
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=443|end_char=444
+5	mutta	mutta	CCONJ	C	_	7	cc	_	start_char=445|end_char=450
+6	tarpeeksi	tarpeeksi	ADV	Adv	_	7	advmod	_	start_char=451|end_char=460
+7	yksityiskohtaisia	yksityis#kohtainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	3	conj	_	start_char=461|end_char=478
+8	,	,	PUNCT	Punct	_	13	punct	_	start_char=478|end_char=479
+9	jotta	jotta	SCONJ	C	_	13	mark	_	start_char=480|end_char=485
+10	kuka	kuka	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	13	nsubj	_	start_char=486|end_char=490
+11	tahansa	tahansa	ADV	Adv	_	10	fixed	_	start_char=491|end_char=498
+12	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	start_char=499|end_char=502
+13	ymmärtää	ymmärtää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=503|end_char=511
+14	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	13	obj	_	start_char=512|end_char=514
+15	.	.	PUNCT	Punct	_	3	punct	_	start_char=514|end_char=515
+
+# text = Välttämätön kirja hoitajille ja lemmikin kampaajille!
+# sent_id = 6
+1	Välttämätön	välttämätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	2	amod	_	start_char=516|end_char=527
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=528|end_char=533
+3	hoitajille	hoitaja	NOUN	N	Case=All|Derivation=Ja|Number=Plur	2	nmod	_	start_char=534|end_char=544
+4	ja	ja	CCONJ	C	_	6	cc	_	start_char=545|end_char=547
+5	lemmikin	lemmi	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=548|end_char=556
+6	kampaajille	kampaaja	NOUN	N	Case=All|Number=Plur	3	conj	_	start_char=557|end_char=568
+7	!	!	PUNCT	Punct	_	2	punct	_	start_char=568|end_char=569
+

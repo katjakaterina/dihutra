@@ -1,0 +1,95 @@
+# text = Okei, mutta voit selvittää sen itse ilman kirjaa
+# sent_id = 0
+1	Okei	okei	INTJ	Interj	_	0	root	_	start_char=0|end_char=4
+2	,	,	PUNCT	Punct	_	1	punct	_	start_char=4|end_char=5
+3	mutta	mutta	CCONJ	C	_	5	cc	_	start_char=6|end_char=11
+4	voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=12|end_char=16
+5	selvittää	selvittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	conj	_	start_char=17|end_char=26
+6	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	obj	_	start_char=27|end_char=30
+7	itse	itse	ADV	Adv	_	5	advmod	_	start_char=31|end_char=35
+8	ilman	ilman	ADP	Adp	AdpType=Prep	9	case	_	start_char=36|end_char=41
+9	kirjaa	kirja	NOUN	N	Case=Par|Number=Sing	5	obl	_	start_char=42|end_char=48
+
+# text = Ostin tämän, kun ostin pop-koneen.
+# sent_id = 1
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=49|end_char=54
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=55|end_char=60
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=60|end_char=61
+4	kun	kun	SCONJ	C	_	5	mark	_	start_char=62|end_char=65
+5	ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=66|end_char=71
+6	pop-koneen	pop#kone	NOUN	N	Case=Gen|Number=Sing	5	obj	_	start_char=72|end_char=82
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=82|end_char=83
+
+# text = Mielestäni reseptit ovat hyviä, mutta kirjassa ei todellakaan ole paljon sellaista, mitä en olisi itse keksinyt.
+# sent_id = 2
+1	Mielestäni	mieli	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obl	_	start_char=84|end_char=94
+2	reseptit	resepti	NOUN	N	Case=Nom|Number=Plur	4	nsubj:cop	_	start_char=95|end_char=103
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=104|end_char=108
+4	hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=109|end_char=114
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=114|end_char=115
+6	mutta	mutta	CCONJ	C	_	7	cc	_	start_char=116|end_char=121
+7	kirjassa	kirja	NOUN	N	Case=Ine|Number=Sing	4	conj	_	start_char=122|end_char=130
+8	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=131|end_char=133
+9	todellakaan	todella	ADV	Adv	Clitic=Kaan	7	advmod	_	start_char=134|end_char=145
+10	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=146|end_char=149
+11	paljon	paljon	ADV	Adv	_	12	advmod	_	start_char=150|end_char=156
+12	sellaista	sellainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Sing	7	nsubj:cop	_	start_char=157|end_char=166
+13	,	,	PUNCT	Punct	_	18	punct	_	start_char=166|end_char=167
+14	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	18	obj	_	start_char=168|end_char=172
+15	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	18	aux	_	start_char=173|end_char=175
+16	olisi	olla	AUX	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	18	aux	_	start_char=176|end_char=181
+17	itse	itse	ADV	Adv	_	18	advmod	_	start_char=182|end_char=186
+18	keksinyt	keksiä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	12	acl:relcl	_	start_char=187|end_char=195
+19	.	.	PUNCT	Punct	_	4	punct	_	start_char=195|end_char=196
+
+# text = Pari hyvää kermaista reseptiä, jotka ovat nyt saatavilla ilmaiseksi reseptisivustoilta.
+# sent_id = 3
+1	Pari	pari	NUM	Num	Case=Nom|NumType=Card|Number=Sing	4	nummod	_	start_char=197|end_char=201
+2	hyvää	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=202|end_char=207
+3	kermaista	kermainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Sing	4	amod	_	start_char=208|end_char=217
+4	reseptiä	resepti	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=218|end_char=226
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=226|end_char=227
+6	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	9	obj	_	start_char=228|end_char=233
+7	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=234|end_char=238
+8	nyt	nyt	ADV	Adv	_	9	advmod	_	start_char=239|end_char=242
+9	saatavilla	saada	VERB	V	Case=Ade|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	4	acl:relcl	_	start_char=243|end_char=253
+10	ilmaiseksi	ilmainen	ADJ	A	Case=Tra|Degree=Pos|Derivation=Inen|Number=Plur	9	xcomp	_	start_char=254|end_char=264
+11	reseptisivustoilta	resepti#sivusto	NOUN	N	Case=Abl|Number=Plur	9	obl	_	start_char=265|end_char=283
+12	.	.	PUNCT	Punct	_	4	punct	_	start_char=283|end_char=284
+
+# text = Mitä tulee "popin koristeluun", sekään ei ollut liian vaikea selvittää.
+# sent_id = 4
+1	Mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	2	nsubj	_	start_char=285|end_char=289
+2	tulee	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=290|end_char=295
+3	"	"	PUNCT	Punct	_	5	punct	_	start_char=296|end_char=297
+4	popin	poppi	NOUN	N	Case=Gen|Number=Sing	5	nmod:gobj	_	start_char=297|end_char=302
+5	koristeluun	koristelu	NOUN	N	Case=Ill|Derivation=U|Number=Sing	2	obl	_	start_char=303|end_char=314
+6	"	"	PUNCT	Punct	_	5	punct	_	start_char=314|end_char=315
+7	,	,	PUNCT	Punct	_	12	punct	_	start_char=315|end_char=316
+8	sekään	se	PRON	Pron	Case=Nom|Clitic=Kaan|Number=Sing|PronType=Dem	13	obj	_	start_char=317|end_char=323
+9	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	12	aux	_	start_char=324|end_char=326
+10	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	12	cop	_	start_char=327|end_char=332
+11	liian	liian	ADV	Adv	_	12	advmod	_	start_char=333|end_char=338
+12	vaikea	vaikea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	conj	_	start_char=339|end_char=345
+13	selvittää	selvittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	12	xcomp:ds	_	start_char=346|end_char=355
+14	.	.	PUNCT	Punct	_	2	punct	_	start_char=355|end_char=356
+
+# text = Säästäisin rahat ja käyttäisin sen sijaan ylimääräisiin pop-tikkuihin, jotka näyttävät katoavan kuten sukat....
+# sent_id = 5
+1	Säästäisin	säästää	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	start_char=357|end_char=367
+2	rahat	raha	NOUN	N	Case=Nom|Number=Plur	1	obj	_	start_char=368|end_char=373
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=374|end_char=376
+4	käyttäisin	käyttää	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	conj	_	start_char=377|end_char=387
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obl	_	start_char=388|end_char=391
+6	sijaan	sijaan	ADP	Adp	AdpType=Post	5	case	_	start_char=392|end_char=398
+7	ylimääräisiin	yli#määräinen	ADJ	A	Case=Ill|Degree=Pos|Derivation=Inen|Number=Plur	8	amod	_	start_char=399|end_char=412
+8	pop-tikkuihin	pop#tikku	NOUN	N	Case=Ill|Number=Plur	4	obl	_	start_char=413|end_char=426
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=426|end_char=427
+10	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	11	nsubj	_	start_char=428|end_char=433
+11	näyttävät	näyttää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=434|end_char=443
+12	katoavan	kadota	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	11	xcomp	_	start_char=444|end_char=452
+13	kuten	kuten	SCONJ	C	_	14	mark	_	start_char=453|end_char=458
+14	sukat	sukka	NOUN	N	Case=Nom|Number=Plur	12	advcl	_	start_char=459|end_char=464
+15	...	...	PUNCT	Punct	_	1	punct	_	start_char=464|end_char=467
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=467|end_char=468
+

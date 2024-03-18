@@ -1,0 +1,98 @@
+# text = Skupi smeće Kupio/la sam paket ovih prije nekog vremena u Sam's Clubu.
+# sent_id = 0
+1	Skupi	skup	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	smeće	smeće	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=6|end_char=11
+3	Kupio/la	Kupio/l	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=12|end_char=20
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=21|end_char=24
+5	paket	paket	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=25|end_char=30
+6	ovih	ovaj	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	start_char=31|end_char=35
+7	prije	prije	ADP	Sg	Case=Gen	9	case	_	start_char=36|end_char=41
+8	nekog	neki	DET	Pi-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	9	det	_	start_char=42|end_char=47
+9	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=48|end_char=55
+10	u	u	ADP	Sl	Case=Loc	11	case	_	start_char=56|end_char=57
+11	Sam's	Sam's	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	start_char=58|end_char=63
+12	Clubu	Club	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	11	flat	_	start_char=64|end_char=69
+13	.	.	PUNCT	Z	_	5	punct	_	start_char=69|end_char=70
+
+# text = Koristio/la sam ih u daljinskim upravljačima za kućanske uređaje, ali primijetio/la sam da ne zadržavaju punjenje dugo, što zahtijeva česte ponovne punjene.
+# sent_id = 1
+1	Koristio/la	koristioćti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=71|end_char=82
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=83|end_char=86
+3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=87|end_char=89
+4	u	u	ADP	Sl	Case=Loc	6	case	_	start_char=90|end_char=91
+5	daljinskim	daljinski	ADJ	Agpmply	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=92|end_char=102
+6	upravljačima	upravljač	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	1	obl	_	start_char=103|end_char=115
+7	za	za	ADP	Sa	Case=Acc	9	case	_	start_char=116|end_char=118
+8	kućanske	kućanski	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	start_char=119|end_char=127
+9	uređaje	uređaj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	start_char=128|end_char=135
+10	,	,	PUNCT	Z	_	12	punct	_	start_char=135|end_char=136
+11	ali	ali	CCONJ	Cc	_	12	cc	_	start_char=137|end_char=140
+12	primijetio/la	primijetio/	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=141|end_char=154
+13	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=155|end_char=158
+14	da	da	SCONJ	Cs	_	16	mark	_	start_char=159|end_char=161
+15	ne	ne	PART	Qz	Polarity=Neg	16	advmod	_	start_char=162|end_char=164
+16	zadržavaju	zadržavati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	start_char=165|end_char=175
+17	punjenje	punjenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	start_char=176|end_char=184
+18	dugo	dugo	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=185|end_char=189
+19	,	,	PUNCT	Z	_	21	punct	_	start_char=189|end_char=190
+20	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	21	nsubj	_	start_char=191|end_char=194
+21	zahtijeva	zahtijevati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=195|end_char=204
+22	česte	čest	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=205|end_char=210
+23	ponovne	ponovan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	24	amod	_	start_char=211|end_char=218
+24	punjene	puniti	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	21	obj	_	start_char=219|end_char=226
+25	.	.	PUNCT	Z	_	1	punct	_	start_char=226|end_char=227
+
+# text = Jeftini brzi punjač 'CH30MN' koji je došao s paketom baterija nije pomogao jer pregrijava baterije tijekom punjenja do te mjere da ih nije moguće dotaknuti.
+# sent_id = 2
+1	Jeftini	jeftin	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=228|end_char=235
+2	brzi	brz	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=236|end_char=240
+3	punjač	punjač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=241|end_char=247
+4	'	'	PUNCT	Z	_	5	punct	_	start_char=248|end_char=249
+5	CH30MN	CH30MN	NUM	Mdc	NumType=Card	3	flat	_	start_char=249|end_char=255
+6	'	'	PUNCT	Z	_	5	punct	_	start_char=255|end_char=256
+7	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	9	nsubj	_	start_char=257|end_char=261
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=262|end_char=264
+9	došao	doći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	start_char=265|end_char=270
+10	s	sa	ADP	Si	Case=Ins	11	case	_	start_char=271|end_char=272
+11	paketom	paket	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=273|end_char=280
+12	baterija	baterija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=281|end_char=289
+13	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=290|end_char=294
+14	pomogao	pomoći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=295|end_char=302
+15	jer	jer	SCONJ	Cs	_	16	mark	_	start_char=303|end_char=306
+16	pregrijava	pregrijavati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=307|end_char=317
+17	baterije	baterija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=318|end_char=326
+18	tijekom	tijekom	ADP	Sg	Case=Gen	19	case	_	start_char=327|end_char=334
+19	punjenja	punjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	obl	_	start_char=335|end_char=343
+20	do	do	ADP	Sg	Case=Gen	22	case	_	start_char=344|end_char=346
+21	te	taj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=347|end_char=349
+22	mjere	mjera	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	start_char=350|end_char=355
+23	da	da	SCONJ	Cs	_	26	mark	_	start_char=356|end_char=358
+24	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	start_char=359|end_char=361
+25	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	26	cop	_	start_char=362|end_char=366
+26	moguće	moguć	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	16	advcl	_	start_char=367|end_char=373
+27	dotaknuti	dotaknuti	VERB	Vmn	VerbForm=Inf	26	xcomp	_	start_char=374|end_char=383
+28	.	.	PUNCT	Z	_	14	punct	_	start_char=383|end_char=384
+
+# text = Uštedite novac i kupite nove SANYO NEW 1500 eneloop, pakiranje od 8 AA Ni-MH punjivih baterija umjesto toga.
+# sent_id = 3
+1	Uštedite	uštestiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=385|end_char=393
+2	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=394|end_char=399
+3	i	i	CCONJ	Cc	_	4	cc	_	start_char=400|end_char=401
+4	kupite	kupiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	1	conj	_	start_char=402|end_char=408
+5	nove	nov	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=409|end_char=413
+6	SANYO	SanYo	PROPN	Npmsa	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=414|end_char=419
+7	NEW	NEW	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	start_char=420|end_char=423
+8	1500	1500	NUM	Mdc	NumType=Card	9	nummod:gov	_	start_char=424|end_char=428
+9	eneloop	eneloop	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=429|end_char=436
+10	,	,	PUNCT	Z	_	11	punct	_	start_char=436|end_char=437
+11	pakiranje	pakiranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	start_char=438|end_char=447
+12	od	od	ADP	Sg	Case=Gen	17	case	_	start_char=448|end_char=450
+13	8	8	NUM	Mdc	NumType=Card	17	nummod:gov	_	start_char=451|end_char=452
+14	AA	AA	NOUN	Y	_	17	amod	_	start_char=453|end_char=455
+15	Ni-MH	ni-mh	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	17	amod	_	start_char=456|end_char=461
+16	punjivih	punjiv	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	start_char=462|end_char=470
+17	baterija	baterija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=471|end_char=479
+18	umjesto	umjesto	ADP	Sg	Case=Gen	19	case	_	start_char=480|end_char=487
+19	toga	taj	DET	Pd-nsg	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	17	nmod	_	start_char=488|end_char=492
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=492|end_char=493
+

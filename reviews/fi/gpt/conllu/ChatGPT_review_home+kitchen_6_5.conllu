@@ -1,0 +1,75 @@
+# text = Yksi miljoonasta
+# sent_id = 0
+1	Yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	2	compound	_	start_char=0|end_char=4
+2	miljoonasta	miljoona	NUM	Num	Case=Ela|NumType=Card|Number=Sing	0	root	_	start_char=5|end_char=16
+
+# text = Olen etsinyt täydellistä hääkakun reseptiä yli kymmenen vuoden ajan.
+# sent_id = 1
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=17|end_char=21
+2	etsinyt	etsiä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=22|end_char=29
+3	täydellistä	täydellinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	5	amod	_	start_char=30|end_char=41
+4	hääkakun	hää#kakku	NOUN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=42|end_char=50
+5	reseptiä	resepti	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=51|end_char=59
+6	yli	yli	ADV	Adv	_	7	advmod	_	start_char=60|end_char=63
+7	kymmenen	kymmenen	NUM	Num	Case=Gen|NumType=Card|Number=Sing	8	nummod	_	start_char=64|end_char=72
+8	vuoden	vuosi	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	start_char=73|end_char=79
+9	ajan	aika	NOUN	N	Case=Gen|Number=Sing	2	obl	_	start_char=80|end_char=84
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=84|end_char=85
+
+# text = Voit kutsua sitä pakkomielleksi, sillä rakastan henkilökohtaisesti hääkakun makua, vaikka en olekaan naimisissa!
+# sent_id = 2
+1	Voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=86|end_char=90
+2	kutsua	kutsua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=91|end_char=97
+3	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=98|end_char=102
+4	pakkomielleksi	pakko#mieli	NOUN	N	Case=Tra|Number=Sing	2	xcomp:ds	_	start_char=103|end_char=117
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=117|end_char=118
+6	sillä	sillä	SCONJ	C	_	7	mark	_	start_char=119|end_char=124
+7	rakastan	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=125|end_char=133
+8	henkilökohtaisesti	henkilö#kohtaisesti	ADV	Adv	Derivation=Sti	7	advmod	_	start_char=134|end_char=152
+9	hääkakun	hää#kakku	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=153|end_char=161
+10	makua	maku	NOUN	N	Case=Par|Derivation=U|Number=Sing	7	obj	_	start_char=162|end_char=167
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=167|end_char=168
+12	vaikka	vaikka	SCONJ	C	_	15	mark	_	start_char=169|end_char=175
+13	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	start_char=176|end_char=178
+14	olekaan	olla	AUX	V	Clitic=Kaan|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=179|end_char=186
+15	naimisissa	naimisissa	ADV	Adv	_	7	advcl	_	start_char=187|end_char=197
+16	!	!	PUNCT	Punct	_	2	punct	_	start_char=197|end_char=198
+
+# text = Ostin tämän kirjan heti sen ilmestyttyä, ja reseptit ovat uskomattomia - samoin kuin valokuvat.
+# sent_id = 3
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=199|end_char=204
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=205|end_char=210
+3	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=211|end_char=217
+4	heti	heti	ADV	Adv	_	6	advmod	_	start_char=218|end_char=222
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	6	nsubj	_	start_char=223|end_char=226
+6	ilmestyttyä	ilmestyä	VERB	V	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	1	advcl	_	start_char=227|end_char=238
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=238|end_char=239
+8	ja	ja	CCONJ	C	_	11	cc	_	start_char=240|end_char=242
+9	reseptit	resepti	NOUN	N	Case=Nom|Number=Plur	11	nsubj:cop	_	start_char=243|end_char=251
+10	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=252|end_char=256
+11	uskomattomia	uskomaton	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	1	conj	_	start_char=257|end_char=269
+12	-	-	PUNCT	Punct	_	13	punct	_	start_char=270|end_char=271
+13	samoin	samoin	ADV	Adv	_	11	advmod	_	start_char=272|end_char=278
+14	kuin	kuin	SCONJ	C	_	15	mark	_	start_char=279|end_char=283
+15	valokuvat	valo#kuva	NOUN	N	Case=Nom|Number=Plur	13	advcl	_	start_char=284|end_char=293
+16	.	.	PUNCT	Punct	_	1	punct	_	start_char=293|end_char=294
+
+# text = Kaikille, jotka leipovat hääkakkuja, tämä on yksi reseptikirja, joka on sijoituksen arvoinen.
+# sent_id = 4
+1	Kaikille	kaikki	PRON	Pron	Case=All|Number=Plur|PronType=Ind	10	obl	_	start_char=295|end_char=303
+2	,	,	PUNCT	Punct	_	4	punct	_	start_char=303|end_char=304
+3	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	4	nsubj	_	start_char=305|end_char=310
+4	leipovat	leipoa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=311|end_char=319
+5	hääkakkuja	hää#kakku	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=320|end_char=330
+6	,	,	PUNCT	Punct	_	4	punct	_	start_char=330|end_char=331
+7	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=332|end_char=336
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=337|end_char=339
+9	yksi	yksi	NUM	Num	Case=Nom|NumType=Card|Number=Sing	10	nummod	_	start_char=340|end_char=344
+10	reseptikirja	resepti#kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=345|end_char=357
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=357|end_char=358
+12	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	15	nsubj:cop	_	start_char=359|end_char=363
+13	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	start_char=364|end_char=366
+14	sijoituksen	sijoitus	NOUN	N	Case=Gen|Number=Sing	15	nmod:poss	_	start_char=367|end_char=378
+15	arvoinen	arvoinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	10	acl:relcl	_	start_char=379|end_char=387
+16	.	.	PUNCT	Punct	_	10	punct	_	start_char=387|end_char=388
+

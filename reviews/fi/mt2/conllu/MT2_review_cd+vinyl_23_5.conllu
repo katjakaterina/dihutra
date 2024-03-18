@@ -1,0 +1,90 @@
+# text = Ihana!!!
+# sent_id = 0
+1	Ihana	ihana	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=5
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=5|end_char=6
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=6|end_char=7
+4	!	!	PUNCT	Punct	_	1	punct	_	start_char=7|end_char=8
+
+# text = Minulla oli ollut tästä äänitteestä kasetti, ja tiesin rakastavani sitä.
+# sent_id = 1
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=9|end_char=16
+2	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	aux	_	start_char=17|end_char=20
+3	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	cop:own	_	start_char=21|end_char=26
+4	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	5	det	_	start_char=27|end_char=32
+5	äänitteestä	ääni	NOUN	N	Case=Ela|Number=Sing	6	nmod	_	start_char=33|end_char=44
+6	kasetti	kasetti	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=45|end_char=52
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=52|end_char=53
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=54|end_char=56
+9	tiesin	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=57|end_char=63
+10	rakastavani	rakastaa	VERB	V	Case=Gen|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	9	xcomp	_	start_char=64|end_char=75
+11	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	10	obj	_	start_char=76|end_char=80
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=80|end_char=81
+
+# text = Ostin useita näitä CD-levyjä, jotta voisin jakaa veljenpoikien ja ystävien kanssa ja pitää yhden itselleni.
+# sent_id = 2
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=82|end_char=87
+2	useita	usea	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	amod	_	start_char=88|end_char=94
+3	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	4	det	_	start_char=95|end_char=100
+4	CD-levyjä	CD#levy	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=101|end_char=110
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=110|end_char=111
+6	jotta	jotta	SCONJ	C	_	8	mark	_	start_char=112|end_char=117
+7	voisin	voida	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	aux	_	start_char=118|end_char=124
+8	jakaa	jakaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=125|end_char=130
+9	veljenpoikien	veljen#poika	NOUN	N	Case=Gen|Number=Plur	8	obl	_	start_char=131|end_char=144
+10	ja	ja	CCONJ	C	_	11	cc	_	start_char=145|end_char=147
+11	ystävien	ystävä	NOUN	N	Case=Gen|Number=Plur	9	conj	_	start_char=148|end_char=156
+12	kanssa	kanssa	ADP	Adp	AdpType=Post	9	case	_	start_char=157|end_char=163
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=164|end_char=166
+14	pitää	pitää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	conj	_	start_char=167|end_char=172
+15	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	14	obj	_	start_char=173|end_char=178
+16	itselleni	itse	PRON	Pron	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	14	obl	_	start_char=179|end_char=188
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=188|end_char=189
+
+# text = Erittäin hellävarainen ja helppo nukkua.
+# sent_id = 3
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=190|end_char=198
+2	hellävarainen	hellä#varainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=199|end_char=212
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=213|end_char=215
+4	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	conj	_	start_char=216|end_char=222
+5	nukkua	nukkua	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp:ds	_	start_char=223|end_char=229
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=229|end_char=230
+
+# text = Sanat lauletaan selkeästi, ymmärrettäviä.
+# sent_id = 4
+1	Sanat	sana	NOUN	N	Case=Nom|Number=Plur	2	obj	_	start_char=231|end_char=236
+2	lauletaan	laulata	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=237|end_char=246
+3	selkeästi	selkeästi	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=247|end_char=256
+4	,	,	PUNCT	Punct	_	5	punct	_	start_char=256|end_char=257
+5	ymmärrettäviä	ymmärrettävä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	conj	_	start_char=258|end_char=271
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=271|end_char=272
+
+# text = Minulle on ollut siunaus, että halusin löytää ja välittää muille.
+# sent_id = 5
+1	Minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=273|end_char=280
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	start_char=281|end_char=283
+3	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	cop	_	start_char=284|end_char=289
+4	siunaus	siunaus	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=290|end_char=297
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=297|end_char=298
+6	että	että	SCONJ	C	_	7	mark	_	start_char=299|end_char=303
+7	halusin	haluta	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=304|end_char=311
+8	löytää	löytää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=312|end_char=318
+9	ja	ja	CCONJ	C	_	10	cc	_	start_char=319|end_char=321
+10	välittää	välittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	conj	_	start_char=322|end_char=330
+11	muille	muu	PRON	Pron	Case=All|Number=Plur|PronType=Ind	8	obl	_	start_char=331|end_char=337
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=337|end_char=338
+
+# text = Sopii lapsille - olin lapsi, kun isoäiti sai minulle nauhan.
+# sent_id = 6
+1	Sopii	sopia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=339|end_char=344
+2	lapsille	lapsi	NOUN	N	Case=All|Number=Plur	1	obl	_	start_char=345|end_char=353
+3	-	-	PUNCT	Punct	_	5	punct	_	start_char=354|end_char=355
+4	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=356|end_char=360
+5	lapsi	lapsi	NOUN	N	Case=Nom|Number=Sing	1	parataxis	_	start_char=361|end_char=366
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=366|end_char=367
+7	kun	kun	SCONJ	C	_	9	mark	_	start_char=368|end_char=371
+8	isoäiti	iso#äiti	NOUN	N	Case=Nom|Number=Sing	9	nsubj	_	start_char=372|end_char=379
+9	sai	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=380|end_char=383
+10	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	9	obl	_	start_char=384|end_char=391
+11	nauhan	nauha	NOUN	N	Case=Gen|Number=Sing	9	obj	_	start_char=392|end_char=398
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=398|end_char=399
+

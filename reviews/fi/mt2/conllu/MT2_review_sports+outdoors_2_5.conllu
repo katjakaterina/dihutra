@@ -1,0 +1,65 @@
+# text = Toimii yhtä hyvin kuin tehtaan työkalu Minulla oli tehtaan Glock-työkalu, jota käytin Glock 26:lle, 27:lle ja 17:lle.
+# sent_id = 0
+1	Toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	yhtä	yhtä	ADV	Adv	_	3	advmod	_	start_char=7|end_char=11
+3	hyvin	hyvin	ADV	Adv	_	1	advmod	_	start_char=12|end_char=17
+4	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=18|end_char=22
+5	tehtaan	tehdas	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=23|end_char=30
+6	työkalu	työ#kalu	NOUN	N	Case=Nom|Number=Sing	3	advcl	_	start_char=31|end_char=38
+7	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	1	advcl	_	start_char=39|end_char=46
+8	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop:own	_	start_char=47|end_char=50
+9	tehtaan	tehdas	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=51|end_char=58
+10	Glock-työkalu	Glock#työ#kalu	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=59|end_char=72
+11	,	,	PUNCT	Punct	_	13	punct	_	start_char=72|end_char=73
+12	jota	joka	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	13	obj	_	start_char=74|end_char=78
+13	käytin	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=79|end_char=85
+14	Glock	Glock	PROPN	N	Case=Nom|Number=Sing	13	obl	_	start_char=86|end_char=91
+15	26:lle	26	NUM	Num	Case=All|NumType=Card|Number=Sing	14	flat:name	_	start_char=92|end_char=98
+16	,	,	PUNCT	Punct	_	17	punct	_	start_char=98|end_char=99
+17	27:lle	27	NUM	Num	Case=All|NumType=Card|Number=Sing	14	conj	_	start_char=100|end_char=106
+18	ja	ja	CCONJ	C	_	19	cc	_	start_char=107|end_char=109
+19	17:lle	17	NUM	Num	Case=All|NumType=Card|Number=Sing	14	conj	_	start_char=110|end_char=116
+20	.	.	PUNCT	Punct	_	1	punct	_	start_char=116|end_char=117
+
+# text = Olen sen jälkeen menettänyt sen ja tarvinnut toisen.
+# sent_id = 1
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=118|end_char=122
+2	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obl	_	start_char=123|end_char=126
+3	jälkeen	jälkeen	ADP	Adp	AdpType=Post	2	case	_	start_char=127|end_char=134
+4	menettänyt	menettää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=135|end_char=145
+5	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obj	_	start_char=146|end_char=149
+6	ja	ja	CCONJ	C	_	7	cc	_	start_char=150|end_char=152
+7	tarvinnut	tarvita	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	conj	_	start_char=153|end_char=162
+8	toisen	toinen	PRON	Pron	Case=Gen|Number=Sing|PronType=Rcp	7	obj	_	start_char=163|end_char=169
+9	.	.	PUNCT	Punct	_	4	punct	_	start_char=169|end_char=170
+
+# text = Koska olen käyttänyt Ghost-tuotteita aiemmin ja tiedän niiden olevan luotettavia, päätin tilata tämän.
+# sent_id = 2
+1	Koska	koska	SCONJ	C	_	3	mark	_	start_char=171|end_char=176
+2	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=177|end_char=181
+3	käyttänyt	käyttää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	12	advcl	_	start_char=182|end_char=191
+4	Ghost-tuotteita	Ghost#tuote	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=192|end_char=207
+5	aiemmin	aiemmin	ADV	Adv	_	3	advmod	_	start_char=208|end_char=215
+6	ja	ja	CCONJ	C	_	7	cc	_	start_char=216|end_char=218
+7	tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=219|end_char=225
+8	niiden	se	PRON	Pron	Case=Gen|Number=Plur|PronType=Dem	10	nsubj:cop	_	start_char=226|end_char=232
+9	olevan	olla	AUX	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	10	cop	_	start_char=233|end_char=239
+10	luotettavia	luotettava	ADJ	A	Case=Par|Degree=Pos|Number=Plur	7	ccomp	_	start_char=240|end_char=251
+11	,	,	PUNCT	Punct	_	3	punct	_	start_char=251|end_char=252
+12	päätin	päättää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=253|end_char=259
+13	tilata	tilata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=260|end_char=266
+14	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	13	obj	_	start_char=267|end_char=272
+15	.	.	PUNCT	Punct	_	12	punct	_	start_char=272|end_char=273
+
+# text = Toki tämä on aivan yhtä hyvä kuin tehdastyökalu.
+# sent_id = 3
+1	Toki	toki	ADV	Adv	_	6	advmod	_	start_char=274|end_char=278
+2	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	start_char=279|end_char=283
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=284|end_char=286
+4	aivan	aivan	ADV	Adv	_	5	advmod	_	start_char=287|end_char=292
+5	yhtä	yhtä	ADV	Adv	_	6	advmod	_	start_char=293|end_char=297
+6	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=298|end_char=302
+7	kuin	kuin	SCONJ	C	_	8	mark	_	start_char=303|end_char=307
+8	tehdastyökalu	tehdastyö#kalu	NOUN	N	Case=Nom|Number=Sing	6	advcl	_	start_char=308|end_char=321
+9	.	.	PUNCT	Punct	_	6	punct	_	start_char=321|end_char=322
+

@@ -1,0 +1,71 @@
+# text = Näyttävä kirja!
+# sent_id = 0
+1	Näyttävä	näyttävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=14
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=14|end_char=15
+
+# text = Martha Stewartin hääkakut -kirja on juuri sitä mitä etsin.
+# sent_id = 1
+1	Martha	Martha	PROPN	N	Case=Nom|Number=Sing	3	nmod:poss	_	start_char=16|end_char=22
+2	Stewartin	Stewartti	PROPN	N	Case=Gen|Number=Sing	1	flat:name	_	start_char=23|end_char=32
+3	hääkakut	hää#kakku	NOUN	N	Case=Nom|Number=Plur	4	compound:nn	_	start_char=33|end_char=41
+4	-kirja	kirja	NOUN	N	Case=Nom|Number=Sing	7	nsubj:cop	_	start_char=42|end_char=48
+5	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=49|end_char=51
+6	juuri	juuri	ADV	Adv	_	7	advmod	_	start_char=52|end_char=57
+7	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	0	root	_	start_char=58|end_char=62
+8	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	9	obj	_	start_char=63|end_char=67
+9	etsin	etsiä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	start_char=68|end_char=73
+10	.	.	PUNCT	Punct	_	7	punct	_	start_char=73|end_char=74
+
+# text = Selkeät ohjeet ja upeat valokuvat ovat täydellisiä.
+# sent_id = 2
+1	Selkeät	selkeä	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=75|end_char=82
+2	ohjeet	ohje	NOUN	N	Case=Nom|Number=Plur	7	nsubj:cop	_	start_char=83|end_char=89
+3	ja	ja	CCONJ	C	_	5	cc	_	start_char=90|end_char=92
+4	upeat	upea	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	start_char=93|end_char=98
+5	valokuvat	valo#kuva	NOUN	N	Case=Nom|Number=Plur	2	conj	_	start_char=99|end_char=108
+6	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=109|end_char=113
+7	täydellisiä	täydellinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Plur	0	root	_	start_char=114|end_char=125
+8	.	.	PUNCT	Punct	_	7	punct	_	start_char=125|end_char=126
+
+# text = Todellinen kakkusuunnittelijan suosikki.
+# sent_id = 3
+1	Todellinen	todellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	3	amod	_	start_char=127|end_char=137
+2	kakkusuunnittelijan	kakku#suunnittelija	NOUN	N	Case=Gen|Derivation=Ja|Number=Sing	3	nmod:poss	_	start_char=138|end_char=157
+3	suosikki	suosikki	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=158|end_char=166
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=166|end_char=167
+
+# text = Tämä on ensimmäinen kirja, josta käännyn ideoiden saamiseksi.
+# sent_id = 4
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=168|end_char=172
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=173|end_char=175
+3	ensimmäinen	ensimmäinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	4	amod	_	start_char=176|end_char=187
+4	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=188|end_char=193
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=193|end_char=194
+6	josta	joka	PRON	Pron	Case=Ela|Number=Sing|PronType=Rel	7	obl	_	start_char=195|end_char=200
+7	käännyn	kääntyä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=201|end_char=208
+8	ideoiden	idea	NOUN	N	Case=Gen|Number=Plur	9	nmod:gobj	_	start_char=209|end_char=217
+9	saamiseksi	saaminen	NOUN	N	Case=Tra|Derivation=Minen|Number=Sing	7	obl	_	start_char=218|end_char=228
+10	.	.	PUNCT	Punct	_	4	punct	_	start_char=228|end_char=229
+
+# text = Ja minulla on kirjastossani yli 50 kakkukirjaa.
+# sent_id = 5
+1	Ja	ja	CCONJ	C	_	2	cc	_	start_char=230|end_char=232
+2	minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=233|end_char=240
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop:own	_	start_char=241|end_char=243
+4	kirjastossani	kirjasto	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obl	_	start_char=244|end_char=257
+5	yli	yli	ADV	Adv	_	6	advmod	_	start_char=258|end_char=261
+6	50	50	NUM	Num	NumType=Card	7	nummod	_	start_char=262|end_char=264
+7	kakkukirjaa	kakku#kirja	NOUN	N	Case=Par|Number=Sing	2	nsubj:cop	_	start_char=265|end_char=276
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=276|end_char=277
+
+# text = En voisi olla onnellisempi. :o)
+# sent_id = 6
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=278|end_char=280
+2	voisi	voida	AUX	V	Connegative=Yes|Mood=Cnd|VerbForm=Fin	4	aux	_	start_char=281|end_char=286
+3	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	cop	_	start_char=287|end_char=291
+4	onnellisempi	onnellinen	ADJ	A	Case=Nom|Degree=Cmp|Derivation=Inen|Number=Sing	0	root	_	start_char=292|end_char=304
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=304|end_char=305
+6	:o	:o	SYM	Symb	_	4	discourse	_	start_char=306|end_char=308
+7	)	)	PUNCT	Punct	_	4	punct	_	start_char=308|end_char=309
+

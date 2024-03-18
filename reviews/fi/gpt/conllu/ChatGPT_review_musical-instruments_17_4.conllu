@@ -1,0 +1,95 @@
+# text = Kestävä instrumenttikaapeli
+# sent_id = 0
+1	Kestävä	kestävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	instrumenttikaapeli	instrumentti#kaapeli	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=8|end_char=27
+
+# text = Tämä Fender-kaapeli on täydellinen pituus minulle!
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=28|end_char=32
+2	Fender-kaapeli	Fender#kaapeli	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=33|end_char=47
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=48|end_char=50
+4	täydellinen	täydellinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	5	amod	_	start_char=51|end_char=62
+5	pituus	pituus	NOUN	N	Case=Nom|Derivation=Vs|Number=Sing	0	root	_	start_char=63|end_char=69
+6	minulle	minä	PRON	Pron	Case=All|Number=Sing|Person=1|PronType=Prs	5	nmod	_	start_char=70|end_char=77
+7	!	!	PUNCT	Punct	_	5	punct	_	start_char=77|end_char=78
+
+# text = Toisinaan koen sen hieman liian pitkäksi, mutta se ei haittaa minua.
+# sent_id = 2
+1	Toisinaan	toisinaan	ADV	Adv	_	2	advmod	_	start_char=79|end_char=88
+2	koen	kokea	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=89|end_char=93
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=94|end_char=97
+4	hieman	hieman	ADV	Adv	_	6	advmod	_	start_char=98|end_char=104
+5	liian	liian	ADV	Adv	_	6	advmod	_	start_char=105|end_char=110
+6	pitkäksi	pitkä	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	2	xcomp	_	start_char=111|end_char=119
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=119|end_char=120
+8	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=121|end_char=126
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=127|end_char=129
+10	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=130|end_char=132
+11	haittaa	haitata	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	start_char=133|end_char=140
+12	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	11	obj	_	start_char=141|end_char=146
+13	.	.	PUNCT	Punct	_	2	punct	_	start_char=146|end_char=147
+
+# text = Rakennuslaatu on loistava, ja tiedän, että se kestää.
+# sent_id = 3
+1	Rakennuslaatu	rakennus#laatu	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=148|end_char=161
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=162|end_char=164
+3	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=165|end_char=173
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=173|end_char=174
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=175|end_char=177
+6	tiedän	tietää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=178|end_char=184
+7	,	,	PUNCT	Punct	_	10	punct	_	start_char=184|end_char=185
+8	että	että	SCONJ	C	_	10	mark	_	start_char=186|end_char=190
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	start_char=191|end_char=193
+10	kestää	kestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=194|end_char=200
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=200|end_char=201
+
+# text = Ainoa pieni miinus, jonka kaapelista löydän, on se, että metallinen holkki rupeaa löystymään liian helposti, vaatiessa minua kiristämään sitä usein.
+# sent_id = 4
+1	Ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	3	det	_	start_char=202|end_char=207
+2	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	start_char=208|end_char=213
+3	miinus	miinus	NOUN	N	Case=Nom|Number=Sing	10	nsubj:cop	_	start_char=214|end_char=220
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=220|end_char=221
+5	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	7	obj	_	start_char=222|end_char=227
+6	kaapelista	kaapelinen	NOUN	N	Case=Ela|Number=Sing	7	obl	_	start_char=228|end_char=238
+7	löydän	löytää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=239|end_char=245
+8	,	,	PUNCT	Punct	_	7	punct	_	start_char=245|end_char=246
+9	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=247|end_char=249
+10	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	0	root	_	start_char=250|end_char=252
+11	,	,	PUNCT	Punct	_	15	punct	_	start_char=252|end_char=253
+12	että	että	SCONJ	C	_	15	mark	_	start_char=254|end_char=258
+13	metallinen	metallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	14	amod	_	start_char=259|end_char=269
+14	holkki	holkki	NOUN	N	Case=Nom|Number=Sing	15	nsubj	_	start_char=270|end_char=276
+15	rupeaa	ruveta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	start_char=277|end_char=283
+16	löystymään	löystyä	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=284|end_char=294
+17	liian	liian	ADV	Adv	_	18	advmod	_	start_char=295|end_char=300
+18	helposti	helposti	ADV	Adv	Derivation=Sti	16	advmod	_	start_char=301|end_char=309
+19	,	,	PUNCT	Punct	_	20	punct	_	start_char=309|end_char=310
+20	vaatiessa	vaatia	VERB	V	Case=Ine|InfForm=2|Number=Sing|VerbForm=Inf|Voice=Act	15	advcl	_	start_char=311|end_char=320
+21	minua	minä	PRON	Pron	Case=Par|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	start_char=321|end_char=326
+22	kiristämään	kiristää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	20	xcomp:ds	_	start_char=327|end_char=338
+23	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	22	obj	_	start_char=339|end_char=343
+24	usein	usein	ADV	Adv	_	22	advmod	_	start_char=344|end_char=349
+25	.	.	PUNCT	Punct	_	10	punct	_	start_char=349|end_char=350
+
+# text = Äänenlaatu ei kuitenkaan kärsi, ja väri on hieno.
+# sent_id = 5
+1	Äänenlaatu	äänen#laatu	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=351|end_char=361
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=362|end_char=364
+3	kuitenkaan	kuitenkaan	ADV	Adv	_	4	advmod	_	start_char=365|end_char=375
+4	kärsi	kärsiä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=376|end_char=381
+5	,	,	PUNCT	Punct	_	9	punct	_	start_char=381|end_char=382
+6	ja	ja	CCONJ	C	_	9	cc	_	start_char=383|end_char=385
+7	väri	väri	NOUN	N	Case=Nom|Number=Sing	9	nsubj:cop	_	start_char=386|end_char=390
+8	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	start_char=391|end_char=393
+9	hieno	hieno	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	start_char=394|end_char=399
+10	.	.	PUNCT	Punct	_	4	punct	_	start_char=399|end_char=400
+
+# text = Kannattaa ehdottomasti kokeilla tätä kaapelia.
+# sent_id = 6
+1	Kannattaa	kannattaa	VERB	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=401|end_char=410
+2	ehdottomasti	ehdottomasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=411|end_char=423
+3	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=424|end_char=432
+4	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	det	_	start_char=433|end_char=437
+5	kaapelia	kaapeli	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=438|end_char=446
+6	.	.	PUNCT	Punct	_	1	punct	_	start_char=446|end_char=447
+

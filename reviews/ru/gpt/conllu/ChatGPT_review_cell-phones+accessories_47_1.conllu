@@ -1,0 +1,70 @@
+# text = Будьте осторожны Купил 2 штуки и решил сначала протестировать одну из них...
+# sent_id = 0
+1	Будьте	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	3	aux	_	start_char=0|end_char=6
+2	осторожны	осторожный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	obl	_	start_char=7|end_char=16
+3	Купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=17|end_char=22
+4	2	2	NUM	_	NumType=Card	5	nummod	_	start_char=23|end_char=24
+5	штуки	штука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=25|end_char=30
+6	и	и	CCONJ	_	_	7	cc	_	start_char=31|end_char=32
+7	решил	решить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=33|end_char=38
+8	сначала	сначала	ADV	_	Degree=Pos	9	advmod	_	start_char=39|end_char=46
+9	протестировать	тестировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=47|end_char=61
+10	одну	один	NUM	_	Case=Acc|Gender=Fem|NumType=Card	9	obj	_	start_char=62|end_char=66
+11	из	из	ADP	_	_	12	case	_	start_char=67|end_char=69
+12	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	10	nmod	_	start_char=70|end_char=73
+13	.	.	PUNCT	_	_	12	punct	_	start_char=73|end_char=74
+14	.	.	PUNCT	_	_	12	punct	_	start_char=74|end_char=75
+15	.	.	PUNCT	_	_	3	punct	_	start_char=75|end_char=76
+
+# text = через несколько минут зарядки она нагрелась.
+# sent_id = 1
+1	через	через	ADP	_	_	3	case	_	start_char=77|end_char=82
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	3	nummod	_	start_char=83|end_char=92
+3	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	obl	_	start_char=93|end_char=98
+4	зарядки	зарядка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=99|end_char=106
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=107|end_char=110
+6	нагрелась	нагреться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=111|end_char=120
+7	.	.	PUNCT	_	_	6	punct	_	start_char=120|end_char=121
+
+# text = Извлек ее, и продукт пах пожаром.
+# sent_id = 2
+1	Извлек	извлечь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=122|end_char=128
+2	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=129|end_char=131
+3	,	,	PUNCT	_	_	5	punct	_	start_char=131|end_char=132
+4	и	и	CCONJ	_	_	5	cc	_	start_char=133|end_char=134
+5	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=135|end_char=142
+6	пах	пахнуть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	start_char=143|end_char=146
+7	пожаром	пожар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	start_char=147|end_char=154
+8	.	.	PUNCT	_	_	1	punct	_	start_char=154|end_char=155
+
+# text = Попробовал другую тоже, и та же история.
+# sent_id = 3
+1	Попробовал	пробовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=156|end_char=166
+2	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	obj	_	start_char=167|end_char=173
+3	тоже	тоже	PART	_	_	1	advmod	_	start_char=174|end_char=178
+4	,	,	PUNCT	_	_	8	punct	_	start_char=178|end_char=179
+5	и	и	CCONJ	_	_	8	cc	_	start_char=180|end_char=181
+6	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	start_char=182|end_char=184
+7	же	же	PART	_	_	6	advmod	_	start_char=185|end_char=187
+8	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=188|end_char=195
+9	.	.	PUNCT	_	_	1	punct	_	start_char=195|end_char=196
+
+# text = Будьте осторожны... это может быть пожарной угрозой или потенциально повредить электрическую систему.
+# sent_id = 4
+1	Будьте	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	cop	_	start_char=197|end_char=203
+2	осторожны	осторожный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=204|end_char=213
+3	.	.	PUNCT	_	_	2	punct	_	start_char=213|end_char=214
+4	.	.	PUNCT	_	_	2	punct	_	start_char=214|end_char=215
+5	.	.	PUNCT	_	_	2	punct	_	start_char=215|end_char=216
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=217|end_char=220
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=221|end_char=226
+8	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	cop	_	start_char=227|end_char=231
+9	пожарной	пожарный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=232|end_char=240
+10	угрозой	угроза	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	start_char=241|end_char=248
+11	или	или	CCONJ	_	_	13	cc	_	start_char=249|end_char=252
+12	потенциально	потенциально	ADV	_	Degree=Pos	13	advmod	_	start_char=253|end_char=265
+13	повредить	повредить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	start_char=266|end_char=275
+14	электрическую	электрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=276|end_char=289
+15	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=290|end_char=297
+16	.	.	PUNCT	_	_	2	punct	_	start_char=297|end_char=298
+

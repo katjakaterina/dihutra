@@ -1,0 +1,64 @@
+# text = Nesretan proizvod.
+# sent_id = 0
+1	Nesretan	nesretan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=9|end_char=17
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=17|end_char=18
+
+# text = Ovaj proizvod sam primio vrlo brzo, što me razveselilo.
+# sent_id = 1
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=19|end_char=23
+2	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=24|end_char=32
+3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=33|end_char=36
+4	primio	primiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=37|end_char=43
+5	vrlo	vrlo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=44|end_char=48
+6	brzo	brzo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=49|end_char=53
+7	,	,	PUNCT	Z	_	10	punct	_	start_char=53|end_char=54
+8	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	10	nsubj	_	start_char=55|end_char=58
+9	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	start_char=59|end_char=61
+10	razveselilo	razveseliti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	advcl	_	start_char=62|end_char=73
+11	.	.	PUNCT	Z	_	4	punct	_	start_char=73|end_char=74
+
+# text = Međutim, dao sam ga kao poklon i bio sam sramotno iznenađen kad sam otkrio da je proizvod neispravan.
+# sent_id = 2
+1	Međutim	međutim	ADV	Rgp	Degree=Pos	3	discourse	_	start_char=75|end_char=82
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=82|end_char=83
+3	dao	dati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=84|end_char=87
+4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=88|end_char=91
+5	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=92|end_char=94
+6	kao	kao	SCONJ	Cs	_	7	case	_	start_char=95|end_char=98
+7	poklon	poklon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=99|end_char=105
+8	i	i	CCONJ	Cc	_	12	cc	_	start_char=106|end_char=107
+9	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	cop	_	start_char=108|end_char=111
+10	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=112|end_char=115
+11	sramotno	sramotno	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=116|end_char=124
+12	iznenađen	iznenaditi	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	start_char=125|end_char=134
+13	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	15	advmod	_	start_char=135|end_char=138
+14	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=139|end_char=142
+15	otkrio	otkriti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	advcl	_	start_char=143|end_char=149
+16	da	da	SCONJ	Cs	_	19	mark	_	start_char=150|end_char=152
+17	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=153|end_char=155
+18	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	start_char=156|end_char=164
+19	neispravan	neispravan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	ccomp	_	start_char=165|end_char=175
+20	.	.	PUNCT	Z	_	3	punct	_	start_char=175|end_char=176
+
+# text = Dobio sam povrat za proizvod, ali puno bih radije imao proizvod koji je odmah pravilno funkcionirao.
+# sent_id = 3
+1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=178|end_char=183
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=184|end_char=187
+3	povrat	povrat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=188|end_char=194
+4	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=195|end_char=197
+5	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	start_char=198|end_char=206
+6	,	,	PUNCT	Z	_	11	punct	_	start_char=206|end_char=207
+7	ali	ali	CCONJ	Cc	_	11	cc	_	start_char=208|end_char=211
+8	puno	puno	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=212|end_char=216
+9	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	_	start_char=217|end_char=220
+10	radije	rado	ADV	Rgc	Degree=Cmp	11	advmod	_	start_char=221|end_char=227
+11	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=228|end_char=232
+12	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=233|end_char=241
+13	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	nsubj	_	start_char=242|end_char=246
+14	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=247|end_char=249
+15	odmah	odmah	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=250|end_char=255
+16	pravilno	pravilno	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=256|end_char=264
+17	funkcionirao	funkcionirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	start_char=265|end_char=277
+18	.	.	PUNCT	Z	_	1	punct	_	start_char=277|end_char=278
+

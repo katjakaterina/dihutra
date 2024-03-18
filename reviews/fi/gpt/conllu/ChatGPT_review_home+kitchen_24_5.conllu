@@ -1,0 +1,58 @@
+# text = Kaunis...
+# sent_id = 0
+1	Kaunis	kaunis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=6
+2	...	...	PUNCT	Punct	_	1	punct	_	start_char=6|end_char=9
+
+# text = Kaunis joka tavalla, hyvin kirjoitettu, upea valokuvaus ja fantastiset ohjeet... tekevät tästä kirjasta "välttämättömän"...
+# sent_id = 1
+1	Kaunis	kaunis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=10|end_char=16
+2	joka	joka	PRON	Pron	Case=Nom|Number=Sing	3	det	_	start_char=17|end_char=21
+3	tavalla	tapa	NOUN	N	Case=Ade|Number=Sing	1	nmod	_	start_char=22|end_char=29
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=29|end_char=30
+5	hyvin	hyvin	ADV	Adv	_	6	advmod	_	start_char=31|end_char=36
+6	kirjoitettu	kirjoittaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	9	acl	_	start_char=37|end_char=48
+7	,	,	PUNCT	Punct	_	9	punct	_	start_char=48|end_char=49
+8	upea	upea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	start_char=50|end_char=54
+9	valokuvaus	valokuvaus	NOUN	N	Case=Nom|Number=Sing	3	conj	_	start_char=55|end_char=65
+10	ja	ja	CCONJ	C	_	12	cc	_	start_char=66|end_char=68
+11	fantastiset	fantastinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Plur	12	amod	_	start_char=69|end_char=80
+12	ohjeet	ohje	NOUN	N	Case=Nom|Number=Plur	9	conj	_	start_char=81|end_char=87
+13	...	...	PUNCT	Punct	_	14	punct	_	start_char=87|end_char=90
+14	tekevät	tehdä	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=91|end_char=98
+15	tästä	tämä	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	16	det	_	start_char=99|end_char=104
+16	kirjasta	kirja	NOUN	N	Case=Ela|Number=Sing	14	obl	_	start_char=105|end_char=113
+17	"	"	PUNCT	Punct	_	18	punct	_	start_char=114|end_char=115
+18	välttämättömän	välttämätön	ADJ	A	Case=Gen|Degree=Pos|Derivation=Ton|Number=Sing	14	obj	_	start_char=115|end_char=129
+19	"	"	PUNCT	Punct	_	18	punct	_	start_char=129|end_char=130
+20	...	...	PUNCT	Punct	_	14	punct	_	start_char=130|end_char=133
+
+# text = oli sitten kyseessä käyttäminen kahvipöydällä tai viitekirjana, se on ehdottomasti "ylähyllyllä"...
+# sent_id = 2
+1	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=134|end_char=137
+2	sitten	sitten	ADV	Adv	_	3	advmod	_	start_char=138|end_char=144
+3	kyseessä	kyse	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=145|end_char=153
+4	käyttäminen	käyttäminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	3	nsubj:cop	_	start_char=154|end_char=165
+5	kahvipöydällä	kahvi#pöytä	NOUN	N	Case=Ade|Number=Sing	4	nmod	_	start_char=166|end_char=179
+6	tai	tai	CCONJ	C	_	7	cc	_	start_char=180|end_char=183
+7	viitekirjana	viite#kirja	NOUN	N	Case=Ess|Number=Sing	5	conj	_	start_char=184|end_char=196
+8	,	,	PUNCT	Punct	_	13	punct	_	start_char=196|end_char=197
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	start_char=198|end_char=200
+10	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=201|end_char=203
+11	ehdottomasti	ehdottomasti	ADV	Adv	Derivation=Sti	13	advmod	_	start_char=204|end_char=216
+12	"	"	PUNCT	Punct	_	13	punct	_	start_char=217|end_char=218
+13	ylähyllyllä	ylä#hylly	NOUN	N	Case=Ade|Number=Sing	3	conj	_	start_char=218|end_char=229
+14	"	"	PUNCT	Punct	_	13	punct	_	start_char=229|end_char=230
+15	...	...	PUNCT	Punct	_	3	punct	_	start_char=230|end_char=233
+
+# text = Annoinkin yhden lahjaksi... lahjan saaja oli haltioitunut...
+# sent_id = 3
+1	Annoinkin	antaa	VERB	V	Clitic=Kin|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=234|end_char=243
+2	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	3	nummod	_	start_char=244|end_char=249
+3	lahjaksi	lahja	NOUN	N	Case=Tra|Number=Sing	1	obl	_	start_char=250|end_char=258
+4	...	...	PUNCT	Punct	_	8	punct	_	start_char=258|end_char=261
+5	lahjan	lahja	NOUN	N	Case=Gen|Number=Sing	6	nmod:poss	_	start_char=262|end_char=268
+6	saaja	saaja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	8	nsubj	_	start_char=269|end_char=274
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	start_char=275|end_char=278
+8	haltioitunut	haltioitua	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	parataxis	_	start_char=279|end_char=291
+9	...	...	PUNCT	Punct	_	1	punct	_	start_char=291|end_char=294
+

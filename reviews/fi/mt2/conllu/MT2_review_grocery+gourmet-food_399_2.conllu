@@ -1,0 +1,102 @@
+# text = Upea kastike...
+# sent_id = 0
+1	Upea	upea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=4
+2	kastike	kastike	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=5|end_char=12
+3	...	...	PUNCT	Punct	_	2	punct	_	start_char=12|end_char=15
+
+# text = jos sinulla ei ole muuta.
+# sent_id = 1
+1	jos	jos	SCONJ	C	_	2	mark	_	start_char=16|end_char=19
+2	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	0	root	_	start_char=20|end_char=27
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=28|end_char=30
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop:own	_	start_char=31|end_char=34
+5	muuta	muu	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	2	nsubj:cop	_	start_char=35|end_char=40
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=40|end_char=41
+
+# text = Huonolaatuinen ja heikosti makuinen kuuma kastike...
+# sent_id = 2
+1	Huonolaatuinen	huonolaatuinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	6	amod	_	start_char=42|end_char=56
+2	ja	ja	CCONJ	C	_	4	cc	_	start_char=57|end_char=59
+3	heikosti	heikosti	ADV	Adv	Derivation=Sti	4	advmod	_	start_char=60|end_char=68
+4	makuinen	makuinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	1	conj	_	start_char=69|end_char=77
+5	kuuma	kuuma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	start_char=78|end_char=83
+6	kastike	kastike	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=84|end_char=91
+7	...	...	PUNCT	Punct	_	6	punct	_	start_char=91|end_char=94
+
+# text = ei myöskään niin kuuma.
+# sent_id = 3
+1	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=95|end_char=97
+2	myöskään	myöskään	ADV	Adv	_	4	advmod	_	start_char=98|end_char=106
+3	niin	niin	ADV	Adv	_	4	advmod	_	start_char=107|end_char=111
+4	kuuma	kuuma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=112|end_char=117
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=117|end_char=118
+
+# text = Jos tarvitset kuumaa kastiketta, eikä sinulla ole muuta lähellä, niin tämä käy, mutta koska on niin monia muita vaihtoehtoja, tämä on huonoin valinta. .
+# sent_id = 4
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=119|end_char=122
+2	tarvitset	tarvita	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	start_char=123|end_char=132
+3	kuumaa	kuuma	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	_	start_char=133|end_char=139
+4	kastiketta	kastike	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=140|end_char=150
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=150|end_char=151
+6	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	start_char=152|end_char=156
+7	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	2	conj	_	start_char=157|end_char=164
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop:own	_	start_char=165|end_char=168
+9	muuta	muu	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	7	nsubj:cop	_	start_char=169|end_char=174
+10	lähellä	lähellä	ADV	Adv	_	7	advmod	_	start_char=175|end_char=182
+11	,	,	PUNCT	Punct	_	2	punct	_	start_char=182|end_char=183
+12	niin	niin	ADV	Adv	_	14	advmod	_	start_char=184|end_char=188
+13	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj	_	start_char=189|end_char=193
+14	käy	käydä	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=194|end_char=197
+15	,	,	PUNCT	Punct	_	27	punct	_	start_char=197|end_char=198
+16	mutta	mutta	CCONJ	C	_	27	cc	_	start_char=199|end_char=204
+17	koska	koska	SCONJ	C	_	18	mark	_	start_char=205|end_char=210
+18	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	advcl	_	start_char=211|end_char=213
+19	niin	niin	ADV	Adv	_	20	advmod	_	start_char=214|end_char=218
+20	monia	moni	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	22	det	_	start_char=219|end_char=224
+21	muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	22	det	_	start_char=225|end_char=230
+22	vaihtoehtoja	vaihto#ehto	NOUN	N	Case=Par|Number=Plur	18	nsubj	_	start_char=231|end_char=243
+23	,	,	PUNCT	Punct	_	18	punct	_	start_char=243|end_char=244
+24	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	27	nsubj:cop	_	start_char=245|end_char=249
+25	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	cop	_	start_char=250|end_char=252
+26	huonoin	huono	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	27	amod	_	start_char=253|end_char=260
+27	valinta	valinta	NOUN	N	Case=Nom|Number=Sing	14	conj	_	start_char=261|end_char=268
+28	.	.	PUNCT	Punct	_	14	punct	_	start_char=268|end_char=269
+29	.	.	PUNCT	Punct	_	14	punct	_	start_char=270|end_char=271
+
+# text = Jopa tavallinen tobasco-kastike on paljon parempi.
+# sent_id = 5
+1	Jopa	jopa	ADV	Adv	_	3	advmod	_	start_char=272|end_char=276
+2	tavallinen	tavallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	3	amod	_	start_char=277|end_char=287
+3	tobasco-kastike	tobasco#kastike	NOUN	N	Case=Nom|Number=Sing	6	nsubj:cop	_	start_char=288|end_char=303
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=304|end_char=306
+5	paljon	paljon	ADV	Adv	_	6	advmod	_	start_char=307|end_char=313
+6	parempi	hyvä	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	start_char=314|end_char=321
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=321|end_char=322
+
+# text = Voin kuvailla sen olevan samanlainen kuin vetinen taco-bell-kastike.
+# sent_id = 6
+1	Voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=322|end_char=326
+2	kuvailla	kuvailla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=327|end_char=335
+3	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=336|end_char=339
+4	olevan	olla	AUX	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	5	cop	_	start_char=340|end_char=346
+5	samanlainen	samanlainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	2	ccomp	_	start_char=347|end_char=358
+6	kuin	kuin	SCONJ	C	_	8	mark	_	start_char=359|end_char=363
+7	vetinen	vetinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	8	amod	_	start_char=364|end_char=371
+8	taco-bell-kastike	taco#bell#kastike	NOUN	N	Case=Nom|Number=Sing	5	advcl	_	start_char=372|end_char=389
+9	.	.	PUNCT	Punct	_	2	punct	_	start_char=389|end_char=390
+
+# text = Suosittelisin tähän Frontera Hot Sauce-, Tobasco- tai Cholula Hot -kastiketta.
+# sent_id = 7
+1	Suosittelisin	suositella	VERB	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	start_char=391|end_char=404
+2	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	1	obl	_	start_char=405|end_char=410
+3	Frontera	Frontera	PROPN	N	Case=Nom|Number=Sing	11	compound:nn	_	start_char=411|end_char=419
+4	Hot	Hot	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=420|end_char=423
+5	Sauce-	Sauce-	PROPN	N	Case=Nom|Number=Sing	3	flat:name	_	start_char=424|end_char=430
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=430|end_char=431
+7	Tobasco-	Tobasco-	PROPN	N	Case=Nom|Number=Sing	3	conj	_	start_char=432|end_char=440
+8	tai	tai	CCONJ	C	_	9	cc	_	start_char=441|end_char=444
+9	Cholula	Cholula	PROPN	N	Case=Nom|Number=Sing	3	conj	_	start_char=445|end_char=452
+10	Hot	Hot	X	Foreign	Foreign=Yes	9	flat:name	_	start_char=453|end_char=456
+11	-kastiketta	kastike	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=457|end_char=468
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=468|end_char=469
+

@@ -1,0 +1,73 @@
+# text = Suklaavoi kakku
+# sent_id = 0
+1	Suklaavoi	suklaavoi	NOUN	N	Case=Nom|Number=Sing	2	nmod	_	start_char=0|end_char=9
+2	kakku	kakku	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=10|end_char=15
+
+# text = Moninkertaistin suklaavoi kakun reseptin viidellä saadakseni 30 kuppia, ja se onnistui täydellisesti!!
+# sent_id = 1
+1	Moninkertaistin	moninkertaistaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=31
+2	suklaavoi	suklaavoi	NOUN	N	Case=Nom|Number=Sing	1	obj	_	start_char=32|end_char=41
+3	kakun	kakku	NOUN	N	Case=Gen|Number=Sing	4	nmod:poss	_	start_char=42|end_char=47
+4	reseptin	resepti	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=48|end_char=56
+5	viidellä	viisi	NUM	Num	Case=Ade|NumType=Card|Number=Sing	1	obl	_	start_char=57|end_char=65
+6	saadakseni	saada	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=66|end_char=76
+7	30	30	NUM	Num	NumType=Card	8	nummod	_	start_char=77|end_char=79
+8	kuppia	kuppa	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=80|end_char=86
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=86|end_char=87
+10	ja	ja	CCONJ	C	_	12	cc	_	start_char=88|end_char=90
+11	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	12	nsubj	_	start_char=91|end_char=93
+12	onnistui	onnistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=94|end_char=102
+13	täydellisesti	täydellisesti	ADV	Adv	Derivation=Sti	12	advmod	_	start_char=103|end_char=116
+14	!	!	PUNCT	Punct	_	1	punct	_	start_char=116|end_char=117
+15	!	!	PUNCT	Punct	_	1	punct	_	start_char=117|end_char=118
+
+# text = Olen aiemmin tuhlannut liikaa aikaa heittämällä taikinaa tai kakkuja pois, koska ne maistuivat kauheilta, mutta tämä oli ehdottomasti paras kokeilemani kakku.
+# sent_id = 2
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=119|end_char=123
+2	aiemmin	aiemmin	ADV	Adv	_	3	advmod	_	start_char=124|end_char=131
+3	tuhlannut	tuhlata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=132|end_char=141
+4	liikaa	liikaa	ADV	Adv	_	5	advmod	_	start_char=142|end_char=148
+5	aikaa	aika	NOUN	N	Case=Par|Number=Sing	3	obj	_	start_char=149|end_char=154
+6	heittämällä	heittää	VERB	V	Case=Ade|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=155|end_char=166
+7	taikinaa	taikina	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=167|end_char=175
+8	tai	tai	CCONJ	C	_	9	cc	_	start_char=176|end_char=179
+9	kakkuja	kakku	NOUN	N	Case=Par|Number=Plur	7	conj	_	start_char=180|end_char=187
+10	pois	pois	ADV	Adv	_	6	advmod	_	start_char=188|end_char=192
+11	,	,	PUNCT	Punct	_	14	punct	_	start_char=192|end_char=193
+12	koska	koska	SCONJ	C	_	14	mark	_	start_char=194|end_char=199
+13	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	14	nsubj	_	start_char=200|end_char=202
+14	maistuivat	maistua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=203|end_char=213
+15	kauheilta	kauhea	ADJ	A	Case=Abl|Degree=Pos|Number=Plur	14	xcomp	_	start_char=214|end_char=223
+16	,	,	PUNCT	Punct	_	23	punct	_	start_char=223|end_char=224
+17	mutta	mutta	CCONJ	C	_	23	cc	_	start_char=225|end_char=230
+18	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	23	nsubj:cop	_	start_char=231|end_char=235
+19	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	start_char=236|end_char=239
+20	ehdottomasti	ehdottomasti	ADV	Adv	Derivation=Sti	21	advmod	_	start_char=240|end_char=252
+21	paras	hyvä	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	22	amod	_	start_char=253|end_char=258
+22	kokeilemani	kokeilla	VERB	V	Case=Nom|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	23	acl	_	start_char=259|end_char=270
+23	kakku	kakku	NOUN	N	Case=Nom|Number=Sing	14	conj	_	start_char=271|end_char=276
+24	.	.	PUNCT	Punct	_	3	punct	_	start_char=276|end_char=277
+
+# text = Taikina maistuu suklaavanukkaalta, ja kakku itsessään sulaa suussa.
+# sent_id = 3
+1	Taikina	taikina	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=278|end_char=285
+2	maistuu	maistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=286|end_char=293
+3	suklaavanukkaalta	suklaa#vanukas	NOUN	N	Case=Abl|Number=Sing	2	obl	_	start_char=294|end_char=311
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=311|end_char=312
+5	ja	ja	CCONJ	C	_	8	cc	_	start_char=313|end_char=315
+6	kakku	kakku	NOUN	N	Case=Nom|Number=Sing	8	nsubj	_	start_char=316|end_char=321
+7	itsessään	itsessään	ADV	Adv	_	8	advmod	_	start_char=322|end_char=331
+8	sulaa	sulaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=332|end_char=337
+9	suussa	suu	NOUN	N	Case=Ine|Number=Sing	8	obl	_	start_char=338|end_char=344
+10	.	.	PUNCT	Punct	_	2	punct	_	start_char=344|end_char=345
+
+# text = Aion ehdottomasti kokeilla kaikkia muita reseptejä :)
+# sent_id = 4
+1	Aion	aikoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=346|end_char=350
+2	ehdottomasti	ehdottomasti	ADV	Adv	Derivation=Sti	1	advmod	_	start_char=351|end_char=363
+3	kokeilla	kokeilla	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=364|end_char=372
+4	kaikkia	kaikki	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	6	det	_	start_char=373|end_char=380
+5	muita	muu	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	6	det	_	start_char=381|end_char=386
+6	reseptejä	resepti	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=387|end_char=396
+7	:)	:)	SYM	Symb	_	1	discourse	_	start_char=397|end_char=399
+

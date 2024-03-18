@@ -1,0 +1,72 @@
+# text = Inhoan, että nämä ovat niin kalliita.
+# sent_id = 0
+1	Inhoan	inhota	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	Punct	_	7	punct	_	start_char=6|end_char=7
+3	että	että	SCONJ	C	_	7	mark	_	start_char=8|end_char=12
+4	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	7	nsubj:cop	_	start_char=13|end_char=17
+5	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=18|end_char=22
+6	niin	niin	ADV	Adv	_	7	advmod	_	start_char=23|end_char=27
+7	kalliita	kallis	ADJ	A	Case=Par|Degree=Pos|Number=Plur	1	ccomp	_	start_char=28|end_char=36
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=36|end_char=37
+
+# text = Poikanipoika sai tämän, ja elokuvan vuoksi hän sai tämän, mutta kaikki minun isoisäni saivat yhden halvemmalla ja mielestäni paremman, koska niissä oli johdotetut ja erittäin aseteltavat kädet ja jalat.
+# sent_id = 1
+1	Poikanipoika	poika#nipoika	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	start_char=38|end_char=50
+2	sai	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=51|end_char=54
+3	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	2	obj	_	start_char=55|end_char=60
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=60|end_char=61
+5	ja	ja	CCONJ	C	_	9	cc	_	start_char=62|end_char=64
+6	elokuvan	elo#kuva	NOUN	N	Case=Gen|Number=Sing	9	obl	_	start_char=65|end_char=73
+7	vuoksi	vuoksi	ADP	Adp	AdpType=Post	6	case	_	start_char=74|end_char=80
+8	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=81|end_char=84
+9	sai	saada	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=85|end_char=88
+10	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	9	obj	_	start_char=89|end_char=94
+11	,	,	PUNCT	Punct	_	16	punct	_	start_char=94|end_char=95
+12	mutta	mutta	CCONJ	C	_	16	cc	_	start_char=96|end_char=101
+13	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	15	det	_	start_char=102|end_char=108
+14	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	15	nmod:poss	_	start_char=109|end_char=114
+15	isoisäni	iso#isä	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	16	nsubj	_	start_char=115|end_char=123
+16	saivat	saada	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=124|end_char=130
+17	yhden	yksi	NUM	Num	Case=Gen|NumType=Card|Number=Sing	18	nummod	_	start_char=131|end_char=136
+18	halvemmalla	halvalla	ADJ	A	Case=Ade|Degree=Cmp|Number=Sing	16	xcomp	_	start_char=137|end_char=148
+19	ja	ja	CCONJ	C	_	21	cc	_	start_char=149|end_char=151
+20	mielestäni	mieli	NOUN	N	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	21	nmod	_	start_char=152|end_char=162
+21	paremman	hyvä	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	18	conj	_	start_char=163|end_char=171
+22	,	,	PUNCT	Punct	_	24	punct	_	start_char=171|end_char=172
+23	koska	koska	SCONJ	C	_	24	mark	_	start_char=173|end_char=178
+24	niissä	se	PRON	Pron	Case=Ine|Number=Plur|PronType=Dem	16	advcl	_	start_char=179|end_char=185
+25	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	start_char=186|end_char=189
+26	johdotetut	johdottaa	VERB	V	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	30	acl	_	start_char=190|end_char=200
+27	ja	ja	CCONJ	C	_	29	cc	_	start_char=201|end_char=203
+28	erittäin	erittäin	ADV	Adv	Derivation=Ttain	29	advmod	_	start_char=204|end_char=212
+29	aseteltavat	aseteltava	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	26	conj	_	start_char=213|end_char=224
+30	kädet	käsi	NOUN	N	Case=Nom|Number=Plur	24	nsubj:cop	_	start_char=225|end_char=230
+31	ja	ja	CCONJ	C	_	32	cc	_	start_char=231|end_char=233
+32	jalat	jalka	NOUN	N	Case=Nom|Number=Plur	30	conj	_	start_char=234|end_char=239
+33	.	.	PUNCT	Punct	_	2	punct	_	start_char=239|end_char=240
+
+# text = Kuitenkin poikani poika (9-vuotias) rakasti tätä haltiaa, ja hänen äitinsä ja isänsä pitivät hauskaa käyttäessään konseptia juhlapyhien aikana.
+# sent_id = 2
+1	Kuitenkin	kuitenkin	ADV	Adv	_	7	advmod	_	start_char=241|end_char=250
+2	poikani	poika	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod:poss	_	start_char=251|end_char=258
+3	poika	poika	NOUN	N	Case=Nom|Number=Sing	7	nsubj	_	start_char=259|end_char=264
+4	(	(	PUNCT	Punct	_	5	punct	_	start_char=265|end_char=266
+5	9-vuotias	9#vuotias	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	appos	_	start_char=266|end_char=275
+6	)	)	PUNCT	Punct	_	5	punct	_	start_char=275|end_char=276
+7	rakasti	rakastaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=277|end_char=284
+8	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	det	_	start_char=285|end_char=289
+9	haltiaa	haltia	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=290|end_char=297
+10	,	,	PUNCT	Punct	_	16	punct	_	start_char=297|end_char=298
+11	ja	ja	CCONJ	C	_	16	cc	_	start_char=299|end_char=301
+12	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	start_char=302|end_char=307
+13	äitinsä	äiti	NOUN	N	Case=Nom|Number=Sing|Person[psor]=3	16	nsubj	_	start_char=308|end_char=315
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=316|end_char=318
+15	isänsä	isä	NOUN	N	Case=Nom|Number=Sing|Person[psor]=3	13	conj	_	start_char=319|end_char=325
+16	pitivät	pitää	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=326|end_char=333
+17	hauskaa	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Sing	16	obj	_	start_char=334|end_char=341
+18	käyttäessään	käyttää	VERB	V	Case=Ine|InfForm=2|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	16	advcl	_	start_char=342|end_char=354
+19	konseptia	konsepti	NOUN	N	Case=Par|Number=Sing	18	obj	_	start_char=355|end_char=364
+20	juhlapyhien	juhla#pyhä	NOUN	N	Case=Gen|Number=Plur	21	nmod:poss	_	start_char=365|end_char=376
+21	aikana	aika	NOUN	N	Case=Ess|Number=Sing	18	obl	_	start_char=377|end_char=383
+22	.	.	PUNCT	Punct	_	7	punct	_	start_char=383|end_char=384
+

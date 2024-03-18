@@ -1,0 +1,64 @@
+# text = Nije baš dobro!
+# sent_id = 0
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=0|end_char=4
+2	baš	baš	PART	Qo	_	3	advmod	_	start_char=5|end_char=8
+3	dobro	dobar	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=9|end_char=14
+4	!	!	PUNCT	Z	_	3	punct	_	start_char=14|end_char=15
+
+# text = Imao je sve oznake legitimnog Samsung proizvoda, ali kabel je prestao raditi nakon 3 dana.
+# sent_id = 1
+1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=16|end_char=20
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=21|end_char=23
+3	sve	sav	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=24|end_char=27
+4	oznake	oznaka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=28|end_char=34
+5	legitimnog	legitiman	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=35|end_char=45
+6	Samsung	Samsung	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	start_char=46|end_char=53
+7	proizvoda	proizvod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=54|end_char=63
+8	,	,	PUNCT	Z	_	12	punct	_	start_char=63|end_char=64
+9	ali	ali	CCONJ	Cc	_	12	cc	_	start_char=65|end_char=68
+10	kabel	kabel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=69|end_char=74
+11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=75|end_char=77
+12	prestao	prestati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=78|end_char=85
+13	raditi	raditi	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=86|end_char=92
+14	nakon	nakon	ADP	Sg	Case=Gen	16	case	_	start_char=93|end_char=98
+15	3	3	NUM	Mdc	NumType=Card	16	nummod	_	start_char=99|end_char=100
+16	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	start_char=101|end_char=105
+17	.	.	PUNCT	Z	_	1	punct	_	start_char=105|end_char=106
+
+# text = Nisam ljut jer je bio vrlo jeftin, ali možda biste trebali potrošiti malo više i kupiti bolji proizvod na Amazonu.
+# sent_id = 2
+1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=107|end_char=112
+2	ljut	ljut	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=113|end_char=117
+3	jer	jer	SCONJ	Cs	_	7	mark	_	start_char=118|end_char=121
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=122|end_char=124
+5	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	start_char=125|end_char=128
+6	vrlo	vrlo	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=129|end_char=133
+7	jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	advcl	_	start_char=134|end_char=140
+8	,	,	PUNCT	Z	_	12	punct	_	start_char=140|end_char=141
+9	ali	ali	CCONJ	Cc	_	12	cc	_	start_char=142|end_char=145
+10	možda	možda	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=146|end_char=151
+11	biste	biti	AUX	Vaa2p	Mood=Cnd|Number=Plur|Person=2|Tense=Past|VerbForm=Fin	12	aux	_	start_char=152|end_char=157
+12	trebali	trebati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	2	conj	_	start_char=158|end_char=165
+13	potrošiti	potrošiti	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=166|end_char=175
+14	malo	malo	ADV	Rgp	Degree=Pos	15	advmod	_	start_char=176|end_char=180
+15	više	mnogo	ADV	Rgc	Degree=Cmp	13	advmod	_	start_char=181|end_char=185
+16	i	i	CCONJ	Cc	_	17	cc	_	start_char=186|end_char=187
+17	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	13	conj	_	start_char=188|end_char=194
+18	bolji	dobar	ADJ	Agcmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	19	amod	_	start_char=195|end_char=200
+19	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	start_char=201|end_char=209
+20	na	na	ADP	Sl	Case=Loc	21	case	_	start_char=210|end_char=212
+21	Amazonu	Amazon	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	start_char=213|end_char=220
+22	.	.	PUNCT	Z	_	2	punct	_	start_char=220|end_char=221
+
+# text = Kad je radio, radio je vrlo dobro.
+# sent_id = 3
+1	Kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=222|end_char=225
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=226|end_char=228
+3	radio	raditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	start_char=229|end_char=234
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=234|end_char=235
+5	radio	raditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=236|end_char=241
+6	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=242|end_char=244
+7	vrlo	vrlo	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=245|end_char=249
+8	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=250|end_char=255
+9	.	.	PUNCT	Z	_	5	punct	_	start_char=255|end_char=256
+

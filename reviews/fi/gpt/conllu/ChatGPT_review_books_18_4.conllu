@@ -1,0 +1,89 @@
+# text = Aikansa elänyt mutta arvokas lukemisto
+# sent_id = 0
+1	Aikansa	aika	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	2	obj	_	start_char=0|end_char=7
+2	elänyt	elää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=8|end_char=14
+3	mutta	mutta	CCONJ	C	_	4	cc	_	start_char=15|end_char=20
+4	arvokas	arvokas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	conj	_	start_char=21|end_char=28
+5	lukemisto	lukemisto	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=29|end_char=38
+
+# text = On hämmästyttävää, että tämä kirja on lähes 15 vuotta vanha, ja vielä enemmän, että Bill Gates oli niin tarkka nykyteknologian suhteen, jota näemme tänään.
+# sent_id = 1
+1	On	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	start_char=39|end_char=41
+2	hämmästyttävää	hämmästyttävä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=42|end_char=56
+3	,	,	PUNCT	Punct	_	11	punct	_	start_char=56|end_char=57
+4	että	että	SCONJ	C	_	11	mark	_	start_char=58|end_char=62
+5	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	det	_	start_char=63|end_char=67
+6	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	11	nsubj:cop	_	start_char=68|end_char=73
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=74|end_char=76
+8	lähes	lähes	ADV	Adv	_	9	advmod	_	start_char=77|end_char=82
+9	15	15	NUM	Num	NumType=Card	10	nummod	_	start_char=83|end_char=85
+10	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	11	nmod	_	start_char=86|end_char=92
+11	vanha	vanha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	csubj:cop	_	start_char=93|end_char=98
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=98|end_char=99
+13	ja	ja	CCONJ	C	_	15	cc	_	start_char=100|end_char=102
+14	vielä	vielä	ADV	Adv	_	15	advmod	_	start_char=103|end_char=108
+15	enemmän	enemmän	ADV	Adv	_	11	conj	_	start_char=109|end_char=116
+16	,	,	PUNCT	Punct	_	22	punct	_	start_char=116|end_char=117
+17	että	että	SCONJ	C	_	22	mark	_	start_char=118|end_char=122
+18	Bill	Bill	PROPN	N	Case=Nom|Number=Sing	22	nsubj:cop	_	start_char=123|end_char=127
+19	Gates	Gates	PROPN	N	Case=Nom|Number=Sing	18	flat:name	_	start_char=128|end_char=133
+20	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	start_char=134|end_char=137
+21	niin	niin	ADV	Adv	_	22	advmod	_	start_char=138|end_char=142
+22	tarkka	tarkka	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	15	ccomp	_	start_char=143|end_char=149
+23	nykyteknologian	nyky#teknologia	NOUN	N	Case=Gen|Number=Sing	22	nmod	_	start_char=150|end_char=165
+24	suhteen	suhteen	ADP	Adp	AdpType=Post	23	case	_	start_char=166|end_char=173
+25	,	,	PUNCT	Punct	_	27	punct	_	start_char=173|end_char=174
+26	jota	joka	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	27	obj	_	start_char=175|end_char=179
+27	näemme	nähdä	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	start_char=180|end_char=186
+28	tänään	tänään	ADV	Adv	_	27	advmod	_	start_char=187|end_char=193
+29	.	.	PUNCT	Punct	_	2	punct	_	start_char=193|end_char=194
+
+# text = Se on hyvä lukukokemus nähdä tämän todella hämmästyttävän yrittäjän visio sekä saadaksesi käsityksen siitä, miten ajatella teknologian mahdollistavan arkipäivän elämän.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=195|end_char=197
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=198|end_char=200
+3	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	amod	_	start_char=201|end_char=205
+4	lukukokemus	luku#kokemus	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=206|end_char=217
+5	nähdä	nähdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	acl	_	start_char=218|end_char=223
+6	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	10	det	_	start_char=224|end_char=229
+7	todella	todella	ADV	Adv	_	8	advmod	_	start_char=230|end_char=237
+8	hämmästyttävän	hämmästyttävä	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	start_char=238|end_char=252
+9	yrittäjän	yrittäjä	NOUN	N	Case=Gen|Derivation=Ja|Number=Sing	10	nmod:poss	_	start_char=253|end_char=262
+10	visio	visio	NOUN	N	Case=Nom|Number=Sing	5	obj	_	start_char=263|end_char=268
+11	sekä	sekä	CCONJ	C	_	12	cc	_	start_char=269|end_char=273
+12	saadaksesi	saada	VERB	V	Case=Tra|InfForm=1|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	5	conj	_	start_char=274|end_char=284
+13	käsityksen	käsitys	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=285|end_char=295
+14	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	13	nmod	_	start_char=296|end_char=301
+15	,	,	PUNCT	Punct	_	17	punct	_	start_char=301|end_char=302
+16	miten	miten	ADV	Adv	_	17	advmod	_	start_char=303|end_char=308
+17	ajatella	ajatella	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	14	ccomp	_	start_char=309|end_char=317
+18	teknologian	teknologia	NOUN	N	Case=Gen|Number=Sing	19	nsubj	_	start_char=318|end_char=329
+19	mahdollistavan	mahdollistaa	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	17	xcomp:ds	_	start_char=330|end_char=344
+20	arkipäivän	arki#päivä	NOUN	N	Case=Gen|Number=Sing	21	nmod:poss	_	start_char=345|end_char=355
+21	elämän	elämä	NOUN	N	Case=Gen|Number=Sing	19	obj	_	start_char=356|end_char=362
+22	.	.	PUNCT	Punct	_	4	punct	_	start_char=362|end_char=363
+
+# text = Kuuntele, mitä Bill Gates sanoo teknologian tulevaisuudesta elämässäsi - menneisyys viittaa siihen, että hän tietää, mistä puhuu.
+# sent_id = 3
+1	Kuuntele	kuunnella	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=364|end_char=372
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=372|end_char=373
+3	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Int	6	obj	_	start_char=374|end_char=378
+4	Bill	Bill	PROPN	N	Case=Nom|Number=Sing	6	nsubj	_	start_char=379|end_char=383
+5	Gates	Gates	PROPN	N	Case=Nom|Number=Sing	4	flat:name	_	start_char=384|end_char=389
+6	sanoo	sanoa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=390|end_char=395
+7	teknologian	teknologia	NOUN	N	Case=Gen|Number=Sing	8	nmod:poss	_	start_char=396|end_char=407
+8	tulevaisuudesta	tulevaisuus	NOUN	N	Case=Ela|Derivation=Vs|Number=Sing	6	obl	_	start_char=408|end_char=423
+9	elämässäsi	elämä	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obl	_	start_char=424|end_char=434
+10	-	-	PUNCT	Punct	_	12	punct	_	start_char=435|end_char=436
+11	menneisyys	menneisyys	NOUN	N	Case=Nom|Number=Sing	12	nsubj	_	start_char=437|end_char=447
+12	viittaa	viitata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=448|end_char=455
+13	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	12	obl	_	start_char=456|end_char=462
+14	,	,	PUNCT	Punct	_	17	punct	_	start_char=462|end_char=463
+15	että	että	SCONJ	C	_	17	mark	_	start_char=464|end_char=468
+16	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=469|end_char=472
+17	tietää	tietää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	start_char=473|end_char=479
+18	,	,	PUNCT	Punct	_	20	punct	_	start_char=479|end_char=480
+19	mistä	mikä	PRON	Pron	Case=Ela|Number=Sing|PronType=Int	20	obl	_	start_char=481|end_char=486
+20	puhuu	puhua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	_	start_char=487|end_char=492
+21	.	.	PUNCT	Punct	_	1	punct	_	start_char=492|end_char=493
+

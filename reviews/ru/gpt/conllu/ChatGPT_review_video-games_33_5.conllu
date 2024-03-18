@@ -1,0 +1,139 @@
+# text = Отличная игра, все еще!
+# sent_id = 0
+1	Отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=13
+3	,	,	PUNCT	_	_	4	punct	_	start_char=13|end_char=14
+4	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	2	conj	_	start_char=15|end_char=18
+5	еще	еще	ADV	_	Degree=Pos	4	advmod	_	start_char=19|end_char=22
+6	!	!	PUNCT	_	_	2	punct	_	start_char=22|end_char=23
+
+# text = У меня была эта игра в детстве в 90-х, и я играл в нее религиозно с моими сестрами на нашем компьютере с Windows 95.
+# sent_id = 1
+1	У	у	ADP	_	_	2	case	_	start_char=24|end_char=25
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=26|end_char=30
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	start_char=31|end_char=35
+4	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=36|end_char=39
+5	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=40|end_char=44
+6	в	в	ADP	_	_	7	case	_	start_char=45|end_char=46
+7	детстве	детство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	start_char=47|end_char=54
+8	в	в	ADP	_	_	9	case	_	start_char=55|end_char=56
+9	90-х	90-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	obl	_	start_char=57|end_char=61
+10	,	,	PUNCT	_	_	13	punct	_	start_char=61|end_char=62
+11	и	и	CCONJ	_	_	13	cc	_	start_char=63|end_char=64
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=65|end_char=66
+13	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=67|end_char=72
+14	в	в	ADP	_	_	15	case	_	start_char=73|end_char=74
+15	нее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obl	_	start_char=75|end_char=78
+16	религиозно	религиозно	ADV	_	Degree=Pos	13	advmod	_	start_char=79|end_char=89
+17	с	с	ADP	_	_	19	case	_	start_char=90|end_char=91
+18	моими	мой	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs	19	det	_	start_char=92|end_char=97
+19	сестрами	сестра	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	start_char=98|end_char=106
+20	на	на	ADP	_	_	22	case	_	start_char=107|end_char=109
+21	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	start_char=110|end_char=115
+22	компьютере	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	start_char=116|end_char=126
+23	с	с	ADP	_	_	22	case	_	start_char=127|end_char=128
+24	Windows	Windows	PROPN	_	Foreign=Yes	22	flat:foreign	_	start_char=129|end_char=136
+25	95	95	NUM	_	NumType=Card	24	nummod:entity	_	start_char=137|end_char=139
+26	.	.	PUNCT	_	_	2	punct	_	start_char=139|end_char=140
+
+# text = Недавно я купил ее на шестой день рождения своей кузины, потому что я хочу, чтобы она развивала навыки работы с компьютером и решения задач.
+# sent_id = 2
+1	Недавно	недавно	ADV	_	Degree=Pos	3	advmod	_	start_char=141|end_char=148
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=149|end_char=150
+3	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=151|end_char=156
+4	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=157|end_char=159
+5	на	на	ADP	_	_	7	case	_	start_char=160|end_char=162
+6	шестой	шестой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=163|end_char=169
+7	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=170|end_char=174
+8	рождения	рождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=175|end_char=183
+9	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det	_	start_char=184|end_char=189
+10	кузины	кузина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=190|end_char=196
+11	,	,	PUNCT	_	_	15	punct	_	start_char=196|end_char=197
+12	потому	потому	ADV	_	Degree=Pos	15	mark	_	start_char=198|end_char=204
+13	что	что	SCONJ	_	_	12	fixed	_	start_char=205|end_char=208
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=209|end_char=210
+15	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=211|end_char=215
+16	,	,	PUNCT	_	_	19	punct	_	start_char=215|end_char=216
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	19	mark	_	start_char=217|end_char=222
+18	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=223|end_char=226
+19	развивала	развивать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	start_char=227|end_char=236
+20	навыки	навык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	start_char=237|end_char=243
+21	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=244|end_char=250
+22	с	с	ADP	_	_	23	case	_	start_char=251|end_char=252
+23	компьютером	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	21	nmod	_	start_char=253|end_char=264
+24	и	и	CCONJ	_	_	25	cc	_	start_char=265|end_char=266
+25	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	conj	_	start_char=267|end_char=274
+26	задач	задача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	start_char=275|end_char=280
+27	.	.	PUNCT	_	_	3	punct	_	start_char=280|end_char=281
+
+# text = Компьютеры и игры определенно изменились с тех пор, но это вечная игра, которая помогает детям развивать эти навыки веселым способом, без математических уравнений и правописания.
+# sent_id = 3
+1	Компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=282|end_char=292
+2	и	и	CCONJ	_	_	3	cc	_	start_char=293|end_char=294
+3	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=295|end_char=299
+4	определенно	определенно	ADV	_	Degree=Pos	5	advmod	_	start_char=300|end_char=311
+5	изменились	измениться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=312|end_char=322
+6	с	с	ADP	_	_	5	advmod	_	start_char=323|end_char=324
+7	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	6	fixed	_	start_char=325|end_char=328
+8	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	fixed	_	start_char=329|end_char=332
+9	,	,	PUNCT	_	_	13	punct	_	start_char=332|end_char=333
+10	но	но	CCONJ	_	_	13	cc	_	start_char=334|end_char=336
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=337|end_char=340
+12	вечная	вечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=341|end_char=347
+13	игра	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	start_char=348|end_char=352
+14	,	,	PUNCT	_	_	16	punct	_	start_char=352|end_char=353
+15	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	16	nsubj	_	start_char=354|end_char=361
+16	помогает	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=362|end_char=370
+17	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	iobj	_	start_char=371|end_char=376
+18	развивать	развивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=377|end_char=386
+19	эти	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	20	det	_	start_char=387|end_char=390
+20	навыки	навык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	start_char=391|end_char=397
+21	веселым	веселый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=398|end_char=405
+22	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	start_char=406|end_char=414
+23	,	,	PUNCT	_	_	26	punct	_	start_char=414|end_char=415
+24	без	без	ADP	_	_	26	case	_	start_char=416|end_char=419
+25	математических	математический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	start_char=420|end_char=434
+26	уравнений	уравнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	22	conj	_	start_char=435|end_char=444
+27	и	и	CCONJ	_	_	28	cc	_	start_char=445|end_char=446
+28	правописания	правописание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	conj	_	start_char=447|end_char=459
+29	.	.	PUNCT	_	_	5	punct	_	start_char=459|end_char=460
+
+# text = Наблюдать, как она играет, принесло мне очень приятные воспоминания и заставило меня захотеть снова поиграть.
+# sent_id = 4
+1	Наблюдать	наблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	csubj	_	start_char=461|end_char=470
+2	,	,	PUNCT	_	_	5	punct	_	start_char=470|end_char=471
+3	как	как	ADV	_	Degree=Pos	5	advmod	_	start_char=472|end_char=475
+4	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=476|end_char=479
+5	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=480|end_char=486
+6	,	,	PUNCT	_	_	1	punct	_	start_char=486|end_char=487
+7	принесло	принести	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=488|end_char=496
+8	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	start_char=497|end_char=500
+9	очень	очень	ADV	_	Degree=Pos	10	obl	_	start_char=501|end_char=506
+10	приятные	приятный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	start_char=507|end_char=515
+11	воспоминания	воспоминание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=516|end_char=528
+12	и	и	CCONJ	_	_	13	cc	_	start_char=529|end_char=530
+13	заставило	заставить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=531|end_char=540
+14	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	start_char=541|end_char=545
+15	захотеть	захотеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=546|end_char=554
+16	снова	снова	ADV	_	Degree=Pos	17	advmod	_	start_char=555|end_char=560
+17	поиграть	поиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=561|end_char=569
+18	.	.	PUNCT	_	_	7	punct	_	start_char=569|end_char=570
+
+# text = Кто бы вы ни были...
+# sent_id = 5
+1	Кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	0	root	_	start_char=571|end_char=574
+2	бы	бы	AUX	_	_	1	aux	_	start_char=575|end_char=577
+3	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	1	nsubj	_	start_char=578|end_char=580
+4	ни	ни	PART	_	_	1	advmod	_	start_char=581|end_char=583
+5	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	start_char=584|end_char=588
+6	.	.	PUNCT	_	_	5	punct	_	start_char=588|end_char=589
+7	.	.	PUNCT	_	_	5	punct	_	start_char=589|end_char=590
+8	.	.	PUNCT	_	_	1	punct	_	start_char=590|end_char=591
+
+# text = Сделайте мне пиццу!
+# sent_id = 6
+1	Сделайте	делать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=592|end_char=600
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=601|end_char=604
+3	пиццу	пицец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=605|end_char=610
+4	!	!	PUNCT	_	_	1	punct	_	start_char=610|end_char=611
+

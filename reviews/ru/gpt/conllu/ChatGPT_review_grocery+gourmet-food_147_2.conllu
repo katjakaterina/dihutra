@@ -1,0 +1,129 @@
+# text = Пудра корицы и лакрицы этот продукт плохой пример подлинной пятиспециевой пудры, за которую я заплатил 1,5 доллара за 4 унции на местности, несмотря на то, что другие продукты Dynasty полезны, такие как их сатэ-соус.
+# sent_id = 0
+1	Пудра	пудра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=5
+2	корицы	корица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=6|end_char=12
+3	и	и	CCONJ	_	_	4	cc	_	start_char=13|end_char=14
+4	лакрицы	лакрица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	start_char=15|end_char=22
+5	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	start_char=23|end_char=27
+6	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=28|end_char=35
+7	плохой	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=36|end_char=42
+8	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=43|end_char=49
+9	подлинной	подлинный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=50|end_char=59
+10	пятиспециевой	пятиспециевый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=60|end_char=73
+11	пудры	пудра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=74|end_char=79
+12	,	,	PUNCT	_	_	16	punct	_	start_char=79|end_char=80
+13	за	за	ADP	_	_	14	case	_	start_char=81|end_char=83
+14	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	16	obl	_	start_char=84|end_char=91
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=92|end_char=93
+16	заплатил	платить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=94|end_char=102
+17	1,5	1,5	NUM	_	NumType=Card	18	nummod	_	start_char=103|end_char=106
+18	доллара	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	start_char=107|end_char=114
+19	за	за	ADP	_	_	21	case	_	start_char=115|end_char=117
+20	4	4	NUM	_	NumType=Card	21	nummod	_	start_char=118|end_char=119
+21	унции	унция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=120|end_char=125
+22	на	на	ADP	_	_	23	case	_	start_char=126|end_char=128
+23	местности	местность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	start_char=129|end_char=138
+24	,	,	PUNCT	_	_	27	punct	_	start_char=138|end_char=139
+25	несмотря	несмотря	ADV	_	Polarity=Neg	27	case	_	start_char=140|end_char=148
+26	на	на	ADP	_	_	25	fixed	_	start_char=149|end_char=151
+27	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	start_char=152|end_char=154
+28	,	,	PUNCT	_	_	33	punct	_	start_char=154|end_char=155
+29	что	что	SCONJ	_	_	33	mark	_	start_char=156|end_char=159
+30	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	31	amod	_	start_char=160|end_char=166
+31	продукты	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	start_char=167|end_char=175
+32	Dynasty	Dynasty	PROPN	_	Foreign=Yes	31	flat:foreign	_	start_char=176|end_char=183
+33	полезны	полезный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	27	acl	_	start_char=184|end_char=191
+34	,	,	PUNCT	_	_	35	punct	_	start_char=191|end_char=192
+35	такие	такой	DET	_	Case=Nom|Number=Plur|PronType=Dem	33	det	_	start_char=193|end_char=198
+36	как	как	SCONJ	_	_	38	mark	_	start_char=199|end_char=202
+37	их	их	DET	_	Poss=Yes|PronType=Prs	38	det	_	start_char=203|end_char=205
+38	сатэ-соус	сатэ-соус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	35	obl	_	start_char=206|end_char=215
+39	.	.	PUNCT	_	_	8	punct	_	start_char=215|end_char=216
+
+# text = Я живу в пешей доступности от Флашинга, Квинс, и у меня есть представление, как она должна вкусить, благодаря подлинной азиатской кухне, которая продается неподалеку.
+# sent_id = 1
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=217|end_char=218
+2	живу	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=219|end_char=223
+3	в	в	ADP	_	_	5	case	_	start_char=224|end_char=225
+4	пешей	пешый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=226|end_char=231
+5	доступности	доступность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=232|end_char=243
+6	от	от	ADP	_	_	7	case	_	start_char=244|end_char=246
+7	Флашинга	Флашинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=247|end_char=255
+8	,	,	PUNCT	_	_	9	punct	_	start_char=255|end_char=256
+9	Квинс	Квинс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=257|end_char=262
+10	,	,	PUNCT	_	_	13	punct	_	start_char=262|end_char=263
+11	и	и	CCONJ	_	_	13	cc	_	start_char=264|end_char=265
+12	у	у	ADP	_	_	13	case	_	start_char=266|end_char=267
+13	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	conj	_	start_char=268|end_char=272
+14	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=273|end_char=277
+15	представление	представление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=278|end_char=291
+16	,	,	PUNCT	_	_	19	punct	_	start_char=291|end_char=292
+17	как	как	SCONJ	_	_	19	mark	_	start_char=293|end_char=296
+18	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=297|end_char=300
+19	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	15	acl	_	start_char=301|end_char=307
+20	вкусить	вкусить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	start_char=308|end_char=315
+21	,	,	PUNCT	_	_	25	punct	_	start_char=315|end_char=316
+22	благодаря	благодаря	ADP	_	_	25	case	_	start_char=317|end_char=326
+23	подлинной	подлинный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=327|end_char=336
+24	азиатской	азиатский	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	start_char=337|end_char=346
+25	кухне	кухня	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	start_char=347|end_char=352
+26	,	,	PUNCT	_	_	28	punct	_	start_char=352|end_char=353
+27	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	28	nsubj	_	start_char=354|end_char=361
+28	продается	продаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	25	acl:relcl	_	start_char=362|end_char=371
+29	неподалеку	неподалеку	ADV	_	Degree=Pos	28	advmod	_	start_char=372|end_char=382
+30	.	.	PUNCT	_	_	2	punct	_	start_char=382|end_char=383
+
+# text = Если вы хотите сэкономить, покупая через Amazon, вам лучше взять порошок "Five Spice" от Frontier, 1,92 унции.
+# sent_id = 2
+1	Если	если	SCONJ	_	_	3	mark	_	start_char=384|end_char=388
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=389|end_char=391
+3	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=392|end_char=398
+4	сэкономить	экономить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=399|end_char=409
+5	,	,	PUNCT	_	_	6	punct	_	start_char=409|end_char=410
+6	покупая	покупать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	start_char=411|end_char=418
+7	через	через	ADP	_	_	6	case	_	start_char=419|end_char=424
+8	Amazon	Amazon	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=425|end_char=431
+9	,	,	PUNCT	_	_	6	punct	_	start_char=431|end_char=432
+10	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	iobj	_	start_char=433|end_char=436
+11	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	start_char=437|end_char=442
+12	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	start_char=443|end_char=448
+13	порошок	порошок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=449|end_char=456
+14	"	"	PUNCT	_	_	15	punct	_	start_char=457|end_char=458
+15	Five	Five	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=458|end_char=462
+16	Spice	Spice	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=463|end_char=468
+17	"	"	PUNCT	_	_	15	punct	_	start_char=468|end_char=469
+18	от	от	ADP	_	_	13	case	_	start_char=470|end_char=472
+19	Frontier	Frontier	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=473|end_char=481
+20	,	,	PUNCT	_	_	22	punct	_	start_char=481|end_char=482
+21	1,92	1,92	NUM	_	NumType=Card	22	nummod	_	start_char=483|end_char=487
+22	унции	унция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	start_char=488|end_char=493
+23	.	.	PUNCT	_	_	11	punct	_	start_char=493|end_char=494
+
+# text = Кстати, "бадьян" или "анис" уже придает вкус лакрице, поэтому добавлять еще больше лакрицы в эту бутылку было глупо.
+# sent_id = 3
+1	Кстати	кстати	ADV	_	Degree=Pos	11	parataxis	_	start_char=495|end_char=501
+2	,	,	PUNCT	_	_	1	punct	_	start_char=501|end_char=502
+3	"	"	PUNCT	_	_	4	punct	_	start_char=503|end_char=504
+4	бадьян	бадьянин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=504|end_char=510
+5	"	"	PUNCT	_	_	4	punct	_	start_char=510|end_char=511
+6	или	или	CCONJ	_	_	8	cc	_	start_char=512|end_char=515
+7	"	"	PUNCT	_	_	8	punct	_	start_char=516|end_char=517
+8	анис	анис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	start_char=517|end_char=521
+9	"	"	PUNCT	_	_	8	punct	_	start_char=521|end_char=522
+10	уже	уже	ADV	_	Degree=Pos	11	advmod	_	start_char=523|end_char=526
+11	придает	придавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=527|end_char=534
+12	вкус	вкус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=535|end_char=539
+13	лакрице	лакрице	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	iobj	_	start_char=540|end_char=547
+14	,	,	PUNCT	_	_	24	punct	_	start_char=547|end_char=548
+15	поэтому	поэтому	ADV	_	Degree=Pos	24	advmod	_	start_char=549|end_char=556
+16	добавлять	добавлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	csubj	_	start_char=557|end_char=566
+17	еще	еще	ADV	_	Degree=Pos	18	advmod	_	start_char=567|end_char=570
+18	больше	больше	ADV	_	Degree=Cmp	19	advmod	_	start_char=571|end_char=577
+19	лакрицы	лакрица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	start_char=578|end_char=585
+20	в	в	ADP	_	_	22	case	_	start_char=586|end_char=587
+21	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	start_char=588|end_char=591
+22	бутылку	бутылка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	start_char=592|end_char=599
+23	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	start_char=600|end_char=604
+24	глупо	глупый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	conj	_	start_char=605|end_char=610
+25	.	.	PUNCT	_	_	11	punct	_	start_char=610|end_char=611
+

@@ -1,0 +1,73 @@
+# text = """Promjena boje traka" Kao i većina proizvoda za vježbanje, ove su korištene nekoliko puta i odložene u torbu nekoliko mjeseci.
+# sent_id = 0
+1	"	"	PUNCT	Z	_	17	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	17	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	4	punct	_	start_char=2|end_char=3
+4	Promjena	promjena	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=3|end_char=11
+5	boje	boja	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=12|end_char=16
+6	traka	traka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	start_char=17|end_char=22
+7	"	"	PUNCT	Z	_	4	punct	_	start_char=22|end_char=23
+8	Kao	kao	SCONJ	Cs	_	10	cc	_	start_char=24|end_char=27
+9	i	i	CCONJ	Cc	_	8	fixed	_	start_char=28|end_char=29
+10	većina	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	start_char=30|end_char=36
+11	proizvoda	proizvod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=37|end_char=46
+12	za	za	ADP	Sa	Case=Acc	13	case	_	start_char=47|end_char=49
+13	vježbanje	vježbanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	start_char=50|end_char=59
+14	,	,	PUNCT	Z	_	4	punct	_	start_char=59|end_char=60
+15	ove	ovaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	17	nsubj	_	start_char=61|end_char=64
+16	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=65|end_char=67
+17	korištene	koristiti	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	start_char=68|end_char=77
+18	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	19	det:numgov	_	start_char=78|end_char=86
+19	puta	put	ADV	Rgp	Degree=Pos	17	obl	_	start_char=87|end_char=91
+20	i	i	CCONJ	Cc	_	21	cc	_	start_char=92|end_char=93
+21	odložene	odložiti	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	17	conj	_	start_char=94|end_char=102
+22	u	u	ADP	Sa	Case=Acc	23	case	_	start_char=103|end_char=104
+23	torbu	torba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	start_char=105|end_char=110
+24	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	25	det:numgov	_	start_char=111|end_char=119
+25	mjeseci	mjesec	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	21	obl	_	start_char=120|end_char=127
+26	.	.	PUNCT	Z	_	17	punct	_	start_char=127|end_char=128
+
+# text = Izvadio/la sam ih kako bih ih ponovno počeo/la koristiti nakon prometne nesreće koja me spriječila da koristim slobodne utege, i trake počinju mijenjati boju i blijedjeti.
+# sent_id = 1
+1	Izvadio/la	izvadio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=129|end_char=139
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=140|end_char=143
+3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=144|end_char=146
+4	kako	kako	SCONJ	Cs	_	8	mark	_	start_char=147|end_char=151
+5	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	start_char=152|end_char=155
+6	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	start_char=156|end_char=158
+7	ponovno	ponovno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=159|end_char=166
+8	počeo/la	počeo/ti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	start_char=167|end_char=175
+9	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=176|end_char=185
+10	nakon	nakon	ADP	Sg	Case=Gen	12	case	_	start_char=186|end_char=191
+11	prometne	prometni	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=192|end_char=200
+12	nesreće	nesreća	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	start_char=201|end_char=208
+13	koja	koji	DET	Pi-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	15	nsubj	_	start_char=209|end_char=213
+14	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	start_char=214|end_char=216
+15	spriječila	spriječiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	12	acl	_	start_char=217|end_char=227
+16	da	da	SCONJ	Cs	_	17	mark	_	start_char=228|end_char=230
+17	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp	_	start_char=231|end_char=239
+18	slobodne	slobodan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	start_char=240|end_char=248
+19	utege	utega	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	start_char=249|end_char=254
+20	,	,	PUNCT	Z	_	23	punct	_	start_char=254|end_char=255
+21	i	i	CCONJ	Cc	_	22	cc	_	start_char=256|end_char=257
+22	trake	traka	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	19	conj	_	start_char=258|end_char=263
+23	počinju	počinjati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	start_char=264|end_char=271
+24	mijenjati	mijenjati	VERB	Vmn	VerbForm=Inf	23	xcomp	_	start_char=272|end_char=281
+25	boju	boja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	start_char=282|end_char=286
+26	i	i	CCONJ	Cc	_	27	cc	_	start_char=287|end_char=288
+27	blijedjeti	blijedjeti	VERB	Vmn	VerbForm=Inf	24	conj	_	start_char=289|end_char=299
+28	.	.	PUNCT	Z	_	1	punct	_	start_char=299|end_char=300
+
+# text = To me brine da se integritet gume oslabljuje..."
+# sent_id = 2
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=301|end_char=303
+2	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=304|end_char=306
+3	brine	brinuti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=307|end_char=312
+4	da	da	SCONJ	Cs	_	8	mark	_	start_char=313|end_char=315
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	start_char=316|end_char=318
+6	integritet	integritet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=319|end_char=329
+7	gume	guma	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=330|end_char=334
+8	oslabljuje	oslabljivati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=335|end_char=345
+9	...	...	PUNCT	Z	_	3	punct	_	start_char=345|end_char=348
+10	"	"	PUNCT	Z	_	3	punct	_	start_char=348|end_char=349
+

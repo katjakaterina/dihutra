@@ -1,0 +1,88 @@
+# text = Качественный кабель!
+# sent_id = 0
+1	Качественный	качественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=12
+2	кабель	кабель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=13|end_char=19
+3	!	!	PUNCT	_	_	2	punct	_	start_char=19|end_char=20
+
+# text = Получил этот кабель, чтобы подключить контроллер клавишной панели Rockband к моему M-audio profire 2626 для управления MIDI в Pro Tools.
+# sent_id = 1
+1	Получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=28
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=29|end_char=33
+3	кабель	кабель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=34|end_char=40
+4	,	,	PUNCT	_	_	6	punct	_	start_char=40|end_char=41
+5	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	start_char=42|end_char=47
+6	подключить	подключить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	advcl	_	start_char=48|end_char=58
+7	контроллер	контроллер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=59|end_char=69
+8	клавишной	клавишный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=70|end_char=79
+9	панели	панель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=80|end_char=86
+10	Rockband	Rockband	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=87|end_char=95
+11	к	к	ADP	_	_	9	case	_	start_char=96|end_char=97
+12	моему	мой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	start_char=98|end_char=103
+13	M-audio	M-audio	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=104|end_char=111
+14	profire	profire	X	_	Foreign=Yes	9	flat:foreign	_	start_char=112|end_char=119
+15	2626	2626	NUM	_	NumType=Card	13	appos	_	start_char=120|end_char=124
+16	для	для	ADP	_	_	17	case	_	start_char=125|end_char=128
+17	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	start_char=129|end_char=139
+18	MIDI	MIDI	PROPN	_	Foreign=Yes	17	flat:foreign	_	start_char=140|end_char=144
+19	в	в	ADP	_	_	17	case	_	start_char=145|end_char=146
+20	Pro	Pro	PROPN	_	Foreign=Yes	17	flat:foreign	_	start_char=147|end_char=150
+21	Tools	Tools	PROPN	_	Foreign=Yes	17	flat:foreign	_	start_char=151|end_char=156
+22	.	.	PUNCT	_	_	1	punct	_	start_char=156|end_char=157
+
+# text = Работает отлично!
+# sent_id = 2
+1	Работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=158|end_char=166
+2	отлично	отлично	ADV	_	Degree=Pos	1	advmod	_	start_char=167|end_char=174
+3	!	!	PUNCT	_	_	1	punct	_	start_char=174|end_char=175
+
+# text = Прочное соединение, качественные литые концы, известный бренд кабеля.
+# sent_id = 3
+1	Прочное	прочный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=176|end_char=183
+2	соединение	соединение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=184|end_char=194
+3	,	,	PUNCT	_	_	6	punct	_	start_char=194|end_char=195
+4	качественные	качественный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=196|end_char=208
+5	литые	литой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=209|end_char=214
+6	концы	конец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	start_char=215|end_char=220
+7	,	,	PUNCT	_	_	9	punct	_	start_char=220|end_char=221
+8	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=222|end_char=231
+9	бренд	бренд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=232|end_char=237
+10	кабеля	кабель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=238|end_char=244
+11	.	.	PUNCT	_	_	2	punct	_	start_char=244|end_char=245
+
+# text = (немного тонкий, но мне пока не приходилось сталкиваться с какими-либо проблемами из-за этого.
+# sent_id = 4
+1	(	(	PUNCT	_	_	3	punct	_	start_char=246|end_char=247
+2	немного	немного	ADV	_	Degree=Pos	3	advmod	_	start_char=247|end_char=254
+3	тонкий	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=255|end_char=261
+4	,	,	PUNCT	_	_	9	punct	_	start_char=261|end_char=262
+5	но	но	CCONJ	_	_	9	cc	_	start_char=263|end_char=265
+6	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	start_char=266|end_char=269
+7	пока	пока	ADV	_	Degree=Pos	9	advmod	_	start_char=270|end_char=274
+8	не	не	PART	_	_	9	advmod	_	start_char=275|end_char=277
+9	приходилось	приходиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=278|end_char=289
+10	сталкиваться	сталкиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	csubj	_	start_char=290|end_char=302
+11	с	с	ADP	_	_	13	case	_	start_char=303|end_char=304
+12	какими-либо	какой-либо	DET	_	Case=Ins|Number=Plur|PronType=Ind	13	det	_	start_char=305|end_char=316
+13	проблемами	проблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	start_char=317|end_char=327
+14	из-за	из-за	ADP	_	_	15	case	_	start_char=328|end_char=333
+15	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	start_char=334|end_char=339
+16	.	.	PUNCT	_	_	3	punct	_	start_char=339|end_char=340
+
+# text = За $5 на момент моей покупки и с возможностью Prime - невозможно ошибиться.
+# sent_id = 5
+1	За	за	ADP	_	_	2	case	_	start_char=341|end_char=343
+2	$	$	SYM	_	_	13	obl	_	start_char=344|end_char=345
+3	5	5	NUM	_	NumType=Card	2	nummod	_	start_char=345|end_char=346
+4	на	на	ADP	_	_	5	case	_	start_char=347|end_char=349
+5	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	start_char=350|end_char=356
+6	моей	мой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=357|end_char=361
+7	покупки	покупка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=362|end_char=369
+8	и	и	CCONJ	_	_	10	cc	_	start_char=370|end_char=371
+9	с	с	ADP	_	_	10	case	_	start_char=372|end_char=373
+10	возможностью	возможность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	conj	_	start_char=374|end_char=386
+11	Prime	Prime	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=387|end_char=392
+12	-	-	PUNCT	_	_	2	punct	_	start_char=393|end_char=394
+13	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=395|end_char=405
+14	ошибиться	ошибиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	csubj	_	start_char=406|end_char=415
+15	.	.	PUNCT	_	_	13	punct	_	start_char=415|end_char=416
+

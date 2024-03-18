@@ -1,0 +1,73 @@
+# text = Erittäin informatiivinen
+# sent_id = 0
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=0|end_char=8
+2	informatiivinen	informatiivinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	0	root	_	start_char=9|end_char=24
+
+# text = Tämä on todella loistava kirja!
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=25|end_char=29
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=30|end_char=32
+3	todella	todella	ADV	Adv	_	4	advmod	_	start_char=33|end_char=40
+4	loistava	loistava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=41|end_char=49
+5	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=50|end_char=55
+6	!	!	PUNCT	Punct	_	5	punct	_	start_char=55|end_char=56
+
+# text = Sain tämän kirjan viiteoppaaksi, kun kouluttauduin ammattimaiseksi hoitajaksi, ja se oli niin avulias ja informatiivinen!
+# sent_id = 2
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=57|end_char=61
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=62|end_char=67
+3	kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=68|end_char=74
+4	viiteoppaaksi	viite#opas	NOUN	N	Case=Tra|Number=Sing	1	xcomp:ds	_	start_char=75|end_char=88
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=88|end_char=89
+6	kun	kun	SCONJ	C	_	7	mark	_	start_char=90|end_char=93
+7	kouluttauduin	kouluttaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=94|end_char=107
+8	ammattimaiseksi	ammatti#mainen	ADJ	A	Case=Tra|Degree=Pos|Derivation=Inen|Number=Sing	9	amod	_	start_char=108|end_char=123
+9	hoitajaksi	hoitaja	NOUN	N	Case=Tra|Derivation=Ja|Number=Sing	7	xcomp:ds	_	start_char=124|end_char=134
+10	,	,	PUNCT	Punct	_	15	punct	_	start_char=134|end_char=135
+11	ja	ja	CCONJ	C	_	15	cc	_	start_char=136|end_char=138
+12	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	15	nsubj:cop	_	start_char=139|end_char=141
+13	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	15	cop	_	start_char=142|end_char=145
+14	niin	niin	ADV	Adv	_	15	advmod	_	start_char=146|end_char=150
+15	avulias	avulias	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	conj	_	start_char=151|end_char=158
+16	ja	ja	CCONJ	C	_	17	cc	_	start_char=159|end_char=161
+17	informatiivinen	informatiivinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	15	conj	_	start_char=162|end_char=177
+18	!	!	PUNCT	Punct	_	1	punct	_	start_char=177|end_char=178
+
+# text = Ohjeet ovat yksityiskohtaisia niin, ettei jätä sinua jumiin miljoonan kysymyksen kanssa, mutta samalla tarpeeksi yksinkertaisia, jotta kuka tahansa voi ymmärtää ne.
+# sent_id = 3
+1	Ohjeet	ohje	NOUN	N	Case=Nom|Number=Plur	3	nsubj:cop	_	start_char=179|end_char=185
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=186|end_char=190
+3	yksityiskohtaisia	yksityis#kohtainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	0	root	_	start_char=191|end_char=208
+4	niin	niin	ADV	Adv	_	3	advmod	_	start_char=209|end_char=213
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=213|end_char=214
+6-7	ettei	_	_	_	_	_	_	_	start_char=215|end_char=220
+6	että	että	SCONJ	C	_	8	mark	_	_
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	jätä	jättää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	start_char=221|end_char=225
+9	sinua	sinä	PRON	Pron	Case=Par|Number=Sing|Person=2|PronType=Prs	8	obj	_	start_char=226|end_char=231
+10	jumiin	jumiin	ADV	Adv	_	8	advmod	_	start_char=232|end_char=238
+11	miljoonan	miljoona	NUM	Num	Case=Gen|NumType=Card|Number=Sing	12	nummod	_	start_char=239|end_char=248
+12	kysymyksen	kysymys	NOUN	N	Case=Gen|Number=Sing	8	obl	_	start_char=249|end_char=259
+13	kanssa	kanssa	ADP	Adp	AdpType=Post	12	case	_	start_char=260|end_char=266
+14	,	,	PUNCT	Punct	_	18	punct	_	start_char=266|end_char=267
+15	mutta	mutta	CCONJ	C	_	18	cc	_	start_char=268|end_char=273
+16	samalla	samalla	ADV	Adv	_	18	advmod	_	start_char=274|end_char=281
+17	tarpeeksi	tarpeeksi	ADV	Adv	_	18	advmod	_	start_char=282|end_char=291
+18	yksinkertaisia	yksinkertainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	3	conj	_	start_char=292|end_char=306
+19	,	,	PUNCT	Punct	_	24	punct	_	start_char=306|end_char=307
+20	jotta	jotta	SCONJ	C	_	24	mark	_	start_char=308|end_char=313
+21	kuka	kuka	PRON	Pron	Case=Nom|Number=Sing|PronType=Int	24	nsubj	_	start_char=314|end_char=318
+22	tahansa	tahansa	ADV	Adv	_	21	fixed	_	start_char=319|end_char=326
+23	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	start_char=327|end_char=330
+24	ymmärtää	ymmärtää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	18	advcl	_	start_char=331|end_char=339
+25	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	24	obj	_	start_char=340|end_char=342
+26	.	.	PUNCT	Punct	_	3	punct	_	start_char=342|end_char=343
+
+# text = Tämä on välttämätön kirja.
+# sent_id = 4
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=344|end_char=348
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=349|end_char=351
+3	välttämätön	välttämätön	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	4	amod	_	start_char=352|end_char=363
+4	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=364|end_char=369
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=369|end_char=370
+

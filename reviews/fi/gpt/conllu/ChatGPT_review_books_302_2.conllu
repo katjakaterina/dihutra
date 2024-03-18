@@ -1,0 +1,95 @@
+# text = Sokeiden maassa...
+# sent_id = 0
+1	Sokeiden	soke	NOUN	N	Case=Gen|Number=Plur	2	nmod:poss	_	start_char=0|end_char=8
+2	maassa	maa	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=9|end_char=15
+3	...	...	PUNCT	Punct	_	2	punct	_	start_char=15|end_char=18
+
+# text = Tämä kirjallinen teos lupaa valistusta, mutta epäonnistuu täyttämään lupauksensa.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	det	_	start_char=19|end_char=23
+2	kirjallinen	kirjallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	3	amod	_	start_char=24|end_char=35
+3	teos	teos	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	start_char=36|end_char=40
+4	lupaa	luvata	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=41|end_char=46
+5	valistusta	valistus	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=47|end_char=57
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=57|end_char=58
+7	mutta	mutta	CCONJ	C	_	8	cc	_	start_char=59|end_char=64
+8	epäonnistuu	epä#onnistua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=65|end_char=76
+9	täyttämään	täyttää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=77|end_char=87
+10	lupauksensa	lupaus	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	9	obj	_	start_char=88|end_char=99
+11	.	.	PUNCT	Punct	_	4	punct	_	start_char=99|end_char=100
+
+# text = Vaikka kulkuri profeetta tosiaan puhuu kauniisti ja hänen sanansa inspiroivat syvää pohdintaa, ne eivät kykene välittämään todellista ymmärrystä.
+# sent_id = 2
+1	Vaikka	vaikka	SCONJ	C	_	5	mark	_	start_char=101|end_char=107
+2	kulkuri	kulkuri	NOUN	N	Case=Nom|Number=Sing	3	compound:nn	_	start_char=108|end_char=115
+3	profeetta	profeetta	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	start_char=116|end_char=125
+4	tosiaan	tosiaan	ADV	Adv	_	5	advmod	_	start_char=126|end_char=133
+5	puhuu	puhua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	start_char=134|end_char=139
+6	kauniisti	kauniisti	ADV	Adv	Derivation=Sti	5	advmod	_	start_char=140|end_char=149
+7	ja	ja	CCONJ	C	_	10	cc	_	start_char=150|end_char=152
+8	hänen	hän	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	start_char=153|end_char=158
+9	sanansa	sana	NOUN	N	Case=Nom|Number=Plur|Person[psor]=3	10	nsubj	_	start_char=159|end_char=166
+10	inspiroivat	inspiroida	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=167|end_char=178
+11	syvää	syvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	12	amod	_	start_char=179|end_char=184
+12	pohdintaa	pohdinta	NOUN	N	Case=Par|Number=Sing	10	obj	_	start_char=185|end_char=194
+13	,	,	PUNCT	Punct	_	5	punct	_	start_char=194|end_char=195
+14	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	16	nsubj	_	start_char=196|end_char=198
+15	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	start_char=199|end_char=204
+16	kykene	kyetä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=205|end_char=211
+17	välittämään	välittää	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=212|end_char=223
+18	todellista	todellinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Llinen|Number=Sing	19	amod	_	start_char=224|end_char=234
+19	ymmärrystä	ymmärrys	NOUN	N	Case=Par|Number=Sing	17	obj	_	start_char=235|end_char=245
+20	.	.	PUNCT	Punct	_	16	punct	_	start_char=245|end_char=246
+
+# text = Alkuperäinen puhe rakkaudesta on kiehtova, mutta sen jälkeen se laskeutuu nopeasti tyhjiin retorisiin pohdintoihin, jotka jatkuvat katkeran loppuun saakka.
+# sent_id = 3
+1	Alkuperäinen	alku#peräinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=247|end_char=259
+2	puhe	puhe	NOUN	N	Case=Nom|Number=Sing	5	nsubj:cop	_	start_char=260|end_char=264
+3	rakkaudesta	rakkaus	NOUN	N	Case=Ela|Derivation=Vs|Number=Sing	2	nmod	_	start_char=265|end_char=276
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=277|end_char=279
+5	kiehtova	kiehtova	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=280|end_char=288
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=288|end_char=289
+7	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=290|end_char=295
+8	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	obl	_	start_char=296|end_char=299
+9	jälkeen	jälkeen	ADP	Adp	AdpType=Post	8	case	_	start_char=300|end_char=307
+10	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=308|end_char=310
+11	laskeutuu	laskeutua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=311|end_char=320
+12	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	11	advmod	_	start_char=321|end_char=329
+13	tyhjiin	tyhjä	ADJ	A	Case=Ill|Degree=Pos|Number=Plur	15	amod	_	start_char=330|end_char=337
+14	retorisiin	retorinen	ADJ	A	Case=Ill|Degree=Pos|Derivation=Inen|Number=Plur	15	amod	_	start_char=338|end_char=348
+15	pohdintoihin	pohdinta	NOUN	N	Case=Ill|Number=Plur	11	obl	_	start_char=349|end_char=361
+16	,	,	PUNCT	Punct	_	18	punct	_	start_char=361|end_char=362
+17	jotka	joka	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	18	nsubj	_	start_char=363|end_char=368
+18	jatkuvat	jatkua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=369|end_char=377
+19	katkeran	katkera	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	20	amod	_	start_char=378|end_char=386
+20	loppuun	loppu	NOUN	N	Case=Ill|Derivation=U|Number=Sing	18	obl	_	start_char=387|end_char=394
+21	saakka	saakka	ADP	Adp	AdpType=Post	20	case	_	start_char=395|end_char=401
+22	.	.	PUNCT	Punct	_	5	punct	_	start_char=401|end_char=402
+
+# text = Kirjan viihdyttävin osa on kielellisen ilmaisun taitava käyttö, joka melkein peittää sen tosiasian, että profeetta tosiaan puhuu mutta ei sano mitään.
+# sent_id = 4
+1	Kirjan	kirja	NOUN	N	Case=Gen|Number=Sing	3	nmod:poss	_	start_char=403|end_char=409
+2	viihdyttävin	viihdyttävä	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	3	amod	_	start_char=410|end_char=422
+3	osa	osa	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=423|end_char=426
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=427|end_char=429
+5	kielellisen	kielellinen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Inen|Number=Sing	6	amod	_	start_char=430|end_char=441
+6	ilmaisun	ilmaisu	NOUN	N	Case=Gen|Derivation=U|Number=Sing	8	nmod:gobj	_	start_char=442|end_char=450
+7	taitava	taitava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	start_char=451|end_char=458
+8	käyttö	käyttö	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=459|end_char=465
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=465|end_char=466
+10	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	start_char=467|end_char=471
+11	melkein	melkein	ADV	Adv	_	12	advmod	_	start_char=472|end_char=479
+12	peittää	peittää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=480|end_char=487
+13	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	14	det	_	start_char=488|end_char=491
+14	tosiasian	tosi#asia	NOUN	N	Case=Gen|Number=Sing	12	obj	_	start_char=492|end_char=501
+15	,	,	PUNCT	Punct	_	19	punct	_	start_char=501|end_char=502
+16	että	että	SCONJ	C	_	19	mark	_	start_char=503|end_char=507
+17	profeetta	profeetta	NOUN	N	Case=Nom|Number=Sing	19	nsubj	_	start_char=508|end_char=517
+18	tosiaan	tosiaan	ADV	Adv	_	19	advmod	_	start_char=518|end_char=525
+19	puhuu	puhua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	start_char=526|end_char=531
+20	mutta	mutta	CCONJ	C	_	22	cc	_	start_char=532|end_char=537
+21	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	22	aux	_	start_char=538|end_char=540
+22	sano	sanoa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	start_char=541|end_char=545
+23	mitään	mikään	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	22	obj	_	start_char=546|end_char=552
+24	.	.	PUNCT	Punct	_	8	punct	_	start_char=552|end_char=553
+

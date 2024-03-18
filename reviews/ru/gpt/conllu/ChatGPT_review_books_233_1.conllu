@@ -1,0 +1,87 @@
+# text = Отлично Те, которые я начал читать, у меня есть и я бы порекомендовал их другим.
+# sent_id = 0
+1	Отлично	отличный	ADV	_	Degree=Pos	11	advmod	_	start_char=0|end_char=7
+2	Те	тот	DET	_	Case=Nom|Number=Plur|PronType=Dem	11	nsubj	_	start_char=8|end_char=10
+3	,	,	PUNCT	_	_	6	punct	_	start_char=10|end_char=11
+4	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	7	obj	_	start_char=12|end_char=19
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=20|end_char=21
+6	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=22|end_char=27
+7	читать	читать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=28|end_char=34
+8	,	,	PUNCT	_	_	2	punct	_	start_char=34|end_char=35
+9	у	у	ADP	_	_	10	case	_	start_char=36|end_char=37
+10	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	obl	_	start_char=38|end_char=42
+11	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=43|end_char=47
+12	и	и	CCONJ	_	_	15	cc	_	start_char=48|end_char=49
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=50|end_char=51
+14	бы	бы	AUX	_	_	15	aux	_	start_char=52|end_char=54
+15	порекомендовал	рекомендовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	start_char=55|end_char=69
+16	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	start_char=70|end_char=72
+17	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	15	iobj	_	start_char=73|end_char=79
+18	.	.	PUNCT	_	_	11	punct	_	start_char=79|end_char=80
+
+# text = Пейн отлично справился с описанием рынка для тех, кто не имеет финансового опыта.
+# sent_id = 1
+1	Пейн	пейн	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=81|end_char=85
+2	отлично	отлично	ADV	_	Degree=Pos	3	advmod	_	start_char=86|end_char=93
+3	справился	справиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=94|end_char=103
+4	с	с	ADP	_	_	5	case	_	start_char=104|end_char=105
+5	описанием	описание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	start_char=106|end_char=115
+6	рынка	рынок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=116|end_char=121
+7	для	для	ADP	_	_	8	case	_	start_char=122|end_char=125
+8	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	6	det	_	start_char=126|end_char=129
+9	,	,	PUNCT	_	_	12	punct	_	start_char=129|end_char=130
+10	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	12	nsubj	_	start_char=131|end_char=134
+11	не	не	PART	_	_	12	advmod	_	start_char=135|end_char=137
+12	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=138|end_char=143
+13	финансового	финансовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=144|end_char=155
+14	опыта	опыт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	start_char=156|end_char=161
+15	.	.	PUNCT	_	_	3	punct	_	start_char=161|end_char=162
+
+# text = Я наслаждаюсь "Пророком" (книгой) уже много лет, и записью этой же книги Харрисом.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=163|end_char=164
+2	наслаждаюсь	наслаждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=165|end_char=176
+3	"	"	PUNCT	_	_	4	punct	_	start_char=177|end_char=178
+4	Пророком	Пророк	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	start_char=178|end_char=186
+5	"	"	PUNCT	_	_	4	punct	_	start_char=186|end_char=187
+6	(	(	PUNCT	_	_	7	punct	_	start_char=188|end_char=189
+7	книгой	книга	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	parataxis	_	start_char=189|end_char=195
+8	)	)	PUNCT	_	_	7	punct	_	start_char=195|end_char=196
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	start_char=197|end_char=200
+10	много	много	NUM	_	NumType=Card	11	nummod:gov	_	start_char=201|end_char=206
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	start_char=207|end_char=210
+12	,	,	PUNCT	_	_	14	punct	_	start_char=210|end_char=211
+13	и	и	CCONJ	_	_	14	cc	_	start_char=212|end_char=213
+14	записью	запись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	conj	_	start_char=214|end_char=221
+15	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	start_char=222|end_char=226
+16	же	же	PART	_	_	15	advmod	_	start_char=227|end_char=229
+17	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=230|end_char=235
+18	Харрисом	Харрис	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	nmod	_	start_char=236|end_char=244
+19	.	.	PUNCT	_	_	2	punct	_	start_char=244|end_char=245
+
+# text = Я даже износил вульгарно 33 оборота в минуту виниловую пластинку во время учебы и заменил ее на CD, когда они появились.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=246|end_char=247
+2	даже	даже	PART	_	_	3	advmod	_	start_char=248|end_char=252
+3	износил	износить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=253|end_char=260
+4	вульгарно	вульгарный	ADV	_	Degree=Pos	5	advmod	_	start_char=261|end_char=270
+5	33	33	NUM	_	NumType=Card	6	nummod	_	start_char=271|end_char=273
+6	оборота	оборот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=274|end_char=281
+7	в	в	ADP	_	_	8	case	_	start_char=282|end_char=283
+8	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=284|end_char=290
+9	виниловую	виниловый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=291|end_char=300
+10	пластинку	пластинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=301|end_char=310
+11	во	в	ADP	_	_	13	case	_	start_char=311|end_char=313
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	start_char=314|end_char=319
+13	учебы	учеба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=320|end_char=325
+14	и	и	CCONJ	_	_	15	cc	_	start_char=326|end_char=327
+15	заменил	заменить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=328|end_char=335
+16	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	start_char=336|end_char=338
+17	на	на	ADP	_	_	15	case	_	start_char=339|end_char=341
+18	CD	CD	PROPN	_	Foreign=Yes	15	flat:foreign	_	start_char=342|end_char=344
+19	,	,	PUNCT	_	_	22	punct	_	start_char=344|end_char=345
+20	когда	когда	SCONJ	_	_	22	mark	_	start_char=346|end_char=351
+21	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	start_char=352|end_char=355
+22	появились	появиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	15	advcl	_	start_char=356|end_char=365
+23	.	.	PUNCT	_	_	3	punct	_	start_char=365|end_char=366
+

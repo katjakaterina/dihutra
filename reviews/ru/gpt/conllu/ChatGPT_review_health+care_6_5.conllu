@@ -1,0 +1,61 @@
+# text = 9,99 долларов, мило и симпатично Свет включается, когда предмет выдвигается.
+# sent_id = 0
+1	9,99	9,99	NUM	_	NumType=Card	2	nummod	_	start_char=0|end_char=4
+2	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj:pass	_	start_char=5|end_char=13
+3	,	,	PUNCT	_	_	4	punct	_	start_char=13|end_char=14
+4	мило	милый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	advmod	_	start_char=15|end_char=19
+5	и	и	CCONJ	_	_	6	cc	_	start_char=20|end_char=21
+6	симпатично	симпатично	ADV	_	Degree=Pos	4	conj	_	start_char=22|end_char=32
+7	Свет	свет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	start_char=33|end_char=37
+8	включается	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=38|end_char=48
+9	,	,	PUNCT	_	_	12	punct	_	start_char=48|end_char=49
+10	когда	когда	SCONJ	_	_	12	mark	_	start_char=50|end_char=55
+11	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=56|end_char=63
+12	выдвигается	выдвигаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	advcl	_	start_char=64|end_char=75
+13	.	.	PUNCT	_	_	8	punct	_	start_char=75|end_char=76
+
+# text = Это намного удобнее использовать, чем пластиковый закладной увеличитель и палочка-увеличитель, которые я ранее приобретал.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=77|end_char=80
+2	намного	намного	ADV	_	Degree=Pos	3	obl	_	start_char=81|end_char=88
+3	удобнее	удобный	ADJ	_	Degree=Cmp	0	root	_	start_char=89|end_char=96
+4	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj	_	start_char=97|end_char=109
+5	,	,	PUNCT	_	_	9	punct	_	start_char=109|end_char=110
+6	чем	чем	SCONJ	_	_	9	mark	_	start_char=111|end_char=114
+7	пластиковый	пластиковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=115|end_char=126
+8	закладной	закладной	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=127|end_char=136
+9	увеличитель	увеличитель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	advcl	_	start_char=137|end_char=148
+10	и	и	CCONJ	_	_	11	cc	_	start_char=149|end_char=150
+11	палочка	палочка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	conj	_	start_char=151|end_char=158
+12	-	-	PUNCT	_	_	13	punct	_	start_char=158|end_char=159
+13	увеличитель	увеличитель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	start_char=159|end_char=170
+14	,	,	PUNCT	_	_	18	punct	_	start_char=170|end_char=171
+15	которые	который	PRON	_	Case=Acc|PronType=Int,Rel	18	obj	_	start_char=172|end_char=179
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=180|end_char=181
+17	ранее	ранее	ADV	_	Degree=Pos	18	advmod	_	start_char=182|end_char=187
+18	приобретал	приобретать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=188|end_char=198
+19	.	.	PUNCT	_	_	3	punct	_	start_char=198|end_char=199
+
+# text = Мне было приятно, что он светился, когда мне нужно было увидеть серийный номер на задней стороне iPod.
+# sent_id = 2
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	start_char=200|end_char=203
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=204|end_char=208
+3	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=209|end_char=216
+4	,	,	PUNCT	_	_	7	punct	_	start_char=216|end_char=217
+5	что	что	SCONJ	_	_	7	mark	_	start_char=218|end_char=221
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=222|end_char=224
+7	светился	светиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	ccomp	_	start_char=225|end_char=233
+8	,	,	PUNCT	_	_	11	punct	_	start_char=233|end_char=234
+9	когда	когда	SCONJ	_	_	11	mark	_	start_char=235|end_char=240
+10	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	iobj	_	start_char=241|end_char=244
+11	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	advcl	_	start_char=245|end_char=250
+12	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=251|end_char=255
+13	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	start_char=256|end_char=263
+14	серийный	серийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=264|end_char=272
+15	номер	номер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=273|end_char=278
+16	на	на	ADP	_	_	18	case	_	start_char=279|end_char=281
+17	задней	задний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=282|end_char=288
+18	стороне	сторона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	start_char=289|end_char=296
+19	iPod	Ipod	PROPN	_	Foreign=Yes	18	flat:foreign	_	start_char=297|end_char=301
+20	.	.	PUNCT	_	_	3	punct	_	start_char=301|end_char=302
+

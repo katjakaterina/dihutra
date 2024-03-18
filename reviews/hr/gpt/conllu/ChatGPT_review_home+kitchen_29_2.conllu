@@ -1,0 +1,85 @@
+# text = Martha Stewartove svadbene torte
+# sent_id = 0
+1	Martha	Marth	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=0|end_char=6
+2	Stewartove	stewartov	ADJ	Aspfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|Poss=Yes	4	amod	_	start_char=7|end_char=17
+3	svadbene	svadbeni	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=18|end_char=26
+4	torte	torta	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	flat	_	start_char=27|end_char=32
+
+# text = Kupila sam mnogo knjiga o ukrašavanju torti, ali ako tražite vodič za ukrašavanje torti, toplo preporučujem da kupite Collette Peters ili Peggy Porschen.
+# sent_id = 1
+1	Kupila	kupiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=33|end_char=39
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=40|end_char=43
+3	mnogo	mnogo	DET	Rgp	Degree=Pos	4	det:numgov	_	start_char=44|end_char=49
+4	knjiga	knjiga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obj	_	start_char=50|end_char=56
+5	o	o	ADP	Sl	Case=Loc	6	case	_	start_char=57|end_char=58
+6	ukrašavanju	ukrašavanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	start_char=59|end_char=70
+7	torti	torta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=71|end_char=76
+8	,	,	PUNCT	Z	_	18	punct	_	start_char=76|end_char=77
+9	ali	ali	CCONJ	Cc	_	18	cc	_	start_char=78|end_char=81
+10	ako	ako	SCONJ	Cs	_	11	list	_	start_char=82|end_char=85
+11	tražite	tražiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=86|end_char=93
+12	vodič	vodič	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=94|end_char=99
+13	za	za	ADP	Sa	Case=Acc	14	case	_	start_char=100|end_char=102
+14	ukrašavanje	ukrašavanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	start_char=103|end_char=114
+15	torti	torta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	start_char=115|end_char=120
+16	,	,	PUNCT	Z	_	11	punct	_	start_char=120|end_char=121
+17	toplo	toplo	ADV	Rgp	Degree=Pos	18	advmod	_	start_char=122|end_char=127
+18	preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=128|end_char=140
+19	da	da	SCONJ	Cs	_	20	mark	_	start_char=141|end_char=143
+20	kupite	kupiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	18	ccomp	_	start_char=144|end_char=150
+21	Collette	Collette	PROPN	Npmsa	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	start_char=151|end_char=159
+22	Peters	Peters	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	flat	_	start_char=160|end_char=166
+23	ili	ili	CCONJ	Cc	_	24	cc	_	start_char=167|end_char=170
+24	Peggy	Peggy	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	start_char=171|end_char=176
+25	Porschen	Porschen	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	start_char=177|end_char=185
+26	.	.	PUNCT	Z	_	1	punct	_	start_char=185|end_char=186
+
+# text = Iako ova knjiga ima puno fotografija, pruža neke informacije, ali ne puno, i iskreno, za tu cijenu radije bih kupila časopis o svadbenim tortama.
+# sent_id = 2
+1	Iako	iako	SCONJ	Cs	_	4	mark	_	start_char=187|end_char=191
+2	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=192|end_char=195
+3	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=196|end_char=202
+4	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	start_char=203|end_char=206
+5	puno	puno	DET	Rgp	Degree=Pos	6	det:numgov	_	start_char=207|end_char=211
+6	fotografija	fotografija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	obj	_	start_char=212|end_char=223
+7	,	,	PUNCT	Z	_	4	punct	_	start_char=223|end_char=224
+8	pruža	pružati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=225|end_char=230
+9	neke	neki	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	start_char=231|end_char=235
+10	informacije	informacija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=236|end_char=247
+11	,	,	PUNCT	Z	_	24	punct	_	start_char=247|end_char=248
+12	ali	ali	CCONJ	Cc	_	24	cc	_	start_char=249|end_char=252
+13	ne	ne	PART	Qz	Polarity=Neg	14	advmod	_	start_char=253|end_char=255
+14	puno	puno	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=256|end_char=260
+15	,	,	PUNCT	Z	_	17	punct	_	start_char=260|end_char=261
+16	i	i	CCONJ	Cc	_	17	cc	_	start_char=262|end_char=263
+17	iskreno	iskreno	ADV	Rgp	Degree=Pos	14	conj	_	start_char=264|end_char=271
+18	,	,	PUNCT	Z	_	17	punct	_	start_char=271|end_char=272
+19	za	za	ADP	Sa	Case=Acc	21	case	_	start_char=273|end_char=275
+20	tu	taj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	start_char=276|end_char=278
+21	cijenu	cijena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	start_char=279|end_char=285
+22	radije	rado	ADV	Rgc	Degree=Cmp	24	advmod	_	start_char=286|end_char=292
+23	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	24	aux	_	start_char=293|end_char=296
+24	kupila	kupiti	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	conj	_	start_char=297|end_char=303
+25	časopis	časopis	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=304|end_char=311
+26	o	o	ADP	Sl	Case=Loc	28	case	_	start_char=312|end_char=313
+27	svadbenim	svadbeni	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	28	amod	_	start_char=314|end_char=323
+28	tortama	torta	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	25	nmod	_	start_char=324|end_char=331
+29	.	.	PUNCT	Z	_	8	punct	_	start_char=331|end_char=332
+
+# text = Ova knjiga bila je razočaranje, nije bila baš korisna niti od pomoći.
+# sent_id = 3
+1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=333|end_char=336
+2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=337|end_char=343
+3	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=344|end_char=348
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=349|end_char=351
+5	razočaranje	razočaranje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=352|end_char=363
+6	,	,	PUNCT	Z	_	10	punct	_	start_char=363|end_char=364
+7	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=365|end_char=369
+8	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	cop	_	start_char=370|end_char=374
+9	baš	baš	PART	Qo	_	10	advmod	_	start_char=375|end_char=378
+10	korisna	koristan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	start_char=379|end_char=386
+11	niti	niti	CCONJ	Cc	_	13	cc	_	start_char=387|end_char=391
+12	od	od	ADP	Sg	Case=Gen	13	case	_	start_char=392|end_char=394
+13	pomoći	pomoć	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	start_char=395|end_char=401
+14	.	.	PUNCT	Z	_	5	punct	_	start_char=401|end_char=402
+

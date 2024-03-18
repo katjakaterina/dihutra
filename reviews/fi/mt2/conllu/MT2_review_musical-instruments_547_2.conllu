@@ -1,0 +1,107 @@
+# text = Liian iso.
+# sent_id = 0
+1	Liian	liian	ADV	Adv	_	2	advmod	_	start_char=0|end_char=5
+2	iso	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=6|end_char=9
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=9|end_char=10
+
+# text = Anteeksi, en pidä näistä, koska ne ovat vain liian suuria.
+# sent_id = 1
+1	Anteeksi	anteeksi	ADV	Adv	_	4	advmod	_	start_char=11|end_char=19
+2	,	,	PUNCT	Punct	_	1	punct	_	start_char=19|end_char=20
+3	en	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=21|end_char=23
+4	pidä	pitää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=24|end_char=28
+5	näistä	tämä	PRON	Pron	Case=Ela|Number=Plur|PronType=Dem	4	obl	_	start_char=29|end_char=35
+6	,	,	PUNCT	Punct	_	12	punct	_	start_char=35|end_char=36
+7	koska	koska	SCONJ	C	_	12	mark	_	start_char=37|end_char=42
+8	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	12	nsubj:cop	_	start_char=43|end_char=45
+9	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=46|end_char=50
+10	vain	vain	ADV	Adv	_	12	advmod	_	start_char=51|end_char=55
+11	liian	liian	ADV	Adv	_	12	advmod	_	start_char=56|end_char=61
+12	suuria	suuri	ADJ	A	Case=Par|Degree=Pos|Number=Plur	4	advcl	_	start_char=62|end_char=68
+13	.	.	PUNCT	Punct	_	4	punct	_	start_char=68|end_char=69
+
+# text = Ne erottuvat liikaa.
+# sent_id = 2
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	2	nsubj	_	start_char=70|end_char=72
+2	erottuvat	erottua	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=73|end_char=82
+3	liikaa	liikaa	ADV	Adv	_	2	advmod	_	start_char=83|end_char=89
+4	.	.	PUNCT	Punct	_	2	punct	_	start_char=89|end_char=90
+
+# text = Ne toimivat ja ovat tehokkaita, mutta ne ovat liian voimakkaita.
+# sent_id = 3
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	2	nsubj	_	start_char=91|end_char=93
+2	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=94|end_char=102
+3	ja	ja	CCONJ	C	_	5	cc	_	start_char=103|end_char=105
+4	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=106|end_char=110
+5	tehokkaita	tehokas	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	conj	_	start_char=111|end_char=121
+6	,	,	PUNCT	Punct	_	11	punct	_	start_char=121|end_char=122
+7	mutta	mutta	CCONJ	C	_	11	cc	_	start_char=123|end_char=128
+8	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	11	nsubj:cop	_	start_char=129|end_char=131
+9	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	start_char=132|end_char=136
+10	liian	liian	ADV	Adv	_	11	advmod	_	start_char=137|end_char=142
+11	voimakkaita	voimakas	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	conj	_	start_char=143|end_char=154
+12	.	.	PUNCT	Punct	_	2	punct	_	start_char=154|end_char=155
+
+# text = Hyviä vaihtoehtoja on monia; hihnan tiivisteet, hihnan lukot, tapin irrottaminen ja laittaminen suoraan kitaran hihnaan.
+# sent_id = 4
+1	Hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	amod	_	start_char=156|end_char=161
+2	vaihtoehtoja	vaihto#ehto	NOUN	N	Case=Par|Number=Plur	4	nsubj:cop	_	start_char=162|end_char=174
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=175|end_char=177
+4	monia	moni	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	0	root	_	start_char=178|end_char=183
+5	;	;	PUNCT	Punct	_	7	punct	_	start_char=183|end_char=184
+6	hihnan	hihna	NOUN	N	Case=Gen|Number=Sing	7	nmod:poss	_	start_char=185|end_char=191
+7	tiivisteet	tiiviste	NOUN	N	Case=Nom|Number=Plur	4	appos	_	start_char=192|end_char=202
+8	,	,	PUNCT	Punct	_	10	punct	_	start_char=202|end_char=203
+9	hihnan	hihna	NOUN	N	Case=Gen|Number=Sing	10	nmod:poss	_	start_char=204|end_char=210
+10	lukot	lukko	NOUN	N	Case=Nom|Number=Plur	7	conj	_	start_char=211|end_char=216
+11	,	,	PUNCT	Punct	_	13	punct	_	start_char=216|end_char=217
+12	tapin	tappi	NOUN	N	Case=Gen|Number=Sing	13	nmod:gobj	_	start_char=218|end_char=223
+13	irrottaminen	irrottaminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	7	conj	_	start_char=224|end_char=236
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=237|end_char=239
+15	laittaminen	laittaminen	NOUN	N	Case=Nom|Derivation=Minen|Number=Sing	7	conj	_	start_char=240|end_char=251
+16	suoraan	suoraan	ADV	Adv	_	18	advmod	_	start_char=252|end_char=259
+17	kitaran	kitara	NOUN	N	Case=Gen|Number=Sing	18	nmod:poss	_	start_char=260|end_char=267
+18	hihnaan	hihna	NOUN	N	Case=Ill|Number=Sing	15	nmod	_	start_char=268|end_char=275
+19	.	.	PUNCT	Punct	_	4	punct	_	start_char=275|end_char=276
+
+# text = Ne taas toimivat, mutta ne eivät ole esteettisiä eivätkä elegantteja.
+# sent_id = 5
+1	Ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	_	start_char=277|end_char=279
+2	taas	taas	ADV	Adv	_	3	advmod	_	start_char=280|end_char=284
+3	toimivat	toimia	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=285|end_char=293
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=293|end_char=294
+5	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=295|end_char=300
+6	ne	se	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	9	nsubj:cop	_	start_char=301|end_char=303
+7	eivät	ei	AUX	V	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=304|end_char=309
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=310|end_char=313
+9	esteettisiä	esteettinen	ADJ	A	Case=Par|Degree=Pos|Derivation=Inen|Number=Plur	3	conj	_	start_char=314|end_char=325
+10	eivätkä	ei	AUX	V	Clitic=Ka|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	start_char=326|end_char=333
+11	elegantteja	elega#tiete	ADJ	A	Case=Par|Degree=Pos|Number=Plur	9	conj	_	start_char=334|end_char=345
+12	.	.	PUNCT	Punct	_	3	punct	_	start_char=345|end_char=346
+
+# text = Sain myös kultasetin bassolleni ja nyt näyttää siltä, että minun pitäisi soittaa isot violetit alustat.
+# sent_id = 6
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=347|end_char=351
+2	myös	myös	ADV	Adv	_	3	advmod	_	start_char=352|end_char=356
+3	kultasetin	kulta#setti	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=357|end_char=367
+4	bassolleni	basso	NOUN	N	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=1	1	obl	_	start_char=368|end_char=378
+5	ja	ja	CCONJ	C	_	7	cc	_	start_char=379|end_char=381
+6	nyt	nyt	ADV	Adv	_	7	advmod	_	start_char=382|end_char=385
+7	näyttää	näyttää	VERB	V	Mood=Ind|Number=Sing|Person=0|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=386|end_char=393
+8	siltä	se	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	7	obl	_	start_char=394|end_char=399
+9	,	,	PUNCT	Punct	_	13	punct	_	start_char=399|end_char=400
+10	että	että	SCONJ	C	_	13	mark	_	start_char=401|end_char=405
+11	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=406|end_char=411
+12	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	13	aux	_	start_char=412|end_char=419
+13	soittaa	soittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	ccomp	_	start_char=420|end_char=427
+14	isot	iso	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	start_char=428|end_char=432
+15	violetit	violetti	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	start_char=433|end_char=441
+16	alustat	alusta	NOUN	N	Case=Nom|Number=Plur	13	obj	_	start_char=442|end_char=449
+17	.	.	PUNCT	Punct	_	1	punct	_	start_char=449|end_char=450
+
+# text = Ei siistiä.
+# sent_id = 7
+1	Ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=451|end_char=453
+2	siistiä	siisti	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=454|end_char=461
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=461|end_char=462
+

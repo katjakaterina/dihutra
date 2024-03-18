@@ -1,0 +1,94 @@
+# text = Väärä mac!
+# sent_id = 0
+1	Väärä	väärä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	mac	mac	X	Foreign	Foreign=Yes	0	root	_	start_char=6|end_char=9
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=9|end_char=10
+
+# text = Väärennetty MAC.
+# sent_id = 1
+1	Väärennetty	väärentää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	2	acl	_	start_char=11|end_char=22
+2	MAC	MAC	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=23|end_char=26
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=26|end_char=27
+
+# text = Toinen.
+# sent_id = 2
+1	Toinen	toinen	ADJ	Num	Case=Nom|Derivation=Inen|NumType=Ord|Number=Sing	0	root	_	start_char=28|end_char=34
+2	.	.	PUNCT	Punct	_	1	punct	_	start_char=34|end_char=35
+
+# text = Mac ei tee tällaisia paletteja.
+# sent_id = 3
+1	Mac	Mac	PROPN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=36|end_char=39
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=40|end_char=42
+3	tee	tehdä	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=43|end_char=46
+4	tällaisia	tällainen	ADJ	A	Case=Par|Degree=Pos|Derivation=Lainen|Number=Plur	5	amod	_	start_char=47|end_char=56
+5	paletteja	paletti	NOUN	N	Case=Par|Number=Plur	3	obj	_	start_char=57|end_char=66
+6	.	.	PUNCT	Punct	_	3	punct	_	start_char=66|end_char=67
+
+# text = Jos et ole varma, vie se ostoskeskuksen MAc-kauppaan, he varmistavat, että kaikki nämä paletit ovat väärennettyjä.
+# sent_id = 4
+1	Jos	jos	SCONJ	C	_	4	mark	_	start_char=68|end_char=71
+2	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=72|end_char=74
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=75|end_char=78
+4	varma	varma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	advcl	_	start_char=79|end_char=84
+5	,	,	PUNCT	Punct	_	4	punct	_	start_char=84|end_char=85
+6	vie	vie	INTJ	Interj	_	4	discourse	_	start_char=86|end_char=89
+7	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=90|end_char=92
+8	ostoskeskuksen	ostos#keskus	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	start_char=93|end_char=107
+9	MAc-kauppaan	MAc#kauppa	NOUN	N	Case=Ill|Number=Sing	4	obl	_	start_char=108|end_char=120
+10	,	,	PUNCT	Punct	_	4	punct	_	start_char=120|end_char=121
+11	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=122|end_char=124
+12	varmistavat	varmistaa	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=125|end_char=136
+13	,	,	PUNCT	Punct	_	19	punct	_	start_char=136|end_char=137
+14	että	että	SCONJ	C	_	19	mark	_	start_char=138|end_char=142
+15	kaikki	kaikki	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	17	det	_	start_char=143|end_char=149
+16	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	17	det	_	start_char=150|end_char=154
+17	paletit	paletti	NOUN	N	Case=Nom|Number=Plur	19	nsubj:cop	_	start_char=155|end_char=162
+18	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	start_char=163|end_char=167
+19	väärennettyjä	väärentää	VERB	V	Case=Par|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	12	ccomp	_	start_char=168|end_char=181
+20	.	.	PUNCT	Punct	_	12	punct	_	start_char=181|end_char=182
+
+# text = Myyjä kirjoittaa omat arvostelunsa.
+# sent_id = 5
+1	Myyjä	myyjä	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	2	nsubj	_	start_char=183|end_char=188
+2	kirjoittaa	kirjoittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=189|end_char=199
+3	omat	oma	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	start_char=200|end_char=204
+4	arvostelunsa	arvostelu	NOUN	N	Case=Nom|Number=Plur|Person[psor]=3	2	obj	_	start_char=205|end_char=217
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=217|end_char=218
+
+# text = Eri nimillä, kuten Victoria, Alexis ja a&#34;.-&#34; merkki.
+# sent_id = 6
+1	Eri	eri	ADJ	A	_	2	amod	_	start_char=219|end_char=222
+2	nimillä	nimi	NOUN	N	Case=Ade|Number=Plur	0	root	_	start_char=223|end_char=230
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=230|end_char=231
+4	kuten	kuten	ADV	Adv	_	5	advmod	_	start_char=232|end_char=237
+5	Victoria	Victoria	PROPN	N	Case=Nom|Number=Sing	2	appos	_	start_char=238|end_char=246
+6	,	,	PUNCT	Punct	_	7	punct	_	start_char=246|end_char=247
+7	Alexis	Alexis	PROPN	N	Case=Nom|Number=Sing	5	conj	_	start_char=248|end_char=254
+8	ja	ja	CCONJ	C	_	9	cc	_	start_char=255|end_char=257
+9	a	a	NOUN	N	Abbr=Yes|Case=Nom|Number=Sing	5	conj	_	start_char=258|end_char=259
+10	&	&	SYM	Punct	_	9	flat:name	_	start_char=259|end_char=260
+11	#34;.	#34;.	SYM	Symb	_	9	flat:name	_	start_char=260|end_char=265
+12	-	-	PUNCT	Punct	_	14	punct	_	start_char=265|end_char=266
+13	&	&	SYM	Punct	_	14	cc	_	start_char=266|end_char=267
+14	#34	#34	SYM	Symb	_	5	conj	_	start_char=267|end_char=270
+15	;	;	PUNCT	Punct	_	16	punct	_	start_char=270|end_char=271
+16	merkki	merkki	NOUN	N	Case=Nom|Number=Sing	5	conj	_	start_char=272|end_char=278
+17	.	.	PUNCT	Punct	_	2	punct	_	start_char=278|end_char=279
+
+# text = Vain väärennettyjen palettien myynnin lisäämiseksi.
+# sent_id = 7
+1	Vain	vain	ADV	Adv	_	5	advmod	_	start_char=280|end_char=284
+2	väärennettyjen	väärentää	VERB	V	Case=Gen|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=285|end_char=299
+3	palettien	paletti	NOUN	N	Case=Gen|Number=Plur	4	nmod:gobj	_	start_char=300|end_char=309
+4	myynnin	myynti	NOUN	N	Case=Gen|Number=Sing	5	nmod:gobj	_	start_char=310|end_char=317
+5	lisäämiseksi	lisääminen	NOUN	N	Case=Tra|Derivation=Minen|Number=Sing	0	root	_	start_char=318|end_char=330
+6	.	.	PUNCT	Punct	_	5	punct	_	start_char=330|end_char=331
+
+# text = Älä tue fake Macia.
+# sent_id = 8
+1	Älä	ei	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=332|end_char=335
+2	tue	tukea	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=336|end_char=339
+3	fake	fake	PROPN	N	Case=Nom|Number=Sing	2	obj	_	start_char=340|end_char=344
+4	Macia	Macia	PROPN	N	Case=Par|Number=Sing	2	obj	_	start_char=345|end_char=350
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=350|end_char=351
+

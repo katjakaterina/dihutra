@@ -1,0 +1,53 @@
+# text = Dunlop The Original CryBaby -pedaali
+# sent_id = 0
+1	Dunlop	Dunlop	PROPN	N	Case=Nom|Number=Sing	5	compound:nn	_	start_char=0|end_char=6
+2	The	The	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	start_char=7|end_char=10
+3	Original	Original	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	start_char=11|end_char=19
+4	CryBaby	CryBaby	PROPN	N	Case=Nom|Number=Sing	1	flat:name	_	start_char=20|end_char=27
+5	-pedaali	pedaali	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=28|end_char=36
+
+# text = Jos haluat kitarasi kuulostavan Eddie Van Halenilta, Joe Satrianilta ja muiden kitaristien studioalbumien kitarasoundilta, hanki BOSS GT-10 (kitaramultiefektiprosessori) ja asenna siihen James Limborgin BOSS GT-10 -päivitykset.
+# sent_id = 1
+1	Jos	jos	SCONJ	C	_	2	mark	_	start_char=37|end_char=40
+2	haluat	haluta	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	start_char=41|end_char=47
+3	kitarasi	kitara	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	start_char=48|end_char=56
+4	kuulostavan	kuulostaa	VERB	V	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	2	xcomp:ds	_	start_char=57|end_char=68
+5	Eddie	Eddie	PROPN	N	Case=Nom|Number=Sing	4	obl	_	start_char=69|end_char=74
+6	Van	Van	PROPN	N	Case=Nom|Number=Sing	5	flat:name	_	start_char=75|end_char=78
+7	Halenilta	Halen	PROPN	N	Case=Abl|Number=Sing	5	flat:name	_	start_char=79|end_char=88
+8	,	,	PUNCT	Punct	_	9	punct	_	start_char=88|end_char=89
+9	Joe	Joe	PROPN	N	Case=Nom|Number=Sing	5	conj	_	start_char=90|end_char=93
+10	Satrianilta	Satrian	PROPN	N	Case=Abl|Number=Sing	9	flat:name	_	start_char=94|end_char=105
+11	ja	ja	CCONJ	C	_	15	cc	_	start_char=106|end_char=108
+12	muiden	muu	PRON	Pron	Case=Gen|Number=Plur|PronType=Ind	13	det	_	start_char=109|end_char=115
+13	kitaristien	kitaristi	NOUN	N	Case=Gen|Number=Plur	14	nmod:poss	_	start_char=116|end_char=127
+14	studioalbumien	studio#albumi	NOUN	N	Case=Gen|Number=Plur	15	nmod:poss	_	start_char=128|end_char=142
+15	kitarasoundilta	kitara#sounti	NOUN	N	Case=Abl|Number=Sing	5	conj	_	start_char=143|end_char=158
+16	,	,	PUNCT	Punct	_	2	punct	_	start_char=158|end_char=159
+17	hanki	hankkia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=160|end_char=165
+18	BOSS	BOSS	PROPN	N	Case=Nom|Number=Sing	17	nsubj	_	start_char=166|end_char=170
+19	GT-10	GT-10	SYM	Symb	_	18	flat:name	_	start_char=171|end_char=176
+20	(	(	PUNCT	Punct	_	21	punct	_	start_char=177|end_char=178
+21	kitaramultiefektiprosessori	kitara#multi#efektierosessori	NOUN	N	Case=Nom|Number=Sing	18	appos	_	start_char=178|end_char=205
+22	)	)	PUNCT	Punct	_	21	punct	_	start_char=205|end_char=206
+23	ja	ja	CCONJ	C	_	24	cc	_	start_char=207|end_char=209
+24	asenna	asentaa	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	17	conj	_	start_char=210|end_char=216
+25	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	24	obl	_	start_char=217|end_char=223
+26	James	James	PROPN	N	Case=Nom|Number=Sing	30	nmod:poss	_	start_char=224|end_char=229
+27	Limborgin	Limborg	PROPN	N	Case=Gen|Number=Sing	26	flat:name	_	start_char=230|end_char=239
+28	BOSS	BOSS	PROPN	N	Case=Nom|Number=Sing	30	compound:nn	_	start_char=240|end_char=244
+29	GT-10	GT-10	PROPN	N	Case=Nom|Number=Sing	28	flat:name	_	start_char=245|end_char=250
+30	-päivitykset	päivitys	NOUN	N	Case=Nom|Number=Plur	24	obj	_	start_char=251|end_char=263
+31	.	.	PUNCT	Punct	_	17	punct	_	start_char=263|end_char=264
+
+# text = Etsi Googlesta James Limborgin BOSS GT-10 -päivityksiä.
+# sent_id = 2
+1	Etsi	etsiä	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=265|end_char=269
+2	Googlesta	Google	PROPN	N	Case=Ela|Number=Sing	1	obl	_	start_char=270|end_char=279
+3	James	James	PROPN	N	Case=Nom|Number=Sing	7	nmod:poss	_	start_char=280|end_char=285
+4	Limborgin	Limborg	PROPN	N	Case=Gen|Number=Sing	3	flat:name	_	start_char=286|end_char=295
+5	BOSS	BOSS	PROPN	N	Case=Nom|Number=Sing	7	compound:nn	_	start_char=296|end_char=300
+6	GT-10	GT-10	PROPN	N	Case=Nom|Number=Sing	5	flat:name	_	start_char=301|end_char=306
+7	-päivityksiä	päivitys	NOUN	N	Case=Par|Number=Plur	1	obj	_	start_char=307|end_char=319
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=319|end_char=320
+

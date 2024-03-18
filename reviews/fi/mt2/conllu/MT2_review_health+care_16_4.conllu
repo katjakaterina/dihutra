@@ -1,0 +1,67 @@
+# text = Erittäin kätevä, toimii hyvin Annoin tälle vain 4 tähteä 5 sijasta pakkauksen vuoksi.
+# sent_id = 0
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=0|end_char=8
+2	kätevä	kätevä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=9|end_char=15
+3	,	,	PUNCT	Punct	_	4	punct	_	start_char=15|end_char=16
+4	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	start_char=17|end_char=23
+5	hyvin	hyvin	ADV	Adv	_	4	advmod	_	start_char=24|end_char=29
+6	Annoin	antaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	csubj:cop	_	start_char=30|end_char=36
+7	tälle	tämä	PRON	Pron	Case=All|Number=Sing|PronType=Dem	6	obl	_	start_char=37|end_char=42
+8	vain	vain	ADV	Adv	_	9	advmod	_	start_char=43|end_char=47
+9	4	4	NUM	Num	NumType=Card	10	nummod	_	start_char=48|end_char=49
+10	tähteä	tähti	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=50|end_char=56
+11	5	5	NUM	Num	NumType=Card	13	nummod	_	start_char=57|end_char=58
+12	sijasta	sijasta	ADP	Adp	AdpType=Post	11	case	_	start_char=59|end_char=66
+13	pakkauksen	pakkaus	NOUN	N	Case=Gen|Number=Sing	6	obl	_	start_char=67|end_char=77
+14	vuoksi	vuoksi	ADP	Adp	AdpType=Post	13	case	_	start_char=78|end_char=84
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=84|end_char=85
+
+# text = Muovi on terävä, eikä sitä ole niin helppo kuljettaa laukussa puukottelematta sitä, mutta ilman muovilaatikkoa suurennuslasi naarmuuntuu hyvin.
+# sent_id = 1
+1	Muovi	muovi	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=86|end_char=91
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=92|end_char=94
+3	terävä	terävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=95|end_char=101
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=101|end_char=102
+5	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	start_char=103|end_char=107
+6	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	10	obj	_	start_char=108|end_char=112
+7	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=113|end_char=116
+8	niin	niin	ADV	Adv	_	9	advmod	_	start_char=117|end_char=121
+9	helppo	helppo	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=122|end_char=128
+10	kuljettaa	kuljettaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	9	xcomp:ds	_	start_char=129|end_char=138
+11	laukussa	laukku	NOUN	N	Case=Ine|Number=Sing	10	obl	_	start_char=139|end_char=147
+12	puukottelematta	puukotella	VERB	V	Case=Abe|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=148|end_char=163
+13	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	12	obj	_	start_char=164|end_char=168
+14	,	,	PUNCT	Punct	_	19	punct	_	start_char=168|end_char=169
+15	mutta	mutta	CCONJ	C	_	19	cc	_	start_char=170|end_char=175
+16	ilman	ilman	ADP	Adp	AdpType=Prep	17	case	_	start_char=176|end_char=181
+17	muovilaatikkoa	muovi#laatikko	NOUN	N	Case=Par|Number=Sing	19	obl	_	start_char=182|end_char=196
+18	suurennuslasi	suurennus#lasi	NOUN	N	Case=Nom|Number=Sing	19	nsubj	_	start_char=197|end_char=210
+19	naarmuuntuu	naarmuuntua	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	start_char=211|end_char=222
+20	hyvin	hyvin	ADV	Adv	_	19	advmod	_	start_char=223|end_char=228
+21	.	.	PUNCT	Punct	_	3	punct	_	start_char=228|end_char=229
+
+# text = Voin hävittää muovilaatikon, mutta pidä suurennuslasi jossain pehmeässä, kuten pienessä sukassa.
+# sent_id = 2
+1	Voin	voida	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=230|end_char=234
+2	hävittää	hävittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=235|end_char=243
+3	muovilaatikon	muovi#laatikko	NOUN	N	Case=Gen|Number=Sing	2	obj	_	start_char=244|end_char=257
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=257|end_char=258
+5	mutta	mutta	CCONJ	C	_	6	cc	_	start_char=259|end_char=264
+6	pidä	pitää	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	start_char=265|end_char=269
+7	suurennuslasi	suurennus#lasi	NOUN	N	Case=Nom|Number=Sing	6	obj	_	start_char=270|end_char=283
+8	jossain	jokin	PRON	Pron	Case=Ine|Number=Sing|PronType=Ind	9	det	_	start_char=284|end_char=291
+9	pehmeässä	pehmeä	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	13	amod	_	start_char=292|end_char=301
+10	,	,	PUNCT	Punct	_	13	punct	_	start_char=301|end_char=302
+11	kuten	kuten	SCONJ	C	_	13	mark	_	start_char=303|end_char=308
+12	pienessä	pieni	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	13	amod	_	start_char=309|end_char=317
+13	sukassa	sukka	NOUN	N	Case=Ine|Number=Sing	6	obl	_	start_char=318|end_char=325
+14	.	.	PUNCT	Punct	_	2	punct	_	start_char=325|end_char=326
+
+# text = Muuten suurennuslasi toimii loistavasti.
+# sent_id = 3
+1	Muuten	muuten	ADV	Adv	_	3	advmod	_	start_char=327|end_char=333
+2	suurennuslasi	suurennus#lasi	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=334|end_char=347
+3	toimii	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=348|end_char=354
+4	loistavasti	loistavasti	ADV	Adv	Derivation=Sti	3	advmod	_	start_char=355|end_char=366
+5	.	.	PUNCT	Punct	_	3	punct	_	start_char=366|end_char=367
+

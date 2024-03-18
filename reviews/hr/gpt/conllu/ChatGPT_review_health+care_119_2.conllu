@@ -1,0 +1,90 @@
+# text = Trajnost je vrlo loša.
+# sent_id = 0
+1	Trajnost	trajnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=8
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=9|end_char=11
+3	vrlo	vrlo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=12|end_char=16
+4	loša	loš	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=17|end_char=21
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=21|end_char=22
+
+# text = Na početku su ove baterije fantastične.
+# sent_id = 1
+1	Na	na	ADP	Sl	Case=Loc	2	case	_	start_char=23|end_char=25
+2	početku	početak	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=26|end_char=33
+3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=34|end_char=36
+4	ove	ovaj	DET	Pd-fsg	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	start_char=37|end_char=40
+5	baterije	baterija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=41|end_char=49
+6	fantastične	fantastičan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=50|end_char=61
+7	.	.	PUNCT	Z	_	6	punct	_	start_char=61|end_char=62
+
+# text = Snažne, dobro se pune.
+# sent_id = 2
+1	Snažne	snažan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	5	parataxis	_	start_char=63|end_char=69
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=69|end_char=70
+3	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=71|end_char=76
+4	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=77|end_char=79
+5	pune	pun	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=80|end_char=84
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=84|end_char=85
+
+# text = No, nakon otprilike 20, možda 30 punjenja, neke od mojih baterija jednostavno crknu.
+# sent_id = 3
+1	No	no	CCONJ	Cc	_	16	cc	_	start_char=86|end_char=88
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=88|end_char=89
+3	nakon	nakon	ADP	Sg	Case=Gen	5	case	_	start_char=90|end_char=95
+4	otprilike	otprilike	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=96|end_char=105
+5	20	20	NUM	Mdc	NumType=Card	9	nummod:gov	_	start_char=106|end_char=108
+6	,	,	PUNCT	Z	_	5	punct	_	start_char=108|end_char=109
+7	možda	možda	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=110|end_char=115
+8	30	30	NUM	Mdc	NumType=Card	9	nummod:gov	_	start_char=116|end_char=118
+9	punjenja	punjenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	obl	_	start_char=119|end_char=127
+10	,	,	PUNCT	Z	_	9	punct	_	start_char=127|end_char=128
+11	neke	neki	DET	Pi-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	start_char=129|end_char=133
+12	od	od	ADP	Sg	Case=Gen	14	case	_	start_char=134|end_char=136
+13	mojih	moj	DET	Ps1fpg	Case=Gen|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	start_char=137|end_char=142
+14	baterija	baterija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	nsubj	_	start_char=143|end_char=151
+15	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=152|end_char=163
+16	crknu	crkiti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=164|end_char=169
+17	.	.	PUNCT	Z	_	16	punct	_	start_char=169|end_char=170
+
+# text = Ili ne zadrže napunjenost duže od jedne noći.
+# sent_id = 4
+1	Ili	ili	CCONJ	Cc	_	3	cc	_	start_char=171|end_char=174
+2	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=175|end_char=177
+3	zadrže	zadržati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=178|end_char=184
+4	napunjenost	napunjenost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=185|end_char=196
+5	duže	dugo	ADV	Rgc	Degree=Cmp	4	advmod	_	start_char=197|end_char=201
+6	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=202|end_char=204
+7	jedne	jedan	NUM	Mlcfsg	Case=Gen|Gender=Fem|NumType=Card|Number=Sing	8	nummod	_	start_char=205|end_char=210
+8	noći	noć	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=211|end_char=215
+9	.	.	PUNCT	Z	_	3	punct	_	start_char=215|end_char=216
+
+# text = To je stvarno loše.
+# sent_id = 5
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=217|end_char=219
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=220|end_char=222
+3	stvarno	stvarno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=223|end_char=230
+4	loše	loš	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=231|end_char=235
+5	.	.	PUNCT	Z	_	4	punct	_	start_char=235|end_char=236
+
+# text = Kupio sam otprilike 5 ili 6 (4 pakiranja) ovih baterija, više od polovine njih je beskorisno.
+# sent_id = 6
+1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=237|end_char=242
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=243|end_char=246
+3	otprilike	otprilike	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=247|end_char=256
+4	5	5	NUM	Mdc	NumType=Card	1	obl	_	start_char=257|end_char=258
+5	ili	ili	CCONJ	Cc	_	6	cc	_	start_char=259|end_char=262
+6	6	6	NUM	Mdc	NumType=Card	4	conj	_	start_char=263|end_char=264
+7	(	(	PUNCT	Z	_	9	punct	_	start_char=265|end_char=266
+8	4	4	NUM	Mdc	NumType=Card	9	nummod	_	start_char=266|end_char=267
+9	pakiranja	pakiranje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	1	parataxis	_	start_char=268|end_char=277
+10	)	)	PUNCT	Z	_	9	punct	_	start_char=277|end_char=278
+11	ovih	ovaj	DET	Pd-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	12	det	_	start_char=279|end_char=283
+12	baterija	baterija	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=284|end_char=292
+13	,	,	PUNCT	Z	_	19	punct	_	start_char=292|end_char=293
+14	više	mnogo	ADV	Rgc	Degree=Cmp	19	advmod	_	start_char=294|end_char=298
+15	od	od	ADP	Sg	Case=Gen	16	case	_	start_char=299|end_char=301
+16	polovine	polovina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	start_char=302|end_char=310
+17	njih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	16	nmod	_	start_char=311|end_char=315
+18	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	start_char=316|end_char=318
+19	beskorisno	beskoristan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	start_char=319|end_char=329
+20	.	.	PUNCT	Z	_	1	punct	_	start_char=329|end_char=330
+

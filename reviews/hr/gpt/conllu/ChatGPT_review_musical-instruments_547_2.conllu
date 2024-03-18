@@ -1,0 +1,114 @@
+# text = Prevelike.
+# sent_id = 0
+1	Prevelike	prevelik	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=9
+2	.	.	PUNCT	Z	_	1	punct	_	start_char=9|end_char=10
+
+# text = Žao mi je, ali ovo mi se ne sviđa jer su jednostavno prevelike.
+# sent_id = 1
+1	Žao	žao	ADV	Rgp	Degree=Pos	0	root	_	start_char=11|end_char=14
+2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=15|end_char=17
+3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=18|end_char=20
+4	,	,	PUNCT	Z	_	10	punct	_	start_char=20|end_char=21
+5	ali	ali	CCONJ	Cc	_	10	cc	_	start_char=22|end_char=25
+6	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=26|end_char=29
+7	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	obj	_	start_char=30|end_char=32
+8	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	10	expl	_	start_char=33|end_char=35
+9	ne	ne	PART	Qz	Polarity=Neg	10	advmod	_	start_char=36|end_char=38
+10	sviđa	sviđati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=39|end_char=44
+11	jer	jer	SCONJ	Cs	_	14	mark	_	start_char=45|end_char=48
+12	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	start_char=49|end_char=51
+13	jednostavno	jednostavno	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=52|end_char=63
+14	prevelike	prevelik	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	10	advcl	_	start_char=64|end_char=73
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=73|end_char=74
+
+# text = Previše se ističu.
+# sent_id = 2
+1	Previše	previše	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=75|end_char=82
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=83|end_char=85
+3	ističu	isticati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=86|end_char=92
+4	.	.	PUNCT	Z	_	3	punct	_	start_char=92|end_char=93
+
+# text = Istina je da rade i djelotvorne su, ali su previše upadljive.
+# sent_id = 3
+1	Istina	istina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=94|end_char=100
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=101|end_char=103
+3	da	da	SCONJ	Cs	_	4	mark	_	start_char=104|end_char=106
+4	rade	raditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	csubj	_	start_char=107|end_char=111
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=112|end_char=113
+6	djelotvorne	djelotvoran	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	start_char=114|end_char=125
+7	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=126|end_char=128
+8	,	,	PUNCT	Z	_	12	punct	_	start_char=128|end_char=129
+9	ali	ali	CCONJ	Cc	_	12	cc	_	start_char=130|end_char=133
+10	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	start_char=134|end_char=136
+11	previše	previše	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=137|end_char=144
+12	upadljive	upadljiv	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	1	conj	_	start_char=145|end_char=154
+13	.	.	PUNCT	Z	_	1	punct	_	start_char=154|end_char=155
+
+# text = Postoji mnogo dobrih alternativa; podlošci za remen, zaključavanje remena, skidanje čivije i izravno umetanje u remen gitare.
+# sent_id = 4
+1	Postoji	postojati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=156|end_char=163
+2	mnogo	mnogo	DET	Rgp	Degree=Pos	4	det:numgov	_	start_char=164|end_char=169
+3	dobrih	dobar	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=170|end_char=176
+4	alternativa	alternativa	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obj	_	start_char=177|end_char=188
+5	;	;	PUNCT	Z	_	6	punct	_	start_char=188|end_char=189
+6	podlošci	podložak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	appos	_	start_char=190|end_char=198
+7	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=199|end_char=201
+8	remen	remen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	start_char=202|end_char=207
+9	,	,	PUNCT	Z	_	10	punct	_	start_char=207|end_char=208
+10	zaključavanje	zaključavanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	start_char=209|end_char=222
+11	remena	remen	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=223|end_char=229
+12	,	,	PUNCT	Z	_	13	punct	_	start_char=229|end_char=230
+13	skidanje	skidanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	start_char=231|end_char=239
+14	čivije	čivija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=240|end_char=246
+15	i	i	CCONJ	Cc	_	17	cc	_	start_char=247|end_char=248
+16	izravno	izravno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	start_char=249|end_char=256
+17	umetanje	umetanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	start_char=257|end_char=265
+18	u	u	ADP	Sa	Case=Acc	19	case	_	start_char=266|end_char=267
+19	remen	remen	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	start_char=268|end_char=273
+20	gitare	gitara	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=274|end_char=280
+21	.	.	PUNCT	Z	_	1	punct	_	start_char=280|end_char=281
+
+# text = Ponovno, funkcioniraju, ali nisu estetski niti elegantni.
+# sent_id = 5
+1	Ponovno	ponovno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=282|end_char=289
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=289|end_char=290
+3	funkcioniraju	funkcionirati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=291|end_char=304
+4	,	,	PUNCT	Z	_	7	punct	_	start_char=304|end_char=305
+5	ali	ali	CCONJ	Cc	_	7	cc	_	start_char=306|end_char=309
+6	nisu	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=310|end_char=314
+7	estetski	estetski	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	conj	_	start_char=315|end_char=323
+8	niti	niti	PART	Qo	_	9	cc	_	start_char=324|end_char=328
+9	elegantni	elegantan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	conj	_	start_char=329|end_char=338
+10	.	.	PUNCT	Z	_	3	punct	_	start_char=338|end_char=339
+
+# text = Također sam dobio zlatni set za svoj bas i sada izgleda kao da bih trebao nositi velike ljubičaste platforme dok sviram.
+# sent_id = 6
+1	Također	također	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=340|end_char=347
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=348|end_char=351
+3	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=352|end_char=357
+4	zlatni	zlatan	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=358|end_char=364
+5	set	set	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=365|end_char=368
+6	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=369|end_char=371
+7	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=372|end_char=376
+8	bas	bas	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=377|end_char=380
+9	i	i	CCONJ	Cc	_	11	cc	_	start_char=381|end_char=382
+10	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	11	advmod	_	start_char=383|end_char=387
+11	izgleda	izgledati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=388|end_char=395
+12	kao	kao	SCONJ	Cs	_	15	mark	_	start_char=396|end_char=399
+13	da	da	SCONJ	Cs	_	12	fixed	_	start_char=400|end_char=402
+14	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	start_char=403|end_char=406
+15	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	advcl	_	start_char=407|end_char=413
+16	nositi	nositi	VERB	Vmn	VerbForm=Inf	15	xcomp	_	start_char=414|end_char=420
+17	velike	velik	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=421|end_char=427
+18	ljubičaste	ljubičasti	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	start_char=428|end_char=438
+19	platforme	platforma	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	start_char=439|end_char=448
+20	dok	dok	SCONJ	Cs	_	21	mark	_	start_char=449|end_char=452
+21	sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	start_char=453|end_char=459
+22	.	.	PUNCT	Z	_	3	punct	_	start_char=459|end_char=460
+
+# text = Nije cool.
+# sent_id = 7
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=461|end_char=465
+2	cool	cool	X	Xf	Foreign=Yes	0	root	_	start_char=466|end_char=470
+3	.	.	PUNCT	Z	_	2	punct	_	start_char=470|end_char=471
+

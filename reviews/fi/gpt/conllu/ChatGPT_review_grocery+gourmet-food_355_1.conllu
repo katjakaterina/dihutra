@@ -1,0 +1,65 @@
+# text = Maku on kauhea.
+# sent_id = 0
+1	Maku	maku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	3	nsubj:cop	_	start_char=0|end_char=4
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=5|end_char=7
+3	kauhea	kauhea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=8|end_char=14
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=14|end_char=15
+
+# text = Kun olin vangittuna meksikolaisessa vankilassa, tämä oli ainoa juoma, mitä siellä oli.
+# sent_id = 1
+1	Kun	kun	SCONJ	C	_	3	mark	_	start_char=16|end_char=19
+2	olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=20|end_char=24
+3	vangittuna	vangita	VERB	V	Case=Ess|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	10	advcl	_	start_char=25|end_char=35
+4	meksikolaisessa	meksikolainen	ADJ	A	Case=Ine|Degree=Pos|Derivation=Lainen|Number=Sing	5	amod	_	start_char=36|end_char=51
+5	vankilassa	vankila	NOUN	N	Case=Ine|Number=Sing	3	obl	_	start_char=52|end_char=62
+6	,	,	PUNCT	Punct	_	3	punct	_	start_char=62|end_char=63
+7	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	start_char=64|end_char=68
+8	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	start_char=69|end_char=72
+9	ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	10	det	_	start_char=73|end_char=78
+10	juoma	juoma	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=79|end_char=84
+11	,	,	PUNCT	Punct	_	13	punct	_	start_char=84|end_char=85
+12	mitä	mikä	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	13	nsubj:cop	_	start_char=86|end_char=90
+13	siellä	siellä	ADV	Adv	_	10	acl:relcl	_	start_char=91|end_char=97
+14	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	start_char=98|end_char=101
+15	.	.	PUNCT	Punct	_	10	punct	_	start_char=101|end_char=102
+
+# text = Meidän piti sekoittaa se vuohenmaidolla ja lämmittää sitä avotulella pihalla.
+# sent_id = 2
+1	Meidän	minä	PRON	Pron	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=103|end_char=109
+2	piti	pitää	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	start_char=110|end_char=114
+3	sekoittaa	sekoittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=115|end_char=124
+4	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	obj	_	start_char=125|end_char=127
+5	vuohenmaidolla	vuohen#maito	NOUN	N	Case=Ade|Number=Sing	3	obl	_	start_char=128|end_char=142
+6	ja	ja	CCONJ	C	_	7	cc	_	start_char=143|end_char=145
+7	lämmittää	lämmittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	conj	_	start_char=146|end_char=155
+8	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	7	obj	_	start_char=156|end_char=160
+9	avotulella	avotuli	NOUN	N	Case=Ade|Number=Sing	7	obl	_	start_char=161|end_char=171
+10	pihalla	piha	NOUN	N	Case=Ade|Number=Sing	7	obl	_	start_char=172|end_char=179
+11	.	.	PUNCT	Punct	_	3	punct	_	start_char=179|end_char=180
+
+# text = Maku on kauhea.
+# sent_id = 3
+1	Maku	maku	NOUN	N	Case=Nom|Derivation=U|Number=Sing	3	nsubj:cop	_	start_char=181|end_char=185
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=186|end_char=188
+3	kauhea	kauhea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=189|end_char=195
+4	.	.	PUNCT	Punct	_	3	punct	_	start_char=195|end_char=196
+
+# text = Se ei ole miellyttävä kuten
+# sent_id = 4
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=197|end_char=199
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=200|end_char=202
+3	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=203|end_char=206
+4	miellyttävä	miellyttävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=207|end_char=218
+5	kuten	kuten	SCONJ	C	_	4	mark	_	start_char=219|end_char=224
+
+# text = Madridista löytyvä paksu, kuumana nautittava suklaa.
+# sent_id = 5
+1	Madridista	Madrid	PROPN	N	Case=Ela|Number=Sing	2	obl	_	start_char=225|end_char=235
+2	löytyvä	löytyä	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	7	acl	_	start_char=236|end_char=243
+3	paksu	paksu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	start_char=244|end_char=249
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=249|end_char=250
+5	kuumana	kuuma	ADJ	A	Case=Ess|Degree=Pos|Number=Sing	6	obl	_	start_char=251|end_char=258
+6	nautittava	nautittava	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	7	acl	_	start_char=259|end_char=269
+7	suklaa	suklaa	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=270|end_char=276
+8	.	.	PUNCT	Punct	_	7	punct	_	start_char=276|end_char=277
+

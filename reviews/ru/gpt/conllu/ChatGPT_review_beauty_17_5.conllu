@@ -1,0 +1,83 @@
+# text = Рекомендую вам попробовать, парни.
+# sent_id = 0
+1	Рекомендую	рекомендовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=10
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	iobj	_	start_char=11|end_char=14
+3	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=15|end_char=26
+4	,	,	PUNCT	_	_	5	punct	_	start_char=26|end_char=27
+5	парни	парень	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	vocative	_	start_char=28|end_char=33
+6	.	.	PUNCT	_	_	1	punct	_	start_char=33|end_char=34
+
+# text = Мне нравится вся линейка Macely.
+# sent_id = 1
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=35|end_char=38
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=39|end_char=47
+3	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	start_char=48|end_char=51
+4	линейка	линейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=52|end_char=59
+5	Macely	Macely	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=60|end_char=66
+6	.	.	PUNCT	_	_	2	punct	_	start_char=66|end_char=67
+
+# text = Обычно я не беспокоюсь писать отзывы о продуктах, но этот я просто не мог пропустить.
+# sent_id = 2
+1	Обычно	обычно	ADV	_	Degree=Pos	4	advmod	_	start_char=68|end_char=74
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=75|end_char=76
+3	не	не	PART	_	_	4	advmod	_	start_char=77|end_char=79
+4	беспокоюсь	беспокоиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=80|end_char=90
+5	писать	писать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	start_char=91|end_char=97
+6	отзывы	отзыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	start_char=98|end_char=104
+7	о	о	ADP	_	_	8	case	_	start_char=105|end_char=106
+8	продуктах	продукт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	start_char=107|end_char=116
+9	,	,	PUNCT	_	_	15	punct	_	start_char=116|end_char=117
+10	но	но	CCONJ	_	_	15	cc	_	start_char=118|end_char=120
+11	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	start_char=121|end_char=125
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=126|end_char=127
+13	просто	просто	PART	_	_	15	advmod	_	start_char=128|end_char=134
+14	не	не	PART	_	_	15	advmod	_	start_char=135|end_char=137
+15	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=138|end_char=141
+16	пропустить	пропустить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	start_char=142|end_char=152
+17	.	.	PUNCT	_	_	4	punct	_	start_char=152|end_char=153
+
+# text = У меня комбинированная кожа, которая становится очень сухой и очень жирной в некоторых местах.
+# sent_id = 3
+1	У	у	ADP	_	_	2	case	_	start_char=155|end_char=156
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=157|end_char=161
+3	комбинированная	комбинированный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=162|end_char=177
+4	кожа	кожа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=178|end_char=182
+5	,	,	PUNCT	_	_	7	punct	_	start_char=182|end_char=183
+6	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=184|end_char=191
+7	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl:relcl	_	start_char=192|end_char=202
+8	очень	очень	ADV	_	Degree=Pos	9	obl	_	start_char=203|end_char=208
+9	сухой	сухой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	obl	_	start_char=209|end_char=214
+10	и	и	CCONJ	_	_	12	cc	_	start_char=215|end_char=216
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	start_char=217|end_char=222
+12	жирной	жирный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	start_char=223|end_char=229
+13	в	в	ADP	_	_	15	case	_	start_char=230|end_char=231
+14	некоторых	некоторый	DET	_	Case=Loc|Number=Plur|PronType=Ind	15	det	_	start_char=232|end_char=241
+15	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	nmod	_	start_char=242|end_char=248
+16	.	.	PUNCT	_	_	2	punct	_	start_char=248|end_char=249
+
+# text = Мне нравится этот продукт.
+# sent_id = 4
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=250|end_char=253
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=254|end_char=262
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=263|end_char=267
+4	продукт	продукт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=268|end_char=275
+5	.	.	PUNCT	_	_	2	punct	_	start_char=275|end_char=276
+
+# text = Рекомендую вам попробовать, парни.
+# sent_id = 5
+1	Рекомендую	рекомендовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=278|end_char=288
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	iobj	_	start_char=289|end_char=292
+3	попробовать	пробовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=293|end_char=304
+4	,	,	PUNCT	_	_	5	punct	_	start_char=304|end_char=305
+5	парни	парень	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	vocative	_	start_char=306|end_char=311
+6	.	.	PUNCT	_	_	1	punct	_	start_char=311|end_char=312
+
+# text = Мне нравится вся линейка Macely.
+# sent_id = 6
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	start_char=314|end_char=317
+2	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=318|end_char=326
+3	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	4	det	_	start_char=327|end_char=330
+4	линейка	линейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=331|end_char=338
+5	Macely	Macely	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=339|end_char=345
+6	.	.	PUNCT	_	_	2	punct	_	start_char=345|end_char=346
+

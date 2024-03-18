@@ -1,0 +1,67 @@
+# text = Keith Green - Relevantan kroz stoljeća
+# sent_id = 0
+1	Keith	Keith	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5
+2	Green	Green	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	start_char=6|end_char=11
+3	-	-	PUNCT	Z	_	4	punct	_	start_char=12|end_char=13
+4	Relevantan	relevantan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	acl	_	start_char=14|end_char=24
+5	kroz	kroz	ADP	Sa	Case=Acc	6	case	_	start_char=25|end_char=29
+6	stoljeća	stoljeće	NOUN	Ncnpa	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	start_char=30|end_char=38
+
+# text = Iako je prošlo više od tri desetljeća otkako je Keith napustio ovaj svijet, njegova glazba i dalje odzvanja istinom.
+# sent_id = 1
+1	Iako	iako	SCONJ	Cs	_	3	mark	_	start_char=39|end_char=43
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=44|end_char=46
+3	prošlo	proći	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	19	advcl	_	start_char=47|end_char=53
+4	više	mnogo	ADV	Rgc	Degree=Cmp	7	advmod	_	start_char=54|end_char=58
+5	od	od	ADP	Sg	Case=Gen	7	case	_	start_char=59|end_char=61
+6	tri	tri	NUM	Mlc	NumType=Card	7	nummod	_	start_char=62|end_char=65
+7	desetljeća	desetljeće	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=66|end_char=76
+8	otkako	otkako	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=77|end_char=83
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	start_char=84|end_char=86
+10	Keith	Keith	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=87|end_char=92
+11	napustio	napustiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	advcl	_	start_char=93|end_char=101
+12	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	start_char=102|end_char=106
+13	svijet	svijet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=107|end_char=113
+14	,	,	PUNCT	Z	_	3	punct	_	start_char=113|end_char=114
+15	njegova	njegov	DET	Ps3fsn	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	start_char=115|end_char=122
+16	glazba	glazba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	start_char=123|end_char=129
+17	i	i	CCONJ	Cc	_	18	discourse	_	start_char=130|end_char=131
+18	dalje	daleko	ADV	Rgc	Degree=Cmp	19	advmod	_	start_char=132|end_char=137
+19	odzvanja	odzvanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=138|end_char=146
+20	istinom	istina	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	19	nmod	_	start_char=147|end_char=154
+21	.	.	PUNCT	Z	_	19	punct	_	start_char=154|end_char=155
+
+# text = Ovo je bio jedan od prvih albuma koje sam kupio od Keitha "u ono vrijeme".
+# sent_id = 2
+1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	start_char=156|end_char=159
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=160|end_char=162
+3	bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	cop	_	start_char=163|end_char=166
+4	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	7	nummod:gov	_	start_char=167|end_char=172
+5	od	od	ADP	Sg	Case=Gen	7	case	_	start_char=173|end_char=175
+6	prvih	prvi	ADJ	Mlompg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	start_char=176|end_char=181
+7	albuma	album	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	0	root	_	start_char=182|end_char=188
+8	koje	koji	DET	Pi-mpa	Case=Acc|Gender=Masc|Number=Plur|PronType=Int,Rel	10	obj	_	start_char=189|end_char=193
+9	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=194|end_char=197
+10	kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	start_char=198|end_char=203
+11	od	od	ADP	Sg	Case=Gen	12	case	_	start_char=204|end_char=206
+12	Keitha	Keitha	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	start_char=207|end_char=213
+13	"	"	PUNCT	Z	_	16	punct	_	start_char=214|end_char=215
+14	u	u	ADP	Sa	Case=Acc	16	case	_	start_char=215|end_char=216
+15	ono	onaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	det	_	start_char=217|end_char=220
+16	vrijeme	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	start_char=221|end_char=228
+17	"	"	PUNCT	Z	_	16	punct	_	start_char=228|end_char=229
+18	.	.	PUNCT	Z	_	7	punct	_	start_char=229|end_char=230
+
+# text = Kako je sladak album hvale dok prolazi kroz Psalme!
+# sent_id = 3
+1	Kako	kako	SCONJ	Cs	_	5	advmod	_	start_char=231|end_char=235
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=236|end_char=238
+3	sladak	sladak	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=239|end_char=245
+4	album	album	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=246|end_char=251
+5	hvale	hvati	VERB	Vmp-s	Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part	0	root	_	start_char=252|end_char=257
+6	dok	dok	SCONJ	Cs	_	7	mark	_	start_char=258|end_char=261
+7	prolazi	prolaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=262|end_char=269
+8	kroz	kroz	ADP	Sa	Case=Acc	9	case	_	start_char=270|end_char=274
+9	Psalme	Psalme	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	start_char=275|end_char=281
+10	!	!	PUNCT	Z	_	5	punct	_	start_char=281|end_char=282
+

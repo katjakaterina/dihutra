@@ -1,0 +1,83 @@
+# text = Hauskaa!!
+# sent_id = 0
+1	Hauskaa	hauska	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=7
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=7|end_char=8
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=8|end_char=9
+
+# text = Erittäin EDULLISET valmistettu!!!
+# sent_id = 1
+1	Erittäin	erittäin	ADV	Adv	Derivation=Ttain	2	advmod	_	start_char=10|end_char=18
+2	EDULLISET	eduvpi	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	3	obj	_	start_char=19|end_char=28
+3	valmistettu	valmistaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=29|end_char=40
+4	!	!	PUNCT	Punct	_	3	punct	_	start_char=40|end_char=41
+5	!	!	PUNCT	Punct	_	3	punct	_	start_char=41|end_char=42
+6	!	!	PUNCT	Punct	_	3	punct	_	start_char=42|end_char=43
+
+# text = Meillä on tämä sama peli, mutta se tehtiin vuonna 1967, luulimme vain, että uudempi versio olisi ajan tasalla, mutta pidämme vanhasta paljon paremmin!!
+# sent_id = 2
+1	Meillä	minä	PRON	Pron	Case=Ade|Number=Plur|Person=1|PronType=Prs	0	root	_	start_char=44|end_char=50
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=51|end_char=53
+3	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	det	_	start_char=54|end_char=58
+4	sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	5	det	_	start_char=59|end_char=63
+5	peli	peli	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=64|end_char=68
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=68|end_char=69
+7	mutta	mutta	CCONJ	C	_	9	cc	_	start_char=70|end_char=75
+8	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	obj	_	start_char=76|end_char=78
+9	tehtiin	tehdä	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	conj	_	start_char=79|end_char=86
+10	vuonna	vuosi	NOUN	N	Case=Ess|Number=Sing	9	obl	_	start_char=87|end_char=93
+11	1967	1967	NUM	Num	NumType=Card	10	nummod	_	start_char=94|end_char=98
+12	,	,	PUNCT	Punct	_	13	punct	_	start_char=98|end_char=99
+13	luulimme	luulla	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=100|end_char=108
+14	vain	vain	ADV	Adv	_	13	advmod	_	start_char=109|end_char=113
+15	,	,	PUNCT	Punct	_	20	punct	_	start_char=113|end_char=114
+16	että	että	SCONJ	C	_	20	mark	_	start_char=115|end_char=119
+17	uudempi	uusi	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	18	amod	_	start_char=120|end_char=127
+18	versio	versio	NOUN	N	Case=Nom|Number=Sing	20	nsubj:cop	_	start_char=128|end_char=134
+19	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	cop	_	start_char=135|end_char=140
+20	ajan	aika	NOUN	N	Case=Gen|Number=Sing	13	ccomp	_	start_char=141|end_char=145
+21	tasalla	tasalla	ADP	Adp	AdpType=Post	20	case	_	start_char=146|end_char=153
+22	,	,	PUNCT	Punct	_	24	punct	_	start_char=153|end_char=154
+23	mutta	mutta	CCONJ	C	_	24	cc	_	start_char=155|end_char=160
+24	pidämme	pitää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	start_char=161|end_char=168
+25	vanhasta	vanha	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	24	obl	_	start_char=169|end_char=177
+26	paljon	paljon	ADV	Adv	_	27	advmod	_	start_char=178|end_char=184
+27	paremmin	hyvin	ADV	Adv	Degree=Cmp	24	advmod	_	start_char=185|end_char=193
+28	!	!	PUNCT	Punct	_	1	punct	_	start_char=193|end_char=194
+29	!	!	PUNCT	Punct	_	1	punct	_	start_char=194|end_char=195
+
+# text = Tämä laatat ovat pahvia ja pieni teline, johon voit laittaa palaset, on myös valmistettu erittäin halvasta pahvista!!
+# sent_id = 3
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	2	det	_	start_char=196|end_char=200
+2	laatat	laatta	NOUN	N	Case=Nom|Number=Plur	4	nsubj:cop	_	start_char=201|end_char=207
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=208|end_char=212
+4	pahvia	pahvi	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=213|end_char=219
+5	ja	ja	CCONJ	C	_	7	cc	_	start_char=220|end_char=222
+6	pieni	pieni	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	_	start_char=223|end_char=228
+7	teline	teline	NOUN	N	Case=Nom|Number=Sing	4	conj	_	start_char=229|end_char=235
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=235|end_char=236
+9	johon	joka	PRON	Pron	Case=Ill|Number=Sing|PronType=Rel	11	obl	_	start_char=237|end_char=242
+10	voit	voida	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=243|end_char=247
+11	laittaa	laittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	7	acl:relcl	_	start_char=248|end_char=255
+12	palaset	palanen	NOUN	N	Case=Nom|Number=Plur	11	obj	_	start_char=256|end_char=263
+13	,	,	PUNCT	Punct	_	11	punct	_	start_char=263|end_char=264
+14	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	start_char=265|end_char=267
+15	myös	myös	ADV	Adv	_	16	advmod	_	start_char=268|end_char=272
+16	valmistettu	valmistaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	conj	_	start_char=273|end_char=284
+17	erittäin	erittäin	ADV	Adv	Derivation=Ttain	18	advmod	_	start_char=285|end_char=293
+18	halvasta	halva	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	19	amod	_	start_char=294|end_char=302
+19	pahvista	pahvi	NOUN	N	Case=Ela|Number=Sing	16	obl	_	start_char=303|end_char=311
+20	!	!	PUNCT	Punct	_	4	punct	_	start_char=311|end_char=312
+21	!	!	PUNCT	Punct	_	4	punct	_	start_char=312|end_char=313
+
+# text = Annoimme tälle pelille tavan ja säilytimme vanhan! !
+# sent_id = 4
+1	Annoimme	antaa	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=314|end_char=322
+2	tälle	tämä	PRON	Pron	Case=All|Number=Sing|PronType=Dem	3	det	_	start_char=323|end_char=328
+3	pelille	peli	NOUN	N	Case=All|Number=Sing	1	obl	_	start_char=329|end_char=336
+4	tavan	tapa	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=337|end_char=342
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=343|end_char=345
+6	säilytimme	säilyttää	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=346|end_char=356
+7	vanhan	vanha	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	6	obj	_	start_char=357|end_char=363
+8	!	!	PUNCT	Punct	_	1	punct	_	start_char=363|end_char=364
+9	!	!	PUNCT	Punct	_	1	punct	_	start_char=365|end_char=366
+

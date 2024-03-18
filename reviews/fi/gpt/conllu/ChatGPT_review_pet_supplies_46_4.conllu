@@ -1,0 +1,76 @@
+# text = Mahtava viiteopas jokaiselle hoitajalle
+# sent_id = 0
+1	Mahtava	mahtava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=7
+2	viiteopas	viite#opas	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=8|end_char=17
+3	jokaiselle	jokainen	PRON	Pron	Case=All|Number=Sing|PronType=Ind	4	det	_	start_char=18|end_char=28
+4	hoitajalle	hoitaja	NOUN	N	Case=All|Derivation=Ja|Number=Sing	2	nmod	_	start_char=29|end_char=39
+
+# text = Tämä on ehkä paras ja perusteellisin kirja koiranhoitoon, joka on saatavilla.
+# sent_id = 1
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	_	start_char=40|end_char=44
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=45|end_char=47
+3	ehkä	ehkä	ADV	Adv	_	7	advmod	_	start_char=48|end_char=52
+4	paras	hyvä	ADJ	A	Case=Nom|Degree=Sup|Number=Sing	7	amod	_	start_char=53|end_char=58
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=59|end_char=61
+6	perusteellisin	perusteellinen	ADJ	A	Case=Nom|Degree=Sup|Derivation=Inen|Number=Sing	4	conj	_	start_char=62|end_char=76
+7	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=77|end_char=82
+8	koiranhoitoon	koiran#hoito	NOUN	N	Case=Ill|Number=Sing	7	nmod	_	start_char=83|end_char=96
+9	,	,	PUNCT	Punct	_	12	punct	_	start_char=96|end_char=97
+10	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	12	obj	_	start_char=98|end_char=102
+11	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=103|end_char=105
+12	saatavilla	saada	VERB	V	Case=Ade|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	8	acl:relcl	_	start_char=106|end_char=116
+13	.	.	PUNCT	Punct	_	7	punct	_	start_char=116|end_char=117
+
+# text = Ammattimaisena hoitajana viittaan siihen usein!
+# sent_id = 2
+1	Ammattimaisena	ammatti#mainen	ADJ	A	Case=Ess|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=118|end_char=132
+2	hoitajana	hoitaja	NOUN	N	Case=Ess|Derivation=Ja|Number=Sing	3	obl	_	start_char=133|end_char=142
+3	viittaan	viitata	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=143|end_char=151
+4	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	3	obl	_	start_char=152|end_char=158
+5	usein	usein	ADV	Adv	_	3	advmod	_	start_char=159|end_char=164
+6	!	!	PUNCT	Punct	_	3	punct	_	start_char=164|end_char=165
+
+# text = Ainoa valitukseni on spiraalisidonta.
+# sent_id = 3
+1	Ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	2	det	_	start_char=166|end_char=171
+2	valitukseni	valitus	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj:cop	_	start_char=172|end_char=183
+3	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=184|end_char=186
+4	spiraalisidonta	spiraali#sidonta	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=187|end_char=202
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=202|end_char=203
+
+# text = Mahdollisesti koska käytän sitä niin paljon...
+# sent_id = 4
+1	Mahdollisesti	mahdollisesti	ADV	Adv	Derivation=Sti	2	advmod	_	start_char=204|end_char=217
+2	koska	koska	SCONJ	C	_	3	mark	_	start_char=218|end_char=223
+3	käytän	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=224|end_char=230
+4	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=231|end_char=235
+5	niin	niin	ADV	Adv	_	6	advmod	_	start_char=236|end_char=240
+6	paljon	paljon	ADV	Adv	_	3	advmod	_	start_char=241|end_char=247
+7	...	...	PUNCT	Punct	_	3	punct	_	start_char=247|end_char=250
+
+# text = se on löystynyt ja sivut irtoavat.
+# sent_id = 5
+1	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=251|end_char=253
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=254|end_char=256
+3	löystynyt	löystyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=257|end_char=266
+4	ja	ja	CCONJ	C	_	6	cc	_	start_char=267|end_char=269
+5	sivut	sivu	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	start_char=270|end_char=275
+6	irtoavat	irrota	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=276|end_char=284
+7	.	.	PUNCT	Punct	_	3	punct	_	start_char=284|end_char=285
+
+# text = Se saattaa olla todiste siitä, kuinka hyvä tämä kirja todella on!
+# sent_id = 6
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=286|end_char=288
+2	saattaa	saattaa	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=289|end_char=296
+3	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	cop	_	start_char=297|end_char=301
+4	todiste	todiste	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=302|end_char=309
+5	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	4	nmod	_	start_char=310|end_char=315
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=315|end_char=316
+7	kuinka	kuinka	ADV	Adv	_	8	advmod	_	start_char=317|end_char=323
+8	hyvä	hyvä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	ccomp	_	start_char=324|end_char=328
+9	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	10	det	_	start_char=329|end_char=333
+10	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=334|end_char=339
+11	todella	todella	ADV	Adv	_	8	advmod	_	start_char=340|end_char=347
+12	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=348|end_char=350
+13	!	!	PUNCT	Punct	_	4	punct	_	start_char=350|end_char=351
+

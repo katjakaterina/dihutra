@@ -1,0 +1,58 @@
+# text = Absoluuttinen aarre Jokaisella, joka haaveilee kauniiden kakkujen suunnittelusta, pitäisi olla tämä yöjuhlassa.
+# sent_id = 0
+1	Absoluuttinen	absoluuttinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	2	amod	_	start_char=0|end_char=13
+2	aarre	aarre	NOUN	N	Case=Nom|Number=Sing	14	nsubj:cop	_	start_char=14|end_char=19
+3	Jokaisella	jokainen	PRON	Pron	Case=Ade|Number=Sing|PronType=Ind	14	obl	_	start_char=20|end_char=30
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=30|end_char=31
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	start_char=32|end_char=36
+6	haaveilee	haaveilla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=37|end_char=46
+7	kauniiden	kaunis	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	start_char=47|end_char=56
+8	kakkujen	kakku	NOUN	N	Case=Gen|Number=Plur	9	nmod:poss	_	start_char=57|end_char=65
+9	suunnittelusta	suunnittelu	NOUN	N	Case=Ela|Number=Sing	6	obl	_	start_char=66|end_char=80
+10	,	,	PUNCT	Punct	_	6	punct	_	start_char=80|end_char=81
+11	pitäisi	pitää	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	14	aux	_	start_char=82|end_char=89
+12	olla	olla	AUX	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	14	cop	_	start_char=90|end_char=94
+13	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	14	nsubj:cop	_	start_char=95|end_char=99
+14	yöjuhlassa	yö#juhla	NOUN	N	Case=Ine|Number=Sing	0	root	_	start_char=100|end_char=110
+15	.	.	PUNCT	Punct	_	14	punct	_	start_char=110|end_char=111
+
+# text = En tiedä kuinka monta yötä olen tutkinut sitä sivua ennen nukkumaanmenoa, mikä ehdoton aarre tämä kirja on.
+# sent_id = 1
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=112|end_char=114
+2	tiedä	tietää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=115|end_char=120
+3	kuinka	kuinka	ADV	Adv	_	7	advmod	_	start_char=121|end_char=127
+4	monta	moni	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	5	det	_	start_char=128|end_char=133
+5	yötä	yö	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=134|end_char=138
+6	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=139|end_char=143
+7	tutkinut	tutkia	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	ccomp	_	start_char=144|end_char=152
+8	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	9	det	_	start_char=153|end_char=157
+9	sivua	sivu	NOUN	N	Case=Par|Number=Sing	7	obj	_	start_char=158|end_char=163
+10	ennen	ennen	ADP	Adp	AdpType=Prep	11	case	_	start_char=164|end_char=169
+11	nukkumaanmenoa	nukku#maa#meno	NOUN	N	Case=Par|Number=Sing	7	obl	_	start_char=170|end_char=184
+12	,	,	PUNCT	Punct	_	15	punct	_	start_char=184|end_char=185
+13	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	15	nsubj:cop	_	start_char=186|end_char=190
+14	ehdoton	ehdoton	ADJ	A	Case=Nom|Degree=Pos|Derivation=Ton|Number=Sing	15	amod	_	start_char=191|end_char=198
+15	aarre	aarre	NOUN	N	Case=Nom|Number=Sing	7	acl:relcl	_	start_char=199|end_char=204
+16	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	17	det	_	start_char=205|end_char=209
+17	kirja	kirja	NOUN	N	Case=Nom|Number=Sing	15	nsubj:cop	_	start_char=210|end_char=215
+18	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	start_char=216|end_char=218
+19	.	.	PUNCT	Punct	_	2	punct	_	start_char=218|end_char=219
+
+# text = Se on kuin kakkukirjojen pyhä malja.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	start_char=220|end_char=222
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=223|end_char=225
+3	kuin	kuin	SCONJ	C	_	6	mark	_	start_char=226|end_char=230
+4	kakkukirjojen	kakku#kirja	NOUN	N	Case=Gen|Number=Plur	6	nmod:poss	_	start_char=231|end_char=244
+5	pyhä	pyhä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	start_char=245|end_char=249
+6	malja	malja	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=250|end_char=255
+7	.	.	PUNCT	Punct	_	6	punct	_	start_char=255|end_char=256
+
+# text = Et tule katumaan sitä.
+# sent_id = 3
+1	Et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=257|end_char=259
+2	tule	tulla	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=260|end_char=264
+3	katumaan	kadua	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=265|end_char=273
+4	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=274|end_char=278
+5	.	.	PUNCT	Punct	_	2	punct	_	start_char=278|end_char=279
+

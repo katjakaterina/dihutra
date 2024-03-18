@@ -1,0 +1,72 @@
+# text = Odlično radi Imam nekoliko punjača.
+# sent_id = 0
+1	Odlično	odlično	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=7
+2	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8|end_char=12
+3	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	start_char=13|end_char=17
+4	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	5	det:numgov	_	start_char=18|end_char=26
+5	punjača	punjač	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obj	_	start_char=27|end_char=34
+6	.	.	PUNCT	Z	_	2	punct	_	start_char=34|end_char=35
+
+# text = Imam više vozila pa u svakom od njih čuvam po jedan ili više ovakvih.
+# sent_id = 1
+1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=36|end_char=40
+2	više	mnogo	DET	Rgc	Degree=Cmp	3	det:numgov	_	start_char=41|end_char=45
+3	vozila	vozilo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	1	obj	_	start_char=46|end_char=52
+4	pa	pa	CCONJ	Cc	_	9	cc	_	start_char=53|end_char=55
+5	u	u	ADP	Sl	Case=Loc	6	case	_	start_char=56|end_char=57
+6	svakom	svaki	DET	Pi-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	9	obl	_	start_char=58|end_char=64
+7	od	od	ADP	Sg	Case=Gen	8	case	_	start_char=65|end_char=67
+8	njih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	9	obl	_	start_char=68|end_char=72
+9	čuvam	čuvati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=73|end_char=78
+10	po	po	ADP	Sa	Case=Acc	14	case	_	start_char=79|end_char=81
+11	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	14	nummod	_	start_char=82|end_char=87
+12	ili	ili	CCONJ	Cc	_	13	cc	_	start_char=88|end_char=91
+13	više	mnogo	ADV	Rgc	Degree=Cmp	11	conj	_	start_char=92|end_char=96
+14	ovakvih	ovakav	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	9	obl	_	start_char=97|end_char=104
+15	.	.	PUNCT	Z	_	1	punct	_	start_char=104|end_char=105
+
+# text = Ništa nije frustrirajuće kao kad odjednom jedan prestane raditi, a nemate načina za ponovno napuniti svoj telefon.
+# sent_id = 2
+1	Ništa	ništa	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Neg	3	nsubj	_	start_char=106|end_char=111
+2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=112|end_char=116
+3	frustrirajuće	frustrirajući	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=117|end_char=130
+4	kao	kao	SCONJ	Cs	_	8	mark	_	start_char=131|end_char=134
+5	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	fixed	_	start_char=135|end_char=138
+6	odjednom	odjednom	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=139|end_char=147
+7	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	8	nsubj	_	start_char=148|end_char=153
+8	prestane	prestati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=154|end_char=162
+9	raditi	raditi	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=163|end_char=169
+10	,	,	PUNCT	Z	_	12	punct	_	start_char=169|end_char=170
+11	a	a	CCONJ	Cc	_	12	cc	_	start_char=171|end_char=172
+12	nemate	nemati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=173|end_char=179
+13	načina	način	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Plur	12	obj	_	start_char=180|end_char=186
+14	za	za	ADP	Sa	Case=Acc	16	case	_	start_char=187|end_char=189
+15	ponovno	ponovno	ADV	Rgp	Degree=Pos	16	advmod	_	start_char=190|end_char=197
+16	napuniti	napuniti	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=198|end_char=206
+17	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	start_char=207|end_char=211
+18	telefon	telefon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=212|end_char=219
+19	.	.	PUNCT	Z	_	3	punct	_	start_char=219|end_char=220
+
+# text = To se uvijek dogodi kad vam je najpotrebniji.
+# sent_id = 3
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=221|end_char=223
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=224|end_char=226
+3	uvijek	uvijek	ADV	Rgp	Degree=Pos|PronType=Tot	4	advmod	_	start_char=227|end_char=233
+4	dogodi	dogoditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=234|end_char=240
+5	kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	8	advmod	_	start_char=241|end_char=244
+6	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	8	obj	_	start_char=245|end_char=248
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=249|end_char=251
+8	najpotrebniji	potreban	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	4	advcl	_	start_char=252|end_char=265
+9	.	.	PUNCT	Z	_	4	punct	_	start_char=265|end_char=266
+
+# text = Ovaj dobro funkcionira za sve moje uređaje.
+# sent_id = 4
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=267|end_char=271
+2	dobro	dobro	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=272|end_char=277
+3	funkcionira	funkcionirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=278|end_char=289
+4	za	za	ADP	Sa	Case=Acc	7	case	_	start_char=290|end_char=292
+5	sve	sav	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	det	_	start_char=293|end_char=296
+6	moje	moj	DET	Ps1mpa	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	start_char=297|end_char=301
+7	uređaje	uređaj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	start_char=302|end_char=309
+8	.	.	PUNCT	Z	_	3	punct	_	start_char=309|end_char=310
+

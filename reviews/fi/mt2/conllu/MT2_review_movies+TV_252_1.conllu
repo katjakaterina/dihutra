@@ -1,0 +1,107 @@
+# text = 1960-luvun klassikko tulee tähän?
+# sent_id = 0
+1	1960-luvun	1960#luku	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=0|end_char=10
+2	klassikko	klassikko	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	start_char=11|end_char=20
+3	tulee	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=26
+4	tähän	tämä	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	3	obl	_	start_char=27|end_char=32
+5	?	?	PUNCT	Punct	_	3	punct	_	start_char=32|end_char=33
+
+# text = Selostus on OK, mutta tarina on heikko ja laulut ovat loistavasti huomioimattomia.
+# sent_id = 1
+1	Selostus	selostus	NOUN	N	Case=Nom|Number=Sing	3	nsubj:cop	_	start_char=34|end_char=42
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=43|end_char=45
+3	OK	OK	PROPN	N	Case=Nom|Number=Sing	0	root	_	start_char=46|end_char=48
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=48|end_char=49
+5	mutta	mutta	CCONJ	C	_	8	cc	_	start_char=50|end_char=55
+6	tarina	tarina	NOUN	N	Case=Nom|Number=Sing	8	nsubj:cop	_	start_char=56|end_char=62
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=63|end_char=65
+8	heikko	heikko	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=66|end_char=72
+9	ja	ja	CCONJ	C	_	13	cc	_	start_char=73|end_char=75
+10	laulut	laulu	NOUN	N	Case=Nom|Derivation=U|Number=Plur	13	nsubj:cop	_	start_char=76|end_char=82
+11	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=83|end_char=87
+12	loistavasti	loistavasti	ADV	Adv	Derivation=Sti	13	advmod	_	start_char=88|end_char=99
+13	huomioimattomia	huomioimaton	ADJ	A	Case=Par|Degree=Pos|Derivation=Ton|Number=Plur	8	conj	_	start_char=100|end_char=115
+14	.	.	PUNCT	Punct	_	3	punct	_	start_char=115|end_char=116
+
+# text = Väsyin, kun katsoin tämän poikani kanssa.
+# sent_id = 2
+1	Väsyin	väsyinä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=117|end_char=123
+2	,	,	PUNCT	Punct	_	4	punct	_	start_char=123|end_char=124
+3	kun	kun	SCONJ	C	_	4	mark	_	start_char=125|end_char=128
+4	katsoin	katsoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	start_char=129|end_char=136
+5	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	obj	_	start_char=137|end_char=142
+6	poikani	poika	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	obl	_	start_char=143|end_char=150
+7	kanssa	kanssa	ADP	Adp	AdpType=Post	6	case	_	start_char=151|end_char=157
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=157|end_char=158
+
+# text = Myönnän, että vartuin alkuperäisestä esityksestä, jossa Jimmy Durante kertoi ja nimikappale oli hyvin kirjoitettu klassikko, eikä 1990-luvun PC-teemoja.
+# sent_id = 3
+1	Myönnän	myöntää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=159|end_char=166
+2	,	,	PUNCT	Punct	_	4	punct	_	start_char=166|end_char=167
+3	että	että	SCONJ	C	_	4	mark	_	start_char=168|end_char=172
+4	vartuin	vartuin	NOUN	N	Case=Nom|Number=Sing	1	ccomp	_	start_char=173|end_char=180
+5	alkuperäisestä	alku#peräinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Inen|Number=Sing	6	amod	_	start_char=181|end_char=195
+6	esityksestä	esitys	NOUN	N	Case=Ela|Number=Sing	4	nmod	_	start_char=196|end_char=207
+7	,	,	PUNCT	Punct	_	11	punct	_	start_char=207|end_char=208
+8	jossa	joka	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	11	obl	_	start_char=209|end_char=214
+9	Jimmy	Jimmy	PROPN	N	Case=Nom|Number=Sing	11	nsubj	_	start_char=215|end_char=220
+10	Durante	Durante	PROPN	N	Case=Nom|Number=Sing	9	flat:name	_	start_char=221|end_char=228
+11	kertoi	kertoa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=229|end_char=235
+12	ja	ja	CCONJ	C	_	17	cc	_	start_char=236|end_char=238
+13	nimikappale	nimi#kappale	NOUN	N	Case=Nom|Number=Sing	17	nsubj:cop	_	start_char=239|end_char=250
+14	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	start_char=251|end_char=254
+15	hyvin	hyvin	ADV	Adv	_	16	advmod	_	start_char=255|end_char=260
+16	kirjoitettu	kirjoittaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	17	acl	_	start_char=261|end_char=272
+17	klassikko	klassikko	NOUN	N	Case=Nom|Number=Sing	11	conj	_	start_char=273|end_char=282
+18	,	,	PUNCT	Punct	_	21	punct	_	start_char=282|end_char=283
+19	eikä	ei	AUX	V	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	21	aux	_	start_char=284|end_char=288
+20	1990-luvun	1990#luku	NOUN	N	Case=Gen|Number=Sing	21	nmod:poss	_	start_char=289|end_char=299
+21	PC-teemoja	PC#teemo	NOUN	N	Case=Par|Number=Plur	17	conj	_	start_char=300|end_char=310
+22	.	.	PUNCT	Punct	_	1	punct	_	start_char=310|end_char=311
+
+# text = Tämä on luultavasti väistämätöntä, koska et valitettavasti voi tehdä jotain tuolta aikakaudelta uudelleen samalla viattomuudella ja tunteella: ei aikakaudella, jolloin joulusta on tullut eloton.
+# sent_id = 4
+1	Tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	start_char=312|end_char=316
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=317|end_char=319
+3	luultavasti	luultavasti	ADV	Adv	Derivation=Sti	4	advmod	_	start_char=320|end_char=331
+4	väistämätöntä	väistämätön	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=332|end_char=345
+5	,	,	PUNCT	Punct	_	10	punct	_	start_char=345|end_char=346
+6	koska	koska	SCONJ	C	_	10	mark	_	start_char=347|end_char=352
+7	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	start_char=353|end_char=355
+8	valitettavasti	valitettavasti	ADV	Adv	Derivation=Sti	10	advmod	_	start_char=356|end_char=370
+9	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=371|end_char=374
+10	tehdä	tehdä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=375|end_char=380
+11	jotain	jokin	PRON	Pron	Case=Par|Number=Sing|PronType=Ind	10	obj	_	start_char=381|end_char=387
+12	tuolta	tuo	PRON	Pron	Case=Abl|Number=Sing|PronType=Dem	13	det	_	start_char=388|end_char=394
+13	aikakaudelta	aika#kausi	NOUN	N	Case=Abl|Number=Sing	10	obl	_	start_char=395|end_char=407
+14	uudelleen	uudelleen	ADV	Adv	_	10	advmod	_	start_char=408|end_char=417
+15	samalla	sama	PRON	Pron	Case=Ade|Number=Sing|PronType=Ind	16	det	_	start_char=418|end_char=425
+16	viattomuudella	viattomuus	NOUN	N	Case=Ade|Number=Sing	10	obl	_	start_char=426|end_char=440
+17	ja	ja	CCONJ	C	_	18	cc	_	start_char=441|end_char=443
+18	tunteella	tunne	NOUN	N	Case=Ade|Number=Sing	16	conj	_	start_char=444|end_char=453
+19	:	:	PUNCT	Punct	_	21	punct	_	start_char=453|end_char=454
+20	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	21	aux	_	start_char=455|end_char=457
+21	aikakaudella	aika#kausi	NOUN	N	Case=Ade|Number=Sing	16	appos	_	start_char=458|end_char=470
+22	,	,	PUNCT	Punct	_	26	punct	_	start_char=470|end_char=471
+23	jolloin	jolloin	ADV	Adv	_	26	advmod	_	start_char=472|end_char=479
+24	joulusta	joulu	NOUN	N	Case=Ela|Number=Sing	26	obl	_	start_char=480|end_char=488
+25	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	start_char=489|end_char=491
+26	tullut	tulla	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	21	acl:relcl	_	start_char=492|end_char=498
+27	eloton	eloton	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	26	nsubj	_	start_char=499|end_char=505
+28	.	.	PUNCT	Punct	_	4	punct	_	start_char=505|end_char=506
+
+# text = Oho!
+# sent_id = 5
+1	Oho	oho	INTJ	Interj	_	0	root	_	start_char=507|end_char=510
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=510|end_char=511
+
+# text = Sanoin joulua, tarkoitin hyvää lomaa!
+# sent_id = 6
+1	Sanoin	sanoa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=512|end_char=518
+2	joulua	joulu	NOUN	N	Case=Par|Number=Sing	1	obj	_	start_char=519|end_char=525
+3	,	,	PUNCT	Punct	_	4	punct	_	start_char=525|end_char=526
+4	tarkoitin	tarkoittaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=527|end_char=536
+5	hyvää	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Sing	6	amod	_	start_char=537|end_char=542
+6	lomaa	loma	NOUN	N	Case=Par|Number=Sing	4	obj	_	start_char=543|end_char=548
+7	!	!	PUNCT	Punct	_	1	punct	_	start_char=548|end_char=549
+

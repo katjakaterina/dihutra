@@ -1,0 +1,61 @@
+# text = Jedina podloga koju koristim!
+# sent_id = 0
+1	Jedina	jedini	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	podloga	podlog	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=14
+3	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	4	obj	_	start_char=15|end_char=19
+4	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=20|end_char=28
+5	!	!	PUNCT	Z	_	2	punct	_	start_char=28|end_char=29
+
+# text = Više ne mogu kupiti ovu podlogu u lokalnim trgovinama i ona stvarno traje dugo i obavlja posao.
+# sent_id = 1
+1	Više	mnogo	ADV	Rgc	Degree=Cmp	3	advmod	_	start_char=30|end_char=34
+2	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=35|end_char=37
+3	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=38|end_char=42
+4	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=43|end_char=49
+5	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	start_char=50|end_char=53
+6	podlogu	podloga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=54|end_char=61
+7	u	u	ADP	Sl	Case=Loc	9	case	_	start_char=62|end_char=63
+8	lokalnim	lokalan	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	start_char=64|end_char=72
+9	trgovinama	trgovina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	4	obl	_	start_char=73|end_char=83
+10	i	i	CCONJ	Cc	_	13	cc	_	start_char=84|end_char=85
+11	ona	on	PRON	Pp3fsn	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=86|end_char=89
+12	stvarno	stvarno	ADV	Rgp	Degree=Pos	13	advmod	_	start_char=90|end_char=97
+13	traje	trajati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	start_char=98|end_char=103
+14	dugo	dugo	ADV	Rgp	Degree=Pos	13	advmod	_	start_char=104|end_char=108
+15	i	i	CCONJ	Cc	_	16	cc	_	start_char=109|end_char=110
+16	obavlja	obavljati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	start_char=111|end_char=118
+17	posao	posao	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=119|end_char=124
+18	.	.	PUNCT	Z	_	3	punct	_	start_char=124|end_char=125
+
+# text = Ne topi se na floridskom suncu i dovoljno je lagana da izgleda prirodno, ali pruža dovoljno pokrivanja.
+# sent_id = 2
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=126|end_char=128
+2	topi	topiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=129|end_char=133
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	_	start_char=134|end_char=136
+4	na	na	ADP	Sl	Case=Loc	6	case	_	start_char=137|end_char=139
+5	floridskom	floridski	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=140|end_char=150
+6	suncu	sunce	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	2	obl	_	start_char=151|end_char=156
+7	i	i	CCONJ	Cc	_	10	cc	_	start_char=157|end_char=158
+8	dovoljno	dovoljno	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=159|end_char=167
+9	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	start_char=168|end_char=170
+10	lagana	lagan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	start_char=171|end_char=177
+11	da	da	SCONJ	Cs	_	12	mark	_	start_char=178|end_char=180
+12	izgleda	izgledati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	csubj	_	start_char=181|end_char=188
+13	prirodno	prirodno	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=189|end_char=197
+14	,	,	PUNCT	Z	_	16	punct	_	start_char=197|end_char=198
+15	ali	ali	CCONJ	Cc	_	16	cc	_	start_char=199|end_char=202
+16	pruža	pružati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	start_char=203|end_char=208
+17	dovoljno	dovoljno	DET	Rgp	Degree=Pos	18	det:numgov	_	start_char=209|end_char=217
+18	pokrivanja	pokrivanje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	16	obj	_	start_char=218|end_char=228
+19	.	.	PUNCT	Z	_	2	punct	_	start_char=228|end_char=229
+
+# text = Koristim je već otprilike 5-6 godina.
+# sent_id = 3
+1	Koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=230|end_char=238
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=239|end_char=241
+3	već	već	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=242|end_char=245
+4	otprilike	otprilike	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=246|end_char=255
+5	5-6	5-6	NUM	Mdc	NumType=Card	6	nummod:gov	_	start_char=256|end_char=259
+6	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=260|end_char=266
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=266|end_char=267
+

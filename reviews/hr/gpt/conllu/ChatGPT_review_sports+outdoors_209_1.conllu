@@ -1,0 +1,67 @@
+# text = """Jeftin proizvod" Jeftin proizvod!
+# sent_id = 0
+1	"	"	PUNCT	Z	_	8	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Z	_	8	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Z	_	5	punct	_	start_char=2|end_char=3
+4	Jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=3|end_char=9
+5	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=10|end_char=18
+6	"	"	PUNCT	Z	_	8	punct	_	start_char=18|end_char=19
+7	Jeftin	jeftin	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=20|end_char=26
+8	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=27|end_char=35
+9	!	!	PUNCT	Z	_	8	punct	_	start_char=35|end_char=36
+
+# text = Nakon samo dva dana korištenja, počeo je gubiti zrak gdje sam pronašao rupu veličine igle i sada više nije upotrebljiv.
+# sent_id = 1
+1	Nakon	nakon	ADP	Sg	Case=Gen	4	case	_	start_char=37|end_char=42
+2	samo	samo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=43|end_char=47
+3	dva	dva	NUM	Mlc	NumType=Card	4	nummod	_	start_char=48|end_char=51
+4	dana	dan	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=52|end_char=56
+5	korištenja	korištenje	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=57|end_char=67
+6	,	,	PUNCT	Z	_	4	punct	_	start_char=67|end_char=68
+7	počeo	početi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=69|end_char=74
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=75|end_char=77
+9	gubiti	gubiti	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=78|end_char=84
+10	zrak	zrak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=85|end_char=89
+11	gdje	gdje	ADV	Rgp	Degree=Pos|PronType=Int,Rel	13	advmod	_	start_char=90|end_char=94
+12	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=95|end_char=98
+13	pronašao	pronaći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=99|end_char=107
+14	rupu	rupa	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=108|end_char=112
+15	veličine	veličina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=113|end_char=121
+16	igle	igla	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=122|end_char=126
+17	i	i	CCONJ	Cc	_	21	cc	_	start_char=127|end_char=128
+18	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	21	advmod	_	start_char=129|end_char=133
+19	više	mnogo	ADV	Rgc	Degree=Cmp	21	advmod	_	start_char=134|end_char=138
+20	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	21	cop	_	start_char=139|end_char=143
+21	upotrebljiv	upotrebljiv	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	13	conj	_	start_char=144|end_char=155
+22	.	.	PUNCT	Z	_	7	punct	_	start_char=155|end_char=156
+
+# text = Istog proizvoda (također proizvedenog u Kini) možete kupiti u lokalnim trgovinama za četvrtinu cijene.
+# sent_id = 2
+1	Istog	isti	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=157|end_char=162
+2	proizvoda	proizvod	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	9	obl	_	start_char=163|end_char=172
+3	(	(	PUNCT	Z	_	5	punct	_	start_char=173|end_char=174
+4	također	također	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=174|end_char=181
+5	proizvedenog	proizvesti	ADJ	Appmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	parataxis	_	start_char=182|end_char=194
+6	u	u	ADP	Sl	Case=Loc	7	case	_	start_char=195|end_char=196
+7	Kini	Kini	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=197|end_char=201
+8	)	)	PUNCT	Z	_	5	punct	_	start_char=201|end_char=202
+9	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=203|end_char=209
+10	kupiti	kupiti	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=210|end_char=216
+11	u	u	ADP	Sl	Case=Loc	13	case	_	start_char=217|end_char=218
+12	lokalnim	lokalan	ADJ	Agpfply	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	13	amod	_	start_char=219|end_char=227
+13	trgovinama	trgovina	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	start_char=228|end_char=238
+14	za	za	ADP	Sa	Case=Acc	15	case	_	start_char=239|end_char=241
+15	četvrtinu	četvrtina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=242|end_char=251
+16	cijene	cijena	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=252|end_char=258
+17	.	.	PUNCT	Z	_	9	punct	_	start_char=258|end_char=259
+
+# text = Ne bih preporučio/la ovaj proizvod."
+# sent_id = 3
+1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=260|end_char=262
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=263|end_char=266
+3	preporučio/la	preporučio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=267|end_char=280
+4	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=281|end_char=285
+5	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=286|end_char=294
+6	.	.	PUNCT	Z	_	3	punct	_	start_char=294|end_char=295
+7	"	"	PUNCT	Z	_	3	punct	_	start_char=295|end_char=296
+

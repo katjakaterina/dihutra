@@ -1,0 +1,78 @@
+# text = Konačno...
+# sent_id = 0
+1	Konačno	konačno	ADV	Rgp	Degree=Pos	0	root	_	start_char=0|end_char=7
+2	...	...	PUNCT	Z	_	1	punct	_	start_char=7|end_char=10
+
+# text = Ne mogu vjerovati koliko je vremena "njima" trebalo da ovaj predivan božićni show stave na DVD.
+# sent_id = 1
+1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=11|end_char=13
+2	mogu	moći	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=14|end_char=18
+3	vjerovati	vjerovati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=19|end_char=28
+4	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	10	advmod	_	start_char=29|end_char=35
+5	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	start_char=36|end_char=38
+6	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	10	obj	_	start_char=39|end_char=46
+7	"	"	PUNCT	Z	_	8	punct	_	start_char=47|end_char=48
+8	njima	oni	PRON	Pp3-pi	Case=Ins|Number=Plur|Person=3|PronType=Prs	6	nmod	_	start_char=48|end_char=53
+9	"	"	PUNCT	Z	_	8	punct	_	start_char=53|end_char=54
+10	trebalo	trebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	ccomp	_	start_char=55|end_char=62
+11	da	da	SCONJ	Cs	_	16	mark	_	start_char=63|end_char=65
+12	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	start_char=66|end_char=70
+13	predivan	predivan	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=71|end_char=79
+14	božićni	božićni	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=80|end_char=87
+15	show	show	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=88|end_char=92
+16	stave	staviti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	start_char=93|end_char=98
+17	na	na	ADP	Sa	Case=Acc	18	case	_	start_char=99|end_char=101
+18	DVD	DVD	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	start_char=102|end_char=105
+19	.	.	PUNCT	Z	_	2	punct	_	start_char=105|end_char=106
+
+# text = To je suvremeni (1930-ih Amerika) obrt na klasičnu priču Charlesa Dickensa.
+# sent_id = 2
+1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=107|end_char=109
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=110|end_char=112
+3	suvremeni	suvremen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=113|end_char=122
+4	(	(	PUNCT	Z	_	6	punct	_	start_char=123|end_char=124
+5	1930-ih	1930-ih	ADJ	Mdo	NumType=Ord	6	amod	_	start_char=124|end_char=131
+6	Amerika	Amerika	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	start_char=132|end_char=139
+7	)	)	PUNCT	Z	_	6	punct	_	start_char=139|end_char=140
+8	obrt	obrt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=141|end_char=145
+9	na	na	ADP	Sa	Case=Acc	11	case	_	start_char=146|end_char=148
+10	klasičnu	klasičan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=149|end_char=157
+11	priču	priča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	start_char=158|end_char=163
+12	Charlesa	Charles	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=164|end_char=172
+13	Dickensa	Dickens	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	12	flat	_	start_char=173|end_char=181
+14	.	.	PUNCT	Z	_	8	punct	_	start_char=181|end_char=182
+
+# text = Winkler me natjera da zamrzim njegov lik koliko i Alister Sim u svojoj ulozi Scroogea u produkciji iz 1951. godine.
+# sent_id = 3
+1	Winkler	Winkler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=183|end_char=190
+2	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=191|end_char=193
+3	natjera	natjerati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=194|end_char=201
+4	da	da	SCONJ	Cs	_	5	mark	_	start_char=202|end_char=204
+5	zamrzim	zamrziti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	ccomp	_	start_char=205|end_char=212
+6	njegov	njegov	DET	Ps3msan	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	start_char=213|end_char=219
+7	lik	lik	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=220|end_char=223
+8	koliko	koliko	ADV	Rgp	Degree=Pos|PronType=Int,Rel	10	orphan	_	start_char=224|end_char=230
+9	i	i	CCONJ	Cc	_	10	discourse	_	start_char=231|end_char=232
+10	Alister	Alister	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	acl	_	start_char=233|end_char=240
+11	Sim	Sim	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	start_char=241|end_char=244
+12	u	u	ADP	Sl	Case=Loc	14	case	_	start_char=245|end_char=246
+13	svojoj	svoj	DET	Px-fsl	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	start_char=247|end_char=253
+14	ulozi	uloga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=254|end_char=259
+15	Scroogea	Scrooge	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=260|end_char=268
+16	u	u	ADP	Sl	Case=Loc	17	case	_	start_char=269|end_char=270
+17	produkciji	produkcija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	start_char=271|end_char=281
+18	iz	iz	ADP	Sg	Case=Gen	20	case	_	start_char=282|end_char=284
+19	1951.	1951.	ADJ	Mdo	NumType=Ord	20	amod	_	start_char=285|end_char=290
+20	godine	godina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=291|end_char=297
+21	.	.	PUNCT	Z	_	3	punct	_	start_char=297|end_char=298
+
+# text = Svakako jedan za vašu vizualnu kolekciju.
+# sent_id = 4
+1	Svakako	svakako	ADV	Rgp	Degree=Pos|PronType=Tot	2	advmod	_	start_char=299|end_char=306
+2	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	0	root	_	start_char=307|end_char=312
+3	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=313|end_char=315
+4	vašu	vaš	DET	Ps1fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	start_char=316|end_char=320
+5	vizualnu	vizualan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=321|end_char=329
+6	kolekciju	kolekcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	start_char=330|end_char=339
+7	.	.	PUNCT	Z	_	2	punct	_	start_char=339|end_char=340
+

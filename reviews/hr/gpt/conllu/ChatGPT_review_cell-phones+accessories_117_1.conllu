@@ -1,0 +1,73 @@
+# text = Prestao raditi nakon mjesec i pol...
+# sent_id = 0
+1	Prestao	prestati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=7
+2	raditi	raditi	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=8|end_char=14
+3	nakon	nakon	ADP	Sg	Case=Gen	4	case	_	start_char=15|end_char=20
+4	mjesec	mjesec	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=21|end_char=27
+5	i	i	CCONJ	Cc	_	6	cc	_	start_char=28|end_char=29
+6	pol	pola	ADV	Rgp	Degree=Pos	4	flat	_	start_char=30|end_char=33
+7	...	...	PUNCT	Z	_	1	punct	_	start_char=33|end_char=36
+
+# text = Ovaj uređaj dobro je funkcionirao dok je zapravo radio, ali danas je prestao raditi, a prošao je period od 30 dana za povrat, možda čak i 10 dana više.
+# sent_id = 1
+1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=37|end_char=41
+2	uređaj	uređaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=42|end_char=48
+3	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=49|end_char=54
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=55|end_char=57
+5	funkcionirao	funkcionirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=58|end_char=70
+6	dok	dok	SCONJ	Cs	_	9	mark	_	start_char=71|end_char=74
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=75|end_char=77
+8	zapravo	zapravo	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=78|end_char=85
+9	radio	raditi	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	start_char=86|end_char=91
+10	,	,	PUNCT	Z	_	14	punct	_	start_char=91|end_char=92
+11	ali	ali	CCONJ	Cc	_	14	cc	_	start_char=93|end_char=96
+12	danas	danas	ADV	Rgp	Degree=Pos	14	advmod	_	start_char=97|end_char=102
+13	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	start_char=103|end_char=105
+14	prestao	prestati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	start_char=106|end_char=113
+15	raditi	raditi	VERB	Vmn	VerbForm=Inf	14	xcomp	_	start_char=114|end_char=120
+16	,	,	PUNCT	Z	_	18	punct	_	start_char=120|end_char=121
+17	a	a	CCONJ	Cc	_	18	cc	_	start_char=122|end_char=123
+18	prošao	proći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	start_char=124|end_char=130
+19	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	start_char=131|end_char=133
+20	period	period	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	start_char=134|end_char=140
+21	od	od	ADP	Sg	Case=Gen	23	case	_	start_char=141|end_char=143
+22	30	30	NUM	Mdc	NumType=Card	23	nummod:gov	_	start_char=144|end_char=146
+23	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	start_char=147|end_char=151
+24	za	za	ADP	Sa	Case=Acc	25	case	_	start_char=152|end_char=154
+25	povrat	povrat	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	nmod	_	start_char=155|end_char=161
+26	,	,	PUNCT	Z	_	31	punct	_	start_char=161|end_char=162
+27	možda	možda	ADV	Rgp	Degree=Pos	31	advmod	_	start_char=163|end_char=168
+28	čak	čak	PART	Qo	_	31	advmod	_	start_char=169|end_char=172
+29	i	i	CCONJ	Cc	_	31	discourse	_	start_char=173|end_char=174
+30	10	10	NUM	Mdc	NumType=Card	31	nummod:gov	_	start_char=175|end_char=177
+31	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	18	obl	_	start_char=178|end_char=182
+32	više	mnogo	ADV	Rgc	Degree=Cmp	31	advmod	_	start_char=183|end_char=187
+33	.	.	PUNCT	Z	_	5	punct	_	start_char=187|end_char=188
+
+# text = Pretpostavljam da kvaliteta možda nije sjajna, to bi mogao biti razlog prestanka rada, tko zna...
+# sent_id = 2
+1	Pretpostavljam	pretpostavljati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=189|end_char=203
+2	da	da	SCONJ	Cs	_	6	mark	_	start_char=204|end_char=206
+3	kvaliteta	kvaliteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=207|end_char=216
+4	možda	možda	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=217|end_char=222
+5	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=223|end_char=227
+6	sjajna	sjajan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	1	ccomp	_	start_char=228|end_char=234
+7	,	,	PUNCT	Z	_	10	punct	_	start_char=234|end_char=235
+8	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	start_char=236|end_char=238
+9	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	start_char=239|end_char=241
+10	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=242|end_char=247
+11	biti	biti	AUX	Van	VerbForm=Inf	10	xcomp	_	start_char=248|end_char=252
+12	razlog	razlog	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	start_char=253|end_char=259
+13	prestanka	prestanak	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=260|end_char=269
+14	rada	rad	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=270|end_char=274
+15	,	,	PUNCT	Z	_	17	punct	_	start_char=274|end_char=275
+16	tko	tko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Int,Rel	17	nsubj	_	start_char=276|end_char=279
+17	zna	znati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	start_char=280|end_char=283
+18	...	...	PUNCT	Z	_	1	punct	_	start_char=283|end_char=286
+
+# text = Šteta novca.
+# sent_id = 3
+1	Šteta	šteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=287|end_char=292
+2	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=293|end_char=298
+3	.	.	PUNCT	Z	_	1	punct	_	start_char=298|end_char=299
+

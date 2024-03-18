@@ -1,0 +1,135 @@
+# text = Если ваша упаковка оранжевая и черная, то верните её.
+# sent_id = 0
+1	Если	если	SCONJ	_	_	4	mark	_	start_char=0|end_char=4
+2	ваша	ваш	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	start_char=5|end_char=9
+3	упаковка	упаковка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=10|end_char=18
+4	оранжевая	оранжевый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	advcl	_	start_char=19|end_char=28
+5	и	и	CCONJ	_	_	6	cc	_	start_char=29|end_char=30
+6	черная	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	conj	_	start_char=31|end_char=37
+7	,	,	PUNCT	_	_	4	punct	_	start_char=37|end_char=38
+8	то	то	SCONJ	_	_	9	mark	_	start_char=39|end_char=41
+9	верните	вернуть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	start_char=42|end_char=49
+10	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=50|end_char=52
+11	.	.	PUNCT	_	_	9	punct	_	start_char=52|end_char=53
+
+# text = ОДНА ЗВЕЗДА: Фотография Maxell LR44 10-пакета показывает новую голограммную упаковку, но я получил старую оранжевую и черную упаковку.
+# sent_id = 1
+1	ОДНА	один	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	start_char=54|end_char=58
+2	ЗВЕЗДА	ЗВЕЗДА	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=59|end_char=65
+3	:	:	PUNCT	_	_	8	punct	_	start_char=65|end_char=66
+4	Фотография	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=67|end_char=77
+5	Maxell	Maxell	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=78|end_char=84
+6	LR44	LR44	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=85|end_char=89
+7	10-пакета	10-пакет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	flat:foreign	_	start_char=90|end_char=99
+8	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=100|end_char=110
+9	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=111|end_char=116
+10	голограммную	голограммный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=117|end_char=129
+11	упаковку	упаковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=130|end_char=138
+12	,	,	PUNCT	_	_	15	punct	_	start_char=138|end_char=139
+13	но	но	CCONJ	_	_	15	cc	_	start_char=140|end_char=142
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	start_char=143|end_char=144
+15	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=145|end_char=152
+16	старую	старый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=153|end_char=159
+17	оранжевую	оранжевый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=160|end_char=169
+18	и	и	CCONJ	_	_	19	cc	_	start_char=170|end_char=171
+19	черную	черный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	conj	_	start_char=172|end_char=178
+20	упаковку	упаковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=179|end_char=187
+21	.	.	PUNCT	_	_	2	punct	_	start_char=187|end_char=188
+
+# text = Батарейки старые.
+# sent_id = 2
+1	Батарейки	батарейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=189|end_char=198
+2	старые	старый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	start_char=199|end_char=205
+3	.	.	PUNCT	_	_	2	punct	_	start_char=205|end_char=206
+
+# text = Свет, питаемый ими, полусветлый и держится всего несколько дней.
+# sent_id = 3
+1	Свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=207|end_char=211
+2	,	,	PUNCT	_	_	3	punct	_	start_char=211|end_char=212
+3	питаемый	питать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl	_	start_char=213|end_char=221
+4	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3|PronType=Prs	3	obl	_	start_char=222|end_char=225
+5	,	,	PUNCT	_	_	3	punct	_	start_char=225|end_char=226
+6	полусветлый	полусветлый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=227|end_char=238
+7	и	и	CCONJ	_	_	8	cc	_	start_char=239|end_char=240
+8	держится	держаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	start_char=241|end_char=249
+9	всего	всего	PART	_	_	10	advmod	_	start_char=250|end_char=255
+10	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	11	nummod	_	start_char=256|end_char=265
+11	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	start_char=266|end_char=270
+12	.	.	PUNCT	_	_	6	punct	_	start_char=270|end_char=271
+
+# text = Оранжевый и черный пакет оцениваю в 1 звезду.
+# sent_id = 4
+1	Оранжевый	оранжевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=272|end_char=281
+2	и	и	CCONJ	_	_	3	cc	_	start_char=282|end_char=283
+3	черный	черный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	start_char=284|end_char=290
+4	пакет	пакет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=291|end_char=296
+5	оцениваю	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=297|end_char=305
+6	в	в	ADP	_	_	8	case	_	start_char=306|end_char=307
+7	1	1	NUM	_	NumType=Card	8	nummod	_	start_char=308|end_char=309
+8	звезду	звезда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=310|end_char=316
+9	.	.	PUNCT	_	_	5	punct	_	start_char=316|end_char=317
+
+# text = ПЯТЬ ЗВЕЗД:
+# sent_id = 5
+1	ПЯТЬ	пять	NUM	_	Case=Nom|NumType=Card	2	nummod:gov	_	start_char=318|end_char=322
+2	ЗВЕЗД	звезд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	0	root	_	start_char=323|end_char=328
+3	:	:	PUNCT	_	_	2	punct	_	start_char=328|end_char=329
+
+# text = У того же поставщика, MyBatterySupplier, я заказал 50-пакет, который пришел в новой голограммной упаковке, и разница была драматической.
+# sent_id = 6
+1	У	у	ADP	_	_	4	case	_	start_char=330|end_char=331
+2	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=332|end_char=336
+3	же	же	PART	_	_	2	advmod	_	start_char=337|end_char=339
+4	поставщика	поставщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	start_char=340|end_char=350
+5	,	,	PUNCT	_	_	6	punct	_	start_char=350|end_char=351
+6	MyBatterySupplier	MyBatterySupplier	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=352|end_char=369
+7	,	,	PUNCT	_	_	4	punct	_	start_char=369|end_char=370
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=371|end_char=372
+9	заказал	заказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=373|end_char=380
+10	50-пакет	50-пакет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=381|end_char=389
+11	,	,	PUNCT	_	_	13	punct	_	start_char=389|end_char=390
+12	который	который	PRON	_	Case=Nom|PronType=Int,Rel	13	nsubj	_	start_char=391|end_char=398
+13	пришел	прийти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=399|end_char=405
+14	в	в	ADP	_	_	17	case	_	start_char=406|end_char=407
+15	новой	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=408|end_char=413
+16	голограммной	голограммный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=414|end_char=426
+17	упаковке	упаковка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	start_char=427|end_char=435
+18	,	,	PUNCT	_	_	22	punct	_	start_char=435|end_char=436
+19	и	и	CCONJ	_	_	22	cc	_	start_char=437|end_char=438
+20	разница	разница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	start_char=439|end_char=446
+21	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	cop	_	start_char=447|end_char=451
+22	драматической	драматический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	13	conj	_	start_char=452|end_char=465
+23	.	.	PUNCT	_	_	9	punct	_	start_char=465|end_char=466
+
+# text = Свет, питаемый батарейками, был ярким, и я ожидаю, что они прослужат гораздо дольше.
+# sent_id = 7
+1	Свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=467|end_char=471
+2	,	,	PUNCT	_	_	3	punct	_	start_char=471|end_char=472
+3	питаемый	питать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl	_	start_char=473|end_char=481
+4	батарейками	батарейка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	start_char=482|end_char=493
+5	,	,	PUNCT	_	_	3	punct	_	start_char=493|end_char=494
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	start_char=495|end_char=498
+7	ярким	яркий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=499|end_char=504
+8	,	,	PUNCT	_	_	11	punct	_	start_char=504|end_char=505
+9	и	и	CCONJ	_	_	11	cc	_	start_char=506|end_char=507
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	start_char=508|end_char=509
+11	ожидаю	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=510|end_char=516
+12	,	,	PUNCT	_	_	15	punct	_	start_char=516|end_char=517
+13	что	что	SCONJ	_	_	15	mark	_	start_char=518|end_char=521
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	start_char=522|end_char=525
+15	прослужат	прослужить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	ccomp	_	start_char=526|end_char=535
+16	гораздо	гораздо	ADV	_	Degree=Pos	17	advmod	_	start_char=536|end_char=543
+17	дольше	долго	ADV	_	Degree=Cmp	15	advmod	_	start_char=544|end_char=550
+18	.	.	PUNCT	_	_	7	punct	_	start_char=550|end_char=551
+
+# text = Новая голограммная упаковка оцениваю в 5 звезд.
+# sent_id = 8
+1	Новая	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=552|end_char=557
+2	голограммная	голограммный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=558|end_char=570
+3	упаковка	упаковка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=571|end_char=579
+4	оцениваю	оценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=580|end_char=588
+5	в	в	ADP	_	_	7	case	_	start_char=589|end_char=590
+6	5	5	NUM	_	NumType=Card	7	nummod	_	start_char=591|end_char=592
+7	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	start_char=593|end_char=598
+8	.	.	PUNCT	_	_	4	punct	_	start_char=598|end_char=599
+

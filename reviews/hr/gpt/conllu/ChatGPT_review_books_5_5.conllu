@@ -1,0 +1,82 @@
+# text = Razočarao/la sam se što ste mi dopustili da kupim samo 4, iako je vaš inventar pokazivao da imate 14 dostupnih.
+# sent_id = 0
+1	Razočarao/la	razočarao/	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=12
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=13|end_char=16
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=17|end_char=19
+4	što	što	SCONJ	Cs	_	7	mark	_	start_char=20|end_char=23
+5	ste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=24|end_char=27
+6	mi	ja	PRON	Pp1-pn	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=28|end_char=30
+7	dopustili	dopustiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	_	start_char=31|end_char=40
+8	da	da	SCONJ	Cs	_	9	mark	_	start_char=41|end_char=43
+9	kupim	kupiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	ccomp	_	start_char=44|end_char=49
+10	samo	samo	ADV	Rgp	Degree=Pos	11	advmod	_	start_char=50|end_char=54
+11	4	4	NUM	Mdc	NumType=Card	9	obj	_	start_char=55|end_char=56
+12	,	,	PUNCT	Z	_	17	punct	_	start_char=56|end_char=57
+13	iako	iako	SCONJ	Cs	_	17	mark	_	start_char=58|end_char=62
+14	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=63|end_char=65
+15	vaš	vaš	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	16	det	_	start_char=66|end_char=69
+16	inventar	inventar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=70|end_char=78
+17	pokazivao	pokazivati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=79|end_char=88
+18	da	da	SCONJ	Cs	_	19	mark	_	start_char=89|end_char=91
+19	imate	imati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	ccomp	_	start_char=92|end_char=97
+20	14	14	NUM	Mdc	NumType=Card	21	nummod:gov	_	start_char=98|end_char=100
+21	dostupnih	dostupan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	19	obj	_	start_char=101|end_char=110
+22	.	.	PUNCT	Z	_	1	punct	_	start_char=110|end_char=111
+
+# text = Imamo mnogo starih, starih izdanja.
+# sent_id = 1
+1	Imamo	imati	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=112|end_char=117
+2	mnogo	mnogo	DET	Rgp	Degree=Pos	6	det:numgov	_	start_char=118|end_char=123
+3	starih	star	ADJ	Agpnpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	start_char=124|end_char=130
+4	,	,	PUNCT	Z	_	5	punct	_	start_char=130|end_char=131
+5	starih	star	ADJ	Agpnpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	3	conj	_	start_char=132|end_char=138
+6	izdanja	izdanje	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	1	obj	_	start_char=139|end_char=146
+7	.	.	PUNCT	Z	_	1	punct	_	start_char=146|end_char=147
+
+# text = No, njihov broj se smanjio.
+# sent_id = 2
+1	No	no	CCONJ	Cc	_	6	cc	_	start_char=148|end_char=150
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=150|end_char=151
+3	njihov	njihov	DET	Ps3msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs	4	det	_	start_char=152|end_char=158
+4	broj	broj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=159|end_char=163
+5	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	6	expl	_	start_char=164|end_char=166
+6	smanjio	smanjiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=167|end_char=174
+7	.	.	PUNCT	Z	_	6	punct	_	start_char=174|end_char=175
+
+# text = Nije bilo dovoljno knjiga da ih redovito koristimo.
+# sent_id = 3
+1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=176|end_char=180
+2	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=181|end_char=185
+3	dovoljno	dovoljno	DET	Rgp	Degree=Pos	4	det:numgov	_	start_char=186|end_char=194
+4	knjiga	knjiga	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	2	nsubj	_	start_char=195|end_char=201
+5	da	da	SCONJ	Cs	_	8	mark	_	start_char=202|end_char=204
+6	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	start_char=205|end_char=207
+7	redovito	redovito	ADV	Rgp	Degree=Pos	8	advmod	_	start_char=208|end_char=216
+8	koristimo	koristiti	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	start_char=217|end_char=226
+9	.	.	PUNCT	Z	_	2	punct	_	start_char=226|end_char=227
+
+# text = S dodatnim zalihama, knjige će se koristiti češće.
+# sent_id = 4
+1	S	sa	ADP	Si	Case=Ins	3	case	_	start_char=228|end_char=229
+2	dodatnim	dodatan	ADJ	Agpfpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=230|end_char=238
+3	zalihama	zaliha	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	8	obl	_	start_char=239|end_char=247
+4	,	,	PUNCT	Z	_	3	punct	_	start_char=247|end_char=248
+5	knjige	knjiga	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	start_char=249|end_char=255
+6	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=256|end_char=258
+7	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	8	expl	_	start_char=259|end_char=261
+8	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=262|end_char=271
+9	češće	često	ADV	Rgc	Degree=Cmp	8	advmod	_	start_char=272|end_char=277
+10	.	.	PUNCT	Z	_	8	punct	_	start_char=277|end_char=278
+
+# text = One su dobar stari izbor za gospel pjevanje.
+# sent_id = 5
+1	One	oni	PRON	Pp3fpn	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=279|end_char=282
+2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=283|end_char=285
+3	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=286|end_char=291
+4	stari	star	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=292|end_char=297
+5	izbor	izbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=298|end_char=303
+6	za	za	ADP	Sa	Case=Acc	8	case	_	start_char=304|end_char=306
+7	gospel	gospel	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	amod	_	start_char=307|end_char=313
+8	pjevanje	pjevanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	start_char=314|end_char=322
+9	.	.	PUNCT	Z	_	5	punct	_	start_char=322|end_char=323
+

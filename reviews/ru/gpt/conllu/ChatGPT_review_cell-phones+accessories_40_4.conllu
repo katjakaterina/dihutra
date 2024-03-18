@@ -1,0 +1,92 @@
+# text = Автомобильное зарядное устройство с двумя USB-портами Приобрел этот продукт около месяца назад.
+# sent_id = 0
+1	Автомобильное	автомобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=0|end_char=13
+2	зарядное	зарядный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=14|end_char=22
+3	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=23|end_char=33
+4	с	с	ADP	_	_	8	case	_	start_char=34|end_char=35
+5	двумя	два	NUM	_	Case=Ins|NumType=Card	6	nummod	_	start_char=36|end_char=41
+6	USB	USB	PROPN	_	_	8	compound	_	start_char=42|end_char=45
+7	-	-	PUNCT	_	_	8	punct	_	start_char=45|end_char=46
+8	портами	порт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	nmod	_	start_char=46|end_char=53
+9	Приобрел	приобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=54|end_char=62
+10	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=63|end_char=67
+11	продукт	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=68|end_char=75
+12	около	около	ADP	_	_	13	case	_	start_char=76|end_char=81
+13	месяца	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	start_char=82|end_char=88
+14	назад	назад	ADV	_	Degree=Pos	13	advmod	_	start_char=89|end_char=94
+15	.	.	PUNCT	_	_	9	punct	_	start_char=94|end_char=95
+
+# text = Плюсы:
+# sent_id = 1
+1	Плюсы	плюс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=96|end_char=101
+2	:	:	PUNCT	_	_	1	punct	_	start_char=101|end_char=102
+
+# text = Обожаю его, он просто отлично работает!
+# sent_id = 2
+1	Обожаю	обожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=103|end_char=109
+2	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=110|end_char=113
+3	,	,	PUNCT	_	_	7	punct	_	start_char=113|end_char=114
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=115|end_char=117
+5	просто	просто	PART	_	_	6	advmod	_	start_char=118|end_char=124
+6	отлично	отлично	ADV	_	Degree=Pos	7	advmod	_	start_char=125|end_char=132
+7	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=133|end_char=141
+8	!	!	PUNCT	_	_	1	punct	_	start_char=141|end_char=142
+
+# text = Здорово, что есть синяя подсветка, когда вы вставляете его в прикуриватель!
+# sent_id = 3
+1	Здорово	здорово	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=143|end_char=150
+2	,	,	PUNCT	_	_	4	punct	_	start_char=150|end_char=151
+3	что	что	SCONJ	_	_	4	mark	_	start_char=152|end_char=155
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=156|end_char=160
+5	синяя	синий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=161|end_char=166
+6	подсветка	подсветка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=167|end_char=176
+7	,	,	PUNCT	_	_	10	punct	_	start_char=176|end_char=177
+8	когда	когда	SCONJ	_	_	10	mark	_	start_char=178|end_char=183
+9	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	start_char=184|end_char=186
+10	вставляете	вставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=187|end_char=197
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=198|end_char=201
+12	в	в	ADP	_	_	13	case	_	start_char=202|end_char=203
+13	прикуриватель	прикуриватель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	start_char=204|end_char=217
+14	!	!	PUNCT	_	_	1	punct	_	start_char=217|end_char=218
+
+# text = Можно одновременно заряжать два устройства...
+# sent_id = 4
+1	Можно	можно	ADV	_	Degree=Pos	0	root	_	start_char=219|end_char=224
+2	одновременно	одновременно	ADV	_	Degree=Pos	3	advmod	_	start_char=225|end_char=237
+3	заряжать	заряжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	csubj	_	start_char=238|end_char=246
+4	два	два	NUM	_	Case=Acc|Gender=Neut|NumType=Card	5	nummod:gov	_	start_char=247|end_char=250
+5	устройства	устройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	start_char=251|end_char=261
+6	.	.	PUNCT	_	_	5	punct	_	start_char=261|end_char=262
+7	.	.	PUNCT	_	_	5	punct	_	start_char=262|end_char=263
+8	.	.	PUNCT	_	_	1	punct	_	start_char=263|end_char=264
+
+# text = Минусы: Верхняя прозрачная часть со временем легко снимается (я просто обмотал ее прозрачным скотчем) ВСЕГО: ПЛЮСЫ: 95% МИНУСЫ: 5%
+# sent_id = 5
+1	Минусы	минус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=265|end_char=271
+2	:	:	PUNCT	_	_	9	punct	_	start_char=271|end_char=272
+3	Верхняя	верхний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=273|end_char=280
+4	прозрачная	прозрачный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=281|end_char=291
+5	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	start_char=292|end_char=297
+6	со	с	ADP	_	_	7	case	_	start_char=298|end_char=300
+7	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	start_char=301|end_char=309
+8	легко	легко	ADV	_	Degree=Pos	9	advmod	_	start_char=310|end_char=315
+9	снимается	снимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	1	parataxis	_	start_char=316|end_char=325
+10	(	(	PUNCT	_	_	13	punct	_	start_char=326|end_char=327
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=327|end_char=328
+12	просто	просто	PART	_	_	13	advmod	_	start_char=329|end_char=335
+13	обмотал	обмотать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	start_char=336|end_char=343
+14	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	start_char=344|end_char=346
+15	прозрачным	прозрачный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=347|end_char=357
+16	скотчем	скотч	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	start_char=358|end_char=365
+17	)	)	PUNCT	_	_	13	punct	_	start_char=365|end_char=366
+18	ВСЕГО	всего	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	start_char=367|end_char=372
+19	:	:	PUNCT	_	_	20	punct	_	start_char=372|end_char=373
+20	ПЛЮСЫ	плюс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	parataxis	_	start_char=374|end_char=379
+21	:	:	PUNCT	_	_	23	punct	_	start_char=379|end_char=380
+22	95	95	NUM	_	NumType=Card	23	nummod	_	start_char=381|end_char=383
+23	%	%	SYM	_	_	20	parataxis	_	start_char=383|end_char=384
+24	МИНУСЫ	минус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	20	parataxis	_	start_char=385|end_char=391
+25	:	:	PUNCT	_	_	27	punct	_	start_char=391|end_char=392
+26	5	5	NUM	_	NumType=Card	27	nummod	_	start_char=393|end_char=394
+27	%	%	SYM	_	_	24	parataxis	_	start_char=394|end_char=395
+

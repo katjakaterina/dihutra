@@ -1,0 +1,73 @@
+# text = Классика от Клэптона Очень разочаровывающе.
+# sent_id = 0
+1	Классика	классика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=0|end_char=8
+2	от	от	ADP	_	_	3	case	_	start_char=9|end_char=11
+3	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=20
+4	Очень	очень	ADV	_	Degree=Pos	5	obl	_	start_char=21|end_char=26
+5	разочаровывающе	разочаровывающес	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=27|end_char=42
+6	.	.	PUNCT	_	_	5	punct	_	start_char=42|end_char=43
+
+# text = Обещали "нота в ноту" урок по выбранным песням Клэптона, но это было далеко не так.
+# sent_id = 1
+1	Обещали	обещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=44|end_char=51
+2	"	"	PUNCT	_	_	3	punct	_	start_char=52|end_char=53
+3	нота	нота	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	obj	_	start_char=53|end_char=57
+4	в	в	ADP	_	_	5	case	_	start_char=58|end_char=59
+5	ноту	нота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	start_char=60|end_char=64
+6	"	"	PUNCT	_	_	3	punct	_	start_char=64|end_char=65
+7	урок	урок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=66|end_char=70
+8	по	по	ADP	_	_	10	case	_	start_char=71|end_char=73
+9	выбранным	выбрать	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	amod	_	start_char=74|end_char=83
+10	песням	песня	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	nmod	_	start_char=84|end_char=90
+11	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=91|end_char=99
+12	,	,	PUNCT	_	_	18	punct	_	start_char=99|end_char=100
+13	но	но	CCONJ	_	_	18	cc	_	start_char=101|end_char=103
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	start_char=104|end_char=107
+15	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	start_char=108|end_char=112
+16	далеко	далеко	ADV	_	Degree=Pos	17	advmod	_	start_char=113|end_char=119
+17	не	не	PART	_	_	18	advmod	_	start_char=120|end_char=122
+18	так	так	ADV	_	Degree=Pos	1	conj	_	start_char=123|end_char=126
+19	.	.	PUNCT	_	_	1	punct	_	start_char=126|end_char=127
+
+# text = В учебнике не было табулатуры, чтобы поддержать маленькие (и иногда неточные) части песен, которые были перечислены.
+# sent_id = 2
+1	В	в	ADP	_	_	2	case	_	start_char=128|end_char=129
+2	учебнике	учебник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=130|end_char=138
+3	не	не	PART	_	_	4	advmod	_	start_char=139|end_char=141
+4	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=142|end_char=146
+5	табулатуры	табулатура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	start_char=147|end_char=157
+6	,	,	PUNCT	_	_	8	punct	_	start_char=157|end_char=158
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	start_char=159|end_char=164
+8	поддержать	поддержать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=165|end_char=175
+9	маленькие	маленький	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	start_char=176|end_char=185
+10	(	(	PUNCT	_	_	13	punct	_	start_char=186|end_char=187
+11	и	и	CCONJ	_	_	13	cc	_	start_char=187|end_char=188
+12	иногда	иногда	ADV	_	Degree=Pos	13	obl	_	start_char=189|end_char=195
+13	неточные	неточный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	parataxis	_	start_char=196|end_char=204
+14	)	)	PUNCT	_	_	13	punct	_	start_char=204|end_char=205
+15	части	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	start_char=206|end_char=211
+16	песен	песня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	start_char=212|end_char=217
+17	,	,	PUNCT	_	_	20	punct	_	start_char=217|end_char=218
+18	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	20	nsubj:pass	_	start_char=219|end_char=226
+19	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	aux:pass	_	start_char=227|end_char=231
+20	перечислены	перечислить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	acl:relcl	_	start_char=232|end_char=243
+21	.	.	PUNCT	_	_	4	punct	_	start_char=243|end_char=244
+
+# text = Я направил жалобу непосредственно в Hal Leonard, но не получил даже вежливого ответа.
+# sent_id = 3
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=245|end_char=246
+2	направил	направить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=247|end_char=255
+3	жалобу	жалоба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=256|end_char=262
+4	непосредственно	непосредственно	ADV	_	Degree=Pos	6	advmod	_	start_char=263|end_char=278
+5	в	в	ADP	_	_	6	case	_	start_char=279|end_char=280
+6	Hal	Hal	PROPN	_	Foreign=Yes	2	obl	_	start_char=281|end_char=284
+7	Leonard	Leonard	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=285|end_char=292
+8	,	,	PUNCT	_	_	11	punct	_	start_char=292|end_char=293
+9	но	но	CCONJ	_	_	11	cc	_	start_char=294|end_char=296
+10	не	не	PART	_	_	11	advmod	_	start_char=297|end_char=299
+11	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=300|end_char=307
+12	даже	даже	PART	_	_	13	advmod	_	start_char=308|end_char=312
+13	вежливого	вежливый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	start_char=313|end_char=322
+14	ответа	ответ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	start_char=323|end_char=329
+15	.	.	PUNCT	_	_	2	punct	_	start_char=329|end_char=330
+

@@ -1,0 +1,108 @@
+# text = Suosikki!
+# sent_id = 0
+1	Suosikki	suosikki	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=0|end_char=8
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=8|end_char=9
+
+# text = Ostin tämän LP-muodossa, kun se oli aivan uusi, äänitin sen kasetille, jotta voisin soittaa sitä autossani, kuuntelin, kuuntelin ja kuuntelin.
+# sent_id = 1
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=10|end_char=15
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	1	obj	_	start_char=16|end_char=21
+3	LP-muodossa	LP#muoto	NOUN	N	Case=Ine|Number=Sing	1	obl	_	start_char=22|end_char=33
+4	,	,	PUNCT	Punct	_	9	punct	_	start_char=33|end_char=34
+5	kun	kun	SCONJ	C	_	9	mark	_	start_char=35|end_char=38
+6	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	start_char=39|end_char=41
+7	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=42|end_char=45
+8	aivan	aivan	ADV	Adv	_	9	advmod	_	start_char=46|end_char=51
+9	uusi	uusi	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	1	advcl	_	start_char=52|end_char=56
+10	,	,	PUNCT	Punct	_	11	punct	_	start_char=56|end_char=57
+11	äänitin	äänittää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=58|end_char=65
+12	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	11	obj	_	start_char=66|end_char=69
+13	kasetille	kasetti	NOUN	N	Case=All|Number=Sing	11	obl	_	start_char=70|end_char=79
+14	,	,	PUNCT	Punct	_	17	punct	_	start_char=79|end_char=80
+15	jotta	jotta	SCONJ	C	_	17	mark	_	start_char=81|end_char=86
+16	voisin	voida	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	17	aux	_	start_char=87|end_char=93
+17	soittaa	soittaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	11	advcl	_	start_char=94|end_char=101
+18	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	17	obj	_	start_char=102|end_char=106
+19	autossani	auto	NOUN	N	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=1	17	obl	_	start_char=107|end_char=116
+20	,	,	PUNCT	Punct	_	21	punct	_	start_char=116|end_char=117
+21	kuuntelin	kuunnella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	start_char=118|end_char=127
+22	,	,	PUNCT	Punct	_	23	punct	_	start_char=127|end_char=128
+23	kuuntelin	kuunnella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	start_char=129|end_char=138
+24	ja	ja	CCONJ	C	_	25	cc	_	start_char=139|end_char=141
+25	kuuntelin	kuunnella	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	start_char=142|end_char=151
+26	.	.	PUNCT	Punct	_	1	punct	_	start_char=151|end_char=152
+
+# text = Olen niin ikävöinyt tämän kuuntelua (ei ole enää levysoitinta), että olen vihdoin tilannut sen uudelleen CD:lle.
+# sent_id = 2
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=153|end_char=157
+2	niin	niin	ADV	Adv	_	3	advmod	_	start_char=158|end_char=162
+3	ikävöinyt	ikävöidä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=163|end_char=172
+4	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	5	det	_	start_char=173|end_char=178
+5	kuuntelua	kuuntelu	NOUN	N	Case=Par|Derivation=U|Number=Sing	3	obj	_	start_char=179|end_char=188
+6	(	(	PUNCT	Punct	_	8	punct	_	start_char=189|end_char=190
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=190|end_char=192
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	start_char=193|end_char=196
+9	enää	enää	ADV	Adv	_	8	advmod	_	start_char=197|end_char=201
+10	levysoitinta	levy#soitinta	NOUN	N	Case=Par|Number=Sing	8	nsubj	_	start_char=202|end_char=214
+11	)	)	PUNCT	Punct	_	8	punct	_	start_char=214|end_char=215
+12	,	,	PUNCT	Punct	_	16	punct	_	start_char=215|end_char=216
+13	että	että	SCONJ	C	_	16	mark	_	start_char=217|end_char=221
+14	olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	start_char=222|end_char=226
+15	vihdoin	vihdoin	ADV	Adv	_	16	advmod	_	start_char=227|end_char=234
+16	tilannut	tilata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	ccomp	_	start_char=235|end_char=243
+17	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	16	obj	_	start_char=244|end_char=247
+18	uudelleen	uudelleen	ADV	Adv	_	16	advmod	_	start_char=248|end_char=257
+19	CD:lle	CD	PROPN	N	Case=All|Number=Sing	16	obl	_	start_char=258|end_char=264
+20	.	.	PUNCT	Punct	_	3	punct	_	start_char=264|end_char=265
+
+# text = JEE!!
+# sent_id = 3
+1	JEE	jee	INTJ	Interj	_	0	root	_	start_char=266|end_char=269
+2	!	!	PUNCT	Punct	_	1	punct	_	start_char=269|end_char=270
+3	!	!	PUNCT	Punct	_	1	punct	_	start_char=270|end_char=271
+
+# text = En malta odottaa, että pääsen pelaamaan sitä, ja pelaamaan sitä ja pelaamaan sitä.
+# sent_id = 4
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=272|end_char=274
+2	malta	malttaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=275|end_char=280
+3	odottaa	odottaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=281|end_char=288
+4	,	,	PUNCT	Punct	_	6	punct	_	start_char=288|end_char=289
+5	että	että	SCONJ	C	_	6	mark	_	start_char=290|end_char=294
+6	pääsen	päästä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=295|end_char=301
+7	pelaamaan	pelata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=302|end_char=311
+8	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	7	obj	_	start_char=312|end_char=316
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=316|end_char=317
+10	ja	ja	CCONJ	C	_	11	cc	_	start_char=318|end_char=320
+11	pelaamaan	pelata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	7	conj	_	start_char=321|end_char=330
+12	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	11	obj	_	start_char=331|end_char=335
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=336|end_char=338
+14	pelaamaan	pelata	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	11	conj	_	start_char=339|end_char=348
+15	sitä	se	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	14	obj	_	start_char=349|end_char=353
+16	.	.	PUNCT	Punct	_	2	punct	_	start_char=353|end_char=354
+
+# text = Kukaan, ei todellakaan kukaan pue sydäntään Jumalalle hihassaan kuten Keith Green!
+# sent_id = 5
+1	Kukaan	kukaan	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=355|end_char=361
+2	,	,	PUNCT	Punct	_	1	punct	_	start_char=361|end_char=362
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	start_char=363|end_char=365
+4	todellakaan	todella	ADV	Adv	Clitic=Kaan	6	advmod	_	start_char=366|end_char=377
+5	kukaan	kukaan	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	start_char=378|end_char=384
+6	pue	pukea	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=385|end_char=388
+7	sydäntään	sydän	NOUN	N	Case=Par|Number=Sing|Person[psor]=3	6	obj	_	start_char=389|end_char=398
+8	Jumalalle	Jumala	PROPN	N	Case=All|Number=Sing	6	obl	_	start_char=399|end_char=408
+9	hihassaan	hiha	NOUN	N	Case=Ine|Number=Sing|Person[psor]=3	6	obl	_	start_char=409|end_char=418
+10	kuten	kuten	SCONJ	C	_	11	mark	_	start_char=419|end_char=424
+11	Keith	Keith	PROPN	N	Case=Nom|Number=Sing	6	advcl	_	start_char=425|end_char=430
+12	Green	Green	PROPN	N	Case=Nom|Number=Sing	11	flat:name	_	start_char=431|end_char=436
+13	!	!	PUNCT	Punct	_	6	punct	_	start_char=436|end_char=437
+
+# text = En malta odottaa tapaavani hänet taivaassa.
+# sent_id = 6
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=438|end_char=440
+2	malta	malttaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=441|end_char=446
+3	odottaa	odottaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=447|end_char=454
+4	tapaavani	tavata	VERB	V	Case=Nom|Number=Sing|Number[psor]=Sing|PartForm=Pres|Person[psor]=1|VerbForm=Part|Voice=Act	3	xcomp	_	start_char=455|end_char=464
+5	hänet	hän	PRON	Pron	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=465|end_char=470
+6	taivaassa	taivas	NOUN	N	Case=Ine|Number=Sing	4	obl	_	start_char=471|end_char=480
+7	.	.	PUNCT	Punct	_	2	punct	_	start_char=480|end_char=481
+

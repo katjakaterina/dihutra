@@ -1,0 +1,57 @@
+# text = Hienoa, että hän voi leikkiä aakkosillaan...
+# sent_id = 0
+1	Hienoa	hieno	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=0|end_char=6
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=6|end_char=7
+3	että	että	SCONJ	C	_	6	mark	_	start_char=8|end_char=12
+4	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=13|end_char=16
+5	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=17|end_char=20
+6	leikkiä	leikkiä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	csubj:cop	_	start_char=21|end_char=28
+7	aakkosillaan	aakkonen	NOUN	N	Case=Ade|Number=Plur|Person[psor]=3	6	obl	_	start_char=29|end_char=41
+8	...	...	PUNCT	Punct	_	1	punct	_	start_char=41|end_char=44
+
+# text = Minulla on rosterijääkaappi, joten tilaa ei ole paljon poikani magneettien leikkimiseen.
+# sent_id = 1
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=45|end_char=52
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=53|end_char=55
+3	rosterijääkaappi	rosterijääkaappi	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=56|end_char=72
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=72|end_char=73
+5	joten	joten	ADV	Adv	_	8	advmod	_	start_char=74|end_char=79
+6	tilaa	tila	NOUN	N	Case=Par|Number=Sing	8	nsubj	_	start_char=80|end_char=85
+7	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=86|end_char=88
+8	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop:own	_	start_char=89|end_char=92
+9	paljon	paljon	ADV	Adv	_	10	advmod	_	start_char=93|end_char=99
+10	poikani	poika	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	11	nmod:poss	_	start_char=100|end_char=107
+11	magneettien	magneetti	NOUN	N	Case=Gen|Number=Plur	12	nmod:gobj	_	start_char=108|end_char=119
+12	leikkimiseen	leikkiminen	NOUN	N	Case=Ill|Derivation=Minen|Number=Sing	6	nmod	_	start_char=120|end_char=132
+13	.	.	PUNCT	Punct	_	1	punct	_	start_char=132|end_char=133
+
+# text = Ostin tämän hänelle laittamaan magneettinsa siihen.
+# sent_id = 2
+1	Ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=134|end_char=139
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	4	nsubj	_	start_char=140|end_char=145
+3	hänelle	hän	PRON	Pron	Case=All|Number=Sing|Person=3|PronType=Prs	1	obl	_	start_char=146|end_char=153
+4	laittamaan	laittaa	VERB	V	Case=Ill|InfForm=3|Number=Sing|VerbForm=Inf|Voice=Act	1	xcomp:ds	_	start_char=154|end_char=164
+5	magneettinsa	magneetti	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	4	obj	_	start_char=165|end_char=177
+6	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	4	obl	_	start_char=178|end_char=184
+7	.	.	PUNCT	Punct	_	1	punct	_	start_char=184|end_char=185
+
+# text = Hän nauttii magneettinsa kiinnittämisestä siihen.
+# sent_id = 3
+1	Hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=186|end_char=189
+2	nauttii	nauttia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=190|end_char=197
+3	magneettinsa	magneetti	NOUN	N	Case=Gen|Number=Sing|Person[psor]=3	4	nmod:gobj	_	start_char=198|end_char=210
+4	kiinnittämisestä	kiinnittäminen	NOUN	N	Case=Ela|Derivation=Minen|Number=Sing	2	obl	_	start_char=211|end_char=227
+5	siihen	se	PRON	Pron	Case=Ill|Number=Sing|PronType=Dem	4	nmod	_	start_char=228|end_char=234
+6	.	.	PUNCT	Punct	_	2	punct	_	start_char=234|end_char=235
+
+# text = Hienoa, että hän voi leikkiä aakkosmagneeteillaan.
+# sent_id = 4
+1	Hienoa	hieno	ADJ	A	Case=Par|Degree=Pos|Number=Sing	0	root	_	start_char=236|end_char=242
+2	,	,	PUNCT	Punct	_	6	punct	_	start_char=242|end_char=243
+3	että	että	SCONJ	C	_	6	mark	_	start_char=244|end_char=248
+4	hän	hän	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=249|end_char=252
+5	voi	voida	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=253|end_char=256
+6	leikkiä	leikkiä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	1	csubj:cop	_	start_char=257|end_char=264
+7	aakkosmagneeteillaan	aakkos#magneetti	NOUN	N	Case=Ade|Number=Plur|Person[psor]=3	6	obl	_	start_char=265|end_char=285
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=285|end_char=286
+

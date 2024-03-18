@@ -1,0 +1,96 @@
+# text = Nekoliko korisnih savjeta, ali to je otprilike to Ako zaista želite napraviti i ukrasiti tortu, ova knjiga nije od velike pomoći.
+# sent_id = 0
+1	Nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	3	det:numgov	_	start_char=0|end_char=8
+2	korisnih	koristan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=9|end_char=17
+3	savjeta	savjet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nsubj	_	start_char=18|end_char=25
+4	,	,	PUNCT	Z	_	9	punct	_	start_char=25|end_char=26
+5	ali	ali	CCONJ	Cc	_	9	cc	_	start_char=27|end_char=30
+6	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	start_char=31|end_char=33
+7	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	start_char=34|end_char=36
+8	otprilike	otprilike	ADV	Rgp	Degree=Pos	9	advmod	_	start_char=37|end_char=46
+9	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=47|end_char=49
+10	Ako	ako	SCONJ	Cs	_	12	mark	_	start_char=50|end_char=53
+11	zaista	zaista	ADV	Rgp	Degree=Pos	12	advmod	_	start_char=54|end_char=60
+12	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=61|end_char=67
+13	napraviti	napraviti	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=68|end_char=77
+14	i	i	CCONJ	Cc	_	15	cc	_	start_char=78|end_char=79
+15	ukrasiti	ukrasiti	VERB	Vmn	VerbForm=Inf	13	conj	_	start_char=80|end_char=88
+16	tortu	torta	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=89|end_char=94
+17	,	,	PUNCT	Z	_	12	punct	_	start_char=94|end_char=95
+18	ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	start_char=96|end_char=99
+19	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	start_char=100|end_char=106
+20	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	23	cop	_	start_char=107|end_char=111
+21	od	od	ADP	Sg	Case=Gen	23	case	_	start_char=112|end_char=114
+22	velike	velik	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	start_char=115|end_char=121
+23	pomoći	pomoć	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	acl	_	start_char=122|end_char=128
+24	.	.	PUNCT	Z	_	23	punct	_	start_char=128|end_char=129
+
+# text = Knjiga se uglavnom sastoji od slika svadbenih torti, od kojih većina nije bila ni približno ono što bih razmatrao.
+# sent_id = 1
+1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=130|end_char=136
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=137|end_char=139
+3	uglavnom	uglavnom	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=140|end_char=148
+4	sastoji	sastojati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=149|end_char=156
+5	od	od	ADP	Sg	Case=Gen	6	case	_	start_char=157|end_char=159
+6	slika	slika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	start_char=160|end_char=165
+7	svadbenih	svadbeni	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	start_char=166|end_char=175
+8	torti	torta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=176|end_char=181
+9	,	,	PUNCT	Z	_	14	punct	_	start_char=181|end_char=182
+10	od	od	ADP	Sg	Case=Gen	11	case	_	start_char=183|end_char=185
+11	kojih	koji	DET	Pi-fpg	Case=Gen|Gender=Fem|Number=Plur|PronType=Int,Rel	17	nmod	_	start_char=186|end_char=191
+12	većina	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	start_char=192|end_char=198
+13	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=199|end_char=203
+14	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	cop	_	start_char=204|end_char=208
+15	ni	ni	CCONJ	Cc	_	17	discourse	_	start_char=209|end_char=211
+16	približno	približno	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=212|end_char=221
+17	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	acl	_	start_char=222|end_char=225
+18	što	što	PRON	Pi3n-n	Case=Acc|Gender=Neut|PronType=Int,Rel	20	obj	_	start_char=226|end_char=229
+19	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	aux	_	start_char=230|end_char=233
+20	razmatrao	razmatrati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	acl	_	start_char=234|end_char=243
+21	.	.	PUNCT	Z	_	4	punct	_	start_char=243|end_char=244
+
+# text = Čak i da su mi se svidjele, samo nekoliko njih je imalo upute, što znači da većinu njih ne bih mogao napraviti.
+# sent_id = 2
+1	Čak	čak	PART	Qo	_	7	advmod	_	start_char=245|end_char=248
+2	i	i	CCONJ	Cc	_	7	discourse	_	start_char=249|end_char=250
+3	da	da	SCONJ	Cs	_	7	mark	_	start_char=251|end_char=253
+4	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=254|end_char=256
+5	mi	ja	PRON	Pp1-pn	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	start_char=257|end_char=259
+6	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	7	expl	_	start_char=260|end_char=262
+7	svidjele	svidjeti	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	start_char=263|end_char=271
+8	,	,	PUNCT	Z	_	7	punct	_	start_char=271|end_char=272
+9	samo	samo	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=273|end_char=277
+10	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	11	det:numgov	_	start_char=278|end_char=286
+11	njih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	start_char=287|end_char=291
+12	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=292|end_char=294
+13	imalo	imati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=295|end_char=300
+14	upute	uputa	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	start_char=301|end_char=306
+15	,	,	PUNCT	Z	_	17	punct	_	start_char=306|end_char=307
+16	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	17	nsubj	_	start_char=308|end_char=311
+17	znači	značiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=312|end_char=317
+18	da	da	SCONJ	Cs	_	23	mark	_	start_char=318|end_char=320
+19	većinu	većina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	start_char=321|end_char=327
+20	njih	oni	PRON	Pp3-pg	Case=Gen|Number=Plur|Person=3|PronType=Prs	19	nmod	_	start_char=328|end_char=332
+21	ne	ne	PART	Qz	Polarity=Neg	23	advmod	_	start_char=333|end_char=335
+22	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	23	aux	_	start_char=336|end_char=339
+23	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	ccomp	_	start_char=340|end_char=345
+24	napraviti	napraviti	VERB	Vmn	VerbForm=Inf	23	xcomp	_	start_char=346|end_char=355
+25	.	.	PUNCT	Z	_	13	punct	_	start_char=355|end_char=356
+
+# text = Knjiga je imala nekoliko korisnih savjeta i nekoliko recepata za torte i kreme.
+# sent_id = 3
+1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=357|end_char=363
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=364|end_char=366
+3	imala	imati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=367|end_char=372
+4	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	6	det:numgov	_	start_char=373|end_char=381
+5	korisnih	koristan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	start_char=382|end_char=390
+6	savjeta	savjet	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obj	_	start_char=391|end_char=398
+7	i	i	CCONJ	Cc	_	9	cc	_	start_char=399|end_char=400
+8	nekoliko	nekoliko	DET	Rgp	Degree=Pos|PronType=Ind	9	det:numgov	_	start_char=401|end_char=409
+9	recepata	recept	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	6	conj	_	start_char=410|end_char=418
+10	za	za	ADP	Sa	Case=Acc	11	case	_	start_char=419|end_char=421
+11	torte	torta	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	start_char=422|end_char=427
+12	i	i	CCONJ	Cc	_	13	cc	_	start_char=428|end_char=429
+13	kreme	krema	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	conj	_	start_char=430|end_char=435
+14	.	.	PUNCT	Z	_	3	punct	_	start_char=435|end_char=436
+

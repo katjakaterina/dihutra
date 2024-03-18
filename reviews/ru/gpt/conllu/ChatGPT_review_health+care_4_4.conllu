@@ -1,0 +1,95 @@
+# text = Отличное дополнение к вашей сумке Обожаю Great point light pocket magnifier!
+# sent_id = 0
+1	Отличное	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	дополнение	дополнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=9|end_char=19
+3	к	к	ADP	_	_	5	case	_	start_char=20|end_char=21
+4	вашей	ваш	DET	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	start_char=22|end_char=27
+5	сумке	сумка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	start_char=28|end_char=33
+6	Обожаю	обожать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=34|end_char=40
+7	Great	Great	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=41|end_char=46
+8	point	point	X	_	Foreign=Yes	6	flat:foreign	_	start_char=47|end_char=52
+9	light	light	X	_	Foreign=Yes	6	flat:foreign	_	start_char=53|end_char=58
+10	pocket	pocket	X	_	Foreign=Yes	6	flat:foreign	_	start_char=59|end_char=65
+11	magnifier	magnifier	X	_	Foreign=Yes	6	flat:foreign	_	start_char=66|end_char=75
+12	!	!	PUNCT	_	_	6	punct	_	start_char=75|end_char=76
+
+# text = Прекрасно работает, особенно если вы забыли свои очки и не можете прочитать меню, когда ужинаете...
+# sent_id = 1
+1	Прекрасно	прекрасно	ADV	_	Degree=Pos	2	advmod	_	start_char=77|end_char=86
+2	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=87|end_char=95
+3	,	,	PUNCT	_	_	7	punct	_	start_char=95|end_char=96
+4	особенно	особенно	ADV	_	Degree=Pos	7	advmod	_	start_char=97|end_char=105
+5	если	если	SCONJ	_	_	7	mark	_	start_char=106|end_char=110
+6	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	start_char=111|end_char=113
+7	забыли	забыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=114|end_char=120
+8	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	start_char=121|end_char=125
+9	очки	очки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	start_char=126|end_char=130
+10	и	и	CCONJ	_	_	12	cc	_	start_char=131|end_char=132
+11	не	не	PART	_	_	12	advmod	_	start_char=133|end_char=135
+12	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	start_char=136|end_char=142
+13	прочитать	прочесть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=143|end_char=152
+14	меню	меню	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=153|end_char=157
+15	,	,	PUNCT	_	_	17	punct	_	start_char=157|end_char=158
+16	когда	когда	SCONJ	_	_	17	mark	_	start_char=159|end_char=164
+17	ужинаете	ужинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	start_char=165|end_char=173
+18	.	.	PUNCT	_	_	17	punct	_	start_char=173|end_char=174
+19	.	.	PUNCT	_	_	17	punct	_	start_char=174|end_char=175
+20	.	.	PUNCT	_	_	2	punct	_	start_char=175|end_char=176
+
+# text = свет - бонус в темном ресторане.
+# sent_id = 2
+1	свет	свет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=177|end_char=181
+2	-	-	PUNCT	_	_	1	punct	_	start_char=182|end_char=183
+3	бонус	бонус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=184|end_char=189
+4	в	в	ADP	_	_	6	case	_	start_char=190|end_char=191
+5	темном	темный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=192|end_char=198
+6	ресторане	ресторан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	start_char=199|end_char=208
+7	.	.	PUNCT	_	_	3	punct	_	start_char=208|end_char=209
+
+# text = Поставил бы 5 звезд, если бы он поставлялся с чехлом, закрывающим стекло.
+# sent_id = 3
+1	Поставил	поставить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=210|end_char=218
+2	бы	бы	AUX	_	_	1	aux	_	start_char=219|end_char=221
+3	5	5	NUM	_	NumType=Card	4	nummod	_	start_char=222|end_char=223
+4	звезд	звезда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	obl	_	start_char=224|end_char=229
+5	,	,	PUNCT	_	_	9	punct	_	start_char=229|end_char=230
+6	если	если	SCONJ	_	_	9	mark	_	start_char=231|end_char=235
+7	бы	бы	AUX	_	_	9	aux	_	start_char=236|end_char=238
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:pass	_	start_char=239|end_char=241
+9	поставлялся	поставлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	advcl	_	start_char=242|end_char=253
+10	с	с	ADP	_	_	11	case	_	start_char=254|end_char=255
+11	чехлом	чехол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	start_char=256|end_char=262
+12	,	,	PUNCT	_	_	13	punct	_	start_char=262|end_char=263
+13	закрывающим	закрывать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	start_char=264|end_char=275
+14	стекло	стекло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=276|end_char=282
+15	.	.	PUNCT	_	_	1	punct	_	start_char=282|end_char=283
+
+# text = Чистый пластиковый футляр, в котором он поставляется, немного дешев и я был бы готов заплатить чуть больше за хороший чехол для защиты линзы.
+# sent_id = 4
+1	Чистый	чистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=284|end_char=290
+2	пластиковый	пластиковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=291|end_char=302
+3	футляр	футляр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=303|end_char=309
+4	,	,	PUNCT	_	_	8	punct	_	start_char=309|end_char=310
+5	в	в	ADP	_	_	6	case	_	start_char=311|end_char=312
+6	котором	который	PRON	_	Case=Loc|PronType=Int,Rel	8	obl	_	start_char=313|end_char=320
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	start_char=321|end_char=323
+8	поставляется	поставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	start_char=324|end_char=336
+9	,	,	PUNCT	_	_	3	punct	_	start_char=336|end_char=337
+10	немного	немного	ADV	_	Degree=Pos	11	obl	_	start_char=338|end_char=345
+11	дешев	дешевый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=346|end_char=351
+12	и	и	CCONJ	_	_	16	cc	_	start_char=352|end_char=353
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	start_char=354|end_char=355
+14	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	start_char=356|end_char=359
+15	бы	бы	AUX	_	_	16	aux	_	start_char=360|end_char=362
+16	готов	готовый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	11	conj	_	start_char=363|end_char=368
+17	заплатить	платить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=369|end_char=378
+18	чуть	чуть	ADV	_	Degree=Pos	19	advmod	_	start_char=379|end_char=383
+19	больше	больше	ADV	_	Degree=Cmp	22	advmod	_	start_char=384|end_char=390
+20	за	за	ADP	_	_	22	case	_	start_char=391|end_char=393
+21	хороший	хороший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=394|end_char=401
+22	чехол	чехол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=402|end_char=407
+23	для	для	ADP	_	_	24	case	_	start_char=408|end_char=411
+24	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	start_char=412|end_char=418
+25	линзы	линза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	start_char=419|end_char=424
+26	.	.	PUNCT	_	_	11	punct	_	start_char=424|end_char=425
+

@@ -1,0 +1,82 @@
+# text = Vrlo praktično, dobro funkcionira Ocijenio/la sam ovo s 4 zvjezdice umjesto 5, zbog ambalaže u kojoj dolazi.
+# sent_id = 0
+1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=4
+2	praktično	praktično	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=5|end_char=14
+3	,	,	PUNCT	Z	_	2	punct	_	start_char=14|end_char=15
+4	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=16|end_char=21
+5	funkcionira	funkcionirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=22|end_char=33
+6	Ocijenio/la	ocijenio/ati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	ccomp	_	start_char=34|end_char=45
+7	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=46|end_char=49
+8	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	start_char=50|end_char=53
+9	s	sa	ADP	Si	Case=Ins	11	case	_	start_char=54|end_char=55
+10	4	4	NUM	Mdc	NumType=Card	11	nummod	_	start_char=56|end_char=57
+11	zvjezdice	zvjezdica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=58|end_char=67
+12	umjesto	umjesto	ADP	Sg	Case=Gen	13	case	_	start_char=68|end_char=75
+13	5	5	NUM	Mdc	NumType=Card	11	nmod	_	start_char=76|end_char=77
+14	,	,	PUNCT	Z	_	16	punct	_	start_char=77|end_char=78
+15	zbog	zbog	ADP	Sg	Case=Gen	16	case	_	start_char=79|end_char=83
+16	ambalaže	ambalaža	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	start_char=84|end_char=92
+17	u	u	ADP	Sl	Case=Loc	18	case	_	start_char=93|end_char=94
+18	kojoj	koji	DET	Pi-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	19	obl	_	start_char=95|end_char=100
+19	dolazi	dolaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	start_char=101|end_char=107
+20	.	.	PUNCT	Z	_	5	punct	_	start_char=107|end_char=108
+
+# text = Plastika je oštra i nije lako nositi je u torbi jer se možete ubosti, no bez plastične kutije, povećalo bi se jako ogrebalo.
+# sent_id = 1
+1	Plastika	plastika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=109|end_char=117
+2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=118|end_char=120
+3	oštra	oštar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=121|end_char=126
+4	i	i	CCONJ	Cc	_	6	cc	_	start_char=127|end_char=128
+5	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=129|end_char=133
+6	lako	lako	ADV	Rgp	Degree=Pos	3	conj	_	start_char=134|end_char=138
+7	nositi	nositi	VERB	Vmn	VerbForm=Inf	6	xcomp	_	start_char=139|end_char=145
+8	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	start_char=146|end_char=148
+9	u	u	ADP	Sl	Case=Loc	10	case	_	start_char=149|end_char=150
+10	torbi	torba	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=151|end_char=156
+11	jer	jer	SCONJ	Cs	_	13	mark	_	start_char=157|end_char=160
+12	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	13	expl	_	start_char=161|end_char=163
+13	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	start_char=164|end_char=170
+14	ubosti	ubosti	VERB	Vmn	VerbForm=Inf	13	xcomp	_	start_char=171|end_char=177
+15	,	,	PUNCT	Z	_	21	punct	_	start_char=177|end_char=178
+16	no	no	CCONJ	Cc	_	21	cc	_	start_char=179|end_char=181
+17	bez	bez	ADP	Sg	Case=Gen	19	case	_	start_char=182|end_char=185
+18	plastične	plastičan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=186|end_char=195
+19	kutije	kutija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	obl	_	start_char=196|end_char=202
+20	,	,	PUNCT	Z	_	19	punct	_	start_char=202|end_char=203
+21	povećalo	povećalo	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	conj	_	start_char=204|end_char=212
+22	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	start_char=213|end_char=215
+23	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	25	expl	_	start_char=216|end_char=218
+24	jako	jako	ADV	Rgp	Degree=Pos	25	advmod	_	start_char=219|end_char=223
+25	ogrebalo	ogrebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	21	xcomp	_	start_char=224|end_char=232
+26	.	.	PUNCT	Z	_	3	punct	_	start_char=232|end_char=233
+
+# text = Mogao/la bih se riješiti plastične kutije, ali povećalo držati u nečem mekom, kao maloj čarapi.
+# sent_id = 2
+1	Mogao/la	mogaoći	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=234|end_char=242
+2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	start_char=243|end_char=246
+3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=247|end_char=249
+4	riješiti	riješiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=250|end_char=258
+5	plastične	plastičan	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	start_char=259|end_char=268
+6	kutije	kutija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=269|end_char=275
+7	,	,	PUNCT	Z	_	9	punct	_	start_char=275|end_char=276
+8	ali	ali	CCONJ	Cc	_	9	cc	_	start_char=277|end_char=280
+9	povećalo	povećalo	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=281|end_char=289
+10	držati	držati	VERB	Vmn	VerbForm=Inf	9	xcomp	_	start_char=290|end_char=296
+11	u	u	ADP	Sl	Case=Loc	12	case	_	start_char=297|end_char=298
+12	nečem	nešto	PRON	Pi3n-l	Case=Loc|Gender=Neut|PronType=Ind	10	obl	_	start_char=299|end_char=304
+13	mekom	mek	ADJ	Agpnsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=305|end_char=310
+14	,	,	PUNCT	Z	_	17	punct	_	start_char=310|end_char=311
+15	kao	kao	SCONJ	Cs	_	17	case	_	start_char=312|end_char=315
+16	maloj	mali	ADJ	Agpfsly	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=316|end_char=321
+17	čarapi	čarap	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	conj	_	start_char=322|end_char=328
+18	.	.	PUNCT	Z	_	1	punct	_	start_char=328|end_char=329
+
+# text = Inače, povećalo dobro funkcionira.
+# sent_id = 3
+1	Inače	inače	ADV	Rgp	Degree=Pos	3	discourse	_	start_char=330|end_char=335
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=335|end_char=336
+3	povećalo	povećalo	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=337|end_char=345
+4	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=346|end_char=351
+5	funkcionira	funkcionirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	xcomp	_	start_char=352|end_char=363
+6	.	.	PUNCT	Z	_	3	punct	_	start_char=363|end_char=364
+

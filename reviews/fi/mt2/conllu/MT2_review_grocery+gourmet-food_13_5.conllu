@@ -1,0 +1,74 @@
+# text = Luojan kiitos ovat kalliita
+# sent_id = 0
+1	Luojan	luoja	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	start_char=0|end_char=6
+2	kiitos	kiitos	NOUN	N	Case=Nom|Number=Sing	4	obl	_	start_char=7|end_char=13
+3	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=14|end_char=18
+4	kalliita	kallis	ADJ	A	Case=Par|Degree=Pos|Number=Plur	0	root	_	start_char=19|end_char=27
+
+# text = Kyllä - tämä on yksi kalleimmista karkkeista, koska se tulee vain tuotuina.
+# sent_id = 1
+1	Kyllä	kyllä	ADV	Adv	_	5	advmod	_	start_char=28|end_char=33
+2	-	-	PUNCT	Punct	_	1	punct	_	start_char=34|end_char=35
+3	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	start_char=36|end_char=40
+4	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=41|end_char=43
+5	yksi	yksi	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	0	root	_	start_char=44|end_char=48
+6	kalleimmista	kallis	ADJ	A	Case=Ela|Degree=Sup|Number=Plur	7	amod	_	start_char=49|end_char=61
+7	karkkeista	karkki	NOUN	N	Case=Ela|Number=Plur	5	nmod	_	start_char=62|end_char=72
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=72|end_char=73
+9	koska	koska	SCONJ	C	_	11	mark	_	start_char=74|end_char=79
+10	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=80|end_char=82
+11	tulee	tulla	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=83|end_char=88
+12	vain	vain	ADV	Adv	_	13	advmod	_	start_char=89|end_char=93
+13	tuotuina	tuoda	VERB	V	Case=Ess|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	11	xcomp	_	start_char=94|end_char=102
+14	.	.	PUNCT	Punct	_	5	punct	_	start_char=102|end_char=103
+
+# text = Mutta luoja - ovatko nämä koskaan hyviä.
+# sent_id = 2
+1	Mutta	mutta	CCONJ	C	_	2	cc	_	start_char=104|end_char=109
+2	luoja	luoja	NOUN	N	Case=Nom|Derivation=Ja|Number=Sing	0	root	_	start_char=110|end_char=115
+3	-	-	PUNCT	Punct	_	7	punct	_	start_char=116|end_char=117
+4	ovatko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=118|end_char=124
+5	nämä	tämä	PRON	Pron	Case=Nom|Number=Plur|PronType=Dem	7	nsubj:cop	_	start_char=125|end_char=129
+6	koskaan	koskaan	ADV	Adv	_	7	advmod	_	start_char=130|end_char=137
+7	hyviä	hyvä	ADJ	A	Case=Par|Degree=Pos|Number=Plur	2	parataxis	_	start_char=138|end_char=143
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=143|end_char=144
+
+# text = KitKat-henkilöt voisivat todella siivota, jos he alkaisivat myydä näitä Yhdysvalloissa.
+# sent_id = 3
+1	KitKat-henkilöt	KitKat#henkilö	NOUN	N	Case=Nom|Number=Plur	4	nsubj	_	start_char=145|end_char=160
+2	voisivat	voida	AUX	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	aux	_	start_char=161|end_char=169
+3	todella	todella	ADV	Adv	_	4	advmod	_	start_char=170|end_char=177
+4	siivota	siivota	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=178|end_char=185
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=185|end_char=186
+6	jos	jos	SCONJ	C	_	8	mark	_	start_char=187|end_char=190
+7	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	start_char=191|end_char=193
+8	alkaisivat	alkaa	VERB	V	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	4	advcl	_	start_char=194|end_char=204
+9	myydä	myydä	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	8	xcomp	_	start_char=205|end_char=210
+10	näitä	tämä	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	9	obj	_	start_char=211|end_char=216
+11	Yhdysvalloissa	Yhdysvallat	PROPN	N	Case=Ine|Number=Plur	9	obl	_	start_char=217|end_char=231
+12	.	.	PUNCT	Punct	_	4	punct	_	start_char=231|end_char=232
+
+# text = Kun olet kokeillut niitä, et voi odottaa enempää.
+# sent_id = 4
+1	Kun	kun	SCONJ	C	_	3	mark	_	start_char=233|end_char=236
+2	olet	olla	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=237|end_char=241
+3	kokeillut	kokeilla	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	8	advcl	_	start_char=242|end_char=251
+4	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	3	obj	_	start_char=252|end_char=257
+5	,	,	PUNCT	Punct	_	3	punct	_	start_char=257|end_char=258
+6	et	ei	AUX	V	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	start_char=259|end_char=261
+7	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	start_char=262|end_char=265
+8	odottaa	odottaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=266|end_char=273
+9	enempää	enempää	ADV	Adv	_	8	advmod	_	start_char=274|end_char=281
+10	.	.	PUNCT	Punct	_	8	punct	_	start_char=281|end_char=282
+
+# text = Niin namia ja toimitetaan nopeasti ja tuoreena.
+# sent_id = 5
+1	Niin	niin	ADV	Adv	_	2	advmod	_	start_char=283|end_char=287
+2	namia	nami	NOUN	N	Case=Par|Number=Sing	0	root	_	start_char=288|end_char=293
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=294|end_char=296
+4	toimitetaan	toimittaa	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	start_char=297|end_char=308
+5	nopeasti	nopeasti	ADV	Adv	Derivation=Sti	4	advmod	_	start_char=309|end_char=317
+6	ja	ja	CCONJ	C	_	7	cc	_	start_char=318|end_char=320
+7	tuoreena	tuore	ADJ	A	Case=Ess|Degree=Pos|Number=Sing	5	conj	_	start_char=321|end_char=329
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=329|end_char=330
+

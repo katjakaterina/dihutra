@@ -1,0 +1,96 @@
+# text = Победитель Это первый аккумуляторный чехол, который у меня есть для моего Galaxy S4.
+# sent_id = 0
+1	Победитель	победитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=0|end_char=10
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	expl	_	start_char=11|end_char=14
+3	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=15|end_char=21
+4	аккумуляторный	аккумуляторный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=22|end_char=36
+5	чехол	чехол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=37|end_char=42
+6	,	,	PUNCT	_	_	10	punct	_	start_char=42|end_char=43
+7	который	который	PRON	_	Case=Nom|PronType=Int,Rel	10	nsubj	_	start_char=44|end_char=51
+8	у	у	ADP	_	_	9	case	_	start_char=52|end_char=53
+9	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	obl	_	start_char=54|end_char=58
+10	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=59|end_char=63
+11	для	для	ADP	_	_	13	case	_	start_char=64|end_char=67
+12	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	start_char=68|end_char=73
+13	Galaxy	Galaxy	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=74|end_char=80
+14	S4	S4	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=81|end_char=83
+15	.	.	PUNCT	_	_	5	punct	_	start_char=83|end_char=84
+
+# text = S4 в него отлично вписывается, он тонкий и не прибавляет много веса Galaxy S4.
+# sent_id = 1
+1	S4	S4	PROPN	_	Foreign=Yes	5	nsubj	_	start_char=85|end_char=87
+2	в	в	ADP	_	_	3	case	_	start_char=88|end_char=89
+3	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	start_char=90|end_char=94
+4	отлично	отлично	ADV	_	Degree=Pos	5	advmod	_	start_char=95|end_char=102
+5	вписывается	вписываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=103|end_char=114
+6	,	,	PUNCT	_	_	8	punct	_	start_char=114|end_char=115
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=116|end_char=118
+8	тонкий	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	conj	_	start_char=119|end_char=125
+9	и	и	CCONJ	_	_	11	cc	_	start_char=126|end_char=127
+10	не	не	PART	_	_	11	advmod	_	start_char=128|end_char=130
+11	прибавляет	прибавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=131|end_char=141
+12	много	много	ADV	_	Degree=Pos	13	advmod	_	start_char=142|end_char=147
+13	веса	вес	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	start_char=148|end_char=152
+14	Galaxy	Galaxy	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=153|end_char=159
+15	S4	S4	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=160|end_char=162
+16	.	.	PUNCT	_	_	5	punct	_	start_char=162|end_char=163
+
+# text = Он удваивает срок службы батареи.
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=164|end_char=166
+2	удваивает	удваивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=167|end_char=176
+3	срок	срок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=177|end_char=181
+4	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=182|end_char=188
+5	батареи	батарея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=189|end_char=196
+6	.	.	PUNCT	_	_	2	punct	_	start_char=196|end_char=197
+
+# text = Вы можете заряжать как батарею, так и телефон или оба одновременно.
+# sent_id = 3
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	start_char=198|end_char=200
+2	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=201|end_char=207
+3	заряжать	заряжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=208|end_char=216
+4	как	как	SCONJ	_	_	5	cc	_	start_char=217|end_char=220
+5	батарею	батарея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=221|end_char=228
+6	,	,	PUNCT	_	_	9	punct	_	start_char=228|end_char=229
+7	так	так	ADV	_	Degree=Pos	9	cc	_	start_char=230|end_char=233
+8	и	и	PART	_	_	7	fixed	_	start_char=234|end_char=235
+9	телефон	телефон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	start_char=236|end_char=243
+10	или	или	CCONJ	_	_	11	cc	_	start_char=244|end_char=247
+11	оба	оба	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	5	conj	_	start_char=248|end_char=251
+12	одновременно	одновременно	ADV	_	Degree=Pos	11	advmod	_	start_char=252|end_char=264
+13	.	.	PUNCT	_	_	2	punct	_	start_char=264|end_char=265
+
+# text = Там есть удобный выключатель с светодиодами, показывающими уровень заряда.
+# sent_id = 4
+1	Там	там	ADV	_	Degree=Pos	2	advmod	_	start_char=266|end_char=269
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=270|end_char=274
+3	удобный	удобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=275|end_char=282
+4	выключатель	выключатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=283|end_char=294
+5	с	с	ADP	_	_	6	case	_	start_char=295|end_char=296
+6	светодиодами	светодиод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	nmod	_	start_char=297|end_char=309
+7	,	,	PUNCT	_	_	8	punct	_	start_char=309|end_char=310
+8	показывающими	показывать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	acl	_	start_char=311|end_char=324
+9	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	start_char=325|end_char=332
+10	заряда	заряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=333|end_char=339
+11	.	.	PUNCT	_	_	2	punct	_	start_char=339|end_char=340
+
+# text = Чехол с аккумулятором пришел вовремя и был хорошо упакован.
+# sent_id = 5
+1	Чехол	чехол	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=341|end_char=346
+2	с	с	ADP	_	_	3	case	_	start_char=347|end_char=348
+3	аккумулятором	аккумулятор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	nmod	_	start_char=349|end_char=362
+4	пришел	прийти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=363|end_char=369
+5	вовремя	вовремя	ADV	_	Degree=Pos	4	advmod	_	start_char=370|end_char=377
+6	и	и	CCONJ	_	_	9	cc	_	start_char=378|end_char=379
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=380|end_char=383
+8	хорошо	хорошо	ADV	_	Degree=Pos	9	advmod	_	start_char=384|end_char=390
+9	упакован	упаковать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	start_char=391|end_char=399
+10	.	.	PUNCT	_	_	4	punct	_	start_char=399|end_char=400
+
+# text = Стоит своей цены.
+# sent_id = 6
+1	Стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=401|end_char=406
+2	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	start_char=407|end_char=412
+3	цены	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	start_char=413|end_char=417
+4	.	.	PUNCT	_	_	1	punct	_	start_char=417|end_char=418
+

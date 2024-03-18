@@ -1,0 +1,75 @@
+# text = Olin pettynyt, että annoit minun ostaa vain 4, kun varastosi osoitti, että sinulla oli 14 saatavilla.
+# sent_id = 0
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=4
+2	pettynyt	pettyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=5|end_char=13
+3	,	,	PUNCT	Punct	_	5	punct	_	start_char=13|end_char=14
+4	että	että	SCONJ	C	_	5	mark	_	start_char=15|end_char=19
+5	annoit	antaa	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	start_char=20|end_char=26
+6	minun	minä	PRON	Pron	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=27|end_char=32
+7	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	start_char=33|end_char=38
+8	vain	vain	ADV	Adv	_	9	advmod	_	start_char=39|end_char=43
+9	4	4	NUM	Num	NumType=Card	7	obl	_	start_char=44|end_char=45
+10	,	,	PUNCT	Punct	_	13	punct	_	start_char=45|end_char=46
+11	kun	kun	SCONJ	C	_	13	mark	_	start_char=47|end_char=50
+12	varastosi	varasto	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	13	nsubj	_	start_char=51|end_char=60
+13	osoitti	osoittaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	start_char=61|end_char=68
+14	,	,	PUNCT	Punct	_	16	punct	_	start_char=68|end_char=69
+15	että	että	SCONJ	C	_	16	mark	_	start_char=70|end_char=74
+16	sinulla	sinä	PRON	Pron	Case=Ade|Number=Sing|Person=2|PronType=Prs	13	ccomp	_	start_char=75|end_char=82
+17	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	cop:own	_	start_char=83|end_char=86
+18	14	14	NUM	Num	NumType=Card	19	obj	_	start_char=87|end_char=89
+19	saatavilla	saada	VERB	V	Case=Ade|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	16	nsubj:cop	_	start_char=90|end_char=100
+20	.	.	PUNCT	Punct	_	2	punct	_	start_char=100|end_char=101
+
+# text = Meillä on monia vanhoja, vanhoja ongelmia.
+# sent_id = 1
+1	Meillä	minä	PRON	Pron	Case=Ade|Number=Plur|Person=1|PronType=Prs	0	root	_	start_char=102|end_char=108
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=109|end_char=111
+3	monia	moni	PRON	Pron	Case=Par|Number=Plur|PronType=Ind	7	det	_	start_char=112|end_char=117
+4	vanhoja	vanha	ADJ	A	Case=Par|Degree=Pos|Number=Plur	7	amod	_	start_char=118|end_char=125
+5	,	,	PUNCT	Punct	_	7	punct	_	start_char=125|end_char=126
+6	vanhoja	vanha	ADJ	A	Case=Par|Degree=Pos|Number=Plur	7	amod	_	start_char=127|end_char=134
+7	ongelmia	ongelma	NOUN	N	Case=Par|Number=Plur	1	nsubj:cop	_	start_char=135|end_char=143
+8	.	.	PUNCT	Punct	_	1	punct	_	start_char=143|end_char=144
+
+# text = Mutta määrä oli lopussa.
+# sent_id = 2
+1	Mutta	mutta	CCONJ	C	_	4	cc	_	start_char=145|end_char=150
+2	määrä	määrä	NOUN	N	Case=Nom|Number=Sing	4	nsubj:cop	_	start_char=151|end_char=156
+3	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=157|end_char=160
+4	lopussa	loppu	NOUN	N	Case=Ine|Derivation=U|Number=Sing	0	root	_	start_char=161|end_char=168
+5	.	.	PUNCT	Punct	_	4	punct	_	start_char=168|end_char=169
+
+# text = Kirjoja ei ollut tarpeeksi, jotta voisimme käyttää niitä säännöllisesti.
+# sent_id = 3
+1	Kirjoja	kirja	NOUN	N	Case=Par|Number=Plur	4	nsubj:cop	_	start_char=170|end_char=177
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	start_char=178|end_char=180
+3	ollut	olla	AUX	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=181|end_char=186
+4	tarpeeksi	tarpeeksi	ADV	Adv	_	0	root	_	start_char=187|end_char=196
+5	,	,	PUNCT	Punct	_	8	punct	_	start_char=196|end_char=197
+6	jotta	jotta	SCONJ	C	_	8	mark	_	start_char=198|end_char=203
+7	voisimme	voida	AUX	V	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	8	aux	_	start_char=204|end_char=212
+8	käyttää	käyttää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	4	advcl	_	start_char=213|end_char=220
+9	niitä	se	PRON	Pron	Case=Par|Number=Plur|PronType=Dem	8	obj	_	start_char=221|end_char=226
+10	säännöllisesti	säännöllisesti	ADV	Adv	Derivation=Sti	8	advmod	_	start_char=227|end_char=241
+11	.	.	PUNCT	Punct	_	4	punct	_	start_char=241|end_char=242
+
+# text = Lisätarjonnan myötä kirjoja käytetään useammin.
+# sent_id = 4
+1	Lisätarjonnan	lisä#tarjonta	NOUN	N	Case=Gen|Number=Sing	4	obl	_	start_char=243|end_char=256
+2	myötä	myötä	ADP	Adp	AdpType=Post	1	case	_	start_char=257|end_char=262
+3	kirjoja	kirja	NOUN	N	Case=Par|Number=Plur	4	obj	_	start_char=263|end_char=270
+4	käytetään	käyttää	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=271|end_char=280
+5	useammin	usein	ADV	Adv	Degree=Cmp	4	advmod	_	start_char=281|end_char=289
+6	.	.	PUNCT	Punct	_	4	punct	_	start_char=289|end_char=290
+
+# text = He ovat vanha kunnon valmiustila gospel-laululle.
+# sent_id = 5
+1	He	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:cop	_	start_char=291|end_char=293
+2	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=294|end_char=298
+3	vanha	vanha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	start_char=299|end_char=304
+4	kunnon	kunnon	ADV	Adv	_	5	advmod	_	start_char=305|end_char=311
+5	valmiustila	valmius#tila	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=312|end_char=323
+6	gospel-laululle	gospel#laulu	NOUN	N	Case=All|Number=Sing	5	nmod	_	start_char=324|end_char=339
+7	.	.	PUNCT	Punct	_	5	punct	_	start_char=339|end_char=340
+

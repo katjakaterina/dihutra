@@ -1,0 +1,51 @@
+# text = Ikävä kohde.
+# sent_id = 0
+1	Ikävä	ikävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	start_char=0|end_char=5
+2	kohde	kohde	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=6|end_char=11
+3	.	.	PUNCT	Punct	_	2	punct	_	start_char=11|end_char=12
+
+# text = Sain tämän tuotteen erittäin ajoissa, mikä oli ilahduttavaa, mutta annoin sen lahjaksi ja hämmennyin huomata, että se oli viallinen tuote.
+# sent_id = 1
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=13|end_char=17
+2	tämän	tämä	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	3	det	_	start_char=18|end_char=23
+3	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=24|end_char=32
+4	erittäin	erittäin	ADV	Adv	Derivation=Ttain	5	advmod	_	start_char=33|end_char=41
+5	ajoissa	ajoissa	ADV	Adv	_	1	advmod	_	start_char=42|end_char=49
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=49|end_char=50
+7	mikä	mikä	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	9	nsubj:cop	_	start_char=51|end_char=55
+8	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=56|end_char=59
+9	ilahduttavaa	ilahduttava	ADJ	A	Case=Par|Degree=Pos|Number=Sing	1	acl:relcl	_	start_char=60|end_char=72
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=72|end_char=73
+11	mutta	mutta	CCONJ	C	_	12	cc	_	start_char=74|end_char=79
+12	annoin	antaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=80|end_char=86
+13	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	12	obj	_	start_char=87|end_char=90
+14	lahjaksi	lahja	NOUN	N	Case=Tra|Number=Sing	12	obl	_	start_char=91|end_char=99
+15	ja	ja	CCONJ	C	_	16	cc	_	start_char=100|end_char=102
+16	hämmennyin	hämmetä	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	start_char=103|end_char=113
+17	huomata	huomata	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	16	xcomp	_	start_char=114|end_char=121
+18	,	,	PUNCT	Punct	_	23	punct	_	start_char=121|end_char=122
+19	että	että	SCONJ	C	_	23	mark	_	start_char=123|end_char=127
+20	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	23	nsubj:cop	_	start_char=128|end_char=130
+21	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	start_char=131|end_char=134
+22	viallinen	viallinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	23	amod	_	start_char=135|end_char=144
+23	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	17	ccomp	_	start_char=145|end_char=150
+24	.	.	PUNCT	Punct	_	1	punct	_	start_char=150|end_char=151
+
+# text = Sain tuotteesta korvauksen, mutta olisin mieluummin saanut tuotteen, joka toimi ensimmäisellä kerralla.
+# sent_id = 2
+1	Sain	saada	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=152|end_char=156
+2	tuotteesta	tuote	NOUN	N	Case=Ela|Number=Sing	1	obl	_	start_char=157|end_char=167
+3	korvauksen	korvaus	NOUN	N	Case=Gen|Number=Sing	1	obj	_	start_char=168|end_char=178
+4	,	,	PUNCT	Punct	_	8	punct	_	start_char=178|end_char=179
+5	mutta	mutta	CCONJ	C	_	8	cc	_	start_char=180|end_char=185
+6	olisin	olla	AUX	V	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	8	aux	_	start_char=186|end_char=192
+7	mieluummin	mieluummin	ADV	Adv	_	8	advmod	_	start_char=193|end_char=203
+8	saanut	saada	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=204|end_char=210
+9	tuotteen	tuote	NOUN	N	Case=Gen|Number=Sing	8	obj	_	start_char=211|end_char=219
+10	,	,	PUNCT	Punct	_	12	punct	_	start_char=219|end_char=220
+11	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	start_char=221|end_char=225
+12	toimi	toimia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=226|end_char=231
+13	ensimmäisellä	ensimmäinen	ADJ	Num	Case=Ade|Derivation=Inen|NumType=Ord|Number=Sing	14	amod	_	start_char=232|end_char=245
+14	kerralla	kerta	NOUN	N	Case=Ade|Number=Sing	12	obl	_	start_char=246|end_char=254
+15	.	.	PUNCT	Punct	_	1	punct	_	start_char=254|end_char=255
+

@@ -1,0 +1,86 @@
+# text = НЕ ВИДЕОСЮЖЕТ МУЗЫКАЛЬНОГО ВИДЕО!
+# sent_id = 0
+1	НЕ	не	PART	_	_	2	advmod	_	start_char=0|end_char=2
+2	ВИДЕОСЮЖЕТ	видеосюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3|end_char=13
+3	МУЗЫКАЛЬНОГО	музыкальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=14|end_char=26
+4	ВИДЕО	видео	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	start_char=27|end_char=32
+5	!	!	PUNCT	_	_	2	punct	_	start_char=32|end_char=33
+
+# text = Уроки игры на гитаре в стиле Клэптона Я купил этот DVD и собираюсь вернуть его.
+# sent_id = 1
+1	Уроки	урок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	start_char=34|end_char=39
+2	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=40|end_char=44
+3	на	на	ADP	_	_	4	case	_	start_char=45|end_char=47
+4	гитаре	гитара	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	start_char=48|end_char=54
+5	в	в	ADP	_	_	6	case	_	start_char=55|end_char=56
+6	стиле	стиль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	start_char=57|end_char=62
+7	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=63|end_char=71
+8	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	start_char=72|end_char=73
+9	купил	купить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=74|end_char=79
+10	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	start_char=80|end_char=84
+11	DVD	дивиди	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=85|end_char=88
+12	и	и	CCONJ	_	_	13	cc	_	start_char=89|end_char=90
+13	собираюсь	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	start_char=91|end_char=100
+14	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=101|end_char=108
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	start_char=109|end_char=112
+16	.	.	PUNCT	_	_	9	punct	_	start_char=112|end_char=113
+
+# text = Описание и редакционный обзор вводят в заблуждение.
+# sent_id = 2
+1	Описание	описание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=114|end_char=122
+2	и	и	CCONJ	_	_	4	cc	_	start_char=123|end_char=124
+3	редакционный	редакционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=125|end_char=137
+4	обзор	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	conj	_	start_char=138|end_char=143
+5	вводят	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=144|end_char=150
+6	в	в	ADP	_	_	7	case	_	start_char=151|end_char=152
+7	заблуждение	заблуждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	start_char=153|end_char=164
+8	.	.	PUNCT	_	_	5	punct	_	start_char=164|end_char=165
+
+# text = Это НЕ видео с участием Клэптона.
+# sent_id = 3
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=166|end_char=169
+2	НЕ	не	PART	_	_	3	advmod	_	start_char=170|end_char=172
+3	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=173|end_char=178
+4	с	с	ADP	_	_	5	case	_	start_char=179|end_char=180
+5	участием	участие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	start_char=181|end_char=189
+6	Клэптона	Клэптон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=190|end_char=198
+7	.	.	PUNCT	_	_	3	punct	_	start_char=198|end_char=199
+
+# text = Конечно, в нем есть некоторые клипы с Клэптоном, но в целом это видео "как играть".
+# sent_id = 4
+1	Конечно	конечно	ADV	_	Degree=Pos	4	parataxis	_	start_char=200|end_char=207
+2	,	,	PUNCT	_	_	1	punct	_	start_char=207|end_char=208
+3	в	в	ADP	_	_	4	case	_	start_char=209|end_char=210
+4	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=211|end_char=214
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=215|end_char=219
+6	некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	7	det	_	start_char=220|end_char=229
+7	клипы	клипа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=230|end_char=235
+8	с	с	ADP	_	_	9	case	_	start_char=236|end_char=237
+9	Клэптоном	Клэптон	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	start_char=238|end_char=247
+10	,	,	PUNCT	_	_	15	punct	_	start_char=247|end_char=248
+11	но	но	CCONJ	_	_	15	cc	_	start_char=249|end_char=251
+12	в	в	ADP	_	_	13	case	_	start_char=252|end_char=253
+13	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	start_char=254|end_char=259
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=260|end_char=263
+15	видео	видео	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	start_char=264|end_char=269
+16	"	"	PUNCT	_	_	18	punct	_	start_char=270|end_char=271
+17	как	как	ADV	_	Degree=Pos	18	advmod	_	start_char=271|end_char=274
+18	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	appos	_	start_char=275|end_char=281
+19	"	"	PUNCT	_	_	18	punct	_	start_char=281|end_char=282
+20	.	.	PUNCT	_	_	4	punct	_	start_char=282|end_char=283
+
+# text = То же самое относится к "Клэптон: Ранние годы"!
+# sent_id = 5
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=284|end_char=286
+2	же	же	PART	_	_	1	advmod	_	start_char=287|end_char=289
+3	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	start_char=290|end_char=295
+4	относится	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=296|end_char=305
+5	к	к	ADP	_	_	7	case	_	start_char=306|end_char=307
+6	"	"	PUNCT	_	_	7	punct	_	start_char=308|end_char=309
+7	Клэптон	Клэптон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	start_char=309|end_char=316
+8	:	:	PUNCT	_	_	10	punct	_	start_char=316|end_char=317
+9	Ранние	ранний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	start_char=318|end_char=324
+10	годы	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	parataxis	_	start_char=325|end_char=329
+11	"	"	PUNCT	_	_	10	punct	_	start_char=329|end_char=330
+12	!	!	PUNCT	_	_	4	punct	_	start_char=330|end_char=331
+

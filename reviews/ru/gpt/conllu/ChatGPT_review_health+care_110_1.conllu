@@ -1,0 +1,119 @@
+# text = """Ужас!
+# sent_id = 0
+1	"	"	PUNCT	_	_	4	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	_	_	4	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	_	_	4	punct	_	start_char=2|end_char=3
+4	Ужас	ужас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=3|end_char=7
+5	!	!	PUNCT	_	_	4	punct	_	start_char=7|end_char=8
+
+# text = Разряженные батарейки!"
+# sent_id = 1
+1	Разряженные	разряжить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	start_char=9|end_char=20
+2	батарейки	батарейка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=21|end_char=30
+3	!	!	PUNCT	_	_	2	punct	_	start_char=30|end_char=31
+4	"	"	PUNCT	_	_	2	punct	_	start_char=31|end_char=32
+
+# text = Я просто сдался и выбросил эти батарейки всего через пару месяцев.
+# sent_id = 2
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=33|end_char=34
+2	просто	просто	PART	_	_	3	advmod	_	start_char=35|end_char=41
+3	сдался	сдаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=42|end_char=48
+4	и	и	CCONJ	_	_	5	cc	_	start_char=49|end_char=50
+5	выбросил	выбросить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=51|end_char=59
+6	эти	этот	DET	_	Case=Acc|Number=Plur|PronType=Dem	7	det	_	start_char=60|end_char=63
+7	батарейки	батарейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	start_char=64|end_char=73
+8	всего	всего	PART	_	_	10	advmod	_	start_char=74|end_char=79
+9	через	через	ADP	_	_	10	case	_	start_char=80|end_char=85
+10	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	start_char=86|end_char=90
+11	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=91|end_char=98
+12	.	.	PUNCT	_	_	3	punct	_	start_char=98|end_char=99
+
+# text = У меня было их три комплекта в ротации (вместе с Duracell и Sanyo) в моей цифровой камере.
+# sent_id = 3
+1	У	у	ADP	_	_	2	case	_	start_char=100|end_char=101
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=102|end_char=106
+3	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	start_char=107|end_char=111
+4	их	их	DET	_	Poss=Yes|PronType=Prs	5	det	_	start_char=112|end_char=114
+5	три	три	NUM	_	Case=Nom|NumType=Card	6	nummod:gov	_	start_char=115|end_char=118
+6	комплекта	комплект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	start_char=119|end_char=128
+7	в	в	ADP	_	_	8	case	_	start_char=129|end_char=130
+8	ротации	ротация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	start_char=131|end_char=138
+9	(	(	PUNCT	_	_	10	punct	_	start_char=139|end_char=140
+10	вместе	вместе	ADV	_	Degree=Pos	8	parataxis	_	start_char=140|end_char=146
+11	с	с	ADP	_	_	10	case	_	start_char=147|end_char=148
+12	Duracell	Duracell	PROPN	_	Foreign=Yes	10	obl	_	start_char=149|end_char=157
+13	и	и	CCONJ	_	_	14	cc	_	start_char=158|end_char=159
+14	Sanyo	Sanyo	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=160|end_char=165
+15	)	)	PUNCT	_	_	10	punct	_	start_char=165|end_char=166
+16	в	в	ADP	_	_	19	case	_	start_char=167|end_char=168
+17	моей	мой	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	start_char=169|end_char=173
+18	цифровой	цифровой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	start_char=174|end_char=182
+19	камере	камера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	start_char=183|end_char=189
+20	.	.	PUNCT	_	_	2	punct	_	start_char=189|end_char=190
+
+# text = Сначала они были нормальными и сравнимыми с другими брендами.
+# sent_id = 4
+1	Сначала	сначала	ADV	_	Degree=Pos	4	advmod	_	start_char=191|end_char=198
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	start_char=199|end_char=202
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=203|end_char=207
+4	нормальными	нормальный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	start_char=208|end_char=219
+5	и	и	CCONJ	_	_	6	cc	_	start_char=220|end_char=221
+6	сравнимыми	сравнимый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	4	conj	_	start_char=222|end_char=232
+7	с	с	ADP	_	_	9	case	_	start_char=233|end_char=234
+8	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	9	amod	_	start_char=235|end_char=242
+9	брендами	бренд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	start_char=243|end_char=251
+10	.	.	PUNCT	_	_	4	punct	_	start_char=251|end_char=252
+
+# text = Теперь они не даже не выдерживают один день в моей камере.
+# sent_id = 5
+1	Теперь	теперь	ADV	_	Degree=Pos	6	advmod	_	start_char=253|end_char=259
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	start_char=260|end_char=263
+3	не	не	PART	_	_	4	advmod	_	start_char=264|end_char=266
+4	даже	даже	PART	_	_	5	advmod	_	start_char=267|end_char=271
+5	не	не	PART	_	_	6	advmod	_	start_char=272|end_char=274
+6	выдерживают	выдерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=275|end_char=286
+7	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card	8	nummod	_	start_char=287|end_char=291
+8	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=292|end_char=296
+9	в	в	ADP	_	_	11	case	_	start_char=297|end_char=298
+10	моей	мой	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=299|end_char=303
+11	камере	камера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=304|end_char=310
+12	.	.	PUNCT	_	_	6	punct	_	start_char=310|end_char=311
+
+# text = Иногда я успеваю сделать всего несколько снимков, прежде чем они разряжаются.
+# sent_id = 6
+1	Иногда	иногда	ADV	_	Degree=Pos	3	advmod	_	start_char=312|end_char=318
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=319|end_char=320
+3	успеваю	успевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=321|end_char=328
+4	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=329|end_char=336
+5	всего	всего	PART	_	_	6	advmod	_	start_char=337|end_char=342
+6	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	7	nummod	_	start_char=343|end_char=352
+7	снимков	снимок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	start_char=353|end_char=360
+8	,	,	PUNCT	_	_	12	punct	_	start_char=360|end_char=361
+9	прежде	прежде	ADV	_	Degree=Pos	12	mark	_	start_char=362|end_char=368
+10	чем	чем	SCONJ	_	_	9	fixed	_	start_char=369|end_char=372
+11	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	start_char=373|end_char=376
+12	разряжаются	разряжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	advcl	_	start_char=377|end_char=388
+13	.	.	PUNCT	_	_	3	punct	_	start_char=388|end_char=389
+
+# text = У меня нет такого терпения...
+# sent_id = 7
+1	У	у	ADP	_	_	2	case	_	start_char=390|end_char=391
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	obl	_	start_char=392|end_char=396
+3	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=397|end_char=400
+4	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	start_char=401|end_char=407
+5	терпения	терпение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nsubj	_	start_char=408|end_char=416
+6	.	.	PUNCT	_	_	5	punct	_	start_char=416|end_char=417
+7	.	.	PUNCT	_	_	5	punct	_	start_char=417|end_char=418
+8	.	.	PUNCT	_	_	3	punct	_	start_char=418|end_char=419
+
+# text = Я больше не куплю аккумуляторы Energizer."
+# sent_id = 8
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	start_char=420|end_char=421
+2	больше	больше	ADV	_	Degree=Cmp	3	advmod	_	start_char=422|end_char=428
+3	не	не	PART	_	_	4	advmod	_	start_char=429|end_char=431
+4	куплю	купить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=432|end_char=437
+5	аккумуляторы	аккумулятор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	start_char=438|end_char=450
+6	Energizer	Energizer	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=451|end_char=460
+7	.	.	PUNCT	_	_	4	punct	_	start_char=460|end_char=461
+8	"	"	PUNCT	_	_	4	punct	_	start_char=461|end_char=462
+

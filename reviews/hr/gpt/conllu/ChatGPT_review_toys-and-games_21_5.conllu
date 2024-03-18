@@ -1,0 +1,100 @@
+# text = Iziskuje nježan dodir!
+# sent_id = 0
+1	Iziskuje	iziskovati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=8
+2	nježan	nježan	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=9|end_char=15
+3	dodir	dodir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=16|end_char=21
+4	!	!	PUNCT	Z	_	1	punct	_	start_char=21|end_char=22
+
+# text = Pripremite se da budete oduševljeni ljepotom slika koje će vaši odabiri boja stvoriti.
+# sent_id = 1
+1	Pripremite	pripremiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=23|end_char=33
+2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=34|end_char=36
+3	da	da	SCONJ	Cs	_	5	mark	_	start_char=37|end_char=39
+4	budete	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=40|end_char=46
+5	oduševljeni	oduševiti	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	ccomp	_	start_char=47|end_char=58
+6	ljepotom	ljepota	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	start_char=59|end_char=67
+7	slika	slika	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	start_char=68|end_char=73
+8	koje	koji	DET	Pi-fpa	Case=Acc|Gender=Fem|Number=Plur|PronType=Int,Rel	13	obj	_	start_char=74|end_char=78
+9	će	htjeti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	start_char=79|end_char=81
+10	vaši	vaš	DET	Ps1mpn	Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	start_char=82|end_char=86
+11	odabiri	odabir	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	start_char=87|end_char=94
+12	boja	boja	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=95|end_char=99
+13	stvoriti	stvoriti	VERB	Vmn	VerbForm=Inf	7	acl	_	start_char=100|end_char=108
+14	.	.	PUNCT	Z	_	1	punct	_	start_char=108|end_char=109
+
+# text = Prostori za bojanje su ponekad vrlo mali i zahtijevaju pažljiv rad i čvrstu ruku.
+# sent_id = 2
+1	Prostori	prostor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=110|end_char=118
+2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=119|end_char=121
+3	bojanje	bojanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	start_char=122|end_char=129
+4	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	start_char=130|end_char=132
+5	ponekad	ponekad	ADV	Rgp	Degree=Pos|PronType=Ind	7	advmod	_	start_char=133|end_char=140
+6	vrlo	vrlo	ADV	Rgp	Degree=Pos	7	advmod	_	start_char=141|end_char=145
+7	mali	mali	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=146|end_char=150
+8	i	i	CCONJ	Cc	_	9	cc	_	start_char=151|end_char=152
+9	zahtijevaju	zahtijevati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	start_char=153|end_char=164
+10	pažljiv	pažljiv	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=165|end_char=172
+11	rad	rad	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=173|end_char=176
+12	i	i	CCONJ	Cc	_	14	cc	_	start_char=177|end_char=178
+13	čvrstu	čvrst	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=179|end_char=185
+14	ruku	ruka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	start_char=186|end_char=190
+15	.	.	PUNCT	Z	_	7	punct	_	start_char=190|end_char=191
+
+# text = No, nagrada je ogromna.
+# sent_id = 3
+1	No	no	CCONJ	Cc	_	5	cc	_	start_char=192|end_char=194
+2	,	,	PUNCT	Z	_	1	punct	_	start_char=194|end_char=195
+3	nagrada	nagrada	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=196|end_char=203
+4	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=204|end_char=206
+5	ogromna	ogroman	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=207|end_char=214
+6	.	.	PUNCT	Z	_	5	punct	_	start_char=214|end_char=215
+
+# text = Ove slike su predivno izrađene, a rad koji na njima obavljate će vas inspirirati.
+# sent_id = 4
+1	Ove	ovaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	start_char=216|end_char=219
+2	slike	slika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=220|end_char=225
+3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=226|end_char=228
+4	predivno	predivno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=229|end_char=237
+5	izrađene	izraditi	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	start_char=238|end_char=246
+6	,	,	PUNCT	Z	_	15	punct	_	start_char=246|end_char=247
+7	a	a	CCONJ	Cc	_	15	cc	_	start_char=248|end_char=249
+8	rad	rad	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=250|end_char=253
+9	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	12	nsubj	_	start_char=254|end_char=258
+10	na	na	ADP	Sl	Case=Loc	11	case	_	start_char=259|end_char=261
+11	njima	oni	PRON	Pp3-pl	Case=Loc|Number=Plur|Person=3|PronType=Prs	12	obl	_	start_char=262|end_char=267
+12	obavljate	obavljati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=268|end_char=277
+13	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	start_char=278|end_char=280
+14	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	15	obj	_	start_char=281|end_char=284
+15	inspirirati	inspirirati	VERB	Vmn	VerbForm=Inf	12	xcomp	_	start_char=285|end_char=296
+16	.	.	PUNCT	Z	_	5	punct	_	start_char=296|end_char=297
+
+# text = Možda ćete poželjeti fotokopirati stranice ako želite svaku izložiti ili koristiti, budući da su isprintane s obje strane.
+# sent_id = 5
+1	Možda	možda	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=298|end_char=303
+2	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=304|end_char=308
+3	poželjeti	poželjeti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=309|end_char=318
+4	fotokopirati	fotokopirati	VERB	Vmn	VerbForm=Inf	3	xcomp	_	start_char=319|end_char=331
+5	stranice	stranica	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	start_char=332|end_char=340
+6	ako	ako	SCONJ	Cs	_	7	mark	_	start_char=341|end_char=344
+7	želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	start_char=345|end_char=351
+8	svaku	svaki	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	9	obj	_	start_char=352|end_char=357
+9	izložiti	izložiti	VERB	Vmn	VerbForm=Inf	7	xcomp	_	start_char=358|end_char=366
+10	ili	ili	CCONJ	Cc	_	11	cc	_	start_char=367|end_char=370
+11	koristiti	koristiti	VERB	Vmn	VerbForm=Inf	9	conj	_	start_char=371|end_char=380
+12	,	,	PUNCT	Z	_	16	punct	_	start_char=380|end_char=381
+13	budući	budući	SCONJ	Cs	_	16	mark	_	start_char=382|end_char=388
+14	da	da	SCONJ	Cs	_	13	fixed	_	start_char=389|end_char=391
+15	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	start_char=392|end_char=394
+16	isprintane	isprintan	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	3	advcl	_	start_char=395|end_char=405
+17	s	sa	ADP	Sg	Case=Gen	19	case	_	start_char=406|end_char=407
+18	obje	oba	NUM	Mlsf-g	Case=Gen|Gender=Fem|NumType=Mult	19	nummod	_	start_char=408|end_char=412
+19	strane	strana	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	start_char=413|end_char=419
+20	.	.	PUNCT	Z	_	3	punct	_	start_char=419|end_char=420
+
+# text = Samo predivno izrađeno!
+# sent_id = 6
+1	Samo	samo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=421|end_char=425
+2	predivno	predivno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=426|end_char=434
+3	izrađeno	izraditi	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=435|end_char=443
+4	!	!	PUNCT	Z	_	3	punct	_	start_char=443|end_char=444
+

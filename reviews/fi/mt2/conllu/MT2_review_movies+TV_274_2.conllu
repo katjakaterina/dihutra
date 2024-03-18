@@ -1,0 +1,129 @@
+# text = EI UUDISTETTU!
+# sent_id = 0
+1	EI	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=0|end_char=2
+2	UUDISTETTU	uusistettu	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=3|end_char=13
+3	!	!	PUNCT	Punct	_	2	punct	_	start_char=13|end_char=14
+
+# text = Miten he voivat edes väittää tätä?
+# sent_id = 1
+1	Miten	miten	ADV	Adv	_	5	advmod	_	start_char=15|end_char=20
+2	he	hän	PRON	Pron	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	start_char=21|end_char=23
+3	voivat	voida	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=24|end_char=30
+4	edes	edes	ADV	Adv	_	5	advmod	_	start_char=31|end_char=35
+5	väittää	väittää	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=36|end_char=43
+6	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	5	obj	_	start_char=44|end_char=48
+7	?	?	PUNCT	Punct	_	5	punct	_	start_char=48|end_char=49
+
+# text = Upea ,ohjelma, sydäntä lämmittävä tarina ja sh?^[VIINÄIN ESITTELY..
+# sent_id = 2
+1	Upea	upea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=50|end_char=54
+2	,	,	PUNCT	Punct	_	3	punct	_	start_char=55|end_char=56
+3	ohjelma	ohjelma	NOUN	N	Case=Nom|Number=Sing	1	conj	_	start_char=56|end_char=63
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=63|end_char=64
+5	sydäntä	sydäntä	NOUN	N	Case=Par|Number=Sing	6	obj	_	start_char=65|end_char=72
+6	lämmittävä	lämmittää	VERB	V	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	7	acl	_	start_char=73|end_char=83
+7	tarina	tarina	NOUN	N	Case=Nom|Number=Sing	1	conj	_	start_char=84|end_char=90
+8	ja	ja	CCONJ	C	_	11	cc	_	start_char=91|end_char=93
+9	sh?	sh?	SYM	Symb	_	1	conj	_	start_char=94|end_char=97
+10	^[VIINÄIN	liviinnÄin	PUNCT	Punct	_	11	punct	_	start_char=97|end_char=106
+11	ESITTELY.	esittely.	NOUN	N	Case=Nom|Number=Sing	1	conj	_	start_char=107|end_char=116
+12	.	.	PUNCT	Punct	_	1	punct	_	start_char=116|end_char=117
+
+# text = Tätä dvd:tä ei ole palautettu...yksi...sengle.bit.
+# sent_id = 3
+1	Tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	det	_	start_char=118|end_char=122
+2	dvd:tä	dvd	NOUN	N	Case=Par|Number=Sing	5	obj	_	start_char=123|end_char=129
+3	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	start_char=130|end_char=132
+4	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	start_char=133|end_char=136
+5	palautettu	palauttaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=137|end_char=147
+6	...yksi	...yksi	ADV	Adv	_	5	advmod	_	start_char=147|end_char=154
+7	...	...	PUNCT	Punct	_	5	punct	_	start_char=154|end_char=157
+8	sengle.bit	sengle.bit	X	Symb	Foreign=Yes	5	discourse	_	start_char=157|end_char=167
+9	.	.	PUNCT	Punct	_	5	punct	_	start_char=167|end_char=168
+
+# text = Se on sama tumma, sekava, likainen, täplikäs ja leikattu kopio, jonka olemme nähneet televisiossa, videossa ja DVD:ssä, miksi? neljäkymmentä vuotta?
+# sent_id = 4
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	start_char=169|end_char=171
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=172|end_char=174
+3	sama	sama	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	13	det	_	start_char=175|end_char=179
+4	tumma	tumma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	_	start_char=180|end_char=185
+5	,	,	PUNCT	Punct	_	6	punct	_	start_char=185|end_char=186
+6	sekava	sekava	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	start_char=187|end_char=193
+7	,	,	PUNCT	Punct	_	8	punct	_	start_char=193|end_char=194
+8	likainen	likainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Inen|Number=Sing	4	conj	_	start_char=195|end_char=203
+9	,	,	PUNCT	Punct	_	10	punct	_	start_char=203|end_char=204
+10	täplikäs	täplikäs	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	4	conj	_	start_char=205|end_char=213
+11	ja	ja	CCONJ	C	_	12	cc	_	start_char=214|end_char=216
+12	leikattu	leikata	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	4	conj	_	start_char=217|end_char=225
+13	kopio	kopio	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=226|end_char=231
+14	,	,	PUNCT	Punct	_	17	punct	_	start_char=231|end_char=232
+15	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	17	obj	_	start_char=233|end_char=238
+16	olemme	olla	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	start_char=239|end_char=245
+17	nähneet	nähdä	VERB	V	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	13	acl:relcl	_	start_char=246|end_char=253
+18	televisiossa	televisio	NOUN	N	Case=Ine|Number=Sing	17	obl	_	start_char=254|end_char=266
+19	,	,	PUNCT	Punct	_	20	punct	_	start_char=266|end_char=267
+20	videossa	video	NOUN	N	Case=Ine|Number=Sing	18	conj	_	start_char=268|end_char=276
+21	ja	ja	CCONJ	C	_	22	cc	_	start_char=277|end_char=279
+22	DVD:ssä	DVD	PROPN	N	Case=Ine|Number=Sing	18	conj	_	start_char=280|end_char=287
+23	,	,	PUNCT	Punct	_	24	punct	_	start_char=287|end_char=288
+24	miksi	miksi	ADV	Adv	_	17	advmod	_	start_char=289|end_char=294
+25	?	?	PUNCT	Punct	_	24	punct	_	start_char=294|end_char=295
+26	neljäkymmentä	neljä#kymmenen	NUM	Num	Case=Par|NumType=Card|Number=Sing	27	nummod	_	start_char=296|end_char=309
+27	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	13	nmod	_	start_char=310|end_char=316
+28	?	?	PUNCT	Punct	_	13	punct	_	start_char=316|end_char=317
+
+# text = Olin hämmästynyt ja innoissani siitä, että suosikkilomaerikoisuuteni näyttäisi nyt yhtä upealta kuin ansaitsi.
+# sent_id = 5
+1	Olin	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	start_char=318|end_char=322
+2	hämmästynyt	hämmästyä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=323|end_char=334
+3	ja	ja	CCONJ	C	_	4	cc	_	start_char=335|end_char=337
+4	innoissani	innoissann	ADV	Adv	Number[psor]=Sing|Person[psor]=1	2	conj	_	start_char=338|end_char=348
+5	siitä	se	PRON	Pron	Case=Ela|Number=Sing|PronType=Dem	2	obl	_	start_char=349|end_char=354
+6	,	,	PUNCT	Punct	_	9	punct	_	start_char=354|end_char=355
+7	että	että	SCONJ	C	_	9	mark	_	start_char=356|end_char=360
+8	suosikkilomaerikoisuuteni	suosikki#lomaeri#koisuus	NOUN	N	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	9	nsubj	_	start_char=361|end_char=386
+9	näyttäisi	näyttää	VERB	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	ccomp	_	start_char=387|end_char=396
+10	nyt	nyt	ADV	Adv	_	9	advmod	_	start_char=397|end_char=400
+11	yhtä	yhtä	ADV	Adv	_	12	advmod	_	start_char=401|end_char=405
+12	upealta	upea	ADJ	A	Case=Abl|Degree=Pos|Number=Sing	9	xcomp	_	start_char=406|end_char=413
+13	kuin	kuin	SCONJ	C	_	14	mark	_	start_char=414|end_char=418
+14	ansaitsi	ansaita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	start_char=419|end_char=427
+15	.	.	PUNCT	Punct	_	2	punct	_	start_char=427|end_char=428
+
+# text = Minulla on houkutus ottaa se takaisin, mutta se on ainakin erillisellä dvd:llä sen sijaan, että se olisi lisätty jälkikäteen johonkin Rankin-Bass-kokoelmaan, jossa on enemmän &#34;kuuluisaa&#34; erikoisuuksia.
+# sent_id = 6
+1	Minulla	minä	PRON	Pron	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	start_char=429|end_char=436
+2	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	start_char=437|end_char=439
+3	houkutus	houkutus	NOUN	N	Case=Nom|Number=Sing	1	nsubj:cop	_	start_char=440|end_char=448
+4	ottaa	ottaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	3	acl	_	start_char=449|end_char=454
+5	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	4	obj	_	start_char=455|end_char=457
+6	takaisin	takaisin	ADV	Adv	_	4	advmod	_	start_char=458|end_char=466
+7	,	,	PUNCT	Punct	_	13	punct	_	start_char=466|end_char=467
+8	mutta	mutta	CCONJ	C	_	13	cc	_	start_char=468|end_char=473
+9	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	start_char=474|end_char=476
+10	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=477|end_char=479
+11	ainakin	ainakin	ADV	Adv	_	13	advmod	_	start_char=480|end_char=487
+12	erillisellä	erillinen	ADJ	A	Case=Ade|Degree=Pos|Derivation=Llinen|Number=Sing	13	amod	_	start_char=488|end_char=499
+13	dvd:llä	dvd	NOUN	N	Case=Ade|Number=Sing	1	conj	_	start_char=500|end_char=507
+14	sen	se	PRON	Pron	Case=Gen|Number=Sing|PronType=Dem	13	obl	_	start_char=508|end_char=511
+15	sijaan	sijaan	ADP	Adp	AdpType=Post	14	case	_	start_char=512|end_char=518
+16	,	,	PUNCT	Punct	_	20	punct	_	start_char=518|end_char=519
+17	että	että	SCONJ	C	_	20	mark	_	start_char=520|end_char=524
+18	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	20	obj	_	start_char=525|end_char=527
+19	olisi	olla	AUX	V	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	20	aux:pass	_	start_char=528|end_char=533
+20	lisätty	lisätä	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	start_char=534|end_char=541
+21	jälkikäteen	jälki#käteen	ADV	Adv	_	20	advmod	_	start_char=542|end_char=553
+22	johonkin	jokin	PRON	Pron	Case=Ill|Number=Sing|PronType=Ind	23	det	_	start_char=554|end_char=562
+23	Rankin-Bass-kokoelmaan	Rankin#Bass#kokoelma	NOUN	N	Case=Ill|Number=Sing	20	obl	_	start_char=563|end_char=585
+24	,	,	PUNCT	Punct	_	25	punct	_	start_char=585|end_char=586
+25	jossa	joka	PRON	Pron	Case=Ine|Number=Sing|PronType=Rel	23	acl:relcl	_	start_char=587|end_char=592
+26	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	cop	_	start_char=593|end_char=595
+27	enemmän	enemmän	ADV	Adv	_	25	advmod	_	start_char=596|end_char=603
+28	&	&	SYM	Punct	_	29	cc	_	start_char=604|end_char=605
+29	#34;kuuluisaa	#34;kuuluisaa	SYM	Symb	_	27	conj	_	start_char=605|end_char=618
+30	&	&	SYM	Punct	_	31	cc	_	start_char=618|end_char=619
+31	#34	#34	SYM	Symb	_	27	conj	_	start_char=619|end_char=622
+32	;	;	PUNCT	Punct	_	33	punct	_	start_char=622|end_char=623
+33	erikoisuuksia	erikoisuus	NOUN	N	Case=Par|Number=Plur	27	appos	_	start_char=624|end_char=637
+34	.	.	PUNCT	Punct	_	1	punct	_	start_char=637|end_char=638
+

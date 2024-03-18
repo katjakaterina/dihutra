@@ -1,0 +1,70 @@
+# text = """haju ja väri ovat erilaiset."
+# sent_id = 0
+1	"	"	PUNCT	Punct	_	8	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Punct	_	8	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Punct	_	8	punct	_	start_char=2|end_char=3
+4	haju	haju	NOUN	N	Case=Nom|Derivation=U|Number=Sing	8	nsubj:cop	_	start_char=3|end_char=7
+5	ja	ja	CCONJ	C	_	6	cc	_	start_char=8|end_char=10
+6	väri	väri	NOUN	N	Case=Nom|Number=Sing	4	conj	_	start_char=11|end_char=15
+7	ovat	olla	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=16|end_char=20
+8	erilaiset	erilainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Plur	0	root	_	start_char=21|end_char=30
+9	.	.	PUNCT	Punct	_	8	punct	_	start_char=30|end_char=31
+10	"	"	PUNCT	Punct	_	8	punct	_	start_char=31|end_char=32
+
+# text = Onko eroa sellaisen, joka on kirjoitettu A22:lla, ja sellaisen välillä, joka on kirjoitettu A82:lla?
+# sent_id = 1
+1	Onko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=33|end_char=37
+2	eroa	ero	NOUN	N	Case=Par|Number=Sing	3	nsubj:cop	_	start_char=38|end_char=42
+3	sellaisen	sellainen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Lainen|Number=Sing	0	root	_	start_char=43|end_char=52
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=52|end_char=53
+5	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	7	obj	_	start_char=54|end_char=58
+6	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux:pass	_	start_char=59|end_char=61
+7	kirjoitettu	kirjoittaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	start_char=62|end_char=73
+8	A22:lla	A22	NOUN	N	Case=Ade|Number=Sing	7	obl	_	start_char=74|end_char=81
+9	,	,	PUNCT	Punct	_	11	punct	_	start_char=81|end_char=82
+10	ja	ja	CCONJ	C	_	11	cc	_	start_char=83|end_char=85
+11	sellaisen	sellainen	ADJ	A	Case=Gen|Degree=Pos|Derivation=Lainen|Number=Sing	3	conj	_	start_char=86|end_char=95
+12	välillä	välillä	ADP	Adp	AdpType=Post	11	case	_	start_char=96|end_char=103
+13	,	,	PUNCT	Punct	_	16	punct	_	start_char=103|end_char=104
+14	joka	joka	PRON	Pron	Case=Nom|Number=Sing|PronType=Rel	16	obj	_	start_char=105|end_char=109
+15	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	start_char=110|end_char=112
+16	kirjoitettu	kirjoittaa	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	11	acl:relcl	_	start_char=113|end_char=124
+17	A82:lla	A82	PROPN	N	Case=Ade|Number=Sing	16	obl	_	start_char=125|end_char=132
+18	?	?	PUNCT	Punct	_	3	punct	_	start_char=132|end_char=133
+
+# text = En tiedä miksi, mutta täällä ostamani tuote oli täysin erilainen haju ja väri kuin se, jonka ostin Hongkongista.
+# sent_id = 2
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	start_char=134|end_char=136
+2	tiedä	tietää	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=137|end_char=142
+3	miksi	miksi	ADV	Adv	_	2	advmod	_	start_char=143|end_char=148
+4	,	,	PUNCT	Punct	_	12	punct	_	start_char=148|end_char=149
+5	mutta	mutta	CCONJ	C	_	12	cc	_	start_char=150|end_char=155
+6	täällä	täällä	ADV	Adv	_	7	advmod	_	start_char=156|end_char=162
+7	ostamani	ostaa	VERB	V	Case=Nom|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part|Voice=Act	8	acl	_	start_char=163|end_char=171
+8	tuote	tuote	NOUN	N	Case=Nom|Number=Sing	12	nsubj:cop	_	start_char=172|end_char=177
+9	oli	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	start_char=178|end_char=181
+10	täysin	täysin	ADV	Adv	_	11	advmod	_	start_char=182|end_char=188
+11	erilainen	erilainen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Lainen|Number=Sing	12	amod	_	start_char=189|end_char=198
+12	haju	haju	NOUN	N	Case=Nom|Derivation=U|Number=Sing	2	conj	_	start_char=199|end_char=203
+13	ja	ja	CCONJ	C	_	14	cc	_	start_char=204|end_char=206
+14	väri	väri	NOUN	N	Case=Nom|Number=Sing	12	conj	_	start_char=207|end_char=211
+15	kuin	kuin	SCONJ	C	_	16	mark	_	start_char=212|end_char=216
+16	se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	advcl	_	start_char=217|end_char=219
+17	,	,	PUNCT	Punct	_	19	punct	_	start_char=219|end_char=220
+18	jonka	joka	PRON	Pron	Case=Gen|Number=Sing|PronType=Rel	19	obj	_	start_char=221|end_char=226
+19	ostin	ostaa	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	start_char=227|end_char=232
+20	Hongkongista	Hongkong	PROPN	N	Case=Ela|Number=Sing	19	obl	_	start_char=233|end_char=245
+21	.	.	PUNCT	Punct	_	2	punct	_	start_char=245|end_char=246
+
+# text = En ole varma, onko tämä totta."
+# sent_id = 3
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=247|end_char=249
+2	ole	olla	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=250|end_char=253
+3	varma	varma	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	_	start_char=254|end_char=259
+4	,	,	PUNCT	Punct	_	7	punct	_	start_char=259|end_char=260
+5	onko	olla	AUX	V	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	start_char=261|end_char=265
+6	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	7	nsubj:cop	_	start_char=266|end_char=270
+7	totta	totta	ADV	Adv	_	3	ccomp	_	start_char=271|end_char=276
+8	.	.	PUNCT	Punct	_	3	punct	_	start_char=276|end_char=277
+9	"	"	PUNCT	Punct	_	3	punct	_	start_char=277|end_char=278
+

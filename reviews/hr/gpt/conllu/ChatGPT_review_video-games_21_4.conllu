@@ -1,0 +1,89 @@
+# text = Sjajan paket!!
+# sent_id = 0
+1	Sjajan	sjajan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=6
+2	paket	paket	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=7|end_char=12
+3	!	!	PUNCT	Z	_	2	punct	_	start_char=12|end_char=13
+4	!	!	PUNCT	Z	_	2	punct	_	start_char=13|end_char=14
+
+# text = Želio sam upotpuniti svoju kolekciju NFS-a, a ovaj paket je imao naslov koji već nisam imao... vrijedi napomenuti da za cijenu po kojoj ste ga prodavali, bilo je nemoguće da ga ne kupim, bez obzira što sam već imao dva od tri igre.
+# sent_id = 1
+1	Želio	željeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=15|end_char=20
+2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=21|end_char=24
+3	upotpuniti	upotpuniti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=25|end_char=35
+4	svoju	svoj	DET	Px-fsa	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	start_char=36|end_char=41
+5	kolekciju	kolekcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=42|end_char=51
+6	NFS-a	NFS	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=52|end_char=57
+7	,	,	PUNCT	Z	_	12	punct	_	start_char=57|end_char=58
+8	a	a	CCONJ	Cc	_	12	cc	_	start_char=59|end_char=60
+9	ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=61|end_char=65
+10	paket	paket	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=66|end_char=71
+11	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	start_char=72|end_char=74
+12	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	conj	_	start_char=75|end_char=79
+13	naslov	naslov	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=80|end_char=86
+14	koji	koji	DET	Pi-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	17	nsubj	_	start_char=87|end_char=91
+15	već	već	ADV	Rgp	Degree=Pos	17	advmod	_	start_char=92|end_char=95
+16	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	17	aux	_	start_char=96|end_char=101
+17	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	start_char=102|end_char=106
+18	...	...	PUNCT	Z	_	19	punct	_	start_char=106|end_char=109
+19	vrijedi	vrijediti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	start_char=110|end_char=117
+20	napomenuti	napomenuti	VERB	Vmn	VerbForm=Inf	19	xcomp	_	start_char=118|end_char=128
+21	da	da	SCONJ	Cs	_	32	mark	_	start_char=129|end_char=131
+22	za	za	ADP	Sa	Case=Acc	23	case	_	start_char=132|end_char=134
+23	cijenu	cijena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	start_char=135|end_char=141
+24	po	po	ADP	Sl	Case=Loc	25	case	_	start_char=142|end_char=144
+25	kojoj	koji	DET	Pi-fsl	Case=Loc|Gender=Fem|Number=Sing|PronType=Int,Rel	28	obl	_	start_char=145|end_char=150
+26	ste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	28	aux	_	start_char=151|end_char=154
+27	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	start_char=155|end_char=157
+28	prodavali	prodavati	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	23	acl	_	start_char=158|end_char=167
+29	,	,	PUNCT	Z	_	32	punct	_	start_char=167|end_char=168
+30	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	32	cop	_	start_char=169|end_char=173
+31	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	start_char=174|end_char=176
+32	nemoguće	nemoguće	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	start_char=177|end_char=185
+33	da	da	SCONJ	Cs	_	36	mark	_	start_char=186|end_char=188
+34	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	start_char=189|end_char=191
+35	ne	ne	PART	Qz	Polarity=Neg	36	advmod	_	start_char=192|end_char=194
+36	kupim	kupiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	csubj	_	start_char=195|end_char=200
+37	,	,	PUNCT	Z	_	43	punct	_	start_char=200|end_char=201
+38	bez	bez	ADP	Sg	Case=Gen	43	mark	_	start_char=202|end_char=205
+39	obzira	obzir	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	38	fixed	_	start_char=206|end_char=212
+40	što	što	SCONJ	Cs	_	38	fixed	_	start_char=213|end_char=216
+41	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	start_char=217|end_char=220
+42	već	već	ADV	Rgp	Degree=Pos	43	advmod	_	start_char=221|end_char=224
+43	imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	36	advcl	_	start_char=225|end_char=229
+44	dva	dva	NUM	Mlc	NumType=Card	47	nummod	_	start_char=230|end_char=233
+45	od	od	ADP	Sg	Case=Gen	47	case	_	start_char=234|end_char=236
+46	tri	tri	NUM	Mlc	NumType=Card	47	nummod	_	start_char=237|end_char=240
+47	igre	igra	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	43	nsubj	_	start_char=241|end_char=245
+48	.	.	PUNCT	Z	_	1	punct	_	start_char=245|end_char=246
+
+# text = Šteta što isporučuju samo u SAD-u, ali dostava je brza!
+# sent_id = 2
+1	Šteta	šteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=247|end_char=252
+2	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	3	nsubj	_	start_char=253|end_char=256
+3	isporučuju	isporučivati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=257|end_char=267
+4	samo	samo	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=268|end_char=272
+5	u	u	ADP	Sl	Case=Loc	6	case	_	start_char=273|end_char=274
+6	SAD-u	SAD	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=275|end_char=280
+7	,	,	PUNCT	Z	_	11	punct	_	start_char=280|end_char=281
+8	ali	ali	CCONJ	Cc	_	11	cc	_	start_char=282|end_char=285
+9	dostava	dostava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	start_char=286|end_char=293
+10	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	start_char=294|end_char=296
+11	brza	brz	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	start_char=297|end_char=301
+12	!	!	PUNCT	Z	_	1	punct	_	start_char=301|end_char=302
+
+# text = S takvim ponudama kao što su vaše, uvijek kupujem na Amazonu.
+# sent_id = 3
+1	S	sa	ADP	Si	Case=Ins	3	case	_	start_char=303|end_char=304
+2	takvim	takav	DET	Pd-fpi	Case=Ins|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=305|end_char=311
+3	ponudama	ponuda	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	10	obl	_	start_char=312|end_char=320
+4	kao	kao	SCONJ	Cs	_	6	mark	_	start_char=321|end_char=324
+5	što	što	SCONJ	Cs	_	4	fixed	_	start_char=325|end_char=328
+6	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	start_char=329|end_char=331
+7	vaše	vaš	DET	Ps1fpn	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	nsubj	_	start_char=332|end_char=336
+8	,	,	PUNCT	Z	_	6	punct	_	start_char=336|end_char=337
+9	uvijek	uvijek	ADV	Rgp	Degree=Pos|PronType=Tot	10	advmod	_	start_char=338|end_char=344
+10	kupujem	kupovati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=345|end_char=352
+11	na	na	ADP	Sl	Case=Loc	12	case	_	start_char=353|end_char=355
+12	Amazonu	Amazon	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	start_char=356|end_char=363
+13	.	.	PUNCT	Z	_	10	punct	_	start_char=363|end_char=364
+

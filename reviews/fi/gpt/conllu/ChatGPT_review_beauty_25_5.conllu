@@ -1,0 +1,66 @@
+# text = """Ainoa meikkivoide, jota käytän!"
+# sent_id = 0
+1	"	"	PUNCT	Punct	_	5	punct	_	start_char=0|end_char=1
+2	"	"	PUNCT	Punct	_	5	punct	_	start_char=1|end_char=2
+3	"	"	PUNCT	Punct	_	5	punct	_	start_char=2|end_char=3
+4	Ainoa	ainoa	PRON	Pron	Case=Nom|Number=Sing|PronType=Ind	5	det	_	start_char=3|end_char=8
+5	meikkivoide	meikki#voide	NOUN	N	Case=Nom|Number=Sing	0	root	_	start_char=9|end_char=20
+6	,	,	PUNCT	Punct	_	8	punct	_	start_char=20|end_char=21
+7	jota	joka	PRON	Pron	Case=Par|Number=Sing|PronType=Rel	8	obj	_	start_char=22|end_char=26
+8	käytän	käyttää	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=27|end_char=33
+9	!	!	PUNCT	Punct	_	5	punct	_	start_char=33|end_char=34
+10	"	"	PUNCT	Punct	_	5	punct	_	start_char=34|end_char=35
+
+# text = En voi ostaa tätä enää paikallisista kaupoista, ja tämä kestää todella pitkään ja hoitaa hommansa.
+# sent_id = 1
+1	En	ei	AUX	V	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=36|end_char=38
+2	voi	voida	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=39|end_char=42
+3	ostaa	ostaa	VERB	V	InfForm=1|Number=Sing|VerbForm=Inf|Voice=Act	0	root	_	start_char=43|end_char=48
+4	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	3	obj	_	start_char=49|end_char=53
+5	enää	enää	ADV	Adv	_	3	advmod	_	start_char=54|end_char=58
+6	paikallisista	paikallinen	ADJ	A	Case=Ela|Degree=Pos|Derivation=Llinen|Number=Plur	7	amod	_	start_char=59|end_char=72
+7	kaupoista	kauppa	NOUN	N	Case=Ela|Number=Plur	3	obl	_	start_char=73|end_char=82
+8	,	,	PUNCT	Punct	_	11	punct	_	start_char=82|end_char=83
+9	ja	ja	CCONJ	C	_	11	cc	_	start_char=84|end_char=86
+10	tämä	tämä	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	start_char=87|end_char=91
+11	kestää	kestää	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=92|end_char=98
+12	todella	todella	ADV	Adv	_	13	advmod	_	start_char=99|end_char=106
+13	pitkään	pitkään	ADV	Adv	_	11	advmod	_	start_char=107|end_char=114
+14	ja	ja	CCONJ	C	_	15	cc	_	start_char=115|end_char=117
+15	hoitaa	hoitaa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	start_char=118|end_char=124
+16	hommansa	homma	NOUN	N	Case=Nom|Number=Sing|Person[psor]=3	15	obj	_	start_char=125|end_char=133
+17	.	.	PUNCT	Punct	_	3	punct	_	start_char=133|end_char=134
+
+# text = Se ei sulaa Floridan kuumuudessa ja on tarpeeksi kevyt ollakseen luonnollinen, mutta sillä on riittävä peittävyys.
+# sent_id = 2
+1	Se	se	PRON	Pron	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	start_char=135|end_char=137
+2	ei	ei	AUX	V	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	start_char=138|end_char=140
+3	sulaa	sulaa	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	start_char=141|end_char=146
+4	Floridan	Florida	PROPN	N	Case=Gen|Number=Sing	5	nmod:poss	_	start_char=147|end_char=155
+5	kuumuudessa	kuumuus	NOUN	N	Case=Ine|Number=Sing	3	obl	_	start_char=156|end_char=167
+6	ja	ja	CCONJ	C	_	9	cc	_	start_char=168|end_char=170
+7	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	start_char=171|end_char=173
+8	tarpeeksi	tarpeeksi	ADV	Adv	_	9	advmod	_	start_char=174|end_char=183
+9	kevyt	kevyt	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	conj	_	start_char=184|end_char=189
+10	ollakseen	olla	AUX	V	Case=Tra|InfForm=1|Number=Sing|Person[psor]=3|VerbForm=Inf|Voice=Act	11	cop	_	start_char=190|end_char=199
+11	luonnollinen	luonnollinen	ADJ	A	Case=Nom|Degree=Pos|Derivation=Llinen|Number=Sing	9	advcl	_	start_char=200|end_char=212
+12	,	,	PUNCT	Punct	_	14	punct	_	start_char=212|end_char=213
+13	mutta	mutta	CCONJ	C	_	14	cc	_	start_char=214|end_char=219
+14	sillä	se	PRON	Pron	Case=Ade|Number=Sing|PronType=Dem	3	conj	_	start_char=220|end_char=225
+15	on	olla	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop:own	_	start_char=226|end_char=228
+16	riittävä	riittävä	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	17	amod	_	start_char=229|end_char=237
+17	peittävyys	peittävyys	NOUN	N	Case=Nom|Number=Sing	14	nsubj:cop	_	start_char=238|end_char=248
+18	.	.	PUNCT	Punct	_	3	punct	_	start_char=248|end_char=249
+
+# text = Olen käyttänyt tätä noin 5-6 vuotta nyt."
+# sent_id = 3
+1	Olen	olla	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=250|end_char=254
+2	käyttänyt	käyttää	VERB	V	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=255|end_char=264
+3	tätä	tämä	PRON	Pron	Case=Par|Number=Sing|PronType=Dem	2	obj	_	start_char=265|end_char=269
+4	noin	noin	ADV	Adv	_	5	advmod	_	start_char=270|end_char=274
+5	5-6	5-6	NUM	Num	NumType=Card	6	nummod	_	start_char=275|end_char=278
+6	vuotta	vuosi	NOUN	N	Case=Par|Number=Sing	2	obj	_	start_char=279|end_char=285
+7	nyt	nyt	ADV	Adv	_	2	advmod	_	start_char=286|end_char=289
+8	.	.	PUNCT	Punct	_	2	punct	_	start_char=289|end_char=290
+9	"	"	PUNCT	Punct	_	2	punct	_	start_char=290|end_char=291
+
