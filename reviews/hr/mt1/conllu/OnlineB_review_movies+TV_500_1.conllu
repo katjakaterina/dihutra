@@ -1,7 +1,11 @@
+# text = Ne originalne priče
+# sent_id = 0
 1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=0|end_char=2
 2	originalne	originalan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	3	amod	_	start_char=3|end_char=13
 3	priče	priča	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=14|end_char=19
 
+# text = Moram se složiti s ostalim recenzentima da je ovaj set grozan jer ne prikazuje epizode u izvornom clifhanger obliku kakav se prikazuje na TV-u.
+# sent_id = 1
 1	Moram	morati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=20|end_char=25
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=26|end_char=28
 3	složiti	složiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=29|end_char=36
@@ -28,6 +32,8 @@
 24	TV-u	TV	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	22	obl	_	start_char=158|end_char=162
 25	.	.	PUNCT	Z	_	1	punct	_	start_char=162|end_char=163
 
+# text = Ja ću biti prvi u redu za kupnju Underdog kad se proizvede kao što je IZVORNO prikazano sa svim kratkim hlačama kao Tennessee smoking i Commander mcbragg i s cliffhangerima.
+# sent_id = 2
 1	Ja	ja	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	start_char=164|end_char=166
 2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=167|end_char=169
 3	biti	biti	AUX	Van	VerbForm=Inf	6	cop	_	start_char=170|end_char=174
@@ -60,6 +66,8 @@
 30	cliffhangerima	cliffhanger	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	23	conj	_	start_char=322|end_char=336
 31	.	.	PUNCT	Z	_	6	punct	_	start_char=336|end_char=337
 
+# text = Hajde dečki, dajte nam originalnu predstavu kakva bi trebala biti i ovaj će set odletjeti s polica.
+# sent_id = 3
 1	Hajde	hajde	INTJ	I	_	2	discourse	_	start_char=338|end_char=343
 2	dečki	dečko	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=344|end_char=349
 3	,	,	PUNCT	Z	_	2	punct	_	start_char=349|end_char=350
@@ -80,6 +88,8 @@
 18	polica	polica	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	start_char=430|end_char=436
 19	.	.	PUNCT	Z	_	4	punct	_	start_char=436|end_char=437
 
+# text = Do tada možete zadržati ovo smeće.
+# sent_id = 4
 1	Do	do	ADP	Sg	Case=Gen	2	case	_	start_char=438|end_char=440
 2	tada	tada	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	start_char=441|end_char=445
 3	možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=446|end_char=452

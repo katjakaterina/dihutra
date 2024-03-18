@@ -1,3 +1,5 @@
+# text = Dijelovi koji nedostaju, jeftina izrada Moj komplet je stigao s nedostajućim dijelovima.
+# sent_id = 0
 1	Dijelovi	dio	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	start_char=0|end_char=8
 2	koji	koji	DET	Pi-mpn	Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	3	nsubj	_	start_char=9|end_char=13
 3	nedostaju	nedostajati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	start_char=14|end_char=23
@@ -13,6 +15,8 @@
 13	dijelovima	dio	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	10	obl	_	start_char=77|end_char=87
 14	.	.	PUNCT	Z	_	10	punct	_	start_char=87|end_char=88
 
+# text = Sve je bilo u neredu, sa samo nekoliko dijelova koji su počivali na svojim mjestima.
+# sent_id = 1
 1	Sve	sve	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	nsubj	_	start_char=89|end_char=92
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=93|end_char=95
 3	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=96|end_char=100
@@ -31,6 +35,8 @@
 16	mjestima	mjesto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	13	obl	_	start_char=164|end_char=172
 17	.	.	PUNCT	Z	_	3	punct	_	start_char=172|end_char=173
 
+# text = Nakon što sam ga pregledao i sve vratio gdje pripada, odlučio sam ga poslati natrag.
+# sent_id = 2
 1	Nakon	nakon	SCONJ	Cs	_	5	mark	_	start_char=174|end_char=179
 2	što	što	SCONJ	Cs	_	1	fixed	_	start_char=180|end_char=183
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=184|end_char=187
@@ -49,6 +55,8 @@
 16	natrag	natrag	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=251|end_char=257
 17	.	.	PUNCT	Z	_	12	punct	_	start_char=257|end_char=258
 
+# text = Dijelovi su elegantni i sveukupno izgleda kao jeftin komplet.
+# sent_id = 3
 1	Dijelovi	dio	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=259|end_char=267
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=268|end_char=270
 3	elegantni	elegantan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=271|end_char=280
@@ -60,6 +68,8 @@
 9	komplet	komplet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	obl	_	start_char=312|end_char=319
 10	.	.	PUNCT	Z	_	3	punct	_	start_char=319|end_char=320
 
+# text = Nisam ga ni pokušao koristiti...samo sam ga spakirao i poslao nazad.
+# sent_id = 4
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=321|end_char=326
 2	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=327|end_char=329
 3	ni	ni	PART	Qo	_	4	discourse	_	start_char=330|end_char=332
@@ -74,6 +84,8 @@
 12	nazad	nazad	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	start_char=383|end_char=388
 13	.	.	PUNCT	Z	_	4	punct	_	start_char=388|end_char=389
 
+# text = Kakvo razočarenje.
+# sent_id = 5
 1	Kakvo	kakav	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	2	amod	_	start_char=390|end_char=395
 2	razočarenje	razočarenje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=396|end_char=407
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=407|end_char=408

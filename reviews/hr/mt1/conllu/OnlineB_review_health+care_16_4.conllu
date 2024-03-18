@@ -1,9 +1,13 @@
+# text = Vrlo zgodan, dobro radi
+# sent_id = 0
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=4
 2	zgodan	zgodan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	advmod	_	start_char=5|end_char=11
 3	,	,	PUNCT	Z	_	2	punct	_	start_char=11|end_char=12
 4	dobro	dobro	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=13|end_char=18
 5	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=19|end_char=23
 
+# text = Ovom sam dao samo 4 zvjezdice umjesto 5, zbog pakiranja u kojem dolazi.
+# sent_id = 1
 1	Ovom	ovaj	DET	Pd-msi	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=24|end_char=28
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=29|end_char=32
 3	dao	dati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=33|end_char=36
@@ -20,6 +24,8 @@
 14	dolazi	dolaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	start_char=88|end_char=94
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=94|end_char=95
 
+# text = Plastika je oštra i nije je lako nositi u torbi bez da se ubodete u nju, ali bez plastične kutije povećalo bi se jako izgrebalo.
+# sent_id = 2
 1	Plastika	plastika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=96|end_char=104
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=105|end_char=107
 3	oštra	oštar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=108|end_char=113
@@ -48,6 +54,8 @@
 26	izgrebalo	izgrebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	xcomp	_	start_char=214|end_char=223
 27	.	.	PUNCT	Z	_	3	punct	_	start_char=223|end_char=224
 
+# text = Možda ću odbaciti plastičnu kutiju, ali čuvajte povećalo u nečem mekom, poput male čarape.
+# sent_id = 3
 1	Možda	možda	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=225|end_char=230
 2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=231|end_char=233
 3	odbaciti	odbaciti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=234|end_char=242
@@ -66,6 +74,8 @@
 16	čarape	čarap	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=308|end_char=314
 17	.	.	PUNCT	Z	_	3	punct	_	start_char=314|end_char=315
 
+# text = Inače, povećalo radi odlično.
+# sent_id = 4
 1	Inače	inače	ADV	Rgp	Degree=Pos	3	discourse	_	start_char=316|end_char=321
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=321|end_char=322
 3	povećalo	povećalo	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=323|end_char=331

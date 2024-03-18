@@ -1,9 +1,13 @@
+# text = Radi kao i tvornički alat
+# sent_id = 0
 1	Radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	kao	kao	SCONJ	Cs	_	5	case	_	start_char=5|end_char=8
 3	i	i	CCONJ	Cc	_	5	discourse	_	start_char=9|end_char=10
 4	tvornički	tvornički	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=11|end_char=20
 5	alat	alat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	obl	_	start_char=21|end_char=25
 
+# text = Imao sam tvornički Glock alat koji sam koristio za svoj Glock 26, 27 i 17.
+# sent_id = 1
 1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=26|end_char=30
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=31|end_char=34
 3	tvornički	tvornički	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=35|end_char=44
@@ -22,6 +26,8 @@
 16	17	17	NUM	Mdc	NumType=Card	12	conj	_	start_char=97|end_char=99
 17	.	.	PUNCT	Z	_	1	punct	_	start_char=99|end_char=100
 
+# text = Od tada sam ga izgubio i trebao mi je drugi.
+# sent_id = 2
 1	Od	od	ADP	Sg	Case=Gen	2	case	_	start_char=101|end_char=103
 2	tada	tada	ADV	Rgp	Degree=Pos|PronType=Dem	5	advmod	_	start_char=104|end_char=108
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=109|end_char=112
@@ -34,6 +40,8 @@
 10	drugi	drugi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	nsubj	_	start_char=139|end_char=144
 11	.	.	PUNCT	Z	_	5	punct	_	start_char=144|end_char=145
 
+# text = Budući da sam prije koristio Ghost proizvode i znam da su pouzdani, odlučio sam naručiti ovaj.
+# sent_id = 3
 1	Budući	budući	SCONJ	Cs	_	5	mark	_	start_char=146|end_char=152
 2	da	da	SCONJ	Cs	_	1	fixed	_	start_char=153|end_char=155
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=156|end_char=159
@@ -53,6 +61,8 @@
 17	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	start_char=235|end_char=239
 18	.	.	PUNCT	Z	_	14	punct	_	start_char=239|end_char=240
 
+# text = Naravno, ovo je jednako dobro kao i tvornički alat.
+# sent_id = 4
 1	Naravno	naravno	ADV	Rgp	Degree=Pos	6	discourse	_	start_char=241|end_char=248
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=248|end_char=249
 3	ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=250|end_char=253

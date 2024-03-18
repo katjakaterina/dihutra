@@ -1,7 +1,11 @@
+# text = Groomer u obuci
+# sent_id = 0
 1	Groomer	Groomer	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7
 2	u	u	ADP	Sl	Case=Loc	3	case	_	start_char=8|end_char=9
 3	obuci	obuka	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	start_char=10|end_char=15
 
+# text = Trenutačno se obučavam za stilista groomera/ kućnih ljubimaca i ovo je knjiga koju moja tvrtka koristi u svojoj akademiji za timarenje za obuku svih timaritelja.
+# sent_id = 1
 1	Trenutačno	trenutačno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=16|end_char=26
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=27|end_char=29
 3	obučavam	obučavati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=30|end_char=38
@@ -29,10 +33,14 @@
 25	timaritelja	timaritelj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	start_char=165|end_char=176
 26	.	.	PUNCT	Z	_	3	punct	_	start_char=176|end_char=177
 
+# text = Predivno je.
+# sent_id = 2
 1	Predivno	predivan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=178|end_char=186
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=187|end_char=189
 3	.	.	PUNCT	Z	_	1	punct	_	start_char=189|end_char=190
 
+# text = Vrlo je korisno znati da možete okrenuti bilo koju stranicu u ovoj knjizi i pronaći pasminu psa koju tražite.
+# sent_id = 3
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=191|end_char=195
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=196|end_char=198
 3	korisno	korisno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=199|end_char=206
@@ -54,6 +62,8 @@
 19	tražite	tražiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	acl	_	start_char=292|end_char=299
 20	.	.	PUNCT	Z	_	3	punct	_	start_char=299|end_char=300
 
+# text = Postoje i opće upute koje se odnose na mnoge pasmine (npr. medvjediće glave itd.).
+# sent_id = 4
 1	Postoje	postojati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=301|end_char=308
 2	i	i	PART	Qo	_	4	discourse	_	start_char=309|end_char=310
 3	opće	opći	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=311|end_char=315
@@ -72,6 +82,8 @@
 16	)	)	PUNCT	Z	_	13	punct	_	start_char=381|end_char=382
 17	.	.	PUNCT	Z	_	1	punct	_	start_char=382|end_char=383
 
+# text = Upute su jednostavne, ali dovoljno detaljne da ih svatko razumije.
+# sent_id = 5
 1	Upute	uputa	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=384|end_char=389
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=390|end_char=392
 3	jednostavne	jednostavan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=393|end_char=404
@@ -85,6 +97,8 @@
 11	razumije	razumjeti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	csubj	_	start_char=441|end_char=449
 12	.	.	PUNCT	Z	_	3	punct	_	start_char=449|end_char=450
 
+# text = Obavezno za timaritelje i stiliste za kućne ljubimce!
+# sent_id = 6
 1	Obavezno	obavezan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=451|end_char=459
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=460|end_char=462
 3	timaritelje	timaritelj	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obl	_	start_char=463|end_char=474

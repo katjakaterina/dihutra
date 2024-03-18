@@ -1,7 +1,11 @@
+# text = NIJE REMASTERIRAN!
+# sent_id = 0
 1	NIJE	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=0|end_char=4
 2	REMASTERIRAN	Remasteriran	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=5|end_char=17
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=17|end_char=18
 
+# text = Kako to uopće mogu tvrditi?
+# sent_id = 1
 1	Kako	kako	SCONJ	Cs	_	4	advmod	_	start_char=19|end_char=23
 2	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=24|end_char=26
 3	uopće	uopće	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=27|end_char=32
@@ -9,6 +13,8 @@
 5	tvrditi	tvrditi	VERB	Vmn	VerbForm=Inf	4	xcomp	_	start_char=38|end_char=45
 6	?	?	PUNCT	Z	_	4	punct	_	start_char=45|end_char=46
 
+# text = Prekrasan ,program, srčana priča i sh?
+# sent_id = 2
 1	Prekrasan	prekrasan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=47|end_char=56
 2	,	,	PUNCT	Z	_	3	punct	_	start_char=57|end_char=58
 3	program	program	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=58|end_char=65
@@ -19,12 +25,16 @@
 8	sh	sa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=82|end_char=84
 9	?	?	PUNCT	Z	_	1	punct	_	start_char=84|end_char=85
 
+# text = ^[JEST PREZENTACIJA..
+# sent_id = 3
 1	^[	^[	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=85|end_char=87
 2	JEST	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=87|end_char=91
 3	PREZENTACIJA	prezentacija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=92|end_char=104
 4	.	.	PUNCT	Z	_	2	punct	_	start_char=104|end_char=105
 5	.	.	PUNCT	Z	_	2	punct	_	start_char=105|end_char=106
 
+# text = Ovaj DVD nije restauriran...one...sengle.bit.
+# sent_id = 4
 1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=107|end_char=111
 2	DVD	DVD	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=112|end_char=115
 3	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=116|end_char=120
@@ -33,6 +43,8 @@
 6	...sengle.bit	...sengle.bit	NOUN	Y	_	5	flat	_	start_char=138|end_char=151
 7	.	.	PUNCT	Z	_	4	punct	_	start_char=151|end_char=152
 
+# text = To je ista mračna, zbrkana, prljava, šiljana i obrezana kopija koju smo vidjeli na TV-u, videu i DVD-u, zbog čega? četrdeset godina?
+# sent_id = 5
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	start_char=153|end_char=155
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	start_char=156|end_char=158
 3	ista	isti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=159|end_char=163
@@ -63,6 +75,8 @@
 28	godina	godina	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	16	obl	_	start_char=278|end_char=284
 29	?	?	PUNCT	Z	_	13	punct	_	start_char=284|end_char=285
 
+# text = Bio sam zadivljen, zadivljen i presretan što će moj omiljeni blagdanski specijalitet sada izgledati divno kako i zaslužuje.
+# sent_id = 6
 1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	start_char=286|end_char=289
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=290|end_char=293
 3	zadivljen	zadiviti	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=294|end_char=303
@@ -84,6 +98,8 @@
 19	zaslužuje	zasluživati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	start_char=399|end_char=408
 20	.	.	PUNCT	Z	_	3	punct	_	start_char=408|end_char=409
 
+# text = U iskušenju sam da ga vratim, ali barem je na samostalnom DVD-u, umjesto da je dodan kao naknadna misao nekoj Rankin-Bass kolekciji "poznatijih" specijala.
+# sent_id = 7
 1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=410|end_char=411
 2	iskušenju	iskušenje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	0	root	_	start_char=412|end_char=421
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=422|end_char=425

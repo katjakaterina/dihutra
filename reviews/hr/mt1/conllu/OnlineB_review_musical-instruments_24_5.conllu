@@ -1,7 +1,11 @@
+# text = Kvalitetan kabel!
+# sent_id = 0
 1	Kvalitetan	kvalitetan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=10
 2	kabel	kabel	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=11|end_char=16
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=16|end_char=17
 
+# text = Dobio sam ovaj kabel za pokretanje rockband kontrolera tipkovnice na moj M-audio profire 2626 za kontrolu midija u Pro Tools.
+# sent_id = 1
 1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=18|end_char=23
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=24|end_char=27
 3	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=28|end_char=32
@@ -24,10 +28,14 @@
 20	Tools	Tools	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	start_char=137|end_char=142
 21	.	.	PUNCT	Z	_	1	punct	_	start_char=142|end_char=143
 
+# text = Radi odlično!
+# sent_id = 2
 1	Radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=144|end_char=148
 2	odlično	odlično	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=149|end_char=156
 3	!	!	PUNCT	Z	_	1	punct	_	start_char=156|end_char=157
 
+# text = Čvrsto prianjanje, čvrsto oblikovani krajevi, renomirani kabel. (malo na tankoj strani, ali nisam vidio da imam bilo kakav problem zbog ovoga ili bilo čega.
+# sent_id = 3
 1	Čvrsto	čvrst	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=158|end_char=164
 2	prianjanje	prianjanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=165|end_char=175
 3	,	,	PUNCT	Z	_	6	punct	_	start_char=175|end_char=176
@@ -58,6 +66,8 @@
 28	čega	što	PRON	Pi3n-g	Case=Gen|Gender=Neut|PronType=Int,Rel	25	conj	_	start_char=309|end_char=313
 29	.	.	PUNCT	Z	_	2	punct	_	start_char=313|end_char=314
 
+# text = Nisam mogao pogriješiti za 5 USD u trenutku moje kupnje i vrhunske podobnosti.
+# sent_id = 4
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=315|end_char=320
 2	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=321|end_char=326
 3	pogriješiti	pogriješiti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=327|end_char=338

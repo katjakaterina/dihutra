@@ -1,9 +1,13 @@
+# text = Claptonova klasika Vrlo razočaravajuće.
+# sent_id = 0
 1	Claptonova	Claptonov	ADJ	Aspfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	2	amod	_	start_char=0|end_char=10
 2	klasika	klasika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=11|end_char=18
 3	Vrlo	vrlo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=19|end_char=23
 4	razočaravajuće	razočaravajući	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=24|end_char=38
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=38|end_char=39
 
+# text = Ovo je reklamirano kao lekcija "nota za notom" o odabranim Claptonovim melodijama, a nije bilo ni blizu.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=40|end_char=43
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=44|end_char=46
 3	reklamirano	reklamirati	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=47|end_char=58
@@ -26,6 +30,8 @@
 20	blizu	blizu	ADV	Rgp	Degree=Pos	18	advmod	_	start_char=138|end_char=143
 21	.	.	PUNCT	Z	_	3	punct	_	start_char=143|end_char=144
 
+# text = Nije bilo kartice koja bi podržavala male (i ponekad netočne) dijelove pjesama koje su bile navedene.
+# sent_id = 2
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=145|end_char=149
 2	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=150|end_char=154
 3	kartice	kartica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	start_char=155|end_char=162
@@ -46,6 +52,8 @@
 18	navedene	naveden	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	start_char=237|end_char=245
 19	.	.	PUNCT	Z	_	2	punct	_	start_char=245|end_char=246
 
+# text = Poslao sam pritužbu izravno Halu Leonardu, ali nikad nisam dobio ljubazni odgovor.
+# sent_id = 3
 1	Poslao	poslati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=247|end_char=253
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=254|end_char=257
 3	pritužbu	pritužba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=258|end_char=266

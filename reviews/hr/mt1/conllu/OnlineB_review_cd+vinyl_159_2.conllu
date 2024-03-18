@@ -1,9 +1,13 @@
+# text = Ne bacajte novac uzalud.
+# sent_id = 0
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=0|end_char=2
 2	bacajte	bacati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=3|end_char=10
 3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=11|end_char=16
 4	uzalud	uzalud	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=17|end_char=23
 5	.	.	PUNCT	Z	_	2	punct	_	start_char=23|end_char=24
 
+# text = Ovo nije vrijedno vašeg novca.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=25|end_char=28
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=29|end_char=33
 3	vrijedno	vrijedan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=34|end_char=42
@@ -11,6 +15,8 @@
 5	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	3	obl	_	start_char=49|end_char=54
 6	.	.	PUNCT	Z	_	3	punct	_	start_char=54|end_char=55
 
+# text = Doug prolazi kroz svaku pjesmu u otprilike tri ili četiri minute, ne daje vam vremena da je naučite.
+# sent_id = 2
 1	Doug	Doug	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=56|end_char=60
 2	prolazi	prolaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=61|end_char=68
 3	kroz	kroz	ADP	Sa	Case=Acc	5	case	_	start_char=69|end_char=73
@@ -32,6 +38,8 @@
 19	naučite	naučiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|VerbForm=Fin	16	acl	_	start_char=148|end_char=155
 20	.	.	PUNCT	Z	_	2	punct	_	start_char=155|end_char=156
 
+# text = Osim ako ste već savladali transkripciju (i zašto onda kupiti ovaj DVD? ), morat ćete premotati milijun puta unatrag kako biste dobili prave note.
+# sent_id = 3
 1	Osim	osim	SCONJ	Cs	_	5	mark	_	start_char=157|end_char=161
 2	ako	ako	SCONJ	Cs	_	1	fixed	_	start_char=162|end_char=165
 3	ste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=166|end_char=169
@@ -61,6 +69,8 @@
 27	note	nota	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	start_char=298|end_char=302
 28	.	.	PUNCT	Z	_	17	punct	_	start_char=302|end_char=303
 
+# text = Ovo nije ništa bolje od youtube videa na kojem netko svira hrpu Claptonovih pjesama.
+# sent_id = 4
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=304|end_char=307
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=308|end_char=312
 3	ništa	ništa	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Neg	0	root	_	start_char=313|end_char=318
@@ -77,6 +87,8 @@
 14	pjesama	pjesma	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	start_char=380|end_char=387
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=387|end_char=388
 
+# text = Doug vam čak ne pokazuje ritam ili druge dionice gitare ! Ostaje vam samo da znate trag!
+# sent_id = 5
 1	Doug	Doug	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=389|end_char=393
 2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	iobj	_	start_char=394|end_char=397
 3	čak	čak	PART	Qo	_	5	advmod	_	start_char=398|end_char=401
@@ -96,6 +108,8 @@
 17	trag	trag	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=472|end_char=476
 18	!	!	PUNCT	Z	_	5	punct	_	start_char=476|end_char=477
 
+# text = Kakvog to smisla ima?
+# sent_id = 6
 1	Kakvog	kakav	DET	Pi-msg	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	start_char=478|end_char=484
 2	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=485|end_char=487
 3	smisla	smisao	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	start_char=488|end_char=494

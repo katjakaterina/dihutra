@@ -1,8 +1,12 @@
+# text = Inricate i dugotrajan.
+# sent_id = 0
 1	Inricate	Inricate	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8
 2	i	i	CCONJ	Cc	_	3	cc	_	start_char=9|end_char=10
 3	dugotrajan	dugotrajan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	start_char=11|end_char=21
 4	.	.	PUNCT	Z	_	1	punct	_	start_char=21|end_char=22
 
+# text = Sjajna prilika da dobijete ili poklonite (ako poklonite) odmor od televizije!
+# sent_id = 1
 1	Sjajna	sjajan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=23|end_char=29
 2	prilika	prilika	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=30|end_char=37
 3	da	da	SCONJ	Cs	_	4	mark	_	start_char=38|end_char=40
@@ -18,6 +22,8 @@
 13	televizije	televizija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=89|end_char=99
 14	!	!	PUNCT	Z	_	2	punct	_	start_char=99|end_char=100
 
+# text = Vrlo zgodno za kraćenje vremena.
+# sent_id = 2
 1	Vrlo	vrlo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=101|end_char=105
 2	zgodno	zgodan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=106|end_char=112
 3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=113|end_char=115
@@ -25,6 +31,8 @@
 5	vremena	vrijeme	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=125|end_char=132
 6	.	.	PUNCT	Z	_	2	punct	_	start_char=132|end_char=133
 
+# text = Kupljena za moju 14-godišnju nećakinju.
+# sent_id = 3
 1	Kupljena	kupiti	ADJ	Appfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=134|end_char=142
 2	za	za	ADP	Sa	Case=Acc	5	case	_	start_char=143|end_char=145
 3	moju	moj	DET	Ps1fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det	_	start_char=146|end_char=150
@@ -32,6 +40,8 @@
 5	nećakinju	nećakinja	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=163|end_char=172
 6	.	.	PUNCT	Z	_	1	punct	_	start_char=172|end_char=173
 
+# text = Iako bi radije imala kontroler ili tipkovnicu u ruci, ponekad joj dam ovo za "tehnološki odmor"!
+# sent_id = 4
 1	Iako	iako	SCONJ	Cs	_	4	mark	_	start_char=174|end_char=178
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=179|end_char=181
 3	radije	rado	ADV	Rgc	Degree=Cmp	4	advmod	_	start_char=182|end_char=188

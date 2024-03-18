@@ -1,3 +1,5 @@
+# text = Ako je vaš paket narančasto-crni, pošaljite ga natrag.
+# sent_id = 0
 1	Ako	ako	SCONJ	Cs	_	5	mark	_	start_char=0|end_char=3
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=4|end_char=6
 3	vaš	vaš	DET	Ps1msn	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=7|end_char=10
@@ -9,6 +11,8 @@
 9	natrag	natrag	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=47|end_char=53
 10	.	.	PUNCT	Z	_	7	punct	_	start_char=53|end_char=54
 
+# text = JEDNA ZVJEZDICA: Fotografija pakiranja od 10 komada Maxell LR44 prikazuje novo hologramsko pakiranje, ali dobio sam staro narančasto-crno pakiranje.
+# sent_id = 1
 1	JEDNA	jedna	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	2	nummod	_	start_char=55|end_char=60
 2	ZVJEZDICA	zvjezdica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	11	parataxis	_	start_char=61|end_char=70
 3	:	:	PUNCT	Z	_	2	punct	_	start_char=70|end_char=71
@@ -32,11 +36,15 @@
 21	pakiranje	pakiranje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=193|end_char=202
 22	.	.	PUNCT	Z	_	11	punct	_	start_char=202|end_char=203
 
+# text = Baterije su ustajale.
+# sent_id = 2
 1	Baterije	baterija	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=204|end_char=212
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=213|end_char=215
 3	ustajale	ustajati	VERB	Vmp-pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=216|end_char=224
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=224|end_char=225
 
+# text = Svjetla koja ih napajaju su polusvijetla i traju samo dan ili tako nešto.
+# sent_id = 3
 1	Svjetla	svjetlo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=226|end_char=233
 2	koja	koji	DET	Pi-npn	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	4	nsubj	_	start_char=234|end_char=238
 3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	start_char=239|end_char=241
@@ -52,6 +60,8 @@
 13	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	10	conj	_	start_char=293|end_char=298
 14	.	.	PUNCT	Z	_	6	punct	_	start_char=298|end_char=299
 
+# text = Narančasto-crni paket ima 1 zvjezdicu.
+# sent_id = 4
 1	Narančasto-crni	narančasto-crni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=300|end_char=315
 2	paket	paket	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=316|end_char=321
 3	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=322|end_char=325
@@ -59,6 +69,8 @@
 5	zvjezdicu	zvjezdica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=328|end_char=337
 6	.	.	PUNCT	Z	_	3	punct	_	start_char=337|end_char=338
 
+# text = PET ZVJEZDICA: Od istog dobavljača, MyBatterySupplier, naručio sam paket od 50 komada, koji je došao u novom hologramu paketu, a razlika je bila dramatična.
+# sent_id = 5
 1	PET	pet	NUM	Mlc	NumType=Card	2	nummod	_	start_char=339|end_char=342
 2	ZVJEZDICA	zvjezdica	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	parataxis	_	start_char=343|end_char=352
 3	:	:	PUNCT	Z	_	2	punct	_	start_char=352|end_char=353
@@ -90,6 +102,8 @@
 29	dramatična	dramatičan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	start_char=484|end_char=494
 30	.	.	PUNCT	Z	_	10	punct	_	start_char=494|end_char=495
 
+# text = Svjetla napajana baterijama bila su sjajna i očekujem da će trajati mnogo dulje.
+# sent_id = 6
 1	Svjetla	svjetlo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=496|end_char=503
 2	napajana	napajati	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	1	acl	_	start_char=504|end_char=512
 3	baterijama	baterija	NOUN	Ncfpd	Case=Dat|Gender=Fem|Number=Plur	2	obj	_	start_char=513|end_char=523
@@ -105,6 +119,8 @@
 13	dulje	dugo	ADV	Rgc	Degree=Cmp	11	advmod	_	start_char=570|end_char=575
 14	.	.	PUNCT	Z	_	6	punct	_	start_char=575|end_char=576
 
+# text = Novi hologramski paket ima 5 zvjezdica.
+# sent_id = 7
 1	Novi	nov	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=577|end_char=581
 2	hologramski	hologramski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=582|end_char=593
 3	paket	paket	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=594|end_char=599

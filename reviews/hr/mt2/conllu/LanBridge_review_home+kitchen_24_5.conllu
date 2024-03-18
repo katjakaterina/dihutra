@@ -1,6 +1,10 @@
+# text = Lijep...
+# sent_id = 0
 1	Lijep	lijep	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5
 2	...	...	PUNCT	Z	_	1	punct	_	start_char=5|end_char=8
 
+# text = Prekrasna u svakom pogledu, dobro napisana, vrhunska fotografija i fantastične upute.... čine ovu knjigu "mora imati......."bez obzira koristite li ovu knjigu kao stolić za kavu ili kao referentnu knjigu, definitivno je "gornja polica.........."
+# sent_id = 1
 1	Prekrasna	prekrasan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	16	xcomp	_	start_char=9|end_char=18
 2	u	u	ADP	Sl	Case=Loc	4	case	_	start_char=19|end_char=20
 3	svakom	svaki	DET	Pi-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	4	det	_	start_char=21|end_char=27
@@ -51,6 +55,8 @@
 48	....	....	INTJ	I	_	20	punct	_	start_char=249|end_char=253
 49	"	"	PUNCT	Z	_	20	punct	_	start_char=253|end_char=254
 
+# text = I ja sam jednu poklonila...... primateljica je bila oduševljena....
+# sent_id = 2
 1	I	i	CCONJ	Cc	_	5	cc	_	start_char=255|end_char=256
 2	ja	ja	PRON	Pp1-sn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	start_char=257|end_char=259
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=260|end_char=263

@@ -1,6 +1,10 @@
+# text = Pomazan!
+# sent_id = 0
 1	Pomazan	Pomazan	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7
 2	!	!	PUNCT	Z	_	1	punct	_	start_char=7|end_char=8
 
+# text = Volim pjesme na ovom albumu i kako se Keith još jednom usredotočuje na Dobrog pastira, našeg Gospodina Isusa.
+# sent_id = 1
 1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=9|end_char=14
 2	pjesme	pjesma	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	start_char=15|end_char=21
 3	na	na	ADP	Sl	Case=Loc	5	case	_	start_char=22|end_char=24
@@ -22,6 +26,8 @@
 19	Isusa	Isus	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	flat	_	start_char=112|end_char=117
 20	.	.	PUNCT	Z	_	1	punct	_	start_char=117|end_char=118
 
+# text = Pjesme su bezvremenske, pomast je svježa i nakon svih godina otkako su napisane.
+# sent_id = 2
 1	Pjesme	pjesma	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=119|end_char=125
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=126|end_char=128
 3	bezvremenske	bezvremenski	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=129|end_char=141
@@ -38,6 +44,8 @@
 14	napisane	napisati	ADJ	Appfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	7	conj	_	start_char=190|end_char=198
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=198|end_char=199
 
+# text = Mislim da je to siguran znak pomazanja vidjeti da plod ostaje.
+# sent_id = 3
 1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=200|end_char=206
 2	da	da	SCONJ	Cs	_	6	mark	_	start_char=207|end_char=209
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=210|end_char=212

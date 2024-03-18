@@ -1,3 +1,5 @@
+# text = Knjiga u rasulu po primitku NE KUPUJTE OVU KNJIGU OD Amazon.com LLC.
+# sent_id = 0
 1	Knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=0|end_char=6
 2	u	u	ADP	Sl	Case=Loc	3	case	_	start_char=7|end_char=8
 3	rasulu	rasulo	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	start_char=9|end_char=15
@@ -12,6 +14,8 @@
 12	LLC	LLC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	start_char=64|end_char=67
 13	.	.	PUNCT	Z	_	7	punct	_	start_char=67|end_char=68
 
+# text = Naručio sam ovu knjigu ranije ovog tjedna s Amazon Prime za poklon za odlazak.
+# sent_id = 1
 1	Naručio	naručiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=69|end_char=76
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=77|end_char=80
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=81|end_char=84
@@ -28,17 +32,23 @@
 14	odlazak	odlazak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	start_char=139|end_char=146
 15	.	.	PUNCT	Z	_	1	punct	_	start_char=146|end_char=147
 
+# text = Danas sam dobio knjigu.
+# sent_id = 2
 1	Danas	danas	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=148|end_char=153
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=154|end_char=157
 3	dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=158|end_char=163
 4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=164|end_char=170
 5	.	.	PUNCT	Z	_	3	punct	_	start_char=170|end_char=171
 
+# text = Zabava je sutra.
+# sent_id = 3
 1	Zabava	zabava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=172|end_char=178
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=179|end_char=181
 3	sutra	sutra	ADV	Rgp	Degree=Pos	0	root	_	start_char=182|end_char=187
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=187|end_char=188
 
+# text = Čini se da je polovica omota knjige odrezana preciznim nožem, ostavljajući također rane na naslovnici knjige.
+# sent_id = 4
 1	Čini	činiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=189|end_char=193
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=194|end_char=196
 3	da	da	SCONJ	Cs	_	8	mark	_	start_char=197|end_char=199
@@ -58,6 +68,8 @@
 17	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	start_char=291|end_char=297
 18	.	.	PUNCT	Z	_	1	punct	_	start_char=297|end_char=298
 
+# text = Ambalaža je bila u redu.
+# sent_id = 5
 1	Ambalaža	ambalaža	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=299|end_char=307
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=308|end_char=310
 3	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=311|end_char=315
@@ -65,6 +77,8 @@
 5	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=318|end_char=322
 6	.	.	PUNCT	Z	_	5	punct	_	start_char=322|end_char=323
 
+# text = Mogao bih ga vratiti, ali ne bi se vratio prije sutra.
+# sent_id = 6
 1	Mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=324|end_char=329
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	start_char=330|end_char=333
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=334|end_char=336
@@ -79,6 +93,8 @@
 12	sutra	sutra	ADV	Rgp	Degree=Pos	10	advmod	_	start_char=372|end_char=377
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=377|end_char=378
 
+# text = Potrošite dodatno i upotrijebite drugog prodavača.
+# sent_id = 7
 1	Potrošite	potrošiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=379|end_char=388
 2	dodatno	dodatno	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=389|end_char=396
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=397|end_char=398

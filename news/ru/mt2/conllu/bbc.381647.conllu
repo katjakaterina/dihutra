@@ -1,0 +1,326 @@
+# text = Канье Уэст: Рэппер меняет свое имя на Ye Рэппер Канье Уэст меняет свое имя - на Ye.
+# sent_id = 0
+1	Канье	Канье	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5
+2	Уэст	Уэст	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	start_char=6|end_char=10
+3	:	:	PUNCT	_	_	5	punct	_	start_char=10|end_char=11
+4	Рэппер	Рэппер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=12|end_char=18
+5	меняет	менять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	start_char=19|end_char=25
+6	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	start_char=26|end_char=30
+7	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=31|end_char=34
+8	на	на	ADP	_	_	7	case	_	start_char=35|end_char=37
+9	Ye	Ye	PROPN	_	Foreign=Yes	7	flat:foreign	_	start_char=38|end_char=40
+10	Рэппер	Рэппер	PROPN	_	_	9	flat:foreign	_	start_char=41|end_char=47
+11	Канье	Канье	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	start_char=48|end_char=53
+12	Уэст	Уэст	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	start_char=54|end_char=58
+13	меняет	менять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=59|end_char=65
+14	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	start_char=66|end_char=70
+15	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=71|end_char=74
+16	-	-	PUNCT	_	_	18	punct	_	start_char=75|end_char=76
+17	на	на	ADP	_	_	15	case	_	start_char=77|end_char=79
+18	Ye	Ye	PROPN	_	Foreign=Yes	15	flat:foreign	_	start_char=80|end_char=82
+19	.	.	PUNCT	_	_	1	punct	_	start_char=82|end_char=83
+
+# text = Объявив об этом в субботу в своем Твиттере, он написал: "Существо, официально известное как Канье Уэст".
+# sent_id = 1
+1	Объявив	объявить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	start_char=84|end_char=91
+2	об	о	ADP	_	_	3	case	_	start_char=92|end_char=94
+3	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	1	obl	_	start_char=95|end_char=99
+4	в	в	ADP	_	_	5	case	_	start_char=100|end_char=101
+5	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	start_char=102|end_char=109
+6	в	в	ADP	_	_	8	case	_	start_char=110|end_char=111
+7	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	start_char=112|end_char=117
+8	Твиттере	Твиттер	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=118|end_char=126
+9	,	,	PUNCT	_	_	1	punct	_	start_char=126|end_char=127
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	start_char=128|end_char=130
+11	написал	писать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=131|end_char=138
+12	:	:	PUNCT	_	_	14	punct	_	start_char=138|end_char=139
+13	"	"	PUNCT	_	_	14	punct	_	start_char=140|end_char=141
+14	Существо	существо	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Sing	11	parataxis	_	start_char=141|end_char=149
+15	,	,	PUNCT	_	_	17	punct	_	start_char=149|end_char=150
+16	официально	официально	ADV	_	Degree=Pos	17	obl	_	start_char=151|end_char=161
+17	известное	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=162|end_char=171
+18	как	как	SCONJ	_	_	19	mark	_	start_char=172|end_char=175
+19	Канье	Канье	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	obl	_	start_char=176|end_char=181
+20	Уэст	Уэст	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	flat:name	_	start_char=182|end_char=186
+21	"	"	PUNCT	_	_	14	punct	_	start_char=186|end_char=187
+22	.	.	PUNCT	_	_	11	punct	_	start_char=187|end_char=188
+
+# text = 41-летний Уэст уже давно носит прозвище Ye и использовал его в качестве названия для своего восьмого альбома, который вышел в июне.
+# sent_id = 2
+1	41-летний	41-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=189|end_char=198
+2	Уэст	Уэст	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=199|end_char=203
+3	уже	уже	ADV	_	Degree=Pos	4	advmod	_	start_char=204|end_char=207
+4	давно	давно	ADV	_	Degree=Pos	5	advmod	_	start_char=208|end_char=213
+5	носит	носить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=214|end_char=219
+6	прозвище	прозвище	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	start_char=220|end_char=228
+7	Ye	Ye	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=229|end_char=231
+8	и	и	CCONJ	_	_	9	cc	_	start_char=232|end_char=233
+9	использовал	использовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=234|end_char=245
+10	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	start_char=246|end_char=249
+11	в	в	ADP	_	_	13	case	_	start_char=250|end_char=251
+12	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	fixed	_	start_char=252|end_char=260
+13	названия	название	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	start_char=261|end_char=269
+14	для	для	ADP	_	_	17	case	_	start_char=270|end_char=273
+15	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	start_char=274|end_char=280
+16	восьмого	восьмой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=281|end_char=289
+17	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=290|end_char=297
+18	,	,	PUNCT	_	_	20	punct	_	start_char=297|end_char=298
+19	который	который	PRON	_	Case=Nom|PronType=Int,Rel	20	nsubj	_	start_char=299|end_char=306
+20	вышел	выйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	start_char=307|end_char=312
+21	в	в	ADP	_	_	22	case	_	start_char=313|end_char=314
+22	июне	июнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	start_char=315|end_char=319
+23	.	.	PUNCT	_	_	5	punct	_	start_char=319|end_char=320
+
+# text = Изменения произошли в преддверии его выступления на шоу Saturday Night Live, где он, как ожидается, представит свой новый альбом Yandhi.
+# sent_id = 3
+1	Изменения	изменение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	start_char=321|end_char=330
+2	произошли	произойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=331|end_char=340
+3	в	в	ADP	_	_	4	case	_	start_char=341|end_char=342
+4	преддверии	преддверие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	start_char=343|end_char=353
+5	его	его	DET	_	Poss=Yes|PronType=Prs	6	det	_	start_char=354|end_char=357
+6	выступления	выступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=358|end_char=369
+7	на	на	ADP	_	_	8	case	_	start_char=370|end_char=372
+8	шоу	шоу	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	start_char=373|end_char=376
+9	Saturday	Saturday	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=377|end_char=385
+10	Night	Night	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=386|end_char=391
+11	Live	Live	PROPN	_	Foreign=Yes	8	flat:foreign	_	start_char=392|end_char=396
+12	,	,	PUNCT	_	_	19	punct	_	start_char=396|end_char=397
+13	где	где	ADV	_	Degree=Pos	19	advmod	_	start_char=398|end_char=401
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=402|end_char=404
+15	,	,	PUNCT	_	_	14	punct	_	start_char=404|end_char=405
+16	как	как	SCONJ	_	_	17	mark	_	start_char=406|end_char=409
+17	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	19	parataxis	_	start_char=410|end_char=419
+18	,	,	PUNCT	_	_	17	punct	_	start_char=419|end_char=420
+19	представит	представить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=421|end_char=431
+20	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	22	det	_	start_char=432|end_char=436
+21	новый	новый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=437|end_char=442
+22	альбом	альбо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=443|end_char=449
+23	Yandhi	Yandhi	PROPN	_	Foreign=Yes	22	flat:foreign	_	start_char=450|end_char=456
+24	.	.	PUNCT	_	_	2	punct	_	start_char=456|end_char=457
+
+# text = Он заменит в шоу певицу Ариану Гранде, которая отказалась от участия по "эмоциональным причинам", как сообщил создатель шоу.
+# sent_id = 4
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=458|end_char=460
+2	заменит	заменить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=461|end_char=468
+3	в	в	ADP	_	_	4	case	_	start_char=469|end_char=470
+4	шоу	шоу	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	start_char=471|end_char=474
+5	певицу	певица	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=475|end_char=481
+6	Ариану	Ариан	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	5	appos	_	start_char=482|end_char=488
+7	Гранде	Гранда	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	6	flat:name	_	start_char=489|end_char=495
+8	,	,	PUNCT	_	_	10	punct	_	start_char=495|end_char=496
+9	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	10	nsubj	_	start_char=497|end_char=504
+10	отказалась	отказаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	start_char=505|end_char=515
+11	от	от	ADP	_	_	12	case	_	start_char=516|end_char=518
+12	участия	участие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	start_char=519|end_char=526
+13	по	по	ADP	_	_	16	case	_	start_char=527|end_char=529
+14	"	"	PUNCT	_	_	16	punct	_	start_char=530|end_char=531
+15	эмоциональным	эмоциональный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	16	amod	_	start_char=531|end_char=544
+16	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	start_char=545|end_char=553
+17	"	"	PUNCT	_	_	16	punct	_	start_char=553|end_char=554
+18	,	,	PUNCT	_	_	20	punct	_	start_char=554|end_char=555
+19	как	как	SCONJ	_	_	20	mark	_	start_char=556|end_char=559
+20	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	parataxis	_	start_char=560|end_char=567
+21	создатель	создатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	start_char=568|end_char=577
+22	шоу	шоу	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	start_char=578|end_char=581
+23	.	.	PUNCT	_	_	2	punct	_	start_char=581|end_char=582
+
+# text = Помимо того, что это сокращение его нынешнего профессионального имени, Уэст ранее говорил, что это слово имеет для него религиозное значение.
+# sent_id = 5
+1	Помимо	помимо	ADP	_	_	2	case	_	start_char=583|end_char=589
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	14	obl	_	start_char=590|end_char=594
+3	,	,	PUNCT	_	_	6	punct	_	start_char=594|end_char=595
+4	что	что	SCONJ	_	_	6	mark	_	start_char=596|end_char=599
+5	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	start_char=600|end_char=603
+6	сокращение	сокращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	acl	_	start_char=604|end_char=614
+7	его	его	DET	_	Poss=Yes|PronType=Prs	10	det	_	start_char=615|end_char=618
+8	нынешнего	нынешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=619|end_char=628
+9	профессионального	профессиональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	start_char=629|end_char=646
+10	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=647|end_char=652
+11	,	,	PUNCT	_	_	2	punct	_	start_char=652|end_char=653
+12	Уэст	Уэст	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=654|end_char=658
+13	ранее	ранее	ADV	_	Degree=Pos	14	advmod	_	start_char=659|end_char=664
+14	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=665|end_char=672
+15	,	,	PUNCT	_	_	19	punct	_	start_char=672|end_char=673
+16	что	что	SCONJ	_	_	19	mark	_	start_char=674|end_char=677
+17	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	start_char=678|end_char=681
+18	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	start_char=682|end_char=687
+19	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	ccomp	_	start_char=688|end_char=693
+20	для	для	ADP	_	_	21	case	_	start_char=694|end_char=697
+21	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obl	_	start_char=698|end_char=702
+22	религиозное	религиозный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	start_char=703|end_char=714
+23	значение	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	start_char=715|end_char=723
+24	.	.	PUNCT	_	_	14	punct	_	start_char=723|end_char=724
+
+# text = Я считаю, что "ye" - это самое часто употребляемое слово в Библии, а в Библии оно означает "ты", - сказал Уэст в начале этого года, обсуждая название своего альбома с радиоведущим Биг Боем.
+# sent_id = 6
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=725|end_char=726
+2	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=727|end_char=733
+3	,	,	PUNCT	_	_	13	punct	_	start_char=733|end_char=734
+4	что	что	SCONJ	_	_	13	mark	_	start_char=735|end_char=738
+5	"	"	PUNCT	_	_	6	punct	_	start_char=739|end_char=740
+6	ye	ye	X	_	Foreign=Yes	13	nsubj	_	start_char=740|end_char=742
+7	"	"	PUNCT	_	_	6	punct	_	start_char=742|end_char=743
+8	-	-	PUNCT	_	_	6	punct	_	start_char=744|end_char=745
+9	это	это	PRON	_	PronType=Dem	13	expl	_	start_char=746|end_char=749
+10	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	start_char=750|end_char=755
+11	часто	часто	ADV	_	Degree=Pos	12	advmod	_	start_char=756|end_char=761
+12	употребляемое	употреблять	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	acl	_	start_char=762|end_char=775
+13	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	ccomp	_	start_char=776|end_char=781
+14	в	в	ADP	_	_	15	case	_	start_char=782|end_char=783
+15	Библии	Библия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	start_char=784|end_char=790
+16	,	,	PUNCT	_	_	21	punct	_	start_char=790|end_char=791
+17	а	а	CCONJ	_	_	21	cc	_	start_char=792|end_char=793
+18	в	в	ADP	_	_	19	case	_	start_char=794|end_char=795
+19	Библии	Библия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	start_char=796|end_char=802
+20	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	start_char=803|end_char=806
+21	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	start_char=807|end_char=815
+22	"	"	PUNCT	_	_	23	punct	_	start_char=816|end_char=817
+23	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	21	parataxis	_	start_char=817|end_char=819
+24	"	"	PUNCT	_	_	23	punct	_	start_char=819|end_char=820
+25	,	,	PUNCT	_	_	27	punct	_	start_char=820|end_char=821
+26	-	-	PUNCT	_	_	27	punct	_	start_char=822|end_char=823
+27	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=824|end_char=830
+28	Уэст	Уэст	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	start_char=831|end_char=835
+29	в	в	ADP	_	_	30	case	_	start_char=836|end_char=837
+30	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	obl	_	start_char=838|end_char=844
+31	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	start_char=845|end_char=850
+32	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	start_char=851|end_char=855
+33	,	,	PUNCT	_	_	34	punct	_	start_char=855|end_char=856
+34	обсуждая	обсуждать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	27	advcl	_	start_char=857|end_char=865
+35	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	start_char=866|end_char=874
+36	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	37	det	_	start_char=875|end_char=881
+37	альбома	альбом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	start_char=882|end_char=889
+38	с	с	ADP	_	_	39	case	_	start_char=890|end_char=891
+39	радиоведущим	радиоведущий	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	nmod	_	start_char=892|end_char=904
+40	Биг	Биг	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	39	appos	_	start_char=905|end_char=908
+41	Боем	Боем	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	40	flat:name	_	start_char=909|end_char=913
+42	.	.	PUNCT	_	_	2	punct	_	start_char=913|end_char=914
+
+# text = "Так что я - это вы, я - это мы, это мы.
+# sent_id = 7
+1	"	"	PUNCT	_	_	7	punct	_	start_char=915|end_char=916
+2	Так	так	ADV	_	Degree=Pos	7	mark	_	start_char=916|end_char=919
+3	что	что	SCONJ	_	_	2	fixed	_	start_char=920|end_char=923
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	start_char=924|end_char=925
+5	-	-	PUNCT	_	_	4	punct	_	start_char=926|end_char=927
+6	это	это	PRON	_	PronType=Dem	7	expl	_	start_char=928|end_char=931
+7	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	0	root	_	start_char=932|end_char=934
+8	,	,	PUNCT	_	_	12	punct	_	start_char=934|end_char=935
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	start_char=936|end_char=937
+10	-	-	PUNCT	_	_	9	punct	_	start_char=938|end_char=939
+11	это	это	PRON	_	Case=Nom|Number=Sing|PronType=Dem	12	expl	_	start_char=940|end_char=943
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	conj	_	start_char=944|end_char=946
+13	,	,	PUNCT	_	_	15	punct	_	start_char=946|end_char=947
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	start_char=948|end_char=951
+15	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	conj	_	start_char=952|end_char=954
+16	.	.	PUNCT	_	_	7	punct	_	start_char=954|end_char=955
+
+# text = От Kanye, что означает "единственный", перешли к просто Ye - просто отражение нашего хорошего, плохого, запутанного, всего.
+# sent_id = 8
+1	От	от	ADP	_	_	2	case	_	start_char=956|end_char=958
+2	Kanye	Kanye	PROPN	_	Foreign=Yes	10	obl	_	start_char=959|end_char=964
+3	,	,	PUNCT	_	_	5	punct	_	start_char=964|end_char=965
+4	что	что	PRON	_	Case=Nom|PronType=Int,Rel	5	nsubj	_	start_char=966|end_char=969
+5	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=970|end_char=978
+6	"	"	PUNCT	_	_	7	punct	_	start_char=979|end_char=980
+7	единственный	единственный	ADJ	_	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	start_char=980|end_char=992
+8	"	"	PUNCT	_	_	7	punct	_	start_char=992|end_char=993
+9	,	,	PUNCT	_	_	2	punct	_	start_char=993|end_char=994
+10	перешли	перейти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=995|end_char=1002
+11	к	к	ADP	_	_	13	case	_	start_char=1003|end_char=1004
+12	просто	просто	PART	_	_	13	advmod	_	start_char=1005|end_char=1011
+13	Ye	Ye	PROPN	_	Foreign=Yes	10	flat:foreign	_	start_char=1012|end_char=1014
+14	-	-	PUNCT	_	_	16	punct	_	start_char=1015|end_char=1016
+15	просто	просто	PART	_	_	16	advmod	_	start_char=1017|end_char=1023
+16	отражение	отражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	parataxis	_	start_char=1024|end_char=1033
+17	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	start_char=1034|end_char=1040
+18	хорошего	хороший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	nmod	_	start_char=1041|end_char=1049
+19	,	,	PUNCT	_	_	20	punct	_	start_char=1049|end_char=1050
+20	плохого	плохой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	start_char=1051|end_char=1058
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1058|end_char=1059
+22	запутанного	запутать	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	start_char=1060|end_char=1071
+23	,	,	PUNCT	_	_	24	punct	_	start_char=1071|end_char=1072
+24	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	18	conj	_	start_char=1073|end_char=1078
+25	.	.	PUNCT	_	_	10	punct	_	start_char=1078|end_char=1079
+
+# text = Альбом в большей степени отражает то, кто мы есть".
+# sent_id = 9
+1	Альбом	альбом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=1080|end_char=1086
+2	в	в	ADP	_	_	4	case	_	start_char=1087|end_char=1088
+3	большей	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=1089|end_char=1096
+4	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=1097|end_char=1104
+5	отражает	отражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1105|end_char=1113
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	start_char=1114|end_char=1116
+7	,	,	PUNCT	_	_	8	punct	_	start_char=1116|end_char=1117
+8	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	6	acl	_	start_char=1118|end_char=1121
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	start_char=1122|end_char=1124
+10	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=1125|end_char=1129
+11	"	"	PUNCT	_	_	10	punct	_	start_char=1129|end_char=1130
+12	.	.	PUNCT	_	_	5	punct	_	start_char=1130|end_char=1131
+
+# text = Он - один из многих известных рэперов, сменивших имя.
+# sent_id = 10
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1132|end_char=1134
+2	-	-	PUNCT	_	_	1	punct	_	start_char=1135|end_char=1136
+3	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	0	root	_	start_char=1137|end_char=1141
+4	из	из	ADP	_	_	7	case	_	start_char=1142|end_char=1144
+5	многих	много	NUM	_	NumType=Card	7	amod	_	start_char=1145|end_char=1151
+6	известных	известный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	start_char=1152|end_char=1161
+7	рэперов	рэпер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=1162|end_char=1169
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1169|end_char=1170
+9	сменивших	сменить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	start_char=1171|end_char=1180
+10	имя	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1181|end_char=1184
+11	.	.	PUNCT	_	_	3	punct	_	start_char=1184|end_char=1185
+
+# text = Шон Комбс был известен как Puff Daddy, P. Diddy или Diddy, но в этом году он объявил, что предпочитает имена Love и Brother Love.
+# sent_id = 11
+1	Шон	Шон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1186|end_char=1189
+2	Комбс	Комбс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=1190|end_char=1195
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=1196|end_char=1199
+4	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=1200|end_char=1208
+5	как	как	SCONJ	_	_	4	mark	_	start_char=1209|end_char=1212
+6	Puff	Puff	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1213|end_char=1217
+7	Daddy	Daddy	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1218|end_char=1223
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1223|end_char=1224
+9	P.	p.	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1225|end_char=1227
+10	Diddy	Diddy	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1228|end_char=1233
+11	или	или	CCONJ	_	_	4	cc	_	start_char=1234|end_char=1237
+12	Diddy	Diddy	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=1238|end_char=1243
+13	,	,	PUNCT	_	_	19	punct	_	start_char=1243|end_char=1244
+14	но	но	CCONJ	_	_	19	cc	_	start_char=1245|end_char=1247
+15	в	в	ADP	_	_	17	case	_	start_char=1248|end_char=1249
+16	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	start_char=1250|end_char=1254
+17	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	start_char=1255|end_char=1259
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	start_char=1260|end_char=1262
+19	объявил	объявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=1263|end_char=1270
+20	,	,	PUNCT	_	_	22	punct	_	start_char=1270|end_char=1271
+21	что	что	SCONJ	_	_	22	mark	_	start_char=1272|end_char=1275
+22	предпочитает	предпочитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	_	start_char=1276|end_char=1288
+23	имена	имя	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	start_char=1289|end_char=1294
+24	Love	Love	PROPN	_	Foreign=Yes	23	flat:foreign	_	start_char=1295|end_char=1299
+25	и	и	CCONJ	_	_	23	cc	_	start_char=1300|end_char=1301
+26	Brother	Brother	PROPN	_	Foreign=Yes	23	flat:foreign	_	start_char=1302|end_char=1309
+27	Love	Love	PROPN	_	Foreign=Yes	23	flat:foreign	_	start_char=1310|end_char=1314
+28	.	.	PUNCT	_	_	4	punct	_	start_char=1314|end_char=1315
+
+# text = Бывший соратник Уэста, JAY-Z, также обходится как с дефисом, так и без прописных букв.
+# sent_id = 12
+1	Бывший	бывший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=1316|end_char=1322
+2	соратник	соратник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1323|end_char=1331
+3	Уэста	Уэст	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1332|end_char=1337
+4	,	,	PUNCT	_	_	5	punct	_	start_char=1337|end_char=1338
+5	JAY-Z	JAY-Z	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=1339|end_char=1344
+6	,	,	PUNCT	_	_	2	punct	_	start_char=1344|end_char=1345
+7	также	также	ADV	_	Degree=Pos	8	advmod	_	start_char=1346|end_char=1351
+8	обходится	обходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1352|end_char=1361
+9	как	как	SCONJ	_	_	11	cc	_	start_char=1362|end_char=1365
+10	с	с	ADP	_	_	11	case	_	start_char=1366|end_char=1367
+11	дефисом	дефис	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=1368|end_char=1375
+12	,	,	PUNCT	_	_	17	punct	_	start_char=1375|end_char=1376
+13	так	так	ADV	_	Degree=Pos	17	cc	_	start_char=1377|end_char=1380
+14	и	и	PART	_	_	13	fixed	_	start_char=1381|end_char=1382
+15	без	без	ADP	_	_	17	case	_	start_char=1383|end_char=1386
+16	прописных	прописной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=1387|end_char=1396
+17	букв	буква	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	start_char=1397|end_char=1401
+18	.	.	PUNCT	_	_	8	punct	_	start_char=1401|end_char=1402
+

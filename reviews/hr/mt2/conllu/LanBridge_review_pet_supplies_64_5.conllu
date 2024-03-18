@@ -1,7 +1,11 @@
+# text = Bilješke o njegovanju
+# sent_id = 0
 1	Bilješke	bilješka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=0|end_char=8
 2	o	o	ADP	Sl	Case=Loc	3	case	_	start_char=9|end_char=10
 3	njegovanju	njegovanje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	start_char=11|end_char=21
 
+# text = Kao samouk frizer, ovo je bila najbolja kupnja koju sam napravio u dugo vremena.
+# sent_id = 1
 1	Kao	kao	SCONJ	Cs	_	3	case	_	start_char=22|end_char=25
 2	samouk	samouk	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=26|end_char=32
 3	frizer	frizer	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nmod	_	start_char=33|end_char=39
@@ -19,6 +23,8 @@
 15	vremena	vrijeme	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=94|end_char=101
 16	.	.	PUNCT	Z	_	9	punct	_	start_char=101|end_char=102
 
+# text = To je prekrasan referentni vodič i uvelike mi olakšava posao.
+# sent_id = 2
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=103|end_char=105
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=106|end_char=108
 3	prekrasan	prekrasan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=109|end_char=118
@@ -31,6 +37,8 @@
 10	posao	posao	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=158|end_char=163
 11	.	.	PUNCT	Z	_	5	punct	_	start_char=163|end_char=164
 
+# text = Mogu pronaći sve što mi treba ako imam pitanja o pasmini ili AKC standardima za pasminu.
+# sent_id = 3
 1	Mogu	moći	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=165|end_char=169
 2	pronaći	pronaći	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=170|end_char=177
 3	sve	sve	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	2	obj	_	start_char=178|end_char=181

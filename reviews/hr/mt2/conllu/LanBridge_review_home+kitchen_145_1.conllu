@@ -1,16 +1,24 @@
+# text = Drugačija knjiga.
+# sent_id = 0
 1	Drugačija	drugačiji	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=9
 2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=10|end_char=16
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=16|end_char=17
 
+# text = Nije očekivani original.
+# sent_id = 1
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=18|end_char=22
 2	očekivani	očekivan	ADJ	Appmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	amod	_	start_char=23|end_char=32
 3	original	original	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=33|end_char=41
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=41|end_char=42
 
+# text = Nedostaju dijelovi.
+# sent_id = 2
 1	Nedostaju	nedostajati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=43|end_char=52
 2	dijelovi	dio	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	start_char=53|end_char=61
 3	.	.	PUNCT	Z	_	1	punct	_	start_char=61|end_char=62
 
+# text = Očekivala sam knjigu "Laku noć slatki leptirići" koju sam imala u većem formatu.
+# sent_id = 3
 1	Očekivala	očekivati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=63|end_char=72
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=73|end_char=76
 3	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=77|end_char=83
@@ -28,6 +36,8 @@
 15	formatu	format	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=135|end_char=142
 16	.	.	PUNCT	Z	_	1	punct	_	start_char=142|end_char=143
 
+# text = Budući da je knjiga mala, neke stranice su odrezane, a tekst je potpuno drugačiji i puno lošiji od teksta velike knjige.
+# sent_id = 4
 1	Budući	budući	SCONJ	Cs	_	5	mark	_	start_char=144|end_char=150
 2	da	da	SCONJ	Cs	_	1	fixed	_	start_char=151|end_char=153
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=154|end_char=156
@@ -53,6 +63,8 @@
 23	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	start_char=257|end_char=263
 24	.	.	PUNCT	Z	_	10	punct	_	start_char=263|end_char=264
 
+# text = Jako sam razočaran ovom kupnjom.
+# sent_id = 5
 1	Jako	jako	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=265|end_char=269
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=270|end_char=273
 3	razočaran	razočaran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=274|end_char=283

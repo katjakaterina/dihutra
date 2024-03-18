@@ -1,0 +1,184 @@
+# text = Эрдоган получил неоднозначный прием в Кельне В субботу (29 сентября) лидеры Турции и Германии встретились за завтраком в Берлине.
+# sent_id = 0
+1	Эрдоган	Эрдоган	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7
+2	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=15
+3	неоднозначный	неоднозначный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=16|end_char=29
+4	прием	прием	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=30|end_char=35
+5	в	в	ADP	_	_	6	case	_	start_char=36|end_char=37
+6	Кельне	Кельн	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	start_char=38|end_char=44
+7	В	в	ADP	_	_	8	case	_	start_char=45|end_char=46
+8	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=47|end_char=54
+9	(	(	PUNCT	_	_	10	punct	_	start_char=55|end_char=56
+10	29	29	ADJ	_	_	8	parataxis	_	start_char=56|end_char=58
+11	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	flat	_	start_char=59|end_char=67
+12	)	)	PUNCT	_	_	10	punct	_	start_char=67|end_char=68
+13	лидеры	лидер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	start_char=69|end_char=75
+14	Турции	Турция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	start_char=76|end_char=82
+15	и	и	CCONJ	_	_	16	cc	_	start_char=83|end_char=84
+16	Германии	Германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	conj	_	start_char=85|end_char=93
+17	встретились	встретиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=94|end_char=105
+18	за	за	ADP	_	_	19	case	_	start_char=106|end_char=108
+19	завтраком	завтрак	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	start_char=109|end_char=118
+20	в	в	ADP	_	_	21	case	_	start_char=119|end_char=120
+21	Берлине	Берлин	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	start_char=121|end_char=128
+22	.	.	PUNCT	_	_	2	punct	_	start_char=128|end_char=129
+
+# text = Это был последний день неоднозначного визита президента Эрдогана в Германию, целью которого является восстановление отношений между союзниками по НАТО.
+# sent_id = 1
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=130|end_char=133
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=134|end_char=137
+3	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=138|end_char=147
+4	день	день	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=148|end_char=152
+5	неоднозначного	неоднозначный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=153|end_char=167
+6	визита	визит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=168|end_char=174
+7	президента	президент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=175|end_char=185
+8	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=186|end_char=194
+9	в	в	ADP	_	_	10	case	_	start_char=195|end_char=196
+10	Германию	Германия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=197|end_char=205
+11	,	,	PUNCT	_	_	14	punct	_	start_char=205|end_char=206
+12	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	start_char=207|end_char=212
+13	которого	который	PRON	_	Case=Gen|PronType=Int,Rel	12	nmod	_	start_char=213|end_char=221
+14	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	start_char=222|end_char=230
+15	восстановление	восстановление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	start_char=231|end_char=245
+16	отношений	отношение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	start_char=246|end_char=255
+17	между	между	ADP	_	_	18	case	_	start_char=256|end_char=261
+18	союзниками	союзник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	nmod	_	start_char=262|end_char=272
+19	по	по	ADP	_	_	20	case	_	start_char=273|end_char=275
+20	НАТО	НАТО	PROPN	_	Animacy=Inan	18	nmod	_	start_char=276|end_char=280
+21	.	.	PUNCT	_	_	4	punct	_	start_char=280|end_char=281
+
+# text = Они рассорились по таким вопросам, как права человека, свобода прессы и вступление Турции в ЕС.
+# sent_id = 2
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=282|end_char=285
+2	рассорились	рассориться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=286|end_char=297
+3	по	по	ADP	_	_	5	case	_	start_char=298|end_char=300
+4	таким	такой	DET	_	Case=Dat|Number=Plur|PronType=Dem	5	det	_	start_char=301|end_char=306
+5	вопросам	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	2	obl	_	start_char=307|end_char=315
+6	,	,	PUNCT	_	_	8	punct	_	start_char=315|end_char=316
+7	как	как	SCONJ	_	_	8	mark	_	start_char=317|end_char=320
+8	права	право	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	obl	_	start_char=321|end_char=326
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=327|end_char=335
+10	,	,	PUNCT	_	_	11	punct	_	start_char=335|end_char=336
+11	свобода	свобода	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	start_char=337|end_char=344
+12	прессы	пресса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=345|end_char=351
+13	и	и	CCONJ	_	_	14	cc	_	start_char=352|end_char=353
+14	вступление	вступление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	start_char=354|end_char=364
+15	Турции	Турция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=365|end_char=371
+16	в	в	ADP	_	_	17	case	_	start_char=372|end_char=373
+17	ЕС	ЕС	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	start_char=374|end_char=376
+18	.	.	PUNCT	_	_	2	punct	_	start_char=376|end_char=377
+
+# text = Затем Эрдоган направился в Кельн, где открыл новую огромную мечеть.
+# sent_id = 3
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	start_char=378|end_char=383
+2	Эрдоган	Эрдоган	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=384|end_char=391
+3	направился	направиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=392|end_char=402
+4	в	в	ADP	_	_	5	case	_	start_char=403|end_char=404
+5	Кельн	Кельн	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=405|end_char=410
+6	,	,	PUNCT	_	_	8	punct	_	start_char=410|end_char=411
+7	где	где	ADV	_	Degree=Pos	8	advmod	_	start_char=412|end_char=415
+8	открыл	открыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=416|end_char=422
+9	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=423|end_char=428
+10	огромную	огромный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=429|end_char=437
+11	мечеть	мечеть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=438|end_char=444
+12	.	.	PUNCT	_	_	3	punct	_	start_char=444|end_char=445
+
+# text = В этом городе проживает самое многочисленное турецкое население за пределами Турции.
+# sent_id = 4
+1	В	в	ADP	_	_	3	case	_	start_char=446|end_char=447
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=448|end_char=452
+3	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=453|end_char=459
+4	проживает	проживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=460|end_char=469
+5	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=470|end_char=475
+6	многочисленное	многочисленный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=476|end_char=490
+7	турецкое	турецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=491|end_char=499
+8	население	население	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=500|end_char=509
+9	за	за	ADP	_	_	10	case	_	start_char=510|end_char=512
+10	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	start_char=513|end_char=522
+11	Турции	Турция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=523|end_char=529
+12	.	.	PUNCT	_	_	4	punct	_	start_char=529|end_char=530
+
+# text = Полиция, сославшись на соображения безопасности, не позволила 25-тысячной толпе собраться перед мечетью, но многие сторонники Эрдогана собрались неподалеку, чтобы увидеть своего президента.
+# sent_id = 5
+1	Полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=531|end_char=538
+2	,	,	PUNCT	_	_	1	punct	_	start_char=538|end_char=539
+3	сославшись	сослаться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	9	advcl	_	start_char=540|end_char=550
+4	на	на	ADP	_	_	5	case	_	start_char=551|end_char=553
+5	соображения	соображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obl	_	start_char=554|end_char=565
+6	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=566|end_char=578
+7	,	,	PUNCT	_	_	3	punct	_	start_char=578|end_char=579
+8	не	не	PART	_	_	9	advmod	_	start_char=580|end_char=582
+9	позволила	позволить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=583|end_char=592
+10	25-тысячной	25-тысячный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=593|end_char=604
+11	толпе	толпа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	start_char=605|end_char=610
+12	собраться	собраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	xcomp	_	start_char=611|end_char=620
+13	перед	перед	ADP	_	_	14	case	_	start_char=621|end_char=626
+14	мечетью	мечеть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	start_char=627|end_char=634
+15	,	,	PUNCT	_	_	20	punct	_	start_char=634|end_char=635
+16	но	но	CCONJ	_	_	20	cc	_	start_char=636|end_char=638
+17	многие	много	NUM	_	NumType=Card	18	amod	_	start_char=639|end_char=645
+18	сторонники	сторонник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	start_char=646|end_char=656
+19	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=657|end_char=665
+20	собрались	собраться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	9	conj	_	start_char=666|end_char=675
+21	неподалеку	неподалеку	ADV	_	Degree=Pos	20	advmod	_	start_char=676|end_char=686
+22	,	,	PUNCT	_	_	24	punct	_	start_char=686|end_char=687
+23	чтобы	чтобы	SCONJ	_	Mood=Cnd	24	mark	_	start_char=688|end_char=693
+24	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	advcl	_	start_char=694|end_char=701
+25	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	26	det	_	start_char=702|end_char=708
+26	президента	президент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=709|end_char=719
+27	.	.	PUNCT	_	_	9	punct	_	start_char=719|end_char=720
+
+# text = Сотни протестующих против Эрдогана, среди которых много курдов, также выступили с осуждением политики Эрдогана и решения правительства Германии принять его в стране.
+# sent_id = 6
+1	Сотни	сотня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	start_char=721|end_char=726
+2	протестующих	протестовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	1	nmod	_	start_char=727|end_char=739
+3	против	против	ADP	_	_	4	case	_	start_char=740|end_char=746
+4	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=747|end_char=755
+5	,	,	PUNCT	_	_	7	punct	_	start_char=755|end_char=756
+6	среди	среди	ADP	_	_	7	case	_	start_char=757|end_char=762
+7	которых	который	PRON	_	Case=Gen|PronType=Int,Rel	4	acl:relcl	_	start_char=763|end_char=770
+8	много	много	ADV	_	Degree=Pos	7	nsubj	_	start_char=771|end_char=776
+9	курдов	курд	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	start_char=777|end_char=783
+10	,	,	PUNCT	_	_	1	punct	_	start_char=783|end_char=784
+11	также	также	ADV	_	Degree=Pos	12	advmod	_	start_char=785|end_char=790
+12	выступили	выступить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=791|end_char=800
+13	с	с	ADP	_	_	14	case	_	start_char=801|end_char=802
+14	осуждением	осуждение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	start_char=803|end_char=813
+15	политики	политика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=814|end_char=822
+16	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	start_char=823|end_char=831
+17	и	и	CCONJ	_	_	18	cc	_	start_char=832|end_char=833
+18	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	conj	_	start_char=834|end_char=841
+19	правительства	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	start_char=842|end_char=855
+20	Германии	Германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	start_char=856|end_char=864
+21	принять	принять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	obl	_	start_char=865|end_char=872
+22	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	start_char=873|end_char=876
+23	в	в	ADP	_	_	24	case	_	start_char=877|end_char=878
+24	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	start_char=879|end_char=885
+25	.	.	PUNCT	_	_	12	punct	_	start_char=885|end_char=886
+
+# text = Дуэльные протесты отражают раскол в обществе, вызванный приездом Эрдогана, которого одни немецкие турки называют героем, а другие - автократом.
+# sent_id = 7
+1	Дуэльные	дуэльный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	start_char=887|end_char=895
+2	протесты	протест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=896|end_char=904
+3	отражают	отражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=905|end_char=913
+4	раскол	раскол	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=914|end_char=920
+5	в	в	ADP	_	_	6	case	_	start_char=921|end_char=922
+6	обществе	общество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	start_char=923|end_char=931
+7	,	,	PUNCT	_	_	8	punct	_	start_char=931|end_char=932
+8	вызванный	вызвать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	start_char=933|end_char=942
+9	приездом	приезд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=943|end_char=951
+10	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=952|end_char=960
+11	,	,	PUNCT	_	_	16	punct	_	start_char=960|end_char=961
+12	которого	который	PRON	_	Case=Acc|PronType=Int,Rel	16	obj	_	start_char=962|end_char=970
+13	одни	один	DET	_	Case=Nom|Number=Plur|PronType=Ind	15	amod	_	start_char=971|end_char=975
+14	немецкие	немецкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	start_char=976|end_char=984
+15	турки	турка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	start_char=985|end_char=990
+16	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=991|end_char=999
+17	героем	герой	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	start_char=1000|end_char=1006
+18	,	,	PUNCT	_	_	20	punct	_	start_char=1006|end_char=1007
+19	а	а	CCONJ	_	_	20	cc	_	start_char=1008|end_char=1009
+20	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	conj	_	start_char=1010|end_char=1016
+21	-	-	PUNCT	_	_	22	punct	_	start_char=1017|end_char=1018
+22	автократом	автократ	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	20	orphan	_	start_char=1019|end_char=1029
+23	.	.	PUNCT	_	_	3	punct	_	start_char=1029|end_char=1030
+

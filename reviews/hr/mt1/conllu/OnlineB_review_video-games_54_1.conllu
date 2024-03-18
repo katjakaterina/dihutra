@@ -1,7 +1,11 @@
+# text = Igra građanskog rata
+# sent_id = 0
 1	Igra	ići	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	građanskog	građanski	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=5|end_char=15
 3	rata	rat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	obj	_	start_char=16|end_char=20
 
+# text = Ne znam za igru jer je ne znam igrati.
+# sent_id = 1
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=21|end_char=23
 2	znam	znati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=24|end_char=28
 3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=29|end_char=31
@@ -13,6 +17,8 @@
 9	igrati	igrati	VERB	Vmn	VerbForm=Inf	8	xcomp	_	start_char=52|end_char=58
 10	.	.	PUNCT	Z	_	2	punct	_	start_char=58|end_char=59
 
+# text = Imam widows vistu i mogu preuzeti upute, ali pojavljuje se pogreška kada pokušam igrati igru.
+# sent_id = 2
 1	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=60|end_char=64
 2	widows	widows	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=65|end_char=71
 3	vistu	vist	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=72|end_char=77
@@ -31,6 +37,8 @@
 16	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	start_char=148|end_char=152
 17	.	.	PUNCT	Z	_	1	punct	_	start_char=152|end_char=153
 
+# text = Kontaktirao sam Ageod i rekli su da sam jedini koji ima problema.
+# sent_id = 3
 1	Kontaktirao	kontaktirati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=154|end_char=165
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=166|end_char=169
 3	Ageod	Ageod	PROPN	Npmsa	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=170|end_char=175
@@ -45,6 +53,8 @@
 12	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	obj	_	start_char=210|end_char=218
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=218|end_char=219
 
+# text = Internet kaže da Vista ima dosta problema s igrama.
+# sent_id = 4
 1	Internet	internet	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=220|end_char=228
 2	kaže	kazati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=229|end_char=233
 3	da	da	SCONJ	Cs	_	5	mark	_	start_char=234|end_char=236
@@ -56,6 +66,8 @@
 9	igrama	igra	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	start_char=264|end_char=270
 10	.	.	PUNCT	Z	_	2	punct	_	start_char=270|end_char=271
 
+# text = Upravo sam uzalud potrošio novac na ovu igru.
+# sent_id = 5
 1	Upravo	upravo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=272|end_char=278
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=279|end_char=282
 3	uzalud	uzalud	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=283|end_char=289

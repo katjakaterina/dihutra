@@ -1,0 +1,529 @@
+# text = Отец не теряет надежды, что подозреваемый, смертельно ранивший сына год назад, будет пойман Прошел год с тех пор, как 20-летний житель Лонг-Бич был смертельно ранен, но семья жертвы не теряет надежды, что стрелявший будет пойман.
+# sent_id = 0
+1	Отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=0|end_char=4
+2	не	не	PART	_	_	3	advmod	_	start_char=5|end_char=7
+3	теряет	терять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=14
+4	надежды	надежда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=15|end_char=22
+5	,	,	PUNCT	_	_	16	punct	_	start_char=22|end_char=23
+6	что	что	SCONJ	_	_	16	mark	_	start_char=24|end_char=27
+7	подозреваемый	подозреваемый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj:pass	_	start_char=28|end_char=41
+8	,	,	PUNCT	_	_	10	punct	_	start_char=41|end_char=42
+9	смертельно	смертельно	ADV	_	Degree=Pos	10	advmod	_	start_char=43|end_char=53
+10	ранивший	ранить	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	start_char=54|end_char=62
+11	сына	сын	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=63|end_char=67
+12	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	start_char=68|end_char=71
+13	назад	назад	ADV	_	Degree=Pos	12	advmod	_	start_char=72|end_char=77
+14	,	,	PUNCT	_	_	10	punct	_	start_char=77|end_char=78
+15	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	_	start_char=79|end_char=84
+16	пойман	поймать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	acl	_	start_char=85|end_char=91
+17	Прошел	пройти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	_	start_char=92|end_char=98
+18	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	start_char=99|end_char=102
+19	с	с	ADP	_	_	29	mark	_	start_char=103|end_char=104
+20	тех	тот	DET	_	Case=Gen|Number=Plur|PronType=Dem	19	fixed	_	start_char=105|end_char=108
+21	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	fixed	_	start_char=109|end_char=112
+22	,	,	PUNCT	_	_	19	punct	_	start_char=112|end_char=113
+23	как	как	SCONJ	_	_	19	fixed	_	start_char=114|end_char=117
+24	20-летний	20-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=118|end_char=127
+25	житель	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nsubj:pass	_	start_char=128|end_char=134
+26	Лонг-Бич	Лонг-Бич	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	start_char=135|end_char=143
+27	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	aux:pass	_	start_char=144|end_char=147
+28	смертельно	смертельно	ADV	_	Degree=Pos	29	advmod	_	start_char=148|end_char=158
+29	ранен	ранить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	start_char=159|end_char=164
+30	,	,	PUNCT	_	_	35	punct	_	start_char=164|end_char=165
+31	но	но	CCONJ	_	_	35	cc	_	start_char=166|end_char=168
+32	семья	семья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	nsubj	_	start_char=169|end_char=174
+33	жертвы	жертва	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	start_char=175|end_char=181
+34	не	не	PART	_	_	35	advmod	_	start_char=182|end_char=184
+35	теряет	терять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	conj	_	start_char=185|end_char=191
+36	надежды	надежда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	obl	_	start_char=192|end_char=199
+37	,	,	PUNCT	_	_	41	punct	_	start_char=199|end_char=200
+38	что	что	SCONJ	_	_	41	mark	_	start_char=201|end_char=204
+39	стрелявший	стрелять	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	41	nsubj:pass	_	start_char=205|end_char=215
+40	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	aux:pass	_	start_char=216|end_char=221
+41	пойман	поймать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	36	acl	_	start_char=222|end_char=228
+42	.	.	PUNCT	_	_	3	punct	_	start_char=228|end_char=229
+
+# text = "Я хотел бы поменяться с тобой местами, сын, я хотел бы поменяться с тобой местами", - сказал Гай Алфорд, отец жертвы.
+# sent_id = 1
+1	"	"	PUNCT	_	_	3	punct	_	start_char=230|end_char=231
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=231|end_char=232
+3	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=233|end_char=238
+4	бы	бы	AUX	_	_	3	aux	_	start_char=239|end_char=241
+5	поменяться	меняться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	start_char=242|end_char=252
+6	с	с	ADP	_	_	7	case	_	start_char=253|end_char=254
+7	тобой	ты	PRON	_	Case=Ins|Number=Sing|Person=2|PronType=Prs	5	obl	_	start_char=255|end_char=260
+8	местами	место	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	5	obl	_	start_char=261|end_char=268
+9	,	,	PUNCT	_	_	10	punct	_	start_char=268|end_char=269
+10	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	vocative	_	start_char=270|end_char=273
+11	,	,	PUNCT	_	_	10	punct	_	start_char=273|end_char=274
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	start_char=275|end_char=276
+13	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=277|end_char=282
+14	бы	бы	AUX	_	_	13	aux	_	start_char=283|end_char=285
+15	поменяться	меняться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	xcomp	_	start_char=286|end_char=296
+16	с	с	ADP	_	_	17	case	_	start_char=297|end_char=298
+17	тобой	ты	PRON	_	Case=Ins|Number=Sing|Person=2|PronType=Prs	15	obl	_	start_char=299|end_char=304
+18	местами	место	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	15	obl	_	start_char=305|end_char=312
+19	"	"	PUNCT	_	_	3	punct	_	start_char=312|end_char=313
+20	,	,	PUNCT	_	_	22	punct	_	start_char=313|end_char=314
+21	-	-	PUNCT	_	_	22	punct	_	start_char=315|end_char=316
+22	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=317|end_char=323
+23	Гай	Гай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	start_char=324|end_char=327
+24	Алфорд	Алфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	flat:name	_	start_char=328|end_char=334
+25	,	,	PUNCT	_	_	26	punct	_	start_char=334|end_char=335
+26	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	start_char=336|end_char=340
+27	жертвы	жертва	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	start_char=341|end_char=347
+28	.	.	PUNCT	_	_	3	punct	_	start_char=347|end_char=348
+
+# text = Альфорд вернулся на место преступления ровно через год после того, как его сын, Гай Альфорд III, был застрелен в Jack In The Box на пересечении 52-й и Атлантической улиц.
+# sent_id = 2
+1	Альфорд	Альфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=349|end_char=356
+2	вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=357|end_char=365
+3	на	на	ADP	_	_	4	case	_	start_char=366|end_char=368
+4	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=369|end_char=374
+5	преступления	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=375|end_char=387
+6	ровно	ровно	ADV	_	Degree=Pos	8	obl	_	start_char=388|end_char=393
+7	через	через	ADP	_	_	8	case	_	start_char=394|end_char=399
+8	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	start_char=400|end_char=403
+9	после	после	ADP	_	_	10	case	_	start_char=404|end_char=409
+10	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	nmod	_	start_char=410|end_char=414
+11	,	,	PUNCT	_	_	21	punct	_	start_char=414|end_char=415
+12	как	как	SCONJ	_	_	21	mark	_	start_char=416|end_char=419
+13	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nmod	_	start_char=420|end_char=423
+14	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	start_char=424|end_char=427
+15	,	,	PUNCT	_	_	16	punct	_	start_char=427|end_char=428
+16	Гай	Гай	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	start_char=429|end_char=432
+17	Альфорд	Альфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	start_char=433|end_char=440
+18	III	iii	NUM	_	NumType=Card	16	flat:name	_	start_char=441|end_char=444
+19	,	,	PUNCT	_	_	14	punct	_	start_char=444|end_char=445
+20	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	aux:pass	_	start_char=446|end_char=449
+21	застрелен	застрелить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	acl	_	start_char=450|end_char=459
+22	в	в	ADP	_	_	21	case	_	start_char=460|end_char=461
+23	Jack	Jack	PROPN	_	Foreign=Yes	21	flat:foreign	_	start_char=462|end_char=466
+24	In	In	PROPN	_	Foreign=Yes	21	flat:foreign	_	start_char=467|end_char=469
+25	The	The	PROPN	_	Foreign=Yes	21	flat:foreign	_	start_char=470|end_char=473
+26	Box	Box	PROPN	_	Foreign=Yes	21	flat:foreign	_	start_char=474|end_char=477
+27	на	на	ADP	_	_	28	case	_	start_char=478|end_char=480
+28	пересечении	пересечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	start_char=481|end_char=492
+29	52-й	52-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	start_char=493|end_char=497
+30	и	и	CCONJ	_	_	31	cc	_	start_char=498|end_char=499
+31	Атлантической	атлантический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	conj	_	start_char=500|end_char=513
+32	улиц	улица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	start_char=514|end_char=518
+33	.	.	PUNCT	_	_	2	punct	_	start_char=518|end_char=519
+
+# text = По его словам, он хотел привлечь внимание к нераскрытому убийству своего сына.
+# sent_id = 3
+1	По	по	ADP	_	_	3	case	_	start_char=520|end_char=522
+2	его	его	DET	_	Poss=Yes|PronType=Prs	3	det	_	start_char=523|end_char=526
+3	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	start_char=527|end_char=533
+4	,	,	PUNCT	_	_	3	punct	_	start_char=533|end_char=534
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	start_char=535|end_char=537
+6	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=538|end_char=543
+7	привлечь	привлечь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	start_char=544|end_char=552
+8	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	start_char=553|end_char=561
+9	к	к	ADP	_	_	11	case	_	start_char=562|end_char=563
+10	нераскрытому	нераскрытый	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=564|end_char=576
+11	убийству	убийство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	start_char=577|end_char=585
+12	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	start_char=586|end_char=592
+13	сына	сын	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=593|end_char=597
+14	.	.	PUNCT	_	_	6	punct	_	start_char=597|end_char=598
+
+# text = "Кто-то что-то знает, он должен что-то сказать", - сказал он.
+# sent_id = 4
+1	"	"	PUNCT	_	_	4	punct	_	start_char=599|end_char=600
+2	Кто-то	кто-то	PRON	_	Case=Nom|PronType=Ind	4	nsubj	_	start_char=600|end_char=606
+3	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	4	obj	_	start_char=607|end_char=613
+4	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=614|end_char=619
+5	,	,	PUNCT	_	_	7	punct	_	start_char=619|end_char=620
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=621|end_char=623
+7	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	start_char=624|end_char=630
+8	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	9	obj	_	start_char=631|end_char=637
+9	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=638|end_char=645
+10	"	"	PUNCT	_	_	4	punct	_	start_char=645|end_char=646
+11	,	,	PUNCT	_	_	13	punct	_	start_char=646|end_char=647
+12	-	-	PUNCT	_	_	13	punct	_	start_char=648|end_char=649
+13	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=650|end_char=656
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	start_char=657|end_char=659
+15	.	.	PUNCT	_	_	4	punct	_	start_char=659|end_char=660
+
+# text = На видеозаписи с камер наблюдения, которая так и не была опубликована, видно, что Алфорд остановился на подъезде к магазину, когда за ним подъехала вторая машина.
+# sent_id = 5
+1	На	на	ADP	_	_	2	case	_	start_char=661|end_char=663
+2	видеозаписи	видеозапись	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	start_char=664|end_char=675
+3	с	с	ADP	_	_	4	case	_	start_char=676|end_char=677
+4	камер	камера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=678|end_char=683
+5	наблюдения	наблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=684|end_char=694
+6	,	,	PUNCT	_	_	12	punct	_	start_char=694|end_char=695
+7	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	12	nsubj:pass	_	start_char=696|end_char=703
+8	так	так	ADV	_	Degree=Pos	12	advmod	_	start_char=704|end_char=707
+9	и	и	PART	_	_	8	fixed	_	start_char=708|end_char=709
+10	не	не	PART	_	_	12	advmod	_	start_char=710|end_char=712
+11	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=713|end_char=717
+12	опубликована	опубликовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	acl:relcl	_	start_char=718|end_char=730
+13	,	,	PUNCT	_	_	2	punct	_	start_char=730|end_char=731
+14	видно	видно	ADV	_	Degree=Pos	0	root	_	start_char=732|end_char=737
+15	,	,	PUNCT	_	_	18	punct	_	start_char=737|end_char=738
+16	что	что	SCONJ	_	_	18	mark	_	start_char=739|end_char=742
+17	Алфорд	Алфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	start_char=743|end_char=749
+18	остановился	остановиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	ccomp	_	start_char=750|end_char=761
+19	на	на	ADP	_	_	20	case	_	start_char=762|end_char=764
+20	подъезде	подъезд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	start_char=765|end_char=773
+21	к	к	ADP	_	_	22	case	_	start_char=774|end_char=775
+22	магазину	магазин	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	start_char=776|end_char=784
+23	,	,	PUNCT	_	_	27	punct	_	start_char=784|end_char=785
+24	когда	когда	SCONJ	_	_	27	mark	_	start_char=786|end_char=791
+25	за	за	ADP	_	_	26	case	_	start_char=792|end_char=794
+26	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl	_	start_char=795|end_char=798
+27	подъехала	подъехать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	start_char=799|end_char=808
+28	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	start_char=809|end_char=815
+29	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	start_char=816|end_char=822
+30	.	.	PUNCT	_	_	14	punct	_	start_char=822|end_char=823
+
+# text = Из нее вышли трое подозреваемых.
+# sent_id = 6
+1	Из	из	ADP	_	_	2	case	_	start_char=824|end_char=826
+2	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	start_char=827|end_char=830
+3	вышли	выйти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=831|end_char=836
+4	трое	трое	NUM	_	Case=Nom|NumType=Card	5	nummod:gov	_	start_char=837|end_char=841
+5	подозреваемых	подозреваемый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	start_char=842|end_char=855
+6	.	.	PUNCT	_	_	3	punct	_	start_char=855|end_char=856
+
+# text = Один из них подошел к водительскому сиденью и выстрелил в Альфорда.
+# sent_id = 7
+1	Один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	4	nsubj	_	start_char=857|end_char=861
+2	из	из	ADP	_	_	3	case	_	start_char=862|end_char=864
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3|PronType=Prs	1	nmod	_	start_char=865|end_char=868
+4	подошел	подойти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=869|end_char=876
+5	к	к	ADP	_	_	7	case	_	start_char=877|end_char=878
+6	водительскому	водительский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=879|end_char=892
+7	сиденью	сиденье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	start_char=893|end_char=900
+8	и	и	CCONJ	_	_	9	cc	_	start_char=901|end_char=902
+9	выстрелил	выстрелять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=903|end_char=912
+10	в	в	ADP	_	_	11	case	_	start_char=913|end_char=914
+11	Альфорда	Альфорд	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	start_char=915|end_char=923
+12	.	.	PUNCT	_	_	4	punct	_	start_char=923|end_char=924
+
+# text = Четыре человека, находившиеся в машине Альфорда, выскочили из нее и побежали.
+# sent_id = 8
+1	Четыре	четыре	NUM	_	Case=Nom|NumType=Card	2	nummod:gov	_	start_char=925|end_char=931
+2	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nsubj	_	start_char=932|end_char=940
+3	,	,	PUNCT	_	_	4	punct	_	start_char=940|end_char=941
+4	находившиеся	находиться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	2	acl	_	start_char=942|end_char=954
+5	в	в	ADP	_	_	6	case	_	start_char=955|end_char=956
+6	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	start_char=957|end_char=963
+7	Альфорда	Альфорд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	start_char=964|end_char=972
+8	,	,	PUNCT	_	_	4	punct	_	start_char=972|end_char=973
+9	выскочили	выскочить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=974|end_char=983
+10	из	из	ADP	_	_	11	case	_	start_char=984|end_char=986
+11	нее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obl	_	start_char=987|end_char=990
+12	и	и	CCONJ	_	_	13	cc	_	start_char=991|end_char=992
+13	побежали	побежать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=993|end_char=1001
+14	.	.	PUNCT	_	_	9	punct	_	start_char=1001|end_char=1002
+
+# text = Затем подозреваемые сели обратно в машину и уехали.
+# sent_id = 9
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	start_char=1003|end_char=1008
+2	подозреваемые	подозреваемый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=1009|end_char=1022
+3	сели	сесть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1023|end_char=1027
+4	обратно	обратно	ADV	_	Degree=Pos	3	advmod	_	start_char=1028|end_char=1035
+5	в	в	ADP	_	_	6	case	_	start_char=1036|end_char=1037
+6	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=1038|end_char=1044
+7	и	и	CCONJ	_	_	8	cc	_	start_char=1045|end_char=1046
+8	уехали	уехать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1047|end_char=1053
+9	.	.	PUNCT	_	_	3	punct	_	start_char=1053|end_char=1054
+
+# text = "Где бы ни был этот трус, его поймают", - сказал Альфорд.
+# sent_id = 10
+1	"	"	PUNCT	_	_	10	punct	_	start_char=1055|end_char=1056
+2	Где	где	ADV	_	Degree=Pos	10	advmod	_	start_char=1056|end_char=1059
+3	бы	бы	AUX	_	_	2	aux	_	start_char=1060|end_char=1062
+4	ни	ни	PART	_	_	5	advmod	_	start_char=1063|end_char=1065
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	start_char=1066|end_char=1069
+6	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	start_char=1070|end_char=1074
+7	трус	трус	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1075|end_char=1079
+8	,	,	PUNCT	_	_	2	punct	_	start_char=1079|end_char=1080
+9	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	start_char=1081|end_char=1084
+10	поймают	поймать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=1085|end_char=1092
+11	"	"	PUNCT	_	_	10	punct	_	start_char=1092|end_char=1093
+12	,	,	PUNCT	_	_	14	punct	_	start_char=1093|end_char=1094
+13	-	-	PUNCT	_	_	14	punct	_	start_char=1095|end_char=1096
+14	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	parataxis	_	start_char=1097|end_char=1103
+15	Альфорд	Альфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=1104|end_char=1111
+16	.	.	PUNCT	_	_	10	punct	_	start_char=1111|end_char=1112
+
+# text = Убитый горем отец сказал, что не представляет, кто мог желать зла его сыну, и что он до сих пор не знает, кто находился с ним в машине, когда в него стреляли.
+# sent_id = 11
+1	Убитый	убить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	start_char=1113|end_char=1119
+2	горем	горе	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	start_char=1120|end_char=1125
+3	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=1126|end_char=1130
+4	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1131|end_char=1137
+5	,	,	PUNCT	_	_	8	punct	_	start_char=1137|end_char=1138
+6	что	что	SCONJ	_	_	8	mark	_	start_char=1139|end_char=1142
+7	не	не	PART	_	_	8	advmod	_	start_char=1143|end_char=1145
+8	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	start_char=1146|end_char=1158
+9	,	,	PUNCT	_	_	11	punct	_	start_char=1158|end_char=1159
+10	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	11	nsubj	_	start_char=1160|end_char=1163
+11	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	start_char=1164|end_char=1167
+12	желать	желать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	start_char=1168|end_char=1174
+13	зла	зло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obj	_	start_char=1175|end_char=1178
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nmod	_	start_char=1179|end_char=1182
+15	сыну	сын	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	start_char=1183|end_char=1187
+16	,	,	PUNCT	_	_	24	punct	_	start_char=1187|end_char=1188
+17	и	и	CCONJ	_	_	24	cc	_	start_char=1189|end_char=1190
+18	что	что	SCONJ	_	_	24	mark	_	start_char=1191|end_char=1194
+19	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=1195|end_char=1197
+20	до	до	ADP	_	_	24	advmod	_	start_char=1198|end_char=1200
+21	сих	сей	DET	_	Case=Gen|Number=Plur|PronType=Dem	20	fixed	_	start_char=1201|end_char=1204
+22	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	fixed	_	start_char=1205|end_char=1208
+23	не	не	PART	_	_	24	advmod	_	start_char=1209|end_char=1211
+24	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	start_char=1212|end_char=1217
+25	,	,	PUNCT	_	_	27	punct	_	start_char=1217|end_char=1218
+26	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	27	nsubj	_	start_char=1219|end_char=1222
+27	находился	находиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	24	ccomp	_	start_char=1223|end_char=1232
+28	с	с	ADP	_	_	29	case	_	start_char=1233|end_char=1234
+29	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl	_	start_char=1235|end_char=1238
+30	в	в	ADP	_	_	31	case	_	start_char=1239|end_char=1240
+31	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	start_char=1241|end_char=1247
+32	,	,	PUNCT	_	_	36	punct	_	start_char=1247|end_char=1248
+33	когда	когда	SCONJ	_	_	36	mark	_	start_char=1249|end_char=1254
+34	в	в	ADP	_	_	35	case	_	start_char=1255|end_char=1256
+35	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obl	_	start_char=1257|end_char=1261
+36	стреляли	стрелять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	27	advcl	_	start_char=1262|end_char=1270
+37	.	.	PUNCT	_	_	4	punct	_	start_char=1270|end_char=1271
+
+# text = "Они поднялись и выбежали из машины моего сына, куда вы побежали", - сказал Альфорд.
+# sent_id = 12
+1	"	"	PUNCT	_	_	3	punct	_	start_char=1272|end_char=1273
+2	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	start_char=1273|end_char=1276
+3	поднялись	подняться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1277|end_char=1286
+4	и	и	CCONJ	_	_	5	cc	_	start_char=1287|end_char=1288
+5	выбежали	выбежать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1289|end_char=1297
+6	из	из	ADP	_	_	7	case	_	start_char=1298|end_char=1300
+7	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	start_char=1301|end_char=1307
+8	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	start_char=1308|end_char=1313
+9	сына	сын	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=1314|end_char=1318
+10	,	,	PUNCT	_	_	13	punct	_	start_char=1318|end_char=1319
+11	куда	куда	ADV	_	Degree=Pos	13	advmod	_	start_char=1320|end_char=1324
+12	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	start_char=1325|end_char=1327
+13	побежали	побежать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=1328|end_char=1336
+14	"	"	PUNCT	_	_	3	punct	_	start_char=1336|end_char=1337
+15	,	,	PUNCT	_	_	17	punct	_	start_char=1337|end_char=1338
+16	-	-	PUNCT	_	_	17	punct	_	start_char=1339|end_char=1340
+17	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=1341|end_char=1347
+18	Альфорд	Альфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=1348|end_char=1355
+19	.	.	PUNCT	_	_	3	punct	_	start_char=1355|end_char=1356
+
+# text = "Вы вернулись и попытались помочь ему или что?
+# sent_id = 13
+1	"	"	PUNCT	_	_	3	punct	_	start_char=1357|end_char=1358
+2	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=1358|end_char=1360
+3	вернулись	вернуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1361|end_char=1370
+4	и	и	CCONJ	_	_	5	cc	_	start_char=1371|end_char=1372
+5	попытались	пытаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=1373|end_char=1383
+6	помочь	помочь	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	start_char=1384|end_char=1390
+7	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	start_char=1391|end_char=1394
+8	или	или	CCONJ	_	_	9	cc	_	start_char=1395|end_char=1398
+9	что	что	PRON	_	Case=Nom|PronType=Int,Rel	7	conj	_	start_char=1399|end_char=1402
+10	?	?	PUNCT	_	_	3	punct	_	start_char=1402|end_char=1403
+
+# text = Никто ничего не сказал".
+# sent_id = 14
+1	Никто	никто	PRON	_	Case=Nom|PronType=Neg	4	nsubj	_	start_char=1404|end_char=1409
+2	ничего	ничто	PRON	_	Case=Gen|PronType=Neg	4	obl	_	start_char=1410|end_char=1416
+3	не	не	PART	_	_	4	advmod	_	start_char=1417|end_char=1419
+4	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1420|end_char=1426
+5	"	"	PUNCT	_	_	4	punct	_	start_char=1426|end_char=1427
+6	.	.	PUNCT	_	_	4	punct	_	start_char=1427|end_char=1428
+
+# text = По словам Алфорда, его сын был звездным футболистом в средней школе Alemany High School, а затем - выдающимся защитником в футбольной команде Long Beach City College.
+# sent_id = 15
+1	По	по	ADP	_	_	2	case	_	start_char=1429|end_char=1431
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	parataxis	_	start_char=1432|end_char=1438
+3	Алфорда	Алфорд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1439|end_char=1446
+4	,	,	PUNCT	_	_	2	punct	_	start_char=1446|end_char=1447
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod	_	start_char=1448|end_char=1451
+6	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1452|end_char=1455
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	start_char=1456|end_char=1459
+8	звездным	звездной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1460|end_char=1468
+9	футболистом	футболист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	start_char=1469|end_char=1480
+10	в	в	ADP	_	_	12	case	_	start_char=1481|end_char=1482
+11	средней	средний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	start_char=1483|end_char=1490
+12	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	start_char=1491|end_char=1496
+13	Alemany	Alemany	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=1497|end_char=1504
+14	High	High	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=1505|end_char=1509
+15	School	School	PROPN	_	Foreign=Yes	12	flat:foreign	_	start_char=1510|end_char=1516
+16	,	,	PUNCT	_	_	21	punct	_	start_char=1516|end_char=1517
+17	а	а	CCONJ	_	_	21	cc	_	start_char=1518|end_char=1519
+18	затем	затем	ADV	_	Degree=Pos	21	orphan	_	start_char=1520|end_char=1525
+19	-	-	PUNCT	_	_	18	punct	_	start_char=1526|end_char=1527
+20	выдающимся	выдающийся	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=1528|end_char=1538
+21	защитником	защитник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	start_char=1539|end_char=1549
+22	в	в	ADP	_	_	24	case	_	start_char=1550|end_char=1551
+23	футбольной	футбольный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	start_char=1552|end_char=1562
+24	команде	команда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	start_char=1563|end_char=1570
+25	Long	Long	PROPN	_	Foreign=Yes	24	flat:foreign	_	start_char=1571|end_char=1575
+26	Beach	Beach	PROPN	_	Foreign=Yes	24	flat:foreign	_	start_char=1576|end_char=1581
+27	City	City	PROPN	_	Foreign=Yes	24	flat:foreign	_	start_char=1582|end_char=1586
+28	College	College	PROPN	_	Foreign=Yes	24	flat:foreign	_	start_char=1587|end_char=1594
+29	.	.	PUNCT	_	_	9	punct	_	start_char=1594|end_char=1595
+
+# text = По словам Алфорда, его сын стремился играть за школу первого дивизиона и мечтал стать медбратом.
+# sent_id = 16
+1	По	по	ADP	_	_	2	case	_	start_char=1596|end_char=1598
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	parataxis	_	start_char=1599|end_char=1605
+3	Алфорда	Алфорд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1606|end_char=1613
+4	,	,	PUNCT	_	_	2	punct	_	start_char=1613|end_char=1614
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod	_	start_char=1615|end_char=1618
+6	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1619|end_char=1622
+7	стремился	стремиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1623|end_char=1632
+8	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	start_char=1633|end_char=1639
+9	за	за	ADP	_	_	10	case	_	start_char=1640|end_char=1642
+10	школу	школа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=1643|end_char=1648
+11	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=1649|end_char=1656
+12	дивизиона	дивизион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=1657|end_char=1666
+13	и	и	CCONJ	_	_	14	cc	_	start_char=1667|end_char=1668
+14	мечтал	мечтать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=1669|end_char=1675
+15	стать	стать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	xcomp	_	start_char=1676|end_char=1681
+16	медбратом	медбрат	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	obl	_	start_char=1682|end_char=1691
+17	.	.	PUNCT	_	_	7	punct	_	start_char=1691|end_char=1692
+
+# text = "Он работал на трех работах", - сказал Майкл Харви, его друг.
+# sent_id = 17
+1	"	"	PUNCT	_	_	3	punct	_	start_char=1693|end_char=1694
+2	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1694|end_char=1696
+3	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1697|end_char=1704
+4	на	на	ADP	_	_	6	case	_	start_char=1705|end_char=1707
+5	трех	три	NUM	_	Case=Loc|NumType=Card	6	nummod	_	start_char=1708|end_char=1712
+6	работах	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	obl	_	start_char=1713|end_char=1720
+7	"	"	PUNCT	_	_	3	punct	_	start_char=1720|end_char=1721
+8	,	,	PUNCT	_	_	10	punct	_	start_char=1721|end_char=1722
+9	-	-	PUNCT	_	_	10	punct	_	start_char=1723|end_char=1724
+10	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=1725|end_char=1731
+11	Майкл	Майкл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=1732|end_char=1737
+12	Харви	Харви	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	start_char=1738|end_char=1743
+13	,	,	PUNCT	_	_	15	punct	_	start_char=1743|end_char=1744
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nmod	_	start_char=1745|end_char=1748
+15	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	start_char=1749|end_char=1753
+16	.	.	PUNCT	_	_	3	punct	_	start_char=1753|end_char=1754
+
+# text = "Как человек, которому 21 год, а он был на год младше меня, я считаю, что на любого человека, обладающего таким упорством и трудовой этикой, можно равняться".
+# sent_id = 18
+1	"	"	PUNCT	_	_	18	punct	_	start_char=1755|end_char=1756
+2	Как	как	SCONJ	_	_	3	mark	_	start_char=1756|end_char=1759
+3	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	advcl	_	start_char=1760|end_char=1767
+4	,	,	PUNCT	_	_	7	punct	_	start_char=1767|end_char=1768
+5	которому	который	PRON	_	Case=Dat|PronType=Int,Rel	7	iobj	_	start_char=1769|end_char=1777
+6	21	21	NUM	_	NumType=Card	7	nummod	_	start_char=1778|end_char=1780
+7	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	acl:relcl	_	start_char=1781|end_char=1784
+8	,	,	PUNCT	_	_	14	punct	_	start_char=1784|end_char=1785
+9	а	а	CCONJ	_	_	14	cc	_	start_char=1786|end_char=1787
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=1788|end_char=1790
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	start_char=1791|end_char=1794
+12	на	на	ADP	_	_	13	case	_	start_char=1795|end_char=1797
+13	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	start_char=1798|end_char=1801
+14	младше	младший	ADJ	_	Degree=Cmp	7	conj	_	start_char=1802|end_char=1808
+15	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	14	obl	_	start_char=1809|end_char=1813
+16	,	,	PUNCT	_	_	3	punct	_	start_char=1813|end_char=1814
+17	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	start_char=1815|end_char=1816
+18	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1817|end_char=1823
+19	,	,	PUNCT	_	_	32	punct	_	start_char=1823|end_char=1824
+20	что	что	SCONJ	_	_	32	mark	_	start_char=1825|end_char=1828
+21	на	на	ADP	_	_	23	case	_	start_char=1829|end_char=1831
+22	любого	любой	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	23	det	_	start_char=1832|end_char=1838
+23	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	33	obl	_	start_char=1839|end_char=1847
+24	,	,	PUNCT	_	_	25	punct	_	start_char=1847|end_char=1848
+25	обладающего	обладать	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	23	acl	_	start_char=1849|end_char=1860
+26	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	start_char=1861|end_char=1866
+27	упорством	упорство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	start_char=1867|end_char=1876
+28	и	и	CCONJ	_	_	30	cc	_	start_char=1877|end_char=1878
+29	трудовой	трудовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=1879|end_char=1887
+30	этикой	этика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	conj	_	start_char=1888|end_char=1894
+31	,	,	PUNCT	_	_	25	punct	_	start_char=1894|end_char=1895
+32	можно	можно	ADV	_	Degree=Pos	18	ccomp	_	start_char=1896|end_char=1901
+33	равняться	равняться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	32	csubj	_	start_char=1902|end_char=1911
+34	"	"	PUNCT	_	_	32	punct	_	start_char=1911|end_char=1912
+35	.	.	PUNCT	_	_	18	punct	_	start_char=1912|end_char=1913
+
+# text = В то время как расследование смертельной перестрелки продолжается, Алфорд заявил, что он тоже не собирается сдаваться.
+# sent_id = 19
+1	В	в	ADP	_	_	8	cc	_	start_char=1914|end_char=1915
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	fixed	_	start_char=1916|end_char=1918
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	start_char=1919|end_char=1924
+4	как	как	SCONJ	_	_	1	fixed	_	start_char=1925|end_char=1928
+5	расследование	расследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	start_char=1929|end_char=1942
+6	смертельной	смертельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=1943|end_char=1954
+7	перестрелки	перестрелка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=1955|end_char=1966
+8	продолжается	продолжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	start_char=1967|end_char=1979
+9	,	,	PUNCT	_	_	8	punct	_	start_char=1979|end_char=1980
+10	Алфорд	Алфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=1981|end_char=1987
+11	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1988|end_char=1994
+12	,	,	PUNCT	_	_	17	punct	_	start_char=1994|end_char=1995
+13	что	что	SCONJ	_	_	17	mark	_	start_char=1996|end_char=1999
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	start_char=2000|end_char=2002
+15	тоже	тоже	PART	_	_	17	advmod	_	start_char=2003|end_char=2007
+16	не	не	PART	_	_	17	advmod	_	start_char=2008|end_char=2010
+17	собирается	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	ccomp	_	start_char=2011|end_char=2021
+18	сдаваться	сдаваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	17	xcomp	_	start_char=2022|end_char=2031
+19	.	.	PUNCT	_	_	11	punct	_	start_char=2031|end_char=2032
+
+# text = "Я могу вас заверить, что это дело будет раскрыто", - сказал он.
+# sent_id = 20
+1	"	"	PUNCT	_	_	3	punct	_	start_char=2033|end_char=2034
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2034|end_char=2035
+3	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2036|end_char=2040
+4	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	obj	_	start_char=2041|end_char=2044
+5	заверить	заверить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=2045|end_char=2053
+6	,	,	PUNCT	_	_	11	punct	_	start_char=2053|end_char=2054
+7	что	что	SCONJ	_	_	11	mark	_	start_char=2055|end_char=2058
+8	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	start_char=2059|end_char=2062
+9	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	start_char=2063|end_char=2067
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=2068|end_char=2073
+11	раскрыто	раскрыть	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	ccomp	_	start_char=2074|end_char=2082
+12	"	"	PUNCT	_	_	3	punct	_	start_char=2082|end_char=2083
+13	,	,	PUNCT	_	_	15	punct	_	start_char=2083|end_char=2084
+14	-	-	PUNCT	_	_	15	punct	_	start_char=2085|end_char=2086
+15	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=2087|end_char=2093
+16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	start_char=2094|end_char=2096
+17	.	.	PUNCT	_	_	3	punct	_	start_char=2096|end_char=2097
+
+# text = Алфорд лично предлагает вознаграждение в размере 2000 долл. за информацию, которая приведет к аресту и вынесению обвинительного приговора.
+# sent_id = 21
+1	Алфорд	Алфорд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=2098|end_char=2104
+2	лично	лично	ADV	_	Degree=Pos	3	advmod	_	start_char=2105|end_char=2110
+3	предлагает	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2111|end_char=2121
+4	вознаграждение	вознаграждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=2122|end_char=2136
+5	в	в	ADP	_	_	6	case	_	start_char=2137|end_char=2138
+6	размере	размер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	start_char=2139|end_char=2146
+7	2000	2000	NUM	_	NumType=Card	8	nummod	_	start_char=2147|end_char=2151
+8	долл	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=2152|end_char=2156
+9	.	.	PUNCT	_	_	8	punct	_	start_char=2156|end_char=2157
+10	за	за	ADP	_	_	11	case	_	start_char=2158|end_char=2160
+11	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	start_char=2161|end_char=2171
+12	,	,	PUNCT	_	_	14	punct	_	start_char=2171|end_char=2172
+13	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	14	nsubj	_	start_char=2173|end_char=2180
+14	приведет	привести	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=2181|end_char=2189
+15	к	к	ADP	_	_	16	case	_	start_char=2190|end_char=2191
+16	аресту	арест	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	obl	_	start_char=2192|end_char=2198
+17	и	и	CCONJ	_	_	18	cc	_	start_char=2199|end_char=2200
+18	вынесению	вынесение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	conj	_	start_char=2201|end_char=2210
+19	обвинительного	обвинительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=2211|end_char=2225
+20	приговора	приговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=2226|end_char=2235
+21	.	.	PUNCT	_	_	3	punct	_	start_char=2235|end_char=2236
+
+# text = Всех, кто располагает информацией об этом преступлении, просят позвонить в полицию Лонг-Бич.
+# sent_id = 22
+1	Всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur|PronType=Tot	11	obj	_	start_char=2237|end_char=2241
+2	,	,	PUNCT	_	_	4	punct	_	start_char=2241|end_char=2242
+3	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	4	nsubj	_	start_char=2243|end_char=2246
+4	располагает	располагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	start_char=2247|end_char=2258
+5	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	start_char=2259|end_char=2270
+6	об	о	ADP	_	_	8	case	_	start_char=2271|end_char=2273
+7	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	start_char=2274|end_char=2278
+8	преступлении	преступление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	start_char=2279|end_char=2291
+9	,	,	PUNCT	_	_	1	punct	_	start_char=2291|end_char=2292
+10	просят	просить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2293|end_char=2299
+11	позвонить	звонить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	start_char=2300|end_char=2309
+12	в	в	ADP	_	_	13	case	_	start_char=2310|end_char=2311
+13	полицию	полиция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	start_char=2312|end_char=2319
+14	Лонг-Бич	Лонг-Бич	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	start_char=2320|end_char=2328
+15	.	.	PUNCT	_	_	10	punct	_	start_char=2328|end_char=2329
+

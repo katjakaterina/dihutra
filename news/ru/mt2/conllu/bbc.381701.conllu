@@ -1,0 +1,73 @@
+# text = Обвинение в покушении на убийство после поножовщины в ресторане Белфаста 45-летнему мужчине предъявлено обвинение в покушении на убийство после того, как в пятницу в одном из ресторанов восточного Белфаста был ранен ножом человек.
+# sent_id = 0
+1	Обвинение	обвинение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	start_char=0|end_char=9
+2	в	в	ADP	_	_	3	case	_	start_char=10|end_char=11
+3	покушении	покушение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	start_char=12|end_char=21
+4	на	на	ADP	_	_	5	case	_	start_char=22|end_char=24
+5	убийство	убийство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	start_char=25|end_char=33
+6	после	после	ADP	_	_	7	case	_	start_char=34|end_char=39
+7	поножовщины	поножовщина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=40|end_char=51
+8	в	в	ADP	_	_	9	case	_	start_char=52|end_char=53
+9	ресторане	ресторан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	start_char=54|end_char=63
+10	Белфаста	Белфаст	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=64|end_char=72
+11	45-летнему	45-летний	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=73|end_char=83
+12	мужчине	мужчина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	start_char=84|end_char=91
+13	предъявлено	предъявить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=92|end_char=103
+14	обвинение	обвинение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	start_char=104|end_char=113
+15	в	в	ADP	_	_	16	case	_	start_char=114|end_char=115
+16	покушении	покушение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	start_char=116|end_char=125
+17	на	на	ADP	_	_	18	case	_	start_char=126|end_char=128
+18	убийство	убийство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	start_char=129|end_char=137
+19	после	после	ADP	_	_	20	case	_	start_char=138|end_char=143
+20	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	16	nmod	_	start_char=144|end_char=148
+21	,	,	PUNCT	_	_	32	punct	_	start_char=148|end_char=149
+22	как	как	SCONJ	_	_	32	mark	_	start_char=150|end_char=153
+23	в	в	ADP	_	_	24	case	_	start_char=154|end_char=155
+24	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obl	_	start_char=156|end_char=163
+25	в	в	ADP	_	_	26	case	_	start_char=164|end_char=165
+26	одном	один	NUM	_	Case=Loc|Gender=Masc|NumType=Card	32	obl	_	start_char=166|end_char=171
+27	из	из	ADP	_	_	28	case	_	start_char=172|end_char=174
+28	ресторанов	ресторан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	start_char=175|end_char=185
+29	восточного	восточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	start_char=186|end_char=196
+30	Белфаста	Белфаст	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	start_char=197|end_char=205
+31	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	32	aux:pass	_	start_char=206|end_char=209
+32	ранен	ранить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	acl	_	start_char=210|end_char=215
+33	ножом	нож	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	start_char=216|end_char=221
+34	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj:pass	_	start_char=222|end_char=229
+35	.	.	PUNCT	_	_	13	punct	_	start_char=229|end_char=230
+
+# text = По словам полиции, инцидент произошел в Баллихакаморе.
+# sent_id = 1
+1	По	по	ADP	_	_	2	case	_	start_char=231|end_char=233
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	6	parataxis	_	start_char=234|end_char=240
+3	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=241|end_char=248
+4	,	,	PUNCT	_	_	2	punct	_	start_char=248|end_char=249
+5	инцидент	инцидент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=250|end_char=258
+6	произошел	произойти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=259|end_char=268
+7	в	в	ADP	_	_	8	case	_	start_char=269|end_char=270
+8	Баллихакаморе	Баллихакамор	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=271|end_char=284
+9	.	.	PUNCT	_	_	6	punct	_	start_char=284|end_char=285
+
+# text = Ожидается, что обвиняемый предстанет перед магистратским судом Белфаста в понедельник.
+# sent_id = 2
+1	Ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=286|end_char=295
+2	,	,	PUNCT	_	_	5	punct	_	start_char=295|end_char=296
+3	что	что	SCONJ	_	_	5	mark	_	start_char=297|end_char=300
+4	обвиняемый	обвиняемый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=301|end_char=311
+5	предстанет	предстануть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	start_char=312|end_char=322
+6	перед	перед	ADP	_	_	8	case	_	start_char=323|end_char=328
+7	магистратским	магистратский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=329|end_char=342
+8	судом	суд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	start_char=343|end_char=348
+9	Белфаста	Белфаст	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=349|end_char=357
+10	в	в	ADP	_	_	11	case	_	start_char=358|end_char=359
+11	понедельник	понедельник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=360|end_char=371
+12	.	.	PUNCT	_	_	1	punct	_	start_char=371|end_char=372
+
+# text = Обвинения будут рассмотрены прокуратурой.
+# sent_id = 3
+1	Обвинения	обвинение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj:pass	_	start_char=373|end_char=382
+2	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=383|end_char=388
+3	рассмотрены	рассмотреть	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=389|end_char=400
+4	прокуратурой	прокуратура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	start_char=401|end_char=413
+5	.	.	PUNCT	_	_	3	punct	_	start_char=413|end_char=414
+

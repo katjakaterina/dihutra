@@ -1,3 +1,5 @@
+# text = Nije vrijedno novca CD je stigao u izvrsnom stanju i brzo.
+# sent_id = 0
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=0|end_char=4
 2	vrijedno	vrijedan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=5|end_char=13
 3	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	start_char=14|end_char=19
@@ -11,12 +13,16 @@
 11	brzo	brzo	ADV	Rgp	Degree=Pos	9	conj	_	start_char=53|end_char=57
 12	.	.	PUNCT	Z	_	2	punct	_	start_char=57|end_char=58
 
+# text = Roba nije vrijedna novca.
+# sent_id = 1
 1	Roba	roba	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=59|end_char=63
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=64|end_char=68
 3	vrijedna	vrijedan	ADJ	Agpmsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=69|end_char=77
 4	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	0	root	_	start_char=78|end_char=83
 5	.	.	PUNCT	Z	_	3	punct	_	start_char=83|end_char=84
 
+# text = Previše originalne priče nedostaje da bi se strpala na jedan CD.
+# sent_id = 2
 1	Previše	previše	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=85|end_char=92
 2	originalne	originalan	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=93|end_char=103
 3	priče	priča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	start_char=104|end_char=109
@@ -30,6 +36,8 @@
 11	CD	CD	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	start_char=146|end_char=148
 12	.	.	PUNCT	Z	_	4	punct	_	start_char=148|end_char=149
 
+# text = Ostavit će vam puno pitanja o tome kako je Sherlock Homes došao do svojih rezultata.
+# sent_id = 3
 1	Ostavit	ostaviti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=150|end_char=157
 2	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=158|end_char=160
 3	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	iobj	_	start_char=161|end_char=164
@@ -47,6 +55,8 @@
 15	rezultata	rezultat	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	obl	_	start_char=224|end_char=233
 16	.	.	PUNCT	Z	_	1	punct	_	start_char=233|end_char=234
 
+# text = Vaša mašta neće biti dovoljna da popunite praznine u pripovijesti.
+# sent_id = 4
 1	Vaša	vaš	DET	Ps1fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=235|end_char=239
 2	mašta	mašta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=240|end_char=245
 3	neće	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=246|end_char=250

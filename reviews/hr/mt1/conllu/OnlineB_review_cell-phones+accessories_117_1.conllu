@@ -1,3 +1,5 @@
+# text = Prestao raditi nakon 1 1/2 mjeseca..
+# sent_id = 0
 1	Prestao	prestati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=7
 2	raditi	raditi	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=8|end_char=14
 3	nakon	nakon	ADP	Sg	Case=Gen	6	case	_	start_char=15|end_char=20
@@ -7,6 +9,8 @@
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=34|end_char=35
 8	.	.	PUNCT	Z	_	1	punct	_	start_char=35|end_char=36
 
+# text = Ova je stvar radila dobro kad je stvarno funkcionirala, ali danas je prestala raditi i prošao sam rok od 30 dana za vraćanje za 10 dana više ili manje.
+# sent_id = 1
 1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=37|end_char=40
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=41|end_char=43
 3	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=44|end_char=49
@@ -39,6 +43,8 @@
 30	manje	malo	ADV	Rgc	Degree=Cmp	28	conj	_	start_char=182|end_char=187
 31	.	.	PUNCT	Z	_	4	punct	_	start_char=187|end_char=188
 
+# text = Pretpostavljam da kvaliteta možda nije dobra jer je to razlog zašto je prestala raditi, tko zna ..
+# sent_id = 2
 1	Pretpostavljam	pretpostavljati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=189|end_char=203
 2	da	da	SCONJ	Cs	_	6	mark	_	start_char=204|end_char=206
 3	kvaliteta	kvaliteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=207|end_char=216
@@ -58,6 +64,8 @@
 17	zna	znati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	start_char=281|end_char=284
 18	..	..	NOUN	Y	_	1	punct	_	start_char=285|end_char=287
 
+# text = Kakvo bacanje novca.
+# sent_id = 3
 1	Kakvo	kakav	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Int,Rel	0	root	_	start_char=288|end_char=293
 2	bacanje	bacanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	start_char=294|end_char=301
 3	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=302|end_char=307

@@ -1,3 +1,5 @@
+# text = Budi oprezan Kupio sam 2 od ovoga i prvo pokušao testirati ...
+# sent_id = 0
 1	Budi	budi	INTJ	I	_	3	discourse	_	start_char=0|end_char=4
 2	oprezan	oprezan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	advmod	_	start_char=5|end_char=12
 3	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=13|end_char=18
@@ -12,6 +14,8 @@
 12	..	..	NOUN	Y	_	11	obj	_	start_char=59|end_char=61
 13	.	.	PUNCT	Z	_	3	punct	_	start_char=61|end_char=62
 
+# text = nakon nekoliko minuta punjenja, bio je vruć.
+# sent_id = 1
 1	nakon	nakon	ADP	Sg	Case=Gen	3	case	_	start_char=63|end_char=68
 2	nekoliko	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	3	advmod	_	start_char=69|end_char=77
 3	minuta	minuta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	8	obl	_	start_char=78|end_char=84
@@ -22,6 +26,8 @@
 8	vruć	vruć	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=102|end_char=106
 9	.	.	PUNCT	Z	_	8	punct	_	start_char=106|end_char=107
 
+# text = Izvukao sam ga i proizvod je zaudarao na spaljeno.
+# sent_id = 2
 1	Izvukao	izvući	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=108|end_char=115
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=116|end_char=119
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	start_char=120|end_char=122
@@ -33,6 +39,8 @@
 9	spaljeno	spaliti	ADJ	Appnsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	7	obl	_	start_char=149|end_char=157
 10	.	.	PUNCT	Z	_	1	punct	_	start_char=157|end_char=158
 
+# text = Probao i drugi i ista stvar.
+# sent_id = 3
 1	Probao	probati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=159|end_char=165
 2	i	i	CCONJ	Cc	_	6	discourse	_	start_char=166|end_char=167
 3	drugi	drugi	ADJ	Mlomsn	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=168|end_char=173
@@ -41,6 +49,8 @@
 6	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	start_char=181|end_char=186
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=186|end_char=187
 
+# text = Budite oprezni... ovo bi moglo predstavljati opasnost od požara ili potencijalno uništiti električni sustav
+# sent_id = 4
 1	Budite	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	xcomp	_	start_char=188|end_char=194
 2	oprezni	oprezan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	xcomp	_	start_char=195|end_char=202
 3	...	...	PUNCT	Z	_	1	punct	_	start_char=202|end_char=205

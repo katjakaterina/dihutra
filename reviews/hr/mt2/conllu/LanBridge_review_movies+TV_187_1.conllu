@@ -1,8 +1,12 @@
+# text = Golotinja nije potrebna!
+# sent_id = 0
 1	Golotinja	golotinja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=9
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=10|end_char=14
 3	potrebna	potreban	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=15|end_char=23
 4	!	!	PUNCT	Z	_	3	punct	_	start_char=23|end_char=24
 
+# text = Gluma je bila dobra, priča korektna, ali gole stražnje strane nisu bile potrebne.
+# sent_id = 1
 1	Gluma	gluma	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=25|end_char=30
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=31|end_char=33
 3	bila	biti	AUX	Vap-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=34|end_char=38
@@ -20,6 +24,8 @@
 15	potrebne	potreban	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	conj	_	start_char=97|end_char=105
 16	.	.	PUNCT	Z	_	4	punct	_	start_char=105|end_char=106
 
+# text = Također Potipherova supruga nije trebala biti tako vrlo zavodljiva prema golom Josipu.
+# sent_id = 2
 1	Također	također	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=107|end_char=114
 2	Potipherova	Potipherov	ADJ	Aspfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	3	amod	_	start_char=115|end_char=126
 3	supruga	suprug	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=127|end_char=134
@@ -34,11 +40,15 @@
 12	Josipu	Josip	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	start_char=186|end_char=192
 13	.	.	PUNCT	Z	_	5	punct	_	start_char=192|end_char=193
 
+# text = Nije kršćanski film.
+# sent_id = 3
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=194|end_char=198
 2	kršćanski	kršćanski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=199|end_char=208
 3	film	film	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=209|end_char=213
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=213|end_char=214
 
+# text = Smatrao sam da iako je vjerojatno prikazano istinito, kršćani ne moraju vidjeti tako eksplicitnu scenu.
+# sent_id = 4
 1	Smatrao	smatrati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=215|end_char=222
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=223|end_char=226
 3	da	da	SCONJ	Cs	_	12	mark	_	start_char=227|end_char=229
@@ -57,6 +67,8 @@
 16	scenu	scena	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=312|end_char=317
 17	.	.	PUNCT	Z	_	1	punct	_	start_char=317|end_char=318
 
+# text = Ovo bi trebalo biti ocijenjeno najmanje PG 13.
+# sent_id = 5
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=319|end_char=322
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=323|end_char=325
 3	trebalo	trebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=326|end_char=333

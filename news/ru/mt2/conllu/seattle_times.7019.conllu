@@ -1,0 +1,160 @@
+# text = Нэнси Пелоси - тема книги дочери Кристин Пелоси Предстоящая книга о спикере Палаты представителей Нэнси Пелоси написана человеком, который хорошо ее знает, - дочерью Кристин Пелоси.
+# sent_id = 0
+1	Нэнси	Нэнси	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	start_char=0|end_char=5
+2	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=6|end_char=12
+3	-	-	PUNCT	_	_	4	punct	_	start_char=13|end_char=14
+4	тема	тема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=15|end_char=19
+5	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=20|end_char=25
+6	дочери	дочь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=26|end_char=32
+7	Кристин	Кристин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	appos	_	start_char=33|end_char=40
+8	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	7	flat:name	_	start_char=41|end_char=47
+9	Предстоящая	предстоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=48|end_char=59
+10	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	appos	_	start_char=60|end_char=65
+11	о	о	ADP	_	_	12	case	_	start_char=66|end_char=67
+12	спикере	спикер	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	start_char=68|end_char=75
+13	Палаты	Палата	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=76|end_char=82
+14	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=83|end_char=97
+15	Нэнси	Нэнси	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	start_char=98|end_char=103
+16	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	15	flat:name	_	start_char=104|end_char=110
+17	написана	писать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=111|end_char=119
+18	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	start_char=120|end_char=129
+19	,	,	PUNCT	_	_	23	punct	_	start_char=129|end_char=130
+20	который	который	PRON	_	Case=Nom|PronType=Int,Rel	23	nsubj	_	start_char=131|end_char=138
+21	хорошо	хорошо	ADV	_	Degree=Pos	23	advmod	_	start_char=139|end_char=145
+22	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	start_char=146|end_char=148
+23	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	start_char=149|end_char=154
+24	,	,	PUNCT	_	_	26	punct	_	start_char=154|end_char=155
+25	-	-	PUNCT	_	_	26	punct	_	start_char=156|end_char=157
+26	дочерью	дочь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	18	conj	_	start_char=158|end_char=165
+27	Кристин	Кристин	PROPN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	26	appos	_	start_char=166|end_char=173
+28	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	27	flat:name	_	start_char=174|end_char=180
+29	.	.	PUNCT	_	_	17	punct	_	start_char=180|end_char=181
+
+# text = Книга "Путь Нэнси Пелоси" выйдет 26 ноября, сообщило в четверг издательство Skyhorse Publishing.
+# sent_id = 1
+1	Книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=182|end_char=187
+2	"	"	PUNCT	_	_	3	punct	_	start_char=188|end_char=189
+3	Путь	путь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=189|end_char=193
+4	Нэнси	Нэнси	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=194|end_char=199
+5	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	4	flat:name	_	start_char=200|end_char=206
+6	"	"	PUNCT	_	_	3	punct	_	start_char=206|end_char=207
+7	выйдет	выйти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=208|end_char=214
+8	26	26	NUM	_	NumType=Card	7	obl	_	start_char=215|end_char=217
+9	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	flat	_	start_char=218|end_char=224
+10	,	,	PUNCT	_	_	11	punct	_	start_char=224|end_char=225
+11	сообщило	сообщить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	start_char=226|end_char=234
+12	в	в	ADP	_	_	13	case	_	start_char=235|end_char=236
+13	четверг	четверг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=237|end_char=244
+14	издательство	издательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=245|end_char=257
+15	Skyhorse	Skyhorse	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=258|end_char=266
+16	Publishing	Publishing	PROPN	_	Foreign=Yes	14	flat:foreign	_	start_char=267|end_char=277
+17	.	.	PUNCT	_	_	7	punct	_	start_char=277|end_char=278
+
+# text = В книге Кристин Пелоси рассказывается о том, как мать пятерых детей стала первой женщиной-спикером палаты представителей, а также о ее нынешнем руководстве демократами палаты представителей в период правления Трампа.
+# sent_id = 2
+1	В	в	ADP	_	_	2	case	_	start_char=279|end_char=280
+2	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=281|end_char=286
+3	Кристин	Кристин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=287|end_char=294
+4	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	flat:name	_	start_char=295|end_char=301
+5	рассказывается	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	start_char=302|end_char=316
+6	о	о	ADP	_	_	7	case	_	start_char=317|end_char=318
+7	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	start_char=319|end_char=322
+8	,	,	PUNCT	_	_	13	punct	_	start_char=322|end_char=323
+9	как	как	SCONJ	_	_	13	mark	_	start_char=324|end_char=327
+10	мать	мать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	start_char=328|end_char=332
+11	пятерых	пятеро	NUM	_	Case=Gen|NumType=Card	12	nummod	_	start_char=333|end_char=340
+12	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=341|end_char=346
+13	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	acl	_	start_char=347|end_char=352
+14	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=353|end_char=359
+15	женщиной	женщина	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	start_char=360|end_char=368
+16	-	-	PUNCT	_	_	17	punct	_	start_char=368|end_char=369
+17	спикером	спикер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	appos	_	start_char=369|end_char=377
+18	палаты	палата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=378|end_char=384
+19	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	start_char=385|end_char=399
+20	,	,	PUNCT	_	_	26	punct	_	start_char=399|end_char=400
+21	а	а	CCONJ	_	_	26	cc	_	start_char=401|end_char=402
+22	также	также	PART	_	_	21	fixed	_	start_char=403|end_char=408
+23	о	о	ADP	_	_	26	case	_	start_char=409|end_char=410
+24	ее	ее	DET	_	Poss=Yes|PronType=Prs	26	det	_	start_char=411|end_char=413
+25	нынешнем	нынешний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	start_char=414|end_char=422
+26	руководстве	руководство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	conj	_	start_char=423|end_char=434
+27	демократами	демократ	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	26	nmod	_	start_char=435|end_char=446
+28	палаты	палата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	start_char=447|end_char=453
+29	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	start_char=454|end_char=468
+30	в	в	ADP	_	_	31	case	_	start_char=469|end_char=470
+31	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	start_char=471|end_char=477
+32	правления	правление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	nmod	_	start_char=478|end_char=487
+33	Трампа	Трамп	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	start_char=488|end_char=494
+34	.	.	PUNCT	_	_	5	punct	_	start_char=494|end_char=495
+
+# text = По словам представителей издательства Skyhorse, в книге Кристин Пелоси будет переплетен "профессиональный и личный опыт" ее матери.
+# sent_id = 3
+1	По	по	ADP	_	_	2	case	_	start_char=496|end_char=498
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	parataxis	_	start_char=499|end_char=505
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=506|end_char=520
+4	издательства	издательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	start_char=521|end_char=533
+5	Skyhorse	Skyhorse	PROPN	_	Foreign=Yes	4	flat:foreign	_	start_char=534|end_char=542
+6	,	,	PUNCT	_	_	2	punct	_	start_char=542|end_char=543
+7	в	в	ADP	_	_	8	case	_	start_char=544|end_char=545
+8	книге	книга	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	start_char=546|end_char=551
+9	Кристин	Кристин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=552|end_char=559
+10	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	9	flat:name	_	start_char=560|end_char=566
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux:pass	_	start_char=567|end_char=572
+12	переплетен	переплести	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=573|end_char=583
+13	"	"	PUNCT	_	_	17	punct	_	start_char=584|end_char=585
+14	профессиональный	профессиональный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=585|end_char=601
+15	и	и	CCONJ	_	_	16	cc	_	start_char=602|end_char=603
+16	личный	личный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	conj	_	start_char=604|end_char=610
+17	опыт	опыт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	start_char=611|end_char=615
+18	"	"	PUNCT	_	_	17	punct	_	start_char=615|end_char=616
+19	ее	ее	DET	_	Poss=Yes|PronType=Prs	20	det	_	start_char=617|end_char=619
+20	матери	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=620|end_char=626
+21	.	.	PUNCT	_	_	12	punct	_	start_char=626|end_char=627
+
+# text = Кристин Пелоси - стратег Демократической партии, автор книг "Campaign Boot Camp" и "Campaign Boot Camp 2.0".
+# sent_id = 4
+1	Кристин	Кристин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=628|end_char=635
+2	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=636|end_char=642
+3	-	-	PUNCT	_	_	1	punct	_	start_char=643|end_char=644
+4	стратег	стратега	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=645|end_char=652
+5	Демократической	демократический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=653|end_char=668
+6	партии	партия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=669|end_char=675
+7	,	,	PUNCT	_	_	8	punct	_	start_char=675|end_char=676
+8	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	start_char=677|end_char=682
+9	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=683|end_char=687
+10	"	"	PUNCT	_	_	11	punct	_	start_char=688|end_char=689
+11	Campaign	Campaign	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=689|end_char=697
+12	Boot	Boot	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=698|end_char=702
+13	Camp	Camp	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=703|end_char=707
+14	"	"	PUNCT	_	_	13	punct	_	start_char=707|end_char=708
+15	и	и	CCONJ	_	_	9	cc	_	start_char=709|end_char=710
+16	"	"	PUNCT	_	_	17	punct	_	start_char=711|end_char=712
+17	Campaign	Campaign	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=712|end_char=720
+18	Boot	Boot	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=721|end_char=725
+19	Camp	Camp	PROPN	_	Foreign=Yes	9	flat:foreign	_	start_char=726|end_char=730
+20	2.0	2.0	NUM	_	NumType=Card	9	flat:foreign	_	start_char=731|end_char=734
+21	"	"	PUNCT	_	_	20	punct	_	start_char=734|end_char=735
+22	.	.	PUNCT	_	_	4	punct	_	start_char=735|end_char=736
+
+# text = Сестра Пелоси, Александра Пелоси, - кинорежиссер и журналист, снявшая несколько документальных фильмов о современной политике.
+# sent_id = 5
+1	Сестра	сестра	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=737|end_char=743
+2	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=744|end_char=750
+3	,	,	PUNCT	_	_	4	punct	_	start_char=750|end_char=751
+4	Александра	Александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	start_char=752|end_char=762
+5	Пелоси	Пелось	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	flat:name	_	start_char=763|end_char=769
+6	,	,	PUNCT	_	_	5	punct	_	start_char=769|end_char=770
+7	-	-	PUNCT	_	_	1	punct	_	start_char=771|end_char=772
+8	кинорежиссер	кинорежиссер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=773|end_char=785
+9	и	и	CCONJ	_	_	10	cc	_	start_char=786|end_char=787
+10	журналист	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	start_char=788|end_char=797
+11	,	,	PUNCT	_	_	12	punct	_	start_char=797|end_char=798
+12	снявшая	снять	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=799|end_char=806
+13	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	15	nummod	_	start_char=807|end_char=816
+14	документальных	документальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	start_char=817|end_char=831
+15	фильмов	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	start_char=832|end_char=839
+16	о	о	ADP	_	_	18	case	_	start_char=840|end_char=841
+17	современной	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	start_char=842|end_char=853
+18	политике	политика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	start_char=854|end_char=862
+19	.	.	PUNCT	_	_	8	punct	_	start_char=862|end_char=863
+

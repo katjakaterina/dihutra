@@ -1,3 +1,5 @@
+# text = Ovo bi trebalo imati svako dijete!
+# sent_id = 0
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=3
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	start_char=4|end_char=6
 3	trebalo	trebati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=7|end_char=14
@@ -6,6 +8,8 @@
 6	dijete	dijete	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=27|end_char=33
 7	!	!	PUNCT	Z	_	3	punct	_	start_char=33|end_char=34
 
+# text = Kupili smo Melissa & Doug magnete i napravili neke i otišli tražiti ploču.
+# sent_id = 1
 1	Kupili	kupiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=35|end_char=41
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=42|end_char=45
 3	Melissa	Melissa	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=46|end_char=53
@@ -21,6 +25,8 @@
 13	ploču	ploča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=103|end_char=108
 14	.	.	PUNCT	Z	_	1	punct	_	start_char=108|end_char=109
 
+# text = TO JE TO! Tako je razuman i koristi se otkad smo ga primili.
+# sent_id = 2
 1	TO	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=110|end_char=112
 2	JE	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=113|end_char=115
 3	TO	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	start_char=116|end_char=118
@@ -37,6 +43,8 @@
 14	primili	primiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	_	start_char=162|end_char=169
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=169|end_char=170
 
+# text = Možete sricati riječi, staviti Leap Frog bazu na nju da unesete slova/životinje, brojeve itd.
+# sent_id = 3
 1	Možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=171|end_char=177
 2	sricati	sricati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=178|end_char=185
 3	riječi	riječ	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=186|end_char=192
@@ -55,11 +63,15 @@
 16	itd	itd	PUNCT	Z	_	1	punct	_	start_char=260|end_char=263
 17	.	.	PUNCT	Z	_	1	punct	_	start_char=263|end_char=264
 
+# text = Također je dvostrana.
+# sent_id = 4
 1	Također	također	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=265|end_char=272
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=273|end_char=275
 3	dvostrana	dvostran	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=276|end_char=285
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=285|end_char=286
 
+# text = Iako nije namijenjeno, oni također vole stavljati stvari ispod/unutar ploče.
+# sent_id = 5
 1	Iako	iako	SCONJ	Cs	_	3	mark	_	start_char=287|end_char=291
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=292|end_char=296
 3	namijenjeno	namijeniti	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	start_char=297|end_char=308
@@ -73,6 +85,8 @@
 11	ploče	ploča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=357|end_char=362
 12	.	.	PUNCT	Z	_	7	punct	_	start_char=362|end_char=363
 
+# text = Mogu prevrtati stvari kroz njega.
+# sent_id = 6
 1	Mogu	moći	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=364|end_char=368
 2	prevrtati	prevrtati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=369|end_char=378
 3	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=379|end_char=385
@@ -80,6 +94,8 @@
 5	njega	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obl	_	start_char=391|end_char=396
 6	.	.	PUNCT	Z	_	1	punct	_	start_char=396|end_char=397
 
+# text = Toplo preporučam i svako bi dijete trebalo imati jedan na koji će staviti svoje magnete.
+# sent_id = 7
 1	Toplo	toplo	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=398|end_char=403
 2	preporučam	preporučati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=404|end_char=414
 3	i	i	CCONJ	Cc	_	7	cc	_	start_char=415|end_char=416

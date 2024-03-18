@@ -1,0 +1,174 @@
+# text = Леброн дебютирует в составе "Лейкерс" в воскресенье в Сан-Диего Почти закончилось ожидание болельщиков, которые хотят увидеть, как Леброн Джеймс впервые выйдет на площадку в составе "Лос-Анджелес Лейкерс".
+# sent_id = 0
+1	Леброн	Леброн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=6
+2	дебютирует	дебютировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=17
+3	в	в	ADP	_	_	4	case	_	start_char=18|end_char=19
+4	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=20|end_char=27
+5	"	"	PUNCT	_	_	6	punct	_	start_char=28|end_char=29
+6	Лейкерс	Лейкерс	PROPN	_	_	4	nmod	_	start_char=29|end_char=36
+7	"	"	PUNCT	_	_	6	punct	_	start_char=36|end_char=37
+8	в	в	ADP	_	_	9	case	_	start_char=38|end_char=39
+9	воскресенье	воскресенье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=40|end_char=51
+10	в	в	ADP	_	_	11	case	_	start_char=52|end_char=53
+11	Сан-Диего	Сан-Дий	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	start_char=54|end_char=63
+12	Почти	почти	ADV	_	Degree=Pos	13	advmod	_	start_char=64|end_char=69
+13	закончилось	закончиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=70|end_char=81
+14	ожидание	ожидание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	start_char=82|end_char=90
+15	болельщиков	болельщик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	start_char=91|end_char=102
+16	,	,	PUNCT	_	_	18	punct	_	start_char=102|end_char=103
+17	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	18	nsubj	_	start_char=104|end_char=111
+18	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	start_char=112|end_char=117
+19	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	start_char=118|end_char=125
+20	,	,	PUNCT	_	_	25	punct	_	start_char=125|end_char=126
+21	как	как	SCONJ	_	_	25	mark	_	start_char=127|end_char=130
+22	Леброн	Леброн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	start_char=131|end_char=137
+23	Джеймс	Джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	start_char=138|end_char=144
+24	впервые	впервые	ADV	_	Degree=Pos	25	advmod	_	start_char=145|end_char=152
+25	выйдет	выйти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	ccomp	_	start_char=153|end_char=159
+26	на	на	ADP	_	_	27	case	_	start_char=160|end_char=162
+27	площадку	площадка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obl	_	start_char=163|end_char=171
+28	в	в	ADP	_	_	29	case	_	start_char=172|end_char=173
+29	составе	состав	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	obl	_	start_char=174|end_char=181
+30	"	"	PUNCT	_	_	31	punct	_	start_char=182|end_char=183
+31	Лос-Анджелес	Лос-Анджелес	PROPN	_	_	29	nmod	_	start_char=183|end_char=195
+32	Лейкерс	Лейкерс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	appos	_	start_char=196|end_char=203
+33	"	"	PUNCT	_	_	31	punct	_	start_char=203|end_char=204
+34	.	.	PUNCT	_	_	2	punct	_	start_char=204|end_char=205
+
+# text = Тренер "Лейкерс" Люк Уолтон объявил, что Джеймс сыграет в воскресном предсезонном матче против "Денвер Наггетс" в Сан-Диего.
+# sent_id = 1
+1	Тренер	тренер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=206|end_char=212
+2	"	"	PUNCT	_	_	3	punct	_	start_char=213|end_char=214
+3	Лейкерс	Лейкерс	PROPN	_	_	1	nmod	_	start_char=214|end_char=221
+4	"	"	PUNCT	_	_	3	punct	_	start_char=221|end_char=222
+5	Люк	Люк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=223|end_char=226
+6	Уолтон	Уолтон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	start_char=227|end_char=233
+7	объявил	объявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=234|end_char=241
+8	,	,	PUNCT	_	_	11	punct	_	start_char=241|end_char=242
+9	что	что	SCONJ	_	_	11	mark	_	start_char=243|end_char=246
+10	Джеймс	Джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=247|end_char=253
+11	сыграет	сыграть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=254|end_char=261
+12	в	в	ADP	_	_	15	case	_	start_char=262|end_char=263
+13	воскресном	воскресный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=264|end_char=274
+14	предсезонном	предсезонный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=275|end_char=287
+15	матче	матч	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	start_char=288|end_char=293
+16	против	против	ADP	_	_	18	case	_	start_char=294|end_char=300
+17	"	"	PUNCT	_	_	18	punct	_	start_char=301|end_char=302
+18	Денвер	Денвер	PROPN	_	_	15	nmod	_	start_char=302|end_char=308
+19	Наггетс	Наггетс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	start_char=309|end_char=316
+20	"	"	PUNCT	_	_	18	punct	_	start_char=316|end_char=317
+21	в	в	ADP	_	_	22	case	_	start_char=318|end_char=319
+22	Сан-Диего	Сан-Дий	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	start_char=320|end_char=329
+23	.	.	PUNCT	_	_	7	punct	_	start_char=329|end_char=330
+
+# text = Но сколько минут он проведет в игре, пока не определено.
+# sent_id = 2
+1	Но	но	CCONJ	_	_	11	cc	_	start_char=331|end_char=333
+2	сколько	сколько	NUM	_	Case=Acc|NumType=Card	3	nummod:gov	_	start_char=334|end_char=341
+3	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	start_char=342|end_char=347
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	start_char=348|end_char=350
+5	проведет	провести	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	advcl	_	start_char=351|end_char=359
+6	в	в	ADP	_	_	7	case	_	start_char=360|end_char=361
+7	игре	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	start_char=362|end_char=366
+8	,	,	PUNCT	_	_	5	punct	_	start_char=366|end_char=367
+9	пока	пока	ADV	_	Degree=Pos	11	advmod	_	start_char=368|end_char=372
+10	не	не	PART	_	_	11	advmod	_	start_char=373|end_char=375
+11	определено	определить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=376|end_char=386
+12	.	.	PUNCT	_	_	11	punct	_	start_char=386|end_char=387
+
+# text = "Это будет больше, чем один, и меньше, чем 48", - сказал Уолтон на официальном сайте "Лейкерс".
+# sent_id = 3
+1	"	"	PUNCT	_	_	4	punct	_	start_char=388|end_char=389
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=389|end_char=392
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=393|end_char=398
+4	больше	больше	ADV	_	Degree=Cmp	0	root	_	start_char=399|end_char=405
+5	,	,	PUNCT	_	_	7	punct	_	start_char=405|end_char=406
+6	чем	чем	SCONJ	_	_	7	mark	_	start_char=407|end_char=410
+7	один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	4	obl	_	start_char=411|end_char=415
+8	,	,	PUNCT	_	_	10	punct	_	start_char=415|end_char=416
+9	и	и	CCONJ	_	_	10	cc	_	start_char=417|end_char=418
+10	меньше	меньше	ADV	_	Degree=Cmp	4	conj	_	start_char=419|end_char=425
+11	,	,	PUNCT	_	_	13	punct	_	start_char=425|end_char=426
+12	чем	чем	SCONJ	_	_	13	mark	_	start_char=427|end_char=430
+13	48	48	NUM	_	NumType=Card	10	obl	_	start_char=431|end_char=433
+14	"	"	PUNCT	_	_	4	punct	_	start_char=433|end_char=434
+15	,	,	PUNCT	_	_	17	punct	_	start_char=434|end_char=435
+16	-	-	PUNCT	_	_	17	punct	_	start_char=436|end_char=437
+17	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=438|end_char=444
+18	Уолтон	Уолтон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=445|end_char=451
+19	на	на	ADP	_	_	21	case	_	start_char=452|end_char=454
+20	официальном	официальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=455|end_char=466
+21	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	start_char=467|end_char=472
+22	"	"	PUNCT	_	_	23	punct	_	start_char=473|end_char=474
+23	Лейкерс	Лейкерс	PROPN	_	_	21	appos	_	start_char=474|end_char=481
+24	"	"	PUNCT	_	_	23	punct	_	start_char=481|end_char=482
+25	.	.	PUNCT	_	_	4	punct	_	start_char=482|end_char=483
+
+# text = Репортер "Лейкерс" Майк Труделл написал в Твиттере, что Джеймс, скорее всего, сыграет ограниченное количество минут.
+# sent_id = 4
+1	Репортер	репортер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=484|end_char=492
+2	"	"	PUNCT	_	_	3	punct	_	start_char=493|end_char=494
+3	Лейкерс	Лейкерс	PROPN	_	_	1	appos	_	start_char=494|end_char=501
+4	"	"	PUNCT	_	_	3	punct	_	start_char=501|end_char=502
+5	Майк	Майк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=503|end_char=507
+6	Труделл	Труделл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	start_char=508|end_char=515
+7	написал	писать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=516|end_char=523
+8	в	в	ADP	_	_	9	case	_	start_char=524|end_char=525
+9	Твиттере	Твиттер	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=526|end_char=534
+10	,	,	PUNCT	_	_	17	punct	_	start_char=534|end_char=535
+11	что	что	SCONJ	_	_	17	mark	_	start_char=536|end_char=539
+12	Джеймс	Джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=540|end_char=546
+13	,	,	PUNCT	_	_	12	punct	_	start_char=546|end_char=547
+14	скорее	скорее	ADV	_	Degree=Pos	17	parataxis	_	start_char=548|end_char=554
+15	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	14	obl	_	start_char=555|end_char=560
+16	,	,	PUNCT	_	_	14	punct	_	start_char=560|end_char=561
+17	сыграет	сыграть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=562|end_char=569
+18	ограниченное	ограничить	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	amod	_	start_char=570|end_char=582
+19	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	start_char=583|end_char=593
+20	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	start_char=594|end_char=599
+21	.	.	PUNCT	_	_	7	punct	_	start_char=599|end_char=600
+
+# text = После тренировки в начале недели Джеймса спросили о его планах на шестиматчевое предсезонное расписание "Лейкерс".
+# sent_id = 5
+1	После	после	ADP	_	_	2	case	_	start_char=601|end_char=606
+2	тренировки	тренировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	start_char=607|end_char=617
+3	в	в	ADP	_	_	4	case	_	start_char=618|end_char=619
+4	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	nmod	_	start_char=620|end_char=626
+5	недели	неделя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=627|end_char=633
+6	Джеймса	Джеймс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=634|end_char=641
+7	спросили	спросить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=642|end_char=650
+8	о	о	ADP	_	_	10	case	_	start_char=651|end_char=652
+9	его	его	DET	_	Poss=Yes|PronType=Prs	10	det	_	start_char=653|end_char=656
+10	планах	план	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	start_char=657|end_char=663
+11	на	на	ADP	_	_	14	case	_	start_char=664|end_char=666
+12	шестиматчевое	шестиматчевый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=667|end_char=680
+13	предсезонное	предсезонный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=681|end_char=693
+14	расписание	расписание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	start_char=694|end_char=704
+15	"	"	PUNCT	_	_	16	punct	_	start_char=705|end_char=706
+16	Лейкерс	Лейкерс	PROPN	_	_	14	nmod	_	start_char=706|end_char=713
+17	"	"	PUNCT	_	_	16	punct	_	start_char=713|end_char=714
+18	.	.	PUNCT	_	_	7	punct	_	start_char=714|end_char=715
+
+# text = "Мне не нужны предсезонные игры на данном этапе моей карьеры, чтобы подготовиться", - сказал он.
+# sent_id = 6
+1	"	"	PUNCT	_	_	4	punct	_	start_char=716|end_char=717
+2	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	start_char=717|end_char=720
+3	не	не	PART	_	_	4	advmod	_	start_char=721|end_char=723
+4	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=724|end_char=729
+5	предсезонные	предсезонный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	start_char=730|end_char=742
+6	игры	игра	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=743|end_char=747
+7	на	на	ADP	_	_	9	case	_	start_char=748|end_char=750
+8	данном	данный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=751|end_char=757
+9	этапе	этап	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	start_char=758|end_char=763
+10	моей	мой	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=764|end_char=768
+11	карьеры	карьера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	start_char=769|end_char=776
+12	,	,	PUNCT	_	_	14	punct	_	start_char=776|end_char=777
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	start_char=778|end_char=783
+14	подготовиться	подготовиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	advcl	_	start_char=784|end_char=797
+15	"	"	PUNCT	_	_	4	punct	_	start_char=797|end_char=798
+16	,	,	PUNCT	_	_	18	punct	_	start_char=798|end_char=799
+17	-	-	PUNCT	_	_	18	punct	_	start_char=800|end_char=801
+18	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	start_char=802|end_char=808
+19	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	start_char=809|end_char=811
+20	.	.	PUNCT	_	_	4	punct	_	start_char=811|end_char=812
+

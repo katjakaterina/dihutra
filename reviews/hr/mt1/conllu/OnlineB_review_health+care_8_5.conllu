@@ -1,8 +1,12 @@
+# text = Izvrstan dizajn i funkcionalnost
+# sent_id = 0
 1	Izvrstan	izvrstan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
 2	dizajn	dizajn	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=9|end_char=15
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=16|end_char=17
 4	funkcionalnost	funkcionalnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	start_char=18|end_char=32
 
+# text = Kupili smo jedan za putovanja i pokušaje tumačenja karata bez naprezanja očiju.
+# sent_id = 1
 1	Kupili	kupiti	VERB	Vmp-pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=33|end_char=39
 2	smo	biti	AUX	Var1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=40|end_char=43
 3	jedan	jedan	NUM	Mlcmsan	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card|Number=Sing	5	nummod	_	start_char=44|end_char=49
@@ -17,6 +21,8 @@
 12	očiju	oko	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=106|end_char=111
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=111|end_char=112
 
+# text = Stvarno lijep dizajn, dobar taktilni osjećaj.
+# sent_id = 2
 1	Stvarno	stvarno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=113|end_char=120
 2	lijep	lijep	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=121|end_char=126
 3	dizajn	dizajn	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=127|end_char=133
@@ -26,6 +32,8 @@
 7	osjećaj	osjećaj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	start_char=150|end_char=157
 8	.	.	PUNCT	Z	_	3	punct	_	start_char=157|end_char=158
 
+# text = Nisam mogao otkriti gdje su baterije, poslao sam Lightwedge korisničkoj službi e-poruku i dobio sam odgovor u roku od 24 sata.
+# sent_id = 3
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=159|end_char=164
 2	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=165|end_char=170
 3	otkriti	otkriti	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=171|end_char=178
@@ -50,6 +58,8 @@
 22	sata	sat	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=280|end_char=284
 23	.	.	PUNCT	Z	_	2	punct	_	start_char=284|end_char=285
 
+# text = Ako vam treba, preporučio bih ovaj.
+# sent_id = 4
 1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=286|end_char=289
 2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=290|end_char=293
 3	treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	start_char=294|end_char=299

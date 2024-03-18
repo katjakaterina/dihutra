@@ -1,9 +1,13 @@
+# text = Jedina podloga koju koristim!
+# sent_id = 0
 1	Jedina	jedini	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=6
 2	podloga	podlog	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=7|end_char=14
 3	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	4	obj	_	start_char=15|end_char=19
 4	koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl	_	start_char=20|end_char=28
 5	!	!	PUNCT	Z	_	2	punct	_	start_char=28|end_char=29
 
+# text = Ovo više ne mogu kupiti u lokalnim trgovinama i ovo je stvarno dugotrajno i radi posao.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=30|end_char=33
 2	više	mnogo	ADV	Rgc	Degree=Cmp	4	advmod	_	start_char=34|end_char=38
 3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=39|end_char=41
@@ -22,6 +26,8 @@
 16	posao	posao	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=111|end_char=116
 17	.	.	PUNCT	Z	_	4	punct	_	start_char=116|end_char=117
 
+# text = Ne topi se na vrućini Floride i dovoljno je proziran da bude prirodan, ali ima odgovarajuću pokrivenost.
+# sent_id = 2
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=118|end_char=120
 2	topi	topiti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=121|end_char=125
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	_	start_char=126|end_char=128
@@ -42,6 +48,8 @@
 18	pokrivenost	pokrivenost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	start_char=210|end_char=221
 19	.	.	PUNCT	Z	_	2	punct	_	start_char=221|end_char=222
 
+# text = Koristim ovo već otprilike 5-6 godina.
+# sent_id = 3
 1	Koristim	koristiti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=223|end_char=231
 2	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	start_char=232|end_char=235
 3	već	već	ADV	Rgp	Degree=Pos	6	advmod	_	start_char=236|end_char=239

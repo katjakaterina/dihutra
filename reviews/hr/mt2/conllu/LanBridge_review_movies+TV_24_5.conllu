@@ -1,8 +1,12 @@
+# text = Dostojna verzija božićne pjesme
+# sent_id = 0
 1	Dostojna	dostojan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
 2	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=16
 3	božićne	božićni	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=17|end_char=24
 4	pjesme	pjesma	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=25|end_char=31
 
+# text = Ovo je klasična božićna pjesma Charlesa Dickensa s američkim obratom.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=32|end_char=35
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=36|end_char=38
 3	klasična	klasičan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=39|end_char=47
@@ -15,6 +19,8 @@
 10	obratom	obrat	ADJ	Agpfsiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	nmod	_	start_char=93|end_char=100
 11	.	.	PUNCT	Z	_	5	punct	_	start_char=100|end_char=101
 
+# text = Ova verzija dobro prikazuje posljedice povijesti i nečiju osobnu ulogu u njoj.
+# sent_id = 2
 1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=102|end_char=105
 2	verzija	verzija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=106|end_char=113
 3	dobro	dobro	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=114|end_char=119
@@ -29,6 +35,8 @@
 12	njoj	on	PRON	Pp3fsl	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nmod	_	start_char=175|end_char=179
 13	.	.	PUNCT	Z	_	4	punct	_	start_char=179|end_char=180
 
+# text = Pruža otrežnjujući pogled na izbore glavnog lika, baš kao što je to učinio original, "Božićna pjesma", ali ova verzija također pokazuje kako izbori jednog čovjeka utječu na one oko njega.
+# sent_id = 3
 1	Pruža	pružati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=181|end_char=186
 2	otrežnjujući	otrežnjivati	ADV	Rr	Tense=Pres|VerbForm=Conv	1	xcomp	_	start_char=187|end_char=199
 3	pogled	pogled	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=200|end_char=206
@@ -66,6 +74,8 @@
 35	njega	on	PRON	Pp3msg	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nmod	_	start_char=362|end_char=367
 36	.	.	PUNCT	Z	_	1	punct	_	start_char=367|end_char=368
 
+# text = Preporučujem ovaj film svima koji skupljaju različite verzije "Božićne pjesme".
+# sent_id = 4
 1	Preporučujem	preporučivati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=369|end_char=381
 2	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	start_char=382|end_char=386
 3	film	film	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=387|end_char=391

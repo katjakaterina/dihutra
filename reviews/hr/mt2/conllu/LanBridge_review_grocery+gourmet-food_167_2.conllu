@@ -1,3 +1,5 @@
+# text = Bolni grčevi s ovim......
+# sent_id = 0
 1	Bolni	bolni	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	start_char=0|end_char=5
 2	grčevi	grč	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=6|end_char=12
 3	s	sa	ADP	Si	Case=Ins	4	case	_	start_char=13|end_char=14
@@ -5,6 +7,8 @@
 5	...	...	PUNCT	Z	_	2	punct	_	start_char=19|end_char=22
 6	...	...	PUNCT	Z	_	2	punct	_	start_char=22|end_char=25
 
+# text = Majka i ja smo ovo počeli piti 1980-ih.
+# sent_id = 1
 1	Majka	majka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=26|end_char=31
 2	i	i	CCONJ	Cc	_	3	cc	_	start_char=32|end_char=33
 3	ja	ja	PRON	Pp1-sn	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	conj	_	start_char=34|end_char=36
@@ -15,6 +19,8 @@
 8	1980-ih	1980	ADJ	Mdo	NumType=Ord	7	advmod	_	start_char=57|end_char=64
 9	.	.	PUNCT	Z	_	6	punct	_	start_char=64|end_char=65
 
+# text = Prestao sam jer mi je izazivao previše bolova, malo gore od menstrualnih grčeva.
+# sent_id = 2
 1	Prestao	prestati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=66|end_char=73
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=74|end_char=77
 3	jer	jer	SCONJ	Cs	_	6	mark	_	start_char=78|end_char=81
@@ -31,6 +37,8 @@
 14	grčeva	grčev	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=139|end_char=145
 15	.	.	PUNCT	Z	_	1	punct	_	start_char=145|end_char=146
 
+# text = Biljke u ovom čaju su jake.
+# sent_id = 3
 1	Biljke	biljka	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	start_char=147|end_char=153
 2	u	u	ADP	Sl	Case=Loc	4	case	_	start_char=154|end_char=155
 3	ovom	ovaj	DET	Pd-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=156|end_char=160
@@ -39,6 +47,8 @@
 6	jake	jak	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=169|end_char=173
 7	.	.	PUNCT	Z	_	6	punct	_	start_char=173|end_char=174
 
+# text = Mislim da sam negdje pročitao gdje Senna u ovome stimulira crijeva na kontrakciju.
+# sent_id = 4
 1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=175|end_char=181
 2	da	da	SCONJ	Cs	_	5	mark	_	start_char=182|end_char=184
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=185|end_char=188
@@ -54,6 +64,8 @@
 13	kontrakciju	kontrakcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	start_char=245|end_char=256
 14	.	.	PUNCT	Z	_	1	punct	_	start_char=256|end_char=257
 
+# text = Ovo zapravo nije proizvod za mršavljenje, već više laksativ.
+# sent_id = 5
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=258|end_char=261
 2	zapravo	zapravo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=262|end_char=269
 3	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=270|end_char=274

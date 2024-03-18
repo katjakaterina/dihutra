@@ -1,6 +1,10 @@
+# text = Prevelik.
+# sent_id = 0
 1	Prevelik	prevelik	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=8
 2	.	.	PUNCT	Z	_	1	punct	_	start_char=8|end_char=9
 
+# text = Žao mi je, ove mi se ne sviđaju jer su jednostavno prevelike.
+# sent_id = 1
 1	Žao	žao	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=10|end_char=13
 2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	obj	_	start_char=14|end_char=16
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=17|end_char=19
@@ -16,11 +20,15 @@
 13	prevelike	prevelik	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	9	advcl	_	start_char=61|end_char=70
 14	.	.	PUNCT	Z	_	1	punct	_	start_char=70|end_char=71
 
+# text = Previše se ističu.
+# sent_id = 2
 1	Previše	previše	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=72|end_char=79
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=80|end_char=82
 3	ističu	isticati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=83|end_char=89
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=89|end_char=90
 
+# text = Djeluju i učinkoviti su, ali su previše izraženi.
+# sent_id = 3
 1	Djeluju	djelovati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=91|end_char=98
 2	i	i	CCONJ	Cc	_	3	cc	_	start_char=99|end_char=100
 3	učinkoviti	učinkovit	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	1	conj	_	start_char=101|end_char=111
@@ -32,6 +40,8 @@
 9	izraženi	izražen	ADJ	Appmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	1	conj	_	start_char=131|end_char=139
 10	.	.	PUNCT	Z	_	1	punct	_	start_char=139|end_char=140
 
+# text = Postoji mnogo dobrih alternativa; brtve za remen, brave za remen, otpuštanje igle i njegovo stavljanje ravno u remen za gitaru.
+# sent_id = 4
 1	Postoji	postojati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=141|end_char=148
 2	mnogo	mnogo	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=149|end_char=154
 3	dobrih	dobar	ADJ	Agpfpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=155|end_char=161
@@ -57,6 +67,8 @@
 23	gitaru	gitara	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	start_char=261|end_char=267
 24	.	.	PUNCT	Z	_	1	punct	_	start_char=267|end_char=268
 
+# text = Opet, rade, ali nisu estetski ni elegantni.
+# sent_id = 5
 1	Opet	opet	ADV	Rgp	Degree=Pos	3	discourse	_	start_char=269|end_char=273
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=273|end_char=274
 3	rade	raditi	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=275|end_char=279
@@ -68,6 +80,8 @@
 9	elegantni	elegantan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	7	conj	_	start_char=302|end_char=311
 10	.	.	PUNCT	Z	_	3	punct	_	start_char=311|end_char=312
 
+# text = Dobio sam i zlatni set za bas i sada izgleda da bih trebao nositi velike ljubičaste platforme kada sviram.
+# sent_id = 6
 1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=313|end_char=318
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=319|end_char=322
 3	i	i	CCONJ	Cc	_	5	discourse	_	start_char=323|end_char=324
@@ -89,6 +103,8 @@
 19	sviram	svirati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	start_char=412|end_char=418
 20	.	.	PUNCT	Z	_	1	punct	_	start_char=418|end_char=419
 
+# text = Nije cool.
+# sent_id = 7
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=420|end_char=424
 2	cool	cool	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=425|end_char=429
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=429|end_char=430

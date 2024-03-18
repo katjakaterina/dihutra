@@ -1,0 +1,128 @@
+# text = Нападение в Мидсомер Нортон: Четыре ареста за покушение на убийство Три подростка и 20-летний мужчина были арестованы по подозрению в покушении на убийство после того, как в Сомерсете был найден 16-летний подросток с ножевыми ранениями.
+# sent_id = 0
+1	Нападение	нападение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=9
+2	в	в	ADP	_	_	3	case	_	start_char=10|end_char=11
+3	Мидсомер	Мидсомер	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	start_char=12|end_char=20
+4	Нортон	Нортон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=21|end_char=27
+5	:	:	PUNCT	_	_	18	punct	_	start_char=27|end_char=28
+6	Четыре	четыре	NUM	_	Case=Nom|NumType=Card	7	nummod:gov	_	start_char=29|end_char=35
+7	ареста	арест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nsubj:pass	_	start_char=36|end_char=42
+8	за	за	ADP	_	_	9	case	_	start_char=43|end_char=45
+9	покушение	покушение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=46|end_char=55
+10	на	на	ADP	_	_	11	case	_	start_char=56|end_char=58
+11	убийство	убийство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	start_char=59|end_char=67
+12	Три	три	NUM	_	Case=Nom|NumType=Card	13	nummod:gov	_	start_char=68|end_char=71
+13	подростка	подросток	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=72|end_char=81
+14	и	и	CCONJ	_	_	16	cc	_	start_char=82|end_char=83
+15	20-летний	20-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=84|end_char=93
+16	мужчина	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	start_char=94|end_char=101
+17	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	aux:pass	_	start_char=102|end_char=106
+18	арестованы	арестовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	parataxis	_	start_char=107|end_char=117
+19	по	по	ADP	_	_	20	case	_	start_char=118|end_char=120
+20	подозрению	подозрение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	obl	_	start_char=121|end_char=131
+21	в	в	ADP	_	_	22	case	_	start_char=132|end_char=133
+22	покушении	покушение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	nmod	_	start_char=134|end_char=143
+23	на	на	ADP	_	_	24	case	_	start_char=144|end_char=146
+24	убийство	убийство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	start_char=147|end_char=155
+25	после	после	ADP	_	_	26	case	_	start_char=156|end_char=161
+26	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	22	nmod	_	start_char=162|end_char=166
+27	,	,	PUNCT	_	_	32	punct	_	start_char=166|end_char=167
+28	как	как	SCONJ	_	_	32	mark	_	start_char=168|end_char=171
+29	в	в	ADP	_	_	30	case	_	start_char=172|end_char=173
+30	Сомерсете	Сомерсет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	32	obl	_	start_char=174|end_char=183
+31	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	32	aux:pass	_	start_char=184|end_char=187
+32	найден	найти	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	26	acl	_	start_char=188|end_char=194
+33	16-летний	16-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	start_char=195|end_char=204
+34	подросток	подросток	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj:pass	_	start_char=205|end_char=214
+35	с	с	ADP	_	_	37	case	_	start_char=215|end_char=216
+36	ножевыми	ножевой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	37	amod	_	start_char=217|end_char=225
+37	ранениями	ранение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	34	nmod	_	start_char=226|end_char=235
+38	.	.	PUNCT	_	_	1	punct	_	start_char=235|end_char=236
+
+# text = Подросток был найден раненым в районе Excelsior Terrace города Мидсомер Нортон около 04:00 BST в субботу.
+# sent_id = 1
+1	Подросток	подросток	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=237|end_char=246
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=247|end_char=250
+3	найден	найти	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=251|end_char=257
+4	раненым	раненый	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	start_char=258|end_char=265
+5	в	в	ADP	_	_	6	case	_	start_char=266|end_char=267
+6	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=268|end_char=274
+7	Excelsior	Excelsior	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=275|end_char=284
+8	Terrace	Terrace	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=285|end_char=292
+9	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=293|end_char=299
+10	Мидсомер	Мидсомер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	start_char=300|end_char=308
+11	Нортон	Нортон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	start_char=309|end_char=315
+12	около	около	ADP	_	_	13	case	_	start_char=316|end_char=321
+13	04:	04:	NUM	_	NumType=Card	3	obl	_	start_char=322|end_char=325
+14	00	00	NUM	_	NumType=Card	13	nummod:entity	_	start_char=325|end_char=327
+15	BST	BST	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=328|end_char=331
+16	в	в	ADP	_	_	17	case	_	start_char=332|end_char=333
+17	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	start_char=334|end_char=341
+18	.	.	PUNCT	_	_	3	punct	_	start_char=341|end_char=342
+
+# text = Он был доставлен в больницу, где его состояние остается "стабильным".
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	start_char=343|end_char=345
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=346|end_char=349
+3	доставлен	доставить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=350|end_char=359
+4	в	в	ADP	_	_	5	case	_	start_char=360|end_char=361
+5	больницу	больница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=362|end_char=370
+6	,	,	PUNCT	_	_	10	punct	_	start_char=370|end_char=371
+7	где	где	ADV	_	Degree=Pos	10	advmod	_	start_char=372|end_char=375
+8	его	его	DET	_	Poss=Yes|PronType=Prs	9	det	_	start_char=376|end_char=379
+9	состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	start_char=380|end_char=389
+10	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	start_char=390|end_char=398
+11	"	"	PUNCT	_	_	12	punct	_	start_char=399|end_char=400
+12	стабильным	стабильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	10	obl	_	start_char=400|end_char=410
+13	"	"	PUNCT	_	_	12	punct	_	start_char=410|end_char=411
+14	.	.	PUNCT	_	_	3	punct	_	start_char=411|end_char=412
+
+# text = По словам представителей полиции Эйвон и Сомерсет, за ночь в районе Рэдстока были арестованы 17-летний, два 18-летних и 20-летний мужчины.
+# sent_id = 3
+1	По	по	ADP	_	_	2	case	_	start_char=413|end_char=415
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	15	parataxis	_	start_char=416|end_char=422
+3	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	start_char=423|end_char=437
+4	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=438|end_char=445
+5	Эйвон	Эйвон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=446|end_char=451
+6	и	и	CCONJ	_	_	7	cc	_	start_char=452|end_char=453
+7	Сомерсет	Сомерсет	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	start_char=454|end_char=462
+8	,	,	PUNCT	_	_	2	punct	_	start_char=462|end_char=463
+9	за	за	ADP	_	_	10	case	_	start_char=464|end_char=466
+10	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=467|end_char=471
+11	в	в	ADP	_	_	12	case	_	start_char=472|end_char=473
+12	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	start_char=474|end_char=480
+13	Рэдстока	Рэдсток	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	start_char=481|end_char=489
+14	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	start_char=490|end_char=494
+15	арестованы	арестовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=495|end_char=505
+16	17-летний	17-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=506|end_char=515
+17	,	,	PUNCT	_	_	19	punct	_	start_char=515|end_char=516
+18	два	два	NUM	_	Case=Nom|Gender=Masc|NumType=Card	19	nummod:gov	_	start_char=517|end_char=520
+19	18-летних	18-летний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	start_char=521|end_char=530
+20	и	и	CCONJ	_	_	21	cc	_	start_char=531|end_char=532
+21	20-летний	20-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	conj	_	start_char=533|end_char=542
+22	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	start_char=543|end_char=550
+23	.	.	PUNCT	_	_	15	punct	_	start_char=550|end_char=551
+
+# text = Полиция обратилась к тем, кто располагает записями с мобильных телефонов о произошедшем, с просьбой сообщить о случившемся.
+# sent_id = 4
+1	Полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=552|end_char=559
+2	обратилась	обратиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=560|end_char=570
+3	к	к	ADP	_	_	4	case	_	start_char=571|end_char=572
+4	тем	тот	DET	_	Case=Dat|Number=Plur|PronType=Dem	2	obl	_	start_char=573|end_char=576
+5	,	,	PUNCT	_	_	7	punct	_	start_char=576|end_char=577
+6	кто	кто	PRON	_	Case=Nom|PronType=Int,Rel	7	nsubj	_	start_char=578|end_char=581
+7	располагает	располагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	start_char=582|end_char=593
+8	записями	запись	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl	_	start_char=594|end_char=602
+9	с	с	ADP	_	_	11	case	_	start_char=603|end_char=604
+10	мобильных	мобильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=605|end_char=614
+11	телефонов	телефон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=615|end_char=624
+12	о	о	ADP	_	_	13	mark	_	start_char=625|end_char=626
+13	произошедшем	произойти	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	obl	_	start_char=627|end_char=639
+14	,	,	PUNCT	_	_	16	punct	_	start_char=639|end_char=640
+15	с	с	ADP	_	_	16	case	_	start_char=641|end_char=642
+16	просьбой	просьба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	start_char=643|end_char=651
+17	сообщить	сообщить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	obl	_	start_char=652|end_char=660
+18	о	о	ADP	_	_	19	mark	_	start_char=661|end_char=662
+19	случившемся	случиться	VERB	_	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	17	xcomp	_	start_char=663|end_char=674
+20	.	.	PUNCT	_	_	2	punct	_	start_char=674|end_char=675
+

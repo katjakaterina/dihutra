@@ -1,3 +1,5 @@
+# text = Lažni MAC, ne isplati se kupovati lažnu šminku!
+# sent_id = 0
 1	Lažni	lažan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
 2	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	start_char=6|end_char=9
 3	,	,	PUNCT	Z	_	2	punct	_	start_char=9|end_char=10
@@ -9,6 +11,8 @@
 9	šminku	šminka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=40|end_char=46
 10	!	!	PUNCT	Z	_	5	punct	_	start_char=46|end_char=47
 
+# text = Lažni Mac. Mac ne proizvodi ove palete, samo ih nazovite i pitajte ih.
+# sent_id = 1
 1	Lažni	lažan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=48|end_char=53
 2	Mac	Mac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=54|end_char=57
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=57|end_char=58
@@ -26,6 +30,8 @@
 15	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	start_char=115|end_char=117
 16	.	.	PUNCT	Z	_	6	punct	_	start_char=117|end_char=118
 
+# text = Pitajte bilo koju trgovinu MAc čak iu lokalnom trgovačkom centru.
+# sent_id = 2
 1	Pitajte	pitati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=119|end_char=126
 2	bilo	bilo	PART	Qo	_	3	discourse	_	start_char=127|end_char=131
 3	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	4	det	_	start_char=132|end_char=136
@@ -38,6 +44,8 @@
 10	centru	centar	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	1	obl	_	start_char=177|end_char=183
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=183|end_char=184
 
+# text = Jedan pogled na ovu sliku i oni znaju da to nije pravi MAC proizvod.
+# sent_id = 3
 1	Jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	2	nummod	_	start_char=185|end_char=190
 2	pogled	pogled	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=191|end_char=197
 3	na	na	ADP	Sa	Case=Acc	5	case	_	start_char=198|end_char=200
@@ -54,6 +62,8 @@
 14	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	ccomp	_	start_char=244|end_char=252
 15	.	.	PUNCT	Z	_	8	punct	_	start_char=252|end_char=253
 
+# text = Molimo držite se podalje od predmeta koji nisu originalni.
+# sent_id = 4
 1	Molimo	moliti	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	nsubj	_	start_char=254|end_char=260
 2	držite	držati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=261|end_char=267
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	2	expl	_	start_char=268|end_char=270

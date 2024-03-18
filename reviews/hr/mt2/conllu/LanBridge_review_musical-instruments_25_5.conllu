@@ -1,3 +1,5 @@
+# text = Dobio sam izvrsnu cijenu, ali još uvijek stvarno dobar proizvod
+# sent_id = 0
 1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=5
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=6|end_char=9
 3	izvrsnu	izvrstan	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=10|end_char=17
@@ -10,6 +12,8 @@
 10	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	start_char=49|end_char=54
 11	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=55|end_char=63
 
+# text = Kad sam tražio MIDI kabele za svoj ART X-15 nožni kontroler, naišao sam na ove Hosa, a svaki je koštao 2 dolara!
+# sent_id = 1
 1	Kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=64|end_char=67
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=68|end_char=71
 3	tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	_	start_char=72|end_char=78
@@ -36,6 +40,8 @@
 24	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	22	obl	_	start_char=169|end_char=175
 25	!	!	PUNCT	Z	_	13	punct	_	start_char=175|end_char=176
 
+# text = Kako sada koštaju 6 dolara, shvaćam da bih i dalje bio zadovoljan s tom cijenom, budući da su to plastični i metalni konektori visoke kvalitete i rade besprijekorno.
+# sent_id = 2
 1	Kako	kako	SCONJ	Cs	_	3	mark	_	start_char=177|end_char=181
 2	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	start_char=182|end_char=186
 3	koštaju	koštati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	start_char=187|end_char=194
@@ -68,6 +74,8 @@
 30	besprijekorno	besprijekorno	ADV	Rgp	Degree=Pos	29	advmod	_	start_char=328|end_char=341
 31	.	.	PUNCT	Z	_	7	punct	_	start_char=341|end_char=342
 
+# text = Morate shvatiti da su samo 5 stopa, jer sam ih precijenio i sada bih volio da su duži.
+# sent_id = 3
 1	Morate	morati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=343|end_char=349
 2	shvatiti	shvatiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=350|end_char=358
 3	da	da	SCONJ	Cs	_	4	mark	_	start_char=359|end_char=361
@@ -89,6 +97,8 @@
 19	duži	dug	ADJ	Agcmpny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Plur	16	ccomp	_	start_char=424|end_char=428
 20	.	.	PUNCT	Z	_	1	punct	_	start_char=428|end_char=429
 
+# text = Za bilo koje spajanje zvučnih modula u nosaču, ovo će biti savršeno.
+# sent_id = 4
 1	Za	za	ADP	Sa	Case=Acc	4	case	_	start_char=430|end_char=432
 2	bilo	bilo	PART	Qo	_	3	discourse	_	start_char=433|end_char=437
 3	koje	koji	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Int,Rel	4	det	_	start_char=438|end_char=442

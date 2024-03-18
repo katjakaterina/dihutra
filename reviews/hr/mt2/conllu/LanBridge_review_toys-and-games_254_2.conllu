@@ -1,9 +1,13 @@
+# text = Ova igra je dosadna.
+# sent_id = 0
 1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=0|end_char=3
 2	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=4|end_char=8
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=9|end_char=11
 4	dosadna	dosadan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=12|end_char=19
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=19|end_char=20
 
+# text = Kvaliteta dijelova je stvarno dobra.
+# sent_id = 1
 1	Kvaliteta	kvaliteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=21|end_char=30
 2	dijelova	dio	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=31|end_char=39
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=40|end_char=42
@@ -11,6 +15,8 @@
 5	dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=51|end_char=56
 6	.	.	PUNCT	Z	_	5	punct	_	start_char=56|end_char=57
 
+# text = Ali malo je interakcije između igrača i nema nikakve rime ili razloga za poteškoće čudovišta i nema načina da poboljšate svoje likove.
+# sent_id = 2
 1	Ali	ali	CCONJ	Cc	_	3	cc	_	start_char=58|end_char=61
 2	malo	malo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=62|end_char=66
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=67|end_char=69
@@ -35,6 +41,8 @@
 22	likove	lik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	20	obj	_	start_char=185|end_char=191
 23	.	.	PUNCT	Z	_	2	punct	_	start_char=191|end_char=192
 
+# text = Dakle, ako ste samo zainteresirani za zabavu sreće, ovo je igra za vas.
+# sent_id = 3
 1	Dakle	dakle	CCONJ	Cc	_	13	cc	_	start_char=193|end_char=198
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=198|end_char=199
 3	ako	ako	SCONJ	Cs	_	6	mark	_	start_char=200|end_char=203

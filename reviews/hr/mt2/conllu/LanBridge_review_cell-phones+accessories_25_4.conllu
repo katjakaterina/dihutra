@@ -1,3 +1,5 @@
+# text = Radi odlično Imam nekoliko punjača.
+# sent_id = 0
 1	Radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	odlično	odlično	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=5|end_char=12
 3	Imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	start_char=13|end_char=17
@@ -5,6 +7,8 @@
 5	punjača	punjača	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	3	obj	_	start_char=27|end_char=34
 6	.	.	PUNCT	Z	_	1	punct	_	start_char=34|end_char=35
 
+# text = Imati više od jednog vozila pa držim više od jednog u svakom.
+# sent_id = 1
 1	Imati	imati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=36|end_char=41
 2	više	mnogo	ADV	Rgc	Degree=Cmp	5	advmod	_	start_char=42|end_char=46
 3	od	od	ADP	Sg	Case=Gen	5	case	_	start_char=47|end_char=49
@@ -19,6 +23,8 @@
 12	svakom	svaki	DET	Pi-msl	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot	10	nmod	_	start_char=90|end_char=96
 13	.	.	PUNCT	Z	_	1	punct	_	start_char=96|end_char=97
 
+# text = Ništa frustrirajuće od toga da iznenada jedan prestane raditi, a vi nemate načina da napunite svoj telefon.
+# sent_id = 2
 1	Ništa	ništa	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Neg	0	root	_	start_char=98|end_char=103
 2	frustrirajuće	frustrirajuće	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=104|end_char=117
 3	od	od	ADP	Sg	Case=Gen	4	case	_	start_char=118|end_char=120
@@ -39,6 +45,8 @@
 18	telefon	telefon	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	start_char=197|end_char=204
 19	.	.	PUNCT	Z	_	1	punct	_	start_char=204|end_char=205
 
+# text = To je uvijek kada vam je najpotrebnije.
+# sent_id = 3
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=206|end_char=208
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=209|end_char=211
 3	uvijek	uvijek	ADV	Rgp	Degree=Pos|PronType=Tot	2	advmod	_	start_char=212|end_char=218
@@ -48,6 +56,8 @@
 7	najpotrebnije	potreban	ADJ	Agsnsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Neut|Number=Sing	3	advcl	_	start_char=231|end_char=244
 8	.	.	PUNCT	Z	_	2	punct	_	start_char=244|end_char=245
 
+# text = Ovaj dobro radi za sve moje proizvode.
+# sent_id = 4
 1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	start_char=246|end_char=250
 2	dobro	dobro	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=251|end_char=256
 3	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=257|end_char=261

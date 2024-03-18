@@ -1,9 +1,13 @@
+# text = Baš ono što sam tražio
+# sent_id = 0
 1	Baš	baš	PART	Qo	_	2	discourse	_	start_char=0|end_char=3
 2	ono	on	PRON	Pp3nsn	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	start_char=4|end_char=7
 3	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	5	obj	_	start_char=8|end_char=11
 4	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=12|end_char=15
 5	tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	start_char=16|end_char=22
 
+# text = Ovo povećalo je upravo ono što sam tražio.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	start_char=23|end_char=26
 2	povećalo	povećalo	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=27|end_char=35
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=36|end_char=38
@@ -14,6 +18,8 @@
 8	tražio	tražiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=58|end_char=64
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=64|end_char=65
 
+# text = Mali je i lako ga je držati.
+# sent_id = 2
 1	Mali	mali	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=66|end_char=70
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=71|end_char=73
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=74|end_char=75
@@ -23,6 +29,8 @@
 7	držati	držati	VERB	Vmn	VerbForm=Inf	4	nsubj	_	start_char=87|end_char=93
 8	.	.	PUNCT	Z	_	1	punct	_	start_char=93|end_char=94
 
+# text = Htio sam nešto za čitanje malih brojeva/znakova na elektroničkim stvarima poput računala, elektronike itd.
+# sent_id = 3
 1	Htio	htjeti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=95|end_char=99
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=100|end_char=103
 3	nešto	nešto	PRON	Pi3n-a	Case=Acc|Gender=Neut|PronType=Ind	1	obj	_	start_char=104|end_char=109
@@ -40,6 +48,8 @@
 15	itd	itd	NOUN	Ncfsg	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=197|end_char=200
 16	.	.	PUNCT	Z	_	1	punct	_	start_char=200|end_char=201
 
+# text = Također radim na unutrašnjosti računala i ovo je super za vidjeti male stvari.
+# sent_id = 4
 1	Također	također	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=202|end_char=209
 2	radim	raditi	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=210|end_char=215
 3	na	na	ADP	Sl	Case=Loc	4	case	_	start_char=216|end_char=218
@@ -55,6 +65,8 @@
 13	stvari	stvar	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	start_char=273|end_char=279
 14	.	.	PUNCT	Z	_	2	punct	_	start_char=279|end_char=280
 
+# text = Ne želim uveličavati knjige ili časopise.
+# sent_id = 5
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=281|end_char=283
 2	želim	željeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=284|end_char=289
 3	uveličavati	uveličavati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=290|end_char=301
@@ -63,6 +75,8 @@
 6	časopise	časopis	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	4	conj	_	start_char=313|end_char=321
 7	.	.	PUNCT	Z	_	2	punct	_	start_char=321|end_char=322
 
+# text = Svjetlo radi dobro i čini čitanje malih stvari vrlo lakim.
+# sent_id = 6
 1	Svjetlo	svjetlo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=323|end_char=330
 2	radi	raditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=331|end_char=335
 3	dobro	dobar	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	start_char=336|end_char=341

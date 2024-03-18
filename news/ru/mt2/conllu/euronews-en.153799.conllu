@@ -1,0 +1,218 @@
+# text = Сирия "готова" к возвращению беженцев, говорит министр иностранных дел Сирия заявила, что готова к добровольному возвращению беженцев, и обратилась за помощью в восстановлении страны, разрушенной более чем семилетней войной.
+# sent_id = 0
+1	Сирия	Сирия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=0|end_char=5
+2	"	"	PUNCT	_	_	3	punct	_	start_char=6|end_char=7
+3	готова	готовый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=7|end_char=13
+4	"	"	PUNCT	_	_	3	punct	_	start_char=13|end_char=14
+5	к	к	ADP	_	_	6	case	_	start_char=15|end_char=16
+6	возвращению	возвращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	start_char=17|end_char=28
+7	беженцев	беженец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	start_char=29|end_char=37
+8	,	,	PUNCT	_	_	9	punct	_	start_char=37|end_char=38
+9	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=39|end_char=46
+10	министр	министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=47|end_char=54
+11	иностранных	иностранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=55|end_char=66
+12	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nmod	_	start_char=67|end_char=70
+13	Сирия	Сирия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	appos	_	start_char=71|end_char=76
+14	заявила	заявить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=77|end_char=84
+15	,	,	PUNCT	_	_	17	punct	_	start_char=84|end_char=85
+16	что	что	SCONJ	_	_	17	mark	_	start_char=86|end_char=89
+17	готова	готовый	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	ccomp	_	start_char=90|end_char=96
+18	к	к	ADP	_	_	20	case	_	start_char=97|end_char=98
+19	добровольному	добровольный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	start_char=99|end_char=112
+20	возвращению	возвращение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	obl	_	start_char=113|end_char=124
+21	беженцев	беженец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	start_char=125|end_char=133
+22	,	,	PUNCT	_	_	24	punct	_	start_char=133|end_char=134
+23	и	и	CCONJ	_	_	24	cc	_	start_char=135|end_char=136
+24	обратилась	обратиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=137|end_char=147
+25	за	за	ADP	_	_	26	case	_	start_char=148|end_char=150
+26	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	24	obl	_	start_char=151|end_char=158
+27	в	в	ADP	_	_	28	case	_	start_char=159|end_char=160
+28	восстановлении	восстановление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	start_char=161|end_char=175
+29	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	start_char=176|end_char=182
+30	,	,	PUNCT	_	_	31	punct	_	start_char=182|end_char=183
+31	разрушенной	разрушить	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	29	acl	_	start_char=184|end_char=195
+32	более	более	ADV	_	Degree=Cmp	34	case	_	start_char=196|end_char=201
+33	чем	чем	SCONJ	_	_	32	fixed	_	start_char=202|end_char=205
+34	семилетней	семилетний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	start_char=206|end_char=216
+35	войной	война	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	31	obl	_	start_char=217|end_char=223
+36	.	.	PUNCT	_	_	3	punct	_	start_char=223|end_char=224
+
+# text = Выступая на Генеральной Ассамблее ООН, министр иностранных дел Валид аль-Муаллем заявил, что ситуация в стране улучшается.
+# sent_id = 1
+1	Выступая	выступать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	start_char=225|end_char=233
+2	на	на	ADP	_	_	4	case	_	start_char=234|end_char=236
+3	Генеральной	генеральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=237|end_char=248
+4	Ассамблее	Ассамблее	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	start_char=249|end_char=258
+5	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=259|end_char=262
+6	,	,	PUNCT	_	_	1	punct	_	start_char=262|end_char=263
+7	министр	министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=264|end_char=271
+8	иностранных	иностранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	start_char=272|end_char=283
+9	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	start_char=284|end_char=287
+10	Валид	Валид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	start_char=288|end_char=293
+11	аль-Муаллем	аль-Муаллем	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	start_char=294|end_char=305
+12	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=306|end_char=312
+13	,	,	PUNCT	_	_	18	punct	_	start_char=312|end_char=313
+14	что	что	SCONJ	_	_	18	mark	_	start_char=314|end_char=317
+15	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=318|end_char=326
+16	в	в	ADP	_	_	17	case	_	start_char=327|end_char=328
+17	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	start_char=329|end_char=335
+18	улучшается	улучшаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	ccomp	_	start_char=336|end_char=346
+19	.	.	PUNCT	_	_	12	punct	_	start_char=346|end_char=347
+
+# text = "Сегодня ситуация на местах стала более стабильной и безопасной благодаря прогрессу, достигнутому в борьбе с терроризмом", - сказал он.
+# sent_id = 2
+1	"	"	PUNCT	_	_	6	punct	_	start_char=348|end_char=349
+2	Сегодня	сегодня	ADV	_	Degree=Pos	6	advmod	_	start_char=349|end_char=356
+3	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	start_char=357|end_char=365
+4	на	на	ADP	_	_	5	case	_	start_char=366|end_char=368
+5	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	nmod	_	start_char=369|end_char=375
+6	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=376|end_char=381
+7	более	более	ADV	_	Degree=Cmp	8	obl	_	start_char=382|end_char=387
+8	стабильной	стабильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	obl	_	start_char=388|end_char=398
+9	и	и	CCONJ	_	_	10	cc	_	start_char=399|end_char=400
+10	безопасной	безопасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	start_char=401|end_char=411
+11	благодаря	благодаря	ADP	_	_	12	case	_	start_char=412|end_char=421
+12	прогрессу	прогресс	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=422|end_char=431
+13	,	,	PUNCT	_	_	14	punct	_	start_char=431|end_char=432
+14	достигнутому	достичь	VERB	_	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	start_char=433|end_char=445
+15	в	в	ADP	_	_	16	case	_	start_char=446|end_char=447
+16	борьбе	борьба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	start_char=448|end_char=454
+17	с	с	ADP	_	_	18	case	_	start_char=455|end_char=456
+18	терроризмом	терроризм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	start_char=457|end_char=468
+19	"	"	PUNCT	_	_	6	punct	_	start_char=468|end_char=469
+20	,	,	PUNCT	_	_	22	punct	_	start_char=469|end_char=470
+21	-	-	PUNCT	_	_	22	punct	_	start_char=471|end_char=472
+22	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	parataxis	_	start_char=473|end_char=479
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	start_char=480|end_char=482
+24	.	.	PUNCT	_	_	6	punct	_	start_char=482|end_char=483
+
+# text = Правительство продолжает восстанавливать разрушенные террористами районы, чтобы вернуть нормальную жизнь.
+# sent_id = 3
+1	Правительство	правительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=484|end_char=497
+2	продолжает	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=498|end_char=508
+3	восстанавливать	восстанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=509|end_char=524
+4	разрушенные	разрушить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	start_char=525|end_char=536
+5	террористами	террорист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	start_char=537|end_char=549
+6	районы	район	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=550|end_char=556
+7	,	,	PUNCT	_	_	9	punct	_	start_char=556|end_char=557
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	start_char=558|end_char=563
+9	вернуть	вернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	advcl	_	start_char=564|end_char=571
+10	нормальную	нормальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=572|end_char=582
+11	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	start_char=583|end_char=588
+12	.	.	PUNCT	_	_	2	punct	_	start_char=588|end_char=589
+
+# text = В настоящее время имеются все условия для добровольного возвращения беженцев в страну, которую они были вынуждены покинуть из-за терроризма и односторонних экономических мер, направленных против их повседневной жизни и средств к существованию.
+# sent_id = 4
+1	В	в	ADP	_	_	4	advmod	_	start_char=590|end_char=591
+2	настоящее	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	fixed	_	start_char=592|end_char=601
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	start_char=602|end_char=607
+4	имеются	иметься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=608|end_char=615
+5	все	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	6	det	_	start_char=616|end_char=619
+6	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	start_char=620|end_char=627
+7	для	для	ADP	_	_	9	case	_	start_char=628|end_char=631
+8	добровольного	добровольный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=632|end_char=645
+9	возвращения	возвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=646|end_char=657
+10	беженцев	беженец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	start_char=658|end_char=666
+11	в	в	ADP	_	_	12	case	_	start_char=667|end_char=668
+12	страну	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	start_char=669|end_char=675
+13	,	,	PUNCT	_	_	17	punct	_	start_char=675|end_char=676
+14	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	18	obj	_	start_char=677|end_char=684
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj:pass	_	start_char=685|end_char=688
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	start_char=689|end_char=693
+17	вынуждены	вынудить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	acl:relcl	_	start_char=694|end_char=703
+18	покинуть	покинуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	start_char=704|end_char=712
+19	из-за	из-за	ADP	_	_	20	case	_	start_char=713|end_char=718
+20	терроризма	терроризм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	start_char=719|end_char=729
+21	и	и	CCONJ	_	_	24	cc	_	start_char=730|end_char=731
+22	односторонних	односторонний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	start_char=732|end_char=745
+23	экономических	экономический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	24	amod	_	start_char=746|end_char=759
+24	мер	мера	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	conj	_	start_char=760|end_char=763
+25	,	,	PUNCT	_	_	26	punct	_	start_char=763|end_char=764
+26	направленных	направить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	start_char=765|end_char=777
+27	против	против	ADP	_	_	30	case	_	start_char=778|end_char=784
+28	их	их	DET	_	Poss=Yes|PronType=Prs	30	det	_	start_char=785|end_char=787
+29	повседневной	повседневный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	start_char=788|end_char=800
+30	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	obl	_	start_char=801|end_char=806
+31	и	и	CCONJ	_	_	32	cc	_	start_char=807|end_char=808
+32	средств	средства	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	30	conj	_	start_char=809|end_char=816
+33	к	к	ADP	_	_	34	case	_	start_char=817|end_char=818
+34	существованию	существование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	32	nmod	_	start_char=819|end_char=832
+35	.	.	PUNCT	_	_	4	punct	_	start_char=832|end_char=833
+
+# text = По оценкам ООН, с начала войны в 2011 году страну покинули более 5,5 млн. сирийцев.
+# sent_id = 5
+1	По	по	ADP	_	_	2	case	_	start_char=834|end_char=836
+2	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	parataxis	_	start_char=837|end_char=844
+3	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	start_char=845|end_char=848
+4	,	,	PUNCT	_	_	2	punct	_	start_char=848|end_char=849
+5	с	с	ADP	_	_	6	case	_	start_char=850|end_char=851
+6	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	start_char=852|end_char=858
+7	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	start_char=859|end_char=864
+8	в	в	ADP	_	_	10	case	_	start_char=865|end_char=866
+9	2011	2011	ADJ	_	Degree=Pos	10	amod	_	start_char=867|end_char=871
+10	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	start_char=872|end_char=876
+11	страну	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=877|end_char=883
+12	покинули	покинуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=884|end_char=892
+13	более	более	ADV	_	Degree=Cmp	12	nsubj	_	start_char=893|end_char=898
+14	5,5	5,5	NUM	_	NumType=Card	15	nummod	_	start_char=899|end_char=902
+15	млн	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nummod	_	start_char=903|end_char=906
+16	.	.	PUNCT	_	_	15	punct	_	start_char=906|end_char=907
+17	сирийцев	сириец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	start_char=908|end_char=916
+18	.	.	PUNCT	_	_	12	punct	_	start_char=916|end_char=917
+
+# text = Еще шесть миллионов человек, по-прежнему проживающих в стране, нуждаются в гуманитарной помощи.
+# sent_id = 6
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	start_char=918|end_char=921
+2	шесть	шесть	NUM	_	Case=Nom|NumType=Card	3	nummod:gov	_	start_char=922|end_char=927
+3	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nsubj	_	start_char=928|end_char=937
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	start_char=938|end_char=945
+5	,	,	PUNCT	_	_	7	punct	_	start_char=945|end_char=946
+6	по-прежнему	по-прежнему	ADV	_	Degree=Pos	7	advmod	_	start_char=947|end_char=958
+7	проживающих	проживать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	start_char=959|end_char=970
+8	в	в	ADP	_	_	9	case	_	start_char=971|end_char=972
+9	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	start_char=973|end_char=979
+10	,	,	PUNCT	_	_	7	punct	_	start_char=979|end_char=980
+11	нуждаются	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=981|end_char=990
+12	в	в	ADP	_	_	14	case	_	start_char=991|end_char=992
+13	гуманитарной	гуманитарный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	start_char=993|end_char=1005
+14	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=1006|end_char=1012
+15	.	.	PUNCT	_	_	11	punct	_	start_char=1012|end_char=1013
+
+# text = Аль-Муалем заявил, что сирийский режим будет рад помощи в восстановлении разрушенной страны.
+# sent_id = 7
+1	Аль-Муалем	Аль-Муаль	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1014|end_char=1024
+2	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1025|end_char=1031
+3	,	,	PUNCT	_	_	8	punct	_	start_char=1031|end_char=1032
+4	что	что	SCONJ	_	_	8	mark	_	start_char=1033|end_char=1036
+5	сирийский	сирийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1037|end_char=1046
+6	режим	режим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=1047|end_char=1052
+7	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=1053|end_char=1058
+8	рад	рад	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	ccomp	_	start_char=1059|end_char=1062
+9	помощи	помощь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	start_char=1063|end_char=1069
+10	в	в	ADP	_	_	11	case	_	start_char=1070|end_char=1071
+11	восстановлении	восстановление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	start_char=1072|end_char=1086
+12	разрушенной	разрушить	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	start_char=1087|end_char=1098
+13	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=1099|end_char=1105
+14	.	.	PUNCT	_	_	2	punct	_	start_char=1105|end_char=1106
+
+# text = Однако он подчеркнул, что не примет помощь на определенных условиях или от стран, спонсирующих повстанцев.
+# sent_id = 8
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	start_char=1107|end_char=1113
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=1114|end_char=1116
+3	подчеркнул	подчеркнуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1117|end_char=1127
+4	,	,	PUNCT	_	_	7	punct	_	start_char=1127|end_char=1128
+5	что	что	SCONJ	_	_	7	mark	_	start_char=1129|end_char=1132
+6	не	не	PART	_	_	7	advmod	_	start_char=1133|end_char=1135
+7	примет	принять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=1136|end_char=1142
+8	помощь	помощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=1143|end_char=1149
+9	на	на	ADP	_	_	11	case	_	start_char=1150|end_char=1152
+10	определенных	определенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	start_char=1153|end_char=1165
+11	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	nmod	_	start_char=1166|end_char=1174
+12	или	или	CCONJ	_	_	14	cc	_	start_char=1175|end_char=1178
+13	от	от	ADP	_	_	14	case	_	start_char=1179|end_char=1181
+14	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	start_char=1182|end_char=1187
+15	,	,	PUNCT	_	_	16	punct	_	start_char=1187|end_char=1188
+16	спонсирующих	спонсировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	_	start_char=1189|end_char=1201
+17	повстанцев	повстанец	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	start_char=1202|end_char=1212
+18	.	.	PUNCT	_	_	3	punct	_	start_char=1212|end_char=1213
+

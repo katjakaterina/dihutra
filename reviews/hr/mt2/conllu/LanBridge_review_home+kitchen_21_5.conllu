@@ -1,7 +1,11 @@
+# text = Čokoladni maslac kolač
+# sent_id = 0
 1	Čokoladni	čokoladan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=9
 2	maslac	maslac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=10|end_char=16
 3	kolač	kolač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	start_char=17|end_char=22
 
+# text = Upravo sam recept za kolač s čokoladnim maslacem pomnožila s pet da dobijem 30 šalica i ispalo je SAVRŠENO!!
+# sent_id = 1
 1	Upravo	upravo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=23|end_char=29
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	start_char=30|end_char=33
 3	recept	recept	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=34|end_char=40
@@ -24,6 +28,8 @@
 20	!	!	PUNCT	Z	_	9	punct	_	start_char=129|end_char=130
 21	!	!	PUNCT	Z	_	9	punct	_	start_char=130|end_char=131
 
+# text = U prošlosti sam previše vremena provodio bacajući tijesto ili kolače jer su bili užasnog okusa, ali ovaj je bio apsolutno najbolji kolač koji sam ikada probao.
+# sent_id = 2
 1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=132|end_char=133
 2	prošlosti	prošlost	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=134|end_char=143
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=144|end_char=147
@@ -53,6 +59,8 @@
 27	probao	probati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	23	acl	_	start_char=284|end_char=290
 28	.	.	PUNCT	Z	_	6	punct	_	start_char=290|end_char=291
 
+# text = Tijesto ima okus pudinga od čokolade, a sam kolač se topi u ustima.
+# sent_id = 3
 1	Tijesto	tijesto	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	start_char=292|end_char=299
 2	ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=300|end_char=303
 3	okus	okus	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=304|end_char=308
@@ -69,6 +77,8 @@
 14	ustima	ust	NOUN	Ncmpl	Case=Loc|Gender=Masc|Number=Plur	12	obl	_	start_char=352|end_char=358
 15	.	.	PUNCT	Z	_	2	punct	_	start_char=358|end_char=359
 
+# text = Svakako ću isprobati sve ostale recepte:)
+# sent_id = 4
 1	Svakako	svakako	ADV	Rgp	Degree=Pos|PronType=Tot	3	advmod	_	start_char=360|end_char=367
 2	ću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=368|end_char=370
 3	isprobati	isprobati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=371|end_char=380

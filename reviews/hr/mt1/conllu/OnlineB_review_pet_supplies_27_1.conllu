@@ -1,6 +1,10 @@
+# text = bacanje novca
+# sent_id = 0
 1	bacanje	bacanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=0|end_char=7
 2	novca	novac	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=8|end_char=13
 
+# text = Ovo je najveći gubitak novca - nemojte to kupovati - neće uspjeti!
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=14|end_char=17
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=18|end_char=20
 3	najveći	velik	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	4	amod	_	start_char=21|end_char=28
@@ -15,6 +19,8 @@
 12	uspjeti	uspjeti	VERB	Vmn	VerbForm=Inf	4	parataxis	_	start_char=72|end_char=79
 13	!	!	PUNCT	Z	_	4	punct	_	start_char=79|end_char=80
 
+# text = Ljudi samo izgovore određenu riječ, zatim stanka od 10 sekundi ... zatim druga riječ i još jedna stanka od 10 sekundi.
+# sent_id = 2
 1	Ljudi	čovjek	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=81|end_char=86
 2	samo	samo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=87|end_char=91
 3	izgovore	izgovoriti	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=92|end_char=100
@@ -40,6 +46,8 @@
 23	sekundi	sekunda	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	start_char=191|end_char=198
 24	.	.	PUNCT	Z	_	3	punct	_	start_char=198|end_char=199
 
+# text = Možete napraviti svoj vlastiti ako stvarno želite isprobati ovo.
+# sent_id = 3
 1	Možete	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=200|end_char=206
 2	napraviti	napraviti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=207|end_char=216
 3	svoj	svoj	DET	Px-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	start_char=217|end_char=221
@@ -51,6 +59,8 @@
 9	ovo	ovaj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	start_char=260|end_char=263
 10	.	.	PUNCT	Z	_	1	punct	_	start_char=263|end_char=264
 
+# text = Ali stvarno ne biste trebali ostaviti ovo uključeno za vašu pticu cijeli dan - to bi trebalo biti učinjeno samo u intervalima od 10 minuta ili bi vaša ptica mogla biti iritirana zbog toga (znam da se iritiram to nakon samo 2 riječi).
+# sent_id = 4
 1	Ali	ali	CCONJ	Cc	_	5	cc	_	start_char=265|end_char=268
 2	stvarno	stvarno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=269|end_char=276
 3	ne	ne	PART	Qz	Polarity=Neg	5	advmod	_	start_char=277|end_char=279
@@ -98,6 +108,8 @@
 45	)	)	PUNCT	Z	_	36	punct	_	start_char=496|end_char=497
 46	.	.	PUNCT	Z	_	5	punct	_	start_char=497|end_char=498
 
+# text = Ne bacajte novac na ovo.
+# sent_id = 5
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=498|end_char=500
 2	bacajte	bacati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=501|end_char=508
 3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=509|end_char=514

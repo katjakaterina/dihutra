@@ -1,9 +1,13 @@
+# text = Još uvijek NIJE potpuno remasterirano
+# sent_id = 0
 1	Još	još	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=3
 2	uvijek	uvijek	ADV	Rgp	Degree=Pos|PronType=Tot	5	advmod	_	start_char=4|end_char=10
 3	NIJE	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=11|end_char=15
 4	potpuno	potpuno	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=16|end_char=23
 5	remasterirano	remasteriran	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=24|end_char=37
 
+# text = U bilješkama o predmetu za ovaj DVD tvrdi se da je remasteriran.
+# sent_id = 1
 1	U	u	ADP	Sl	Case=Loc	2	case	_	start_char=38|end_char=39
 2	bilješkama	bilješka	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	8	obl	_	start_char=40|end_char=50
 3	o	o	ADP	Sl	Case=Loc	4	case	_	start_char=51|end_char=52
@@ -18,6 +22,8 @@
 12	remasteriran	remasterirati	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	8	csubj	_	start_char=89|end_char=101
 13	.	.	PUNCT	Z	_	8	punct	_	start_char=101|end_char=102
 
+# text = Iako nije tako loše kvalitete kao DVD iz 2004., još uvijek ima crne točke i bijele ogrebotine na slici.
+# sent_id = 2
 1	Iako	iako	SCONJ	Cs	_	4	mark	_	start_char=103|end_char=107
 2	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=108|end_char=112
 3	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	4	advmod	_	start_char=113|end_char=117
@@ -40,6 +46,8 @@
 20	slici	slika	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	start_char=200|end_char=205
 21	.	.	PUNCT	Z	_	13	punct	_	start_char=205|end_char=206
 
+# text = Je li CBS jedino mjesto gdje možete pronaći potpuno remasteriranu verziju?
+# sent_id = 3
 1	Je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=207|end_char=209
 2	li	li	PART	Qq	_	5	mark	_	start_char=210|end_char=212
 3	CBS	CBS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=213|end_char=216
@@ -53,6 +61,8 @@
 11	verziju	verzija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	start_char=273|end_char=280
 12	?	?	PUNCT	Z	_	5	punct	_	start_char=280|end_char=281
 
+# text = Ovo NE vrijedi 14,99 USD, prije 4,99 USD. Remasterirajte stvar ili je nemojte isporučivati.
+# sent_id = 4
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=282|end_char=285
 2	NE	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=286|end_char=288
 3	vrijedi	vrijediti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=289|end_char=296
@@ -71,6 +81,8 @@
 16	isporučivati	isporučivati	VERB	Vmn	VerbForm=Inf	15	xcomp	_	start_char=360|end_char=372
 17	.	.	PUNCT	Z	_	3	punct	_	start_char=372|end_char=373
 
+# text = :(
+# sent_id = 5
 1	:	:	PUNCT	Z	_	0	root	_	start_char=374|end_char=375
 2	(	(	PUNCT	Z	_	1	punct	_	start_char=375|end_char=376
 

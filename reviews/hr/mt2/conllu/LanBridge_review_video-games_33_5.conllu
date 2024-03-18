@@ -1,9 +1,13 @@
+# text = Još uvijek odlična igra!
+# sent_id = 0
 1	Još	još	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=3
 2	uvijek	uvijek	ADV	Rgp	Degree=Pos|PronType=Tot	3	advmod	_	start_char=4|end_char=10
 3	odlična	odličan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=11|end_char=18
 4	igra	igra	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=19|end_char=23
 5	!	!	PUNCT	Z	_	4	punct	_	start_char=23|end_char=24
 
+# text = Imao sam ovu igru kao klinac 90-ih i religiozno sam je igrao sa svojim sestrama oko našeg Windows 95 računala.
+# sent_id = 1
 1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=25|end_char=29
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=30|end_char=33
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=34|end_char=37
@@ -26,6 +30,8 @@
 20	računala	računalo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	start_char=126|end_char=134
 21	.	.	PUNCT	Z	_	1	punct	_	start_char=134|end_char=135
 
+# text = Nedavno sam ga kupio za 6. rođendan svoje sestrične jer želim da izgradi bolje računalne vještine i vještine rješavanja problema.
+# sent_id = 2
 1	Nedavno	nedavno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=136|end_char=143
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=144|end_char=147
 3	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	start_char=148|end_char=150
@@ -48,6 +54,8 @@
 20	problema	problem	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	start_char=256|end_char=264
 21	.	.	PUNCT	Z	_	4	punct	_	start_char=264|end_char=265
 
+# text = Računala i igre definitivno su evoluirali od tada, ali ovo je bezvremenska igra koja pomaže djeci da razviju te vještine na zabavan način bez matematičkih jednadžbi i pravopisa.
+# sent_id = 3
 1	Računala	računalo	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	start_char=266|end_char=274
 2	i	i	CCONJ	Cc	_	3	cc	_	start_char=275|end_char=276
 3	igre	igra	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	start_char=277|end_char=281
@@ -79,6 +87,8 @@
 29	pravopisa	pravopis	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	27	conj	_	start_char=433|end_char=442
 30	.	.	PUNCT	Z	_	6	punct	_	start_char=442|end_char=443
 
+# text = Gledanje njezine igre vratilo mi je stvarno lijepa sjećanja i potaknulo me da ponovno poželim igrati.
+# sent_id = 4
 1	Gledanje	gledanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=444|end_char=452
 2	njezine	njezin	DET	Ps3fsg	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det	_	start_char=453|end_char=460
 3	igre	igra	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=461|end_char=465
@@ -97,6 +107,8 @@
 16	igrati	igrati	VERB	Vmn	VerbForm=Inf	15	xcomp	_	start_char=538|end_char=544
 17	.	.	PUNCT	Z	_	4	punct	_	start_char=544|end_char=545
 
+# text = "Tko god da si... NAPRAVI MI PIZZU!"
+# sent_id = 5
 1	"	"	PUNCT	Z	_	2	punct	_	start_char=546|end_char=547
 2	Tko	tko	PRON	Pi3m-n	Case=Nom|Gender=Masc|PronType=Int,Rel	0	root	_	start_char=547|end_char=550
 3	god	god	PART	Qo	_	5	mark	_	start_char=551|end_char=554

@@ -1,3 +1,5 @@
+# text = Skupo smeće Kupio sam paket ovih prije nekog vremena u Sam's Clubu.
+# sent_id = 0
 1	Skupo	skup	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=5
 2	smeće	smeće	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=6|end_char=11
 3	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=12|end_char=17
@@ -12,6 +14,8 @@
 12	Clubu	Club	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	11	flat	_	start_char=61|end_char=66
 13	.	.	PUNCT	Z	_	3	punct	_	start_char=66|end_char=67
 
+# text = Koristio sam ih u svojim daljinskim upravljačima za uređaje, ali primijetio sam da ne drže dugo svoje napunjenosti zbog čega su potrebna česta punjenja.
+# sent_id = 1
 1	Koristio	koristiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=68|end_char=76
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=77|end_char=80
 3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=81|end_char=83
@@ -39,6 +43,8 @@
 25	punjenja	punjenje	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	23	nsubj	_	start_char=211|end_char=219
 26	.	.	PUNCT	Z	_	1	punct	_	start_char=219|end_char=220
 
+# text = Ni jeftini brzi punjač 'CH30MN' koji je došao s paketom baterija također nije pomogao jer zagrijava baterije tijekom procesa punjenja do te mjere da ih je nepodnošljivo dodirnuti.
+# sent_id = 2
 1	Ni	ni	PART	Qo	_	4	discourse	_	start_char=221|end_char=223
 2	jeftini	jeftin	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=224|end_char=231
 3	brzi	brz	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=232|end_char=236
@@ -71,6 +77,8 @@
 30	dodirnuti	dodirnuti	VERB	Vmn	VerbForm=Inf	29	xcomp	_	start_char=390|end_char=399
 31	.	.	PUNCT	Z	_	16	punct	_	start_char=399|end_char=400
 
+# text = Uštedite novac i kupite novi SANYO NEW 1500 eneloop 8 paket AA Umjesto toga, Ni-MH prethodno napunjene punjive baterije.
+# sent_id = 3
 1	Uštedite	ušteći	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=401|end_char=409
 2	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=410|end_char=415
 3	i	i	CCONJ	Cc	_	4	cc	_	start_char=416|end_char=417

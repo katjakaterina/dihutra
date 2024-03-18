@@ -1,8 +1,12 @@
+# text = Krajnje je vrijeme...
+# sent_id = 0
 1	Krajnje	krajnji	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	start_char=0|end_char=7
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=8|end_char=10
 3	vrijeme	vrijeme	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=11|end_char=18
 4	...	...	PUNCT	Z	_	1	punct	_	start_char=18|end_char=21
 
+# text = Ne mogu vjerovati koliko je "njima" trebalo da ovu prekrasnu božićnu predstavu dobiju na DVD-u.
+# sent_id = 1
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=22|end_char=24
 2	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=25|end_char=29
 3	vjerovati	vjerovati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=30|end_char=39
@@ -22,6 +26,8 @@
 17	DVD-u	DVD	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	15	obl	_	start_char=111|end_char=116
 18	.	.	PUNCT	Z	_	2	punct	_	start_char=116|end_char=117
 
+# text = To je moderni (1930-ih Amerika) obrat klasične priče Charlesa Dickensa.
+# sent_id = 2
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=118|end_char=120
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=121|end_char=123
 3	moderni	moderan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	start_char=124|end_char=131
@@ -36,6 +42,8 @@
 12	Dickensa	Dickens	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	11	flat	_	start_char=180|end_char=188
 13	.	.	PUNCT	Z	_	8	punct	_	start_char=188|end_char=189
 
+# text = Winkler me tjera da mrzim njegov lik koliko i Alister Sim u njegovom portretiranju Scroogea u produkciji iz 1951.
+# sent_id = 3
 1	Winkler	Winkler	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=190|end_char=197
 2	me	ja	PRON	Pp1-sa	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	start_char=198|end_char=200
 3	tjera	tjerati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=201|end_char=206
@@ -56,6 +64,8 @@
 18	iz	iz	ADP	Sg	Case=Gen	19	case	_	start_char=295|end_char=297
 19	1951.	1951.	ADJ	Mdo	NumType=Ord	17	amod	_	start_char=298|end_char=303
 
+# text = Svakako jedan za vašu vizualnu knjižnicu.
+# sent_id = 4
 1	Svakako	svakako	ADV	Rgp	Degree=Pos|PronType=Tot	2	advmod	_	start_char=304|end_char=311
 2	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	0	root	_	start_char=312|end_char=317
 3	za	za	ADP	Sa	Case=Acc	6	case	_	start_char=318|end_char=320

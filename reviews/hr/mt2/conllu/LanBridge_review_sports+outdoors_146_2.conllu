@@ -1,3 +1,5 @@
+# text = potrošite dodatni novac na bolji komplet koristio sam ga oko godinu dana i definitivno sam morao kupiti bolju opremu.
+# sent_id = 0
 1	potrošite	potrošiti	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	7	advcl	_	start_char=0|end_char=9
 2	dodatni	dodatan	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=10|end_char=17
 3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=18|end_char=23
@@ -19,6 +21,8 @@
 19	opremu	oprema	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	start_char=110|end_char=116
 20	.	.	PUNCT	Z	_	7	punct	_	start_char=116|end_char=117
 
+# text = tanka šipka za čišćenje- pukla je.. deblja šipka za čišćenje- također je pukla.
+# sent_id = 1
 1	tanka	tanak	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=118|end_char=123
 2	šipka	šipak	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=124|end_char=129
 3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=130|end_char=132
@@ -35,6 +39,8 @@
 14	pukla	pući	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	start_char=191|end_char=196
 15	.	.	PUNCT	Z	_	5	punct	_	start_char=196|end_char=197
 
+# text = nisam od onih koji će na njih primjenjivati veliku silu, samo su vrlo meki/jeftini.
+# sent_id = 2
 1	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	cop	_	start_char=198|end_char=203
 2	od	od	ADP	Sg	Case=Gen	3	case	_	start_char=204|end_char=206
 3	onih	onaj	DET	Pd-mpg	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	1	obl	_	start_char=207|end_char=211
@@ -52,12 +58,16 @@
 15	meki/jeftini	meki/jeftina	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	0	root	_	start_char=268|end_char=280
 16	.	.	PUNCT	Z	_	1	punct	_	start_char=280|end_char=281
 
+# text = kistovi su dovoljno pristojni.
+# sent_id = 3
 1	kistovi	kist	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=282|end_char=289
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=290|end_char=292
 3	dovoljno	dovoljno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=293|end_char=301
 4	pristojni	pristojan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=302|end_char=311
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=311|end_char=312
 
+# text = nakon što sam potrošio novac na ljepši komplet, valjda sam naučio lekciju.
+# sent_id = 4
 1	nakon	nakon	SCONJ	Cs	_	4	mark	_	start_char=313|end_char=318
 2	što	što	SCONJ	Cs	_	1	fixed	_	start_char=319|end_char=322
 3	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=323|end_char=326
@@ -73,6 +83,8 @@
 13	lekciju	lekcija	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=379|end_char=386
 14	.	.	PUNCT	Z	_	12	punct	_	start_char=386|end_char=387
 
+# text = ako imate sredstava preskočite i kupite nešto malo ljepše.
+# sent_id = 5
 1	ako	ako	SCONJ	Cs	_	2	mark	_	start_char=388|end_char=391
 2	imate	imati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	start_char=392|end_char=397
 3	sredstava	sredstvo	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	2	obj	_	start_char=398|end_char=407

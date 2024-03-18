@@ -1,0 +1,341 @@
+# text = Бернард Ванн: память священнослужителя, получившего Крест Виктории в Первую мировую войну Единственный священнослужитель Англиканской церкви, получивший Крест Виктории во время Первой мировой войны в качестве участника боевых действий, был отмечен в своем родном городе 100 лет спустя.
+# sent_id = 0
+1	Бернард	Бернард	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7
+2	Ванн	Ванн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=8|end_char=12
+3	:	:	PUNCT	_	_	34	punct	_	start_char=12|end_char=13
+4	память	память	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj:pass	_	start_char=14|end_char=20
+5	священнослужителя	священнослужитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	start_char=21|end_char=38
+6	,	,	PUNCT	_	_	7	punct	_	start_char=38|end_char=39
+7	получившего	получить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	start_char=40|end_char=51
+8	Крест	Крест	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=52|end_char=57
+9	Виктории	Виктория	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=58|end_char=66
+10	в	в	ADP	_	_	13	case	_	start_char=67|end_char=68
+11	Первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=69|end_char=75
+12	мировую	мировой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	start_char=76|end_char=83
+13	войну	война	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	start_char=84|end_char=89
+14	Единственный	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	start_char=90|end_char=102
+15	священнослужитель	священнослужитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=103|end_char=120
+16	Англиканской	англиканский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	start_char=121|end_char=133
+17	церкви	церковь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=134|end_char=140
+18	,	,	PUNCT	_	_	19	punct	_	start_char=140|end_char=141
+19	получивший	получить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	acl	_	start_char=142|end_char=152
+20	Крест	Крест	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	start_char=153|end_char=158
+21	Виктории	Виктория	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=159|end_char=167
+22	во	в	ADP	_	_	26	case	_	start_char=168|end_char=170
+23	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	fixed	_	start_char=171|end_char=176
+24	Первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=177|end_char=183
+25	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	start_char=184|end_char=191
+26	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	obl	_	start_char=192|end_char=197
+27	в	в	ADP	_	_	29	case	_	start_char=198|end_char=199
+28	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	fixed	_	start_char=200|end_char=208
+29	участника	участник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	start_char=209|end_char=218
+30	боевых	боевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	start_char=219|end_char=225
+31	действий	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	start_char=226|end_char=234
+32	,	,	PUNCT	_	_	19	punct	_	start_char=234|end_char=235
+33	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	aux:pass	_	start_char=236|end_char=239
+34	отмечен	отметить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	parataxis	_	start_char=240|end_char=247
+35	в	в	ADP	_	_	38	case	_	start_char=248|end_char=249
+36	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	38	det	_	start_char=250|end_char=255
+37	родном	родной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	start_char=256|end_char=262
+38	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	obl	_	start_char=263|end_char=269
+39	100	100	NUM	_	NumType=Card	40	nummod	_	start_char=270|end_char=273
+40	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	obl	_	start_char=274|end_char=277
+41	спустя	спустя	ADP	_	_	40	case	_	start_char=278|end_char=284
+42	.	.	PUNCT	_	_	1	punct	_	start_char=284|end_char=285
+
+# text = Подполковник преподобный Бернард Ванн получил награду 29 сентября 1918 г. во время атаки на Беленглиз и Лехаукур.
+# sent_id = 1
+1	Подполковник	подполковник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=286|end_char=298
+2	преподобный	преподобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	start_char=299|end_char=310
+3	Бернард	Бернард	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=311|end_char=318
+4	Ванн	Ванн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	start_char=319|end_char=323
+5	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=324|end_char=331
+6	награду	награда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	start_char=332|end_char=339
+7	29	29	ADJ	_	_	6	nmod	_	start_char=340|end_char=342
+8	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	flat	_	start_char=343|end_char=351
+9	1918	1918	ADJ	_	Degree=Pos	10	amod	_	start_char=352|end_char=356
+10	г.	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=357|end_char=359
+11	во	в	ADP	_	_	13	case	_	start_char=360|end_char=362
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	start_char=363|end_char=368
+13	атаки	атака	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	start_char=369|end_char=374
+14	на	на	ADP	_	_	15	case	_	start_char=375|end_char=377
+15	Беленглиз	Беленглиз	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	start_char=378|end_char=387
+16	и	и	CCONJ	_	_	17	cc	_	start_char=388|end_char=389
+17	Лехаукур	Лехаукур	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	start_char=390|end_char=398
+18	.	.	PUNCT	_	_	5	punct	_	start_char=398|end_char=399
+
+# text = Однако через четыре дня он был убит снайпером и так и не узнал, что удостоился высшей британской военной награды.
+# sent_id = 2
+1	Однако	однако	ADV	_	Degree=Pos	7	advmod	_	start_char=400|end_char=406
+2	через	через	ADP	_	_	4	case	_	start_char=407|end_char=412
+3	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc|NumType=Card	4	nummod	_	start_char=413|end_char=419
+4	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=420|end_char=423
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	start_char=424|end_char=426
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	start_char=427|end_char=430
+7	убит	убить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=431|end_char=435
+8	снайпером	снайпер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	start_char=436|end_char=445
+9	и	и	CCONJ	_	_	13	cc	_	start_char=446|end_char=447
+10	так	так	ADV	_	Degree=Pos	13	advmod	_	start_char=448|end_char=451
+11	и	и	PART	_	_	10	fixed	_	start_char=452|end_char=453
+12	не	не	PART	_	_	13	advmod	_	start_char=454|end_char=456
+13	узнал	узнать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=457|end_char=462
+14	,	,	PUNCT	_	_	16	punct	_	start_char=462|end_char=463
+15	что	что	SCONJ	_	_	16	mark	_	start_char=464|end_char=467
+16	удостоился	удостоиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	ccomp	_	start_char=468|end_char=478
+17	высшей	высший	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=479|end_char=485
+18	британской	британский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=486|end_char=496
+19	военной	военный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=497|end_char=504
+20	награды	награда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	start_char=505|end_char=512
+21	.	.	PUNCT	_	_	7	punct	_	start_char=512|end_char=513
+
+# text = В субботу на параде в Рашдене (графство Нортгемптоншир) два его внука открыли памятный камень.
+# sent_id = 3
+1	В	в	ADP	_	_	2	case	_	start_char=514|end_char=515
+2	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	start_char=516|end_char=523
+3	на	на	ADP	_	_	4	case	_	start_char=524|end_char=526
+4	параде	парад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	start_char=527|end_char=533
+5	в	в	ADP	_	_	6	case	_	start_char=534|end_char=535
+6	Рашдене	Рашден	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	start_char=536|end_char=543
+7	(	(	PUNCT	_	_	8	punct	_	start_char=544|end_char=545
+8	графство	графство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	start_char=545|end_char=553
+9	Нортгемптоншир	Нортгемптоншир	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	start_char=554|end_char=568
+10	)	)	PUNCT	_	_	8	punct	_	start_char=568|end_char=569
+11	два	два	NUM	_	Case=Nom|Gender=Masc|NumType=Card	13	nummod:gov	_	start_char=570|end_char=573
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	start_char=574|end_char=577
+13	внука	внук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nsubj	_	start_char=578|end_char=583
+14	открыли	открыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=584|end_char=591
+15	памятный	памятный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=592|end_char=600
+16	камень	камень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	start_char=601|end_char=607
+17	.	.	PUNCT	_	_	14	punct	_	start_char=607|end_char=608
+
+# text = Один из внуков, Майкл Ванн, сказал, что это "очень символично", что камень будет открыт ровно через 100 лет после того, как его дед совершил свой подвиг, отмеченный наградой.
+# sent_id = 4
+1	Один	один	NUM	_	Case=Nom|Gender=Masc|NumType=Card	8	nsubj	_	start_char=609|end_char=613
+2	из	из	ADP	_	_	3	case	_	start_char=614|end_char=616
+3	внуков	внук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=617|end_char=623
+4	,	,	PUNCT	_	_	5	punct	_	start_char=623|end_char=624
+5	Майкл	Майкл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=625|end_char=630
+6	Ванн	Ванн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	start_char=631|end_char=635
+7	,	,	PUNCT	_	_	1	punct	_	start_char=635|end_char=636
+8	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=637|end_char=643
+9	,	,	PUNCT	_	_	14	punct	_	start_char=643|end_char=644
+10	что	что	SCONJ	_	_	14	mark	_	start_char=645|end_char=648
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	14	nsubj	_	start_char=649|end_char=652
+12	"	"	PUNCT	_	_	14	punct	_	start_char=653|end_char=654
+13	очень	очень	ADV	_	Degree=Pos	14	obl	_	start_char=654|end_char=659
+14	символично	символичный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	ccomp	_	start_char=660|end_char=670
+15	"	"	PUNCT	_	_	14	punct	_	start_char=670|end_char=671
+16	,	,	PUNCT	_	_	20	punct	_	start_char=671|end_char=672
+17	что	что	SCONJ	_	_	20	mark	_	start_char=673|end_char=676
+18	камень	камень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj:pass	_	start_char=677|end_char=683
+19	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux:pass	_	start_char=684|end_char=689
+20	открыт	открыть	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	ccomp	_	start_char=690|end_char=696
+21	ровно	ровно	ADV	_	Degree=Pos	24	obl	_	start_char=697|end_char=702
+22	через	через	ADP	_	_	24	case	_	start_char=703|end_char=708
+23	100	100	NUM	_	NumType=Card	24	nummod	_	start_char=709|end_char=712
+24	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	start_char=713|end_char=716
+25	после	после	ADP	_	_	26	case	_	start_char=717|end_char=722
+26	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	start_char=723|end_char=727
+27	,	,	PUNCT	_	_	31	punct	_	start_char=727|end_char=728
+28	как	как	SCONJ	_	_	31	mark	_	start_char=729|end_char=732
+29	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nmod	_	start_char=733|end_char=736
+30	дед	дед	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	start_char=737|end_char=740
+31	совершил	совершить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	acl	_	start_char=741|end_char=749
+32	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	33	det	_	start_char=750|end_char=754
+33	подвиг	подвиг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obj	_	start_char=755|end_char=761
+34	,	,	PUNCT	_	_	35	punct	_	start_char=761|end_char=762
+35	отмеченный	отметить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	33	acl	_	start_char=763|end_char=773
+36	наградой	награда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	35	obl	_	start_char=774|end_char=782
+37	.	.	PUNCT	_	_	8	punct	_	start_char=782|end_char=783
+
+# text = По данным London Gazette, 29 сентября 1918 г. подполковник Ванн провел свой батальон через Сен-Кантенский канал "сквозь очень густой туман и под сильным огнем полевых и пулеметов".
+# sent_id = 5
+1	По	по	ADP	_	_	2	case	_	start_char=784|end_char=786
+2	данным	данные	NOUN	_	Animacy=Inan|Case=Dat|Number=Plur	12	parataxis	_	start_char=787|end_char=793
+3	London	London	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=794|end_char=800
+4	Gazette	Gazette	PROPN	_	Foreign=Yes	3	flat:foreign	_	start_char=801|end_char=808
+5	,	,	PUNCT	_	_	2	punct	_	start_char=808|end_char=809
+6	29	29	ADJ	_	_	12	obl	_	start_char=810|end_char=812
+7	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	flat	_	start_char=813|end_char=821
+8	1918	1918	ADJ	_	Degree=Pos	9	amod	_	start_char=822|end_char=826
+9	г.	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=827|end_char=829
+10	подполковник	подполковник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=830|end_char=842
+11	Ванн	Ванн	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	start_char=843|end_char=847
+12	провел	провести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=848|end_char=854
+13	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	start_char=855|end_char=859
+14	батальон	батальон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	start_char=860|end_char=868
+15	через	через	ADP	_	_	17	case	_	start_char=869|end_char=874
+16	Сен-Кантенский	Сен-Кантенский	PROPN	_	_	17	amod	_	start_char=875|end_char=889
+17	канал	канал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	start_char=890|end_char=895
+18	"	"	PUNCT	_	_	22	punct	_	start_char=896|end_char=897
+19	сквозь	сквозь	ADP	_	_	22	case	_	start_char=897|end_char=903
+20	очень	очень	ADV	_	Degree=Pos	21	obl	_	start_char=904|end_char=909
+21	густой	густой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=910|end_char=916
+22	туман	туман	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	start_char=917|end_char=922
+23	и	и	CCONJ	_	_	26	cc	_	start_char=923|end_char=924
+24	под	под	ADP	_	_	26	case	_	start_char=925|end_char=928
+25	сильным	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=929|end_char=936
+26	огнем	огонь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	22	conj	_	start_char=937|end_char=942
+27	полевых	полевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	nmod	_	start_char=943|end_char=950
+28	и	и	CCONJ	_	_	29	cc	_	start_char=951|end_char=952
+29	пулеметов	пулемет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	conj	_	start_char=953|end_char=962
+30	"	"	PUNCT	_	_	22	punct	_	start_char=962|end_char=963
+31	.	.	PUNCT	_	_	12	punct	_	start_char=963|end_char=964
+
+# text = Позже он бросился на линию огня и с "величайшей галантностью" повел линию вперед, а затем бросился на полевое орудие в одиночку и выбил трех человек из отделения.
+# sent_id = 6
+1	Позже	поздно	ADV	_	Degree=Cmp	3	advmod	_	start_char=965|end_char=970
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	start_char=971|end_char=973
+3	бросился	броситься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=974|end_char=982
+4	на	на	ADP	_	_	5	case	_	start_char=983|end_char=985
+5	линию	линия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=986|end_char=991
+6	огня	огонь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=992|end_char=996
+7	и	и	CCONJ	_	_	13	cc	_	start_char=997|end_char=998
+8	с	с	ADP	_	_	11	case	_	start_char=999|end_char=1000
+9	"	"	PUNCT	_	_	11	punct	_	start_char=1001|end_char=1002
+10	величайшей	большой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=1002|end_char=1012
+11	галантностью	галантность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	start_char=1013|end_char=1025
+12	"	"	PUNCT	_	_	11	punct	_	start_char=1025|end_char=1026
+13	повел	повести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1027|end_char=1032
+14	линию	линия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	start_char=1033|end_char=1038
+15	вперед	вперед	ADV	_	Degree=Pos	13	advmod	_	start_char=1039|end_char=1045
+16	,	,	PUNCT	_	_	19	punct	_	start_char=1045|end_char=1046
+17	а	а	CCONJ	_	_	19	cc	_	start_char=1047|end_char=1048
+18	затем	затем	ADV	_	Degree=Pos	19	advmod	_	start_char=1049|end_char=1054
+19	бросился	броситься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=1055|end_char=1063
+20	на	на	ADP	_	_	22	case	_	start_char=1064|end_char=1066
+21	полевое	полевой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	start_char=1067|end_char=1074
+22	орудие	орудие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	start_char=1075|end_char=1081
+23	в	в	ADP	_	_	19	advmod	_	start_char=1082|end_char=1083
+24	одиночку	одиночка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	fixed	_	start_char=1084|end_char=1092
+25	и	и	CCONJ	_	_	26	cc	_	start_char=1093|end_char=1094
+26	выбил	выбить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1095|end_char=1100
+27	трех	три	NUM	_	Animacy=Anim|Case=Acc|NumType=Card	28	nummod:gov	_	start_char=1101|end_char=1105
+28	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	obl	_	start_char=1106|end_char=1113
+29	из	из	ADP	_	_	30	case	_	start_char=1114|end_char=1116
+30	отделения	отделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	start_char=1117|end_char=1126
+31	.	.	PUNCT	_	_	3	punct	_	start_char=1126|end_char=1127
+
+# text = Подполковник Ванн был убит немецким снайпером 4 октября 1918 г. - чуть более чем за месяц до окончания войны.
+# sent_id = 7
+1	Подполковник	подполковник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	start_char=1128|end_char=1140
+2	Ванн	Ванн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=1141|end_char=1145
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	aux:pass	_	start_char=1146|end_char=1149
+4	убит	убить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=1150|end_char=1154
+5	немецким	немецкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	start_char=1155|end_char=1163
+6	снайпером	снайпер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	start_char=1164|end_char=1173
+7	4	4	ADJ	_	_	4	obl	_	start_char=1174|end_char=1175
+8	октября	октябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	flat	_	start_char=1176|end_char=1183
+9	1918	1918	ADJ	_	Degree=Pos	10	amod	_	start_char=1184|end_char=1188
+10	г.	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=1189|end_char=1191
+11	-	-	PUNCT	_	_	16	punct	_	start_char=1192|end_char=1193
+12	чуть	чуть	ADV	_	Degree=Pos	13	advmod	_	start_char=1194|end_char=1198
+13	более	более	ADV	_	Degree=Cmp	16	case	_	start_char=1199|end_char=1204
+14	чем	чем	SCONJ	_	_	13	fixed	_	start_char=1205|end_char=1208
+15	за	за	ADP	_	_	16	case	_	start_char=1209|end_char=1211
+16	месяц	месяц	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=1212|end_char=1217
+17	до	до	ADP	_	_	18	case	_	start_char=1218|end_char=1220
+18	окончания	окончание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	start_char=1221|end_char=1230
+19	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=1231|end_char=1236
+20	.	.	PUNCT	_	_	4	punct	_	start_char=1236|end_char=1237
+
+# text = Майкл Ванн, 72 года, сказал, что поступок его деда - "это то, до чего я знаю, что никогда не смогу дожить, но это то, что вызывает чувство смирения".
+# sent_id = 8
+1	Майкл	Майкл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=1238|end_char=1243
+2	Ванн	Ванн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=1244|end_char=1248
+3	,	,	PUNCT	_	_	5	punct	_	start_char=1248|end_char=1249
+4	72	72	NUM	_	NumType=Card	5	nummod	_	start_char=1250|end_char=1252
+5	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	appos	_	start_char=1253|end_char=1257
+6	,	,	PUNCT	_	_	5	punct	_	start_char=1257|end_char=1258
+7	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1259|end_char=1265
+8	,	,	PUNCT	_	_	16	punct	_	start_char=1265|end_char=1266
+9	что	что	SCONJ	_	_	16	mark	_	start_char=1267|end_char=1270
+10	поступок	поступок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	start_char=1271|end_char=1279
+11	его	его	DET	_	Poss=Yes|PronType=Prs	12	det	_	start_char=1280|end_char=1283
+12	деда	дед	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=1284|end_char=1288
+13	-	-	PUNCT	_	_	10	punct	_	start_char=1289|end_char=1290
+14	"	"	PUNCT	_	_	16	punct	_	start_char=1291|end_char=1292
+15	это	это	PRON	_	PronType=Dem	16	expl	_	start_char=1292|end_char=1295
+16	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	ccomp	_	start_char=1296|end_char=1298
+17	,	,	PUNCT	_	_	21	punct	_	start_char=1298|end_char=1299
+18	до	до	ADP	_	_	19	case	_	start_char=1300|end_char=1302
+19	чего	что	PRON	_	Case=Gen|PronType=Int,Rel	21	obl	_	start_char=1303|end_char=1307
+20	я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	start_char=1308|end_char=1309
+21	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl	_	start_char=1310|end_char=1314
+22	,	,	PUNCT	_	_	26	punct	_	start_char=1314|end_char=1315
+23	что	что	SCONJ	_	_	26	mark	_	start_char=1316|end_char=1319
+24	никогда	никогда	ADV	_	Degree=Pos	26	advmod	_	start_char=1320|end_char=1327
+25	не	не	PART	_	_	26	advmod	_	start_char=1328|end_char=1330
+26	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	21	ccomp	_	start_char=1331|end_char=1336
+27	дожить	дожить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	26	xcomp	_	start_char=1337|end_char=1343
+28	,	,	PUNCT	_	_	31	punct	_	start_char=1343|end_char=1344
+29	но	но	CCONJ	_	_	31	cc	_	start_char=1345|end_char=1347
+30	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	31	nsubj	_	start_char=1348|end_char=1351
+31	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	conj	_	start_char=1352|end_char=1354
+32	,	,	PUNCT	_	_	34	punct	_	start_char=1354|end_char=1355
+33	что	что	PRON	_	Case=Nom|PronType=Int,Rel	34	nsubj	_	start_char=1356|end_char=1359
+34	вызывает	вызывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl	_	start_char=1360|end_char=1368
+35	чувство	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	start_char=1369|end_char=1376
+36	смирения	смирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	start_char=1377|end_char=1385
+37	"	"	PUNCT	_	_	16	punct	_	start_char=1385|end_char=1386
+38	.	.	PUNCT	_	_	7	punct	_	start_char=1386|end_char=1387
+
+# text = Он и его брат доктор Джеймс Ванн также возложили венок после парада, который возглавил Имперский молодежный оркестр Брентвуда.
+# sent_id = 9
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	start_char=1388|end_char=1390
+2	и	и	CCONJ	_	_	4	cc	_	start_char=1391|end_char=1392
+3	его	его	DET	_	Poss=Yes|PronType=Prs	4	det	_	start_char=1393|end_char=1396
+4	брат	брат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=1397|end_char=1401
+5	доктор	доктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	start_char=1402|end_char=1408
+6	Джеймс	Джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=1409|end_char=1415
+7	Ванн	Ванн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	start_char=1416|end_char=1420
+8	также	также	ADV	_	Degree=Pos	9	advmod	_	start_char=1421|end_char=1426
+9	возложили	возложить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1427|end_char=1436
+10	венок	венок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	start_char=1437|end_char=1442
+11	после	после	ADP	_	_	12	case	_	start_char=1443|end_char=1448
+12	парада	парад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	start_char=1449|end_char=1455
+13	,	,	PUNCT	_	_	15	punct	_	start_char=1455|end_char=1456
+14	который	который	PRON	_	Case=Acc|PronType=Int,Rel	15	obj	_	start_char=1457|end_char=1464
+15	возглавил	возглавить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	start_char=1465|end_char=1474
+16	Имперский	имперский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=1475|end_char=1484
+17	молодежный	молодежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=1485|end_char=1495
+18	оркестр	оркестр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1496|end_char=1503
+19	Брентвуда	Брентвуд	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=1504|end_char=1513
+20	.	.	PUNCT	_	_	9	punct	_	start_char=1513|end_char=1514
+
+# text = Майкл Ванн сказал, что для него "большая честь принять участие в параде", и добавил, что "доблесть настоящего героя демонстрируется поддержкой, которую окажут многие люди".
+# sent_id = 10
+1	Майкл	Майкл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1515|end_char=1520
+2	Ванн	Ванн	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=1521|end_char=1525
+3	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1526|end_char=1532
+4	,	,	PUNCT	_	_	10	punct	_	start_char=1532|end_char=1533
+5	что	что	SCONJ	_	_	10	mark	_	start_char=1534|end_char=1537
+6	для	для	ADP	_	_	7	case	_	start_char=1538|end_char=1541
+7	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod	_	start_char=1542|end_char=1546
+8	"	"	PUNCT	_	_	10	punct	_	start_char=1547|end_char=1548
+9	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	start_char=1548|end_char=1555
+10	честь	честь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	ccomp	_	start_char=1556|end_char=1561
+11	принять	принять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	obl	_	start_char=1562|end_char=1569
+12	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	start_char=1570|end_char=1577
+13	в	в	ADP	_	_	14	case	_	start_char=1578|end_char=1579
+14	параде	парад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	start_char=1580|end_char=1586
+15	"	"	PUNCT	_	_	10	punct	_	start_char=1586|end_char=1587
+16	,	,	PUNCT	_	_	18	punct	_	start_char=1587|end_char=1588
+17	и	и	CCONJ	_	_	18	cc	_	start_char=1589|end_char=1590
+18	добавил	добавить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1591|end_char=1598
+19	,	,	PUNCT	_	_	25	punct	_	start_char=1598|end_char=1599
+20	что	что	SCONJ	_	_	25	mark	_	start_char=1600|end_char=1603
+21	"	"	PUNCT	_	_	25	punct	_	start_char=1604|end_char=1605
+22	доблесть	доблесть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj:pass	_	start_char=1605|end_char=1613
+23	настоящего	настоящий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=1614|end_char=1624
+24	героя	герой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=1625|end_char=1630
+25	демонстрируется	демонстрировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	ccomp	_	start_char=1631|end_char=1646
+26	поддержкой	поддержка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	start_char=1647|end_char=1657
+27	,	,	PUNCT	_	_	29	punct	_	start_char=1657|end_char=1658
+28	которую	который	PRON	_	Case=Acc|PronType=Int,Rel	29	obj	_	start_char=1659|end_char=1666
+29	окажут	оказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	26	acl:relcl	_	start_char=1667|end_char=1673
+30	многие	много	NUM	_	NumType=Card	31	amod	_	start_char=1674|end_char=1680
+31	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	start_char=1681|end_char=1685
+32	"	"	PUNCT	_	_	25	punct	_	start_char=1685|end_char=1686
+33	.	.	PUNCT	_	_	3	punct	_	start_char=1686|end_char=1687
+

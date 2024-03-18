@@ -1,0 +1,550 @@
+# text = 'Как вы смеете?'
+# sent_id = 0
+1	'Как	'как	ADV	_	Degree=Pos	3	advmod	_	start_char=0|end_char=4
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=5|end_char=7
+3	смеете	смеять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=14
+4	?	?	PUNCT	_	_	3	punct	_	start_char=14|end_char=15
+5	'	'	PUNCT	_	_	3	punct	_	start_char=15|end_char=16
+
+# text = Речь Тунберг в ООН вдохновляет голландских протестующих против изменения климата Тысячи голландских детей прогуливают школу, чтобы присоединиться к глобальной климатической забастовке в пятницу, перекрывая движение и спрашивая своих лидеров "Как вы смеете?", что является отсылкой к речи шведской активистки-подростка Греты Тунберг в Организации Объединенных Наций.
+# sent_id = 1
+1	Речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=17|end_char=21
+2	Тунберг	Тунберг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=22|end_char=29
+3	в	в	ADP	_	_	4	case	_	start_char=30|end_char=31
+4	ООН	ООН	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	nmod	_	start_char=32|end_char=35
+5	вдохновляет	вдохновлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=36|end_char=47
+6	голландских	голландский	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	start_char=48|end_char=59
+7	протестующих	протестовать	VERB	_	Animacy=Anim|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	_	start_char=60|end_char=72
+8	против	против	ADP	_	_	9	case	_	start_char=73|end_char=79
+9	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	start_char=80|end_char=89
+10	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=90|end_char=97
+11	Тысячи	тысяча	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	start_char=98|end_char=104
+12	голландских	голландский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=105|end_char=116
+13	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=117|end_char=122
+14	прогуливают	прогуливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=123|end_char=134
+15	школу	школа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=135|end_char=140
+16	,	,	PUNCT	_	_	18	punct	_	start_char=140|end_char=141
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	start_char=142|end_char=147
+18	присоединиться	присоединиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	14	advcl	_	start_char=148|end_char=162
+19	к	к	ADP	_	_	22	case	_	start_char=163|end_char=164
+20	глобальной	глобальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=165|end_char=175
+21	климатической	климатический	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=176|end_char=189
+22	забастовке	забастовка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	start_char=190|end_char=200
+23	в	в	ADP	_	_	24	case	_	start_char=201|end_char=202
+24	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	start_char=203|end_char=210
+25	,	,	PUNCT	_	_	26	punct	_	start_char=210|end_char=211
+26	перекрывая	перекрывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	start_char=212|end_char=222
+27	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obj	_	start_char=223|end_char=231
+28	и	и	CCONJ	_	_	29	cc	_	start_char=232|end_char=233
+29	спрашивая	спрашивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	26	conj	_	start_char=234|end_char=243
+30	своих	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	31	det	_	start_char=244|end_char=249
+31	лидеров	лидер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	start_char=250|end_char=257
+32	"	"	PUNCT	_	_	35	punct	_	start_char=258|end_char=259
+33	Как	как	ADV	_	Degree=Pos	35	advmod	_	start_char=259|end_char=262
+34	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	35	nsubj	_	start_char=263|end_char=265
+35	смеете	смеять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	31	appos	_	start_char=266|end_char=272
+36	?	?	PUNCT	_	_	35	punct	_	start_char=272|end_char=273
+37	"	"	PUNCT	_	_	35	punct	_	start_char=273|end_char=274
+38	,	,	PUNCT	_	_	40	punct	_	start_char=274|end_char=275
+39	что	что	PRON	_	Case=Nom|PronType=Int,Rel	40	nsubj	_	start_char=276|end_char=279
+40	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	acl	_	start_char=280|end_char=288
+41	отсылкой	отсылка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	obl	_	start_char=289|end_char=297
+42	к	к	ADP	_	_	43	case	_	start_char=298|end_char=299
+43	речи	речь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	41	nmod	_	start_char=300|end_char=304
+44	шведской	шведский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	start_char=305|end_char=313
+45	активистки	активистка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	start_char=314|end_char=324
+46	-	-	PUNCT	_	_	47	punct	_	start_char=324|end_char=325
+47	подростка	подросток	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	45	appos	_	start_char=325|end_char=334
+48	Греты	Грета	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	47	appos	_	start_char=335|end_char=340
+49	Тунберг	Тунберг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	48	flat:name	_	start_char=341|end_char=348
+50	в	в	ADP	_	_	51	case	_	start_char=349|end_char=350
+51	Организации	Организация	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	45	nmod	_	start_char=351|end_char=362
+52	Объединенных	объединить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	53	amod	_	start_char=363|end_char=375
+53	Наций	Нация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	51	nmod	_	start_char=376|end_char=381
+54	.	.	PUNCT	_	_	5	punct	_	start_char=381|end_char=382
+
+# text = Участник держит рисунок с изображением шведской экологической активистки Греты Тунберг во время марша протеста с призывом к действиям против изменения климата в Гааге, Нидерланды, 27 сентября 2019 года.
+# sent_id = 2
+1	Участник	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=383|end_char=391
+2	держит	держать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=392|end_char=398
+3	рисунок	рисунок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=399|end_char=406
+4	с	с	ADP	_	_	5	case	_	start_char=407|end_char=408
+5	изображением	изображение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	start_char=409|end_char=421
+6	шведской	шведский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=422|end_char=430
+7	экологической	экологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=431|end_char=444
+8	активистки	активистка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=445|end_char=455
+9	Греты	Грета	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	appos	_	start_char=456|end_char=461
+10	Тунберг	Тунберг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	9	flat:name	_	start_char=462|end_char=469
+11	во	в	ADP	_	_	13	case	_	start_char=470|end_char=472
+12	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	fixed	_	start_char=473|end_char=478
+13	марша	марш	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	start_char=479|end_char=484
+14	протеста	протест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=485|end_char=493
+15	с	с	ADP	_	_	16	case	_	start_char=494|end_char=495
+16	призывом	призыв	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	start_char=496|end_char=504
+17	к	к	ADP	_	_	18	case	_	start_char=505|end_char=506
+18	действиям	действие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	16	nmod	_	start_char=507|end_char=516
+19	против	против	ADP	_	_	20	case	_	start_char=517|end_char=523
+20	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	start_char=524|end_char=533
+21	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	start_char=534|end_char=541
+22	в	в	ADP	_	_	23	case	_	start_char=542|end_char=543
+23	Гааге	Гаага	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	start_char=544|end_char=549
+24	,	,	PUNCT	_	_	25	punct	_	start_char=549|end_char=550
+25	Нидерланды	Нидерланды	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	conj	_	start_char=551|end_char=561
+26	,	,	PUNCT	_	_	27	punct	_	start_char=561|end_char=562
+27	27	27	NUM	_	NumType=Card	18	conj	_	start_char=563|end_char=565
+28	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	flat	_	start_char=566|end_char=574
+29	2019	2019	ADJ	_	Degree=Pos	30	amod	_	start_char=575|end_char=579
+30	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	start_char=580|end_char=584
+31	.	.	PUNCT	_	_	2	punct	_	start_char=584|end_char=585
+
+# text = REUTERS/Piroschka van de Wouw Явка на марш в Гааге превзошла все ожидания: по оценкам организаторов, численность собравшихся составила около 35 000 человек.
+# sent_id = 3
+1	REUTERS/Piroschka	REUTERS/Piroschka	PROPN	_	Foreign=Yes	10	nsubj	_	start_char=586|end_char=603
+2	van	van	X	_	Foreign=Yes	1	flat:foreign	_	start_char=604|end_char=607
+3	de	de	X	_	Foreign=Yes	1	flat:foreign	_	start_char=608|end_char=610
+4	Wouw	Wouw	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=611|end_char=615
+5	Явка	Явка	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	flat:foreign	_	start_char=616|end_char=620
+6	на	на	ADP	_	_	7	case	_	start_char=621|end_char=623
+7	марш	марш	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	start_char=624|end_char=628
+8	в	в	ADP	_	_	9	case	_	start_char=629|end_char=630
+9	Гааге	Гаага	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	start_char=631|end_char=636
+10	превзошла	превзойти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=637|end_char=646
+11	все	весь	DET	_	Case=Acc|Number=Plur|PronType=Tot	12	det	_	start_char=647|end_char=650
+12	ожидания	ожидание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	10	obj	_	start_char=651|end_char=659
+13	:	:	PUNCT	_	_	20	punct	_	start_char=659|end_char=660
+14	по	по	ADP	_	_	15	case	_	start_char=661|end_char=663
+15	оценкам	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	20	parataxis	_	start_char=664|end_char=671
+16	организаторов	организатор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	start_char=672|end_char=685
+17	,	,	PUNCT	_	_	15	punct	_	start_char=685|end_char=686
+18	численность	численность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	start_char=687|end_char=698
+19	собравшихся	собраться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	18	nmod	_	start_char=699|end_char=710
+20	составила	составить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	start_char=711|end_char=720
+21	около	около	ADP	_	_	23	case	_	start_char=721|end_char=726
+22	35 000	35 000	NUM	_	NumType=Card	23	nummod	_	start_char=727|end_char=733
+23	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	obl	_	start_char=734|end_char=741
+24	.	.	PUNCT	_	_	10	punct	_	start_char=741|end_char=742
+
+# text = Полиция была вынуждена перенаправить марш в другое место, где было больше места.
+# sent_id = 4
+1	Полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	start_char=743|end_char=750
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	start_char=751|end_char=755
+3	вынуждена	вынудить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=756|end_char=765
+4	перенаправить	перенаправить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=766|end_char=779
+5	марш	марш	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=780|end_char=784
+6	в	в	ADP	_	_	8	case	_	start_char=785|end_char=786
+7	другое	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	start_char=787|end_char=793
+8	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	start_char=794|end_char=799
+9	,	,	PUNCT	_	_	11	punct	_	start_char=799|end_char=800
+10	где	где	ADV	_	Degree=Pos	11	advmod	_	start_char=801|end_char=804
+11	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=805|end_char=809
+12	больше	больше	ADV	_	Degree=Cmp	11	nsubj	_	start_char=810|end_char=816
+13	места	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	start_char=817|end_char=822
+14	.	.	PUNCT	_	_	3	punct	_	start_char=822|end_char=823
+
+# text = На этой неделе 16-летний Тунберг выступил с убедительной речью в ООН в Нью-Йорке после того, как в прошлую пятницу миллионы людей по всему миру присоединились к забастовке в преддверии климатического саммита ООН.
+# sent_id = 5
+1	На	на	ADP	_	_	3	case	_	start_char=824|end_char=826
+2	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=827|end_char=831
+3	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=832|end_char=838
+4	16-летний	16-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=839|end_char=848
+5	Тунберг	Тунберг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=849|end_char=856
+6	выступил	выступить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=857|end_char=865
+7	с	с	ADP	_	_	9	case	_	start_char=866|end_char=867
+8	убедительной	убедительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	start_char=868|end_char=880
+9	речью	речь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	start_char=881|end_char=886
+10	в	в	ADP	_	_	11	case	_	start_char=887|end_char=888
+11	ООН	ООН	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	start_char=889|end_char=892
+12	в	в	ADP	_	_	13	case	_	start_char=893|end_char=894
+13	Нью-Йорке	Нью-Йорк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	start_char=895|end_char=904
+14	после	после	ADP	_	_	15	case	_	start_char=905|end_char=910
+15	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	start_char=911|end_char=915
+16	,	,	PUNCT	_	_	26	punct	_	start_char=915|end_char=916
+17	как	как	SCONJ	_	_	26	mark	_	start_char=917|end_char=920
+18	в	в	ADP	_	_	20	case	_	start_char=921|end_char=922
+19	прошлую	прошлый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=923|end_char=930
+20	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obl	_	start_char=931|end_char=938
+21	миллионы	миллион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	start_char=939|end_char=947
+22	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=948|end_char=953
+23	по	по	ADP	_	_	25	case	_	start_char=954|end_char=956
+24	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	25	det	_	start_char=957|end_char=962
+25	миру	мир	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	26	obl	_	start_char=963|end_char=967
+26	присоединились	присоединиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	15	acl	_	start_char=968|end_char=982
+27	к	к	ADP	_	_	28	case	_	start_char=983|end_char=984
+28	забастовке	забастовка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	26	obl	_	start_char=985|end_char=995
+29	в	в	ADP	_	_	30	case	_	start_char=996|end_char=997
+30	преддверии	преддверие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	start_char=998|end_char=1008
+31	климатического	климатический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	start_char=1009|end_char=1023
+32	саммита	саммит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	start_char=1024|end_char=1031
+33	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	32	nmod	_	start_char=1032|end_char=1035
+34	.	.	PUNCT	_	_	6	punct	_	start_char=1035|end_char=1036
+
+# text = "Эта забастовка будет иметь большой эффект, если люди будут продолжать выходить на улицы не только сегодня, но и в будущем, и мы увидим самых разных людей из всех слоев общества", - сказал участник акции Рейндер Рустема.
+# sent_id = 6
+1	"	"	PUNCT	_	_	5	punct	_	start_char=1037|end_char=1038
+2	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	start_char=1038|end_char=1041
+3	забастовка	забастовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=1042|end_char=1052
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=1053|end_char=1058
+5	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	start_char=1059|end_char=1064
+6	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1065|end_char=1072
+7	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=1073|end_char=1079
+8	,	,	PUNCT	_	_	12	punct	_	start_char=1079|end_char=1080
+9	если	если	SCONJ	_	_	12	mark	_	start_char=1081|end_char=1085
+10	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	start_char=1086|end_char=1090
+11	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	start_char=1091|end_char=1096
+12	продолжать	продолжать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	advcl	_	start_char=1097|end_char=1107
+13	выходить	выходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	start_char=1108|end_char=1116
+14	на	на	ADP	_	_	15	case	_	start_char=1117|end_char=1119
+15	улицы	улица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obl	_	start_char=1120|end_char=1125
+16	не	не	PART	_	_	17	advmod	_	start_char=1126|end_char=1128
+17	только	только	PART	_	_	18	advmod	_	start_char=1129|end_char=1135
+18	сегодня	сегодня	ADV	_	Degree=Pos	13	advmod	_	start_char=1136|end_char=1143
+19	,	,	PUNCT	_	_	23	punct	_	start_char=1143|end_char=1144
+20	но	но	CCONJ	_	_	23	cc	_	start_char=1145|end_char=1147
+21	и	и	PART	_	_	20	fixed	_	start_char=1148|end_char=1149
+22	в	в	ADP	_	_	23	case	_	start_char=1150|end_char=1151
+23	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	conj	_	start_char=1152|end_char=1159
+24	,	,	PUNCT	_	_	27	punct	_	start_char=1159|end_char=1160
+25	и	и	CCONJ	_	_	27	cc	_	start_char=1161|end_char=1162
+26	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	start_char=1163|end_char=1165
+27	увидим	видеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	12	conj	_	start_char=1166|end_char=1172
+28	самых	самый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	start_char=1173|end_char=1178
+29	разных	разный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	30	amod	_	start_char=1179|end_char=1185
+30	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	start_char=1186|end_char=1191
+31	из	из	ADP	_	_	33	case	_	start_char=1192|end_char=1194
+32	всех	весь	DET	_	Case=Gen|Number=Plur|PronType=Tot	33	det	_	start_char=1195|end_char=1199
+33	слоев	слой	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	obl	_	start_char=1200|end_char=1205
+34	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	start_char=1206|end_char=1214
+35	"	"	PUNCT	_	_	5	punct	_	start_char=1214|end_char=1215
+36	,	,	PUNCT	_	_	38	punct	_	start_char=1215|end_char=1216
+37	-	-	PUNCT	_	_	38	punct	_	start_char=1217|end_char=1218
+38	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis	_	start_char=1219|end_char=1225
+39	участник	участник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	38	nsubj	_	start_char=1226|end_char=1234
+40	акции	акция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	start_char=1235|end_char=1240
+41	Рейндер	Рейндер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	appos	_	start_char=1241|end_char=1248
+42	Рустема	Рустема	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	41	flat:name	_	start_char=1249|end_char=1256
+43	.	.	PUNCT	_	_	5	punct	_	start_char=1256|end_char=1257
+
+# text = Бьющие в барабаны и держащие в руках фотографии Тунберга, протестующие прошли по центру города с плакатами, гласящими: "Ради блага Греты", "Не будь ископаемым дураком" и "Вы умрете от старости, мы умрем от изменения климата".
+# sent_id = 7
+1	Бьющие	бить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	start_char=1258|end_char=1264
+2	в	в	ADP	_	_	3	case	_	start_char=1265|end_char=1266
+3	барабаны	барабан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl	_	start_char=1267|end_char=1275
+4	и	и	CCONJ	_	_	5	cc	_	start_char=1276|end_char=1277
+5	держащие	держать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	start_char=1278|end_char=1286
+6	в	в	ADP	_	_	7	case	_	start_char=1287|end_char=1288
+7	руках	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	start_char=1289|end_char=1294
+8	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	start_char=1295|end_char=1305
+9	Тунберга	Тунберг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=1306|end_char=1314
+10	,	,	PUNCT	_	_	1	punct	_	start_char=1314|end_char=1315
+11	протестующие	протестовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	12	nsubj	_	start_char=1316|end_char=1328
+12	прошли	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1329|end_char=1335
+13	по	по	ADP	_	_	14	case	_	start_char=1336|end_char=1338
+14	центру	центр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	obl	_	start_char=1339|end_char=1345
+15	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=1346|end_char=1352
+16	с	с	ADP	_	_	17	case	_	start_char=1353|end_char=1354
+17	плакатами	плакат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	nmod	_	start_char=1355|end_char=1364
+18	,	,	PUNCT	_	_	19	punct	_	start_char=1364|end_char=1365
+19	гласящими	гласить	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	acl	_	start_char=1366|end_char=1375
+20	:	:	PUNCT	_	_	23	punct	_	start_char=1375|end_char=1376
+21	"	"	PUNCT	_	_	23	punct	_	start_char=1377|end_char=1378
+22	Ради	ради	ADP	_	_	23	case	_	start_char=1378|end_char=1382
+23	блага	благо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	parataxis	_	start_char=1383|end_char=1388
+24	Греты	Грета	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	start_char=1389|end_char=1394
+25	"	"	PUNCT	_	_	23	punct	_	start_char=1394|end_char=1395
+26	,	,	PUNCT	_	_	31	punct	_	start_char=1395|end_char=1396
+27	"	"	PUNCT	_	_	29	punct	_	start_char=1397|end_char=1398
+28	Не	не	PART	_	_	29	advmod	_	start_char=1398|end_char=1400
+29	будь	быть	AUX	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	23	conj	_	start_char=1401|end_char=1405
+30	ископаемым	ископаемый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	start_char=1406|end_char=1416
+31	дураком	дурак	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	23	conj	_	start_char=1417|end_char=1424
+32	"	"	PUNCT	_	_	31	punct	_	start_char=1424|end_char=1425
+33	и	и	CCONJ	_	_	36	cc	_	start_char=1426|end_char=1427
+34	"	"	PUNCT	_	_	36	punct	_	start_char=1428|end_char=1429
+35	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	36	nsubj	_	start_char=1429|end_char=1431
+36	умрете	умереть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	23	conj	_	start_char=1432|end_char=1438
+37	от	от	ADP	_	_	38	case	_	start_char=1439|end_char=1441
+38	старости	старость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	obl	_	start_char=1442|end_char=1450
+39	,	,	PUNCT	_	_	41	punct	_	start_char=1450|end_char=1451
+40	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	41	nsubj	_	start_char=1452|end_char=1454
+41	умрем	умереть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	23	conj	_	start_char=1455|end_char=1460
+42	от	от	ADP	_	_	43	case	_	start_char=1461|end_char=1463
+43	изменения	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	obl	_	start_char=1464|end_char=1473
+44	климата	климат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	start_char=1474|end_char=1481
+45	"	"	PUNCT	_	_	23	punct	_	start_char=1481|end_char=1482
+46	.	.	PUNCT	_	_	12	punct	_	start_char=1482|end_char=1483
+
+# text = "Я понимаю их озабоченность и считаю, что они услышаны", - заявил премьер-министр Нидерландов Марк Рютте на еженедельном пресс-брифинге, проходившем в непосредственной близости от мест протестов.
+# sent_id = 8
+1	"	"	PUNCT	_	_	3	punct	_	start_char=1484|end_char=1485
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1485|end_char=1486
+3	понимаю	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1487|end_char=1494
+4	их	их	DET	_	Poss=Yes|PronType=Prs	5	det	_	start_char=1495|end_char=1497
+5	озабоченность	озабоченность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	start_char=1498|end_char=1511
+6	и	и	CCONJ	_	_	7	cc	_	start_char=1512|end_char=1513
+7	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	start_char=1514|end_char=1520
+8	,	,	PUNCT	_	_	11	punct	_	start_char=1520|end_char=1521
+9	что	что	SCONJ	_	_	11	mark	_	start_char=1522|end_char=1525
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj:pass	_	start_char=1526|end_char=1529
+11	услышаны	слышать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	ccomp	_	start_char=1530|end_char=1538
+12	"	"	PUNCT	_	_	3	punct	_	start_char=1538|end_char=1539
+13	,	,	PUNCT	_	_	15	punct	_	start_char=1539|end_char=1540
+14	-	-	PUNCT	_	_	15	punct	_	start_char=1541|end_char=1542
+15	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=1543|end_char=1549
+16	премьер-министр	премьер-министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	start_char=1550|end_char=1565
+17	Нидерландов	Нидерланды	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=1566|end_char=1577
+18	Марк	Марк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	start_char=1578|end_char=1582
+19	Рютте	Рютте	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	flat:name	_	start_char=1583|end_char=1588
+20	на	на	ADP	_	_	22	case	_	start_char=1589|end_char=1591
+21	еженедельном	еженедельный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=1592|end_char=1604
+22	пресс-брифинге	пресс-брифинг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	start_char=1605|end_char=1619
+23	,	,	PUNCT	_	_	24	punct	_	start_char=1619|end_char=1620
+24	проходившем	проходить	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	22	acl	_	start_char=1621|end_char=1632
+25	в	в	ADP	_	_	27	case	_	start_char=1633|end_char=1634
+26	непосредственной	непосредственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	start_char=1635|end_char=1651
+27	близости	близость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	start_char=1652|end_char=1660
+28	от	от	ADP	_	_	29	case	_	start_char=1661|end_char=1663
+29	мест	место	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	27	nmod	_	start_char=1664|end_char=1668
+30	протестов	протест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	start_char=1669|end_char=1678
+31	.	.	PUNCT	_	_	3	punct	_	start_char=1678|end_char=1679
+
+# text = "Мы представили очень амбициозные планы по решению этих проблем.
+# sent_id = 9
+1	"	"	PUNCT	_	_	3	punct	_	start_char=1680|end_char=1681
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1681|end_char=1683
+3	представили	представить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1684|end_char=1695
+4	очень	очень	ADV	_	Degree=Pos	5	obl	_	start_char=1696|end_char=1701
+5	амбициозные	амбициозный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	start_char=1702|end_char=1713
+6	планы	план	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	start_char=1714|end_char=1719
+7	по	по	ADP	_	_	8	case	_	start_char=1720|end_char=1722
+8	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	start_char=1723|end_char=1730
+9	этих	этот	DET	_	Case=Gen|Number=Plur|PronType=Dem	10	det	_	start_char=1731|end_char=1735
+10	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	start_char=1736|end_char=1743
+11	.	.	PUNCT	_	_	3	punct	_	start_char=1743|end_char=1744
+
+# text = Но мы должны делать это разумно, создавая рабочие места".
+# sent_id = 10
+1	Но	но	CCONJ	_	_	3	cc	_	start_char=1745|end_char=1747
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	start_char=1748|end_char=1750
+3	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=1751|end_char=1757
+4	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=1758|end_char=1764
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=1765|end_char=1768
+6	разумно	разумно	ADV	_	Degree=Pos	4	advmod	_	start_char=1769|end_char=1776
+7	,	,	PUNCT	_	_	8	punct	_	start_char=1776|end_char=1777
+8	создавая	создавать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	start_char=1778|end_char=1786
+9	рабочие	рабочий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	start_char=1787|end_char=1794
+10	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	start_char=1795|end_char=1800
+11	"	"	PUNCT	_	_	10	punct	_	start_char=1800|end_char=1801
+12	.	.	PUNCT	_	_	3	punct	_	start_char=1801|end_char=1802
+
+# text = Короткое выступление Тунберга зарядило энергией начало саммита, цель которого - мобилизовать правительство и бизнес на преодоление международного паралича в отношении выбросов углекислого газа, которые в прошлом году достигли рекордных значений, несмотря на десятилетия предупреждений со стороны ученых.
+# sent_id = 11
+1	Короткое	короткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=1803|end_char=1811
+2	выступление	выступление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=1812|end_char=1823
+3	Тунберга	Тунберг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1824|end_char=1832
+4	зарядило	зарядить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1833|end_char=1841
+5	энергией	энергия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	start_char=1842|end_char=1850
+6	начало	начало	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=1851|end_char=1857
+7	саммита	саммит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=1858|end_char=1865
+8	,	,	PUNCT	_	_	9	punct	_	start_char=1865|end_char=1866
+9	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	acl:relcl	_	start_char=1867|end_char=1871
+10	которого	который	PRON	_	Case=Gen|PronType=Int,Rel	9	nmod	_	start_char=1872|end_char=1880
+11	-	-	PUNCT	_	_	12	punct	_	start_char=1881|end_char=1882
+12	мобилизовать	мобилизовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	csubj	_	start_char=1883|end_char=1895
+13	правительство	правительство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=1896|end_char=1909
+14	и	и	CCONJ	_	_	15	cc	_	start_char=1910|end_char=1911
+15	бизнес	бизнес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	conj	_	start_char=1912|end_char=1918
+16	на	на	ADP	_	_	17	case	_	start_char=1919|end_char=1921
+17	преодоление	преодоление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	start_char=1922|end_char=1933
+18	международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	start_char=1934|end_char=1948
+19	паралича	паралич	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	start_char=1949|end_char=1957
+20	в	в	ADP	_	_	22	case	_	start_char=1958|end_char=1959
+21	отношении	отношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	fixed	_	start_char=1960|end_char=1969
+22	выбросов	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	start_char=1970|end_char=1978
+23	углекислого	углекислый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	start_char=1979|end_char=1990
+24	газа	газ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=1991|end_char=1995
+25	,	,	PUNCT	_	_	30	punct	_	start_char=1995|end_char=1996
+26	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	30	nsubj	_	start_char=1997|end_char=2004
+27	в	в	ADP	_	_	29	case	_	start_char=2005|end_char=2006
+28	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	start_char=2007|end_char=2014
+29	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	obl	_	start_char=2015|end_char=2019
+30	достигли	достичь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:relcl	_	start_char=2020|end_char=2028
+31	рекордных	рекордный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	start_char=2029|end_char=2038
+32	значений	значение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	30	obl	_	start_char=2039|end_char=2047
+33	,	,	PUNCT	_	_	36	punct	_	start_char=2047|end_char=2048
+34	несмотря	несмотря	ADV	_	Polarity=Neg	36	case	_	start_char=2049|end_char=2057
+35	на	на	ADP	_	_	34	fixed	_	start_char=2058|end_char=2060
+36	десятилетия	десятилетие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	30	obl	_	start_char=2061|end_char=2072
+37	предупреждений	предупреждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	36	nmod	_	start_char=2073|end_char=2087
+38	со	с	ADP	_	_	40	case	_	start_char=2088|end_char=2090
+39	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	fixed	_	start_char=2091|end_char=2098
+40	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	start_char=2099|end_char=2105
+41	.	.	PUNCT	_	_	4	punct	_	start_char=2105|end_char=2106
+
+# text = "Все это неправильно.
+# sent_id = 12
+1	"	"	PUNCT	_	_	4	punct	_	start_char=2107|end_char=2108
+2	Все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	det	_	start_char=2108|end_char=2111
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=2112|end_char=2115
+4	неправильно	неправильный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=2116|end_char=2127
+5	.	.	PUNCT	_	_	4	punct	_	start_char=2127|end_char=2128
+
+# text = Я не должен быть здесь.
+# sent_id = 13
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=2129|end_char=2130
+2	не	не	PART	_	_	3	advmod	_	start_char=2131|end_char=2133
+3	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	start_char=2134|end_char=2140
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	cop	_	start_char=2141|end_char=2145
+5	здесь	здесь	ADV	_	Degree=Pos	3	xcomp	_	start_char=2146|end_char=2151
+6	.	.	PUNCT	_	_	3	punct	_	start_char=2151|end_char=2152
+
+# text = Я должна быть в школе по другую сторону океана, а вы все приходите к нам, молодым людям, за надеждой.
+# sent_id = 14
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=2153|end_char=2154
+2	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	start_char=2155|end_char=2161
+3	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	cop	_	start_char=2162|end_char=2166
+4	в	в	ADP	_	_	5	case	_	start_char=2167|end_char=2168
+5	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=2169|end_char=2174
+6	по	по	ADP	_	_	8	case	_	start_char=2175|end_char=2177
+7	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=2178|end_char=2184
+8	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	start_char=2185|end_char=2192
+9	океана	океан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	start_char=2193|end_char=2199
+10	,	,	PUNCT	_	_	14	punct	_	start_char=2199|end_char=2200
+11	а	а	CCONJ	_	_	14	cc	_	start_char=2201|end_char=2202
+12	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	start_char=2203|end_char=2205
+13	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	14	advmod	_	start_char=2206|end_char=2209
+14	приходите	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	start_char=2210|end_char=2219
+15	к	к	ADP	_	_	16	case	_	start_char=2220|end_char=2221
+16	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	14	obl	_	start_char=2222|end_char=2225
+17	,	,	PUNCT	_	_	19	punct	_	start_char=2225|end_char=2226
+18	молодым	молодой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	start_char=2227|end_char=2234
+19	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	conj	_	start_char=2235|end_char=2240
+20	,	,	PUNCT	_	_	22	punct	_	start_char=2240|end_char=2241
+21	за	за	ADP	_	_	22	case	_	start_char=2242|end_char=2244
+22	надеждой	надежда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	conj	_	start_char=2245|end_char=2253
+23	.	.	PUNCT	_	_	2	punct	_	start_char=2253|end_char=2254
+
+# text = Как вы смеете?" - сказала она, ее голос дрожал от волнения.
+# sent_id = 15
+1	Как	как	ADV	_	Degree=Pos	3	advmod	_	start_char=2255|end_char=2258
+2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	start_char=2259|end_char=2261
+3	смеете	смеять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=2262|end_char=2268
+4	?	?	PUNCT	_	_	3	punct	_	start_char=2268|end_char=2269
+5	"	"	PUNCT	_	_	3	punct	_	start_char=2269|end_char=2270
+6	-	-	PUNCT	_	_	7	punct	_	start_char=2271|end_char=2272
+7	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	start_char=2273|end_char=2280
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	start_char=2281|end_char=2284
+9	,	,	PUNCT	_	_	12	punct	_	start_char=2284|end_char=2285
+10	ее	ее	DET	_	Poss=Yes|PronType=Prs	11	det	_	start_char=2286|end_char=2288
+11	голос	голос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=2289|end_char=2294
+12	дрожал	дрожать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=2295|end_char=2301
+13	от	от	ADP	_	_	14	case	_	start_char=2302|end_char=2304
+14	волнения	волнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	start_char=2305|end_char=2313
+15	.	.	PUNCT	_	_	3	punct	_	start_char=2313|end_char=2314
+
+# text = В Нидерландах, где проживает 17 млн человек, в 2017 году менее 7% всей энергии вырабатывалось из экологически чистых источников, в то время как в Германии этот показатель составляет 15%, а в Швеции - более половины.
+# sent_id = 16
+1	В	в	ADP	_	_	2	case	_	start_char=2315|end_char=2316
+2	Нидерландах	Нидерландый	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	18	obl	_	start_char=2317|end_char=2328
+3	,	,	PUNCT	_	_	5	punct	_	start_char=2328|end_char=2329
+4	где	где	ADV	_	Degree=Pos	5	advmod	_	start_char=2330|end_char=2333
+5	проживает	проживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	start_char=2334|end_char=2343
+6	17	17	NUM	_	NumType=Card	7	nummod	_	start_char=2344|end_char=2346
+7	млн	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	start_char=2347|end_char=2350
+8	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	start_char=2351|end_char=2358
+9	,	,	PUNCT	_	_	2	punct	_	start_char=2358|end_char=2359
+10	в	в	ADP	_	_	12	case	_	start_char=2360|end_char=2361
+11	2017	2017	ADJ	_	Degree=Pos	12	amod	_	start_char=2362|end_char=2366
+12	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	start_char=2367|end_char=2371
+13	менее	менее	ADV	_	Degree=Cmp	18	nsubj:pass	_	start_char=2372|end_char=2377
+14	7	7	NUM	_	NumType=Card	15	nummod	_	start_char=2378|end_char=2379
+15	%	%	SYM	_	_	13	obl	_	start_char=2379|end_char=2380
+16	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Tot	17	det	_	start_char=2381|end_char=2385
+17	энергии	энергия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=2386|end_char=2393
+18	вырабатывалось	вырабатывать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=2394|end_char=2408
+19	из	из	ADP	_	_	22	case	_	start_char=2409|end_char=2411
+20	экологически	экологически	ADV	_	Degree=Pos	21	obl	_	start_char=2412|end_char=2424
+21	чистых	чистый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	start_char=2425|end_char=2431
+22	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	start_char=2432|end_char=2442
+23	,	,	PUNCT	_	_	32	punct	_	start_char=2442|end_char=2443
+24	в	в	ADP	_	_	32	cc	_	start_char=2444|end_char=2445
+25	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	fixed	_	start_char=2446|end_char=2448
+26	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	fixed	_	start_char=2449|end_char=2454
+27	как	как	SCONJ	_	_	24	fixed	_	start_char=2455|end_char=2458
+28	в	в	ADP	_	_	29	case	_	start_char=2459|end_char=2460
+29	Германии	Германия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	start_char=2461|end_char=2469
+30	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	31	det	_	start_char=2470|end_char=2474
+31	показатель	показатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	start_char=2475|end_char=2485
+32	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	start_char=2486|end_char=2496
+33	15	15	NUM	_	NumType=Card	34	nummod	_	start_char=2497|end_char=2499
+34	%	%	SYM	_	_	32	obl	_	start_char=2499|end_char=2500
+35	,	,	PUNCT	_	_	40	punct	_	start_char=2500|end_char=2501
+36	а	а	CCONJ	_	_	40	cc	_	start_char=2502|end_char=2503
+37	в	в	ADP	_	_	38	case	_	start_char=2504|end_char=2505
+38	Швеции	Швеция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	conj	_	start_char=2506|end_char=2512
+39	-	-	PUNCT	_	_	38	punct	_	start_char=2513|end_char=2514
+40	более	более	ADV	_	Degree=Cmp	38	nsubj	_	start_char=2515|end_char=2520
+41	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	obl	_	start_char=2521|end_char=2529
+42	.	.	PUNCT	_	_	18	punct	_	start_char=2529|end_char=2530
+
+# text = Правительство страны взяло на себя обязательство вдвое сократить выбросы CO2 по сравнению с уровнем 1990 года к 2030 году, однако к 2017 году удалось добиться лишь 13-процентного сокращения.
+# sent_id = 17
+1	Правительство	правительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	start_char=2531|end_char=2544
+2	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	start_char=2545|end_char=2551
+3	взяло	брать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2552|end_char=2557
+4	на	на	ADP	_	_	5	case	_	start_char=2558|end_char=2560
+5	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obl	_	start_char=2561|end_char=2565
+6	обязательство	обязательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	start_char=2566|end_char=2579
+7	вдвое	вдвое	ADV	_	Degree=Pos	8	advmod	_	start_char=2580|end_char=2585
+8	сократить	сократить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	obl	_	start_char=2586|end_char=2595
+9	выбросы	выброс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	start_char=2596|end_char=2603
+10	CO2	CO2	PROPN	_	Animacy=Inan|Case=Gen|Number=Sing	9	nmod	_	start_char=2604|end_char=2607
+11	по	по	ADP	_	_	14	case	_	start_char=2608|end_char=2610
+12	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	fixed	_	start_char=2611|end_char=2620
+13	с	с	ADP	_	_	11	fixed	_	start_char=2621|end_char=2622
+14	уровнем	уровень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=2623|end_char=2630
+15	1990	1990	ADJ	_	Degree=Pos	16	amod	_	start_char=2631|end_char=2635
+16	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=2636|end_char=2640
+17	к	к	ADP	_	_	19	case	_	start_char=2641|end_char=2642
+18	2030	2030	ADJ	_	Degree=Pos	19	amod	_	start_char=2643|end_char=2647
+19	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	start_char=2648|end_char=2652
+20	,	,	PUNCT	_	_	25	punct	_	start_char=2652|end_char=2653
+21	однако	однако	ADV	_	Degree=Pos	25	advmod	_	start_char=2654|end_char=2660
+22	к	к	ADP	_	_	24	case	_	start_char=2661|end_char=2662
+23	2017	2017	ADJ	_	Degree=Pos	24	amod	_	start_char=2663|end_char=2667
+24	году	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	obl	_	start_char=2668|end_char=2672
+25	удалось	удаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	start_char=2673|end_char=2680
+26	добиться	добиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	25	csubj	_	start_char=2681|end_char=2689
+27	лишь	лишь	PART	_	_	28	advmod	_	start_char=2690|end_char=2694
+28	13-процентного	13-процентный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	start_char=2695|end_char=2709
+29	сокращения	сокращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	obl	_	start_char=2710|end_char=2720
+30	.	.	PUNCT	_	_	3	punct	_	start_char=2720|end_char=2721
+
+# text = В пятницу Тунберг принял участие в акции протеста в Канаде, где в Монреале собрались руководители авиационных компаний ООН для обсуждения целевых показателей выбросов самолетов.
+# sent_id = 18
+1	В	в	ADP	_	_	2	case	_	start_char=2722|end_char=2723
+2	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	start_char=2724|end_char=2731
+3	Тунберг	Тунберг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=2732|end_char=2739
+4	принял	принять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=2740|end_char=2746
+5	участие	участие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=2747|end_char=2754
+6	в	в	ADP	_	_	7	case	_	start_char=2755|end_char=2756
+7	акции	акция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	start_char=2757|end_char=2762
+8	протеста	протест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=2763|end_char=2771
+9	в	в	ADP	_	_	10	case	_	start_char=2772|end_char=2773
+10	Канаде	Канада	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	start_char=2774|end_char=2780
+11	,	,	PUNCT	_	_	15	punct	_	start_char=2780|end_char=2781
+12	где	где	ADV	_	Degree=Pos	15	advmod	_	start_char=2782|end_char=2785
+13	в	в	ADP	_	_	14	case	_	start_char=2786|end_char=2787
+14	Монреале	Монреал	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	start_char=2788|end_char=2796
+15	собрались	собраться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	start_char=2797|end_char=2806
+16	руководители	руководитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	start_char=2807|end_char=2819
+17	авиационных	авиационный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	start_char=2820|end_char=2831
+18	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=2832|end_char=2840
+19	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=2841|end_char=2844
+20	для	для	ADP	_	_	21	case	_	start_char=2845|end_char=2848
+21	обсуждения	обсуждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	start_char=2849|end_char=2859
+22	целевых	целевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	start_char=2860|end_char=2867
+23	показателей	показатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	start_char=2868|end_char=2879
+24	выбросов	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	start_char=2880|end_char=2888
+25	самолетов	самолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	start_char=2889|end_char=2898
+26	.	.	PUNCT	_	_	4	punct	_	start_char=2898|end_char=2899
+

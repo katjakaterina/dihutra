@@ -1,15 +1,23 @@
+# text = Lažni Mac!
+# sent_id = 0
 1	Lažni	lažan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
 2	Mac	Mac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=9
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=9|end_char=10
 
+# text = Lažni MAC.
+# sent_id = 1
 1	Lažni	lažan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=11|end_char=16
 2	MAC	MAC	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=17|end_char=20
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=20|end_char=21
 
+# text = Još jedan.
+# sent_id = 2
 1	Još	još	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=22|end_char=25
 2	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	0	root	_	start_char=26|end_char=31
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=31|end_char=32
 
+# text = Mac ne proizvodi ovakve palete.
+# sent_id = 3
 1	Mac	Mac	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=33|end_char=36
 2	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=37|end_char=39
 3	proizvodi	proizvoditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=40|end_char=49
@@ -17,6 +25,8 @@
 5	palete	palet	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=57|end_char=63
 6	.	.	PUNCT	Z	_	3	punct	_	start_char=63|end_char=64
 
+# text = Ako niste sigurni, samo je odnesite u MAc trgovinu u trgovačkom centru, oni će provjeriti jesu li sve ove palete lažne.
+# sent_id = 4
 1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=65|end_char=68
 2	niste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=69|end_char=74
 3	sigurni	siguran	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	17	advcl	_	start_char=75|end_char=82
@@ -42,12 +52,16 @@
 23	lažne	lažan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	17	ccomp	_	start_char=178|end_char=183
 24	.	.	PUNCT	Z	_	7	punct	_	start_char=183|end_char=184
 
+# text = Prodavačica sama piše recenzije.
+# sent_id = 5
 1	Prodavačica	prodavačica	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=185|end_char=196
 2	sama	sam	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	advmod	_	start_char=197|end_char=201
 3	piše	pisati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=202|end_char=206
 4	recenzije	recenzija	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	start_char=207|end_char=216
 5	.	.	PUNCT	Z	_	3	punct	_	start_char=216|end_char=217
 
+# text = Pod raznim imenima kao što su Victoria, Alexis i lik."-".
+# sent_id = 6
 1	Pod	pod	ADP	Si	Case=Ins	3	case	_	start_char=218|end_char=221
 2	raznim	razni	ADJ	Agpnpiy	Case=Ins|Definite=Def|Degree=Pos|Gender=Neut|Number=Plur	3	amod	_	start_char=222|end_char=228
 3	imenima	ime	NOUN	Ncnpi	Case=Ins|Gender=Neut|Number=Plur	0	root	_	start_char=229|end_char=236
@@ -64,6 +78,8 @@
 14	"	"	PUNCT	Z	_	7	punct	_	start_char=273|end_char=274
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=274|end_char=275
 
+# text = Samo za povećanje prodaje lažnih paleta.
+# sent_id = 7
 1	Samo	samo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=276|end_char=280
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=281|end_char=283
 3	povećanje	povećanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	0	root	_	start_char=284|end_char=293
@@ -72,6 +88,8 @@
 6	paleta	paleta	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	start_char=309|end_char=315
 7	.	.	PUNCT	Z	_	3	punct	_	start_char=315|end_char=316
 
+# text = Nemojte podržavati lažni mac.
+# sent_id = 8
 1	Nemojte	moći	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=317|end_char=324
 2	podržavati	podržavati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=325|end_char=335
 3	lažni	lažan	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=336|end_char=341

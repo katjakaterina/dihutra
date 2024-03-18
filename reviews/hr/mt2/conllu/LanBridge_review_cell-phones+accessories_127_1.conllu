@@ -1,7 +1,11 @@
+# text = Nesretna stavka.
+# sent_id = 0
 1	Nesretna	nesretan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
 2	stavka	stavak	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=9|end_char=15
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=15|end_char=16
 
+# text = Dobio sam ovaj proizvod vrlo na vrijeme, što je bilo divno, međutim, dao sam ga na dar i bilo mi je neugodno saznati da je neispravan artikl.
+# sent_id = 1
 1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=17|end_char=22
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=23|end_char=26
 3	ovaj	ovaj	DET	Pd-msan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	start_char=27|end_char=31
@@ -34,6 +38,8 @@
 30	artikl	artikl	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	26	ccomp	_	start_char=151|end_char=157
 31	.	.	PUNCT	Z	_	1	punct	_	start_char=157|end_char=158
 
+# text = Dobio sam naknadu za proizvod, ali bih radije imao proizvod koji je radio prvi put.
+# sent_id = 2
 1	Dobio	dobiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=159|end_char=164
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=165|end_char=168
 3	naknadu	naknada	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=169|end_char=176

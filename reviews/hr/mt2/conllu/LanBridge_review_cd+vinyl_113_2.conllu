@@ -1,3 +1,5 @@
+# text = Originalna audio CD verzija još uvijek dostupna
+# sent_id = 0
 1	Originalna	originalan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=0|end_char=10
 2	audio	audio	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	start_char=11|end_char=16
 3	CD	CD	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	start_char=17|end_char=19
@@ -6,6 +8,8 @@
 6	uvijek	uvijek	ADV	Rgp	Degree=Pos|PronType=Tot	7	advmod	_	start_char=32|end_char=38
 7	dostupna	dostupan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=39|end_char=47
 
+# text = S obzirom na zabrinutost oko kvalitete zvuka ove MP3 verzije, originalna audio CD verzija ("The Collector's Edition"), set od 8 CD-a, još uvijek je dostupna od Amazon UK.
+# sent_id = 1
 1	S	sa	ADP	Si	Case=Ins	2	case	_	start_char=48|end_char=49
 2	obzirom	obzir	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	32	obl	_	start_char=50|end_char=57
 3	na	na	ADP	Sa	Case=Acc	4	case	_	start_char=58|end_char=60
@@ -43,6 +47,8 @@
 35	UK	UK	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	34	flat	_	start_char=215|end_char=217
 36	.	.	PUNCT	Z	_	32	punct	_	start_char=217|end_char=218
 
+# text = Platio sam nešto više od dvostruko više od MP3 cijene.
+# sent_id = 2
 1	Platio	platiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=219|end_char=225
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=226|end_char=229
 3	nešto	nešto	PART	Qo	_	4	advmod	_	start_char=230|end_char=235
@@ -55,6 +61,8 @@
 10	cijene	cijena	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	1	obj	_	start_char=266|end_char=272
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=272|end_char=273
 
+# text = ISBN broj audio CD verzije je 0-563-47702-4.
+# sent_id = 3
 1	ISBN	ISBN	X	Xf	_	2	amod	_	start_char=274|end_char=278
 2	broj	broj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=279|end_char=283
 3	audio	audio	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=284|end_char=289

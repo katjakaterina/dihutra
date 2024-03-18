@@ -1,0 +1,183 @@
+# text = Пожар на французском химическом заводе потушен, а вопросов все больше Французские власти и жители Нормандии устраняют последствия сильного пожара на химическом заводе, в то время как зловоние продолжает распространяться по всей территории страны.
+# sent_id = 0
+1	Пожар	пожар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj:pass	_	start_char=0|end_char=5
+2	на	на	ADP	_	_	5	case	_	start_char=6|end_char=8
+3	французском	французский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=9|end_char=20
+4	химическом	химический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=21|end_char=31
+5	заводе	завод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	start_char=32|end_char=38
+6	потушен	потушить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=39|end_char=46
+7	,	,	PUNCT	_	_	17	punct	_	start_char=46|end_char=47
+8	а	а	CCONJ	_	_	17	cc	_	start_char=48|end_char=49
+9	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	start_char=50|end_char=58
+10	все	все	PART	_	_	11	advmod	_	start_char=59|end_char=62
+11	больше	больше	ADV	_	Degree=Cmp	17	advmod	_	start_char=63|end_char=69
+12	Французские	французский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	start_char=70|end_char=81
+13	власти	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	start_char=82|end_char=88
+14	и	и	CCONJ	_	_	15	cc	_	start_char=89|end_char=90
+15	жители	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	conj	_	start_char=91|end_char=97
+16	Нормандии	Нормандия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=98|end_char=107
+17	устраняют	устранять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=108|end_char=117
+18	последствия	последствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obj	_	start_char=118|end_char=129
+19	сильного	сильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=130|end_char=138
+20	пожара	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	start_char=139|end_char=145
+21	на	на	ADP	_	_	23	case	_	start_char=146|end_char=148
+22	химическом	химический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	start_char=149|end_char=159
+23	заводе	завод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	start_char=160|end_char=166
+24	,	,	PUNCT	_	_	30	punct	_	start_char=166|end_char=167
+25	в	в	ADP	_	_	30	cc	_	start_char=168|end_char=169
+26	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	25	fixed	_	start_char=170|end_char=172
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	fixed	_	start_char=173|end_char=178
+28	как	как	SCONJ	_	_	25	fixed	_	start_char=179|end_char=182
+29	зловоние	зловоние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	30	nsubj	_	start_char=183|end_char=191
+30	продолжает	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	start_char=192|end_char=202
+31	распространяться	распространяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	30	xcomp	_	start_char=203|end_char=219
+32	по	по	ADP	_	_	34	case	_	start_char=220|end_char=222
+33	всей	весь	DET	_	Case=Dat|Gender=Fem|Number=Sing|PronType=Tot	34	det	_	start_char=223|end_char=227
+34	территории	территория	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	31	obl	_	start_char=228|end_char=238
+35	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	start_char=239|end_char=245
+36	.	.	PUNCT	_	_	6	punct	_	start_char=245|end_char=246
+
+# text = В результате пожара, произошедшего в четверг на заводе по производству смазочных материалов в Руане, никто не пострадал, однако жители выразили обеспокоенность возможным риском для здоровья и последствиями для реки Сена, протекающей неподалеку.
+# sent_id = 1
+1	В	в	ADP	_	_	2	case	_	start_char=247|end_char=248
+2	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	start_char=249|end_char=259
+3	пожара	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=260|end_char=266
+4	,	,	PUNCT	_	_	5	punct	_	start_char=266|end_char=267
+5	произошедшего	произойти	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	start_char=268|end_char=281
+6	в	в	ADP	_	_	7	case	_	start_char=282|end_char=283
+7	четверг	четверг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=284|end_char=291
+8	на	на	ADP	_	_	9	case	_	start_char=292|end_char=294
+9	заводе	завод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	start_char=295|end_char=301
+10	по	по	ADP	_	_	11	case	_	start_char=302|end_char=304
+11	производству	производство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	start_char=305|end_char=317
+12	смазочных	смазочный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	start_char=318|end_char=327
+13	материалов	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=328|end_char=338
+14	в	в	ADP	_	_	15	case	_	start_char=339|end_char=340
+15	Руане	Руан	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	start_char=341|end_char=346
+16	,	,	PUNCT	_	_	5	punct	_	start_char=346|end_char=347
+17	никто	никто	PRON	_	Case=Nom|PronType=Neg	19	nsubj	_	start_char=348|end_char=353
+18	не	не	PART	_	_	19	advmod	_	start_char=354|end_char=356
+19	пострадал	страдать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=357|end_char=366
+20	,	,	PUNCT	_	_	23	punct	_	start_char=366|end_char=367
+21	однако	однако	ADV	_	Degree=Pos	23	advmod	_	start_char=368|end_char=374
+22	жители	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	start_char=375|end_char=381
+23	выразили	выразить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	start_char=382|end_char=390
+24	обеспокоенность	обеспокоенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	start_char=391|end_char=406
+25	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=407|end_char=416
+26	риском	риск	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	start_char=417|end_char=423
+27	для	для	ADP	_	_	28	case	_	start_char=424|end_char=427
+28	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	start_char=428|end_char=436
+29	и	и	CCONJ	_	_	30	cc	_	start_char=437|end_char=438
+30	последствиями	последствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	26	conj	_	start_char=439|end_char=452
+31	для	для	ADP	_	_	32	case	_	start_char=453|end_char=456
+32	реки	река	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	start_char=457|end_char=461
+33	Сена	Сен	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	appos	_	start_char=462|end_char=466
+34	,	,	PUNCT	_	_	35	punct	_	start_char=466|end_char=467
+35	протекающей	протекать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	32	acl	_	start_char=468|end_char=479
+36	неподалеку	неподалеку	ADV	_	Degree=Pos	35	advmod	_	start_char=480|end_char=490
+37	.	.	PUNCT	_	_	19	punct	_	start_char=490|end_char=491
+
+# text = В пятницу глава региональной администрации сообщил, что пожар был ликвидирован в четверг вечером, спустя почти сутки.
+# sent_id = 2
+1	В	в	ADP	_	_	2	case	_	start_char=492|end_char=493
+2	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=494|end_char=501
+3	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=502|end_char=507
+4	региональной	региональный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=508|end_char=520
+5	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	start_char=521|end_char=534
+6	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=535|end_char=542
+7	,	,	PUNCT	_	_	11	punct	_	start_char=542|end_char=543
+8	что	что	SCONJ	_	_	11	mark	_	start_char=544|end_char=547
+9	пожар	пожар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	start_char=548|end_char=553
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	start_char=554|end_char=557
+11	ликвидирован	ликвидировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	ccomp	_	start_char=558|end_char=570
+12	в	в	ADP	_	_	13	case	_	start_char=571|end_char=572
+13	четверг	четверг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=573|end_char=580
+14	вечером	вечер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	start_char=581|end_char=588
+15	,	,	PUNCT	_	_	18	punct	_	start_char=588|end_char=589
+16	спустя	спустя	ADP	_	_	18	case	_	start_char=590|end_char=596
+17	почти	почти	ADV	_	Degree=Pos	18	obl	_	start_char=597|end_char=602
+18	сутки	сутки	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	conj	_	start_char=603|end_char=608
+19	.	.	PUNCT	_	_	6	punct	_	start_char=608|end_char=609
+
+# text = Пожарные все еще находятся на месте происшествия.
+# sent_id = 3
+1	Пожарные	пожарный	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	start_char=610|end_char=618
+2	все	все	PART	_	_	3	advmod	_	start_char=619|end_char=622
+3	еще	еще	ADV	_	Degree=Pos	4	advmod	_	start_char=623|end_char=626
+4	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=627|end_char=636
+5	на	на	ADP	_	_	6	case	_	start_char=637|end_char=639
+6	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	start_char=640|end_char=645
+7	происшествия	происшествие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	start_char=646|end_char=658
+8	.	.	PUNCT	_	_	4	punct	_	start_char=658|end_char=659
+
+# text = Администрация предупредила о новом запахе, появившемся после тушения пожара, заявив, что он может распространиться на соседние регионы.
+# sent_id = 4
+1	Администрация	администрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	start_char=660|end_char=673
+2	предупредила	предупредить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=674|end_char=686
+3	о	о	ADP	_	_	5	case	_	start_char=687|end_char=688
+4	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=689|end_char=694
+5	запахе	запах	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	start_char=695|end_char=701
+6	,	,	PUNCT	_	_	7	punct	_	start_char=701|end_char=702
+7	появившемся	появиться	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	5	acl	_	start_char=703|end_char=714
+8	после	после	ADP	_	_	9	case	_	start_char=715|end_char=720
+9	тушения	тушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	start_char=721|end_char=728
+10	пожара	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	start_char=729|end_char=735
+11	,	,	PUNCT	_	_	12	punct	_	start_char=735|end_char=736
+12	заявив	заявить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	2	advcl	_	start_char=737|end_char=743
+13	,	,	PUNCT	_	_	16	punct	_	start_char=743|end_char=744
+14	что	что	SCONJ	_	_	16	mark	_	start_char=745|end_char=748
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	start_char=749|end_char=751
+16	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	start_char=752|end_char=757
+17	распространиться	распространиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	16	xcomp	_	start_char=758|end_char=774
+18	на	на	ADP	_	_	20	case	_	start_char=775|end_char=777
+19	соседние	соседний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	start_char=778|end_char=786
+20	регионы	регион	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obl	_	start_char=787|end_char=794
+21	.	.	PUNCT	_	_	2	punct	_	start_char=794|end_char=795
+
+# text = Министр внутренних дел Кристоф Кастанер заявил, что людям с ослабленным здоровьем следует оставаться в помещениях до вечера пятницы.
+# sent_id = 5
+1	Министр	министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=796|end_char=803
+2	внутренних	внутренний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	start_char=804|end_char=814
+3	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	start_char=815|end_char=818
+4	Кристоф	Кристоф	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=819|end_char=826
+5	Кастанер	Кастанер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	start_char=827|end_char=835
+6	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=836|end_char=842
+7	,	,	PUNCT	_	_	13	punct	_	start_char=842|end_char=843
+8	что	что	SCONJ	_	_	13	mark	_	start_char=844|end_char=847
+9	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	13	iobj	_	start_char=848|end_char=853
+10	с	с	ADP	_	_	12	case	_	start_char=854|end_char=855
+11	ослабленным	ослабить	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	start_char=856|end_char=867
+12	здоровьем	здоровье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	start_char=868|end_char=877
+13	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	start_char=878|end_char=885
+14	оставаться	оставаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	csubj	_	start_char=886|end_char=896
+15	в	в	ADP	_	_	16	case	_	start_char=897|end_char=898
+16	помещениях	помещение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	14	obl	_	start_char=899|end_char=909
+17	до	до	ADP	_	_	18	case	_	start_char=910|end_char=912
+18	вечера	вечер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl	_	start_char=913|end_char=919
+19	пятницы	пятница	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=920|end_char=927
+20	.	.	PUNCT	_	_	6	punct	_	start_char=927|end_char=928
+
+# text = Причина пожара выясняется.
+# sent_id = 6
+1	Причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=929|end_char=936
+2	пожара	пожар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=937|end_char=943
+3	выясняется	выясняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=944|end_char=954
+4	.	.	PUNCT	_	_	3	punct	_	start_char=954|end_char=955
+
+# text = Завод входит в число промышленных объектов с самым высоким уровнем риска в Европе.
+# sent_id = 7
+1	Завод	завод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=956|end_char=961
+2	входит	входить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=962|end_char=968
+3	в	в	ADP	_	_	4	case	_	start_char=969|end_char=970
+4	число	число	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	start_char=971|end_char=976
+5	промышленных	промышленный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	start_char=977|end_char=989
+6	объектов	объект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=990|end_char=998
+7	с	с	ADP	_	_	10	case	_	start_char=999|end_char=1000
+8	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=1001|end_char=1006
+9	высоким	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=1007|end_char=1014
+10	уровнем	уровень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	start_char=1015|end_char=1022
+11	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=1023|end_char=1028
+12	в	в	ADP	_	_	13	case	_	start_char=1029|end_char=1030
+13	Европе	Европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	start_char=1031|end_char=1037
+14	.	.	PUNCT	_	_	2	punct	_	start_char=1037|end_char=1038
+

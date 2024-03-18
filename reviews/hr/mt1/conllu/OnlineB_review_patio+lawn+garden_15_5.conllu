@@ -1,8 +1,12 @@
+# text = Gilmour proizvodi sjajne proizvode
+# sent_id = 0
 1	Gilmour	Gilmour	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=0|end_char=7
 2	proizvodi	proizvoditi	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=8|end_char=17
 3	sjajne	sjajan	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=18|end_char=24
 4	proizvode	proizvod	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=25|end_char=34
 
+# text = Za sve što mi treba za radove na travnjaku i vrtu pokušavam pronaći Gilmour proizvod.
+# sent_id = 1
 1	Za	za	ADP	Sa	Case=Acc	2	case	_	start_char=35|end_char=37
 2	sve	sve	DET	Pi-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	12	obl	_	start_char=38|end_char=41
 3	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	5	nsubj	_	start_char=42|end_char=45
@@ -20,6 +24,8 @@
 15	proizvod	proizvod	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	start_char=111|end_char=119
 16	.	.	PUNCT	Z	_	12	punct	_	start_char=119|end_char=120
 
+# text = Jednostavno se ne mogu nadmašiti zbog cijene i/ili jamstva.
+# sent_id = 2
 1	Jednostavno	jednostavno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=121|end_char=132
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	5	expl	_	start_char=133|end_char=135
 3	ne	ne	PART	Qz	Polarity=Neg	4	advmod	_	start_char=136|end_char=138
@@ -31,6 +37,8 @@
 9	jamstva	jamstvo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	start_char=172|end_char=179
 10	.	.	PUNCT	Z	_	4	punct	_	start_char=179|end_char=180
 
+# text = Ovo crijevo je tipično za Gilmour predmet.
+# sent_id = 3
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	start_char=181|end_char=184
 2	crijevo	crijevo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=185|end_char=192
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=193|end_char=195
@@ -40,6 +48,8 @@
 7	predmet	predmet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	start_char=215|end_char=222
 8	.	.	PUNCT	Z	_	4	punct	_	start_char=222|end_char=223
 
+# text = To je snažno i gipko crijevo i kao i većina drugih Gilmour proizvoda dolazi s doživotnim jamstvom.
+# sent_id = 4
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=224|end_char=226
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=227|end_char=229
 3	snažno	snažno	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=230|end_char=236
@@ -59,6 +69,8 @@
 17	jamstvom	jamstvo	NOUN	Ncnsi	Case=Ins|Gender=Neut|Number=Sing	14	obl	_	start_char=313|end_char=321
 18	.	.	PUNCT	Z	_	6	punct	_	start_char=321|end_char=322
 
+# text = Prerezao sam crijeva svojom kosilicom i još uvijek ih mijenjaju.
+# sent_id = 5
 1	Prerezao	prerezati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=323|end_char=331
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=332|end_char=335
 3	crijeva	crijevo	NOUN	Ncmsa	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=336|end_char=343
@@ -71,6 +83,8 @@
 10	mijenjaju	mijenjati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	start_char=377|end_char=386
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=386|end_char=387
 
+# text = Pravo društvo!
+# sent_id = 6
 1	Pravo	pravo	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=388|end_char=393
 2	društvo	društvo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=394|end_char=401
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=401|end_char=402

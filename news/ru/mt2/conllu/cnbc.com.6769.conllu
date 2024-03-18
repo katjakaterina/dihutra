@@ -1,0 +1,244 @@
+# text = Северная Корея заявляет, что ядерное разоружение не наступит, если она не сможет доверять США Министр иностранных дел Северной Кореи Ри Йонг Хо заявил, что его страна никогда не будет первой разоружать свое ядерное оружие, если не сможет доверять Вашингтону.
+# sent_id = 0
+1	Северная	Северный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
+2	Корея	Корея	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=9|end_char=14
+3	заявляет	заявлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=15|end_char=23
+4	,	,	PUNCT	_	_	9	punct	_	start_char=23|end_char=24
+5	что	что	SCONJ	_	_	9	mark	_	start_char=25|end_char=28
+6	ядерное	ядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=29|end_char=36
+7	разоружение	разоружение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=37|end_char=48
+8	не	не	PART	_	_	9	advmod	_	start_char=49|end_char=51
+9	наступит	наступить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=52|end_char=60
+10	,	,	PUNCT	_	_	14	punct	_	start_char=60|end_char=61
+11	если	если	SCONJ	_	_	14	mark	_	start_char=62|end_char=66
+12	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	start_char=67|end_char=70
+13	не	не	PART	_	_	14	advmod	_	start_char=71|end_char=73
+14	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	start_char=74|end_char=80
+15	доверять	доверять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	start_char=81|end_char=89
+16	США	США	PROPN	_	Animacy=Inan|Case=Dat|Number=Plur	15	iobj	_	start_char=90|end_char=93
+17	Министр	министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	start_char=94|end_char=101
+18	иностранных	иностранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	19	amod	_	start_char=102|end_char=113
+19	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	start_char=114|end_char=117
+20	Северной	Северный	PROPN	_	_	21	amod	_	start_char=118|end_char=126
+21	Кореи	Корея	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=127|end_char=132
+22	Ри	Ри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	start_char=133|end_char=135
+23	Йонг	Йонг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	start_char=136|end_char=140
+24	Хо	Хо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	flat:name	_	start_char=141|end_char=143
+25	заявил	заявить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	start_char=144|end_char=150
+26	,	,	PUNCT	_	_	34	punct	_	start_char=150|end_char=151
+27	что	что	SCONJ	_	_	34	mark	_	start_char=152|end_char=155
+28	его	его	DET	_	Poss=Yes|PronType=Prs	29	det	_	start_char=156|end_char=159
+29	страна	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	start_char=160|end_char=166
+30	никогда	никогда	ADV	_	Degree=Pos	34	advmod	_	start_char=167|end_char=174
+31	не	не	PART	_	_	34	advmod	_	start_char=175|end_char=177
+32	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	aux	_	start_char=178|end_char=183
+33	первой	первый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	34	obl	_	start_char=184|end_char=190
+34	разоружать	разоружать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	ccomp	_	start_char=191|end_char=201
+35	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	37	det	_	start_char=202|end_char=206
+36	ядерное	ядерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	start_char=207|end_char=214
+37	оружие	оружие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	start_char=215|end_char=221
+38	,	,	PUNCT	_	_	41	punct	_	start_char=221|end_char=222
+39	если	если	SCONJ	_	_	41	mark	_	start_char=223|end_char=227
+40	не	не	PART	_	_	41	advmod	_	start_char=228|end_char=230
+41	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	34	advcl	_	start_char=231|end_char=237
+42	доверять	доверять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	41	xcomp	_	start_char=238|end_char=246
+43	Вашингтону	Вашингтон	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	42	iobj	_	start_char=247|end_char=257
+44	.	.	PUNCT	_	_	3	punct	_	start_char=257|end_char=258
+
+# text = Ри выступал в субботу на Генеральной Ассамблее ООН.
+# sent_id = 1
+1	Ри	Ри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=259|end_char=261
+2	выступал	выступать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=262|end_char=270
+3	в	в	ADP	_	_	4	case	_	start_char=271|end_char=272
+4	субботу	суббота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	start_char=273|end_char=280
+5	на	на	ADP	_	_	7	case	_	start_char=281|end_char=283
+6	Генеральной	генеральный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	start_char=284|end_char=295
+7	Ассамблее	Ассамблее	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	start_char=296|end_char=305
+8	ООН	ООН	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	start_char=306|end_char=309
+9	.	.	PUNCT	_	_	2	punct	_	start_char=309|end_char=310
+
+# text = Он призвал США выполнить обещания, данные во время саммита лидеров соперничающих стран в Сингапуре.
+# sent_id = 2
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	start_char=311|end_char=313
+2	призвал	призвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=314|end_char=321
+3	США	США	PROPN	_	Animacy=Inan|Case=Acc|Number=Plur	2	obj	_	start_char=322|end_char=325
+4	выполнить	выполнить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=326|end_char=335
+5	обещания	обещание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	start_char=336|end_char=344
+6	,	,	PUNCT	_	_	7	punct	_	start_char=344|end_char=345
+7	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	5	conj	_	start_char=346|end_char=352
+8	во	в	ADP	_	_	10	case	_	start_char=353|end_char=355
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	start_char=356|end_char=361
+10	саммита	саммит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	start_char=362|end_char=369
+11	лидеров	лидер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=370|end_char=377
+12	соперничающих	соперничать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	amod	_	start_char=378|end_char=391
+13	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	start_char=392|end_char=397
+14	в	в	ADP	_	_	15	case	_	start_char=398|end_char=399
+15	Сингапуре	Сингапур	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nmod	_	start_char=400|end_char=409
+16	.	.	PUNCT	_	_	2	punct	_	start_char=409|end_char=410
+
+# text = Его комментарии прозвучали на фоне выступления госсекретаря США Майка Помпео.
+# sent_id = 3
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	2	det	_	start_char=411|end_char=414
+2	комментарии	комментарий	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	start_char=415|end_char=426
+3	прозвучали	звучать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=427|end_char=437
+4	на	на	ADP	_	_	5	case	_	start_char=438|end_char=440
+5	фоне	фон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=441|end_char=445
+6	выступления	выступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	start_char=446|end_char=457
+7	госсекретаря	госсекретарь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=458|end_char=470
+8	США	США	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	7	nmod	_	start_char=471|end_char=474
+9	Майка	Майк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	start_char=475|end_char=480
+10	Помпео	Помпео	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	start_char=481|end_char=487
+11	.	.	PUNCT	_	_	3	punct	_	start_char=487|end_char=488
+
+# text = Госсекретарь Майк Помпео, похоже, стоит на пороге возобновления зашедшей в тупик ядерной дипломатии спустя более трех месяцев после сингапурского саммита с северокорейским лидером Ким Чен Ыном.
+# sent_id = 4
+1	Госсекретарь	госсекретарь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=489|end_char=501
+2	Майк	Майк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=502|end_char=506
+3	Помпео	Помпео	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	start_char=507|end_char=513
+4	,	,	PUNCT	_	_	1	punct	_	start_char=513|end_char=514
+5	похоже	похоже	ADV	_	Degree=Pos	7	parataxis	_	start_char=515|end_char=521
+6	,	,	PUNCT	_	_	5	punct	_	start_char=521|end_char=522
+7	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=523|end_char=528
+8	на	на	ADP	_	_	9	case	_	start_char=529|end_char=531
+9	пороге	порог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	start_char=532|end_char=538
+10	возобновления	возобновление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	start_char=539|end_char=552
+11	зашедшей	зайти	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	acl	_	start_char=553|end_char=561
+12	в	в	ADP	_	_	13	case	_	start_char=562|end_char=563
+13	тупик	тупик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	start_char=564|end_char=569
+14	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	start_char=570|end_char=577
+15	дипломатии	дипломатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	start_char=578|end_char=588
+16	спустя	спустя	ADP	_	_	19	case	_	start_char=589|end_char=595
+17	более	более	ADV	_	Degree=Cmp	19	advmod	_	start_char=596|end_char=601
+18	трех	три	NUM	_	Case=Gen|NumType=Card	19	nummod	_	start_char=602|end_char=606
+19	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	start_char=607|end_char=614
+20	после	после	ADP	_	_	22	case	_	start_char=615|end_char=620
+21	сингапурского	сингапурский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	start_char=621|end_char=634
+22	саммита	саммит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=635|end_char=642
+23	с	с	ADP	_	_	25	case	_	start_char=643|end_char=644
+24	северокорейским	северокорейский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	start_char=645|end_char=660
+25	лидером	лидер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	nmod	_	start_char=661|end_char=668
+26	Ким	Ким	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	appos	_	start_char=669|end_char=672
+27	Чен	Чен	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	flat	_	start_char=673|end_char=676
+28	Ыном	Ын	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	flat	_	start_char=677|end_char=681
+29	.	.	PUNCT	_	_	7	punct	_	start_char=681|end_char=682
+
+# text = По словам Ри, это "несбыточная мечта", что продолжающиеся санкции и возражения США против декларации об окончании Корейской войны когда-либо заставят Север встать на колени.
+# sent_id = 5
+1	По	по	ADP	_	_	2	case	_	start_char=683|end_char=685
+2	словам	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	start_char=686|end_char=692
+3	Ри	Ри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=693|end_char=695
+4	,	,	PUNCT	_	_	2	punct	_	start_char=695|end_char=696
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	start_char=697|end_char=700
+6	"	"	PUNCT	_	_	8	punct	_	start_char=701|end_char=702
+7	несбыточная	несбыточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	start_char=702|end_char=713
+8	мечта	мечта	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=714|end_char=719
+9	"	"	PUNCT	_	_	8	punct	_	start_char=719|end_char=720
+10	,	,	PUNCT	_	_	24	punct	_	start_char=720|end_char=721
+11	что	что	SCONJ	_	_	24	mark	_	start_char=722|end_char=725
+12	продолжающиеся	продолжаться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	13	amod	_	start_char=726|end_char=740
+13	санкции	санкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	start_char=741|end_char=748
+14	и	и	CCONJ	_	_	15	cc	_	start_char=749|end_char=750
+15	возражения	возражение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	conj	_	start_char=751|end_char=761
+16	США	США	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	15	nmod	_	start_char=762|end_char=765
+17	против	против	ADP	_	_	18	case	_	start_char=766|end_char=772
+18	декларации	декларация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=773|end_char=783
+19	об	о	ADP	_	_	20	case	_	start_char=784|end_char=786
+20	окончании	окончание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	nmod	_	start_char=787|end_char=796
+21	Корейской	корейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	start_char=797|end_char=806
+22	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	start_char=807|end_char=812
+23	когда-либо	когда-либо	ADV	_	Degree=Pos	24	advmod	_	start_char=813|end_char=823
+24	заставят	заставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	acl	_	start_char=824|end_char=832
+25	Север	Север	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	start_char=833|end_char=838
+26	встать	встать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	start_char=839|end_char=845
+27	на	на	ADP	_	_	28	case	_	start_char=846|end_char=848
+28	колени	колено	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	26	obl	_	start_char=849|end_char=855
+29	.	.	PUNCT	_	_	8	punct	_	start_char=855|end_char=856
+
+# text = Вашингтон опасается соглашаться на декларацию, если Пхеньян не предпримет существенных шагов в области разоружения.
+# sent_id = 6
+1	Вашингтон	Вашингтон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=857|end_char=866
+2	опасается	опасаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=867|end_char=876
+3	соглашаться	соглашаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	xcomp	_	start_char=877|end_char=888
+4	на	на	ADP	_	_	5	case	_	start_char=889|end_char=891
+5	декларацию	декларация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=892|end_char=902
+6	,	,	PUNCT	_	_	10	punct	_	start_char=902|end_char=903
+7	если	если	SCONJ	_	_	10	mark	_	start_char=904|end_char=908
+8	Пхеньян	Пхеньян	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	start_char=909|end_char=916
+9	не	не	PART	_	_	10	advmod	_	start_char=917|end_char=919
+10	предпримет	предпринять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	advcl	_	start_char=920|end_char=930
+11	существенных	существенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	start_char=931|end_char=943
+12	шагов	шаг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	start_char=944|end_char=949
+13	в	в	ADP	_	_	14	case	_	start_char=950|end_char=951
+14	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	start_char=952|end_char=959
+15	разоружения	разоружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	start_char=960|end_char=971
+16	.	.	PUNCT	_	_	2	punct	_	start_char=971|end_char=972
+
+# text = И Ким, и президент США Дональд Трамп хотят провести второй саммит.
+# sent_id = 7
+1	И	и	CCONJ	_	_	2	cc	_	start_char=973|end_char=974
+2	Ким	Ким	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=975|end_char=978
+3	,	,	PUNCT	_	_	5	punct	_	start_char=978|end_char=979
+4	и	и	CCONJ	_	_	5	cc	_	start_char=980|end_char=981
+5	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	start_char=982|end_char=991
+6	США	США	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	5	nmod	_	start_char=992|end_char=995
+7	Дональд	Дональд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	start_char=996|end_char=1003
+8	Трамп	Трамп	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	start_char=1004|end_char=1009
+9	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1010|end_char=1015
+10	провести	провести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	start_char=1016|end_char=1024
+11	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	start_char=1025|end_char=1031
+12	саммит	саммит	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	start_char=1032|end_char=1038
+13	.	.	PUNCT	_	_	9	punct	_	start_char=1038|end_char=1039
+
+# text = Однако широко распространен скептицизм в отношении того, что Пхеньян серьезно настроен на отказ от арсенала, который, вероятно, рассматривается им как единственный способ гарантировать свою безопасность.
+# sent_id = 8
+1	Однако	однако	ADV	_	Degree=Pos	3	advmod	_	start_char=1040|end_char=1046
+2	широко	широко	ADV	_	Degree=Pos	3	advmod	_	start_char=1047|end_char=1053
+3	распространен	распространить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=1054|end_char=1067
+4	скептицизм	скептицизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	start_char=1068|end_char=1078
+5	в	в	ADP	_	_	7	case	_	start_char=1079|end_char=1080
+6	отношении	отношение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	start_char=1081|end_char=1090
+7	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	nmod	_	start_char=1091|end_char=1095
+8	,	,	PUNCT	_	_	12	punct	_	start_char=1095|end_char=1096
+9	что	что	SCONJ	_	_	12	mark	_	start_char=1097|end_char=1100
+10	Пхеньян	Пхеньян	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	start_char=1101|end_char=1108
+11	серьезно	серьезно	ADV	_	Degree=Pos	12	advmod	_	start_char=1109|end_char=1117
+12	настроен	настроить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	acl	_	start_char=1118|end_char=1126
+13	на	на	ADP	_	_	14	case	_	start_char=1127|end_char=1129
+14	отказ	отказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	start_char=1130|end_char=1135
+15	от	от	ADP	_	_	16	case	_	start_char=1136|end_char=1138
+16	арсенала	арсенал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	start_char=1139|end_char=1147
+17	,	,	PUNCT	_	_	22	punct	_	start_char=1147|end_char=1148
+18	который	который	PRON	_	Case=Nom|PronType=Int,Rel	22	nsubj:pass	_	start_char=1149|end_char=1156
+19	,	,	PUNCT	_	_	18	punct	_	start_char=1156|end_char=1157
+20	вероятно	вероятно	ADV	_	Degree=Pos	22	parataxis	_	start_char=1158|end_char=1166
+21	,	,	PUNCT	_	_	20	punct	_	start_char=1166|end_char=1167
+22	рассматривается	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	acl:relcl	_	start_char=1168|end_char=1183
+23	им	они	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	iobj	_	start_char=1184|end_char=1186
+24	как	как	SCONJ	_	_	26	mark	_	start_char=1187|end_char=1190
+25	единственный	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	start_char=1191|end_char=1203
+26	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	advcl	_	start_char=1204|end_char=1210
+27	гарантировать	гарантировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	26	obl	_	start_char=1211|end_char=1224
+28	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	29	det	_	start_char=1225|end_char=1229
+29	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	start_char=1230|end_char=1242
+30	.	.	PUNCT	_	_	3	punct	_	start_char=1242|end_char=1243
+
+# text = Помпео планирует посетить Пхеньян в следующем месяце, чтобы подготовиться ко второму саммиту Кима и Трампа.
+# sent_id = 9
+1	Помпео	Помпео	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	start_char=1244|end_char=1250
+2	планирует	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1251|end_char=1260
+3	посетить	посетить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=1261|end_char=1269
+4	Пхеньян	Пхеньян	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	start_char=1270|end_char=1277
+5	в	в	ADP	_	_	7	case	_	start_char=1278|end_char=1279
+6	следующем	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	start_char=1280|end_char=1289
+7	месяце	месяц	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	start_char=1290|end_char=1296
+8	,	,	PUNCT	_	_	10	punct	_	start_char=1296|end_char=1297
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	start_char=1298|end_char=1303
+10	подготовиться	подготовиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	advcl	_	start_char=1304|end_char=1317
+11	ко	к	ADP	_	_	13	case	_	start_char=1318|end_char=1320
+12	второму	второй	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	start_char=1321|end_char=1328
+13	саммиту	саммит	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	start_char=1329|end_char=1336
+14	Кима	Ким	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=1337|end_char=1341
+15	и	и	CCONJ	_	_	16	cc	_	start_char=1342|end_char=1343
+16	Трампа	Трамп	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	conj	_	start_char=1344|end_char=1350
+17	.	.	PUNCT	_	_	2	punct	_	start_char=1350|end_char=1351
+

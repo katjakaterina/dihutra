@@ -1,3 +1,5 @@
+# text = Slomio se iznimno brzo, nezgodno.
+# sent_id = 0
 1	Slomio	slomiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=6
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=7|end_char=9
 3	iznimno	iznimno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=10|end_char=17
@@ -6,6 +8,8 @@
 6	nezgodno	nezgodan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	start_char=24|end_char=32
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=32|end_char=33
 
+# text = Crvena traka (najveći otpor) počela se trgati kad sam je prvi put koristio, pa sam iz očitog razloga prestao i isprobao crnu.
+# sent_id = 1
 1	Crvena	crven	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=34|end_char=40
 2	traka	traka	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=41|end_char=46
 3	(	(	PUNCT	Z	_	5	punct	_	start_char=47|end_char=48
@@ -33,6 +37,8 @@
 25	crnu	crn	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	24	obj	_	start_char=154|end_char=158
 26	.	.	PUNCT	Z	_	7	punct	_	start_char=158|end_char=159
 
+# text = Crni je dobro izdržao na vježbi, ali sljedeći dan je počeo pucati na istom mjestu kao i crveni.
+# sent_id = 2
 1	Crni	crni	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	start_char=160|end_char=164
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=165|end_char=167
 3	dobro	dobro	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=168|end_char=173
@@ -54,6 +60,8 @@
 19	crveni	crven	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	13	obl	_	start_char=248|end_char=254
 20	.	.	PUNCT	Z	_	4	punct	_	start_char=254|end_char=255
 
+# text = Ostale boje neću koristiti jer jednostavno nemaju dovoljnu otpornost.
+# sent_id = 3
 1	Ostale	ostali	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	start_char=256|end_char=262
 2	boje	boja	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=263|end_char=267
 3	neću	htjeti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=268|end_char=272
@@ -65,6 +73,8 @@
 9	otpornost	otpornost	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	start_char=315|end_char=324
 10	.	.	PUNCT	Z	_	4	punct	_	start_char=324|end_char=325
 
+# text = Veliki minus je što ovaj set ima samo jedan par ručki i prebacivanje s jedne ručke na drugu velika je neugodnost i gubljenje vremena.
+# sent_id = 4
 1	Veliki	velik	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=326|end_char=332
 2	minus	minus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=333|end_char=338
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=339|end_char=341

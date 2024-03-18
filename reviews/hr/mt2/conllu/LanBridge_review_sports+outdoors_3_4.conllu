@@ -1,3 +1,5 @@
+# text = To je udarac, to je sve.
+# sent_id = 0
 1	To	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	start_char=0|end_char=2
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=3|end_char=5
 3	udarac	udarac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=6|end_char=12
@@ -7,6 +9,8 @@
 7	sve	sve	DET	Pi-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	conj	_	start_char=20|end_char=23
 8	.	.	PUNCT	Z	_	3	punct	_	start_char=23|end_char=24
 
+# text = Ako nemate bušilicu 3/32 ili biste je željeli imati u svojoj Glock torbi, ovo je u redu.
+# sent_id = 1
 1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=25|end_char=28
 2	nemate	nemati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	advcl	_	start_char=29|end_char=35
 3	bušilicu	bušilica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=36|end_char=44
@@ -27,6 +31,8 @@
 18	redu	red	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	0	root	_	start_char=108|end_char=112
 19	.	.	PUNCT	Z	_	18	punct	_	start_char=112|end_char=113
 
+# text = Stražnji kraj je zgodan za vraćanje igle na mjesto.
+# sent_id = 2
 1	Stražnji	stražnji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=114|end_char=122
 2	kraj	kraj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=123|end_char=127
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=128|end_char=130
@@ -38,6 +44,8 @@
 9	mjesto	mjesto	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	start_char=158|end_char=164
 10	.	.	PUNCT	Z	_	4	punct	_	start_char=164|end_char=165
 
+# text = Ako već imate bušilicu 3/32 i ne trebate drugu, nemojte oboje s ovom.
+# sent_id = 3
 1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=166|end_char=169
 2	već	već	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=170|end_char=173
 3	imate	imati	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	start_char=174|end_char=179

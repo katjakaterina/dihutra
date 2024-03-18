@@ -1,3 +1,5 @@
+# text = Savijeno crijevo s vinilnim odvajačem - vraćeno!
+# sent_id = 0
 1	Savijeno	savijen	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=8
 2	crijevo	crijevo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	7	parataxis	_	start_char=9|end_char=16
 3	s	sa	ADP	Si	Case=Ins	5	case	_	start_char=17|end_char=18
@@ -7,6 +9,8 @@
 7	vraćeno	vratiti	ADJ	Appnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=40|end_char=47
 8	!	!	PUNCT	Z	_	7	punct	_	start_char=47|end_char=48
 
+# text = Čitao sam druge recenzente koji su imali sličnih problema prije nego što sam ovo kupio.
+# sent_id = 1
 1	Čitao	čitati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=49|end_char=54
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=55|end_char=58
 3	druge	drugi	ADJ	Mlompa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=59|end_char=64
@@ -24,6 +28,8 @@
 15	kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	start_char=130|end_char=135
 16	.	.	PUNCT	Z	_	1	punct	_	start_char=135|end_char=136
 
+# text = Također sam pročitao recenzije koje su oduševljene ovim crijevom.
+# sent_id = 2
 1	Također	također	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=137|end_char=144
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=145|end_char=148
 3	pročitao	pročitati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=149|end_char=157
@@ -35,6 +41,8 @@
 9	crijevom	crijev	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	start_char=193|end_char=201
 10	.	.	PUNCT	Z	_	3	punct	_	start_char=201|end_char=202
 
+# text = Budući da su ova crijeva očišćena od ostataka; Pretpostavljam da je pitanje sreće koje ćete crijevo dobiti.
+# sent_id = 3
 1	Budući	budući	SCONJ	Cs	_	6	mark	_	start_char=203|end_char=209
 2	da	da	SCONJ	Cs	_	1	fixed	_	start_char=210|end_char=212
 3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	start_char=213|end_char=215
@@ -55,6 +63,8 @@
 18	dobiti	dobiti	VERB	Vmn	VerbForm=Inf	14	acl	_	start_char=303|end_char=309
 19	.	.	PUNCT	Z	_	10	punct	_	start_char=309|end_char=310
 
+# text = Moja sreća nije bila dobra.
+# sent_id = 4
 1	Moja	moj	DET	Ps1fsn	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	start_char=311|end_char=315
 2	sreća	sreća	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=316|end_char=321
 3	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=322|end_char=326
@@ -62,6 +72,8 @@
 5	dobra	dobar	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=332|end_char=337
 6	.	.	PUNCT	Z	_	5	punct	_	start_char=337|end_char=338
 
+# text = Crijevo je bilo trajno savijeno, a vinilna koža imala je mjehuriće na mjestima gdje se odvajala od crijeva.
+# sent_id = 5
 1	Crijevo	crijevo	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	start_char=339|end_char=346
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	start_char=347|end_char=349
 3	bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	start_char=350|end_char=354
@@ -83,6 +95,8 @@
 19	crijeva	crijevo	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	start_char=438|end_char=445
 20	.	.	PUNCT	Z	_	5	punct	_	start_char=445|end_char=446
 
+# text = Odmah ga vratio.
+# sent_id = 6
 1	Odmah	odmah	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=447|end_char=452
 2	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=453|end_char=455
 3	vratio	vratiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=456|end_char=462

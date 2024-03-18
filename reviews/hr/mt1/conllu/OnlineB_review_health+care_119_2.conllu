@@ -1,20 +1,28 @@
+# text = dugovječnost je jako loša
+# sent_id = 0
 1	dugovječnost	dugovječnost	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=0|end_char=12
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=13|end_char=15
 3	jako	jako	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=16|end_char=20
 4	loša	loš	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=21|end_char=25
 
+# text = Na prvu su fantastični.
+# sent_id = 1
 1	Na	na	ADP	Sa	Case=Acc	2	case	_	start_char=26|end_char=28
 2	prvu	prvi	ADJ	Mlofsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	obl	_	start_char=29|end_char=33
 3	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=34|end_char=36
 4	fantastični	fantastičan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	0	root	_	start_char=37|end_char=48
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=48|end_char=49
 
+# text = Snažan, dobar naboj.
+# sent_id = 2
 1	Snažan	snažan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=50|end_char=56
 2	,	,	PUNCT	Z	_	3	punct	_	start_char=56|end_char=57
 3	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	start_char=58|end_char=63
 4	naboj	naboj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=64|end_char=69
 5	.	.	PUNCT	Z	_	1	punct	_	start_char=69|end_char=70
 
+# text = Ali nakon otprilike 20-možda 30 ako se to napuni, neke od mojih baterija jednostavno su prazne.
+# sent_id = 3
 1	Ali	ali	CCONJ	Cc	_	17	cc	_	start_char=71|end_char=74
 2	nakon	nakon	ADP	Sg	Case=Gen	5	case	_	start_char=75|end_char=80
 3	otprilike	otprilike	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=81|end_char=90
@@ -34,6 +42,8 @@
 17	prazne	prazan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=159|end_char=165
 18	.	.	PUNCT	Z	_	17	punct	_	start_char=165|end_char=166
 
+# text = Ili nemojte držati punjenje duže od jedne noći.
+# sent_id = 4
 1	Ili	ili	CCONJ	Cc	_	2	cc	_	start_char=167|end_char=170
 2	nemojte	moći	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=171|end_char=178
 3	držati	držati	VERB	Vmn	VerbForm=Inf	2	xcomp	_	start_char=179|end_char=185
@@ -44,11 +54,15 @@
 8	noći	noć	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	start_char=209|end_char=213
 9	.	.	PUNCT	Z	_	2	punct	_	start_char=213|end_char=214
 
+# text = Stvarno je loše.
+# sent_id = 5
 1	Stvarno	stvarno	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=215|end_char=222
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=223|end_char=225
 3	loše	loš	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=226|end_char=230
 4	.	.	PUNCT	Z	_	3	punct	_	start_char=230|end_char=231
 
+# text = Kupio sam ih oko 5 ili 6 (4 pakiranja), više od polovice je beskorisno.
+# sent_id = 6
 1	Kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=232|end_char=237
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=238|end_char=241
 3	ih	oni	PRON	Pp3-pa	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	start_char=242|end_char=244

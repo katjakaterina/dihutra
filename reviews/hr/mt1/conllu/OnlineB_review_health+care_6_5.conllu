@@ -1,3 +1,5 @@
+# text = 9,99 dolara, lijepa i slatka Lampica se pali kada se predmet povuče.
+# sent_id = 0
 1	9,99	9,99	NUM	Mdc	NumType=Card	2	nummod	_	start_char=0|end_char=4
 2	dolara	dolar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	9	obl	_	start_char=5|end_char=11
 3	,	,	PUNCT	Z	_	2	punct	_	start_char=11|end_char=12
@@ -13,6 +15,8 @@
 13	povuče	povući	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	start_char=61|end_char=67
 14	.	.	PUNCT	Z	_	9	punct	_	start_char=67|end_char=68
 
+# text = Ovo je puno lakše za korištenje od plastičnog povećala za knjižne oznake i trakastog povećala koje sam prethodno kupio.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=69|end_char=72
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=73|end_char=75
 3	puno	puno	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=76|end_char=80
@@ -34,6 +38,8 @@
 19	kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	15	ccomp	_	start_char=182|end_char=187
 20	.	.	PUNCT	Z	_	4	punct	_	start_char=187|end_char=188
 
+# text = Bilo mi je drago što je upaljen kad sam trebao vidjeti serijski broj na stražnjoj strani ipoda.
+# sent_id = 2
 1	Bilo	biti	AUX	Vap-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=189|end_char=193
 2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	obj	_	start_char=194|end_char=196
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=197|end_char=199

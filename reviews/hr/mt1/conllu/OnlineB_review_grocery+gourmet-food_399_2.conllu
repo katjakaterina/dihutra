@@ -1,3 +1,5 @@
+# text = Super umak....ako nemate ništa drugo.
+# sent_id = 0
 1	Super	super	ADJ	Agpmsayn	Animacy=Inan|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=5
 2	umak	umak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	start_char=6|end_char=10
 3	...	...	PUNCT	Z	_	5	punct	_	start_char=10|end_char=13
@@ -7,6 +9,8 @@
 7	drugo	drugi	ADJ	Mlonsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=31|end_char=36
 8	.	.	PUNCT	Z	_	5	punct	_	start_char=36|end_char=37
 
+# text = Ljuti umak niske kvalitete i slabog okusa....nije ni tako ljut.
+# sent_id = 1
 1	Ljuti	Ljuti	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=38|end_char=43
 2	umak	umak	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	start_char=44|end_char=48
 3	niske	nizak	ADJ	Agpfsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=49|end_char=54
@@ -21,6 +25,8 @@
 12	ljut	ljut	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=96|end_char=100
 13	.	.	PUNCT	Z	_	12	punct	_	start_char=100|end_char=101
 
+# text = Ako vam treba ljuti umak i nemate ništa drugo, ovo će poslužiti, ali kako postoji toliko mnogo drugih izbora, ovo je najgori izbor .
+# sent_id = 2
 1	Ako	ako	SCONJ	Cs	_	3	mark	_	start_char=102|end_char=105
 2	vam	vi	PRON	Pp2-pd	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	iobj	_	start_char=106|end_char=109
 3	treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	start_char=110|end_char=115
@@ -49,6 +55,8 @@
 26	izbor	izbor	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	start_char=227|end_char=232
 27	.	.	PUNCT	Z	_	13	punct	_	start_char=233|end_char=234
 
+# text = Čak je i obični tobasco umak puno bolji.
+# sent_id = 3
 1	Čak	čak	PART	Qo	_	5	discourse	_	start_char=235|end_char=238
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=239|end_char=241
 3	i	i	PART	Qo	_	5	discourse	_	start_char=242|end_char=243
@@ -59,6 +67,8 @@
 8	bolji	dobar	ADJ	Agcmsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Masc|Number=Sing	0	root	_	start_char=269|end_char=274
 9	.	.	PUNCT	Z	_	8	punct	_	start_char=274|end_char=275
 
+# text = Mogu ga opisati samo kao sličan vodenastom taco bell umaku.
+# sent_id = 4
 1	Mogu	moći	VERB	Vmr1p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=276|end_char=280
 2	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=281|end_char=283
 3	opisati	opisati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=284|end_char=291
@@ -71,6 +81,8 @@
 10	umaku	umak	NOUN	Ncmsd	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	start_char=329|end_char=334
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=334|end_char=335
 
+# text = Preporučio bih Frontera ljuti umak, tobasco ili Cholula ljuti umak umjesto ovoga.
+# sent_id = 5
 1	Preporučio	preporučiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=336|end_char=346
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	aux	_	start_char=347|end_char=350
 3	Frontera	Fronter	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=351|end_char=359

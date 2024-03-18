@@ -1,3 +1,5 @@
+# text = Ne kupujte ako je vaš travnjak veći od 10 kvadratnih metara
+# sent_id = 0
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=0|end_char=2
 2	kupujte	kupovati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=3|end_char=10
 3	ako	ako	SCONJ	Cs	_	7	mark	_	start_char=11|end_char=14
@@ -10,6 +12,8 @@
 10	kvadratnih	kvadratni	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	start_char=42|end_char=52
 11	metara	metar	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	2	advcl	_	start_char=53|end_char=59
 
+# text = Nisam mogao dobro pokositi travu.
+# sent_id = 1
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=60|end_char=65
 2	mogao	moći	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=66|end_char=71
 3	dobro	dobro	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=72|end_char=77
@@ -17,6 +21,8 @@
 5	travu	trava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=87|end_char=92
 6	.	.	PUNCT	Z	_	2	punct	_	start_char=92|end_char=93
 
+# text = Nedostaju neka mjesta jer jednostavno nije rezala.
+# sent_id = 2
 1	Nedostaju	nedostajati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=94|end_char=103
 2	neka	neki	DET	Pi-npn	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	3	det	_	start_char=104|end_char=108
 3	mjesta	mjesto	NOUN	Ncnpn	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	start_char=109|end_char=115
@@ -26,6 +32,8 @@
 7	rezala	rezati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	start_char=137|end_char=143
 8	.	.	PUNCT	Z	_	1	punct	_	start_char=143|end_char=144
 
+# text = ako je trava viša od 2 inča, ovo nije kosilica za vas.
+# sent_id = 3
 1	ako	ako	SCONJ	Cs	_	4	mark	_	start_char=145|end_char=148
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=149|end_char=151
 3	trava	trava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=152|end_char=157
@@ -41,6 +49,8 @@
 13	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	11	nmod	_	start_char=195|end_char=198
 14	.	.	PUNCT	Z	_	11	punct	_	start_char=198|end_char=199
 
+# text = Treba potrošiti novac i nabaviti nešto što radi.
+# sent_id = 4
 1	Treba	trebati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=200|end_char=205
 2	potrošiti	potrošiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=206|end_char=215
 3	novac	novac	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	start_char=216|end_char=221

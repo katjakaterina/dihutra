@@ -1,6 +1,10 @@
+# text = Savršen!
+# sent_id = 0
 1	Savršen	savršen	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=7
 2	!	!	PUNCT	Z	_	1	punct	_	start_char=7|end_char=8
 
+# text = Bio sam zabrinut zbog ove narudžbe jer se slika na stranici s opisom stalno mijenjala u manje poželjnu zelenu/narančastu naslovnicu.
+# sent_id = 1
 1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	cop	_	start_char=9|end_char=12
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=13|end_char=16
 3	zabrinut	zabrinut	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=17|end_char=25
@@ -23,6 +27,8 @@
 20	naslovnicu	naslovnica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	start_char=130|end_char=140
 21	.	.	PUNCT	Z	_	3	punct	_	start_char=140|end_char=141
 
+# text = Ali nažalost, došao je dan ranije od očekivanog, a prekrasan ružičasti proizvod očekivan!
+# sent_id = 2
 1	Ali	ali	CCONJ	Cc	_	4	cc	_	start_char=142|end_char=145
 2	nažalost	nažalost	ADV	Rgp	Degree=Pos	4	discourse	_	start_char=146|end_char=154
 3	,	,	PUNCT	Z	_	2	punct	_	start_char=154|end_char=155
@@ -40,6 +46,8 @@
 15	očekivan	očekivati	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	conj	_	start_char=222|end_char=230
 16	!	!	PUNCT	Z	_	4	punct	_	start_char=230|end_char=231
 
+# text = "Gumirana" navlaka djeluje malo masno (kao da je potpuno oklopljena), ali dizajn je prekrasan i izgleda pomalo 3D!
+# sent_id = 3
 1	"	"	PUNCT	Z	_	5	punct	_	start_char=232|end_char=233
 2	Gumirana	gumirati	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	start_char=233|end_char=241
 3	"	"	PUNCT	Z	_	2	punct	_	start_char=241|end_char=242

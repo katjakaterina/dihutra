@@ -1,9 +1,13 @@
+# text = Osnovni tekst za frizera pasa
+# sent_id = 0
 1	Osnovni	osnovan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=7
 2	tekst	tekst	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=8|end_char=13
 3	za	za	ADP	Sa	Case=Acc	4	case	_	start_char=14|end_char=16
 4	frizera	frizer	NOUN	Ncmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	start_char=17|end_char=24
 5	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=25|end_char=29
 
+# text = Jeste li profesionalni frizer pasa?
+# sent_id = 1
 1	Jeste	biti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=30|end_char=35
 2	li	li	PART	Qq	_	1	discourse	_	start_char=36|end_char=38
 3	profesionalni	profesionalan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=39|end_char=52
@@ -11,18 +15,24 @@
 5	pasa	pasa	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	start_char=60|end_char=64
 6	?	?	PUNCT	Z	_	1	punct	_	start_char=64|end_char=65
 
+# text = Želite li to postati?
+# sent_id = 2
 1	Želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=66|end_char=72
 2	li	li	PART	Qq	_	1	discourse	_	start_char=73|end_char=75
 3	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=76|end_char=78
 4	postati	postati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=79|end_char=86
 5	?	?	PUNCT	Z	_	1	punct	_	start_char=86|end_char=87
 
+# text = Onda nabavite ovu knjigu!
+# sent_id = 3
 1	Onda	onda	ADV	Rgp	Degree=Pos|PronType=Dem	2	advmod	_	start_char=88|end_char=92
 2	nabavite	nabaviti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=93|end_char=101
 3	ovu	ovaj	DET	Pd-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=102|end_char=105
 4	knjigu	knjiga	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=106|end_char=112
 5	!	!	PUNCT	Z	_	2	punct	_	start_char=112|end_char=113
 
+# text = Ova knjiga, zajedno s pratećom "Teorijom pet", bitne su knjige za kolekciju timaritelja.
+# sent_id = 4
 1	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	start_char=114|end_char=117
 2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	start_char=118|end_char=124
 3	,	,	PUNCT	Z	_	8	punct	_	start_char=124|end_char=125
@@ -42,6 +52,8 @@
 17	timaritelja	timaritelj	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	start_char=190|end_char=201
 18	.	.	PUNCT	Z	_	12	punct	_	start_char=201|end_char=202
 
+# text = Pokrivajući velik broj pasmina pasa, prikazuje standardne uzorke i krojeve ovih pasmina, a u nekim slučajevima, kao što su pudle, scotties i oni s malo "kompliciranijim rezovima", ulazi u veliku dubinu s detaljima i savjetima.
+# sent_id = 5
 1	Pokrivajući	pokrivati	ADV	Rr	Tense=Pres|VerbForm=Conv	7	xcomp	_	start_char=203|end_char=214
 2	velik	velik	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=215|end_char=220
 3	broj	broj	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=221|end_char=225
@@ -86,10 +98,14 @@
 42	savjetima	savjet	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	40	conj	_	start_char=419|end_char=428
 43	.	.	PUNCT	Z	_	7	punct	_	start_char=428|end_char=429
 
+# text = Briljantna knjiga!
+# sent_id = 6
 1	Briljantna	briljantan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=430|end_char=440
 2	knjiga	knjiga	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=441|end_char=447
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=447|end_char=448
 
+# text = Obavezno.
+# sent_id = 7
 1	Obavezno	obavezan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=449|end_char=457
 2	.	.	PUNCT	Z	_	1	punct	_	start_char=457|end_char=458
 

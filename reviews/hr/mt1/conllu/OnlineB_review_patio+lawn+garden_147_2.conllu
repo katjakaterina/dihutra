@@ -1,8 +1,12 @@
+# text = Morao se vratiti...
+# sent_id = 0
 1	Morao	morati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=5
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=6|end_char=8
 3	vratiti	vratiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=9|end_char=16
 4	...	...	PUNCT	Z	_	1	punct	_	start_char=16|end_char=19
 
+# text = Ovaj rezač ni izdaleka ne reže grane od 1 inča, mokre ili suhe.
+# sent_id = 1
 1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=20|end_char=24
 2	rezač	rezač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=25|end_char=30
 3	ni	ni	PART	Qo	_	4	advmod	_	start_char=31|end_char=33
@@ -19,6 +23,8 @@
 14	suhe	suha	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	start_char=78|end_char=82
 15	.	.	PUNCT	Z	_	6	punct	_	start_char=82|end_char=83
 
+# text = Ne reže 3/4" grane.
+# sent_id = 2
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=84|end_char=86
 2	reže	režati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=87|end_char=91
 3	3/4	3/4	NUM	Mdc	NumType=Card	5	nummod	_	start_char=92|end_char=95
@@ -26,6 +32,8 @@
 5	grane	grana	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	start_char=97|end_char=102
 6	.	.	PUNCT	Z	_	2	punct	_	start_char=102|end_char=103
 
+# text = Može rezati NEKOLIKO 1/2" suhih grana, ali barem ona koju sam dobio nije bila naoštrena i bio sam prisiljen vratiti je.
+# sent_id = 3
 1	Može	moći	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=104|end_char=108
 2	rezati	rezati	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=109|end_char=115
 3	NEKOLIKO	nekoliko	ADV	Rgp	Degree=Pos|PronType=Ind	4	advmod	_	start_char=116|end_char=124
@@ -51,6 +59,8 @@
 23	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	obj	_	start_char=220|end_char=222
 24	.	.	PUNCT	Z	_	1	punct	_	start_char=222|end_char=223
 
+# text = Još se nisam odlučio za novi, jer sam bio toliko razočaran nakon što sam pročitao sve izvrsne povratne informacije i otkrio drugačije.
+# sent_id = 4
 1	Još	još	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=224|end_char=227
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=228|end_char=230
 3	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=231|end_char=236

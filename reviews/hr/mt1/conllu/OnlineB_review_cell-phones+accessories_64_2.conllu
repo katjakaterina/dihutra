@@ -1,3 +1,5 @@
+# text = Svidjelo mi se na prvu Svidjela mi se kutija kad sam je prvi put dobila, ali nedugo nakon toga, kućište se isprva počelo ljuštiti.
+# sent_id = 0
 1	Svidjelo	svidjeti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=8
 2	mi	ja	PRON	Pp1-sd	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	start_char=9|end_char=11
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=12|end_char=14
@@ -26,6 +28,8 @@
 26	ljuštiti	ljuštiti	VERB	Vmn	VerbForm=Inf	25	xcomp	_	start_char=121|end_char=129
 27	.	.	PUNCT	Z	_	1	punct	_	start_char=129|end_char=130
 
+# text = Nisam znala što je to dok nisam pogledala stražnju stranu kutije i vidjela da nedostaju mrlje.
+# sent_id = 1
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	start_char=131|end_char=136
 2	znala	znati	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=137|end_char=142
 3	što	što	SCONJ	Cs	_	5	mark	_	start_char=143|end_char=146
@@ -44,6 +48,8 @@
 16	mrlje	mrlje	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	start_char=219|end_char=224
 17	.	.	PUNCT	Z	_	2	punct	_	start_char=224|end_char=225
 
+# text = Pretpostavljam da ponekad dobar posao zapravo i nije dobar.
+# sent_id = 2
 1	Pretpostavljam	pretpostavljati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=226|end_char=240
 2	da	da	SCONJ	Cs	_	9	mark	_	start_char=241|end_char=243
 3	ponekad	ponekad	ADV	Rgp	Degree=Pos|PronType=Ind	9	advmod	_	start_char=244|end_char=251
@@ -55,6 +61,8 @@
 9	dobar	dobar	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	1	ccomp	_	start_char=279|end_char=284
 10	.	.	PUNCT	Z	_	1	punct	_	start_char=284|end_char=285
 
+# text = ne bih kupio.
+# sent_id = 3
 1	ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=286|end_char=288
 2	bih	biti	AUX	Vaa1s	Mood=Cnd|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	start_char=289|end_char=292
 3	kupio	kupiti	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=293|end_char=298

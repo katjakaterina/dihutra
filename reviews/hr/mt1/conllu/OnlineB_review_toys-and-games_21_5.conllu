@@ -1,8 +1,12 @@
+# text = Prima nježan dodir!
+# sent_id = 0
 1	Prima	primati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
 2	nježan	nježan	ADJ	Agpmsann	Animacy=Inan|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=6|end_char=12
 3	dodir	dodir	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	start_char=13|end_char=18
 4	!	!	PUNCT	Z	_	1	punct	_	start_char=18|end_char=19
 
+# text = Pripremite se da vas oduševi ljepota slika koje će vaš izbor boja stvoriti.
+# sent_id = 1
 1	Pripremite	pripremiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=20|end_char=30
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	1	expl	_	start_char=31|end_char=33
 3	da	da	SCONJ	Cs	_	5	mark	_	start_char=34|end_char=36
@@ -18,6 +22,8 @@
 13	stvoriti	stvoriti	VERB	Vmn	VerbForm=Inf	7	acl	_	start_char=86|end_char=94
 14	.	.	PUNCT	Z	_	1	punct	_	start_char=94|end_char=95
 
+# text = Prostori za bojenje ponekad su vrlo mali i zahtijevaju pažljiv rad i mirnu ruku.
+# sent_id = 2
 1	Prostori	prostor	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	start_char=96|end_char=104
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=105|end_char=107
 3	bojenje	bojenje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	start_char=108|end_char=115
@@ -34,6 +40,8 @@
 14	ruku	ruka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	start_char=171|end_char=175
 15	.	.	PUNCT	Z	_	7	punct	_	start_char=175|end_char=176
 
+# text = Međutim, dobit je ogromna.
+# sent_id = 3
 1	Međutim	međutim	ADV	Rgp	Degree=Pos	5	discourse	_	start_char=177|end_char=184
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=184|end_char=185
 3	dobit	dobit	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=186|end_char=191
@@ -41,6 +49,8 @@
 5	ogromna	ogroman	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=195|end_char=202
 6	.	.	PUNCT	Z	_	5	punct	_	start_char=202|end_char=203
 
+# text = Ove su slike prekrasno izrađene, a posao koji radite na njima će vas inspirirati.
+# sent_id = 4
 1	Ove	ovaj	DET	Pd-fpn	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	start_char=204|end_char=207
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=208|end_char=210
 3	slike	slika	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	start_char=211|end_char=216
@@ -58,6 +68,8 @@
 15	inspirirati	inspirirati	VERB	Vmn	VerbForm=Inf	5	conj	_	start_char=273|end_char=284
 16	.	.	PUNCT	Z	_	5	punct	_	start_char=284|end_char=285
 
+# text = Možda ćete htjeti fotokopirati stranice ako želite prikazati ili koristiti svaku od njih, budući da su ispisane jedna za drugom.
+# sent_id = 5
 1	Možda	možda	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=286|end_char=291
 2	ćete	htjeti	AUX	Var2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=292|end_char=296
 3	htjeti	htjeti	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=297|end_char=303
@@ -81,6 +93,8 @@
 21	drugom	drugi	ADJ	Mlofsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	obl	_	start_char=407|end_char=413
 22	.	.	PUNCT	Z	_	3	punct	_	start_char=413|end_char=414
 
+# text = Baš prekrasno!
+# sent_id = 6
 1	Baš	baš	PART	Qo	_	2	advmod	_	start_char=415|end_char=418
 2	prekrasno	prekrasan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=419|end_char=428
 3	!	!	PUNCT	Z	_	2	punct	_	start_char=428|end_char=429

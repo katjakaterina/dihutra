@@ -1,3 +1,5 @@
+# text = dobro Ovdje nema puno za pisati, ali radi točno ono što bi trebao.
+# sent_id = 0
 1	dobro	dobro	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=0|end_char=5
 2	Ovdje	ovdje	ADV	Rgp	Degree=Pos|PronType=Dem	3	advmod	_	start_char=6|end_char=11
 3	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=12|end_char=16
@@ -14,11 +16,15 @@
 14	trebao	trebati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	start_char=59|end_char=65
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=65|end_char=66
 
+# text = filtrira pop zvukove.
+# sent_id = 1
 1	filtrira	filtrirati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=67|end_char=75
 2	pop	rock	ADJ	Agpmpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=76|end_char=79
 3	zvukove	zvuk	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	start_char=80|end_char=87
 4	.	.	PUNCT	Z	_	1	punct	_	start_char=87|end_char=88
 
+# text = sada su moje snimke mnogo oštrije.
+# sent_id = 2
 1	sada	sada	ADV	Rgp	Degree=Pos|PronType=Dem	6	advmod	_	start_char=89|end_char=93
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=94|end_char=96
 3	moje	moj	DET	Ps1fpn	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=97|end_char=101
@@ -27,6 +33,8 @@
 6	oštrije	oštar	ADJ	Agcnsny	Case=Nom|Definite=Def|Degree=Cmp|Gender=Neut|Number=Sing	0	root	_	start_char=115|end_char=122
 7	.	.	PUNCT	Z	_	6	punct	_	start_char=122|end_char=123
 
+# text = to je jedan od pop filtara s najnižom cijenom na Amazonu, pa ga možete kupiti, iskreno rade jednako unatoč svojoj cijeni,
+# sent_id = 3
 1	to	taj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	start_char=124|end_char=126
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	start_char=127|end_char=129
 3	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	6	nummod	_	start_char=130|end_char=135

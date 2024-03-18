@@ -1,3 +1,5 @@
+# text = Izvrstan proizvod Ova stvar je nevjerojatna.
+# sent_id = 0
 1	Izvrstan	izvrstan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=8
 2	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=9|end_char=17
 3	Ova	ovaj	DET	Pd-fsn	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	start_char=18|end_char=21
@@ -6,10 +8,14 @@
 6	nevjerojatna	nevjerojatan	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=31|end_char=43
 7	.	.	PUNCT	Z	_	6	punct	_	start_char=43|end_char=44
 
+# text = Izvrstan proizvod.
+# sent_id = 1
 1	Izvrstan	izvrstan	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	start_char=45|end_char=53
 2	proizvod	proizvod	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=54|end_char=62
 3	.	.	PUNCT	Z	_	2	punct	_	start_char=62|end_char=63
 
+# text = Zadržat će vašu olovku za oči i maskaru cijeli dan i noć...a ako previše partijate i zaspite našminkani..možete jamčiti da će i dalje biti tamo ujutro!
+# sent_id = 2
 1	Zadržat	zadržati	VERB	Vmn	VerbForm=Inf	0	root	_	start_char=64|end_char=71
 2	će	htjeti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=72|end_char=74
 3	vašu	vaš	DET	Ps1fsa	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	_	start_char=75|end_char=79
@@ -42,6 +48,8 @@
 30	ujutro	ujutro	ADV	Rgp	Degree=Pos	28	advmod	_	start_char=208|end_char=214
 31	!	!	PUNCT	Z	_	1	punct	_	start_char=214|end_char=215
 
+# text = Idealno za crtanje očiju i prilično učinkovit u zadržavanju ruža za usne.
+# sent_id = 3
 1	Idealno	idealan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=216|end_char=223
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=224|end_char=226
 3	crtanje	crtanje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	start_char=227|end_char=234

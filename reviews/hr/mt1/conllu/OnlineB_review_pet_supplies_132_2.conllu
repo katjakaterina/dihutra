@@ -1,7 +1,11 @@
+# text = Bačen novac.
+# sent_id = 0
 1	Bačen	bačiti	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=0|end_char=5
 2	novac	novac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=6|end_char=11
 3	.	.	PUNCT	Z	_	1	punct	_	start_char=11|end_char=12
 
+# text = Ovo je ista DVD serija koju mi je netko dao 2007. i smrdi.
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=13|end_char=16
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=17|end_char=19
 3	ista	isti	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	start_char=20|end_char=24
@@ -17,6 +21,8 @@
 13	smrdi	smrdjeti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	start_char=65|end_char=70
 14	.	.	PUNCT	Z	_	5	punct	_	start_char=70|end_char=71
 
+# text = Kamera se previše miče, trza i mogao sam napraviti bolji video mobitelom.
+# sent_id = 2
 1	Kamera	kamera	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	start_char=72|end_char=78
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=79|end_char=81
 3	previše	previše	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=82|end_char=89
@@ -32,6 +38,8 @@
 13	mobitelom	mobitel	NOUN	Ncmsi	Case=Ins|Gender=Masc|Number=Sing	10	obl	_	start_char=135|end_char=144
 14	.	.	PUNCT	Z	_	4	punct	_	start_char=144|end_char=145
 
+# text = Samo je jedan od 3 videa iole zanimljiv mojoj mački, isti video koji joj se svidio 2007., ali nakon 10 minuta i njoj je dosadno.
+# sent_id = 3
 1	Samo	samo	ADV	Rgp	Degree=Pos	3	advmod	_	start_char=146|end_char=150
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	start_char=151|end_char=153
 3	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	6	nummod	_	start_char=154|end_char=159
@@ -61,6 +69,8 @@
 27	dosadno	dosadan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	start_char=266|end_char=273
 28	.	.	PUNCT	Z	_	8	punct	_	start_char=273|end_char=274
 
+# text = Ne mogu to gledati, vrti mi se u glavi.
+# sent_id = 4
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=275|end_char=277
 2	mogu	moći	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=278|end_char=282
 3	to	taj	DET	Pd-nsa	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	start_char=283|end_char=285

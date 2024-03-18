@@ -1,8 +1,12 @@
+# text = Ne baš dobro!
+# sent_id = 0
 1	Ne	ne	PART	Qz	Polarity=Neg	3	advmod	_	start_char=0|end_char=2
 2	baš	baš	PART	Qo	_	3	advmod	_	start_char=3|end_char=6
 3	dobro	dobar	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=7|end_char=12
 4	!	!	PUNCT	Z	_	3	punct	_	start_char=12|end_char=13
 
+# text = Imao je sve oznake legitimnog samsung proizvoda, ali kabel prestaje raditi nakon 3 dana.
+# sent_id = 1
 1	Imao	imati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=14|end_char=18
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=19|end_char=21
 3	sve	sav	ADJ	Agpfpay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	start_char=22|end_char=25
@@ -20,6 +24,8 @@
 15	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	12	obl	_	start_char=97|end_char=101
 16	.	.	PUNCT	Z	_	1	punct	_	start_char=101|end_char=102
 
+# text = Nisam ljut jer je bio vrlo jeftin, ali možda biste trebali potrošiti malo više i kupiti bolji proizvod s Amazona.
+# sent_id = 2
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=103|end_char=108
 2	ljut	ljut	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=109|end_char=113
 3	jer	jer	SCONJ	Cs	_	7	mark	_	start_char=114|end_char=117
@@ -43,6 +49,8 @@
 21	Amazona	Amazon	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	start_char=208|end_char=215
 22	.	.	PUNCT	Z	_	2	punct	_	start_char=215|end_char=216
 
+# text = Kad je djelovalo, djelovalo je vrlo dobro.
+# sent_id = 3
 1	Kad	kad	ADV	Rgp	Degree=Pos|PronType=Int,Rel	3	advmod	_	start_char=217|end_char=220
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=221|end_char=223
 3	djelovalo	djelovati	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	start_char=224|end_char=233

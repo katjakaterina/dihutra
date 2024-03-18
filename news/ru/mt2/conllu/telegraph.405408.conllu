@@ -1,0 +1,290 @@
+# text = Статуя Кромвеля, установленная в парламенте, стала очередным памятником, пострадавшим от "переписывания истории".
+# sent_id = 0
+1	Статуя	статуя	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=0|end_char=6
+2	Кромвеля	Кромвель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=7|end_char=15
+3	,	,	PUNCT	_	_	4	punct	_	start_char=15|end_char=16
+4	установленная	установить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	start_char=17|end_char=30
+5	в	в	ADP	_	_	6	case	_	start_char=31|end_char=32
+6	парламенте	парламент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	start_char=33|end_char=43
+7	,	,	PUNCT	_	_	4	punct	_	start_char=43|end_char=44
+8	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=45|end_char=50
+9	очередным	очередной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	start_char=51|end_char=60
+10	памятником	памятник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	start_char=61|end_char=71
+11	,	,	PUNCT	_	_	12	punct	_	start_char=71|end_char=72
+12	пострадавшим	страдать	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=73|end_char=85
+13	от	от	ADP	_	_	15	case	_	start_char=86|end_char=88
+14	"	"	PUNCT	_	_	15	punct	_	start_char=89|end_char=90
+15	переписывания	переписывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	start_char=90|end_char=103
+16	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	start_char=104|end_char=111
+17	"	"	PUNCT	_	_	15	punct	_	start_char=111|end_char=112
+18	.	.	PUNCT	_	_	8	punct	_	start_char=112|end_char=113
+
+# text = Его изгнание было бы поэтической справедливостью по отношению к талибам, уничтожившим множество культурных и религиозных артефактов Англии, которые были созданы его фанатичными последователями-пуританами.
+# sent_id = 1
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	2	det	_	start_char=114|end_char=117
+2	изгнание	изгнание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	start_char=118|end_char=126
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	start_char=127|end_char=131
+4	бы	бы	AUX	_	_	6	aux	_	start_char=132|end_char=134
+5	поэтической	поэтический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=135|end_char=146
+6	справедливостью	справедливость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	start_char=147|end_char=162
+7	по	по	ADP	_	_	10	case	_	start_char=163|end_char=165
+8	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	fixed	_	start_char=166|end_char=175
+9	к	к	ADP	_	_	7	fixed	_	start_char=176|end_char=177
+10	талибам	талиб	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	start_char=178|end_char=185
+11	,	,	PUNCT	_	_	12	punct	_	start_char=185|end_char=186
+12	уничтожившим	уничтожить	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	start_char=187|end_char=199
+13	множество	множество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	start_char=200|end_char=209
+14	культурных	культурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=210|end_char=220
+15	и	и	CCONJ	_	_	16	cc	_	start_char=221|end_char=222
+16	религиозных	религиозный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	conj	_	start_char=223|end_char=234
+17	артефактов	артефакт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	start_char=235|end_char=245
+18	Англии	Англия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=246|end_char=252
+19	,	,	PUNCT	_	_	22	punct	_	start_char=252|end_char=253
+20	которые	который	PRON	_	Case=Nom|PronType=Int,Rel	22	nsubj:pass	_	start_char=254|end_char=261
+21	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	aux:pass	_	start_char=262|end_char=266
+22	созданы	создать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	acl:relcl	_	start_char=267|end_char=274
+23	его	его	DET	_	Poss=Yes|PronType=Prs	25	det	_	start_char=275|end_char=278
+24	фанатичными	фанатичный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	25	amod	_	start_char=279|end_char=290
+25	последователями	последователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	22	obl	_	start_char=291|end_char=306
+26	-	-	PUNCT	_	_	27	punct	_	start_char=306|end_char=307
+27	пуританами	пуритан	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	25	appos	_	start_char=307|end_char=317
+28	.	.	PUNCT	_	_	6	punct	_	start_char=317|end_char=318
+
+# text = Однако Общество Кромвеля назвало предложение г-на Крика "глупостью" и "попыткой переписать историю".
+# sent_id = 2
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	start_char=319|end_char=325
+2	Общество	Общество	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	start_char=326|end_char=334
+3	Кромвеля	Кромвель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=335|end_char=343
+4	назвало	назвать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=344|end_char=351
+5	предложение	предложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	start_char=352|end_char=363
+6	г-на	господин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=364|end_char=368
+7	Крика	Крик	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	appos	_	start_char=369|end_char=374
+8	"	"	PUNCT	_	_	9	punct	_	start_char=375|end_char=376
+9	глупостью	глупость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	start_char=376|end_char=385
+10	"	"	PUNCT	_	_	9	punct	_	start_char=385|end_char=386
+11	и	и	CCONJ	_	_	13	cc	_	start_char=387|end_char=388
+12	"	"	PUNCT	_	_	13	punct	_	start_char=389|end_char=390
+13	попыткой	попытка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	conj	_	start_char=390|end_char=398
+14	переписать	переписать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	obl	_	start_char=399|end_char=409
+15	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	start_char=410|end_char=417
+16	"	"	PUNCT	_	_	13	punct	_	start_char=417|end_char=418
+17	.	.	PUNCT	_	_	4	punct	_	start_char=418|end_char=419
+
+# text = Джон Голдсмит, председатель Общества Кромвеля, сказал: "В ходе нынешних дебатов о демонтаже статуй было неизбежно, что фигура Оливера Кромвеля у Вестминстерского дворца станет мишенью.
+# sent_id = 3
+1	Джон	Джон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=420|end_char=424
+2	Голдсмит	Голдсмит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=425|end_char=433
+3	,	,	PUNCT	_	_	4	punct	_	start_char=433|end_char=434
+4	председатель	председатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=435|end_char=447
+5	Общества	Общество	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	start_char=448|end_char=456
+6	Кромвеля	Кромвель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	start_char=457|end_char=465
+7	,	,	PUNCT	_	_	1	punct	_	start_char=465|end_char=466
+8	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=467|end_char=473
+9	:	:	PUNCT	_	_	19	punct	_	start_char=473|end_char=474
+10	"	"	PUNCT	_	_	19	punct	_	start_char=475|end_char=476
+11	В	в	ADP	_	_	14	case	_	start_char=476|end_char=477
+12	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	fixed	_	start_char=478|end_char=482
+13	нынешних	нынешний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	start_char=483|end_char=491
+14	дебатов	дебаты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	start_char=492|end_char=499
+15	о	о	ADP	_	_	16	case	_	start_char=500|end_char=501
+16	демонтаже	демонтаж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	start_char=502|end_char=511
+17	статуй	статая	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	start_char=512|end_char=518
+18	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	start_char=519|end_char=523
+19	неизбежно	неизбежный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	parataxis	_	start_char=524|end_char=533
+20	,	,	PUNCT	_	_	28	punct	_	start_char=533|end_char=534
+21	что	что	SCONJ	_	_	28	mark	_	start_char=535|end_char=538
+22	фигура	фигура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	start_char=539|end_char=545
+23	Оливера	Оливер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=546|end_char=553
+24	Кромвеля	Кромвель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	flat:name	_	start_char=554|end_char=562
+25	у	у	ADP	_	_	27	case	_	start_char=563|end_char=564
+26	Вестминстерского	вестминстерский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	start_char=565|end_char=581
+27	дворца	дворец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=582|end_char=588
+28	станет	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	19	ccomp	_	start_char=589|end_char=595
+29	мишенью	мишень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	obl	_	start_char=596|end_char=603
+30	.	.	PUNCT	_	_	8	punct	_	start_char=603|end_char=604
+
+# text = Иконоборчество времен английских гражданских войн не было ни заказано, ни осуществлено Кромвелем.
+# sent_id = 4
+1	Иконоборчество	иконоборчество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	start_char=605|end_char=619
+2	времен	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	start_char=620|end_char=626
+3	английских	английский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=627|end_char=637
+4	гражданских	гражданский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	start_char=638|end_char=649
+5	войн	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	start_char=650|end_char=654
+6	не	не	PART	_	_	9	advmod	_	start_char=655|end_char=657
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	start_char=658|end_char=662
+8	ни	ни	PART	_	_	9	advmod	_	start_char=663|end_char=665
+9	заказано	заказать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	start_char=666|end_char=674
+10	,	,	PUNCT	_	_	12	punct	_	start_char=674|end_char=675
+11	ни	ни	CCONJ	_	_	12	cc	_	start_char=676|end_char=678
+12	осуществлено	осуществить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	conj	_	start_char=679|end_char=691
+13	Кромвелем	Кромвель	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	start_char=692|end_char=701
+14	.	.	PUNCT	_	_	9	punct	_	start_char=701|end_char=702
+
+# text = Возможно, не того Кромвеля принесут в жертву за действия его предка Томаса в прошлом веке.
+# sent_id = 5
+1	Возможно	возможно	ADV	_	Degree=Pos	6	parataxis	_	start_char=703|end_char=711
+2	,	,	PUNCT	_	_	1	punct	_	start_char=711|end_char=712
+3	не	не	PART	_	_	4	advmod	_	start_char=713|end_char=715
+4	того	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	start_char=716|end_char=720
+5	Кромвеля	Кромвель	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	start_char=721|end_char=729
+6	принесут	принести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	start_char=730|end_char=738
+7	в	в	ADP	_	_	8	case	_	start_char=739|end_char=740
+8	жертву	жертва	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	start_char=741|end_char=747
+9	за	за	ADP	_	_	10	case	_	start_char=748|end_char=750
+10	действия	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obl	_	start_char=751|end_char=759
+11	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nmod	_	start_char=760|end_char=763
+12	предка	предок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	start_char=764|end_char=770
+13	Томаса	Томас	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	appos	_	start_char=771|end_char=777
+14	в	в	ADP	_	_	16	case	_	start_char=778|end_char=779
+15	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	start_char=780|end_char=787
+16	веке	век	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	start_char=788|end_char=792
+17	.	.	PUNCT	_	_	6	punct	_	start_char=792|end_char=793
+
+# text = Великолепное изображение Кромвеля, созданное сэром Уильямом Хамо Торникрофтом, является свидетельством мнения XIX века и частью историографии фигуры, которая, по мнению многих, до сих пор достойна прославления.
+# sent_id = 6
+1	Великолепное	великолепный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=794|end_char=806
+2	изображение	изображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	start_char=807|end_char=818
+3	Кромвеля	Кромвель	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=819|end_char=827
+4	,	,	PUNCT	_	_	5	punct	_	start_char=827|end_char=828
+5	созданное	создать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	start_char=829|end_char=838
+6	сэром	сэр	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	start_char=839|end_char=844
+7	Уильямом	Уильям	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	appos	_	start_char=845|end_char=853
+8	Хамо	Хамо	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	start_char=854|end_char=858
+9	Торникрофтом	Торникрофт	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	start_char=859|end_char=871
+10	,	,	PUNCT	_	_	5	punct	_	start_char=871|end_char=872
+11	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=873|end_char=881
+12	свидетельством	свидетельство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	obl	_	start_char=882|end_char=896
+13	мнения	мнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	start_char=897|end_char=903
+14	XIX	xix	ADJ	_	Degree=Pos	15	amod	_	start_char=904|end_char=907
+15	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	start_char=908|end_char=912
+16	и	и	CCONJ	_	_	17	cc	_	start_char=913|end_char=914
+17	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	conj	_	start_char=915|end_char=921
+18	историографии	историография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	start_char=922|end_char=935
+19	фигуры	фигура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	start_char=936|end_char=942
+20	,	,	PUNCT	_	_	30	punct	_	start_char=942|end_char=943
+21	которая	который	PRON	_	Case=Nom|PronType=Int,Rel	30	nsubj	_	start_char=944|end_char=951
+22	,	,	PUNCT	_	_	21	punct	_	start_char=951|end_char=952
+23	по	по	ADP	_	_	24	case	_	start_char=953|end_char=955
+24	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	30	parataxis	_	start_char=956|end_char=962
+25	многих	много	NUM	_	NumType=Card	24	nmod	_	start_char=963|end_char=969
+26	,	,	PUNCT	_	_	24	punct	_	start_char=969|end_char=970
+27	до	до	ADP	_	_	30	advmod	_	start_char=971|end_char=973
+28	сих	сей	DET	_	Case=Gen|Number=Plur|PronType=Dem	27	fixed	_	start_char=974|end_char=977
+29	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	fixed	_	start_char=978|end_char=981
+30	достойна	достойный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	19	acl:relcl	_	start_char=982|end_char=990
+31	прославления	прославление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	obl	_	start_char=991|end_char=1003
+32	.	.	PUNCT	_	_	11	punct	_	start_char=1003|end_char=1004
+
+# text = Г-н Голдсмит сказал в интервью газете The Sunday Telegraph: "Кромвель рассматривается многими, возможно, в большей степени в конце XIX века, чем сегодня, как защитник парламента от внешнего давления, в его случае, конечно, монархии.
+# sent_id = 7
+1	Г-н	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=1005|end_char=1008
+2	Голдсмит	Голдсмит	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	start_char=1009|end_char=1017
+3	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1018|end_char=1024
+4	в	в	ADP	_	_	5	case	_	start_char=1025|end_char=1026
+5	интервью	интервью	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	start_char=1027|end_char=1035
+6	газете	газета	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	iobj	_	start_char=1036|end_char=1042
+7	The	The	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=1043|end_char=1046
+8	Sunday	Sunday	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=1047|end_char=1053
+9	Telegraph	Telegraph	PROPN	_	Foreign=Yes	6	flat:foreign	_	start_char=1054|end_char=1063
+10	:	:	PUNCT	_	_	13	punct	_	start_char=1063|end_char=1064
+11	"	"	PUNCT	_	_	13	punct	_	start_char=1065|end_char=1066
+12	Кромвель	Кромвель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj:pass	_	start_char=1066|end_char=1074
+13	рассматривается	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	parataxis	_	start_char=1075|end_char=1090
+14	многими	много	NUM	_	NumType=Card	13	obl	_	start_char=1091|end_char=1098
+15	,	,	PUNCT	_	_	16	punct	_	start_char=1098|end_char=1099
+16	возможно	возможно	ADV	_	Degree=Pos	22	parataxis	_	start_char=1100|end_char=1108
+17	,	,	PUNCT	_	_	16	punct	_	start_char=1108|end_char=1109
+18	в	в	ADP	_	_	20	case	_	start_char=1110|end_char=1111
+19	большей	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1112|end_char=1119
+20	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	start_char=1120|end_char=1127
+21	в	в	ADP	_	_	22	case	_	start_char=1128|end_char=1129
+22	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	start_char=1130|end_char=1135
+23	XIX	xix	ADJ	_	Degree=Pos	24	amod	_	start_char=1136|end_char=1139
+24	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	start_char=1140|end_char=1144
+25	,	,	PUNCT	_	_	27	punct	_	start_char=1144|end_char=1145
+26	чем	чем	SCONJ	_	_	27	mark	_	start_char=1146|end_char=1149
+27	сегодня	сегодня	ADV	_	Degree=Pos	19	obl	_	start_char=1150|end_char=1157
+28	,	,	PUNCT	_	_	30	punct	_	start_char=1157|end_char=1158
+29	как	как	SCONJ	_	_	30	mark	_	start_char=1159|end_char=1162
+30	защитник	защитник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	obl	_	start_char=1163|end_char=1171
+31	парламента	парламент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	start_char=1172|end_char=1182
+32	от	от	ADP	_	_	34	case	_	start_char=1183|end_char=1185
+33	внешнего	внешний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	start_char=1186|end_char=1194
+34	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	start_char=1195|end_char=1203
+35	,	,	PUNCT	_	_	42	punct	_	start_char=1203|end_char=1204
+36	в	в	ADP	_	_	38	case	_	start_char=1205|end_char=1206
+37	его	его	DET	_	Poss=Yes|PronType=Prs	38	det	_	start_char=1207|end_char=1210
+38	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	42	nmod	_	start_char=1211|end_char=1217
+39	,	,	PUNCT	_	_	38	punct	_	start_char=1217|end_char=1218
+40	конечно	конечно	ADV	_	Degree=Pos	42	parataxis	_	start_char=1219|end_char=1226
+41	,	,	PUNCT	_	_	40	punct	_	start_char=1226|end_char=1227
+42	монархии	монархия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	conj	_	start_char=1228|end_char=1236
+43	.	.	PUNCT	_	_	3	punct	_	start_char=1236|end_char=1237
+
+# text = Является ли это полностью точным представлением - предмет продолжающихся исторических дебатов.
+# sent_id = 8
+1	Является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1238|end_char=1246
+2	ли	ли	PART	_	_	1	advmod	_	start_char=1247|end_char=1249
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	start_char=1250|end_char=1253
+4	полностью	полностью	ADV	_	Degree=Pos	5	obl	_	start_char=1254|end_char=1263
+5	точным	точный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	start_char=1264|end_char=1270
+6	представлением	представление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	start_char=1271|end_char=1285
+7	-	-	PUNCT	_	_	8	punct	_	start_char=1286|end_char=1287
+8	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	parataxis	_	start_char=1288|end_char=1295
+9	продолжающихся	продолжаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	11	amod	_	start_char=1296|end_char=1310
+10	исторических	исторический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	start_char=1311|end_char=1323
+11	дебатов	дебаты	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	start_char=1324|end_char=1331
+12	.	.	PUNCT	_	_	1	punct	_	start_char=1331|end_char=1332
+
+# text = Несомненно то, что конфликт середины XVII века определил последующее развитие нашей нации, а Кромвель является индивидуальной узнаваемой фигурой, представляющей одну из сторон этого разделения.
+# sent_id = 9
+1	Несомненно	несомненный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	start_char=1333|end_char=1343
+2	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	start_char=1344|end_char=1346
+3	,	,	PUNCT	_	_	9	punct	_	start_char=1346|end_char=1347
+4	что	что	SCONJ	_	_	9	mark	_	start_char=1348|end_char=1351
+5	конфликт	конфликт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	start_char=1352|end_char=1360
+6	середины	середина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=1361|end_char=1369
+7	XVII	xvii	ADJ	_	Degree=Pos	8	amod	_	start_char=1370|end_char=1374
+8	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	start_char=1375|end_char=1379
+9	определил	определить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	start_char=1380|end_char=1389
+10	последующее	последующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=1390|end_char=1401
+11	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	start_char=1402|end_char=1410
+12	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	start_char=1411|end_char=1416
+13	нации	нация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=1417|end_char=1422
+14	,	,	PUNCT	_	_	17	punct	_	start_char=1422|end_char=1423
+15	а	а	CCONJ	_	_	17	cc	_	start_char=1424|end_char=1425
+16	Кромвель	Кромвель	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	start_char=1426|end_char=1434
+17	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	start_char=1435|end_char=1443
+18	индивидуальной	индивидуальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	start_char=1444|end_char=1458
+19	узнаваемой	узнавать	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	amod	_	start_char=1459|end_char=1469
+20	фигурой	фигура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	start_char=1470|end_char=1477
+21	,	,	PUNCT	_	_	22	punct	_	start_char=1477|end_char=1478
+22	представляющей	представлять	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	acl	_	start_char=1479|end_char=1493
+23	одну	один	NUM	_	Case=Acc|Gender=Fem|NumType=Card	22	obl	_	start_char=1494|end_char=1498
+24	из	из	ADP	_	_	25	case	_	start_char=1499|end_char=1501
+25	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	start_char=1502|end_char=1508
+26	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	27	det	_	start_char=1509|end_char=1514
+27	разделения	разделение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	start_char=1515|end_char=1525
+28	.	.	PUNCT	_	_	1	punct	_	start_char=1525|end_char=1526
+
+# text = Его достижения в качестве лорда-протектора также достойны того, чтобы их отметить и увековечить".
+# sent_id = 10
+1	Его	его	DET	_	Poss=Yes|PronType=Prs	2	det	_	start_char=1527|end_char=1530
+2	достижения	достижение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	start_char=1531|end_char=1541
+3	в	в	ADP	_	_	5	case	_	start_char=1542|end_char=1543
+4	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	fixed	_	start_char=1544|end_char=1552
+5	лорда	лорд	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	start_char=1553|end_char=1558
+6	-	-	PUNCT	_	_	7	punct	_	start_char=1558|end_char=1559
+7	протектора	протектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	appos	_	start_char=1559|end_char=1569
+8	также	также	ADV	_	Degree=Pos	9	obl	_	start_char=1570|end_char=1575
+9	достойны	достойный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	start_char=1576|end_char=1584
+10	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	start_char=1585|end_char=1589
+11	,	,	PUNCT	_	_	14	punct	_	start_char=1589|end_char=1590
+12	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	start_char=1591|end_char=1596
+13	их	они	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	start_char=1597|end_char=1599
+14	отметить	отметить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	start_char=1600|end_char=1608
+15	и	и	CCONJ	_	_	16	cc	_	start_char=1609|end_char=1610
+16	увековечить	увековечить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	conj	_	start_char=1611|end_char=1622
+17	"	"	PUNCT	_	_	16	punct	_	start_char=1622|end_char=1623
+18	.	.	PUNCT	_	_	9	punct	_	start_char=1623|end_char=1624
+

@@ -1,6 +1,10 @@
+# text = Volim igru
+# sent_id = 0
 1	Volim	voljeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=5
 2	igru	igra	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=6|end_char=10
 
+# text = Za početak želim reći da nikada nisam igrao igre Call of Duty.
+# sent_id = 1
 1	Za	za	ADP	Sa	Case=Acc	2	case	_	start_char=11|end_char=13
 2	početak	početak	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	start_char=14|end_char=21
 3	želim	željeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=22|end_char=27
@@ -15,6 +19,8 @@
 12	Duty	Duty	X	Xf	_	10	flat	_	start_char=68|end_char=72
 13	.	.	PUNCT	Z	_	3	punct	_	start_char=72|end_char=73
 
+# text = Ovo je tek druga pucačina iz prvog lica koju imam.
+# sent_id = 2
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	start_char=74|end_char=77
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=78|end_char=80
 3	tek	tek	PART	Qo	_	5	advmod	_	start_char=81|end_char=84
@@ -27,6 +33,8 @@
 10	imam	imati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl	_	start_char=119|end_char=123
 11	.	.	PUNCT	Z	_	5	punct	_	start_char=123|end_char=124
 
+# text = Mislim da je jako zabavno.
+# sent_id = 3
 1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=125|end_char=131
 2	da	da	SCONJ	Cs	_	5	mark	_	start_char=132|end_char=134
 3	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	start_char=135|end_char=137
@@ -34,6 +42,8 @@
 5	zabavno	zabavan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	1	ccomp	_	start_char=143|end_char=150
 6	.	.	PUNCT	Z	_	1	punct	_	start_char=150|end_char=151
 
+# text = Ima dobru grafiku i lijepu priču.
+# sent_id = 4
 1	Ima	imati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=152|end_char=155
 2	dobru	dobar	ADJ	Agpfsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	start_char=156|end_char=161
 3	grafiku	grafika	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	start_char=162|end_char=169
@@ -42,6 +52,8 @@
 6	priču	priča	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	start_char=179|end_char=184
 7	.	.	PUNCT	Z	_	1	punct	_	start_char=184|end_char=185
 
+# text = Za prolaz kroz razine potrebna je određena vještina.
+# sent_id = 5
 1	Za	za	ADP	Sa	Case=Acc	2	case	_	start_char=186|end_char=188
 2	prolaz	prolaz	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	start_char=189|end_char=195
 3	kroz	kroz	ADP	Sa	Case=Acc	4	case	_	start_char=196|end_char=200
@@ -52,6 +64,8 @@
 8	vještina	vještina	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=229|end_char=237
 9	.	.	PUNCT	Z	_	5	punct	_	start_char=237|end_char=238
 
+# text = Mislim da svi igrači mogu uživati u ovoj igri.
+# sent_id = 6
 1	Mislim	misliti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=239|end_char=245
 2	da	da	SCONJ	Cs	_	5	mark	_	start_char=246|end_char=248
 3	svi	sav	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=249|end_char=252
@@ -63,6 +77,8 @@
 9	igri	igra	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	start_char=280|end_char=284
 10	.	.	PUNCT	Z	_	1	punct	_	start_char=284|end_char=285
 
+# text = Postoje tri razine za odabir ovisno o razini vaše vještine.
+# sent_id = 7
 1	Postoje	postojati	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=286|end_char=293
 2	tri	tri	NUM	Mlc	NumType=Card	3	nummod	_	start_char=294|end_char=297
 3	razine	razina	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	start_char=298|end_char=304
@@ -75,6 +91,8 @@
 10	vještine	vještina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	start_char=336|end_char=344
 11	.	.	PUNCT	Z	_	1	punct	_	start_char=344|end_char=345
 
+# text = Ako tražite pucačinu iz prvog lica koja ima trenutni vojni tip igre, ovo je dobra kupnja.
+# sent_id = 8
 1	Ako	ako	SCONJ	Cs	_	2	mark	_	start_char=346|end_char=349
 2	tražite	tražiti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	advcl	_	start_char=350|end_char=357
 3	pucačinu	pucačina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	start_char=358|end_char=366

@@ -1,8 +1,12 @@
+# text = Laku noć slatki leptirići
+# sent_id = 0
 1	Laku	lak	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=4
 2	noć	noć	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=5|end_char=8
 3	slatki	slatki	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=9|end_char=15
 4	leptirići	leptirić	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	2	flat	_	start_char=16|end_char=25
 
+# text = Bio sam jako razočaran stanjem ove knjige.
+# sent_id = 1
 1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	cop	_	start_char=26|end_char=29
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=30|end_char=33
 3	jako	jako	ADV	Rgp	Degree=Pos	4	advmod	_	start_char=34|end_char=38
@@ -12,6 +16,8 @@
 7	knjige	knjiga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=61|end_char=67
 8	.	.	PUNCT	Z	_	4	punct	_	start_char=67|end_char=68
 
+# text = Bio je naveden kao vrlo dobar, ali je bio vrlo korišten.
+# sent_id = 2
 1	Bio	biti	AUX	Vap-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	3	aux	_	start_char=69|end_char=72
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=73|end_char=75
 3	naveden	naveden	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	start_char=76|end_char=83
@@ -26,6 +32,8 @@
 12	korišten	korišten	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	start_char=116|end_char=124
 13	.	.	PUNCT	Z	_	3	punct	_	start_char=124|end_char=125
 
+# text = Nisam ga mogla pokloniti unuku i morala sam ga staviti na hrpu rabljene robe.
+# sent_id = 3
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	start_char=126|end_char=131
 2	ga	on	PRON	Pp3msa	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	start_char=132|end_char=134
 3	mogla	moći	VERB	Vmp-sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=135|end_char=140
@@ -42,6 +50,8 @@
 14	robe	roba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=198|end_char=202
 15	.	.	PUNCT	Z	_	3	punct	_	start_char=202|end_char=203
 
+# text = Naravno, nisam mogao razmišljati o vraćanju jer je cijena knjige bila niža od poštarine
+# sent_id = 4
 1	Naravno	naravno	ADV	Rgp	Degree=Pos	4	discourse	_	start_char=204|end_char=211
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=211|end_char=212
 3	nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=213|end_char=218

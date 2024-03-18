@@ -1,3 +1,5 @@
+# text = Auto punjač s dva USB priključka Proizvod kupljen prije otprilike mjesec dana.
+# sent_id = 0
 1	Auto	Auto	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	start_char=0|end_char=4
 2	punjač	punjač	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	start_char=5|end_char=11
 3	s	sa	ADP	Si	Case=Ins	6	case	_	start_char=12|end_char=13
@@ -12,6 +14,8 @@
 12	dana	dan	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	start_char=73|end_char=77
 13	.	.	PUNCT	Z	_	8	punct	_	start_char=77|end_char=78
 
+# text = Prednosti: Svidjelo mi se kako radi sasvim dobro!!
+# sent_id = 1
 1	Prednosti	prednost	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	parataxis	_	start_char=79|end_char=88
 2	:	:	PUNCT	Z	_	1	punct	_	start_char=88|end_char=89
 3	Svidjelo	svidjeti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=90|end_char=98
@@ -24,6 +28,8 @@
 10	!	!	PUNCT	Z	_	3	punct	_	start_char=127|end_char=128
 11	!	!	PUNCT	Z	_	3	punct	_	start_char=128|end_char=129
 
+# text = Funkcija cool plavog svjetla kada ga uključite u upaljač!!
+# sent_id = 2
 1	Funkcija	funkcija	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=130|end_char=138
 2	cool	cool	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=139|end_char=143
 3	plavog	plav	ADJ	Agpnsgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	start_char=144|end_char=150
@@ -36,6 +42,8 @@
 10	!	!	PUNCT	Z	_	1	punct	_	start_char=186|end_char=187
 11	!	!	PUNCT	Z	_	1	punct	_	start_char=187|end_char=188
 
+# text = Mogu se priključiti dvije stvari odjednom...
+# sent_id = 3
 1	Mogu	moći	VERB	Vmr3p	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=189|end_char=193
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=194|end_char=196
 3	priključiti	priključiti	VERB	Vmn	VerbForm=Inf	1	xcomp	_	start_char=197|end_char=208
@@ -44,6 +52,8 @@
 6	odjednom	odjednom	ADV	Rgp	Degree=Pos	5	advmod	_	start_char=222|end_char=230
 7	...	...	PUNCT	Z	_	1	punct	_	start_char=230|end_char=233
 
+# text = Nedostaci: Gornji prozirni komad se lako skine prekovremeno (samo sam stavio prozirnu traku oko vrha) UKUPNO: ZA: 95%
+# sent_id = 4
 1	Nedostaci	nedostak	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	8	parataxis	_	start_char=234|end_char=243
 2	:	:	PUNCT	Z	_	1	punct	_	start_char=243|end_char=244
 3	Gornji	gornji	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	start_char=245|end_char=251
@@ -68,6 +78,8 @@
 22	:	:	PUNCT	Z	_	23	punct	_	start_char=346|end_char=347
 23	95%	95%	SYM	Mds	NumType=Mult	19	parataxis	_	start_char=348|end_char=351
 
+# text = PROTIV: 5%
+# sent_id = 5
 1	PROTIV	protiv	ADP	Sg	Case=Gen	0	root	_	start_char=352|end_char=358
 2	:	:	PUNCT	Z	_	1	punct	_	start_char=358|end_char=359
 3	5%	5%	SYM	Mds	NumType=Mult	1	flat	_	start_char=360|end_char=362

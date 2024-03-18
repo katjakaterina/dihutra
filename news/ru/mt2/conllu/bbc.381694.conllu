@@ -1,0 +1,100 @@
+# text = The High Breed:
+# sent_id = 0
+1	The	The	PROPN	_	Foreign=Yes	0	root	_	start_char=0|end_char=3
+2	High	High	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=4|end_char=8
+3	Breed	Breed	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=9|end_char=14
+4	:	:	PUNCT	_	_	1	punct	_	start_char=14|end_char=15
+
+# text = Что такое сознательный хип-хоп?
+# sent_id = 1
+1	Что	что	PRON	_	Case=Nom|PronType=Int,Rel	0	root	_	start_char=16|end_char=19
+2	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	det	_	start_char=20|end_char=25
+3	сознательный	сознательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=26|end_char=38
+4	хип-хоп	хип-хоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	start_char=39|end_char=46
+5	?	?	PUNCT	_	_	1	punct	_	start_char=46|end_char=47
+
+# text = Хип-хоп трио хочет бросить вызов негативному мнению об этом жанре, наполнив свою музыку позитивными идеями.
+# sent_id = 2
+1	Хип-хоп	хип-хоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=48|end_char=55
+2	трио	трио	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	start_char=56|end_char=60
+3	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=61|end_char=66
+4	бросить	бросить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	start_char=67|end_char=74
+5	вызов	вызов	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	start_char=75|end_char=80
+6	негативному	негативный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	start_char=81|end_char=92
+7	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	start_char=93|end_char=99
+8	об	о	ADP	_	_	10	case	_	start_char=100|end_char=102
+9	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	start_char=103|end_char=107
+10	жанре	жанр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	start_char=108|end_char=113
+11	,	,	PUNCT	_	_	12	punct	_	start_char=113|end_char=114
+12	наполнив	наполнить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	4	advcl	_	start_char=115|end_char=123
+13	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	start_char=124|end_char=128
+14	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	start_char=129|end_char=135
+15	позитивными	позитивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	start_char=136|end_char=147
+16	идеями	идея	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	obl	_	start_char=148|end_char=154
+17	.	.	PUNCT	_	_	3	punct	_	start_char=154|end_char=155
+
+# text = Группа The High Breed из Бристоля утверждает, что хип-хоп отошел от своих истоков - политических посланий и решения социальных проблем.
+# sent_id = 3
+1	Группа	группа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	start_char=156|end_char=162
+2	The	The	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=163|end_char=166
+3	High	High	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=167|end_char=171
+4	Breed	Breed	PROPN	_	Foreign=Yes	1	flat:foreign	_	start_char=172|end_char=177
+5	из	из	ADP	_	_	6	case	_	start_char=178|end_char=180
+6	Бристоля	Бристоль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	start_char=181|end_char=189
+7	утверждает	утверждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=190|end_char=200
+8	,	,	PUNCT	_	_	11	punct	_	start_char=200|end_char=201
+9	что	что	SCONJ	_	_	11	mark	_	start_char=202|end_char=205
+10	хип-хоп	хип-хоп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=206|end_char=213
+11	отошел	отойти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	start_char=214|end_char=220
+12	от	от	ADP	_	_	14	case	_	start_char=221|end_char=223
+13	своих	свой	DET	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	14	det	_	start_char=224|end_char=229
+14	истоков	исток	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	start_char=230|end_char=237
+15	-	-	PUNCT	_	_	17	punct	_	start_char=238|end_char=239
+16	политических	политический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	start_char=240|end_char=252
+17	посланий	послание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	parataxis	_	start_char=253|end_char=261
+18	и	и	CCONJ	_	_	19	cc	_	start_char=262|end_char=263
+19	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	conj	_	start_char=264|end_char=271
+20	социальных	социальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	start_char=272|end_char=282
+21	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	start_char=283|end_char=290
+22	.	.	PUNCT	_	_	7	punct	_	start_char=290|end_char=291
+
+# text = Они хотят вернуться к истокам и сделать сознательный хип-хоп снова популярным.
+# sent_id = 4
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	start_char=292|end_char=295
+2	хотят	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=296|end_char=301
+3	вернуться	вернуться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	start_char=302|end_char=311
+4	к	к	ADP	_	_	5	case	_	start_char=312|end_char=313
+5	истокам	исток	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	3	obl	_	start_char=314|end_char=321
+6	и	и	CCONJ	_	_	7	cc	_	start_char=322|end_char=323
+7	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	start_char=324|end_char=331
+8	сознательный	сознательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	start_char=332|end_char=344
+9	хип-хоп	хип-хоп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	start_char=345|end_char=352
+10	снова	снова	ADV	_	Degree=Pos	11	obl	_	start_char=353|end_char=358
+11	популярным	популярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	start_char=359|end_char=369
+12	.	.	PUNCT	_	_	2	punct	_	start_char=369|end_char=370
+
+# text = Такие исполнители, как The Fugees и Common, недавно возродились в Великобритании благодаря таким исполнителям, как Akala и Lowkey.
+# sent_id = 5
+1	Такие	такой	DET	_	Case=Nom|Number=Plur|PronType=Dem	2	det	_	start_char=371|end_char=376
+2	исполнители	исполнитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	start_char=377|end_char=388
+3	,	,	PUNCT	_	_	5	punct	_	start_char=388|end_char=389
+4	как	как	SCONJ	_	_	5	case	_	start_char=390|end_char=393
+5	The	The	PROPN	_	Foreign=Yes	2	flat:foreign	_	start_char=394|end_char=397
+6	Fugees	Fugees	PROPN	_	Foreign=Yes	5	flat:foreign	_	start_char=398|end_char=404
+7	и	и	CCONJ	_	_	5	cc	_	start_char=405|end_char=406
+8	Common	Common	PROPN	_	Foreign=Yes	5	conj	_	start_char=407|end_char=413
+9	,	,	PUNCT	_	_	2	punct	_	start_char=413|end_char=414
+10	недавно	недавно	ADV	_	Degree=Pos	11	advmod	_	start_char=415|end_char=422
+11	возродились	возродиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=423|end_char=434
+12	в	в	ADP	_	_	13	case	_	start_char=435|end_char=436
+13	Великобритании	Великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	start_char=437|end_char=451
+14	благодаря	благодаря	ADP	_	_	16	case	_	start_char=452|end_char=461
+15	таким	такой	DET	_	Case=Dat|Number=Plur|PronType=Dem	16	det	_	start_char=462|end_char=467
+16	исполнителям	исполнитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	obl	_	start_char=468|end_char=480
+17	,	,	PUNCT	_	_	19	punct	_	start_char=480|end_char=481
+18	как	как	SCONJ	_	_	19	case	_	start_char=482|end_char=485
+19	Akala	Akala	PROPN	_	Foreign=Yes	15	obl	_	start_char=486|end_char=491
+20	и	и	CCONJ	_	_	19	cc	_	start_char=492|end_char=493
+21	Lowkey	Lowkey	PROPN	_	Foreign=Yes	19	flat:foreign	_	start_char=494|end_char=500
+22	.	.	PUNCT	_	_	11	punct	_	start_char=500|end_char=501
+

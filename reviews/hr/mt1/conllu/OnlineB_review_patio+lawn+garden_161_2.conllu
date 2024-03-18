@@ -1,7 +1,11 @@
+# text = Nije za Hills
+# sent_id = 0
 1	Nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=0|end_char=4
 2	za	za	ADP	Sa	Case=Acc	3	case	_	start_char=5|end_char=7
 3	Hills	Hills	PROPN	Npmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	start_char=8|end_char=13
 
+# text = Nisam siguran kako sam propustio tu važnu stvar, ali jesam.
+# sent_id = 1
 1	Nisam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	start_char=14|end_char=19
 2	siguran	siguran	ADJ	Agpmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	start_char=20|end_char=27
 3	kako	kako	SCONJ	Cs	_	5	mark	_	start_char=28|end_char=32
@@ -15,6 +19,8 @@
 11	jesam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	start_char=67|end_char=72
 12	.	.	PUNCT	Z	_	2	punct	_	start_char=72|end_char=73
 
+# text = Ne vidim da je to jasno spomenuto ni kod Scotta.
+# sent_id = 2
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=74|end_char=76
 2	vidim	vidjeti	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=77|end_char=82
 3	da	da	SCONJ	Cs	_	7	mark	_	start_char=83|end_char=85
@@ -27,6 +33,8 @@
 10	Scotta	Scott	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	start_char=115|end_char=121
 11	.	.	PUNCT	Z	_	2	punct	_	start_char=121|end_char=122
 
+# text = Ovaj model s četiri kotača čini ga gotovo nemogućim za korištenje na brdima.
+# sent_id = 3
 1	Ovaj	ovaj	DET	Pd-msn	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	start_char=123|end_char=127
 2	model	model	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	start_char=128|end_char=133
 3	s	sa	ADP	Si	Case=Ins	5	case	_	start_char=134|end_char=135
@@ -42,6 +50,8 @@
 13	brdima	brdo	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	11	nmod	_	start_char=192|end_char=198
 14	.	.	PUNCT	Z	_	6	punct	_	start_char=198|end_char=199
 
+# text = Jednostavno nema poluge za košenje trave.
+# sent_id = 4
 1	Jednostavno	jednostavno	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=200|end_char=211
 2	nema	nemati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=212|end_char=216
 3	poluge	poluga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	obj	_	start_char=217|end_char=223
@@ -50,6 +60,8 @@
 6	trave	trava	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	start_char=235|end_char=240
 7	.	.	PUNCT	Z	_	2	punct	_	start_char=240|end_char=241
 
+# text = Pa se vraćam na kosilicu.
+# sent_id = 5
 1	Pa	pa	CCONJ	Cc	_	3	cc	_	start_char=242|end_char=244
 2	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	3	expl	_	start_char=245|end_char=247
 3	vraćam	vraćati	VERB	Vmr1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	start_char=248|end_char=254
@@ -57,6 +69,8 @@
 5	kosilicu	kosilica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	start_char=258|end_char=266
 6	.	.	PUNCT	Z	_	3	punct	_	start_char=266|end_char=267
 
+# text = Jedna stvar koju ću reći je da se dobro reže na ravnim površinama, ali zahtijeva malo više truda nego što sam mislio da guram.
+# sent_id = 6
 1	Jedna	jedan	NUM	Mlcfsn	Case=Nom|Gender=Fem|NumType=Card|Number=Sing	2	nummod	_	start_char=268|end_char=273
 2	stvar	stvar	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=274|end_char=279
 3	koju	koji	DET	Pi-fsa	Case=Acc|Gender=Fem|Number=Sing|PronType=Int,Rel	5	obj	_	start_char=280|end_char=284

@@ -1,0 +1,271 @@
+# text = Отчаянные спасательные работы в Палу: число погибших удвоилось в гонке по поиску выживших Для выживших ситуация становилась все более тяжелой.
+# sent_id = 0
+1	Отчаянные	отчаянный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=0|end_char=9
+2	спасательные	спасательный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	start_char=10|end_char=22
+3	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	start_char=23|end_char=29
+4	в	в	ADP	_	_	5	case	_	start_char=30|end_char=31
+5	Палу	Пал	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	start_char=32|end_char=36
+6	:	:	PUNCT	_	_	9	punct	_	start_char=36|end_char=37
+7	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	start_char=38|end_char=43
+8	погибших	погибнуть	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	nmod	_	start_char=44|end_char=52
+9	удвоилось	удвоиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	parataxis	_	start_char=53|end_char=62
+10	в	в	ADP	_	_	11	case	_	start_char=63|end_char=64
+11	гонке	гонка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	start_char=65|end_char=70
+12	по	по	ADP	_	_	13	case	_	start_char=71|end_char=73
+13	поиску	поиск	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	start_char=74|end_char=80
+14	выживших	выжить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	17	acl	_	start_char=81|end_char=89
+15	Для	для	ADP	_	_	16	mark	_	start_char=90|end_char=93
+16	выживших	выжить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	14	obl	_	start_char=94|end_char=102
+17	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	start_char=103|end_char=111
+18	становилась	становиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	9	conj	_	start_char=112|end_char=123
+19	все	все	PART	_	_	20	advmod	_	start_char=124|end_char=127
+20	более	более	ADV	_	Degree=Cmp	21	obl	_	start_char=128|end_char=133
+21	тяжелой	тяжелый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	obl	_	start_char=134|end_char=141
+22	.	.	PUNCT	_	_	3	punct	_	start_char=141|end_char=142
+
+# text = "Чувствуешь себя очень напряженно", - говорит 35-летняя мать Риса Кусума, успокаивая своего лихорадящего малыша в эвакуационном центре в разрушенном городе Палу.
+# sent_id = 1
+1	"	"	PUNCT	_	_	2	punct	_	start_char=143|end_char=144
+2	Чувствуешь	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=144|end_char=154
+3	себя	себя	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	start_char=155|end_char=159
+4	очень	очень	ADV	_	Degree=Pos	5	advmod	_	start_char=160|end_char=165
+5	напряженно	напряженно	ADV	_	Degree=Pos	2	advmod	_	start_char=166|end_char=176
+6	"	"	PUNCT	_	_	2	punct	_	start_char=176|end_char=177
+7	,	,	PUNCT	_	_	9	punct	_	start_char=177|end_char=178
+8	-	-	PUNCT	_	_	9	punct	_	start_char=179|end_char=180
+9	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=181|end_char=188
+10	35-летняя	35-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	start_char=189|end_char=198
+11	мать	мать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	start_char=199|end_char=203
+12	Риса	Рис	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	start_char=204|end_char=208
+13	Кусума	Кусум	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	12	flat:name	_	start_char=209|end_char=215
+14	,	,	PUNCT	_	_	15	punct	_	start_char=215|end_char=216
+15	успокаивая	успокаивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	start_char=217|end_char=227
+16	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det	_	start_char=228|end_char=234
+17	лихорадящего	лихорадящий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	start_char=235|end_char=247
+18	малыша	малыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=248|end_char=254
+19	в	в	ADP	_	_	21	case	_	start_char=255|end_char=256
+20	эвакуационном	эвакуационный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	start_char=257|end_char=270
+21	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	start_char=271|end_char=277
+22	в	в	ADP	_	_	24	case	_	start_char=278|end_char=279
+23	разрушенном	разрушить	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	amod	_	start_char=280|end_char=291
+24	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	start_char=292|end_char=298
+25	Палу	Пал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	start_char=299|end_char=303
+26	.	.	PUNCT	_	_	2	punct	_	start_char=303|end_char=304
+
+# text = "Каждую минуту машины скорой помощи привозят тела.
+# sent_id = 2
+1	"	"	PUNCT	_	_	7	punct	_	start_char=305|end_char=306
+2	Каждую	каждый	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	3	det	_	start_char=306|end_char=312
+3	минуту	минута	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl:tmod	_	start_char=313|end_char=319
+4	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	start_char=320|end_char=326
+5	скорой	скорый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	start_char=327|end_char=333
+6	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=334|end_char=340
+7	привозят	привозить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=341|end_char=349
+8	тела	тело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	start_char=350|end_char=354
+9	.	.	PUNCT	_	_	7	punct	_	start_char=354|end_char=355
+
+# text = Чистой воды не хватает".
+# sent_id = 3
+1	Чистой	чистой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	start_char=356|end_char=362
+2	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	start_char=363|end_char=367
+3	не	не	PART	_	_	4	advmod	_	start_char=368|end_char=370
+4	хватает	хватать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=371|end_char=378
+5	"	"	PUNCT	_	_	4	punct	_	start_char=378|end_char=379
+6	.	.	PUNCT	_	_	4	punct	_	start_char=379|end_char=380
+
+# text = Жители возвращались в свои разрушенные дома, копались в затопленных вещах, пытаясь спасти хоть что-то.
+# sent_id = 4
+1	Жители	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	start_char=381|end_char=387
+2	возвращались	возвращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	start_char=388|end_char=400
+3	в	в	ADP	_	_	6	case	_	start_char=401|end_char=402
+4	свои	свой	DET	_	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	start_char=403|end_char=407
+5	разрушенные	разрушить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	amod	_	start_char=408|end_char=419
+6	дома	дом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	start_char=420|end_char=424
+7	,	,	PUNCT	_	_	8	punct	_	start_char=424|end_char=425
+8	копались	копаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=426|end_char=434
+9	в	в	ADP	_	_	11	case	_	start_char=435|end_char=436
+10	затопленных	затопить	VERB	_	Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	start_char=437|end_char=448
+11	вещах	вещь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	8	obl	_	start_char=449|end_char=454
+12	,	,	PUNCT	_	_	13	punct	_	start_char=454|end_char=455
+13	пытаясь	пытаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	8	advcl	_	start_char=456|end_char=463
+14	спасти	спасти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	start_char=464|end_char=470
+15	хоть	хоть	ADV	_	Degree=Pos	16	obl	_	start_char=471|end_char=475
+16	что-то	что-то	PRON	_	Case=Acc|PronType=Ind	14	obj	_	start_char=476|end_char=482
+17	.	.	PUNCT	_	_	2	punct	_	start_char=482|end_char=483
+
+# text = Сотни людей получили ранения, а больницы, пострадавшие от землетрясения магнитудой 7,5, были переполнены.
+# sent_id = 5
+1	Сотни	сотня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=484|end_char=489
+2	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=490|end_char=495
+3	получили	получить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=496|end_char=504
+4	ранения	ранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	start_char=505|end_char=512
+5	,	,	PUNCT	_	_	16	punct	_	start_char=512|end_char=513
+6	а	а	CCONJ	_	_	16	cc	_	start_char=514|end_char=515
+7	больницы	больница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	start_char=516|end_char=524
+8	,	,	PUNCT	_	_	9	punct	_	start_char=524|end_char=525
+9	пострадавшие	пострадавший	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	start_char=526|end_char=538
+10	от	от	ADP	_	_	11	case	_	start_char=539|end_char=541
+11	землетрясения	землетрясение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	start_char=542|end_char=555
+12	магнитудой	магнитуда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	start_char=556|end_char=566
+13	7,5	7,5	NUM	_	NumType=Card	12	nummod:entity	_	start_char=567|end_char=570
+14	,	,	PUNCT	_	_	9	punct	_	start_char=570|end_char=571
+15	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	start_char=572|end_char=576
+16	переполнены	переполнить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	start_char=577|end_char=588
+17	.	.	PUNCT	_	_	3	punct	_	start_char=588|end_char=589
+
+# text = Некоторые из раненых, в том числе Дви Харис, получивший перелом спины и плеча, отдыхали возле армейского госпиталя Палу, где из-за продолжающихся сильных афтершоков пациентам оказывалась помощь на открытом воздухе.
+# sent_id = 6
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur|PronType=Ind	17	nsubj	_	start_char=590|end_char=599
+2	из	из	ADP	_	_	3	case	_	start_char=600|end_char=602
+3	раненых	раненый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	start_char=603|end_char=610
+4	,	,	PUNCT	_	_	8	punct	_	start_char=610|end_char=611
+5	в	в	ADP	_	_	7	case	_	start_char=612|end_char=613
+6	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	start_char=614|end_char=617
+7	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	start_char=618|end_char=623
+8	Дви	Дви	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	start_char=624|end_char=627
+9	Харис	Харис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	start_char=628|end_char=633
+10	,	,	PUNCT	_	_	11	punct	_	start_char=633|end_char=634
+11	получивший	получить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	start_char=635|end_char=645
+12	перелом	перелом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	start_char=646|end_char=653
+13	спины	спина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	start_char=654|end_char=659
+14	и	и	CCONJ	_	_	15	cc	_	start_char=660|end_char=661
+15	плеча	плечо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	conj	_	start_char=662|end_char=667
+16	,	,	PUNCT	_	_	11	punct	_	start_char=667|end_char=668
+17	отдыхали	отдыхать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=669|end_char=677
+18	возле	возле	ADP	_	_	20	case	_	start_char=678|end_char=683
+19	армейского	армейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=684|end_char=694
+20	госпиталя	госпиталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	start_char=695|end_char=704
+21	Палу	Пал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	appos	_	start_char=705|end_char=709
+22	,	,	PUNCT	_	_	29	punct	_	start_char=709|end_char=710
+23	где	где	ADV	_	Degree=Pos	29	advmod	_	start_char=711|end_char=714
+24	из-за	из-за	ADP	_	_	27	case	_	start_char=715|end_char=720
+25	продолжающихся	продолжаться	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	27	amod	_	start_char=721|end_char=735
+26	сильных	сильный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	start_char=736|end_char=743
+27	афтершоков	афтершок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	obl	_	start_char=744|end_char=754
+28	пациентам	пациент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	29	iobj	_	start_char=755|end_char=764
+29	оказывалась	оказываться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	20	acl:relcl	_	start_char=765|end_char=776
+30	помощь	помощь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj	_	start_char=777|end_char=783
+31	на	на	ADP	_	_	33	case	_	start_char=784|end_char=786
+32	открытом	открытый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	start_char=787|end_char=795
+33	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	30	nmod	_	start_char=796|end_char=803
+34	.	.	PUNCT	_	_	17	punct	_	start_char=803|end_char=804
+
+# text = Слезы заливали его глаза, когда он рассказывал о том, как сильное землетрясение сотрясло гостиничный номер на пятом этаже, который он снимал вместе с женой и дочерью.
+# sent_id = 7
+1	Слезы	слеза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	start_char=805|end_char=810
+2	заливали	заливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=811|end_char=819
+3	его	его	DET	_	Poss=Yes|PronType=Prs	4	det	_	start_char=820|end_char=823
+4	глаза	глаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	start_char=824|end_char=829
+5	,	,	PUNCT	_	_	8	punct	_	start_char=829|end_char=830
+6	когда	когда	SCONJ	_	_	8	mark	_	start_char=831|end_char=836
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	start_char=837|end_char=839
+8	рассказывал	рассказывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	start_char=840|end_char=851
+9	о	о	ADP	_	_	10	case	_	start_char=852|end_char=853
+10	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	start_char=854|end_char=857
+11	,	,	PUNCT	_	_	15	punct	_	start_char=857|end_char=858
+12	как	как	SCONJ	_	_	15	mark	_	start_char=859|end_char=862
+13	сильное	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	start_char=863|end_char=870
+14	землетрясение	землетрясение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	start_char=871|end_char=884
+15	сотрясло	сотрясти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	start_char=885|end_char=893
+16	гостиничный	гостиничный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	start_char=894|end_char=905
+17	номер	номер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	start_char=906|end_char=911
+18	на	на	ADP	_	_	20	case	_	start_char=912|end_char=914
+19	пятом	пятый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	start_char=915|end_char=920
+20	этаже	этаж	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	start_char=921|end_char=926
+21	,	,	PUNCT	_	_	24	punct	_	start_char=926|end_char=927
+22	который	который	PRON	_	Case=Acc|PronType=Int,Rel	24	obj	_	start_char=928|end_char=935
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	start_char=936|end_char=938
+24	снимал	снимать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	acl:relcl	_	start_char=939|end_char=945
+25	вместе	вместе	ADV	_	Degree=Pos	24	advmod	_	start_char=946|end_char=952
+26	с	с	ADP	_	_	27	case	_	start_char=953|end_char=954
+27	женой	жена	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	start_char=955|end_char=960
+28	и	и	CCONJ	_	_	29	cc	_	start_char=961|end_char=962
+29	дочерью	дочь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	27	conj	_	start_char=963|end_char=970
+30	.	.	PUNCT	_	_	2	punct	_	start_char=970|end_char=971
+
+# text = "Времени на спасение не было.
+# sent_id = 8
+1	"	"	PUNCT	_	_	6	punct	_	start_char=972|end_char=973
+2	Времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nsubj	_	start_char=973|end_char=980
+3	на	на	ADP	_	_	4	case	_	start_char=981|end_char=983
+4	спасение	спасение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	nmod	_	start_char=984|end_char=992
+5	не	не	PART	_	_	6	advmod	_	start_char=993|end_char=995
+6	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=996|end_char=1000
+7	.	.	PUNCT	_	_	6	punct	_	start_char=1000|end_char=1001
+
+# text = Меня вдавило в развалины стены, кажется", - сказал Харис агентству Associated Press, добавив, что его семья приехала в город на свадьбу.
+# sent_id = 9
+1	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	start_char=1002|end_char=1006
+2	вдавило	вдавить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1007|end_char=1014
+3	в	в	ADP	_	_	4	case	_	start_char=1015|end_char=1016
+4	развалины	развалина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obl	_	start_char=1017|end_char=1026
+5	стены	стена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	start_char=1027|end_char=1032
+6	,	,	PUNCT	_	_	7	punct	_	start_char=1032|end_char=1033
+7	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	start_char=1034|end_char=1041
+8	"	"	PUNCT	_	_	11	punct	_	start_char=1041|end_char=1042
+9	,	,	PUNCT	_	_	11	punct	_	start_char=1042|end_char=1043
+10	-	-	PUNCT	_	_	11	punct	_	start_char=1044|end_char=1045
+11	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	start_char=1046|end_char=1052
+12	Харис	Харис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	start_char=1053|end_char=1058
+13	агентству	агентство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	iobj	_	start_char=1059|end_char=1068
+14	Associated	Associated	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=1069|end_char=1079
+15	Press	Press	PROPN	_	Foreign=Yes	13	flat:foreign	_	start_char=1080|end_char=1085
+16	,	,	PUNCT	_	_	17	punct	_	start_char=1085|end_char=1086
+17	добавив	добавить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	start_char=1087|end_char=1094
+18	,	,	PUNCT	_	_	22	punct	_	start_char=1094|end_char=1095
+19	что	что	SCONJ	_	_	22	mark	_	start_char=1096|end_char=1099
+20	его	его	DET	_	Poss=Yes|PronType=Prs	21	det	_	start_char=1100|end_char=1103
+21	семья	семья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	start_char=1104|end_char=1109
+22	приехала	приехать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	ccomp	_	start_char=1110|end_char=1118
+23	в	в	ADP	_	_	24	case	_	start_char=1119|end_char=1120
+24	город	город	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obl	_	start_char=1121|end_char=1126
+25	на	на	ADP	_	_	26	case	_	start_char=1127|end_char=1129
+26	свадьбу	свадьба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	start_char=1130|end_char=1137
+27	.	.	PUNCT	_	_	2	punct	_	start_char=1137|end_char=1138
+
+# text = "Я слышал, как моя жена звала на помощь, но потом наступила тишина.
+# sent_id = 10
+1	"	"	PUNCT	_	_	3	punct	_	start_char=1139|end_char=1140
+2	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1140|end_char=1141
+3	слышал	слышать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=1142|end_char=1148
+4	,	,	PUNCT	_	_	8	punct	_	start_char=1148|end_char=1149
+5	как	как	SCONJ	_	_	8	mark	_	start_char=1150|end_char=1153
+6	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	start_char=1154|end_char=1157
+7	жена	жена	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	start_char=1158|end_char=1162
+8	звала	звать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	start_char=1163|end_char=1168
+9	на	на	ADP	_	_	10	case	_	start_char=1169|end_char=1171
+10	помощь	помощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	start_char=1172|end_char=1178
+11	,	,	PUNCT	_	_	14	punct	_	start_char=1178|end_char=1179
+12	но	но	CCONJ	_	_	14	cc	_	start_char=1180|end_char=1182
+13	потом	потом	ADV	_	Degree=Pos	14	advmod	_	start_char=1183|end_char=1188
+14	наступила	наступить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=1189|end_char=1198
+15	тишина	тишина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	start_char=1199|end_char=1205
+16	.	.	PUNCT	_	_	3	punct	_	start_char=1205|end_char=1206
+
+# text = Я не знаю, что случилось с ней и моим ребенком.
+# sent_id = 11
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	start_char=1207|end_char=1208
+2	не	не	PART	_	_	3	advmod	_	start_char=1209|end_char=1211
+3	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=1212|end_char=1216
+4	,	,	PUNCT	_	_	6	punct	_	start_char=1216|end_char=1217
+5	что	что	PRON	_	Case=Nom|PronType=Int,Rel	6	nsubj	_	start_char=1218|end_char=1221
+6	случилось	случиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	ccomp	_	start_char=1222|end_char=1231
+7	с	с	ADP	_	_	8	case	_	start_char=1232|end_char=1233
+8	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	start_char=1234|end_char=1237
+9	и	и	CCONJ	_	_	11	cc	_	start_char=1238|end_char=1239
+10	моим	мой	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	start_char=1240|end_char=1244
+11	ребенком	ребенок	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	start_char=1245|end_char=1253
+12	.	.	PUNCT	_	_	3	punct	_	start_char=1253|end_char=1254
+
+# text = Я надеюсь, что они в безопасности".
+# sent_id = 12
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	start_char=1255|end_char=1256
+2	надеюсь	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	start_char=1257|end_char=1264
+3	,	,	PUNCT	_	_	7	punct	_	start_char=1264|end_char=1265
+4	что	что	SCONJ	_	_	7	mark	_	start_char=1266|end_char=1269
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	start_char=1270|end_char=1273
+6	в	в	ADP	_	_	7	case	_	start_char=1274|end_char=1275
+7	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	ccomp	_	start_char=1276|end_char=1288
+8	"	"	PUNCT	_	_	7	punct	_	start_char=1288|end_char=1289
+9	.	.	PUNCT	_	_	2	punct	_	start_char=1289|end_char=1290
+

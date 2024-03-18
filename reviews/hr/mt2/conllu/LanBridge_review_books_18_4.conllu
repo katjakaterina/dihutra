@@ -1,9 +1,13 @@
+# text = Zastarjelo, ali vrijedno čitanje
+# sent_id = 0
 1	Zastarjelo	zastarjeti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=10
 2	,	,	PUNCT	Z	_	5	punct	_	start_char=10|end_char=11
 3	ali	ali	CCONJ	Cc	_	5	cc	_	start_char=12|end_char=15
 4	vrijedno	vrijedan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=16|end_char=24
 5	čitanje	čitanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	start_char=25|end_char=32
 
+# text = Nevjerojatno je da je ova knjiga stara gotovo 15 godina, a nadalje da je Bill Gates bio toliko u korak s trenutnom tehnologijom koju vidimo danas.
+# sent_id = 1
 1	Nevjerojatno	nevjerojatan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=33|end_char=45
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=46|end_char=48
 3	da	da	SCONJ	Cs	_	7	mark	_	start_char=49|end_char=51
@@ -33,6 +37,8 @@
 27	danas	danas	ADV	Rgp	Degree=Pos	26	advmod	_	start_char=173|end_char=178
 28	.	.	PUNCT	Z	_	1	punct	_	start_char=178|end_char=179
 
+# text = Dobro je pročitati kako vidjeti viziju ovog zaista nevjerojatnog poduzetnika, tako i dobiti ideju o tome kako razmišljati o tehnologiji koja omogućava svakodnevni život.
+# sent_id = 2
 1	Dobro	dobro	ADV	Rgp	Degree=Pos	0	root	_	start_char=180|end_char=185
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	start_char=186|end_char=188
 3	pročitati	pročitati	VERB	Vmn	VerbForm=Inf	1	nsubj	_	start_char=189|end_char=198
@@ -60,6 +66,8 @@
 25	život	život	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	start_char=343|end_char=348
 26	.	.	PUNCT	Z	_	1	punct	_	start_char=348|end_char=349
 
+# text = Slušajte što Bill Gates kaže o budućnosti tehnologije u vašem životu - prošlost bi pokazala da on zna o čemu govori.
+# sent_id = 3
 1	Slušajte	slušati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=350|end_char=358
 2	što	što	PRON	Pi3n-a	Case=Nom|Gender=Neut|PronType=Int,Rel	5	obj	_	start_char=359|end_char=362
 3	Bill	Bill	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	start_char=363|end_char=367

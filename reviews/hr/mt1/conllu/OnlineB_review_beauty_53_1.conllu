@@ -1,3 +1,5 @@
+# text = Još jedan lažni MAC ovdje, ne kupujte!
+# sent_id = 0
 1	Još	još	ADV	Rgp	Degree=Pos	2	advmod	_	start_char=0|end_char=3
 2	jedan	jedan	NUM	Mlcmsn	Case=Nom|Gender=Masc|NumType=Card|Number=Sing	4	nummod	_	start_char=4|end_char=9
 3	lažni	lažan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	start_char=10|end_char=15
@@ -8,6 +10,8 @@
 8	kupujte	kupovati	VERB	Vmm2p	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	start_char=30|end_char=37
 9	!	!	PUNCT	Z	_	8	punct	_	start_char=37|end_char=38
 
+# text = Zašto bi vas bilo briga?
+# sent_id = 1
 1	Zašto	zašto	ADV	Rgp	Degree=Pos|PronType=Int,Rel	4	advmod	_	start_char=39|end_char=44
 2	bi	biti	AUX	Vaa3s	Mood=Cnd|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	start_char=45|end_char=47
 3	vas	vi	PRON	Pp2-pa	Case=Acc|Number=Plur|Person=2|PronType=Prs	4	obj	_	start_char=48|end_char=51
@@ -15,6 +19,8 @@
 5	briga	briga	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	start_char=57|end_char=62
 6	?	?	PUNCT	Z	_	4	punct	_	start_char=62|end_char=63
 
+# text = Prodaja lažnih MAC pigmenata raširena je diljem interneta, pa ljudi često pretpostavljaju da moraju biti sigurni ili čak identični originalnim MAC proizvodima.
+# sent_id = 2
 1	Prodaja	prodaja	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	start_char=64|end_char=71
 2	lažnih	lažan	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=72|end_char=78
 3	MAC	mac	ADJ	Agpmpgy	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	start_char=79|end_char=82
@@ -40,12 +46,16 @@
 23	proizvodima	proizvod	NOUN	Ncmpd	Case=Ins|Gender=Masc|Number=Plur	17	conj	_	start_char=211|end_char=222
 24	.	.	PUNCT	Z	_	5	punct	_	start_char=222|end_char=223
 
+# text = Nažalost, nije tako.
+# sent_id = 3
 1	Nažalost	nažalost	ADV	Rgp	Degree=Pos	4	discourse	_	start_char=224|end_char=232
 2	,	,	PUNCT	Z	_	1	punct	_	start_char=232|end_char=233
 3	nije	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=234|end_char=238
 4	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	0	root	_	start_char=239|end_char=243
 5	.	.	PUNCT	Z	_	4	punct	_	start_char=243|end_char=244
 
+# text = Lažni MAC pigmenti su analizirani da sadrže kemijske iritanse, bakterijsku kontaminaciju (uključujući u najmanje jednom slučaju e. coli) ili čak toksine poput olova i kancerogene tvari.
+# sent_id = 4
 1	Lažni	lažan	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=245|end_char=250
 2	MAC	mac	ADJ	Agpmpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	start_char=251|end_char=254
 3	pigmenti	pigment	NOUN	Ncmpn	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	start_char=255|end_char=263
@@ -77,6 +87,8 @@
 29	tvari	tvar	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	26	conj	_	start_char=424|end_char=429
 30	.	.	PUNCT	Z	_	5	punct	_	start_char=429|end_char=430
 
+# text = Želite li doista riskirati sljepoću ili trajne ožiljke na licu samo da biste dobili dogovor?
+# sent_id = 5
 1	Želite	željeti	VERB	Vmr2p	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	start_char=431|end_char=437
 2	li	li	PART	Qq	_	1	mark	_	start_char=438|end_char=440
 3	doista	doista	ADV	Rgp	Degree=Pos	1	advmod	_	start_char=441|end_char=447

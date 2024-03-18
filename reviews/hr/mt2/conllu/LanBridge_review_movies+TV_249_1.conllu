@@ -1,20 +1,28 @@
+# text = Najgori božićni specijal ikada!
+# sent_id = 0
 1	Najgori	najgor	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	start_char=0|end_char=7
 2	božićni	božićan	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	start_char=8|end_char=15
 3	specijal	specijal	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=16|end_char=24
 4	ikada	ikada	ADV	Rgp	Degree=Pos|PronType=Ind	3	advmod	_	start_char=25|end_char=30
 5	!	!	PUNCT	Z	_	3	punct	_	start_char=30|end_char=31
 
+# text = Ovo je tako jadno!
+# sent_id = 1
 1	Ovo	ovaj	DET	Pd-nsn	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	start_char=32|end_char=35
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	start_char=36|end_char=38
 3	tako	tako	ADV	Rgp	Degree=Pos|PronType=Dem	4	advmod	_	start_char=39|end_char=43
 4	jadno	jadan	ADJ	Agpnsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	start_char=44|end_char=49
 5	!	!	PUNCT	Z	_	4	punct	_	start_char=49|end_char=50
 
+# text = Pjesme su grozne!
+# sent_id = 2
 1	Pjesme	pjesma	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	start_char=51|end_char=57
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=58|end_char=60
 3	grozne	grozan	ADJ	Agpfpny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	start_char=61|end_char=67
 4	!	!	PUNCT	Z	_	3	punct	_	start_char=67|end_char=68
 
+# text = Zlikovac je pljačkaš gospodina Burnsa iz Simpsonovih dok djeca izgledaju kao da su posudjena iz showa Charlieja Browna.
+# sent_id = 3
 1	Zlikovac	zlikovac	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	start_char=69|end_char=77
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=78|end_char=80
 3	pljačkaš	pljačkaš	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	start_char=81|end_char=89
@@ -35,6 +43,8 @@
 18	Browna	Brown	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	17	flat	_	start_char=181|end_char=187
 19	.	.	PUNCT	Z	_	3	punct	_	start_char=187|end_char=188
 
+# text = Ali najveći minus je politički korektno lupetanje!
+# sent_id = 4
 1	Ali	ali	CCONJ	Cc	_	7	cc	_	start_char=189|end_char=192
 2	najveći	velik	ADJ	Agsmsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	start_char=193|end_char=200
 3	minus	minus	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	start_char=201|end_char=206
@@ -44,6 +54,8 @@
 7	lupetanje	lupetanje	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	0	root	_	start_char=229|end_char=238
 8	!	!	PUNCT	Z	_	7	punct	_	start_char=238|end_char=239
 
+# text = Šteta što CBS inzistira na prikazivanju ovoga uporedo s klasikom iz 1969. godine.
+# sent_id = 5
 1	Šteta	šteta	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	start_char=240|end_char=245
 2	što	što	PRON	Pi3n-n	Case=Nom|Gender=Neut|PronType=Int,Rel	4	nsubj	_	start_char=246|end_char=249
 3	CBS	CBS	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	start_char=250|end_char=253

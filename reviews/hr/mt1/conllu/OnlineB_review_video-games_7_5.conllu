@@ -1,3 +1,5 @@
+# text = Najbolja trkaća igra volim ovu igricu.
+# sent_id = 0
 1	Najbolja	dobar	ADJ	Agsfsny	Case=Nom|Definite=Def|Degree=Sup|Gender=Fem|Number=Sing	2	amod	_	start_char=0|end_char=8
 2	trkaća	trkaća	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	start_char=9|end_char=15
 3	igra	igrati	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=16|end_char=20
@@ -6,6 +8,8 @@
 6	igricu	igrica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	start_char=31|end_char=37
 7	.	.	PUNCT	Z	_	3	punct	_	start_char=37|end_char=38
 
+# text = Najbolje sam se zabavio s njom ako ne radi isprobajte je na prijenosnom računalu ako volite trkaću igru možda će vam se svidjeti.
+# sent_id = 1
 1	Najbolje	dobro	ADV	Rgs	Degree=Sup	4	advmod	_	start_char=39|end_char=47
 2	sam	biti	AUX	Var1s	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=48|end_char=51
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=52|end_char=54
@@ -31,6 +35,8 @@
 23	svidjeti	svidjeti	VERB	Vmn	VerbForm=Inf	4	conj	_	start_char=159|end_char=167
 24	.	.	PUNCT	Z	_	4	punct	_	start_char=167|end_char=168
 
+# text = Nekako je stara pa očekujte to, ali osim grafike je grait
+# sent_id = 2
 1	Nekako	nekako	ADV	Rgp	Degree=Pos|PronType=Ind	3	advmod	_	start_char=169|end_char=175
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	start_char=176|end_char=178
 3	stara	star	ADJ	Agpfsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	start_char=179|end_char=184

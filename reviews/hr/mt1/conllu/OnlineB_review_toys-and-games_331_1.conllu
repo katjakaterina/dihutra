@@ -1,6 +1,10 @@
+# text = postao nered
+# sent_id = 0
 1	postao	postati	VERB	Vmp-sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=0|end_char=6
 2	nered	nered	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	_	start_char=7|end_char=12
 
+# text = Započelo je kao izvrsna aktivnost za putovanja za mog 5-godišnjaka, ali nakon što ga je koristio dvogodišnji, postao je kaos.
+# sent_id = 1
 1	Započelo	započeti	VERB	Vmp-sn	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	start_char=13|end_char=21
 2	je	biti	AUX	Var3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	start_char=22|end_char=24
 3	kao	kao	SCONJ	Cs	_	5	case	_	start_char=25|end_char=28
@@ -25,6 +29,8 @@
 22	kaos	kaos	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	20	xcomp	_	start_char=133|end_char=137
 23	.	.	PUNCT	Z	_	1	punct	_	start_char=137|end_char=138
 
+# text = Žice su se zalijepile ili su se na njih zalijepile dlake.
+# sent_id = 2
 1	Žice	žice	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	start_char=139|end_char=143
 2	su	biti	AUX	Var3p	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	start_char=144|end_char=146
 3	se	sebe	PRON	Px--sa	Case=Acc|PronType=Prs|Reflex=Yes	4	expl	_	start_char=147|end_char=149
@@ -38,6 +44,8 @@
 11	dlake	dlak	NOUN	Ncfpn	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	start_char=190|end_char=195
 12	.	.	PUNCT	Z	_	4	punct	_	start_char=195|end_char=196
 
+# text = Ne dolazi s vrećicom za višekratnu upotrebu ili bilo čime tako da su svi trenutno zaglavljeni u velikoj kugli na vrhu knjige - ni moja djeca ni ja se ne želimo baviti njihovim organiziranjem.
+# sent_id = 3
 1	Ne	ne	PART	Qz	Polarity=Neg	2	advmod	_	start_char=197|end_char=199
 2	dolazi	dolaziti	VERB	Vmr3s	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	start_char=200|end_char=206
 3	s	sa	ADP	Si	Case=Ins	4	case	_	start_char=207|end_char=208
